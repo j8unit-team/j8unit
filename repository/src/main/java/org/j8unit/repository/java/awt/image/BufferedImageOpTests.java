@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.geom.Point2D;
-import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedImageOp#getRenderingHints() public abstract
-     * java.awt.RenderingHints java.awt.image.BufferedImageOp.getRenderingHints()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImageOp#getRenderingHints()
+     * public abstract java.awt.RenderingHints java.awt.image.BufferedImageOp.getRenderingHints()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedImageOp#getBounds2D(BufferedImage) public
-     * abstract java.awt.geom.Rectangle2D java.awt.image.BufferedImageOp.getBounds2D(java.awt.image.BufferedImage)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BufferedImageOp#getBounds2D(java.awt.image.BufferedImage) public abstract
+     * java.awt.geom.Rectangle2D java.awt.image.BufferedImageOp.getBounds2D(java.awt.image.BufferedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +81,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BufferedImageOp#createCompatibleDestImage(BufferedImage, ColorModel) public abstract
-     * java.awt.image.BufferedImage
+     * {@link java.awt.image.BufferedImageOp#createCompatibleDestImage(java.awt.image.BufferedImage, java.awt.image.ColorModel)
+     * public abstract java.awt.image.BufferedImage
      * java.awt.image.BufferedImageOp.createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)}
      * .
      *
@@ -107,9 +105,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedImageOp#getPoint2D(Point2D, Point2D) public
-     * abstract java.awt.geom.Point2D
-     * java.awt.image.BufferedImageOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BufferedImageOp#getPoint2D(java.awt.geom.Point2D, java.awt.geom.Point2D) public abstract
+     * java.awt.geom.Point2D java.awt.image.BufferedImageOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +128,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedImageOp#filter(BufferedImage, BufferedImage)
-     * public abstract java.awt.image.BufferedImage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BufferedImageOp#filter(java.awt.image.BufferedImage, java.awt.image.BufferedImage) public
+     * abstract java.awt.image.BufferedImage
      * java.awt.image.BufferedImageOp.filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

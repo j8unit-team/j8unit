@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.nio.channels.ServerSocketChannelClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocketChannel#open() public static
-     * java.nio.channels.ServerSocketChannel java.nio.channels.ServerSocketChannel.open() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.ServerSocketChannel#open() public
+     * static java.nio.channels.ServerSocketChannel java.nio.channels.ServerSocketChannel.open() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +37,7 @@ implements org.j8unit.repository.java.nio.channels.ServerSocketChannelClassTests
     @Category(Draft.class)
     public void test_open()
     throws Exception {
-        // write some test for {@link ServerSocketChannel#open()}
+        // write some test for {@link java.nio.channels.ServerSocketChannel#open()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ServerSocketChannel]

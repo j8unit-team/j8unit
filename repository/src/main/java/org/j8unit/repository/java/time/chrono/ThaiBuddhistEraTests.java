@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThaiBuddhistEra#getValue() public int
-     * java.time.chrono.ThaiBuddhistEra.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ThaiBuddhistEra#getValue() public
+     * int java.time.chrono.ThaiBuddhistEra.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

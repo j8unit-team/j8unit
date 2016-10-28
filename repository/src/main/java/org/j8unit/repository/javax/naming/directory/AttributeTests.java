@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#contains(Object) public abstract boolean
-     * javax.naming.directory.Attribute.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#contains(Object)
+     * public abstract boolean javax.naming.directory.Attribute.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#size() public abstract int
-     * javax.naming.directory.Attribute.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#size() public
+     * abstract int javax.naming.directory.Attribute.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#get() public abstract java.lang.Object
-     * javax.naming.directory.Attribute.get() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#get() public
+     * abstract java.lang.Object javax.naming.directory.Attribute.get() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#get(int) public abstract java.lang.Object
-     * javax.naming.directory.Attribute.get(int) throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#get(int) public
+     * abstract java.lang.Object javax.naming.directory.Attribute.get(int) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#clone() public abstract java.lang.Object
-     * javax.naming.directory.Attribute.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#clone() public
+     * abstract java.lang.Object javax.naming.directory.Attribute.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#getAttributeSyntaxDefinition() public
-     * abstract javax.naming.directory.DirContext javax.naming.directory.Attribute.getAttributeSyntaxDefinition() throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.Attribute#getAttributeSyntaxDefinition() public abstract
+     * javax.naming.directory.DirContext javax.naming.directory.Attribute.getAttributeSyntaxDefinition() throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +168,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#getAttributeDefinition() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.Attribute#getAttributeDefinition() public abstract
      * javax.naming.directory.DirContext javax.naming.directory.Attribute.getAttributeDefinition() throws
      * javax.naming.NamingException}.
      *
@@ -190,8 +192,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#isOrdered() public abstract boolean
-     * javax.naming.directory.Attribute.isOrdered()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#isOrdered() public
+     * abstract boolean javax.naming.directory.Attribute.isOrdered()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +214,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#add(int, Object) public abstract void
-     * javax.naming.directory.Attribute.add(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#add(int, Object)
+     * public abstract void javax.naming.directory.Attribute.add(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +236,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#add(Object) public abstract boolean
-     * javax.naming.directory.Attribute.add(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#add(Object) public
+     * abstract boolean javax.naming.directory.Attribute.add(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +258,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#getAll() public abstract
-     * javax.naming.NamingEnumeration<?> javax.naming.directory.Attribute.getAll() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#getAll() public
+     * abstract javax.naming.NamingEnumeration<?> javax.naming.directory.Attribute.getAll() throws
+     * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +281,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#set(int, Object) public abstract
-     * java.lang.Object javax.naming.directory.Attribute.set(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#set(int, Object)
+     * public abstract java.lang.Object javax.naming.directory.Attribute.set(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,8 +303,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#clear() public abstract void
-     * javax.naming.directory.Attribute.clear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#clear() public
+     * abstract void javax.naming.directory.Attribute.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -322,8 +325,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#getID() public abstract java.lang.String
-     * javax.naming.directory.Attribute.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#getID() public
+     * abstract java.lang.String javax.naming.directory.Attribute.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -344,8 +347,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#remove(int) public abstract
-     * java.lang.Object javax.naming.directory.Attribute.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#remove(int) public
+     * abstract java.lang.Object javax.naming.directory.Attribute.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -366,8 +369,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#remove(Object) public abstract boolean
-     * javax.naming.directory.Attribute.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.Attribute#remove(Object)
+     * public abstract boolean javax.naming.directory.Attribute.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

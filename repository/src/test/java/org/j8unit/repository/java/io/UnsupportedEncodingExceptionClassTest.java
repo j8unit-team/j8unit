@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.io.UnsupportedEncodingExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedEncodingException#UnsupportedEncodingException() public java.io.UnsupportedEncodingException()}
-     * .
+     * {@link java.io.UnsupportedEncodingException#UnsupportedEncodingException() public
+     * java.io.UnsupportedEncodingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.io.UnsupportedEncodingExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedEncodingException#UnsupportedEncodingException(String) public
+     * {@link java.io.UnsupportedEncodingException#UnsupportedEncodingException(String) public
      * java.io.UnsupportedEncodingException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import javax.swing.JComboBox;
 import javax.swing.plaf.ComboBoxUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxUI#setPopupVisible(JComboBox, boolean)
-     * public abstract void javax.swing.plaf.ComboBoxUI.setPopupVisible(javax.swing.JComboBox,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComboBoxUI#setPopupVisible(javax.swing.JComboBox, boolean) public abstract void
+     * javax.swing.plaf.ComboBoxUI.setPopupVisible(javax.swing.JComboBox,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxUI#isFocusTraversable(JComboBox) public
-     * abstract boolean javax.swing.plaf.ComboBoxUI.isFocusTraversable(javax.swing.JComboBox)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComboBoxUI#isFocusTraversable(javax.swing.JComboBox) public abstract boolean
+     * javax.swing.plaf.ComboBoxUI.isFocusTraversable(javax.swing.JComboBox)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxUI#isPopupVisible(JComboBox) public abstract
-     * boolean javax.swing.plaf.ComboBoxUI.isPopupVisible(javax.swing.JComboBox)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComboBoxUI#isPopupVisible(javax.swing.JComboBox) public abstract boolean
+     * javax.swing.plaf.ComboBoxUI.isPopupVisible(javax.swing.JComboBox)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

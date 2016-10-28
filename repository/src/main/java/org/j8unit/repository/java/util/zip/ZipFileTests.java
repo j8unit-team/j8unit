@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipFile#getComment() public java.lang.String
-     * java.util.zip.ZipFile.getComment()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipFile#getComment() public
+     * java.lang.String java.util.zip.ZipFile.getComment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipFile#getEntry(String) public
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipFile#getEntry(String) public
      * java.util.zip.ZipEntry java.util.zip.ZipFile.getEntry(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +78,9 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipFile#getInputStream(ZipEntry) public
-     * java.io.InputStream java.util.zip.ZipFile.getInputStream(java.util.zip.ZipEntry) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.ZipFile#getInputStream(java.util.zip.ZipEntry) public java.io.InputStream
+     * java.util.zip.ZipFile.getInputStream(java.util.zip.ZipEntry) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipFile#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipFile#close() public void
      * java.util.zip.ZipFile.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipFile#entries() public java.util.Enumeration<?
-     * extends java.util.zip.ZipEntry> java.util.zip.ZipFile.entries()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipFile#entries() public
+     * java.util.Enumeration<? extends java.util.zip.ZipEntry> java.util.zip.ZipFile.entries()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipFile#getName() public java.lang.String
-     * java.util.zip.ZipFile.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipFile#getName() public
+     * java.lang.String java.util.zip.ZipFile.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +168,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipFile#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipFile#size() public int
      * java.util.zip.ZipFile.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipFile#stream() public java.util.stream.Stream<?
-     * extends java.util.zip.ZipEntry> java.util.zip.ZipFile.stream()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipFile#stream() public
+     * java.util.stream.Stream<? extends java.util.zip.ZipEntry> java.util.zip.ZipFile.stream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.image.LookupTableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteLookupTable#getTable() public final byte[][]
-     * java.awt.image.ByteLookupTable.getTable()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ByteLookupTable#getTable() public
+     * final byte[][] java.awt.image.ByteLookupTable.getTable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.java.awt.image.LookupTableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteLookupTable#lookupPixel(byte[], byte[]) public
-     * byte[] java.awt.image.ByteLookupTable.lookupPixel(byte[],byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ByteLookupTable#lookupPixel(byte[], byte[]) public byte[]
+     * java.awt.image.ByteLookupTable.lookupPixel(byte[],byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,9 @@ extends org.j8unit.repository.java.awt.image.LookupTableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteLookupTable#lookupPixel(int[], int[]) public
-     * int[] java.awt.image.ByteLookupTable.lookupPixel(int[],int[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ByteLookupTable#lookupPixel(int[], int[]) public int[]
+     * java.awt.image.ByteLookupTable.lookupPixel(int[],int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

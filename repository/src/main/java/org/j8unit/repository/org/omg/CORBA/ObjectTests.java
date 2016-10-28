@@ -6,14 +6,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Context;
-import org.omg.CORBA.ContextList;
-import org.omg.CORBA.ExceptionList;
-import org.omg.CORBA.NVList;
-import org.omg.CORBA.NamedValue;
 import org.omg.CORBA.Object;
-import org.omg.CORBA.Policy;
-import org.omg.CORBA.SetOverrideType;
 
 /**
  * <p>
@@ -42,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_is_a(String) public abstract boolean
-     * org.omg.CORBA.Object._is_a(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_is_a(String) public abstract
+     * boolean org.omg.CORBA.Object._is_a(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_hash(int) public abstract int
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_hash(int) public abstract int
      * org.omg.CORBA.Object._hash(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,7 +80,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Object#_create_request(Context, String, NVList, NamedValue) public abstract org.omg.CORBA.Request
+     * {@link org.omg.CORBA.Object#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
+     * public abstract org.omg.CORBA.Request
      * org.omg.CORBA.Object._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)}
      * .
      *
@@ -111,8 +105,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Object#_create_request(Context, String, NVList, NamedValue, ExceptionList, ContextList) public abstract
-     * org.omg.CORBA.Request
+     * {@link org.omg.CORBA.Object#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList)
+     * public abstract org.omg.CORBA.Request
      * org.omg.CORBA.Object._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)}
      * .
      *
@@ -135,8 +129,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_is_equivalent(Object) public abstract
-     * boolean org.omg.CORBA.Object._is_equivalent(org.omg.CORBA.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.Object#_is_equivalent(org.omg.CORBA.Object) public abstract boolean
+     * org.omg.CORBA.Object._is_equivalent(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,7 +153,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Object#_set_policy_override(Policy[], SetOverrideType) public abstract org.omg.CORBA.Object
+     * {@link org.omg.CORBA.Object#_set_policy_override(org.omg.CORBA.Policy[], org.omg.CORBA.SetOverrideType) public
+     * abstract org.omg.CORBA.Object
      * org.omg.CORBA.Object._set_policy_override(org.omg.CORBA.Policy[],org.omg.CORBA.SetOverrideType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -180,7 +176,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_duplicate() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_duplicate() public abstract
      * org.omg.CORBA.Object org.omg.CORBA.Object._duplicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -202,8 +198,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_get_interface_def() public abstract
-     * org.omg.CORBA.Object org.omg.CORBA.Object._get_interface_def()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_get_interface_def() public
+     * abstract org.omg.CORBA.Object org.omg.CORBA.Object._get_interface_def()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,8 +220,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_request(String) public abstract
-     * org.omg.CORBA.Request org.omg.CORBA.Object._request(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_request(String) public
+     * abstract org.omg.CORBA.Request org.omg.CORBA.Object._request(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -246,8 +242,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_non_existent() public abstract boolean
-     * org.omg.CORBA.Object._non_existent()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_non_existent() public abstract
+     * boolean org.omg.CORBA.Object._non_existent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -268,8 +264,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_get_domain_managers() public abstract
-     * org.omg.CORBA.DomainManager[] org.omg.CORBA.Object._get_domain_managers()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_get_domain_managers() public
+     * abstract org.omg.CORBA.DomainManager[] org.omg.CORBA.Object._get_domain_managers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -290,7 +286,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_release() public abstract void
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_release() public abstract void
      * org.omg.CORBA.Object._release()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,8 +308,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#_get_policy(int) public abstract
-     * org.omg.CORBA.Policy org.omg.CORBA.Object._get_policy(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_get_policy(int) public
+     * abstract org.omg.CORBA.Policy org.omg.CORBA.Object._get_policy(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

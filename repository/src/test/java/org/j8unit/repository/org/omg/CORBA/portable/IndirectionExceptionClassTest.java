@@ -21,8 +21,9 @@ implements org.j8unit.repository.org.omg.CORBA.portable.IndirectionExceptionClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IndirectionException#IndirectionException(int)
-     * public org.omg.CORBA.portable.IndirectionException(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.portable.IndirectionException#IndirectionException(int) public
+     * org.omg.CORBA.portable.IndirectionException(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Dimension;
-import java.awt.LayoutManager;
 import javax.swing.Box;
 import javax.swing.Box.Filler;
 import org.j8unit.repository.categories.Draft;
@@ -37,7 +35,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.Box.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +58,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#setLayout(LayoutManager) public void
-     * javax.swing.Box.setLayout(java.awt.LayoutManager)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#setLayout(java.awt.LayoutManager)
+     * public void javax.swing.Box.setLayout(java.awt.LayoutManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +109,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Filler#changeShape(Dimension, Dimension, Dimension) public void
-         * javax.swing.Box$Filler.changeShape(java.awt.Dimension,java.awt.Dimension,java.awt.Dimension)}.
+         * {@link javax.swing.Box.Filler#changeShape(java.awt.Dimension, java.awt.Dimension, java.awt.Dimension) public
+         * void javax.swing.Box$Filler.changeShape(java.awt.Dimension,java.awt.Dimension,java.awt.Dimension)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -133,8 +131,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Filler#getAccessibleContext() public
-         * javax.accessibility.AccessibleContext javax.swing.Box$Filler.getAccessibleContext()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.Box.Filler#getAccessibleContext()
+         * public javax.accessibility.AccessibleContext javax.swing.Box$Filler.getAccessibleContext()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

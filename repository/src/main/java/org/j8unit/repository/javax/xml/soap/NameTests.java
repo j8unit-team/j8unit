@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#getPrefix() public abstract java.lang.String
-     * javax.xml.soap.Name.getPrefix()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Name#getPrefix() public abstract
+     * java.lang.String javax.xml.soap.Name.getPrefix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#getQualifiedName() public abstract
-     * java.lang.String javax.xml.soap.Name.getQualifiedName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Name#getQualifiedName() public
+     * abstract java.lang.String javax.xml.soap.Name.getQualifiedName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#getLocalName() public abstract java.lang.String
-     * javax.xml.soap.Name.getLocalName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Name#getLocalName() public abstract
+     * java.lang.String javax.xml.soap.Name.getLocalName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#getURI() public abstract java.lang.String
-     * javax.xml.soap.Name.getURI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Name#getURI() public abstract
+     * java.lang.String javax.xml.soap.Name.getURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

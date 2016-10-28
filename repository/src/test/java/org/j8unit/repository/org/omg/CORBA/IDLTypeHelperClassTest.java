@@ -7,12 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.IDLType;
 import org.omg.CORBA.IDLTypeHelper;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class IDLTypeHelperClassTest
@@ -27,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeHelperClassTests<IDLTypeHe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IDLTypeHelper#IDLTypeHelper() public
-     * org.omg.CORBA.IDLTypeHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.IDLTypeHelper#IDLTypeHelper()
+     * public org.omg.CORBA.IDLTypeHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,8 +42,9 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeHelperClassTests<IDLTypeHe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IDLTypeHelper#read(InputStream) public static
-     * org.omg.CORBA.IDLType org.omg.CORBA.IDLTypeHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.IDLTypeHelper#read(org.omg.CORBA.portable.InputStream) public static org.omg.CORBA.IDLType
+     * org.omg.CORBA.IDLTypeHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +58,14 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeHelperClassTests<IDLTypeHe
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link IDLTypeHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.IDLTypeHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IDLTypeHelper#extract(Any) public static
-     * org.omg.CORBA.IDLType org.omg.CORBA.IDLTypeHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.IDLTypeHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.IDLType
+     * org.omg.CORBA.IDLTypeHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,13 +79,14 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeHelperClassTests<IDLTypeHe
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link IDLTypeHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.IDLTypeHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IDLTypeHelper#insert(Any, IDLType) public static
-     * void org.omg.CORBA.IDLTypeHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.IDLType)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.IDLTypeHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.IDLType) public static void
+     * org.omg.CORBA.IDLTypeHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.IDLType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,13 +100,14 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeHelperClassTests<IDLTypeHe
     @Category(Draft.class)
     public void test_insert_Any_IDLType()
     throws Exception {
-        // write some test for {@link IDLTypeHelper#insert(Any, IDLType)}
+        // write some test for {@link org.omg.CORBA.IDLTypeHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.IDLType)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IDLTypeHelper#narrow(Object) public static
-     * org.omg.CORBA.IDLType org.omg.CORBA.IDLTypeHelper.narrow(org.omg.CORBA.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.IDLTypeHelper#narrow(org.omg.CORBA.Object) public static org.omg.CORBA.IDLType
+     * org.omg.CORBA.IDLTypeHelper.narrow(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,13 +121,13 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeHelperClassTests<IDLTypeHe
     @Category(Draft.class)
     public void test_narrow_Object()
     throws Exception {
-        // write some test for {@link IDLTypeHelper#narrow(Object)}
+        // write some test for {@link org.omg.CORBA.IDLTypeHelper#narrow(org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IDLTypeHelper#id() public static java.lang.String
-     * org.omg.CORBA.IDLTypeHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.IDLTypeHelper#id() public static
+     * java.lang.String org.omg.CORBA.IDLTypeHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -142,13 +141,13 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeHelperClassTests<IDLTypeHe
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link IDLTypeHelper#id()}
+        // write some test for {@link org.omg.CORBA.IDLTypeHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IDLTypeHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.IDLTypeHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.IDLTypeHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.IDLTypeHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,12 +161,13 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeHelperClassTests<IDLTypeHe
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link IDLTypeHelper#type()}
+        // write some test for {@link org.omg.CORBA.IDLTypeHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IDLTypeHelper#write(OutputStream, IDLType) public
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.IDLTypeHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.IDLType) public
      * static void org.omg.CORBA.IDLTypeHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.IDLType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,7 +182,8 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeHelperClassTests<IDLTypeHe
     @Category(Draft.class)
     public void test_write_OutputStream_IDLType()
     throws Exception {
-        // write some test for {@link IDLTypeHelper#write(OutputStream, IDLType)}
+        // write some test for {@link org.omg.CORBA.IDLTypeHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CORBA.IDLType)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.IDLTypeHelper]

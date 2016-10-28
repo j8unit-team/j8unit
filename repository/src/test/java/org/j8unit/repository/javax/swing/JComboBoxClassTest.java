@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.util.Vector;
-import javax.swing.ComboBoxModel;
 import javax.swing.JComboBox;
 import javax.swing.JComboBox.KeySelectionManager;
 import org.j8unit.repository.categories.Draft;
@@ -25,7 +23,7 @@ implements org.j8unit.repository.javax.swing.JComboBoxClassTests<JComboBox> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JComboBox#JComboBox() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JComboBox#JComboBox() public
      * javax.swing.JComboBox()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,8 +44,8 @@ implements org.j8unit.repository.javax.swing.JComboBoxClassTests<JComboBox> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JComboBox#JComboBox(Vector) public
-     * javax.swing.JComboBox(java.util.Vector<E>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JComboBox#JComboBox(java.util.Vector) public javax.swing.JComboBox(java.util.Vector<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,13 +61,13 @@ implements org.j8unit.repository.javax.swing.JComboBoxClassTests<JComboBox> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JComboBox sut = null; // = new JComboBox(Vector);
+        final JComboBox sut = null; // = new JComboBox(java.util.Vector);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JComboBox#JComboBox(Object[]) public
-     * javax.swing.JComboBox(E[])}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JComboBox#JComboBox(Object[])
+     * public javax.swing.JComboBox(E[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,7 +88,8 @@ implements org.j8unit.repository.javax.swing.JComboBoxClassTests<JComboBox> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JComboBox#JComboBox(ComboBoxModel) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JComboBox#JComboBox(javax.swing.ComboBoxModel) public
      * javax.swing.JComboBox(javax.swing.ComboBoxModel<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,7 +106,7 @@ implements org.j8unit.repository.javax.swing.JComboBoxClassTests<JComboBox> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JComboBox sut = null; // = new JComboBox(ComboBoxModel);
+        final JComboBox sut = null; // = new JComboBox(javax.swing.ComboBoxModel);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComboBox]

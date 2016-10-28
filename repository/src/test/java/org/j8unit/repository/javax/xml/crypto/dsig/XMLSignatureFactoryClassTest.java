@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig;
 
-import java.security.Provider;
 import javax.xml.crypto.dsig.XMLSignatureFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureFactoryClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignatureFactory#getInstance() public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance() public static
      * javax.xml.crypto.dsig.XMLSignatureFactory javax.xml.crypto.dsig.XMLSignatureFactory.getInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,13 +37,14 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureFactoryClassT
     @Category(Draft.class)
     public void test_getInstance()
     throws Exception {
-        // write some test for {@link XMLSignatureFactory#getInstance()}
+        // write some test for {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignatureFactory#getInstance(String, String)
-     * public static javax.xml.crypto.dsig.XMLSignatureFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(String, String) public static
+     * javax.xml.crypto.dsig.XMLSignatureFactory
      * javax.xml.crypto.dsig.XMLSignatureFactory.getInstance(java.lang.String,java.lang.String) throws
      * java.security.NoSuchProviderException}.
      *
@@ -59,13 +60,14 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureFactoryClassT
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link XMLSignatureFactory#getInstance(String, String)}
+        // write some test for {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignatureFactory#getInstance(String, Provider)
-     * public static javax.xml.crypto.dsig.XMLSignatureFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(String, java.security.Provider) public static
+     * javax.xml.crypto.dsig.XMLSignatureFactory
      * javax.xml.crypto.dsig.XMLSignatureFactory.getInstance(java.lang.String,java.security.Provider)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,13 +82,15 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureFactoryClassT
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link XMLSignatureFactory#getInstance(String, Provider)}
+        // write some test for {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(String,
+        // java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignatureFactory#getInstance(String) public
-     * static javax.xml.crypto.dsig.XMLSignatureFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(String) public static
+     * javax.xml.crypto.dsig.XMLSignatureFactory
      * javax.xml.crypto.dsig.XMLSignatureFactory.getInstance(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +105,7 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureFactoryClassT
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link XMLSignatureFactory#getInstance(String)}
+        // write some test for {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.XMLSignatureFactory]

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.RejectedExecutionHandler;
-import java.util.concurrent.ThreadPoolExecutor;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RejectedExecutionHandler#rejectedExecution(Runnable, ThreadPoolExecutor) public abstract void
+     * {@link java.util.concurrent.RejectedExecutionHandler#rejectedExecution(Runnable, java.util.concurrent.ThreadPoolExecutor)
+     * public abstract void
      * java.util.concurrent.RejectedExecutionHandler.rejectedExecution(java.lang.Runnable,java.util.concurrent.ThreadPoolExecutor)}
      * .
      *

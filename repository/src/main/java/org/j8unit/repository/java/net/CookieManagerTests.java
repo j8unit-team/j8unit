@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.CookieManager;
-import java.net.CookiePolicy;
-import java.net.URI;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,10 +34,10 @@ extends org.j8unit.repository.java.net.CookieHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CookieManager#get(URI, Map) public
-     * java.util.Map<java.lang.String, java.util.List<java.lang.String>>
-     * java.net.CookieManager.get(java.net.URI,java.util.Map<java.lang.String, java.util.List<java.lang.String>>) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.CookieManager#get(java.net.URI, java.util.Map) public java.util.Map<java.lang.String,
+     * java.util.List<java.lang.String>> java.net.CookieManager.get(java.net.URI,java.util.Map<java.lang.String,
+     * java.util.List<java.lang.String>>) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +59,9 @@ extends org.j8unit.repository.java.net.CookieHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CookieManager#setCookiePolicy(CookiePolicy) public
-     * void java.net.CookieManager.setCookiePolicy(java.net.CookiePolicy)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.CookieManager#setCookiePolicy(java.net.CookiePolicy) public void
+     * java.net.CookieManager.setCookiePolicy(java.net.CookiePolicy)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +82,7 @@ extends org.j8unit.repository.java.net.CookieHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CookieManager#getCookieStore() public
+     * Test method for the hereby targeted method-under-test {@link java.net.CookieManager#getCookieStore() public
      * java.net.CookieStore java.net.CookieManager.getCookieStore()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +104,8 @@ extends org.j8unit.repository.java.net.CookieHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CookieManager#put(URI, Map) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.CookieManager#put(java.net.URI, java.util.Map) public void
      * java.net.CookieManager.put(java.net.URI,java.util.Map<java.lang.String, java.util.List<java.lang.String>>) throws
      * java.io.IOException}.
      *

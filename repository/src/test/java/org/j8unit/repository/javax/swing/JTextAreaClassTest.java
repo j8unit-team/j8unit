@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.JTextArea;
-import javax.swing.text.Document;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.swing.JTextAreaClassTests<JTextArea> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextArea#JTextArea(Document, String, int, int)
-     * public javax.swing.JTextArea(javax.swing.text.Document,java.lang.String,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTextArea#JTextArea(javax.swing.text.Document, String, int, int) public
+     * javax.swing.JTextArea(javax.swing.text.Document,java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,12 +39,13 @@ implements org.j8unit.repository.javax.swing.JTextAreaClassTests<JTextArea> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTextArea sut = null; // = new JTextArea(Document, String, int, int);
+        final JTextArea sut = null; // = new JTextArea(javax.swing.text.Document, String, int, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextArea#JTextArea(Document) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTextArea#JTextArea(javax.swing.text.Document) public
      * javax.swing.JTextArea(javax.swing.text.Document)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +62,13 @@ implements org.j8unit.repository.javax.swing.JTextAreaClassTests<JTextArea> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTextArea sut = null; // = new JTextArea(Document);
+        final JTextArea sut = null; // = new JTextArea(javax.swing.text.Document);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextArea#JTextArea(String, int, int) public
-     * javax.swing.JTextArea(java.lang.String,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTextArea#JTextArea(String, int, int) public javax.swing.JTextArea(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,7 +89,7 @@ implements org.j8unit.repository.javax.swing.JTextAreaClassTests<JTextArea> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextArea#JTextArea() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextArea#JTextArea() public
      * javax.swing.JTextArea()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +110,7 @@ implements org.j8unit.repository.javax.swing.JTextAreaClassTests<JTextArea> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextArea#JTextArea(String) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextArea#JTextArea(String) public
      * javax.swing.JTextArea(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +132,8 @@ implements org.j8unit.repository.javax.swing.JTextAreaClassTests<JTextArea> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextArea#JTextArea(int, int) public
-     * javax.swing.JTextArea(int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextArea#JTextArea(int, int)
+     * public javax.swing.JTextArea(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

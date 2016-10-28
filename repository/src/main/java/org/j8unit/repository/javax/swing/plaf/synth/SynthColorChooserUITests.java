@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Graphics;
-import java.beans.PropertyChangeEvent;
-import javax.swing.JComponent;
 import javax.swing.plaf.synth.SynthColorChooserUI;
-import javax.swing.plaf.synth.SynthContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +36,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthColorChooserUI#propertyChange(PropertyChangeEvent) public void
+     * {@link javax.swing.plaf.synth.SynthColorChooserUI#propertyChange(java.beans.PropertyChangeEvent) public void
      * javax.swing.plaf.synth.SynthColorChooserUI.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,8 +59,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthColorChooserUI#paint(Graphics, JComponent)
-     * public void javax.swing.plaf.synth.SynthColorChooserUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthColorChooserUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthColorChooserUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,8 +83,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthColorChooserUI#update(Graphics, JComponent)
-     * public void javax.swing.plaf.synth.SynthColorChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthColorChooserUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthColorChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,7 +107,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthColorChooserUI#getContext(JComponent) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthColorChooserUI#getContext(javax.swing.JComponent) public
      * javax.swing.plaf.synth.SynthContext
      * javax.swing.plaf.synth.SynthColorChooserUI.getContext(javax.swing.JComponent)}.
      *
@@ -134,7 +133,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthColorChooserUI#paintBorder(SynthContext, Graphics, int, int, int, int) public void
+     * {@link javax.swing.plaf.synth.SynthColorChooserUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public void
      * javax.swing.plaf.synth.SynthColorChooserUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *

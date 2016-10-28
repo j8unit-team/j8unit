@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.PropertyChangeListener;
-import java.beans.VetoableChangeListener;
-import java.beans.beancontext.BeanContext;
 import java.beans.beancontext.BeanContextChildSupport;
-import java.beans.beancontext.BeanContextServiceAvailableEvent;
-import java.beans.beancontext.BeanContextServiceRevokedEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -42,7 +37,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChildSupport#removePropertyChangeListener(String, PropertyChangeListener) public void
+     * {@link java.beans.beancontext.BeanContextChildSupport#removePropertyChangeListener(String, java.beans.PropertyChangeListener)
+     * public void
      * java.beans.beancontext.BeanContextChildSupport.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}
      * .
      *
@@ -67,7 +63,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChildSupport#addPropertyChangeListener(String, PropertyChangeListener) public void
+     * {@link java.beans.beancontext.BeanContextChildSupport#addPropertyChangeListener(String, java.beans.PropertyChangeListener)
+     * public void
      * java.beans.beancontext.BeanContextChildSupport.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}
      * .
      *
@@ -91,8 +88,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextChildSupport#setBeanContext(BeanContext)
-     * public synchronized void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextChildSupport#setBeanContext(java.beans.beancontext.BeanContext) public
+     * synchronized void
      * java.beans.beancontext.BeanContextChildSupport.setBeanContext(java.beans.beancontext.BeanContext) throws
      * java.beans.PropertyVetoException}.
      *
@@ -117,7 +115,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChildSupport#validatePendingSetBeanContext(BeanContext) public boolean
+     * {@link java.beans.beancontext.BeanContextChildSupport#validatePendingSetBeanContext(java.beans.beancontext.BeanContext)
+     * public boolean
      * java.beans.beancontext.BeanContextChildSupport.validatePendingSetBeanContext(java.beans.beancontext.BeanContext)}
      * .
      *
@@ -141,7 +140,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChildSupport#fireVetoableChange(String, Object, Object) public void
+     * {@link java.beans.beancontext.BeanContextChildSupport#fireVetoableChange(String, Object, Object) public void
      * java.beans.beancontext.BeanContextChildSupport.fireVetoableChange(java.lang.String,java.lang.Object,java.lang.Object)
      * throws java.beans.PropertyVetoException}.
      *
@@ -165,7 +164,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChildSupport#serviceAvailable(BeanContextServiceAvailableEvent) public void
+     * {@link java.beans.beancontext.BeanContextChildSupport#serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)
+     * public void
      * java.beans.beancontext.BeanContextChildSupport.serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)}
      * .
      *
@@ -190,7 +190,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChildSupport#serviceRevoked(BeanContextServiceRevokedEvent) public void
+     * {@link java.beans.beancontext.BeanContextChildSupport#serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)
+     * public void
      * java.beans.beancontext.BeanContextChildSupport.serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)}
      * .
      *
@@ -214,9 +215,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextChildSupport#getBeanContextChildPeer()
-     * public java.beans.beancontext.BeanContextChild
-     * java.beans.beancontext.BeanContextChildSupport.getBeanContextChildPeer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextChildSupport#getBeanContextChildPeer() public
+     * java.beans.beancontext.BeanContextChild java.beans.beancontext.BeanContextChildSupport.getBeanContextChildPeer()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,7 +240,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChildSupport#removeVetoableChangeListener(String, VetoableChangeListener) public void
+     * {@link java.beans.beancontext.BeanContextChildSupport#removeVetoableChangeListener(String, java.beans.VetoableChangeListener)
+     * public void
      * java.beans.beancontext.BeanContextChildSupport.removeVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}
      * .
      *
@@ -262,7 +265,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextChildSupport#isDelegated() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextChildSupport#isDelegated() public boolean
      * java.beans.beancontext.BeanContextChildSupport.isDelegated()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -284,8 +288,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextChildSupport#getBeanContext() public
-     * synchronized java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextChildSupport.getBeanContext()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextChildSupport#getBeanContext() public synchronized
+     * java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextChildSupport.getBeanContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -308,7 +313,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChildSupport#addVetoableChangeListener(String, VetoableChangeListener) public void
+     * {@link java.beans.beancontext.BeanContextChildSupport#firePropertyChange(String, Object, Object) public void
+     * java.beans.beancontext.BeanContextChildSupport.firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextChildSupport#addVetoableChangeListener(String, java.beans.VetoableChangeListener)
+     * public void
      * java.beans.beancontext.BeanContextChildSupport.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}
      * .
      *
@@ -324,30 +354,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addVetoableChangeListener_String_VetoableChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChildSupport#firePropertyChange(String, Object, Object) public void
-     * java.beans.beancontext.BeanContextChildSupport.firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -1,13 +1,11 @@
 package org.j8unit.repository.javax.rmi.CORBA;
 
-import java.rmi.Remote;
 import javax.rmi.CORBA.Tie;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.ORB;
 
 /**
  * <p>
@@ -36,7 +34,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Tie#thisObject() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Tie#thisObject() public abstract
      * org.omg.CORBA.Object javax.rmi.CORBA.Tie.thisObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +56,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Tie#orb() public abstract org.omg.CORBA.ORB
-     * javax.rmi.CORBA.Tie.orb()}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Tie#orb() public abstract
+     * org.omg.CORBA.ORB javax.rmi.CORBA.Tie.orb()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +78,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Tie#orb(ORB) public abstract void
-     * javax.rmi.CORBA.Tie.orb(org.omg.CORBA.ORB)}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Tie#orb(org.omg.CORBA.ORB) public
+     * abstract void javax.rmi.CORBA.Tie.orb(org.omg.CORBA.ORB)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +100,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Tie#deactivate() public abstract void
-     * javax.rmi.CORBA.Tie.deactivate() throws java.rmi.NoSuchObjectException}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Tie#deactivate() public abstract
+     * void javax.rmi.CORBA.Tie.deactivate() throws java.rmi.NoSuchObjectException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +122,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Tie#setTarget(Remote) public abstract void
-     * javax.rmi.CORBA.Tie.setTarget(java.rmi.Remote)}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Tie#setTarget(java.rmi.Remote)
+     * public abstract void javax.rmi.CORBA.Tie.setTarget(java.rmi.Remote)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +144,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Tie#getTarget() public abstract java.rmi.Remote
-     * javax.rmi.CORBA.Tie.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Tie#getTarget() public abstract
+     * java.rmi.Remote javax.rmi.CORBA.Tie.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

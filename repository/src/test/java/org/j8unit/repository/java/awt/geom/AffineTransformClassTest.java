@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AffineTransform#AffineTransform(float, float, float, float, float, float) public
+     * {@link java.awt.geom.AffineTransform#AffineTransform(float, float, float, float, float, float) public
      * java.awt.geom.AffineTransform(float,float,float,float,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,8 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AffineTransform#AffineTransform(float[]) public
-     * java.awt.geom.AffineTransform(float[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.geom.AffineTransform#AffineTransform(float[]) public java.awt.geom.AffineTransform(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,7 +67,7 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AffineTransform#AffineTransform(double, double, double, double, double, double) public
+     * {@link java.awt.geom.AffineTransform#AffineTransform(double, double, double, double, double, double) public
      * java.awt.geom.AffineTransform(double,double,double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,8 +89,8 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AffineTransform#AffineTransform(double[])
-     * public java.awt.geom.AffineTransform(double[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.geom.AffineTransform#AffineTransform(double[]) public java.awt.geom.AffineTransform(double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +111,8 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AffineTransform#AffineTransform() public
-     * java.awt.geom.AffineTransform()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.AffineTransform#AffineTransform()
+     * public java.awt.geom.AffineTransform()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,7 +133,7 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AffineTransform#AffineTransform(AffineTransform) public
+     * {@link java.awt.geom.AffineTransform#AffineTransform(java.awt.geom.AffineTransform) public
      * java.awt.geom.AffineTransform(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,13 +150,13 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AffineTransform sut = null; // = new AffineTransform(AffineTransform);
+        final AffineTransform sut = null; // = new AffineTransform(java.awt.geom.AffineTransform);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AffineTransform#getRotateInstance(double, double, double, double) public static
+     * {@link java.awt.geom.AffineTransform#getRotateInstance(double, double, double, double) public static
      * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,13 +171,14 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     @Category(Draft.class)
     public void test_getRotateInstance_double_double_double_double()
     throws Exception {
-        // write some test for {@link AffineTransform#getRotateInstance(double, double, double, double)}
+        // write some test for {@link java.awt.geom.AffineTransform#getRotateInstance(double, double, double, double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AffineTransform#getRotateInstance(double, double)
-     * public static java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.AffineTransform#getRotateInstance(double, double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,14 +192,14 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     @Category(Draft.class)
     public void test_getRotateInstance_double_double()
     throws Exception {
-        // write some test for {@link AffineTransform#getRotateInstance(double, double)}
+        // write some test for {@link java.awt.geom.AffineTransform#getRotateInstance(double, double)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AffineTransform#getRotateInstance(double, double, double) public static java.awt.geom.AffineTransform
-     * java.awt.geom.AffineTransform.getRotateInstance(double,double,double)}.
+     * {@link java.awt.geom.AffineTransform#getRotateInstance(double, double, double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,13 +213,14 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     @Category(Draft.class)
     public void test_getRotateInstance_double_double_double()
     throws Exception {
-        // write some test for {@link AffineTransform#getRotateInstance(double, double, double)}
+        // write some test for {@link java.awt.geom.AffineTransform#getRotateInstance(double, double, double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AffineTransform#getRotateInstance(double) public
-     * static java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.AffineTransform#getRotateInstance(double) public static java.awt.geom.AffineTransform
+     * java.awt.geom.AffineTransform.getRotateInstance(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,13 +234,14 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     @Category(Draft.class)
     public void test_getRotateInstance_double()
     throws Exception {
-        // write some test for {@link AffineTransform#getRotateInstance(double)}
+        // write some test for {@link java.awt.geom.AffineTransform#getRotateInstance(double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AffineTransform#getShearInstance(double, double)
-     * public static java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getShearInstance(double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.AffineTransform#getShearInstance(double, double) public static java.awt.geom.AffineTransform
+     * java.awt.geom.AffineTransform.getShearInstance(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -252,13 +255,14 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     @Category(Draft.class)
     public void test_getShearInstance_double_double()
     throws Exception {
-        // write some test for {@link AffineTransform#getShearInstance(double, double)}
+        // write some test for {@link java.awt.geom.AffineTransform#getShearInstance(double, double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AffineTransform#getScaleInstance(double, double)
-     * public static java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getScaleInstance(double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.AffineTransform#getScaleInstance(double, double) public static java.awt.geom.AffineTransform
+     * java.awt.geom.AffineTransform.getScaleInstance(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -272,13 +276,14 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     @Category(Draft.class)
     public void test_getScaleInstance_double_double()
     throws Exception {
-        // write some test for {@link AffineTransform#getScaleInstance(double, double)}
+        // write some test for {@link java.awt.geom.AffineTransform#getScaleInstance(double, double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AffineTransform#getQuadrantRotateInstance(int)
-     * public static java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getQuadrantRotateInstance(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.AffineTransform#getQuadrantRotateInstance(int) public static java.awt.geom.AffineTransform
+     * java.awt.geom.AffineTransform.getQuadrantRotateInstance(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -292,14 +297,14 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     @Category(Draft.class)
     public void test_getQuadrantRotateInstance_int()
     throws Exception {
-        // write some test for {@link AffineTransform#getQuadrantRotateInstance(int)}
+        // write some test for {@link java.awt.geom.AffineTransform#getQuadrantRotateInstance(int)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AffineTransform#getQuadrantRotateInstance(int, double, double) public static java.awt.geom.AffineTransform
-     * java.awt.geom.AffineTransform.getQuadrantRotateInstance(int,double,double)}.
+     * {@link java.awt.geom.AffineTransform#getQuadrantRotateInstance(int, double, double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getQuadrantRotateInstance(int,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -313,13 +318,14 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     @Category(Draft.class)
     public void test_getQuadrantRotateInstance_int_double_double()
     throws Exception {
-        // write some test for {@link AffineTransform#getQuadrantRotateInstance(int, double, double)}
+        // write some test for {@link java.awt.geom.AffineTransform#getQuadrantRotateInstance(int, double, double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AffineTransform#getTranslateInstance(double, double)
-     * public static java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getTranslateInstance(double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.AffineTransform#getTranslateInstance(double, double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getTranslateInstance(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,7 +339,7 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     @Category(Draft.class)
     public void test_getTranslateInstance_double_double()
     throws Exception {
-        // write some test for {@link AffineTransform#getTranslateInstance(double, double)}
+        // write some test for {@link java.awt.geom.AffineTransform#getTranslateInstance(double, double)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.AffineTransform]

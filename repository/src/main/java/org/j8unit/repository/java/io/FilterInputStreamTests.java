@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterInputStream#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterInputStream#read() public int
      * java.io.FilterInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterInputStream#read(byte[]) public int
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterInputStream#read(byte[]) public int
      * java.io.FilterInputStream.read(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterInputStream#read(byte[], int, int) public int
-     * java.io.FilterInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterInputStream#read(byte[], int, int)
+     * public int java.io.FilterInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterInputStream#markSupported() public boolean
-     * java.io.FilterInputStream.markSupported()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterInputStream#markSupported() public
+     * boolean java.io.FilterInputStream.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterInputStream#skip(long) public long
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterInputStream#skip(long) public long
      * java.io.FilterInputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +149,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterInputStream#available() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterInputStream#available() public int
      * java.io.FilterInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,8 +172,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterInputStream#reset() public synchronized void
-     * java.io.FilterInputStream.reset() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterInputStream#reset() public
+     * synchronized void java.io.FilterInputStream.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +195,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterInputStream#mark(int) public synchronized void
-     * java.io.FilterInputStream.mark(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterInputStream#mark(int) public
+     * synchronized void java.io.FilterInputStream.mark(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,7 +218,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterInputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterInputStream#close() public void
      * java.io.FilterInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

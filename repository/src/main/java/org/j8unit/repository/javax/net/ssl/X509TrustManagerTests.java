@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.security.cert.X509Certificate;
 import javax.net.ssl.X509TrustManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.javax.net.ssl.TrustManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509TrustManager#checkServerTrusted(X509Certificate[], String) public abstract void
+     * {@link javax.net.ssl.X509TrustManager#checkServerTrusted(java.security.cert.X509Certificate[], String) public
+     * abstract void
      * javax.net.ssl.X509TrustManager.checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) throws
      * java.security.cert.CertificateException}.
      *
@@ -60,7 +60,8 @@ extends org.j8unit.repository.javax.net.ssl.TrustManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509TrustManager#checkClientTrusted(X509Certificate[], String) public abstract void
+     * {@link javax.net.ssl.X509TrustManager#checkClientTrusted(java.security.cert.X509Certificate[], String) public
+     * abstract void
      * javax.net.ssl.X509TrustManager.checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) throws
      * java.security.cert.CertificateException}.
      *
@@ -83,8 +84,8 @@ extends org.j8unit.repository.javax.net.ssl.TrustManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509TrustManager#getAcceptedIssuers() public
-     * abstract java.security.cert.X509Certificate[] javax.net.ssl.X509TrustManager.getAcceptedIssuers()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.X509TrustManager#getAcceptedIssuers()
+     * public abstract java.security.cert.X509Certificate[] javax.net.ssl.X509TrustManager.getAcceptedIssuers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

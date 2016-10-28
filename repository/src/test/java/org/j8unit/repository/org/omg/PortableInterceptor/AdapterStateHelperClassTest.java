@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.PortableInterceptor.AdapterStateHelper;
 
 @RunWith(J8Unit4.class)
@@ -25,7 +22,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AdapterStateHelper#AdapterStateHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.AdapterStateHelper#AdapterStateHelper() public
      * org.omg.PortableInterceptor.AdapterStateHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperC
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterStateHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.AdapterStateHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.AdapterStateHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.PortableInterceptor.AdapterStateHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,12 +59,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperC
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link AdapterStateHelper#type()}
+        // write some test for {@link org.omg.PortableInterceptor.AdapterStateHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterStateHelper#write(OutputStream, short) public
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.AdapterStateHelper#write(org.omg.CORBA.portable.OutputStream, short) public
      * static void org.omg.PortableInterceptor.AdapterStateHelper.write(org.omg.CORBA.portable.OutputStream,short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,13 +80,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperC
     @Category(Draft.class)
     public void test_write_OutputStream_short()
     throws Exception {
-        // write some test for {@link AdapterStateHelper#write(OutputStream, short)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.AdapterStateHelper#write(org.omg.CORBA.portable.OutputStream, short)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterStateHelper#insert(Any, short) public static
-     * void org.omg.PortableInterceptor.AdapterStateHelper.insert(org.omg.CORBA.Any,short)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.AdapterStateHelper#insert(org.omg.CORBA.Any, short) public static void
+     * org.omg.PortableInterceptor.AdapterStateHelper.insert(org.omg.CORBA.Any,short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +102,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperC
     @Category(Draft.class)
     public void test_insert_Any_short()
     throws Exception {
-        // write some test for {@link AdapterStateHelper#insert(Any, short)}
+        // write some test for {@link org.omg.PortableInterceptor.AdapterStateHelper#insert(org.omg.CORBA.Any, short)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterStateHelper#id() public static
-     * java.lang.String org.omg.PortableInterceptor.AdapterStateHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableInterceptor.AdapterStateHelper#id()
+     * public static java.lang.String org.omg.PortableInterceptor.AdapterStateHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,12 +122,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperC
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link AdapterStateHelper#id()}
+        // write some test for {@link org.omg.PortableInterceptor.AdapterStateHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterStateHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.AdapterStateHelper#read(org.omg.CORBA.portable.InputStream) public static
      * short org.omg.PortableInterceptor.AdapterStateHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -140,12 +143,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperC
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link AdapterStateHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.AdapterStateHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterStateHelper#extract(Any) public static short
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.AdapterStateHelper#extract(org.omg.CORBA.Any) public static short
      * org.omg.PortableInterceptor.AdapterStateHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +165,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperC
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link AdapterStateHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableInterceptor.AdapterStateHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.AdapterStateHelper]

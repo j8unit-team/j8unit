@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.font;
 
-import java.awt.Shape;
 import java.awt.font.ShapeGraphicAttribute;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.font.ShapeGraphicAttributeClassTests<S
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ShapeGraphicAttribute#ShapeGraphicAttribute(Shape, int, boolean) public
+     * {@link java.awt.font.ShapeGraphicAttribute#ShapeGraphicAttribute(java.awt.Shape, int, boolean) public
      * java.awt.font.ShapeGraphicAttribute(java.awt.Shape,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.awt.font.ShapeGraphicAttributeClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ShapeGraphicAttribute sut = null; // = new ShapeGraphicAttribute(Shape, int, boolean);
+        final ShapeGraphicAttribute sut = null; // = new ShapeGraphicAttribute(java.awt.Shape, int, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.ShapeGraphicAttribute]

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.naming.ldap;
 
-import java.util.Hashtable;
-import javax.naming.ldap.Control;
 import javax.naming.ldap.LdapReferralException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,9 +34,9 @@ extends org.j8unit.repository.javax.naming.ReferralExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapReferralException#getReferralContext() public
-     * abstract javax.naming.Context javax.naming.ldap.LdapReferralException.getReferralContext() throws
-     * javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapReferralException#getReferralContext() public abstract javax.naming.Context
+     * javax.naming.ldap.LdapReferralException.getReferralContext() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +59,8 @@ extends org.j8unit.repository.javax.naming.ReferralExceptionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LdapReferralException#getReferralContext(Hashtable, Control[]) public abstract javax.naming.Context
+     * {@link javax.naming.ldap.LdapReferralException#getReferralContext(java.util.Hashtable, javax.naming.ldap.Control[])
+     * public abstract javax.naming.Context
      * javax.naming.ldap.LdapReferralException.getReferralContext(java.util.Hashtable<?, ?>,javax.naming.ldap.Control[])
      * throws javax.naming.NamingException}.
      *
@@ -84,9 +83,9 @@ extends org.j8unit.repository.javax.naming.ReferralExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapReferralException#getReferralContext(Hashtable)
-     * public abstract javax.naming.Context
-     * javax.naming.ldap.LdapReferralException.getReferralContext(java.util.Hashtable<?, ?>) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapReferralException#getReferralContext(java.util.Hashtable) public abstract
+     * javax.naming.Context javax.naming.ldap.LdapReferralException.getReferralContext(java.util.Hashtable<?, ?>) throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

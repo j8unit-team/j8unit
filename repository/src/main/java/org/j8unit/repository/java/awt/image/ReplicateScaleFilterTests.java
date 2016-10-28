@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.image.ColorModel;
 import java.awt.image.ReplicateScaleFilter;
-import java.util.Hashtable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReplicateScaleFilter#setDimensions(int, int) public
-     * void java.awt.image.ReplicateScaleFilter.setDimensions(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ReplicateScaleFilter#setDimensions(int, int) public void
+     * java.awt.image.ReplicateScaleFilter.setDimensions(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +59,8 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ReplicateScaleFilter#setPixels(int, int, int, int, ColorModel, byte[], int, int) public void
+     * {@link java.awt.image.ReplicateScaleFilter#setPixels(int, int, int, int, java.awt.image.ColorModel, byte[], int, int)
+     * public void
      * java.awt.image.ReplicateScaleFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +84,8 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ReplicateScaleFilter#setPixels(int, int, int, int, ColorModel, int[], int, int) public void
+     * {@link java.awt.image.ReplicateScaleFilter#setPixels(int, int, int, int, java.awt.image.ColorModel, int[], int, int)
+     * public void
      * java.awt.image.ReplicateScaleFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +108,9 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReplicateScaleFilter#setProperties(Hashtable) public
-     * void java.awt.image.ReplicateScaleFilter.setProperties(java.util.Hashtable<?, ?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ReplicateScaleFilter#setProperties(java.util.Hashtable) public void
+     * java.awt.image.ReplicateScaleFilter.setProperties(java.util.Hashtable<?, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
 import javax.swing.ViewportLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ViewportLayout#removeLayoutComponent(Component)
-     * public void javax.swing.ViewportLayout.removeLayoutComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ViewportLayout#removeLayoutComponent(java.awt.Component) public void
+     * javax.swing.ViewportLayout.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ViewportLayout#preferredLayoutSize(Container) public
-     * java.awt.Dimension javax.swing.ViewportLayout.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ViewportLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.ViewportLayout.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +83,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ViewportLayout#minimumLayoutSize(Container) public
-     * java.awt.Dimension javax.swing.ViewportLayout.minimumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ViewportLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.ViewportLayout.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +107,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ViewportLayout#layoutContainer(Container) public
-     * void javax.swing.ViewportLayout.layoutContainer(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ViewportLayout#layoutContainer(java.awt.Container) public void
+     * javax.swing.ViewportLayout.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +131,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ViewportLayout#addLayoutComponent(String, Component)
-     * public void javax.swing.ViewportLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ViewportLayout#addLayoutComponent(String, java.awt.Component) public void
+     * javax.swing.ViewportLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

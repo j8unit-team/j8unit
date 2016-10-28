@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Graphics;
-import javax.swing.plaf.synth.SynthContext;
 import javax.swing.plaf.synth.SynthFormattedTextFieldUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthTextFieldUITests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthFormattedTextFieldUI#paintBorder(SynthContext, Graphics, int, int, int, int) public void
+     * {@link javax.swing.plaf.synth.SynthFormattedTextFieldUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public void
      * javax.swing.plaf.synth.SynthFormattedTextFieldUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *

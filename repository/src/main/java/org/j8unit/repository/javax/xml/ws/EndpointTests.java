@@ -1,17 +1,11 @@
 package org.j8unit.repository.javax.xml.ws;
 
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.Executor;
 import javax.xml.ws.Endpoint;
-import javax.xml.ws.EndpointContext;
-import javax.xml.ws.spi.http.HttpContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Element;
 
 /**
  * <p>
@@ -40,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#setEndpointContext(EndpointContext) public
-     * void javax.xml.ws.Endpoint.setEndpointContext(javax.xml.ws.EndpointContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Endpoint#setEndpointContext(javax.xml.ws.EndpointContext) public void
+     * javax.xml.ws.Endpoint.setEndpointContext(javax.xml.ws.EndpointContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#setMetadata(List) public abstract void
-     * javax.xml.ws.Endpoint.setMetadata(java.util.List<javax.xml.transform.Source>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#setMetadata(java.util.List)
+     * public abstract void javax.xml.ws.Endpoint.setMetadata(java.util.List<javax.xml.transform.Source>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#publish(String) public abstract void
-     * javax.xml.ws.Endpoint.publish(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#publish(String) public
+     * abstract void javax.xml.ws.Endpoint.publish(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#publish(Object) public abstract void
-     * javax.xml.ws.Endpoint.publish(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#publish(Object) public
+     * abstract void javax.xml.ws.Endpoint.publish(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#publish(HttpContext) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Endpoint#publish(javax.xml.ws.spi.http.HttpContext) public void
      * javax.xml.ws.Endpoint.publish(javax.xml.ws.spi.http.HttpContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,7 +146,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#getBinding() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#getBinding() public abstract
      * javax.xml.ws.Binding javax.xml.ws.Endpoint.getBinding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +168,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#stop() public abstract void
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#stop() public abstract void
      * javax.xml.ws.Endpoint.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,30 +190,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#getEndpointReference(Class, Element...)
-     * public abstract <T> T javax.xml.ws.Endpoint.getEndpointReference(java.lang.Class<T>,org.w3c.dom.Element...)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEndpointReference_Class_ElementArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#getEndpointReference(Element...) public
-     * abstract javax.xml.ws.EndpointReference javax.xml.ws.Endpoint.getEndpointReference(org.w3c.dom.Element...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Endpoint#getEndpointReference(org.w3c.dom.Element...) public abstract
+     * javax.xml.ws.EndpointReference javax.xml.ws.Endpoint.getEndpointReference(org.w3c.dom.Element...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,7 +213,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#getExecutor() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Endpoint#getEndpointReference(Class, org.w3c.dom.Element...) public abstract <T> T
+     * javax.xml.ws.Endpoint.getEndpointReference(java.lang.Class<T>,org.w3c.dom.Element...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEndpointReference_Class_ElementArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#getExecutor() public abstract
      * java.util.concurrent.Executor javax.xml.ws.Endpoint.getExecutor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,7 +258,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#setExecutor(Executor) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Endpoint#setExecutor(java.util.concurrent.Executor) public abstract void
      * javax.xml.ws.Endpoint.setExecutor(java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,7 +281,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#getMetadata() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#getMetadata() public abstract
      * java.util.List<javax.xml.transform.Source> javax.xml.ws.Endpoint.getMetadata()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,8 +303,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#getImplementor() public abstract
-     * java.lang.Object javax.xml.ws.Endpoint.getImplementor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#getImplementor() public
+     * abstract java.lang.Object javax.xml.ws.Endpoint.getImplementor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,8 +325,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#setProperties(Map) public abstract void
-     * javax.xml.ws.Endpoint.setProperties(java.util.Map<java.lang.String, java.lang.Object>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#setProperties(java.util.Map)
+     * public abstract void javax.xml.ws.Endpoint.setProperties(java.util.Map<java.lang.String, java.lang.Object>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -348,8 +347,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#getProperties() public abstract
-     * java.util.Map<java.lang.String, java.lang.Object> javax.xml.ws.Endpoint.getProperties()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#getProperties() public
+     * abstract java.util.Map<java.lang.String, java.lang.Object> javax.xml.ws.Endpoint.getProperties()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -370,8 +369,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Endpoint#isPublished() public abstract boolean
-     * javax.xml.ws.Endpoint.isPublished()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Endpoint#isPublished() public abstract
+     * boolean javax.xml.ws.Endpoint.isPublished()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

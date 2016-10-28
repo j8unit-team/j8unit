@@ -1,12 +1,8 @@
 package org.j8unit.repository.javax.swing.tree;
 
-import javax.swing.JTree;
-import javax.swing.border.Border;
 import javax.swing.tree.DefaultTreeCellEditor;
 import javax.swing.tree.DefaultTreeCellEditor.DefaultTextField;
 import javax.swing.tree.DefaultTreeCellEditor.EditorContainer;
-import javax.swing.tree.DefaultTreeCellRenderer;
-import javax.swing.tree.TreeCellEditor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -28,8 +24,8 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultTreeCellEditor#DefaultTreeCellEditor(JTree, DefaultTreeCellRenderer) public
-     * javax.swing.tree.DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer)}.
+     * {@link javax.swing.tree.DefaultTreeCellEditor#DefaultTreeCellEditor(javax.swing.JTree, javax.swing.tree.DefaultTreeCellRenderer)
+     * public javax.swing.tree.DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,13 +41,15 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultTreeCellEditor sut = null; // = new DefaultTreeCellEditor(JTree, DefaultTreeCellRenderer);
+        final DefaultTreeCellEditor sut = null; // = new DefaultTreeCellEditor(javax.swing.JTree,
+                                                // javax.swing.tree.DefaultTreeCellRenderer);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultTreeCellEditor#DefaultTreeCellEditor(JTree, DefaultTreeCellRenderer, TreeCellEditor) public
+     * {@link javax.swing.tree.DefaultTreeCellEditor#DefaultTreeCellEditor(javax.swing.JTree, javax.swing.tree.DefaultTreeCellRenderer, javax.swing.tree.TreeCellEditor)
+     * public
      * javax.swing.tree.DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer,javax.swing.tree.TreeCellEditor)}
      * .
      *
@@ -69,8 +67,9 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultTreeCellEditor sut = null; // = new DefaultTreeCellEditor(JTree, DefaultTreeCellRenderer,
-                                                // TreeCellEditor);
+        final DefaultTreeCellEditor sut = null; // = new DefaultTreeCellEditor(javax.swing.JTree,
+                                                // javax.swing.tree.DefaultTreeCellRenderer,
+                                                // javax.swing.tree.TreeCellEditor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor]
@@ -89,8 +88,8 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link EditorContainer#EditorContainer(DefaultTreeCellEditor) public
-         * javax.swing.tree.DefaultTreeCellEditor$EditorContainer(javax.swing.tree.DefaultTreeCellEditor)}.
+         * {@link javax.swing.tree.DefaultTreeCellEditor.EditorContainer#EditorContainer(javax.swing.tree.DefaultTreeCellEditor)
+         * public javax.swing.tree.DefaultTreeCellEditor$EditorContainer(javax.swing.tree.DefaultTreeCellEditor)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -106,7 +105,7 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final EditorContainer sut = null; // = new EditorContainer(DefaultTreeCellEditor);
+            final EditorContainer sut = null; // = new EditorContainer(javax.swing.tree.DefaultTreeCellEditor);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
@@ -127,7 +126,8 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link DefaultTextField#DefaultTextField(DefaultTreeCellEditor, Border) public
+         * {@link javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#DefaultTextField(javax.swing.tree.DefaultTreeCellEditor, javax.swing.border.Border)
+         * public
          * javax.swing.tree.DefaultTreeCellEditor$DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,javax.swing.border.Border)}
          * .
          *
@@ -145,7 +145,8 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final DefaultTextField sut = null; // = new DefaultTextField(DefaultTreeCellEditor, Border);
+            final DefaultTextField sut = null; // = new DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,
+                                               // javax.swing.border.Border);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]

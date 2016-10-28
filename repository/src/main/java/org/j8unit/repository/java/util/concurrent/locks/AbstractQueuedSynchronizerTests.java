@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.concurrent.locks;
 
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#getQueuedThreads() public
-     * final java.util.Collection
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#getQueuedThreads() public final java.util.Collection
      * <java.lang.Thread> java.util.concurrent.locks.AbstractQueuedSynchronizer.getQueuedThreads()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +58,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#getFirstQueuedThread()
-     * public final java.lang.Thread java.util.concurrent.locks.AbstractQueuedSynchronizer.getFirstQueuedThread()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#getFirstQueuedThread() public final java.lang.Thread
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.getFirstQueuedThread()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +82,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractQueuedSynchronizer#getExclusiveQueuedThreads() public final java.util.Collection
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#getExclusiveQueuedThreads() public final
+     * java.util.Collection
      * <java.lang.Thread> java.util.concurrent.locks.AbstractQueuedSynchronizer.getExclusiveQueuedThreads()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +106,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractQueuedSynchronizer#tryAcquireSharedNanos(int, long) public final boolean
-     * java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(int,long) throws
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#tryAcquireSharedNanos(int, long) public final
+     * boolean java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(int,long) throws
      * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,8 +129,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#release(int) public final
-     * boolean java.util.concurrent.locks.AbstractQueuedSynchronizer.release(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#release(int) public final boolean
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.release(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +152,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#acquireShared(int) public
-     * final void java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireShared(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#acquireShared(int) public final void
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireShared(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,7 +176,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractQueuedSynchronizer#getWaitQueueLength(ConditionObject) public final int
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#getWaitQueueLength(java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject)
+     * public final int
      * java.util.concurrent.locks.AbstractQueuedSynchronizer.getWaitQueueLength(java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)}
      * .
      *
@@ -198,7 +201,7 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractQueuedSynchronizer#tryAcquireNanos(int, long) public final boolean
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#tryAcquireNanos(int, long) public final boolean
      * java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireNanos(int,long) throws
      * java.lang.InterruptedException}.
      *
@@ -221,8 +224,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#getQueueLength() public
-     * final int java.util.concurrent.locks.AbstractQueuedSynchronizer.getQueueLength()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#getQueueLength() public final int
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.getQueueLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,8 +247,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#acquire(int) public final
-     * void java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#acquire(int) public final void
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,8 +270,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#acquireInterruptibly(int)
-     * public final void java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#acquireInterruptibly(int) public final void
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(int) throws
      * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -288,8 +294,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#hasContended() public
-     * final boolean java.util.concurrent.locks.AbstractQueuedSynchronizer.hasContended()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#hasContended() public final boolean
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.hasContended()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,8 +317,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#releaseShared(int) public
-     * final boolean java.util.concurrent.locks.AbstractQueuedSynchronizer.releaseShared(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#releaseShared(int) public final boolean
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.releaseShared(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -332,8 +340,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#hasQueuedPredecessors()
-     * public final boolean java.util.concurrent.locks.AbstractQueuedSynchronizer.hasQueuedPredecessors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#hasQueuedPredecessors() public final boolean
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.hasQueuedPredecessors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -354,7 +363,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#owns(ConditionObject)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#owns(java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject)
      * public final boolean
      * java.util.concurrent.locks.AbstractQueuedSynchronizer.owns(java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)}
      * .
@@ -378,8 +388,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#getSharedQueuedThreads()
-     * public final java.util.Collection
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#getSharedQueuedThreads() public final
+     * java.util.Collection
      * <java.lang.Thread> java.util.concurrent.locks.AbstractQueuedSynchronizer.getSharedQueuedThreads()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -402,7 +413,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractQueuedSynchronizer#hasWaiters(ConditionObject) public final boolean
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#hasWaiters(java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject)
+     * public final boolean
      * java.util.concurrent.locks.AbstractQueuedSynchronizer.hasWaiters(java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)}
      * .
      *
@@ -425,8 +437,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#hasQueuedThreads() public
-     * final boolean java.util.concurrent.locks.AbstractQueuedSynchronizer.hasQueuedThreads()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#hasQueuedThreads() public final boolean
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.hasQueuedThreads()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -447,8 +460,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#toString() public
-     * java.lang.String java.util.concurrent.locks.AbstractQueuedSynchronizer.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#toString() public java.lang.String
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -470,8 +484,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueuedSynchronizer#isQueued(Thread) public
-     * final boolean java.util.concurrent.locks.AbstractQueuedSynchronizer.isQueued(java.lang.Thread)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#isQueued(Thread) public final boolean
+     * java.util.concurrent.locks.AbstractQueuedSynchronizer.isQueued(java.lang.Thread)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -493,8 +508,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractQueuedSynchronizer#getWaitingThreads(ConditionObject) public final java.util.Collection
-     * <java.lang.Thread>
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#getWaitingThreads(java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject)
+     * public final java.util.Collection<java.lang.Thread>
      * java.util.concurrent.locks.AbstractQueuedSynchronizer.getWaitingThreads(java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)}
      * .
      *
@@ -518,7 +533,7 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractQueuedSynchronizer#acquireSharedInterruptibly(int) public final void
+     * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer#acquireSharedInterruptibly(int) public final void
      * java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(int) throws
      * java.lang.InterruptedException}.
      *
@@ -571,7 +586,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ConditionObject#awaitNanos(long) public final
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject#awaitNanos(long) public final
          * long java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(long) throws
          * java.lang.InterruptedException}.
          *
@@ -595,7 +611,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ConditionObject#signalAll() public final void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject#signalAll() public final void
          * java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.signalAll()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -618,9 +635,11 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ConditionObject#awaitUntil(Date) public final
-         * boolean java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitUntil(java.util.Date)
-         * throws java.lang.InterruptedException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject#awaitUntil(java.util.Date)
+         * public final boolean
+         * java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitUntil(java.util.Date) throws
+         * java.lang.InterruptedException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -642,7 +661,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ConditionObject#signal() public final void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject#signal() public final void
          * java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.signal()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -665,7 +685,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ConditionObject#awaitUninterruptibly() public
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject#awaitUninterruptibly() public
          * final void java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitUninterruptibly()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -688,7 +709,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ConditionObject#await() public final void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject#await() public final void
          * java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await() throws
          * java.lang.InterruptedException}.
          *
@@ -712,8 +734,9 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ConditionObject#await(long, TimeUnit) public
-         * final boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject#await(long, java.util.concurrent.TimeUnit)
+         * public final boolean
          * java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(long,java.util.concurrent.TimeUnit)
          * throws java.lang.InterruptedException}.
          *

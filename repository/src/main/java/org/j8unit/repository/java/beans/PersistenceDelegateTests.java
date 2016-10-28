@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans;
 
-import java.beans.Encoder;
 import java.beans.PersistenceDelegate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PersistenceDelegate#writeObject(Object, Encoder)
-     * public void java.beans.PersistenceDelegate.writeObject(java.lang.Object,java.beans.Encoder)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.PersistenceDelegate#writeObject(Object, java.beans.Encoder) public void
+     * java.beans.PersistenceDelegate.writeObject(java.lang.Object,java.beans.Encoder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

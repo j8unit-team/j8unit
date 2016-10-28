@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormatFlagsConversionMismatchException#getMessage()
-     * public java.lang.String java.util.FormatFlagsConversionMismatchException.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.FormatFlagsConversionMismatchException#getMessage() public java.lang.String
+     * java.util.FormatFlagsConversionMismatchException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormatFlagsConversionMismatchException#getFlags()
-     * public java.lang.String java.util.FormatFlagsConversionMismatchException.getFlags()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.FormatFlagsConversionMismatchException#getFlags() public java.lang.String
+     * java.util.FormatFlagsConversionMismatchException.getFlags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +82,7 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatFlagsConversionMismatchException#getConversion() public char
+     * {@link java.util.FormatFlagsConversionMismatchException#getConversion() public char
      * java.util.FormatFlagsConversionMismatchException.getConversion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.BAD_INV_ORDER;
-import org.omg.CORBA.CompletionStatus;
 
 @RunWith(J8Unit4.class)
 public class BAD_INV_ORDERClassTest
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_INV_ORDERClassTests<BAD_INV_O
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BAD_INV_ORDER#BAD_INV_ORDER(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.BAD_INV_ORDER#BAD_INV_ORDER(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.BAD_INV_ORDER(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_INV_ORDERClassTests<BAD_INV_O
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BAD_INV_ORDER sut = null; // = new BAD_INV_ORDER(String, int, CompletionStatus);
+        final BAD_INV_ORDER sut = null; // = new BAD_INV_ORDER(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BAD_INV_ORDER#BAD_INV_ORDER(int, CompletionStatus) public
+     * {@link org.omg.CORBA.BAD_INV_ORDER#BAD_INV_ORDER(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.BAD_INV_ORDER(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +62,13 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_INV_ORDERClassTests<BAD_INV_O
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BAD_INV_ORDER sut = null; // = new BAD_INV_ORDER(int, CompletionStatus);
+        final BAD_INV_ORDER sut = null; // = new BAD_INV_ORDER(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BAD_INV_ORDER#BAD_INV_ORDER(String) public
-     * org.omg.CORBA.BAD_INV_ORDER(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.BAD_INV_ORDER#BAD_INV_ORDER(String) public org.omg.CORBA.BAD_INV_ORDER(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,8 +89,8 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_INV_ORDERClassTests<BAD_INV_O
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BAD_INV_ORDER#BAD_INV_ORDER() public
-     * org.omg.CORBA.BAD_INV_ORDER()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.BAD_INV_ORDER#BAD_INV_ORDER()
+     * public org.omg.CORBA.BAD_INV_ORDER()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

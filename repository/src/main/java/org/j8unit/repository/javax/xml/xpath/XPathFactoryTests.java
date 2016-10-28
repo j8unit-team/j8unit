@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.xml.xpath;
 
 import javax.xml.xpath.XPathFactory;
-import javax.xml.xpath.XPathFunctionResolver;
-import javax.xml.xpath.XPathVariableResolver;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathFactory#isObjectModelSupported(String) public
-     * abstract boolean javax.xml.xpath.XPathFactory.isObjectModelSupported(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPathFactory#isObjectModelSupported(String) public abstract boolean
+     * javax.xml.xpath.XPathFactory.isObjectModelSupported(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XPathFactory#setXPathVariableResolver(XPathVariableResolver) public abstract void
-     * javax.xml.xpath.XPathFactory.setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)}.
+     * {@link javax.xml.xpath.XPathFactory#setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver) public
+     * abstract void javax.xml.xpath.XPathFactory.setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathFactory#setFeature(String, boolean) public
-     * abstract void javax.xml.xpath.XPathFactory.setFeature(java.lang.String,boolean) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPathFactory#setFeature(String, boolean) public abstract void
+     * javax.xml.xpath.XPathFactory.setFeature(java.lang.String,boolean) throws
      * javax.xml.xpath.XPathFactoryConfigurationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +105,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XPathFactory#setXPathFunctionResolver(XPathFunctionResolver) public abstract void
-     * javax.xml.xpath.XPathFactory.setXPathFunctionResolver(javax.xml.xpath.XPathFunctionResolver)}.
+     * {@link javax.xml.xpath.XPathFactory#setXPathFunctionResolver(javax.xml.xpath.XPathFunctionResolver) public
+     * abstract void javax.xml.xpath.XPathFactory.setXPathFunctionResolver(javax.xml.xpath.XPathFunctionResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +127,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathFactory#newXPath() public abstract
-     * javax.xml.xpath.XPath javax.xml.xpath.XPathFactory.newXPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPathFactory#newXPath() public
+     * abstract javax.xml.xpath.XPath javax.xml.xpath.XPathFactory.newXPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +149,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathFactory#getFeature(String) public abstract
-     * boolean javax.xml.xpath.XPathFactory.getFeature(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPathFactory#getFeature(String)
+     * public abstract boolean javax.xml.xpath.XPathFactory.getFeature(java.lang.String) throws
      * javax.xml.xpath.XPathFactoryConfigurationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

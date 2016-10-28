@@ -1,14 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
-import java.time.Clock;
-import java.time.Instant;
-import java.time.ZoneId;
-import java.time.chrono.Era;
 import java.time.chrono.HijrahChronology;
-import java.time.format.ResolverStyle;
-import java.time.temporal.ChronoField;
-import java.time.temporal.TemporalAccessor;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -42,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#dateYearDay(Era, int, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#dateYearDay(java.time.chrono.Era, int, int) public
      * java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.dateYearDay(java.time.chrono.Era,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +58,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#dateYearDay(int, int) public
-     * java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.dateYearDay(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#dateYearDay(int, int) public java.time.chrono.HijrahDate
+     * java.time.chrono.HijrahChronology.dateYearDay(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,8 +82,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#getCalendarType() public
-     * java.lang.String java.time.chrono.HijrahChronology.getCalendarType()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahChronology#getCalendarType()
+     * public java.lang.String java.time.chrono.HijrahChronology.getCalendarType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +105,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#localDateTime(TemporalAccessor)
-     * public java.time.chrono.ChronoLocalDateTime<java.time.chrono.HijrahDate>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#localDateTime(java.time.temporal.TemporalAccessor) public
+     * java.time.chrono.ChronoLocalDateTime<java.time.chrono.HijrahDate>
      * java.time.chrono.HijrahChronology.localDateTime(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,7 +130,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#date(Era, int, int, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#date(java.time.chrono.Era, int, int, int) public
      * java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.date(java.time.chrono.Era,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -158,8 +154,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#date(int, int, int) public
-     * java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.date(int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#date(int, int, int) public java.time.chrono.HijrahDate
+     * java.time.chrono.HijrahChronology.date(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,7 +178,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#date(TemporalAccessor) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#date(java.time.temporal.TemporalAccessor) public
      * java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.date(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -204,8 +202,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#resolveDate(Map, ResolverStyle)
-     * public java.time.chrono.HijrahDate
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#resolveDate(java.util.Map, java.time.format.ResolverStyle) public
+     * java.time.chrono.HijrahDate
      * java.time.chrono.HijrahChronology.resolveDate(java.util.Map<java.time.temporal.TemporalField,
      * java.lang.Long>,java.time.format.ResolverStyle)}.
      *
@@ -229,8 +228,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#dateEpochDay(long) public
-     * java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.dateEpochDay(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahChronology#dateEpochDay(long)
+     * public java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.dateEpochDay(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -252,8 +251,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#getId() public java.lang.String
-     * java.time.chrono.HijrahChronology.getId()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahChronology#getId() public
+     * java.lang.String java.time.chrono.HijrahChronology.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -275,8 +274,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#isLeapYear(long) public boolean
-     * java.time.chrono.HijrahChronology.isLeapYear(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahChronology#isLeapYear(long)
+     * public boolean java.time.chrono.HijrahChronology.isLeapYear(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,7 +297,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#range(ChronoField) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#range(java.time.temporal.ChronoField) public
      * java.time.temporal.ValueRange java.time.chrono.HijrahChronology.range(java.time.temporal.ChronoField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -321,7 +321,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#eraOf(int) public
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahChronology#eraOf(int) public
      * java.time.chrono.HijrahEra java.time.chrono.HijrahChronology.eraOf(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -344,8 +344,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#dateNow(Clock) public
-     * java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.dateNow(java.time.Clock)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#dateNow(java.time.Clock) public java.time.chrono.HijrahDate
+     * java.time.chrono.HijrahChronology.dateNow(java.time.Clock)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,8 +368,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#dateNow(ZoneId) public
-     * java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.dateNow(java.time.ZoneId)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#dateNow(java.time.ZoneId) public java.time.chrono.HijrahDate
+     * java.time.chrono.HijrahChronology.dateNow(java.time.ZoneId)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -390,7 +392,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#dateNow() public
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahChronology#dateNow() public
      * java.time.chrono.HijrahDate java.time.chrono.HijrahChronology.dateNow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -413,7 +415,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#prolepticYear(Era, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#prolepticYear(java.time.chrono.Era, int) public int
      * java.time.chrono.HijrahChronology.prolepticYear(java.time.chrono.Era,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -436,8 +439,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#eras() public java.util.List
-     * <java.time.chrono.Era> java.time.chrono.HijrahChronology.eras()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahChronology#eras() public
+     * java.util.List<java.time.chrono.Era> java.time.chrono.HijrahChronology.eras()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -459,8 +462,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#zonedDateTime(Instant, ZoneId)
-     * public java.time.chrono.ChronoZonedDateTime<java.time.chrono.HijrahDate>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#zonedDateTime(java.time.Instant, java.time.ZoneId) public
+     * java.time.chrono.ChronoZonedDateTime<java.time.chrono.HijrahDate>
      * java.time.chrono.HijrahChronology.zonedDateTime(java.time.Instant,java.time.ZoneId)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -483,8 +487,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahChronology#zonedDateTime(TemporalAccessor)
-     * public java.time.chrono.ChronoZonedDateTime<java.time.chrono.HijrahDate>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahChronology#zonedDateTime(java.time.temporal.TemporalAccessor) public
+     * java.time.chrono.ChronoZonedDateTime<java.time.chrono.HijrahDate>
      * java.time.chrono.HijrahChronology.zonedDateTime(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

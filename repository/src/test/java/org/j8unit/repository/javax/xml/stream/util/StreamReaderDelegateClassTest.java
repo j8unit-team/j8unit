@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.stream.util;
 
-import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.util.StreamReaderDelegate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.xml.stream.util.StreamReaderDelegateClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamReaderDelegate#StreamReaderDelegate()
-     * public javax.xml.stream.util.StreamReaderDelegate()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#StreamReaderDelegate() public
+     * javax.xml.stream.util.StreamReaderDelegate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.xml.stream.util.StreamReaderDelegateClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StreamReaderDelegate#StreamReaderDelegate(XMLStreamReader) public
+     * {@link javax.xml.stream.util.StreamReaderDelegate#StreamReaderDelegate(javax.xml.stream.XMLStreamReader) public
      * javax.xml.stream.util.StreamReaderDelegate(javax.xml.stream.XMLStreamReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,7 @@ implements org.j8unit.repository.javax.xml.stream.util.StreamReaderDelegateClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamReaderDelegate sut = null; // = new StreamReaderDelegate(XMLStreamReader);
+        final StreamReaderDelegate sut = null; // = new StreamReaderDelegate(javax.xml.stream.XMLStreamReader);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.util.StreamReaderDelegate]

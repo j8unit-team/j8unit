@@ -24,8 +24,8 @@ implements org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AbstractLayoutCache#AbstractLayoutCache()
-     * public javax.swing.tree.AbstractLayoutCache()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#AbstractLayoutCache() public javax.swing.tree.AbstractLayoutCache()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ implements org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests<
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link NodeDimensions#NodeDimensions() public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.tree.AbstractLayoutCache.NodeDimensions#NodeDimensions() public
          * javax.swing.tree.AbstractLayoutCache$NodeDimensions()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

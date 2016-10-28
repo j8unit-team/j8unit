@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.prefs.InvalidPreferencesFormatExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidPreferencesFormatException#InvalidPreferencesFormatException(Throwable) public
+     * {@link java.util.prefs.InvalidPreferencesFormatException#InvalidPreferencesFormatException(Throwable) public
      * java.util.prefs.InvalidPreferencesFormatException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.prefs.InvalidPreferencesFormatExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidPreferencesFormatException#InvalidPreferencesFormatException(String) public
+     * {@link java.util.prefs.InvalidPreferencesFormatException#InvalidPreferencesFormatException(String) public
      * java.util.prefs.InvalidPreferencesFormatException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +68,8 @@ implements org.j8unit.repository.java.util.prefs.InvalidPreferencesFormatExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidPreferencesFormatException#InvalidPreferencesFormatException(String, Throwable) public
-     * java.util.prefs.InvalidPreferencesFormatException(java.lang.String,java.lang.Throwable)}.
+     * {@link java.util.prefs.InvalidPreferencesFormatException#InvalidPreferencesFormatException(String, Throwable)
+     * public java.util.prefs.InvalidPreferencesFormatException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

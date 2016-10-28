@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleExtendedText#getTextRange(int, int) public
-     * abstract java.lang.String javax.accessibility.AccessibleExtendedText.getTextRange(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleExtendedText#getTextRange(int, int) public abstract java.lang.String
+     * javax.accessibility.AccessibleExtendedText.getTextRange(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +59,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AccessibleExtendedText#getTextSequenceBefore(int, int) public abstract
+     * {@link javax.accessibility.AccessibleExtendedText#getTextSequenceBefore(int, int) public abstract
      * javax.accessibility.AccessibleTextSequence
      * javax.accessibility.AccessibleExtendedText.getTextSequenceBefore(int,int)}.
      *
@@ -81,9 +82,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleExtendedText#getTextSequenceAt(int, int)
-     * public abstract javax.accessibility.AccessibleTextSequence
-     * javax.accessibility.AccessibleExtendedText.getTextSequenceAt(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleExtendedText#getTextSequenceAt(int, int) public abstract
+     * javax.accessibility.AccessibleTextSequence javax.accessibility.AccessibleExtendedText.getTextSequenceAt(int,int)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +107,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AccessibleExtendedText#getTextSequenceAfter(int, int) public abstract
+     * {@link javax.accessibility.AccessibleExtendedText#getTextSequenceAfter(int, int) public abstract
      * javax.accessibility.AccessibleTextSequence
      * javax.accessibility.AccessibleExtendedText.getTextSequenceAfter(int,int)}.
      *
@@ -128,8 +130,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleExtendedText#getTextBounds(int, int)
-     * public abstract java.awt.Rectangle javax.accessibility.AccessibleExtendedText.getTextBounds(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleExtendedText#getTextBounds(int, int) public abstract java.awt.Rectangle
+     * javax.accessibility.AccessibleExtendedText.getTextBounds(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

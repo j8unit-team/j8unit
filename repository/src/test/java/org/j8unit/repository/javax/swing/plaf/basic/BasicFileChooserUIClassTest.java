@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
 import javax.swing.plaf.basic.BasicFileChooserUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BasicFileChooserUI#BasicFileChooserUI(JFileChooser) public
+     * {@link javax.swing.plaf.basic.BasicFileChooserUI#BasicFileChooserUI(javax.swing.JFileChooser) public
      * javax.swing.plaf.basic.BasicFileChooserUI(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BasicFileChooserUI sut = null; // = new BasicFileChooserUI(JFileChooser);
+        final BasicFileChooserUI sut = null; // = new BasicFileChooserUI(javax.swing.JFileChooser);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileChooserUI#createUI(JComponent) public
-     * static javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicFileChooserUI.createUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicFileChooserUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicFileChooserUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +60,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassT
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link BasicFileChooserUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.basic.BasicFileChooserUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicFileChooserUI]

@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.nio.CharBufferClassTests<CharBuffer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#allocate(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#allocate(int) public static
      * java.nio.CharBuffer java.nio.CharBuffer.allocate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.nio.CharBufferClassTests<CharBuffer> {
     @Category(Draft.class)
     public void test_allocate_int()
     throws Exception {
-        // write some test for {@link CharBuffer#allocate(int)}
+        // write some test for {@link java.nio.CharBuffer#allocate(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#wrap(CharSequence) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#wrap(CharSequence) public static
      * java.nio.CharBuffer java.nio.CharBuffer.wrap(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,12 +56,12 @@ implements org.j8unit.repository.java.nio.CharBufferClassTests<CharBuffer> {
     @Category(Draft.class)
     public void test_wrap_CharSequence()
     throws Exception {
-        // write some test for {@link CharBuffer#wrap(CharSequence)}
+        // write some test for {@link java.nio.CharBuffer#wrap(CharSequence)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#wrap(char[]) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#wrap(char[]) public static
      * java.nio.CharBuffer java.nio.CharBuffer.wrap(char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -76,13 +76,13 @@ implements org.j8unit.repository.java.nio.CharBufferClassTests<CharBuffer> {
     @Category(Draft.class)
     public void test_wrap_charArray()
     throws Exception {
-        // write some test for {@link CharBuffer#wrap(char[])}
+        // write some test for {@link java.nio.CharBuffer#wrap(char[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#wrap(CharSequence, int, int) public
-     * static java.nio.CharBuffer java.nio.CharBuffer.wrap(java.lang.CharSequence,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#wrap(CharSequence, int, int)
+     * public static java.nio.CharBuffer java.nio.CharBuffer.wrap(java.lang.CharSequence,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -96,13 +96,13 @@ implements org.j8unit.repository.java.nio.CharBufferClassTests<CharBuffer> {
     @Category(Draft.class)
     public void test_wrap_CharSequence_int_int()
     throws Exception {
-        // write some test for {@link CharBuffer#wrap(CharSequence, int, int)}
+        // write some test for {@link java.nio.CharBuffer#wrap(CharSequence, int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#wrap(char[], int, int) public static
-     * java.nio.CharBuffer java.nio.CharBuffer.wrap(char[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#wrap(char[], int, int) public
+     * static java.nio.CharBuffer java.nio.CharBuffer.wrap(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -116,7 +116,7 @@ implements org.j8unit.repository.java.nio.CharBufferClassTests<CharBuffer> {
     @Category(Draft.class)
     public void test_wrap_charArray_int_int()
     throws Exception {
-        // write some test for {@link CharBuffer#wrap(char[], int, int)}
+        // write some test for {@link java.nio.CharBuffer#wrap(char[], int, int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.CharBuffer]

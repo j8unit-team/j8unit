@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.tools;
 
-import javax.tools.Diagnostic;
 import javax.tools.DiagnosticCollector;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.javax.tools.DiagnosticListenerTests<SUT, S>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DiagnosticCollector#report(Diagnostic) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.DiagnosticCollector#report(javax.tools.Diagnostic) public void
      * javax.tools.DiagnosticCollector.report(javax.tools.Diagnostic<? extends S>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ extends org.j8unit.repository.javax.tools.DiagnosticListenerTests<SUT, S>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DiagnosticCollector#getDiagnostics() public
-     * java.util.List<javax.tools.Diagnostic<? extends S>> javax.tools.DiagnosticCollector.getDiagnostics()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.DiagnosticCollector#getDiagnostics()
+     * public java.util.List<javax.tools.Diagnostic<? extends S>> javax.tools.DiagnosticCollector.getDiagnostics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

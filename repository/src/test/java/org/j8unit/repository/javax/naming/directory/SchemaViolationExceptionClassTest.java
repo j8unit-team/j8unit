@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.directory.SchemaViolationException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SchemaViolationException#SchemaViolationException() public
+     * {@link javax.naming.directory.SchemaViolationException#SchemaViolationException() public
      * javax.naming.directory.SchemaViolationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.naming.directory.SchemaViolationException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SchemaViolationException#SchemaViolationException(String) public
+     * {@link javax.naming.directory.SchemaViolationException#SchemaViolationException(String) public
      * javax.naming.directory.SchemaViolationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

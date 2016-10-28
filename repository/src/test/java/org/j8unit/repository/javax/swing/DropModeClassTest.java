@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.DropModeClassTests<DropMode> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropMode#values() public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DropMode#values() public static
      * javax.swing.DropMode[] javax.swing.DropMode.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +36,12 @@ implements org.j8unit.repository.javax.swing.DropModeClassTests<DropMode> {
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link DropMode#values()}
+        // write some test for {@link javax.swing.DropMode#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropMode#valueOf(String) public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DropMode#valueOf(String) public static
      * javax.swing.DropMode javax.swing.DropMode.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ implements org.j8unit.repository.javax.swing.DropModeClassTests<DropMode> {
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link DropMode#valueOf(String)}
+        // write some test for {@link javax.swing.DropMode#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DropMode]

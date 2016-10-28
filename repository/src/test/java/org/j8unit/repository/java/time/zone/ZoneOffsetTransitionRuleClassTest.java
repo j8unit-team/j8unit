@@ -1,9 +1,5 @@
 package org.j8unit.repository.java.time.zone;
 
-import java.time.DayOfWeek;
-import java.time.LocalTime;
-import java.time.Month;
-import java.time.ZoneOffset;
 import java.time.zone.ZoneOffsetTransitionRule;
 import java.time.zone.ZoneOffsetTransitionRule.TimeDefinition;
 import org.j8unit.repository.categories.Draft;
@@ -27,7 +23,7 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ZoneOffsetTransitionRule#of(Month, int, DayOfWeek, LocalTime, boolean, TimeDefinition, ZoneOffset, ZoneOffset, ZoneOffset)
+     * {@link java.time.zone.ZoneOffsetTransitionRule#of(java.time.Month, int, java.time.DayOfWeek, java.time.LocalTime, boolean, java.time.zone.ZoneOffsetTransitionRule.TimeDefinition, java.time.ZoneOffset, java.time.ZoneOffset, java.time.ZoneOffset)
      * public static java.time.zone.ZoneOffsetTransitionRule
      * java.time.zone.ZoneOffsetTransitionRule.of(java.time.Month,int,java.time.DayOfWeek,java.time.LocalTime,boolean,java.time.zone.ZoneOffsetTransitionRule$TimeDefinition,java.time.ZoneOffset,java.time.ZoneOffset,java.time.ZoneOffset)}
      * .
@@ -44,8 +40,9 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
     @Category(Draft.class)
     public void test_of_Month_int_DayOfWeek_LocalTime_boolean_TimeDefinition_ZoneOffset_ZoneOffset_ZoneOffset()
     throws Exception {
-        // write some test for {@link ZoneOffsetTransitionRule#of(Month, int, DayOfWeek, LocalTime, boolean,
-        // TimeDefinition, ZoneOffset, ZoneOffset, ZoneOffset)}
+        // write some test for {@link java.time.zone.ZoneOffsetTransitionRule#of(java.time.Month, int,
+        // java.time.DayOfWeek, java.time.LocalTime, boolean, java.time.zone.ZoneOffsetTransitionRule.TimeDefinition,
+        // java.time.ZoneOffset, java.time.ZoneOffset, java.time.ZoneOffset)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule]
@@ -63,7 +60,8 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link TimeDefinition#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.time.zone.ZoneOffsetTransitionRule.TimeDefinition#values() public static
          * java.time.zone.ZoneOffsetTransitionRule$TimeDefinition[]
          * java.time.zone.ZoneOffsetTransitionRule$TimeDefinition.values()}.
          *
@@ -79,12 +77,13 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link TimeDefinition#values()}
+            // write some test for {@link java.time.zone.ZoneOffsetTransitionRule.TimeDefinition#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link TimeDefinition#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.time.zone.ZoneOffsetTransitionRule.TimeDefinition#valueOf(String) public static
          * java.time.zone.ZoneOffsetTransitionRule$TimeDefinition
          * java.time.zone.ZoneOffsetTransitionRule$TimeDefinition.valueOf(java.lang.String)}.
          *
@@ -100,7 +99,7 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link TimeDefinition#valueOf(String)}
+            // write some test for {@link java.time.zone.ZoneOffsetTransitionRule.TimeDefinition#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]

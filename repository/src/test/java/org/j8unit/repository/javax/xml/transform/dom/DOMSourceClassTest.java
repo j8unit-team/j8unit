@@ -7,7 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.w3c.dom.Node;
 
 @RunWith(J8Unit4.class)
 public class DOMSourceClassTest
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMSourceClassTests<DOM
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DOMSource#DOMSource(Node, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.dom.DOMSource#DOMSource(org.w3c.dom.Node, String) public
      * javax.xml.transform.dom.DOMSource(org.w3c.dom.Node,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,12 +39,13 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMSourceClassTests<DOM
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DOMSource sut = null; // = new DOMSource(Node, String);
+        final DOMSource sut = null; // = new DOMSource(org.w3c.dom.Node, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DOMSource#DOMSource(Node) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.dom.DOMSource#DOMSource(org.w3c.dom.Node) public
      * javax.xml.transform.dom.DOMSource(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +62,13 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMSourceClassTests<DOM
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DOMSource sut = null; // = new DOMSource(Node);
+        final DOMSource sut = null; // = new DOMSource(org.w3c.dom.Node);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DOMSource#DOMSource() public
-     * javax.xml.transform.dom.DOMSource()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.transform.dom.DOMSource#DOMSource()
+     * public javax.xml.transform.dom.DOMSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

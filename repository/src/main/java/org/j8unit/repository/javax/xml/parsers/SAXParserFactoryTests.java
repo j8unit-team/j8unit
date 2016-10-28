@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.xml.parsers;
 
 import javax.xml.parsers.SAXParserFactory;
-import javax.xml.validation.Schema;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,29 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#setNamespaceAware(boolean) public
-     * void javax.xml.parsers.SAXParserFactory.setNamespaceAware(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNamespaceAware_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#setValidating(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.SAXParserFactory#setValidating(boolean) public void
      * javax.xml.parsers.SAXParserFactory.setValidating(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +57,54 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#newSAXParser() public abstract
-     * javax.xml.parsers.SAXParser javax.xml.parsers.SAXParserFactory.newSAXParser() throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.SAXParserFactory#setNamespaceAware(boolean) public void
+     * javax.xml.parsers.SAXParserFactory.setNamespaceAware(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNamespaceAware_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.SAXParserFactory#setXIncludeAware(boolean) public void
+     * javax.xml.parsers.SAXParserFactory.setXIncludeAware(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setXIncludeAware_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.SAXParserFactory#newSAXParser()
+     * public abstract javax.xml.parsers.SAXParser javax.xml.parsers.SAXParserFactory.newSAXParser() throws
      * javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,30 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#setXIncludeAware(boolean) public
-     * void javax.xml.parsers.SAXParserFactory.setXIncludeAware(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setXIncludeAware_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#isXIncludeAware() public boolean
-     * javax.xml.parsers.SAXParserFactory.isXIncludeAware()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.SAXParserFactory#isXIncludeAware()
+     * public boolean javax.xml.parsers.SAXParserFactory.isXIncludeAware()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +148,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#setSchema(Schema) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.SAXParserFactory#setSchema(javax.xml.validation.Schema) public void
      * javax.xml.parsers.SAXParserFactory.setSchema(javax.xml.validation.Schema)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,30 +171,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#isValidating() public boolean
-     * javax.xml.parsers.SAXParserFactory.isValidating()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isValidating()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#getFeature(String) public abstract
-     * boolean javax.xml.parsers.SAXParserFactory.getFeature(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.SAXParserFactory#getFeature(String) public abstract boolean
+     * javax.xml.parsers.SAXParserFactory.getFeature(java.lang.String) throws
      * javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}
      * .
      *
@@ -214,8 +196,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#getSchema() public
-     * javax.xml.validation.Schema javax.xml.parsers.SAXParserFactory.getSchema()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.SAXParserFactory#getSchema()
+     * public javax.xml.validation.Schema javax.xml.parsers.SAXParserFactory.getSchema()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,7 +218,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#isNamespaceAware() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.SAXParserFactory#isValidating()
+     * public boolean javax.xml.parsers.SAXParserFactory.isValidating()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValidating()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.SAXParserFactory#isNamespaceAware() public boolean
      * javax.xml.parsers.SAXParserFactory.isNamespaceAware()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +263,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#setFeature(String, boolean) public
-     * abstract void javax.xml.parsers.SAXParserFactory.setFeature(java.lang.String,boolean) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.SAXParserFactory#setFeature(String, boolean) public abstract void
+     * javax.xml.parsers.SAXParserFactory.setFeature(java.lang.String,boolean) throws
      * javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}
      * .
      *

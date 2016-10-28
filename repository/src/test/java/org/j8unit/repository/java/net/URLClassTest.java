@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.URL;
-import java.net.URLStreamHandler;
-import java.net.URLStreamHandlerFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.java.net.URLClassTests<URL> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URL#URL(URL, String, URLStreamHandler) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.URL#URL(java.net.URL, String, java.net.URLStreamHandler) public
      * java.net.URL(java.net.URL,java.lang.String,java.net.URLStreamHandler) throws java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,12 @@ implements org.j8unit.repository.java.net.URLClassTests<URL> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final URL sut = null; // = new URL(URL, String, URLStreamHandler);
+        final URL sut = null; // = new URL(java.net.URL, String, java.net.URLStreamHandler);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URL#URL(URL, String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.URL#URL(java.net.URL, String) public
      * java.net.URL(java.net.URL,java.lang.String) throws java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +61,12 @@ implements org.j8unit.repository.java.net.URLClassTests<URL> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final URL sut = null; // = new URL(URL, String);
+        final URL sut = null; // = new URL(java.net.URL, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URL#URL(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.URL#URL(String) public
      * java.net.URL(java.lang.String) throws java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,8 +88,9 @@ implements org.j8unit.repository.java.net.URLClassTests<URL> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URL#URL(String, String, int, String) public
-     * java.net.URL(java.lang.String,java.lang.String,int,java.lang.String) throws java.net.MalformedURLException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.URL#URL(String, String, int, String)
+     * public java.net.URL(java.lang.String,java.lang.String,int,java.lang.String) throws
+     * java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,7 +111,7 @@ implements org.j8unit.repository.java.net.URLClassTests<URL> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URL#URL(String, String, String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.URL#URL(String, String, String) public
      * java.net.URL(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,7 +134,7 @@ implements org.j8unit.repository.java.net.URLClassTests<URL> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URL#URL(String, String, int, String, URLStreamHandler) public
+     * {@link java.net.URL#URL(String, String, int, String, java.net.URLStreamHandler) public
      * java.net.URL(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler) throws
      * java.net.MalformedURLException}.
      *
@@ -152,13 +152,13 @@ implements org.j8unit.repository.java.net.URLClassTests<URL> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final URL sut = null; // = new URL(String, String, int, String, URLStreamHandler);
+        final URL sut = null; // = new URL(String, String, int, String, java.net.URLStreamHandler);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link URL#setURLStreamHandlerFactory(URLStreamHandlerFactory) public static void
+     * {@link java.net.URL#setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory) public static void
      * java.net.URL.setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,7 +173,7 @@ implements org.j8unit.repository.java.net.URLClassTests<URL> {
     @Category(Draft.class)
     public void test_setURLStreamHandlerFactory_URLStreamHandlerFactory()
     throws Exception {
-        // write some test for {@link URL#setURLStreamHandlerFactory(URLStreamHandlerFactory)}
+        // write some test for {@link java.net.URL#setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URL]

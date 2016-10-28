@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.Provider;
 import java.security.cert.CertStore;
-import java.security.cert.CertStoreParameters;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.java.security.cert.CertStoreClassTests<CertStor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStore#getDefaultType() public static final
-     * java.lang.String java.security.cert.CertStore.getDefaultType()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertStore#getDefaultType() public
+     * static final java.lang.String java.security.cert.CertStore.getDefaultType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,13 +36,14 @@ implements org.j8unit.repository.java.security.cert.CertStoreClassTests<CertStor
     @Category(Draft.class)
     public void test_getDefaultType()
     throws Exception {
-        // write some test for {@link CertStore#getDefaultType()}
+        // write some test for {@link java.security.cert.CertStore#getDefaultType()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStore#getInstance(String, CertStoreParameters)
-     * public static java.security.cert.CertStore
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertStore#getInstance(String, java.security.cert.CertStoreParameters) public static
+     * java.security.cert.CertStore
      * java.security.cert.CertStore.getInstance(java.lang.String,java.security.cert.CertStoreParameters) throws
      * java.security.InvalidAlgorithmParameterException,java.security.NoSuchAlgorithmException}.
      *
@@ -60,13 +59,15 @@ implements org.j8unit.repository.java.security.cert.CertStoreClassTests<CertStor
     @Category(Draft.class)
     public void test_getInstance_String_CertStoreParameters()
     throws Exception {
-        // write some test for {@link CertStore#getInstance(String, CertStoreParameters)}
+        // write some test for {@link java.security.cert.CertStore#getInstance(String,
+        // java.security.cert.CertStoreParameters)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CertStore#getInstance(String, CertStoreParameters, String) public static java.security.cert.CertStore
+     * {@link java.security.cert.CertStore#getInstance(String, java.security.cert.CertStoreParameters, String) public
+     * static java.security.cert.CertStore
      * java.security.cert.CertStore.getInstance(java.lang.String,java.security.cert.CertStoreParameters,java.lang.String)
      * throws
      * java.security.InvalidAlgorithmParameterException,java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}
@@ -84,13 +85,15 @@ implements org.j8unit.repository.java.security.cert.CertStoreClassTests<CertStor
     @Category(Draft.class)
     public void test_getInstance_String_CertStoreParameters_String()
     throws Exception {
-        // write some test for {@link CertStore#getInstance(String, CertStoreParameters, String)}
+        // write some test for {@link java.security.cert.CertStore#getInstance(String,
+        // java.security.cert.CertStoreParameters, String)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CertStore#getInstance(String, CertStoreParameters, Provider) public static java.security.cert.CertStore
+     * {@link java.security.cert.CertStore#getInstance(String, java.security.cert.CertStoreParameters, java.security.Provider)
+     * public static java.security.cert.CertStore
      * java.security.cert.CertStore.getInstance(java.lang.String,java.security.cert.CertStoreParameters,java.security.Provider)
      * throws java.security.NoSuchAlgorithmException,java.security.InvalidAlgorithmParameterException}.
      *
@@ -106,7 +109,8 @@ implements org.j8unit.repository.java.security.cert.CertStoreClassTests<CertStor
     @Category(Draft.class)
     public void test_getInstance_String_CertStoreParameters_Provider()
     throws Exception {
-        // write some test for {@link CertStore#getInstance(String, CertStoreParameters, Provider)}
+        // write some test for {@link java.security.cert.CertStore#getInstance(String,
+        // java.security.cert.CertStoreParameters, java.security.Provider)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertStore]

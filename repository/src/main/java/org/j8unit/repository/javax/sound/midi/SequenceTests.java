@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.sound.midi;
 
 import javax.sound.midi.Sequence;
-import javax.sound.midi.Track;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequence#getTracks() public javax.sound.midi.Track[]
-     * javax.sound.midi.Sequence.getTracks()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequence#getTracks() public
+     * javax.sound.midi.Track[] javax.sound.midi.Sequence.getTracks()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequence#getTickLength() public long
-     * javax.sound.midi.Sequence.getTickLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequence#getTickLength() public
+     * long javax.sound.midi.Sequence.getTickLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequence#getResolution() public int
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequence#getResolution() public int
      * javax.sound.midi.Sequence.getResolution()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequence#getPatchList() public
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequence#getPatchList() public
      * javax.sound.midi.Patch[] javax.sound.midi.Sequence.getPatchList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequence#getMicrosecondLength() public long
-     * javax.sound.midi.Sequence.getMicrosecondLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequence#getMicrosecondLength()
+     * public long javax.sound.midi.Sequence.getMicrosecondLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +144,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequence#createTrack() public javax.sound.midi.Track
-     * javax.sound.midi.Sequence.createTrack()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequence#createTrack() public
+     * javax.sound.midi.Track javax.sound.midi.Sequence.createTrack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +166,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequence#deleteTrack(Track) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequence#deleteTrack(javax.sound.midi.Track) public boolean
      * javax.sound.midi.Sequence.deleteTrack(javax.sound.midi.Track)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +189,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequence#getDivisionType() public float
-     * javax.sound.midi.Sequence.getDivisionType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequence#getDivisionType() public
+     * float javax.sound.midi.Sequence.getDivisionType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

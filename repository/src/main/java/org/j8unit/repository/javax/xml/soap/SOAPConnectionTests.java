@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.xml.soap;
 
 import javax.xml.soap.SOAPConnection;
-import javax.xml.soap.SOAPMessage;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,9 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPConnection#call(SOAPMessage, Object) public
-     * abstract javax.xml.soap.SOAPMessage
-     * javax.xml.soap.SOAPConnection.call(javax.xml.soap.SOAPMessage,java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPConnection#call(javax.xml.soap.SOAPMessage, Object) public abstract
+     * javax.xml.soap.SOAPMessage javax.xml.soap.SOAPConnection.call(javax.xml.soap.SOAPMessage,java.lang.Object) throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPConnection#get(Object) public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPConnection#get(Object) public
      * javax.xml.soap.SOAPMessage javax.xml.soap.SOAPConnection.get(java.lang.Object) throws
      * javax.xml.soap.SOAPException}.
      *
@@ -82,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPConnection#close() public abstract void
-     * javax.xml.soap.SOAPConnection.close() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPConnection#close() public
+     * abstract void javax.xml.soap.SOAPConnection.close() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

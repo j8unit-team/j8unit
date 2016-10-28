@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.JPanel;
-import javax.swing.plaf.PanelUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPanel#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPanel#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JPanel.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPanel#getUIClassID() public java.lang.String
-     * javax.swing.JPanel.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPanel#getUIClassID() public
+     * java.lang.String javax.swing.JPanel.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPanel#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPanel#updateUI() public void
      * javax.swing.JPanel.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPanel#setUI(PanelUI) public void
-     * javax.swing.JPanel.setUI(javax.swing.plaf.PanelUI)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPanel#setUI(javax.swing.plaf.PanelUI)
+     * public void javax.swing.JPanel.setUI(javax.swing.plaf.PanelUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPanel#getUI() public javax.swing.plaf.PanelUI
-     * javax.swing.JPanel.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPanel#getUI() public
+     * javax.swing.plaf.PanelUI javax.swing.JPanel.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

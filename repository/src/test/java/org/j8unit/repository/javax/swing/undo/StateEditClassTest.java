@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.undo;
 
 import javax.swing.undo.StateEdit;
-import javax.swing.undo.StateEditable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.undo.StateEditClassTests<StateEdit>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StateEdit#StateEdit(StateEditable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.undo.StateEdit#StateEdit(javax.swing.undo.StateEditable) public
      * javax.swing.undo.StateEdit(javax.swing.undo.StateEditable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +39,14 @@ implements org.j8unit.repository.javax.swing.undo.StateEditClassTests<StateEdit>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StateEdit sut = null; // = new StateEdit(StateEditable);
+        final StateEdit sut = null; // = new StateEdit(javax.swing.undo.StateEditable);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StateEdit#StateEdit(StateEditable, String)
-     * public javax.swing.undo.StateEdit(javax.swing.undo.StateEditable,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.undo.StateEdit#StateEdit(javax.swing.undo.StateEditable, String) public
+     * javax.swing.undo.StateEdit(javax.swing.undo.StateEditable,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +62,7 @@ implements org.j8unit.repository.javax.swing.undo.StateEditClassTests<StateEdit>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StateEdit sut = null; // = new StateEdit(StateEditable, String);
+        final StateEdit sut = null; // = new StateEdit(javax.swing.undo.StateEditable, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.StateEdit]

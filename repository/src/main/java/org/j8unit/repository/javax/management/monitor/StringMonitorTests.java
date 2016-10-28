@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.monitor;
 
-import javax.management.ObjectName;
 import javax.management.monitor.StringMonitor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#setNotifyDiffer(boolean) public
-     * synchronized void javax.management.monitor.StringMonitor.setNotifyDiffer(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#setNotifyDiffer(boolean) public synchronized void
+     * javax.management.monitor.StringMonitor.setNotifyDiffer(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +58,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#getDerivedGauge(ObjectName) public
-     * synchronized java.lang.String
-     * javax.management.monitor.StringMonitor.getDerivedGauge(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#getDerivedGauge(javax.management.ObjectName) public synchronized
+     * java.lang.String javax.management.monitor.StringMonitor.getDerivedGauge(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#getDerivedGauge() public synchronized
-     * java.lang.String javax.management.monitor.StringMonitor.getDerivedGauge()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#getDerivedGauge() public synchronized java.lang.String
+     * javax.management.monitor.StringMonitor.getDerivedGauge()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +106,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#setStringToCompare(String) public
-     * synchronized void javax.management.monitor.StringMonitor.setStringToCompare(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#setStringToCompare(String) public synchronized void
+     * javax.management.monitor.StringMonitor.setStringToCompare(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,9 +131,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#getDerivedGaugeTimeStamp(ObjectName)
-     * public synchronized long
-     * javax.management.monitor.StringMonitor.getDerivedGaugeTimeStamp(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#getDerivedGaugeTimeStamp(javax.management.ObjectName) public
+     * synchronized long javax.management.monitor.StringMonitor.getDerivedGaugeTimeStamp(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +155,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#getDerivedGaugeTimeStamp() public
-     * synchronized long javax.management.monitor.StringMonitor.getDerivedGaugeTimeStamp()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#getDerivedGaugeTimeStamp() public synchronized long
+     * javax.management.monitor.StringMonitor.getDerivedGaugeTimeStamp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,8 +179,8 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#stop() public synchronized void
-     * javax.management.monitor.StringMonitor.stop()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.StringMonitor#stop() public
+     * synchronized void javax.management.monitor.StringMonitor.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,8 +202,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#getNotifyDiffer() public synchronized
-     * boolean javax.management.monitor.StringMonitor.getNotifyDiffer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#getNotifyDiffer() public synchronized boolean
+     * javax.management.monitor.StringMonitor.getNotifyDiffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,8 +226,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#getNotifyMatch() public synchronized
-     * boolean javax.management.monitor.StringMonitor.getNotifyMatch()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#getNotifyMatch() public synchronized boolean
+     * javax.management.monitor.StringMonitor.getNotifyMatch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,8 +250,8 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#start() public synchronized void
-     * javax.management.monitor.StringMonitor.start()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.StringMonitor#start()
+     * public synchronized void javax.management.monitor.StringMonitor.start()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -268,8 +273,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#getStringToCompare() public
-     * synchronized java.lang.String javax.management.monitor.StringMonitor.getStringToCompare()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#getStringToCompare() public synchronized java.lang.String
+     * javax.management.monitor.StringMonitor.getStringToCompare()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -291,8 +297,9 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#setNotifyMatch(boolean) public
-     * synchronized void javax.management.monitor.StringMonitor.setNotifyMatch(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#setNotifyMatch(boolean) public synchronized void
+     * javax.management.monitor.StringMonitor.setNotifyMatch(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -314,7 +321,8 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitor#getNotificationInfo() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitor#getNotificationInfo() public
      * javax.management.MBeanNotificationInfo[] javax.management.monitor.StringMonitor.getNotificationInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

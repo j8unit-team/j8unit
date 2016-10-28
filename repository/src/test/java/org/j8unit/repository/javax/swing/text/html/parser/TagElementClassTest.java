@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html.parser;
 
-import javax.swing.text.html.parser.Element;
 import javax.swing.text.html.parser.TagElement;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.TagElementClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TagElement#TagElement(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.parser.TagElement#TagElement(javax.swing.text.html.parser.Element) public
      * javax.swing.text.html.parser.TagElement(javax.swing.text.html.parser.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,12 +39,13 @@ implements org.j8unit.repository.javax.swing.text.html.parser.TagElementClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TagElement sut = null; // = new TagElement(Element);
+        final TagElement sut = null; // = new TagElement(javax.swing.text.html.parser.Element);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TagElement#TagElement(Element, boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.parser.TagElement#TagElement(javax.swing.text.html.parser.Element, boolean) public
      * javax.swing.text.html.parser.TagElement(javax.swing.text.html.parser.Element,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +62,7 @@ implements org.j8unit.repository.javax.swing.text.html.parser.TagElementClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TagElement sut = null; // = new TagElement(Element, boolean);
+        final TagElement sut = null; // = new TagElement(javax.swing.text.html.parser.Element, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.TagElement]

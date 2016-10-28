@@ -45,62 +45,17 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, org.j8unit.repository.javax
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI]
 
     @RunWith(J8Unit4.class)
-    public static class KeyboardDownRightHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardDownRightHandlerTests<KeyboardDownRightHandler> {
+    public static class FocusHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.FocusHandlerTests<FocusHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-        @Override
-        public KeyboardDownRightHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class KeyboardUpLeftHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardUpLeftHandlerTests<KeyboardUpLeftHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler]
 
         @Override
-        public KeyboardUpLeftHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler], j8unit does not support a generic way to provide instances.");
+        public FocusHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class KeyboardResizeToggleHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests<KeyboardResizeToggleHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
-
-        @Override
-        public KeyboardResizeToggleHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class BasicHorizontalLayoutManagerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests<BasicHorizontalLayoutManager> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
-
-        @Override
-        public BasicHorizontalLayoutManager createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler]
 
     }
 
@@ -135,6 +90,51 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, org.j8unit.repository.javax
     }
 
     @RunWith(J8Unit4.class)
+    public static class KeyboardResizeToggleHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests<KeyboardResizeToggleHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
+
+        @Override
+        public KeyboardResizeToggleHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class KeyboardDownRightHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardDownRightHandlerTests<KeyboardDownRightHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+        @Override
+        public KeyboardDownRightHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class KeyboardUpLeftHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardUpLeftHandlerTests<KeyboardUpLeftHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
+
+        @Override
+        public KeyboardUpLeftHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class BasicVerticalLayoutManagerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicVerticalLayoutManagerTests<BasicVerticalLayoutManager> {
 
@@ -150,6 +150,21 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, org.j8unit.repository.javax
     }
 
     @RunWith(J8Unit4.class)
+    public static class BasicHorizontalLayoutManagerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests<BasicHorizontalLayoutManager> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
+
+        @Override
+        public BasicHorizontalLayoutManager createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class KeyboardEndHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardEndHandlerTests<KeyboardEndHandler> {
 
@@ -161,21 +176,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, org.j8unit.repository.javax
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class FocusHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.FocusHandlerTests<FocusHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler]
-
-        @Override
-        public FocusHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler]
 
     }
 

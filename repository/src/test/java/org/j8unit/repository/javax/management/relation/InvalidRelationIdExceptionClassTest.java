@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.relation.InvalidRelationIdExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidRelationIdException#InvalidRelationIdException() public
+     * {@link javax.management.relation.InvalidRelationIdException#InvalidRelationIdException() public
      * javax.management.relation.InvalidRelationIdException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.relation.InvalidRelationIdExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidRelationIdException#InvalidRelationIdException(String) public
+     * {@link javax.management.relation.InvalidRelationIdException#InvalidRelationIdException(String) public
      * javax.management.relation.InvalidRelationIdException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

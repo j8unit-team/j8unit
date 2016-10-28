@@ -22,8 +22,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPOAClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NamingContextExtPOA#NamingContextExtPOA()
-     * public org.omg.CosNaming.NamingContextExtPOA()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPOA#NamingContextExtPOA() public
+     * org.omg.CosNaming.NamingContextExtPOA()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

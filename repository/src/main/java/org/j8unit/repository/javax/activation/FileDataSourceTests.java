@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.activation;
 
 import javax.activation.FileDataSource;
-import javax.activation.FileTypeMap;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDataSource#getName() public java.lang.String
-     * javax.activation.FileDataSource.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.FileDataSource#getName() public
+     * java.lang.String javax.activation.FileDataSource.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDataSource#getInputStream() public
-     * java.io.InputStream javax.activation.FileDataSource.getInputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.FileDataSource#getInputStream()
+     * public java.io.InputStream javax.activation.FileDataSource.getInputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDataSource#getFile() public java.io.File
-     * javax.activation.FileDataSource.getFile()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.FileDataSource#getFile() public
+     * java.io.File javax.activation.FileDataSource.getFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,9 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDataSource#setFileTypeMap(FileTypeMap) public
-     * void javax.activation.FileDataSource.setFileTypeMap(javax.activation.FileTypeMap)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.FileDataSource#setFileTypeMap(javax.activation.FileTypeMap) public void
+     * javax.activation.FileDataSource.setFileTypeMap(javax.activation.FileTypeMap)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDataSource#getOutputStream() public
-     * java.io.OutputStream javax.activation.FileDataSource.getOutputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.FileDataSource#getOutputStream()
+     * public java.io.OutputStream javax.activation.FileDataSource.getOutputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +148,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDataSource#getContentType() public
-     * java.lang.String javax.activation.FileDataSource.getContentType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.FileDataSource#getContentType()
+     * public java.lang.String javax.activation.FileDataSource.getContentType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

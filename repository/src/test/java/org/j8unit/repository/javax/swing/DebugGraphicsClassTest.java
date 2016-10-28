@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.io.PrintStream;
 import javax.swing.DebugGraphics;
-import javax.swing.JComponent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +21,8 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DebugGraphics#DebugGraphics(Graphics) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.DebugGraphics#DebugGraphics(java.awt.Graphics) public
      * javax.swing.DebugGraphics(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,13 +39,13 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DebugGraphics sut = null; // = new DebugGraphics(Graphics);
+        final DebugGraphics sut = null; // = new DebugGraphics(java.awt.Graphics);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DebugGraphics#DebugGraphics(Graphics, JComponent) public
+     * {@link javax.swing.DebugGraphics#DebugGraphics(java.awt.Graphics, javax.swing.JComponent) public
      * javax.swing.DebugGraphics(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,13 +62,13 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DebugGraphics sut = null; // = new DebugGraphics(Graphics, JComponent);
+        final DebugGraphics sut = null; // = new DebugGraphics(java.awt.Graphics, javax.swing.JComponent);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DebugGraphics#DebugGraphics() public
-     * javax.swing.DebugGraphics()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.DebugGraphics#DebugGraphics()
+     * public javax.swing.DebugGraphics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -91,8 +88,9 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setFlashColor(Color) public static
-     * void javax.swing.DebugGraphics.setFlashColor(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#setFlashColor(java.awt.Color) public static void
+     * javax.swing.DebugGraphics.setFlashColor(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,13 +104,13 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     @Category(Draft.class)
     public void test_setFlashColor_Color()
     throws Exception {
-        // write some test for {@link DebugGraphics#setFlashColor(Color)}
+        // write some test for {@link javax.swing.DebugGraphics#setFlashColor(java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setFlashTime(int) public static void
-     * javax.swing.DebugGraphics.setFlashTime(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#setFlashTime(int) public
+     * static void javax.swing.DebugGraphics.setFlashTime(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,13 +124,13 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     @Category(Draft.class)
     public void test_setFlashTime_int()
     throws Exception {
-        // write some test for {@link DebugGraphics#setFlashTime(int)}
+        // write some test for {@link javax.swing.DebugGraphics#setFlashTime(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#flashCount() public static int
-     * javax.swing.DebugGraphics.flashCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#flashCount() public static
+     * int javax.swing.DebugGraphics.flashCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,13 +144,13 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     @Category(Draft.class)
     public void test_flashCount()
     throws Exception {
-        // write some test for {@link DebugGraphics#flashCount()}
+        // write some test for {@link javax.swing.DebugGraphics#flashCount()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#flashTime() public static int
-     * javax.swing.DebugGraphics.flashTime()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#flashTime() public static
+     * int javax.swing.DebugGraphics.flashTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,13 +164,13 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     @Category(Draft.class)
     public void test_flashTime()
     throws Exception {
-        // write some test for {@link DebugGraphics#flashTime()}
+        // write some test for {@link javax.swing.DebugGraphics#flashTime()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setFlashCount(int) public static void
-     * javax.swing.DebugGraphics.setFlashCount(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#setFlashCount(int) public
+     * static void javax.swing.DebugGraphics.setFlashCount(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -186,12 +184,12 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     @Category(Draft.class)
     public void test_setFlashCount_int()
     throws Exception {
-        // write some test for {@link DebugGraphics#setFlashCount(int)}
+        // write some test for {@link javax.swing.DebugGraphics#setFlashCount(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#flashColor() public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#flashColor() public static
      * java.awt.Color javax.swing.DebugGraphics.flashColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -206,13 +204,14 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     @Category(Draft.class)
     public void test_flashColor()
     throws Exception {
-        // write some test for {@link DebugGraphics#flashColor()}
+        // write some test for {@link javax.swing.DebugGraphics#flashColor()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setLogStream(PrintStream) public
-     * static void javax.swing.DebugGraphics.setLogStream(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#setLogStream(java.io.PrintStream) public static void
+     * javax.swing.DebugGraphics.setLogStream(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -226,12 +225,12 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     @Category(Draft.class)
     public void test_setLogStream_PrintStream()
     throws Exception {
-        // write some test for {@link DebugGraphics#setLogStream(PrintStream)}
+        // write some test for {@link javax.swing.DebugGraphics#setLogStream(java.io.PrintStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#logStream() public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#logStream() public static
      * java.io.PrintStream javax.swing.DebugGraphics.logStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -246,7 +245,7 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     @Category(Draft.class)
     public void test_logStream()
     throws Exception {
-        // write some test for {@link DebugGraphics#logStream()}
+        // write some test for {@link javax.swing.DebugGraphics#logStream()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DebugGraphics]

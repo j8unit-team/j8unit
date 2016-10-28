@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.BufferedWriter;
-import java.io.Writer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.io.BufferedWriterClassTests<BufferedWriter
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BufferedWriter#BufferedWriter(Writer) public
-     * java.io.BufferedWriter(java.io.Writer)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.BufferedWriter#BufferedWriter(java.io.Writer) public java.io.BufferedWriter(java.io.Writer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +38,14 @@ implements org.j8unit.repository.java.io.BufferedWriterClassTests<BufferedWriter
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferedWriter sut = null; // = new BufferedWriter(Writer);
+        final BufferedWriter sut = null; // = new BufferedWriter(java.io.Writer);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BufferedWriter#BufferedWriter(Writer, int)
-     * public java.io.BufferedWriter(java.io.Writer,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.BufferedWriter#BufferedWriter(java.io.Writer, int) public
+     * java.io.BufferedWriter(java.io.Writer,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +61,7 @@ implements org.j8unit.repository.java.io.BufferedWriterClassTests<BufferedWriter
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferedWriter sut = null; // = new BufferedWriter(Writer, int);
+        final BufferedWriter sut = null; // = new BufferedWriter(java.io.Writer, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.BufferedWriter]

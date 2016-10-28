@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.stream;
 
-import java.io.InputStream;
 import javax.imageio.stream.MemoryCacheImageInputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.imageio.stream.MemoryCacheImageInputStrea
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MemoryCacheImageInputStream#MemoryCacheImageInputStream(InputStream) public
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#MemoryCacheImageInputStream(java.io.InputStream) public
      * javax.imageio.stream.MemoryCacheImageInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.imageio.stream.MemoryCacheImageInputStrea
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MemoryCacheImageInputStream sut = null; // = new MemoryCacheImageInputStream(InputStream);
+        final MemoryCacheImageInputStream sut = null; // = new MemoryCacheImageInputStream(java.io.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.MemoryCacheImageInputStream]

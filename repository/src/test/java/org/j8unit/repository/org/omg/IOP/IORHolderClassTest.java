@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.IOP.IOR;
 import org.omg.IOP.IORHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,7 +21,7 @@ implements org.j8unit.repository.org.omg.IOP.IORHolderClassTests<IORHolder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IORHolder#IORHolder() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.IOP.IORHolder#IORHolder() public
      * org.omg.IOP.IORHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +42,8 @@ implements org.j8unit.repository.org.omg.IOP.IORHolderClassTests<IORHolder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IORHolder#IORHolder(IOR) public
-     * org.omg.IOP.IORHolder(org.omg.IOP.IOR)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.IORHolder#IORHolder(org.omg.IOP.IOR) public org.omg.IOP.IORHolder(org.omg.IOP.IOR)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +59,7 @@ implements org.j8unit.repository.org.omg.IOP.IORHolderClassTests<IORHolder> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IORHolder sut = null; // = new IORHolder(IOR);
+        final IORHolder sut = null; // = new IORHolder(org.omg.IOP.IOR);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.IORHolder]

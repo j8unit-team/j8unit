@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.IndexColorModel;
-import java.math.BigInteger;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.IndexColorModelClassTests<IndexC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexColorModel#IndexColorModel(int, int, byte[], byte[], byte[], byte[]) public
+     * {@link java.awt.image.IndexColorModel#IndexColorModel(int, int, byte[], byte[], byte[], byte[]) public
      * java.awt.image.IndexColorModel(int,int,byte[],byte[],byte[],byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,7 @@ implements org.j8unit.repository.java.awt.image.IndexColorModelClassTests<IndexC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexColorModel#IndexColorModel(int, int, byte[], int, boolean) public
+     * {@link java.awt.image.IndexColorModel#IndexColorModel(int, int, byte[], int, boolean) public
      * java.awt.image.IndexColorModel(int,int,byte[],int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,7 +68,7 @@ implements org.j8unit.repository.java.awt.image.IndexColorModelClassTests<IndexC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexColorModel#IndexColorModel(int, int, int[], int, int, BigInteger) public
+     * {@link java.awt.image.IndexColorModel#IndexColorModel(int, int, int[], int, int, java.math.BigInteger) public
      * java.awt.image.IndexColorModel(int,int,int[],int,int,java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,13 +85,13 @@ implements org.j8unit.repository.java.awt.image.IndexColorModelClassTests<IndexC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IndexColorModel sut = null; // = new IndexColorModel(int, int, int[], int, int, BigInteger);
+        final IndexColorModel sut = null; // = new IndexColorModel(int, int, int[], int, int, java.math.BigInteger);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexColorModel#IndexColorModel(int, int, int[], int, boolean, int, int) public
+     * {@link java.awt.image.IndexColorModel#IndexColorModel(int, int, int[], int, boolean, int, int) public
      * java.awt.image.IndexColorModel(int,int,int[],int,boolean,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -115,7 +114,7 @@ implements org.j8unit.repository.java.awt.image.IndexColorModelClassTests<IndexC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexColorModel#IndexColorModel(int, int, byte[], byte[], byte[], int) public
+     * {@link java.awt.image.IndexColorModel#IndexColorModel(int, int, byte[], byte[], byte[], int) public
      * java.awt.image.IndexColorModel(int,int,byte[],byte[],byte[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -138,7 +137,7 @@ implements org.j8unit.repository.java.awt.image.IndexColorModelClassTests<IndexC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexColorModel#IndexColorModel(int, int, byte[], byte[], byte[]) public
+     * {@link java.awt.image.IndexColorModel#IndexColorModel(int, int, byte[], byte[], byte[]) public
      * java.awt.image.IndexColorModel(int,int,byte[],byte[],byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -161,7 +160,7 @@ implements org.j8unit.repository.java.awt.image.IndexColorModelClassTests<IndexC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexColorModel#IndexColorModel(int, int, byte[], int, boolean, int) public
+     * {@link java.awt.image.IndexColorModel#IndexColorModel(int, int, byte[], int, boolean, int) public
      * java.awt.image.IndexColorModel(int,int,byte[],int,boolean,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
 import static org.junit.Assert.fail;
-import java.util.Map;
 import javax.management.remote.rmi.RMIServerImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIServerImplClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RMIServerImpl#RMIServerImpl(Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.remote.rmi.RMIServerImpl#RMIServerImpl(java.util.Map) public
      * javax.management.remote.rmi.RMIServerImpl(java.util.Map<java.lang.String, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

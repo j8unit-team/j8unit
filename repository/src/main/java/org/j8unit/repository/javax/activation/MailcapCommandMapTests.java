@@ -34,9 +34,9 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MailcapCommandMap#getPreferredCommands(String)
-     * public synchronized javax.activation.CommandInfo[]
-     * javax.activation.MailcapCommandMap.getPreferredCommands(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MailcapCommandMap#getPreferredCommands(String) public synchronized
+     * javax.activation.CommandInfo[] javax.activation.MailcapCommandMap.getPreferredCommands(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +58,9 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MailcapCommandMap#getCommand(String, String) public
-     * synchronized javax.activation.CommandInfo
-     * javax.activation.MailcapCommandMap.getCommand(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MailcapCommandMap#getCommand(String, String) public synchronized
+     * javax.activation.CommandInfo javax.activation.MailcapCommandMap.getCommand(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,9 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MailcapCommandMap#getNativeCommands(String) public
-     * synchronized java.lang.String[] javax.activation.MailcapCommandMap.getNativeCommands(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MailcapCommandMap#getNativeCommands(String) public synchronized java.lang.String[]
+     * javax.activation.MailcapCommandMap.getNativeCommands(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +105,8 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MailcapCommandMap#getMimeTypes() public synchronized
-     * java.lang.String[] javax.activation.MailcapCommandMap.getMimeTypes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MailcapCommandMap#getMimeTypes()
+     * public synchronized java.lang.String[] javax.activation.MailcapCommandMap.getMimeTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +128,9 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MailcapCommandMap#getAllCommands(String) public
-     * synchronized javax.activation.CommandInfo[] javax.activation.MailcapCommandMap.getAllCommands(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MailcapCommandMap#getAllCommands(String) public synchronized
+     * javax.activation.CommandInfo[] javax.activation.MailcapCommandMap.getAllCommands(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +152,9 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MailcapCommandMap#createDataContentHandler(String)
-     * public synchronized javax.activation.DataContentHandler
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MailcapCommandMap#createDataContentHandler(String) public synchronized
+     * javax.activation.DataContentHandler
      * javax.activation.MailcapCommandMap.createDataContentHandler(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +177,9 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MailcapCommandMap#addMailcap(String) public
-     * synchronized void javax.activation.MailcapCommandMap.addMailcap(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MailcapCommandMap#addMailcap(String) public synchronized void
+     * javax.activation.MailcapCommandMap.addMailcap(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

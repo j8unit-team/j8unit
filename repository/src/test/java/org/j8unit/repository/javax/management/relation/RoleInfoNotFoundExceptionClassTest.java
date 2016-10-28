@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.relation.RoleInfoNotFoundExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RoleInfoNotFoundException#RoleInfoNotFoundException() public
+     * {@link javax.management.relation.RoleInfoNotFoundException#RoleInfoNotFoundException() public
      * javax.management.relation.RoleInfoNotFoundException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.relation.RoleInfoNotFoundExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RoleInfoNotFoundException#RoleInfoNotFoundException(String) public
+     * {@link javax.management.relation.RoleInfoNotFoundException#RoleInfoNotFoundException(String) public
      * javax.management.relation.RoleInfoNotFoundException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

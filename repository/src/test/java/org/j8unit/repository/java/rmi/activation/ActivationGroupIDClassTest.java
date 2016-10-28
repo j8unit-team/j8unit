@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.rmi.activation;
 
 import java.rmi.activation.ActivationGroupID;
-import java.rmi.activation.ActivationSystem;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupIDClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationGroupID#ActivationGroupID(ActivationSystem) public
+     * {@link java.rmi.activation.ActivationGroupID#ActivationGroupID(java.rmi.activation.ActivationSystem) public
      * java.rmi.activation.ActivationGroupID(java.rmi.activation.ActivationSystem)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupIDClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ActivationGroupID sut = null; // = new ActivationGroupID(ActivationSystem);
+        final ActivationGroupID sut = null; // = new ActivationGroupID(java.rmi.activation.ActivationSystem);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationGroupID]

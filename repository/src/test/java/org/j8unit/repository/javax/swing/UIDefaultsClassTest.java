@@ -25,8 +25,8 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UIDefaults#UIDefaults(Object[]) public
-     * javax.swing.UIDefaults(java.lang.Object[])}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.UIDefaults#UIDefaults(Object[])
+     * public javax.swing.UIDefaults(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,8 +47,8 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UIDefaults#UIDefaults(int, float) public
-     * javax.swing.UIDefaults(int,float)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.UIDefaults#UIDefaults(int, float)
+     * public javax.swing.UIDefaults(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -69,7 +69,7 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UIDefaults#UIDefaults() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.UIDefaults#UIDefaults() public
      * javax.swing.UIDefaults()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +104,7 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link ProxyLazyValue#ProxyLazyValue(String, String, Object[]) public
+         * {@link javax.swing.UIDefaults.ProxyLazyValue#ProxyLazyValue(String, String, Object[]) public
          * javax.swing.UIDefaults$ProxyLazyValue(java.lang.String,java.lang.String,java.lang.Object[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,7 +127,7 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link ProxyLazyValue#ProxyLazyValue(String, Object[]) public
+         * {@link javax.swing.UIDefaults.ProxyLazyValue#ProxyLazyValue(String, Object[]) public
          * javax.swing.UIDefaults$ProxyLazyValue(java.lang.String,java.lang.Object[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,7 +150,7 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link ProxyLazyValue#ProxyLazyValue(String, String) public
+         * {@link javax.swing.UIDefaults.ProxyLazyValue#ProxyLazyValue(String, String) public
          * javax.swing.UIDefaults$ProxyLazyValue(java.lang.String,java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,8 +172,9 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link ProxyLazyValue#ProxyLazyValue(String)
-         * public javax.swing.UIDefaults$ProxyLazyValue(java.lang.String)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.UIDefaults.ProxyLazyValue#ProxyLazyValue(String) public
+         * javax.swing.UIDefaults$ProxyLazyValue(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -193,21 +194,6 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ProxyLazyValue]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class LazyValueClassTest
-    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyValueClassTests<LazyValue> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
-
-        @Override
-        public Class<LazyValue> createNewSUT() {
-            return LazyValue.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
 
     }
 
@@ -239,7 +225,8 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link LazyInputMap#LazyInputMap(Object[]) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.UIDefaults.LazyInputMap#LazyInputMap(Object[]) public
          * javax.swing.UIDefaults$LazyInputMap(java.lang.Object[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,6 +247,21 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class LazyValueClassTest
+    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyValueClassTests<LazyValue> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
+
+        @Override
+        public Class<LazyValue> createNewSUT() {
+            return LazyValue.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
 
     }
 

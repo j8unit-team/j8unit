@@ -22,8 +22,9 @@ implements org.j8unit.repository.org.omg.PortableServer.DynamicImplementationCla
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DynamicImplementation#DynamicImplementation()
-     * public org.omg.PortableServer.DynamicImplementation()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.DynamicImplementation#DynamicImplementation() public
+     * org.omg.PortableServer.DynamicImplementation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

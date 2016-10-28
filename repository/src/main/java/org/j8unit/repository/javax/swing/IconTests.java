@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Graphics;
 import javax.swing.Icon;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Icon#paintIcon(Component, Graphics, int, int) public
-     * abstract void javax.swing.Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.Icon#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public abstract void
+     * javax.swing.Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Icon#getIconHeight() public abstract int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Icon#getIconHeight() public abstract int
      * javax.swing.Icon.getIconHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Icon#getIconWidth() public abstract int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Icon#getIconWidth() public abstract int
      * javax.swing.Icon.getIconWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

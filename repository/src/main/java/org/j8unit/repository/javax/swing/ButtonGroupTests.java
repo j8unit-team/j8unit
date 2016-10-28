@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
-import javax.swing.ButtonModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ButtonGroup#setSelected(ButtonModel, boolean) public
-     * void javax.swing.ButtonGroup.setSelected(javax.swing.ButtonModel,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ButtonGroup#setSelected(javax.swing.ButtonModel, boolean) public void
+     * javax.swing.ButtonGroup.setSelected(javax.swing.ButtonModel,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ButtonGroup#clearSelection() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ButtonGroup#clearSelection() public void
      * javax.swing.ButtonGroup.clearSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ButtonGroup#getElements() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ButtonGroup#getElements() public
      * java.util.Enumeration<javax.swing.AbstractButton> javax.swing.ButtonGroup.getElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ButtonGroup#add(AbstractButton) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ButtonGroup#add(javax.swing.AbstractButton) public void
      * javax.swing.ButtonGroup.add(javax.swing.AbstractButton)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ButtonGroup#getSelection() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ButtonGroup#getSelection() public
      * javax.swing.ButtonModel javax.swing.ButtonGroup.getSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ButtonGroup#getButtonCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ButtonGroup#getButtonCount() public int
      * javax.swing.ButtonGroup.getButtonCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +168,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ButtonGroup#remove(AbstractButton) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ButtonGroup#remove(javax.swing.AbstractButton) public void
      * javax.swing.ButtonGroup.remove(javax.swing.AbstractButton)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +191,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ButtonGroup#isSelected(ButtonModel) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ButtonGroup#isSelected(javax.swing.ButtonModel) public boolean
      * javax.swing.ButtonGroup.isSelected(javax.swing.ButtonModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

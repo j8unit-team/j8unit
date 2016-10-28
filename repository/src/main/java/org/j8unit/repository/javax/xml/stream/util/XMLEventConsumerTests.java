@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.stream.util;
 
-import javax.xml.stream.events.XMLEvent;
 import javax.xml.stream.util.XMLEventConsumer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventConsumer#add(XMLEvent) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.XMLEventConsumer#add(javax.xml.stream.events.XMLEvent) public abstract void
      * javax.xml.stream.util.XMLEventConsumer.add(javax.xml.stream.events.XMLEvent) throws
      * javax.xml.stream.XMLStreamException}.
      *

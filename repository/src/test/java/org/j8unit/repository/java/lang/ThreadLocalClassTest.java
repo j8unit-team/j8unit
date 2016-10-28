@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.lang;
 
-import java.util.function.Supplier;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -43,8 +42,9 @@ implements org.j8unit.repository.java.lang.ThreadLocalClassTests<ThreadLocal> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadLocal#withInitial(Supplier) public static
-     * <S> java.lang.ThreadLocal<S> java.lang.ThreadLocal.withInitial(java.util.function.Supplier<? extends S>)}.
+     * Test method for the hereby targeted method-under-test {@link ThreadLocal#withInitial(java.util.function.Supplier)
+     * public static <S> java.lang.ThreadLocal<S> java.lang.ThreadLocal.withInitial(java.util.function.Supplier<?
+     * extends S>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ implements org.j8unit.repository.java.lang.ThreadLocalClassTests<ThreadLocal> {
     @Category(Draft.class)
     public void test_withInitial_Supplier()
     throws Exception {
-        // write some test for {@link ThreadLocal#withInitial(Supplier)}
+        // write some test for {@link ThreadLocal#withInitial(java.util.function.Supplier)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ThreadLocal]

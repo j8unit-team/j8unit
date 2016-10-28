@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocketImplFactory#createDatagramSocketImpl()
-     * public abstract java.net.DatagramSocketImpl java.net.DatagramSocketImplFactory.createDatagramSocketImpl()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.DatagramSocketImplFactory#createDatagramSocketImpl() public abstract java.net.DatagramSocketImpl
+     * java.net.DatagramSocketImplFactory.createDatagramSocketImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

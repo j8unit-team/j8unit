@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.File;
-import java.io.FileDescriptor;
 import java.io.FileWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.java.io.FileWriterClassTests<FileWriter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileWriter#FileWriter(FileDescriptor) public
-     * java.io.FileWriter(java.io.FileDescriptor)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.FileWriter#FileWriter(java.io.FileDescriptor) public java.io.FileWriter(java.io.FileDescriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +38,14 @@ implements org.j8unit.repository.java.io.FileWriterClassTests<FileWriter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileWriter sut = null; // = new FileWriter(FileDescriptor);
+        final FileWriter sut = null; // = new FileWriter(java.io.FileDescriptor);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileWriter#FileWriter(File, boolean) public
-     * java.io.FileWriter(java.io.File,boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.FileWriter#FileWriter(java.io.File, boolean) public java.io.FileWriter(java.io.File,boolean)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +61,13 @@ implements org.j8unit.repository.java.io.FileWriterClassTests<FileWriter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileWriter sut = null; // = new FileWriter(File, boolean);
+        final FileWriter sut = null; // = new FileWriter(java.io.File, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileWriter#FileWriter(File) public
-     * java.io.FileWriter(java.io.File) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.io.FileWriter#FileWriter(java.io.File)
+     * public java.io.FileWriter(java.io.File) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,13 +83,13 @@ implements org.j8unit.repository.java.io.FileWriterClassTests<FileWriter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileWriter sut = null; // = new FileWriter(File);
+        final FileWriter sut = null; // = new FileWriter(java.io.File);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileWriter#FileWriter(String, boolean) public
-     * java.io.FileWriter(java.lang.String,boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.io.FileWriter#FileWriter(String, boolean)
+     * public java.io.FileWriter(java.lang.String,boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,7 +110,7 @@ implements org.j8unit.repository.java.io.FileWriterClassTests<FileWriter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileWriter#FileWriter(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.io.FileWriter#FileWriter(String) public
      * java.io.FileWriter(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

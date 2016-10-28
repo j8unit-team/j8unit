@@ -21,8 +21,9 @@ implements org.j8unit.repository.org.omg.PortableServer._ServantActivatorStubCla
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link _ServantActivatorStub#_ServantActivatorStub()
-     * public org.omg.PortableServer._ServantActivatorStub()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer._ServantActivatorStub#_ServantActivatorStub() public
+     * org.omg.PortableServer._ServantActivatorStub()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

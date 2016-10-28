@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptException#getFileName() public
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptException#getFileName() public
      * java.lang.String javax.script.ScriptException.getFileName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptException#getColumnNumber() public int
-     * javax.script.ScriptException.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptException#getColumnNumber()
+     * public int javax.script.ScriptException.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptException#getMessage() public java.lang.String
-     * javax.script.ScriptException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptException#getMessage() public
+     * java.lang.String javax.script.ScriptException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptException#getLineNumber() public int
-     * javax.script.ScriptException.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptException#getLineNumber() public
+     * int javax.script.ScriptException.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

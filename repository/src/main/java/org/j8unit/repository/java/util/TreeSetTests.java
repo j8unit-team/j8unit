@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Collection;
 import java.util.TreeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#remove(Object) public boolean
      * java.util.TreeSet.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#pollLast() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#pollLast() public E
      * java.util.TreeSet.pollLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +81,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#descendingIterator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#descendingIterator() public
      * java.util.Iterator<E> java.util.TreeSet.descendingIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +104,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#descendingSet() public
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#descendingSet() public
      * java.util.NavigableSet<E> java.util.TreeSet.descendingSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,8 +127,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#headSet(Object) public java.util.SortedSet
-     * <E> java.util.TreeSet.headSet(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#headSet(Object) public
+     * java.util.SortedSet<E> java.util.TreeSet.headSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,7 +150,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#headSet(Object, boolean) public
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#headSet(Object, boolean) public
      * java.util.NavigableSet<E> java.util.TreeSet.headSet(E,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,7 +173,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#floor(Object) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#floor(Object) public E
      * java.util.TreeSet.floor(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -197,8 +196,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#subSet(Object, boolean, Object, boolean)
-     * public java.util.NavigableSet<E> java.util.TreeSet.subSet(E,boolean,E,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.TreeSet#subSet(Object, boolean, Object, boolean) public java.util.NavigableSet
+     * <E> java.util.TreeSet.subSet(E,boolean,E,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,7 +220,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#subSet(Object, Object) public
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#subSet(Object, Object) public
      * java.util.SortedSet<E> java.util.TreeSet.subSet(E,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -243,8 +243,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#iterator() public java.util.Iterator
-     * <E> java.util.TreeSet.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#iterator() public
+     * java.util.Iterator<E> java.util.TreeSet.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -266,7 +266,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#isEmpty() public boolean
      * java.util.TreeSet.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,7 +289,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#clear() public void
      * java.util.TreeSet.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,7 +312,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#lower(Object) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#lower(Object) public E
      * java.util.TreeSet.lower(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -335,7 +335,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#last() public E java.util.TreeSet.last()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#last() public E
+     * java.util.TreeSet.last()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -357,8 +358,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#spliterator() public java.util.Spliterator
-     * <E> java.util.TreeSet.spliterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#spliterator() public
+     * java.util.Spliterator<E> java.util.TreeSet.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -380,8 +381,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#tailSet(Object) public java.util.SortedSet
-     * <E> java.util.TreeSet.tailSet(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#tailSet(Object) public
+     * java.util.SortedSet<E> java.util.TreeSet.tailSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -403,7 +404,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#tailSet(Object, boolean) public
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#tailSet(Object, boolean) public
      * java.util.NavigableSet<E> java.util.TreeSet.tailSet(E,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -426,7 +427,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#add(Object) public boolean
      * java.util.TreeSet.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -449,7 +450,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#ceiling(Object) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#ceiling(Object) public E
      * java.util.TreeSet.ceiling(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -472,7 +473,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#first() public E java.util.TreeSet.first()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#first() public E
+     * java.util.TreeSet.first()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -494,7 +496,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#higher(Object) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#higher(Object) public E
      * java.util.TreeSet.higher(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -517,7 +519,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#pollFirst() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#pollFirst() public E
      * java.util.TreeSet.pollFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -540,7 +542,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#clone() public java.lang.Object
      * java.util.TreeSet.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -562,7 +564,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#size() public int java.util.TreeSet.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#size() public int
+     * java.util.TreeSet.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -584,8 +587,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#addAll(Collection) public boolean
-     * java.util.TreeSet.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#addAll(java.util.Collection)
+     * public boolean java.util.TreeSet.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -607,7 +610,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#contains(Object) public boolean
      * java.util.TreeSet.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -630,8 +633,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSet#comparator() public java.util.Comparator<?
-     * super E> java.util.TreeSet.comparator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TreeSet#comparator() public
+     * java.util.Comparator<? super E> java.util.TreeSet.comparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

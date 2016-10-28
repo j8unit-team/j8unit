@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.Component;
-import java.awt.datatransfer.FlavorMap;
 import java.awt.dnd.DropTarget;
-import java.awt.dnd.DropTargetListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,7 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetClassTests<DropTarget> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DropTarget#DropTarget(Component, int, DropTargetListener) public
+     * {@link java.awt.dnd.DropTarget#DropTarget(java.awt.Component, int, java.awt.dnd.DropTargetListener) public
      * java.awt.dnd.DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener) throws
      * java.awt.HeadlessException}.
      *
@@ -43,13 +40,13 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetClassTests<DropTarget> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DropTarget sut = null; // = new DropTarget(Component, int, DropTargetListener);
+        final DropTarget sut = null; // = new DropTarget(java.awt.Component, int, java.awt.dnd.DropTargetListener);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DropTarget#DropTarget(Component, DropTargetListener) public
+     * {@link java.awt.dnd.DropTarget#DropTarget(java.awt.Component, java.awt.dnd.DropTargetListener) public
      * java.awt.dnd.DropTarget(java.awt.Component,java.awt.dnd.DropTargetListener) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,12 +63,12 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetClassTests<DropTarget> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DropTarget sut = null; // = new DropTarget(Component, DropTargetListener);
+        final DropTarget sut = null; // = new DropTarget(java.awt.Component, java.awt.dnd.DropTargetListener);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DropTarget#DropTarget() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.dnd.DropTarget#DropTarget() public
      * java.awt.dnd.DropTarget() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -93,8 +90,8 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetClassTests<DropTarget> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DropTarget#DropTarget(Component, int, DropTargetListener, boolean) public
-     * java.awt.dnd.DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener,boolean) throws
+     * {@link java.awt.dnd.DropTarget#DropTarget(java.awt.Component, int, java.awt.dnd.DropTargetListener, boolean)
+     * public java.awt.dnd.DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener,boolean) throws
      * java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,13 +108,15 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetClassTests<DropTarget> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DropTarget sut = null; // = new DropTarget(Component, int, DropTargetListener, boolean);
+        final DropTarget sut = null; // = new DropTarget(java.awt.Component, int, java.awt.dnd.DropTargetListener,
+                                     // boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DropTarget#DropTarget(Component, int, DropTargetListener, boolean, FlavorMap) public
+     * {@link java.awt.dnd.DropTarget#DropTarget(java.awt.Component, int, java.awt.dnd.DropTargetListener, boolean, java.awt.datatransfer.FlavorMap)
+     * public
      * java.awt.dnd.DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener,boolean,java.awt.datatransfer.FlavorMap)
      * throws java.awt.HeadlessException}.
      *
@@ -135,7 +134,8 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetClassTests<DropTarget> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DropTarget sut = null; // = new DropTarget(Component, int, DropTargetListener, boolean, FlavorMap);
+        final DropTarget sut = null; // = new DropTarget(java.awt.Component, int, java.awt.dnd.DropTargetListener,
+                                     // boolean, java.awt.datatransfer.FlavorMap);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DropTarget]

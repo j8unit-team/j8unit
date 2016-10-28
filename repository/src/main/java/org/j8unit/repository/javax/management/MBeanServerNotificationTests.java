@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerNotification#getMBeanName() public
-     * javax.management.ObjectName javax.management.MBeanServerNotification.getMBeanName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerNotification#getMBeanName() public javax.management.ObjectName
+     * javax.management.MBeanServerNotification.getMBeanName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerNotification#toString() public
-     * java.lang.String javax.management.MBeanServerNotification.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanServerNotification#toString()
+     * public java.lang.String javax.management.MBeanServerNotification.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

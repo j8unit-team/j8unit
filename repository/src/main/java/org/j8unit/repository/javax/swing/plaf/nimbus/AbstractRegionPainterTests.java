@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.nimbus;
 
-import java.awt.Graphics2D;
 import javax.swing.JComponent;
 import javax.swing.plaf.nimbus.AbstractRegionPainter;
 import org.j8unit.repository.categories.Draft;
@@ -37,7 +36,8 @@ extends org.j8unit.repository.javax.swing.PainterTests<SUT, JComponent>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractRegionPainter#paint(Graphics2D, JComponent, int, int) public final void
+     * {@link javax.swing.plaf.nimbus.AbstractRegionPainter#paint(java.awt.Graphics2D, javax.swing.JComponent, int, int)
+     * public final void
      * javax.swing.plaf.nimbus.AbstractRegionPainter.paint(java.awt.Graphics2D,javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

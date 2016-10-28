@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECPoint#getAffineY() public java.math.BigInteger
-     * java.security.spec.ECPoint.getAffineY()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECPoint#getAffineY() public
+     * java.math.BigInteger java.security.spec.ECPoint.getAffineY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECPoint#getAffineX() public java.math.BigInteger
-     * java.security.spec.ECPoint.getAffineX()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECPoint#getAffineX() public
+     * java.math.BigInteger java.security.spec.ECPoint.getAffineX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECPoint#equals(Object) public boolean
-     * java.security.spec.ECPoint.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECPoint#equals(Object) public
+     * boolean java.security.spec.ECPoint.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECPoint#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECPoint#hashCode() public int
      * java.security.spec.ECPoint.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

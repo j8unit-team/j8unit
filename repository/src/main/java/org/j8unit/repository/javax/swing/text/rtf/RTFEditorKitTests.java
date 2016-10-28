@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.swing.text.rtf;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.Reader;
-import java.io.Writer;
-import javax.swing.text.Document;
 import javax.swing.text.rtf.RTFEditorKit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RTFEditorKit#getContentType() public
-     * java.lang.String javax.swing.text.rtf.RTFEditorKit.getContentType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.rtf.RTFEditorKit#getContentType()
+     * public java.lang.String javax.swing.text.rtf.RTFEditorKit.getContentType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,9 +57,10 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RTFEditorKit#write(OutputStream, Document, int, int)
-     * public void javax.swing.text.rtf.RTFEditorKit.write(java.io.OutputStream,javax.swing.text.Document,int,int)
-     * throws java.io.IOException,javax.swing.text.BadLocationException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.rtf.RTFEditorKit#write(java.io.OutputStream, javax.swing.text.Document, int, int) public
+     * void javax.swing.text.rtf.RTFEditorKit.write(java.io.OutputStream,javax.swing.text.Document,int,int) throws
+     * java.io.IOException,javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,8 +82,9 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RTFEditorKit#write(Writer, Document, int, int)
-     * public void javax.swing.text.rtf.RTFEditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.rtf.RTFEditorKit#write(java.io.Writer, javax.swing.text.Document, int, int) public void
+     * javax.swing.text.rtf.RTFEditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,7 +107,8 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RTFEditorKit#read(Reader, Document, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.rtf.RTFEditorKit#read(java.io.Reader, javax.swing.text.Document, int) public void
      * javax.swing.text.rtf.RTFEditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
      *
@@ -134,8 +132,9 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RTFEditorKit#read(InputStream, Document, int) public
-     * void javax.swing.text.rtf.RTFEditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.rtf.RTFEditorKit#read(java.io.InputStream, javax.swing.text.Document, int) public void
+     * javax.swing.text.rtf.RTFEditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

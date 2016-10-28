@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator2#getEncoding() public abstract
-     * java.lang.String org.xml.sax.ext.Locator2.getEncoding()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Locator2#getEncoding() public
+     * abstract java.lang.String org.xml.sax.ext.Locator2.getEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator2#getXMLVersion() public abstract
-     * java.lang.String org.xml.sax.ext.Locator2.getXMLVersion()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Locator2#getXMLVersion() public
+     * abstract java.lang.String org.xml.sax.ext.Locator2.getXMLVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

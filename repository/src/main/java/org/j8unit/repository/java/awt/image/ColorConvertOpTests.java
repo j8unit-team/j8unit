@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.geom.Point2D;
-import java.awt.image.BufferedImage;
 import java.awt.image.ColorConvertOp;
-import java.awt.image.ColorModel;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,9 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorConvertOp#getPoint2D(Point2D, Point2D) public
-     * final java.awt.geom.Point2D
-     * java.awt.image.ColorConvertOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ColorConvertOp#getPoint2D(java.awt.geom.Point2D, java.awt.geom.Point2D) public final
+     * java.awt.geom.Point2D java.awt.image.ColorConvertOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +59,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorConvertOp#filter(Raster, WritableRaster) public
-     * final java.awt.image.WritableRaster
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ColorConvertOp#filter(java.awt.image.Raster, java.awt.image.WritableRaster) public final
+     * java.awt.image.WritableRaster
      * java.awt.image.ColorConvertOp.filter(java.awt.image.Raster,java.awt.image.WritableRaster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +84,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorConvertOp#filter(BufferedImage, BufferedImage)
-     * public final java.awt.image.BufferedImage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ColorConvertOp#filter(java.awt.image.BufferedImage, java.awt.image.BufferedImage) public
+     * final java.awt.image.BufferedImage
      * java.awt.image.ColorConvertOp.filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,8 +109,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorConvertOp#getICC_Profiles() public final
-     * java.awt.color.ICC_Profile[] java.awt.image.ColorConvertOp.getICC_Profiles()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorConvertOp#getICC_Profiles()
+     * public final java.awt.color.ICC_Profile[] java.awt.image.ColorConvertOp.getICC_Profiles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -134,8 +131,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorConvertOp#getBounds2D(BufferedImage) public
-     * final java.awt.geom.Rectangle2D java.awt.image.ColorConvertOp.getBounds2D(java.awt.image.BufferedImage)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ColorConvertOp#getBounds2D(java.awt.image.BufferedImage) public final
+     * java.awt.geom.Rectangle2D java.awt.image.ColorConvertOp.getBounds2D(java.awt.image.BufferedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,8 +155,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorConvertOp#getBounds2D(Raster) public final
-     * java.awt.geom.Rectangle2D java.awt.image.ColorConvertOp.getBounds2D(java.awt.image.Raster)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ColorConvertOp#getBounds2D(java.awt.image.Raster) public final java.awt.geom.Rectangle2D
+     * java.awt.image.ColorConvertOp.getBounds2D(java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,8 +179,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorConvertOp#getRenderingHints() public final
-     * java.awt.RenderingHints java.awt.image.ColorConvertOp.getRenderingHints()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorConvertOp#getRenderingHints()
+     * public final java.awt.RenderingHints java.awt.image.ColorConvertOp.getRenderingHints()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -203,9 +202,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorConvertOp#createCompatibleDestRaster(Raster)
-     * public java.awt.image.WritableRaster
-     * java.awt.image.ColorConvertOp.createCompatibleDestRaster(java.awt.image.Raster)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ColorConvertOp#createCompatibleDestRaster(java.awt.image.Raster) public
+     * java.awt.image.WritableRaster java.awt.image.ColorConvertOp.createCompatibleDestRaster(java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -228,7 +227,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ColorConvertOp#createCompatibleDestImage(BufferedImage, ColorModel) public java.awt.image.BufferedImage
+     * {@link java.awt.image.ColorConvertOp#createCompatibleDestImage(java.awt.image.BufferedImage, java.awt.image.ColorModel)
+     * public java.awt.image.BufferedImage
      * java.awt.image.ColorConvertOp.createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

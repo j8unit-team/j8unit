@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.ReflectionExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ReflectionException#ReflectionException(Exception) public
+     * {@link javax.management.ReflectionException#ReflectionException(Exception) public
      * javax.management.ReflectionException(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.ReflectionExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ReflectionException#ReflectionException(Exception, String) public
+     * {@link javax.management.ReflectionException#ReflectionException(Exception, String) public
      * javax.management.ReflectionException(java.lang.Exception,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

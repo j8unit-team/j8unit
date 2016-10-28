@@ -1,19 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import javax.swing.Action;
-import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.JPopupMenu.Separator;
-import javax.swing.MenuElement;
-import javax.swing.MenuSelectionManager;
-import javax.swing.SingleSelectionModel;
-import javax.swing.event.MenuKeyListener;
-import javax.swing.event.PopupMenuListener;
-import javax.swing.plaf.PopupMenuUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -48,8 +36,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getInvoker() public java.awt.Component
-     * javax.swing.JPopupMenu.getInvoker()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getInvoker() public
+     * java.awt.Component javax.swing.JPopupMenu.getInvoker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -70,7 +58,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getSelectionModel() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getSelectionModel() public
      * javax.swing.SingleSelectionModel javax.swing.JPopupMenu.getSelectionModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -92,8 +80,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getComponentAtIndex(int) public
-     * java.awt.Component javax.swing.JPopupMenu.getComponentAtIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getComponentAtIndex(int)
+     * public java.awt.Component javax.swing.JPopupMenu.getComponentAtIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -114,8 +102,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setVisible(boolean) public void
-     * javax.swing.JPopupMenu.setVisible(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#setVisible(boolean) public
+     * void javax.swing.JPopupMenu.setVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,8 +125,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#add(JMenuItem) public
-     * javax.swing.JMenuItem javax.swing.JPopupMenu.add(javax.swing.JMenuItem)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#add(javax.swing.JMenuItem)
+     * public javax.swing.JMenuItem javax.swing.JPopupMenu.add(javax.swing.JMenuItem)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -159,30 +147,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#add(String) public javax.swing.JMenuItem
-     * javax.swing.JPopupMenu.add(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#add(Action) public javax.swing.JMenuItem
-     * javax.swing.JPopupMenu.add(javax.swing.Action)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#add(javax.swing.Action)
+     * public javax.swing.JMenuItem javax.swing.JPopupMenu.add(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -203,7 +169,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#add(String) public
+     * javax.swing.JMenuItem javax.swing.JPopupMenu.add(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JPopupMenu.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -226,7 +214,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#pack() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#pack() public void
      * javax.swing.JPopupMenu.pack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -248,7 +236,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setInvoker(Component) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#setInvoker(java.awt.Component) public void
      * javax.swing.JPopupMenu.setInvoker(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -270,8 +259,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#addPopupMenuListener(PopupMenuListener)
-     * public void javax.swing.JPopupMenu.addPopupMenuListener(javax.swing.event.PopupMenuListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#addPopupMenuListener(javax.swing.event.PopupMenuListener) public void
+     * javax.swing.JPopupMenu.addPopupMenuListener(javax.swing.event.PopupMenuListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -292,7 +282,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#isVisible() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#isVisible() public boolean
      * javax.swing.JPopupMenu.isVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -315,7 +305,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getMenuKeyListeners() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getMenuKeyListeners() public
      * javax.swing.event.MenuKeyListener[] javax.swing.JPopupMenu.getMenuKeyListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -337,8 +327,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setSelectionModel(SingleSelectionModel)
-     * public void javax.swing.JPopupMenu.setSelectionModel(javax.swing.SingleSelectionModel)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#setSelectionModel(javax.swing.SingleSelectionModel) public void
+     * javax.swing.JPopupMenu.setSelectionModel(javax.swing.SingleSelectionModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -359,52 +350,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#removeMenuKeyListener(MenuKeyListener)
-     * public void javax.swing.JPopupMenu.removeMenuKeyListener(javax.swing.event.MenuKeyListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeMenuKeyListener_MenuKeyListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#menuSelectionChanged(boolean) public void
-     * javax.swing.JPopupMenu.menuSelectionChanged(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_menuSelectionChanged_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setUI(PopupMenuUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#setUI(javax.swing.plaf.PopupMenuUI) public void
      * javax.swing.JPopupMenu.setUI(javax.swing.plaf.PopupMenuUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -426,8 +373,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#addMenuKeyListener(MenuKeyListener)
-     * public void javax.swing.JPopupMenu.addMenuKeyListener(javax.swing.event.MenuKeyListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#removeMenuKeyListener(javax.swing.event.MenuKeyListener) public void
+     * javax.swing.JPopupMenu.removeMenuKeyListener(javax.swing.event.MenuKeyListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -439,7 +387,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addMenuKeyListener_MenuKeyListener()
+    public default void test_removeMenuKeyListener_MenuKeyListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -448,7 +396,30 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getUI() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#menuSelectionChanged(boolean)
+     * public void javax.swing.JPopupMenu.menuSelectionChanged(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_menuSelectionChanged_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getUI() public
      * javax.swing.plaf.PopupMenuUI javax.swing.JPopupMenu.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -470,8 +441,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getComponent() public java.awt.Component
-     * javax.swing.JPopupMenu.getComponent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#addMenuKeyListener(javax.swing.event.MenuKeyListener) public void
+     * javax.swing.JPopupMenu.addMenuKeyListener(javax.swing.event.MenuKeyListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addMenuKeyListener_MenuKeyListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getComponent() public
+     * java.awt.Component javax.swing.JPopupMenu.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -493,7 +487,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setLabel(String) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#setLabel(String) public void
      * javax.swing.JPopupMenu.setLabel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -515,8 +509,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getMargin() public java.awt.Insets
-     * javax.swing.JPopupMenu.getMargin()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getMargin() public
+     * java.awt.Insets javax.swing.JPopupMenu.getMargin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -537,7 +531,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getComponentIndex(Component) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#getComponentIndex(java.awt.Component) public int
      * javax.swing.JPopupMenu.getComponentIndex(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -559,7 +554,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setSelected(Component) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#setSelected(java.awt.Component) public void
      * javax.swing.JPopupMenu.setSelected(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -581,8 +577,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setLightWeightPopupEnabled(boolean)
-     * public void javax.swing.JPopupMenu.setLightWeightPopupEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#setLightWeightPopupEnabled(boolean) public void
+     * javax.swing.JPopupMenu.setLightWeightPopupEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -603,8 +600,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getLabel() public java.lang.String
-     * javax.swing.JPopupMenu.getLabel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getLabel() public
+     * java.lang.String javax.swing.JPopupMenu.getLabel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -626,7 +623,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JPopupMenu#removePopupMenuListener(PopupMenuListener) public void
+     * {@link javax.swing.JPopupMenu#removePopupMenuListener(javax.swing.event.PopupMenuListener) public void
      * javax.swing.JPopupMenu.removePopupMenuListener(javax.swing.event.PopupMenuListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -648,7 +645,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#isPopupTrigger(MouseEvent) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#isPopupTrigger(java.awt.event.MouseEvent) public boolean
      * javax.swing.JPopupMenu.isPopupTrigger(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -670,7 +668,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#remove(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#remove(int) public void
      * javax.swing.JPopupMenu.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -693,29 +691,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setPopupSize(int, int) public void
-     * javax.swing.JPopupMenu.setPopupSize(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPopupSize_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setPopupSize(Dimension) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#setPopupSize(java.awt.Dimension) public void
      * javax.swing.JPopupMenu.setPopupSize(java.awt.Dimension)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -737,8 +714,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#setPopupSize(int, int) public
+     * void javax.swing.JPopupMenu.setPopupSize(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPopupSize_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JPopupMenu#processKeyEvent(KeyEvent, MenuElement[], MenuSelectionManager) public void
+     * {@link javax.swing.JPopupMenu#processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public void
      * javax.swing.JPopupMenu.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
      *
@@ -762,8 +762,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getUIClassID() public java.lang.String
-     * javax.swing.JPopupMenu.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getUIClassID() public
+     * java.lang.String javax.swing.JPopupMenu.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -785,8 +785,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setBorderPainted(boolean) public void
-     * javax.swing.JPopupMenu.setBorderPainted(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#setBorderPainted(boolean)
+     * public void javax.swing.JPopupMenu.setBorderPainted(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -807,29 +807,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#insert(Component, int) public void
-     * javax.swing.JPopupMenu.insert(java.awt.Component,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_Component_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#insert(Action, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#insert(javax.swing.Action, int) public void
      * javax.swing.JPopupMenu.insert(javax.swing.Action,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -851,7 +830,30 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#updateUI() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#insert(java.awt.Component, int) public void
+     * javax.swing.JPopupMenu.insert(java.awt.Component,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Component_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#updateUI() public void
      * javax.swing.JPopupMenu.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -874,7 +876,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#show(Component, int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#show(java.awt.Component, int, int) public void
      * javax.swing.JPopupMenu.show(java.awt.Component,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -896,8 +899,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#isBorderPainted() public boolean
-     * javax.swing.JPopupMenu.isBorderPainted()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#isBorderPainted() public
+     * boolean javax.swing.JPopupMenu.isBorderPainted()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -918,8 +921,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#setLocation(int, int) public void
-     * javax.swing.JPopupMenu.setLocation(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#setLocation(int, int) public
+     * void javax.swing.JPopupMenu.setLocation(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -941,7 +944,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#addSeparator() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#addSeparator() public void
      * javax.swing.JPopupMenu.addSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -963,7 +966,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getSubElements() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getSubElements() public
      * javax.swing.MenuElement[] javax.swing.JPopupMenu.getSubElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -986,8 +989,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getPopupMenuListeners() public
-     * javax.swing.event.PopupMenuListener[] javax.swing.JPopupMenu.getPopupMenuListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#getPopupMenuListeners()
+     * public javax.swing.event.PopupMenuListener[] javax.swing.JPopupMenu.getPopupMenuListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1008,8 +1011,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#isLightWeightPopupEnabled() public
-     * boolean javax.swing.JPopupMenu.isLightWeightPopupEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu#isLightWeightPopupEnabled()
+     * public boolean javax.swing.JPopupMenu.isLightWeightPopupEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1031,7 +1034,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JPopupMenu#processMouseEvent(MouseEvent, MenuElement[], MenuSelectionManager) public void
+     * {@link javax.swing.JPopupMenu#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public void
      * javax.swing.JPopupMenu.processMouseEvent(java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
      *
@@ -1082,8 +1086,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Separator#getUIClassID() public java.lang.String
-         * javax.swing.JPopupMenu$Separator.getUIClassID()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JPopupMenu.Separator#getUIClassID()
+         * public java.lang.String javax.swing.JPopupMenu$Separator.getUIClassID()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

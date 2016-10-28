@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneNotSupportedExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerCloneException#getCause() public
-     * java.lang.Throwable java.rmi.server.ServerCloneException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.ServerCloneException#getCause()
+     * public java.lang.Throwable java.rmi.server.ServerCloneException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.CloneNotSupportedExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerCloneException#getMessage() public
-     * java.lang.String java.rmi.server.ServerCloneException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.ServerCloneException#getMessage()
+     * public java.lang.String java.rmi.server.ServerCloneException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Notification;
 import javax.management.NotificationListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NotificationListener#handleNotification(Notification, Object) public abstract void
+     * {@link javax.management.NotificationListener#handleNotification(javax.management.Notification, Object) public
+     * abstract void
      * javax.management.NotificationListener.handleNotification(javax.management.Notification,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

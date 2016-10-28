@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.imageio.stream;
 
-import java.io.File;
-import java.io.OutputStream;
 import javax.imageio.stream.FileCacheImageOutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,9 @@ implements org.j8unit.repository.javax.imageio.stream.FileCacheImageOutputStream
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FileCacheImageOutputStream#FileCacheImageOutputStream(OutputStream, File) public
-     * javax.imageio.stream.FileCacheImageOutputStream(java.io.OutputStream,java.io.File) throws java.io.IOException}.
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#FileCacheImageOutputStream(java.io.OutputStream, java.io.File)
+     * public javax.imageio.stream.FileCacheImageOutputStream(java.io.OutputStream,java.io.File) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +40,8 @@ implements org.j8unit.repository.javax.imageio.stream.FileCacheImageOutputStream
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileCacheImageOutputStream sut = null; // = new FileCacheImageOutputStream(OutputStream, File);
+        final FileCacheImageOutputStream sut = null; // = new FileCacheImageOutputStream(java.io.OutputStream,
+                                                     // java.io.File);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.FileCacheImageOutputStream]

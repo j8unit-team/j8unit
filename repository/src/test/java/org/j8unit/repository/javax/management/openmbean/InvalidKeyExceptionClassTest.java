@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.management.openmbean.InvalidKeyExceptionC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidKeyException#InvalidKeyException()
-     * public javax.management.openmbean.InvalidKeyException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.openmbean.InvalidKeyException#InvalidKeyException() public
+     * javax.management.openmbean.InvalidKeyException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +43,9 @@ implements org.j8unit.repository.javax.management.openmbean.InvalidKeyExceptionC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidKeyException#InvalidKeyException(String)
-     * public javax.management.openmbean.InvalidKeyException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.openmbean.InvalidKeyException#InvalidKeyException(String) public
+     * javax.management.openmbean.InvalidKeyException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

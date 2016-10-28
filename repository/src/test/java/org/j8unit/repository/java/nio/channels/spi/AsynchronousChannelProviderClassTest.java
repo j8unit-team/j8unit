@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.nio.channels.spi.AsynchronousChannelProvid
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousChannelProvider#provider() public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.AsynchronousChannelProvider#provider() public static
      * java.nio.channels.spi.AsynchronousChannelProvider java.nio.channels.spi.AsynchronousChannelProvider.provider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,7 +37,7 @@ implements org.j8unit.repository.java.nio.channels.spi.AsynchronousChannelProvid
     @Category(Draft.class)
     public void test_provider()
     throws Exception {
-        // write some test for {@link AsynchronousChannelProvider#provider()}
+        // write some test for {@link java.nio.channels.spi.AsynchronousChannelProvider#provider()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.spi.AsynchronousChannelProvider]

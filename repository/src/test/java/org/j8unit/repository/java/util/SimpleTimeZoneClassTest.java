@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.util.SimpleTimeZoneClassTests<SimpleTimeZo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SimpleTimeZone#SimpleTimeZone(int, String, int, int, int, int, int, int, int, int, int, int, int) public
-     * java.util.SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int)}.
+     * {@link java.util.SimpleTimeZone#SimpleTimeZone(int, String, int, int, int, int, int, int, int, int, int, int, int)
+     * public java.util.SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +46,7 @@ implements org.j8unit.repository.java.util.SimpleTimeZoneClassTests<SimpleTimeZo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SimpleTimeZone#SimpleTimeZone(int, String, int, int, int, int, int, int, int, int, int) public
+     * {@link java.util.SimpleTimeZone#SimpleTimeZone(int, String, int, int, int, int, int, int, int, int, int) public
      * java.util.SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,7 +70,7 @@ implements org.j8unit.repository.java.util.SimpleTimeZoneClassTests<SimpleTimeZo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SimpleTimeZone#SimpleTimeZone(int, String, int, int, int, int, int, int, int, int) public
+     * {@link java.util.SimpleTimeZone#SimpleTimeZone(int, String, int, int, int, int, int, int, int, int) public
      * java.util.SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -92,8 +92,9 @@ implements org.j8unit.repository.java.util.SimpleTimeZoneClassTests<SimpleTimeZo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SimpleTimeZone#SimpleTimeZone(int, String)
-     * public java.util.SimpleTimeZone(int,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.SimpleTimeZone#SimpleTimeZone(int, String) public
+     * java.util.SimpleTimeZone(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

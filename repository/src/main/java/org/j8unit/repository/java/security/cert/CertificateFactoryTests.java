@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.io.InputStream;
 import java.security.cert.CertificateFactory;
-import java.util.List;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#getType() public final
-     * java.lang.String java.security.cert.CertificateFactory.getType()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertificateFactory#getType()
+     * public final java.lang.String java.security.cert.CertificateFactory.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#getCertPathEncodings() public
-     * final java.util.Iterator<java.lang.String> java.security.cert.CertificateFactory.getCertPathEncodings()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#getCertPathEncodings() public final java.util.Iterator
+     * <java.lang.String> java.security.cert.CertificateFactory.getCertPathEncodings()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#generateCertificates(InputStream)
-     * public final java.util.Collection<? extends java.security.cert.Certificate>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#generateCertificates(java.io.InputStream) public final
+     * java.util.Collection<? extends java.security.cert.Certificate>
      * java.security.cert.CertificateFactory.generateCertificates(java.io.InputStream) throws
      * java.security.cert.CertificateException}.
      *
@@ -104,10 +104,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#generateCertificate(InputStream)
-     * public final java.security.cert.Certificate
-     * java.security.cert.CertificateFactory.generateCertificate(java.io.InputStream) throws
-     * java.security.cert.CertificateException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#generateCertificate(java.io.InputStream) public final
+     * java.security.cert.Certificate java.security.cert.CertificateFactory.generateCertificate(java.io.InputStream)
+     * throws java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,9 +128,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#generateCertPath(InputStream)
-     * public final java.security.cert.CertPath
-     * java.security.cert.CertificateFactory.generateCertPath(java.io.InputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#generateCertPath(java.io.InputStream) public final
+     * java.security.cert.CertPath java.security.cert.CertificateFactory.generateCertPath(java.io.InputStream) throws
      * java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +152,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#generateCertPath(List) public
-     * final java.security.cert.CertPath java.security.cert.CertificateFactory.generateCertPath(java.util.List<? extends
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#generateCertPath(java.util.List) public final
+     * java.security.cert.CertPath java.security.cert.CertificateFactory.generateCertPath(java.util.List<? extends
      * java.security.cert.Certificate>) throws java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,7 +177,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CertificateFactory#generateCertPath(InputStream, String) public final java.security.cert.CertPath
+     * {@link java.security.cert.CertificateFactory#generateCertPath(java.io.InputStream, String) public final
+     * java.security.cert.CertPath
      * java.security.cert.CertificateFactory.generateCertPath(java.io.InputStream,java.lang.String) throws
      * java.security.cert.CertificateException}.
      *
@@ -199,9 +201,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#generateCRL(InputStream) public
-     * final java.security.cert.CRL java.security.cert.CertificateFactory.generateCRL(java.io.InputStream) throws
-     * java.security.cert.CRLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#generateCRL(java.io.InputStream) public final java.security.cert.CRL
+     * java.security.cert.CertificateFactory.generateCRL(java.io.InputStream) throws java.security.cert.CRLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,8 +224,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#generateCRLs(InputStream) public
-     * final java.util.Collection<? extends java.security.cert.CRL>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#generateCRLs(java.io.InputStream) public final
+     * java.util.Collection<? extends java.security.cert.CRL>
      * java.security.cert.CertificateFactory.generateCRLs(java.io.InputStream) throws java.security.cert.CRLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -245,8 +248,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#getProvider() public final
-     * java.security.Provider java.security.cert.CertificateFactory.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertificateFactory#getProvider()
+     * public final java.security.Provider java.security.cert.CertificateFactory.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

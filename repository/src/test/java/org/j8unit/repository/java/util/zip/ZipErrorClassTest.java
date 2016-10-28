@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.util.zip.ZipErrorClassTests<ZipError> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipError#ZipError(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.ZipError#ZipError(String) public
      * java.util.zip.ZipError(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

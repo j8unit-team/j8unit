@@ -1,13 +1,6 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.Cursor;
-import java.awt.Image;
-import java.awt.Point;
-import java.awt.datatransfer.Transferable;
-import java.awt.dnd.DragGestureEvent;
 import java.awt.dnd.DragSourceContext;
-import java.awt.dnd.DragSourceListener;
-import java.awt.dnd.peer.DragSourceContextPeer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -29,7 +22,7 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceContextClassTests<DragSo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DragSourceContext#DragSourceContext(DragSourceContextPeer, DragGestureEvent, Cursor, Image, Point, Transferable, DragSourceListener)
+     * {@link java.awt.dnd.DragSourceContext#DragSourceContext(java.awt.dnd.peer.DragSourceContextPeer, java.awt.dnd.DragGestureEvent, java.awt.Cursor, java.awt.Image, java.awt.Point, java.awt.datatransfer.Transferable, java.awt.dnd.DragSourceListener)
      * public
      * java.awt.dnd.DragSourceContext(java.awt.dnd.peer.DragSourceContextPeer,java.awt.dnd.DragGestureEvent,java.awt.Cursor,java.awt.Image,java.awt.Point,java.awt.datatransfer.Transferable,java.awt.dnd.DragSourceListener)}
      * .
@@ -48,8 +41,10 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceContextClassTests<DragSo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DragSourceContext sut = null; // = new DragSourceContext(DragSourceContextPeer, DragGestureEvent, Cursor,
-                                            // Image, Point, Transferable, DragSourceListener);
+        final DragSourceContext sut = null; // = new DragSourceContext(java.awt.dnd.peer.DragSourceContextPeer,
+                                            // java.awt.dnd.DragGestureEvent, java.awt.Cursor, java.awt.Image,
+                                            // java.awt.Point, java.awt.datatransfer.Transferable,
+                                            // java.awt.dnd.DragSourceListener);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSourceContext]

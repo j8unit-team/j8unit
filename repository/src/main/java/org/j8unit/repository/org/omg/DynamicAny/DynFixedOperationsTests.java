@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynFixedOperations#get_value() public abstract
-     * java.lang.String org.omg.DynamicAny.DynFixedOperations.get_value()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynFixedOperations#get_value()
+     * public abstract java.lang.String org.omg.DynamicAny.DynFixedOperations.get_value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynFixedOperations#set_value(String) public abstract
-     * boolean org.omg.DynamicAny.DynFixedOperations.set_value(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynFixedOperations#set_value(String) public abstract boolean
+     * org.omg.DynamicAny.DynFixedOperations.set_value(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

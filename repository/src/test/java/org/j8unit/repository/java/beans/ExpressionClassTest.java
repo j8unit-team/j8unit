@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.beans.ExpressionClassTests<Expression> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Expression#Expression(Object, String, Object[])
-     * public java.beans.Expression(java.lang.Object,java.lang.String,java.lang.Object[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.Expression#Expression(Object, String, Object[]) public
+     * java.beans.Expression(java.lang.Object,java.lang.String,java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.java.beans.ExpressionClassTests<Expression> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Expression#Expression(Object, Object, String, Object[]) public
+     * {@link java.beans.Expression#Expression(Object, Object, String, Object[]) public
      * java.beans.Expression(java.lang.Object,java.lang.Object,java.lang.String,java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

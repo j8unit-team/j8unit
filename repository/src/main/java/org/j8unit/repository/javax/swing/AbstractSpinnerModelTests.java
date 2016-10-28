@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.AbstractSpinnerModel;
-import javax.swing.event.ChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +36,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractSpinnerModel#addChangeListener(ChangeListener) public void
+     * {@link javax.swing.AbstractSpinnerModel#addChangeListener(javax.swing.event.ChangeListener) public void
      * javax.swing.AbstractSpinnerModel.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractSpinnerModel#removeChangeListener(ChangeListener) public void
+     * {@link javax.swing.AbstractSpinnerModel#removeChangeListener(javax.swing.event.ChangeListener) public void
      * javax.swing.AbstractSpinnerModel.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +83,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSpinnerModel#getChangeListeners() public
-     * javax.swing.event.ChangeListener[] javax.swing.AbstractSpinnerModel.getChangeListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.AbstractSpinnerModel#getChangeListeners() public javax.swing.event.ChangeListener[]
+     * javax.swing.AbstractSpinnerModel.getChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +106,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSpinnerModel#getListeners(Class) public
-     * <T> T[] javax.swing.AbstractSpinnerModel.getListeners(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractSpinnerModel#getListeners(Class)
+     * public <T> T[] javax.swing.AbstractSpinnerModel.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

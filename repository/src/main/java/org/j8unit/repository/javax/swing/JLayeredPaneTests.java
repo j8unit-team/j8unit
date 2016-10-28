@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Graphics;
 import javax.swing.JLayeredPane;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#getPosition(Component) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayeredPane#getPosition(java.awt.Component) public int
      * javax.swing.JLayeredPane.getPosition(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#getIndexOf(Component) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayeredPane#getIndexOf(java.awt.Component) public int
      * javax.swing.JLayeredPane.getIndexOf(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#removeAll() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayeredPane#removeAll() public void
      * javax.swing.JLayeredPane.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#moveToBack(Component) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayeredPane#moveToBack(java.awt.Component) public void
      * javax.swing.JLayeredPane.moveToBack(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +126,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#getComponentCountInLayer(int) public
-     * int javax.swing.JLayeredPane.getComponentCountInLayer(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayeredPane#getComponentCountInLayer(int) public int
+     * javax.swing.JLayeredPane.getComponentCountInLayer(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +149,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#lowestLayer() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayeredPane#lowestLayer() public int
      * javax.swing.JLayeredPane.lowestLayer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +171,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#highestLayer() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayeredPane#highestLayer() public int
      * javax.swing.JLayeredPane.highestLayer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +193,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#getComponentsInLayer(int) public
-     * java.awt.Component[] javax.swing.JLayeredPane.getComponentsInLayer(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayeredPane#getComponentsInLayer(int)
+     * public java.awt.Component[] javax.swing.JLayeredPane.getComponentsInLayer(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +215,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#paint(Graphics) public void
-     * javax.swing.JLayeredPane.paint(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayeredPane#paint(java.awt.Graphics)
+     * public void javax.swing.JLayeredPane.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,7 +238,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#setPosition(Component, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayeredPane#setPosition(java.awt.Component, int) public void
      * javax.swing.JLayeredPane.setPosition(java.awt.Component,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,7 +261,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#remove(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayeredPane#remove(int) public void
      * javax.swing.JLayeredPane.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,8 +284,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JLayeredPane.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayeredPane#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JLayeredPane.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,8 +307,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#isOptimizedDrawingEnabled() public
-     * boolean javax.swing.JLayeredPane.isOptimizedDrawingEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayeredPane#isOptimizedDrawingEnabled()
+     * public boolean javax.swing.JLayeredPane.isOptimizedDrawingEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,7 +330,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#moveToFront(Component) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayeredPane#moveToFront(java.awt.Component) public void
      * javax.swing.JLayeredPane.moveToFront(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,7 +353,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#getLayer(Component) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayeredPane#getLayer(java.awt.Component) public int
      * javax.swing.JLayeredPane.getLayer(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -371,29 +376,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#setLayer(Component, int, int) public
-     * void javax.swing.JLayeredPane.setLayer(java.awt.Component,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLayer_Component_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayeredPane#setLayer(Component, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayeredPane#setLayer(java.awt.Component, int) public void
      * javax.swing.JLayeredPane.setLayer(java.awt.Component,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -407,6 +391,29 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_setLayer_Component_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayeredPane#setLayer(java.awt.Component, int, int) public void
+     * javax.swing.JLayeredPane.setLayer(java.awt.Component,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLayer_Component_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

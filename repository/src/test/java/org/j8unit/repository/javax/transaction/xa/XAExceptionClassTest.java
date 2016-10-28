@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.transaction.xa.XAExceptionClassTests<XAEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XAException#XAException() public
-     * javax.transaction.xa.XAException()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.transaction.xa.XAException#XAException()
+     * public javax.transaction.xa.XAException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.javax.transaction.xa.XAExceptionClassTests<XAEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XAException#XAException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.transaction.xa.XAException#XAException(String) public
      * javax.transaction.xa.XAException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,8 +65,8 @@ implements org.j8unit.repository.javax.transaction.xa.XAExceptionClassTests<XAEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XAException#XAException(int) public
-     * javax.transaction.xa.XAException(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.transaction.xa.XAException#XAException(int) public javax.transaction.xa.XAException(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableInterceptor.ObjectReferenceTemplate;
 import org.omg.PortableInterceptor.ObjectReferenceTemplateHelper;
 
 @RunWith(J8Unit4.class)
@@ -27,7 +23,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectReferenceTemplateHelper#ObjectReferenceTemplateHelper() public
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#ObjectReferenceTemplateHelper() public
      * org.omg.PortableInterceptor.ObjectReferenceTemplateHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceTemplateHelper#id() public static
-     * java.lang.String org.omg.PortableInterceptor.ObjectReferenceTemplateHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#id() public static java.lang.String
+     * org.omg.PortableInterceptor.ObjectReferenceTemplateHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +59,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ObjectReferenceTemplateHelper#id()}
+        // write some test for {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#id()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ObjectReferenceTemplateHelper#insert(Any, ObjectReferenceTemplate) public static void
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#insert(org.omg.CORBA.Any, org.omg.PortableInterceptor.ObjectReferenceTemplate)
+     * public static void
      * org.omg.PortableInterceptor.ObjectReferenceTemplateHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.ObjectReferenceTemplate)}
      * .
      *
@@ -84,13 +82,16 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     @Category(Draft.class)
     public void test_insert_Any_ObjectReferenceTemplate()
     throws Exception {
-        // write some test for {@link ObjectReferenceTemplateHelper#insert(Any, ObjectReferenceTemplate)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableInterceptor.ObjectReferenceTemplate)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceTemplateHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ObjectReferenceTemplateHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ObjectReferenceTemplateHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,13 +105,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ObjectReferenceTemplateHelper#type()}
+        // write some test for {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ObjectReferenceTemplateHelper#write(OutputStream, ObjectReferenceTemplate) public static void
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableInterceptor.ObjectReferenceTemplate)
+     * public static void
      * org.omg.PortableInterceptor.ObjectReferenceTemplateHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.ObjectReferenceTemplate)}
      * .
      *
@@ -126,13 +128,16 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     @Category(Draft.class)
     public void test_write_OutputStream_ObjectReferenceTemplate()
     throws Exception {
-        // write some test for {@link ObjectReferenceTemplateHelper#write(OutputStream, ObjectReferenceTemplate)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableInterceptor.ObjectReferenceTemplate)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceTemplateHelper#read(InputStream)
-     * public static org.omg.PortableInterceptor.ObjectReferenceTemplate
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.PortableInterceptor.ObjectReferenceTemplate
      * org.omg.PortableInterceptor.ObjectReferenceTemplateHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,13 +152,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ObjectReferenceTemplateHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceTemplateHelper#extract(Any) public
-     * static org.omg.PortableInterceptor.ObjectReferenceTemplate
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.PortableInterceptor.ObjectReferenceTemplate
      * org.omg.PortableInterceptor.ObjectReferenceTemplateHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +175,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ObjectReferenceTemplateHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ObjectReferenceTemplateHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplateHelper]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.remote.SubjectDelegationPermis
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SubjectDelegationPermission#SubjectDelegationPermission(String) public
+     * {@link javax.management.remote.SubjectDelegationPermission#SubjectDelegationPermission(String) public
      * javax.management.remote.SubjectDelegationPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.remote.SubjectDelegationPermis
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SubjectDelegationPermission#SubjectDelegationPermission(String, String) public
+     * {@link javax.management.remote.SubjectDelegationPermission#SubjectDelegationPermission(String, String) public
      * javax.management.remote.SubjectDelegationPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIClassLoaderSpi#getClassAnnotation(Class) public
-     * abstract java.lang.String java.rmi.server.RMIClassLoaderSpi.getClassAnnotation(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RMIClassLoaderSpi#getClassAnnotation(Class) public abstract java.lang.String
+     * java.rmi.server.RMIClassLoaderSpi.getClassAnnotation(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RMIClassLoaderSpi#loadProxyClass(String, String[], ClassLoader) public abstract java.lang.Class
+     * {@link java.rmi.server.RMIClassLoaderSpi#loadProxyClass(String, String[], ClassLoader) public abstract
+     * java.lang.Class
      * <?> java.rmi.server.RMIClassLoaderSpi.loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
      * throws java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
@@ -80,9 +82,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIClassLoaderSpi#getClassLoader(String) public
-     * abstract java.lang.ClassLoader java.rmi.server.RMIClassLoaderSpi.getClassLoader(java.lang.String) throws
-     * java.net.MalformedURLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RMIClassLoaderSpi#getClassLoader(String) public abstract java.lang.ClassLoader
+     * java.rmi.server.RMIClassLoaderSpi.getClassLoader(java.lang.String) throws java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +106,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RMIClassLoaderSpi#loadClass(String, String, ClassLoader) public abstract java.lang.Class
+     * {@link java.rmi.server.RMIClassLoaderSpi#loadClass(String, String, ClassLoader) public abstract java.lang.Class
      * <?> java.rmi.server.RMIClassLoaderSpi.loadClass(java.lang.String,java.lang.String,java.lang.ClassLoader) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *

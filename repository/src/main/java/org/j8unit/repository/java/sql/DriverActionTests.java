@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DriverAction#deregister() public abstract void
-     * java.sql.DriverAction.deregister()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.DriverAction#deregister() public abstract
+     * void java.sql.DriverAction.deregister()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementWrapper#nillable() public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.XmlElementWrapper#nillable() public abstract boolean
      * javax.xml.bind.annotation.XmlElementWrapper.nillable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +57,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementWrapper#required() public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.XmlElementWrapper#required() public abstract boolean
      * javax.xml.bind.annotation.XmlElementWrapper.required()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +80,9 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementWrapper#namespace() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementWrapper.namespace()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.XmlElementWrapper#namespace() public abstract java.lang.String
+     * javax.xml.bind.annotation.XmlElementWrapper.namespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +103,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementWrapper#name() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementWrapper.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElementWrapper#name()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlElementWrapper.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

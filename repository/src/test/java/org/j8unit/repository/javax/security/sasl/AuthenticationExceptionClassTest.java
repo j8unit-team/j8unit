@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.security.sasl.AuthenticationExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AuthenticationException#AuthenticationException() public javax.security.sasl.AuthenticationException()}.
+     * {@link javax.security.sasl.AuthenticationException#AuthenticationException() public
+     * javax.security.sasl.AuthenticationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.security.sasl.AuthenticationExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AuthenticationException#AuthenticationException(String) public
+     * {@link javax.security.sasl.AuthenticationException#AuthenticationException(String) public
      * javax.security.sasl.AuthenticationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,7 +67,7 @@ implements org.j8unit.repository.javax.security.sasl.AuthenticationExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AuthenticationException#AuthenticationException(String, Throwable) public
+     * {@link javax.security.sasl.AuthenticationException#AuthenticationException(String, Throwable) public
      * javax.security.sasl.AuthenticationException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.parsers.DocumentBuilderFactoryClassTe
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocumentBuilderFactory#newInstance(String, ClassLoader) public static
+     * {@link javax.xml.parsers.DocumentBuilderFactory#newInstance(String, ClassLoader) public static
      * javax.xml.parsers.DocumentBuilderFactory
      * javax.xml.parsers.DocumentBuilderFactory.newInstance(java.lang.String,java.lang.ClassLoader)}.
      *
@@ -38,12 +38,13 @@ implements org.j8unit.repository.javax.xml.parsers.DocumentBuilderFactoryClassTe
     @Category(Draft.class)
     public void test_newInstance_String_ClassLoader()
     throws Exception {
-        // write some test for {@link DocumentBuilderFactory#newInstance(String, ClassLoader)}
+        // write some test for {@link javax.xml.parsers.DocumentBuilderFactory#newInstance(String, ClassLoader)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilderFactory#newInstance() public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.DocumentBuilderFactory#newInstance() public static
      * javax.xml.parsers.DocumentBuilderFactory javax.xml.parsers.DocumentBuilderFactory.newInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +59,7 @@ implements org.j8unit.repository.javax.xml.parsers.DocumentBuilderFactoryClassTe
     @Category(Draft.class)
     public void test_newInstance()
     throws Exception {
-        // write some test for {@link DocumentBuilderFactory#newInstance()}
+        // write some test for {@link javax.xml.parsers.DocumentBuilderFactory#newInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.parsers.DocumentBuilderFactory]

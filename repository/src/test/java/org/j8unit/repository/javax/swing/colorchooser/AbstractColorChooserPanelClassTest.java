@@ -23,7 +23,7 @@ implements org.j8unit.repository.javax.swing.colorchooser.AbstractColorChooserPa
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AbstractColorChooserPanel#AbstractColorChooserPanel() public
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#AbstractColorChooserPanel() public
      * javax.swing.colorchooser.AbstractColorChooserPanel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

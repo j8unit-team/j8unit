@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Insets;
 import javax.swing.border.SoftBevelBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.javax.swing.border.BevelBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SoftBevelBorder#getBorderInsets(Component, Insets)
-     * public java.awt.Insets javax.swing.border.SoftBevelBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.SoftBevelBorder#getBorderInsets(java.awt.Component, java.awt.Insets) public
+     * java.awt.Insets javax.swing.border.SoftBevelBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +59,9 @@ extends org.j8unit.repository.javax.swing.border.BevelBorderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SoftBevelBorder#paintBorder(Component, Graphics, int, int, int, int) public void
-     * javax.swing.border.SoftBevelBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * {@link javax.swing.border.SoftBevelBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+     * public void javax.swing.border.SoftBevelBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +83,8 @@ extends org.j8unit.repository.javax.swing.border.BevelBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SoftBevelBorder#isBorderOpaque() public boolean
-     * javax.swing.border.SoftBevelBorder.isBorderOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.SoftBevelBorder#isBorderOpaque()
+     * public boolean javax.swing.border.SoftBevelBorder.isBorderOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

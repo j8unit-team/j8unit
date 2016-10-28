@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.stream.events;
 
-import javax.xml.namespace.QName;
 import javax.xml.stream.events.StartElement;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartElement#getNamespaceURI(String) public abstract
-     * java.lang.String javax.xml.stream.events.StartElement.getNamespaceURI(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.StartElement#getNamespaceURI(String) public abstract java.lang.String
+     * javax.xml.stream.events.StartElement.getNamespaceURI(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartElement#getNamespaceContext() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.StartElement#getNamespaceContext() public abstract
      * javax.xml.namespace.NamespaceContext javax.xml.stream.events.StartElement.getNamespaceContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartElement#getAttributeByName(QName) public
-     * abstract javax.xml.stream.events.Attribute
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.StartElement#getAttributeByName(javax.xml.namespace.QName) public abstract
+     * javax.xml.stream.events.Attribute
      * javax.xml.stream.events.StartElement.getAttributeByName(javax.xml.namespace.QName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +104,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartElement#getAttributes() public abstract
-     * java.util.Iterator javax.xml.stream.events.StartElement.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.StartElement#getAttributes()
+     * public abstract java.util.Iterator javax.xml.stream.events.StartElement.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +126,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartElement#getName() public abstract
-     * javax.xml.namespace.QName javax.xml.stream.events.StartElement.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.StartElement#getName()
+     * public abstract javax.xml.namespace.QName javax.xml.stream.events.StartElement.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +148,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartElement#getNamespaces() public abstract
-     * java.util.Iterator javax.xml.stream.events.StartElement.getNamespaces()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.StartElement#getNamespaces()
+     * public abstract java.util.Iterator javax.xml.stream.events.StartElement.getNamespaces()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

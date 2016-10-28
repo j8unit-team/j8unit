@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MTOMFeature#getThreshold() public int
-     * javax.xml.ws.soap.MTOMFeature.getThreshold()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.MTOMFeature#getThreshold() public
+     * int javax.xml.ws.soap.MTOMFeature.getThreshold()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MTOMFeature#getID() public java.lang.String
-     * javax.xml.ws.soap.MTOMFeature.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.MTOMFeature#getID() public
+     * java.lang.String javax.xml.ws.soap.MTOMFeature.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.dnd;
 
 import java.awt.dnd.DropTargetContext;
-import java.awt.dnd.peer.DropTargetContextPeer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContext#getDropTarget() public
-     * java.awt.dnd.DropTarget java.awt.dnd.DropTargetContext.getDropTarget()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetContext#getDropTarget()
+     * public java.awt.dnd.DropTarget java.awt.dnd.DropTargetContext.getDropTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContext#dropComplete(boolean) public void
-     * java.awt.dnd.DropTargetContext.dropComplete(boolean) throws java.awt.dnd.InvalidDnDOperationException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetContext#dropComplete(boolean)
+     * public void java.awt.dnd.DropTargetContext.dropComplete(boolean) throws
+     * java.awt.dnd.InvalidDnDOperationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContext#getComponent() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetContext#getComponent() public
      * java.awt.Component java.awt.dnd.DropTargetContext.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContext#removeNotify() public void
-     * java.awt.dnd.DropTargetContext.removeNotify()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetContext#removeNotify() public
+     * void java.awt.dnd.DropTargetContext.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContext#addNotify(DropTargetContextPeer)
-     * public void java.awt.dnd.DropTargetContext.addNotify(java.awt.dnd.peer.DropTargetContextPeer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DropTargetContext#addNotify(java.awt.dnd.peer.DropTargetContextPeer) public void
+     * java.awt.dnd.DropTargetContext.addNotify(java.awt.dnd.peer.DropTargetContextPeer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

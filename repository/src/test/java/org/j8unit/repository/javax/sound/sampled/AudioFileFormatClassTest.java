@@ -1,9 +1,7 @@
 package org.j8unit.repository.javax.sound.sampled;
 
-import java.util.Map;
 import javax.sound.sampled.AudioFileFormat;
 import javax.sound.sampled.AudioFileFormat.Type;
-import javax.sound.sampled.AudioFormat;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +23,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<A
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AudioFileFormat#AudioFileFormat(Type, AudioFormat, int, Map) public
+     * {@link javax.sound.sampled.AudioFileFormat#AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type, javax.sound.sampled.AudioFormat, int, java.util.Map)
+     * public
      * javax.sound.sampled.AudioFileFormat(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioFormat,int,java.util.Map<java.lang.String,
      * java.lang.Object>)}.
      *
@@ -43,13 +42,15 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<A
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AudioFileFormat sut = null; // = new AudioFileFormat(Type, AudioFormat, int, Map);
+        final AudioFileFormat sut = null; // = new AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,
+                                          // javax.sound.sampled.AudioFormat, int, java.util.Map);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AudioFileFormat#AudioFileFormat(Type, AudioFormat, int) public
+     * {@link javax.sound.sampled.AudioFileFormat#AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type, javax.sound.sampled.AudioFormat, int)
+     * public
      * javax.sound.sampled.AudioFileFormat(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioFormat,int)}
      * .
      *
@@ -67,7 +68,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<A
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AudioFileFormat sut = null; // = new AudioFileFormat(Type, AudioFormat, int);
+        final AudioFileFormat sut = null; // = new AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,
+                                          // javax.sound.sampled.AudioFormat, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioFileFormat]
@@ -85,7 +87,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<A
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Type#Type(String, String) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.sound.sampled.AudioFileFormat.Type#Type(String, String) public
          * javax.sound.sampled.AudioFileFormat$Type(java.lang.String,java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

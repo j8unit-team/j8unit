@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
 import javax.management.StringValueExp;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringValueExp#setMBeanServer(MBeanServer) public
-     * void javax.management.StringValueExp.setMBeanServer(javax.management.MBeanServer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StringValueExp#setMBeanServer(javax.management.MBeanServer) public void
+     * javax.management.StringValueExp.setMBeanServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringValueExp#toString() public java.lang.String
-     * javax.management.StringValueExp.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.StringValueExp#toString() public
+     * java.lang.String javax.management.StringValueExp.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,9 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringValueExp#apply(ObjectName) public
-     * javax.management.ValueExp javax.management.StringValueExp.apply(javax.management.ObjectName) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StringValueExp#apply(javax.management.ObjectName) public javax.management.ValueExp
+     * javax.management.StringValueExp.apply(javax.management.ObjectName) throws
      * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
      * .
      *
@@ -107,8 +107,8 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringValueExp#getValue() public java.lang.String
-     * javax.management.StringValueExp.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.StringValueExp#getValue() public
+     * java.lang.String javax.management.StringValueExp.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.security.PublicKeyTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAPublicKey#getPublicExponent() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAPublicKey.getPublicExponent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.interfaces.RSAPublicKey#getPublicExponent() public abstract java.math.BigInteger
+     * java.security.interfaces.RSAPublicKey.getPublicExponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

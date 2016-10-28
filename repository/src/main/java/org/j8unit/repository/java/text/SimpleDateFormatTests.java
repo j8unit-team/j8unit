@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.text;
 
-import java.text.DateFormatSymbols;
-import java.text.FieldPosition;
-import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +35,8 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleDateFormat#format(Date, StringBuffer, FieldPosition) public java.lang.StringBuffer
+     * {@link java.text.SimpleDateFormat#format(java.util.Date, StringBuffer, java.text.FieldPosition) public
+     * java.lang.StringBuffer
      * java.text.SimpleDateFormat.format(java.util.Date,java.lang.StringBuffer,java.text.FieldPosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +59,9 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#set2DigitYearStart(Date) public
-     * void java.text.SimpleDateFormat.set2DigitYearStart(java.util.Date)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.SimpleDateFormat#set2DigitYearStart(java.util.Date) public void
+     * java.text.SimpleDateFormat.set2DigitYearStart(java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +82,9 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#parse(String, ParsePosition) public
-     * java.util.Date java.text.SimpleDateFormat.parse(java.lang.String,java.text.ParsePosition)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.SimpleDateFormat#parse(String, java.text.ParsePosition) public java.util.Date
+     * java.text.SimpleDateFormat.parse(java.lang.String,java.text.ParsePosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +106,8 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#toPattern() public java.lang.String
-     * java.text.SimpleDateFormat.toPattern()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.SimpleDateFormat#toPattern() public
+     * java.lang.String java.text.SimpleDateFormat.toPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +128,8 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#formatToCharacterIterator(Object)
-     * public java.text.AttributedCharacterIterator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.SimpleDateFormat#formatToCharacterIterator(Object) public java.text.AttributedCharacterIterator
      * java.text.SimpleDateFormat.formatToCharacterIterator(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,8 +152,9 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#applyLocalizedPattern(String)
-     * public void java.text.SimpleDateFormat.applyLocalizedPattern(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.SimpleDateFormat#applyLocalizedPattern(String) public void
+     * java.text.SimpleDateFormat.applyLocalizedPattern(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,7 +176,7 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleDateFormat#setDateFormatSymbols(DateFormatSymbols) public void
+     * {@link java.text.SimpleDateFormat#setDateFormatSymbols(java.text.DateFormatSymbols) public void
      * java.text.SimpleDateFormat.setDateFormatSymbols(java.text.DateFormatSymbols)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,8 +198,8 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#get2DigitYearStart() public
-     * java.util.Date java.text.SimpleDateFormat.get2DigitYearStart()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.SimpleDateFormat#get2DigitYearStart()
+     * public java.util.Date java.text.SimpleDateFormat.get2DigitYearStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,8 +220,8 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#clone() public java.lang.Object
-     * java.text.SimpleDateFormat.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.SimpleDateFormat#clone() public
+     * java.lang.Object java.text.SimpleDateFormat.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,8 +243,8 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#getDateFormatSymbols() public
-     * java.text.DateFormatSymbols java.text.SimpleDateFormat.getDateFormatSymbols()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.SimpleDateFormat#getDateFormatSymbols()
+     * public java.text.DateFormatSymbols java.text.SimpleDateFormat.getDateFormatSymbols()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,8 +265,8 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#applyPattern(String) public void
-     * java.text.SimpleDateFormat.applyPattern(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.SimpleDateFormat#applyPattern(String)
+     * public void java.text.SimpleDateFormat.applyPattern(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +287,8 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#toLocalizedPattern() public
-     * java.lang.String java.text.SimpleDateFormat.toLocalizedPattern()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.SimpleDateFormat#toLocalizedPattern()
+     * public java.lang.String java.text.SimpleDateFormat.toLocalizedPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -309,8 +309,8 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#equals(Object) public boolean
-     * java.text.SimpleDateFormat.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.SimpleDateFormat#equals(Object) public
+     * boolean java.text.SimpleDateFormat.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -332,7 +332,7 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDateFormat#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.SimpleDateFormat#hashCode() public int
      * java.text.SimpleDateFormat.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

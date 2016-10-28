@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAKey#getModulus() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAKey.getModulus()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.interfaces.RSAKey#getModulus() public
+     * abstract java.math.BigInteger java.security.interfaces.RSAKey.getModulus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

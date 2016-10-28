@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MessageProp#setSupplementaryStates(boolean, boolean, boolean, boolean, int, String) public void
-     * org.ietf.jgss.MessageProp.setSupplementaryStates(boolean,boolean,boolean,boolean,int,java.lang.String)}.
+     * {@link org.ietf.jgss.MessageProp#setSupplementaryStates(boolean, boolean, boolean, boolean, int, String) public
+     * void org.ietf.jgss.MessageProp.setSupplementaryStates(boolean,boolean,boolean,boolean,int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#getPrivacy() public boolean
-     * org.ietf.jgss.MessageProp.getPrivacy()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#getPrivacy() public
+     * boolean org.ietf.jgss.MessageProp.getPrivacy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#isOldToken() public boolean
-     * org.ietf.jgss.MessageProp.isOldToken()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#isOldToken() public
+     * boolean org.ietf.jgss.MessageProp.isOldToken()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#getMinorStatus() public int
-     * org.ietf.jgss.MessageProp.getMinorStatus()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#getMinorStatus() public
+     * int org.ietf.jgss.MessageProp.getMinorStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#setPrivacy(boolean) public void
-     * org.ietf.jgss.MessageProp.setPrivacy(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#setPrivacy(boolean) public
+     * void org.ietf.jgss.MessageProp.setPrivacy(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#isUnseqToken() public boolean
-     * org.ietf.jgss.MessageProp.isUnseqToken()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#isUnseqToken() public
+     * boolean org.ietf.jgss.MessageProp.isUnseqToken()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#isDuplicateToken() public boolean
-     * org.ietf.jgss.MessageProp.isDuplicateToken()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#isDuplicateToken() public
+     * boolean org.ietf.jgss.MessageProp.isDuplicateToken()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,7 +189,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#getQOP() public int
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#getQOP() public int
      * org.ietf.jgss.MessageProp.getQOP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,8 +211,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#getMinorString() public java.lang.String
-     * org.ietf.jgss.MessageProp.getMinorString()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#getMinorString() public
+     * java.lang.String org.ietf.jgss.MessageProp.getMinorString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,7 +233,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#setQOP(int) public void
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#setQOP(int) public void
      * org.ietf.jgss.MessageProp.setQOP(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,8 +255,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageProp#isGapToken() public boolean
-     * org.ietf.jgss.MessageProp.isGapToken()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.MessageProp#isGapToken() public
+     * boolean org.ietf.jgss.MessageProp.isGapToken()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

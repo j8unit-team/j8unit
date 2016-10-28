@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.RenderingHints;
 import java.awt.image.RescaleOp;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.RescaleOpClassTests<RescaleOp> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RescaleOp#RescaleOp(float[], float[], RenderingHints) public
+     * {@link java.awt.image.RescaleOp#RescaleOp(float[], float[], java.awt.RenderingHints) public
      * java.awt.image.RescaleOp(float[],float[],java.awt.RenderingHints)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.awt.image.RescaleOpClassTests<RescaleOp> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RescaleOp sut = null; // = new RescaleOp(float[], float[], RenderingHints);
+        final RescaleOp sut = null; // = new RescaleOp(float[], float[], java.awt.RenderingHints);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RescaleOp#RescaleOp(float, float, RenderingHints) public
+     * {@link java.awt.image.RescaleOp#RescaleOp(float, float, java.awt.RenderingHints) public
      * java.awt.image.RescaleOp(float,float,java.awt.RenderingHints)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.awt.image.RescaleOpClassTests<RescaleOp> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RescaleOp sut = null; // = new RescaleOp(float, float, RenderingHints);
+        final RescaleOp sut = null; // = new RescaleOp(float, float, java.awt.RenderingHints);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.RescaleOp]

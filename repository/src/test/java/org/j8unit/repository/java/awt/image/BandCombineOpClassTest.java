@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.RenderingHints;
 import java.awt.image.BandCombineOp;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.BandCombineOpClassTests<BandComb
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BandCombineOp#BandCombineOp(float[][], RenderingHints) public
+     * {@link java.awt.image.BandCombineOp#BandCombineOp(float[][], java.awt.RenderingHints) public
      * java.awt.image.BandCombineOp(float[][],java.awt.RenderingHints)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.awt.image.BandCombineOpClassTests<BandComb
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BandCombineOp sut = null; // = new BandCombineOp(float[][], RenderingHints);
+        final BandCombineOp sut = null; // = new BandCombineOp(float[][], java.awt.RenderingHints);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BandCombineOp]

@@ -35,8 +35,8 @@ org.j8unit.repository.javax.print.attribute.EnumSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Fidelity#getName() public final java.lang.String
-     * javax.print.attribute.standard.Fidelity.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Fidelity#getName()
+     * public final java.lang.String javax.print.attribute.standard.Fidelity.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +58,9 @@ org.j8unit.repository.javax.print.attribute.EnumSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Fidelity#getCategory() public final
-     * java.lang.Class<? extends javax.print.attribute.Attribute> javax.print.attribute.standard.Fidelity.getCategory()}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.Fidelity#getCategory() public final java.lang.Class<? extends
+     * javax.print.attribute.Attribute> javax.print.attribute.standard.Fidelity.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

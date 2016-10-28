@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RelationType#getRoleInfo(String) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationType#getRoleInfo(String) public abstract
      * javax.management.relation.RoleInfo javax.management.relation.RelationType.getRoleInfo(java.lang.String) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleInfoNotFoundException}.
      *
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RelationType#getRelationTypeName() public abstract
-     * java.lang.String javax.management.relation.RelationType.getRelationTypeName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationType#getRelationTypeName() public abstract java.lang.String
+     * javax.management.relation.RelationType.getRelationTypeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RelationType#getRoleInfos() public abstract
-     * java.util.List<javax.management.relation.RoleInfo> javax.management.relation.RelationType.getRoleInfos()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationType#getRoleInfos() public abstract java.util.List
+     * <javax.management.relation.RoleInfo> javax.management.relation.RelationType.getRoleInfos()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

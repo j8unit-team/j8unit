@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanNotificationInfo#toString() public
-     * java.lang.String javax.management.MBeanNotificationInfo.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanNotificationInfo#toString()
+     * public java.lang.String javax.management.MBeanNotificationInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanNotificationInfo#clone() public
-     * java.lang.Object javax.management.MBeanNotificationInfo.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanNotificationInfo#clone()
+     * public java.lang.Object javax.management.MBeanNotificationInfo.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanNotificationInfo#getNotifTypes() public
-     * java.lang.String[] javax.management.MBeanNotificationInfo.getNotifTypes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanNotificationInfo#getNotifTypes() public java.lang.String[]
+     * javax.management.MBeanNotificationInfo.getNotifTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +102,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanNotificationInfo#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanNotificationInfo#equals(Object) public boolean
      * javax.management.MBeanNotificationInfo.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +126,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanNotificationInfo#hashCode() public int
-     * javax.management.MBeanNotificationInfo.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanNotificationInfo#hashCode()
+     * public int javax.management.MBeanNotificationInfo.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

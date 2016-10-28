@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElement#nillable() public abstract boolean
-     * javax.xml.bind.annotation.XmlElement.nillable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElement#nillable()
+     * public abstract boolean javax.xml.bind.annotation.XmlElement.nillable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElement#required() public abstract boolean
-     * javax.xml.bind.annotation.XmlElement.required()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElement#required()
+     * public abstract boolean javax.xml.bind.annotation.XmlElement.required()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElement#type() public abstract java.lang.Class
-     * javax.xml.bind.annotation.XmlElement.type()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElement#type() public
+     * abstract java.lang.Class javax.xml.bind.annotation.XmlElement.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElement#namespace() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElement.namespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElement#namespace()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlElement.namespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElement#name() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlElement.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElement#name() public
+     * abstract java.lang.String javax.xml.bind.annotation.XmlElement.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElement#defaultValue() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElement.defaultValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElement#defaultValue()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlElement.defaultValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

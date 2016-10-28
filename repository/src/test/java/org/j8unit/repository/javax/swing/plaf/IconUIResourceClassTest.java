@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import javax.swing.Icon;
 import javax.swing.plaf.IconUIResource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.IconUIResourceClassTests<IconU
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IconUIResource#IconUIResource(Icon) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.IconUIResource#IconUIResource(javax.swing.Icon) public
      * javax.swing.plaf.IconUIResource(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.IconUIResourceClassTests<IconU
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IconUIResource sut = null; // = new IconUIResource(Icon);
+        final IconUIResource sut = null; // = new IconUIResource(javax.swing.Icon);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.IconUIResource]

@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.ParameterMode;
 import org.omg.CORBA.ParameterModeHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHolderClassTests<Par
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParameterModeHolder#ParameterModeHolder()
-     * public org.omg.CORBA.ParameterModeHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ParameterModeHolder#ParameterModeHolder() public org.omg.CORBA.ParameterModeHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHolderClassTests<Par
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ParameterModeHolder#ParameterModeHolder(ParameterMode) public
+     * {@link org.omg.CORBA.ParameterModeHolder#ParameterModeHolder(org.omg.CORBA.ParameterMode) public
      * org.omg.CORBA.ParameterModeHolder(org.omg.CORBA.ParameterMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHolderClassTests<Par
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ParameterModeHolder sut = null; // = new ParameterModeHolder(ParameterMode);
+        final ParameterModeHolder sut = null; // = new ParameterModeHolder(org.omg.CORBA.ParameterMode);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ParameterModeHolder]

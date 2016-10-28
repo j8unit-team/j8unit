@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig.spec;
 
-import java.util.List;
 import javax.xml.crypto.dsig.spec.ExcC14NParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpec
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ExcC14NParameterSpec#ExcC14NParameterSpec()
-     * public javax.xml.crypto.dsig.spec.ExcC14NParameterSpec()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.dsig.spec.ExcC14NParameterSpec#ExcC14NParameterSpec() public
+     * javax.xml.crypto.dsig.spec.ExcC14NParameterSpec()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,9 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpec
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ExcC14NParameterSpec#ExcC14NParameterSpec(List)
-     * public javax.xml.crypto.dsig.spec.ExcC14NParameterSpec(java.util.List)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.dsig.spec.ExcC14NParameterSpec#ExcC14NParameterSpec(java.util.List) public
+     * javax.xml.crypto.dsig.spec.ExcC14NParameterSpec(java.util.List)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +61,7 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpec
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ExcC14NParameterSpec sut = null; // = new ExcC14NParameterSpec(List);
+        final ExcC14NParameterSpec sut = null; // = new ExcC14NParameterSpec(java.util.List);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]

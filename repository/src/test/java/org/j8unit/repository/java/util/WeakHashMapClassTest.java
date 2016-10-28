@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Map;
 import java.util.WeakHashMap;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.java.util.WeakHashMapClassTests<WeakHashMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WeakHashMap#WeakHashMap(Map) public
-     * java.util.WeakHashMap(java.util.Map<? extends K, ? extends V>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.WeakHashMap#WeakHashMap(java.util.Map) public java.util.WeakHashMap(java.util.Map<? extends K, ?
+     * extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,12 +40,12 @@ implements org.j8unit.repository.java.util.WeakHashMapClassTests<WeakHashMap> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final WeakHashMap sut = null; // = new WeakHashMap(Map);
+        final WeakHashMap sut = null; // = new WeakHashMap(java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WeakHashMap#WeakHashMap(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.WeakHashMap#WeakHashMap(int) public
      * java.util.WeakHashMap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,8 @@ implements org.j8unit.repository.java.util.WeakHashMapClassTests<WeakHashMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WeakHashMap#WeakHashMap(int, float) public
-     * java.util.WeakHashMap(int,float)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.WeakHashMap#WeakHashMap(int, float)
+     * public java.util.WeakHashMap(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,7 +89,7 @@ implements org.j8unit.repository.java.util.WeakHashMapClassTests<WeakHashMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WeakHashMap#WeakHashMap() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.WeakHashMap#WeakHashMap() public
      * java.util.WeakHashMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

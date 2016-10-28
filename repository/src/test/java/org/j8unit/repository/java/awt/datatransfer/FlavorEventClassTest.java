@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
-import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.FlavorEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.awt.datatransfer.FlavorEventClassTests<Fla
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FlavorEvent#FlavorEvent(Clipboard) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.datatransfer.FlavorEvent#FlavorEvent(java.awt.datatransfer.Clipboard) public
      * java.awt.datatransfer.FlavorEvent(java.awt.datatransfer.Clipboard)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.java.awt.datatransfer.FlavorEventClassTests<Fla
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FlavorEvent sut = null; // = new FlavorEvent(Clipboard);
+        final FlavorEvent sut = null; // = new FlavorEvent(java.awt.datatransfer.Clipboard);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.FlavorEvent]

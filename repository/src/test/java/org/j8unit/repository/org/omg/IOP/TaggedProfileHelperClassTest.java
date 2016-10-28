@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.IOP.TaggedProfile;
 import org.omg.IOP.TaggedProfileHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<Tagge
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TaggedProfileHelper#TaggedProfileHelper()
-     * public org.omg.IOP.TaggedProfileHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.TaggedProfileHelper#TaggedProfileHelper() public org.omg.IOP.TaggedProfileHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +42,9 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<Tagge
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TaggedProfileHelper#insert(Any, TaggedProfile)
-     * public static void org.omg.IOP.TaggedProfileHelper.insert(org.omg.CORBA.Any,org.omg.IOP.TaggedProfile)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.TaggedProfileHelper#insert(org.omg.CORBA.Any, org.omg.IOP.TaggedProfile) public static void
+     * org.omg.IOP.TaggedProfileHelper.insert(org.omg.CORBA.Any,org.omg.IOP.TaggedProfile)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,12 +58,13 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<Tagge
     @Category(Draft.class)
     public void test_insert_Any_TaggedProfile()
     throws Exception {
-        // write some test for {@link TaggedProfileHelper#insert(Any, TaggedProfile)}
+        // write some test for {@link org.omg.IOP.TaggedProfileHelper#insert(org.omg.CORBA.Any,
+        // org.omg.IOP.TaggedProfile)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TaggedProfileHelper#id() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.TaggedProfileHelper#id() public static
      * java.lang.String org.omg.IOP.TaggedProfileHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,13 +79,14 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<Tagge
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link TaggedProfileHelper#id()}
+        // write some test for {@link org.omg.IOP.TaggedProfileHelper#id()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TaggedProfileHelper#write(OutputStream, TaggedProfile) public static void
+     * {@link org.omg.IOP.TaggedProfileHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.IOP.TaggedProfile)
+     * public static void
      * org.omg.IOP.TaggedProfileHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedProfile)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,12 +101,13 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<Tagge
     @Category(Draft.class)
     public void test_write_OutputStream_TaggedProfile()
     throws Exception {
-        // write some test for {@link TaggedProfileHelper#write(OutputStream, TaggedProfile)}
+        // write some test for {@link org.omg.IOP.TaggedProfileHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.IOP.TaggedProfile)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TaggedProfileHelper#type() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.TaggedProfileHelper#type() public static
      * synchronized org.omg.CORBA.TypeCode org.omg.IOP.TaggedProfileHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,12 +122,13 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<Tagge
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link TaggedProfileHelper#type()}
+        // write some test for {@link org.omg.IOP.TaggedProfileHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TaggedProfileHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.TaggedProfileHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.IOP.TaggedProfile org.omg.IOP.TaggedProfileHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -142,13 +143,14 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<Tagge
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link TaggedProfileHelper#read(InputStream)}
+        // write some test for {@link org.omg.IOP.TaggedProfileHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TaggedProfileHelper#extract(Any) public static
-     * org.omg.IOP.TaggedProfile org.omg.IOP.TaggedProfileHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.TaggedProfileHelper#extract(org.omg.CORBA.Any) public static org.omg.IOP.TaggedProfile
+     * org.omg.IOP.TaggedProfileHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,7 +164,7 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<Tagge
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link TaggedProfileHelper#extract(Any)}
+        // write some test for {@link org.omg.IOP.TaggedProfileHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedProfileHelper]

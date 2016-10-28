@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#getName() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLButtonElement.getName()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#getName() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLButtonElement.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#getDisabled() public abstract
-     * boolean org.w3c.dom.html.HTMLButtonElement.getDisabled()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#getDisabled()
+     * public abstract boolean org.w3c.dom.html.HTMLButtonElement.getDisabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#getTabIndex() public abstract int
-     * org.w3c.dom.html.HTMLButtonElement.getTabIndex()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#getTabIndex()
+     * public abstract int org.w3c.dom.html.HTMLButtonElement.getTabIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#getValue() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLButtonElement.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#getValue() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLButtonElement.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#setName(String) public abstract
-     * void org.w3c.dom.html.HTMLButtonElement.setName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#setName(String)
+     * public abstract void org.w3c.dom.html.HTMLButtonElement.setName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#setValue(String) public abstract
-     * void org.w3c.dom.html.HTMLButtonElement.setValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#setValue(String)
+     * public abstract void org.w3c.dom.html.HTMLButtonElement.setValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +166,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#setAccessKey(String) public
-     * abstract void org.w3c.dom.html.HTMLButtonElement.setAccessKey(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLButtonElement#setAccessKey(String) public abstract void
+     * org.w3c.dom.html.HTMLButtonElement.setAccessKey(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +189,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#setDisabled(boolean) public
-     * abstract void org.w3c.dom.html.HTMLButtonElement.setDisabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLButtonElement#setDisabled(boolean) public abstract void
+     * org.w3c.dom.html.HTMLButtonElement.setDisabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +212,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#getForm() public abstract
-     * org.w3c.dom.html.HTMLFormElement org.w3c.dom.html.HTMLButtonElement.getForm()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#getForm() public
+     * abstract org.w3c.dom.html.HTMLFormElement org.w3c.dom.html.HTMLButtonElement.getForm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +234,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#setTabIndex(int) public abstract
-     * void org.w3c.dom.html.HTMLButtonElement.setTabIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#setTabIndex(int)
+     * public abstract void org.w3c.dom.html.HTMLButtonElement.setTabIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,8 +256,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#getType() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLButtonElement.getType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#getType() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLButtonElement.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,8 +278,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLButtonElement#getAccessKey() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLButtonElement.getAccessKey()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLButtonElement#getAccessKey()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLButtonElement.getAccessKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

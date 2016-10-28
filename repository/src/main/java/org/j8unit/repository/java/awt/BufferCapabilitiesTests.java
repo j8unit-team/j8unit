@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferCapabilities#isMultiBufferAvailable() public
-     * boolean java.awt.BufferCapabilities.isMultiBufferAvailable()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.BufferCapabilities#isMultiBufferAvailable()
+     * public boolean java.awt.BufferCapabilities.isMultiBufferAvailable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferCapabilities#clone() public java.lang.Object
-     * java.awt.BufferCapabilities.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.BufferCapabilities#clone() public
+     * java.lang.Object java.awt.BufferCapabilities.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferCapabilities#getFrontBufferCapabilities()
-     * public java.awt.ImageCapabilities java.awt.BufferCapabilities.getFrontBufferCapabilities()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BufferCapabilities#getFrontBufferCapabilities() public java.awt.ImageCapabilities
+     * java.awt.BufferCapabilities.getFrontBufferCapabilities()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,29 +102,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferCapabilities#isPageFlipping() public boolean
-     * java.awt.BufferCapabilities.isPageFlipping()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isPageFlipping()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferCapabilities#getFlipContents() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.BufferCapabilities#getFlipContents() public
      * java.awt.BufferCapabilities$FlipContents java.awt.BufferCapabilities.getFlipContents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +124,30 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferCapabilities#isFullScreenRequired() public
-     * boolean java.awt.BufferCapabilities.isFullScreenRequired()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.BufferCapabilities#isPageFlipping() public
+     * boolean java.awt.BufferCapabilities.isPageFlipping()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPageFlipping()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.BufferCapabilities#isFullScreenRequired()
+     * public boolean java.awt.BufferCapabilities.isFullScreenRequired()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferCapabilities#getBackBufferCapabilities()
-     * public java.awt.ImageCapabilities java.awt.BufferCapabilities.getBackBufferCapabilities()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BufferCapabilities#getBackBufferCapabilities() public java.awt.ImageCapabilities
+     * java.awt.BufferCapabilities.getBackBufferCapabilities()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

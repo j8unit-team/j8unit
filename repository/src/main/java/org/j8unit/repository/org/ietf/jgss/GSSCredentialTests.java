@@ -1,8 +1,6 @@
 package org.j8unit.repository.org.ietf.jgss;
 
 import org.ietf.jgss.GSSCredential;
-import org.ietf.jgss.GSSName;
-import org.ietf.jgss.Oid;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#add(GSSName, int, int, Oid, int)
-     * public abstract void org.ietf.jgss.GSSCredential.add(org.ietf.jgss.GSSName,int,int,org.ietf.jgss.Oid,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSCredential#add(org.ietf.jgss.GSSName, int, int, org.ietf.jgss.Oid, int) public abstract
+     * void org.ietf.jgss.GSSCredential.add(org.ietf.jgss.GSSName,int,int,org.ietf.jgss.Oid,int) throws
      * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,9 +58,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#getRemainingInitLifetime(Oid) public
-     * abstract int org.ietf.jgss.GSSCredential.getRemainingInitLifetime(org.ietf.jgss.Oid) throws
-     * org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSCredential#getRemainingInitLifetime(org.ietf.jgss.Oid) public abstract int
+     * org.ietf.jgss.GSSCredential.getRemainingInitLifetime(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#getName() public abstract
-     * org.ietf.jgss.GSSName org.ietf.jgss.GSSCredential.getName() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSCredential#getName() public
+     * abstract org.ietf.jgss.GSSName org.ietf.jgss.GSSCredential.getName() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#getName(Oid) public abstract
-     * org.ietf.jgss.GSSName org.ietf.jgss.GSSCredential.getName(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSCredential#getName(org.ietf.jgss.Oid) public abstract org.ietf.jgss.GSSName
+     * org.ietf.jgss.GSSCredential.getName(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#hashCode() public abstract int
-     * org.ietf.jgss.GSSCredential.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSCredential#hashCode() public
+     * abstract int org.ietf.jgss.GSSCredential.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#getRemainingLifetime() public abstract
-     * int org.ietf.jgss.GSSCredential.getRemainingLifetime() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSCredential#getRemainingLifetime()
+     * public abstract int org.ietf.jgss.GSSCredential.getRemainingLifetime() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,9 +170,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#getRemainingAcceptLifetime(Oid) public
-     * abstract int org.ietf.jgss.GSSCredential.getRemainingAcceptLifetime(org.ietf.jgss.Oid) throws
-     * org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSCredential#getRemainingAcceptLifetime(org.ietf.jgss.Oid) public abstract int
+     * org.ietf.jgss.GSSCredential.getRemainingAcceptLifetime(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +193,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#equals(Object) public abstract boolean
-     * org.ietf.jgss.GSSCredential.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSCredential#equals(Object) public
+     * abstract boolean org.ietf.jgss.GSSCredential.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +215,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#dispose() public abstract void
-     * org.ietf.jgss.GSSCredential.dispose() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSCredential#dispose() public
+     * abstract void org.ietf.jgss.GSSCredential.dispose() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +237,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#getMechs() public abstract
-     * org.ietf.jgss.Oid[] org.ietf.jgss.GSSCredential.getMechs() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSCredential#getMechs() public
+     * abstract org.ietf.jgss.Oid[] org.ietf.jgss.GSSCredential.getMechs() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,29 +259,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#getUsage() public abstract int
-     * org.ietf.jgss.GSSCredential.getUsage() throws org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUsage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSCredential#getUsage(Oid) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSCredential#getUsage(org.ietf.jgss.Oid) public abstract int
      * org.ietf.jgss.GSSCredential.getUsage(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -295,6 +274,28 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getUsage_Oid()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSCredential#getUsage() public
+     * abstract int org.ietf.jgss.GSSCredential.getUsage() throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUsage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SignatureSpi#clone() public java.lang.Object
-     * java.security.SignatureSpi.clone() throws java.lang.CloneNotSupportedException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.SignatureSpi#clone() public
+     * java.lang.Object java.security.SignatureSpi.clone() throws java.lang.CloneNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.AnySeqHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.AnySeqHolderClassTests<AnySeqHold
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AnySeqHolder#AnySeqHolder() public
-     * org.omg.CORBA.AnySeqHolder()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.AnySeqHolder#AnySeqHolder()
+     * public org.omg.CORBA.AnySeqHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.AnySeqHolderClassTests<AnySeqHold
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AnySeqHolder#AnySeqHolder(Any[]) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.AnySeqHolder#AnySeqHolder(org.omg.CORBA.Any[]) public
      * org.omg.CORBA.AnySeqHolder(org.omg.CORBA.Any[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.omg.CORBA.AnySeqHolderClassTests<AnySeqHold
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AnySeqHolder sut = null; // = new AnySeqHolder(Any[]);
+        final AnySeqHolder sut = null; // = new AnySeqHolder(org.omg.CORBA.Any[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.AnySeqHolder]

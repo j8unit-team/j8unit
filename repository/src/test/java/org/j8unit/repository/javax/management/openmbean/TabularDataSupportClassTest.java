@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
 import javax.management.openmbean.TabularDataSupport;
-import javax.management.openmbean.TabularType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.management.openmbean.TabularDataSupportCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TabularDataSupport#TabularDataSupport(TabularType) public
-     * javax.management.openmbean.TabularDataSupport(javax.management.openmbean.TabularType)}.
+     * {@link javax.management.openmbean.TabularDataSupport#TabularDataSupport(javax.management.openmbean.TabularType)
+     * public javax.management.openmbean.TabularDataSupport(javax.management.openmbean.TabularType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,14 +39,14 @@ implements org.j8unit.repository.javax.management.openmbean.TabularDataSupportCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TabularDataSupport sut = null; // = new TabularDataSupport(TabularType);
+        final TabularDataSupport sut = null; // = new TabularDataSupport(javax.management.openmbean.TabularType);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TabularDataSupport#TabularDataSupport(TabularType, int, float) public
-     * javax.management.openmbean.TabularDataSupport(javax.management.openmbean.TabularType,int,float)}.
+     * {@link javax.management.openmbean.TabularDataSupport#TabularDataSupport(javax.management.openmbean.TabularType, int, float)
+     * public javax.management.openmbean.TabularDataSupport(javax.management.openmbean.TabularType,int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +62,8 @@ implements org.j8unit.repository.javax.management.openmbean.TabularDataSupportCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TabularDataSupport sut = null; // = new TabularDataSupport(TabularType, int, float);
+        final TabularDataSupport sut = null; // = new TabularDataSupport(javax.management.openmbean.TabularType, int,
+                                             // float);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.TabularDataSupport]

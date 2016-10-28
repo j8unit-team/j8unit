@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management.relation;
 
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
 import javax.management.relation.RelationSupport;
-import javax.management.relation.RoleList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.javax.management.relation.RelationSupportClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RelationSupport#RelationSupport(String, ObjectName, String, RoleList) public
+     * {@link javax.management.relation.RelationSupport#RelationSupport(String, javax.management.ObjectName, String, javax.management.relation.RoleList)
+     * public
      * javax.management.relation.RelationSupport(java.lang.String,javax.management.ObjectName,java.lang.String,javax.management.relation.RoleList)
      * throws javax.management.relation.InvalidRoleValueException,java.lang.IllegalArgumentException}.
      *
@@ -43,13 +41,15 @@ implements org.j8unit.repository.javax.management.relation.RelationSupportClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RelationSupport sut = null; // = new RelationSupport(String, ObjectName, String, RoleList);
+        final RelationSupport sut = null; // = new RelationSupport(String, javax.management.ObjectName, String,
+                                          // javax.management.relation.RoleList);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RelationSupport#RelationSupport(String, ObjectName, MBeanServer, String, RoleList) public
+     * {@link javax.management.relation.RelationSupport#RelationSupport(String, javax.management.ObjectName, javax.management.MBeanServer, String, javax.management.relation.RoleList)
+     * public
      * javax.management.relation.RelationSupport(java.lang.String,javax.management.ObjectName,javax.management.MBeanServer,java.lang.String,javax.management.relation.RoleList)
      * throws javax.management.relation.InvalidRoleValueException,java.lang.IllegalArgumentException}.
      *
@@ -67,7 +67,8 @@ implements org.j8unit.repository.javax.management.relation.RelationSupportClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RelationSupport sut = null; // = new RelationSupport(String, ObjectName, MBeanServer, String, RoleList);
+        final RelationSupport sut = null; // = new RelationSupport(String, javax.management.ObjectName,
+                                          // javax.management.MBeanServer, String, javax.management.relation.RoleList);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationSupport]

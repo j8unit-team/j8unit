@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.xml.namespace.QNameClassTests<QName> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link QName#QName(String) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.namespace.QName#QName(String) public
      * javax.xml.namespace.QName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,8 @@ implements org.j8unit.repository.javax.xml.namespace.QNameClassTests<QName> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link QName#QName(String, String, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.namespace.QName#QName(String, String, String) public
      * javax.xml.namespace.QName(java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +66,8 @@ implements org.j8unit.repository.javax.xml.namespace.QNameClassTests<QName> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link QName#QName(String, String) public
-     * javax.xml.namespace.QName(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.namespace.QName#QName(String, String)
+     * public javax.xml.namespace.QName(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +88,8 @@ implements org.j8unit.repository.javax.xml.namespace.QNameClassTests<QName> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QName#valueOf(String) public static
-     * javax.xml.namespace.QName javax.xml.namespace.QName.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.namespace.QName#valueOf(String) public
+     * static javax.xml.namespace.QName javax.xml.namespace.QName.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +103,7 @@ implements org.j8unit.repository.javax.xml.namespace.QNameClassTests<QName> {
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link QName#valueOf(String)}
+        // write some test for {@link javax.xml.namespace.QName#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.namespace.QName]

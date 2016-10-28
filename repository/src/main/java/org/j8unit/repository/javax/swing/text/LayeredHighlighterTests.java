@@ -1,11 +1,7 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
-import javax.swing.text.JTextComponent;
 import javax.swing.text.LayeredHighlighter;
 import javax.swing.text.LayeredHighlighter.LayerPainter;
-import javax.swing.text.View;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +36,8 @@ extends org.j8unit.repository.javax.swing.text.HighlighterTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LayeredHighlighter#paintLayeredHighlights(Graphics, int, int, Shape, JTextComponent, View) public abstract
-     * void
+     * {@link javax.swing.text.LayeredHighlighter#paintLayeredHighlights(java.awt.Graphics, int, int, java.awt.Shape, javax.swing.text.JTextComponent, javax.swing.text.View)
+     * public abstract void
      * javax.swing.text.LayeredHighlighter.paintLayeredHighlights(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)}
      * .
      *
@@ -92,8 +88,8 @@ extends org.j8unit.repository.javax.swing.text.HighlighterTests<SUT>, org.j8unit
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link LayerPainter#paintLayer(Graphics, int, int, Shape, JTextComponent, View) public abstract
-         * java.awt.Shape
+         * {@link javax.swing.text.LayeredHighlighter.LayerPainter#paintLayer(java.awt.Graphics, int, int, java.awt.Shape, javax.swing.text.JTextComponent, javax.swing.text.View)
+         * public abstract java.awt.Shape
          * javax.swing.text.LayeredHighlighter$LayerPainter.paintLayer(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)}
          * .
          *

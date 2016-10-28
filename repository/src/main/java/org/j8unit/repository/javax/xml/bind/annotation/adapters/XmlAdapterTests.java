@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlAdapter#marshal(Object) public abstract ValueType
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.adapters.XmlAdapter#marshal(Object) public abstract ValueType
      * javax.xml.bind.annotation.adapters.XmlAdapter.marshal(BoundType) throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlAdapter#unmarshal(Object) public abstract
-     * BoundType javax.xml.bind.annotation.adapters.XmlAdapter.unmarshal(ValueType) throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.adapters.XmlAdapter#unmarshal(Object) public abstract BoundType
+     * javax.xml.bind.annotation.adapters.XmlAdapter.unmarshal(ValueType) throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

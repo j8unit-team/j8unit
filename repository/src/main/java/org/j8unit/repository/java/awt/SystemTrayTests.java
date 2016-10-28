@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.SystemTray;
-import java.awt.TrayIcon;
-import java.beans.PropertyChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SystemTray#removePropertyChangeListener(String, PropertyChangeListener) public synchronized void
+     * {@link java.awt.SystemTray#removePropertyChangeListener(String, java.beans.PropertyChangeListener) public
+     * synchronized void
      * java.awt.SystemTray.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SystemTray#addPropertyChangeListener(String, PropertyChangeListener) public synchronized void
+     * {@link java.awt.SystemTray#addPropertyChangeListener(String, java.beans.PropertyChangeListener) public
+     * synchronized void
      * java.awt.SystemTray.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemTray#remove(TrayIcon) public void
-     * java.awt.SystemTray.remove(java.awt.TrayIcon)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SystemTray#remove(java.awt.TrayIcon) public
+     * void java.awt.SystemTray.remove(java.awt.TrayIcon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemTray#getTrayIconSize() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.SystemTray#getTrayIconSize() public
      * java.awt.Dimension java.awt.SystemTray.getTrayIconSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemTray#add(TrayIcon) public void
-     * java.awt.SystemTray.add(java.awt.TrayIcon) throws java.awt.AWTException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SystemTray#add(java.awt.TrayIcon) public
+     * void java.awt.SystemTray.add(java.awt.TrayIcon) throws java.awt.AWTException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemTray#getTrayIcons() public java.awt.TrayIcon[]
-     * java.awt.SystemTray.getTrayIcons()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SystemTray#getTrayIcons() public
+     * java.awt.TrayIcon[] java.awt.SystemTray.getTrayIcons()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,9 +170,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemTray#getPropertyChangeListeners(String) public
-     * synchronized java.beans.PropertyChangeListener[]
-     * java.awt.SystemTray.getPropertyChangeListeners(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.SystemTray#getPropertyChangeListeners(String) public synchronized
+     * java.beans.PropertyChangeListener[] java.awt.SystemTray.getPropertyChangeListeners(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

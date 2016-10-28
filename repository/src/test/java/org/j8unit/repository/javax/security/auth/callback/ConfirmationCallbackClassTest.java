@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.callback.ConfirmationCallba
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConfirmationCallback#ConfirmationCallback(String, int, String[], int) public
+     * {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(String, int, String[], int) public
      * javax.security.auth.callback.ConfirmationCallback(java.lang.String,int,java.lang.String[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.security.auth.callback.ConfirmationCallba
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConfirmationCallback#ConfirmationCallback(String, int, int, int) public
+     * {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(String, int, int, int) public
      * javax.security.auth.callback.ConfirmationCallback(java.lang.String,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.security.auth.callback.ConfirmationCallba
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConfirmationCallback#ConfirmationCallback(int, String[], int) public
+     * {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(int, String[], int) public
      * javax.security.auth.callback.ConfirmationCallback(int,java.lang.String[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.javax.security.auth.callback.ConfirmationCallba
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConfirmationCallback#ConfirmationCallback(int, int, int) public
+     * {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(int, int, int) public
      * javax.security.auth.callback.ConfirmationCallback(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

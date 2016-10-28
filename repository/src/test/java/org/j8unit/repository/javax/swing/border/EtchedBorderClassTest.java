@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Color;
 import javax.swing.border.EtchedBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.swing.border.EtchedBorderClassTests<Etche
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link EtchedBorder#EtchedBorder(int, Color, Color)
-     * public javax.swing.border.EtchedBorder(int,java.awt.Color,java.awt.Color)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.EtchedBorder#EtchedBorder(int, java.awt.Color, java.awt.Color) public
+     * javax.swing.border.EtchedBorder(int,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,12 +39,13 @@ implements org.j8unit.repository.javax.swing.border.EtchedBorderClassTests<Etche
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final EtchedBorder sut = null; // = new EtchedBorder(int, Color, Color);
+        final EtchedBorder sut = null; // = new EtchedBorder(int, java.awt.Color, java.awt.Color);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link EtchedBorder#EtchedBorder(Color, Color) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.EtchedBorder#EtchedBorder(java.awt.Color, java.awt.Color) public
      * javax.swing.border.EtchedBorder(java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +62,13 @@ implements org.j8unit.repository.javax.swing.border.EtchedBorderClassTests<Etche
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final EtchedBorder sut = null; // = new EtchedBorder(Color, Color);
+        final EtchedBorder sut = null; // = new EtchedBorder(java.awt.Color, java.awt.Color);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link EtchedBorder#EtchedBorder(int) public
-     * javax.swing.border.EtchedBorder(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.EtchedBorder#EtchedBorder(int) public javax.swing.border.EtchedBorder(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,8 +89,8 @@ implements org.j8unit.repository.javax.swing.border.EtchedBorderClassTests<Etche
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link EtchedBorder#EtchedBorder() public
-     * javax.swing.border.EtchedBorder()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.border.EtchedBorder#EtchedBorder()
+     * public javax.swing.border.EtchedBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

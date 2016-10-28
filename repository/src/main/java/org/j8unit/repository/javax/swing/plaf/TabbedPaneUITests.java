@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import javax.swing.JTabbedPane;
 import javax.swing.plaf.TabbedPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabbedPaneUI#tabForCoordinate(JTabbedPane, int, int)
-     * public abstract int javax.swing.plaf.TabbedPaneUI.tabForCoordinate(javax.swing.JTabbedPane,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.TabbedPaneUI#tabForCoordinate(javax.swing.JTabbedPane, int, int) public abstract int
+     * javax.swing.plaf.TabbedPaneUI.tabForCoordinate(javax.swing.JTabbedPane,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabbedPaneUI#getTabRunCount(JTabbedPane) public
-     * abstract int javax.swing.plaf.TabbedPaneUI.getTabRunCount(javax.swing.JTabbedPane)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.TabbedPaneUI#getTabRunCount(javax.swing.JTabbedPane) public abstract int
+     * javax.swing.plaf.TabbedPaneUI.getTabRunCount(javax.swing.JTabbedPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabbedPaneUI#getTabBounds(JTabbedPane, int) public
-     * abstract java.awt.Rectangle javax.swing.plaf.TabbedPaneUI.getTabBounds(javax.swing.JTabbedPane,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.TabbedPaneUI#getTabBounds(javax.swing.JTabbedPane, int) public abstract
+     * java.awt.Rectangle javax.swing.plaf.TabbedPaneUI.getTabBounds(javax.swing.JTabbedPane,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

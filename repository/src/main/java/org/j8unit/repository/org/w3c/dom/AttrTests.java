@@ -34,7 +34,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attr#getSchemaTypeInfo() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#getSchemaTypeInfo() public abstract
      * org.w3c.dom.TypeInfo org.w3c.dom.Attr.getSchemaTypeInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attr#isId() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#isId() public abstract boolean
      * org.w3c.dom.Attr.isId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attr#getOwnerElement() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#getOwnerElement() public abstract
      * org.w3c.dom.Element org.w3c.dom.Attr.getOwnerElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attr#setValue(String) public abstract void
-     * org.w3c.dom.Attr.setValue(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#setValue(String) public abstract
+     * void org.w3c.dom.Attr.setValue(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attr#getSpecified() public abstract boolean
-     * org.w3c.dom.Attr.getSpecified()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#getSpecified() public abstract
+     * boolean org.w3c.dom.Attr.getSpecified()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attr#getValue() public abstract java.lang.String
-     * org.w3c.dom.Attr.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#getValue() public abstract
+     * java.lang.String org.w3c.dom.Attr.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +166,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attr#getName() public abstract java.lang.String
-     * org.w3c.dom.Attr.getName()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#getName() public abstract
+     * java.lang.String org.w3c.dom.Attr.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

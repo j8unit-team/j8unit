@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.font;
 
 import java.awt.font.TransformAttribute;
-import java.awt.geom.AffineTransform;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.font.TransformAttributeClassTests<Tran
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformAttribute#TransformAttribute(AffineTransform) public
+     * {@link java.awt.font.TransformAttribute#TransformAttribute(java.awt.geom.AffineTransform) public
      * java.awt.font.TransformAttribute(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.awt.font.TransformAttributeClassTests<Tran
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TransformAttribute sut = null; // = new TransformAttribute(AffineTransform);
+        final TransformAttribute sut = null; // = new TransformAttribute(java.awt.geom.AffineTransform);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TransformAttribute]

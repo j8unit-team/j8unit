@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.AttributeChangeNotificationFilter;
-import javax.management.Notification;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeChangeNotificationFilter#getEnabledAttributes() public synchronized java.util.Vector
-     * <java.lang.String> javax.management.AttributeChangeNotificationFilter.getEnabledAttributes()}.
+     * {@link javax.management.AttributeChangeNotificationFilter#getEnabledAttributes() public synchronized
+     * java.util.Vector<java.lang.String> javax.management.AttributeChangeNotificationFilter.getEnabledAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeChangeNotificationFilter#isNotificationEnabled(Notification) public synchronized boolean
+     * {@link javax.management.AttributeChangeNotificationFilter#isNotificationEnabled(javax.management.Notification)
+     * public synchronized boolean
      * javax.management.AttributeChangeNotificationFilter.isNotificationEnabled(javax.management.Notification)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +83,7 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeChangeNotificationFilter#disableAttribute(String) public synchronized void
+     * {@link javax.management.AttributeChangeNotificationFilter#disableAttribute(String) public synchronized void
      * javax.management.AttributeChangeNotificationFilter.disableAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +106,7 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeChangeNotificationFilter#enableAttribute(String) public synchronized void
+     * {@link javax.management.AttributeChangeNotificationFilter#enableAttribute(String) public synchronized void
      * javax.management.AttributeChangeNotificationFilter.enableAttribute(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
      *
@@ -130,7 +130,7 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeChangeNotificationFilter#disableAllAttributes() public synchronized void
+     * {@link javax.management.AttributeChangeNotificationFilter#disableAllAttributes() public synchronized void
      * javax.management.AttributeChangeNotificationFilter.disableAllAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHolderClassTests<StringS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringSeqHolder#StringSeqHolder() public
-     * org.omg.CORBA.StringSeqHolder()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.StringSeqHolder#StringSeqHolder()
+     * public org.omg.CORBA.StringSeqHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,9 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHolderClassTests<StringS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringSeqHolder#StringSeqHolder(String[])
-     * public org.omg.CORBA.StringSeqHolder(java.lang.String[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.StringSeqHolder#StringSeqHolder(String[]) public
+     * org.omg.CORBA.StringSeqHolder(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

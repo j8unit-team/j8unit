@@ -1,6 +1,5 @@
 package org.j8unit.repository.org.omg.CORBA.portable;
 
-import java.io.Serializable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -8,8 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.portable.BoxedValueHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 /**
  * <p>
@@ -38,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxedValueHelper#get_id() public abstract
-     * java.lang.String org.omg.CORBA.portable.BoxedValueHelper.get_id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.BoxedValueHelper#get_id()
+     * public abstract java.lang.String org.omg.CORBA.portable.BoxedValueHelper.get_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +58,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BoxedValueHelper#write_value(OutputStream, Serializable) public abstract void
+     * {@link org.omg.CORBA.portable.BoxedValueHelper#write_value(org.omg.CORBA.portable.OutputStream, java.io.Serializable)
+     * public abstract void
      * org.omg.CORBA.portable.BoxedValueHelper.write_value(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,9 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxedValueHelper#read_value(InputStream) public
-     * abstract java.io.Serializable
-     * org.omg.CORBA.portable.BoxedValueHelper.read_value(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.BoxedValueHelper#read_value(org.omg.CORBA.portable.InputStream) public abstract
+     * java.io.Serializable org.omg.CORBA.portable.BoxedValueHelper.read_value(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

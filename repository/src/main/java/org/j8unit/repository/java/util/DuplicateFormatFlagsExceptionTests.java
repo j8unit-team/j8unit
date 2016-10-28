@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DuplicateFormatFlagsException#getMessage() public
-     * java.lang.String java.util.DuplicateFormatFlagsException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.DuplicateFormatFlagsException#getMessage()
+     * public java.lang.String java.util.DuplicateFormatFlagsException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DuplicateFormatFlagsException#getFlags() public
-     * java.lang.String java.util.DuplicateFormatFlagsException.getFlags()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.DuplicateFormatFlagsException#getFlags()
+     * public java.lang.String java.util.DuplicateFormatFlagsException.getFlags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

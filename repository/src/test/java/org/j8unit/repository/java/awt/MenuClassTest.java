@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.MenuClassTests<Menu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Menu#Menu(String, boolean) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Menu#Menu(String, boolean) public
      * java.awt.Menu(java.lang.String,boolean) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.awt.MenuClassTests<Menu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Menu#Menu(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Menu#Menu(String) public
      * java.awt.Menu(java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +65,8 @@ implements org.j8unit.repository.java.awt.MenuClassTests<Menu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Menu#Menu() public java.awt.Menu() throws
-     * java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Menu#Menu() public java.awt.Menu()
+     * throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
 import javax.swing.plaf.metal.MetalFileChooserUI;
 import javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer;
 import org.j8unit.repository.categories.Draft;
@@ -25,7 +23,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MetalFileChooserUI#MetalFileChooserUI(JFileChooser) public
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#MetalFileChooserUI(javax.swing.JFileChooser) public
      * javax.swing.plaf.metal.MetalFileChooserUI(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,13 +40,14 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MetalFileChooserUI sut = null; // = new MetalFileChooserUI(JFileChooser);
+        final MetalFileChooserUI sut = null; // = new MetalFileChooserUI(javax.swing.JFileChooser);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#createUI(JComponent) public
-     * static javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalFileChooserUI.createUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalFileChooserUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +61,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassT
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link MetalFileChooserUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.metal.MetalFileChooserUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI]
@@ -81,7 +80,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassT
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link FilterComboBoxRenderer#FilterComboBoxRenderer(MetalFileChooserUI) public
+         * {@link javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer#FilterComboBoxRenderer(javax.swing.plaf.metal.MetalFileChooserUI)
+         * public
          * javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer(javax.swing.plaf.metal.MetalFileChooserUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,7 +98,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassT
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final FilterComboBoxRenderer sut = null; // = new FilterComboBoxRenderer(MetalFileChooserUI);
+            final FilterComboBoxRenderer sut = null; // = new
+                                                     // FilterComboBoxRenderer(javax.swing.plaf.metal.MetalFileChooserUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.SocketPermissionClassTests<SocketPermi
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SocketPermission#SocketPermission(String, String) public
+     * {@link java.net.SocketPermission#SocketPermission(String, String) public
      * java.net.SocketPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

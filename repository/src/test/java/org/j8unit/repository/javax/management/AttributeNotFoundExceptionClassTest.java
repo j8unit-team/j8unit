@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.AttributeNotFoundExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributeNotFoundException#AttributeNotFoundException() public
+     * {@link javax.management.AttributeNotFoundException#AttributeNotFoundException() public
      * javax.management.AttributeNotFoundException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.AttributeNotFoundExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributeNotFoundException#AttributeNotFoundException(String) public
+     * {@link javax.management.AttributeNotFoundException#AttributeNotFoundException(String) public
      * javax.management.AttributeNotFoundException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

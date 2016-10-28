@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Location#getCharacterOffset() public abstract int
-     * javax.xml.stream.Location.getCharacterOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.Location#getCharacterOffset()
+     * public abstract int javax.xml.stream.Location.getCharacterOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Location#getSystemId() public abstract
-     * java.lang.String javax.xml.stream.Location.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.Location#getSystemId() public
+     * abstract java.lang.String javax.xml.stream.Location.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Location#getLineNumber() public abstract int
-     * javax.xml.stream.Location.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.Location#getLineNumber() public
+     * abstract int javax.xml.stream.Location.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Location#getPublicId() public abstract
-     * java.lang.String javax.xml.stream.Location.getPublicId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.Location#getPublicId() public
+     * abstract java.lang.String javax.xml.stream.Location.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Location#getColumnNumber() public abstract int
-     * javax.xml.stream.Location.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.Location#getColumnNumber() public
+     * abstract int javax.xml.stream.Location.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -7,7 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.w3c.dom.DOMImplementation;
-import org.w3c.dom.DocumentType;
 
 /**
  * <p>
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMImplementation#getFeature(String, String) public
-     * abstract java.lang.Object org.w3c.dom.DOMImplementation.getFeature(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.DOMImplementation#getFeature(String, String) public abstract java.lang.Object
+     * org.w3c.dom.DOMImplementation.getFeature(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +59,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DOMImplementation#createDocumentType(String, String, String) public abstract org.w3c.dom.DocumentType
+     * {@link org.w3c.dom.DOMImplementation#createDocumentType(String, String, String) public abstract
+     * org.w3c.dom.DocumentType
      * org.w3c.dom.DOMImplementation.createDocumentType(java.lang.String,java.lang.String,java.lang.String) throws
      * org.w3c.dom.DOMException}.
      *
@@ -83,7 +84,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DOMImplementation#createDocument(String, String, DocumentType) public abstract org.w3c.dom.Document
+     * {@link org.w3c.dom.DOMImplementation#createDocument(String, String, org.w3c.dom.DocumentType) public abstract
+     * org.w3c.dom.Document
      * org.w3c.dom.DOMImplementation.createDocument(java.lang.String,java.lang.String,org.w3c.dom.DocumentType) throws
      * org.w3c.dom.DOMException}.
      *
@@ -106,8 +108,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMImplementation#hasFeature(String, String) public
-     * abstract boolean org.w3c.dom.DOMImplementation.hasFeature(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.DOMImplementation#hasFeature(String, String) public abstract boolean
+     * org.w3c.dom.DOMImplementation.hasFeature(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

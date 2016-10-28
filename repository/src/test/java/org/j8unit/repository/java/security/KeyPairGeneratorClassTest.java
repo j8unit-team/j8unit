@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.KeyPairGenerator;
-import java.security.Provider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.security.KeyPairGeneratorClassTests<KeyPai
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyPairGenerator#getInstance(String, Provider)
-     * public static java.security.KeyPairGenerator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyPairGenerator#getInstance(String, java.security.Provider) public static
+     * java.security.KeyPairGenerator
      * java.security.KeyPairGenerator.getInstance(java.lang.String,java.security.Provider) throws
      * java.security.NoSuchAlgorithmException}.
      *
@@ -39,13 +39,13 @@ implements org.j8unit.repository.java.security.KeyPairGeneratorClassTests<KeyPai
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link KeyPairGenerator#getInstance(String, Provider)}
+        // write some test for {@link java.security.KeyPairGenerator#getInstance(String, java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyPairGenerator#getInstance(String, String) public
-     * static java.security.KeyPairGenerator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyPairGenerator#getInstance(String, String) public static java.security.KeyPairGenerator
      * java.security.KeyPairGenerator.getInstance(java.lang.String,java.lang.String) throws
      * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      *
@@ -61,13 +61,13 @@ implements org.j8unit.repository.java.security.KeyPairGeneratorClassTests<KeyPai
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link KeyPairGenerator#getInstance(String, String)}
+        // write some test for {@link java.security.KeyPairGenerator#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyPairGenerator#getInstance(String) public static
-     * java.security.KeyPairGenerator java.security.KeyPairGenerator.getInstance(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyPairGenerator#getInstance(String)
+     * public static java.security.KeyPairGenerator java.security.KeyPairGenerator.getInstance(java.lang.String) throws
      * java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +82,7 @@ implements org.j8unit.repository.java.security.KeyPairGeneratorClassTests<KeyPai
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link KeyPairGenerator#getInstance(String)}
+        // write some test for {@link java.security.KeyPairGenerator#getInstance(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyPairGenerator]

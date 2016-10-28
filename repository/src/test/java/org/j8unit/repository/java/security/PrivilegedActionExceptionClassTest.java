@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.PrivilegedActionExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrivilegedActionException#PrivilegedActionException(Exception) public
+     * {@link java.security.PrivilegedActionException#PrivilegedActionException(Exception) public
      * java.security.PrivilegedActionException(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

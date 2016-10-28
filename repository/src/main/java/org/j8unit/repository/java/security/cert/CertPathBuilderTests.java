@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
 import java.security.cert.CertPathBuilder;
-import java.security.cert.CertPathParameters;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathBuilder#getProvider() public final
-     * java.security.Provider java.security.cert.CertPathBuilder.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPathBuilder#getProvider()
+     * public final java.security.Provider java.security.cert.CertPathBuilder.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathBuilder#getRevocationChecker() public final
-     * java.security.cert.CertPathChecker java.security.cert.CertPathBuilder.getRevocationChecker()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathBuilder#getRevocationChecker() public final java.security.cert.CertPathChecker
+     * java.security.cert.CertPathBuilder.getRevocationChecker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathBuilder#build(CertPathParameters) public
-     * final java.security.cert.CertPathBuilderResult
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathBuilder#build(java.security.cert.CertPathParameters) public final
+     * java.security.cert.CertPathBuilderResult
      * java.security.cert.CertPathBuilder.build(java.security.cert.CertPathParameters) throws
      * java.security.cert.CertPathBuilderException,java.security.InvalidAlgorithmParameterException}.
      *
@@ -103,8 +104,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathBuilder#getAlgorithm() public final
-     * java.lang.String java.security.cert.CertPathBuilder.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPathBuilder#getAlgorithm()
+     * public final java.lang.String java.security.cert.CertPathBuilder.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

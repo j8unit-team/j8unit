@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongConsumer#accept(long) public abstract void
-     * java.util.function.LongConsumer.accept(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.LongConsumer#accept(long) public
+     * abstract void java.util.function.LongConsumer.accept(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongConsumer#andThen(LongConsumer) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.LongConsumer#andThen(java.util.function.LongConsumer) public default
      * java.util.function.LongConsumer java.util.function.LongConsumer.andThen(java.util.function.LongConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

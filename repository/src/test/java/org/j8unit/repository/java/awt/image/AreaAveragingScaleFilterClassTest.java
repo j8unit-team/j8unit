@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.AreaAveragingScaleFilterClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AreaAveragingScaleFilter#AreaAveragingScaleFilter(int, int) public
+     * {@link java.awt.image.AreaAveragingScaleFilter#AreaAveragingScaleFilter(int, int) public
      * java.awt.image.AreaAveragingScaleFilter(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

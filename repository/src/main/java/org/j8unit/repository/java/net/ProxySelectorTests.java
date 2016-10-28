@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.net;
 
-import java.io.IOException;
 import java.net.ProxySelector;
-import java.net.SocketAddress;
-import java.net.URI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProxySelector#select(URI) public abstract
-     * java.util.List<java.net.Proxy> java.net.ProxySelector.select(java.net.URI)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.ProxySelector#select(java.net.URI) public
+     * abstract java.util.List<java.net.Proxy> java.net.ProxySelector.select(java.net.URI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ProxySelector#connectFailed(URI, SocketAddress, IOException) public abstract void
-     * java.net.ProxySelector.connectFailed(java.net.URI,java.net.SocketAddress,java.io.IOException)}.
+     * {@link java.net.ProxySelector#connectFailed(java.net.URI, java.net.SocketAddress, java.io.IOException) public
+     * abstract void java.net.ProxySelector.connectFailed(java.net.URI,java.net.SocketAddress,java.io.IOException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

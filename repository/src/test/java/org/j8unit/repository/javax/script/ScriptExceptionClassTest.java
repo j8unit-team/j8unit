@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.script.ScriptExceptionClassTests<ScriptEx
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ScriptException#ScriptException(String, String, int, int) public
+     * {@link javax.script.ScriptException#ScriptException(String, String, int, int) public
      * javax.script.ScriptException(java.lang.String,java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.script.ScriptExceptionClassTests<ScriptEx
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ScriptException#ScriptException(String, String, int) public
+     * {@link javax.script.ScriptException#ScriptException(String, String, int) public
      * javax.script.ScriptException(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,9 @@ implements org.j8unit.repository.javax.script.ScriptExceptionClassTests<ScriptEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ScriptException#ScriptException(Exception)
-     * public javax.script.ScriptException(java.lang.Exception)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.script.ScriptException#ScriptException(Exception) public
+     * javax.script.ScriptException(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,7 +90,8 @@ implements org.j8unit.repository.javax.script.ScriptExceptionClassTests<ScriptEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ScriptException#ScriptException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.script.ScriptException#ScriptException(String) public
      * javax.script.ScriptException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -46,25 +46,55 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class BoldActionTest
-    implements FactoryBasedJ8UnitTest<BoldAction>, org.j8unit.repository.javax.swing.text.StyledEditorKitTests.BoldActionTests<BoldAction> {
+    public static class UnderlineActionTest
+    implements FactoryBasedJ8UnitTest<UnderlineAction>, org.j8unit.repository.javax.swing.text.StyledEditorKitTests.UnderlineActionTests<UnderlineAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(BoldAction::new);
+            return TestParametersUtil.testParametersOf(UnderlineAction::new);
         }
 
         @Parameter(0)
-        public Callable<BoldAction> sutFactory;
+        public Callable<UnderlineAction> sutFactory;
 
         @Override
-        public Callable<BoldAction> getSUTFactory() {
+        public Callable<UnderlineAction> getSUTFactory() {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ForegroundActionTest
+    implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.ForegroundActionTests<ForegroundAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+
+        @Override
+        public ForegroundAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.ForegroundAction], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class AlignmentActionTest
+    implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.AlignmentActionTests<AlignmentAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
+
+        @Override
+        public AlignmentAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.AlignmentAction], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
 
     }
 
@@ -100,6 +130,30 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class BoldActionTest
+    implements FactoryBasedJ8UnitTest<BoldAction>, org.j8unit.repository.javax.swing.text.StyledEditorKitTests.BoldActionTests<BoldAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(BoldAction::new);
+        }
+
+        @Parameter(0)
+        public Callable<BoldAction> sutFactory;
+
+        @Override
+        public Callable<BoldAction> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ItalicActionTest
     implements FactoryBasedJ8UnitTest<ItalicAction>, org.j8unit.repository.javax.swing.text.StyledEditorKitTests.ItalicActionTests<ItalicAction> {
 
@@ -123,45 +177,6 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.
     }
 
     @RunWith(J8Unit4.class)
-    public static class AlignmentActionTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.AlignmentActionTests<AlignmentAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
-
-        @Override
-        public AlignmentAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.AlignmentAction], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class UnderlineActionTest
-    implements FactoryBasedJ8UnitTest<UnderlineAction>, org.j8unit.repository.javax.swing.text.StyledEditorKitTests.UnderlineActionTests<UnderlineAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(UnderlineAction::new);
-        }
-
-        @Parameter(0)
-        public Callable<UnderlineAction> sutFactory;
-
-        @Override
-        public Callable<UnderlineAction> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class StyledTextActionTest
     implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests<StyledTextAction> {
 
@@ -173,21 +188,6 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$StyledTextAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ForegroundActionTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.ForegroundActionTests<ForegroundAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
-
-        @Override
-        public ForegroundAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.ForegroundAction], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
 
     }
 

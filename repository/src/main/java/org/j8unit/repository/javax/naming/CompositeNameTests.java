@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.naming;
 
 import javax.naming.CompositeName;
-import javax.naming.Name;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#add(int, String) public
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#add(int, String) public
      * javax.naming.Name javax.naming.CompositeName.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#add(String) public javax.naming.Name
-     * javax.naming.CompositeName.add(java.lang.String) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#add(String) public
+     * javax.naming.Name javax.naming.CompositeName.add(java.lang.String) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,7 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#getPrefix(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#getPrefix(int) public
      * javax.naming.Name javax.naming.CompositeName.getPrefix(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#getAll() public java.util.Enumeration
-     * <java.lang.String> javax.naming.CompositeName.getAll()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#getAll() public
+     * java.util.Enumeration<java.lang.String> javax.naming.CompositeName.getAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +126,7 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#isEmpty() public boolean
      * javax.naming.CompositeName.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +149,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#compareTo(Object) public int
-     * javax.naming.CompositeName.compareTo(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#compareTo(Object) public
+     * int javax.naming.CompositeName.compareTo(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +172,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#remove(int) public java.lang.Object
-     * javax.naming.CompositeName.remove(int) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#remove(int) public
+     * java.lang.Object javax.naming.CompositeName.remove(int) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,7 +195,7 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#getSuffix(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#getSuffix(int) public
      * javax.naming.Name javax.naming.CompositeName.getSuffix(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -219,7 +218,7 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#size() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#size() public int
      * javax.naming.CompositeName.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -242,8 +241,9 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#addAll(Name) public javax.naming.Name
-     * javax.naming.CompositeName.addAll(javax.naming.Name) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#addAll(javax.naming.Name)
+     * public javax.naming.Name javax.naming.CompositeName.addAll(javax.naming.Name) throws
+     * javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,9 +265,9 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#addAll(int, Name) public
-     * javax.naming.Name javax.naming.CompositeName.addAll(int,javax.naming.Name) throws
-     * javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.CompositeName#addAll(int, javax.naming.Name) public javax.naming.Name
+     * javax.naming.CompositeName.addAll(int,javax.naming.Name) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,7 +289,7 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#hashCode() public int
      * javax.naming.CompositeName.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,8 +312,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#equals(Object) public boolean
-     * javax.naming.CompositeName.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#equals(Object) public
+     * boolean javax.naming.CompositeName.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -335,8 +335,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#get(int) public java.lang.String
-     * javax.naming.CompositeName.get(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#get(int) public
+     * java.lang.String javax.naming.CompositeName.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -358,7 +358,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#endsWith(Name) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.CompositeName#endsWith(javax.naming.Name) public boolean
      * javax.naming.CompositeName.endsWith(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -381,8 +382,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#clone() public java.lang.Object
-     * javax.naming.CompositeName.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#clone() public
+     * java.lang.Object javax.naming.CompositeName.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -404,8 +405,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#toString() public java.lang.String
-     * javax.naming.CompositeName.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CompositeName#toString() public
+     * java.lang.String javax.naming.CompositeName.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -427,7 +428,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeName#startsWith(Name) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.CompositeName#startsWith(javax.naming.Name) public boolean
      * javax.naming.CompositeName.startsWith(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

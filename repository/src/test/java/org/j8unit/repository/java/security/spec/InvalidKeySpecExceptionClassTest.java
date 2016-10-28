@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.spec.InvalidKeySpecExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidKeySpecException#InvalidKeySpecException(Throwable) public
+     * {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException(Throwable) public
      * java.security.spec.InvalidKeySpecException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.spec.InvalidKeySpecExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidKeySpecException#InvalidKeySpecException(String, Throwable) public
+     * {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException(String, Throwable) public
      * java.security.spec.InvalidKeySpecException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.security.spec.InvalidKeySpecExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidKeySpecException#InvalidKeySpecException(String) public
+     * {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException(String) public
      * java.security.spec.InvalidKeySpecException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,8 @@ implements org.j8unit.repository.java.security.spec.InvalidKeySpecExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidKeySpecException#InvalidKeySpecException() public java.security.spec.InvalidKeySpecException()}.
+     * {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException() public
+     * java.security.spec.InvalidKeySpecException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

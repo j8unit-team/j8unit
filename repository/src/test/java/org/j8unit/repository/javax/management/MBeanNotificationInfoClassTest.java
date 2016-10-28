@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Descriptor;
 import javax.management.MBeanNotificationInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.management.MBeanNotificationInfoClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanNotificationInfo#MBeanNotificationInfo(String[], String, String) public
+     * {@link javax.management.MBeanNotificationInfo#MBeanNotificationInfo(String[], String, String) public
      * javax.management.MBeanNotificationInfo(java.lang.String[],java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,8 @@ implements org.j8unit.repository.javax.management.MBeanNotificationInfoClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanNotificationInfo#MBeanNotificationInfo(String[], String, String, Descriptor) public
+     * {@link javax.management.MBeanNotificationInfo#MBeanNotificationInfo(String[], String, String, javax.management.Descriptor)
+     * public
      * javax.management.MBeanNotificationInfo(java.lang.String[],java.lang.String,java.lang.String,javax.management.Descriptor)}
      * .
      *
@@ -64,7 +64,8 @@ implements org.j8unit.repository.javax.management.MBeanNotificationInfoClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanNotificationInfo sut = null; // = new MBeanNotificationInfo(String[], String, String, Descriptor);
+        final MBeanNotificationInfo sut = null; // = new MBeanNotificationInfo(String[], String, String,
+                                                // javax.management.Descriptor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanNotificationInfo]

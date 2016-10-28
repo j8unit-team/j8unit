@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.ResponseCacheClassTests<ResponseCache>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ResponseCache#ResponseCache() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.ResponseCache#ResponseCache() public
      * java.net.ResponseCache()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,9 @@ implements org.j8unit.repository.java.net.ResponseCacheClassTests<ResponseCache>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseCache#setDefault(ResponseCache) public
-     * static synchronized void java.net.ResponseCache.setDefault(java.net.ResponseCache)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.ResponseCache#setDefault(java.net.ResponseCache) public static synchronized void
+     * java.net.ResponseCache.setDefault(java.net.ResponseCache)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,12 +58,12 @@ implements org.j8unit.repository.java.net.ResponseCacheClassTests<ResponseCache>
     @Category(Draft.class)
     public void test_setDefault_ResponseCache()
     throws Exception {
-        // write some test for {@link ResponseCache#setDefault(ResponseCache)}
+        // write some test for {@link java.net.ResponseCache#setDefault(java.net.ResponseCache)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseCache#getDefault() public static
+     * Test method for the hereby targeted method-under-test {@link java.net.ResponseCache#getDefault() public static
      * synchronized java.net.ResponseCache java.net.ResponseCache.getDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -77,7 +78,7 @@ implements org.j8unit.repository.java.net.ResponseCacheClassTests<ResponseCache>
     @Category(Draft.class)
     public void test_getDefault()
     throws Exception {
-        // write some test for {@link ResponseCache#getDefault()}
+        // write some test for {@link java.net.ResponseCache#getDefault()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ResponseCache]

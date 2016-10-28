@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.Observable;
-import java.util.Observer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Observable#notifyObservers() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Observable#notifyObservers() public void
      * java.util.Observable.notifyObservers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Observable#notifyObservers(Object) public void
-     * java.util.Observable.notifyObservers(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Observable#notifyObservers(Object) public
+     * void java.util.Observable.notifyObservers(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Observable#deleteObserver(Observer) public
-     * synchronized void java.util.Observable.deleteObserver(java.util.Observer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Observable#deleteObserver(java.util.Observer) public synchronized void
+     * java.util.Observable.deleteObserver(java.util.Observer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Observable#countObservers() public synchronized int
-     * java.util.Observable.countObservers()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Observable#countObservers() public
+     * synchronized int java.util.Observable.countObservers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Observable#hasChanged() public synchronized boolean
-     * java.util.Observable.hasChanged()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Observable#hasChanged() public
+     * synchronized boolean java.util.Observable.hasChanged()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Observable#deleteObservers() public synchronized
-     * void java.util.Observable.deleteObservers()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Observable#deleteObservers() public
+     * synchronized void java.util.Observable.deleteObservers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Observable#addObserver(Observer) public synchronized
-     * void java.util.Observable.addObserver(java.util.Observer)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Observable#addObserver(java.util.Observer)
+     * public synchronized void java.util.Observable.addObserver(java.util.Observer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
 import java.util.concurrent.PriorityBlockingQueue;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#peek() public E
-     * java.util.concurrent.PriorityBlockingQueue.peek()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#peek()
+     * public E java.util.concurrent.PriorityBlockingQueue.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +58,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#put(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#put(Object) public void
      * java.util.concurrent.PriorityBlockingQueue.put(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +82,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#remove(Object) public boolean
      * java.util.concurrent.PriorityBlockingQueue.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +106,32 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#drainTo(Collection) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection, int) public int
+     * java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection<? super E>,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_drainTo_Collection_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection) public int
      * java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,30 +154,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#drainTo(Collection, int)
-     * public int java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection<? super E>,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_drainTo_Collection_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#poll(long, TimeUnit) public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#poll(long, java.util.concurrent.TimeUnit) public E
      * java.util.concurrent.PriorityBlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
@@ -176,8 +179,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#poll() public E
-     * java.util.concurrent.PriorityBlockingQueue.poll()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#poll()
+     * public E java.util.concurrent.PriorityBlockingQueue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,8 +202,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#clear() public void
-     * java.util.concurrent.PriorityBlockingQueue.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#clear()
+     * public void java.util.concurrent.PriorityBlockingQueue.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,8 +225,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#spliterator() public
-     * java.util.Spliterator<E> java.util.concurrent.PriorityBlockingQueue.spliterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#spliterator() public java.util.Spliterator
+     * <E> java.util.concurrent.PriorityBlockingQueue.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,7 +249,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#add(Object) public boolean
      * java.util.concurrent.PriorityBlockingQueue.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -268,7 +273,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#remainingCapacity() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#remainingCapacity() public int
      * java.util.concurrent.PriorityBlockingQueue.remainingCapacity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -291,8 +297,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#toString() public
-     * java.lang.String java.util.concurrent.PriorityBlockingQueue.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#toString() public java.lang.String
+     * java.util.concurrent.PriorityBlockingQueue.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -314,31 +321,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#toArray() public
-     * java.lang.Object[] java.util.concurrent.PriorityBlockingQueue.toArray()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#toArray(Object[]) public
-     * <T> T[] java.util.concurrent.PriorityBlockingQueue.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#toArray(Object[]) public <T> T[]
+     * java.util.concurrent.PriorityBlockingQueue.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -360,8 +345,31 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#size() public int
-     * java.util.concurrent.PriorityBlockingQueue.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#toArray()
+     * public java.lang.Object[] java.util.concurrent.PriorityBlockingQueue.toArray()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#size()
+     * public int java.util.concurrent.PriorityBlockingQueue.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -383,8 +391,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#iterator() public
-     * java.util.Iterator<E> java.util.concurrent.PriorityBlockingQueue.iterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#iterator() public java.util.Iterator
+     * <E> java.util.concurrent.PriorityBlockingQueue.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -406,8 +415,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#contains(Object) public
-     * boolean java.util.concurrent.PriorityBlockingQueue.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#contains(Object) public boolean
+     * java.util.concurrent.PriorityBlockingQueue.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -429,8 +439,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#take() public E
-     * java.util.concurrent.PriorityBlockingQueue.take() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#take()
+     * public E java.util.concurrent.PriorityBlockingQueue.take() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -452,8 +462,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#comparator() public
-     * java.util.Comparator<? super E> java.util.concurrent.PriorityBlockingQueue.comparator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#comparator() public java.util.Comparator<? super E>
+     * java.util.concurrent.PriorityBlockingQueue.comparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -474,7 +485,32 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#offer(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public
+     * boolean java.util.concurrent.PriorityBlockingQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_offer_Object_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#offer(Object) public boolean
      * java.util.concurrent.PriorityBlockingQueue.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -489,29 +525,6 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_offer_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityBlockingQueue#offer(Object, long, TimeUnit)
-     * public boolean java.util.concurrent.PriorityBlockingQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_offer_Object_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

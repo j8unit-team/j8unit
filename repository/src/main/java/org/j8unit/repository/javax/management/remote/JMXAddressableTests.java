@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXAddressable#getAddress() public abstract
-     * javax.management.remote.JMXServiceURL javax.management.remote.JMXAddressable.getAddress()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXAddressable#getAddress()
+     * public abstract javax.management.remote.JMXServiceURL javax.management.remote.JMXAddressable.getAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

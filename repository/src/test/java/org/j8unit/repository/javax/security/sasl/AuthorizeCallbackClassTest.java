@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.sasl.AuthorizeCallbackClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AuthorizeCallback#AuthorizeCallback(String, String) public
+     * {@link javax.security.sasl.AuthorizeCallback#AuthorizeCallback(String, String) public
      * javax.security.sasl.AuthorizeCallback(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

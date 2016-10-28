@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceEvent#getDragSourceContext() public
-     * java.awt.dnd.DragSourceContext java.awt.dnd.DragSourceEvent.getDragSourceContext()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceEvent#getDragSourceContext()
+     * public java.awt.dnd.DragSourceContext java.awt.dnd.DragSourceEvent.getDragSourceContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceEvent#getX() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceEvent#getX() public int
      * java.awt.dnd.DragSourceEvent.getX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceEvent#getLocation() public java.awt.Point
-     * java.awt.dnd.DragSourceEvent.getLocation()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceEvent#getLocation() public
+     * java.awt.Point java.awt.dnd.DragSourceEvent.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceEvent#getY() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceEvent#getY() public int
      * java.awt.dnd.DragSourceEvent.getY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

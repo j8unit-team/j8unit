@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.crypto.spec;
 
-import java.security.spec.AlgorithmParameterSpec;
 import javax.crypto.spec.PBEParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.crypto.spec.PBEParameterSpecClassTests<PB
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PBEParameterSpec#PBEParameterSpec(byte[], int)
-     * public javax.crypto.spec.PBEParameterSpec(byte[],int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.spec.PBEParameterSpec#PBEParameterSpec(byte[], int) public
+     * javax.crypto.spec.PBEParameterSpec(byte[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +45,8 @@ implements org.j8unit.repository.javax.crypto.spec.PBEParameterSpecClassTests<PB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PBEParameterSpec#PBEParameterSpec(byte[], int, AlgorithmParameterSpec) public
-     * javax.crypto.spec.PBEParameterSpec(byte[],int,java.security.spec.AlgorithmParameterSpec)}.
+     * {@link javax.crypto.spec.PBEParameterSpec#PBEParameterSpec(byte[], int, java.security.spec.AlgorithmParameterSpec)
+     * public javax.crypto.spec.PBEParameterSpec(byte[],int,java.security.spec.AlgorithmParameterSpec)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +62,8 @@ implements org.j8unit.repository.javax.crypto.spec.PBEParameterSpecClassTests<PB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PBEParameterSpec sut = null; // = new PBEParameterSpec(byte[], int, AlgorithmParameterSpec);
+        final PBEParameterSpec sut = null; // = new PBEParameterSpec(byte[], int,
+                                           // java.security.spec.AlgorithmParameterSpec);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.PBEParameterSpec]

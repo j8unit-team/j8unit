@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.IOP.ServiceIdHelper;
 
 @RunWith(J8Unit4.class)
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceId
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServiceIdHelper#ServiceIdHelper() public
-     * org.omg.IOP.ServiceIdHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.IOP.ServiceIdHelper#ServiceIdHelper()
+     * public org.omg.IOP.ServiceIdHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +42,8 @@ implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceId
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceIdHelper#id() public static java.lang.String
-     * org.omg.IOP.ServiceIdHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.ServiceIdHelper#id() public static
+     * java.lang.String org.omg.IOP.ServiceIdHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,12 +57,13 @@ implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceId
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ServiceIdHelper#id()}
+        // write some test for {@link org.omg.IOP.ServiceIdHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceIdHelper#insert(Any, int) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ServiceIdHelper#insert(org.omg.CORBA.Any, int) public static void
      * org.omg.IOP.ServiceIdHelper.insert(org.omg.CORBA.Any,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,13 +78,13 @@ implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceId
     @Category(Draft.class)
     public void test_insert_Any_int()
     throws Exception {
-        // write some test for {@link ServiceIdHelper#insert(Any, int)}
+        // write some test for {@link org.omg.IOP.ServiceIdHelper#insert(org.omg.CORBA.Any, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceIdHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.IOP.ServiceIdHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.ServiceIdHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.IOP.ServiceIdHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +98,14 @@ implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceId
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ServiceIdHelper#type()}
+        // write some test for {@link org.omg.IOP.ServiceIdHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceIdHelper#write(OutputStream, int) public
-     * static void org.omg.IOP.ServiceIdHelper.write(org.omg.CORBA.portable.OutputStream,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ServiceIdHelper#write(org.omg.CORBA.portable.OutputStream, int) public static void
+     * org.omg.IOP.ServiceIdHelper.write(org.omg.CORBA.portable.OutputStream,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,12 +119,13 @@ implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceId
     @Category(Draft.class)
     public void test_write_OutputStream_int()
     throws Exception {
-        // write some test for {@link ServiceIdHelper#write(OutputStream, int)}
+        // write some test for {@link org.omg.IOP.ServiceIdHelper#write(org.omg.CORBA.portable.OutputStream, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceIdHelper#read(InputStream) public static int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ServiceIdHelper#read(org.omg.CORBA.portable.InputStream) public static int
      * org.omg.IOP.ServiceIdHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -140,12 +140,13 @@ implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceId
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ServiceIdHelper#read(InputStream)}
+        // write some test for {@link org.omg.IOP.ServiceIdHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceIdHelper#extract(Any) public static int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ServiceIdHelper#extract(org.omg.CORBA.Any) public static int
      * org.omg.IOP.ServiceIdHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +161,7 @@ implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceId
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ServiceIdHelper#extract(Any)}
+        // write some test for {@link org.omg.IOP.ServiceIdHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ServiceIdHelper]

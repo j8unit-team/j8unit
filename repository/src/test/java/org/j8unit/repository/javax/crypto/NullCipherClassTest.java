@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.crypto.NullCipherClassTests<NullCipher> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NullCipher#NullCipher() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.crypto.NullCipher#NullCipher() public
      * javax.crypto.NullCipher()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

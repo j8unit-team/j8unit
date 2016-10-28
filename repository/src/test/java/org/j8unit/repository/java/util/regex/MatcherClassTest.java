@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.regex.MatcherClassTests<Matcher> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Matcher#quoteReplacement(String) public static
-     * java.lang.String java.util.regex.Matcher.quoteReplacement(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Matcher#quoteReplacement(String)
+     * public static java.lang.String java.util.regex.Matcher.quoteReplacement(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +36,7 @@ implements org.j8unit.repository.java.util.regex.MatcherClassTests<Matcher> {
     @Category(Draft.class)
     public void test_quoteReplacement_String()
     throws Exception {
-        // write some test for {@link Matcher#quoteReplacement(String)}
+        // write some test for {@link java.util.regex.Matcher#quoteReplacement(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.regex.Matcher]

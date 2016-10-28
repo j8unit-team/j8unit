@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.KeyStoreSpiClassTests<KeyStoreSpi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KeyStoreSpi#KeyStoreSpi() public
+     * Test method for the hereby targeted constructor-under-test {@link java.security.KeyStoreSpi#KeyStoreSpi() public
      * java.security.KeyStoreSpi()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

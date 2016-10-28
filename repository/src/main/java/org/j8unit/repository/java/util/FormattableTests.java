@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.Formattable;
-import java.util.Formatter;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formattable#formatTo(Formatter, int, int, int)
-     * public abstract void java.util.Formattable.formatTo(java.util.Formatter,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Formattable#formatTo(java.util.Formatter, int, int, int) public abstract void
+     * java.util.Formattable.formatTo(java.util.Formatter,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

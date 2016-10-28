@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
 import javax.management.openmbean.ArrayType;
-import javax.management.openmbean.OpenType;
-import javax.management.openmbean.SimpleType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.management.openmbean.ArrayTypeClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ArrayType#ArrayType(SimpleType, boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.openmbean.ArrayType#ArrayType(javax.management.openmbean.SimpleType, boolean) public
      * javax.management.openmbean.ArrayType(javax.management.openmbean.SimpleType<?>,boolean) throws
      * javax.management.openmbean.OpenDataException}.
      *
@@ -42,12 +41,13 @@ implements org.j8unit.repository.javax.management.openmbean.ArrayTypeClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ArrayType sut = null; // = new ArrayType(SimpleType, boolean);
+        final ArrayType sut = null; // = new ArrayType(javax.management.openmbean.SimpleType, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ArrayType#ArrayType(int, OpenType) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.openmbean.ArrayType#ArrayType(int, javax.management.openmbean.OpenType) public
      * javax.management.openmbean.ArrayType(int,javax.management.openmbean.OpenType<?>) throws
      * javax.management.openmbean.OpenDataException}.
      *
@@ -65,12 +65,13 @@ implements org.j8unit.repository.javax.management.openmbean.ArrayTypeClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ArrayType sut = null; // = new ArrayType(int, OpenType);
+        final ArrayType sut = null; // = new ArrayType(int, javax.management.openmbean.OpenType);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#getPrimitiveArrayType(Class) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.ArrayType#getPrimitiveArrayType(Class) public static
      * <T> javax.management.openmbean.ArrayType
      * <T> javax.management.openmbean.ArrayType.getPrimitiveArrayType(java.lang.Class<T>)}.
      *
@@ -86,12 +87,13 @@ implements org.j8unit.repository.javax.management.openmbean.ArrayTypeClassTests<
     @Category(Draft.class)
     public void test_getPrimitiveArrayType_Class()
     throws Exception {
-        // write some test for {@link ArrayType#getPrimitiveArrayType(Class)}
+        // write some test for {@link javax.management.openmbean.ArrayType#getPrimitiveArrayType(Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#getArrayType(OpenType) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.ArrayType#getArrayType(javax.management.openmbean.OpenType) public static
      * <E> javax.management.openmbean.ArrayType
      * <E[]> javax.management.openmbean.ArrayType.getArrayType(javax.management.openmbean.OpenType<E>) throws
      * javax.management.openmbean.OpenDataException}.
@@ -108,7 +110,8 @@ implements org.j8unit.repository.javax.management.openmbean.ArrayTypeClassTests<
     @Category(Draft.class)
     public void test_getArrayType_OpenType()
     throws Exception {
-        // write some test for {@link ArrayType#getArrayType(OpenType)}
+        // write some test for {@link
+        // javax.management.openmbean.ArrayType#getArrayType(javax.management.openmbean.OpenType)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.ArrayType]

@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryNotificationInfo#getCount() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MemoryNotificationInfo#getCount() public long
      * java.lang.management.MemoryNotificationInfo.getCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryNotificationInfo#getUsage() public
-     * java.lang.management.MemoryUsage java.lang.management.MemoryNotificationInfo.getUsage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MemoryNotificationInfo#getUsage() public java.lang.management.MemoryUsage
+     * java.lang.management.MemoryNotificationInfo.getUsage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryNotificationInfo#getPoolName() public
-     * java.lang.String java.lang.management.MemoryNotificationInfo.getPoolName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MemoryNotificationInfo#getPoolName() public java.lang.String
+     * java.lang.management.MemoryNotificationInfo.getPoolName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

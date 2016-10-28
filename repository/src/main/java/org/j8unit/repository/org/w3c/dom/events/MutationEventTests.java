@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 import org.w3c.dom.events.MutationEvent;
 
 /**
@@ -36,8 +35,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MutationEvent#initMutationEvent(String, boolean, boolean, Node, String, String, String, short) public
-     * abstract void
+     * {@link org.w3c.dom.events.MutationEvent#initMutationEvent(String, boolean, boolean, org.w3c.dom.Node, String, String, String, short)
+     * public abstract void
      * org.w3c.dom.events.MutationEvent.initMutationEvent(java.lang.String,boolean,boolean,org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String,short)}
      * .
      *
@@ -60,8 +59,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutationEvent#getAttrName() public abstract
-     * java.lang.String org.w3c.dom.events.MutationEvent.getAttrName()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MutationEvent#getAttrName()
+     * public abstract java.lang.String org.w3c.dom.events.MutationEvent.getAttrName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutationEvent#getRelatedNode() public abstract
-     * org.w3c.dom.Node org.w3c.dom.events.MutationEvent.getRelatedNode()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MutationEvent#getRelatedNode()
+     * public abstract org.w3c.dom.Node org.w3c.dom.events.MutationEvent.getRelatedNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutationEvent#getNewValue() public abstract
-     * java.lang.String org.w3c.dom.events.MutationEvent.getNewValue()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MutationEvent#getNewValue()
+     * public abstract java.lang.String org.w3c.dom.events.MutationEvent.getNewValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutationEvent#getPrevValue() public abstract
-     * java.lang.String org.w3c.dom.events.MutationEvent.getPrevValue()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MutationEvent#getPrevValue()
+     * public abstract java.lang.String org.w3c.dom.events.MutationEvent.getPrevValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +147,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutationEvent#getAttrChange() public abstract short
-     * org.w3c.dom.events.MutationEvent.getAttrChange()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MutationEvent#getAttrChange()
+     * public abstract short org.w3c.dom.events.MutationEvent.getAttrChange()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

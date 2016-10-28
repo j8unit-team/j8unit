@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.InvalidApplicationExceptionCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidApplicationException#InvalidApplicationException(Object) public
+     * {@link javax.management.InvalidApplicationException#InvalidApplicationException(Object) public
      * javax.management.InvalidApplicationException(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

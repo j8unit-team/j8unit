@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.lang.annotation.ElementTypeClassTests<Elem
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementType#valueOf(String) public static
-     * java.lang.annotation.ElementType java.lang.annotation.ElementType.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.annotation.ElementType#valueOf(String)
+     * public static java.lang.annotation.ElementType java.lang.annotation.ElementType.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.lang.annotation.ElementTypeClassTests<Elem
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link ElementType#valueOf(String)}
+        // write some test for {@link java.lang.annotation.ElementType#valueOf(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementType#values() public static
-     * java.lang.annotation.ElementType[] java.lang.annotation.ElementType.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.annotation.ElementType#values() public
+     * static java.lang.annotation.ElementType[] java.lang.annotation.ElementType.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.lang.annotation.ElementTypeClassTests<Elem
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link ElementType#values()}
+        // write some test for {@link java.lang.annotation.ElementType#values()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.ElementType]

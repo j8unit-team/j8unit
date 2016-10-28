@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.text.Format;
 import javax.swing.text.InternationalFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.swing.text.InternationalFormatterClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InternationalFormatter#InternationalFormatter()
-     * public javax.swing.text.InternationalFormatter()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.InternationalFormatter#InternationalFormatter() public
+     * javax.swing.text.InternationalFormatter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.swing.text.InternationalFormatterClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InternationalFormatter#InternationalFormatter(Format) public
+     * {@link javax.swing.text.InternationalFormatter#InternationalFormatter(java.text.Format) public
      * javax.swing.text.InternationalFormatter(java.text.Format)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,7 @@ implements org.j8unit.repository.javax.swing.text.InternationalFormatterClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InternationalFormatter sut = null; // = new InternationalFormatter(Format);
+        final InternationalFormatter sut = null; // = new InternationalFormatter(java.text.Format);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.InternationalFormatter]

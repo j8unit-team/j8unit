@@ -36,7 +36,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DataContentHandlerFactory#createDataContentHandler(String) public abstract
+     * {@link javax.activation.DataContentHandlerFactory#createDataContentHandler(String) public abstract
      * javax.activation.DataContentHandler
      * javax.activation.DataContentHandlerFactory.createDataContentHandler(java.lang.String)}.
      *

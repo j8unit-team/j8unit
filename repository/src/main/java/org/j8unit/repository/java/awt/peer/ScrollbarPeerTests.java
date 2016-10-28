@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollbarPeer#setPageIncrement(int) public abstract
-     * void java.awt.peer.ScrollbarPeer.setPageIncrement(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ScrollbarPeer#setPageIncrement(int)
+     * public abstract void java.awt.peer.ScrollbarPeer.setPageIncrement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollbarPeer#setValues(int, int, int, int) public
-     * abstract void java.awt.peer.ScrollbarPeer.setValues(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.ScrollbarPeer#setValues(int, int, int, int) public abstract void
+     * java.awt.peer.ScrollbarPeer.setValues(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollbarPeer#setLineIncrement(int) public abstract
-     * void java.awt.peer.ScrollbarPeer.setLineIncrement(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ScrollbarPeer#setLineIncrement(int)
+     * public abstract void java.awt.peer.ScrollbarPeer.setLineIncrement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

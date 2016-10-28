@@ -35,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongSummaryStatistics#combine(LongSummaryStatistics)
-     * public void java.util.LongSummaryStatistics.combine(java.util.LongSummaryStatistics)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.LongSummaryStatistics#combine(java.util.LongSummaryStatistics) public void
+     * java.util.LongSummaryStatistics.combine(java.util.LongSummaryStatistics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongSummaryStatistics#accept(int) public void
-     * java.util.LongSummaryStatistics.accept(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LongSummaryStatistics#accept(int) public
+     * void java.util.LongSummaryStatistics.accept(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongSummaryStatistics#accept(long) public void
-     * java.util.LongSummaryStatistics.accept(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LongSummaryStatistics#accept(long) public
+     * void java.util.LongSummaryStatistics.accept(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongSummaryStatistics#getSum() public final long
-     * java.util.LongSummaryStatistics.getSum()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LongSummaryStatistics#getSum() public
+     * final long java.util.LongSummaryStatistics.getSum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +126,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongSummaryStatistics#getAverage() public final
-     * double java.util.LongSummaryStatistics.getAverage()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LongSummaryStatistics#getAverage() public
+     * final double java.util.LongSummaryStatistics.getAverage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongSummaryStatistics#getCount() public final long
-     * java.util.LongSummaryStatistics.getCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LongSummaryStatistics#getCount() public
+     * final long java.util.LongSummaryStatistics.getCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +170,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongSummaryStatistics#toString() public
+     * Test method for the hereby targeted method-under-test {@link java.util.LongSummaryStatistics#toString() public
      * java.lang.String java.util.LongSummaryStatistics.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +193,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongSummaryStatistics#getMax() public final long
-     * java.util.LongSummaryStatistics.getMax()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LongSummaryStatistics#getMax() public
+     * final long java.util.LongSummaryStatistics.getMax()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +215,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongSummaryStatistics#getMin() public final long
-     * java.util.LongSummaryStatistics.getMin()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LongSummaryStatistics#getMin() public
+     * final long java.util.LongSummaryStatistics.getMin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

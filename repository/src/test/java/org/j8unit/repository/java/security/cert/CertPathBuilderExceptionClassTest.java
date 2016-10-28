@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.cert.CertPathBuilderExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathBuilderException#CertPathBuilderException(String, Throwable) public
+     * {@link java.security.cert.CertPathBuilderException#CertPathBuilderException(String, Throwable) public
      * java.security.cert.CertPathBuilderException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.cert.CertPathBuilderExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathBuilderException#CertPathBuilderException(Throwable) public
+     * {@link java.security.cert.CertPathBuilderException#CertPathBuilderException(Throwable) public
      * java.security.cert.CertPathBuilderException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.security.cert.CertPathBuilderExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathBuilderException#CertPathBuilderException(String) public
+     * {@link java.security.cert.CertPathBuilderException#CertPathBuilderException(String) public
      * java.security.cert.CertPathBuilderException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,8 @@ implements org.j8unit.repository.java.security.cert.CertPathBuilderExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathBuilderException#CertPathBuilderException() public java.security.cert.CertPathBuilderException()}.
+     * {@link java.security.cert.CertPathBuilderException#CertPathBuilderException() public
+     * java.security.cert.CertPathBuilderException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

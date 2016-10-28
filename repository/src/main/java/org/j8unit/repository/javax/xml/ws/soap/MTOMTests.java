@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MTOM#threshold() public abstract int
-     * javax.xml.ws.soap.MTOM.threshold()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.MTOM#threshold() public abstract
+     * int javax.xml.ws.soap.MTOM.threshold()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MTOM#enabled() public abstract boolean
-     * javax.xml.ws.soap.MTOM.enabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.MTOM#enabled() public abstract
+     * boolean javax.xml.ws.soap.MTOM.enabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

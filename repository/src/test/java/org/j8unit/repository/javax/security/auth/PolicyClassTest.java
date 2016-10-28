@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.security.auth.PolicyClassTests<Policy> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#setPolicy(Policy) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.Policy#setPolicy(javax.security.auth.Policy) public static void
      * javax.security.auth.Policy.setPolicy(javax.security.auth.Policy)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +37,12 @@ implements org.j8unit.repository.javax.security.auth.PolicyClassTests<Policy> {
     @Category(Draft.class)
     public void test_setPolicy_Policy()
     throws Exception {
-        // write some test for {@link Policy#setPolicy(Policy)}
+        // write some test for {@link javax.security.auth.Policy#setPolicy(javax.security.auth.Policy)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#getPolicy() public static
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.Policy#getPolicy() public static
      * javax.security.auth.Policy javax.security.auth.Policy.getPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +57,7 @@ implements org.j8unit.repository.javax.security.auth.PolicyClassTests<Policy> {
     @Category(Draft.class)
     public void test_getPolicy()
     throws Exception {
-        // write some test for {@link Policy#getPolicy()}
+        // write some test for {@link javax.security.auth.Policy#getPolicy()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.Policy]

@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.event.FocusEvent;
-import java.awt.event.MouseEvent;
-import java.beans.PropertyChangeEvent;
-import javax.swing.JComponent;
-import javax.swing.event.ChangeEvent;
 import javax.swing.plaf.basic.BasicButtonListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -41,8 +36,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#mouseClicked(MouseEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.mouseClicked(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#mouseClicked(java.awt.event.MouseEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.mouseClicked(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +60,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#mouseExited(MouseEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.mouseExited(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#mouseExited(java.awt.event.MouseEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.mouseExited(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +84,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#mouseDragged(MouseEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.mouseDragged(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#mouseDragged(java.awt.event.MouseEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.mouseDragged(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,8 +108,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#mouseEntered(MouseEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.mouseEntered(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#mouseEntered(java.awt.event.MouseEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.mouseEntered(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +132,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#focusGained(FocusEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.focusGained(java.awt.event.FocusEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#focusGained(java.awt.event.FocusEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.focusGained(java.awt.event.FocusEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,7 +157,7 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicButtonListener#uninstallKeyboardActions(JComponent) public void
+     * {@link javax.swing.plaf.basic.BasicButtonListener#uninstallKeyboardActions(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicButtonListener.uninstallKeyboardActions(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,8 +179,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#focusLost(FocusEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.focusLost(java.awt.event.FocusEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#focusLost(java.awt.event.FocusEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.focusLost(java.awt.event.FocusEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -202,8 +203,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#mouseReleased(MouseEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.mouseReleased(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#mouseReleased(java.awt.event.MouseEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.mouseReleased(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -225,8 +227,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#mousePressed(MouseEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.mousePressed(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#mousePressed(java.awt.event.MouseEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.mousePressed(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -248,8 +251,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#stateChanged(ChangeEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.stateChanged(javax.swing.event.ChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#stateChanged(javax.swing.event.ChangeEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.stateChanged(javax.swing.event.ChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -271,8 +275,9 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicButtonListener#mouseMoved(MouseEvent) public
-     * void javax.swing.plaf.basic.BasicButtonListener.mouseMoved(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#mouseMoved(java.awt.event.MouseEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.mouseMoved(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -295,7 +300,7 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicButtonListener#installKeyboardActions(JComponent) public void
+     * {@link javax.swing.plaf.basic.BasicButtonListener#installKeyboardActions(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicButtonListener.installKeyboardActions(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -318,7 +323,7 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicButtonListener#propertyChange(PropertyChangeEvent) public void
+     * {@link javax.swing.plaf.basic.BasicButtonListener#propertyChange(java.beans.PropertyChangeEvent) public void
      * javax.swing.plaf.basic.BasicButtonListener.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

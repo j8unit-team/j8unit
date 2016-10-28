@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.activation;
 
-import java.io.ObjectInput;
-import java.io.ObjectOutput;
 import javax.activation.MimeType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,30 +34,9 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#getParameter(String) public
-     * java.lang.String javax.activation.MimeType.getParameter(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParameter_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#setPrimaryType(String) public void
-     * javax.activation.MimeType.setPrimaryType(java.lang.String) throws javax.activation.MimeTypeParseException}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#setPrimaryType(String)
+     * public void javax.activation.MimeType.setPrimaryType(java.lang.String) throws
+     * javax.activation.MimeTypeParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +57,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#getBaseType() public java.lang.String
-     * javax.activation.MimeType.getBaseType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#getBaseType() public
+     * java.lang.String javax.activation.MimeType.getBaseType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +79,30 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#removeParameter(String) public void
-     * javax.activation.MimeType.removeParameter(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#getParameter(String)
+     * public java.lang.String javax.activation.MimeType.getParameter(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParameter_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#removeParameter(String)
+     * public void javax.activation.MimeType.removeParameter(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +123,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#toString() public java.lang.String
-     * javax.activation.MimeType.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#toString() public
+     * java.lang.String javax.activation.MimeType.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +146,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#setParameter(String, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MimeType#setParameter(String, String) public void
      * javax.activation.MimeType.setParameter(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +169,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#readExternal(ObjectInput) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MimeType#readExternal(java.io.ObjectInput) public void
      * javax.activation.MimeType.readExternal(java.io.ObjectInput) throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
@@ -193,7 +194,7 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#getParameters() public
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#getParameters() public
      * javax.activation.MimeTypeParameterList javax.activation.MimeType.getParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +216,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#setSubType(String) public void
-     * javax.activation.MimeType.setSubType(java.lang.String) throws javax.activation.MimeTypeParseException}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#setSubType(String) public
+     * void javax.activation.MimeType.setSubType(java.lang.String) throws javax.activation.MimeTypeParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +238,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#getPrimaryType() public java.lang.String
-     * javax.activation.MimeType.getPrimaryType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#getPrimaryType() public
+     * java.lang.String javax.activation.MimeType.getPrimaryType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,7 +260,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#writeExternal(ObjectOutput) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MimeType#writeExternal(java.io.ObjectOutput) public void
      * javax.activation.MimeType.writeExternal(java.io.ObjectOutput) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,8 +284,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#getSubType() public java.lang.String
-     * javax.activation.MimeType.getSubType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#getSubType() public
+     * java.lang.String javax.activation.MimeType.getSubType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,8 +306,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#match(String) public boolean
-     * javax.activation.MimeType.match(java.lang.String) throws javax.activation.MimeTypeParseException}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#match(String) public
+     * boolean javax.activation.MimeType.match(java.lang.String) throws javax.activation.MimeTypeParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,7 +328,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeType#match(MimeType) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MimeType#match(javax.activation.MimeType) public boolean
      * javax.activation.MimeType.match(javax.activation.MimeType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

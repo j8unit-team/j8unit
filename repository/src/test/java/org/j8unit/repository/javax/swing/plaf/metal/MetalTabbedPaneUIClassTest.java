@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.metal.MetalTabbedPaneUI;
 import javax.swing.plaf.metal.MetalTabbedPaneUI.TabbedPaneLayout;
 import org.j8unit.repository.categories.Draft;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MetalTabbedPaneUI#MetalTabbedPaneUI() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.metal.MetalTabbedPaneUI#MetalTabbedPaneUI() public
      * javax.swing.plaf.metal.MetalTabbedPaneUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTabbedPaneUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTabbedPaneUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalTabbedPaneUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +60,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTe
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link MetalTabbedPaneUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.metal.MetalTabbedPaneUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
@@ -78,8 +79,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTe
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TabbedPaneLayout#TabbedPaneLayout(MetalTabbedPaneUI) public
-         * javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout(javax.swing.plaf.metal.MetalTabbedPaneUI)}.
+         * {@link javax.swing.plaf.metal.MetalTabbedPaneUI.TabbedPaneLayout#TabbedPaneLayout(javax.swing.plaf.metal.MetalTabbedPaneUI)
+         * public javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout(javax.swing.plaf.metal.MetalTabbedPaneUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -95,7 +96,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTe
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TabbedPaneLayout sut = null; // = new TabbedPaneLayout(MetalTabbedPaneUI);
+            final TabbedPaneLayout sut = null; // = new TabbedPaneLayout(javax.swing.plaf.metal.MetalTabbedPaneUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout]

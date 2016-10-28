@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.plugins.bmp;
 
-import java.util.Locale;
 import javax.imageio.plugins.bmp.BMPImageWriteParam;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.imageio.plugins.bmp.BMPImageWriteParamCla
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BMPImageWriteParam#BMPImageWriteParam(Locale)
-     * public javax.imageio.plugins.bmp.BMPImageWriteParam(java.util.Locale)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.plugins.bmp.BMPImageWriteParam#BMPImageWriteParam(java.util.Locale) public
+     * javax.imageio.plugins.bmp.BMPImageWriteParam(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,12 +39,13 @@ implements org.j8unit.repository.javax.imageio.plugins.bmp.BMPImageWriteParamCla
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BMPImageWriteParam sut = null; // = new BMPImageWriteParam(Locale);
+        final BMPImageWriteParam sut = null; // = new BMPImageWriteParam(java.util.Locale);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BMPImageWriteParam#BMPImageWriteParam() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.plugins.bmp.BMPImageWriteParam#BMPImageWriteParam() public
      * javax.imageio.plugins.bmp.BMPImageWriteParam()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

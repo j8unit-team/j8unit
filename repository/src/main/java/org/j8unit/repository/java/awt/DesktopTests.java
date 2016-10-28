@@ -2,8 +2,6 @@ package org.j8unit.repository.java.awt;
 
 import java.awt.Desktop;
 import java.awt.Desktop.Action;
-import java.io.File;
-import java.net.URI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Desktop#print(File) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Desktop#print(java.io.File) public void
      * java.awt.Desktop.print(java.io.File) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +57,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Desktop#edit(File) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Desktop#edit(java.io.File) public void
      * java.awt.Desktop.edit(java.io.File) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Desktop#mail() public void java.awt.Desktop.mail()
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Desktop#mail() public void
+     * java.awt.Desktop.mail() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Desktop#mail(URI) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Desktop#mail(java.net.URI) public void
      * java.awt.Desktop.mail(java.net.URI) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Desktop#isSupported(Action) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Desktop#isSupported(java.awt.Desktop.Action) public boolean
      * java.awt.Desktop.isSupported(java.awt.Desktop$Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +146,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Desktop#browse(URI) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Desktop#browse(java.net.URI) public void
      * java.awt.Desktop.browse(java.net.URI) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +168,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Desktop#open(File) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Desktop#open(java.io.File) public void
      * java.awt.Desktop.open(java.io.File) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

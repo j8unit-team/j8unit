@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeByte(int) public abstract void
-     * java.io.DataOutput.writeByte(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeByte(int) public abstract
+     * void java.io.DataOutput.writeByte(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeInt(int) public abstract void
-     * java.io.DataOutput.writeInt(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeInt(int) public abstract
+     * void java.io.DataOutput.writeInt(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeFloat(float) public abstract void
-     * java.io.DataOutput.writeFloat(float) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeFloat(float) public abstract
+     * void java.io.DataOutput.writeFloat(float) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeLong(long) public abstract void
-     * java.io.DataOutput.writeLong(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeLong(long) public abstract
+     * void java.io.DataOutput.writeLong(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeBytes(String) public abstract void
-     * java.io.DataOutput.writeBytes(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeBytes(String) public
+     * abstract void java.io.DataOutput.writeBytes(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeChar(int) public abstract void
-     * java.io.DataOutput.writeChar(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeChar(int) public abstract
+     * void java.io.DataOutput.writeChar(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeShort(int) public abstract void
-     * java.io.DataOutput.writeShort(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeShort(int) public abstract
+     * void java.io.DataOutput.writeShort(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeChars(String) public abstract void
-     * java.io.DataOutput.writeChars(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeChars(String) public
+     * abstract void java.io.DataOutput.writeChars(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeUTF(String) public abstract void
-     * java.io.DataOutput.writeUTF(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeUTF(String) public abstract
+     * void java.io.DataOutput.writeUTF(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +233,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeBoolean(boolean) public abstract
-     * void java.io.DataOutput.writeBoolean(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeBoolean(boolean) public
+     * abstract void java.io.DataOutput.writeBoolean(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +255,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#writeDouble(double) public abstract void
-     * java.io.DataOutput.writeDouble(double) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#writeDouble(double) public
+     * abstract void java.io.DataOutput.writeDouble(double) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,7 +277,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#write(int) public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#write(int) public abstract void
      * java.io.DataOutput.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -299,8 +299,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#write(byte[]) public abstract void
-     * java.io.DataOutput.write(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#write(byte[]) public abstract
+     * void java.io.DataOutput.write(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,8 +321,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataOutput#write(byte[], int, int) public abstract
-     * void java.io.DataOutput.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutput#write(byte[], int, int) public
+     * abstract void java.io.DataOutput.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

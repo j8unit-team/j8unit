@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.net.ServerSocketFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLServerSocketFactory#getDefaultCipherSuites()
-     * public abstract java.lang.String[] javax.net.ssl.SSLServerSocketFactory.getDefaultCipherSuites()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLServerSocketFactory#getDefaultCipherSuites() public abstract java.lang.String[]
+     * javax.net.ssl.SSLServerSocketFactory.getDefaultCipherSuites()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.net.ServerSocketFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLServerSocketFactory#getSupportedCipherSuites()
-     * public abstract java.lang.String[] javax.net.ssl.SSLServerSocketFactory.getSupportedCipherSuites()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLServerSocketFactory#getSupportedCipherSuites() public abstract java.lang.String[]
+     * javax.net.ssl.SSLServerSocketFactory.getSupportedCipherSuites()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Cursor#getType() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Cursor#getType() public int
      * java.awt.Cursor.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Cursor#getName() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Cursor#getName() public java.lang.String
      * java.awt.Cursor.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Cursor#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Cursor#toString() public java.lang.String
      * java.awt.Cursor.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

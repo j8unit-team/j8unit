@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongPredicate#or(LongPredicate) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.LongPredicate#or(java.util.function.LongPredicate) public default
      * java.util.function.LongPredicate java.util.function.LongPredicate.or(java.util.function.LongPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongPredicate#negate() public default
-     * java.util.function.LongPredicate java.util.function.LongPredicate.negate()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.LongPredicate#negate() public
+     * default java.util.function.LongPredicate java.util.function.LongPredicate.negate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongPredicate#and(LongPredicate) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.LongPredicate#and(java.util.function.LongPredicate) public default
      * java.util.function.LongPredicate java.util.function.LongPredicate.and(java.util.function.LongPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongPredicate#test(long) public abstract boolean
-     * java.util.function.LongPredicate.test(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.LongPredicate#test(long) public
+     * abstract boolean java.util.function.LongPredicate.test(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

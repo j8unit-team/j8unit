@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
-import javax.swing.JInternalFrame;
 import javax.swing.plaf.basic.BasicInternalFrameUI;
 import javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout;
 import javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener;
@@ -26,7 +24,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BasicInternalFrameUI#BasicInternalFrameUI(JInternalFrame) public
+     * {@link javax.swing.plaf.basic.BasicInternalFrameUI#BasicInternalFrameUI(javax.swing.JInternalFrame) public
      * javax.swing.plaf.basic.BasicInternalFrameUI(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,14 +41,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BasicInternalFrameUI sut = null; // = new BasicInternalFrameUI(JInternalFrame);
+        final BasicInternalFrameUI sut = null; // = new BasicInternalFrameUI(javax.swing.JInternalFrame);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#createUI(JComponent) public
-     * static javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicInternalFrameUI.createUI(javax.swing.JComponent)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicInternalFrameUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicInternalFrameUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,10 +62,51 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link BasicInternalFrameUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.basic.BasicInternalFrameUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI]
+
+    @RunWith(J8Unit4.class)
+    public static class InternalFrameLayoutClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests<InternalFrameLayout> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
+
+        @Override
+        public Class<InternalFrameLayout> createNewSUT() {
+            return InternalFrameLayout.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#InternalFrameLayout(javax.swing.plaf.basic.BasicInternalFrameUI)
+         * public
+         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout(javax.swing.plaf.basic.BasicInternalFrameUI)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_InternalFrameLayout_BasicInternalFrameUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final InternalFrameLayout sut = null; // = new
+                                                  // InternalFrameLayout(javax.swing.plaf.basic.BasicInternalFrameUI);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
+
+    }
 
     @RunWith(J8Unit4.class)
     public static class InternalFramePropertyChangeListenerClassTest
@@ -84,7 +123,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link InternalFramePropertyChangeListener#InternalFramePropertyChangeListener(BasicInternalFrameUI) public
+         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener#InternalFramePropertyChangeListener(javax.swing.plaf.basic.BasicInternalFrameUI)
+         * public
          * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener(javax.swing.plaf.basic.BasicInternalFrameUI)}
          * .
          *
@@ -103,49 +143,10 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
             // create new instance
             @SuppressWarnings("unused")
             final InternalFramePropertyChangeListener sut = null; // = new
-                                                                  // InternalFramePropertyChangeListener(BasicInternalFrameUI);
+                                                                  // InternalFramePropertyChangeListener(javax.swing.plaf.basic.BasicInternalFrameUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class InternalFrameLayoutClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests<InternalFrameLayout> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
-
-        @Override
-        public Class<InternalFrameLayout> createNewSUT() {
-            return InternalFrameLayout.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link InternalFrameLayout#InternalFrameLayout(BasicInternalFrameUI) public
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout(javax.swing.plaf.basic.BasicInternalFrameUI)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_InternalFrameLayout_BasicInternalFrameUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final InternalFrameLayout sut = null; // = new InternalFrameLayout(BasicInternalFrameUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
 
     }
 

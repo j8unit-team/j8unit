@@ -35,8 +35,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#getMinLabel() public java.lang.String
-     * javax.sound.sampled.FloatControl.getMinLabel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#getMinLabel()
+     * public java.lang.String javax.sound.sampled.FloatControl.getMinLabel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#getValue() public float
-     * javax.sound.sampled.FloatControl.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#getValue() public
+     * float javax.sound.sampled.FloatControl.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#shift(float, float, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.FloatControl#shift(float, float, int) public void
      * javax.sound.sampled.FloatControl.shift(float,float,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +102,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#setValue(float) public void
-     * javax.sound.sampled.FloatControl.setValue(float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#setValue(float)
+     * public void javax.sound.sampled.FloatControl.setValue(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#getUpdatePeriod() public int
-     * javax.sound.sampled.FloatControl.getUpdatePeriod()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#getUpdatePeriod()
+     * public int javax.sound.sampled.FloatControl.getUpdatePeriod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#toString() public java.lang.String
-     * javax.sound.sampled.FloatControl.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#toString() public
+     * java.lang.String javax.sound.sampled.FloatControl.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +169,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#getMidLabel() public java.lang.String
-     * javax.sound.sampled.FloatControl.getMidLabel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#getMidLabel()
+     * public java.lang.String javax.sound.sampled.FloatControl.getMidLabel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +191,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#getUnits() public java.lang.String
-     * javax.sound.sampled.FloatControl.getUnits()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#getUnits() public
+     * java.lang.String javax.sound.sampled.FloatControl.getUnits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +213,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#getMinimum() public float
-     * javax.sound.sampled.FloatControl.getMinimum()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#getMinimum() public
+     * float javax.sound.sampled.FloatControl.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +235,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#getMaxLabel() public java.lang.String
-     * javax.sound.sampled.FloatControl.getMaxLabel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#getMaxLabel()
+     * public java.lang.String javax.sound.sampled.FloatControl.getMaxLabel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +257,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#getPrecision() public float
-     * javax.sound.sampled.FloatControl.getPrecision()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#getPrecision()
+     * public float javax.sound.sampled.FloatControl.getPrecision()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +279,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatControl#getMaximum() public float
-     * javax.sound.sampled.FloatControl.getMaximum()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.FloatControl#getMaximum() public
+     * float javax.sound.sampled.FloatControl.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

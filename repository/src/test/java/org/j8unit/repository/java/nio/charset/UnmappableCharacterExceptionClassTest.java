@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.charset.UnmappableCharacterExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmappableCharacterException#UnmappableCharacterException(int) public
+     * {@link java.nio.charset.UnmappableCharacterException#UnmappableCharacterException(int) public
      * java.nio.charset.UnmappableCharacterException(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

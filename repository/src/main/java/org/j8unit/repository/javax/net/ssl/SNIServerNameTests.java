@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIServerName#getType() public final int
-     * javax.net.ssl.SNIServerName.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIServerName#getType() public final
+     * int javax.net.ssl.SNIServerName.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIServerName#getEncoded() public final byte[]
-     * javax.net.ssl.SNIServerName.getEncoded()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIServerName#getEncoded() public
+     * final byte[] javax.net.ssl.SNIServerName.getEncoded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIServerName#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIServerName#hashCode() public int
      * javax.net.ssl.SNIServerName.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIServerName#equals(Object) public boolean
-     * javax.net.ssl.SNIServerName.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIServerName#equals(Object) public
+     * boolean javax.net.ssl.SNIServerName.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIServerName#toString() public java.lang.String
-     * javax.net.ssl.SNIServerName.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIServerName#toString() public
+     * java.lang.String javax.net.ssl.SNIServerName.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

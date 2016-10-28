@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.LinkedHashMap;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +23,8 @@ implements org.j8unit.repository.java.util.LinkedHashMapClassTests<LinkedHashMap
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LinkedHashMap#LinkedHashMap(int, float, boolean) public java.util.LinkedHashMap(int,float,boolean)}.
+     * {@link java.util.LinkedHashMap#LinkedHashMap(int, float, boolean) public
+     * java.util.LinkedHashMap(int,float,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +45,9 @@ implements org.j8unit.repository.java.util.LinkedHashMapClassTests<LinkedHashMap
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedHashMap#LinkedHashMap(Map) public
-     * java.util.LinkedHashMap(java.util.Map<? extends K, ? extends V>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.LinkedHashMap#LinkedHashMap(java.util.Map) public java.util.LinkedHashMap(java.util.Map<?
+     * extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +63,13 @@ implements org.j8unit.repository.java.util.LinkedHashMapClassTests<LinkedHashMap
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LinkedHashMap sut = null; // = new LinkedHashMap(Map);
+        final LinkedHashMap sut = null; // = new LinkedHashMap(java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedHashMap#LinkedHashMap(int) public
-     * java.util.LinkedHashMap(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.LinkedHashMap#LinkedHashMap(int)
+     * public java.util.LinkedHashMap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +90,8 @@ implements org.j8unit.repository.java.util.LinkedHashMapClassTests<LinkedHashMap
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedHashMap#LinkedHashMap(int, float) public
-     * java.util.LinkedHashMap(int,float)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.LinkedHashMap#LinkedHashMap(int, float) public java.util.LinkedHashMap(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,7 +112,7 @@ implements org.j8unit.repository.java.util.LinkedHashMapClassTests<LinkedHashMap
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedHashMap#LinkedHashMap() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.LinkedHashMap#LinkedHashMap() public
      * java.util.LinkedHashMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

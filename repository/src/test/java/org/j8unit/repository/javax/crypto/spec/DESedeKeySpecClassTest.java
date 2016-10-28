@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.crypto.spec.DESedeKeySpecClassTests<DESed
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DESedeKeySpec#DESedeKeySpec(byte[]) public
-     * javax.crypto.spec.DESedeKeySpec(byte[]) throws java.security.InvalidKeyException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.spec.DESedeKeySpec#DESedeKeySpec(byte[]) public javax.crypto.spec.DESedeKeySpec(byte[])
+     * throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,8 @@ implements org.j8unit.repository.javax.crypto.spec.DESedeKeySpecClassTests<DESed
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DESedeKeySpec#DESedeKeySpec(byte[], int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.spec.DESedeKeySpec#DESedeKeySpec(byte[], int) public
      * javax.crypto.spec.DESedeKeySpec(byte[],int) throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,9 +67,9 @@ implements org.j8unit.repository.javax.crypto.spec.DESedeKeySpecClassTests<DESed
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DESedeKeySpec#isParityAdjusted(byte[], int) public
-     * static boolean javax.crypto.spec.DESedeKeySpec.isParityAdjusted(byte[],int) throws
-     * java.security.InvalidKeyException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.spec.DESedeKeySpec#isParityAdjusted(byte[], int) public static boolean
+     * javax.crypto.spec.DESedeKeySpec.isParityAdjusted(byte[],int) throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +83,7 @@ implements org.j8unit.repository.javax.crypto.spec.DESedeKeySpecClassTests<DESed
     @Category(Draft.class)
     public void test_isParityAdjusted_byteArray_int()
     throws Exception {
-        // write some test for {@link DESedeKeySpec#isParityAdjusted(byte[], int)}
+        // write some test for {@link javax.crypto.spec.DESedeKeySpec#isParityAdjusted(byte[], int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DESedeKeySpec]

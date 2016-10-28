@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.io.DataOutput;
 import java.rmi.server.UID;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UID#write(DataOutput) public void
-     * java.rmi.server.UID.write(java.io.DataOutput) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.UID#write(java.io.DataOutput) public
+     * void java.rmi.server.UID.write(java.io.DataOutput) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UID#toString() public java.lang.String
-     * java.rmi.server.UID.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.UID#toString() public
+     * java.lang.String java.rmi.server.UID.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UID#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.UID#hashCode() public int
      * java.rmi.server.UID.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +102,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UID#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.UID#equals(Object) public boolean
      * java.rmi.server.UID.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,11 +1,7 @@
 package org.j8unit.repository.java.awt.im.spi;
 
-import java.awt.AWTEvent;
-import java.awt.Rectangle;
 import java.awt.im.spi.InputMethod;
-import java.awt.im.spi.InputMethodContext;
 import java.lang.Character.Subset;
-import java.util.Locale;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,8 +36,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#setLocale(Locale) public abstract
-     * boolean java.awt.im.spi.InputMethod.setLocale(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.spi.InputMethod#setLocale(java.util.Locale) public abstract boolean
+     * java.awt.im.spi.InputMethod.setLocale(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#getLocale() public abstract
-     * java.util.Locale java.awt.im.spi.InputMethod.getLocale()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#getLocale() public
+     * abstract java.util.Locale java.awt.im.spi.InputMethod.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +82,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InputMethod#setInputMethodContext(InputMethodContext) public abstract void
+     * {@link java.awt.im.spi.InputMethod#setInputMethodContext(java.awt.im.spi.InputMethodContext) public abstract void
      * java.awt.im.spi.InputMethod.setInputMethodContext(java.awt.im.spi.InputMethodContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#notifyClientWindowChange(Rectangle)
-     * public abstract void java.awt.im.spi.InputMethod.notifyClientWindowChange(java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.spi.InputMethod#notifyClientWindowChange(java.awt.Rectangle) public abstract void
+     * java.awt.im.spi.InputMethod.notifyClientWindowChange(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#dispose() public abstract void
-     * java.awt.im.spi.InputMethod.dispose()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#dispose() public
+     * abstract void java.awt.im.spi.InputMethod.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +149,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#removeNotify() public abstract void
-     * java.awt.im.spi.InputMethod.removeNotify()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#removeNotify() public
+     * abstract void java.awt.im.spi.InputMethod.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +171,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#activate() public abstract void
-     * java.awt.im.spi.InputMethod.activate()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#activate() public
+     * abstract void java.awt.im.spi.InputMethod.activate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +193,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#setCompositionEnabled(boolean) public
-     * abstract void java.awt.im.spi.InputMethod.setCompositionEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.spi.InputMethod#setCompositionEnabled(boolean) public abstract void
+     * java.awt.im.spi.InputMethod.setCompositionEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,8 +216,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#endComposition() public abstract void
-     * java.awt.im.spi.InputMethod.endComposition()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#endComposition() public
+     * abstract void java.awt.im.spi.InputMethod.endComposition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,8 +238,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#setCharacterSubsets(Subset[]) public
-     * abstract void java.awt.im.spi.InputMethod.setCharacterSubsets(java.lang.Character$Subset[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.spi.InputMethod#setCharacterSubsets(Subset[]) public abstract void
+     * java.awt.im.spi.InputMethod.setCharacterSubsets(java.lang.Character$Subset[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -261,8 +261,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#isCompositionEnabled() public abstract
-     * boolean java.awt.im.spi.InputMethod.isCompositionEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#isCompositionEnabled()
+     * public abstract boolean java.awt.im.spi.InputMethod.isCompositionEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -283,8 +283,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#deactivate(boolean) public abstract void
-     * java.awt.im.spi.InputMethod.deactivate(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#deactivate(boolean)
+     * public abstract void java.awt.im.spi.InputMethod.deactivate(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -305,8 +305,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#reconvert() public abstract void
-     * java.awt.im.spi.InputMethod.reconvert()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#reconvert() public
+     * abstract void java.awt.im.spi.InputMethod.reconvert()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,8 +327,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#getControlObject() public abstract
-     * java.lang.Object java.awt.im.spi.InputMethod.getControlObject()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#getControlObject()
+     * public abstract java.lang.Object java.awt.im.spi.InputMethod.getControlObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -349,8 +349,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#hideWindows() public abstract void
-     * java.awt.im.spi.InputMethod.hideWindows()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.spi.InputMethod#hideWindows() public
+     * abstract void java.awt.im.spi.InputMethod.hideWindows()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,8 +371,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethod#dispatchEvent(AWTEvent) public abstract
-     * void java.awt.im.spi.InputMethod.dispatchEvent(java.awt.AWTEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.spi.InputMethod#dispatchEvent(java.awt.AWTEvent) public abstract void
+     * java.awt.im.spi.InputMethod.dispatchEvent(java.awt.AWTEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

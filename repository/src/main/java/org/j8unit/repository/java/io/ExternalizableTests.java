@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.Externalizable;
-import java.io.ObjectInput;
-import java.io.ObjectOutput;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Externalizable#writeExternal(ObjectOutput) public
-     * abstract void java.io.Externalizable.writeExternal(java.io.ObjectOutput) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.io.Externalizable#writeExternal(java.io.ObjectOutput) public abstract void
+     * java.io.Externalizable.writeExternal(java.io.ObjectOutput) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Externalizable#readExternal(ObjectInput) public
-     * abstract void java.io.Externalizable.readExternal(java.io.ObjectInput) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.io.Externalizable#readExternal(java.io.ObjectInput) public abstract void
+     * java.io.Externalizable.readExternal(java.io.ObjectInput) throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

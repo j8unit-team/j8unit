@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Container;
 import javax.swing.plaf.basic.DefaultMenuLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.DefaultMenuLayoutClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultMenuLayout#DefaultMenuLayout(Container, int) public
+     * {@link javax.swing.plaf.basic.DefaultMenuLayout#DefaultMenuLayout(java.awt.Container, int) public
      * javax.swing.plaf.basic.DefaultMenuLayout(java.awt.Container,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.DefaultMenuLayoutClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultMenuLayout sut = null; // = new DefaultMenuLayout(Container, int);
+        final DefaultMenuLayout sut = null; // = new DefaultMenuLayout(java.awt.Container, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.DefaultMenuLayout]

@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.io.FileDescriptorClassTests<FileDescriptor
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileDescriptor#FileDescriptor() public
+     * Test method for the hereby targeted constructor-under-test {@link java.io.FileDescriptor#FileDescriptor() public
      * java.io.FileDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

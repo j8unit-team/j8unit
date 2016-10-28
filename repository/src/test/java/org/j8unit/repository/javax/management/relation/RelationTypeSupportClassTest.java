@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management.relation;
 
 import javax.management.relation.RelationTypeSupport;
-import javax.management.relation.RoleInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,9 +22,9 @@ implements org.j8unit.repository.javax.management.relation.RelationTypeSupportCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RelationTypeSupport#RelationTypeSupport(String, RoleInfo[]) public
-     * javax.management.relation.RelationTypeSupport(java.lang.String,javax.management.relation.RoleInfo[]) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.InvalidRelationTypeException}.
+     * {@link javax.management.relation.RelationTypeSupport#RelationTypeSupport(String, javax.management.relation.RoleInfo[])
+     * public javax.management.relation.RelationTypeSupport(java.lang.String,javax.management.relation.RoleInfo[])
+     * throws java.lang.IllegalArgumentException,javax.management.relation.InvalidRelationTypeException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +40,8 @@ implements org.j8unit.repository.javax.management.relation.RelationTypeSupportCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RelationTypeSupport sut = null; // = new RelationTypeSupport(String, RoleInfo[]);
+        final RelationTypeSupport sut = null; // = new RelationTypeSupport(String,
+                                              // javax.management.relation.RoleInfo[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationTypeSupport]

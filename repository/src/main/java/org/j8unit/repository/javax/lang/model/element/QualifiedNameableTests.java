@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QualifiedNameable#getQualifiedName() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.QualifiedNameable#getQualifiedName() public abstract
      * javax.lang.model.element.Name javax.lang.model.element.QualifiedNameable.getQualifiedName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

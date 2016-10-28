@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RGBColor#getRed() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.RGBColor#getRed() public abstract
      * org.w3c.dom.css.CSSPrimitiveValue org.w3c.dom.css.RGBColor.getRed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RGBColor#getGreen() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.RGBColor#getGreen() public abstract
      * org.w3c.dom.css.CSSPrimitiveValue org.w3c.dom.css.RGBColor.getGreen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RGBColor#getBlue() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.RGBColor#getBlue() public abstract
      * org.w3c.dom.css.CSSPrimitiveValue org.w3c.dom.css.RGBColor.getBlue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Component;
-import java.awt.Container;
 import java.awt.ContainerOrderFocusTraversalPolicy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContainerOrderFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean) public void
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean) public void
      * java.awt.ContainerOrderFocusTraversalPolicy.setImplicitDownCycleTraversal(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +58,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContainerOrderFocusTraversalPolicy#getFirstComponent(Container) public java.awt.Component
-     * java.awt.ContainerOrderFocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getFirstComponent(java.awt.Container) public
+     * java.awt.Component java.awt.ContainerOrderFocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +82,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContainerOrderFocusTraversalPolicy#getComponentBefore(Container, Component) public java.awt.Component
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getComponentBefore(java.awt.Container, java.awt.Component)
+     * public java.awt.Component
      * java.awt.ContainerOrderFocusTraversalPolicy.getComponentBefore(java.awt.Container,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,7 +107,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContainerOrderFocusTraversalPolicy#getLastComponent(Container) public java.awt.Component
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getLastComponent(java.awt.Container) public java.awt.Component
      * java.awt.ContainerOrderFocusTraversalPolicy.getLastComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,8 +131,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContainerOrderFocusTraversalPolicy#getDefaultComponent(Container) public java.awt.Component
-     * java.awt.ContainerOrderFocusTraversalPolicy.getDefaultComponent(java.awt.Container)}.
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getDefaultComponent(java.awt.Container) public
+     * java.awt.Component java.awt.ContainerOrderFocusTraversalPolicy.getDefaultComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,7 +155,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContainerOrderFocusTraversalPolicy#getImplicitDownCycleTraversal() public boolean
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getImplicitDownCycleTraversal() public boolean
      * java.awt.ContainerOrderFocusTraversalPolicy.getImplicitDownCycleTraversal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,7 +178,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContainerOrderFocusTraversalPolicy#getComponentAfter(Container, Component) public java.awt.Component
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#getComponentAfter(java.awt.Container, java.awt.Component)
+     * public java.awt.Component
      * java.awt.ContainerOrderFocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

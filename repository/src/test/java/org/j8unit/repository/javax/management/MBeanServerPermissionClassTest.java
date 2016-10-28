@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.MBeanServerPermissionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanServerPermission#MBeanServerPermission(String, String) public
+     * {@link javax.management.MBeanServerPermission#MBeanServerPermission(String, String) public
      * javax.management.MBeanServerPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.MBeanServerPermissionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanServerPermission#MBeanServerPermission(String) public
+     * {@link javax.management.MBeanServerPermission#MBeanServerPermission(String) public
      * javax.management.MBeanServerPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

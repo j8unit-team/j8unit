@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind;
 
-import javax.xml.bind.ValidationEventHandler;
 import javax.xml.bind.Validator;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#validate(Object) public abstract boolean
-     * javax.xml.bind.Validator.validate(java.lang.Object) throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Validator#validate(Object) public
+     * abstract boolean javax.xml.bind.Validator.validate(java.lang.Object) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#validateRoot(Object) public abstract
-     * boolean javax.xml.bind.Validator.validateRoot(java.lang.Object) throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Validator#validateRoot(Object) public
+     * abstract boolean javax.xml.bind.Validator.validateRoot(java.lang.Object) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#setEventHandler(ValidationEventHandler)
-     * public abstract void javax.xml.bind.Validator.setEventHandler(javax.xml.bind.ValidationEventHandler) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.Validator#setEventHandler(javax.xml.bind.ValidationEventHandler) public abstract void
+     * javax.xml.bind.Validator.setEventHandler(javax.xml.bind.ValidationEventHandler) throws
      * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#setProperty(String, Object) public
-     * abstract void javax.xml.bind.Validator.setProperty(java.lang.String,java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Validator#setProperty(String, Object)
+     * public abstract void javax.xml.bind.Validator.setProperty(java.lang.String,java.lang.Object) throws
      * javax.xml.bind.PropertyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#getEventHandler() public abstract
-     * javax.xml.bind.ValidationEventHandler javax.xml.bind.Validator.getEventHandler() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Validator#getEventHandler() public
+     * abstract javax.xml.bind.ValidationEventHandler javax.xml.bind.Validator.getEventHandler() throws
      * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +149,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#getProperty(String) public abstract
-     * java.lang.Object javax.xml.bind.Validator.getProperty(java.lang.String) throws javax.xml.bind.PropertyException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Validator#getProperty(String) public
+     * abstract java.lang.Object javax.xml.bind.Validator.getProperty(java.lang.String) throws
+     * javax.xml.bind.PropertyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

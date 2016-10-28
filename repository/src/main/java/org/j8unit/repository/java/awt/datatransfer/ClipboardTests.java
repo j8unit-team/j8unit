@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
 import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.ClipboardOwner;
-import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.FlavorListener;
-import java.awt.datatransfer.Transferable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clipboard#getName() public java.lang.String
-     * java.awt.datatransfer.Clipboard.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.Clipboard#getName() public
+     * java.lang.String java.awt.datatransfer.Clipboard.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clipboard#isDataFlavorAvailable(DataFlavor) public
-     * boolean java.awt.datatransfer.Clipboard.isDataFlavorAvailable(java.awt.datatransfer.DataFlavor)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.Clipboard#isDataFlavorAvailable(java.awt.datatransfer.DataFlavor) public boolean
+     * java.awt.datatransfer.Clipboard.isDataFlavorAvailable(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clipboard#getAvailableDataFlavors() public
-     * java.awt.datatransfer.DataFlavor[] java.awt.datatransfer.Clipboard.getAvailableDataFlavors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.Clipboard#getAvailableDataFlavors() public java.awt.datatransfer.DataFlavor[]
+     * java.awt.datatransfer.Clipboard.getAvailableDataFlavors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clipboard#addFlavorListener(FlavorListener) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.Clipboard#addFlavorListener(java.awt.datatransfer.FlavorListener) public
      * synchronized void java.awt.datatransfer.Clipboard.addFlavorListener(java.awt.datatransfer.FlavorListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,30 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clipboard#getContents(Object) public synchronized
-     * java.awt.datatransfer.Transferable java.awt.datatransfer.Clipboard.getContents(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getContents_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Clipboard#getFlavorListeners() public synchronized
-     * java.awt.datatransfer.FlavorListener[] java.awt.datatransfer.Clipboard.getFlavorListeners()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.Clipboard#getFlavorListeners()
+     * public synchronized java.awt.datatransfer.FlavorListener[] java.awt.datatransfer.Clipboard.getFlavorListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,9 +147,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clipboard#removeFlavorListener(FlavorListener)
-     * public synchronized void
-     * java.awt.datatransfer.Clipboard.removeFlavorListener(java.awt.datatransfer.FlavorListener)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.Clipboard#getContents(Object)
+     * public synchronized java.awt.datatransfer.Transferable
+     * java.awt.datatransfer.Clipboard.getContents(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getContents_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.Clipboard#removeFlavorListener(java.awt.datatransfer.FlavorListener) public
+     * synchronized void java.awt.datatransfer.Clipboard.removeFlavorListener(java.awt.datatransfer.FlavorListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,7 +193,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clipboard#setContents(Transferable, ClipboardOwner)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.Clipboard#setContents(java.awt.datatransfer.Transferable, java.awt.datatransfer.ClipboardOwner)
      * public synchronized void
      * java.awt.datatransfer.Clipboard.setContents(java.awt.datatransfer.Transferable,java.awt.datatransfer.ClipboardOwner)}
      * .
@@ -217,8 +218,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clipboard#getData(DataFlavor) public
-     * java.lang.Object java.awt.datatransfer.Clipboard.getData(java.awt.datatransfer.DataFlavor) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.Clipboard#getData(java.awt.datatransfer.DataFlavor) public java.lang.Object
+     * java.awt.datatransfer.Clipboard.getData(java.awt.datatransfer.DataFlavor) throws
      * java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

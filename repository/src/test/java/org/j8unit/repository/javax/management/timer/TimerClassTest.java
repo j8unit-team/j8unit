@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.management.timer.TimerClassTests<Timer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Timer#Timer() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.management.timer.Timer#Timer() public
      * javax.management.timer.Timer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

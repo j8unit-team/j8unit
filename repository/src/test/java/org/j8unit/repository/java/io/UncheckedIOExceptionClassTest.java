@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.IOException;
 import java.io.UncheckedIOException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.io.UncheckedIOExceptionClassTests<Unchecke
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UncheckedIOException#UncheckedIOException(String, IOException) public
+     * {@link java.io.UncheckedIOException#UncheckedIOException(String, java.io.IOException) public
      * java.io.UncheckedIOException(java.lang.String,java.io.IOException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.io.UncheckedIOExceptionClassTests<Unchecke
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UncheckedIOException sut = null; // = new UncheckedIOException(String, IOException);
+        final UncheckedIOException sut = null; // = new UncheckedIOException(String, java.io.IOException);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UncheckedIOException#UncheckedIOException(IOException) public
+     * {@link java.io.UncheckedIOException#UncheckedIOException(java.io.IOException) public
      * java.io.UncheckedIOException(java.io.IOException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.io.UncheckedIOExceptionClassTests<Unchecke
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UncheckedIOException sut = null; // = new UncheckedIOException(IOException);
+        final UncheckedIOException sut = null; // = new UncheckedIOException(java.io.IOException);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.UncheckedIOException]

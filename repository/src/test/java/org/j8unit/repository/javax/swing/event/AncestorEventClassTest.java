@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import java.awt.Container;
-import javax.swing.JComponent;
 import javax.swing.event.AncestorEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.javax.swing.event.AncestorEventClassTests<Ances
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AncestorEvent#AncestorEvent(JComponent, int, Container, Container) public
-     * javax.swing.event.AncestorEvent(javax.swing.JComponent,int,java.awt.Container,java.awt.Container)}.
+     * {@link javax.swing.event.AncestorEvent#AncestorEvent(javax.swing.JComponent, int, java.awt.Container, java.awt.Container)
+     * public javax.swing.event.AncestorEvent(javax.swing.JComponent,int,java.awt.Container,java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +39,8 @@ implements org.j8unit.repository.javax.swing.event.AncestorEventClassTests<Ances
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AncestorEvent sut = null; // = new AncestorEvent(JComponent, int, Container, Container);
+        final AncestorEvent sut = null; // = new AncestorEvent(javax.swing.JComponent, int, java.awt.Container,
+                                        // java.awt.Container);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.AncestorEvent]

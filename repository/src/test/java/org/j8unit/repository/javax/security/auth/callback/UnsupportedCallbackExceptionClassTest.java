@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth.callback;
 
-import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.UnsupportedCallbackException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.security.auth.callback.UnsupportedCallbac
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedCallbackException#UnsupportedCallbackException(Callback) public
-     * javax.security.auth.callback.UnsupportedCallbackException(javax.security.auth.callback.Callback)}.
+     * {@link javax.security.auth.callback.UnsupportedCallbackException#UnsupportedCallbackException(javax.security.auth.callback.Callback)
+     * public javax.security.auth.callback.UnsupportedCallbackException(javax.security.auth.callback.Callback)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,15 @@ implements org.j8unit.repository.javax.security.auth.callback.UnsupportedCallbac
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UnsupportedCallbackException sut = null; // = new UnsupportedCallbackException(Callback);
+        final UnsupportedCallbackException sut = null; // = new
+                                                       // UnsupportedCallbackException(javax.security.auth.callback.Callback);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedCallbackException#UnsupportedCallbackException(Callback, String) public
+     * {@link javax.security.auth.callback.UnsupportedCallbackException#UnsupportedCallbackException(javax.security.auth.callback.Callback, String)
+     * public
      * javax.security.auth.callback.UnsupportedCallbackException(javax.security.auth.callback.Callback,java.lang.String)}
      * .
      *
@@ -64,7 +65,9 @@ implements org.j8unit.repository.javax.security.auth.callback.UnsupportedCallbac
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UnsupportedCallbackException sut = null; // = new UnsupportedCallbackException(Callback, String);
+        final UnsupportedCallbackException sut = null; // = new
+                                                       // UnsupportedCallbackException(javax.security.auth.callback.Callback,
+                                                       // String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.UnsupportedCallbackException]

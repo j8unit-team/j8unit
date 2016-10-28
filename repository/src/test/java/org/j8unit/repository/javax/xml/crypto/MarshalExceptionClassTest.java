@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.xml.crypto.MarshalExceptionClassTests<Mar
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MarshalException#MarshalException(Throwable)
-     * public javax.xml.crypto.MarshalException(java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.MarshalException#MarshalException(Throwable) public
+     * javax.xml.crypto.MarshalException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.javax.xml.crypto.MarshalExceptionClassTests<Mar
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MarshalException#MarshalException(String, Throwable) public
+     * {@link javax.xml.crypto.MarshalException#MarshalException(String, Throwable) public
      * javax.xml.crypto.MarshalException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,8 +67,9 @@ implements org.j8unit.repository.javax.xml.crypto.MarshalExceptionClassTests<Mar
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MarshalException#MarshalException(String)
-     * public javax.xml.crypto.MarshalException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.MarshalException#MarshalException(String) public
+     * javax.xml.crypto.MarshalException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,8 +90,8 @@ implements org.j8unit.repository.javax.xml.crypto.MarshalExceptionClassTests<Mar
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MarshalException#MarshalException() public
-     * javax.xml.crypto.MarshalException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.MarshalException#MarshalException() public javax.xml.crypto.MarshalException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

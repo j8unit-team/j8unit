@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.io.CharArrayReaderClassTests<CharArrayRead
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CharArrayReader#CharArrayReader(char[]) public
-     * java.io.CharArrayReader(char[])}.
+     * Test method for the hereby targeted constructor-under-test {@link java.io.CharArrayReader#CharArrayReader(char[])
+     * public java.io.CharArrayReader(char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.io.CharArrayReaderClassTests<CharArrayRead
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CharArrayReader#CharArrayReader(char[], int, int) public java.io.CharArrayReader(char[],int,int)}.
+     * {@link java.io.CharArrayReader#CharArrayReader(char[], int, int) public java.io.CharArrayReader(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

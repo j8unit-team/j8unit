@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantLockClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ReentrantLock#ReentrantLock() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#ReentrantLock() public
      * java.util.concurrent.locks.ReentrantLock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantLockClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ReentrantLock#ReentrantLock(boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#ReentrantLock(boolean) public
      * java.util.concurrent.locks.ReentrantLock(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

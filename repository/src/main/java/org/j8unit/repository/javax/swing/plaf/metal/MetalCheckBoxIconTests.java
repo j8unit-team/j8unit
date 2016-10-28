@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import java.awt.Component;
-import java.awt.Graphics;
 import javax.swing.plaf.metal.MetalCheckBoxIcon;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +36,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MetalCheckBoxIcon#paintIcon(Component, Graphics, int, int) public void
-     * javax.swing.plaf.metal.MetalCheckBoxIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
+     * {@link javax.swing.plaf.metal.MetalCheckBoxIcon#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public
+     * void javax.swing.plaf.metal.MetalCheckBoxIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +59,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalCheckBoxIcon#getIconHeight() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalCheckBoxIcon#getIconHeight() public int
      * javax.swing.plaf.metal.MetalCheckBoxIcon.getIconHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +83,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalCheckBoxIcon#getIconWidth() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalCheckBoxIcon#getIconWidth() public int
      * javax.swing.plaf.metal.MetalCheckBoxIcon.getIconWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

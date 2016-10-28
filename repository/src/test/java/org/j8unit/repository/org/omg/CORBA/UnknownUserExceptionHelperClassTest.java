@@ -7,11 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.UnknownUserException;
 import org.omg.CORBA.UnknownUserExceptionHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class UnknownUserExceptionHelperClassTest
@@ -27,8 +23,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownUserExceptionHelper#UnknownUserExceptionHelper() public org.omg.CORBA.UnknownUserExceptionHelper()}
-     * .
+     * {@link org.omg.CORBA.UnknownUserExceptionHelper#UnknownUserExceptionHelper() public
+     * org.omg.CORBA.UnknownUserExceptionHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,8 +43,9 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownUserExceptionHelper#read(InputStream) public
-     * static org.omg.CORBA.UnknownUserException
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UnknownUserExceptionHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.CORBA.UnknownUserException
      * org.omg.CORBA.UnknownUserExceptionHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +60,14 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperClassTe
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link UnknownUserExceptionHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.UnknownUserExceptionHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownUserExceptionHelper#extract(Any) public
-     * static org.omg.CORBA.UnknownUserException org.omg.CORBA.UnknownUserExceptionHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UnknownUserExceptionHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.CORBA.UnknownUserException org.omg.CORBA.UnknownUserExceptionHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,13 +81,13 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperClassTe
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link UnknownUserExceptionHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.UnknownUserExceptionHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownUserExceptionHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.UnknownUserExceptionHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.UnknownUserExceptionHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.CORBA.UnknownUserExceptionHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,13 +101,14 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperClassTe
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link UnknownUserExceptionHelper#type()}
+        // write some test for {@link org.omg.CORBA.UnknownUserExceptionHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UnknownUserExceptionHelper#write(OutputStream, UnknownUserException) public static void
+     * {@link org.omg.CORBA.UnknownUserExceptionHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.UnknownUserException)
+     * public static void
      * org.omg.CORBA.UnknownUserExceptionHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.UnknownUserException)}
      * .
      *
@@ -125,13 +124,15 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperClassTe
     @Category(Draft.class)
     public void test_write_OutputStream_UnknownUserException()
     throws Exception {
-        // write some test for {@link UnknownUserExceptionHelper#write(OutputStream, UnknownUserException)}
+        // write some test for {@link
+        // org.omg.CORBA.UnknownUserExceptionHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CORBA.UnknownUserException)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownUserExceptionHelper#id() public static
-     * java.lang.String org.omg.CORBA.UnknownUserExceptionHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.UnknownUserExceptionHelper#id() public
+     * static java.lang.String org.omg.CORBA.UnknownUserExceptionHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,13 +146,14 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperClassTe
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link UnknownUserExceptionHelper#id()}
+        // write some test for {@link org.omg.CORBA.UnknownUserExceptionHelper#id()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UnknownUserExceptionHelper#insert(Any, UnknownUserException) public static void
+     * {@link org.omg.CORBA.UnknownUserExceptionHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.UnknownUserException)
+     * public static void
      * org.omg.CORBA.UnknownUserExceptionHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.UnknownUserException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,7 +168,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperClassTe
     @Category(Draft.class)
     public void test_insert_Any_UnknownUserException()
     throws Exception {
-        // write some test for {@link UnknownUserExceptionHelper#insert(Any, UnknownUserException)}
+        // write some test for {@link org.omg.CORBA.UnknownUserExceptionHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CORBA.UnknownUserException)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UnknownUserExceptionHelper]

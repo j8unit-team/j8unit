@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ATR#getHistoricalBytes() public byte[]
-     * javax.smartcardio.ATR.getHistoricalBytes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ATR#getHistoricalBytes() public
+     * byte[] javax.smartcardio.ATR.getHistoricalBytes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ATR#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ATR#hashCode() public int
      * javax.smartcardio.ATR.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ATR#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ATR#equals(Object) public boolean
      * javax.smartcardio.ATR.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ATR#toString() public java.lang.String
-     * javax.smartcardio.ATR.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ATR#toString() public
+     * java.lang.String javax.smartcardio.ATR.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ATR#getBytes() public byte[]
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ATR#getBytes() public byte[]
      * javax.smartcardio.ATR.getBytes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

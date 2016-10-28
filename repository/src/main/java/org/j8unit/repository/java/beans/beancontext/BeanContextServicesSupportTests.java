@@ -1,11 +1,5 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.beancontext.BeanContextChild;
-import java.beans.beancontext.BeanContextServiceAvailableEvent;
-import java.beans.beancontext.BeanContextServiceProvider;
-import java.beans.beancontext.BeanContextServiceRevokedEvent;
-import java.beans.beancontext.BeanContextServiceRevokedListener;
-import java.beans.beancontext.BeanContextServicesListener;
 import java.beans.beancontext.BeanContextServicesSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -47,7 +41,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#getService(BeanContextChild, Object, Class, Object, BeanContextServiceRevokedListener)
+     * {@link java.beans.beancontext.BeanContextServicesSupport#getService(java.beans.beancontext.BeanContextChild, Object, Class, Object, java.beans.beancontext.BeanContextServiceRevokedListener)
      * public java.lang.Object
      * java.beans.beancontext.BeanContextServicesSupport.getService(java.beans.beancontext.BeanContextChild,java.lang.Object,java.lang.Class,java.lang.Object,java.beans.beancontext.BeanContextServiceRevokedListener)
      * throws java.util.TooManyListenersException}.
@@ -73,7 +67,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#addBeanContextServicesListener(BeanContextServicesListener) public void
+     * {@link java.beans.beancontext.BeanContextServicesSupport#addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)
+     * public void
      * java.beans.beancontext.BeanContextServicesSupport.addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}
      * .
      *
@@ -98,7 +93,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#serviceAvailable(BeanContextServiceAvailableEvent) public void
+     * {@link java.beans.beancontext.BeanContextServicesSupport#serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)
+     * public void
      * java.beans.beancontext.BeanContextServicesSupport.serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)}
      * .
      *
@@ -122,8 +118,9 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextServicesSupport#hasService(Class) public
-     * synchronized boolean java.beans.beancontext.BeanContextServicesSupport.hasService(java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextServicesSupport#hasService(Class) public synchronized boolean
+     * java.beans.beancontext.BeanContextServicesSupport.hasService(java.lang.Class)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +142,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextServicesSupport#initialize() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextServicesSupport#initialize() public void
      * java.beans.beancontext.BeanContextServicesSupport.initialize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +166,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#releaseService(BeanContextChild, Object, Object) public void
+     * {@link java.beans.beancontext.BeanContextServicesSupport#releaseService(java.beans.beancontext.BeanContextChild, Object, Object)
+     * public void
      * java.beans.beancontext.BeanContextServicesSupport.releaseService(java.beans.beancontext.BeanContextChild,java.lang.Object,java.lang.Object)}
      * .
      *
@@ -193,7 +192,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#serviceRevoked(BeanContextServiceRevokedEvent) public void
+     * {@link java.beans.beancontext.BeanContextServicesSupport#serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)
+     * public void
      * java.beans.beancontext.BeanContextServicesSupport.serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)}
      * .
      *
@@ -218,7 +218,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#getBeanContextServicesPeer() public java.beans.beancontext.BeanContextServices
+     * {@link java.beans.beancontext.BeanContextServicesSupport#getBeanContextServicesPeer() public
+     * java.beans.beancontext.BeanContextServices
      * java.beans.beancontext.BeanContextServicesSupport.getBeanContextServicesPeer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,7 +242,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#removeBeanContextServicesListener(BeanContextServicesListener) public void
+     * {@link java.beans.beancontext.BeanContextServicesSupport#removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)
+     * public void
      * java.beans.beancontext.BeanContextServicesSupport.removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}
      * .
      *
@@ -266,7 +268,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#addService(Class, BeanContextServiceProvider) public boolean
+     * {@link java.beans.beancontext.BeanContextServicesSupport#addService(Class, java.beans.beancontext.BeanContextServiceProvider)
+     * public boolean
      * java.beans.beancontext.BeanContextServicesSupport.addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)}
      * .
      *
@@ -291,7 +294,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#revokeService(Class, BeanContextServiceProvider, boolean) public void
+     * {@link java.beans.beancontext.BeanContextServicesSupport#revokeService(Class, java.beans.beancontext.BeanContextServiceProvider, boolean)
+     * public void
      * java.beans.beancontext.BeanContextServicesSupport.revokeService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider,boolean)}
      * .
      *
@@ -316,7 +320,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#getCurrentServiceClasses() public java.util.Iterator
+     * {@link java.beans.beancontext.BeanContextServicesSupport#getCurrentServiceClasses() public java.util.Iterator
      * java.beans.beancontext.BeanContextServicesSupport.getCurrentServiceClasses()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -340,8 +344,9 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesSupport#getCurrentServiceSelectors(Class) public java.util.Iterator
-     * java.beans.beancontext.BeanContextServicesSupport.getCurrentServiceSelectors(java.lang.Class)}.
+     * {@link java.beans.beancontext.BeanContextServicesSupport#getCurrentServiceSelectors(Class) public
+     * java.util.Iterator java.beans.beancontext.BeanContextServicesSupport.getCurrentServiceSelectors(java.lang.Class)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

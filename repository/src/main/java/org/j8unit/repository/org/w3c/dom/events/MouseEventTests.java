@@ -5,9 +5,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.events.EventTarget;
 import org.w3c.dom.events.MouseEvent;
-import org.w3c.dom.views.AbstractView;
 
 /**
  * <p>
@@ -36,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getScreenX() public abstract int
-     * org.w3c.dom.events.MouseEvent.getScreenX()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getScreenX() public
+     * abstract int org.w3c.dom.events.MouseEvent.getScreenX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getMetaKey() public abstract boolean
-     * org.w3c.dom.events.MouseEvent.getMetaKey()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getMetaKey() public
+     * abstract boolean org.w3c.dom.events.MouseEvent.getMetaKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getAltKey() public abstract boolean
-     * org.w3c.dom.events.MouseEvent.getAltKey()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getAltKey() public
+     * abstract boolean org.w3c.dom.events.MouseEvent.getAltKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getScreenY() public abstract int
-     * org.w3c.dom.events.MouseEvent.getScreenY()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getScreenY() public
+     * abstract int org.w3c.dom.events.MouseEvent.getScreenY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +122,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getShiftKey() public abstract boolean
-     * org.w3c.dom.events.MouseEvent.getShiftKey()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getShiftKey() public
+     * abstract boolean org.w3c.dom.events.MouseEvent.getShiftKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +145,7 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MouseEvent#initMouseEvent(String, boolean, boolean, AbstractView, int, int, int, int, int, boolean, boolean, boolean, boolean, short, EventTarget)
+     * {@link org.w3c.dom.events.MouseEvent#initMouseEvent(String, boolean, boolean, org.w3c.dom.views.AbstractView, int, int, int, int, int, boolean, boolean, boolean, boolean, short, org.w3c.dom.events.EventTarget)
      * public abstract void
      * org.w3c.dom.events.MouseEvent.initMouseEvent(java.lang.String,boolean,boolean,org.w3c.dom.views.AbstractView,int,int,int,int,int,boolean,boolean,boolean,boolean,short,org.w3c.dom.events.EventTarget)}
      * .
@@ -171,8 +169,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getRelatedTarget() public abstract
-     * org.w3c.dom.events.EventTarget org.w3c.dom.events.MouseEvent.getRelatedTarget()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getRelatedTarget()
+     * public abstract org.w3c.dom.events.EventTarget org.w3c.dom.events.MouseEvent.getRelatedTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +191,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getCtrlKey() public abstract boolean
-     * org.w3c.dom.events.MouseEvent.getCtrlKey()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getCtrlKey() public
+     * abstract boolean org.w3c.dom.events.MouseEvent.getCtrlKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +213,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getClientX() public abstract int
-     * org.w3c.dom.events.MouseEvent.getClientX()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getClientX() public
+     * abstract int org.w3c.dom.events.MouseEvent.getClientX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +235,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getButton() public abstract short
-     * org.w3c.dom.events.MouseEvent.getButton()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getButton() public
+     * abstract short org.w3c.dom.events.MouseEvent.getButton()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +257,8 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getClientY() public abstract int
-     * org.w3c.dom.events.MouseEvent.getClientY()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getClientY() public
+     * abstract int org.w3c.dom.events.MouseEvent.getClientY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

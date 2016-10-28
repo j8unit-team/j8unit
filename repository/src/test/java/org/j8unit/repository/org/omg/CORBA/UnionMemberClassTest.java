@@ -6,9 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.IDLType;
-import org.omg.CORBA.TypeCode;
 import org.omg.CORBA.UnionMember;
 
 @RunWith(J8Unit4.class)
@@ -24,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberClassTests<UnionMember
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UnionMember#UnionMember() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.UnionMember#UnionMember() public
      * org.omg.CORBA.UnionMember()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +43,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberClassTests<UnionMember
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnionMember#UnionMember(String, Any, TypeCode, IDLType) public
+     * {@link org.omg.CORBA.UnionMember#UnionMember(String, org.omg.CORBA.Any, org.omg.CORBA.TypeCode, org.omg.CORBA.IDLType)
+     * public
      * org.omg.CORBA.UnionMember(java.lang.String,org.omg.CORBA.Any,org.omg.CORBA.TypeCode,org.omg.CORBA.IDLType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +61,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberClassTests<UnionMember
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UnionMember sut = null; // = new UnionMember(String, Any, TypeCode, IDLType);
+        final UnionMember sut = null; // = new UnionMember(String, org.omg.CORBA.Any, org.omg.CORBA.TypeCode,
+                                      // org.omg.CORBA.IDLType);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UnionMember]

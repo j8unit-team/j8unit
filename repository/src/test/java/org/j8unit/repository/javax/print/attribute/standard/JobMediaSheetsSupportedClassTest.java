@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobMediaSheetsSu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JobMediaSheetsSupported#JobMediaSheetsSupported(int, int) public
+     * {@link javax.print.attribute.standard.JobMediaSheetsSupported#JobMediaSheetsSupported(int, int) public
      * javax.print.attribute.standard.JobMediaSheetsSupported(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

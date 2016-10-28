@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyListener#keyPressed(KeyEvent) public abstract
-     * void java.awt.event.KeyListener.keyPressed(java.awt.event.KeyEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.KeyListener#keyPressed(java.awt.event.KeyEvent) public abstract void
+     * java.awt.event.KeyListener.keyPressed(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyListener#keyReleased(KeyEvent) public abstract
-     * void java.awt.event.KeyListener.keyReleased(java.awt.event.KeyEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.KeyListener#keyReleased(java.awt.event.KeyEvent) public abstract void
+     * java.awt.event.KeyListener.keyReleased(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +80,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyListener#keyTyped(KeyEvent) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.KeyListener#keyTyped(java.awt.event.KeyEvent) public abstract void
      * java.awt.event.KeyListener.keyTyped(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

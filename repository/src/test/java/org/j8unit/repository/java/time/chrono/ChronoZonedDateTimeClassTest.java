@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
 import java.time.chrono.ChronoZonedDateTime;
-import java.time.temporal.TemporalAccessor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.java.time.chrono.ChronoZonedDateTimeClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChronoZonedDateTime#from(TemporalAccessor) public
-     * static java.time.chrono.ChronoZonedDateTime
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.ChronoZonedDateTime#from(java.time.temporal.TemporalAccessor) public static
+     * java.time.chrono.ChronoZonedDateTime
      * <?> java.time.chrono.ChronoZonedDateTime.from(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +39,13 @@ implements org.j8unit.repository.java.time.chrono.ChronoZonedDateTimeClassTests<
     @Category(Draft.class)
     public void test_from_TemporalAccessor()
     throws Exception {
-        // write some test for {@link ChronoZonedDateTime#from(TemporalAccessor)}
+        // write some test for {@link java.time.chrono.ChronoZonedDateTime#from(java.time.temporal.TemporalAccessor)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChronoZonedDateTime#timeLineOrder() public static
-     * java.util.Comparator<java.time.chrono.ChronoZonedDateTime<?>>
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ChronoZonedDateTime#timeLineOrder()
+     * public static java.util.Comparator<java.time.chrono.ChronoZonedDateTime<?>>
      * java.time.chrono.ChronoZonedDateTime.timeLineOrder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.java.time.chrono.ChronoZonedDateTimeClassTests<
     @Category(Draft.class)
     public void test_timeLineOrder()
     throws Exception {
-        // write some test for {@link ChronoZonedDateTime#timeLineOrder()}
+        // write some test for {@link java.time.chrono.ChronoZonedDateTime#timeLineOrder()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ChronoZonedDateTime]

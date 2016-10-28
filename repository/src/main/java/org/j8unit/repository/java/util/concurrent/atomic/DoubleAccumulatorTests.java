@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAccumulator#longValue() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAccumulator#longValue() public long
      * java.util.concurrent.atomic.DoubleAccumulator.longValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +58,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAccumulator#accumulate(double) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAccumulator#accumulate(double) public void
      * java.util.concurrent.atomic.DoubleAccumulator.accumulate(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +81,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAccumulator#reset() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAccumulator#reset() public void
      * java.util.concurrent.atomic.DoubleAccumulator.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +104,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAccumulator#floatValue() public float
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAccumulator#floatValue() public float
      * java.util.concurrent.atomic.DoubleAccumulator.floatValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +128,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAccumulator#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAccumulator#toString() public java.lang.String
      * java.util.concurrent.atomic.DoubleAccumulator.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +152,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAccumulator#getThenReset() public double
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAccumulator#getThenReset() public double
      * java.util.concurrent.atomic.DoubleAccumulator.getThenReset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +175,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAccumulator#doubleValue() public double
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAccumulator#doubleValue() public double
      * java.util.concurrent.atomic.DoubleAccumulator.doubleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,7 +199,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAccumulator#intValue() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAccumulator#intValue() public int
      * java.util.concurrent.atomic.DoubleAccumulator.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +223,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAccumulator#get() public double
-     * java.util.concurrent.atomic.DoubleAccumulator.get()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.DoubleAccumulator#get()
+     * public double java.util.concurrent.atomic.DoubleAccumulator.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

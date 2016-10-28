@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.event.TreeModelEvent;
 import javax.swing.event.TreeModelListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModelListener#treeNodesInserted(TreeModelEvent)
-     * public abstract void javax.swing.event.TreeModelListener.treeNodesInserted(javax.swing.event.TreeModelEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TreeModelListener#treeNodesInserted(javax.swing.event.TreeModelEvent) public abstract
+     * void javax.swing.event.TreeModelListener.treeNodesInserted(javax.swing.event.TreeModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TreeModelListener#treeStructureChanged(TreeModelEvent) public abstract void
-     * javax.swing.event.TreeModelListener.treeStructureChanged(javax.swing.event.TreeModelEvent)}.
+     * {@link javax.swing.event.TreeModelListener#treeStructureChanged(javax.swing.event.TreeModelEvent) public abstract
+     * void javax.swing.event.TreeModelListener.treeStructureChanged(javax.swing.event.TreeModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModelListener#treeNodesRemoved(TreeModelEvent)
-     * public abstract void javax.swing.event.TreeModelListener.treeNodesRemoved(javax.swing.event.TreeModelEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TreeModelListener#treeNodesRemoved(javax.swing.event.TreeModelEvent) public abstract
+     * void javax.swing.event.TreeModelListener.treeNodesRemoved(javax.swing.event.TreeModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModelListener#treeNodesChanged(TreeModelEvent)
-     * public abstract void javax.swing.event.TreeModelListener.treeNodesChanged(javax.swing.event.TreeModelEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TreeModelListener#treeNodesChanged(javax.swing.event.TreeModelEvent) public abstract
+     * void javax.swing.event.TreeModelListener.treeNodesChanged(javax.swing.event.TreeModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.im.spi;
 
 import java.awt.im.spi.InputMethodDescriptor;
-import java.util.Locale;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodDescriptor#getInputMethodIcon(Locale)
-     * public abstract java.awt.Image java.awt.im.spi.InputMethodDescriptor.getInputMethodIcon(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.spi.InputMethodDescriptor#getInputMethodIcon(java.util.Locale) public abstract java.awt.Image
+     * java.awt.im.spi.InputMethodDescriptor.getInputMethodIcon(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodDescriptor#getAvailableLocales() public
-     * abstract java.util.Locale[] java.awt.im.spi.InputMethodDescriptor.getAvailableLocales() throws
-     * java.awt.AWTException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.spi.InputMethodDescriptor#getAvailableLocales() public abstract java.util.Locale[]
+     * java.awt.im.spi.InputMethodDescriptor.getAvailableLocales() throws java.awt.AWTException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,9 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodDescriptor#createInputMethod() public
-     * abstract java.awt.im.spi.InputMethod java.awt.im.spi.InputMethodDescriptor.createInputMethod() throws
-     * java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.spi.InputMethodDescriptor#createInputMethod() public abstract java.awt.im.spi.InputMethod
+     * java.awt.im.spi.InputMethodDescriptor.createInputMethod() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodDescriptor#hasDynamicLocaleList() public
-     * abstract boolean java.awt.im.spi.InputMethodDescriptor.hasDynamicLocaleList()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.spi.InputMethodDescriptor#hasDynamicLocaleList() public abstract boolean
+     * java.awt.im.spi.InputMethodDescriptor.hasDynamicLocaleList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +128,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InputMethodDescriptor#getInputMethodDisplayName(Locale, Locale) public abstract java.lang.String
+     * {@link java.awt.im.spi.InputMethodDescriptor#getInputMethodDisplayName(java.util.Locale, java.util.Locale) public
+     * abstract java.lang.String
      * java.awt.im.spi.InputMethodDescriptor.getInputMethodDisplayName(java.util.Locale,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

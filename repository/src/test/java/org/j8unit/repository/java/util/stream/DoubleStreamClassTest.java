@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.stream;
 
-import java.util.function.DoubleSupplier;
-import java.util.function.DoubleUnaryOperator;
 import java.util.stream.DoubleStream;
 import java.util.stream.DoubleStream.Builder;
 import org.j8unit.repository.categories.Draft;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleStream#empty() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#empty() public static
      * java.util.stream.DoubleStream java.util.stream.DoubleStream.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +37,14 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
     @Category(Draft.class)
     public void test_empty()
     throws Exception {
-        // write some test for {@link DoubleStream#empty()}
+        // write some test for {@link java.util.stream.DoubleStream#empty()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleStream#iterate(double, DoubleUnaryOperator)
-     * public static java.util.stream.DoubleStream
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.DoubleStream#iterate(double, java.util.function.DoubleUnaryOperator) public static
+     * java.util.stream.DoubleStream
      * java.util.stream.DoubleStream.iterate(double,java.util.function.DoubleUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,12 +59,14 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
     @Category(Draft.class)
     public void test_iterate_double_DoubleUnaryOperator()
     throws Exception {
-        // write some test for {@link DoubleStream#iterate(double, DoubleUnaryOperator)}
+        // write some test for {@link java.util.stream.DoubleStream#iterate(double,
+        // java.util.function.DoubleUnaryOperator)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleStream#generate(DoubleSupplier) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.DoubleStream#generate(java.util.function.DoubleSupplier) public static
      * java.util.stream.DoubleStream java.util.stream.DoubleStream.generate(java.util.function.DoubleSupplier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,13 +81,14 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
     @Category(Draft.class)
     public void test_generate_DoubleSupplier()
     throws Exception {
-        // write some test for {@link DoubleStream#generate(DoubleSupplier)}
+        // write some test for {@link java.util.stream.DoubleStream#generate(java.util.function.DoubleSupplier)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleStream#concat(DoubleStream, DoubleStream)
-     * public static java.util.stream.DoubleStream
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.DoubleStream#concat(java.util.stream.DoubleStream, java.util.stream.DoubleStream) public
+     * static java.util.stream.DoubleStream
      * java.util.stream.DoubleStream.concat(java.util.stream.DoubleStream,java.util.stream.DoubleStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,13 +103,14 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
     @Category(Draft.class)
     public void test_concat_DoubleStream_DoubleStream()
     throws Exception {
-        // write some test for {@link DoubleStream#concat(DoubleStream, DoubleStream)}
+        // write some test for {@link java.util.stream.DoubleStream#concat(java.util.stream.DoubleStream,
+        // java.util.stream.DoubleStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleStream#builder() public static
-     * java.util.stream.DoubleStream$Builder java.util.stream.DoubleStream.builder()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#builder() public
+     * static java.util.stream.DoubleStream$Builder java.util.stream.DoubleStream.builder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -121,13 +124,13 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
     @Category(Draft.class)
     public void test_builder()
     throws Exception {
-        // write some test for {@link DoubleStream#builder()}
+        // write some test for {@link java.util.stream.DoubleStream#builder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleStream#of(double) public static
-     * java.util.stream.DoubleStream java.util.stream.DoubleStream.of(double)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#of(double) public
+     * static java.util.stream.DoubleStream java.util.stream.DoubleStream.of(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -141,13 +144,13 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
     @Category(Draft.class)
     public void test_of_double()
     throws Exception {
-        // write some test for {@link DoubleStream#of(double)}
+        // write some test for {@link java.util.stream.DoubleStream#of(double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleStream#of(double...) public static
-     * java.util.stream.DoubleStream java.util.stream.DoubleStream.of(double...)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#of(double...) public
+     * static java.util.stream.DoubleStream java.util.stream.DoubleStream.of(double...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -161,7 +164,7 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
     @Category(Draft.class)
     public void test_of_doubleArray()
     throws Exception {
-        // write some test for {@link DoubleStream#of(double...)}
+        // write some test for {@link java.util.stream.DoubleStream#of(double...)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.DoubleStream]

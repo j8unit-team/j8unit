@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.TRANSACTION_UNAVAILABLE;
 
 @RunWith(J8Unit4.class)
@@ -23,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_UNAVAILABLEClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TRANSACTION_UNAVAILABLE#TRANSACTION_UNAVAILABLE(String, int, CompletionStatus) public
-     * org.omg.CORBA.TRANSACTION_UNAVAILABLE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * {@link org.omg.CORBA.TRANSACTION_UNAVAILABLE#TRANSACTION_UNAVAILABLE(String, int, org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.TRANSACTION_UNAVAILABLE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,14 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_UNAVAILABLEClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TRANSACTION_UNAVAILABLE sut = null; // = new TRANSACTION_UNAVAILABLE(String, int, CompletionStatus);
+        final TRANSACTION_UNAVAILABLE sut = null; // = new TRANSACTION_UNAVAILABLE(String, int,
+                                                  // org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TRANSACTION_UNAVAILABLE#TRANSACTION_UNAVAILABLE(int, CompletionStatus) public
+     * {@link org.omg.CORBA.TRANSACTION_UNAVAILABLE#TRANSACTION_UNAVAILABLE(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.TRANSACTION_UNAVAILABLE(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +63,13 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_UNAVAILABLEClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TRANSACTION_UNAVAILABLE sut = null; // = new TRANSACTION_UNAVAILABLE(int, CompletionStatus);
+        final TRANSACTION_UNAVAILABLE sut = null; // = new TRANSACTION_UNAVAILABLE(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TRANSACTION_UNAVAILABLE#TRANSACTION_UNAVAILABLE(String) public
+     * {@link org.omg.CORBA.TRANSACTION_UNAVAILABLE#TRANSACTION_UNAVAILABLE(String) public
      * org.omg.CORBA.TRANSACTION_UNAVAILABLE(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -92,7 +92,8 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_UNAVAILABLEClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TRANSACTION_UNAVAILABLE#TRANSACTION_UNAVAILABLE() public org.omg.CORBA.TRANSACTION_UNAVAILABLE()}.
+     * {@link org.omg.CORBA.TRANSACTION_UNAVAILABLE#TRANSACTION_UNAVAILABLE() public
+     * org.omg.CORBA.TRANSACTION_UNAVAILABLE()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.im;
 
 import java.awt.im.InputMethodHighlight;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.im.InputMethodHighlightClassTests<Inpu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputMethodHighlight#InputMethodHighlight(boolean, int, int, Map) public
+     * {@link java.awt.im.InputMethodHighlight#InputMethodHighlight(boolean, int, int, java.util.Map) public
      * java.awt.im.InputMethodHighlight(boolean,int,int,java.util.Map<java.awt.font.TextAttribute, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.awt.im.InputMethodHighlightClassTests<Inpu
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputMethodHighlight sut = null; // = new InputMethodHighlight(boolean, int, int, Map);
+        final InputMethodHighlight sut = null; // = new InputMethodHighlight(boolean, int, int, java.util.Map);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputMethodHighlight#InputMethodHighlight(boolean, int, int) public
+     * {@link java.awt.im.InputMethodHighlight#InputMethodHighlight(boolean, int, int) public
      * java.awt.im.InputMethodHighlight(boolean,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,7 +68,7 @@ implements org.j8unit.repository.java.awt.im.InputMethodHighlightClassTests<Inpu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputMethodHighlight#InputMethodHighlight(boolean, int) public
+     * {@link java.awt.im.InputMethodHighlight#InputMethodHighlight(boolean, int) public
      * java.awt.im.InputMethodHighlight(boolean,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

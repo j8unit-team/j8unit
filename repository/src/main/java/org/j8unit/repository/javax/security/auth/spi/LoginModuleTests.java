@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.security.auth.spi;
 
-import java.util.Map;
-import javax.security.auth.Subject;
-import javax.security.auth.callback.CallbackHandler;
 import javax.security.auth.spi.LoginModule;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -38,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoginModule#logout() public abstract boolean
-     * javax.security.auth.spi.LoginModule.logout() throws javax.security.auth.login.LoginException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.spi.LoginModule#logout() public
+     * abstract boolean javax.security.auth.spi.LoginModule.logout() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoginModule#abort() public abstract boolean
-     * javax.security.auth.spi.LoginModule.abort() throws javax.security.auth.login.LoginException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.spi.LoginModule#abort() public
+     * abstract boolean javax.security.auth.spi.LoginModule.abort() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoginModule#commit() public abstract boolean
-     * javax.security.auth.spi.LoginModule.commit() throws javax.security.auth.login.LoginException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.spi.LoginModule#commit() public
+     * abstract boolean javax.security.auth.spi.LoginModule.commit() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +102,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LoginModule#initialize(Subject, CallbackHandler, Map, Map) public abstract void
+     * {@link javax.security.auth.spi.LoginModule#initialize(javax.security.auth.Subject, javax.security.auth.callback.CallbackHandler, java.util.Map, java.util.Map)
+     * public abstract void
      * javax.security.auth.spi.LoginModule.initialize(javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler,java.util.Map<java.lang.String,
      * ?>,java.util.Map<java.lang.String, ?>)}.
      *
@@ -128,8 +126,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoginModule#login() public abstract boolean
-     * javax.security.auth.spi.LoginModule.login() throws javax.security.auth.login.LoginException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.spi.LoginModule#login() public
+     * abstract boolean javax.security.auth.spi.LoginModule.login() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

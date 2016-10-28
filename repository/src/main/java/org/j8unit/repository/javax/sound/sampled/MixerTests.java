@@ -1,8 +1,7 @@
 package org.j8unit.repository.javax.sound.sampled;
 
-import javax.sound.sampled.Line;
-import javax.sound.sampled.Line.Info;
 import javax.sound.sampled.Mixer;
+import javax.sound.sampled.Mixer.Info;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,9 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#synchronize(Line[], boolean) public abstract
-     * void javax.sound.sampled.Mixer.synchronize(javax.sound.sampled.Line[],boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Mixer#synchronize(javax.sound.sampled.Line[], boolean) public abstract void
+     * javax.sound.sampled.Mixer.synchronize(javax.sound.sampled.Line[],boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#getTargetLineInfo(Info) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Mixer#getTargetLineInfo(javax.sound.sampled.Line.Info) public abstract
      * javax.sound.sampled.Line$Info[] javax.sound.sampled.Mixer.getTargetLineInfo(javax.sound.sampled.Line$Info)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +81,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#getTargetLineInfo() public abstract
-     * javax.sound.sampled.Line$Info[] javax.sound.sampled.Mixer.getTargetLineInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Mixer#getTargetLineInfo() public
+     * abstract javax.sound.sampled.Line$Info[] javax.sound.sampled.Mixer.getTargetLineInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#getTargetLines() public abstract
-     * javax.sound.sampled.Line[] javax.sound.sampled.Mixer.getTargetLines()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Mixer#getTargetLines() public
+     * abstract javax.sound.sampled.Line[] javax.sound.sampled.Mixer.getTargetLines()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +125,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#getMaxLines(Info) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Mixer#getMaxLines(javax.sound.sampled.Line.Info) public abstract int
      * javax.sound.sampled.Mixer.getMaxLines(javax.sound.sampled.Line$Info)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +148,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#getMixerInfo() public abstract
-     * javax.sound.sampled.Mixer$Info javax.sound.sampled.Mixer.getMixerInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Mixer#getMixerInfo() public
+     * abstract javax.sound.sampled.Mixer$Info javax.sound.sampled.Mixer.getMixerInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +170,9 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#getLine(Info) public abstract
-     * javax.sound.sampled.Line javax.sound.sampled.Mixer.getLine(javax.sound.sampled.Line$Info) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Mixer#getLine(javax.sound.sampled.Line.Info) public abstract javax.sound.sampled.Line
+     * javax.sound.sampled.Mixer.getLine(javax.sound.sampled.Line$Info) throws
      * javax.sound.sampled.LineUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +194,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#getSourceLines() public abstract
-     * javax.sound.sampled.Line[] javax.sound.sampled.Mixer.getSourceLines()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Mixer#getSourceLines() public
+     * abstract javax.sound.sampled.Line[] javax.sound.sampled.Mixer.getSourceLines()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,7 +216,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#isLineSupported(Info) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Mixer#isLineSupported(javax.sound.sampled.Line.Info) public abstract boolean
      * javax.sound.sampled.Mixer.isLineSupported(javax.sound.sampled.Line$Info)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -235,8 +239,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#getSourceLineInfo() public abstract
-     * javax.sound.sampled.Line$Info[] javax.sound.sampled.Mixer.getSourceLineInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Mixer#getSourceLineInfo() public
+     * abstract javax.sound.sampled.Line$Info[] javax.sound.sampled.Mixer.getSourceLineInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,7 +261,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#getSourceLineInfo(Info) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Mixer#getSourceLineInfo(javax.sound.sampled.Line.Info) public abstract
      * javax.sound.sampled.Line$Info[] javax.sound.sampled.Mixer.getSourceLineInfo(javax.sound.sampled.Line$Info)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -279,9 +284,9 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#isSynchronizationSupported(Line[], boolean)
-     * public abstract boolean javax.sound.sampled.Mixer.isSynchronizationSupported(javax.sound.sampled.Line[],boolean)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Mixer#isSynchronizationSupported(javax.sound.sampled.Line[], boolean) public abstract
+     * boolean javax.sound.sampled.Mixer.isSynchronizationSupported(javax.sound.sampled.Line[],boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,7 +307,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Mixer#unsynchronize(Line[]) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Mixer#unsynchronize(javax.sound.sampled.Line[]) public abstract void
      * javax.sound.sampled.Mixer.unsynchronize(javax.sound.sampled.Line[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -327,8 +333,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link javax.sound.sampled.Mixer.Info public static class javax.sound.sampled.Mixer$Info}.
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Info public
+     * static class javax.sound.sampled.Mixer$Info}.
      * </p>
      *
      * <p>
@@ -344,7 +350,7 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InfoTests<SUT extends javax.sound.sampled.Mixer.Info>
+    public static abstract interface InfoTests<SUT extends Info>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.Mixer$Info]

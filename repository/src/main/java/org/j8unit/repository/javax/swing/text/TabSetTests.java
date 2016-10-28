@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
 import javax.swing.text.TabSet;
-import javax.swing.text.TabStop;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabSet#getTabCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.TabSet#getTabCount() public int
      * javax.swing.text.TabSet.getTabCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabSet#toString() public java.lang.String
-     * javax.swing.text.TabSet.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.TabSet#toString() public
+     * java.lang.String javax.swing.text.TabSet.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabSet#getTab(int) public javax.swing.text.TabStop
-     * javax.swing.text.TabSet.getTab(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.TabSet#getTab(int) public
+     * javax.swing.text.TabStop javax.swing.text.TabSet.getTab(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabSet#equals(Object) public boolean
-     * javax.swing.text.TabSet.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.TabSet#equals(Object) public
+     * boolean javax.swing.text.TabSet.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +124,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabSet#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.TabSet#hashCode() public int
      * javax.swing.text.TabSet.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +147,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabSet#getTabAfter(float) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.TabSet#getTabAfter(float) public
      * javax.swing.text.TabStop javax.swing.text.TabSet.getTabAfter(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,7 +169,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabSet#getTabIndex(TabStop) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.TabSet#getTabIndex(javax.swing.text.TabStop) public int
      * javax.swing.text.TabSet.getTabIndex(javax.swing.text.TabStop)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +192,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabSet#getTabIndexAfter(float) public int
-     * javax.swing.text.TabSet.getTabIndexAfter(float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.TabSet#getTabIndexAfter(float)
+     * public int javax.swing.text.TabSet.getTabIndexAfter(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

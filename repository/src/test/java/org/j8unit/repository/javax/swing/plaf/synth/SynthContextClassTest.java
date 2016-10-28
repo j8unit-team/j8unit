@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import javax.swing.JComponent;
-import javax.swing.plaf.synth.Region;
 import javax.swing.plaf.synth.SynthContext;
-import javax.swing.plaf.synth.SynthStyle;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthContextClassTests<S
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SynthContext#SynthContext(JComponent, Region, SynthStyle, int) public
+     * {@link javax.swing.plaf.synth.SynthContext#SynthContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, javax.swing.plaf.synth.SynthStyle, int)
+     * public
      * javax.swing.plaf.synth.SynthContext(javax.swing.JComponent,javax.swing.plaf.synth.Region,javax.swing.plaf.synth.SynthStyle,int)}
      * .
      *
@@ -43,7 +41,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthContextClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SynthContext sut = null; // = new SynthContext(JComponent, Region, SynthStyle, int);
+        final SynthContext sut = null; // = new SynthContext(javax.swing.JComponent, javax.swing.plaf.synth.Region,
+                                       // javax.swing.plaf.synth.SynthStyle, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthContext]

@@ -1,12 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
-import java.time.LocalTime;
-import java.time.chrono.ChronoLocalDate;
 import java.time.chrono.MinguoDate;
-import java.time.temporal.TemporalAdjuster;
-import java.time.temporal.TemporalAmount;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#lengthOfMonth() public int
-     * java.time.chrono.MinguoDate.lengthOfMonth()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoDate#lengthOfMonth() public
+     * int java.time.chrono.MinguoDate.lengthOfMonth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +58,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#getEra() public
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoDate#getEra() public
      * java.time.chrono.MinguoEra java.time.chrono.MinguoDate.getEra()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,7 +81,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoDate#hashCode() public int
      * java.time.chrono.MinguoDate.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,8 +104,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#equals(Object) public boolean
-     * java.time.chrono.MinguoDate.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoDate#equals(Object) public
+     * boolean java.time.chrono.MinguoDate.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +127,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#atTime(LocalTime) public final
-     * java.time.chrono.ChronoLocalDateTime
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#atTime(java.time.LocalTime) public final java.time.chrono.ChronoLocalDateTime
      * <java.time.chrono.MinguoDate> java.time.chrono.MinguoDate.atTime(java.time.LocalTime)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -157,7 +151,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#getLong(TemporalField) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#getLong(java.time.temporal.TemporalField) public long
      * java.time.chrono.MinguoDate.getLong(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -180,30 +175,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#with(TemporalAdjuster) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.with(java.time.temporal.TemporalAdjuster)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_with_TemporalAdjuster()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#with(TemporalField, long) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#with(java.time.temporal.TemporalField, long) public
      * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.with(java.time.temporal.TemporalField,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -226,7 +199,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#getChronology() public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#with(java.time.temporal.TemporalAdjuster) public java.time.chrono.MinguoDate
+     * java.time.chrono.MinguoDate.with(java.time.temporal.TemporalAdjuster)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_with_TemporalAdjuster()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoDate#getChronology() public
      * java.time.chrono.MinguoChronology java.time.chrono.MinguoDate.getChronology()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -249,8 +246,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#until(ChronoLocalDate) public
-     * java.time.chrono.ChronoPeriod java.time.chrono.MinguoDate.until(java.time.chrono.ChronoLocalDate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#until(java.time.chrono.ChronoLocalDate) public java.time.chrono.ChronoPeriod
+     * java.time.chrono.MinguoDate.until(java.time.chrono.ChronoLocalDate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -272,7 +270,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#toEpochDay() public long
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoDate#toEpochDay() public long
      * java.time.chrono.MinguoDate.toEpochDay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -295,7 +293,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#minus(long, TemporalUnit) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#minus(long, java.time.temporal.TemporalUnit) public
      * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.minus(long,java.time.temporal.TemporalUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -318,8 +317,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#minus(TemporalAmount) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.minus(java.time.temporal.TemporalAmount)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#minus(java.time.temporal.TemporalAmount) public java.time.chrono.MinguoDate
+     * java.time.chrono.MinguoDate.minus(java.time.temporal.TemporalAmount)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -341,8 +341,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#plus(TemporalAmount) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.plus(java.time.temporal.TemporalAmount)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#plus(java.time.temporal.TemporalAmount) public java.time.chrono.MinguoDate
+     * java.time.chrono.MinguoDate.plus(java.time.temporal.TemporalAmount)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -364,8 +365,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#plus(long, TemporalUnit) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.plus(long,java.time.temporal.TemporalUnit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#plus(long, java.time.temporal.TemporalUnit) public java.time.chrono.MinguoDate
+     * java.time.chrono.MinguoDate.plus(long,java.time.temporal.TemporalUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -387,8 +389,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoDate#range(TemporalField) public
-     * java.time.temporal.ValueRange java.time.chrono.MinguoDate.range(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoDate#range(java.time.temporal.TemporalField) public java.time.temporal.ValueRange
+     * java.time.chrono.MinguoDate.range(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -415,7 +418,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * </p>
      * <ul>
      * <li>{@link Object#toString() class java.lang.Object}</li>
-     * <li>{@link ChronoLocalDate#toString() interface java.time.chrono.ChronoLocalDate}</li>
+     * <li>{@link java.time.chrono.ChronoLocalDate#toString() interface java.time.chrono.ChronoLocalDate}</li>
      * </ul>
      *
      * <p>

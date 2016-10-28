@@ -55,6 +55,104 @@ implements FactoryBasedJ8UnitTest<HTML>, org.j8unit.repository.javax.swing.text.
     }
 
     @RunWith(J8Unit4.class)
+    public static class TagTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests<Tag> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML$Tag]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(Tag.ADDRESS, //
+                                                       Tag.SCRIPT, //
+                                                       Tag.BASEFONT, //
+                                                       Tag.BODY, //
+                                                       Tag.MAP, //
+                                                       Tag.ISINDEX, //
+                                                       Tag.META, //
+                                                       Tag.SUB, //
+                                                       Tag.IMG, //
+                                                       Tag.APPLET, //
+                                                       Tag.OBJECT, //
+                                                       Tag.SUP, //
+                                                       Tag.EM, //
+                                                       Tag.OPTION, //
+                                                       Tag.STYLE, //
+                                                       Tag.UL, //
+                                                       Tag.CENTER, //
+                                                       Tag.DT, //
+                                                       Tag.TABLE, //
+                                                       Tag.AREA, //
+                                                       Tag.IMPLIED, //
+                                                       Tag.BLOCKQUOTE, //
+                                                       Tag.NOFRAMES, //
+                                                       Tag.VAR, //
+                                                       Tag.DD, //
+                                                       Tag.TT, //
+                                                       Tag.INPUT, //
+                                                       Tag.PRE, //
+                                                       Tag.DFN, //
+                                                       Tag.DL, //
+                                                       Tag.HR, //
+                                                       Tag.HTML, //
+                                                       Tag.TH, //
+                                                       Tag.DIV, //
+                                                       Tag.TD, //
+                                                       Tag.CODE, //
+                                                       Tag.CAPTION, //
+                                                       Tag.LI, //
+                                                       Tag.STRONG, //
+                                                       Tag.TR, //
+                                                       Tag.MENU, //
+                                                       Tag.TITLE, //
+                                                       Tag.FORM, //
+                                                       Tag.BIG, //
+                                                       Tag.TEXTAREA, //
+                                                       Tag.H5, //
+                                                       Tag.DIR, //
+                                                       Tag.H4, //
+                                                       Tag.SPAN, //
+                                                       Tag.FONT, //
+                                                       Tag.H6, //
+                                                       Tag.SELECT, //
+                                                       Tag.H1, //
+                                                       Tag.H3, //
+                                                       Tag.PARAM, //
+                                                       Tag.H2, //
+                                                       Tag.U, //
+                                                       Tag.SAMP, //
+                                                       Tag.BR, //
+                                                       Tag.P, //
+                                                       Tag.S, //
+                                                       Tag.SMALL, //
+                                                       Tag.OL, //
+                                                       Tag.LINK, //
+                                                       Tag.CONTENT, //
+                                                       Tag.STRIKE, //
+                                                       Tag.A, //
+                                                       Tag.HEAD, //
+                                                       Tag.B, //
+                                                       Tag.FRAME, //
+                                                       Tag.FRAMESET, //
+                                                       Tag.KBD, //
+                                                       Tag.BASE, //
+                                                       Tag.COMMENT, //
+                                                       Tag.I, //
+                                                       Tag.CITE);
+        }
+
+        @Parameter(0)
+        public Tag sut;
+
+        @Override
+        public Tag createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML$Tag]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class AttributeTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLTests.AttributeTests<Attribute> {
 
@@ -153,104 +251,6 @@ implements FactoryBasedJ8UnitTest<HTML>, org.j8unit.repository.javax.swing.text.
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML$Attribute]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TagTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests<Tag> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML$Tag]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(Tag.ADDRESS, //
-                                                       Tag.SCRIPT, //
-                                                       Tag.BASEFONT, //
-                                                       Tag.BODY, //
-                                                       Tag.MAP, //
-                                                       Tag.ISINDEX, //
-                                                       Tag.META, //
-                                                       Tag.SUB, //
-                                                       Tag.IMG, //
-                                                       Tag.APPLET, //
-                                                       Tag.OBJECT, //
-                                                       Tag.SUP, //
-                                                       Tag.EM, //
-                                                       Tag.OPTION, //
-                                                       Tag.STYLE, //
-                                                       Tag.UL, //
-                                                       Tag.CENTER, //
-                                                       Tag.DT, //
-                                                       Tag.TABLE, //
-                                                       Tag.AREA, //
-                                                       Tag.IMPLIED, //
-                                                       Tag.BLOCKQUOTE, //
-                                                       Tag.NOFRAMES, //
-                                                       Tag.VAR, //
-                                                       Tag.DD, //
-                                                       Tag.TT, //
-                                                       Tag.INPUT, //
-                                                       Tag.PRE, //
-                                                       Tag.DFN, //
-                                                       Tag.DL, //
-                                                       Tag.HR, //
-                                                       Tag.HTML, //
-                                                       Tag.TH, //
-                                                       Tag.DIV, //
-                                                       Tag.TD, //
-                                                       Tag.CODE, //
-                                                       Tag.CAPTION, //
-                                                       Tag.LI, //
-                                                       Tag.STRONG, //
-                                                       Tag.TR, //
-                                                       Tag.MENU, //
-                                                       Tag.TITLE, //
-                                                       Tag.FORM, //
-                                                       Tag.BIG, //
-                                                       Tag.TEXTAREA, //
-                                                       Tag.H5, //
-                                                       Tag.DIR, //
-                                                       Tag.H4, //
-                                                       Tag.SPAN, //
-                                                       Tag.FONT, //
-                                                       Tag.H6, //
-                                                       Tag.SELECT, //
-                                                       Tag.H1, //
-                                                       Tag.H3, //
-                                                       Tag.PARAM, //
-                                                       Tag.H2, //
-                                                       Tag.U, //
-                                                       Tag.SAMP, //
-                                                       Tag.BR, //
-                                                       Tag.P, //
-                                                       Tag.S, //
-                                                       Tag.SMALL, //
-                                                       Tag.OL, //
-                                                       Tag.LINK, //
-                                                       Tag.CONTENT, //
-                                                       Tag.STRIKE, //
-                                                       Tag.A, //
-                                                       Tag.HEAD, //
-                                                       Tag.B, //
-                                                       Tag.FRAME, //
-                                                       Tag.FRAMESET, //
-                                                       Tag.KBD, //
-                                                       Tag.BASE, //
-                                                       Tag.COMMENT, //
-                                                       Tag.I, //
-                                                       Tag.CITE);
-        }
-
-        @Parameter(0)
-        public Tag sut;
-
-        @Override
-        public Tag createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML$Tag]
 
     }
 

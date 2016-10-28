@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.text.EditorKitClassTests<EditorKit>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link EditorKit#EditorKit() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.EditorKit#EditorKit() public
      * javax.swing.text.EditorKit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

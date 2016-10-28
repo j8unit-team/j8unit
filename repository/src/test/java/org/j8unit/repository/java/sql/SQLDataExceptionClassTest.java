@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLDataException#SQLDataException(Throwable)
-     * public java.sql.SQLDataException(java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.sql.SQLDataException#SQLDataException(Throwable) public
+     * java.sql.SQLDataException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLDataException#SQLDataException(String, Throwable) public
+     * {@link java.sql.SQLDataException#SQLDataException(String, Throwable) public
      * java.sql.SQLDataException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,7 +68,7 @@ implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLDataException#SQLDataException(String, String, Throwable) public
+     * {@link java.sql.SQLDataException#SQLDataException(String, String, Throwable) public
      * java.sql.SQLDataException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,7 +91,7 @@ implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLDataException#SQLDataException(String, String, int, Throwable) public
+     * {@link java.sql.SQLDataException#SQLDataException(String, String, int, Throwable) public
      * java.sql.SQLDataException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,8 +113,8 @@ implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLDataException#SQLDataException() public
-     * java.sql.SQLDataException()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.sql.SQLDataException#SQLDataException()
+     * public java.sql.SQLDataException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +134,8 @@ implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLDataException#SQLDataException(String)
-     * public java.sql.SQLDataException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.sql.SQLDataException#SQLDataException(String) public java.sql.SQLDataException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,7 +157,7 @@ implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLDataException#SQLDataException(String, String) public
+     * {@link java.sql.SQLDataException#SQLDataException(String, String) public
      * java.sql.SQLDataException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,7 +180,7 @@ implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLDataException#SQLDataException(String, String, int) public
+     * {@link java.sql.SQLDataException#SQLDataException(String, String, int) public
      * java.sql.SQLDataException(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

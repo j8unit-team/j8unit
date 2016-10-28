@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSessionContext#getSession(byte[]) public abstract
-     * javax.net.ssl.SSLSession javax.net.ssl.SSLSessionContext.getSession(byte[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSessionContext#getSession(byte[])
+     * public abstract javax.net.ssl.SSLSession javax.net.ssl.SSLSessionContext.getSession(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,9 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSessionContext#setSessionCacheSize(int) public
-     * abstract void javax.net.ssl.SSLSessionContext.setSessionCacheSize(int) throws java.lang.IllegalArgumentException}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLSessionContext#setSessionCacheSize(int) public abstract void
+     * javax.net.ssl.SSLSessionContext.setSessionCacheSize(int) throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSessionContext#getSessionTimeout() public
-     * abstract int javax.net.ssl.SSLSessionContext.getSessionTimeout()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSessionContext#getSessionTimeout()
+     * public abstract int javax.net.ssl.SSLSessionContext.getSessionTimeout()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSessionContext#getIds() public abstract
-     * java.util.Enumeration<byte[]> javax.net.ssl.SSLSessionContext.getIds()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSessionContext#getIds() public
+     * abstract java.util.Enumeration<byte[]> javax.net.ssl.SSLSessionContext.getIds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSessionContext#getSessionCacheSize() public
-     * abstract int javax.net.ssl.SSLSessionContext.getSessionCacheSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLSessionContext#getSessionCacheSize() public abstract int
+     * javax.net.ssl.SSLSessionContext.getSessionCacheSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +147,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSessionContext#setSessionTimeout(int) public
-     * abstract void javax.net.ssl.SSLSessionContext.setSessionTimeout(int) throws java.lang.IllegalArgumentException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLSessionContext#setSessionTimeout(int) public abstract void
+     * javax.net.ssl.SSLSessionContext.setSessionTimeout(int) throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,12 +1,6 @@
 package org.j8unit.repository.javax.lang.model.element;
 
-import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementVisitor;
-import javax.lang.model.element.ExecutableElement;
-import javax.lang.model.element.PackageElement;
-import javax.lang.model.element.TypeElement;
-import javax.lang.model.element.TypeParameterElement;
-import javax.lang.model.element.VariableElement;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -42,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementVisitor#visitExecutable(ExecutableElement, Object) public abstract R
+     * {@link javax.lang.model.element.ElementVisitor#visitExecutable(javax.lang.model.element.ExecutableElement, Object)
+     * public abstract R
      * javax.lang.model.element.ElementVisitor.visitExecutable(javax.lang.model.element.ExecutableElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementVisitor#visitType(TypeElement, Object) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.ElementVisitor#visitType(javax.lang.model.element.TypeElement, Object) public
      * abstract R javax.lang.model.element.ElementVisitor.visitType(javax.lang.model.element.TypeElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,7 +82,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementVisitor#visitPackage(PackageElement, Object)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.ElementVisitor#visitPackage(javax.lang.model.element.PackageElement, Object)
      * public abstract R
      * javax.lang.model.element.ElementVisitor.visitPackage(javax.lang.model.element.PackageElement,P)}.
      *
@@ -110,7 +107,32 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementVisitor#visitVariable(VariableElement, Object) public abstract R
+     * {@link javax.lang.model.element.ElementVisitor#visitTypeParameter(javax.lang.model.element.TypeParameterElement, Object)
+     * public abstract R
+     * javax.lang.model.element.ElementVisitor.visitTypeParameter(javax.lang.model.element.TypeParameterElement,P)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitTypeParameter_TypeParameterElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.ElementVisitor#visitVariable(javax.lang.model.element.VariableElement, Object)
+     * public abstract R
      * javax.lang.model.element.ElementVisitor.visitVariable(javax.lang.model.element.VariableElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,29 +155,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementVisitor#visitTypeParameter(TypeParameterElement, Object) public abstract R
-     * javax.lang.model.element.ElementVisitor.visitTypeParameter(javax.lang.model.element.TypeParameterElement,P)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitTypeParameter_TypeParameterElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementVisitor#visit(Element) public abstract R
+     * {@link javax.lang.model.element.ElementVisitor#visit(javax.lang.model.element.Element) public abstract R
      * javax.lang.model.element.ElementVisitor.visit(javax.lang.model.element.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +177,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementVisitor#visit(Element, Object) public
-     * abstract R javax.lang.model.element.ElementVisitor.visit(javax.lang.model.element.Element,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.ElementVisitor#visit(javax.lang.model.element.Element, Object) public abstract R
+     * javax.lang.model.element.ElementVisitor.visit(javax.lang.model.element.Element,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,7 +200,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementVisitor#visitUnknown(Element, Object) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.ElementVisitor#visitUnknown(javax.lang.model.element.Element, Object) public
      * abstract R javax.lang.model.element.ElementVisitor.visitUnknown(javax.lang.model.element.Element,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

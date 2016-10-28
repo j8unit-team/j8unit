@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Graphics;
-import java.awt.event.FocusEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicTableUI;
 import javax.swing.plaf.basic.BasicTableUI.FocusHandler;
 import javax.swing.plaf.basic.BasicTableUI.KeyHandler;
@@ -42,7 +37,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTableUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTableUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicTableUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,7 +61,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTableUI#paint(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTableUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicTableUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +85,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTableUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicTableUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTableUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicTableUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,7 +109,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTableUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTableUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicTableUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,8 +133,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTableUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicTableUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTableUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicTableUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,8 +157,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTableUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicTableUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTableUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicTableUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,8 +181,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTableUI#getBaselineResizeBehavior(JComponent)
-     * public java.awt.Component$BaselineResizeBehavior
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTableUI#getBaselineResizeBehavior(javax.swing.JComponent) public
+     * java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.basic.BasicTableUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -204,8 +206,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTableUI#getBaseline(JComponent, int, int)
-     * public int javax.swing.plaf.basic.BasicTableUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTableUI#getBaseline(javax.swing.JComponent, int, int) public int
+     * javax.swing.plaf.basic.BasicTableUI.getBaseline(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -226,81 +229,6 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI]
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link FocusHandler public class javax.swing.plaf.basic.BasicTableUI$FocusHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.FocusHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface FocusHandlerTests<SUT extends FocusHandler>
-    extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link FocusHandler#focusGained(FocusEvent) public void
-         * javax.swing.plaf.basic.BasicTableUI$FocusHandler.focusGained(java.awt.event.FocusEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_focusGained_FocusEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link FocusHandler#focusLost(FocusEvent) public void
-         * javax.swing.plaf.basic.BasicTableUI$FocusHandler.focusLost(java.awt.event.FocusEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_focusLost_FocusEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
-
-    }
 
     /**
      * <p>
@@ -329,7 +257,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeyHandler#keyReleased(KeyEvent) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.KeyHandler#keyReleased(java.awt.event.KeyEvent) public void
          * javax.swing.plaf.basic.BasicTableUI$KeyHandler.keyReleased(java.awt.event.KeyEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -352,7 +281,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeyHandler#keyTyped(KeyEvent) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.KeyHandler#keyTyped(java.awt.event.KeyEvent) public void
          * javax.swing.plaf.basic.BasicTableUI$KeyHandler.keyTyped(java.awt.event.KeyEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -375,7 +305,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeyHandler#keyPressed(KeyEvent) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.KeyHandler#keyPressed(java.awt.event.KeyEvent) public void
          * javax.swing.plaf.basic.BasicTableUI$KeyHandler.keyPressed(java.awt.event.KeyEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -397,6 +328,83 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
         }
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$KeyHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link FocusHandler public class javax.swing.plaf.basic.BasicTableUI$FocusHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.FocusHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface FocusHandlerTests<SUT extends FocusHandler>
+    extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.FocusHandler#focusGained(java.awt.event.FocusEvent) public void
+         * javax.swing.plaf.basic.BasicTableUI$FocusHandler.focusGained(java.awt.event.FocusEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_focusGained_FocusEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.FocusHandler#focusLost(java.awt.event.FocusEvent) public void
+         * javax.swing.plaf.basic.BasicTableUI$FocusHandler.focusLost(java.awt.event.FocusEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_focusLost_FocusEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
 
     }
 
@@ -427,7 +435,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mouseMoved(MouseEvent) public
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.MouseInputHandler#mouseMoved(java.awt.event.MouseEvent) public
          * void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseMoved(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -450,8 +459,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mousePressed(MouseEvent)
-         * public void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mousePressed(java.awt.event.MouseEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.MouseInputHandler#mousePressed(java.awt.event.MouseEvent) public
+         * void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mousePressed(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -473,7 +483,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mouseExited(MouseEvent) public
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.MouseInputHandler#mouseExited(java.awt.event.MouseEvent) public
          * void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseExited(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -496,8 +507,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mouseDragged(MouseEvent)
-         * public void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseDragged(java.awt.event.MouseEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.MouseInputHandler#mouseDragged(java.awt.event.MouseEvent) public
+         * void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseDragged(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -519,8 +531,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mouseEntered(MouseEvent)
-         * public void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseEntered(java.awt.event.MouseEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.MouseInputHandler#mouseEntered(java.awt.event.MouseEvent) public
+         * void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseEntered(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -542,8 +555,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mouseClicked(MouseEvent)
-         * public void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseClicked(java.awt.event.MouseEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.MouseInputHandler#mouseClicked(java.awt.event.MouseEvent) public
+         * void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseClicked(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -565,8 +579,9 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mouseReleased(MouseEvent)
-         * public void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseReleased(java.awt.event.MouseEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.MouseInputHandler#mouseReleased(java.awt.event.MouseEvent) public
+         * void javax.swing.plaf.basic.BasicTableUI$MouseInputHandler.mouseReleased(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

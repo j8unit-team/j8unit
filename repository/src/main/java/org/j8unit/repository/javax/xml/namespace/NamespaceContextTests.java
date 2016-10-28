@@ -35,30 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceContext#getNamespaceURI(String) public
-     * abstract java.lang.String javax.xml.namespace.NamespaceContext.getNamespaceURI(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceURI_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceContext#getPrefixes(String) public abstract
-     * java.util.Iterator javax.xml.namespace.NamespaceContext.getPrefixes(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.namespace.NamespaceContext#getPrefixes(String) public abstract java.util.Iterator
+     * javax.xml.namespace.NamespaceContext.getPrefixes(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +58,32 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceContext#getPrefix(String) public abstract
-     * java.lang.String javax.xml.namespace.NamespaceContext.getPrefix(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.namespace.NamespaceContext#getNamespaceURI(String) public abstract java.lang.String
+     * javax.xml.namespace.NamespaceContext.getNamespaceURI(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceURI_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.namespace.NamespaceContext#getPrefix(String) public abstract java.lang.String
+     * javax.xml.namespace.NamespaceContext.getPrefix(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

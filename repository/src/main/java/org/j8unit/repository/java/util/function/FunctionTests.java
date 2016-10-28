@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Function#andThen(Function) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.Function#andThen(java.util.function.Function) public default
      * <V> java.util.function.Function<T, V> java.util.function.Function.andThen(java.util.function.Function<? super R,
      * ? extends V>)}.
      *
@@ -58,7 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Function#compose(Function) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.Function#compose(java.util.function.Function) public default
      * <V> java.util.function.Function<V, R> java.util.function.Function.compose(java.util.function.Function<? super V,
      * ? extends T>)}.
      *
@@ -81,8 +83,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Function#apply(Object) public abstract R
-     * java.util.function.Function.apply(T)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.Function#apply(Object) public
+     * abstract R java.util.function.Function.apply(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

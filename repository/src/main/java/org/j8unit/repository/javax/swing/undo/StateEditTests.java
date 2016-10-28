@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StateEdit#redo() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.StateEdit#redo() public void
      * javax.swing.undo.StateEdit.redo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StateEdit#end() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.StateEdit#end() public void
      * javax.swing.undo.StateEdit.end()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StateEdit#undo() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.StateEdit#undo() public void
      * javax.swing.undo.StateEdit.undo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StateEdit#getPresentationName() public
-     * java.lang.String javax.swing.undo.StateEdit.getPresentationName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.StateEdit#getPresentationName()
+     * public java.lang.String javax.swing.undo.StateEdit.getPresentationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

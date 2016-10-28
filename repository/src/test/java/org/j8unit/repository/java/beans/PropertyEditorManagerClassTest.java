@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.beans.PropertyEditorManagerClassTests<Prop
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PropertyEditorManager#PropertyEditorManager()
-     * public java.beans.PropertyEditorManager()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.PropertyEditorManager#PropertyEditorManager() public java.beans.PropertyEditorManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,9 @@ implements org.j8unit.repository.java.beans.PropertyEditorManagerClassTests<Prop
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditorManager#getEditorSearchPath() public
-     * static java.lang.String[] java.beans.PropertyEditorManager.getEditorSearchPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.PropertyEditorManager#getEditorSearchPath() public static java.lang.String[]
+     * java.beans.PropertyEditorManager.getEditorSearchPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +58,13 @@ implements org.j8unit.repository.java.beans.PropertyEditorManagerClassTests<Prop
     @Category(Draft.class)
     public void test_getEditorSearchPath()
     throws Exception {
-        // write some test for {@link PropertyEditorManager#getEditorSearchPath()}
+        // write some test for {@link java.beans.PropertyEditorManager#getEditorSearchPath()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditorManager#findEditor(Class) public
-     * static java.beans.PropertyEditor java.beans.PropertyEditorManager.findEditor(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.PropertyEditorManager#findEditor(Class)
+     * public static java.beans.PropertyEditor java.beans.PropertyEditorManager.findEditor(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,13 +78,14 @@ implements org.j8unit.repository.java.beans.PropertyEditorManagerClassTests<Prop
     @Category(Draft.class)
     public void test_findEditor_Class()
     throws Exception {
-        // write some test for {@link PropertyEditorManager#findEditor(Class)}
+        // write some test for {@link java.beans.PropertyEditorManager#findEditor(Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditorManager#setEditorSearchPath(String[])
-     * public static void java.beans.PropertyEditorManager.setEditorSearchPath(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.PropertyEditorManager#setEditorSearchPath(String[]) public static void
+     * java.beans.PropertyEditorManager.setEditorSearchPath(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -97,13 +99,14 @@ implements org.j8unit.repository.java.beans.PropertyEditorManagerClassTests<Prop
     @Category(Draft.class)
     public void test_setEditorSearchPath_StringArray()
     throws Exception {
-        // write some test for {@link PropertyEditorManager#setEditorSearchPath(String[])}
+        // write some test for {@link java.beans.PropertyEditorManager#setEditorSearchPath(String[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditorManager#registerEditor(Class, Class)
-     * public static void java.beans.PropertyEditorManager.registerEditor(java.lang.Class<?>,java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.PropertyEditorManager#registerEditor(Class, Class) public static void
+     * java.beans.PropertyEditorManager.registerEditor(java.lang.Class<?>,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,7 +120,7 @@ implements org.j8unit.repository.java.beans.PropertyEditorManagerClassTests<Prop
     @Category(Draft.class)
     public void test_registerEditor_Class_Class()
     throws Exception {
-        // write some test for {@link PropertyEditorManager#registerEditor(Class, Class)}
+        // write some test for {@link java.beans.PropertyEditorManager#registerEditor(Class, Class)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyEditorManager]

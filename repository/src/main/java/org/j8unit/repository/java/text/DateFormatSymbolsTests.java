@@ -35,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#setLocalPatternChars(String)
-     * public void java.text.DateFormatSymbols.setLocalPatternChars(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DateFormatSymbols#setLocalPatternChars(String) public void
+     * java.text.DateFormatSymbols.setLocalPatternChars(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#equals(Object) public boolean
-     * java.text.DateFormatSymbols.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#equals(Object) public
+     * boolean java.text.DateFormatSymbols.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +81,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#getAmPmStrings() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#getAmPmStrings() public
      * java.lang.String[] java.text.DateFormatSymbols.getAmPmStrings()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +103,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#hashCode() public int
      * java.text.DateFormatSymbols.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +126,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#getShortMonths() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#getShortMonths() public
      * java.lang.String[] java.text.DateFormatSymbols.getShortMonths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +148,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#getZoneStrings() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#getZoneStrings() public
      * java.lang.String[][] java.text.DateFormatSymbols.getZoneStrings()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +170,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#clone() public java.lang.Object
-     * java.text.DateFormatSymbols.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#clone() public
+     * java.lang.Object java.text.DateFormatSymbols.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +192,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#getShortWeekdays() public
-     * java.lang.String[] java.text.DateFormatSymbols.getShortWeekdays()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#getShortWeekdays()
+     * public java.lang.String[] java.text.DateFormatSymbols.getShortWeekdays()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +214,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#setShortWeekdays(String[]) public
-     * void java.text.DateFormatSymbols.setShortWeekdays(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DateFormatSymbols#setShortWeekdays(String[]) public void
+     * java.text.DateFormatSymbols.setShortWeekdays(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,7 +237,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#getWeekdays() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#getWeekdays() public
      * java.lang.String[] java.text.DateFormatSymbols.getWeekdays()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -257,8 +259,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#setShortMonths(String[]) public
-     * void java.text.DateFormatSymbols.setShortMonths(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#setShortMonths(String[])
+     * public void java.text.DateFormatSymbols.setShortMonths(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,8 +281,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#setZoneStrings(String[][]) public
-     * void java.text.DateFormatSymbols.setZoneStrings(java.lang.String[][])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DateFormatSymbols#setZoneStrings(String[][]) public void
+     * java.text.DateFormatSymbols.setZoneStrings(java.lang.String[][])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,7 +304,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#getEras() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#getEras() public
      * java.lang.String[] java.text.DateFormatSymbols.getEras()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -323,8 +326,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#setMonths(String[]) public void
-     * java.text.DateFormatSymbols.setMonths(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#setMonths(String[])
+     * public void java.text.DateFormatSymbols.setMonths(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -345,8 +348,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#setEras(String[]) public void
-     * java.text.DateFormatSymbols.setEras(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#setEras(String[]) public
+     * void java.text.DateFormatSymbols.setEras(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,7 +370,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#getMonths() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#getMonths() public
      * java.lang.String[] java.text.DateFormatSymbols.getMonths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -389,8 +392,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#setWeekdays(String[]) public void
-     * java.text.DateFormatSymbols.setWeekdays(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#setWeekdays(String[])
+     * public void java.text.DateFormatSymbols.setWeekdays(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -411,8 +414,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#setAmPmStrings(String[]) public
-     * void java.text.DateFormatSymbols.setAmPmStrings(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#setAmPmStrings(String[])
+     * public void java.text.DateFormatSymbols.setAmPmStrings(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -433,8 +436,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatSymbols#getLocalPatternChars() public
-     * java.lang.String java.text.DateFormatSymbols.getLocalPatternChars()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormatSymbols#getLocalPatternChars()
+     * public java.lang.String java.text.DateFormatSymbols.getLocalPatternChars()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

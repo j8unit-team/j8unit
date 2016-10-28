@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.tree;
 
-import javax.swing.JTree;
 import javax.swing.tree.TreeCellEditor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.javax.swing.CellEditorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TreeCellEditor#getTreeCellEditorComponent(JTree, Object, boolean, boolean, boolean, int) public abstract
-     * java.awt.Component
+     * {@link javax.swing.tree.TreeCellEditor#getTreeCellEditorComponent(javax.swing.JTree, Object, boolean, boolean, boolean, int)
+     * public abstract java.awt.Component
      * javax.swing.tree.TreeCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}
      * .
      *

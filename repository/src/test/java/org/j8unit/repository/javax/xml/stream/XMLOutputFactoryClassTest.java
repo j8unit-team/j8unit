@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.xml.stream.XMLOutputFactoryClassTests<XML
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#newFactory(String, ClassLoader)
-     * public static javax.xml.stream.XMLOutputFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#newFactory(String, ClassLoader) public static
+     * javax.xml.stream.XMLOutputFactory
      * javax.xml.stream.XMLOutputFactory.newFactory(java.lang.String,java.lang.ClassLoader) throws
      * javax.xml.stream.FactoryConfigurationError}.
      *
@@ -38,13 +39,13 @@ implements org.j8unit.repository.javax.xml.stream.XMLOutputFactoryClassTests<XML
     @Category(Draft.class)
     public void test_newFactory_String_ClassLoader()
     throws Exception {
-        // write some test for {@link XMLOutputFactory#newFactory(String, ClassLoader)}
+        // write some test for {@link javax.xml.stream.XMLOutputFactory#newFactory(String, ClassLoader)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#newFactory() public static
-     * javax.xml.stream.XMLOutputFactory javax.xml.stream.XMLOutputFactory.newFactory() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLOutputFactory#newFactory()
+     * public static javax.xml.stream.XMLOutputFactory javax.xml.stream.XMLOutputFactory.newFactory() throws
      * javax.xml.stream.FactoryConfigurationError}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,13 +60,14 @@ implements org.j8unit.repository.javax.xml.stream.XMLOutputFactoryClassTests<XML
     @Category(Draft.class)
     public void test_newFactory()
     throws Exception {
-        // write some test for {@link XMLOutputFactory#newFactory()}
+        // write some test for {@link javax.xml.stream.XMLOutputFactory#newFactory()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#newInstance(String, ClassLoader)
-     * public static javax.xml.stream.XMLInputFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#newInstance(String, ClassLoader) public static
+     * javax.xml.stream.XMLInputFactory
      * javax.xml.stream.XMLOutputFactory.newInstance(java.lang.String,java.lang.ClassLoader) throws
      * javax.xml.stream.FactoryConfigurationError}.
      *
@@ -81,13 +83,13 @@ implements org.j8unit.repository.javax.xml.stream.XMLOutputFactoryClassTests<XML
     @Category(Draft.class)
     public void test_newInstance_String_ClassLoader()
     throws Exception {
-        // write some test for {@link XMLOutputFactory#newInstance(String, ClassLoader)}
+        // write some test for {@link javax.xml.stream.XMLOutputFactory#newInstance(String, ClassLoader)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#newInstance() public static
-     * javax.xml.stream.XMLOutputFactory javax.xml.stream.XMLOutputFactory.newInstance() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLOutputFactory#newInstance()
+     * public static javax.xml.stream.XMLOutputFactory javax.xml.stream.XMLOutputFactory.newInstance() throws
      * javax.xml.stream.FactoryConfigurationError}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +104,7 @@ implements org.j8unit.repository.javax.xml.stream.XMLOutputFactoryClassTests<XML
     @Category(Draft.class)
     public void test_newInstance()
     throws Exception {
-        // write some test for {@link XMLOutputFactory#newInstance()}
+        // write some test for {@link javax.xml.stream.XMLOutputFactory#newInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLOutputFactory]

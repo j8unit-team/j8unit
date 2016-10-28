@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.net;
 
-import java.net.InetAddress;
 import javax.net.SocketFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketFactory#createSocket() public java.net.Socket
-     * javax.net.SocketFactory.createSocket() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.SocketFactory#createSocket() public
+     * java.net.Socket javax.net.SocketFactory.createSocket() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketFactory#createSocket(String, int) public
-     * abstract java.net.Socket javax.net.SocketFactory.createSocket(java.lang.String,int) throws
+     * Test method for the hereby targeted method-under-test {@link javax.net.SocketFactory#createSocket(String, int)
+     * public abstract java.net.Socket javax.net.SocketFactory.createSocket(java.lang.String,int) throws
      * java.io.IOException,java.net.UnknownHostException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SocketFactory#createSocket(InetAddress, int, InetAddress, int) public abstract java.net.Socket
-     * javax.net.SocketFactory.createSocket(java.net.InetAddress,int,java.net.InetAddress,int) throws
+     * {@link javax.net.SocketFactory#createSocket(java.net.InetAddress, int, java.net.InetAddress, int) public abstract
+     * java.net.Socket javax.net.SocketFactory.createSocket(java.net.InetAddress,int,java.net.InetAddress,int) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +104,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SocketFactory#createSocket(String, int, InetAddress, int) public abstract java.net.Socket
-     * javax.net.SocketFactory.createSocket(java.lang.String,int,java.net.InetAddress,int) throws
+     * {@link javax.net.SocketFactory#createSocket(String, int, java.net.InetAddress, int) public abstract
+     * java.net.Socket javax.net.SocketFactory.createSocket(java.lang.String,int,java.net.InetAddress,int) throws
      * java.io.IOException,java.net.UnknownHostException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,9 +127,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketFactory#createSocket(InetAddress, int) public
-     * abstract java.net.Socket javax.net.SocketFactory.createSocket(java.net.InetAddress,int) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.SocketFactory#createSocket(java.net.InetAddress, int) public abstract java.net.Socket
+     * javax.net.SocketFactory.createSocket(java.net.InetAddress,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

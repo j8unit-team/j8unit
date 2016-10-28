@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.NoConnectionPendingExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoConnectionPendingException#NoConnectionPendingException() public
+     * {@link java.nio.channels.NoConnectionPendingException#NoConnectionPendingException() public
      * java.nio.channels.NoConnectionPendingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Graphics;
-import javax.swing.plaf.synth.SynthContext;
 import javax.swing.plaf.synth.SynthPasswordFieldUI;
-import javax.swing.text.Element;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthTextFieldUITests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthPasswordFieldUI#create(Element) public
-     * javax.swing.text.View javax.swing.plaf.synth.SynthPasswordFieldUI.create(javax.swing.text.Element)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthPasswordFieldUI#create(javax.swing.text.Element) public javax.swing.text.View
+     * javax.swing.plaf.synth.SynthPasswordFieldUI.create(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +59,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthTextFieldUITests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthPasswordFieldUI#paintBorder(SynthContext, Graphics, int, int, int, int) public void
+     * {@link javax.swing.plaf.synth.SynthPasswordFieldUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public void
      * javax.swing.plaf.synth.SynthPasswordFieldUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.nio.file;
 
-import java.io.IOException;
 import java.nio.file.DirectoryIteratorException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.nio.file.DirectoryIteratorExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DirectoryIteratorException#DirectoryIteratorException(IOException) public
+     * {@link java.nio.file.DirectoryIteratorException#DirectoryIteratorException(java.io.IOException) public
      * java.nio.file.DirectoryIteratorException(java.io.IOException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.nio.file.DirectoryIteratorExceptionClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DirectoryIteratorException sut = null; // = new DirectoryIteratorException(IOException);
+        final DirectoryIteratorException sut = null; // = new DirectoryIteratorException(java.io.IOException);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.DirectoryIteratorException]

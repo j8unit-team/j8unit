@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.SimpleElementVisitor7;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleElementVisitor7#visitVariable(VariableElement, Object) public R
-     * javax.lang.model.util.SimpleElementVisitor7.visitVariable(javax.lang.model.element.VariableElement,P)}.
+     * {@link javax.lang.model.util.SimpleElementVisitor7#visitVariable(javax.lang.model.element.VariableElement, Object)
+     * public R javax.lang.model.util.SimpleElementVisitor7.visitVariable(javax.lang.model.element.VariableElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

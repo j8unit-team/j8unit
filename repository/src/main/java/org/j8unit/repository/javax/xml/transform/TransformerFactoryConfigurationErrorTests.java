@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerFactoryConfigurationError#getMessage()
-     * public java.lang.String javax.xml.transform.TransformerFactoryConfigurationError.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerFactoryConfigurationError#getMessage() public java.lang.String
+     * javax.xml.transform.TransformerFactoryConfigurationError.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerFactoryConfigurationError#getCause()
-     * public java.lang.Throwable javax.xml.transform.TransformerFactoryConfigurationError.getCause()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerFactoryConfigurationError#getCause() public java.lang.Throwable
+     * javax.xml.transform.TransformerFactoryConfigurationError.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,9 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerFactoryConfigurationError#getException()
-     * public java.lang.Exception javax.xml.transform.TransformerFactoryConfigurationError.getException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerFactoryConfigurationError#getException() public java.lang.Exception
+     * javax.xml.transform.TransformerFactoryConfigurationError.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

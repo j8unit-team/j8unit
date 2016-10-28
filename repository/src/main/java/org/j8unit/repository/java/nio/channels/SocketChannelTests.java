@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.net.SocketAddress;
-import java.net.SocketOption;
-import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +36,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#shutdownInput() public abstract
-     * java.nio.channels.SocketChannel java.nio.channels.SocketChannel.shutdownInput() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.SocketChannel#shutdownInput()
+     * public abstract java.nio.channels.SocketChannel java.nio.channels.SocketChannel.shutdownInput() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +59,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#bind(SocketAddress) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#bind(java.net.SocketAddress) public abstract
      * java.nio.channels.SocketChannel java.nio.channels.SocketChannel.bind(java.net.SocketAddress) throws
      * java.io.IOException}.
      *
@@ -85,7 +84,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#write(ByteBuffer[]) public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#write(java.nio.ByteBuffer[]) public final long
      * java.nio.channels.SocketChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,8 +108,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#write(ByteBuffer[], int, int) public
-     * abstract long java.nio.channels.SocketChannel.write(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#write(java.nio.ByteBuffer[], int, int) public abstract long
+     * java.nio.channels.SocketChannel.write(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,7 +132,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#write(ByteBuffer) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#write(java.nio.ByteBuffer) public abstract int
      * java.nio.channels.SocketChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +156,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#validOps() public final int
-     * java.nio.channels.SocketChannel.validOps()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.SocketChannel#validOps() public
+     * final int java.nio.channels.SocketChannel.validOps()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +179,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#connect(SocketAddress) public abstract
-     * boolean java.nio.channels.SocketChannel.connect(java.net.SocketAddress) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#connect(java.net.SocketAddress) public abstract boolean
+     * java.nio.channels.SocketChannel.connect(java.net.SocketAddress) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,8 +202,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#socket() public abstract
-     * java.net.Socket java.nio.channels.SocketChannel.socket()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.SocketChannel#socket() public
+     * abstract java.net.Socket java.nio.channels.SocketChannel.socket()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,8 +224,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#isConnectionPending() public abstract
-     * boolean java.nio.channels.SocketChannel.isConnectionPending()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#isConnectionPending() public abstract boolean
+     * java.nio.channels.SocketChannel.isConnectionPending()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,9 +247,10 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#setOption(SocketOption, Object) public
-     * abstract <T> java.nio.channels.SocketChannel java.nio.channels.SocketChannel.setOption(java.net.SocketOption
-     * <T>,T) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#setOption(java.net.SocketOption, Object) public abstract
+     * <T> java.nio.channels.SocketChannel java.nio.channels.SocketChannel.setOption(java.net.SocketOption<T>,T) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +272,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#read(ByteBuffer[], int, int) public
-     * abstract long java.nio.channels.SocketChannel.read(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#read(java.nio.ByteBuffer[], int, int) public abstract long
+     * java.nio.channels.SocketChannel.read(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -290,7 +296,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#read(ByteBuffer) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#read(java.nio.ByteBuffer) public abstract int
      * java.nio.channels.SocketChannel.read(java.nio.ByteBuffer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -313,7 +320,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#read(ByteBuffer[]) public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.SocketChannel#read(java.nio.ByteBuffer[]) public final long
      * java.nio.channels.SocketChannel.read(java.nio.ByteBuffer[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -336,8 +344,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#finishConnect() public abstract
-     * boolean java.nio.channels.SocketChannel.finishConnect() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.SocketChannel#finishConnect()
+     * public abstract boolean java.nio.channels.SocketChannel.finishConnect() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -358,8 +366,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#getLocalAddress() public abstract
-     * java.net.SocketAddress java.nio.channels.SocketChannel.getLocalAddress() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.SocketChannel#getLocalAddress()
+     * public abstract java.net.SocketAddress java.nio.channels.SocketChannel.getLocalAddress() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -381,8 +390,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#shutdownOutput() public abstract
-     * java.nio.channels.SocketChannel java.nio.channels.SocketChannel.shutdownOutput() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.SocketChannel#shutdownOutput()
+     * public abstract java.nio.channels.SocketChannel java.nio.channels.SocketChannel.shutdownOutput() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -403,8 +413,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#getRemoteAddress() public abstract
-     * java.net.SocketAddress java.nio.channels.SocketChannel.getRemoteAddress() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.SocketChannel#getRemoteAddress()
+     * public abstract java.net.SocketAddress java.nio.channels.SocketChannel.getRemoteAddress() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -425,8 +436,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketChannel#isConnected() public abstract boolean
-     * java.nio.channels.SocketChannel.isConnected()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.SocketChannel#isConnected() public
+     * abstract boolean java.nio.channels.SocketChannel.isConnected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

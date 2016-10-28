@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaList#getMediaText() public abstract
-     * java.lang.String org.w3c.dom.stylesheets.MediaList.getMediaText()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.stylesheets.MediaList#getMediaText()
+     * public abstract java.lang.String org.w3c.dom.stylesheets.MediaList.getMediaText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaList#getLength() public abstract int
-     * org.w3c.dom.stylesheets.MediaList.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.stylesheets.MediaList#getLength() public
+     * abstract int org.w3c.dom.stylesheets.MediaList.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaList#deleteMedium(String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.stylesheets.MediaList#deleteMedium(String) public abstract void
      * org.w3c.dom.stylesheets.MediaList.deleteMedium(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaList#setMediaText(String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.stylesheets.MediaList#setMediaText(String) public abstract void
      * org.w3c.dom.stylesheets.MediaList.setMediaText(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +125,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaList#appendMedium(String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.stylesheets.MediaList#appendMedium(String) public abstract void
      * org.w3c.dom.stylesheets.MediaList.appendMedium(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +148,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaList#item(int) public abstract java.lang.String
-     * org.w3c.dom.stylesheets.MediaList.item(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.stylesheets.MediaList#item(int) public
+     * abstract java.lang.String org.w3c.dom.stylesheets.MediaList.item(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.dnd.DragSourceContext;
 import java.awt.dnd.DragSourceDragEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceDragEventClassTests<Drag
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DragSourceDragEvent#DragSourceDragEvent(DragSourceContext, int, int, int) public
+     * {@link java.awt.dnd.DragSourceDragEvent#DragSourceDragEvent(java.awt.dnd.DragSourceContext, int, int, int) public
      * java.awt.dnd.DragSourceDragEvent(java.awt.dnd.DragSourceContext,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,14 +39,15 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceDragEventClassTests<Drag
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DragSourceDragEvent sut = null; // = new DragSourceDragEvent(DragSourceContext, int, int, int);
+        final DragSourceDragEvent sut = null; // = new DragSourceDragEvent(java.awt.dnd.DragSourceContext, int, int,
+                                              // int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DragSourceDragEvent#DragSourceDragEvent(DragSourceContext, int, int, int, int, int) public
-     * java.awt.dnd.DragSourceDragEvent(java.awt.dnd.DragSourceContext,int,int,int,int,int)}.
+     * {@link java.awt.dnd.DragSourceDragEvent#DragSourceDragEvent(java.awt.dnd.DragSourceContext, int, int, int, int, int)
+     * public java.awt.dnd.DragSourceDragEvent(java.awt.dnd.DragSourceContext,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +63,8 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceDragEventClassTests<Drag
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DragSourceDragEvent sut = null; // = new DragSourceDragEvent(DragSourceContext, int, int, int, int, int);
+        final DragSourceDragEvent sut = null; // = new DragSourceDragEvent(java.awt.dnd.DragSourceContext, int, int,
+                                              // int, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSourceDragEvent]

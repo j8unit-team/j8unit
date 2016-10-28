@@ -34,7 +34,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getPublicId() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Entity#getPublicId() public abstract
      * java.lang.String org.w3c.dom.Entity.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getXmlVersion() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Entity#getXmlVersion() public abstract
      * java.lang.String org.w3c.dom.Entity.getXmlVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getInputEncoding() public abstract
-     * java.lang.String org.w3c.dom.Entity.getInputEncoding()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Entity#getInputEncoding() public
+     * abstract java.lang.String org.w3c.dom.Entity.getInputEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getNotationName() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Entity#getNotationName() public abstract
      * java.lang.String org.w3c.dom.Entity.getNotationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,7 +122,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getXmlEncoding() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Entity#getXmlEncoding() public abstract
      * java.lang.String org.w3c.dom.Entity.getXmlEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,7 +144,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getSystemId() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Entity#getSystemId() public abstract
      * java.lang.String org.w3c.dom.Entity.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.annotation;
 
 import java.lang.annotation.AnnotationTypeMismatchException;
-import java.lang.reflect.Method;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.lang.annotation.AnnotationTypeMismatchExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AnnotationTypeMismatchException#AnnotationTypeMismatchException(Method, String) public
-     * java.lang.annotation.AnnotationTypeMismatchException(java.lang.reflect.Method,java.lang.String)}.
+     * {@link java.lang.annotation.AnnotationTypeMismatchException#AnnotationTypeMismatchException(java.lang.reflect.Method, String)
+     * public java.lang.annotation.AnnotationTypeMismatchException(java.lang.reflect.Method,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,9 @@ implements org.j8unit.repository.java.lang.annotation.AnnotationTypeMismatchExce
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AnnotationTypeMismatchException sut = null; // = new AnnotationTypeMismatchException(Method, String);
+        final AnnotationTypeMismatchException sut = null; // = new
+                                                          // AnnotationTypeMismatchException(java.lang.reflect.Method,
+                                                          // String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.AnnotationTypeMismatchException]

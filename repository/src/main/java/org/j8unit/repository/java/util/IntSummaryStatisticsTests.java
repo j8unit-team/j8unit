@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntSummaryStatistics#toString() public
+     * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#toString() public
      * java.lang.String java.util.IntSummaryStatistics.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntSummaryStatistics#combine(IntSummaryStatistics)
-     * public void java.util.IntSummaryStatistics.combine(java.util.IntSummaryStatistics)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.IntSummaryStatistics#combine(java.util.IntSummaryStatistics) public void
+     * java.util.IntSummaryStatistics.combine(java.util.IntSummaryStatistics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntSummaryStatistics#accept(int) public void
-     * java.util.IntSummaryStatistics.accept(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#accept(int) public
+     * void java.util.IntSummaryStatistics.accept(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,8 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntSummaryStatistics#getSum() public final long
-     * java.util.IntSummaryStatistics.getSum()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#getSum() public final
+     * long java.util.IntSummaryStatistics.getSum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,8 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntSummaryStatistics#getAverage() public final
-     * double java.util.IntSummaryStatistics.getAverage()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#getAverage() public
+     * final double java.util.IntSummaryStatistics.getAverage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +147,8 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntSummaryStatistics#getCount() public final long
-     * java.util.IntSummaryStatistics.getCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#getCount() public
+     * final long java.util.IntSummaryStatistics.getCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +169,8 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntSummaryStatistics#getMax() public final int
-     * java.util.IntSummaryStatistics.getMax()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#getMax() public final
+     * int java.util.IntSummaryStatistics.getMax()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +191,8 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntSummaryStatistics#getMin() public final int
-     * java.util.IntSummaryStatistics.getMin()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#getMin() public final
+     * int java.util.IntSummaryStatistics.getMin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

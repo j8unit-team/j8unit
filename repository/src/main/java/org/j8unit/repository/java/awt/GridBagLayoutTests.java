@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#getLayoutWeights() public double[][]
-     * java.awt.GridBagLayout.getLayoutWeights()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridBagLayout#getLayoutWeights() public
+     * double[][] java.awt.GridBagLayout.getLayoutWeights()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#maximumLayoutSize(Container) public
-     * java.awt.Dimension java.awt.GridBagLayout.maximumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#maximumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.GridBagLayout.maximumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#layoutContainer(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#layoutContainer(java.awt.Container) public void
      * java.awt.GridBagLayout.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,31 +105,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#addLayoutComponent(Component, Object)
-     * public void java.awt.GridBagLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addLayoutComponent_Component_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#addLayoutComponent(String, Component)
-     * public void java.awt.GridBagLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#addLayoutComponent(String, java.awt.Component) public void
+     * java.awt.GridBagLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,7 +129,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#location(int, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#addLayoutComponent(java.awt.Component, Object) public void
+     * java.awt.GridBagLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addLayoutComponent_Component_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridBagLayout#location(int, int) public
      * java.awt.Point java.awt.GridBagLayout.location(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +175,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#toString() public java.lang.String
-     * java.awt.GridBagLayout.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridBagLayout#toString() public
+     * java.lang.String java.awt.GridBagLayout.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,8 +198,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#getLayoutAlignmentX(Container) public
-     * float java.awt.GridBagLayout.getLayoutAlignmentX(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#getLayoutAlignmentX(java.awt.Container) public float
+     * java.awt.GridBagLayout.getLayoutAlignmentX(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,8 +222,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#minimumLayoutSize(Container) public
-     * java.awt.Dimension java.awt.GridBagLayout.minimumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.GridBagLayout.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,30 +246,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#getLayoutOrigin() public
-     * java.awt.Point java.awt.GridBagLayout.getLayoutOrigin()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLayoutOrigin()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#getLayoutAlignmentY(Container) public
-     * float java.awt.GridBagLayout.getLayoutAlignmentY(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#getLayoutAlignmentY(java.awt.Container) public float
+     * java.awt.GridBagLayout.getLayoutAlignmentY(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -288,8 +270,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#getConstraints(Component) public
-     * java.awt.GridBagConstraints java.awt.GridBagLayout.getConstraints(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridBagLayout#getLayoutOrigin() public
+     * java.awt.Point java.awt.GridBagLayout.getLayoutOrigin()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLayoutOrigin()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#getConstraints(java.awt.Component) public java.awt.GridBagConstraints
+     * java.awt.GridBagLayout.getConstraints(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,30 +315,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#getLayoutDimensions() public int[][]
-     * java.awt.GridBagLayout.getLayoutDimensions()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLayoutDimensions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#invalidateLayout(Container) public
-     * void java.awt.GridBagLayout.invalidateLayout(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#invalidateLayout(java.awt.Container) public void
+     * java.awt.GridBagLayout.invalidateLayout(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -355,8 +339,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#preferredLayoutSize(Container) public
-     * java.awt.Dimension java.awt.GridBagLayout.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridBagLayout#getLayoutDimensions() public
+     * int[][] java.awt.GridBagLayout.getLayoutDimensions()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLayoutDimensions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.GridBagLayout.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -379,30 +386,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GridBagLayout#setConstraints(Component, GridBagConstraints) public void
-     * java.awt.GridBagLayout.setConstraints(java.awt.Component,java.awt.GridBagConstraints)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setConstraints_Component_GridBagConstraints()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GridBagLayout#removeLayoutComponent(Component)
-     * public void java.awt.GridBagLayout.removeLayoutComponent(java.awt.Component)}.
+     * {@link java.awt.GridBagLayout#removeLayoutComponent(java.awt.Component) public void
+     * java.awt.GridBagLayout.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -416,6 +401,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removeLayoutComponent_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridBagLayout#setConstraints(java.awt.Component, java.awt.GridBagConstraints) public void
+     * java.awt.GridBagLayout.setConstraints(java.awt.Component,java.awt.GridBagConstraints)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setConstraints_Component_GridBagConstraints()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

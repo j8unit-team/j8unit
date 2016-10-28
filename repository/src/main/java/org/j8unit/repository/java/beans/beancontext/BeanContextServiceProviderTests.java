@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.beans.beancontext;
 
 import java.beans.beancontext.BeanContextServiceProvider;
-import java.beans.beancontext.BeanContextServices;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServiceProvider#getService(BeanContextServices, Object, Class, Object) public abstract
-     * java.lang.Object
+     * {@link java.beans.beancontext.BeanContextServiceProvider#getService(java.beans.beancontext.BeanContextServices, Object, Class, Object)
+     * public abstract java.lang.Object
      * java.beans.beancontext.BeanContextServiceProvider.getService(java.beans.beancontext.BeanContextServices,java.lang.Object,java.lang.Class,java.lang.Object)}
      * .
      *
@@ -62,7 +61,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServiceProvider#releaseService(BeanContextServices, Object, Object) public abstract void
+     * {@link java.beans.beancontext.BeanContextServiceProvider#releaseService(java.beans.beancontext.BeanContextServices, Object, Object)
+     * public abstract void
      * java.beans.beancontext.BeanContextServiceProvider.releaseService(java.beans.beancontext.BeanContextServices,java.lang.Object,java.lang.Object)}
      * .
      *
@@ -86,8 +86,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServiceProvider#getCurrentServiceSelectors(BeanContextServices, Class) public abstract
-     * java.util.Iterator
+     * {@link java.beans.beancontext.BeanContextServiceProvider#getCurrentServiceSelectors(java.beans.beancontext.BeanContextServices, Class)
+     * public abstract java.util.Iterator
      * java.beans.beancontext.BeanContextServiceProvider.getCurrentServiceSelectors(java.beans.beancontext.BeanContextServices,java.lang.Class)}
      * .
      *

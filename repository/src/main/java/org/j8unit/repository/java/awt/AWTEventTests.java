@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTEvent#setSource(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTEvent#setSource(Object) public void
      * java.awt.AWTEvent.setSource(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTEvent#paramString() public java.lang.String
-     * java.awt.AWTEvent.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTEvent#paramString() public
+     * java.lang.String java.awt.AWTEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTEvent#getID() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTEvent#getID() public int
      * java.awt.AWTEvent.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTEvent#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTEvent#toString() public java.lang.String
      * java.awt.AWTEvent.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

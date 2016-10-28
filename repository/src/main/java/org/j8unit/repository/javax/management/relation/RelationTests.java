@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management.relation;
 
-import javax.management.ObjectName;
 import javax.management.relation.Relation;
-import javax.management.relation.Role;
-import javax.management.relation.RoleList;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#getRole(String) public abstract
-     * java.util.List<javax.management.ObjectName> javax.management.relation.Relation.getRole(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.Relation#getRole(String)
+     * public abstract java.util.List
+     * <javax.management.ObjectName> javax.management.relation.Relation.getRole(java.lang.String) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationServiceNotRegisteredException}
      * .
      *
@@ -62,8 +60,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#getRoleCardinality(String) public abstract
-     * java.lang.Integer javax.management.relation.Relation.getRoleCardinality(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.Relation#getRoleCardinality(String) public abstract java.lang.Integer
+     * javax.management.relation.Relation.getRoleCardinality(java.lang.String) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,7 +84,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#setRoles(RoleList) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.Relation#setRoles(javax.management.relation.RoleList) public abstract
      * javax.management.relation.RoleResult
      * javax.management.relation.Relation.setRoles(javax.management.relation.RoleList) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
@@ -110,8 +110,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#getRoles(String[]) public abstract
-     * javax.management.relation.RoleResult javax.management.relation.Relation.getRoles(java.lang.String[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.Relation#getRoles(String[]) public abstract javax.management.relation.RoleResult
+     * javax.management.relation.Relation.getRoles(java.lang.String[]) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,8 +134,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#getRelationTypeName() public abstract
-     * java.lang.String javax.management.relation.Relation.getRelationTypeName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.Relation#getRelationTypeName() public abstract java.lang.String
+     * javax.management.relation.Relation.getRelationTypeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,8 +157,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#getRelationId() public abstract
-     * java.lang.String javax.management.relation.Relation.getRelationId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.Relation#getRelationId()
+     * public abstract java.lang.String javax.management.relation.Relation.getRelationId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,7 +179,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#getReferencedMBeans() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.Relation#getReferencedMBeans() public abstract
      * java.util.Map<javax.management.ObjectName, java.util.List<java.lang.String>>
      * javax.management.relation.Relation.getReferencedMBeans()}.
      *
@@ -201,7 +204,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Relation#handleMBeanUnregistration(ObjectName, String) public abstract void
+     * {@link javax.management.relation.Relation#handleMBeanUnregistration(javax.management.ObjectName, String) public
+     * abstract void
      * javax.management.relation.Relation.handleMBeanUnregistration(javax.management.ObjectName,java.lang.String) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
      * .
@@ -225,8 +229,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#getAllRoles() public abstract
-     * javax.management.relation.RoleResult javax.management.relation.Relation.getAllRoles() throws
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.Relation#getAllRoles()
+     * public abstract javax.management.relation.RoleResult javax.management.relation.Relation.getAllRoles() throws
      * javax.management.relation.RelationServiceNotRegisteredException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -248,8 +252,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#getRelationServiceName() public abstract
-     * javax.management.ObjectName javax.management.relation.Relation.getRelationServiceName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.Relation#getRelationServiceName() public abstract javax.management.ObjectName
+     * javax.management.relation.Relation.getRelationServiceName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,7 +275,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#setRole(Role) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.Relation#setRole(javax.management.relation.Role) public abstract void
      * javax.management.relation.Relation.setRole(javax.management.relation.Role) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationNotFoundException}
      * .
@@ -294,8 +300,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Relation#retrieveAllRoles() public abstract
-     * javax.management.relation.RoleList javax.management.relation.Relation.retrieveAllRoles()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.Relation#retrieveAllRoles() public abstract javax.management.relation.RoleList
+     * javax.management.relation.Relation.retrieveAllRoles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

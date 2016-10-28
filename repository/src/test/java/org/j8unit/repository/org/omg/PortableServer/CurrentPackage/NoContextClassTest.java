@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NoContext#NoContext() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.CurrentPackage.NoContext#NoContext() public
      * org.omg.PortableServer.CurrentPackage.NoContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NoContext#NoContext(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.CurrentPackage.NoContext#NoContext(String) public
      * org.omg.PortableServer.CurrentPackage.NoContext(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

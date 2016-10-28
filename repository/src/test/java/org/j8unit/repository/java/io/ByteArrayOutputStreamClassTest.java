@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.io.ByteArrayOutputStreamClassTests<ByteArr
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ByteArrayOutputStream#ByteArrayOutputStream()
-     * public java.io.ByteArrayOutputStream()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.ByteArrayOutputStream#ByteArrayOutputStream() public java.io.ByteArrayOutputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.io.ByteArrayOutputStreamClassTests<ByteArr
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ByteArrayOutputStream#ByteArrayOutputStream(int) public java.io.ByteArrayOutputStream(int)}.
+     * {@link java.io.ByteArrayOutputStream#ByteArrayOutputStream(int) public java.io.ByteArrayOutputStream(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

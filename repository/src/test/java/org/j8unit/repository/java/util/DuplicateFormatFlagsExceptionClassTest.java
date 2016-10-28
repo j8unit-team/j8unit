@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.DuplicateFormatFlagsExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DuplicateFormatFlagsException#DuplicateFormatFlagsException(String) public
+     * {@link java.util.DuplicateFormatFlagsException#DuplicateFormatFlagsException(String) public
      * java.util.DuplicateFormatFlagsException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

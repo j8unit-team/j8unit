@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.ListSelectionModel;
-import javax.swing.event.ListSelectionListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#removeIndexInterval(int, int)
-     * public abstract void javax.swing.ListSelectionModel.removeIndexInterval(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#removeIndexInterval(int, int) public abstract void
+     * javax.swing.ListSelectionModel.removeIndexInterval(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +59,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ListSelectionModel#addListSelectionListener(ListSelectionListener) public abstract void
-     * javax.swing.ListSelectionModel.addListSelectionListener(javax.swing.event.ListSelectionListener)}.
+     * {@link javax.swing.ListSelectionModel#addListSelectionListener(javax.swing.event.ListSelectionListener) public
+     * abstract void javax.swing.ListSelectionModel.addListSelectionListener(javax.swing.event.ListSelectionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#setSelectionInterval(int, int)
-     * public abstract void javax.swing.ListSelectionModel.setSelectionInterval(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#setSelectionInterval(int, int) public abstract void
+     * javax.swing.ListSelectionModel.setSelectionInterval(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#getMaxSelectionIndex() public
-     * abstract int javax.swing.ListSelectionModel.getMaxSelectionIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#getMaxSelectionIndex() public abstract int
+     * javax.swing.ListSelectionModel.getMaxSelectionIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#getSelectionMode() public
-     * abstract int javax.swing.ListSelectionModel.getSelectionMode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ListSelectionModel#getSelectionMode()
+     * public abstract int javax.swing.ListSelectionModel.getSelectionMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +149,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#setSelectionMode(int) public
-     * abstract void javax.swing.ListSelectionModel.setSelectionMode(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ListSelectionModel#setSelectionMode(int)
+     * public abstract void javax.swing.ListSelectionModel.setSelectionMode(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +171,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#getLeadSelectionIndex() public
-     * abstract int javax.swing.ListSelectionModel.getLeadSelectionIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#getLeadSelectionIndex() public abstract int
+     * javax.swing.ListSelectionModel.getLeadSelectionIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +194,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#getMinSelectionIndex() public
-     * abstract int javax.swing.ListSelectionModel.getMinSelectionIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#getMinSelectionIndex() public abstract int
+     * javax.swing.ListSelectionModel.getMinSelectionIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +217,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#setAnchorSelectionIndex(int)
-     * public abstract void javax.swing.ListSelectionModel.setAnchorSelectionIndex(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#setAnchorSelectionIndex(int) public abstract void
+     * javax.swing.ListSelectionModel.setAnchorSelectionIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,7 +241,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ListSelectionModel#insertIndexInterval(int, int, boolean) public abstract void
+     * {@link javax.swing.ListSelectionModel#insertIndexInterval(int, int, boolean) public abstract void
      * javax.swing.ListSelectionModel.insertIndexInterval(int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +263,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#addSelectionInterval(int, int)
-     * public abstract void javax.swing.ListSelectionModel.addSelectionInterval(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#addSelectionInterval(int, int) public abstract void
+     * javax.swing.ListSelectionModel.addSelectionInterval(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,8 +286,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#getAnchorSelectionIndex() public
-     * abstract int javax.swing.ListSelectionModel.getAnchorSelectionIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#getAnchorSelectionIndex() public abstract int
+     * javax.swing.ListSelectionModel.getAnchorSelectionIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,8 +309,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#removeSelectionInterval(int, int)
-     * public abstract void javax.swing.ListSelectionModel.removeSelectionInterval(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#removeSelectionInterval(int, int) public abstract void
+     * javax.swing.ListSelectionModel.removeSelectionInterval(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +332,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#setValueIsAdjusting(boolean)
-     * public abstract void javax.swing.ListSelectionModel.setValueIsAdjusting(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#setValueIsAdjusting(boolean) public abstract void
+     * javax.swing.ListSelectionModel.setValueIsAdjusting(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,8 +355,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#isSelectedIndex(int) public
-     * abstract boolean javax.swing.ListSelectionModel.isSelectedIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ListSelectionModel#isSelectedIndex(int)
+     * public abstract boolean javax.swing.ListSelectionModel.isSelectedIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -368,8 +377,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#clearSelection() public abstract
-     * void javax.swing.ListSelectionModel.clearSelection()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ListSelectionModel#clearSelection()
+     * public abstract void javax.swing.ListSelectionModel.clearSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -390,8 +399,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#setLeadSelectionIndex(int) public
-     * abstract void javax.swing.ListSelectionModel.setLeadSelectionIndex(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ListSelectionModel#setLeadSelectionIndex(int) public abstract void
+     * javax.swing.ListSelectionModel.setLeadSelectionIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -412,30 +422,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#isSelectionEmpty() public
-     * abstract boolean javax.swing.ListSelectionModel.isSelectionEmpty()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSelectionEmpty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionModel#getValueIsAdjusting() public
-     * abstract boolean javax.swing.ListSelectionModel.getValueIsAdjusting()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ListSelectionModel#getValueIsAdjusting()
+     * public abstract boolean javax.swing.ListSelectionModel.getValueIsAdjusting()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -456,8 +444,31 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ListSelectionModel#isSelectionEmpty()
+     * public abstract boolean javax.swing.ListSelectionModel.isSelectionEmpty()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSelectionEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ListSelectionModel#removeListSelectionListener(ListSelectionListener) public abstract void
+     * {@link javax.swing.ListSelectionModel#removeListSelectionListener(javax.swing.event.ListSelectionListener) public
+     * abstract void
      * javax.swing.ListSelectionModel.removeListSelectionListener(javax.swing.event.ListSelectionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

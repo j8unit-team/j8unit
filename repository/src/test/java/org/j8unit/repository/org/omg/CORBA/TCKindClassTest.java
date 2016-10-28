@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.TCKindClassTests<TCKind> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TCKind#from_int(int) public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TCKind#from_int(int) public static
      * org.omg.CORBA.TCKind org.omg.CORBA.TCKind.from_int(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,7 +36,7 @@ implements org.j8unit.repository.org.omg.CORBA.TCKindClassTests<TCKind> {
     @Category(Draft.class)
     public void test_from_int_int()
     throws Exception {
-        // write some test for {@link TCKind#from_int(int)}
+        // write some test for {@link org.omg.CORBA.TCKind#from_int(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TCKind]

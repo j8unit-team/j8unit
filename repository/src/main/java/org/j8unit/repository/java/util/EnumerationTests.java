@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Enumeration#hasMoreElements() public abstract
-     * boolean java.util.Enumeration.hasMoreElements()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Enumeration#hasMoreElements() public
+     * abstract boolean java.util.Enumeration.hasMoreElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Enumeration#nextElement() public abstract E
-     * java.util.Enumeration.nextElement()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Enumeration#nextElement() public abstract
+     * E java.util.Enumeration.nextElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

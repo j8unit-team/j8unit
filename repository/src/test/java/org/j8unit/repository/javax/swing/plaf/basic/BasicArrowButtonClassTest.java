@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Color;
 import javax.swing.plaf.basic.BasicArrowButton;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BasicArrowButton#BasicArrowButton(int, Color, Color, Color, Color) public
-     * javax.swing.plaf.basic.BasicArrowButton(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
+     * {@link javax.swing.plaf.basic.BasicArrowButton#BasicArrowButton(int, java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
+     * public javax.swing.plaf.basic.BasicArrowButton(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,12 +39,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BasicArrowButton sut = null; // = new BasicArrowButton(int, Color, Color, Color, Color);
+        final BasicArrowButton sut = null; // = new BasicArrowButton(int, java.awt.Color, java.awt.Color,
+                                           // java.awt.Color, java.awt.Color);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicArrowButton#BasicArrowButton(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicArrowButton#BasicArrowButton(int) public
      * javax.swing.plaf.basic.BasicArrowButton(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

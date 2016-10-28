@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.lang.model.element;
 
-import javax.lang.model.element.Element;
 import javax.lang.model.element.UnknownElementException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.lang.model.element.UnknownElementExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownElementException#UnknownElementException(Element, Object) public
-     * javax.lang.model.element.UnknownElementException(javax.lang.model.element.Element,java.lang.Object)}.
+     * {@link javax.lang.model.element.UnknownElementException#UnknownElementException(javax.lang.model.element.Element, Object)
+     * public javax.lang.model.element.UnknownElementException(javax.lang.model.element.Element,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.javax.lang.model.element.UnknownElementExceptio
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UnknownElementException sut = null; // = new UnknownElementException(Element, Object);
+        final UnknownElementException sut = null; // = new UnknownElementException(javax.lang.model.element.Element,
+                                                  // Object);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.UnknownElementException]

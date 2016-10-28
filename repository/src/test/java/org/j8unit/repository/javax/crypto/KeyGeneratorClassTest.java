@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.security.Provider;
 import javax.crypto.KeyGenerator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,9 +21,9 @@ implements org.j8unit.repository.javax.crypto.KeyGeneratorClassTests<KeyGenerato
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#getInstance(String, Provider) public
-     * static final javax.crypto.KeyGenerator
-     * javax.crypto.KeyGenerator.getInstance(java.lang.String,java.security.Provider) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.KeyGenerator#getInstance(String, java.security.Provider) public static final
+     * javax.crypto.KeyGenerator javax.crypto.KeyGenerator.getInstance(java.lang.String,java.security.Provider) throws
      * java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,14 +38,15 @@ implements org.j8unit.repository.javax.crypto.KeyGeneratorClassTests<KeyGenerato
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link KeyGenerator#getInstance(String, Provider)}
+        // write some test for {@link javax.crypto.KeyGenerator#getInstance(String, java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#getInstance(String, String) public
-     * static final javax.crypto.KeyGenerator javax.crypto.KeyGenerator.getInstance(java.lang.String,java.lang.String)
-     * throws java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.KeyGenerator#getInstance(String, String) public static final javax.crypto.KeyGenerator
+     * javax.crypto.KeyGenerator.getInstance(java.lang.String,java.lang.String) throws
+     * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,13 +60,13 @@ implements org.j8unit.repository.javax.crypto.KeyGeneratorClassTests<KeyGenerato
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link KeyGenerator#getInstance(String, String)}
+        // write some test for {@link javax.crypto.KeyGenerator#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#getInstance(String) public static final
-     * javax.crypto.KeyGenerator javax.crypto.KeyGenerator.getInstance(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyGenerator#getInstance(String) public
+     * static final javax.crypto.KeyGenerator javax.crypto.KeyGenerator.getInstance(java.lang.String) throws
      * java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +81,7 @@ implements org.j8unit.repository.javax.crypto.KeyGeneratorClassTests<KeyGenerato
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link KeyGenerator#getInstance(String)}
+        // write some test for {@link javax.crypto.KeyGenerator#getInstance(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.KeyGenerator]

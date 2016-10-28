@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig.keyinfo;
 
-import javax.xml.crypto.XMLCryptoContext;
-import javax.xml.crypto.XMLStructure;
 import javax.xml.crypto.dsig.keyinfo.KeyInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfo#getId() public abstract java.lang.String
-     * javax.xml.crypto.dsig.keyinfo.KeyInfo.getId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.keyinfo.KeyInfo#getId() public
+     * abstract java.lang.String javax.xml.crypto.dsig.keyinfo.KeyInfo.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +56,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfo#marshal(XMLStructure, XMLCryptoContext)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfo#marshal(javax.xml.crypto.XMLStructure, javax.xml.crypto.XMLCryptoContext)
      * public abstract void
      * javax.xml.crypto.dsig.keyinfo.KeyInfo.marshal(javax.xml.crypto.XMLStructure,javax.xml.crypto.XMLCryptoContext)
      * throws javax.xml.crypto.MarshalException}.
@@ -82,8 +81,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfo#getContent() public abstract java.util.List
-     * javax.xml.crypto.dsig.keyinfo.KeyInfo.getContent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.keyinfo.KeyInfo#getContent()
+     * public abstract java.util.List javax.xml.crypto.dsig.keyinfo.KeyInfo.getContent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

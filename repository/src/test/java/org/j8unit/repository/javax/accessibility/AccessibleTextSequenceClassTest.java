@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.accessibility.AccessibleTextSequenceClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccessibleTextSequence#AccessibleTextSequence(int, int, String) public
+     * {@link javax.accessibility.AccessibleTextSequence#AccessibleTextSequence(int, int, String) public
      * javax.accessibility.AccessibleTextSequence(int,int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

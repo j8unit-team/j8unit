@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.synth.SynthSliderUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthSliderUIClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.synth.SynthSliderUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +37,7 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthSliderUIClassTests<
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link SynthSliderUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.synth.SynthSliderUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthSliderUI]

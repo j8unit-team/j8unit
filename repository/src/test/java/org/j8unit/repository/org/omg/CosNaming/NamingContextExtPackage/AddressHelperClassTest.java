@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
 
 @RunWith(J8Unit4.class)
@@ -25,7 +22,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Addre
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AddressHelper#AddressHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#AddressHelper() public
      * org.omg.CosNaming.NamingContextExtPackage.AddressHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +43,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Addre
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AddressHelper#type() public static synchronized
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#type() public static synchronized
      * org.omg.CORBA.TypeCode org.omg.CosNaming.NamingContextExtPackage.AddressHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,13 +59,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Addre
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link AddressHelper#type()}
+        // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AddressHelper#write(OutputStream, String) public
-     * static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#write(org.omg.CORBA.portable.OutputStream, String)
+     * public static void
      * org.omg.CosNaming.NamingContextExtPackage.AddressHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}
      * .
      *
@@ -82,13 +82,15 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Addre
     @Category(Draft.class)
     public void test_write_OutputStream_String()
     throws Exception {
-        // write some test for {@link AddressHelper#write(OutputStream, String)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.AddressHelper#write(org.omg.CORBA.portable.OutputStream, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AddressHelper#insert(Any, String) public static void
-     * org.omg.CosNaming.NamingContextExtPackage.AddressHelper.insert(org.omg.CORBA.Any,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#insert(org.omg.CORBA.Any, String) public static
+     * void org.omg.CosNaming.NamingContextExtPackage.AddressHelper.insert(org.omg.CORBA.Any,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,12 +104,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Addre
     @Category(Draft.class)
     public void test_insert_Any_String()
     throws Exception {
-        // write some test for {@link AddressHelper#insert(Any, String)}
+        // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#insert(org.omg.CORBA.Any,
+        // String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AddressHelper#id() public static java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#id() public static java.lang.String
      * org.omg.CosNaming.NamingContextExtPackage.AddressHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,13 +126,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Addre
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link AddressHelper#id()}
+        // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AddressHelper#read(InputStream) public static
-     * java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static java.lang.String
      * org.omg.CosNaming.NamingContextExtPackage.AddressHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -143,12 +148,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Addre
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link AddressHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.AddressHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AddressHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.AddressHelper#extract(org.omg.CORBA.Any) public static
      * java.lang.String org.omg.CosNaming.NamingContextExtPackage.AddressHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -163,7 +170,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Addre
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link AddressHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.AddressHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.AddressHelper]

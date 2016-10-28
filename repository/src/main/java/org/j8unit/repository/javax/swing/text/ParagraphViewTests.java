@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
-import javax.swing.event.DocumentEvent;
 import javax.swing.text.ParagraphView;
-import javax.swing.text.ViewFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +34,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#getBreakWeight(int, float) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.ParagraphView#getBreakWeight(int, float) public int
      * javax.swing.text.ParagraphView.getBreakWeight(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +57,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.ParagraphView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.ParagraphView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +81,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#getFlowSpan(int) public int
-     * javax.swing.text.ParagraphView.getFlowSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ParagraphView#getFlowSpan(int)
+     * public int javax.swing.text.ParagraphView.getFlowSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,7 +104,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#nextTabStop(float, int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.ParagraphView#nextTabStop(float, int) public float
      * javax.swing.text.ParagraphView.nextTabStop(float,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,7 +129,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ParagraphView#changedUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.ParagraphView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.ParagraphView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -154,8 +154,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#getFlowStart(int) public int
-     * javax.swing.text.ParagraphView.getFlowStart(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ParagraphView#getFlowStart(int)
+     * public int javax.swing.text.ParagraphView.getFlowStart(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +177,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#getAlignment(int) public float
-     * javax.swing.text.ParagraphView.getAlignment(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ParagraphView#getAlignment(int)
+     * public float javax.swing.text.ParagraphView.getAlignment(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +200,9 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#breakView(int, float, Shape) public
-     * javax.swing.text.View javax.swing.text.ParagraphView.breakView(int,float,java.awt.Shape)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.ParagraphView#breakView(int, float, java.awt.Shape) public javax.swing.text.View
+     * javax.swing.text.ParagraphView.breakView(int,float,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.swing.DefaultListModelClassTests<DefaultL
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DefaultListModel#DefaultListModel() public
-     * javax.swing.DefaultListModel()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.DefaultListModel#DefaultListModel()
+     * public javax.swing.DefaultListModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

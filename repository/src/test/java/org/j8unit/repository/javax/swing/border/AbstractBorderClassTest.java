@@ -1,9 +1,7 @@
 package org.j8unit.repository.javax.swing.border;
 
 import static org.junit.Assert.fail;
-import java.awt.Component;
 import javax.swing.border.AbstractBorder;
-import javax.swing.border.Border;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<Abs
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AbstractBorder#AbstractBorder() public
-     * javax.swing.border.AbstractBorder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.AbstractBorder#AbstractBorder() public javax.swing.border.AbstractBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +43,8 @@ implements org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<Abs
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractBorder#getInteriorRectangle(Component, Border, int, int, int, int) public static
-     * java.awt.Rectangle
+     * {@link javax.swing.border.AbstractBorder#getInteriorRectangle(java.awt.Component, javax.swing.border.Border, int, int, int, int)
+     * public static java.awt.Rectangle
      * javax.swing.border.AbstractBorder.getInteriorRectangle(java.awt.Component,javax.swing.border.Border,int,int,int,int)}
      * .
      *
@@ -62,7 +60,8 @@ implements org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<Abs
     @Category(Draft.class)
     public void test_getInteriorRectangle_Component_Border_int_int_int_int()
     throws Exception {
-        // write some test for {@link AbstractBorder#getInteriorRectangle(Component, Border, int, int, int, int)}
+        // write some test for {@link javax.swing.border.AbstractBorder#getInteriorRectangle(java.awt.Component,
+        // javax.swing.border.Border, int, int, int, int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.AbstractBorder]

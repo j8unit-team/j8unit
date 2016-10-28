@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECParameterSpec#getCurve() public
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECParameterSpec#getCurve() public
      * java.security.spec.EllipticCurve java.security.spec.ECParameterSpec.getCurve()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECParameterSpec#getOrder() public
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECParameterSpec#getOrder() public
      * java.math.BigInteger java.security.spec.ECParameterSpec.getOrder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECParameterSpec#getCofactor() public int
-     * java.security.spec.ECParameterSpec.getCofactor()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECParameterSpec#getCofactor()
+     * public int java.security.spec.ECParameterSpec.getCofactor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECParameterSpec#getGenerator() public
-     * java.security.spec.ECPoint java.security.spec.ECParameterSpec.getGenerator()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECParameterSpec#getGenerator()
+     * public java.security.spec.ECPoint java.security.spec.ECParameterSpec.getGenerator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

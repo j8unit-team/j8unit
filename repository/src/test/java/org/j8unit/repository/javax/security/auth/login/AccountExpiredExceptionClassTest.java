@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.login.AccountExpiredExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccountExpiredException#AccountExpiredException() public
+     * {@link javax.security.auth.login.AccountExpiredException#AccountExpiredException() public
      * javax.security.auth.login.AccountExpiredException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.security.auth.login.AccountExpiredExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccountExpiredException#AccountExpiredException(String) public
+     * {@link javax.security.auth.login.AccountExpiredException#AccountExpiredException(String) public
      * javax.security.auth.login.AccountExpiredException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

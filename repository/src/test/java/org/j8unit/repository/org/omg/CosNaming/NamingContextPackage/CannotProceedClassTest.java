@@ -6,8 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NameComponent;
-import org.omg.CosNaming.NamingContext;
 import org.omg.CosNaming.NamingContextPackage.CannotProceed;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CannotProceed#CannotProceed() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceed#CannotProceed() public
      * org.omg.CosNaming.NamingContextPackage.CannotProceed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +44,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CannotProceed#CannotProceed(NamingContext, NameComponent[]) public
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceed#CannotProceed(org.omg.CosNaming.NamingContext, org.omg.CosNaming.NameComponent[])
+     * public
      * org.omg.CosNaming.NamingContextPackage.CannotProceed(org.omg.CosNaming.NamingContext,org.omg.CosNaming.NameComponent[])}
      * .
      *
@@ -63,13 +63,15 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CannotProceed sut = null; // = new CannotProceed(NamingContext, NameComponent[]);
+        final CannotProceed sut = null; // = new CannotProceed(org.omg.CosNaming.NamingContext,
+                                        // org.omg.CosNaming.NameComponent[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CannotProceed#CannotProceed(String, NamingContext, NameComponent[]) public
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceed#CannotProceed(String, org.omg.CosNaming.NamingContext, org.omg.CosNaming.NameComponent[])
+     * public
      * org.omg.CosNaming.NamingContextPackage.CannotProceed(java.lang.String,org.omg.CosNaming.NamingContext,org.omg.CosNaming.NameComponent[])}
      * .
      *
@@ -87,7 +89,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CannotProceed sut = null; // = new CannotProceed(String, NamingContext, NameComponent[]);
+        final CannotProceed sut = null; // = new CannotProceed(String, org.omg.CosNaming.NamingContext,
+                                        // org.omg.CosNaming.NameComponent[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceed]

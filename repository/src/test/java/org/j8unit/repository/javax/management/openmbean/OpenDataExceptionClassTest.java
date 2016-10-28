@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.management.openmbean.OpenDataExceptionCla
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OpenDataException#OpenDataException() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.openmbean.OpenDataException#OpenDataException() public
      * javax.management.openmbean.OpenDataException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +43,9 @@ implements org.j8unit.repository.javax.management.openmbean.OpenDataExceptionCla
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OpenDataException#OpenDataException(String)
-     * public javax.management.openmbean.OpenDataException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.openmbean.OpenDataException#OpenDataException(String) public
+     * javax.management.openmbean.OpenDataException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

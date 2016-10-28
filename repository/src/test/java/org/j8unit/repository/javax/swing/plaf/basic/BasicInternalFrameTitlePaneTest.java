@@ -43,32 +43,62 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
     }
 
     @RunWith(J8Unit4.class)
-    public static class SizeActionTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SizeActionTests<SizeAction> {
+    public static class MaximizeActionTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MaximizeActionTests<MaximizeAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction]
 
         @Override
-        public SizeAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction], j8unit does not support a generic way to provide instances.");
+        public MaximizeAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests<PropertyChangeHandler> {
+    public static class RestoreActionTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.RestoreActionTests<RestoreAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction]
 
         @Override
-        public PropertyChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        public RestoreAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class SystemMenuBarTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SystemMenuBarTests<SystemMenuBar> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar]
+
+        @Override
+        public SystemMenuBar createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TitlePaneLayoutTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.TitlePaneLayoutTests<TitlePaneLayout> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout]
+
+        @Override
+        public TitlePaneLayout createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout]
 
     }
 
@@ -103,62 +133,32 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
     }
 
     @RunWith(J8Unit4.class)
-    public static class SystemMenuBarTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SystemMenuBarTests<SystemMenuBar> {
+    public static class PropertyChangeHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests<PropertyChangeHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler]
 
         @Override
-        public SystemMenuBar createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar], j8unit does not support a generic way to provide instances.");
+        public PropertyChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class RestoreActionTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.RestoreActionTests<RestoreAction> {
+    public static class SizeActionTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SizeActionTests<SizeAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction]
-
-        @Override
-        public RestoreAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class MaximizeActionTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MaximizeActionTests<MaximizeAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction]
 
         @Override
-        public MaximizeAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction], j8unit does not support a generic way to provide instances.");
+        public SizeAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TitlePaneLayoutTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.TitlePaneLayoutTests<TitlePaneLayout> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout]
-
-        @Override
-        public TitlePaneLayout createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction]
 
     }
 

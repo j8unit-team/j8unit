@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.AccessControlException;
-import java.security.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.security.AccessControlExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccessControlException#AccessControlException(String) public
+     * {@link java.security.AccessControlException#AccessControlException(String) public
      * java.security.AccessControlException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,7 @@ implements org.j8unit.repository.java.security.AccessControlExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccessControlException#AccessControlException(String, Permission) public
+     * {@link java.security.AccessControlException#AccessControlException(String, java.security.Permission) public
      * java.security.AccessControlException(java.lang.String,java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.security.AccessControlExceptionClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AccessControlException sut = null; // = new AccessControlException(String, Permission);
+        final AccessControlException sut = null; // = new AccessControlException(String, java.security.Permission);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AccessControlException]

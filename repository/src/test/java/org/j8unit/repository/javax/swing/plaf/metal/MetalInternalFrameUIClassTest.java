@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import javax.swing.JComponent;
-import javax.swing.JInternalFrame;
 import javax.swing.plaf.metal.MetalInternalFrameUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalInternalFrameUIClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MetalInternalFrameUI#MetalInternalFrameUI(JInternalFrame) public
+     * {@link javax.swing.plaf.metal.MetalInternalFrameUI#MetalInternalFrameUI(javax.swing.JInternalFrame) public
      * javax.swing.plaf.metal.MetalInternalFrameUI(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,14 +39,14 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalInternalFrameUIClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MetalInternalFrameUI sut = null; // = new MetalInternalFrameUI(JInternalFrame);
+        final MetalInternalFrameUI sut = null; // = new MetalInternalFrameUI(javax.swing.JInternalFrame);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalInternalFrameUI#createUI(JComponent) public
-     * static javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalInternalFrameUI.createUI(javax.swing.JComponent)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalInternalFrameUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalInternalFrameUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +60,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalInternalFrameUIClas
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link MetalInternalFrameUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.metal.MetalInternalFrameUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalInternalFrameUI]

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
-import java.net.URI;
 import java.security.DomainLoadStoreParameter;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.security.DomainLoadStoreParameterClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DomainLoadStoreParameter#DomainLoadStoreParameter(URI, Map) public
+     * {@link java.security.DomainLoadStoreParameter#DomainLoadStoreParameter(java.net.URI, java.util.Map) public
      * java.security.DomainLoadStoreParameter(java.net.URI,java.util.Map<java.lang.String,
      * java.security.KeyStore$ProtectionParameter>)}.
      *
@@ -42,7 +40,7 @@ implements org.j8unit.repository.java.security.DomainLoadStoreParameterClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DomainLoadStoreParameter sut = null; // = new DomainLoadStoreParameter(URI, Map);
+        final DomainLoadStoreParameter sut = null; // = new DomainLoadStoreParameter(java.net.URI, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.DomainLoadStoreParameter]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.IllformedLocaleExceptionClassTests<Il
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllformedLocaleException#IllformedLocaleException(String, int) public
+     * {@link java.util.IllformedLocaleException#IllformedLocaleException(String, int) public
      * java.util.IllformedLocaleException(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.IllformedLocaleExceptionClassTests<Il
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllformedLocaleException#IllformedLocaleException(String) public
+     * {@link java.util.IllformedLocaleException#IllformedLocaleException(String) public
      * java.util.IllformedLocaleException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,8 @@ implements org.j8unit.repository.java.util.IllformedLocaleExceptionClassTests<Il
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllformedLocaleException#IllformedLocaleException() public java.util.IllformedLocaleException()}.
+     * {@link java.util.IllformedLocaleException#IllformedLocaleException() public java.util.IllformedLocaleException()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.image.RGBImageFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GrayFilter#filterRGB(int, int, int) public int
-     * javax.swing.GrayFilter.filterRGB(int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GrayFilter#filterRGB(int, int, int)
+     * public int javax.swing.GrayFilter.filterRGB(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

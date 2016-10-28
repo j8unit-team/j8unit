@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.JFormattedTextField;
-import javax.swing.JFormattedTextField.AbstractFormatter;
 import javax.swing.text.DefaultFormatterFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultFormatterFactory#setDisplayFormatter(AbstractFormatter) public void
+     * {@link javax.swing.text.DefaultFormatterFactory#setDisplayFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
+     * public void
      * javax.swing.text.DefaultFormatterFactory.setDisplayFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultFormatterFactory#setNullFormatter(AbstractFormatter) public void
+     * {@link javax.swing.text.DefaultFormatterFactory#setNullFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
+     * public void
      * javax.swing.text.DefaultFormatterFactory.setNullFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +83,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultFormatterFactory#setEditFormatter(AbstractFormatter) public void
+     * {@link javax.swing.text.DefaultFormatterFactory#setEditFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
+     * public void
      * javax.swing.text.DefaultFormatterFactory.setEditFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +107,54 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultFormatterFactory#getFormatter(JFormattedTextField) public
+     * {@link javax.swing.text.DefaultFormatterFactory#getNullFormatter() public
+     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getNullFormatter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNullFormatter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatterFactory#getDisplayFormatter() public
+     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getDisplayFormatter()}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisplayFormatter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatterFactory#getFormatter(javax.swing.JFormattedTextField) public
      * javax.swing.JFormattedTextField$AbstractFormatter
      * javax.swing.text.DefaultFormatterFactory.getFormatter(javax.swing.JFormattedTextField)}.
      *
@@ -130,52 +178,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatterFactory#getNullFormatter() public
-     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getNullFormatter()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNullFormatter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatterFactory#getDisplayFormatter() public
-     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getDisplayFormatter()}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisplayFormatter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatterFactory#getEditFormatter() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatterFactory#getEditFormatter() public
      * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getEditFormatter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +202,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultFormatterFactory#setDefaultFormatter(AbstractFormatter) public void
+     * {@link javax.swing.text.DefaultFormatterFactory#setDefaultFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
+     * public void
      * javax.swing.text.DefaultFormatterFactory.setDefaultFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,7 +225,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatterFactory#getDefaultFormatter() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatterFactory#getDefaultFormatter() public
      * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getDefaultFormatter()}
      * .
      *

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEditEvent#getEdit() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.UndoableEditEvent#getEdit() public
      * javax.swing.undo.UndoableEdit javax.swing.event.UndoableEditEvent.getEdit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

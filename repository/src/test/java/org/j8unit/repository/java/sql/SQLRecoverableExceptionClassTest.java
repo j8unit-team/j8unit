@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.sql.SQLRecoverableExceptionClassTests<SQLR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLRecoverableException#SQLRecoverableException(Throwable) public
+     * {@link java.sql.SQLRecoverableException#SQLRecoverableException(Throwable) public
      * java.sql.SQLRecoverableException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.sql.SQLRecoverableExceptionClassTests<SQLR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLRecoverableException#SQLRecoverableException(String, Throwable) public
+     * {@link java.sql.SQLRecoverableException#SQLRecoverableException(String, Throwable) public
      * java.sql.SQLRecoverableException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.sql.SQLRecoverableExceptionClassTests<SQLR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLRecoverableException#SQLRecoverableException(String, String, Throwable) public
+     * {@link java.sql.SQLRecoverableException#SQLRecoverableException(String, String, Throwable) public
      * java.sql.SQLRecoverableException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.java.sql.SQLRecoverableExceptionClassTests<SQLR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLRecoverableException#SQLRecoverableException(String, String, int, Throwable) public
+     * {@link java.sql.SQLRecoverableException#SQLRecoverableException(String, String, int, Throwable) public
      * java.sql.SQLRecoverableException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -114,7 +114,7 @@ implements org.j8unit.repository.java.sql.SQLRecoverableExceptionClassTests<SQLR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLRecoverableException#SQLRecoverableException() public java.sql.SQLRecoverableException()}.
+     * {@link java.sql.SQLRecoverableException#SQLRecoverableException() public java.sql.SQLRecoverableException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,7 +135,7 @@ implements org.j8unit.repository.java.sql.SQLRecoverableExceptionClassTests<SQLR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLRecoverableException#SQLRecoverableException(String) public
+     * {@link java.sql.SQLRecoverableException#SQLRecoverableException(String) public
      * java.sql.SQLRecoverableException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -158,7 +158,7 @@ implements org.j8unit.repository.java.sql.SQLRecoverableExceptionClassTests<SQLR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLRecoverableException#SQLRecoverableException(String, String) public
+     * {@link java.sql.SQLRecoverableException#SQLRecoverableException(String, String) public
      * java.sql.SQLRecoverableException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -181,7 +181,7 @@ implements org.j8unit.repository.java.sql.SQLRecoverableExceptionClassTests<SQLR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLRecoverableException#SQLRecoverableException(String, String, int) public
+     * {@link java.sql.SQLRecoverableException#SQLRecoverableException(String, String, int) public
      * java.sql.SQLRecoverableException(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

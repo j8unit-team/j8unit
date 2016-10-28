@@ -23,7 +23,7 @@ implements org.j8unit.repository.javax.swing.LayoutStyleClassTests<LayoutStyle> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LayoutStyle#LayoutStyle() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.LayoutStyle#LayoutStyle() public
      * javax.swing.LayoutStyle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,7 @@ implements org.j8unit.repository.javax.swing.LayoutStyleClassTests<LayoutStyle> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutStyle#getInstance() public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.LayoutStyle#getInstance() public static
      * javax.swing.LayoutStyle javax.swing.LayoutStyle.getInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,13 +58,14 @@ implements org.j8unit.repository.javax.swing.LayoutStyleClassTests<LayoutStyle> 
     @Category(Draft.class)
     public void test_getInstance()
     throws Exception {
-        // write some test for {@link LayoutStyle#getInstance()}
+        // write some test for {@link javax.swing.LayoutStyle#getInstance()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutStyle#setInstance(LayoutStyle) public static
-     * void javax.swing.LayoutStyle.setInstance(javax.swing.LayoutStyle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.LayoutStyle#setInstance(javax.swing.LayoutStyle) public static void
+     * javax.swing.LayoutStyle.setInstance(javax.swing.LayoutStyle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +79,7 @@ implements org.j8unit.repository.javax.swing.LayoutStyleClassTests<LayoutStyle> 
     @Category(Draft.class)
     public void test_setInstance_LayoutStyle()
     throws Exception {
-        // write some test for {@link LayoutStyle#setInstance(LayoutStyle)}
+        // write some test for {@link javax.swing.LayoutStyle#setInstance(javax.swing.LayoutStyle)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.LayoutStyle]
@@ -96,7 +97,8 @@ implements org.j8unit.repository.javax.swing.LayoutStyleClassTests<LayoutStyle> 
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ComponentPlacement#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.LayoutStyle.ComponentPlacement#values() public static
          * javax.swing.LayoutStyle$ComponentPlacement[] javax.swing.LayoutStyle$ComponentPlacement.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,12 +113,13 @@ implements org.j8unit.repository.javax.swing.LayoutStyleClassTests<LayoutStyle> 
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link ComponentPlacement#values()}
+            // write some test for {@link javax.swing.LayoutStyle.ComponentPlacement#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ComponentPlacement#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.LayoutStyle.ComponentPlacement#valueOf(String) public static
          * javax.swing.LayoutStyle$ComponentPlacement
          * javax.swing.LayoutStyle$ComponentPlacement.valueOf(java.lang.String)}.
          *
@@ -132,7 +135,7 @@ implements org.j8unit.repository.javax.swing.LayoutStyleClassTests<LayoutStyle> 
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link ComponentPlacement#valueOf(String)}
+            // write some test for {@link javax.swing.LayoutStyle.ComponentPlacement#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.LayoutStyle$ComponentPlacement]

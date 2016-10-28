@@ -1,15 +1,10 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.GroupLayout.Group;
 import javax.swing.GroupLayout.ParallelGroup;
 import javax.swing.GroupLayout.SequentialGroup;
-import javax.swing.JComponent;
-import javax.swing.LayoutStyle;
-import javax.swing.LayoutStyle.ComponentPlacement;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -43,8 +38,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#maximumLayoutSize(Container) public
-     * java.awt.Dimension javax.swing.GroupLayout.maximumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#maximumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.GroupLayout.maximumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,7 +62,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#layoutContainer(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#layoutContainer(java.awt.Container) public void
      * javax.swing.GroupLayout.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,8 +86,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#toString() public java.lang.String
-     * javax.swing.GroupLayout.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout#toString() public
+     * java.lang.String javax.swing.GroupLayout.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -112,7 +109,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#setVerticalGroup(Group) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#setVerticalGroup(javax.swing.GroupLayout.Group) public void
      * javax.swing.GroupLayout.setVerticalGroup(javax.swing.GroupLayout$Group)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,7 +132,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#invalidateLayout(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#invalidateLayout(java.awt.Container) public void
      * javax.swing.GroupLayout.invalidateLayout(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -157,8 +156,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#getLayoutAlignmentX(Container) public
-     * float javax.swing.GroupLayout.getLayoutAlignmentX(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#getLayoutAlignmentX(java.awt.Container) public float
+     * javax.swing.GroupLayout.getLayoutAlignmentX(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,29 +180,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#linkSize(int, Component...) public void
-     * javax.swing.GroupLayout.linkSize(int,java.awt.Component...)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_linkSize_int_ComponentArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#linkSize(Component...) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#linkSize(java.awt.Component...) public void
      * javax.swing.GroupLayout.linkSize(java.awt.Component...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -224,8 +203,32 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#getLayoutAlignmentY(Container) public
-     * float javax.swing.GroupLayout.getLayoutAlignmentY(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#linkSize(int, java.awt.Component...) public void
+     * javax.swing.GroupLayout.linkSize(int,java.awt.Component...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_linkSize_int_ComponentArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#getLayoutAlignmentY(java.awt.Container) public float
+     * javax.swing.GroupLayout.getLayoutAlignmentY(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,8 +250,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#getAutoCreateGaps() public boolean
-     * javax.swing.GroupLayout.getAutoCreateGaps()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout#getAutoCreateGaps() public
+     * boolean javax.swing.GroupLayout.getAutoCreateGaps()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,7 +272,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#getLayoutStyle() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout#getLayoutStyle() public
      * javax.swing.LayoutStyle javax.swing.GroupLayout.getLayoutStyle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -291,8 +294,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#createBaselineGroup(boolean, boolean)
-     * public javax.swing.GroupLayout$ParallelGroup javax.swing.GroupLayout.createBaselineGroup(boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#createBaselineGroup(boolean, boolean) public javax.swing.GroupLayout$ParallelGroup
+     * javax.swing.GroupLayout.createBaselineGroup(boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -313,8 +317,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#addLayoutComponent(Component, Object)
-     * public void javax.swing.GroupLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#addLayoutComponent(java.awt.Component, Object) public void
+     * javax.swing.GroupLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -336,8 +341,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#addLayoutComponent(String, Component)
-     * public void javax.swing.GroupLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#addLayoutComponent(String, java.awt.Component) public void
+     * javax.swing.GroupLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -359,7 +365,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#setLayoutStyle(LayoutStyle) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#setLayoutStyle(javax.swing.LayoutStyle) public void
      * javax.swing.GroupLayout.setLayoutStyle(javax.swing.LayoutStyle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -381,8 +388,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#setAutoCreateContainerGaps(boolean)
-     * public void javax.swing.GroupLayout.setAutoCreateContainerGaps(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#setAutoCreateContainerGaps(boolean) public void
+     * javax.swing.GroupLayout.setAutoCreateContainerGaps(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -403,7 +411,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#setHorizontalGroup(Group) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#setHorizontalGroup(javax.swing.GroupLayout.Group) public void
      * javax.swing.GroupLayout.setHorizontalGroup(javax.swing.GroupLayout$Group)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -425,8 +434,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#minimumLayoutSize(Container) public
-     * java.awt.Dimension javax.swing.GroupLayout.minimumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.GroupLayout.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -448,8 +458,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#createSequentialGroup() public
-     * javax.swing.GroupLayout$SequentialGroup javax.swing.GroupLayout.createSequentialGroup()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout#createSequentialGroup()
+     * public javax.swing.GroupLayout$SequentialGroup javax.swing.GroupLayout.createSequentialGroup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -470,8 +480,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#replace(Component, Component) public
-     * void javax.swing.GroupLayout.replace(java.awt.Component,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#replace(java.awt.Component, java.awt.Component) public void
+     * javax.swing.GroupLayout.replace(java.awt.Component,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -492,30 +503,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#setHonorsVisibility(boolean) public void
-     * javax.swing.GroupLayout.setHonorsVisibility(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHonorsVisibility_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#setHonorsVisibility(Component, Boolean)
-     * public void javax.swing.GroupLayout.setHonorsVisibility(java.awt.Component,java.lang.Boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#setHonorsVisibility(java.awt.Component, Boolean) public void
+     * javax.swing.GroupLayout.setHonorsVisibility(java.awt.Component,java.lang.Boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -536,8 +526,30 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#getHonorsVisibility() public boolean
-     * javax.swing.GroupLayout.getHonorsVisibility()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout#setHonorsVisibility(boolean)
+     * public void javax.swing.GroupLayout.setHonorsVisibility(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHonorsVisibility_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout#getHonorsVisibility() public
+     * boolean javax.swing.GroupLayout.getHonorsVisibility()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -558,8 +570,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#setAutoCreateGaps(boolean) public void
-     * javax.swing.GroupLayout.setAutoCreateGaps(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout#setAutoCreateGaps(boolean)
+     * public void javax.swing.GroupLayout.setAutoCreateGaps(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -580,8 +592,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#preferredLayoutSize(Container) public
-     * java.awt.Dimension javax.swing.GroupLayout.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.GroupLayout.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -603,8 +616,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#getAutoCreateContainerGaps() public
-     * boolean javax.swing.GroupLayout.getAutoCreateContainerGaps()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout#getAutoCreateContainerGaps()
+     * public boolean javax.swing.GroupLayout.getAutoCreateContainerGaps()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -625,8 +638,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#removeLayoutComponent(Component) public
-     * void javax.swing.GroupLayout.removeLayoutComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#removeLayoutComponent(java.awt.Component) public void
+     * javax.swing.GroupLayout.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -648,9 +662,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#createParallelGroup(Alignment, boolean)
-     * public javax.swing.GroupLayout$ParallelGroup
-     * javax.swing.GroupLayout.createParallelGroup(javax.swing.GroupLayout$Alignment,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout#createParallelGroup() public
+     * javax.swing.GroupLayout$ParallelGroup javax.swing.GroupLayout.createParallelGroup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -662,7 +675,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createParallelGroup_Alignment_boolean()
+    public default void test_createParallelGroup()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -671,7 +684,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#createParallelGroup(Alignment) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#createParallelGroup(javax.swing.GroupLayout.Alignment) public
      * javax.swing.GroupLayout$ParallelGroup
      * javax.swing.GroupLayout.createParallelGroup(javax.swing.GroupLayout$Alignment)}.
      *
@@ -694,8 +708,10 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GroupLayout#createParallelGroup() public
-     * javax.swing.GroupLayout$ParallelGroup javax.swing.GroupLayout.createParallelGroup()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GroupLayout#createParallelGroup(javax.swing.GroupLayout.Alignment, boolean) public
+     * javax.swing.GroupLayout$ParallelGroup
+     * javax.swing.GroupLayout.createParallelGroup(javax.swing.GroupLayout$Alignment,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -707,7 +723,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createParallelGroup()
+    public default void test_createParallelGroup_Alignment_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -715,364 +731,6 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout]
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link SequentialGroup public class javax.swing.GroupLayout$SequentialGroup}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.GroupLayoutClassTests.SequentialGroupClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface SequentialGroupTests<SUT extends SequentialGroup>
-    extends org.j8unit.repository.javax.swing.GroupLayoutTests.GroupTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link SequentialGroup#addContainerGap(int, int) public
-         * javax.swing.GroupLayout$SequentialGroup javax.swing.GroupLayout$SequentialGroup.addContainerGap(int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addContainerGap_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link SequentialGroup#addContainerGap() public
-         * javax.swing.GroupLayout$SequentialGroup javax.swing.GroupLayout$SequentialGroup.addContainerGap()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addContainerGap()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link SequentialGroup#addGroup(Group) public
-         * javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addGroup(javax.swing.GroupLayout$Group)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_addGroup_Group()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link SequentialGroup#addGroup(boolean, Group) public
-         * javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addGroup(boolean,javax.swing.GroupLayout$Group)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addGroup_boolean_Group()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link SequentialGroup#addGap(int, int, int) public
-         * javax.swing.GroupLayout$SequentialGroup javax.swing.GroupLayout$SequentialGroup.addGap(int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_addGap_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link SequentialGroup#addGap(int) public
-         * javax.swing.GroupLayout$SequentialGroup javax.swing.GroupLayout$SequentialGroup.addGap(int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_addGap_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link SequentialGroup#addPreferredGap(JComponent, JComponent, ComponentPlacement) public
-         * javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addPreferredGap(javax.swing.JComponent,javax.swing.JComponent,javax.swing.LayoutStyle$ComponentPlacement)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addPreferredGap_JComponent_JComponent_ComponentPlacement()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link SequentialGroup#addPreferredGap(JComponent, JComponent, ComponentPlacement, int, int) public
-         * javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addPreferredGap(javax.swing.JComponent,javax.swing.JComponent,javax.swing.LayoutStyle$ComponentPlacement,int,int)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addPreferredGap_JComponent_JComponent_ComponentPlacement_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link SequentialGroup#addPreferredGap(ComponentPlacement) public javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addPreferredGap(javax.swing.LayoutStyle$ComponentPlacement)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addPreferredGap_ComponentPlacement()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link SequentialGroup#addPreferredGap(ComponentPlacement, int, int) public
-         * javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addPreferredGap(javax.swing.LayoutStyle$ComponentPlacement,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addPreferredGap_ComponentPlacement_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link SequentialGroup#addComponent(Component, int, int, int) public javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addComponent(java.awt.Component,int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_addComponent_Component_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link SequentialGroup#addComponent(boolean, Component, int, int, int) public
-         * javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addComponent(boolean,java.awt.Component,int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addComponent_boolean_Component_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link SequentialGroup#addComponent(Component) public
-         * javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addComponent(java.awt.Component)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_addComponent_Component()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link SequentialGroup#addComponent(boolean, Component)
-         * public javax.swing.GroupLayout$SequentialGroup
-         * javax.swing.GroupLayout$SequentialGroup.addComponent(boolean,java.awt.Component)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addComponent_boolean_Component()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
-
-    }
 
     /**
      * <p>
@@ -1131,8 +789,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link ParallelGroup#addComponent(Component, Alignment, int, int, int) public
-         * javax.swing.GroupLayout$ParallelGroup
+         * {@link javax.swing.GroupLayout.ParallelGroup#addComponent(java.awt.Component, javax.swing.GroupLayout.Alignment, int, int, int)
+         * public javax.swing.GroupLayout$ParallelGroup
          * javax.swing.GroupLayout$ParallelGroup.addComponent(java.awt.Component,javax.swing.GroupLayout$Alignment,int,int,int)}
          * .
          *
@@ -1155,7 +813,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ParallelGroup#addComponent(Component, Alignment)
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.ParallelGroup#addComponent(java.awt.Component, javax.swing.GroupLayout.Alignment)
          * public javax.swing.GroupLayout$ParallelGroup
          * javax.swing.GroupLayout$ParallelGroup.addComponent(java.awt.Component,javax.swing.GroupLayout$Alignment)}.
          *
@@ -1179,7 +838,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link ParallelGroup#addComponent(Component, int, int, int) public javax.swing.GroupLayout$ParallelGroup
+         * {@link javax.swing.GroupLayout.ParallelGroup#addComponent(java.awt.Component, int, int, int) public
+         * javax.swing.GroupLayout$ParallelGroup
          * javax.swing.GroupLayout$ParallelGroup.addComponent(java.awt.Component,int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1202,7 +862,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ParallelGroup#addComponent(Component) public
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.ParallelGroup#addComponent(java.awt.Component) public
          * javax.swing.GroupLayout$ParallelGroup javax.swing.GroupLayout$ParallelGroup.addComponent(java.awt.Component)}
          * .
          *
@@ -1226,8 +887,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ParallelGroup#addGroup(Alignment, Group) public
-         * javax.swing.GroupLayout$ParallelGroup
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.ParallelGroup#addGroup(javax.swing.GroupLayout.Alignment, javax.swing.GroupLayout.Group)
+         * public javax.swing.GroupLayout$ParallelGroup
          * javax.swing.GroupLayout$ParallelGroup.addGroup(javax.swing.GroupLayout$Alignment,javax.swing.GroupLayout$Group)}
          * .
          *
@@ -1250,7 +912,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ParallelGroup#addGroup(Group) public
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.ParallelGroup#addGroup(javax.swing.GroupLayout.Group) public
          * javax.swing.GroupLayout$ParallelGroup
          * javax.swing.GroupLayout$ParallelGroup.addGroup(javax.swing.GroupLayout$Group)}.
          *
@@ -1274,8 +937,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ParallelGroup#addGap(int) public
-         * javax.swing.GroupLayout$ParallelGroup javax.swing.GroupLayout$ParallelGroup.addGap(int)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.ParallelGroup#addGap(int) public javax.swing.GroupLayout$ParallelGroup
+         * javax.swing.GroupLayout$ParallelGroup.addGap(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1297,7 +961,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ParallelGroup#addGap(int, int, int) public
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.ParallelGroup#addGap(int, int, int) public
          * javax.swing.GroupLayout$ParallelGroup javax.swing.GroupLayout$ParallelGroup.addGap(int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1319,6 +984,374 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
         }
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout$ParallelGroup]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link SequentialGroup public class javax.swing.GroupLayout$SequentialGroup}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.GroupLayoutClassTests.SequentialGroupClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface SequentialGroupTests<SUT extends SequentialGroup>
+    extends org.j8unit.repository.javax.swing.GroupLayoutTests.GroupTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addContainerGap(int, int) public
+         * javax.swing.GroupLayout$SequentialGroup javax.swing.GroupLayout$SequentialGroup.addContainerGap(int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addContainerGap_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addContainerGap() public
+         * javax.swing.GroupLayout$SequentialGroup javax.swing.GroupLayout$SequentialGroup.addContainerGap()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addContainerGap()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addGroup(javax.swing.GroupLayout.Group) public
+         * javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addGroup(javax.swing.GroupLayout$Group)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_addGroup_Group()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addGroup(boolean, javax.swing.GroupLayout.Group) public
+         * javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addGroup(boolean,javax.swing.GroupLayout$Group)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addGroup_boolean_Group()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addGap(int, int, int) public
+         * javax.swing.GroupLayout$SequentialGroup javax.swing.GroupLayout$SequentialGroup.addGap(int,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_addGap_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addGap(int) public javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addGap(int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_addGap_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addPreferredGap(javax.swing.JComponent, javax.swing.JComponent, javax.swing.LayoutStyle.ComponentPlacement)
+         * public javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addPreferredGap(javax.swing.JComponent,javax.swing.JComponent,javax.swing.LayoutStyle$ComponentPlacement)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addPreferredGap_JComponent_JComponent_ComponentPlacement()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addPreferredGap(javax.swing.JComponent, javax.swing.JComponent, javax.swing.LayoutStyle.ComponentPlacement, int, int)
+         * public javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addPreferredGap(javax.swing.JComponent,javax.swing.JComponent,javax.swing.LayoutStyle$ComponentPlacement,int,int)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addPreferredGap_JComponent_JComponent_ComponentPlacement_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement)
+         * public javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addPreferredGap(javax.swing.LayoutStyle$ComponentPlacement)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addPreferredGap_ComponentPlacement()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement, int, int)
+         * public javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addPreferredGap(javax.swing.LayoutStyle$ComponentPlacement,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addPreferredGap_ComponentPlacement_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addComponent(java.awt.Component, int, int, int) public
+         * javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addComponent(java.awt.Component,int,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_addComponent_Component_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addComponent(boolean, java.awt.Component, int, int, int)
+         * public javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addComponent(boolean,java.awt.Component,int,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addComponent_boolean_Component_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addComponent(java.awt.Component) public
+         * javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addComponent(java.awt.Component)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_addComponent_Component()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.SequentialGroup#addComponent(boolean, java.awt.Component) public
+         * javax.swing.GroupLayout$SequentialGroup
+         * javax.swing.GroupLayout$SequentialGroup.addComponent(boolean,java.awt.Component)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addComponent_boolean_Component()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
 
     }
 
@@ -1349,7 +1382,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Group#addGap(int) public
+         * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout.Group#addGap(int) public
          * javax.swing.GroupLayout$Group javax.swing.GroupLayout$Group.addGap(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1371,8 +1404,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Group#addGap(int, int, int) public
-         * javax.swing.GroupLayout$Group javax.swing.GroupLayout$Group.addGap(int,int,int)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.Group#addGap(int, int, int) public javax.swing.GroupLayout$Group
+         * javax.swing.GroupLayout$Group.addGap(int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1393,7 +1427,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Group#addGroup(Group) public
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.Group#addGroup(javax.swing.GroupLayout.Group) public
          * javax.swing.GroupLayout$Group javax.swing.GroupLayout$Group.addGroup(javax.swing.GroupLayout$Group)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1415,8 +1450,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Group#addComponent(Component) public
-         * javax.swing.GroupLayout$Group javax.swing.GroupLayout$Group.addComponent(java.awt.Component)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.Group#addComponent(java.awt.Component) public javax.swing.GroupLayout$Group
+         * javax.swing.GroupLayout$Group.addComponent(java.awt.Component)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1437,9 +1473,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Group#addComponent(Component, int, int, int)
-         * public javax.swing.GroupLayout$Group
-         * javax.swing.GroupLayout$Group.addComponent(java.awt.Component,int,int,int)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.Group#addComponent(java.awt.Component, int, int, int) public
+         * javax.swing.GroupLayout$Group javax.swing.GroupLayout$Group.addComponent(java.awt.Component,int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

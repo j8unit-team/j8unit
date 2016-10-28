@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.beans.PropertyChangeEvent;
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicRootPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicRootPaneUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicRootPaneUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicRootPaneUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicRootPaneUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicRootPaneUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicRootPaneUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicRootPaneUI#propertyChange(PropertyChangeEvent)
-     * public void javax.swing.plaf.basic.BasicRootPaneUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicRootPaneUI#propertyChange(java.beans.PropertyChangeEvent) public void
+     * javax.swing.plaf.basic.BasicRootPaneUI.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

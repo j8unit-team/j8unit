@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.management.relation.RoleStatusClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RoleStatus#RoleStatus() public
-     * javax.management.relation.RoleStatus()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.relation.RoleStatus#RoleStatus() public javax.management.relation.RoleStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.javax.management.relation.RoleStatusClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleStatus#isRoleStatus(int) public static boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleStatus#isRoleStatus(int) public static boolean
      * javax.management.relation.RoleStatus.isRoleStatus(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +58,7 @@ implements org.j8unit.repository.javax.management.relation.RoleStatusClassTests<
     @Category(Draft.class)
     public void test_isRoleStatus_int()
     throws Exception {
-        // write some test for {@link RoleStatus#isRoleStatus(int)}
+        // write some test for {@link javax.management.relation.RoleStatus#isRoleStatus(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleStatus]

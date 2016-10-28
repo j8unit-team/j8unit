@@ -1,14 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
 import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.LayoutManager;
-import java.awt.Rectangle;
-import java.beans.PropertyChangeEvent;
 import javax.swing.JLayer;
-import javax.swing.JPanel;
-import javax.swing.border.Border;
-import javax.swing.plaf.LayerUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -44,7 +37,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JLayer#getScrollableBlockIncrement(Rectangle, int, int) public int
+     * {@link javax.swing.JLayer#getScrollableBlockIncrement(java.awt.Rectangle, int, int) public int
      * javax.swing.JLayer.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +60,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#setLayout(LayoutManager) public void
-     * javax.swing.JLayer.setLayout(java.awt.LayoutManager)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#setLayout(java.awt.LayoutManager)
+     * public void javax.swing.JLayer.setLayout(java.awt.LayoutManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,7 +83,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#getLayerEventMask() public long
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#getLayerEventMask() public long
      * javax.swing.JLayer.getLayerEventMask()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,8 +105,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#paint(Graphics) public void
-     * javax.swing.JLayer.paint(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#paint(java.awt.Graphics) public
+     * void javax.swing.JLayer.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,7 +128,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#updateUI() public void
      * javax.swing.JLayer.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -158,8 +151,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#createGlassPane() public javax.swing.JPanel
-     * javax.swing.JLayer.createGlassPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#createGlassPane() public
+     * javax.swing.JPanel javax.swing.JLayer.createGlassPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,8 +173,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#remove(Component) public void
-     * javax.swing.JLayer.remove(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#remove(java.awt.Component) public
+     * void javax.swing.JLayer.remove(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -203,8 +196,9 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#getScrollableTracksViewportWidth() public
-     * boolean javax.swing.JLayer.getScrollableTracksViewportWidth()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayer#getScrollableTracksViewportWidth() public boolean
+     * javax.swing.JLayer.getScrollableTracksViewportWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -226,8 +220,9 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#propertyChange(PropertyChangeEvent) public
-     * void javax.swing.JLayer.propertyChange(java.beans.PropertyChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayer#propertyChange(java.beans.PropertyChangeEvent) public void
+     * javax.swing.JLayer.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -249,7 +244,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#getView() public V
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#getView() public V
      * javax.swing.JLayer.getView()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -271,7 +266,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#doLayout() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#doLayout() public void
      * javax.swing.JLayer.doLayout()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -294,7 +289,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#removeAll() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#removeAll() public void
      * javax.swing.JLayer.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -318,7 +313,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JLayer#getScrollableUnitIncrement(Rectangle, int, int) public int
+     * {@link javax.swing.JLayer#getScrollableUnitIncrement(java.awt.Rectangle, int, int) public int
      * javax.swing.JLayer.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -341,8 +336,9 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#paintImmediately(int, int, int, int) public
-     * void javax.swing.JLayer.paintImmediately(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayer#paintImmediately(int, int, int, int) public void
+     * javax.swing.JLayer.paintImmediately(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -364,8 +360,9 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#getPreferredScrollableViewportSize() public
-     * java.awt.Dimension javax.swing.JLayer.getPreferredScrollableViewportSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayer#getPreferredScrollableViewportSize() public java.awt.Dimension
+     * javax.swing.JLayer.getPreferredScrollableViewportSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -387,8 +384,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#setLayerEventMask(long) public void
-     * javax.swing.JLayer.setLayerEventMask(long)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#setLayerEventMask(long) public
+     * void javax.swing.JLayer.setLayerEventMask(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,7 +406,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JLayer.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -432,8 +429,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#isOptimizedDrawingEnabled() public boolean
-     * javax.swing.JLayer.isOptimizedDrawingEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#isOptimizedDrawingEnabled()
+     * public boolean javax.swing.JLayer.isOptimizedDrawingEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -455,8 +452,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#getGlassPane() public javax.swing.JPanel
-     * javax.swing.JLayer.getGlassPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#getGlassPane() public
+     * javax.swing.JPanel javax.swing.JLayer.getGlassPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -477,8 +474,9 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#getScrollableTracksViewportHeight() public
-     * boolean javax.swing.JLayer.getScrollableTracksViewportHeight()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayer#getScrollableTracksViewportHeight() public boolean
+     * javax.swing.JLayer.getScrollableTracksViewportHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -500,7 +498,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#removeNotify() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#removeNotify() public void
      * javax.swing.JLayer.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -523,8 +521,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#setGlassPane(JPanel) public void
-     * javax.swing.JLayer.setGlassPane(javax.swing.JPanel)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#setGlassPane(javax.swing.JPanel)
+     * public void javax.swing.JLayer.setGlassPane(javax.swing.JPanel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -545,8 +543,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#setUI(LayerUI) public void
-     * javax.swing.JLayer.setUI(javax.swing.plaf.LayerUI<? super V>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#setUI(javax.swing.plaf.LayerUI)
+     * public void javax.swing.JLayer.setUI(javax.swing.plaf.LayerUI<? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -567,8 +565,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#getUI() public javax.swing.plaf.LayerUI<?
-     * super V> javax.swing.JLayer.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#getUI() public
+     * javax.swing.plaf.LayerUI<? super V> javax.swing.JLayer.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -589,7 +587,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#setBorder(Border) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JLayer#setBorder(javax.swing.border.Border) public void
      * javax.swing.JLayer.setBorder(javax.swing.border.Border)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -612,8 +611,8 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#setView(Component) public void
-     * javax.swing.JLayer.setView(V)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#setView(java.awt.Component)
+     * public void javax.swing.JLayer.setView(V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -634,7 +633,7 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JLayer#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JLayer#addNotify() public void
      * javax.swing.JLayer.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

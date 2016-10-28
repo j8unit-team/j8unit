@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleKeyBinding#getAccessibleKeyBinding(int)
-     * public abstract java.lang.Object javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBinding(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBinding(int) public abstract java.lang.Object
+     * javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBinding(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleKeyBinding#getAccessibleKeyBindingCount()
-     * public abstract int javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBindingCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleKeyBinding#getAccessibleKeyBindingCount() public abstract int
+     * javax.accessibility.AccessibleKeyBinding.getAccessibleKeyBindingCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

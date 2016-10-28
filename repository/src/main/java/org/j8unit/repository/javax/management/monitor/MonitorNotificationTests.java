@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorNotification#getObservedAttribute() public
-     * java.lang.String javax.management.monitor.MonitorNotification.getObservedAttribute()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorNotification#getObservedAttribute() public java.lang.String
+     * javax.management.monitor.MonitorNotification.getObservedAttribute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorNotification#getObservedObject() public
-     * javax.management.ObjectName javax.management.monitor.MonitorNotification.getObservedObject()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorNotification#getObservedObject() public javax.management.ObjectName
+     * javax.management.monitor.MonitorNotification.getObservedObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorNotification#getDerivedGauge() public
-     * java.lang.Object javax.management.monitor.MonitorNotification.getDerivedGauge()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorNotification#getDerivedGauge() public java.lang.Object
+     * javax.management.monitor.MonitorNotification.getDerivedGauge()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +103,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorNotification#getTrigger() public
-     * java.lang.Object javax.management.monitor.MonitorNotification.getTrigger()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorNotification#getTrigger() public java.lang.Object
+     * javax.management.monitor.MonitorNotification.getTrigger()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

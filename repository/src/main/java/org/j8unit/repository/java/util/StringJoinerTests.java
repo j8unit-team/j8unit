@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringJoiner#merge(StringJoiner) public
-     * java.util.StringJoiner java.util.StringJoiner.merge(java.util.StringJoiner)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.StringJoiner#merge(java.util.StringJoiner)
+     * public java.util.StringJoiner java.util.StringJoiner.merge(java.util.StringJoiner)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringJoiner#add(CharSequence) public
+     * Test method for the hereby targeted method-under-test {@link java.util.StringJoiner#add(CharSequence) public
      * java.util.StringJoiner java.util.StringJoiner.add(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringJoiner#setEmptyValue(CharSequence) public
-     * java.util.StringJoiner java.util.StringJoiner.setEmptyValue(java.lang.CharSequence)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.StringJoiner#setEmptyValue(CharSequence)
+     * public java.util.StringJoiner java.util.StringJoiner.setEmptyValue(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringJoiner#toString() public java.lang.String
-     * java.util.StringJoiner.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.StringJoiner#toString() public
+     * java.lang.String java.util.StringJoiner.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringJoiner#length() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.StringJoiner#length() public int
      * java.util.StringJoiner.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.security.spec.KeySpec;
-import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,9 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeyFactory#translateKey(SecretKey) public
-     * final javax.crypto.SecretKey javax.crypto.SecretKeyFactory.translateKey(javax.crypto.SecretKey) throws
-     * java.security.InvalidKeyException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.SecretKeyFactory#translateKey(javax.crypto.SecretKey) public final javax.crypto.SecretKey
+     * javax.crypto.SecretKeyFactory.translateKey(javax.crypto.SecretKey) throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,9 +57,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeyFactory#getKeySpec(SecretKey, Class) public
-     * final java.security.spec.KeySpec javax.crypto.SecretKeyFactory.getKeySpec(javax.crypto.SecretKey,java.lang.Class
-     * <?>) throws java.security.spec.InvalidKeySpecException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.SecretKeyFactory#getKeySpec(javax.crypto.SecretKey, Class) public final
+     * java.security.spec.KeySpec javax.crypto.SecretKeyFactory.getKeySpec(javax.crypto.SecretKey,java.lang.Class<?>)
+     * throws java.security.spec.InvalidKeySpecException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeyFactory#getAlgorithm() public final
-     * java.lang.String javax.crypto.SecretKeyFactory.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.SecretKeyFactory#getAlgorithm() public
+     * final java.lang.String javax.crypto.SecretKeyFactory.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeyFactory#getProvider() public final
-     * java.security.Provider javax.crypto.SecretKeyFactory.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.SecretKeyFactory#getProvider() public
+     * final java.security.Provider javax.crypto.SecretKeyFactory.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeyFactory#generateSecret(KeySpec) public
-     * final javax.crypto.SecretKey javax.crypto.SecretKeyFactory.generateSecret(java.security.spec.KeySpec) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.SecretKeyFactory#generateSecret(java.security.spec.KeySpec) public final
+     * javax.crypto.SecretKey javax.crypto.SecretKeyFactory.generateSecret(java.security.spec.KeySpec) throws
      * java.security.spec.InvalidKeySpecException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

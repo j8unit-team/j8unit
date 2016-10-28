@@ -22,8 +22,9 @@ implements org.j8unit.repository.javax.xml.bind.attachment.AttachmentMarshallerC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AttachmentMarshaller#AttachmentMarshaller()
-     * public javax.xml.bind.attachment.AttachmentMarshaller()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.attachment.AttachmentMarshaller#AttachmentMarshaller() public
+     * javax.xml.bind.attachment.AttachmentMarshaller()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print;
 
-import java.io.OutputStream;
 import javax.print.StreamPrintServiceFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StreamPrintServiceFactory#getPrintService(OutputStream) public abstract javax.print.StreamPrintService
-     * javax.print.StreamPrintServiceFactory.getPrintService(java.io.OutputStream)}.
+     * {@link javax.print.StreamPrintServiceFactory#getPrintService(java.io.OutputStream) public abstract
+     * javax.print.StreamPrintService javax.print.StreamPrintServiceFactory.getPrintService(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamPrintServiceFactory#getOutputFormat() public
-     * abstract java.lang.String javax.print.StreamPrintServiceFactory.getOutputFormat()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.StreamPrintServiceFactory#getOutputFormat() public abstract java.lang.String
+     * javax.print.StreamPrintServiceFactory.getOutputFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamPrintServiceFactory#getSupportedDocFlavors()
-     * public abstract javax.print.DocFlavor[] javax.print.StreamPrintServiceFactory.getSupportedDocFlavors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.StreamPrintServiceFactory#getSupportedDocFlavors() public abstract javax.print.DocFlavor[]
+     * javax.print.StreamPrintServiceFactory.getSupportedDocFlavors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

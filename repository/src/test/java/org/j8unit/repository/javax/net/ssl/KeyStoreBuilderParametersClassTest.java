@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.security.KeyStore.Builder;
-import java.util.List;
 import javax.net.ssl.KeyStoreBuilderParameters;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.net.ssl.KeyStoreBuilderParametersClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyStoreBuilderParameters#KeyStoreBuilderParameters(Builder) public
+     * {@link javax.net.ssl.KeyStoreBuilderParameters#KeyStoreBuilderParameters(java.security.KeyStore.Builder) public
      * javax.net.ssl.KeyStoreBuilderParameters(java.security.KeyStore$Builder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,13 @@ implements org.j8unit.repository.javax.net.ssl.KeyStoreBuilderParametersClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final KeyStoreBuilderParameters sut = null; // = new KeyStoreBuilderParameters(Builder);
+        final KeyStoreBuilderParameters sut = null; // = new KeyStoreBuilderParameters(java.security.KeyStore.Builder);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyStoreBuilderParameters#KeyStoreBuilderParameters(List) public
+     * {@link javax.net.ssl.KeyStoreBuilderParameters#KeyStoreBuilderParameters(java.util.List) public
      * javax.net.ssl.KeyStoreBuilderParameters(java.util.List<java.security.KeyStore$Builder>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +62,7 @@ implements org.j8unit.repository.javax.net.ssl.KeyStoreBuilderParametersClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final KeyStoreBuilderParameters sut = null; // = new KeyStoreBuilderParameters(List);
+        final KeyStoreBuilderParameters sut = null; // = new KeyStoreBuilderParameters(java.util.List);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.KeyStoreBuilderParameters]

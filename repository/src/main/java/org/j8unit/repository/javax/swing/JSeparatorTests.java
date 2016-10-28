@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.JSeparator;
-import javax.swing.plaf.SeparatorUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +35,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSeparator#getOrientation() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSeparator#getOrientation() public int
      * javax.swing.JSeparator.getOrientation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSeparator#setUI(SeparatorUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JSeparator#setUI(javax.swing.plaf.SeparatorUI) public void
      * javax.swing.JSeparator.setUI(javax.swing.plaf.SeparatorUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSeparator#getUI() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSeparator#getUI() public
      * javax.swing.plaf.SeparatorUI javax.swing.JSeparator.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSeparator#setOrientation(int) public void
-     * javax.swing.JSeparator.setOrientation(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSeparator#setOrientation(int) public
+     * void javax.swing.JSeparator.setOrientation(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +124,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSeparator#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSeparator#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JSeparator.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,8 +147,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSeparator#getUIClassID() public java.lang.String
-     * javax.swing.JSeparator.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSeparator#getUIClassID() public
+     * java.lang.String javax.swing.JSeparator.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +170,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSeparator#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSeparator#updateUI() public void
      * javax.swing.JSeparator.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

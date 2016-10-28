@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Collection;
-import java.util.Comparator;
 import java.util.PriorityQueue;
-import java.util.SortedSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,8 +22,9 @@ implements org.j8unit.repository.java.util.PriorityQueueClassTests<PriorityQueue
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PriorityQueue#PriorityQueue(int, Comparator)
-     * public java.util.PriorityQueue(int,java.util.Comparator<? super E>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.PriorityQueue#PriorityQueue(int, java.util.Comparator) public
+     * java.util.PriorityQueue(int,java.util.Comparator<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,12 +40,13 @@ implements org.j8unit.repository.java.util.PriorityQueueClassTests<PriorityQueue
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PriorityQueue sut = null; // = new PriorityQueue(int, Comparator);
+        final PriorityQueue sut = null; // = new PriorityQueue(int, java.util.Comparator);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PriorityQueue#PriorityQueue(Collection) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.PriorityQueue#PriorityQueue(java.util.Collection) public
      * java.util.PriorityQueue(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +63,14 @@ implements org.j8unit.repository.java.util.PriorityQueueClassTests<PriorityQueue
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PriorityQueue sut = null; // = new PriorityQueue(Collection);
+        final PriorityQueue sut = null; // = new PriorityQueue(java.util.Collection);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PriorityQueue#PriorityQueue(PriorityQueue)
-     * public java.util.PriorityQueue(java.util.PriorityQueue<? extends E>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.PriorityQueue#PriorityQueue(java.util.PriorityQueue) public
+     * java.util.PriorityQueue(java.util.PriorityQueue<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,12 +86,13 @@ implements org.j8unit.repository.java.util.PriorityQueueClassTests<PriorityQueue
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PriorityQueue sut = null; // = new PriorityQueue(PriorityQueue);
+        final PriorityQueue sut = null; // = new PriorityQueue(java.util.PriorityQueue);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PriorityQueue#PriorityQueue(SortedSet) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.PriorityQueue#PriorityQueue(java.util.SortedSet) public
      * java.util.PriorityQueue(java.util.SortedSet<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,12 +109,12 @@ implements org.j8unit.repository.java.util.PriorityQueueClassTests<PriorityQueue
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PriorityQueue sut = null; // = new PriorityQueue(SortedSet);
+        final PriorityQueue sut = null; // = new PriorityQueue(java.util.SortedSet);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PriorityQueue#PriorityQueue() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.PriorityQueue#PriorityQueue() public
      * java.util.PriorityQueue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,8 +135,8 @@ implements org.j8unit.repository.java.util.PriorityQueueClassTests<PriorityQueue
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PriorityQueue#PriorityQueue(int) public
-     * java.util.PriorityQueue(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.PriorityQueue#PriorityQueue(int)
+     * public java.util.PriorityQueue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,7 +157,8 @@ implements org.j8unit.repository.java.util.PriorityQueueClassTests<PriorityQueue
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PriorityQueue#PriorityQueue(Comparator) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.PriorityQueue#PriorityQueue(java.util.Comparator) public
      * java.util.PriorityQueue(java.util.Comparator<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,7 +175,7 @@ implements org.j8unit.repository.java.util.PriorityQueueClassTests<PriorityQueue
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PriorityQueue sut = null; // = new PriorityQueue(Comparator);
+        final PriorityQueue sut = null; // = new PriorityQueue(java.util.Comparator);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PriorityQueue]

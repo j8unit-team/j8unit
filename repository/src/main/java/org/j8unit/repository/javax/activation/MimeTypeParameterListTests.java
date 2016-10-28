@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeTypeParameterList#get(String) public
-     * java.lang.String javax.activation.MimeTypeParameterList.get(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeTypeParameterList#get(String)
+     * public java.lang.String javax.activation.MimeTypeParameterList.get(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeTypeParameterList#size() public int
-     * javax.activation.MimeTypeParameterList.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeTypeParameterList#size() public
+     * int javax.activation.MimeTypeParameterList.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeTypeParameterList#set(String, String) public
-     * void javax.activation.MimeTypeParameterList.set(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MimeTypeParameterList#set(String, String) public void
+     * javax.activation.MimeTypeParameterList.set(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeTypeParameterList#remove(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MimeTypeParameterList#remove(String) public void
      * javax.activation.MimeTypeParameterList.remove(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeTypeParameterList#toString() public
-     * java.lang.String javax.activation.MimeTypeParameterList.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeTypeParameterList#toString()
+     * public java.lang.String javax.activation.MimeTypeParameterList.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeTypeParameterList#getNames() public
-     * java.util.Enumeration javax.activation.MimeTypeParameterList.getNames()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeTypeParameterList#getNames()
+     * public java.util.Enumeration javax.activation.MimeTypeParameterList.getNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +169,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimeTypeParameterList#isEmpty() public boolean
-     * javax.activation.MimeTypeParameterList.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeTypeParameterList#isEmpty()
+     * public boolean javax.activation.MimeTypeParameterList.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

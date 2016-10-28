@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.lang.model.element;
 
 import javax.lang.model.element.Element;
-import javax.lang.model.element.ElementVisitor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getSimpleName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.Element.getSimpleName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.Element#getSimpleName()
+     * public abstract javax.lang.model.element.Name javax.lang.model.element.Element.getSimpleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getKind() public abstract
-     * javax.lang.model.element.ElementKind javax.lang.model.element.Element.getKind()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.Element#getKind() public
+     * abstract javax.lang.model.element.ElementKind javax.lang.model.element.Element.getKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,9 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getModifiers() public abstract java.util.Set
-     * <javax.lang.model.element.Modifier> javax.lang.model.element.Element.getModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.Element#getModifiers()
+     * public abstract java.util.Set<javax.lang.model.element.Modifier> javax.lang.model.element.Element.getModifiers()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,32 +101,9 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getEnclosedElements() public abstract
-     * java.util.List<? extends javax.lang.model.element.Element>
-     * javax.lang.model.element.Element.getEnclosedElements()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEnclosedElements()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAnnotationMirrors() public abstract
-     * java.util.List<? extends javax.lang.model.element.AnnotationMirror>
-     * javax.lang.model.element.Element.getAnnotationMirrors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.Element#getAnnotationMirrors() public abstract java.util.List<? extends
+     * javax.lang.model.element.AnnotationMirror> javax.lang.model.element.Element.getAnnotationMirrors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +125,31 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#asType() public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.element.Element.asType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.Element#getEnclosedElements() public abstract java.util.List<? extends
+     * javax.lang.model.element.Element> javax.lang.model.element.Element.getEnclosedElements()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEnclosedElements()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.Element#asType() public
+     * abstract javax.lang.model.type.TypeMirror javax.lang.model.element.Element.asType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,9 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#accept(ElementVisitor, Object) public
-     * abstract <R,P> R javax.lang.model.element.Element.accept(javax.lang.model.element.ElementVisitor<R, P>,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.Element#accept(javax.lang.model.element.ElementVisitor, Object) public abstract
+     * <R,P> R javax.lang.model.element.Element.accept(javax.lang.model.element.ElementVisitor<R, P>,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +193,9 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getEnclosingElement() public abstract
-     * javax.lang.model.element.Element javax.lang.model.element.Element.getEnclosingElement()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.Element#getEnclosingElement() public abstract javax.lang.model.element.Element
+     * javax.lang.model.element.Element.getEnclosingElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +216,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#hashCode() public abstract int
-     * javax.lang.model.element.Element.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.Element#hashCode() public
+     * abstract int javax.lang.model.element.Element.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,8 +238,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#equals(Object) public abstract boolean
-     * javax.lang.model.element.Element.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.Element#equals(Object)
+     * public abstract boolean javax.lang.model.element.Element.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,7 +260,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAnnotation(Class) public abstract <A> A
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.Element#getAnnotation(Class) public abstract <A> A
      * javax.lang.model.element.Element.getAnnotation(java.lang.Class<A>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

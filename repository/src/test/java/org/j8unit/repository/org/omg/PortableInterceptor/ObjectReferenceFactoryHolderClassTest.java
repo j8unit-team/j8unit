@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.PortableInterceptor.ObjectReferenceFactory;
 import org.omg.PortableInterceptor.ObjectReferenceFactoryHolder;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectReferenceFactoryHolder#ObjectReferenceFactoryHolder() public
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHolder#ObjectReferenceFactoryHolder() public
      * org.omg.PortableInterceptor.ObjectReferenceFactoryHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +44,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectReferenceFactoryHolder#ObjectReferenceFactoryHolder(ObjectReferenceFactory) public
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHolder#ObjectReferenceFactoryHolder(org.omg.PortableInterceptor.ObjectReferenceFactory)
+     * public
      * org.omg.PortableInterceptor.ObjectReferenceFactoryHolder(org.omg.PortableInterceptor.ObjectReferenceFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ObjectReferenceFactoryHolder sut = null; // = new ObjectReferenceFactoryHolder(ObjectReferenceFactory);
+        final ObjectReferenceFactoryHolder sut = null; // = new
+                                                       // ObjectReferenceFactoryHolder(org.omg.PortableInterceptor.ObjectReferenceFactory);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactoryHolder]

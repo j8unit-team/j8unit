@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.print.attribute;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.AttributeSet;
 import javax.print.attribute.HashAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashAttributeSet#HashAttributeSet(Attribute[])
-     * public javax.print.attribute.HashAttributeSet(javax.print.attribute.Attribute[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.HashAttributeSet#HashAttributeSet(javax.print.attribute.Attribute[]) public
+     * javax.print.attribute.HashAttributeSet(javax.print.attribute.Attribute[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,14 @@ implements org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashAttributeSet sut = null; // = new HashAttributeSet(Attribute[]);
+        final HashAttributeSet sut = null; // = new HashAttributeSet(javax.print.attribute.Attribute[]);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashAttributeSet#HashAttributeSet(AttributeSet)
-     * public javax.print.attribute.HashAttributeSet(javax.print.attribute.AttributeSet)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.HashAttributeSet#HashAttributeSet(javax.print.attribute.AttributeSet) public
+     * javax.print.attribute.HashAttributeSet(javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +62,14 @@ implements org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashAttributeSet sut = null; // = new HashAttributeSet(AttributeSet);
+        final HashAttributeSet sut = null; // = new HashAttributeSet(javax.print.attribute.AttributeSet);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashAttributeSet#HashAttributeSet() public
-     * javax.print.attribute.HashAttributeSet()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.HashAttributeSet#HashAttributeSet() public javax.print.attribute.HashAttributeSet()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,8 +89,9 @@ implements org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashAttributeSet#HashAttributeSet(Attribute)
-     * public javax.print.attribute.HashAttributeSet(javax.print.attribute.Attribute)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.HashAttributeSet#HashAttributeSet(javax.print.attribute.Attribute) public
+     * javax.print.attribute.HashAttributeSet(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +107,7 @@ implements org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashAttributeSet sut = null; // = new HashAttributeSet(Attribute);
+        final HashAttributeSet sut = null; // = new HashAttributeSet(javax.print.attribute.Attribute);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.HashAttributeSet]

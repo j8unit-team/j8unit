@@ -6,10 +6,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.WStringValueHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class WStringValueHelperClassTest
@@ -24,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests<WStr
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WStringValueHelper#WStringValueHelper() public
-     * org.omg.CORBA.WStringValueHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.WStringValueHelper#WStringValueHelper() public org.omg.CORBA.WStringValueHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +42,7 @@ implements org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests<WStr
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WStringValueHelper#id() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.WStringValueHelper#id() public static
      * java.lang.String org.omg.CORBA.WStringValueHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,13 +57,14 @@ implements org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests<WStr
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link WStringValueHelper#id()}
+        // write some test for {@link org.omg.CORBA.WStringValueHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WStringValueHelper#insert(Any, String) public static
-     * void org.omg.CORBA.WStringValueHelper.insert(org.omg.CORBA.Any,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.WStringValueHelper#insert(org.omg.CORBA.Any, String) public static void
+     * org.omg.CORBA.WStringValueHelper.insert(org.omg.CORBA.Any,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +78,13 @@ implements org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests<WStr
     @Category(Draft.class)
     public void test_insert_Any_String()
     throws Exception {
-        // write some test for {@link WStringValueHelper#insert(Any, String)}
+        // write some test for {@link org.omg.CORBA.WStringValueHelper#insert(org.omg.CORBA.Any, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WStringValueHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.WStringValueHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.WStringValueHelper#type() public
+     * static synchronized org.omg.CORBA.TypeCode org.omg.CORBA.WStringValueHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +98,14 @@ implements org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests<WStr
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link WStringValueHelper#type()}
+        // write some test for {@link org.omg.CORBA.WStringValueHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WStringValueHelper#write(OutputStream, String)
-     * public static void org.omg.CORBA.WStringValueHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.WStringValueHelper#write(org.omg.CORBA.portable.OutputStream, String) public static void
+     * org.omg.CORBA.WStringValueHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +119,15 @@ implements org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests<WStr
     @Category(Draft.class)
     public void test_write_OutputStream_String()
     throws Exception {
-        // write some test for {@link WStringValueHelper#write(OutputStream, String)}
+        // write some test for {@link org.omg.CORBA.WStringValueHelper#write(org.omg.CORBA.portable.OutputStream,
+        // String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WStringValueHelper#read(InputStream) public static
-     * java.lang.String org.omg.CORBA.WStringValueHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.WStringValueHelper#read(org.omg.CORBA.portable.InputStream) public static java.lang.String
+     * org.omg.CORBA.WStringValueHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,13 +141,14 @@ implements org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests<WStr
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link WStringValueHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.WStringValueHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WStringValueHelper#extract(Any) public static
-     * java.lang.String org.omg.CORBA.WStringValueHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.WStringValueHelper#extract(org.omg.CORBA.Any) public static java.lang.String
+     * org.omg.CORBA.WStringValueHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,7 +162,7 @@ implements org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests<WStr
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link WStringValueHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.WStringValueHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.WStringValueHelper]

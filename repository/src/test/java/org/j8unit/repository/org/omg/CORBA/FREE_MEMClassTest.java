@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.FREE_MEM;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.FREE_MEMClassTests<FREE_MEM> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FREE_MEM#FREE_MEM(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.FREE_MEM#FREE_MEM(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.FREE_MEM(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.FREE_MEMClassTests<FREE_MEM> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FREE_MEM sut = null; // = new FREE_MEM(String, int, CompletionStatus);
+        final FREE_MEM sut = null; // = new FREE_MEM(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FREE_MEM#FREE_MEM(int, CompletionStatus) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.FREE_MEM#FREE_MEM(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.FREE_MEM(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +62,12 @@ implements org.j8unit.repository.org.omg.CORBA.FREE_MEMClassTests<FREE_MEM> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FREE_MEM sut = null; // = new FREE_MEM(int, CompletionStatus);
+        final FREE_MEM sut = null; // = new FREE_MEM(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FREE_MEM#FREE_MEM(String) public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.FREE_MEM#FREE_MEM(String) public
      * org.omg.CORBA.FREE_MEM(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +89,7 @@ implements org.j8unit.repository.org.omg.CORBA.FREE_MEMClassTests<FREE_MEM> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FREE_MEM#FREE_MEM() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.FREE_MEM#FREE_MEM() public
      * org.omg.CORBA.FREE_MEM()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

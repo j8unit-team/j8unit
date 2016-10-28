@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import java.awt.Graphics;
-import java.awt.Shape;
-import javax.swing.event.DocumentEvent;
-import javax.swing.text.View;
-import javax.swing.text.ViewFactory;
 import javax.swing.text.html.BlockView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BlockView#getMaximumSpan(int) public float
-     * javax.swing.text.html.BlockView.getMaximumSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.BlockView#getMaximumSpan(int)
+     * public float javax.swing.text.html.BlockView.getMaximumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +57,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BlockView#setParent(View) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.BlockView#setParent(javax.swing.text.View) public void
      * javax.swing.text.html.BlockView.setParent(javax.swing.text.View)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,7 +81,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BlockView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.BlockView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.html.BlockView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,7 +105,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BlockView#getPreferredSpan(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.BlockView#getPreferredSpan(int) public float
      * javax.swing.text.html.BlockView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +129,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BlockView#getMinimumSpan(int) public float
-     * javax.swing.text.html.BlockView.getMinimumSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.BlockView#getMinimumSpan(int)
+     * public float javax.swing.text.html.BlockView.getMinimumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,7 +153,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BlockView#changedUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.html.BlockView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.html.BlockView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -179,8 +178,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BlockView#getAttributes() public
-     * javax.swing.text.AttributeSet javax.swing.text.html.BlockView.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.BlockView#getAttributes()
+     * public javax.swing.text.AttributeSet javax.swing.text.html.BlockView.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -202,8 +201,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BlockView#getAlignment(int) public float
-     * javax.swing.text.html.BlockView.getAlignment(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.BlockView#getAlignment(int)
+     * public float javax.swing.text.html.BlockView.getAlignment(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -225,8 +224,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BlockView#getResizeWeight(int) public int
-     * javax.swing.text.html.BlockView.getResizeWeight(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.BlockView#getResizeWeight(int)
+     * public int javax.swing.text.html.BlockView.getResizeWeight(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.net.ssl.SSLPeerUnverifiedExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SSLPeerUnverifiedException#SSLPeerUnverifiedException(String) public
+     * {@link javax.net.ssl.SSLPeerUnverifiedException#SSLPeerUnverifiedException(String) public
      * javax.net.ssl.SSLPeerUnverifiedException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

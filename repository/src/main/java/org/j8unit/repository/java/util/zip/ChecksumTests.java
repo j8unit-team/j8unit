@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checksum#getValue() public abstract long
-     * java.util.zip.Checksum.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Checksum#getValue() public abstract
+     * long java.util.zip.Checksum.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checksum#reset() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Checksum#reset() public abstract void
      * java.util.zip.Checksum.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checksum#update(byte[], int, int) public abstract
-     * void java.util.zip.Checksum.update(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Checksum#update(byte[], int, int)
+     * public abstract void java.util.zip.Checksum.update(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checksum#update(int) public abstract void
-     * java.util.zip.Checksum.update(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Checksum#update(int) public abstract
+     * void java.util.zip.Checksum.update(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

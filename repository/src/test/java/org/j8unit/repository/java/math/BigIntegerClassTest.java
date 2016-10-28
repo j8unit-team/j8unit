@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.math;
 
 import java.math.BigInteger;
-import java.util.Random;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BigInteger#BigInteger(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.math.BigInteger#BigInteger(String) public
      * java.math.BigInteger(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +43,8 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BigInteger#BigInteger(int, Random) public
-     * java.math.BigInteger(int,java.util.Random)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.math.BigInteger#BigInteger(int, java.util.Random) public java.math.BigInteger(int,java.util.Random)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,12 +60,13 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BigInteger sut = null; // = new BigInteger(int, Random);
+        final BigInteger sut = null; // = new BigInteger(int, java.util.Random);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BigInteger#BigInteger(int, int, Random) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.math.BigInteger#BigInteger(int, int, java.util.Random) public
      * java.math.BigInteger(int,int,java.util.Random)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,12 +83,12 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BigInteger sut = null; // = new BigInteger(int, int, Random);
+        final BigInteger sut = null; // = new BigInteger(int, int, java.util.Random);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BigInteger#BigInteger(byte[]) public
+     * Test method for the hereby targeted constructor-under-test {@link java.math.BigInteger#BigInteger(byte[]) public
      * java.math.BigInteger(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,8 +110,8 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BigInteger#BigInteger(int, byte[]) public
-     * java.math.BigInteger(int,byte[])}.
+     * Test method for the hereby targeted constructor-under-test {@link java.math.BigInteger#BigInteger(int, byte[])
+     * public java.math.BigInteger(int,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,8 +132,8 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BigInteger#BigInteger(String, int) public
-     * java.math.BigInteger(java.lang.String,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.math.BigInteger#BigInteger(String, int)
+     * public java.math.BigInteger(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,8 +154,9 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BigInteger#probablePrime(int, Random) public static
-     * java.math.BigInteger java.math.BigInteger.probablePrime(int,java.util.Random)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.math.BigInteger#probablePrime(int, java.util.Random) public static java.math.BigInteger
+     * java.math.BigInteger.probablePrime(int,java.util.Random)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,12 +170,12 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
     @Category(Draft.class)
     public void test_probablePrime_int_Random()
     throws Exception {
-        // write some test for {@link BigInteger#probablePrime(int, Random)}
+        // write some test for {@link java.math.BigInteger#probablePrime(int, java.util.Random)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BigInteger#valueOf(long) public static
+     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#valueOf(long) public static
      * java.math.BigInteger java.math.BigInteger.valueOf(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,7 +190,7 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
     @Category(Draft.class)
     public void test_valueOf_long()
     throws Exception {
-        // write some test for {@link BigInteger#valueOf(long)}
+        // write some test for {@link java.math.BigInteger#valueOf(long)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.math.BigInteger]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.regex.PatternSyntaxExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PatternSyntaxException#PatternSyntaxException(String, String, int) public
+     * {@link java.util.regex.PatternSyntaxException#PatternSyntaxException(String, String, int) public
      * java.util.regex.PatternSyntaxException(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

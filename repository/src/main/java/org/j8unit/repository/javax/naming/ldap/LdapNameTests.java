@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.naming.ldap;
 
-import java.util.List;
-import javax.naming.Name;
 import javax.naming.ldap.LdapName;
-import javax.naming.ldap.Rdn;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#compareTo(Object) public int
-     * javax.naming.ldap.LdapName.compareTo(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#compareTo(Object) public
+     * int javax.naming.ldap.LdapName.compareTo(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#getRdn(int) public javax.naming.ldap.Rdn
-     * javax.naming.ldap.LdapName.getRdn(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#getRdn(int) public
+     * javax.naming.ldap.Rdn javax.naming.ldap.LdapName.getRdn(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#remove(int) public java.lang.Object
-     * javax.naming.ldap.LdapName.remove(int) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#remove(int) public
+     * java.lang.Object javax.naming.ldap.LdapName.remove(int) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +102,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#get(int) public java.lang.String
-     * javax.naming.ldap.LdapName.get(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#get(int) public
+     * java.lang.String javax.naming.ldap.LdapName.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +125,7 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#hashCode() public int
      * javax.naming.ldap.LdapName.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +148,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#getPrefix(int) public javax.naming.Name
-     * javax.naming.ldap.LdapName.getPrefix(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#getPrefix(int) public
+     * javax.naming.Name javax.naming.ldap.LdapName.getPrefix(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +171,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#getAll() public java.util.Enumeration
-     * <java.lang.String> javax.naming.ldap.LdapName.getAll()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#getAll() public
+     * java.util.Enumeration<java.lang.String> javax.naming.ldap.LdapName.getAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,7 +194,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#add(Rdn) public javax.naming.Name
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapName#add(javax.naming.ldap.Rdn) public javax.naming.Name
      * javax.naming.ldap.LdapName.add(javax.naming.ldap.Rdn)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -219,8 +217,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#add(int, String) public javax.naming.Name
-     * javax.naming.ldap.LdapName.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#add(int, String) public
+     * javax.naming.Name javax.naming.ldap.LdapName.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,7 +240,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#add(int, Rdn) public javax.naming.Name
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapName#add(int, javax.naming.ldap.Rdn) public javax.naming.Name
      * javax.naming.ldap.LdapName.add(int,javax.naming.ldap.Rdn)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,8 +263,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#add(String) public javax.naming.Name
-     * javax.naming.ldap.LdapName.add(java.lang.String) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#add(String) public
+     * javax.naming.Name javax.naming.ldap.LdapName.add(java.lang.String) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +286,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#getRdns() public java.util.List
-     * <javax.naming.ldap.Rdn> javax.naming.ldap.LdapName.getRdns()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#getRdns() public
+     * java.util.List<javax.naming.ldap.Rdn> javax.naming.ldap.LdapName.getRdns()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -309,7 +308,7 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#isEmpty() public boolean
      * javax.naming.ldap.LdapName.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -332,8 +331,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#getSuffix(int) public javax.naming.Name
-     * javax.naming.ldap.LdapName.getSuffix(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#getSuffix(int) public
+     * javax.naming.Name javax.naming.ldap.LdapName.getSuffix(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -355,8 +354,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#equals(Object) public boolean
-     * javax.naming.ldap.LdapName.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#equals(Object) public
+     * boolean javax.naming.ldap.LdapName.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -378,7 +377,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#addAll(int, List) public javax.naming.Name
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapName#addAll(int, java.util.List) public javax.naming.Name
      * javax.naming.ldap.LdapName.addAll(int,java.util.List<javax.naming.ldap.Rdn>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -400,7 +400,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#addAll(int, Name) public javax.naming.Name
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapName#addAll(int, javax.naming.Name) public javax.naming.Name
      * javax.naming.ldap.LdapName.addAll(int,javax.naming.Name) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -423,8 +424,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#addAll(List) public javax.naming.Name
-     * javax.naming.ldap.LdapName.addAll(java.util.List<javax.naming.ldap.Rdn>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#addAll(java.util.List)
+     * public javax.naming.Name javax.naming.ldap.LdapName.addAll(java.util.List<javax.naming.ldap.Rdn>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -445,8 +446,9 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#addAll(Name) public javax.naming.Name
-     * javax.naming.ldap.LdapName.addAll(javax.naming.Name) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#addAll(javax.naming.Name)
+     * public javax.naming.Name javax.naming.ldap.LdapName.addAll(javax.naming.Name) throws
+     * javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -468,7 +470,7 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#size() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#size() public int
      * javax.naming.ldap.LdapName.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -491,8 +493,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#toString() public java.lang.String
-     * javax.naming.ldap.LdapName.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#toString() public
+     * java.lang.String javax.naming.ldap.LdapName.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -514,8 +516,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#endsWith(List) public boolean
-     * javax.naming.ldap.LdapName.endsWith(java.util.List<javax.naming.ldap.Rdn>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#endsWith(java.util.List)
+     * public boolean javax.naming.ldap.LdapName.endsWith(java.util.List<javax.naming.ldap.Rdn>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -536,7 +538,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#endsWith(Name) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapName#endsWith(javax.naming.Name) public boolean
      * javax.naming.ldap.LdapName.endsWith(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -559,8 +562,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#clone() public java.lang.Object
-     * javax.naming.ldap.LdapName.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#clone() public
+     * java.lang.Object javax.naming.ldap.LdapName.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -582,7 +585,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#startsWith(List) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapName#startsWith(java.util.List) public boolean
      * javax.naming.ldap.LdapName.startsWith(java.util.List<javax.naming.ldap.Rdn>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -604,7 +608,8 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapName#startsWith(Name) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapName#startsWith(javax.naming.Name) public boolean
      * javax.naming.ldap.LdapName.startsWith(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

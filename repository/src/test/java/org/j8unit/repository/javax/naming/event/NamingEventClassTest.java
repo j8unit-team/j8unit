@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.naming.event;
 
-import javax.naming.Binding;
-import javax.naming.event.EventContext;
 import javax.naming.event.NamingEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.naming.event.NamingEventClassTests<Naming
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NamingEvent#NamingEvent(EventContext, int, Binding, Binding, Object) public
+     * {@link javax.naming.event.NamingEvent#NamingEvent(javax.naming.event.EventContext, int, javax.naming.Binding, javax.naming.Binding, Object)
+     * public
      * javax.naming.event.NamingEvent(javax.naming.event.EventContext,int,javax.naming.Binding,javax.naming.Binding,java.lang.Object)}
      * .
      *
@@ -42,7 +41,8 @@ implements org.j8unit.repository.javax.naming.event.NamingEventClassTests<Naming
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NamingEvent sut = null; // = new NamingEvent(EventContext, int, Binding, Binding, Object);
+        final NamingEvent sut = null; // = new NamingEvent(javax.naming.event.EventContext, int, javax.naming.Binding,
+                                      // javax.naming.Binding, Object);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.NamingEvent]

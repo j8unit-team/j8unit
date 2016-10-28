@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.BufferedOutputStream;
-import java.io.OutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.io.BufferedOutputStreamClassTests<Buffered
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BufferedOutputStream#BufferedOutputStream(OutputStream) public
+     * {@link java.io.BufferedOutputStream#BufferedOutputStream(java.io.OutputStream) public
      * java.io.BufferedOutputStream(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.io.BufferedOutputStreamClassTests<Buffered
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferedOutputStream sut = null; // = new BufferedOutputStream(OutputStream);
+        final BufferedOutputStream sut = null; // = new BufferedOutputStream(java.io.OutputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BufferedOutputStream#BufferedOutputStream(OutputStream, int) public
+     * {@link java.io.BufferedOutputStream#BufferedOutputStream(java.io.OutputStream, int) public
      * java.io.BufferedOutputStream(java.io.OutputStream,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.io.BufferedOutputStreamClassTests<Buffered
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferedOutputStream sut = null; // = new BufferedOutputStream(OutputStream, int);
+        final BufferedOutputStream sut = null; // = new BufferedOutputStream(java.io.OutputStream, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.BufferedOutputStream]

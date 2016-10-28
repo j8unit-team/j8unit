@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dictionary#put(Object, Object) public abstract V
-     * java.util.Dictionary.put(K,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Dictionary#put(Object, Object) public
+     * abstract V java.util.Dictionary.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dictionary#remove(Object) public abstract V
-     * java.util.Dictionary.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Dictionary#remove(Object) public abstract
+     * V java.util.Dictionary.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dictionary#isEmpty() public abstract boolean
-     * java.util.Dictionary.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Dictionary#isEmpty() public abstract
+     * boolean java.util.Dictionary.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dictionary#keys() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.Dictionary#keys() public abstract
      * java.util.Enumeration<K> java.util.Dictionary.keys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dictionary#elements() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.Dictionary#elements() public abstract
      * java.util.Enumeration<V> java.util.Dictionary.elements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dictionary#get(Object) public abstract V
+     * Test method for the hereby targeted method-under-test {@link java.util.Dictionary#get(Object) public abstract V
      * java.util.Dictionary.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,7 +166,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dictionary#size() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.util.Dictionary#size() public abstract int
      * java.util.Dictionary.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

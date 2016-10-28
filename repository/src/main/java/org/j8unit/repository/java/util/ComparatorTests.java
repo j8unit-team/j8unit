@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.Comparator;
-import java.util.function.Function;
-import java.util.function.ToDoubleFunction;
-import java.util.function.ToIntFunction;
-import java.util.function.ToLongFunction;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Comparator#reversed() public default
+     * Test method for the hereby targeted method-under-test {@link java.util.Comparator#reversed() public default
      * java.util.Comparator<T> java.util.Comparator.reversed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,9 +57,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Comparator#thenComparing(Function, Comparator)
-     * public default <U> java.util.Comparator<T> java.util.Comparator.thenComparing(java.util.function.Function<? super
-     * T, ? extends U>,java.util.Comparator<? super U>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Comparator#thenComparing(java.util.function.Function, java.util.Comparator) public default
+     * <U> java.util.Comparator<T> java.util.Comparator.thenComparing(java.util.function.Function<? super T, ? extends
+     * U>,java.util.Comparator<? super U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Comparator#thenComparing(Comparator) public default
-     * java.util.Comparator<T> java.util.Comparator.thenComparing(java.util.Comparator<? super T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Comparator#thenComparing(java.util.Comparator) public default java.util.Comparator
+     * <T> java.util.Comparator.thenComparing(java.util.Comparator<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,9 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Comparator#thenComparing(Function) public default
-     * <U> java.util.Comparator<T> java.util.Comparator.thenComparing(java.util.function.Function<? super T, ? extends
-     * U>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Comparator#thenComparing(java.util.function.Function) public default <U> java.util.Comparator
+     * <T> java.util.Comparator.thenComparing(java.util.function.Function<? super T, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,9 +127,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Comparator#thenComparingDouble(ToDoubleFunction)
-     * public default java.util.Comparator
-     * <T> java.util.Comparator.thenComparingDouble(java.util.function.ToDoubleFunction<? super T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Comparator#thenComparingDouble(java.util.function.ToDoubleFunction) public default
+     * java.util.Comparator<T> java.util.Comparator.thenComparingDouble(java.util.function.ToDoubleFunction<? super T>)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +151,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Comparator#equals(Object) public abstract boolean
-     * java.util.Comparator.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Comparator#equals(Object) public abstract
+     * boolean java.util.Comparator.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +173,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Comparator#compare(Object, Object) public abstract
-     * int java.util.Comparator.compare(T,T)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Comparator#compare(Object, Object) public
+     * abstract int java.util.Comparator.compare(T,T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,9 +195,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Comparator#thenComparingLong(ToLongFunction) public
-     * default java.util.Comparator<T> java.util.Comparator.thenComparingLong(java.util.function.ToLongFunction<? super
-     * T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Comparator#thenComparingLong(java.util.function.ToLongFunction) public default
+     * java.util.Comparator<T> java.util.Comparator.thenComparingLong(java.util.function.ToLongFunction<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,9 +218,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Comparator#thenComparingInt(ToIntFunction) public
-     * default java.util.Comparator<T> java.util.Comparator.thenComparingInt(java.util.function.ToIntFunction<? super
-     * T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Comparator#thenComparingInt(java.util.function.ToIntFunction) public default
+     * java.util.Comparator<T> java.util.Comparator.thenComparingInt(java.util.function.ToIntFunction<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.PrincipalClassTests<Principal> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Principal#Principal() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.Principal#Principal() public
      * org.omg.CORBA.Principal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(Throwable) public
-     * java.sql.SQLIntegrityConstraintViolationException(java.lang.Throwable)}.
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(Throwable)
+     * public java.sql.SQLIntegrityConstraintViolationException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +46,7 @@ implements org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, Throwable)
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, Throwable)
      * public java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,7 +71,7 @@ implements org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, String, Throwable)
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, String, Throwable)
      * public java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,7 +96,7 @@ implements org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, String, int, Throwable)
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, String, int, Throwable)
      * public
      * java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
      *
@@ -122,7 +122,7 @@ implements org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException() public
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException() public
      * java.sql.SQLIntegrityConstraintViolationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,7 +144,7 @@ implements org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String) public
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String) public
      * java.sql.SQLIntegrityConstraintViolationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ implements org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, String) public
-     * java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String)}.
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, String)
+     * public java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,7 +193,7 @@ implements org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, String, int)
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(String, String, int)
      * public java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

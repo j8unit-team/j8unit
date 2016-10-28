@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.activation.MimeTypeParseExceptionClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MimeTypeParseException#MimeTypeParseException()
-     * public javax.activation.MimeTypeParseException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.MimeTypeParseException#MimeTypeParseException() public
+     * javax.activation.MimeTypeParseException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.activation.MimeTypeParseExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MimeTypeParseException#MimeTypeParseException(String) public
+     * {@link javax.activation.MimeTypeParseException#MimeTypeParseException(String) public
      * javax.activation.MimeTypeParseException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

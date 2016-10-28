@@ -21,9 +21,9 @@ implements org.j8unit.repository.java.util.logging.FileHandlerClassTests<FileHan
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileHandler#FileHandler(String, int, int)
-     * public java.util.logging.FileHandler(java.lang.String,int,int) throws
-     * java.io.IOException,java.lang.SecurityException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.logging.FileHandler#FileHandler(String, int, int) public
+     * java.util.logging.FileHandler(java.lang.String,int,int) throws java.io.IOException,java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +44,9 @@ implements org.j8unit.repository.java.util.logging.FileHandlerClassTests<FileHan
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileHandler#FileHandler(String) public
-     * java.util.logging.FileHandler(java.lang.String) throws java.io.IOException,java.lang.SecurityException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.logging.FileHandler#FileHandler(String) public java.util.logging.FileHandler(java.lang.String)
+     * throws java.io.IOException,java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,8 +67,8 @@ implements org.j8unit.repository.java.util.logging.FileHandlerClassTests<FileHan
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileHandler#FileHandler() public
-     * java.util.logging.FileHandler() throws java.io.IOException,java.lang.SecurityException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.logging.FileHandler#FileHandler()
+     * public java.util.logging.FileHandler() throws java.io.IOException,java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,7 +89,7 @@ implements org.j8unit.repository.java.util.logging.FileHandlerClassTests<FileHan
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FileHandler#FileHandler(String, int, int, boolean) public
+     * {@link java.util.logging.FileHandler#FileHandler(String, int, int, boolean) public
      * java.util.logging.FileHandler(java.lang.String,int,int,boolean) throws
      * java.io.IOException,java.lang.SecurityException}.
      *
@@ -111,7 +112,8 @@ implements org.j8unit.repository.java.util.logging.FileHandlerClassTests<FileHan
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileHandler#FileHandler(String, boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.logging.FileHandler#FileHandler(String, boolean) public
      * java.util.logging.FileHandler(java.lang.String,boolean) throws java.io.IOException,java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory;
 import java.util.concurrent.ForkJoinPool.ManagedBlocker;
@@ -24,8 +23,8 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ForkJoinPool#ForkJoinPool() public
-     * java.util.concurrent.ForkJoinPool()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ForkJoinPool#ForkJoinPool() public java.util.concurrent.ForkJoinPool()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +45,8 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ForkJoinPool#ForkJoinPool(int, ForkJoinWorkerThreadFactory, UncaughtExceptionHandler, boolean) public
+     * {@link java.util.concurrent.ForkJoinPool#ForkJoinPool(int, java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory, Thread.UncaughtExceptionHandler, boolean)
+     * public
      * java.util.concurrent.ForkJoinPool(int,java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory,java.lang.Thread$UncaughtExceptionHandler,boolean)}
      * .
      *
@@ -64,14 +64,15 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ForkJoinPool sut = null; // = new ForkJoinPool(int, ForkJoinWorkerThreadFactory, UncaughtExceptionHandler,
-                                       // boolean);
+        final ForkJoinPool sut = null; // = new ForkJoinPool(int,
+                                       // java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory,
+                                       // Thread.UncaughtExceptionHandler, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ForkJoinPool#ForkJoinPool(int) public
-     * java.util.concurrent.ForkJoinPool(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ForkJoinPool#ForkJoinPool(int) public java.util.concurrent.ForkJoinPool(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -92,8 +93,9 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForkJoinPool#getCommonPoolParallelism() public
-     * static int java.util.concurrent.ForkJoinPool.getCommonPoolParallelism()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ForkJoinPool#getCommonPoolParallelism() public static int
+     * java.util.concurrent.ForkJoinPool.getCommonPoolParallelism()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,12 +109,13 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
     @Category(Draft.class)
     public void test_getCommonPoolParallelism()
     throws Exception {
-        // write some test for {@link ForkJoinPool#getCommonPoolParallelism()}
+        // write some test for {@link java.util.concurrent.ForkJoinPool#getCommonPoolParallelism()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForkJoinPool#managedBlock(ManagedBlocker) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ForkJoinPool#managedBlock(java.util.concurrent.ForkJoinPool.ManagedBlocker) public
      * static void java.util.concurrent.ForkJoinPool.managedBlock(java.util.concurrent.ForkJoinPool$ManagedBlocker)
      * throws java.lang.InterruptedException}.
      *
@@ -128,13 +131,14 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
     @Category(Draft.class)
     public void test_managedBlock_ManagedBlocker()
     throws Exception {
-        // write some test for {@link ForkJoinPool#managedBlock(ManagedBlocker)}
+        // write some test for {@link
+        // java.util.concurrent.ForkJoinPool#managedBlock(java.util.concurrent.ForkJoinPool.ManagedBlocker)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForkJoinPool#commonPool() public static
-     * java.util.concurrent.ForkJoinPool java.util.concurrent.ForkJoinPool.commonPool()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinPool#commonPool()
+     * public static java.util.concurrent.ForkJoinPool java.util.concurrent.ForkJoinPool.commonPool()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +152,7 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
     @Category(Draft.class)
     public void test_commonPool()
     throws Exception {
-        // write some test for {@link ForkJoinPool#commonPool()}
+        // write some test for {@link java.util.concurrent.ForkJoinPool#commonPool()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ForkJoinPool]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
 import javax.swing.JScrollPane;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JScrollPaneClassTests<JScrollPane> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JScrollPane#JScrollPane() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JScrollPane#JScrollPane() public
      * javax.swing.JScrollPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +42,8 @@ implements org.j8unit.repository.javax.swing.JScrollPaneClassTests<JScrollPane> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JScrollPane#JScrollPane(int, int) public
-     * javax.swing.JScrollPane(int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JScrollPane#JScrollPane(int, int)
+     * public javax.swing.JScrollPane(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,7 +64,8 @@ implements org.j8unit.repository.javax.swing.JScrollPaneClassTests<JScrollPane> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JScrollPane#JScrollPane(Component) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JScrollPane#JScrollPane(java.awt.Component) public
      * javax.swing.JScrollPane(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,13 +82,14 @@ implements org.j8unit.repository.javax.swing.JScrollPaneClassTests<JScrollPane> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JScrollPane sut = null; // = new JScrollPane(Component);
+        final JScrollPane sut = null; // = new JScrollPane(java.awt.Component);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JScrollPane#JScrollPane(Component, int, int)
-     * public javax.swing.JScrollPane(java.awt.Component,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JScrollPane#JScrollPane(java.awt.Component, int, int) public
+     * javax.swing.JScrollPane(java.awt.Component,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +105,7 @@ implements org.j8unit.repository.javax.swing.JScrollPaneClassTests<JScrollPane> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JScrollPane sut = null; // = new JScrollPane(Component, int, int);
+        final JScrollPane sut = null; // = new JScrollPane(java.awt.Component, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JScrollPane]

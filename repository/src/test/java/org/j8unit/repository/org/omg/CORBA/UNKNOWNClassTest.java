@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.UNKNOWN;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CORBA.UNKNOWNClassTests<UNKNOWN> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UNKNOWN#UNKNOWN(String, int, CompletionStatus)
-     * public org.omg.CORBA.UNKNOWN(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.UNKNOWN#UNKNOWN(String, int, org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.UNKNOWN(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,12 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.UNKNOWNClassTests<UNKNOWN> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UNKNOWN sut = null; // = new UNKNOWN(String, int, CompletionStatus);
+        final UNKNOWN sut = null; // = new UNKNOWN(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UNKNOWN#UNKNOWN(int, CompletionStatus) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.UNKNOWN#UNKNOWN(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.UNKNOWN(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,12 +62,12 @@ implements org.j8unit.repository.org.omg.CORBA.UNKNOWNClassTests<UNKNOWN> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UNKNOWN sut = null; // = new UNKNOWN(int, CompletionStatus);
+        final UNKNOWN sut = null; // = new UNKNOWN(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UNKNOWN#UNKNOWN(String) public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.UNKNOWN#UNKNOWN(String) public
      * org.omg.CORBA.UNKNOWN(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,7 +89,7 @@ implements org.j8unit.repository.org.omg.CORBA.UNKNOWNClassTests<UNKNOWN> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UNKNOWN#UNKNOWN() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.UNKNOWN#UNKNOWN() public
      * org.omg.CORBA.UNKNOWN()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

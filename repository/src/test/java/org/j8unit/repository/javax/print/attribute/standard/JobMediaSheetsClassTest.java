@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobMediaSheetsCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JobMediaSheets#JobMediaSheets(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.JobMediaSheets#JobMediaSheets(int) public
      * javax.print.attribute.standard.JobMediaSheets(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

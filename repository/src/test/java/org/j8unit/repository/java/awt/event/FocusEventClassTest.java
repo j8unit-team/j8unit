@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.Component;
 import java.awt.event.FocusEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.awt.event.FocusEventClassTests<FocusEvent>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FocusEvent#FocusEvent(Component, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.event.FocusEvent#FocusEvent(java.awt.Component, int) public
      * java.awt.event.FocusEvent(java.awt.Component,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +39,14 @@ implements org.j8unit.repository.java.awt.event.FocusEventClassTests<FocusEvent>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FocusEvent sut = null; // = new FocusEvent(Component, int);
+        final FocusEvent sut = null; // = new FocusEvent(java.awt.Component, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FocusEvent#FocusEvent(Component, int, boolean)
-     * public java.awt.event.FocusEvent(java.awt.Component,int,boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.event.FocusEvent#FocusEvent(java.awt.Component, int, boolean) public
+     * java.awt.event.FocusEvent(java.awt.Component,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,13 +62,13 @@ implements org.j8unit.repository.java.awt.event.FocusEventClassTests<FocusEvent>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FocusEvent sut = null; // = new FocusEvent(Component, int, boolean);
+        final FocusEvent sut = null; // = new FocusEvent(java.awt.Component, int, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FocusEvent#FocusEvent(Component, int, boolean, Component) public
+     * {@link java.awt.event.FocusEvent#FocusEvent(java.awt.Component, int, boolean, java.awt.Component) public
      * java.awt.event.FocusEvent(java.awt.Component,int,boolean,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +85,7 @@ implements org.j8unit.repository.java.awt.event.FocusEventClassTests<FocusEvent>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FocusEvent sut = null; // = new FocusEvent(Component, int, boolean, Component);
+        final FocusEvent sut = null; // = new FocusEvent(java.awt.Component, int, boolean, java.awt.Component);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.FocusEvent]

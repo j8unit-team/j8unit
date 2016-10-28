@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.security.auth.AuthPermissionClassTests<Au
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AuthPermission#AuthPermission(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.AuthPermission#AuthPermission(String) public
      * javax.security.auth.AuthPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +44,9 @@ implements org.j8unit.repository.javax.security.auth.AuthPermissionClassTests<Au
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AuthPermission#AuthPermission(String, String)
-     * public javax.security.auth.AuthPermission(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.AuthPermission#AuthPermission(String, String) public
+     * javax.security.auth.AuthPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

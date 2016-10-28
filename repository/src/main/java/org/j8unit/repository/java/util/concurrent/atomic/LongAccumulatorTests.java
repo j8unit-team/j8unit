@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAccumulator#intValue() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.LongAccumulator#intValue() public int
      * java.util.concurrent.atomic.LongAccumulator.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAccumulator#get() public long
-     * java.util.concurrent.atomic.LongAccumulator.get()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAccumulator#get()
+     * public long java.util.concurrent.atomic.LongAccumulator.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +80,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAccumulator#longValue() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.LongAccumulator#longValue() public long
      * java.util.concurrent.atomic.LongAccumulator.longValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +104,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAccumulator#accumulate(long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.LongAccumulator#accumulate(long) public void
      * java.util.concurrent.atomic.LongAccumulator.accumulate(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +127,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAccumulator#reset() public void
-     * java.util.concurrent.atomic.LongAccumulator.reset()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAccumulator#reset()
+     * public void java.util.concurrent.atomic.LongAccumulator.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +149,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAccumulator#floatValue() public float
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.LongAccumulator#floatValue() public float
      * java.util.concurrent.atomic.LongAccumulator.floatValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +173,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAccumulator#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.LongAccumulator#toString() public java.lang.String
      * java.util.concurrent.atomic.LongAccumulator.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,7 +197,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAccumulator#getThenReset() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.LongAccumulator#getThenReset() public long
      * java.util.concurrent.atomic.LongAccumulator.getThenReset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,7 +220,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAccumulator#doubleValue() public double
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.LongAccumulator#doubleValue() public double
      * java.util.concurrent.atomic.LongAccumulator.doubleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

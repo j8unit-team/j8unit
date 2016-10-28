@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.PackedColorModel;
-import java.awt.image.SampleModel;
-import java.awt.image.WritableRaster;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,7 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PackedColorModel#isCompatibleSampleModel(SampleModel) public boolean
+     * {@link java.awt.image.PackedColorModel#isCompatibleSampleModel(java.awt.image.SampleModel) public boolean
      * java.awt.image.PackedColorModel.isCompatibleSampleModel(java.awt.image.SampleModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +58,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PackedColorModel#getMask(int) public final int
-     * java.awt.image.PackedColorModel.getMask(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.PackedColorModel#getMask(int) public
+     * final int java.awt.image.PackedColorModel.getMask(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +80,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PackedColorModel#equals(Object) public boolean
-     * java.awt.image.PackedColorModel.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.PackedColorModel#equals(Object)
+     * public boolean java.awt.image.PackedColorModel.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,7 +104,7 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PackedColorModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
+     * {@link java.awt.image.PackedColorModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
      * java.awt.image.PackedColorModel.createCompatibleSampleModel(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,8 +127,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PackedColorModel#getMasks() public final int[]
-     * java.awt.image.PackedColorModel.getMasks()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.PackedColorModel#getMasks() public
+     * final int[] java.awt.image.PackedColorModel.getMasks()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,9 +149,9 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PackedColorModel#getAlphaRaster(WritableRaster)
-     * public java.awt.image.WritableRaster
-     * java.awt.image.PackedColorModel.getAlphaRaster(java.awt.image.WritableRaster)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.PackedColorModel#getAlphaRaster(java.awt.image.WritableRaster) public
+     * java.awt.image.WritableRaster java.awt.image.PackedColorModel.getAlphaRaster(java.awt.image.WritableRaster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

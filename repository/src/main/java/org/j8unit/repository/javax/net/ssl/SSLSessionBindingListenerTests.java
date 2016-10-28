@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import javax.net.ssl.SSLSessionBindingEvent;
 import javax.net.ssl.SSLSessionBindingListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SSLSessionBindingListener#valueUnbound(SSLSessionBindingEvent) public abstract void
-     * javax.net.ssl.SSLSessionBindingListener.valueUnbound(javax.net.ssl.SSLSessionBindingEvent)}.
+     * {@link javax.net.ssl.SSLSessionBindingListener#valueUnbound(javax.net.ssl.SSLSessionBindingEvent) public abstract
+     * void javax.net.ssl.SSLSessionBindingListener.valueUnbound(javax.net.ssl.SSLSessionBindingEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SSLSessionBindingListener#valueBound(SSLSessionBindingEvent) public abstract void
-     * javax.net.ssl.SSLSessionBindingListener.valueBound(javax.net.ssl.SSLSessionBindingEvent)}.
+     * {@link javax.net.ssl.SSLSessionBindingListener#valueBound(javax.net.ssl.SSLSessionBindingEvent) public abstract
+     * void javax.net.ssl.SSLSessionBindingListener.valueBound(javax.net.ssl.SSLSessionBindingEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

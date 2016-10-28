@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.accessibility;
 
-import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleStateSet#addAll(AccessibleState[]) public
-     * void javax.accessibility.AccessibleStateSet.addAll(javax.accessibility.AccessibleState[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleStateSet#addAll(javax.accessibility.AccessibleState[]) public void
+     * javax.accessibility.AccessibleStateSet.addAll(javax.accessibility.AccessibleState[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleStateSet#add(AccessibleState) public
-     * boolean javax.accessibility.AccessibleStateSet.add(javax.accessibility.AccessibleState)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleStateSet#add(javax.accessibility.AccessibleState) public boolean
+     * javax.accessibility.AccessibleStateSet.add(javax.accessibility.AccessibleState)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleStateSet#contains(AccessibleState) public
-     * boolean javax.accessibility.AccessibleStateSet.contains(javax.accessibility.AccessibleState)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleStateSet#contains(javax.accessibility.AccessibleState) public boolean
+     * javax.accessibility.AccessibleStateSet.contains(javax.accessibility.AccessibleState)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleStateSet#remove(AccessibleState) public
-     * boolean javax.accessibility.AccessibleStateSet.remove(javax.accessibility.AccessibleState)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleStateSet#remove(javax.accessibility.AccessibleState) public boolean
+     * javax.accessibility.AccessibleStateSet.remove(javax.accessibility.AccessibleState)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleStateSet#toArray() public
-     * javax.accessibility.AccessibleState[] javax.accessibility.AccessibleStateSet.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleStateSet#toArray()
+     * public javax.accessibility.AccessibleState[] javax.accessibility.AccessibleStateSet.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +148,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleStateSet#clear() public void
-     * javax.accessibility.AccessibleStateSet.clear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleStateSet#clear()
+     * public void javax.accessibility.AccessibleStateSet.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +170,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleStateSet#toString() public
-     * java.lang.String javax.accessibility.AccessibleStateSet.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleStateSet#toString()
+     * public java.lang.String javax.accessibility.AccessibleStateSet.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

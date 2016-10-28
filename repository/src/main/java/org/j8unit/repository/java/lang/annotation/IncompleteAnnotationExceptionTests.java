@@ -34,9 +34,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IncompleteAnnotationException#annotationType()
-     * public java.lang.Class<? extends java.lang.annotation.Annotation>
-     * java.lang.annotation.IncompleteAnnotationException.annotationType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.annotation.IncompleteAnnotationException#annotationType() public java.lang.Class<? extends
+     * java.lang.annotation.Annotation> java.lang.annotation.IncompleteAnnotationException.annotationType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IncompleteAnnotationException#elementName() public
-     * java.lang.String java.lang.annotation.IncompleteAnnotationException.elementName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.annotation.IncompleteAnnotationException#elementName() public java.lang.String
+     * java.lang.annotation.IncompleteAnnotationException.elementName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

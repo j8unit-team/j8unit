@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessingInstruction#getTarget() public abstract
-     * java.lang.String javax.xml.stream.events.ProcessingInstruction.getTarget()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.ProcessingInstruction#getTarget() public abstract java.lang.String
+     * javax.xml.stream.events.ProcessingInstruction.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessingInstruction#getData() public abstract
-     * java.lang.String javax.xml.stream.events.ProcessingInstruction.getData()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.ProcessingInstruction#getData() public abstract java.lang.String
+     * javax.xml.stream.events.ProcessingInstruction.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrivilegedActionException#getException() public
-     * java.lang.Exception java.security.PrivilegedActionException.getException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.PrivilegedActionException#getException() public java.lang.Exception
+     * java.security.PrivilegedActionException.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrivilegedActionException#toString() public
-     * java.lang.String java.security.PrivilegedActionException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PrivilegedActionException#toString()
+     * public java.lang.String java.security.PrivilegedActionException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrivilegedActionException#getCause() public
-     * java.lang.Throwable java.security.PrivilegedActionException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PrivilegedActionException#getCause()
+     * public java.lang.Throwable java.security.PrivilegedActionException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

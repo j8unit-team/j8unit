@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.Menu;
 import java.awt.peer.MenuBarPeer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.MenuComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBarPeer#delMenu(int) public abstract void
-     * java.awt.peer.MenuBarPeer.delMenu(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.MenuBarPeer#delMenu(int) public
+     * abstract void java.awt.peer.MenuBarPeer.delMenu(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.awt.peer.MenuComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBarPeer#addMenu(Menu) public abstract void
-     * java.awt.peer.MenuBarPeer.addMenu(java.awt.Menu)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.MenuBarPeer#addMenu(java.awt.Menu)
+     * public abstract void java.awt.peer.MenuBarPeer.addMenu(java.awt.Menu)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.awt.peer.MenuComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBarPeer#addHelpMenu(Menu) public abstract void
-     * java.awt.peer.MenuBarPeer.addHelpMenu(java.awt.Menu)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.MenuBarPeer#addHelpMenu(java.awt.Menu)
+     * public abstract void java.awt.peer.MenuBarPeer.addHelpMenu(java.awt.Menu)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

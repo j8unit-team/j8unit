@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 import org.w3c.dom.traversal.TreeWalker;
 
 /**
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#setCurrentNode(Node) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.traversal.TreeWalker#setCurrentNode(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.traversal.TreeWalker.setCurrentNode(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#lastChild() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.lastChild()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#lastChild() public
+     * abstract org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.lastChild()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#firstChild() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.firstChild()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#firstChild() public
+     * abstract org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.firstChild()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#nextNode() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.nextNode()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#nextNode() public
+     * abstract org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.nextNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#getFilter() public abstract
-     * org.w3c.dom.traversal.NodeFilter org.w3c.dom.traversal.TreeWalker.getFilter()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#getFilter() public
+     * abstract org.w3c.dom.traversal.NodeFilter org.w3c.dom.traversal.TreeWalker.getFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#getWhatToShow() public abstract int
-     * org.w3c.dom.traversal.TreeWalker.getWhatToShow()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#getWhatToShow()
+     * public abstract int org.w3c.dom.traversal.TreeWalker.getWhatToShow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#previousNode() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.previousNode()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#previousNode()
+     * public abstract org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.previousNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#getExpandEntityReferences() public
-     * abstract boolean org.w3c.dom.traversal.TreeWalker.getExpandEntityReferences()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.traversal.TreeWalker#getExpandEntityReferences() public abstract boolean
+     * org.w3c.dom.traversal.TreeWalker.getExpandEntityReferences()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +213,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#getCurrentNode() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.getCurrentNode()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#getCurrentNode()
+     * public abstract org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.getCurrentNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +235,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#getRoot() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.getRoot()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#getRoot() public
+     * abstract org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.getRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +257,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#previousSibling() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.previousSibling()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#previousSibling()
+     * public abstract org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.previousSibling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +279,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#parentNode() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.parentNode()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#parentNode() public
+     * abstract org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.parentNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,8 +301,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeWalker#nextSibling() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.nextSibling()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.TreeWalker#nextSibling()
+     * public abstract org.w3c.dom.Node org.w3c.dom.traversal.TreeWalker.nextSibling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

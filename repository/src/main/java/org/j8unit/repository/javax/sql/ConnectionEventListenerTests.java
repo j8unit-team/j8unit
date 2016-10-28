@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql;
 
-import javax.sql.ConnectionEvent;
 import javax.sql.ConnectionEventListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConnectionEventListener#connectionClosed(ConnectionEvent) public abstract void
+     * {@link javax.sql.ConnectionEventListener#connectionClosed(javax.sql.ConnectionEvent) public abstract void
      * javax.sql.ConnectionEventListener.connectionClosed(javax.sql.ConnectionEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConnectionEventListener#connectionErrorOccurred(ConnectionEvent) public abstract void
+     * {@link javax.sql.ConnectionEventListener#connectionErrorOccurred(javax.sql.ConnectionEvent) public abstract void
      * javax.sql.ConnectionEventListener.connectionErrorOccurred(javax.sql.ConnectionEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotFoundReason#from_int(int) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundReason#from_int(int) public static
      * org.omg.CosNaming.NamingContextPackage.NotFoundReason
      * org.omg.CosNaming.NamingContextPackage.NotFoundReason.from_int(int)}.
      *
@@ -37,7 +38,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     @Category(Draft.class)
     public void test_from_int_int()
     throws Exception {
-        // write some test for {@link NotFoundReason#from_int(int)}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.NotFoundReason#from_int(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFoundReason]

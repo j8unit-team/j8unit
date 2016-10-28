@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.imageio.plugins.jpeg;
 
-import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
 import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
-import javax.imageio.plugins.jpeg.JPEGQTable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageWriteParam#getDCHuffmanTables() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getDCHuffmanTables() public
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable[]
      * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getDCHuffmanTables()}.
      *
@@ -59,7 +58,8 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageWriteParam#areTablesSet() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#areTablesSet() public boolean
      * javax.imageio.plugins.jpeg.JPEGImageWriteParam.areTablesSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +81,9 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageWriteParam#isCompressionLossless() public
-     * boolean javax.imageio.plugins.jpeg.JPEGImageWriteParam.isCompressionLossless()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#isCompressionLossless() public boolean
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.isCompressionLossless()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +105,31 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageWriteParam#unsetCompression() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getOptimizeHuffmanTables() public boolean
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getOptimizeHuffmanTables()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOptimizeHuffmanTables()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#unsetCompression() public void
      * javax.imageio.plugins.jpeg.JPEGImageWriteParam.unsetCompression()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,29 +152,8 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageWriteParam#getOptimizeHuffmanTables()
-     * public boolean javax.imageio.plugins.jpeg.JPEGImageWriteParam.getOptimizeHuffmanTables()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOptimizeHuffmanTables()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageWriteParam#unsetEncodeTables() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#unsetEncodeTables() public void
      * javax.imageio.plugins.jpeg.JPEGImageWriteParam.unsetEncodeTables()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,8 +176,8 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JPEGImageWriteParam#getCompressionQualityDescriptions() public java.lang.String[]
-     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getCompressionQualityDescriptions()}.
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getCompressionQualityDescriptions() public
+     * java.lang.String[] javax.imageio.plugins.jpeg.JPEGImageWriteParam.getCompressionQualityDescriptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,7 +199,8 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageWriteParam#getACHuffmanTables() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getACHuffmanTables() public
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable[]
      * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getACHuffmanTables()}.
      *
@@ -218,31 +223,9 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageWriteParam#getCompressionQualityValues()
-     * public float[] javax.imageio.plugins.jpeg.JPEGImageWriteParam.getCompressionQualityValues()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getCompressionQualityValues()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageWriteParam#getQTables() public
-     * javax.imageio.plugins.jpeg.JPEGQTable[] javax.imageio.plugins.jpeg.JPEGImageWriteParam.getQTables()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getQTables() public javax.imageio.plugins.jpeg.JPEGQTable[]
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getQTables()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -264,7 +247,32 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JPEGImageWriteParam#setEncodeTables(JPEGQTable[], JPEGHuffmanTable[], JPEGHuffmanTable[]) public void
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getCompressionQualityValues() public float[]
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getCompressionQualityValues()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getCompressionQualityValues()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#setEncodeTables(javax.imageio.plugins.jpeg.JPEGQTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[])
+     * public void
      * javax.imageio.plugins.jpeg.JPEGImageWriteParam.setEncodeTables(javax.imageio.plugins.jpeg.JPEGQTable[],javax.imageio.plugins.jpeg.JPEGHuffmanTable[],javax.imageio.plugins.jpeg.JPEGHuffmanTable[])}
      * .
      *
@@ -288,7 +296,7 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JPEGImageWriteParam#setOptimizeHuffmanTables(boolean) public void
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#setOptimizeHuffmanTables(boolean) public void
      * javax.imageio.plugins.jpeg.JPEGImageWriteParam.setOptimizeHuffmanTables(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

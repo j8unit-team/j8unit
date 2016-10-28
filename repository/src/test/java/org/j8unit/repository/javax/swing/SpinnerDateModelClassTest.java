@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.util.Date;
 import javax.swing.SpinnerDateModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.swing.SpinnerDateModelClassTests<SpinnerD
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SpinnerDateModel#SpinnerDateModel() public
-     * javax.swing.SpinnerDateModel()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.SpinnerDateModel#SpinnerDateModel()
+     * public javax.swing.SpinnerDateModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.javax.swing.SpinnerDateModelClassTests<SpinnerD
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SpinnerDateModel#SpinnerDateModel(Date, Comparable, Comparable, int) public
+     * {@link javax.swing.SpinnerDateModel#SpinnerDateModel(java.util.Date, Comparable, Comparable, int) public
      * javax.swing.SpinnerDateModel(java.util.Date,java.lang.Comparable,java.lang.Comparable,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.javax.swing.SpinnerDateModelClassTests<SpinnerD
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SpinnerDateModel sut = null; // = new SpinnerDateModel(Date, Comparable, Comparable, int);
+        final SpinnerDateModel sut = null; // = new SpinnerDateModel(java.util.Date, Comparable, Comparable, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpinnerDateModel]

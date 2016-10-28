@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getLockOwnerName() public
-     * java.lang.String java.lang.management.ThreadInfo.getLockOwnerName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getLockOwnerName()
+     * public java.lang.String java.lang.management.ThreadInfo.getLockOwnerName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getThreadState() public
-     * java.lang.Thread$State java.lang.management.ThreadInfo.getThreadState()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getThreadState()
+     * public java.lang.Thread$State java.lang.management.ThreadInfo.getThreadState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getThreadName() public java.lang.String
-     * java.lang.management.ThreadInfo.getThreadName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getThreadName()
+     * public java.lang.String java.lang.management.ThreadInfo.getThreadName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getWaitedTime() public long
-     * java.lang.management.ThreadInfo.getWaitedTime()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getWaitedTime()
+     * public long java.lang.management.ThreadInfo.getWaitedTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getWaitedCount() public long
-     * java.lang.management.ThreadInfo.getWaitedCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getWaitedCount()
+     * public long java.lang.management.ThreadInfo.getWaitedCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getThreadId() public long
-     * java.lang.management.ThreadInfo.getThreadId()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getThreadId() public
+     * long java.lang.management.ThreadInfo.getThreadId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +166,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getLockOwnerId() public long
-     * java.lang.management.ThreadInfo.getLockOwnerId()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getLockOwnerId()
+     * public long java.lang.management.ThreadInfo.getLockOwnerId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +188,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getStackTrace() public
-     * java.lang.StackTraceElement[] java.lang.management.ThreadInfo.getStackTrace()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getStackTrace()
+     * public java.lang.StackTraceElement[] java.lang.management.ThreadInfo.getStackTrace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +210,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#toString() public java.lang.String
-     * java.lang.management.ThreadInfo.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#toString() public
+     * java.lang.String java.lang.management.ThreadInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +233,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getLockedSynchronizers() public
-     * java.lang.management.LockInfo[] java.lang.management.ThreadInfo.getLockedSynchronizers()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadInfo#getLockedSynchronizers() public java.lang.management.LockInfo[]
+     * java.lang.management.ThreadInfo.getLockedSynchronizers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +256,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getBlockedTime() public long
-     * java.lang.management.ThreadInfo.getBlockedTime()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getBlockedTime()
+     * public long java.lang.management.ThreadInfo.getBlockedTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +278,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#isSuspended() public boolean
-     * java.lang.management.ThreadInfo.isSuspended()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#isSuspended() public
+     * boolean java.lang.management.ThreadInfo.isSuspended()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,8 +300,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getBlockedCount() public long
-     * java.lang.management.ThreadInfo.getBlockedCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getBlockedCount()
+     * public long java.lang.management.ThreadInfo.getBlockedCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,8 +322,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#isInNative() public boolean
-     * java.lang.management.ThreadInfo.isInNative()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#isInNative() public
+     * boolean java.lang.management.ThreadInfo.isInNative()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -343,8 +344,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getLockedMonitors() public
-     * java.lang.management.MonitorInfo[] java.lang.management.ThreadInfo.getLockedMonitors()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getLockedMonitors()
+     * public java.lang.management.MonitorInfo[] java.lang.management.ThreadInfo.getLockedMonitors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -365,8 +366,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getLockName() public java.lang.String
-     * java.lang.management.ThreadInfo.getLockName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getLockName() public
+     * java.lang.String java.lang.management.ThreadInfo.getLockName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -387,7 +388,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#getLockInfo() public
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadInfo#getLockInfo() public
      * java.lang.management.LockInfo java.lang.management.ThreadInfo.getLockInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

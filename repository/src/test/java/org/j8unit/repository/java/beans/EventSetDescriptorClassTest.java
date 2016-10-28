@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.beans;
 
 import java.beans.EventSetDescriptor;
-import java.beans.MethodDescriptor;
-import java.lang.reflect.Method;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.beans.EventSetDescriptorClassTests<EventSe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EventSetDescriptor#EventSetDescriptor(String, Class, Method[], Method, Method) public
-     * java.beans.EventSetDescriptor(java.lang.String,java.lang.Class
+     * {@link java.beans.EventSetDescriptor#EventSetDescriptor(String, Class, java.lang.reflect.Method[], java.lang.reflect.Method, java.lang.reflect.Method)
+     * public java.beans.EventSetDescriptor(java.lang.String,java.lang.Class
      * <?>,java.lang.reflect.Method[],java.lang.reflect.Method,java.lang.reflect.Method) throws
      * java.beans.IntrospectionException}.
      *
@@ -43,14 +41,15 @@ implements org.j8unit.repository.java.beans.EventSetDescriptorClassTests<EventSe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final EventSetDescriptor sut = null; // = new EventSetDescriptor(String, Class, Method[], Method, Method);
+        final EventSetDescriptor sut = null; // = new EventSetDescriptor(String, Class, java.lang.reflect.Method[],
+                                             // java.lang.reflect.Method, java.lang.reflect.Method);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EventSetDescriptor#EventSetDescriptor(String, Class, Method[], Method, Method, Method) public
-     * java.beans.EventSetDescriptor(java.lang.String,java.lang.Class
+     * {@link java.beans.EventSetDescriptor#EventSetDescriptor(String, Class, java.lang.reflect.Method[], java.lang.reflect.Method, java.lang.reflect.Method, java.lang.reflect.Method)
+     * public java.beans.EventSetDescriptor(java.lang.String,java.lang.Class
      * <?>,java.lang.reflect.Method[],java.lang.reflect.Method,java.lang.reflect.Method,java.lang.reflect.Method) throws
      * java.beans.IntrospectionException}.
      *
@@ -68,15 +67,16 @@ implements org.j8unit.repository.java.beans.EventSetDescriptorClassTests<EventSe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final EventSetDescriptor sut = null; // = new EventSetDescriptor(String, Class, Method[], Method, Method,
-                                             // Method);
+        final EventSetDescriptor sut = null; // = new EventSetDescriptor(String, Class, java.lang.reflect.Method[],
+                                             // java.lang.reflect.Method, java.lang.reflect.Method,
+                                             // java.lang.reflect.Method);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EventSetDescriptor#EventSetDescriptor(String, Class, MethodDescriptor[], Method, Method) public
-     * java.beans.EventSetDescriptor(java.lang.String,java.lang.Class
+     * {@link java.beans.EventSetDescriptor#EventSetDescriptor(String, Class, java.beans.MethodDescriptor[], java.lang.reflect.Method, java.lang.reflect.Method)
+     * public java.beans.EventSetDescriptor(java.lang.String,java.lang.Class
      * <?>,java.beans.MethodDescriptor[],java.lang.reflect.Method,java.lang.reflect.Method) throws
      * java.beans.IntrospectionException}.
      *
@@ -94,14 +94,14 @@ implements org.j8unit.repository.java.beans.EventSetDescriptorClassTests<EventSe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final EventSetDescriptor sut = null; // = new EventSetDescriptor(String, Class, MethodDescriptor[], Method,
-                                             // Method);
+        final EventSetDescriptor sut = null; // = new EventSetDescriptor(String, Class, java.beans.MethodDescriptor[],
+                                             // java.lang.reflect.Method, java.lang.reflect.Method);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EventSetDescriptor#EventSetDescriptor(Class, String, Class, String) public
+     * {@link java.beans.EventSetDescriptor#EventSetDescriptor(Class, String, Class, String) public
      * java.beans.EventSetDescriptor(java.lang.Class<?>,java.lang.String,java.lang.Class<?>,java.lang.String) throws
      * java.beans.IntrospectionException}.
      *
@@ -125,7 +125,7 @@ implements org.j8unit.repository.java.beans.EventSetDescriptorClassTests<EventSe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EventSetDescriptor#EventSetDescriptor(Class, String, Class, String[], String, String) public
+     * {@link java.beans.EventSetDescriptor#EventSetDescriptor(Class, String, Class, String[], String, String) public
      * java.beans.EventSetDescriptor(java.lang.Class<?>,java.lang.String,java.lang.Class
      * <?>,java.lang.String[],java.lang.String,java.lang.String) throws java.beans.IntrospectionException}.
      *
@@ -150,8 +150,8 @@ implements org.j8unit.repository.java.beans.EventSetDescriptorClassTests<EventSe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EventSetDescriptor#EventSetDescriptor(Class, String, Class, String[], String, String, String) public
-     * java.beans.EventSetDescriptor(java.lang.Class<?>,java.lang.String,java.lang.Class
+     * {@link java.beans.EventSetDescriptor#EventSetDescriptor(Class, String, Class, String[], String, String, String)
+     * public java.beans.EventSetDescriptor(java.lang.Class<?>,java.lang.String,java.lang.Class
      * <?>,java.lang.String[],java.lang.String,java.lang.String,java.lang.String) throws
      * java.beans.IntrospectionException}.
      *

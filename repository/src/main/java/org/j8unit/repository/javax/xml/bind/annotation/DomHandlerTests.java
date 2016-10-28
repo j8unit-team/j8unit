@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind.annotation;
 
-import javax.xml.bind.ValidationEventHandler;
 import javax.xml.bind.annotation.DomHandler;
 import javax.xml.transform.Result;
 import org.j8unit.repository.RepositoryTests;
@@ -37,8 +36,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DomHandler#marshal(Object, ValidationEventHandler)
-     * public abstract javax.xml.transform.Source
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.DomHandler#marshal(Object, javax.xml.bind.ValidationEventHandler) public
+     * abstract javax.xml.transform.Source
      * javax.xml.bind.annotation.DomHandler.marshal(ElementT,javax.xml.bind.ValidationEventHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +60,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DomHandler#getElement(Result) public abstract
-     * ElementT javax.xml.bind.annotation.DomHandler.getElement(ResultT)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.DomHandler#getElement(javax.xml.transform.Result) public abstract ElementT
+     * javax.xml.bind.annotation.DomHandler.getElement(ResultT)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +84,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DomHandler#createUnmarshaller(ValidationEventHandler) public abstract ResultT
-     * javax.xml.bind.annotation.DomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
+     * {@link javax.xml.bind.annotation.DomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
+     * abstract ResultT javax.xml.bind.annotation.DomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

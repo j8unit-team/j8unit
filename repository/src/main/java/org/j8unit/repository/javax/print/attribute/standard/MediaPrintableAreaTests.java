@@ -35,9 +35,9 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#getCategory() public final
-     * java.lang.Class<? extends javax.print.attribute.Attribute>
-     * javax.print.attribute.standard.MediaPrintableArea.getCategory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#getCategory() public final java.lang.Class<? extends
+     * javax.print.attribute.Attribute> javax.print.attribute.standard.MediaPrintableArea.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +59,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#getWidth(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#getWidth(int) public float
      * javax.print.attribute.standard.MediaPrintableArea.getWidth(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +82,9 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#toString(int, String) public
-     * java.lang.String javax.print.attribute.standard.MediaPrintableArea.toString(int,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#toString(int, String) public java.lang.String
+     * javax.print.attribute.standard.MediaPrintableArea.toString(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +105,9 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#toString() public
-     * java.lang.String javax.print.attribute.standard.MediaPrintableArea.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#toString() public java.lang.String
+     * javax.print.attribute.standard.MediaPrintableArea.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +129,9 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#getPrintableArea(int) public
-     * float[] javax.print.attribute.standard.MediaPrintableArea.getPrintableArea(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#getPrintableArea(int) public float[]
+     * javax.print.attribute.standard.MediaPrintableArea.getPrintableArea(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +152,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#equals(Object) public boolean
      * javax.print.attribute.standard.MediaPrintableArea.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +176,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#hashCode() public int
      * javax.print.attribute.standard.MediaPrintableArea.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,7 +200,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#getY(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#getY(int) public float
      * javax.print.attribute.standard.MediaPrintableArea.getY(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,8 +223,9 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#getName() public final
-     * java.lang.String javax.print.attribute.standard.MediaPrintableArea.getName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#getName() public final java.lang.String
+     * javax.print.attribute.standard.MediaPrintableArea.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,7 +247,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#getX(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#getX(int) public float
      * javax.print.attribute.standard.MediaPrintableArea.getX(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,7 +270,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MediaPrintableArea#getHeight(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.MediaPrintableArea#getHeight(int) public float
      * javax.print.attribute.standard.MediaPrintableArea.getHeight(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.xml.soap;
 
 import javax.xml.soap.Node;
-import javax.xml.soap.SOAPElement;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#recycleNode() public abstract void
-     * javax.xml.soap.Node.recycleNode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Node#recycleNode() public abstract
+     * void javax.xml.soap.Node.recycleNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getParentElement() public abstract
-     * javax.xml.soap.SOAPElement javax.xml.soap.Node.getParentElement()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Node#getParentElement() public
+     * abstract javax.xml.soap.SOAPElement javax.xml.soap.Node.getParentElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getValue() public abstract java.lang.String
-     * javax.xml.soap.Node.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Node#getValue() public abstract
+     * java.lang.String javax.xml.soap.Node.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#setValue(String) public abstract void
-     * javax.xml.soap.Node.setValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Node#setValue(String) public abstract
+     * void javax.xml.soap.Node.setValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +122,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#detachNode() public abstract void
-     * javax.xml.soap.Node.detachNode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Node#detachNode() public abstract
+     * void javax.xml.soap.Node.detachNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +144,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#setParentElement(SOAPElement) public abstract
-     * void javax.xml.soap.Node.setParentElement(javax.xml.soap.SOAPElement) throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.Node#setParentElement(javax.xml.soap.SOAPElement) public abstract void
+     * javax.xml.soap.Node.setParentElement(javax.xml.soap.SOAPElement) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.Attributes;
 import org.xml.sax.helpers.AttributesImpl;
 
 /**
@@ -35,7 +34,31 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getIndex(String, String) public int
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getIndex(String)
+     * public int org.xml.sax.helpers.AttributesImpl.getIndex(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getIndex_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#getIndex(String, String) public int
      * org.xml.sax.helpers.AttributesImpl.getIndex(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,30 +81,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getIndex(String) public int
-     * org.xml.sax.helpers.AttributesImpl.getIndex(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getIndex_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#setURI(int, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#setURI(int, String) public void
      * org.xml.sax.helpers.AttributesImpl.setURI(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +104,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#clear() public void
-     * org.xml.sax.helpers.AttributesImpl.clear()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#clear() public
+     * void org.xml.sax.helpers.AttributesImpl.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +126,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#setAttributes(Attributes) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#setAttributes(org.xml.sax.Attributes) public void
      * org.xml.sax.helpers.AttributesImpl.setAttributes(org.xml.sax.Attributes)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +149,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#setType(int, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#setType(int, String) public void
      * org.xml.sax.helpers.AttributesImpl.setType(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +172,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getValue(int) public java.lang.String
-     * org.xml.sax.helpers.AttributesImpl.getValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getValue(int)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +195,9 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getValue(String, String) public
-     * java.lang.String org.xml.sax.helpers.AttributesImpl.getValue(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#getValue(String, String) public java.lang.String
+     * org.xml.sax.helpers.AttributesImpl.getValue(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +219,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getValue(String) public
-     * java.lang.String org.xml.sax.helpers.AttributesImpl.getValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getValue(String)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,7 +243,7 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributesImpl#setAttribute(int, String, String, String, String, String) public void
+     * {@link org.xml.sax.helpers.AttributesImpl#setAttribute(int, String, String, String, String, String) public void
      * org.xml.sax.helpers.AttributesImpl.setAttribute(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
      * .
      *
@@ -262,7 +266,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#setQName(int, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#setQName(int, String) public void
      * org.xml.sax.helpers.AttributesImpl.setQName(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -284,8 +289,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getLocalName(int) public
-     * java.lang.String org.xml.sax.helpers.AttributesImpl.getLocalName(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getLocalName(int)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getLocalName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -308,7 +313,7 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributesImpl#addAttribute(String, String, String, String, String) public void
+     * {@link org.xml.sax.helpers.AttributesImpl#addAttribute(String, String, String, String, String) public void
      * org.xml.sax.helpers.AttributesImpl.addAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
      * .
      *
@@ -331,8 +336,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getType(int) public java.lang.String
-     * org.xml.sax.helpers.AttributesImpl.getType(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getType(int)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -354,8 +359,9 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getType(String, String) public
-     * java.lang.String org.xml.sax.helpers.AttributesImpl.getType(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#getType(String, String) public java.lang.String
+     * org.xml.sax.helpers.AttributesImpl.getType(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -377,8 +383,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getType(String) public
-     * java.lang.String org.xml.sax.helpers.AttributesImpl.getType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getType(String)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -400,7 +406,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#setValue(int, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#setValue(int, String) public void
      * org.xml.sax.helpers.AttributesImpl.setValue(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -422,8 +429,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getLength() public int
-     * org.xml.sax.helpers.AttributesImpl.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getLength()
+     * public int org.xml.sax.helpers.AttributesImpl.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -445,30 +452,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getQName(int) public java.lang.String
-     * org.xml.sax.helpers.AttributesImpl.getQName(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getQName_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#setLocalName(int, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#setLocalName(int, String) public void
      * org.xml.sax.helpers.AttributesImpl.setLocalName(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -490,7 +475,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#removeAttribute(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#removeAttribute(int) public void
      * org.xml.sax.helpers.AttributesImpl.removeAttribute(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -512,8 +498,31 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributesImpl#getURI(int) public java.lang.String
-     * org.xml.sax.helpers.AttributesImpl.getURI(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getQName(int)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getQName(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getQName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getURI(int)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getURI(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
 import javax.management.MBeanConstructorInfo;
-import javax.management.MBeanFeatureInfo;
-import javax.management.openmbean.OpenMBeanConstructorInfo;
 import javax.management.openmbean.OpenMBeanConstructorInfoSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +36,9 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanConstructorInfoSupport#toString() public
-     * java.lang.String javax.management.openmbean.OpenMBeanConstructorInfoSupport.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#toString() public java.lang.String
+     * javax.management.openmbean.OpenMBeanConstructorInfoSupport.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +60,9 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanConstructorInfoSupport#equals(Object)
-     * public boolean javax.management.openmbean.OpenMBeanConstructorInfoSupport.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#equals(Object) public boolean
+     * javax.management.openmbean.OpenMBeanConstructorInfoSupport.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +84,9 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanConstructorInfoSupport#hashCode() public
-     * int javax.management.openmbean.OpenMBeanConstructorInfoSupport.hashCode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#hashCode() public int
+     * javax.management.openmbean.OpenMBeanConstructorInfoSupport.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,9 +112,10 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link OpenMBeanConstructorInfo#getName() interface javax.management.openmbean.OpenMBeanConstructorInfo}</li>
-     * <li>{@link MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent node(s)
-     * {@link MBeanConstructorInfo MBeanConstructorInfo})</li>
+     * <li>{@link javax.management.openmbean.OpenMBeanConstructorInfo#getName() interface
+     * javax.management.openmbean.OpenMBeanConstructorInfo}</li>
+     * <li>{@link javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent
+     * node(s) {@link MBeanConstructorInfo MBeanConstructorInfo})</li>
      * </ul>
      *
      * <p>
@@ -140,10 +142,10 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link OpenMBeanConstructorInfo#getDescription() interface
+     * <li>{@link javax.management.openmbean.OpenMBeanConstructorInfo#getDescription() interface
      * javax.management.openmbean.OpenMBeanConstructorInfo}</li>
-     * <li>{@link MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via parent node(s)
-     * {@link MBeanConstructorInfo MBeanConstructorInfo})</li>
+     * <li>{@link javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via
+     * parent node(s) {@link MBeanConstructorInfo MBeanConstructorInfo})</li>
      * </ul>
      *
      * <p>
@@ -170,9 +172,9 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MBeanConstructorInfo#getSignature() class javax.management.MBeanConstructorInfo}</li>
-     * <li>{@link OpenMBeanConstructorInfo#getSignature() interface javax.management.openmbean.OpenMBeanConstructorInfo}
-     * </li>
+     * <li>{@link javax.management.openmbean.OpenMBeanConstructorInfo#getSignature() interface
+     * javax.management.openmbean.OpenMBeanConstructorInfo}</li>
+     * <li>{@link javax.management.MBeanConstructorInfo#getSignature() class javax.management.MBeanConstructorInfo}</li>
      * </ul>
      *
      * <p>
@@ -189,8 +191,8 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
     @Category(Draft.class)
     public default void test_getSignature()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanConstructorInfoTests.super.test_getSignature();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanConstructorInfoTests.super.test_getSignature();
+        org.j8unit.repository.javax.management.MBeanConstructorInfoTests.super.test_getSignature();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanConstructorInfoSupport]

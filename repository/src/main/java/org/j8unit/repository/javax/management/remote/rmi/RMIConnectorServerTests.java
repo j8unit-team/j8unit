@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
-import java.util.Map;
-import javax.management.remote.MBeanServerForwarder;
 import javax.management.remote.rmi.RMIConnectorServer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RMIConnectorServer#setMBeanServerForwarder(MBeanServerForwarder) public synchronized void
+     * {@link javax.management.remote.rmi.RMIConnectorServer#setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)
+     * public synchronized void
      * javax.management.remote.rmi.RMIConnectorServer.setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)}
      * .
      *
@@ -61,8 +60,9 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIConnectorServer#getAttributes() public
-     * java.util.Map<java.lang.String, ?> javax.management.remote.rmi.RMIConnectorServer.getAttributes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIConnectorServer#getAttributes() public java.util.Map<java.lang.String, ?>
+     * javax.management.remote.rmi.RMIConnectorServer.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +84,8 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIConnectorServer#stop() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIConnectorServer#stop() public void
      * javax.management.remote.rmi.RMIConnectorServer.stop() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,7 +108,8 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIConnectorServer#start() public synchronized void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIConnectorServer#start() public synchronized void
      * javax.management.remote.rmi.RMIConnectorServer.start() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,8 +132,9 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIConnectorServer#getAddress() public
-     * javax.management.remote.JMXServiceURL javax.management.remote.rmi.RMIConnectorServer.getAddress()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIConnectorServer#getAddress() public javax.management.remote.JMXServiceURL
+     * javax.management.remote.rmi.RMIConnectorServer.getAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +156,9 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIConnectorServer#isActive() public synchronized
-     * boolean javax.management.remote.rmi.RMIConnectorServer.isActive()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIConnectorServer#isActive() public synchronized boolean
+     * javax.management.remote.rmi.RMIConnectorServer.isActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,7 +180,8 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIConnectorServer#toJMXConnector(Map) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIConnectorServer#toJMXConnector(java.util.Map) public
      * javax.management.remote.JMXConnector
      * javax.management.remote.rmi.RMIConnectorServer.toJMXConnector(java.util.Map<java.lang.String, ?>) throws
      * java.io.IOException}.

@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.portable.ValueFactory;
 import org.omg.CORBA_2_3.ORB;
 
 /**
@@ -35,7 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORB#unregister_value_factory(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA_2_3.ORB#unregister_value_factory(String) public void
      * org.omg.CORBA_2_3.ORB.unregister_value_factory(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORB#lookup_value_factory(String) public
-     * org.omg.CORBA.portable.ValueFactory org.omg.CORBA_2_3.ORB.lookup_value_factory(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA_2_3.ORB#lookup_value_factory(String)
+     * public org.omg.CORBA.portable.ValueFactory org.omg.CORBA_2_3.ORB.lookup_value_factory(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORB#get_value_def(String) public
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA_2_3.ORB#get_value_def(String) public
      * org.omg.CORBA.Object org.omg.CORBA_2_3.ORB.get_value_def(java.lang.String) throws org.omg.CORBA.BAD_PARAM}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORB#set_delegate(Object) public void
-     * org.omg.CORBA_2_3.ORB.set_delegate(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA_2_3.ORB#set_delegate(Object) public
+     * void org.omg.CORBA_2_3.ORB.set_delegate(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,9 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORB#register_value_factory(String, ValueFactory)
-     * public org.omg.CORBA.portable.ValueFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA_2_3.ORB#register_value_factory(String, org.omg.CORBA.portable.ValueFactory) public
+     * org.omg.CORBA.portable.ValueFactory
      * org.omg.CORBA_2_3.ORB.register_value_factory(java.lang.String,org.omg.CORBA.portable.ValueFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

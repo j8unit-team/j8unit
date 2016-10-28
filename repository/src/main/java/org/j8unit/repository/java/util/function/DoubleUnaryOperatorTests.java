@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleUnaryOperator#andThen(DoubleUnaryOperator)
-     * public default java.util.function.DoubleUnaryOperator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.DoubleUnaryOperator#andThen(java.util.function.DoubleUnaryOperator) public default
+     * java.util.function.DoubleUnaryOperator
      * java.util.function.DoubleUnaryOperator.andThen(java.util.function.DoubleUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +59,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleUnaryOperator#applyAsDouble(double) public
-     * abstract double java.util.function.DoubleUnaryOperator.applyAsDouble(double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.DoubleUnaryOperator#applyAsDouble(double) public abstract double
+     * java.util.function.DoubleUnaryOperator.applyAsDouble(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleUnaryOperator#compose(DoubleUnaryOperator)
-     * public default java.util.function.DoubleUnaryOperator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.DoubleUnaryOperator#compose(java.util.function.DoubleUnaryOperator) public default
+     * java.util.function.DoubleUnaryOperator
      * java.util.function.DoubleUnaryOperator.compose(java.util.function.DoubleUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

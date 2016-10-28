@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.event.MouseEvent;
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicDesktopIconUI;
 import javax.swing.plaf.basic.BasicDesktopIconUI.MouseInputHandler;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,9 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDesktopIconUI#uninstallUI(JComponent) public
-     * void javax.swing.plaf.basic.BasicDesktopIconUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDesktopIconUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicDesktopIconUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,9 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDesktopIconUI#getInsets(JComponent) public
-     * java.awt.Insets javax.swing.plaf.basic.BasicDesktopIconUI.getInsets(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDesktopIconUI#getInsets(javax.swing.JComponent) public java.awt.Insets
+     * javax.swing.plaf.basic.BasicDesktopIconUI.getInsets(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +82,8 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDesktopIconUI#deiconize() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDesktopIconUI#deiconize() public void
      * javax.swing.plaf.basic.BasicDesktopIconUI.deiconize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +105,9 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDesktopIconUI#getPreferredSize(JComponent)
-     * public java.awt.Dimension javax.swing.plaf.basic.BasicDesktopIconUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDesktopIconUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicDesktopIconUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +129,8 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDesktopIconUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDesktopIconUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicDesktopIconUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +153,9 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDesktopIconUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicDesktopIconUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDesktopIconUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicDesktopIconUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +177,9 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDesktopIconUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicDesktopIconUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDesktopIconUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicDesktopIconUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,7 +229,8 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mouseReleased(MouseEvent)
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicDesktopIconUI.MouseInputHandler#mouseReleased(java.awt.event.MouseEvent)
          * public void
          * javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler.mouseReleased(java.awt.event.MouseEvent)}.
          *
@@ -248,7 +254,8 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mouseDragged(MouseEvent)
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicDesktopIconUI.MouseInputHandler#mouseDragged(java.awt.event.MouseEvent)
          * public void
          * javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler.mouseDragged(java.awt.event.MouseEvent)}.
          *
@@ -273,7 +280,8 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link MouseInputHandler#moveAndRepaint(JComponent, int, int, int, int) public void
+         * {@link javax.swing.plaf.basic.BasicDesktopIconUI.MouseInputHandler#moveAndRepaint(javax.swing.JComponent, int, int, int, int)
+         * public void
          * javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler.moveAndRepaint(javax.swing.JComponent,int,int,int,int)}
          * .
          *
@@ -296,7 +304,8 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mousePressed(MouseEvent)
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicDesktopIconUI.MouseInputHandler#mousePressed(java.awt.event.MouseEvent)
          * public void
          * javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler.mousePressed(java.awt.event.MouseEvent)}.
          *
@@ -320,8 +329,10 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MouseInputHandler#mouseMoved(MouseEvent) public
-         * void javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler.mouseMoved(java.awt.event.MouseEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicDesktopIconUI.MouseInputHandler#mouseMoved(java.awt.event.MouseEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler.mouseMoved(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

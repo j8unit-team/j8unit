@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 import org.w3c.dom.traversal.NodeFilter;
 
 /**
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeFilter#acceptNode(Node) public abstract short
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.traversal.NodeFilter#acceptNode(org.w3c.dom.Node) public abstract short
      * org.w3c.dom.traversal.NodeFilter.acceptNode(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

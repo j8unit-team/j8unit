@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.security.acl;
 
-import java.security.Principal;
 import java.security.acl.Acl;
-import java.security.acl.AclEntry;
-import java.security.acl.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Acl#toString() public abstract java.lang.String
-     * java.security.acl.Acl.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.Acl#toString() public abstract
+     * java.lang.String java.security.acl.Acl.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +56,8 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Acl#entries() public abstract java.util.Enumeration
-     * <java.security.acl.AclEntry> java.security.acl.Acl.entries()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.Acl#entries() public abstract
+     * java.util.Enumeration<java.security.acl.AclEntry> java.security.acl.Acl.entries()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +78,8 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Acl#getName() public abstract java.lang.String
-     * java.security.acl.Acl.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.Acl#getName() public abstract
+     * java.lang.String java.security.acl.Acl.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +100,8 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Acl#setName(Principal, String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Acl#setName(java.security.Principal, String) public abstract void
      * java.security.acl.Acl.setName(java.security.Principal,java.lang.String) throws
      * java.security.acl.NotOwnerException}.
      *
@@ -126,7 +124,8 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Acl#removeEntry(Principal, AclEntry) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Acl#removeEntry(java.security.Principal, java.security.acl.AclEntry) public abstract
      * boolean java.security.acl.Acl.removeEntry(java.security.Principal,java.security.acl.AclEntry) throws
      * java.security.acl.NotOwnerException}.
      *
@@ -149,7 +148,8 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Acl#checkPermission(Principal, Permission) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Acl#checkPermission(java.security.Principal, java.security.acl.Permission) public
      * abstract boolean java.security.acl.Acl.checkPermission(java.security.Principal,java.security.acl.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +171,8 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Acl#getPermissions(Principal) public abstract
-     * java.util.Enumeration
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Acl#getPermissions(java.security.Principal) public abstract java.util.Enumeration
      * <java.security.acl.Permission> java.security.acl.Acl.getPermissions(java.security.Principal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,7 +194,8 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Acl#addEntry(Principal, AclEntry) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Acl#addEntry(java.security.Principal, java.security.acl.AclEntry) public abstract
      * boolean java.security.acl.Acl.addEntry(java.security.Principal,java.security.acl.AclEntry) throws
      * java.security.acl.NotOwnerException}.
      *

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security;
 
-import java.security.Permission;
 import java.security.UnresolvedPermission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#getUnresolvedCerts() public
-     * java.security.cert.Certificate[] java.security.UnresolvedPermission.getUnresolvedCerts()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.UnresolvedPermission#getUnresolvedCerts() public java.security.cert.Certificate[]
+     * java.security.UnresolvedPermission.getUnresolvedCerts()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#newPermissionCollection()
-     * public java.security.PermissionCollection java.security.UnresolvedPermission.newPermissionCollection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.UnresolvedPermission#newPermissionCollection() public java.security.PermissionCollection
+     * java.security.UnresolvedPermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#equals(Object) public boolean
-     * java.security.UnresolvedPermission.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.UnresolvedPermission#equals(Object)
+     * public boolean java.security.UnresolvedPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#getUnresolvedActions() public
-     * java.lang.String java.security.UnresolvedPermission.getUnresolvedActions()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.UnresolvedPermission#getUnresolvedActions() public java.lang.String
+     * java.security.UnresolvedPermission.getUnresolvedActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +127,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#hashCode() public int
-     * java.security.UnresolvedPermission.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.UnresolvedPermission#hashCode() public
+     * int java.security.UnresolvedPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +150,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#getUnresolvedType() public
-     * java.lang.String java.security.UnresolvedPermission.getUnresolvedType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.UnresolvedPermission#getUnresolvedType() public java.lang.String
+     * java.security.UnresolvedPermission.getUnresolvedType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +173,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#getUnresolvedName() public
-     * java.lang.String java.security.UnresolvedPermission.getUnresolvedName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.UnresolvedPermission#getUnresolvedName() public java.lang.String
+     * java.security.UnresolvedPermission.getUnresolvedName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +196,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#implies(Permission) public
-     * boolean java.security.UnresolvedPermission.implies(java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.UnresolvedPermission#implies(java.security.Permission) public boolean
+     * java.security.UnresolvedPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +220,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#getActions() public
-     * java.lang.String java.security.UnresolvedPermission.getActions()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.UnresolvedPermission#getActions()
+     * public java.lang.String java.security.UnresolvedPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,7 +243,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnresolvedPermission#toString() public
+     * Test method for the hereby targeted method-under-test {@link java.security.UnresolvedPermission#toString() public
      * java.lang.String java.security.UnresolvedPermission.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import java.awt.Point;
-import javax.swing.JComponent;
 import javax.swing.plaf.multi.MultiTextUI;
-import javax.swing.text.JTextComponent;
-import javax.swing.text.Position.Bias;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#getUIs() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiTextUI#getUIs() public
      * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiTextUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +56,9 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTextUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiTextUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +81,32 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiTextUI#damageRange(JTextComponent, int, int, Bias, Bias) public void
+     * {@link javax.swing.plaf.multi.MultiTextUI#damageRange(javax.swing.text.JTextComponent, int, int) public void
+     * javax.swing.plaf.multi.MultiTextUI.damageRange(javax.swing.text.JTextComponent,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_damageRange_JTextComponent_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#damageRange(javax.swing.text.JTextComponent, int, int, javax.swing.text.Position.Bias, javax.swing.text.Position.Bias)
+     * public void
      * javax.swing.plaf.multi.MultiTextUI.damageRange(javax.swing.text.JTextComponent,int,int,javax.swing.text.Position$Bias,javax.swing.text.Position$Bias)}
      * .
      *
@@ -109,30 +130,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#damageRange(JTextComponent, int, int)
-     * public void javax.swing.plaf.multi.MultiTextUI.damageRange(javax.swing.text.JTextComponent,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_damageRange_JTextComponent_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#getEditorKit(JTextComponent) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#getEditorKit(javax.swing.text.JTextComponent) public
      * javax.swing.text.EditorKit javax.swing.plaf.multi.MultiTextUI.getEditorKit(javax.swing.text.JTextComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,7 +154,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#paint(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiTextUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -178,7 +178,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#update(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#update(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiTextUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,7 +202,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#modelToView(JTextComponent, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#modelToView(javax.swing.text.JTextComponent, int) public
      * java.awt.Rectangle javax.swing.plaf.multi.MultiTextUI.modelToView(javax.swing.text.JTextComponent,int) throws
      * javax.swing.text.BadLocationException}.
      *
@@ -225,7 +227,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#modelToView(JTextComponent, int, Bias)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#modelToView(javax.swing.text.JTextComponent, int, javax.swing.text.Position.Bias)
      * public java.awt.Rectangle
      * javax.swing.plaf.multi.MultiTextUI.modelToView(javax.swing.text.JTextComponent,int,javax.swing.text.Position$Bias)
      * throws javax.swing.text.BadLocationException}.
@@ -251,7 +254,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiTextUI#viewToModel(JTextComponent, Point, Bias[]) public int
+     * {@link javax.swing.plaf.multi.MultiTextUI#viewToModel(javax.swing.text.JTextComponent, java.awt.Point, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.plaf.multi.MultiTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point,javax.swing.text.Position$Bias[])}
      * .
      *
@@ -275,8 +279,9 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#viewToModel(JTextComponent, Point)
-     * public int javax.swing.plaf.multi.MultiTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#viewToModel(javax.swing.text.JTextComponent, java.awt.Point) public int
+     * javax.swing.plaf.multi.MultiTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,8 +303,9 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#contains(JComponent, int, int) public
-     * boolean javax.swing.plaf.multi.MultiTextUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiTextUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,7 +327,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#getRootView(JTextComponent) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#getRootView(javax.swing.text.JTextComponent) public
      * javax.swing.text.View javax.swing.plaf.multi.MultiTextUI.getRootView(javax.swing.text.JTextComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -344,7 +351,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiTextUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -367,8 +375,9 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTextUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiTextUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -390,9 +399,10 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
-     * javax.swing.plaf.multi.MultiTextUI.getAccessibleChild(javax.swing.JComponent,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible javax.swing.plaf.multi.MultiTextUI.getAccessibleChild(javax.swing.JComponent,int)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -414,8 +424,9 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTextUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiTextUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -437,7 +448,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiTextUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -461,7 +473,8 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiTextUI#getNextVisualPositionFrom(JTextComponent, int, Bias, int, Bias[]) public int
+     * {@link javax.swing.plaf.multi.MultiTextUI#getNextVisualPositionFrom(javax.swing.text.JTextComponent, int, javax.swing.text.Position.Bias, int, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.plaf.multi.MultiTextUI.getNextVisualPositionFrom(javax.swing.text.JTextComponent,int,javax.swing.text.Position$Bias,int,javax.swing.text.Position$Bias[])
      * throws javax.swing.text.BadLocationException}.
      *
@@ -485,8 +498,9 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#getAccessibleChildrenCount(JComponent)
-     * public int javax.swing.plaf.multi.MultiTextUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
+     * javax.swing.plaf.multi.MultiTextUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -508,8 +522,9 @@ extends org.j8unit.repository.javax.swing.plaf.TextUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTextUI#getToolTipText(JTextComponent, Point)
-     * public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTextUI#getToolTipText(javax.swing.text.JTextComponent, java.awt.Point) public
+     * java.lang.String
      * javax.swing.plaf.multi.MultiTextUI.getToolTipText(javax.swing.text.JTextComponent,java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

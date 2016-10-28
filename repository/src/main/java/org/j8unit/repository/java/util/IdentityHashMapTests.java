@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.IdentityHashMap;
-import java.util.Map;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +35,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#values() public java.util.Collection
-     * <V> java.util.IdentityHashMap.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#values() public
+     * java.util.Collection<V> java.util.IdentityHashMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +58,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#forEach(BiConsumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.IdentityHashMap#forEach(java.util.function.BiConsumer) public void
      * java.util.IdentityHashMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +82,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#containsKey(Object) public boolean
-     * java.util.IdentityHashMap.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#containsKey(Object) public
+     * boolean java.util.IdentityHashMap.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +105,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#entrySet() public
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.IdentityHashMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,7 +128,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#isEmpty() public boolean
      * java.util.IdentityHashMap.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,7 +151,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#clear() public void
      * java.util.IdentityHashMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,8 +174,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#containsValue(Object) public boolean
-     * java.util.IdentityHashMap.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#containsValue(Object)
+     * public boolean java.util.IdentityHashMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,8 +197,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#put(Object, Object) public V
-     * java.util.IdentityHashMap.put(K,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#put(Object, Object) public
+     * V java.util.IdentityHashMap.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,7 +220,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#remove(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#remove(Object) public V
      * java.util.IdentityHashMap.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -245,7 +243,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#replaceAll(BiFunction) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.IdentityHashMap#replaceAll(java.util.function.BiFunction) public void
      * java.util.IdentityHashMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -268,8 +267,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#putAll(Map) public void
-     * java.util.IdentityHashMap.putAll(java.util.Map<? extends K, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#putAll(java.util.Map)
+     * public void java.util.IdentityHashMap.putAll(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -291,8 +290,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#equals(Object) public boolean
-     * java.util.IdentityHashMap.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#equals(Object) public
+     * boolean java.util.IdentityHashMap.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -314,7 +313,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#get(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#get(Object) public V
      * java.util.IdentityHashMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -337,7 +336,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#hashCode() public int
      * java.util.IdentityHashMap.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -360,7 +359,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#size() public int
      * java.util.IdentityHashMap.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -383,8 +382,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#clone() public java.lang.Object
-     * java.util.IdentityHashMap.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#clone() public
+     * java.lang.Object java.util.IdentityHashMap.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -405,8 +404,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdentityHashMap#keySet() public java.util.Set
-     * <K> java.util.IdentityHashMap.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.IdentityHashMap#keySet() public
+     * java.util.Set<K> java.util.IdentityHashMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

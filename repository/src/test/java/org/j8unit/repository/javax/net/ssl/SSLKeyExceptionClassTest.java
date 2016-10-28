@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLKeyExceptionClassTests<SSLKeyE
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SSLKeyException#SSLKeyException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.net.ssl.SSLKeyException#SSLKeyException(String) public
      * javax.net.ssl.SSLKeyException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

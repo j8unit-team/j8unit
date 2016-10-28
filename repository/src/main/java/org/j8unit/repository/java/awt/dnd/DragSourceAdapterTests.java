@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.dnd;
 
 import java.awt.dnd.DragSourceAdapter;
-import java.awt.dnd.DragSourceDragEvent;
-import java.awt.dnd.DragSourceDropEvent;
-import java.awt.dnd.DragSourceEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +36,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragSourceAdapter#dropActionChanged(DragSourceDragEvent) public void
+     * {@link java.awt.dnd.DragSourceAdapter#dropActionChanged(java.awt.dnd.DragSourceDragEvent) public void
      * java.awt.dnd.DragSourceAdapter.dropActionChanged(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +59,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceAdapter#dragOver(DragSourceDragEvent)
-     * public void java.awt.dnd.DragSourceAdapter.dragOver(java.awt.dnd.DragSourceDragEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceAdapter#dragOver(java.awt.dnd.DragSourceDragEvent) public void
+     * java.awt.dnd.DragSourceAdapter.dragOver(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +83,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceAdapter#dragDropEnd(DragSourceDropEvent)
-     * public void java.awt.dnd.DragSourceAdapter.dragDropEnd(java.awt.dnd.DragSourceDropEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceAdapter#dragDropEnd(java.awt.dnd.DragSourceDropEvent) public void
+     * java.awt.dnd.DragSourceAdapter.dragDropEnd(java.awt.dnd.DragSourceDropEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +107,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceAdapter#dragExit(DragSourceEvent) public
-     * void java.awt.dnd.DragSourceAdapter.dragExit(java.awt.dnd.DragSourceEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceAdapter#dragExit(java.awt.dnd.DragSourceEvent) public void
+     * java.awt.dnd.DragSourceAdapter.dragExit(java.awt.dnd.DragSourceEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,7 +132,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragSourceAdapter#dragMouseMoved(DragSourceDragEvent) public void
+     * {@link java.awt.dnd.DragSourceAdapter#dragMouseMoved(java.awt.dnd.DragSourceDragEvent) public void
      * java.awt.dnd.DragSourceAdapter.dragMouseMoved(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +155,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceAdapter#dragEnter(DragSourceDragEvent)
-     * public void java.awt.dnd.DragSourceAdapter.dragEnter(java.awt.dnd.DragSourceDragEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceAdapter#dragEnter(java.awt.dnd.DragSourceDragEvent) public void
+     * java.awt.dnd.DragSourceAdapter.dragEnter(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

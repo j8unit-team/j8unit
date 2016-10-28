@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.Segment;
 import javax.swing.text.StringContent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringContent#getChars(int, int, Segment) public
-     * void javax.swing.text.StringContent.getChars(int,int,javax.swing.text.Segment) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StringContent#getChars(int, int, javax.swing.text.Segment) public void
+     * javax.swing.text.StringContent.getChars(int,int,javax.swing.text.Segment) throws
      * javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +60,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringContent#remove(int, int) public
-     * javax.swing.undo.UndoableEdit javax.swing.text.StringContent.remove(int,int) throws
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StringContent#remove(int, int)
+     * public javax.swing.undo.UndoableEdit javax.swing.text.StringContent.remove(int,int) throws
      * javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +84,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringContent#getString(int, int) public
-     * java.lang.String javax.swing.text.StringContent.getString(int,int) throws javax.swing.text.BadLocationException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StringContent#getString(int, int)
+     * public java.lang.String javax.swing.text.StringContent.getString(int,int) throws
+     * javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +108,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringContent#createPosition(int) public
-     * javax.swing.text.Position javax.swing.text.StringContent.createPosition(int) throws
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StringContent#createPosition(int)
+     * public javax.swing.text.Position javax.swing.text.StringContent.createPosition(int) throws
      * javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,9 +132,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringContent#insertString(int, String) public
-     * javax.swing.undo.UndoableEdit javax.swing.text.StringContent.insertString(int,java.lang.String) throws
-     * javax.swing.text.BadLocationException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StringContent#insertString(int, String) public javax.swing.undo.UndoableEdit
+     * javax.swing.text.StringContent.insertString(int,java.lang.String) throws javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,7 +156,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringContent#length() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StringContent#length() public int
      * javax.swing.text.StringContent.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

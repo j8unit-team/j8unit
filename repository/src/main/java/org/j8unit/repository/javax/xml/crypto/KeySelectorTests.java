@@ -1,10 +1,7 @@
 package org.j8unit.repository.javax.xml.crypto;
 
-import javax.xml.crypto.AlgorithmMethod;
 import javax.xml.crypto.KeySelector;
 import javax.xml.crypto.KeySelector.Purpose;
-import javax.xml.crypto.XMLCryptoContext;
-import javax.xml.crypto.dsig.keyinfo.KeyInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +36,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeySelector#select(KeyInfo, Purpose, AlgorithmMethod, XMLCryptoContext) public abstract
-     * javax.xml.crypto.KeySelectorResult
+     * {@link javax.xml.crypto.KeySelector#select(javax.xml.crypto.dsig.keyinfo.KeyInfo, javax.xml.crypto.KeySelector.Purpose, javax.xml.crypto.AlgorithmMethod, javax.xml.crypto.XMLCryptoContext)
+     * public abstract javax.xml.crypto.KeySelectorResult
      * javax.xml.crypto.KeySelector.select(javax.xml.crypto.dsig.keyinfo.KeyInfo,javax.xml.crypto.KeySelector$Purpose,javax.xml.crypto.AlgorithmMethod,javax.xml.crypto.XMLCryptoContext)
      * throws javax.xml.crypto.KeySelectorException}.
      *
@@ -90,8 +87,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Purpose#toString() public java.lang.String
-         * javax.xml.crypto.KeySelector$Purpose.toString()}.
+         * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.KeySelector.Purpose#toString()
+         * public java.lang.String javax.xml.crypto.KeySelector$Purpose.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

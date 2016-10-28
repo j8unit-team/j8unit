@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.ComponentSampleModel;
-import java.awt.image.DataBuffer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#setPixels(int, int, int, int, int[], DataBuffer) public void
-     * java.awt.image.ComponentSampleModel.setPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.ComponentSampleModel#setPixels(int, int, int, int, int[], java.awt.image.DataBuffer) public
+     * void java.awt.image.ComponentSampleModel.setPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#getOffset(int, int, int) public
-     * int java.awt.image.ComponentSampleModel.getOffset(int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#getOffset(int, int, int) public int
+     * java.awt.image.ComponentSampleModel.getOffset(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +81,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#getOffset(int, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#getOffset(int, int) public int
      * java.awt.image.ComponentSampleModel.getOffset(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +104,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#getPixelStride() public final
-     * int java.awt.image.ComponentSampleModel.getPixelStride()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentSampleModel#getPixelStride()
+     * public final int java.awt.image.ComponentSampleModel.getPixelStride()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +126,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#createSubsetSampleModel(int[])
-     * public java.awt.image.SampleModel java.awt.image.ComponentSampleModel.createSubsetSampleModel(int[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#createSubsetSampleModel(int[]) public java.awt.image.SampleModel
+     * java.awt.image.ComponentSampleModel.createSubsetSampleModel(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +151,7 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#setPixel(int, int, int[], DataBuffer) public void
+     * {@link java.awt.image.ComponentSampleModel#setPixel(int, int, int[], java.awt.image.DataBuffer) public void
      * java.awt.image.ComponentSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,7 +175,7 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#getSampleFloat(int, int, int, DataBuffer) public float
+     * {@link java.awt.image.ComponentSampleModel#getSampleFloat(int, int, int, java.awt.image.DataBuffer) public float
      * java.awt.image.ComponentSampleModel.getSampleFloat(int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -196,8 +198,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#getSampleSize(int) public final
-     * int java.awt.image.ComponentSampleModel.getSampleSize(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#getSampleSize(int) public final int
+     * java.awt.image.ComponentSampleModel.getSampleSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,8 +222,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#getSampleSize() public final
-     * int[] java.awt.image.ComponentSampleModel.getSampleSize()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentSampleModel#getSampleSize()
+     * public final int[] java.awt.image.ComponentSampleModel.getSampleSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,8 +245,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#getNumDataElements() public
-     * final int java.awt.image.ComponentSampleModel.getNumDataElements()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#getNumDataElements() public final int
+     * java.awt.image.ComponentSampleModel.getNumDataElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,8 +269,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#getBandOffsets() public final
-     * int[] java.awt.image.ComponentSampleModel.getBandOffsets()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentSampleModel#getBandOffsets()
+     * public final int[] java.awt.image.ComponentSampleModel.getBandOffsets()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +291,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#createDataBuffer() public
-     * java.awt.image.DataBuffer java.awt.image.ComponentSampleModel.createDataBuffer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#createDataBuffer() public java.awt.image.DataBuffer
+     * java.awt.image.ComponentSampleModel.createDataBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -311,8 +316,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#getPixels(int, int, int, int, int[], DataBuffer) public int[]
-     * java.awt.image.ComponentSampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.ComponentSampleModel#getPixels(int, int, int, int, int[], java.awt.image.DataBuffer) public
+     * int[] java.awt.image.ComponentSampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -335,8 +340,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
-     * java.awt.image.ComponentSampleModel.createCompatibleSampleModel(int,int)}.
+     * {@link java.awt.image.ComponentSampleModel#createCompatibleSampleModel(int, int) public
+     * java.awt.image.SampleModel java.awt.image.ComponentSampleModel.createCompatibleSampleModel(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -358,8 +363,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#hashCode() public int
-     * java.awt.image.ComponentSampleModel.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentSampleModel#hashCode()
+     * public int java.awt.image.ComponentSampleModel.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -381,8 +386,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#getBankIndices() public final
-     * int[] java.awt.image.ComponentSampleModel.getBankIndices()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentSampleModel#getBankIndices()
+     * public final int[] java.awt.image.ComponentSampleModel.getBankIndices()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -404,8 +409,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#getSampleDouble(int, int, int, DataBuffer) public double
-     * java.awt.image.ComponentSampleModel.getSampleDouble(int,int,int,java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.ComponentSampleModel#getSampleDouble(int, int, int, java.awt.image.DataBuffer) public
+     * double java.awt.image.ComponentSampleModel.getSampleDouble(int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -428,8 +433,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#setDataElements(int, int, Object, DataBuffer) public void
-     * java.awt.image.ComponentSampleModel.setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.ComponentSampleModel#setDataElements(int, int, Object, java.awt.image.DataBuffer) public
+     * void java.awt.image.ComponentSampleModel.setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -452,8 +457,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#getSamples(int, int, int, int, int, int[], DataBuffer) public int[]
-     * java.awt.image.ComponentSampleModel.getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.ComponentSampleModel#getSamples(int, int, int, int, int, int[], java.awt.image.DataBuffer)
+     * public int[] java.awt.image.ComponentSampleModel.getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -476,8 +482,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#setSamples(int, int, int, int, int, int[], DataBuffer) public void
-     * java.awt.image.ComponentSampleModel.setSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.ComponentSampleModel#setSamples(int, int, int, int, int, int[], java.awt.image.DataBuffer)
+     * public void java.awt.image.ComponentSampleModel.setSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -500,7 +506,7 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#getPixel(int, int, int[], DataBuffer) public int[]
+     * {@link java.awt.image.ComponentSampleModel#getPixel(int, int, int[], java.awt.image.DataBuffer) public int[]
      * java.awt.image.ComponentSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -523,8 +529,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#getScanlineStride() public
-     * final int java.awt.image.ComponentSampleModel.getScanlineStride()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#getScanlineStride() public final int
+     * java.awt.image.ComponentSampleModel.getScanlineStride()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -545,8 +552,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentSampleModel#equals(Object) public boolean
-     * java.awt.image.ComponentSampleModel.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentSampleModel#equals(Object)
+     * public boolean java.awt.image.ComponentSampleModel.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -569,7 +576,7 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#getSample(int, int, int, DataBuffer) public int
+     * {@link java.awt.image.ComponentSampleModel#getSample(int, int, int, java.awt.image.DataBuffer) public int
      * java.awt.image.ComponentSampleModel.getSample(int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -593,8 +600,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#setSample(int, int, int, double, DataBuffer) public void
-     * java.awt.image.ComponentSampleModel.setSample(int,int,int,double,java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.ComponentSampleModel#setSample(int, int, int, double, java.awt.image.DataBuffer) public
+     * void java.awt.image.ComponentSampleModel.setSample(int,int,int,double,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -617,7 +624,7 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#setSample(int, int, int, int, DataBuffer) public void
+     * {@link java.awt.image.ComponentSampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer) public void
      * java.awt.image.ComponentSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -641,7 +648,7 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#setSample(int, int, int, float, DataBuffer) public void
+     * {@link java.awt.image.ComponentSampleModel#setSample(int, int, int, float, java.awt.image.DataBuffer) public void
      * java.awt.image.ComponentSampleModel.setSample(int,int,int,float,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -665,7 +672,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentSampleModel#getDataElements(int, int, Object, DataBuffer) public java.lang.Object
+     * {@link java.awt.image.ComponentSampleModel#getDataElements(int, int, Object, java.awt.image.DataBuffer) public
+     * java.lang.Object
      * java.awt.image.ComponentSampleModel.getDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

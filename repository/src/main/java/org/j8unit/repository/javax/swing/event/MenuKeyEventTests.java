@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.awt.event.KeyEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuKeyEvent#getPath() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.MenuKeyEvent#getPath() public
      * javax.swing.MenuElement[] javax.swing.event.MenuKeyEvent.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,9 @@ extends org.j8unit.repository.java.awt.event.KeyEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuKeyEvent#getMenuSelectionManager() public
-     * javax.swing.MenuSelectionManager javax.swing.event.MenuKeyEvent.getMenuSelectionManager()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.MenuKeyEvent#getMenuSelectionManager() public javax.swing.MenuSelectionManager
+     * javax.swing.event.MenuKeyEvent.getMenuSelectionManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.ServiceConfigurationErrorClassTests<S
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServiceConfigurationError#ServiceConfigurationError(String) public
+     * {@link java.util.ServiceConfigurationError#ServiceConfigurationError(String) public
      * java.util.ServiceConfigurationError(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.ServiceConfigurationErrorClassTests<S
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServiceConfigurationError#ServiceConfigurationError(String, Throwable) public
+     * {@link java.util.ServiceConfigurationError#ServiceConfigurationError(String, Throwable) public
      * java.util.ServiceConfigurationError(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

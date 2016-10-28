@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.NO_RESPONSE;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.NO_RESPONSEClassTests<NO_RESPONSE
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NO_RESPONSE#NO_RESPONSE(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.NO_RESPONSE#NO_RESPONSE(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.NO_RESPONSE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,14 @@ implements org.j8unit.repository.org.omg.CORBA.NO_RESPONSEClassTests<NO_RESPONSE
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NO_RESPONSE sut = null; // = new NO_RESPONSE(String, int, CompletionStatus);
+        final NO_RESPONSE sut = null; // = new NO_RESPONSE(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NO_RESPONSE#NO_RESPONSE(int, CompletionStatus)
-     * public org.omg.CORBA.NO_RESPONSE(int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.NO_RESPONSE#NO_RESPONSE(int, org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.NO_RESPONSE(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +62,13 @@ implements org.j8unit.repository.org.omg.CORBA.NO_RESPONSEClassTests<NO_RESPONSE
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NO_RESPONSE sut = null; // = new NO_RESPONSE(int, CompletionStatus);
+        final NO_RESPONSE sut = null; // = new NO_RESPONSE(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NO_RESPONSE#NO_RESPONSE(String) public
-     * org.omg.CORBA.NO_RESPONSE(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.NO_RESPONSE#NO_RESPONSE(String)
+     * public org.omg.CORBA.NO_RESPONSE(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,7 +89,7 @@ implements org.j8unit.repository.org.omg.CORBA.NO_RESPONSEClassTests<NO_RESPONSE
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NO_RESPONSE#NO_RESPONSE() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.NO_RESPONSE#NO_RESPONSE() public
      * org.omg.CORBA.NO_RESPONSE()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.net;
 
-import java.net.InetAddress;
-import java.net.Proxy;
 import java.net.Socket;
-import java.net.SocketImplFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +21,9 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Socket#Socket(String, int, InetAddress, int)
-     * public java.net.Socket(java.lang.String,int,java.net.InetAddress,int) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.Socket#Socket(String, int, java.net.InetAddress, int) public
+     * java.net.Socket(java.lang.String,int,java.net.InetAddress,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +39,13 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Socket sut = null; // = new Socket(String, int, InetAddress, int);
+        final Socket sut = null; // = new Socket(String, int, java.net.InetAddress, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Socket#Socket(InetAddress, int, InetAddress, int) public
+     * {@link java.net.Socket#Socket(java.net.InetAddress, int, java.net.InetAddress, int) public
      * java.net.Socket(java.net.InetAddress,int,java.net.InetAddress,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +62,13 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Socket sut = null; // = new Socket(InetAddress, int, InetAddress, int);
+        final Socket sut = null; // = new Socket(java.net.InetAddress, int, java.net.InetAddress, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Socket#Socket(String, int, boolean) public
-     * java.net.Socket(java.lang.String,int,boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.Socket#Socket(String, int, boolean)
+     * public java.net.Socket(java.lang.String,int,boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -91,7 +89,8 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Socket#Socket(InetAddress, int, boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.Socket#Socket(java.net.InetAddress, int, boolean) public
      * java.net.Socket(java.net.InetAddress,int,boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,12 +107,13 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Socket sut = null; // = new Socket(InetAddress, int, boolean);
+        final Socket sut = null; // = new Socket(java.net.InetAddress, int, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Socket#Socket() public java.net.Socket()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.Socket#Socket() public
+     * java.net.Socket()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,7 +133,7 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Socket#Socket(Proxy) public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.Socket#Socket(java.net.Proxy) public
      * java.net.Socket(java.net.Proxy)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,12 +150,12 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Socket sut = null; // = new Socket(Proxy);
+        final Socket sut = null; // = new Socket(java.net.Proxy);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Socket#Socket(String, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.Socket#Socket(String, int) public
      * java.net.Socket(java.lang.String,int) throws java.net.UnknownHostException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +177,9 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Socket#Socket(InetAddress, int) public
-     * java.net.Socket(java.net.InetAddress,int) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.Socket#Socket(java.net.InetAddress, int) public java.net.Socket(java.net.InetAddress,int) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,14 +195,14 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Socket sut = null; // = new Socket(InetAddress, int);
+        final Socket sut = null; // = new Socket(java.net.InetAddress, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Socket#setSocketImplFactory(SocketImplFactory)
-     * public static synchronized void java.net.Socket.setSocketImplFactory(java.net.SocketImplFactory) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.Socket#setSocketImplFactory(java.net.SocketImplFactory) public static synchronized void
+     * java.net.Socket.setSocketImplFactory(java.net.SocketImplFactory) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,7 +216,7 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
     @Category(Draft.class)
     public void test_setSocketImplFactory_SocketImplFactory()
     throws Exception {
-        // write some test for {@link Socket#setSocketImplFactory(SocketImplFactory)}
+        // write some test for {@link java.net.Socket#setSocketImplFactory(java.net.SocketImplFactory)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Socket]

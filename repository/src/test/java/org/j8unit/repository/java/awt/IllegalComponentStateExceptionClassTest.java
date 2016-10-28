@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.IllegalComponentStateExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalComponentStateException#IllegalComponentStateException() public
+     * {@link java.awt.IllegalComponentStateException#IllegalComponentStateException() public
      * java.awt.IllegalComponentStateException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.awt.IllegalComponentStateExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalComponentStateException#IllegalComponentStateException(String) public
+     * {@link java.awt.IllegalComponentStateException#IllegalComponentStateException(String) public
      * java.awt.IllegalComponentStateException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

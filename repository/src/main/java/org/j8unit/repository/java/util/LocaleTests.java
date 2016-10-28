@@ -38,7 +38,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#hashCode() public int
      * java.util.Locale.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +61,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getExtensionKeys() public java.util.Set
-     * <java.lang.Character> java.util.Locale.getExtensionKeys()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getExtensionKeys() public
+     * java.util.Set<java.lang.Character> java.util.Locale.getExtensionKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +83,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getISO3Language() public java.lang.String
-     * java.util.Locale.getISO3Language() throws java.util.MissingResourceException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getISO3Language() public
+     * java.lang.String java.util.Locale.getISO3Language() throws java.util.MissingResourceException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +105,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayCountry(Locale) public
-     * java.lang.String java.util.Locale.getDisplayCountry(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getDisplayCountry(java.util.Locale)
+     * public java.lang.String java.util.Locale.getDisplayCountry(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +127,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayCountry() public final
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getDisplayCountry() public final
      * java.lang.String java.util.Locale.getDisplayCountry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +149,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#toLanguageTag() public java.lang.String
-     * java.util.Locale.toLanguageTag()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#toLanguageTag() public
+     * java.lang.String java.util.Locale.toLanguageTag()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +171,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayVariant(Locale) public
-     * java.lang.String java.util.Locale.getDisplayVariant(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getDisplayVariant(java.util.Locale)
+     * public java.lang.String java.util.Locale.getDisplayVariant(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,7 +193,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayVariant() public final
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getDisplayVariant() public final
      * java.lang.String java.util.Locale.getDisplayVariant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,7 +215,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getUnicodeLocaleAttributes() public
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getUnicodeLocaleAttributes() public
      * java.util.Set<java.lang.String> java.util.Locale.getUnicodeLocaleAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,8 +237,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getCountry() public java.lang.String
-     * java.util.Locale.getCountry()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getCountry() public
+     * java.lang.String java.util.Locale.getCountry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +259,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#stripExtensions() public java.util.Locale
-     * java.util.Locale.stripExtensions()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#stripExtensions() public
+     * java.util.Locale java.util.Locale.stripExtensions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +281,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getISO3Country() public java.lang.String
-     * java.util.Locale.getISO3Country() throws java.util.MissingResourceException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getISO3Country() public
+     * java.lang.String java.util.Locale.getISO3Country() throws java.util.MissingResourceException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,8 +303,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getUnicodeLocaleKeys() public java.util.Set
-     * <java.lang.String> java.util.Locale.getUnicodeLocaleKeys()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getUnicodeLocaleKeys() public
+     * java.util.Set<java.lang.String> java.util.Locale.getUnicodeLocaleKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,7 +325,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#equals(Object) public boolean
      * java.util.Locale.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -348,8 +348,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayName(Locale) public
-     * java.lang.String java.util.Locale.getDisplayName(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getDisplayName(java.util.Locale)
+     * public java.lang.String java.util.Locale.getDisplayName(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -370,7 +370,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayName() public final
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getDisplayName() public final
      * java.lang.String java.util.Locale.getDisplayName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -392,7 +392,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#hasExtensions() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#hasExtensions() public boolean
      * java.util.Locale.hasExtensions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -414,7 +414,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getUnicodeLocaleType(String) public
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getUnicodeLocaleType(String) public
      * java.lang.String java.util.Locale.getUnicodeLocaleType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -436,7 +436,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayLanguage() public final
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getDisplayLanguage() public final
      * java.lang.String java.util.Locale.getDisplayLanguage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -458,8 +458,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayLanguage(Locale) public
-     * java.lang.String java.util.Locale.getDisplayLanguage(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Locale#getDisplayLanguage(java.util.Locale) public java.lang.String
+     * java.util.Locale.getDisplayLanguage(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -480,7 +481,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getScript() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getScript() public java.lang.String
      * java.util.Locale.getScript()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -502,8 +503,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#toString() public final java.lang.String
-     * java.util.Locale.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#toString() public final
+     * java.lang.String java.util.Locale.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -525,7 +526,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#clone() public java.lang.Object
      * java.util.Locale.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -547,8 +548,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getVariant() public java.lang.String
-     * java.util.Locale.getVariant()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getVariant() public
+     * java.lang.String java.util.Locale.getVariant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -569,8 +570,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getLanguage() public java.lang.String
-     * java.util.Locale.getLanguage()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getLanguage() public
+     * java.lang.String java.util.Locale.getLanguage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -591,8 +592,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getExtension(char) public java.lang.String
-     * java.util.Locale.getExtension(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getExtension(char) public
+     * java.lang.String java.util.Locale.getExtension(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -613,8 +614,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayScript(Locale) public
-     * java.lang.String java.util.Locale.getDisplayScript(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getDisplayScript(java.util.Locale)
+     * public java.lang.String java.util.Locale.getDisplayScript(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -635,8 +636,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locale#getDisplayScript() public java.lang.String
-     * java.util.Locale.getDisplayScript()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#getDisplayScript() public
+     * java.lang.String java.util.Locale.getDisplayScript()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -713,8 +714,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link LanguageRange#getWeight() public double
-         * java.util.Locale$LanguageRange.getWeight()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.LanguageRange#getWeight()
+         * public double java.util.Locale$LanguageRange.getWeight()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -735,8 +736,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link LanguageRange#getRange() public java.lang.String
-         * java.util.Locale$LanguageRange.getRange()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.LanguageRange#getRange() public
+         * java.lang.String java.util.Locale$LanguageRange.getRange()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -757,8 +758,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link LanguageRange#hashCode() public int
-         * java.util.Locale$LanguageRange.hashCode()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.LanguageRange#hashCode() public
+         * int java.util.Locale$LanguageRange.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -780,8 +781,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link LanguageRange#equals(Object) public boolean
-         * java.util.Locale$LanguageRange.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.LanguageRange#equals(Object)
+         * public boolean java.util.Locale$LanguageRange.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -861,8 +862,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setScript(String) public
-         * java.util.Locale$Builder java.util.Locale$Builder.setScript(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.Builder#setScript(String)
+         * public java.util.Locale$Builder java.util.Locale$Builder.setScript(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -883,8 +884,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setLanguage(String) public
-         * java.util.Locale$Builder java.util.Locale$Builder.setLanguage(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.Builder#setLanguage(String)
+         * public java.util.Locale$Builder java.util.Locale$Builder.setLanguage(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -905,8 +906,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setLocale(Locale) public
-         * java.util.Locale$Builder java.util.Locale$Builder.setLocale(java.util.Locale)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Locale.Builder#setLocale(java.util.Locale) public java.util.Locale$Builder
+         * java.util.Locale$Builder.setLocale(java.util.Locale)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -927,8 +929,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#clearExtensions() public
-         * java.util.Locale$Builder java.util.Locale$Builder.clearExtensions()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.Builder#clearExtensions()
+         * public java.util.Locale$Builder java.util.Locale$Builder.clearExtensions()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -949,8 +951,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setVariant(String) public
-         * java.util.Locale$Builder java.util.Locale$Builder.setVariant(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.Builder#setVariant(String)
+         * public java.util.Locale$Builder java.util.Locale$Builder.setVariant(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -971,8 +973,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setUnicodeLocaleKeyword(String, String)
-         * public java.util.Locale$Builder
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Locale.Builder#setUnicodeLocaleKeyword(String, String) public java.util.Locale$Builder
          * java.util.Locale$Builder.setUnicodeLocaleKeyword(java.lang.String,java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -994,8 +996,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#addUnicodeLocaleAttribute(String) public
-         * java.util.Locale$Builder java.util.Locale$Builder.addUnicodeLocaleAttribute(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Locale.Builder#addUnicodeLocaleAttribute(String) public java.util.Locale$Builder
+         * java.util.Locale$Builder.addUnicodeLocaleAttribute(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1016,8 +1019,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#clear() public java.util.Locale$Builder
-         * java.util.Locale$Builder.clear()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.Builder#clear() public
+         * java.util.Locale$Builder java.util.Locale$Builder.clear()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1038,8 +1041,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#build() public java.util.Locale
-         * java.util.Locale$Builder.build()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.Builder#build() public
+         * java.util.Locale java.util.Locale$Builder.build()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1060,8 +1063,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setLanguageTag(String) public
-         * java.util.Locale$Builder java.util.Locale$Builder.setLanguageTag(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.Builder#setLanguageTag(String)
+         * public java.util.Locale$Builder java.util.Locale$Builder.setLanguageTag(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1082,8 +1085,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setExtension(char, String) public
-         * java.util.Locale$Builder java.util.Locale$Builder.setExtension(char,java.lang.String)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Locale.Builder#setExtension(char, String) public java.util.Locale$Builder
+         * java.util.Locale$Builder.setExtension(char,java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1104,8 +1108,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setRegion(String) public
-         * java.util.Locale$Builder java.util.Locale$Builder.setRegion(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.Builder#setRegion(String)
+         * public java.util.Locale$Builder java.util.Locale$Builder.setRegion(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1126,8 +1130,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#removeUnicodeLocaleAttribute(String)
-         * public java.util.Locale$Builder java.util.Locale$Builder.removeUnicodeLocaleAttribute(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Locale.Builder#removeUnicodeLocaleAttribute(String) public java.util.Locale$Builder
+         * java.util.Locale$Builder.removeUnicodeLocaleAttribute(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.smartcardio;
 
-import java.nio.ByteBuffer;
 import javax.smartcardio.CardChannel;
-import javax.smartcardio.CommandAPDU;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardChannel#transmit(ByteBuffer, ByteBuffer) public
-     * abstract int javax.smartcardio.CardChannel.transmit(java.nio.ByteBuffer,java.nio.ByteBuffer) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.smartcardio.CardChannel#transmit(java.nio.ByteBuffer, java.nio.ByteBuffer) public abstract int
+     * javax.smartcardio.CardChannel.transmit(java.nio.ByteBuffer,java.nio.ByteBuffer) throws
      * javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardChannel#transmit(CommandAPDU) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.smartcardio.CardChannel#transmit(javax.smartcardio.CommandAPDU) public abstract
      * javax.smartcardio.ResponseAPDU javax.smartcardio.CardChannel.transmit(javax.smartcardio.CommandAPDU) throws
      * javax.smartcardio.CardException}.
      *
@@ -82,8 +82,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardChannel#getCard() public abstract
-     * javax.smartcardio.Card javax.smartcardio.CardChannel.getCard()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardChannel#getCard() public
+     * abstract javax.smartcardio.Card javax.smartcardio.CardChannel.getCard()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardChannel#close() public abstract void
-     * javax.smartcardio.CardChannel.close() throws javax.smartcardio.CardException}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardChannel#close() public
+     * abstract void javax.smartcardio.CardChannel.close() throws javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardChannel#getChannelNumber() public abstract int
-     * javax.smartcardio.CardChannel.getChannelNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardChannel#getChannelNumber()
+     * public abstract int javax.smartcardio.CardChannel.getChannelNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

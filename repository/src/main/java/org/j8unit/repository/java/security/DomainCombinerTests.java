@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.DomainCombiner;
-import java.security.ProtectionDomain;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DomainCombiner#combine(ProtectionDomain[], ProtectionDomain[]) public abstract
-     * java.security.ProtectionDomain[]
+     * {@link java.security.DomainCombiner#combine(java.security.ProtectionDomain[], java.security.ProtectionDomain[])
+     * public abstract java.security.ProtectionDomain[]
      * java.security.DomainCombiner.combine(java.security.ProtectionDomain[],java.security.ProtectionDomain[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

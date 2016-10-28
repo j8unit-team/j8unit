@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.sound.sampled.spi.AudioFileReaderClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AudioFileReader#AudioFileReader() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.sampled.spi.AudioFileReader#AudioFileReader() public
      * javax.sound.sampled.spi.AudioFileReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

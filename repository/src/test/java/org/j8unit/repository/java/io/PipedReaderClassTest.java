@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.PipedReader;
-import java.io.PipedWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.java.io.PipedReaderClassTests<PipedReader> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PipedReader#PipedReader(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PipedReader#PipedReader(int) public
      * java.io.PipedReader(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +43,7 @@ implements org.j8unit.repository.java.io.PipedReaderClassTests<PipedReader> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PipedReader#PipedReader() public
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PipedReader#PipedReader() public
      * java.io.PipedReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +64,9 @@ implements org.j8unit.repository.java.io.PipedReaderClassTests<PipedReader> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PipedReader#PipedReader(PipedWriter, int)
-     * public java.io.PipedReader(java.io.PipedWriter,int) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PipedReader#PipedReader(java.io.PipedWriter, int) public
+     * java.io.PipedReader(java.io.PipedWriter,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,13 +82,14 @@ implements org.j8unit.repository.java.io.PipedReaderClassTests<PipedReader> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PipedReader sut = null; // = new PipedReader(PipedWriter, int);
+        final PipedReader sut = null; // = new PipedReader(java.io.PipedWriter, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PipedReader#PipedReader(PipedWriter) public
-     * java.io.PipedReader(java.io.PipedWriter) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PipedReader#PipedReader(java.io.PipedWriter) public java.io.PipedReader(java.io.PipedWriter)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +105,7 @@ implements org.j8unit.repository.java.io.PipedReaderClassTests<PipedReader> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PipedReader sut = null; // = new PipedReader(PipedWriter);
+        final PipedReader sut = null; // = new PipedReader(java.io.PipedWriter);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PipedReader]

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IsoEra#getValue() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.IsoEra#getValue() public int
      * java.time.chrono.IsoEra.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

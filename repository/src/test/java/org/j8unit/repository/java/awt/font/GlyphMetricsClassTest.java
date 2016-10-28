@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.font;
 
 import java.awt.font.GlyphMetrics;
-import java.awt.geom.Rectangle2D;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.font.GlyphMetricsClassTests<GlyphMetri
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GlyphMetrics#GlyphMetrics(float, Rectangle2D, byte) public
+     * {@link java.awt.font.GlyphMetrics#GlyphMetrics(float, java.awt.geom.Rectangle2D, byte) public
      * java.awt.font.GlyphMetrics(float,java.awt.geom.Rectangle2D,byte)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.awt.font.GlyphMetricsClassTests<GlyphMetri
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GlyphMetrics sut = null; // = new GlyphMetrics(float, Rectangle2D, byte);
+        final GlyphMetrics sut = null; // = new GlyphMetrics(float, java.awt.geom.Rectangle2D, byte);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GlyphMetrics#GlyphMetrics(boolean, float, float, Rectangle2D, byte) public
+     * {@link java.awt.font.GlyphMetrics#GlyphMetrics(boolean, float, float, java.awt.geom.Rectangle2D, byte) public
      * java.awt.font.GlyphMetrics(boolean,float,float,java.awt.geom.Rectangle2D,byte)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.awt.font.GlyphMetricsClassTests<GlyphMetri
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GlyphMetrics sut = null; // = new GlyphMetrics(boolean, float, float, Rectangle2D, byte);
+        final GlyphMetrics sut = null; // = new GlyphMetrics(boolean, float, float, java.awt.geom.Rectangle2D, byte);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.GlyphMetrics]

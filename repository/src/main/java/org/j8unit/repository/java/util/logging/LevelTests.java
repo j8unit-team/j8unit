@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Level#getResourceBundleName() public
-     * java.lang.String java.util.logging.Level.getResourceBundleName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Level#getResourceBundleName()
+     * public java.lang.String java.util.logging.Level.getResourceBundleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Level#toString() public final java.lang.String
-     * java.util.logging.Level.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Level#toString() public final
+     * java.lang.String java.util.logging.Level.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Level#equals(Object) public boolean
-     * java.util.logging.Level.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Level#equals(Object) public
+     * boolean java.util.logging.Level.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Level#intValue() public final int
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Level#intValue() public final int
      * java.util.logging.Level.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Level#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Level#hashCode() public int
      * java.util.logging.Level.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,8 +147,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Level#getLocalizedName() public java.lang.String
-     * java.util.logging.Level.getLocalizedName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Level#getLocalizedName() public
+     * java.lang.String java.util.logging.Level.getLocalizedName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +169,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Level#getName() public java.lang.String
-     * java.util.logging.Level.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Level#getName() public
+     * java.lang.String java.util.logging.Level.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

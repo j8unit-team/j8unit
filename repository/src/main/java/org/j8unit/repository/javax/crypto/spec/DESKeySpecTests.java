@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DESKeySpec#getKey() public byte[]
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.DESKeySpec#getKey() public byte[]
      * javax.crypto.spec.DESKeySpec.getKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

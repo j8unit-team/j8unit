@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.activation.CommandInfoClassTests<CommandI
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CommandInfo#CommandInfo(String, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.CommandInfo#CommandInfo(String, String) public
      * javax.activation.CommandInfo(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

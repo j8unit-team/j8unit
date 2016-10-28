@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.HMACParameterSpecCla
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HMACParameterSpec#HMACParameterSpec(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.dsig.spec.HMACParameterSpec#HMACParameterSpec(int) public
      * javax.xml.crypto.dsig.spec.HMACParameterSpec(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

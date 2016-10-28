@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.geom;
 
-import java.awt.Shape;
 import java.awt.geom.Area;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.awt.geom.AreaClassTests<Area> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Area#Area() public java.awt.geom.Area()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Area#Area() public
+     * java.awt.geom.Area()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.awt.geom.AreaClassTests<Area> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Area#Area(Shape) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Area#Area(java.awt.Shape) public
      * java.awt.geom.Area(java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +59,7 @@ implements org.j8unit.repository.java.awt.geom.AreaClassTests<Area> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Area sut = null; // = new Area(Shape);
+        final Area sut = null; // = new Area(java.awt.Shape);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Area]

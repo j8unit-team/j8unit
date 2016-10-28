@@ -35,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAttributeByValue(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.Element#getAttributeByValue(String) public
      * javax.swing.text.html.parser.AttributeList
      * javax.swing.text.html.parser.Element.getAttributeByValue(java.lang.String)}.
      *
@@ -58,8 +59,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#omitEnd() public boolean
-     * javax.swing.text.html.parser.Element.omitEnd()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#omitEnd()
+     * public boolean javax.swing.text.html.parser.Element.omitEnd()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAttribute(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.Element#getAttribute(String) public
      * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +104,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAttributes() public
-     * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getAttributes()
+     * public javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +126,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getName() public java.lang.String
-     * javax.swing.text.html.parser.Element.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getName()
+     * public java.lang.String javax.swing.text.html.parser.Element.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +148,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getType() public int
-     * javax.swing.text.html.parser.Element.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getType()
+     * public int javax.swing.text.html.parser.Element.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +170,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getIndex() public int
-     * javax.swing.text.html.parser.Element.getIndex()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getIndex()
+     * public int javax.swing.text.html.parser.Element.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +192,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getContent() public
-     * javax.swing.text.html.parser.ContentModel javax.swing.text.html.parser.Element.getContent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getContent()
+     * public javax.swing.text.html.parser.ContentModel javax.swing.text.html.parser.Element.getContent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +214,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#isEmpty() public boolean
-     * javax.swing.text.html.parser.Element.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#isEmpty()
+     * public boolean javax.swing.text.html.parser.Element.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +236,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#toString() public java.lang.String
-     * javax.swing.text.html.parser.Element.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#toString()
+     * public java.lang.String javax.swing.text.html.parser.Element.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,8 +259,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#omitStart() public boolean
-     * javax.swing.text.html.parser.Element.omitStart()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#omitStart()
+     * public boolean javax.swing.text.html.parser.Element.omitStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

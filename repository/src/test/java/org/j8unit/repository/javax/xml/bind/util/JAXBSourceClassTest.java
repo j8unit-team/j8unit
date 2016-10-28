@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.bind.util;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
 import javax.xml.bind.util.JAXBSource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,9 +21,9 @@ implements org.j8unit.repository.javax.xml.bind.util.JAXBSourceClassTests<JAXBSo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBSource#JAXBSource(JAXBContext, Object)
-     * public javax.xml.bind.util.JAXBSource(javax.xml.bind.JAXBContext,java.lang.Object) throws
-     * javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.util.JAXBSource#JAXBSource(javax.xml.bind.JAXBContext, Object) public
+     * javax.xml.bind.util.JAXBSource(javax.xml.bind.JAXBContext,java.lang.Object) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,14 +39,14 @@ implements org.j8unit.repository.javax.xml.bind.util.JAXBSourceClassTests<JAXBSo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JAXBSource sut = null; // = new JAXBSource(JAXBContext, Object);
+        final JAXBSource sut = null; // = new JAXBSource(javax.xml.bind.JAXBContext, Object);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBSource#JAXBSource(Marshaller, Object)
-     * public javax.xml.bind.util.JAXBSource(javax.xml.bind.Marshaller,java.lang.Object) throws
-     * javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.util.JAXBSource#JAXBSource(javax.xml.bind.Marshaller, Object) public
+     * javax.xml.bind.util.JAXBSource(javax.xml.bind.Marshaller,java.lang.Object) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +62,7 @@ implements org.j8unit.repository.javax.xml.bind.util.JAXBSourceClassTests<JAXBSo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JAXBSource sut = null; // = new JAXBSource(Marshaller, Object);
+        final JAXBSource sut = null; // = new JAXBSource(javax.xml.bind.Marshaller, Object);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.util.JAXBSource]

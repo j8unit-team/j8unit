@@ -43,6 +43,21 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, org.j8unit.repository.javax.sw
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit]
 
     @RunWith(J8Unit4.class)
+    public static class InsertHTMLTextActionTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests<InsertHTMLTextAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+
+        @Override
+        public InsertHTMLTextAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class ParserTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserTests<Parser> {
 
@@ -72,18 +87,27 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, org.j8unit.repository.javax.sw
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class InsertHTMLTextActionTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests<InsertHTMLTextAction> {
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class HTMLFactoryTest
+    implements FactoryBasedJ8UnitTest<HTMLFactory>, org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLFactoryTests<HTMLFactory> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
 
-        @Override
-        public InsertHTMLTextAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction], j8unit does not support a generic way to provide instances.");
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(HTMLFactory::new);
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+        @Parameter(0)
+        public Callable<HTMLFactory> sutFactory;
+
+        @Override
+        public Callable<HTMLFactory> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
 
     }
 
@@ -108,30 +132,6 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, org.j8unit.repository.javax.sw
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$LinkController]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class HTMLFactoryTest
-    implements FactoryBasedJ8UnitTest<HTMLFactory>, org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLFactoryTests<HTMLFactory> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(HTMLFactory::new);
-        }
-
-        @Parameter(0)
-        public Callable<HTMLFactory> sutFactory;
-
-        @Override
-        public Callable<HTMLFactory> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
 
     }
 

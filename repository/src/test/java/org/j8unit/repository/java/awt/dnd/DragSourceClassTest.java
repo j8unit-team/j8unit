@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceClassTests<DragSource> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DragSource#DragSource() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.dnd.DragSource#DragSource() public
      * java.awt.dnd.DragSource() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceClassTests<DragSource> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSource#isDragImageSupported() public static
-     * boolean java.awt.dnd.DragSource.isDragImageSupported()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSource#isDragImageSupported()
+     * public static boolean java.awt.dnd.DragSource.isDragImageSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +57,13 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceClassTests<DragSource> {
     @Category(Draft.class)
     public void test_isDragImageSupported()
     throws Exception {
-        // write some test for {@link DragSource#isDragImageSupported()}
+        // write some test for {@link java.awt.dnd.DragSource#isDragImageSupported()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSource#getDragThreshold() public static int
-     * java.awt.dnd.DragSource.getDragThreshold()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSource#getDragThreshold() public
+     * static int java.awt.dnd.DragSource.getDragThreshold()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,13 +77,13 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceClassTests<DragSource> {
     @Category(Draft.class)
     public void test_getDragThreshold()
     throws Exception {
-        // write some test for {@link DragSource#getDragThreshold()}
+        // write some test for {@link java.awt.dnd.DragSource#getDragThreshold()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSource#getDefaultDragSource() public static
-     * java.awt.dnd.DragSource java.awt.dnd.DragSource.getDefaultDragSource()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSource#getDefaultDragSource()
+     * public static java.awt.dnd.DragSource java.awt.dnd.DragSource.getDefaultDragSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -97,7 +97,7 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceClassTests<DragSource> {
     @Category(Draft.class)
     public void test_getDefaultDragSource()
     throws Exception {
-        // write some test for {@link DragSource#getDefaultDragSource()}
+        // write some test for {@link java.awt.dnd.DragSource#getDefaultDragSource()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSource]

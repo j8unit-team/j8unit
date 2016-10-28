@@ -7,11 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Object;
 import org.omg.CORBA.ObjectHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class ObjectHelperClassTest
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.ObjectHelperClassTests<ObjectHelp
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectHelper#ObjectHelper() public
-     * org.omg.CORBA.ObjectHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ObjectHelper#ObjectHelper()
+     * public org.omg.CORBA.ObjectHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.ObjectHelperClassTests<ObjectHelp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ObjectHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ObjectHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.ObjectHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,13 +57,14 @@ implements org.j8unit.repository.org.omg.CORBA.ObjectHelperClassTests<ObjectHelp
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ObjectHelper#type()}
+        // write some test for {@link org.omg.CORBA.ObjectHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectHelper#write(OutputStream, Object) public
-     * static void org.omg.CORBA.ObjectHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ObjectHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.Object) public static
+     * void org.omg.CORBA.ObjectHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,13 +78,14 @@ implements org.j8unit.repository.org.omg.CORBA.ObjectHelperClassTests<ObjectHelp
     @Category(Draft.class)
     public void test_write_OutputStream_Object()
     throws Exception {
-        // write some test for {@link ObjectHelper#write(OutputStream, Object)}
+        // write some test for {@link org.omg.CORBA.ObjectHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectHelper#id() public static java.lang.String
-     * org.omg.CORBA.ObjectHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ObjectHelper#id() public static
+     * java.lang.String org.omg.CORBA.ObjectHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,12 +99,13 @@ implements org.j8unit.repository.org.omg.CORBA.ObjectHelperClassTests<ObjectHelp
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ObjectHelper#id()}
+        // write some test for {@link org.omg.CORBA.ObjectHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectHelper#insert(Any, Object) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ObjectHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.Object) public static void
      * org.omg.CORBA.ObjectHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,13 +120,14 @@ implements org.j8unit.repository.org.omg.CORBA.ObjectHelperClassTests<ObjectHelp
     @Category(Draft.class)
     public void test_insert_Any_Object()
     throws Exception {
-        // write some test for {@link ObjectHelper#insert(Any, Object)}
+        // write some test for {@link org.omg.CORBA.ObjectHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectHelper#read(InputStream) public static
-     * org.omg.CORBA.Object org.omg.CORBA.ObjectHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ObjectHelper#read(org.omg.CORBA.portable.InputStream) public static org.omg.CORBA.Object
+     * org.omg.CORBA.ObjectHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -141,13 +141,14 @@ implements org.j8unit.repository.org.omg.CORBA.ObjectHelperClassTests<ObjectHelp
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ObjectHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.ObjectHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectHelper#extract(Any) public static
-     * org.omg.CORBA.Object org.omg.CORBA.ObjectHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ObjectHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.Object
+     * org.omg.CORBA.ObjectHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -161,7 +162,7 @@ implements org.j8unit.repository.org.omg.CORBA.ObjectHelperClassTests<ObjectHelp
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ObjectHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.ObjectHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ObjectHelper]

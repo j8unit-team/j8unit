@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.nio.charset;
 
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
 import java.nio.charset.Charset;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#hashCode() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#hashCode() public final int
      * java.nio.charset.Charset.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +57,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#canEncode() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#canEncode() public boolean
      * java.nio.charset.Charset.canEncode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +79,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#equals(Object) public final boolean
-     * java.nio.charset.Charset.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#equals(Object) public final
+     * boolean java.nio.charset.Charset.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +102,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#contains(Charset) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.Charset#contains(java.nio.charset.Charset) public abstract boolean
      * java.nio.charset.Charset.contains(java.nio.charset.Charset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +125,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#newEncoder() public abstract
-     * java.nio.charset.CharsetEncoder java.nio.charset.Charset.newEncoder()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#newEncoder() public
+     * abstract java.nio.charset.CharsetEncoder java.nio.charset.Charset.newEncoder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +147,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#name() public final java.lang.String
-     * java.nio.charset.Charset.name()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#name() public final
+     * java.lang.String java.nio.charset.Charset.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +169,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#isRegistered() public final boolean
-     * java.nio.charset.Charset.isRegistered()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#isRegistered() public final
+     * boolean java.nio.charset.Charset.isRegistered()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +191,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#toString() public final java.lang.String
-     * java.nio.charset.Charset.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#toString() public final
+     * java.lang.String java.nio.charset.Charset.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,8 +214,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#newDecoder() public abstract
-     * java.nio.charset.CharsetDecoder java.nio.charset.Charset.newDecoder()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#newDecoder() public
+     * abstract java.nio.charset.CharsetDecoder java.nio.charset.Charset.newDecoder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,8 +236,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#displayName() public java.lang.String
-     * java.nio.charset.Charset.displayName()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#displayName() public
+     * java.lang.String java.nio.charset.Charset.displayName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,7 +258,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#displayName(Locale) public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.Charset#displayName(java.util.Locale) public java.lang.String
      * java.nio.charset.Charset.displayName(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,7 +281,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#encode(String) public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#encode(String) public final
      * java.nio.ByteBuffer java.nio.charset.Charset.encode(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,8 +303,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#encode(CharBuffer) public final
-     * java.nio.ByteBuffer java.nio.charset.Charset.encode(java.nio.CharBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#encode(java.nio.CharBuffer)
+     * public final java.nio.ByteBuffer java.nio.charset.Charset.encode(java.nio.CharBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,8 +325,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#aliases() public final java.util.Set
-     * <java.lang.String> java.nio.charset.Charset.aliases()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#aliases() public final
+     * java.util.Set<java.lang.String> java.nio.charset.Charset.aliases()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -348,8 +347,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#decode(ByteBuffer) public final
-     * java.nio.CharBuffer java.nio.charset.Charset.decode(java.nio.ByteBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.Charset#decode(java.nio.ByteBuffer)
+     * public final java.nio.CharBuffer java.nio.charset.Charset.decode(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -370,7 +369,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Charset#compareTo(Charset) public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.Charset#compareTo(java.nio.charset.Charset) public final int
      * java.nio.charset.Charset.compareTo(java.nio.charset.Charset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

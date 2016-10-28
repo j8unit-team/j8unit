@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#metaDown() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Event#metaDown() public boolean
      * java.awt.Event.metaDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Event#toString() public java.lang.String
      * java.awt.Event.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#translate(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Event#translate(int, int) public void
      * java.awt.Event.translate(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#shiftDown() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Event#shiftDown() public boolean
      * java.awt.Event.shiftDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#controlDown() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Event#controlDown() public boolean
      * java.awt.Event.controlDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

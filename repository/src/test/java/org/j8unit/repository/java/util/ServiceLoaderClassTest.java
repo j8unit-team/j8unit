@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.util.ServiceLoaderClassTests<ServiceLoader
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceLoader#loadInstalled(Class) public static
-     * <S> java.util.ServiceLoader<S> java.util.ServiceLoader.loadInstalled(java.lang.Class<S>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ServiceLoader#loadInstalled(Class) public
+     * static <S> java.util.ServiceLoader<S> java.util.ServiceLoader.loadInstalled(java.lang.Class<S>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,12 +37,12 @@ implements org.j8unit.repository.java.util.ServiceLoaderClassTests<ServiceLoader
     @Category(Draft.class)
     public void test_loadInstalled_Class()
     throws Exception {
-        // write some test for {@link ServiceLoader#loadInstalled(Class)}
+        // write some test for {@link java.util.ServiceLoader#loadInstalled(Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceLoader#load(Class) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.ServiceLoader#load(Class) public static
      * <S> java.util.ServiceLoader<S> java.util.ServiceLoader.load(java.lang.Class<S>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,13 +57,14 @@ implements org.j8unit.repository.java.util.ServiceLoaderClassTests<ServiceLoader
     @Category(Draft.class)
     public void test_load_Class()
     throws Exception {
-        // write some test for {@link ServiceLoader#load(Class)}
+        // write some test for {@link java.util.ServiceLoader#load(Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceLoader#load(Class, ClassLoader) public static
-     * <S> java.util.ServiceLoader<S> java.util.ServiceLoader.load(java.lang.Class<S>,java.lang.ClassLoader)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ServiceLoader#load(Class, ClassLoader)
+     * public static <S> java.util.ServiceLoader<S> java.util.ServiceLoader.load(java.lang.Class
+     * <S>,java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,7 +78,7 @@ implements org.j8unit.repository.java.util.ServiceLoaderClassTests<ServiceLoader
     @Category(Draft.class)
     public void test_load_Class_ClassLoader()
     throws Exception {
-        // write some test for {@link ServiceLoader#load(Class, ClassLoader)}
+        // write some test for {@link java.util.ServiceLoader#load(Class, ClassLoader)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.ServiceLoader]

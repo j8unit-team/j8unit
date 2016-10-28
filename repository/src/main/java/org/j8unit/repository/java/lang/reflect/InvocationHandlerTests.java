@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.reflect;
 
 import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvocationHandler#invoke(Object, Method, Object[])
-     * public abstract java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.InvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public abstract
+     * java.lang.Object
      * java.lang.reflect.InvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) throws
      * java.lang.Throwable}.
      *

@@ -1,17 +1,13 @@
 package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.fail;
-import java.io.Serializable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.ValueBaseHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class ValueBaseHelperClassTest
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.ValueBaseHelperClassTests<ValueBa
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ValueBaseHelper#ValueBaseHelper() public
-     * org.omg.CORBA.ValueBaseHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ValueBaseHelper#ValueBaseHelper()
+     * public org.omg.CORBA.ValueBaseHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,9 +42,9 @@ implements org.j8unit.repository.org.omg.CORBA.ValueBaseHelperClassTests<ValueBa
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueBaseHelper#write(OutputStream, Serializable)
-     * public static void org.omg.CORBA.ValueBaseHelper.write(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ValueBaseHelper#write(org.omg.CORBA.portable.OutputStream, java.io.Serializable) public
+     * static void org.omg.CORBA.ValueBaseHelper.write(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +58,14 @@ implements org.j8unit.repository.org.omg.CORBA.ValueBaseHelperClassTests<ValueBa
     @Category(Draft.class)
     public void test_write_OutputStream_Serializable()
     throws Exception {
-        // write some test for {@link ValueBaseHelper#write(OutputStream, Serializable)}
+        // write some test for {@link org.omg.CORBA.ValueBaseHelper#write(org.omg.CORBA.portable.OutputStream,
+        // java.io.Serializable)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueBaseHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ValueBaseHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ValueBaseHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.ValueBaseHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,13 +79,14 @@ implements org.j8unit.repository.org.omg.CORBA.ValueBaseHelperClassTests<ValueBa
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ValueBaseHelper#type()}
+        // write some test for {@link org.omg.CORBA.ValueBaseHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueBaseHelper#insert(Any, Serializable) public
-     * static void org.omg.CORBA.ValueBaseHelper.insert(org.omg.CORBA.Any,java.io.Serializable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ValueBaseHelper#insert(org.omg.CORBA.Any, java.io.Serializable) public static void
+     * org.omg.CORBA.ValueBaseHelper.insert(org.omg.CORBA.Any,java.io.Serializable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,13 +100,13 @@ implements org.j8unit.repository.org.omg.CORBA.ValueBaseHelperClassTests<ValueBa
     @Category(Draft.class)
     public void test_insert_Any_Serializable()
     throws Exception {
-        // write some test for {@link ValueBaseHelper#insert(Any, Serializable)}
+        // write some test for {@link org.omg.CORBA.ValueBaseHelper#insert(org.omg.CORBA.Any, java.io.Serializable)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueBaseHelper#id() public static java.lang.String
-     * org.omg.CORBA.ValueBaseHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ValueBaseHelper#id() public static
+     * java.lang.String org.omg.CORBA.ValueBaseHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,13 +120,14 @@ implements org.j8unit.repository.org.omg.CORBA.ValueBaseHelperClassTests<ValueBa
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ValueBaseHelper#id()}
+        // write some test for {@link org.omg.CORBA.ValueBaseHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueBaseHelper#read(InputStream) public static
-     * java.io.Serializable org.omg.CORBA.ValueBaseHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ValueBaseHelper#read(org.omg.CORBA.portable.InputStream) public static java.io.Serializable
+     * org.omg.CORBA.ValueBaseHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -142,13 +141,14 @@ implements org.j8unit.repository.org.omg.CORBA.ValueBaseHelperClassTests<ValueBa
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ValueBaseHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.ValueBaseHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueBaseHelper#extract(Any) public static
-     * java.io.Serializable org.omg.CORBA.ValueBaseHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ValueBaseHelper#extract(org.omg.CORBA.Any) public static java.io.Serializable
+     * org.omg.CORBA.ValueBaseHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,7 +162,7 @@ implements org.j8unit.repository.org.omg.CORBA.ValueBaseHelperClassTests<ValueBa
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ValueBaseHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.ValueBaseHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ValueBaseHelper]

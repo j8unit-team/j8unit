@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import javax.swing.DesktopManager;
 import javax.swing.JDesktopPane;
-import javax.swing.JInternalFrame;
-import javax.swing.plaf.DesktopPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +34,9 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#setComponentZOrder(Component, int)
-     * public void javax.swing.JDesktopPane.setComponentZOrder(java.awt.Component,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JDesktopPane#setComponentZOrder(java.awt.Component, int) public void
+     * javax.swing.JDesktopPane.setComponentZOrder(java.awt.Component,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +58,8 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#getAllFramesInLayer(int) public
-     * javax.swing.JInternalFrame[] javax.swing.JDesktopPane.getAllFramesInLayer(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getAllFramesInLayer(int)
+     * public javax.swing.JInternalFrame[] javax.swing.JDesktopPane.getAllFramesInLayer(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +80,7 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#getDragMode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getDragMode() public int
      * javax.swing.JDesktopPane.getDragMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +102,7 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#selectFrame(boolean) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#selectFrame(boolean) public
      * javax.swing.JInternalFrame javax.swing.JDesktopPane.selectFrame(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +124,8 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#getUIClassID() public java.lang.String
-     * javax.swing.JDesktopPane.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getUIClassID() public
+     * java.lang.String javax.swing.JDesktopPane.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,7 +147,7 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#updateUI() public void
      * javax.swing.JDesktopPane.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,7 +170,7 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#remove(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#remove(int) public void
      * javax.swing.JDesktopPane.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -196,8 +193,8 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#remove(Component) public void
-     * javax.swing.JDesktopPane.remove(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#remove(java.awt.Component)
+     * public void javax.swing.JDesktopPane.remove(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,7 +216,7 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#getDesktopManager() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getDesktopManager() public
      * javax.swing.DesktopManager javax.swing.JDesktopPane.getDesktopManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,8 +238,9 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#setDesktopManager(DesktopManager)
-     * public void javax.swing.JDesktopPane.setDesktopManager(javax.swing.DesktopManager)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JDesktopPane#setDesktopManager(javax.swing.DesktopManager) public void
+     * javax.swing.JDesktopPane.setDesktopManager(javax.swing.DesktopManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,8 +261,8 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JDesktopPane.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JDesktopPane.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -286,7 +284,8 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#setUI(DesktopPaneUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JDesktopPane#setUI(javax.swing.plaf.DesktopPaneUI) public void
      * javax.swing.JDesktopPane.setUI(javax.swing.plaf.DesktopPaneUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -308,7 +307,7 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#removeAll() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#removeAll() public void
      * javax.swing.JDesktopPane.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -331,7 +330,7 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#getAllFrames() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getAllFrames() public
      * javax.swing.JInternalFrame[] javax.swing.JDesktopPane.getAllFrames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -353,7 +352,7 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#getSelectedFrame() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getSelectedFrame() public
      * javax.swing.JInternalFrame javax.swing.JDesktopPane.getSelectedFrame()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -375,7 +374,7 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#getUI() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getUI() public
      * javax.swing.plaf.DesktopPaneUI javax.swing.JDesktopPane.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -397,8 +396,9 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#setSelectedFrame(JInternalFrame) public
-     * void javax.swing.JDesktopPane.setSelectedFrame(javax.swing.JInternalFrame)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JDesktopPane#setSelectedFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.JDesktopPane.setSelectedFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -419,8 +419,8 @@ extends org.j8unit.repository.javax.swing.JLayeredPaneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDesktopPane#setDragMode(int) public void
-     * javax.swing.JDesktopPane.setDragMode(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#setDragMode(int) public
+     * void javax.swing.JDesktopPane.setDragMode(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

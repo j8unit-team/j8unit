@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind;
 
-import java.io.PrintStream;
 import javax.xml.bind.TypeConstraintException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeConstraintException#printStackTrace() public
-     * void javax.xml.bind.TypeConstraintException.printStackTrace()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.TypeConstraintException#printStackTrace() public void
+     * javax.xml.bind.TypeConstraintException.printStackTrace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeConstraintException#printStackTrace(PrintStream)
-     * public void javax.xml.bind.TypeConstraintException.printStackTrace(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.TypeConstraintException#printStackTrace(java.io.PrintStream) public void
+     * javax.xml.bind.TypeConstraintException.printStackTrace(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeConstraintException#getErrorCode() public
-     * java.lang.String javax.xml.bind.TypeConstraintException.getErrorCode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.TypeConstraintException#getErrorCode() public java.lang.String
+     * javax.xml.bind.TypeConstraintException.getErrorCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +105,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeConstraintException#getLinkedException() public
-     * java.lang.Throwable javax.xml.bind.TypeConstraintException.getLinkedException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.TypeConstraintException#getLinkedException() public java.lang.Throwable
+     * javax.xml.bind.TypeConstraintException.getLinkedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +129,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeConstraintException#setLinkedException(Throwable) public void
+     * {@link javax.xml.bind.TypeConstraintException#setLinkedException(Throwable) public void
      * javax.xml.bind.TypeConstraintException.setLinkedException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +151,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeConstraintException#toString() public
-     * java.lang.String javax.xml.bind.TypeConstraintException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.TypeConstraintException#toString()
+     * public java.lang.String javax.xml.bind.TypeConstraintException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

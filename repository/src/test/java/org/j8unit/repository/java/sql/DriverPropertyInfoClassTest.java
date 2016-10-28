@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.sql.DriverPropertyInfoClassTests<DriverPro
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DriverPropertyInfo#DriverPropertyInfo(String, String) public
+     * {@link java.sql.DriverPropertyInfo#DriverPropertyInfo(String, String) public
      * java.sql.DriverPropertyInfo(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

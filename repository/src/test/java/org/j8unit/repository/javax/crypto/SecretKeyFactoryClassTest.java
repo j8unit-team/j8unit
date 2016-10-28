@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.security.Provider;
 import javax.crypto.SecretKeyFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,9 +21,9 @@ implements org.j8unit.repository.javax.crypto.SecretKeyFactoryClassTests<SecretK
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeyFactory#getInstance(String, String) public
-     * static final javax.crypto.SecretKeyFactory
-     * javax.crypto.SecretKeyFactory.getInstance(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.SecretKeyFactory#getInstance(String, String) public static final
+     * javax.crypto.SecretKeyFactory javax.crypto.SecretKeyFactory.getInstance(java.lang.String,java.lang.String) throws
      * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,15 +38,15 @@ implements org.j8unit.repository.javax.crypto.SecretKeyFactoryClassTests<SecretK
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link SecretKeyFactory#getInstance(String, String)}
+        // write some test for {@link javax.crypto.SecretKeyFactory#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeyFactory#getInstance(String, Provider)
-     * public static final javax.crypto.SecretKeyFactory
-     * javax.crypto.SecretKeyFactory.getInstance(java.lang.String,java.security.Provider) throws
-     * java.security.NoSuchAlgorithmException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.SecretKeyFactory#getInstance(String, java.security.Provider) public static final
+     * javax.crypto.SecretKeyFactory javax.crypto.SecretKeyFactory.getInstance(java.lang.String,java.security.Provider)
+     * throws java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,14 +60,14 @@ implements org.j8unit.repository.javax.crypto.SecretKeyFactoryClassTests<SecretK
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link SecretKeyFactory#getInstance(String, Provider)}
+        // write some test for {@link javax.crypto.SecretKeyFactory#getInstance(String, java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeyFactory#getInstance(String) public static
-     * final javax.crypto.SecretKeyFactory javax.crypto.SecretKeyFactory.getInstance(java.lang.String) throws
-     * java.security.NoSuchAlgorithmException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.SecretKeyFactory#getInstance(String)
+     * public static final javax.crypto.SecretKeyFactory javax.crypto.SecretKeyFactory.getInstance(java.lang.String)
+     * throws java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +81,7 @@ implements org.j8unit.repository.javax.crypto.SecretKeyFactoryClassTests<SecretK
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link SecretKeyFactory#getInstance(String)}
+        // write some test for {@link javax.crypto.SecretKeyFactory#getInstance(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.SecretKeyFactory]

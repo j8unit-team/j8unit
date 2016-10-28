@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.util.logging.SocketHandlerClassTests<Socke
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SocketHandler#SocketHandler(String, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.logging.SocketHandler#SocketHandler(String, int) public
      * java.util.logging.SocketHandler(java.lang.String,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +44,8 @@ implements org.j8unit.repository.java.util.logging.SocketHandlerClassTests<Socke
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SocketHandler#SocketHandler() public
-     * java.util.logging.SocketHandler() throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.logging.SocketHandler#SocketHandler()
+     * public java.util.logging.SocketHandler() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,10 +1,7 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.DisplayMode;
-import java.awt.GraphicsConfigTemplate;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsDevice.WindowTranslucency;
-import java.awt.Window;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +35,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#setDisplayMode(DisplayMode) public
-     * void java.awt.GraphicsDevice.setDisplayMode(java.awt.DisplayMode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsDevice#setDisplayMode(java.awt.DisplayMode) public void
+     * java.awt.GraphicsDevice.setDisplayMode(java.awt.DisplayMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#isFullScreenSupported() public
-     * boolean java.awt.GraphicsDevice.isFullScreenSupported()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsDevice#isFullScreenSupported()
+     * public boolean java.awt.GraphicsDevice.isFullScreenSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#getConfigurations() public abstract
-     * java.awt.GraphicsConfiguration[] java.awt.GraphicsDevice.getConfigurations()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsDevice#getConfigurations() public
+     * abstract java.awt.GraphicsConfiguration[] java.awt.GraphicsDevice.getConfigurations()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,29 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#isDisplayChangeSupported() public
-     * boolean java.awt.GraphicsDevice.isDisplayChangeSupported()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDisplayChangeSupported()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#getDisplayMode() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsDevice#getDisplayMode() public
      * java.awt.DisplayMode java.awt.GraphicsDevice.getDisplayMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +124,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#getDefaultConfiguration() public
-     * abstract java.awt.GraphicsConfiguration java.awt.GraphicsDevice.getDefaultConfiguration()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsDevice#isDisplayChangeSupported()
+     * public boolean java.awt.GraphicsDevice.isDisplayChangeSupported()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDisplayChangeSupported()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsDevice#getDefaultConfiguration()
+     * public abstract java.awt.GraphicsConfiguration java.awt.GraphicsDevice.getDefaultConfiguration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +168,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#getAvailableAcceleratedMemory()
-     * public int java.awt.GraphicsDevice.getAvailableAcceleratedMemory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsDevice#getAvailableAcceleratedMemory() public int
+     * java.awt.GraphicsDevice.getAvailableAcceleratedMemory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,29 +191,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#setFullScreenWindow(Window) public
-     * void java.awt.GraphicsDevice.setFullScreenWindow(java.awt.Window)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFullScreenWindow_Window()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#getFullScreenWindow() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsDevice#getFullScreenWindow() public
      * java.awt.Window java.awt.GraphicsDevice.getFullScreenWindow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,8 +214,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GraphicsDevice#getBestConfiguration(GraphicsConfigTemplate) public java.awt.GraphicsConfiguration
-     * java.awt.GraphicsDevice.getBestConfiguration(java.awt.GraphicsConfigTemplate)}.
+     * {@link java.awt.GraphicsDevice#setFullScreenWindow(java.awt.Window) public void
+     * java.awt.GraphicsDevice.setFullScreenWindow(java.awt.Window)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFullScreenWindow_Window()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsDevice#getBestConfiguration(java.awt.GraphicsConfigTemplate) public
+     * java.awt.GraphicsConfiguration java.awt.GraphicsDevice.getBestConfiguration(java.awt.GraphicsConfigTemplate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +259,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#getType() public abstract int
-     * java.awt.GraphicsDevice.getType()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsDevice#getType() public abstract
+     * int java.awt.GraphicsDevice.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +281,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#getIDstring() public abstract
-     * java.lang.String java.awt.GraphicsDevice.getIDstring()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsDevice#getIDstring() public
+     * abstract java.lang.String java.awt.GraphicsDevice.getIDstring()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,7 +303,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsDevice#getDisplayModes() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsDevice#getDisplayModes() public
      * java.awt.DisplayMode[] java.awt.GraphicsDevice.getDisplayModes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -326,8 +326,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GraphicsDevice#isWindowTranslucencySupported(WindowTranslucency) public boolean
-     * java.awt.GraphicsDevice.isWindowTranslucencySupported(java.awt.GraphicsDevice$WindowTranslucency)}.
+     * {@link java.awt.GraphicsDevice#isWindowTranslucencySupported(java.awt.GraphicsDevice.WindowTranslucency) public
+     * boolean java.awt.GraphicsDevice.isWindowTranslucencySupported(java.awt.GraphicsDevice$WindowTranslucency)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

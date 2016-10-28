@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import static org.junit.Assert.fail;
-import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectInputStream.GetField;
 import org.j8unit.repository.categories.Draft;
@@ -25,8 +24,8 @@ implements org.j8unit.repository.java.io.ObjectInputStreamClassTests<ObjectInput
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectInputStream#ObjectInputStream(InputStream) public java.io.ObjectInputStream(java.io.InputStream)
-     * throws java.io.IOException}.
+     * {@link java.io.ObjectInputStream#ObjectInputStream(java.io.InputStream) public
+     * java.io.ObjectInputStream(java.io.InputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +41,7 @@ implements org.j8unit.repository.java.io.ObjectInputStreamClassTests<ObjectInput
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ObjectInputStream sut = null; // = new ObjectInputStream(InputStream);
+        final ObjectInputStream sut = null; // = new ObjectInputStream(java.io.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectInputStream]
@@ -60,8 +59,8 @@ implements org.j8unit.repository.java.io.ObjectInputStreamClassTests<ObjectInput
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link GetField#GetField() public
-         * java.io.ObjectInputStream$GetField()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.io.ObjectInputStream.GetField#GetField() public java.io.ObjectInputStream$GetField()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.ThreadTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForkJoinWorkerThread#getPoolIndex() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ForkJoinWorkerThread#getPoolIndex() public int
      * java.util.concurrent.ForkJoinWorkerThread.getPoolIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ThreadTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForkJoinWorkerThread#getPool() public
-     * java.util.concurrent.ForkJoinPool java.util.concurrent.ForkJoinWorkerThread.getPool()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinWorkerThread#getPool()
+     * public java.util.concurrent.ForkJoinPool java.util.concurrent.ForkJoinWorkerThread.getPool()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.java.lang.ThreadTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForkJoinWorkerThread#run() public void
-     * java.util.concurrent.ForkJoinWorkerThread.run()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinWorkerThread#run()
+     * public void java.util.concurrent.ForkJoinWorkerThread.run()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

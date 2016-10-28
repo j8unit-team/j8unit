@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Collection;
 import java.util.HashSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.util.HashSetClassTests<HashSet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashSet#HashSet(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.HashSet#HashSet(int) public
      * java.util.HashSet(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +44,7 @@ implements org.j8unit.repository.java.util.HashSetClassTests<HashSet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashSet#HashSet(int, float) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.HashSet#HashSet(int, float) public
      * java.util.HashSet(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +66,8 @@ implements org.j8unit.repository.java.util.HashSetClassTests<HashSet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashSet#HashSet(Collection) public
-     * java.util.HashSet(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.HashSet#HashSet(java.util.Collection)
+     * public java.util.HashSet(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,12 +83,13 @@ implements org.j8unit.repository.java.util.HashSetClassTests<HashSet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashSet sut = null; // = new HashSet(Collection);
+        final HashSet sut = null; // = new HashSet(java.util.Collection);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashSet#HashSet() public java.util.HashSet()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.HashSet#HashSet() public
+     * java.util.HashSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

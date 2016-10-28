@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto;
 
-import javax.xml.crypto.URIReference;
 import javax.xml.crypto.URIReferenceException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URIReferenceException#URIReferenceException(Throwable) public
+     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException(Throwable) public
      * javax.xml.crypto.URIReferenceException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,8 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URIReferenceException#URIReferenceException(String, Throwable, URIReference) public
+     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException(String, Throwable, javax.xml.crypto.URIReference)
+     * public
      * javax.xml.crypto.URIReferenceException(java.lang.String,java.lang.Throwable,javax.xml.crypto.URIReference)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +63,14 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final URIReferenceException sut = null; // = new URIReferenceException(String, Throwable, URIReference);
+        final URIReferenceException sut = null; // = new URIReferenceException(String, Throwable,
+                                                // javax.xml.crypto.URIReference);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URIReferenceException#URIReferenceException(String, Throwable) public
+     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException(String, Throwable) public
      * javax.xml.crypto.URIReferenceException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -92,7 +93,7 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URIReferenceException#URIReferenceException(String) public
+     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException(String) public
      * javax.xml.crypto.URIReferenceException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -114,8 +115,9 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URIReferenceException#URIReferenceException()
-     * public javax.xml.crypto.URIReferenceException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException() public
+     * javax.xml.crypto.URIReferenceException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

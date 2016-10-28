@@ -7,7 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.w3c.dom.Node;
 
 @RunWith(J8Unit4.class)
 public class IIOInvalidTreeExceptionClassTest
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOInvalidTreeExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IIOInvalidTreeException#IIOInvalidTreeException(String, Node) public
+     * {@link javax.imageio.metadata.IIOInvalidTreeException#IIOInvalidTreeException(String, org.w3c.dom.Node) public
      * javax.imageio.metadata.IIOInvalidTreeException(java.lang.String,org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,14 +39,14 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOInvalidTreeExceptionC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IIOInvalidTreeException sut = null; // = new IIOInvalidTreeException(String, Node);
+        final IIOInvalidTreeException sut = null; // = new IIOInvalidTreeException(String, org.w3c.dom.Node);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IIOInvalidTreeException#IIOInvalidTreeException(String, Throwable, Node) public
-     * javax.imageio.metadata.IIOInvalidTreeException(java.lang.String,java.lang.Throwable,org.w3c.dom.Node)}.
+     * {@link javax.imageio.metadata.IIOInvalidTreeException#IIOInvalidTreeException(String, Throwable, org.w3c.dom.Node)
+     * public javax.imageio.metadata.IIOInvalidTreeException(java.lang.String,java.lang.Throwable,org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +62,7 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOInvalidTreeExceptionC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IIOInvalidTreeException sut = null; // = new IIOInvalidTreeException(String, Throwable, Node);
+        final IIOInvalidTreeException sut = null; // = new IIOInvalidTreeException(String, Throwable, org.w3c.dom.Node);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.metadata.IIOInvalidTreeException]

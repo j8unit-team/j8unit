@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.io.ObjectStreamFieldClassTests<ObjectStrea
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectStreamField#ObjectStreamField(String, Class, boolean) public
+     * {@link java.io.ObjectStreamField#ObjectStreamField(String, Class, boolean) public
      * java.io.ObjectStreamField(java.lang.String,java.lang.Class<?>,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.io.ObjectStreamFieldClassTests<ObjectStrea
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectStreamField#ObjectStreamField(String, Class) public
+     * {@link java.io.ObjectStreamField#ObjectStreamField(String, Class) public
      * java.io.ObjectStreamField(java.lang.String,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

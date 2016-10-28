@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.text;
 
-import java.text.CharacterIterator;
 import java.text.RuleBasedCollator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuleBasedCollator#equals(Object) public boolean
-     * java.text.RuleBasedCollator.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.RuleBasedCollator#equals(Object) public
+     * boolean java.text.RuleBasedCollator.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuleBasedCollator#getCollationKey(String) public
-     * synchronized java.text.CollationKey java.text.RuleBasedCollator.getCollationKey(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.RuleBasedCollator#getCollationKey(String)
+     * public synchronized java.text.CollationKey java.text.RuleBasedCollator.getCollationKey(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,7 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuleBasedCollator#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.RuleBasedCollator#hashCode() public int
      * java.text.RuleBasedCollator.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,30 +104,8 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RuleBasedCollator#getCollationElementIterator(String) public java.text.CollationElementIterator
-     * java.text.RuleBasedCollator.getCollationElementIterator(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCollationElementIterator_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link RuleBasedCollator#getCollationElementIterator(CharacterIterator) public java.text.CollationElementIterator
+     * {@link java.text.RuleBasedCollator#getCollationElementIterator(java.text.CharacterIterator) public
+     * java.text.CollationElementIterator
      * java.text.RuleBasedCollator.getCollationElementIterator(java.text.CharacterIterator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +127,31 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuleBasedCollator#compare(String, String) public
-     * synchronized int java.text.RuleBasedCollator.compare(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.RuleBasedCollator#getCollationElementIterator(String) public java.text.CollationElementIterator
+     * java.text.RuleBasedCollator.getCollationElementIterator(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCollationElementIterator_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.RuleBasedCollator#compare(String, String)
+     * public synchronized int java.text.RuleBasedCollator.compare(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +173,8 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuleBasedCollator#clone() public java.lang.Object
-     * java.text.RuleBasedCollator.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.RuleBasedCollator#clone() public
+     * java.lang.Object java.text.RuleBasedCollator.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,8 +196,8 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuleBasedCollator#getRules() public java.lang.String
-     * java.text.RuleBasedCollator.getRules()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.RuleBasedCollator#getRules() public
+     * java.lang.String java.text.RuleBasedCollator.getRules()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingProvider#getRequestContext() public abstract
-     * java.util.Map<java.lang.String, java.lang.Object> javax.xml.ws.BindingProvider.getRequestContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.BindingProvider#getRequestContext()
+     * public abstract java.util.Map<java.lang.String, java.lang.Object>
+     * javax.xml.ws.BindingProvider.getRequestContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingProvider#getEndpointReference(Class) public
-     * abstract <T> T javax.xml.ws.BindingProvider.getEndpointReference(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.BindingProvider#getEndpointReference(Class) public abstract <T> T
+     * javax.xml.ws.BindingProvider.getEndpointReference(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingProvider#getEndpointReference() public
-     * abstract javax.xml.ws.EndpointReference javax.xml.ws.BindingProvider.getEndpointReference()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.BindingProvider#getEndpointReference()
+     * public abstract javax.xml.ws.EndpointReference javax.xml.ws.BindingProvider.getEndpointReference()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingProvider#getResponseContext() public abstract
-     * java.util.Map<java.lang.String, java.lang.Object> javax.xml.ws.BindingProvider.getResponseContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.BindingProvider#getResponseContext()
+     * public abstract java.util.Map<java.lang.String, java.lang.Object>
+     * javax.xml.ws.BindingProvider.getResponseContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +126,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingProvider#getBinding() public abstract
-     * javax.xml.ws.Binding javax.xml.ws.BindingProvider.getBinding()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.BindingProvider#getBinding() public
+     * abstract javax.xml.ws.Binding javax.xml.ws.BindingProvider.getBinding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

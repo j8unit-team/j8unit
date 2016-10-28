@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Canvas;
-import java.awt.GraphicsConfiguration;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.awt.CanvasClassTests<Canvas> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Canvas#Canvas() public java.awt.Canvas()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Canvas#Canvas() public
+     * java.awt.Canvas()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.java.awt.CanvasClassTests<Canvas> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Canvas#Canvas(GraphicsConfiguration) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Canvas#Canvas(java.awt.GraphicsConfiguration) public
      * java.awt.Canvas(java.awt.GraphicsConfiguration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +60,7 @@ implements org.j8unit.repository.java.awt.CanvasClassTests<Canvas> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Canvas sut = null; // = new Canvas(GraphicsConfiguration);
+        final Canvas sut = null; // = new Canvas(java.awt.GraphicsConfiguration);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Canvas]

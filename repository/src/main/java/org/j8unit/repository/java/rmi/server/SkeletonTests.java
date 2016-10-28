@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.rmi.Remote;
-import java.rmi.server.RemoteCall;
 import java.rmi.server.Skeleton;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,9 +35,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Skeleton#dispatch(Remote, RemoteCall, int, long)
-     * public abstract void java.rmi.server.Skeleton.dispatch(java.rmi.Remote,java.rmi.server.RemoteCall,int,long)
-     * throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.Skeleton#dispatch(java.rmi.Remote, java.rmi.server.RemoteCall, int, long) public abstract
+     * void java.rmi.server.Skeleton.dispatch(java.rmi.Remote,java.rmi.server.RemoteCall,int,long) throws
+     * java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Skeleton#getOperations() public abstract
-     * java.rmi.server.Operation[] java.rmi.server.Skeleton.getOperations()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.Skeleton#getOperations() public
+     * abstract java.rmi.server.Operation[] java.rmi.server.Skeleton.getOperations()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -2,7 +2,6 @@ package org.j8unit.repository.java.awt;
 
 import java.awt.RenderingHints;
 import java.awt.RenderingHints.Key;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.awt.RenderingHintsClassTests<RenderingHint
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RenderingHints#RenderingHints(Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.RenderingHints#RenderingHints(java.util.Map) public
      * java.awt.RenderingHints(java.util.Map<java.awt.RenderingHints$Key, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +40,14 @@ implements org.j8unit.repository.java.awt.RenderingHintsClassTests<RenderingHint
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RenderingHints sut = null; // = new RenderingHints(Map);
+        final RenderingHints sut = null; // = new RenderingHints(java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RenderingHints#RenderingHints(Key, Object)
-     * public java.awt.RenderingHints(java.awt.RenderingHints$Key,java.lang.Object)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.RenderingHints#RenderingHints(java.awt.RenderingHints.Key, Object) public
+     * java.awt.RenderingHints(java.awt.RenderingHints$Key,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +63,7 @@ implements org.j8unit.repository.java.awt.RenderingHintsClassTests<RenderingHint
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RenderingHints sut = null; // = new RenderingHints(Key, Object);
+        final RenderingHints sut = null; // = new RenderingHints(java.awt.RenderingHints.Key, Object);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.RenderingHints]

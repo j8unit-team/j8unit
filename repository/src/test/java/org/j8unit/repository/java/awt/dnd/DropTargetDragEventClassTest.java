@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.Point;
-import java.awt.dnd.DropTargetContext;
 import java.awt.dnd.DropTargetDragEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetDragEventClassTests<Drop
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DropTargetDragEvent#DropTargetDragEvent(DropTargetContext, Point, int, int) public
-     * java.awt.dnd.DropTargetDragEvent(java.awt.dnd.DropTargetContext,java.awt.Point,int,int)}.
+     * {@link java.awt.dnd.DropTargetDragEvent#DropTargetDragEvent(java.awt.dnd.DropTargetContext, java.awt.Point, int, int)
+     * public java.awt.dnd.DropTargetDragEvent(java.awt.dnd.DropTargetContext,java.awt.Point,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +39,8 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetDragEventClassTests<Drop
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DropTargetDragEvent sut = null; // = new DropTargetDragEvent(DropTargetContext, Point, int, int);
+        final DropTargetDragEvent sut = null; // = new DropTargetDragEvent(java.awt.dnd.DropTargetContext,
+                                              // java.awt.Point, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DropTargetDragEvent]

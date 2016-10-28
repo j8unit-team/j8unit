@@ -29,8 +29,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DefaultEditorKit#DefaultEditorKit() public
-     * javax.swing.text.DefaultEditorKit()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.DefaultEditorKit#DefaultEditorKit() public javax.swing.text.DefaultEditorKit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -51,20 +51,21 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit]
 
     @RunWith(J8Unit4.class)
-    public static class CutActionClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CutActionClassTests<CutAction> {
+    public static class InsertContentActionClassTest
+    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertContentActionClassTests<InsertContentAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$CutAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
 
         @Override
-        public Class<CutAction> createNewSUT() {
-            return CutAction.class;
+        public Class<InsertContentAction> createNewSUT() {
+            return InsertContentAction.class;
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link CutAction#CutAction() public
-         * javax.swing.text.DefaultEditorKit$CutAction()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.DefaultEditorKit.InsertContentAction#InsertContentAction() public
+         * javax.swing.text.DefaultEditorKit$InsertContentAction()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -76,85 +77,13 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_CutAction()
+        public void create_InsertContentAction()
         throws Exception {
             // create new instance
-            final CutAction sut = new CutAction();
+            final InsertContentAction sut = new InsertContentAction();
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit$CutAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class BeepActionClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.BeepActionClassTests<BeepAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$BeepAction]
-
-        @Override
-        public Class<BeepAction> createNewSUT() {
-            return BeepAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test {@link BeepAction#BeepAction() public
-         * javax.swing.text.DefaultEditorKit$BeepAction()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_BeepAction()
-        throws Exception {
-            // create new instance
-            final BeepAction sut = new BeepAction();
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit$BeepAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class InsertTabActionClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertTabActionClassTests<InsertTabAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
-
-        @Override
-        public Class<InsertTabAction> createNewSUT() {
-            return InsertTabAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test {@link InsertTabAction#InsertTabAction() public
-         * javax.swing.text.DefaultEditorKit$InsertTabAction()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_InsertTabAction()
-        throws Exception {
-            // create new instance
-            final InsertTabAction sut = new InsertTabAction();
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
 
     }
 
@@ -171,7 +100,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link CopyAction#CopyAction() public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.DefaultEditorKit.CopyAction#CopyAction() public
          * javax.swing.text.DefaultEditorKit$CopyAction()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -208,7 +138,7 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link DefaultKeyTypedAction#DefaultKeyTypedAction() public
+         * {@link javax.swing.text.DefaultEditorKit.DefaultKeyTypedAction#DefaultKeyTypedAction() public
          * javax.swing.text.DefaultEditorKit$DefaultKeyTypedAction()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -232,20 +162,21 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
     }
 
     @RunWith(J8Unit4.class)
-    public static class InsertContentActionClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertContentActionClassTests<InsertContentAction> {
+    public static class InsertTabActionClassTest
+    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertTabActionClassTests<InsertTabAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
 
         @Override
-        public Class<InsertContentAction> createNewSUT() {
-            return InsertContentAction.class;
+        public Class<InsertTabAction> createNewSUT() {
+            return InsertTabAction.class;
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link InsertContentAction#InsertContentAction()
-         * public javax.swing.text.DefaultEditorKit$InsertContentAction()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.DefaultEditorKit.InsertTabAction#InsertTabAction() public
+         * javax.swing.text.DefaultEditorKit$InsertTabAction()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -257,13 +188,13 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_InsertContentAction()
+        public void create_InsertTabAction()
         throws Exception {
             // create new instance
-            final InsertContentAction sut = new InsertContentAction();
+            final InsertTabAction sut = new InsertTabAction();
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
 
     }
 
@@ -280,7 +211,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link PasteAction#PasteAction() public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.DefaultEditorKit.PasteAction#PasteAction() public
          * javax.swing.text.DefaultEditorKit$PasteAction()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -316,8 +248,9 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link InsertBreakAction#InsertBreakAction()
-         * public javax.swing.text.DefaultEditorKit$InsertBreakAction()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.DefaultEditorKit.InsertBreakAction#InsertBreakAction() public
+         * javax.swing.text.DefaultEditorKit$InsertBreakAction()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -336,6 +269,80 @@ implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<Def
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CutActionClassTest
+    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CutActionClassTests<CutAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$CutAction]
+
+        @Override
+        public Class<CutAction> createNewSUT() {
+            return CutAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.DefaultEditorKit.CutAction#CutAction() public
+         * javax.swing.text.DefaultEditorKit$CutAction()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_CutAction()
+        throws Exception {
+            // create new instance
+            final CutAction sut = new CutAction();
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit$CutAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class BeepActionClassTest
+    implements org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.BeepActionClassTests<BeepAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$BeepAction]
+
+        @Override
+        public Class<BeepAction> createNewSUT() {
+            return BeepAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.DefaultEditorKit.BeepAction#BeepAction() public
+         * javax.swing.text.DefaultEditorKit$BeepAction()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_BeepAction()
+        throws Exception {
+            // create new instance
+            final BeepAction sut = new BeepAction();
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultEditorKit$BeepAction]
 
     }
 

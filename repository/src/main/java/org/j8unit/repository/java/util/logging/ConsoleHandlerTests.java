@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.logging;
 
 import java.util.logging.ConsoleHandler;
-import java.util.logging.LogRecord;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConsoleHandler#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.ConsoleHandler#close() public void
      * java.util.logging.ConsoleHandler.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,8 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConsoleHandler#publish(LogRecord) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.ConsoleHandler#publish(java.util.logging.LogRecord) public void
      * java.util.logging.ConsoleHandler.publish(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

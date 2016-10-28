@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.beans.ParameterDescriptorClassTests<Parame
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParameterDescriptor#ParameterDescriptor()
-     * public java.beans.ParameterDescriptor()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.ParameterDescriptor#ParameterDescriptor() public java.beans.ParameterDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

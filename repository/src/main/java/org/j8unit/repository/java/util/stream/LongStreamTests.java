@@ -1,15 +1,5 @@
 package org.j8unit.repository.java.util.stream;
 
-import java.util.function.BiConsumer;
-import java.util.function.LongBinaryOperator;
-import java.util.function.LongConsumer;
-import java.util.function.LongFunction;
-import java.util.function.LongPredicate;
-import java.util.function.LongToDoubleFunction;
-import java.util.function.LongToIntFunction;
-import java.util.function.LongUnaryOperator;
-import java.util.function.ObjLongConsumer;
-import java.util.function.Supplier;
 import java.util.stream.LongStream;
 import java.util.stream.LongStream.Builder;
 import org.j8unit.repository.categories.Draft;
@@ -45,8 +35,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#reduce(long, LongBinaryOperator) public
-     * abstract long java.util.stream.LongStream.reduce(long,java.util.function.LongBinaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#reduce(long, java.util.function.LongBinaryOperator) public abstract long
+     * java.util.stream.LongStream.reduce(long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,8 +58,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#reduce(LongBinaryOperator) public
-     * abstract java.util.OptionalLong java.util.stream.LongStream.reduce(java.util.function.LongBinaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#reduce(java.util.function.LongBinaryOperator) public abstract
+     * java.util.OptionalLong java.util.stream.LongStream.reduce(java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +81,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#forEach(LongConsumer) public abstract
-     * void java.util.stream.LongStream.forEach(java.util.function.LongConsumer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#forEach(java.util.function.LongConsumer) public abstract void
+     * java.util.stream.LongStream.forEach(java.util.function.LongConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +104,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#spliterator() public abstract
-     * java.util.Spliterator$OfLong java.util.stream.LongStream.spliterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#spliterator() public
+     * abstract java.util.Spliterator$OfLong java.util.stream.LongStream.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -134,7 +127,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#max() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#max() public abstract
      * java.util.OptionalLong java.util.stream.LongStream.max()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -156,8 +149,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#count() public abstract long
-     * java.util.stream.LongStream.count()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#count() public abstract
+     * long java.util.stream.LongStream.count()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,7 +171,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#peek(LongConsumer) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#peek(java.util.function.LongConsumer) public abstract
      * java.util.stream.LongStream java.util.stream.LongStream.peek(java.util.function.LongConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -200,7 +194,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#boxed() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#boxed() public abstract
      * java.util.stream.Stream<java.lang.Long> java.util.stream.LongStream.boxed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -222,7 +216,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#sorted() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#sorted() public abstract
      * java.util.stream.LongStream java.util.stream.LongStream.sorted()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,7 +238,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#flatMap(LongFunction) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#flatMap(java.util.function.LongFunction) public abstract
      * java.util.stream.LongStream java.util.stream.LongStream.flatMap(java.util.function.LongFunction<? extends
      * java.util.stream.LongStream>)}.
      *
@@ -267,7 +262,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#filter(LongPredicate) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#filter(java.util.function.LongPredicate) public abstract
      * java.util.stream.LongStream java.util.stream.LongStream.filter(java.util.function.LongPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,8 +285,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#mapToInt(LongToIntFunction) public
-     * abstract java.util.stream.IntStream java.util.stream.LongStream.mapToInt(java.util.function.LongToIntFunction)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#mapToInt(java.util.function.LongToIntFunction) public abstract
+     * java.util.stream.IntStream java.util.stream.LongStream.mapToInt(java.util.function.LongToIntFunction)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -311,8 +308,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#summaryStatistics() public abstract
-     * java.util.LongSummaryStatistics java.util.stream.LongStream.summaryStatistics()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#summaryStatistics()
+     * public abstract java.util.LongSummaryStatistics java.util.stream.LongStream.summaryStatistics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -334,9 +331,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LongStream#collect(Supplier, ObjLongConsumer, BiConsumer) public abstract <R> R
-     * java.util.stream.LongStream.collect(java.util.function.Supplier<R>,java.util.function.ObjLongConsumer
-     * <R>,java.util.function.BiConsumer<R, R>)}.
+     * {@link java.util.stream.LongStream#collect(java.util.function.Supplier, java.util.function.ObjLongConsumer, java.util.function.BiConsumer)
+     * public abstract <R> R java.util.stream.LongStream.collect(java.util.function.Supplier
+     * <R>,java.util.function.ObjLongConsumer<R>,java.util.function.BiConsumer<R, R>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -357,8 +354,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#average() public abstract
-     * java.util.OptionalDouble java.util.stream.LongStream.average()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#average() public
+     * abstract java.util.OptionalDouble java.util.stream.LongStream.average()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -379,8 +376,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#sequential() public abstract
-     * java.util.stream.LongStream java.util.stream.LongStream.sequential()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#sequential() public
+     * abstract java.util.stream.LongStream java.util.stream.LongStream.sequential()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -402,8 +399,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#findFirst() public abstract
-     * java.util.OptionalLong java.util.stream.LongStream.findFirst()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#findFirst() public
+     * abstract java.util.OptionalLong java.util.stream.LongStream.findFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -424,8 +421,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#sum() public abstract long
-     * java.util.stream.LongStream.sum()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#sum() public abstract
+     * long java.util.stream.LongStream.sum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -446,8 +443,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#skip(long) public abstract
-     * java.util.stream.LongStream java.util.stream.LongStream.skip(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#skip(long) public
+     * abstract java.util.stream.LongStream java.util.stream.LongStream.skip(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -468,8 +465,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#distinct() public abstract
-     * java.util.stream.LongStream java.util.stream.LongStream.distinct()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#distinct() public
+     * abstract java.util.stream.LongStream java.util.stream.LongStream.distinct()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -490,7 +487,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#mapToObj(LongFunction) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#mapToObj(java.util.function.LongFunction) public abstract
      * <U> java.util.stream.Stream<U> java.util.stream.LongStream.mapToObj(java.util.function.LongFunction<? extends
      * U>)}.
      *
@@ -513,8 +511,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#allMatch(LongPredicate) public abstract
-     * boolean java.util.stream.LongStream.allMatch(java.util.function.LongPredicate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#allMatch(java.util.function.LongPredicate) public abstract boolean
+     * java.util.stream.LongStream.allMatch(java.util.function.LongPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -535,8 +534,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#asDoubleStream() public abstract
-     * java.util.stream.DoubleStream java.util.stream.LongStream.asDoubleStream()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#asDoubleStream() public
+     * abstract java.util.stream.DoubleStream java.util.stream.LongStream.asDoubleStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -557,7 +556,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#min() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#min() public abstract
      * java.util.OptionalLong java.util.stream.LongStream.min()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -579,8 +578,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#iterator() public abstract
-     * java.util.PrimitiveIterator$OfLong java.util.stream.LongStream.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#iterator() public
+     * abstract java.util.PrimitiveIterator$OfLong java.util.stream.LongStream.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -602,8 +601,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#noneMatch(LongPredicate) public abstract
-     * boolean java.util.stream.LongStream.noneMatch(java.util.function.LongPredicate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#noneMatch(java.util.function.LongPredicate) public abstract boolean
+     * java.util.stream.LongStream.noneMatch(java.util.function.LongPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -624,8 +624,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#findAny() public abstract
-     * java.util.OptionalLong java.util.stream.LongStream.findAny()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#findAny() public
+     * abstract java.util.OptionalLong java.util.stream.LongStream.findAny()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -646,8 +646,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#parallel() public abstract
-     * java.util.stream.LongStream java.util.stream.LongStream.parallel()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#parallel() public
+     * abstract java.util.stream.LongStream java.util.stream.LongStream.parallel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -669,8 +669,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#forEachOrdered(LongConsumer) public
-     * abstract void java.util.stream.LongStream.forEachOrdered(java.util.function.LongConsumer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#forEachOrdered(java.util.function.LongConsumer) public abstract void
+     * java.util.stream.LongStream.forEachOrdered(java.util.function.LongConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -691,8 +692,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#toArray() public abstract long[]
-     * java.util.stream.LongStream.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#toArray() public
+     * abstract long[] java.util.stream.LongStream.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -713,8 +714,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#limit(long) public abstract
-     * java.util.stream.LongStream java.util.stream.LongStream.limit(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#limit(long) public
+     * abstract java.util.stream.LongStream java.util.stream.LongStream.limit(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -735,9 +736,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#mapToDouble(LongToDoubleFunction) public
-     * abstract java.util.stream.DoubleStream
-     * java.util.stream.LongStream.mapToDouble(java.util.function.LongToDoubleFunction)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#mapToDouble(java.util.function.LongToDoubleFunction) public abstract
+     * java.util.stream.DoubleStream java.util.stream.LongStream.mapToDouble(java.util.function.LongToDoubleFunction)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -758,8 +759,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#anyMatch(LongPredicate) public abstract
-     * boolean java.util.stream.LongStream.anyMatch(java.util.function.LongPredicate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#anyMatch(java.util.function.LongPredicate) public abstract boolean
+     * java.util.stream.LongStream.anyMatch(java.util.function.LongPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -780,7 +782,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#map(LongUnaryOperator) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#map(java.util.function.LongUnaryOperator) public abstract
      * java.util.stream.LongStream java.util.stream.LongStream.map(java.util.function.LongUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -829,8 +832,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#add(long) public default
-         * java.util.stream.LongStream$Builder java.util.stream.LongStream$Builder.add(long)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream.Builder#add(long)
+         * public default java.util.stream.LongStream$Builder java.util.stream.LongStream$Builder.add(long)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -851,8 +854,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#build() public abstract
-         * java.util.stream.LongStream java.util.stream.LongStream$Builder.build()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream.Builder#build()
+         * public abstract java.util.stream.LongStream java.util.stream.LongStream$Builder.build()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -873,8 +876,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#accept(long) public abstract void
-         * java.util.stream.LongStream$Builder.accept(long)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream.Builder#accept(long)
+         * public abstract void java.util.stream.LongStream$Builder.accept(long)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

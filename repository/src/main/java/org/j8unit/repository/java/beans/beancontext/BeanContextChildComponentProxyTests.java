@@ -36,8 +36,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextChildComponentProxy#getComponent() public
-     * abstract java.awt.Component java.beans.beancontext.BeanContextChildComponentProxy.getComponent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextChildComponentProxy#getComponent() public abstract java.awt.Component
+     * java.beans.beancontext.BeanContextChildComponentProxy.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

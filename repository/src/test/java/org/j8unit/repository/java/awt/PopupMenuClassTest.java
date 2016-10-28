@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.PopupMenuClassTests<PopupMenu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PopupMenu#PopupMenu() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.PopupMenu#PopupMenu() public
      * java.awt.PopupMenu() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.awt.PopupMenuClassTests<PopupMenu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PopupMenu#PopupMenu(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.PopupMenu#PopupMenu(String) public
      * java.awt.PopupMenu(java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

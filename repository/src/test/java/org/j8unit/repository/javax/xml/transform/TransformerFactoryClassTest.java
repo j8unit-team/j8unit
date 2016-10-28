@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.xml.transform.TransformerFactoryClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerFactory#newInstance(String, ClassLoader)
-     * public static javax.xml.transform.TransformerFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerFactory#newInstance(String, ClassLoader) public static
+     * javax.xml.transform.TransformerFactory
      * javax.xml.transform.TransformerFactory.newInstance(java.lang.String,java.lang.ClassLoader) throws
      * javax.xml.transform.TransformerFactoryConfigurationError}.
      *
@@ -38,13 +39,13 @@ implements org.j8unit.repository.javax.xml.transform.TransformerFactoryClassTest
     @Category(Draft.class)
     public void test_newInstance_String_ClassLoader()
     throws Exception {
-        // write some test for {@link TransformerFactory#newInstance(String, ClassLoader)}
+        // write some test for {@link javax.xml.transform.TransformerFactory#newInstance(String, ClassLoader)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerFactory#newInstance() public static
-     * javax.xml.transform.TransformerFactory javax.xml.transform.TransformerFactory.newInstance() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.TransformerFactory#newInstance()
+     * public static javax.xml.transform.TransformerFactory javax.xml.transform.TransformerFactory.newInstance() throws
      * javax.xml.transform.TransformerFactoryConfigurationError}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +60,7 @@ implements org.j8unit.repository.javax.xml.transform.TransformerFactoryClassTest
     @Category(Draft.class)
     public void test_newInstance()
     throws Exception {
-        // write some test for {@link TransformerFactory#newInstance()}
+        // write some test for {@link javax.xml.transform.TransformerFactory#newInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.TransformerFactory]

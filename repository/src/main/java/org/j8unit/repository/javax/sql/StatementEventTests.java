@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StatementEvent#getStatement() public
+     * Test method for the hereby targeted method-under-test {@link javax.sql.StatementEvent#getStatement() public
      * java.sql.PreparedStatement javax.sql.StatementEvent.getStatement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StatementEvent#getSQLException() public
+     * Test method for the hereby targeted method-under-test {@link javax.sql.StatementEvent#getSQLException() public
      * java.sql.SQLException javax.sql.StatementEvent.getSQLException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

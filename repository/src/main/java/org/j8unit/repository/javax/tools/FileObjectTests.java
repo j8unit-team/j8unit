@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileObject#getLastModified() public abstract long
-     * javax.tools.FileObject.getLastModified()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.FileObject#getLastModified() public
+     * abstract long javax.tools.FileObject.getLastModified()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileObject#getName() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.tools.FileObject#getName() public abstract
      * java.lang.String javax.tools.FileObject.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileObject#openWriter() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.tools.FileObject#openWriter() public abstract
      * java.io.Writer javax.tools.FileObject.openWriter() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileObject#toUri() public abstract java.net.URI
-     * javax.tools.FileObject.toUri()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.FileObject#toUri() public abstract
+     * java.net.URI javax.tools.FileObject.toUri()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileObject#openReader(boolean) public abstract
-     * java.io.Reader javax.tools.FileObject.openReader(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.FileObject#openReader(boolean) public
+     * abstract java.io.Reader javax.tools.FileObject.openReader(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileObject#openOutputStream() public abstract
-     * java.io.OutputStream javax.tools.FileObject.openOutputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.FileObject#openOutputStream() public
+     * abstract java.io.OutputStream javax.tools.FileObject.openOutputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileObject#getCharContent(boolean) public abstract
-     * java.lang.CharSequence javax.tools.FileObject.getCharContent(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.FileObject#getCharContent(boolean)
+     * public abstract java.lang.CharSequence javax.tools.FileObject.getCharContent(boolean) throws java.io.IOException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileObject#delete() public abstract boolean
-     * javax.tools.FileObject.delete()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.FileObject#delete() public abstract
+     * boolean javax.tools.FileObject.delete()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +212,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileObject#openInputStream() public abstract
-     * java.io.InputStream javax.tools.FileObject.openInputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.FileObject#openInputStream() public
+     * abstract java.io.InputStream javax.tools.FileObject.openInputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

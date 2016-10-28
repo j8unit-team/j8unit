@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.xml.sax.Locator;
 import org.xml.sax.helpers.LocatorImpl;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.LocatorImplClassTests<Locat
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LocatorImpl#LocatorImpl() public
-     * org.xml.sax.helpers.LocatorImpl()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.xml.sax.helpers.LocatorImpl#LocatorImpl()
+     * public org.xml.sax.helpers.LocatorImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +42,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.LocatorImplClassTests<Locat
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LocatorImpl#LocatorImpl(Locator) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.LocatorImpl#LocatorImpl(org.xml.sax.Locator) public
      * org.xml.sax.helpers.LocatorImpl(org.xml.sax.Locator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.xml.sax.helpers.LocatorImplClassTests<Locat
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LocatorImpl sut = null; // = new LocatorImpl(Locator);
+        final LocatorImpl sut = null; // = new LocatorImpl(org.xml.sax.Locator);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.LocatorImpl]

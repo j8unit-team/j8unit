@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.URLPermission;
-import java.security.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLPermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.URLPermission#hashCode() public int
      * java.net.URLPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLPermission#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.URLPermission#equals(Object) public boolean
      * java.net.URLPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLPermission#implies(Permission) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.URLPermission#implies(java.security.Permission) public boolean
      * java.net.URLPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +104,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLPermission#getActions() public java.lang.String
-     * java.net.URLPermission.getActions()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URLPermission#getActions() public
+     * java.lang.String java.net.URLPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuntimeMBeanException#getTargetException() public
-     * java.lang.RuntimeException javax.management.RuntimeMBeanException.getTargetException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.RuntimeMBeanException#getTargetException() public java.lang.RuntimeException
+     * javax.management.RuntimeMBeanException.getTargetException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuntimeMBeanException#getCause() public
-     * java.lang.Throwable javax.management.RuntimeMBeanException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.RuntimeMBeanException#getCause()
+     * public java.lang.Throwable javax.management.RuntimeMBeanException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

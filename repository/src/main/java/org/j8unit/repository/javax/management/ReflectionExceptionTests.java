@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.management.JMExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReflectionException#getCause() public
-     * java.lang.Throwable javax.management.ReflectionException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ReflectionException#getCause()
+     * public java.lang.Throwable javax.management.ReflectionException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.management.JMExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReflectionException#getTargetException() public
-     * java.lang.Exception javax.management.ReflectionException.getTargetException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ReflectionException#getTargetException() public java.lang.Exception
+     * javax.management.ReflectionException.getTargetException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

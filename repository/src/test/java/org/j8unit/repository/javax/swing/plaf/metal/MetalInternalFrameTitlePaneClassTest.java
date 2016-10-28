@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import javax.swing.JInternalFrame;
 import javax.swing.plaf.metal.MetalInternalFrameTitlePane;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalInternalFrameTitleP
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MetalInternalFrameTitlePane#MetalInternalFrameTitlePane(JInternalFrame) public
-     * javax.swing.plaf.metal.MetalInternalFrameTitlePane(javax.swing.JInternalFrame)}.
+     * {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#MetalInternalFrameTitlePane(javax.swing.JInternalFrame)
+     * public javax.swing.plaf.metal.MetalInternalFrameTitlePane(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalInternalFrameTitleP
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MetalInternalFrameTitlePane sut = null; // = new MetalInternalFrameTitlePane(JInternalFrame);
+        final MetalInternalFrameTitlePane sut = null; // = new MetalInternalFrameTitlePane(javax.swing.JInternalFrame);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalInternalFrameTitlePane]

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ref.ReferenceTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PhantomReference#get() public T
+     * Test method for the hereby targeted method-under-test {@link java.lang.ref.PhantomReference#get() public T
      * java.lang.ref.PhantomReference.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

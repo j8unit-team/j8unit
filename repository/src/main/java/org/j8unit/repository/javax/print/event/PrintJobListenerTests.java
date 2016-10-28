@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.event;
 
-import javax.print.event.PrintJobEvent;
 import javax.print.event.PrintJobListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintJobListener#printDataTransferCompleted(PrintJobEvent) public abstract void
-     * javax.print.event.PrintJobListener.printDataTransferCompleted(javax.print.event.PrintJobEvent)}.
+     * {@link javax.print.event.PrintJobListener#printDataTransferCompleted(javax.print.event.PrintJobEvent) public
+     * abstract void javax.print.event.PrintJobListener.printDataTransferCompleted(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobListener#printJobNoMoreEvents(PrintJobEvent)
-     * public abstract void javax.print.event.PrintJobListener.printJobNoMoreEvents(javax.print.event.PrintJobEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.event.PrintJobListener#printJobNoMoreEvents(javax.print.event.PrintJobEvent) public abstract
+     * void javax.print.event.PrintJobListener.printJobNoMoreEvents(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintJobListener#printJobRequiresAttention(PrintJobEvent) public abstract void
-     * javax.print.event.PrintJobListener.printJobRequiresAttention(javax.print.event.PrintJobEvent)}.
+     * {@link javax.print.event.PrintJobListener#printJobRequiresAttention(javax.print.event.PrintJobEvent) public
+     * abstract void javax.print.event.PrintJobListener.printJobRequiresAttention(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobListener#printJobCompleted(PrintJobEvent)
-     * public abstract void javax.print.event.PrintJobListener.printJobCompleted(javax.print.event.PrintJobEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.event.PrintJobListener#printJobCompleted(javax.print.event.PrintJobEvent) public abstract void
+     * javax.print.event.PrintJobListener.printJobCompleted(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobListener#printJobCanceled(PrintJobEvent)
-     * public abstract void javax.print.event.PrintJobListener.printJobCanceled(javax.print.event.PrintJobEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.event.PrintJobListener#printJobCanceled(javax.print.event.PrintJobEvent) public abstract void
+     * javax.print.event.PrintJobListener.printJobCanceled(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +150,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobListener#printJobFailed(PrintJobEvent)
-     * public abstract void javax.print.event.PrintJobListener.printJobFailed(javax.print.event.PrintJobEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.event.PrintJobListener#printJobFailed(javax.print.event.PrintJobEvent) public abstract void
+     * javax.print.event.PrintJobListener.printJobFailed(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Color;
 import javax.swing.JColorChooser;
-import javax.swing.JComponent;
-import javax.swing.colorchooser.AbstractColorChooserPanel;
-import javax.swing.colorchooser.ColorSelectionModel;
-import javax.swing.plaf.ColorChooserUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +35,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JColorChooser#removeChooserPanel(AbstractColorChooserPanel) public
+     * {@link javax.swing.JColorChooser#removeChooserPanel(javax.swing.colorchooser.AbstractColorChooserPanel) public
      * javax.swing.colorchooser.AbstractColorChooserPanel
      * javax.swing.JColorChooser.removeChooserPanel(javax.swing.colorchooser.AbstractColorChooserPanel)}.
      *
@@ -63,7 +58,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#getSelectionModel() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#getSelectionModel() public
      * javax.swing.colorchooser.ColorSelectionModel javax.swing.JColorChooser.getSelectionModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +80,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#getColor() public java.awt.Color
-     * javax.swing.JColorChooser.getColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#getColor() public
+     * java.awt.Color javax.swing.JColorChooser.getColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +102,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#updateUI() public void
      * javax.swing.JColorChooser.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,8 +125,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#getUIClassID() public java.lang.String
-     * javax.swing.JColorChooser.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#getUIClassID() public
+     * java.lang.String javax.swing.JColorChooser.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +148,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JColorChooser.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JColorChooser.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,7 +171,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#getPreviewPanel() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#getPreviewPanel() public
      * javax.swing.JComponent javax.swing.JColorChooser.getPreviewPanel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +193,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#getUI() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#getUI() public
      * javax.swing.plaf.ColorChooserUI javax.swing.JColorChooser.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -221,7 +216,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JColorChooser#addChooserPanel(AbstractColorChooserPanel) public void
+     * {@link javax.swing.JColorChooser#addChooserPanel(javax.swing.colorchooser.AbstractColorChooserPanel) public void
      * javax.swing.JColorChooser.addChooserPanel(javax.swing.colorchooser.AbstractColorChooserPanel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -243,8 +238,30 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#setColor(int, int, int) public void
-     * javax.swing.JColorChooser.setColor(int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#setColor(java.awt.Color)
+     * public void javax.swing.JColorChooser.setColor(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setColor_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#setColor(int, int, int)
+     * public void javax.swing.JColorChooser.setColor(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,7 +282,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#setColor(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#setColor(int) public void
      * javax.swing.JColorChooser.setColor(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -287,29 +304,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#setColor(Color) public void
-     * javax.swing.JColorChooser.setColor(java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setColor_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#setUI(ColorChooserUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JColorChooser#setUI(javax.swing.plaf.ColorChooserUI) public void
      * javax.swing.JColorChooser.setUI(javax.swing.plaf.ColorChooserUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -331,7 +327,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#getChooserPanels() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#getChooserPanels() public
      * javax.swing.colorchooser.AbstractColorChooserPanel[] javax.swing.JColorChooser.getChooserPanels()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -353,8 +349,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#setSelectionModel(ColorSelectionModel)
-     * public void javax.swing.JColorChooser.setSelectionModel(javax.swing.colorchooser.ColorSelectionModel)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JColorChooser#setSelectionModel(javax.swing.colorchooser.ColorSelectionModel) public void
+     * javax.swing.JColorChooser.setSelectionModel(javax.swing.colorchooser.ColorSelectionModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -375,8 +372,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#setPreviewPanel(JComponent) public
-     * void javax.swing.JColorChooser.setPreviewPanel(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JColorChooser#setPreviewPanel(javax.swing.JComponent) public void
+     * javax.swing.JColorChooser.setPreviewPanel(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -397,8 +395,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#getDragEnabled() public boolean
-     * javax.swing.JColorChooser.getDragEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#getDragEnabled() public
+     * boolean javax.swing.JColorChooser.getDragEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -420,8 +418,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JColorChooser#setChooserPanels(AbstractColorChooserPanel[]) public void
-     * javax.swing.JColorChooser.setChooserPanels(javax.swing.colorchooser.AbstractColorChooserPanel[])}.
+     * {@link javax.swing.JColorChooser#setChooserPanels(javax.swing.colorchooser.AbstractColorChooserPanel[]) public
+     * void javax.swing.JColorChooser.setChooserPanels(javax.swing.colorchooser.AbstractColorChooserPanel[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -442,8 +440,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JColorChooser#setDragEnabled(boolean) public void
-     * javax.swing.JColorChooser.setDragEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JColorChooser#setDragEnabled(boolean)
+     * public void javax.swing.JColorChooser.setDragEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

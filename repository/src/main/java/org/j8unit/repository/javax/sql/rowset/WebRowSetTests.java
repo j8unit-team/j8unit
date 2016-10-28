@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.Reader;
-import java.io.Writer;
-import java.sql.ResultSet;
 import javax.sql.rowset.WebRowSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,9 +34,9 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebRowSet#writeXml(ResultSet, Writer) public
-     * abstract void javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.Writer) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.WebRowSet#writeXml(java.sql.ResultSet, java.io.Writer) public abstract void
+     * javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.Writer) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +57,9 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebRowSet#writeXml(ResultSet, OutputStream) public
-     * abstract void javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.OutputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.WebRowSet#writeXml(java.sql.ResultSet, java.io.OutputStream) public abstract void
+     * javax.sql.rowset.WebRowSet.writeXml(java.sql.ResultSet,java.io.OutputStream) throws
      * java.sql.SQLException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +81,9 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebRowSet#writeXml(OutputStream) public abstract
-     * void javax.sql.rowset.WebRowSet.writeXml(java.io.OutputStream) throws java.sql.SQLException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.WebRowSet#writeXml(java.io.OutputStream) public abstract void
+     * javax.sql.rowset.WebRowSet.writeXml(java.io.OutputStream) throws java.sql.SQLException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +104,8 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebRowSet#writeXml(Writer) public abstract void
-     * javax.sql.rowset.WebRowSet.writeXml(java.io.Writer) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.WebRowSet#writeXml(java.io.Writer)
+     * public abstract void javax.sql.rowset.WebRowSet.writeXml(java.io.Writer) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,7 +126,8 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebRowSet#readXml(InputStream) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.WebRowSet#readXml(java.io.InputStream) public abstract void
      * javax.sql.rowset.WebRowSet.readXml(java.io.InputStream) throws java.sql.SQLException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +149,8 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebRowSet#readXml(Reader) public abstract void
-     * javax.sql.rowset.WebRowSet.readXml(java.io.Reader) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.WebRowSet#readXml(java.io.Reader)
+     * public abstract void javax.sql.rowset.WebRowSet.readXml(java.io.Reader) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

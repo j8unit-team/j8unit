@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
-import java.util.Locale;
 import javax.print.attribute.standard.PrinterMessageFromOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterMessageFr
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrinterMessageFromOperator#PrinterMessageFromOperator(String, Locale) public
-     * javax.print.attribute.standard.PrinterMessageFromOperator(java.lang.String,java.util.Locale)}.
+     * {@link javax.print.attribute.standard.PrinterMessageFromOperator#PrinterMessageFromOperator(String, java.util.Locale)
+     * public javax.print.attribute.standard.PrinterMessageFromOperator(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterMessageFr
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrinterMessageFromOperator sut = null; // = new PrinterMessageFromOperator(String, Locale);
+        final PrinterMessageFromOperator sut = null; // = new PrinterMessageFromOperator(String, java.util.Locale);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterMessageFromOperator]

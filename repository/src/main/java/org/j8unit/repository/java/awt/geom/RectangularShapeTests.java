@@ -1,9 +1,5 @@
 package org.j8unit.repository.java.awt.geom;
 
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Dimension2D;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
 import java.awt.geom.RectangularShape;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +35,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RectangularShape#getPathIterator(AffineTransform, double) public java.awt.geom.PathIterator
-     * java.awt.geom.RectangularShape.getPathIterator(java.awt.geom.AffineTransform,double)}.
+     * {@link java.awt.geom.RectangularShape#getPathIterator(java.awt.geom.AffineTransform, double) public
+     * java.awt.geom.PathIterator java.awt.geom.RectangularShape.getPathIterator(java.awt.geom.AffineTransform,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,30 +59,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RectangularShape#setFrame(double, double, double, double) public abstract void
-     * java.awt.geom.RectangularShape.setFrame(double,double,double,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFrame_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#setFrame(Point2D, Dimension2D)
-     * public void java.awt.geom.RectangularShape.setFrame(java.awt.geom.Point2D,java.awt.geom.Dimension2D)}.
+     * {@link java.awt.geom.RectangularShape#setFrame(java.awt.geom.Point2D, java.awt.geom.Dimension2D) public void
+     * java.awt.geom.RectangularShape.setFrame(java.awt.geom.Point2D,java.awt.geom.Dimension2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +81,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#setFrame(Rectangle2D) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.RectangularShape#setFrame(java.awt.geom.Rectangle2D) public void
      * java.awt.geom.RectangularShape.setFrame(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,7 +105,53 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RectangularShape#setFrameFromCenter(double, double, double, double) public void
+     * {@link java.awt.geom.RectangularShape#setFrame(double, double, double, double) public abstract void
+     * java.awt.geom.RectangularShape.setFrame(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFrame_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.RectangularShape#setFrameFromCenter(java.awt.geom.Point2D, java.awt.geom.Point2D) public
+     * void java.awt.geom.RectangularShape.setFrameFromCenter(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFrameFromCenter_Point2D_Point2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.RectangularShape#setFrameFromCenter(double, double, double, double) public void
      * java.awt.geom.RectangularShape.setFrameFromCenter(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,8 +174,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RectangularShape#setFrameFromCenter(Point2D, Point2D) public void
-     * java.awt.geom.RectangularShape.setFrameFromCenter(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     * {@link java.awt.geom.RectangularShape#setFrameFromDiagonal(java.awt.geom.Point2D, java.awt.geom.Point2D) public
+     * void java.awt.geom.RectangularShape.setFrameFromDiagonal(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +187,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFrameFromCenter_Point2D_Point2D()
+    public default void test_setFrameFromDiagonal_Point2D_Point2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -176,7 +197,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RectangularShape#setFrameFromDiagonal(double, double, double, double) public void
+     * {@link java.awt.geom.RectangularShape#setFrameFromDiagonal(double, double, double, double) public void
      * java.awt.geom.RectangularShape.setFrameFromDiagonal(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,31 +219,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link RectangularShape#setFrameFromDiagonal(Point2D, Point2D) public void
-     * java.awt.geom.RectangularShape.setFrameFromDiagonal(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFrameFromDiagonal_Point2D_Point2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getX() public abstract double
-     * java.awt.geom.RectangularShape.getX()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getX() public
+     * abstract double java.awt.geom.RectangularShape.getX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,8 +241,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getHeight() public abstract double
-     * java.awt.geom.RectangularShape.getHeight()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getHeight() public
+     * abstract double java.awt.geom.RectangularShape.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,7 +263,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#contains(Point2D) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.RectangularShape#contains(java.awt.geom.Point2D) public boolean
      * java.awt.geom.RectangularShape.contains(java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -288,8 +287,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#contains(Rectangle2D) public
-     * boolean java.awt.geom.RectangularShape.contains(java.awt.geom.Rectangle2D)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.RectangularShape#contains(java.awt.geom.Rectangle2D) public boolean
+     * java.awt.geom.RectangularShape.contains(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -311,8 +311,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getY() public abstract double
-     * java.awt.geom.RectangularShape.getY()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getY() public
+     * abstract double java.awt.geom.RectangularShape.getY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,8 +333,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getCenterY() public double
-     * java.awt.geom.RectangularShape.getCenterY()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getCenterY() public
+     * double java.awt.geom.RectangularShape.getCenterY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -355,8 +355,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getMinX() public double
-     * java.awt.geom.RectangularShape.getMinX()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getMinX() public
+     * double java.awt.geom.RectangularShape.getMinX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -377,8 +377,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getCenterX() public double
-     * java.awt.geom.RectangularShape.getCenterX()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getCenterX() public
+     * double java.awt.geom.RectangularShape.getCenterX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -399,8 +399,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getMinY() public double
-     * java.awt.geom.RectangularShape.getMinY()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getMinY() public
+     * double java.awt.geom.RectangularShape.getMinY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -421,8 +421,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#clone() public java.lang.Object
-     * java.awt.geom.RectangularShape.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#clone() public
+     * java.lang.Object java.awt.geom.RectangularShape.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -443,8 +443,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#intersects(Rectangle2D) public
-     * boolean java.awt.geom.RectangularShape.intersects(java.awt.geom.Rectangle2D)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.RectangularShape#intersects(java.awt.geom.Rectangle2D) public boolean
+     * java.awt.geom.RectangularShape.intersects(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -466,7 +467,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getFrame() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getFrame() public
      * java.awt.geom.Rectangle2D java.awt.geom.RectangularShape.getFrame()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -488,7 +489,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getBounds() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getBounds() public
      * java.awt.Rectangle java.awt.geom.RectangularShape.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -511,8 +512,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getMaxX() public double
-     * java.awt.geom.RectangularShape.getMaxX()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getMaxX() public
+     * double java.awt.geom.RectangularShape.getMaxX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -533,8 +534,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#isEmpty() public abstract boolean
-     * java.awt.geom.RectangularShape.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#isEmpty() public
+     * abstract boolean java.awt.geom.RectangularShape.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -555,8 +556,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getMaxY() public double
-     * java.awt.geom.RectangularShape.getMaxY()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getMaxY() public
+     * double java.awt.geom.RectangularShape.getMaxY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -577,8 +578,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RectangularShape#getWidth() public abstract double
-     * java.awt.geom.RectangularShape.getWidth()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RectangularShape#getWidth() public
+     * abstract double java.awt.geom.RectangularShape.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent.locks;
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Lock#unlock() public abstract void
-     * java.util.concurrent.locks.Lock.unlock()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.Lock#unlock() public
+     * abstract void java.util.concurrent.locks.Lock.unlock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Lock#lockInterruptibly() public abstract void
-     * java.util.concurrent.locks.Lock.lockInterruptibly() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.Lock#lockInterruptibly()
+     * public abstract void java.util.concurrent.locks.Lock.lockInterruptibly() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Lock#newCondition() public abstract
-     * java.util.concurrent.locks.Condition java.util.concurrent.locks.Lock.newCondition()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.Lock#newCondition()
+     * public abstract java.util.concurrent.locks.Condition java.util.concurrent.locks.Lock.newCondition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Lock#lock() public abstract void
-     * java.util.concurrent.locks.Lock.lock()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.Lock#lock() public
+     * abstract void java.util.concurrent.locks.Lock.lock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Lock#tryLock(long, TimeUnit) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.Lock#tryLock(long, java.util.concurrent.TimeUnit) public abstract boolean
      * java.util.concurrent.locks.Lock.tryLock(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
@@ -147,8 +147,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Lock#tryLock() public abstract boolean
-     * java.util.concurrent.locks.Lock.tryLock()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.Lock#tryLock() public
+     * abstract boolean java.util.concurrent.locks.Lock.tryLock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

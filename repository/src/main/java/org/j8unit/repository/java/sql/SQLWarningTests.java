@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.sql.SQLExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLWarning#getNextWarning() public
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLWarning#getNextWarning() public
      * java.sql.SQLWarning java.sql.SQLWarning.getNextWarning()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,8 @@ extends org.j8unit.repository.java.sql.SQLExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLWarning#setNextWarning(SQLWarning) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.SQLWarning#setNextWarning(java.sql.SQLWarning) public void
      * java.sql.SQLWarning.setNextWarning(java.sql.SQLWarning)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

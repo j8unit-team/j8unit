@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Paper#getImageableWidth() public double
-     * java.awt.print.Paper.getImageableWidth()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Paper#getImageableWidth() public
+     * double java.awt.print.Paper.getImageableWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Paper#getWidth() public double
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Paper#getWidth() public double
      * java.awt.print.Paper.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Paper#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Paper#clone() public java.lang.Object
      * java.awt.print.Paper.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Paper#setImageableArea(double, double, double, double) public void
+     * {@link java.awt.print.Paper#setImageableArea(double, double, double, double) public void
      * java.awt.print.Paper.setImageableArea(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Paper#getImageableY() public double
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Paper#getImageableY() public double
      * java.awt.print.Paper.getImageableY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Paper#getImageableX() public double
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Paper#getImageableX() public double
      * java.awt.print.Paper.getImageableX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Paper#getHeight() public double
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Paper#getHeight() public double
      * java.awt.print.Paper.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +189,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Paper#setSize(double, double) public void
-     * java.awt.print.Paper.setSize(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Paper#setSize(double, double) public
+     * void java.awt.print.Paper.setSize(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Paper#getImageableHeight() public double
-     * java.awt.print.Paper.getImageableHeight()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Paper#getImageableHeight() public
+     * double java.awt.print.Paper.getImageableHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.net.URLDecoderClassTests<URLDecoder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URLDecoder#URLDecoder() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.URLDecoder#URLDecoder() public
      * java.net.URLDecoder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.net.URLDecoderClassTests<URLDecoder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLDecoder#decode(String) public static
+     * Test method for the hereby targeted method-under-test {@link java.net.URLDecoder#decode(String) public static
      * java.lang.String java.net.URLDecoder.decode(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,13 +57,13 @@ implements org.j8unit.repository.java.net.URLDecoderClassTests<URLDecoder> {
     @Category(Draft.class)
     public void test_decode_String()
     throws Exception {
-        // write some test for {@link URLDecoder#decode(String)}
+        // write some test for {@link java.net.URLDecoder#decode(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLDecoder#decode(String, String) public static
-     * java.lang.String java.net.URLDecoder.decode(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.net.URLDecoder#decode(String, String) public
+     * static java.lang.String java.net.URLDecoder.decode(java.lang.String,java.lang.String) throws
      * java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ implements org.j8unit.repository.java.net.URLDecoderClassTests<URLDecoder> {
     @Category(Draft.class)
     public void test_decode_String_String()
     throws Exception {
-        // write some test for {@link URLDecoder#decode(String, String)}
+        // write some test for {@link java.net.URLDecoder#decode(String, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLDecoder]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.time.Instant;
 import java.util.Date;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Date#Date(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Date#Date(String) public
      * java.util.Date(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +43,8 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Date#Date(int, int, int, int, int, int) public
-     * java.util.Date(int,int,int,int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Date#Date(int, int, int, int, int, int) public java.util.Date(int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,8 +65,8 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Date#Date(int, int, int, int, int) public
-     * java.util.Date(int,int,int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Date#Date(int, int, int, int, int)
+     * public java.util.Date(int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,7 +87,7 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Date#Date() public java.util.Date()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Date#Date() public java.util.Date()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +107,8 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Date#Date(long) public java.util.Date(long)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Date#Date(long) public
+     * java.util.Date(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,7 +129,7 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Date#Date(int, int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Date#Date(int, int, int) public
      * java.util.Date(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +151,8 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#UTC(int, int, int, int, int, int) public static
-     * long java.util.Date.UTC(int,int,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#UTC(int, int, int, int, int, int)
+     * public static long java.util.Date.UTC(int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,13 +166,13 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
     @Category(Draft.class)
     public void test_UTC_int_int_int_int_int_int()
     throws Exception {
-        // write some test for {@link Date#UTC(int, int, int, int, int, int)}
+        // write some test for {@link java.util.Date#UTC(int, int, int, int, int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#from(Instant) public static java.util.Date
-     * java.util.Date.from(java.time.Instant)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#from(java.time.Instant) public static
+     * java.util.Date java.util.Date.from(java.time.Instant)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -186,12 +186,12 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
     @Category(Draft.class)
     public void test_from_Instant()
     throws Exception {
-        // write some test for {@link Date#from(Instant)}
+        // write some test for {@link java.util.Date#from(java.time.Instant)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#parse(String) public static long
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#parse(String) public static long
      * java.util.Date.parse(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -206,7 +206,7 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
     @Category(Draft.class)
     public void test_parse_String()
     throws Exception {
-        // write some test for {@link Date#parse(String)}
+        // write some test for {@link java.util.Date#parse(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Date]

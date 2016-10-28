@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.Optional;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#isPresent() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#isPresent() public boolean
      * java.util.Optional.isPresent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#toString() public java.lang.String
-     * java.util.Optional.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#toString() public
+     * java.lang.String java.util.Optional.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +79,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#orElse(Object) public T
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#orElse(Object) public T
      * java.util.Optional.orElse(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#map(Function) public <U> java.util.Optional
-     * <U> java.util.Optional.map(java.util.function.Function<? super T, ? extends U>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#map(java.util.function.Function)
+     * public <U> java.util.Optional<U> java.util.Optional.map(java.util.function.Function<? super T, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#orElseThrow(Supplier) public <X> T
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Optional#orElseThrow(java.util.function.Supplier) public <X> T
      * java.util.Optional.orElseThrow(java.util.function.Supplier<? extends X>) throws X}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,9 +146,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#flatMap(Function) public
-     * <U> java.util.Optional<U> java.util.Optional.flatMap(java.util.function.Function<? super T, java.util.Optional
-     * <U>>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Optional#flatMap(java.util.function.Function) public <U> java.util.Optional
+     * <U> java.util.Optional.flatMap(java.util.function.Function<? super T, java.util.Optional<U>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +169,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#filter(Predicate) public java.util.Optional
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Optional#filter(java.util.function.Predicate) public java.util.Optional
      * <T> java.util.Optional.filter(java.util.function.Predicate<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,7 +192,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#orElseGet(Supplier) public T
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Optional#orElseGet(java.util.function.Supplier) public T
      * java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,7 +215,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#ifPresent(Consumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Optional#ifPresent(java.util.function.Consumer) public void
      * java.util.Optional.ifPresent(java.util.function.Consumer<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,7 +238,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#equals(Object) public boolean
      * java.util.Optional.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,7 +261,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#get() public T java.util.Optional.get()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#get() public T
+     * java.util.Optional.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -282,7 +283,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#hashCode() public int
      * java.util.Optional.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

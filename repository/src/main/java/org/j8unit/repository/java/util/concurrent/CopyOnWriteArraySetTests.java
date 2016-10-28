@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
 import java.util.concurrent.CopyOnWriteArraySet;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#remove(Object) public boolean
      * java.util.concurrent.CopyOnWriteArraySet.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +58,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#removeIf(Predicate) public
-     * boolean java.util.concurrent.CopyOnWriteArraySet.removeIf(java.util.function.Predicate<? super E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#removeIf(java.util.function.Predicate) public boolean
+     * java.util.concurrent.CopyOnWriteArraySet.removeIf(java.util.function.Predicate<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +82,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#isEmpty() public boolean
-     * java.util.concurrent.CopyOnWriteArraySet.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArraySet#isEmpty()
+     * public boolean java.util.concurrent.CopyOnWriteArraySet.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +105,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#clear() public void
-     * java.util.concurrent.CopyOnWriteArraySet.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArraySet#clear()
+     * public void java.util.concurrent.CopyOnWriteArraySet.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +128,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#spliterator() public
-     * java.util.Spliterator<E> java.util.concurrent.CopyOnWriteArraySet.spliterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#spliterator() public java.util.Spliterator
+     * <E> java.util.concurrent.CopyOnWriteArraySet.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,7 +152,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#forEach(Consumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#forEach(java.util.function.Consumer) public void
      * java.util.concurrent.CopyOnWriteArraySet.forEach(java.util.function.Consumer<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,8 +176,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#containsAll(Collection) public
-     * boolean java.util.concurrent.CopyOnWriteArraySet.containsAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#containsAll(java.util.Collection) public boolean
+     * java.util.concurrent.CopyOnWriteArraySet.containsAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,8 +200,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#add(Object) public boolean
-     * java.util.concurrent.CopyOnWriteArraySet.add(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArraySet#add(Object)
+     * public boolean java.util.concurrent.CopyOnWriteArraySet.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,8 +223,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#retainAll(Collection) public
-     * boolean java.util.concurrent.CopyOnWriteArraySet.retainAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#retainAll(java.util.Collection) public boolean
+     * java.util.concurrent.CopyOnWriteArraySet.retainAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,8 +247,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#toArray() public
-     * java.lang.Object[] java.util.concurrent.CopyOnWriteArraySet.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArraySet#toArray()
+     * public java.lang.Object[] java.util.concurrent.CopyOnWriteArraySet.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,7 +270,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#toArray(Object[]) public <T> T[]
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#toArray(Object[]) public <T> T[]
      * java.util.concurrent.CopyOnWriteArraySet.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -290,8 +294,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#size() public int
-     * java.util.concurrent.CopyOnWriteArraySet.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArraySet#size()
+     * public int java.util.concurrent.CopyOnWriteArraySet.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -313,8 +317,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#addAll(Collection) public
-     * boolean java.util.concurrent.CopyOnWriteArraySet.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#addAll(java.util.Collection) public boolean
+     * java.util.concurrent.CopyOnWriteArraySet.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -336,7 +341,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#equals(Object) public boolean
      * java.util.concurrent.CopyOnWriteArraySet.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -359,8 +365,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#removeAll(Collection) public
-     * boolean java.util.concurrent.CopyOnWriteArraySet.removeAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#removeAll(java.util.Collection) public boolean
+     * java.util.concurrent.CopyOnWriteArraySet.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -382,8 +389,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#iterator() public
-     * java.util.Iterator<E> java.util.concurrent.CopyOnWriteArraySet.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArraySet#iterator()
+     * public java.util.Iterator<E> java.util.concurrent.CopyOnWriteArraySet.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -405,7 +412,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArraySet#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArraySet#contains(Object) public boolean
      * java.util.concurrent.CopyOnWriteArraySet.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.TextAreaClassTests<TextArea> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TextArea#TextArea(String, int, int) public
-     * java.awt.TextArea(java.lang.String,int,int) throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextArea#TextArea(String, int, int)
+     * public java.awt.TextArea(java.lang.String,int,int) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.awt.TextAreaClassTests<TextArea> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TextArea#TextArea(int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextArea#TextArea(int, int) public
      * java.awt.TextArea(int,int) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,7 +65,7 @@ implements org.j8unit.repository.java.awt.TextAreaClassTests<TextArea> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TextArea#TextArea(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextArea#TextArea(String) public
      * java.awt.TextArea(java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,8 +87,8 @@ implements org.j8unit.repository.java.awt.TextAreaClassTests<TextArea> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TextArea#TextArea() public java.awt.TextArea()
-     * throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextArea#TextArea() public
+     * java.awt.TextArea() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +108,9 @@ implements org.j8unit.repository.java.awt.TextAreaClassTests<TextArea> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TextArea#TextArea(String, int, int, int) public
-     * java.awt.TextArea(java.lang.String,int,int,int) throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.TextArea#TextArea(String, int, int, int) public java.awt.TextArea(java.lang.String,int,int,int)
+     * throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

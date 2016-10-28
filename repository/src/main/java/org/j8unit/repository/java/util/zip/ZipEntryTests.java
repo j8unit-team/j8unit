@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.nio.file.attribute.FileTime;
 import java.util.zip.ZipEntry;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setExtra(byte[]) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#setExtra(byte[]) public void
      * java.util.zip.ZipEntry.setExtra(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +56,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getExtra() public byte[]
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getExtra() public byte[]
      * java.util.zip.ZipEntry.getExtra()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +78,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setTime(long) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#setTime(long) public void
      * java.util.zip.ZipEntry.setTime(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +100,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#isDirectory() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#isDirectory() public boolean
      * java.util.zip.ZipEntry.isDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +122,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setComment(String) public void
-     * java.util.zip.ZipEntry.setComment(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#setComment(String) public
+     * void java.util.zip.ZipEntry.setComment(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +144,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getCreationTime() public
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getCreationTime() public
      * java.nio.file.attribute.FileTime java.util.zip.ZipEntry.getCreationTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +166,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#clone() public java.lang.Object
-     * java.util.zip.ZipEntry.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#clone() public
+     * java.lang.Object java.util.zip.ZipEntry.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +188,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setLastAccessTime(FileTime) public
-     * java.util.zip.ZipEntry java.util.zip.ZipEntry.setLastAccessTime(java.nio.file.attribute.FileTime)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.ZipEntry#setLastAccessTime(java.nio.file.attribute.FileTime) public java.util.zip.ZipEntry
+     * java.util.zip.ZipEntry.setLastAccessTime(java.nio.file.attribute.FileTime)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setCompressedSize(long) public void
-     * java.util.zip.ZipEntry.setCompressedSize(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#setCompressedSize(long)
+     * public void java.util.zip.ZipEntry.setCompressedSize(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +233,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getComment() public java.lang.String
-     * java.util.zip.ZipEntry.getComment()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getComment() public
+     * java.lang.String java.util.zip.ZipEntry.getComment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +255,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#toString() public java.lang.String
-     * java.util.zip.ZipEntry.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#toString() public
+     * java.lang.String java.util.zip.ZipEntry.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,7 +278,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getCrc() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getCrc() public long
      * java.util.zip.ZipEntry.getCrc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -300,7 +300,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#hashCode() public int
      * java.util.zip.ZipEntry.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -323,7 +323,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setMethod(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#setMethod(int) public void
      * java.util.zip.ZipEntry.setMethod(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,7 +345,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setCrc(long) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#setCrc(long) public void
      * java.util.zip.ZipEntry.setCrc(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -367,8 +367,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getCompressedSize() public long
-     * java.util.zip.ZipEntry.getCompressedSize()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getCompressedSize() public
+     * long java.util.zip.ZipEntry.getCompressedSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -389,7 +389,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setSize(long) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#setSize(long) public void
      * java.util.zip.ZipEntry.setSize(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -411,7 +411,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getSize() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getSize() public long
      * java.util.zip.ZipEntry.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -433,7 +433,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getMethod() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getMethod() public int
      * java.util.zip.ZipEntry.getMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -455,8 +455,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setCreationTime(FileTime) public
-     * java.util.zip.ZipEntry java.util.zip.ZipEntry.setCreationTime(java.nio.file.attribute.FileTime)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.ZipEntry#setCreationTime(java.nio.file.attribute.FileTime) public java.util.zip.ZipEntry
+     * java.util.zip.ZipEntry.setCreationTime(java.nio.file.attribute.FileTime)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -477,8 +478,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#setLastModifiedTime(FileTime) public
-     * java.util.zip.ZipEntry java.util.zip.ZipEntry.setLastModifiedTime(java.nio.file.attribute.FileTime)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.ZipEntry#setLastModifiedTime(java.nio.file.attribute.FileTime) public java.util.zip.ZipEntry
+     * java.util.zip.ZipEntry.setLastModifiedTime(java.nio.file.attribute.FileTime)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -499,7 +501,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getLastModifiedTime() public
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getLastModifiedTime() public
      * java.nio.file.attribute.FileTime java.util.zip.ZipEntry.getLastModifiedTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -521,7 +523,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getTime() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getTime() public long
      * java.util.zip.ZipEntry.getTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -543,7 +545,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getLastAccessTime() public
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getLastAccessTime() public
      * java.nio.file.attribute.FileTime java.util.zip.ZipEntry.getLastAccessTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -565,8 +567,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipEntry#getName() public java.lang.String
-     * java.util.zip.ZipEntry.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipEntry#getName() public
+     * java.lang.String java.util.zip.ZipEntry.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

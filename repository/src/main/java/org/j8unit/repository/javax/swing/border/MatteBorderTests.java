@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Insets;
 import javax.swing.border.MatteBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatteBorder#isBorderOpaque() public boolean
-     * javax.swing.border.MatteBorder.isBorderOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.MatteBorder#isBorderOpaque()
+     * public boolean javax.swing.border.MatteBorder.isBorderOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,8 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatteBorder#getMatteColor() public java.awt.Color
-     * javax.swing.border.MatteBorder.getMatteColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.MatteBorder#getMatteColor()
+     * public java.awt.Color javax.swing.border.MatteBorder.getMatteColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,9 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatteBorder#getBorderInsets(Component, Insets)
-     * public java.awt.Insets javax.swing.border.MatteBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.MatteBorder#getBorderInsets(java.awt.Component, java.awt.Insets) public java.awt.Insets
+     * javax.swing.border.MatteBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +103,8 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatteBorder#getBorderInsets() public java.awt.Insets
-     * javax.swing.border.MatteBorder.getBorderInsets()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.MatteBorder#getBorderInsets()
+     * public java.awt.Insets javax.swing.border.MatteBorder.getBorderInsets()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +127,8 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MatteBorder#paintBorder(Component, Graphics, int, int, int, int) public void
-     * javax.swing.border.MatteBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * {@link javax.swing.border.MatteBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+     * public void javax.swing.border.MatteBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +150,8 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatteBorder#getTileIcon() public javax.swing.Icon
-     * javax.swing.border.MatteBorder.getTileIcon()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.MatteBorder#getTileIcon() public
+     * javax.swing.Icon javax.swing.border.MatteBorder.getTileIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

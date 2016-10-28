@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#toString() public java.lang.String
      * java.awt.Point.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#translate(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#translate(int, int) public void
      * java.awt.Point.translate(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#getX() public double java.awt.Point.getX()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#getX() public double
+     * java.awt.Point.getX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +102,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#move(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#move(int, int) public void
      * java.awt.Point.move(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +124,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#getLocation() public java.awt.Point
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#getLocation() public java.awt.Point
      * java.awt.Point.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +146,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#getY() public double java.awt.Point.getY()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#getY() public double
+     * java.awt.Point.getY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +169,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#equals(Object) public boolean
      * java.awt.Point.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +192,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#setLocation(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#setLocation(int, int) public void
      * java.awt.Point.setLocation(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +214,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#setLocation(double, double) public void
-     * java.awt.Point.setLocation(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#setLocation(double, double) public
+     * void java.awt.Point.setLocation(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +237,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point#setLocation(Point) public void
-     * java.awt.Point.setLocation(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Point#setLocation(java.awt.Point) public
+     * void java.awt.Point.setLocation(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.io.OutputStream;
 import java.util.zip.GZIPOutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GZIPOutputStream#GZIPOutputStream(OutputStream, boolean) public
+     * {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream, boolean) public
      * java.util.zip.GZIPOutputStream(java.io.OutputStream,boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,14 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GZIPOutputStream sut = null; // = new GZIPOutputStream(OutputStream, boolean);
+        final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GZIPOutputStream#GZIPOutputStream(OutputStream)
-     * public java.util.zip.GZIPOutputStream(java.io.OutputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream) public
+     * java.util.zip.GZIPOutputStream(java.io.OutputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +62,13 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GZIPOutputStream sut = null; // = new GZIPOutputStream(OutputStream);
+        final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GZIPOutputStream#GZIPOutputStream(OutputStream, int, boolean) public
+     * {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream, int, boolean) public
      * java.util.zip.GZIPOutputStream(java.io.OutputStream,int,boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,13 +85,13 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GZIPOutputStream sut = null; // = new GZIPOutputStream(OutputStream, int, boolean);
+        final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream, int, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GZIPOutputStream#GZIPOutputStream(OutputStream, int) public
+     * {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream, int) public
      * java.util.zip.GZIPOutputStream(java.io.OutputStream,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,7 +108,7 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GZIPOutputStream sut = null; // = new GZIPOutputStream(OutputStream, int);
+        final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.GZIPOutputStream]

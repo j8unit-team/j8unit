@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.image.ColorModel;
-import java.awt.image.ImageConsumer;
 import java.awt.image.ImageFilter;
-import java.awt.image.ImageProducer;
-import java.util.Hashtable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageFilter#setColorModel(ColorModel) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ImageFilter#setColorModel(java.awt.image.ColorModel) public void
      * java.awt.image.ImageFilter.setColorModel(java.awt.image.ColorModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +59,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageFilter#setHints(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ImageFilter#setHints(int) public void
      * java.awt.image.ImageFilter.setHints(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +82,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageFilter#resendTopDownLeftRight(ImageProducer)
-     * public void java.awt.image.ImageFilter.resendTopDownLeftRight(java.awt.image.ImageProducer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ImageFilter#resendTopDownLeftRight(java.awt.image.ImageProducer) public void
+     * java.awt.image.ImageFilter.resendTopDownLeftRight(java.awt.image.ImageProducer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +105,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageFilter#getFilterInstance(ImageConsumer) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ImageFilter#getFilterInstance(java.awt.image.ImageConsumer) public
      * java.awt.image.ImageFilter java.awt.image.ImageFilter.getFilterInstance(java.awt.image.ImageConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,8 +128,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageFilter#setDimensions(int, int) public void
-     * java.awt.image.ImageFilter.setDimensions(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ImageFilter#setDimensions(int, int)
+     * public void java.awt.image.ImageFilter.setDimensions(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +151,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageFilter#clone() public java.lang.Object
-     * java.awt.image.ImageFilter.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ImageFilter#clone() public
+     * java.lang.Object java.awt.image.ImageFilter.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,8 +174,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageFilter#setPixels(int, int, int, int, ColorModel, int[], int, int) public void
-     * java.awt.image.ImageFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int)}.
+     * {@link java.awt.image.ImageFilter#setPixels(int, int, int, int, java.awt.image.ColorModel, int[], int, int)
+     * public void java.awt.image.ImageFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,8 +198,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageFilter#setPixels(int, int, int, int, ColorModel, byte[], int, int) public void
-     * java.awt.image.ImageFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
+     * {@link java.awt.image.ImageFilter#setPixels(int, int, int, int, java.awt.image.ColorModel, byte[], int, int)
+     * public void java.awt.image.ImageFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,7 +221,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageFilter#setProperties(Hashtable) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ImageFilter#setProperties(java.util.Hashtable) public void
      * java.awt.image.ImageFilter.setProperties(java.util.Hashtable<?, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -245,8 +245,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageFilter#imageComplete(int) public void
-     * java.awt.image.ImageFilter.imageComplete(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ImageFilter#imageComplete(int) public
+     * void java.awt.image.ImageFilter.imageComplete(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

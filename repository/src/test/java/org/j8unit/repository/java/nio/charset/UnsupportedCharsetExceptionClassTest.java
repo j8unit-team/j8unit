@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.charset.UnsupportedCharsetExceptionCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedCharsetException#UnsupportedCharsetException(String) public
+     * {@link java.nio.charset.UnsupportedCharsetException#UnsupportedCharsetException(String) public
      * java.nio.charset.UnsupportedCharsetException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

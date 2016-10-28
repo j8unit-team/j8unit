@@ -23,7 +23,7 @@ implements org.j8unit.repository.javax.imageio.spi.ImageTranscoderSpiClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImageTranscoderSpi#ImageTranscoderSpi(String, String) public
+     * {@link javax.imageio.spi.ImageTranscoderSpi#ImageTranscoderSpi(String, String) public
      * javax.imageio.spi.ImageTranscoderSpi(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

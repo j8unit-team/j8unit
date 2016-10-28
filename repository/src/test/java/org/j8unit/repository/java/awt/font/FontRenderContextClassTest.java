@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.font;
 
 import java.awt.font.FontRenderContext;
-import java.awt.geom.AffineTransform;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.font.FontRenderContextClassTests<FontR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FontRenderContext#FontRenderContext(AffineTransform, Object, Object) public
+     * {@link java.awt.font.FontRenderContext#FontRenderContext(java.awt.geom.AffineTransform, Object, Object) public
      * java.awt.font.FontRenderContext(java.awt.geom.AffineTransform,java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.awt.font.FontRenderContextClassTests<FontR
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FontRenderContext sut = null; // = new FontRenderContext(AffineTransform, Object, Object);
+        final FontRenderContext sut = null; // = new FontRenderContext(java.awt.geom.AffineTransform, Object, Object);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FontRenderContext#FontRenderContext(AffineTransform, boolean, boolean) public
+     * {@link java.awt.font.FontRenderContext#FontRenderContext(java.awt.geom.AffineTransform, boolean, boolean) public
      * java.awt.font.FontRenderContext(java.awt.geom.AffineTransform,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.awt.font.FontRenderContextClassTests<FontR
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FontRenderContext sut = null; // = new FontRenderContext(AffineTransform, boolean, boolean);
+        final FontRenderContext sut = null; // = new FontRenderContext(java.awt.geom.AffineTransform, boolean, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.FontRenderContext]

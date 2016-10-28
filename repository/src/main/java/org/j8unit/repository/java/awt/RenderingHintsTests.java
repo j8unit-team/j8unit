@@ -2,7 +2,6 @@ package org.j8unit.repository.java.awt;
 
 import java.awt.RenderingHints;
 import java.awt.RenderingHints.Key;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +36,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#isEmpty() public boolean
      * java.awt.RenderingHints.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#clear() public void
      * java.awt.RenderingHints.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +82,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#containsValue(Object) public boolean
-     * java.awt.RenderingHints.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#containsValue(Object) public
+     * boolean java.awt.RenderingHints.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,7 +105,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#put(Object, Object) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#put(Object, Object) public
      * java.lang.Object java.awt.RenderingHints.put(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +128,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#remove(Object) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#remove(Object) public
      * java.lang.Object java.awt.RenderingHints.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +151,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#add(RenderingHints) public void
-     * java.awt.RenderingHints.add(java.awt.RenderingHints)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#add(java.awt.RenderingHints)
+     * public void java.awt.RenderingHints.add(java.awt.RenderingHints)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +173,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#containsKey(Object) public boolean
-     * java.awt.RenderingHints.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#containsKey(Object) public
+     * boolean java.awt.RenderingHints.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,8 +196,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#values() public java.util.Collection
-     * <java.lang.Object> java.awt.RenderingHints.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#values() public
+     * java.util.Collection<java.lang.Object> java.awt.RenderingHints.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,7 +219,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#entrySet() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<java.lang.Object, java.lang.Object>>
      * java.awt.RenderingHints.entrySet()}.
      *
@@ -244,8 +243,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#toString() public java.lang.String
-     * java.awt.RenderingHints.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#toString() public
+     * java.lang.String java.awt.RenderingHints.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +266,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#clone() public java.lang.Object
-     * java.awt.RenderingHints.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#clone() public
+     * java.lang.Object java.awt.RenderingHints.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,8 +288,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#keySet() public java.util.Set
-     * <java.lang.Object> java.awt.RenderingHints.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#keySet() public
+     * java.util.Set<java.lang.Object> java.awt.RenderingHints.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -312,7 +311,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#hashCode() public int
      * java.awt.RenderingHints.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -335,8 +334,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#putAll(Map) public void
-     * java.awt.RenderingHints.putAll(java.util.Map<?, ?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#putAll(java.util.Map) public
+     * void java.awt.RenderingHints.putAll(java.util.Map<?, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -358,8 +357,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#equals(Object) public boolean
-     * java.awt.RenderingHints.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#equals(Object) public
+     * boolean java.awt.RenderingHints.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -381,8 +380,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#get(Object) public java.lang.Object
-     * java.awt.RenderingHints.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#get(Object) public
+     * java.lang.Object java.awt.RenderingHints.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -404,7 +403,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderingHints#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints#size() public int
      * java.awt.RenderingHints.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -454,8 +453,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Key#isCompatibleValue(Object) public abstract
-         * boolean java.awt.RenderingHints$Key.isCompatibleValue(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.RenderingHints.Key#isCompatibleValue(Object) public abstract boolean
+         * java.awt.RenderingHints$Key.isCompatibleValue(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -476,8 +476,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Key#hashCode() public final int
-         * java.awt.RenderingHints$Key.hashCode()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints.Key#hashCode() public
+         * final int java.awt.RenderingHints$Key.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -499,8 +499,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Key#equals(Object) public final boolean
-         * java.awt.RenderingHints$Key.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.RenderingHints.Key#equals(Object)
+         * public final boolean java.awt.RenderingHints$Key.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

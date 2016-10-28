@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.ws.WebServicePermissionClassTests<Web
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link WebServicePermission#WebServicePermission(String) public
+     * {@link javax.xml.ws.WebServicePermission#WebServicePermission(String) public
      * javax.xml.ws.WebServicePermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.ws.WebServicePermissionClassTests<Web
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link WebServicePermission#WebServicePermission(String, String) public
+     * {@link javax.xml.ws.WebServicePermission#WebServicePermission(String, String) public
      * javax.xml.ws.WebServicePermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

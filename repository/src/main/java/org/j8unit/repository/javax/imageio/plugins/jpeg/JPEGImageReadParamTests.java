@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.imageio.plugins.jpeg;
 
-import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
 import javax.imageio.plugins.jpeg.JPEGImageReadParam;
-import javax.imageio.plugins.jpeg.JPEGQTable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageReadParam#getQTables() public
-     * javax.imageio.plugins.jpeg.JPEGQTable[] javax.imageio.plugins.jpeg.JPEGImageReadParam.getQTables()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#getQTables() public javax.imageio.plugins.jpeg.JPEGQTable[]
+     * javax.imageio.plugins.jpeg.JPEGImageReadParam.getQTables()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,8 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageReadParam#unsetDecodeTables() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#unsetDecodeTables() public void
      * javax.imageio.plugins.jpeg.JPEGImageReadParam.unsetDecodeTables()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,8 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageReadParam#getACHuffmanTables() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#getACHuffmanTables() public
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable[] javax.imageio.plugins.jpeg.JPEGImageReadParam.getACHuffmanTables()}
      * .
      *
@@ -103,7 +104,8 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageReadParam#getDCHuffmanTables() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#getDCHuffmanTables() public
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable[] javax.imageio.plugins.jpeg.JPEGImageReadParam.getDCHuffmanTables()}
      * .
      *
@@ -126,7 +128,8 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGImageReadParam#areTablesSet() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#areTablesSet() public boolean
      * javax.imageio.plugins.jpeg.JPEGImageReadParam.areTablesSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +152,8 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JPEGImageReadParam#setDecodeTables(JPEGQTable[], JPEGHuffmanTable[], JPEGHuffmanTable[]) public void
+     * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#setDecodeTables(javax.imageio.plugins.jpeg.JPEGQTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[])
+     * public void
      * javax.imageio.plugins.jpeg.JPEGImageReadParam.setDecodeTables(javax.imageio.plugins.jpeg.JPEGQTable[],javax.imageio.plugins.jpeg.JPEGHuffmanTable[],javax.imageio.plugins.jpeg.JPEGHuffmanTable[])}
      * .
      *

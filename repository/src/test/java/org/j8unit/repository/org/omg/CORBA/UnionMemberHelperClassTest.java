@@ -7,11 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.UnionMember;
 import org.omg.CORBA.UnionMemberHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class UnionMemberHelperClassTest
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<Union
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UnionMemberHelper#UnionMemberHelper() public
-     * org.omg.CORBA.UnionMemberHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.UnionMemberHelper#UnionMemberHelper() public org.omg.CORBA.UnionMemberHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +42,7 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<Union
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnionMemberHelper#id() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.UnionMemberHelper#id() public static
      * java.lang.String org.omg.CORBA.UnionMemberHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +57,14 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<Union
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link UnionMemberHelper#id()}
+        // write some test for {@link org.omg.CORBA.UnionMemberHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnionMemberHelper#insert(Any, UnionMember) public
-     * static void org.omg.CORBA.UnionMemberHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.UnionMember)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UnionMemberHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.UnionMember) public static void
+     * org.omg.CORBA.UnionMemberHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.UnionMember)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,12 +78,14 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<Union
     @Category(Draft.class)
     public void test_insert_Any_UnionMember()
     throws Exception {
-        // write some test for {@link UnionMemberHelper#insert(Any, UnionMember)}
+        // write some test for {@link org.omg.CORBA.UnionMemberHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CORBA.UnionMember)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnionMemberHelper#write(OutputStream, UnionMember)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UnionMemberHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.UnionMember)
      * public static void
      * org.omg.CORBA.UnionMemberHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.UnionMember)}.
      *
@@ -102,13 +101,14 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<Union
     @Category(Draft.class)
     public void test_write_OutputStream_UnionMember()
     throws Exception {
-        // write some test for {@link UnionMemberHelper#write(OutputStream, UnionMember)}
+        // write some test for {@link org.omg.CORBA.UnionMemberHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CORBA.UnionMember)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnionMemberHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.UnionMemberHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.UnionMemberHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.UnionMemberHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,12 +122,13 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<Union
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link UnionMemberHelper#type()}
+        // write some test for {@link org.omg.CORBA.UnionMemberHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnionMemberHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UnionMemberHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.CORBA.UnionMember org.omg.CORBA.UnionMemberHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -142,13 +143,14 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<Union
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link UnionMemberHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.UnionMemberHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnionMemberHelper#extract(Any) public static
-     * org.omg.CORBA.UnionMember org.omg.CORBA.UnionMemberHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UnionMemberHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.UnionMember
+     * org.omg.CORBA.UnionMemberHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,7 +164,7 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<Union
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link UnionMemberHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.UnionMemberHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UnionMemberHelper]

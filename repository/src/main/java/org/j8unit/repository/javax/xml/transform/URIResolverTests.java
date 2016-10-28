@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URIResolver#resolve(String, String) public abstract
-     * javax.xml.transform.Source javax.xml.transform.URIResolver.resolve(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.URIResolver#resolve(String, String) public abstract javax.xml.transform.Source
+     * javax.xml.transform.URIResolver.resolve(java.lang.String,java.lang.String) throws
      * javax.xml.transform.TransformerException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

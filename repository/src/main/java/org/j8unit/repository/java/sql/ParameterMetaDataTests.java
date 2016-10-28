@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMetaData#getScale(int) public abstract int
-     * java.sql.ParameterMetaData.getScale(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getScale(int) public
+     * abstract int java.sql.ParameterMetaData.getScale(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMetaData#isSigned(int) public abstract
-     * boolean java.sql.ParameterMetaData.isSigned(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#isSigned(int) public
+     * abstract boolean java.sql.ParameterMetaData.isSigned(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMetaData#getParameterCount() public
-     * abstract int java.sql.ParameterMetaData.getParameterCount() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getParameterCount()
+     * public abstract int java.sql.ParameterMetaData.getParameterCount() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMetaData#isNullable(int) public abstract
-     * int java.sql.ParameterMetaData.isNullable(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#isNullable(int) public
+     * abstract int java.sql.ParameterMetaData.isNullable(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMetaData#getParameterTypeName(int) public
-     * abstract java.lang.String java.sql.ParameterMetaData.getParameterTypeName(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getParameterTypeName(int)
+     * public abstract java.lang.String java.sql.ParameterMetaData.getParameterTypeName(int) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMetaData#getParameterClassName(int) public
-     * abstract java.lang.String java.sql.ParameterMetaData.getParameterClassName(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ParameterMetaData#getParameterClassName(int) public abstract java.lang.String
+     * java.sql.ParameterMetaData.getParameterClassName(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +168,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMetaData#getPrecision(int) public abstract
-     * int java.sql.ParameterMetaData.getPrecision(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getPrecision(int) public
+     * abstract int java.sql.ParameterMetaData.getPrecision(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +190,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMetaData#getParameterType(int) public
-     * abstract int java.sql.ParameterMetaData.getParameterType(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getParameterType(int)
+     * public abstract int java.sql.ParameterMetaData.getParameterType(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +212,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMetaData#getParameterMode(int) public
-     * abstract int java.sql.ParameterMetaData.getParameterMode(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getParameterMode(int)
+     * public abstract int java.sql.ParameterMetaData.getParameterMode(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

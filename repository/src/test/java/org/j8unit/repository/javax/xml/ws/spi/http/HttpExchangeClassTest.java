@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.xml.ws.spi.http.HttpExchangeClassTests<Ht
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HttpExchange#HttpExchange() public
-     * javax.xml.ws.spi.http.HttpExchange()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#HttpExchange() public javax.xml.ws.spi.http.HttpExchange()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

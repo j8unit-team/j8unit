@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.xml.crypto.dsig;
 
-import javax.xml.crypto.XMLCryptoContext;
-import javax.xml.crypto.XMLStructure;
 import javax.xml.crypto.dsig.TransformService;
-import javax.xml.crypto.dsig.spec.TransformParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +35,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TransformService#init(XMLStructure, XMLCryptoContext) public abstract void
+     * {@link javax.xml.crypto.dsig.TransformService#init(javax.xml.crypto.XMLStructure, javax.xml.crypto.XMLCryptoContext)
+     * public abstract void
      * javax.xml.crypto.dsig.TransformService.init(javax.xml.crypto.XMLStructure,javax.xml.crypto.XMLCryptoContext)
      * throws java.security.InvalidAlgorithmParameterException}.
      *
@@ -61,7 +59,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformService#init(TransformParameterSpec) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.TransformService#init(javax.xml.crypto.dsig.spec.TransformParameterSpec) public
      * abstract void javax.xml.crypto.dsig.TransformService.init(javax.xml.crypto.dsig.spec.TransformParameterSpec)
      * throws java.security.InvalidAlgorithmParameterException}.
      *
@@ -84,8 +83,9 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformService#getMechanismType() public final
-     * java.lang.String javax.xml.crypto.dsig.TransformService.getMechanismType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.TransformService#getMechanismType() public final java.lang.String
+     * javax.xml.crypto.dsig.TransformService.getMechanismType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +106,9 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformService#getAlgorithm() public final
-     * java.lang.String javax.xml.crypto.dsig.TransformService.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.TransformService#getAlgorithm() public final java.lang.String
+     * javax.xml.crypto.dsig.TransformService.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +130,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformService#getProvider() public final
-     * java.security.Provider javax.xml.crypto.dsig.TransformService.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.TransformService#getProvider()
+     * public final java.security.Provider javax.xml.crypto.dsig.TransformService.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,7 +153,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TransformService#marshalParams(XMLStructure, XMLCryptoContext) public abstract void
+     * {@link javax.xml.crypto.dsig.TransformService#marshalParams(javax.xml.crypto.XMLStructure, javax.xml.crypto.XMLCryptoContext)
+     * public abstract void
      * javax.xml.crypto.dsig.TransformService.marshalParams(javax.xml.crypto.XMLStructure,javax.xml.crypto.XMLCryptoContext)
      * throws javax.xml.crypto.MarshalException}.
      *

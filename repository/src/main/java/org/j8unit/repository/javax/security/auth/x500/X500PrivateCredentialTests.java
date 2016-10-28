@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500PrivateCredential#isDestroyed() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.x500.X500PrivateCredential#isDestroyed() public boolean
      * javax.security.auth.x500.X500PrivateCredential.isDestroyed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,9 @@ extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500PrivateCredential#getCertificate() public
-     * java.security.cert.X509Certificate javax.security.auth.x500.X500PrivateCredential.getCertificate()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.x500.X500PrivateCredential#getCertificate() public java.security.cert.X509Certificate
+     * javax.security.auth.x500.X500PrivateCredential.getCertificate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +81,8 @@ extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500PrivateCredential#destroy() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.x500.X500PrivateCredential#destroy() public void
      * javax.security.auth.x500.X500PrivateCredential.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +105,9 @@ extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500PrivateCredential#getPrivateKey() public
-     * java.security.PrivateKey javax.security.auth.x500.X500PrivateCredential.getPrivateKey()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.x500.X500PrivateCredential#getPrivateKey() public java.security.PrivateKey
+     * javax.security.auth.x500.X500PrivateCredential.getPrivateKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +128,9 @@ extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500PrivateCredential#getAlias() public
-     * java.lang.String javax.security.auth.x500.X500PrivateCredential.getAlias()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.x500.X500PrivateCredential#getAlias() public java.lang.String
+     * javax.security.auth.x500.X500PrivateCredential.getAlias()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

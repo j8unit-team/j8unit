@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.sound.midi.SysexMessageClassTests<SysexMe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SysexMessage#SysexMessage(int, byte[], int)
-     * public javax.sound.midi.SysexMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.midi.SysexMessage#SysexMessage(int, byte[], int) public
+     * javax.sound.midi.SysexMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +44,9 @@ implements org.j8unit.repository.javax.sound.midi.SysexMessageClassTests<SysexMe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SysexMessage#SysexMessage(byte[], int) public
-     * javax.sound.midi.SysexMessage(byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.midi.SysexMessage#SysexMessage(byte[], int) public javax.sound.midi.SysexMessage(byte[],int)
+     * throws javax.sound.midi.InvalidMidiDataException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,8 +67,8 @@ implements org.j8unit.repository.javax.sound.midi.SysexMessageClassTests<SysexMe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SysexMessage#SysexMessage() public
-     * javax.sound.midi.SysexMessage()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.sound.midi.SysexMessage#SysexMessage()
+     * public javax.sound.midi.SysexMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

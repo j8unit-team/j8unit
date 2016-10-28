@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.cert.CertPath;
 import java.security.cert.CertPathValidatorException;
 import java.security.cert.CertPathValidatorException.BasicReason;
 import java.security.cert.CertPathValidatorException.Reason;
@@ -25,7 +24,8 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathValidatorException#CertPathValidatorException(String, Throwable, CertPath, int, Reason) public
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(String, Throwable, java.security.cert.CertPath, int, java.security.cert.CertPathValidatorException.Reason)
+     * public
      * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException$Reason)}
      * .
      *
@@ -43,14 +43,16 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CertPathValidatorException sut = null; // = new CertPathValidatorException(String, Throwable, CertPath,
-                                                     // int, Reason);
+        final CertPathValidatorException sut = null; // = new CertPathValidatorException(String, Throwable,
+                                                     // java.security.cert.CertPath, int,
+                                                     // java.security.cert.CertPathValidatorException.Reason);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathValidatorException#CertPathValidatorException(String, Throwable, CertPath, int) public
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(String, Throwable, java.security.cert.CertPath, int)
+     * public
      * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int)}
      * .
      *
@@ -68,14 +70,14 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CertPathValidatorException sut = null; // = new CertPathValidatorException(String, Throwable, CertPath,
-                                                     // int);
+        final CertPathValidatorException sut = null; // = new CertPathValidatorException(String, Throwable,
+                                                     // java.security.cert.CertPath, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathValidatorException#CertPathValidatorException(String, Throwable) public
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(String, Throwable) public
      * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,7 +100,7 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathValidatorException#CertPathValidatorException() public
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException() public
      * java.security.cert.CertPathValidatorException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -120,7 +122,7 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathValidatorException#CertPathValidatorException(String) public
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(String) public
      * java.security.cert.CertPathValidatorException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -143,7 +145,7 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathValidatorException#CertPathValidatorException(Throwable) public
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(Throwable) public
      * java.security.cert.CertPathValidatorException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,7 +195,8 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link BasicReason#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.cert.CertPathValidatorException.BasicReason#values() public static
          * java.security.cert.CertPathValidatorException$BasicReason[]
          * java.security.cert.CertPathValidatorException$BasicReason.values()}.
          *
@@ -209,12 +212,13 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link BasicReason#values()}
+            // write some test for {@link java.security.cert.CertPathValidatorException.BasicReason#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link BasicReason#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.cert.CertPathValidatorException.BasicReason#valueOf(String) public static
          * java.security.cert.CertPathValidatorException$BasicReason
          * java.security.cert.CertPathValidatorException$BasicReason.valueOf(java.lang.String)}.
          *
@@ -230,7 +234,7 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link BasicReason#valueOf(String)}
+            // write some test for {@link java.security.cert.CertPathValidatorException.BasicReason#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorException$BasicReason]

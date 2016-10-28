@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
 import javax.swing.PopupFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PopupFactory#getPopup(Component, Component, int, int) public javax.swing.Popup
-     * javax.swing.PopupFactory.getPopup(java.awt.Component,java.awt.Component,int,int) throws
+     * {@link javax.swing.PopupFactory#getPopup(java.awt.Component, java.awt.Component, int, int) public
+     * javax.swing.Popup javax.swing.PopupFactory.getPopup(java.awt.Component,java.awt.Component,int,int) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

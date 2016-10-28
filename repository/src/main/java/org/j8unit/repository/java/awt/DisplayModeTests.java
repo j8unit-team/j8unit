@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DisplayMode#getBitDepth() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.DisplayMode#getBitDepth() public int
      * java.awt.DisplayMode.getBitDepth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DisplayMode#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.DisplayMode#equals(Object) public boolean
      * java.awt.DisplayMode.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DisplayMode#equals(DisplayMode) public boolean
-     * java.awt.DisplayMode.equals(java.awt.DisplayMode)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.DisplayMode#equals(java.awt.DisplayMode)
+     * public boolean java.awt.DisplayMode.equals(java.awt.DisplayMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DisplayMode#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.DisplayMode#hashCode() public int
      * java.awt.DisplayMode.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DisplayMode#getHeight() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.DisplayMode#getHeight() public int
      * java.awt.DisplayMode.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DisplayMode#getRefreshRate() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.DisplayMode#getRefreshRate() public int
      * java.awt.DisplayMode.getRefreshRate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +168,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DisplayMode#getWidth() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.DisplayMode#getWidth() public int
      * java.awt.DisplayMode.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

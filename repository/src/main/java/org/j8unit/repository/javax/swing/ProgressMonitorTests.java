@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#close() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#close() public void
      * javax.swing.ProgressMonitor.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#setMinimum(int) public void
-     * javax.swing.ProgressMonitor.setMinimum(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#setMinimum(int) public
+     * void javax.swing.ProgressMonitor.setMinimum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#getMillisToDecideToPopup() public
-     * int javax.swing.ProgressMonitor.getMillisToDecideToPopup()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ProgressMonitor#getMillisToDecideToPopup() public int
+     * javax.swing.ProgressMonitor.getMillisToDecideToPopup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +101,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#getMinimum() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#getMinimum() public int
      * javax.swing.ProgressMonitor.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +123,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#setNote(String) public void
-     * javax.swing.ProgressMonitor.setNote(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#setNote(String) public
+     * void javax.swing.ProgressMonitor.setNote(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#setMillisToPopup(int) public void
-     * javax.swing.ProgressMonitor.setMillisToPopup(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#setMillisToPopup(int)
+     * public void javax.swing.ProgressMonitor.setMillisToPopup(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +167,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#getMillisToPopup() public int
-     * javax.swing.ProgressMonitor.getMillisToPopup()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#getMillisToPopup()
+     * public int javax.swing.ProgressMonitor.getMillisToPopup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,7 +189,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#getMaximum() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#getMaximum() public int
      * javax.swing.ProgressMonitor.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,8 +211,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.ProgressMonitor.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.ProgressMonitor.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +234,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#setProgress(int) public void
-     * javax.swing.ProgressMonitor.setProgress(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#setProgress(int) public
+     * void javax.swing.ProgressMonitor.setProgress(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +256,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#getNote() public java.lang.String
-     * javax.swing.ProgressMonitor.getNote()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#getNote() public
+     * java.lang.String javax.swing.ProgressMonitor.getNote()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +278,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#setMillisToDecideToPopup(int) public
-     * void javax.swing.ProgressMonitor.setMillisToDecideToPopup(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ProgressMonitor#setMillisToDecideToPopup(int) public void
+     * javax.swing.ProgressMonitor.setMillisToDecideToPopup(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,8 +301,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#setMaximum(int) public void
-     * javax.swing.ProgressMonitor.setMaximum(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#setMaximum(int) public
+     * void javax.swing.ProgressMonitor.setMaximum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,8 +323,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitor#isCanceled() public boolean
-     * javax.swing.ProgressMonitor.isCanceled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitor#isCanceled() public
+     * boolean javax.swing.ProgressMonitor.isCanceled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

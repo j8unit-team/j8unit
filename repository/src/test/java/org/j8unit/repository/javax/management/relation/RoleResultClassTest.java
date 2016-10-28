@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.relation;
 
-import javax.management.relation.RoleList;
 import javax.management.relation.RoleResult;
-import javax.management.relation.RoleUnresolvedList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.management.relation.RoleResultClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RoleResult#RoleResult(RoleList, RoleUnresolvedList) public
+     * {@link javax.management.relation.RoleResult#RoleResult(javax.management.relation.RoleList, javax.management.relation.RoleUnresolvedList)
+     * public
      * javax.management.relation.RoleResult(javax.management.relation.RoleList,javax.management.relation.RoleUnresolvedList)}
      * .
      *
@@ -42,7 +41,8 @@ implements org.j8unit.repository.javax.management.relation.RoleResultClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RoleResult sut = null; // = new RoleResult(RoleList, RoleUnresolvedList);
+        final RoleResult sut = null; // = new RoleResult(javax.management.relation.RoleList,
+                                     // javax.management.relation.RoleUnresolvedList);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleResult]

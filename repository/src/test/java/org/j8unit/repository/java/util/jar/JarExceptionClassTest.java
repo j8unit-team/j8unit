@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.jar.JarExceptionClassTests<JarExcepti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarException#JarException() public
-     * java.util.jar.JarException()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.jar.JarException#JarException()
+     * public java.util.jar.JarException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.java.util.jar.JarExceptionClassTests<JarExcepti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarException#JarException(String) public
-     * java.util.jar.JarException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.jar.JarException#JarException(String)
+     * public java.util.jar.JarException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

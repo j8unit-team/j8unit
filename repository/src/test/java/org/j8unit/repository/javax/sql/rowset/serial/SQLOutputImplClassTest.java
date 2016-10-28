@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.util.Map;
-import java.util.Vector;
 import javax.sql.rowset.serial.SQLOutputImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SQLOutputImplClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLOutputImpl#SQLOutputImpl(Vector, Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#SQLOutputImpl(java.util.Vector, java.util.Map) public
      * javax.sql.rowset.serial.SQLOutputImpl(java.util.Vector<?>,java.util.Map<java.lang.String, ?>) throws
      * java.sql.SQLException}.
      *
@@ -41,7 +40,7 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SQLOutputImplClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SQLOutputImpl sut = null; // = new SQLOutputImpl(Vector, Map);
+        final SQLOutputImpl sut = null; // = new SQLOutputImpl(java.util.Vector, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SQLOutputImpl]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.IllegalFormatConversionExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalFormatConversionException#IllegalFormatConversionException(char, Class) public
+     * {@link java.util.IllegalFormatConversionException#IllegalFormatConversionException(char, Class) public
      * java.util.IllegalFormatConversionException(char,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

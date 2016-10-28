@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiLookAndFeel#getName() public java.lang.String
-     * javax.swing.plaf.multi.MultiLookAndFeel.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiLookAndFeel#getName()
+     * public java.lang.String javax.swing.plaf.multi.MultiLookAndFeel.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiLookAndFeel#isSupportedLookAndFeel() public
-     * boolean javax.swing.plaf.multi.MultiLookAndFeel.isSupportedLookAndFeel()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiLookAndFeel#isSupportedLookAndFeel() public boolean
+     * javax.swing.plaf.multi.MultiLookAndFeel.isSupportedLookAndFeel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiLookAndFeel#getID() public java.lang.String
-     * javax.swing.plaf.multi.MultiLookAndFeel.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiLookAndFeel#getID()
+     * public java.lang.String javax.swing.plaf.multi.MultiLookAndFeel.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,31 +104,9 @@ extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiLookAndFeel#isNativeLookAndFeel() public
-     * boolean javax.swing.plaf.multi.MultiLookAndFeel.isNativeLookAndFeel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isNativeLookAndFeel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiLookAndFeel#getDefaults() public
-     * javax.swing.UIDefaults javax.swing.plaf.multi.MultiLookAndFeel.getDefaults()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiLookAndFeel#getDefaults() public javax.swing.UIDefaults
+     * javax.swing.plaf.multi.MultiLookAndFeel.getDefaults()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +128,33 @@ extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiLookAndFeel#getDescription() public
-     * java.lang.String javax.swing.plaf.multi.MultiLookAndFeel.getDescription()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiLookAndFeel#isNativeLookAndFeel() public boolean
+     * javax.swing.plaf.multi.MultiLookAndFeel.isNativeLookAndFeel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isNativeLookAndFeel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiLookAndFeel#getDescription() public java.lang.String
+     * javax.swing.plaf.multi.MultiLookAndFeel.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

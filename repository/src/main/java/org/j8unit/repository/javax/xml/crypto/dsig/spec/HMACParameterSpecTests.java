@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.SignatureMethodParamete
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HMACParameterSpec#getOutputLength() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.spec.HMACParameterSpec#getOutputLength() public int
      * javax.xml.crypto.dsig.spec.HMACParameterSpec.getOutputLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

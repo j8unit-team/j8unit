@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.CosNaming.NamingContextPackage.NotFound;
 import org.omg.CosNaming.NamingContextPackage.NotFoundHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,7 +22,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NotFoundHelper#NotFoundHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#NotFoundHelper() public
      * org.omg.CosNaming.NamingContextPackage.NotFoundHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,8 +43,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotFoundHelper#insert(Any, NotFound) public static
-     * void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#insert(org.omg.CORBA.Any, org.omg.CosNaming.NamingContextPackage.NotFound)
+     * public static void
      * org.omg.CosNaming.NamingContextPackage.NotFoundHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextPackage.NotFound)}
      * .
      *
@@ -63,12 +61,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     @Category(Draft.class)
     public void test_insert_Any_NotFound()
     throws Exception {
-        // write some test for {@link NotFoundHelper#insert(Any, NotFound)}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CosNaming.NamingContextPackage.NotFound)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotFoundHelper#id() public static java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#id() public static java.lang.String
      * org.omg.CosNaming.NamingContextPackage.NotFoundHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,13 +83,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link NotFoundHelper#id()}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotFoundHelper#write(OutputStream, NotFound) public
-     * static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CosNaming.NamingContextPackage.NotFound)
+     * public static void
      * org.omg.CosNaming.NamingContextPackage.NotFoundHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NamingContextPackage.NotFound)}
      * .
      *
@@ -105,12 +106,15 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     @Category(Draft.class)
     public void test_write_OutputStream_NotFound()
     throws Exception {
-        // write some test for {@link NotFoundHelper#write(OutputStream, NotFound)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextPackage.NotFoundHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CosNaming.NamingContextPackage.NotFound)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotFoundHelper#type() public static synchronized
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#type() public static synchronized
      * org.omg.CORBA.TypeCode org.omg.CosNaming.NamingContextPackage.NotFoundHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,13 +129,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link NotFoundHelper#type()}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotFoundHelper#read(InputStream) public static
-     * org.omg.CosNaming.NamingContextPackage.NotFound
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.CosNaming.NamingContextPackage.NotFound
      * org.omg.CosNaming.NamingContextPackage.NotFoundHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,12 +151,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link NotFoundHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextPackage.NotFoundHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotFoundHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.CosNaming.NamingContextPackage.NotFound
      * org.omg.CosNaming.NamingContextPackage.NotFoundHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -167,7 +174,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link NotFoundHelper#extract(Any)}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.NotFoundHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFoundHelper]

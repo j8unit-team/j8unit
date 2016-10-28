@@ -22,8 +22,9 @@ implements org.j8unit.repository.javax.net.ssl.TrustManagerFactorySpiClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TrustManagerFactorySpi#TrustManagerFactorySpi()
-     * public javax.net.ssl.TrustManagerFactorySpi()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.net.ssl.TrustManagerFactorySpi#TrustManagerFactorySpi() public
+     * javax.net.ssl.TrustManagerFactorySpi()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

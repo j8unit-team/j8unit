@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceProvider#targetNamespace() public abstract
-     * java.lang.String javax.xml.ws.WebServiceProvider.targetNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceProvider#targetNamespace()
+     * public abstract java.lang.String javax.xml.ws.WebServiceProvider.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceProvider#wsdlLocation() public abstract
-     * java.lang.String javax.xml.ws.WebServiceProvider.wsdlLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceProvider#wsdlLocation()
+     * public abstract java.lang.String javax.xml.ws.WebServiceProvider.wsdlLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceProvider#serviceName() public abstract
-     * java.lang.String javax.xml.ws.WebServiceProvider.serviceName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceProvider#serviceName() public
+     * abstract java.lang.String javax.xml.ws.WebServiceProvider.serviceName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceProvider#portName() public abstract
-     * java.lang.String javax.xml.ws.WebServiceProvider.portName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceProvider#portName() public
+     * abstract java.lang.String javax.xml.ws.WebServiceProvider.portName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

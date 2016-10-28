@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#sleep(long) public void
-     * java.util.concurrent.TimeUnit.sleep(long) throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.TimeUnit#sleep(long) public
+     * void java.util.concurrent.TimeUnit.sleep(long) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#toNanos(long) public long
-     * java.util.concurrent.TimeUnit.toNanos(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.TimeUnit#toNanos(long) public
+     * long java.util.concurrent.TimeUnit.toNanos(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#toMinutes(long) public long
-     * java.util.concurrent.TimeUnit.toMinutes(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.TimeUnit#toMinutes(long) public
+     * long java.util.concurrent.TimeUnit.toMinutes(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#timedJoin(Thread, long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.TimeUnit#timedJoin(Thread, long) public void
      * java.util.concurrent.TimeUnit.timedJoin(java.lang.Thread,long) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +123,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#toHours(long) public long
-     * java.util.concurrent.TimeUnit.toHours(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.TimeUnit#toHours(long) public
+     * long java.util.concurrent.TimeUnit.toHours(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,7 +145,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#timedWait(Object, long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.TimeUnit#timedWait(Object, long) public void
      * java.util.concurrent.TimeUnit.timedWait(java.lang.Object,long) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,8 +168,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#toMillis(long) public long
-     * java.util.concurrent.TimeUnit.toMillis(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.TimeUnit#toMillis(long) public
+     * long java.util.concurrent.TimeUnit.toMillis(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,7 +190,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#convert(long, TimeUnit) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.TimeUnit#convert(long, java.util.concurrent.TimeUnit) public long
      * java.util.concurrent.TimeUnit.convert(long,java.util.concurrent.TimeUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,8 +213,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#toDays(long) public long
-     * java.util.concurrent.TimeUnit.toDays(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.TimeUnit#toDays(long) public
+     * long java.util.concurrent.TimeUnit.toDays(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +235,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#toMicros(long) public long
-     * java.util.concurrent.TimeUnit.toMicros(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.TimeUnit#toMicros(long) public
+     * long java.util.concurrent.TimeUnit.toMicros(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,8 +257,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeUnit#toSeconds(long) public long
-     * java.util.concurrent.TimeUnit.toSeconds(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.TimeUnit#toSeconds(long) public
+     * long java.util.concurrent.TimeUnit.toSeconds(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

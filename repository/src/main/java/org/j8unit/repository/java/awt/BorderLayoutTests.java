@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Container;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#maximumLayoutSize(Container) public
-     * java.awt.Dimension java.awt.BorderLayout.maximumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#maximumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.BorderLayout.maximumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +59,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#layoutContainer(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#layoutContainer(java.awt.Container) public void
      * java.awt.BorderLayout.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,31 +83,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#addLayoutComponent(String, Component)
-     * public void java.awt.BorderLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addLayoutComponent_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#addLayoutComponent(Component, Object)
-     * public void java.awt.BorderLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#addLayoutComponent(java.awt.Component, Object) public void
+     * java.awt.BorderLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +107,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#toString() public java.lang.String
-     * java.awt.BorderLayout.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#addLayoutComponent(String, java.awt.Component) public void
+     * java.awt.BorderLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addLayoutComponent_String_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.BorderLayout#toString() public
+     * java.lang.String java.awt.BorderLayout.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,7 +154,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#setHgap(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.BorderLayout#setHgap(int) public void
      * java.awt.BorderLayout.setHgap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +176,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#getLayoutAlignmentX(Container) public
-     * float java.awt.BorderLayout.getLayoutAlignmentX(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#getLayoutAlignmentX(java.awt.Container) public float
+     * java.awt.BorderLayout.getLayoutAlignmentX(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,8 +200,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#minimumLayoutSize(Container) public
-     * java.awt.Dimension java.awt.BorderLayout.minimumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.BorderLayout.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,8 +224,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#getLayoutAlignmentY(Container) public
-     * float java.awt.BorderLayout.getLayoutAlignmentY(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#getLayoutAlignmentY(java.awt.Container) public float
+     * java.awt.BorderLayout.getLayoutAlignmentY(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,7 +248,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#getVgap() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.BorderLayout#getVgap() public int
      * java.awt.BorderLayout.getVgap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -265,8 +270,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#getConstraints(Component) public
-     * java.lang.Object java.awt.BorderLayout.getConstraints(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#getConstraints(java.awt.Component) public java.lang.Object
+     * java.awt.BorderLayout.getConstraints(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,7 +293,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#invalidateLayout(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#invalidateLayout(java.awt.Container) public void
      * java.awt.BorderLayout.invalidateLayout(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -310,7 +317,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#setVgap(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.BorderLayout#setVgap(int) public void
      * java.awt.BorderLayout.setVgap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -332,7 +339,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#getHgap() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.BorderLayout#getHgap() public int
      * java.awt.BorderLayout.getHgap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -354,8 +361,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#preferredLayoutSize(Container) public
-     * java.awt.Dimension java.awt.BorderLayout.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.BorderLayout.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -377,30 +385,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#getLayoutComponent(Container, Object)
-     * public java.awt.Component java.awt.BorderLayout.getLayoutComponent(java.awt.Container,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLayoutComponent_Container_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#getLayoutComponent(Object) public
-     * java.awt.Component java.awt.BorderLayout.getLayoutComponent(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.BorderLayout#getLayoutComponent(Object)
+     * public java.awt.Component java.awt.BorderLayout.getLayoutComponent(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -421,8 +407,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderLayout#removeLayoutComponent(Component) public
-     * void java.awt.BorderLayout.removeLayoutComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#getLayoutComponent(java.awt.Container, Object) public java.awt.Component
+     * java.awt.BorderLayout.getLayoutComponent(java.awt.Container,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLayoutComponent_Container_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.BorderLayout#removeLayoutComponent(java.awt.Component) public void
+     * java.awt.BorderLayout.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
 import static org.junit.Assert.fail;
-import javax.swing.Action;
 import javax.swing.text.TextAction;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.swing.text.TextActionClassTests<TextActio
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TextAction#TextAction(String) public
-     * javax.swing.text.TextAction(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.TextAction#TextAction(String)
+     * public javax.swing.text.TextAction(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,9 +42,9 @@ implements org.j8unit.repository.javax.swing.text.TextActionClassTests<TextActio
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextAction#augmentList(Action[], Action[]) public
-     * static final javax.swing.Action[]
-     * javax.swing.text.TextAction.augmentList(javax.swing.Action[],javax.swing.Action[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.TextAction#augmentList(javax.swing.Action[], javax.swing.Action[]) public static final
+     * javax.swing.Action[] javax.swing.text.TextAction.augmentList(javax.swing.Action[],javax.swing.Action[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,8 @@ implements org.j8unit.repository.javax.swing.text.TextActionClassTests<TextActio
     @Category(Draft.class)
     public void test_augmentList_ActionArray_ActionArray()
     throws Exception {
-        // write some test for {@link TextAction#augmentList(Action[], Action[])}
+        // write some test for {@link javax.swing.text.TextAction#augmentList(javax.swing.Action[],
+        // javax.swing.Action[])}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TextAction]

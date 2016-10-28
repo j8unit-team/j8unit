@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import java.awt.Graphics;
-import java.awt.Shape;
 import javax.swing.text.html.ListView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.html.BlockViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListView#getAlignment(int) public float
-     * javax.swing.text.html.ListView.getAlignment(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.ListView#getAlignment(int)
+     * public float javax.swing.text.html.ListView.getAlignment(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +57,8 @@ extends org.j8unit.repository.javax.swing.text.html.BlockViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.ListView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.html.ListView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

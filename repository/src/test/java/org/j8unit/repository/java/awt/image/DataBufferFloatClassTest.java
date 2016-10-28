@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.DataBufferFloatClassTests<DataBu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBufferFloat#DataBufferFloat(float[][], int, int[]) public
+     * {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[][], int, int[]) public
      * java.awt.image.DataBufferFloat(float[][],int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.java.awt.image.DataBufferFloatClassTests<DataBu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferFloat#DataBufferFloat(float[][], int)
-     * public java.awt.image.DataBufferFloat(float[][],int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[][], int) public
+     * java.awt.image.DataBufferFloat(float[][],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,8 +68,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferFloatClassTests<DataBu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBufferFloat#DataBufferFloat(float[], int, int) public java.awt.image.DataBufferFloat(float[],int,int)}
-     * .
+     * {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[], int, int) public
+     * java.awt.image.DataBufferFloat(float[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +90,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferFloatClassTests<DataBu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferFloat#DataBufferFloat(int) public
-     * java.awt.image.DataBufferFloat(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferFloat#DataBufferFloat(int) public java.awt.image.DataBufferFloat(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +112,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferFloatClassTests<DataBu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferFloat#DataBufferFloat(int, int)
-     * public java.awt.image.DataBufferFloat(int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferFloat#DataBufferFloat(int, int) public java.awt.image.DataBufferFloat(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +134,9 @@ implements org.j8unit.repository.java.awt.image.DataBufferFloatClassTests<DataBu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferFloat#DataBufferFloat(float[], int)
-     * public java.awt.image.DataBufferFloat(float[],int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[], int) public
+     * java.awt.image.DataBufferFloat(float[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

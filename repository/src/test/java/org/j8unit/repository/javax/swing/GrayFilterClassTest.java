@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Image;
 import javax.swing.GrayFilter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.swing.GrayFilterClassTests<GrayFilter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GrayFilter#GrayFilter(boolean, int) public
-     * javax.swing.GrayFilter(boolean,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.GrayFilter#GrayFilter(boolean, int)
+     * public javax.swing.GrayFilter(boolean,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +43,9 @@ implements org.j8unit.repository.javax.swing.GrayFilterClassTests<GrayFilter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GrayFilter#createDisabledImage(Image) public static
-     * java.awt.Image javax.swing.GrayFilter.createDisabledImage(java.awt.Image)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.GrayFilter#createDisabledImage(java.awt.Image) public static java.awt.Image
+     * javax.swing.GrayFilter.createDisabledImage(java.awt.Image)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +59,7 @@ implements org.j8unit.repository.javax.swing.GrayFilterClassTests<GrayFilter> {
     @Category(Draft.class)
     public void test_createDisabledImage_Image()
     throws Exception {
-        // write some test for {@link GrayFilter#createDisabledImage(Image)}
+        // write some test for {@link javax.swing.GrayFilter#createDisabledImage(java.awt.Image)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GrayFilter]

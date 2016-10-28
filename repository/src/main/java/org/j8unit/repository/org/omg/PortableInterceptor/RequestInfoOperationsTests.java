@@ -36,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RequestInfoOperations#get_request_service_context(int) public abstract org.omg.IOP.ServiceContext
-     * org.omg.PortableInterceptor.RequestInfoOperations.get_request_service_context(int)}.
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#get_request_service_context(int) public abstract
+     * org.omg.IOP.ServiceContext org.omg.PortableInterceptor.RequestInfoOperations.get_request_service_context(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#reply_status() public abstract
-     * short org.omg.PortableInterceptor.RequestInfoOperations.reply_status()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#reply_status() public abstract short
+     * org.omg.PortableInterceptor.RequestInfoOperations.reply_status()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,9 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#get_reply_service_context(int)
-     * public abstract org.omg.IOP.ServiceContext
-     * org.omg.PortableInterceptor.RequestInfoOperations.get_reply_service_context(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#get_reply_service_context(int) public abstract
+     * org.omg.IOP.ServiceContext org.omg.PortableInterceptor.RequestInfoOperations.get_reply_service_context(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#exceptions() public abstract
-     * org.omg.CORBA.TypeCode[] org.omg.PortableInterceptor.RequestInfoOperations.exceptions()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#exceptions() public abstract org.omg.CORBA.TypeCode[]
+     * org.omg.PortableInterceptor.RequestInfoOperations.exceptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#contexts() public abstract
-     * java.lang.String[] org.omg.PortableInterceptor.RequestInfoOperations.contexts()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#contexts() public abstract java.lang.String[]
+     * org.omg.PortableInterceptor.RequestInfoOperations.contexts()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,9 +150,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#get_slot(int) public abstract
-     * org.omg.CORBA.Any org.omg.PortableInterceptor.RequestInfoOperations.get_slot(int) throws
-     * org.omg.PortableInterceptor.InvalidSlot}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#get_slot(int) public abstract org.omg.CORBA.Any
+     * org.omg.PortableInterceptor.RequestInfoOperations.get_slot(int) throws org.omg.PortableInterceptor.InvalidSlot}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +173,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#sync_scope() public abstract
-     * short org.omg.PortableInterceptor.RequestInfoOperations.sync_scope()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#sync_scope() public abstract short
+     * org.omg.PortableInterceptor.RequestInfoOperations.sync_scope()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +196,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#result() public abstract
-     * org.omg.CORBA.Any org.omg.PortableInterceptor.RequestInfoOperations.result()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#result() public abstract org.omg.CORBA.Any
+     * org.omg.PortableInterceptor.RequestInfoOperations.result()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +219,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#operation_context() public
-     * abstract java.lang.String[] org.omg.PortableInterceptor.RequestInfoOperations.operation_context()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#operation_context() public abstract java.lang.String[]
+     * org.omg.PortableInterceptor.RequestInfoOperations.operation_context()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,8 +242,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#request_id() public abstract
-     * int org.omg.PortableInterceptor.RequestInfoOperations.request_id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#request_id() public abstract int
+     * org.omg.PortableInterceptor.RequestInfoOperations.request_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +265,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#operation() public abstract
-     * java.lang.String org.omg.PortableInterceptor.RequestInfoOperations.operation()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#operation() public abstract java.lang.String
+     * org.omg.PortableInterceptor.RequestInfoOperations.operation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,8 +288,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#response_expected() public
-     * abstract boolean org.omg.PortableInterceptor.RequestInfoOperations.response_expected()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#response_expected() public abstract boolean
+     * org.omg.PortableInterceptor.RequestInfoOperations.response_expected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,8 +311,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#forward_reference() public
-     * abstract org.omg.CORBA.Object org.omg.PortableInterceptor.RequestInfoOperations.forward_reference()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#forward_reference() public abstract org.omg.CORBA.Object
+     * org.omg.PortableInterceptor.RequestInfoOperations.forward_reference()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +334,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestInfoOperations#arguments() public abstract
-     * org.omg.Dynamic.Parameter[] org.omg.PortableInterceptor.RequestInfoOperations.arguments()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#arguments() public abstract org.omg.Dynamic.Parameter[]
+     * org.omg.PortableInterceptor.RequestInfoOperations.arguments()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

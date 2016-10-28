@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.util.function.UnaryOperatorClassTests<Unar
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnaryOperator#identity() public static
-     * <T> java.util.function.UnaryOperator<T> java.util.function.UnaryOperator.identity()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.UnaryOperator#identity() public
+     * static <T> java.util.function.UnaryOperator<T> java.util.function.UnaryOperator.identity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,7 +37,7 @@ implements org.j8unit.repository.java.util.function.UnaryOperatorClassTests<Unar
     @Category(Draft.class)
     public void test_identity()
     throws Exception {
-        // write some test for {@link UnaryOperator#identity()}
+        // write some test for {@link java.util.function.UnaryOperator#identity()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.UnaryOperator]

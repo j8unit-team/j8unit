@@ -1,14 +1,11 @@
 package org.j8unit.repository.org.omg.CORBA;
 
-import java.io.Serializable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.StringValueHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 /**
  * <p>
@@ -37,8 +34,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringValueHelper#read_value(InputStream) public
-     * java.io.Serializable org.omg.CORBA.StringValueHelper.read_value(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.StringValueHelper#read_value(org.omg.CORBA.portable.InputStream) public java.io.Serializable
+     * org.omg.CORBA.StringValueHelper.read_value(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringValueHelper#get_id() public java.lang.String
-     * org.omg.CORBA.StringValueHelper.get_id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.StringValueHelper#get_id() public
+     * java.lang.String org.omg.CORBA.StringValueHelper.get_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +82,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StringValueHelper#write_value(OutputStream, Serializable) public void
+     * {@link org.omg.CORBA.StringValueHelper#write_value(org.omg.CORBA.portable.OutputStream, java.io.Serializable)
+     * public void
      * org.omg.CORBA.StringValueHelper.write_value(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

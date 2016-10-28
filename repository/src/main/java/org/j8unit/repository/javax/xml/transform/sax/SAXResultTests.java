@@ -6,8 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.ext.LexicalHandler;
 
 /**
  * <p>
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXResult#getHandler() public
-     * org.xml.sax.ContentHandler javax.xml.transform.sax.SAXResult.getHandler()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.sax.SAXResult#getHandler()
+     * public org.xml.sax.ContentHandler javax.xml.transform.sax.SAXResult.getHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,9 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXResult#getLexicalHandler() public
-     * org.xml.sax.ext.LexicalHandler javax.xml.transform.sax.SAXResult.getLexicalHandler()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXResult#getLexicalHandler() public org.xml.sax.ext.LexicalHandler
+     * javax.xml.transform.sax.SAXResult.getLexicalHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXResult#setSystemId(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXResult#setSystemId(String) public void
      * javax.xml.transform.sax.SAXResult.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXResult#setHandler(ContentHandler) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXResult#setHandler(org.xml.sax.ContentHandler) public void
      * javax.xml.transform.sax.SAXResult.setHandler(org.xml.sax.ContentHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +126,9 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXResult#setLexicalHandler(LexicalHandler) public
-     * void javax.xml.transform.sax.SAXResult.setLexicalHandler(org.xml.sax.ext.LexicalHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXResult#setLexicalHandler(org.xml.sax.ext.LexicalHandler) public void
+     * javax.xml.transform.sax.SAXResult.setLexicalHandler(org.xml.sax.ext.LexicalHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +149,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXResult#getSystemId() public java.lang.String
-     * javax.xml.transform.sax.SAXResult.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.sax.SAXResult#getSystemId()
+     * public java.lang.String javax.xml.transform.sax.SAXResult.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.relation;
 
-import javax.management.Notification;
-import javax.management.ObjectName;
 import javax.management.relation.MBeanServerNotificationFilter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerNotificationFilter#getDisabledObjectNames() public synchronized java.util.Vector
+     * {@link javax.management.relation.MBeanServerNotificationFilter#getDisabledObjectNames() public synchronized
+     * java.util.Vector
      * <javax.management.ObjectName> javax.management.relation.MBeanServerNotificationFilter.getDisabledObjectNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerNotificationFilter#getEnabledObjectNames() public synchronized java.util.Vector
+     * {@link javax.management.relation.MBeanServerNotificationFilter#getEnabledObjectNames() public synchronized
+     * java.util.Vector
      * <javax.management.ObjectName> javax.management.relation.MBeanServerNotificationFilter.getEnabledObjectNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,9 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerNotificationFilter#enableAllObjectNames()
-     * public synchronized void javax.management.relation.MBeanServerNotificationFilter.enableAllObjectNames()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.MBeanServerNotificationFilter#enableAllObjectNames() public synchronized void
+     * javax.management.relation.MBeanServerNotificationFilter.enableAllObjectNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +106,7 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerNotificationFilter#disableAllObjectNames() public synchronized void
+     * {@link javax.management.relation.MBeanServerNotificationFilter#disableAllObjectNames() public synchronized void
      * javax.management.relation.MBeanServerNotificationFilter.disableAllObjectNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,7 +129,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerNotificationFilter#isNotificationEnabled(Notification) public synchronized boolean
+     * {@link javax.management.relation.MBeanServerNotificationFilter#isNotificationEnabled(javax.management.Notification)
+     * public synchronized boolean
      * javax.management.relation.MBeanServerNotificationFilter.isNotificationEnabled(javax.management.Notification)
      * throws java.lang.IllegalArgumentException}.
      *
@@ -153,7 +155,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerNotificationFilter#disableObjectName(ObjectName) public synchronized void
+     * {@link javax.management.relation.MBeanServerNotificationFilter#disableObjectName(javax.management.ObjectName)
+     * public synchronized void
      * javax.management.relation.MBeanServerNotificationFilter.disableObjectName(javax.management.ObjectName) throws
      * java.lang.IllegalArgumentException}.
      *
@@ -177,7 +180,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerNotificationFilter#enableObjectName(ObjectName) public synchronized void
+     * {@link javax.management.relation.MBeanServerNotificationFilter#enableObjectName(javax.management.ObjectName)
+     * public synchronized void
      * javax.management.relation.MBeanServerNotificationFilter.enableObjectName(javax.management.ObjectName) throws
      * java.lang.IllegalArgumentException}.
      *

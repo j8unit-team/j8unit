@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#stopPropagation() public abstract void
-     * org.w3c.dom.events.Event.stopPropagation()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.Event#stopPropagation() public
+     * abstract void org.w3c.dom.events.Event.stopPropagation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#getCurrentTarget() public abstract
-     * org.w3c.dom.events.EventTarget org.w3c.dom.events.Event.getCurrentTarget()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.Event#getCurrentTarget() public
+     * abstract org.w3c.dom.events.EventTarget org.w3c.dom.events.Event.getCurrentTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#getBubbles() public abstract boolean
-     * org.w3c.dom.events.Event.getBubbles()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.Event#getBubbles() public
+     * abstract boolean org.w3c.dom.events.Event.getBubbles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#initEvent(String, boolean, boolean) public
-     * abstract void org.w3c.dom.events.Event.initEvent(java.lang.String,boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.events.Event#initEvent(String, boolean, boolean) public abstract void
+     * org.w3c.dom.events.Event.initEvent(java.lang.String,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#preventDefault() public abstract void
-     * org.w3c.dom.events.Event.preventDefault()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.Event#preventDefault() public
+     * abstract void org.w3c.dom.events.Event.preventDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#getCancelable() public abstract boolean
-     * org.w3c.dom.events.Event.getCancelable()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.Event#getCancelable() public
+     * abstract boolean org.w3c.dom.events.Event.getCancelable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +168,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#getTarget() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.Event#getTarget() public abstract
      * org.w3c.dom.events.EventTarget org.w3c.dom.events.Event.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#getTimeStamp() public abstract long
-     * org.w3c.dom.events.Event.getTimeStamp()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.Event#getTimeStamp() public
+     * abstract long org.w3c.dom.events.Event.getTimeStamp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +212,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#getEventPhase() public abstract short
-     * org.w3c.dom.events.Event.getEventPhase()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.Event#getEventPhase() public
+     * abstract short org.w3c.dom.events.Event.getEventPhase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +234,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Event#getType() public abstract java.lang.String
-     * org.w3c.dom.events.Event.getType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.Event#getType() public abstract
+     * java.lang.String org.w3c.dom.events.Event.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

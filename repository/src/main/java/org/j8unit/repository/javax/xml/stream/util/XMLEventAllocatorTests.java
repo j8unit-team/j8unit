@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.xml.stream.util;
 
-import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.util.XMLEventAllocator;
-import javax.xml.stream.util.XMLEventConsumer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventAllocator#newInstance() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.XMLEventAllocator#newInstance() public abstract
      * javax.xml.stream.util.XMLEventAllocator javax.xml.stream.util.XMLEventAllocator.newInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventAllocator#allocate(XMLStreamReader, XMLEventConsumer) public abstract void
+     * {@link javax.xml.stream.util.XMLEventAllocator#allocate(javax.xml.stream.XMLStreamReader, javax.xml.stream.util.XMLEventConsumer)
+     * public abstract void
      * javax.xml.stream.util.XMLEventAllocator.allocate(javax.xml.stream.XMLStreamReader,javax.xml.stream.util.XMLEventConsumer)
      * throws javax.xml.stream.XMLStreamException}.
      *
@@ -83,8 +83,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventAllocator#allocate(XMLStreamReader) public
-     * abstract javax.xml.stream.events.XMLEvent
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.XMLEventAllocator#allocate(javax.xml.stream.XMLStreamReader) public abstract
+     * javax.xml.stream.events.XMLEvent
      * javax.xml.stream.util.XMLEventAllocator.allocate(javax.xml.stream.XMLStreamReader) throws
      * javax.xml.stream.XMLStreamException}.
      *

@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.IOP.ServiceContext;
 import org.omg.IOP.ServiceContextHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperClassTests<Serv
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServiceContextHelper#ServiceContextHelper()
-     * public org.omg.IOP.ServiceContextHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.ServiceContextHelper#ServiceContextHelper() public org.omg.IOP.ServiceContextHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +42,9 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperClassTests<Serv
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceContextHelper#insert(Any, ServiceContext)
-     * public static void org.omg.IOP.ServiceContextHelper.insert(org.omg.CORBA.Any,org.omg.IOP.ServiceContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ServiceContextHelper#insert(org.omg.CORBA.Any, org.omg.IOP.ServiceContext) public static void
+     * org.omg.IOP.ServiceContextHelper.insert(org.omg.CORBA.Any,org.omg.IOP.ServiceContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,12 +58,13 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperClassTests<Serv
     @Category(Draft.class)
     public void test_insert_Any_ServiceContext()
     throws Exception {
-        // write some test for {@link ServiceContextHelper#insert(Any, ServiceContext)}
+        // write some test for {@link org.omg.IOP.ServiceContextHelper#insert(org.omg.CORBA.Any,
+        // org.omg.IOP.ServiceContext)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceContextHelper#id() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.ServiceContextHelper#id() public static
      * java.lang.String org.omg.IOP.ServiceContextHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,13 +79,14 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperClassTests<Serv
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ServiceContextHelper#id()}
+        // write some test for {@link org.omg.IOP.ServiceContextHelper#id()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceContextHelper#write(OutputStream, ServiceContext) public static void
+     * {@link org.omg.IOP.ServiceContextHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.IOP.ServiceContext)
+     * public static void
      * org.omg.IOP.ServiceContextHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.ServiceContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,13 +101,14 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperClassTests<Serv
     @Category(Draft.class)
     public void test_write_OutputStream_ServiceContext()
     throws Exception {
-        // write some test for {@link ServiceContextHelper#write(OutputStream, ServiceContext)}
+        // write some test for {@link org.omg.IOP.ServiceContextHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.IOP.ServiceContext)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceContextHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.IOP.ServiceContextHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.ServiceContextHelper#type() public
+     * static synchronized org.omg.CORBA.TypeCode org.omg.IOP.ServiceContextHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,12 +122,13 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperClassTests<Serv
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ServiceContextHelper#type()}
+        // write some test for {@link org.omg.IOP.ServiceContextHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceContextHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ServiceContextHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.IOP.ServiceContext org.omg.IOP.ServiceContextHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -142,13 +143,14 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperClassTests<Serv
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ServiceContextHelper#read(InputStream)}
+        // write some test for {@link org.omg.IOP.ServiceContextHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceContextHelper#extract(Any) public static
-     * org.omg.IOP.ServiceContext org.omg.IOP.ServiceContextHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ServiceContextHelper#extract(org.omg.CORBA.Any) public static org.omg.IOP.ServiceContext
+     * org.omg.IOP.ServiceContextHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,7 +164,7 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperClassTests<Serv
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ServiceContextHelper#extract(Any)}
+        // write some test for {@link org.omg.IOP.ServiceContextHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ServiceContextHelper]

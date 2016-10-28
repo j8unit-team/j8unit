@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.event;
 
-import javax.imageio.ImageWriter;
 import javax.imageio.event.IIOWriteProgressListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOWriteProgressListener#imageProgress(ImageWriter, float) public abstract void
-     * javax.imageio.event.IIOWriteProgressListener.imageProgress(javax.imageio.ImageWriter,float)}.
+     * {@link javax.imageio.event.IIOWriteProgressListener#imageProgress(javax.imageio.ImageWriter, float) public
+     * abstract void javax.imageio.event.IIOWriteProgressListener.imageProgress(javax.imageio.ImageWriter,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOWriteProgressListener#thumbnailProgress(ImageWriter, float) public abstract void
-     * javax.imageio.event.IIOWriteProgressListener.thumbnailProgress(javax.imageio.ImageWriter,float)}.
+     * {@link javax.imageio.event.IIOWriteProgressListener#thumbnailProgress(javax.imageio.ImageWriter, float) public
+     * abstract void javax.imageio.event.IIOWriteProgressListener.thumbnailProgress(javax.imageio.ImageWriter,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOWriteProgressListener#writeAborted(ImageWriter)
-     * public abstract void javax.imageio.event.IIOWriteProgressListener.writeAborted(javax.imageio.ImageWriter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.event.IIOWriteProgressListener#writeAborted(javax.imageio.ImageWriter) public abstract void
+     * javax.imageio.event.IIOWriteProgressListener.writeAborted(javax.imageio.ImageWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOWriteProgressListener#thumbnailStarted(ImageWriter, int, int) public abstract void
-     * javax.imageio.event.IIOWriteProgressListener.thumbnailStarted(javax.imageio.ImageWriter,int,int)}.
+     * {@link javax.imageio.event.IIOWriteProgressListener#thumbnailStarted(javax.imageio.ImageWriter, int, int) public
+     * abstract void javax.imageio.event.IIOWriteProgressListener.thumbnailStarted(javax.imageio.ImageWriter,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOWriteProgressListener#imageComplete(ImageWriter)
-     * public abstract void javax.imageio.event.IIOWriteProgressListener.imageComplete(javax.imageio.ImageWriter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.event.IIOWriteProgressListener#imageComplete(javax.imageio.ImageWriter) public abstract void
+     * javax.imageio.event.IIOWriteProgressListener.imageComplete(javax.imageio.ImageWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +150,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOWriteProgressListener#thumbnailComplete(ImageWriter) public abstract void
-     * javax.imageio.event.IIOWriteProgressListener.thumbnailComplete(javax.imageio.ImageWriter)}.
+     * {@link javax.imageio.event.IIOWriteProgressListener#thumbnailComplete(javax.imageio.ImageWriter) public abstract
+     * void javax.imageio.event.IIOWriteProgressListener.thumbnailComplete(javax.imageio.ImageWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +173,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOWriteProgressListener#imageStarted(ImageWriter, int) public abstract void
-     * javax.imageio.event.IIOWriteProgressListener.imageStarted(javax.imageio.ImageWriter,int)}.
+     * {@link javax.imageio.event.IIOWriteProgressListener#imageStarted(javax.imageio.ImageWriter, int) public abstract
+     * void javax.imageio.event.IIOWriteProgressListener.imageStarted(javax.imageio.ImageWriter,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

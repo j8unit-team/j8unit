@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql;
 
-import java.io.PrintWriter;
 import javax.sql.CommonDataSource;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommonDataSource#getLoginTimeout() public abstract
-     * int javax.sql.CommonDataSource.getLoginTimeout() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.CommonDataSource#getLoginTimeout() public
+     * abstract int javax.sql.CommonDataSource.getLoginTimeout() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommonDataSource#getLogWriter() public abstract
-     * java.io.PrintWriter javax.sql.CommonDataSource.getLogWriter() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.CommonDataSource#getLogWriter() public
+     * abstract java.io.PrintWriter javax.sql.CommonDataSource.getLogWriter() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommonDataSource#setLoginTimeout(int) public
-     * abstract void javax.sql.CommonDataSource.setLoginTimeout(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.CommonDataSource#setLoginTimeout(int)
+     * public abstract void javax.sql.CommonDataSource.setLoginTimeout(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommonDataSource#setLogWriter(PrintWriter) public
-     * abstract void javax.sql.CommonDataSource.setLogWriter(java.io.PrintWriter) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.CommonDataSource#setLogWriter(java.io.PrintWriter) public abstract void
+     * javax.sql.CommonDataSource.setLogWriter(java.io.PrintWriter) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommonDataSource#getParentLogger() public abstract
-     * java.util.logging.Logger javax.sql.CommonDataSource.getParentLogger() throws
+     * Test method for the hereby targeted method-under-test {@link javax.sql.CommonDataSource#getParentLogger() public
+     * abstract java.util.logging.Logger javax.sql.CommonDataSource.getParentLogger() throws
      * java.sql.SQLFeatureNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.print;
 
-import javax.print.MultiDoc;
 import javax.print.MultiDocPrintJob;
-import javax.print.attribute.PrintRequestAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.javax.print.DocPrintJobTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiDocPrintJob#print(MultiDoc, PrintRequestAttributeSet) public abstract void
+     * {@link javax.print.MultiDocPrintJob#print(javax.print.MultiDoc, javax.print.attribute.PrintRequestAttributeSet)
+     * public abstract void
      * javax.print.MultiDocPrintJob.print(javax.print.MultiDoc,javax.print.attribute.PrintRequestAttributeSet) throws
      * javax.print.PrintException}.
      *

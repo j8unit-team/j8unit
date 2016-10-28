@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SizeSequence#getSizes() public int[]
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SizeSequence#getSizes() public int[]
      * javax.swing.SizeSequence.getSizes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SizeSequence#removeEntries(int, int) public void
-     * javax.swing.SizeSequence.removeEntries(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SizeSequence#removeEntries(int, int)
+     * public void javax.swing.SizeSequence.removeEntries(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SizeSequence#getIndex(int) public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SizeSequence#getIndex(int) public int
      * javax.swing.SizeSequence.getIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SizeSequence#getPosition(int) public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SizeSequence#getPosition(int) public int
      * javax.swing.SizeSequence.getPosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SizeSequence#setSize(int, int) public void
-     * javax.swing.SizeSequence.setSize(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SizeSequence#setSize(int, int) public
+     * void javax.swing.SizeSequence.setSize(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SizeSequence#insertEntries(int, int, int) public
-     * void javax.swing.SizeSequence.insertEntries(int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SizeSequence#insertEntries(int, int, int) public void
+     * javax.swing.SizeSequence.insertEntries(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +167,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SizeSequence#getSize(int) public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SizeSequence#getSize(int) public int
      * javax.swing.SizeSequence.getSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,7 +189,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SizeSequence#setSizes(int[]) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SizeSequence#setSizes(int[]) public void
      * javax.swing.SizeSequence.setSizes(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

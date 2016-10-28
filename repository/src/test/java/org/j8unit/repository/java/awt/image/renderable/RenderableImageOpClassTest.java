@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt.image.renderable;
 
-import java.awt.image.renderable.ContextualRenderedImageFactory;
-import java.awt.image.renderable.ParameterBlock;
 import java.awt.image.renderable.RenderableImageOp;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderableImageOpClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RenderableImageOp#RenderableImageOp(ContextualRenderedImageFactory, ParameterBlock) public
+     * {@link java.awt.image.renderable.RenderableImageOp#RenderableImageOp(java.awt.image.renderable.ContextualRenderedImageFactory, java.awt.image.renderable.ParameterBlock)
+     * public
      * java.awt.image.renderable.RenderableImageOp(java.awt.image.renderable.ContextualRenderedImageFactory,java.awt.image.renderable.ParameterBlock)}
      * .
      *
@@ -42,7 +41,9 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderableImageOpClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RenderableImageOp sut = null; // = new RenderableImageOp(ContextualRenderedImageFactory, ParameterBlock);
+        final RenderableImageOp sut = null; // = new
+                                            // RenderableImageOp(java.awt.image.renderable.ContextualRenderedImageFactory,
+                                            // java.awt.image.renderable.ParameterBlock);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.RenderableImageOp]

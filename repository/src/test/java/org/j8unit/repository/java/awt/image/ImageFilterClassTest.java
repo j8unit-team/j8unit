@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.image.ImageFilterClassTests<ImageFilte
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageFilter#ImageFilter() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.image.ImageFilter#ImageFilter() public
      * java.awt.image.ImageFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

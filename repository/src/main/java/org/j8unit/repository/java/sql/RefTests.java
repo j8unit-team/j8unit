@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.sql;
 
 import java.sql.Ref;
-import java.util.Map;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Ref#setObject(Object) public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Ref#setObject(Object) public abstract void
      * java.sql.Ref.setObject(java.lang.Object) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Ref#getBaseTypeName() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Ref#getBaseTypeName() public abstract
      * java.lang.String java.sql.Ref.getBaseTypeName() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +79,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Ref#getObject(Map) public abstract java.lang.Object
-     * java.sql.Ref.getObject(java.util.Map<java.lang.String, java.lang.Class<?>>) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Ref#getObject(java.util.Map) public
+     * abstract java.lang.Object java.sql.Ref.getObject(java.util.Map<java.lang.String, java.lang.Class<?>>) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Ref#getObject() public abstract java.lang.Object
-     * java.sql.Ref.getObject() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Ref#getObject() public abstract
+     * java.lang.Object java.sql.Ref.getObject() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

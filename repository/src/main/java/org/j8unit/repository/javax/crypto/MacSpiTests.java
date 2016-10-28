@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MacSpi#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.MacSpi#clone() public java.lang.Object
      * javax.crypto.MacSpi.clone() throws java.lang.CloneNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

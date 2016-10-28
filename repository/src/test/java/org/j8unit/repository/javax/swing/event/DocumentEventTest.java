@@ -24,21 +24,6 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventTests<DocumentEv
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent]
 
     @RunWith(J8Unit4.class)
-    public static class ElementChangeTest
-    implements org.j8unit.repository.javax.swing.event.DocumentEventTests.ElementChangeTests<ElementChange> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
-
-        @Override
-        public ElementChange createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.event.DocumentEvent.ElementChange], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class EventTypeTest
     implements org.j8unit.repository.javax.swing.event.DocumentEventTests.EventTypeTests<EventType> {
 
@@ -60,6 +45,21 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventTests<DocumentEv
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ElementChangeTest
+    implements org.j8unit.repository.javax.swing.event.DocumentEventTests.ElementChangeTests<ElementChange> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
+
+        @Override
+        public ElementChange createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.event.DocumentEvent.ElementChange], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
 
     }
 

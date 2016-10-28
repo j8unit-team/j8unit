@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PBEKey#getSalt() public abstract byte[]
-     * javax.crypto.interfaces.PBEKey.getSalt()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.interfaces.PBEKey#getSalt() public
+     * abstract byte[] javax.crypto.interfaces.PBEKey.getSalt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PBEKey#getIterationCount() public abstract int
-     * javax.crypto.interfaces.PBEKey.getIterationCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.interfaces.PBEKey#getIterationCount()
+     * public abstract int javax.crypto.interfaces.PBEKey.getIterationCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PBEKey#getPassword() public abstract char[]
-     * javax.crypto.interfaces.PBEKey.getPassword()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.interfaces.PBEKey#getPassword() public
+     * abstract char[] javax.crypto.interfaces.PBEKey.getPassword()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

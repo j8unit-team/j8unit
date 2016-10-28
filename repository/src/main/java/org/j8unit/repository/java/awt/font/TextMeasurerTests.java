@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.font;
 
 import java.awt.font.TextMeasurer;
-import java.text.AttributedCharacterIterator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TextMeasurer#insertChar(AttributedCharacterIterator, int) public void
+     * {@link java.awt.font.TextMeasurer#insertChar(java.text.AttributedCharacterIterator, int) public void
      * java.awt.font.TextMeasurer.insertChar(java.text.AttributedCharacterIterator,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextMeasurer#getLayout(int, int) public
-     * java.awt.font.TextLayout java.awt.font.TextMeasurer.getLayout(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TextMeasurer#getLayout(int, int)
+     * public java.awt.font.TextLayout java.awt.font.TextMeasurer.getLayout(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TextMeasurer#deleteChar(AttributedCharacterIterator, int) public void
+     * {@link java.awt.font.TextMeasurer#deleteChar(java.text.AttributedCharacterIterator, int) public void
      * java.awt.font.TextMeasurer.deleteChar(java.text.AttributedCharacterIterator,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +102,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextMeasurer#getAdvanceBetween(int, int) public
-     * float java.awt.font.TextMeasurer.getAdvanceBetween(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.TextMeasurer#getAdvanceBetween(int, int) public float
+     * java.awt.font.TextMeasurer.getAdvanceBetween(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextMeasurer#getLineBreakIndex(int, float) public
-     * int java.awt.font.TextMeasurer.getLineBreakIndex(int,float)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.TextMeasurer#getLineBreakIndex(int, float) public int
+     * java.awt.font.TextMeasurer.getLineBreakIndex(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

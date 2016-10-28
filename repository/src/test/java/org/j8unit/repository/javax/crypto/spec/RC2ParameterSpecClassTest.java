@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.crypto.spec.RC2ParameterSpecClassTests<RC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RC2ParameterSpec#RC2ParameterSpec(int, byte[], int) public
+     * {@link javax.crypto.spec.RC2ParameterSpec#RC2ParameterSpec(int, byte[], int) public
      * javax.crypto.spec.RC2ParameterSpec(int,byte[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.javax.crypto.spec.RC2ParameterSpecClassTests<RC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RC2ParameterSpec#RC2ParameterSpec(int, byte[])
-     * public javax.crypto.spec.RC2ParameterSpec(int,byte[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.spec.RC2ParameterSpec#RC2ParameterSpec(int, byte[]) public
+     * javax.crypto.spec.RC2ParameterSpec(int,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,8 +67,8 @@ implements org.j8unit.repository.javax.crypto.spec.RC2ParameterSpecClassTests<RC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RC2ParameterSpec#RC2ParameterSpec(int) public
-     * javax.crypto.spec.RC2ParameterSpec(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.spec.RC2ParameterSpec#RC2ParameterSpec(int) public javax.crypto.spec.RC2ParameterSpec(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

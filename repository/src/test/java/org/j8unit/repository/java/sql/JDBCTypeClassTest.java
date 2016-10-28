@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.sql.JDBCTypeClassTests<JDBCType> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDBCType#valueOf(String) public static
+     * Test method for the hereby targeted method-under-test {@link java.sql.JDBCType#valueOf(String) public static
      * java.sql.JDBCType java.sql.JDBCType.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.sql.JDBCTypeClassTests<JDBCType> {
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link JDBCType#valueOf(String)}
+        // write some test for {@link java.sql.JDBCType#valueOf(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDBCType#valueOf(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.sql.JDBCType#valueOf(int) public static
      * java.sql.JDBCType java.sql.JDBCType.valueOf(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,13 +56,13 @@ implements org.j8unit.repository.java.sql.JDBCTypeClassTests<JDBCType> {
     @Category(Draft.class)
     public void test_valueOf_int()
     throws Exception {
-        // write some test for {@link JDBCType#valueOf(int)}
+        // write some test for {@link java.sql.JDBCType#valueOf(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDBCType#values() public static java.sql.JDBCType[]
-     * java.sql.JDBCType.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.JDBCType#values() public static
+     * java.sql.JDBCType[] java.sql.JDBCType.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,7 +76,7 @@ implements org.j8unit.repository.java.sql.JDBCTypeClassTests<JDBCType> {
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link JDBCType#values()}
+        // write some test for {@link java.sql.JDBCType#values()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.JDBCType]

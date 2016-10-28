@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.ViewportLayoutClassTests<ViewportLa
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ViewportLayout#ViewportLayout() public
-     * javax.swing.ViewportLayout()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ViewportLayout#ViewportLayout()
+     * public javax.swing.ViewportLayout()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

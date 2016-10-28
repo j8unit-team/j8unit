@@ -1,11 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Image;
-import java.awt.Shape;
-import java.awt.image.ImageObserver;
-import java.text.AttributedCharacterIterator;
 import javax.swing.DebugGraphics;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,8 +34,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setColor(Color) public void
-     * javax.swing.DebugGraphics.setColor(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#setColor(java.awt.Color)
+     * public void javax.swing.DebugGraphics.setColor(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,8 +57,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setPaintMode() public void
-     * javax.swing.DebugGraphics.setPaintMode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, java.awt.image.ImageObserver) public boolean
+     * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,java.awt.image.ImageObserver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,7 +72,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_setPaintMode()
+    public default void test_drawImage_Image_int_int_ImageObserver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,8 +82,34 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#drawImage(Image, int, int, int, int, int, int, int, int, Color, ImageObserver) public
-     * boolean
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, int, int, int, int, java.awt.image.ImageObserver)
+     * public boolean
+     * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,int,int,int,int,java.awt.image.ImageObserver)}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_drawImage_Image_int_int_int_int_int_int_int_int_ImageObserver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, int, int, int, int, java.awt.Color, java.awt.image.ImageObserver)
+     * public boolean
      * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,int,int,int,int,java.awt.Color,java.awt.image.ImageObserver)}
      * .
      *
@@ -113,7 +134,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#drawImage(Image, int, int, Color, ImageObserver) public boolean
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, java.awt.Color, java.awt.image.ImageObserver)
+     * public boolean
      * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,java.awt.Color,java.awt.image.ImageObserver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -137,32 +159,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#drawImage(Image, int, int, int, int, Color, ImageObserver) public boolean
-     * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,java.awt.Color,java.awt.image.ImageObserver)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_drawImage_Image_int_int_int_int_Color_ImageObserver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#drawImage(Image, int, int, int, int, ImageObserver) public boolean
-     * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,java.awt.image.ImageObserver)}.
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, java.awt.image.ImageObserver)
+     * public boolean javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,java.awt.image.ImageObserver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -185,8 +183,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#drawImage(Image, int, int, ImageObserver) public boolean
-     * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,java.awt.image.ImageObserver)}.
+     * {@link javax.swing.DebugGraphics#drawImage(java.awt.Image, int, int, int, int, java.awt.Color, java.awt.image.ImageObserver)
+     * public boolean
+     * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,java.awt.Color,java.awt.image.ImageObserver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,7 +198,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_drawImage_Image_int_int_ImageObserver()
+    public default void test_drawImage_Image_int_int_int_int_Color_ImageObserver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -208,10 +207,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#drawImage(Image, int, int, int, int, int, int, int, int, ImageObserver) public boolean
-     * javax.swing.DebugGraphics.drawImage(java.awt.Image,int,int,int,int,int,int,int,int,java.awt.image.ImageObserver)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#setPaintMode() public void
+     * javax.swing.DebugGraphics.setPaintMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,7 +221,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_drawImage_Image_int_int_int_int_int_int_int_int_ImageObserver()
+    public default void test_setPaintMode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -233,30 +230,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#isDrawingBuffer() public boolean
-     * javax.swing.DebugGraphics.isDrawingBuffer()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDrawingBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setXORMode(Color) public void
-     * javax.swing.DebugGraphics.setXORMode(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#setXORMode(java.awt.Color)
+     * public void javax.swing.DebugGraphics.setXORMode(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +253,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#drawRect(int, int, int, int) public
-     * void javax.swing.DebugGraphics.drawRect(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawRect(int, int, int, int) public void
+     * javax.swing.DebugGraphics.drawRect(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,8 +277,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#drawPolygon(int[], int[], int) public
-     * void javax.swing.DebugGraphics.drawPolygon(int[],int[],int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawPolygon(int[], int[], int) public void
+     * javax.swing.DebugGraphics.drawPolygon(int[],int[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +301,31 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#fillOval(int, int, int, int) public
-     * void javax.swing.DebugGraphics.fillOval(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#isDrawingBuffer() public
+     * boolean javax.swing.DebugGraphics.isDrawingBuffer()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDrawingBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#fillOval(int, int, int, int) public void
+     * javax.swing.DebugGraphics.fillOval(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,8 +347,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#getFont() public java.awt.Font
-     * javax.swing.DebugGraphics.getFont()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#getFont() public
+     * java.awt.Font javax.swing.DebugGraphics.getFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -370,7 +370,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#dispose() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#dispose() public void
      * javax.swing.DebugGraphics.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -393,8 +393,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#getClip() public java.awt.Shape
-     * javax.swing.DebugGraphics.getClip()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#getClip() public
+     * java.awt.Shape javax.swing.DebugGraphics.getClip()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -416,8 +416,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#clipRect(int, int, int, int) public
-     * void javax.swing.DebugGraphics.clipRect(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#clipRect(int, int, int, int) public void
+     * javax.swing.DebugGraphics.clipRect(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -440,7 +441,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#fillRoundRect(int, int, int, int, int, int) public void
+     * {@link javax.swing.DebugGraphics#fillRoundRect(int, int, int, int, int, int) public void
      * javax.swing.DebugGraphics.fillRoundRect(int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -463,8 +464,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#clearRect(int, int, int, int) public
-     * void javax.swing.DebugGraphics.clearRect(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#clearRect(int, int, int, int) public void
+     * javax.swing.DebugGraphics.clearRect(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -486,8 +488,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#drawBytes(byte[], int, int, int, int)
-     * public void javax.swing.DebugGraphics.drawBytes(byte[],int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawBytes(byte[], int, int, int, int) public void
+     * javax.swing.DebugGraphics.drawBytes(byte[],int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -509,8 +512,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#copyArea(int, int, int, int, int, int)
-     * public void javax.swing.DebugGraphics.copyArea(int,int,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#copyArea(int, int, int, int, int, int) public void
+     * javax.swing.DebugGraphics.copyArea(int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -532,8 +536,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#drawLine(int, int, int, int) public
-     * void javax.swing.DebugGraphics.drawLine(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawLine(int, int, int, int) public void
+     * javax.swing.DebugGraphics.drawLine(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -555,8 +560,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#drawArc(int, int, int, int, int, int)
-     * public void javax.swing.DebugGraphics.drawArc(int,int,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawArc(int, int, int, int, int, int) public void
+     * javax.swing.DebugGraphics.drawArc(int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -578,8 +584,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#getColor() public java.awt.Color
-     * javax.swing.DebugGraphics.getColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#getColor() public
+     * java.awt.Color javax.swing.DebugGraphics.getColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -602,7 +608,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#drawRoundRect(int, int, int, int, int, int) public void
+     * {@link javax.swing.DebugGraphics#drawRoundRect(int, int, int, int, int, int) public void
      * javax.swing.DebugGraphics.drawRoundRect(int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -625,8 +631,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#drawChars(char[], int, int, int, int)
-     * public void javax.swing.DebugGraphics.drawChars(char[],int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawChars(char[], int, int, int, int) public void
+     * javax.swing.DebugGraphics.drawChars(char[],int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -648,7 +655,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#getClipBounds() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#getClipBounds() public
      * java.awt.Rectangle javax.swing.DebugGraphics.getClipBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -671,8 +678,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#fillPolygon(int[], int[], int) public
-     * void javax.swing.DebugGraphics.fillPolygon(int[],int[],int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#fillPolygon(int[], int[], int) public void
+     * javax.swing.DebugGraphics.fillPolygon(int[],int[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -695,7 +703,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#draw3DRect(int, int, int, int, boolean) public void
+     * {@link javax.swing.DebugGraphics#draw3DRect(int, int, int, int, boolean) public void
      * javax.swing.DebugGraphics.draw3DRect(int,int,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -718,7 +726,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#getFontMetrics() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#getFontMetrics() public
      * java.awt.FontMetrics javax.swing.DebugGraphics.getFontMetrics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -741,8 +749,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#getFontMetrics(Font) public
-     * java.awt.FontMetrics javax.swing.DebugGraphics.getFontMetrics(java.awt.Font)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#getFontMetrics(java.awt.Font) public java.awt.FontMetrics
+     * javax.swing.DebugGraphics.getFontMetrics(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -764,8 +773,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#drawPolyline(int[], int[], int) public
-     * void javax.swing.DebugGraphics.drawPolyline(int[],int[],int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawPolyline(int[], int[], int) public void
+     * javax.swing.DebugGraphics.drawPolyline(int[],int[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -787,8 +797,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setDebugOptions(int) public void
-     * javax.swing.DebugGraphics.setDebugOptions(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#setDebugOptions(int)
+     * public void javax.swing.DebugGraphics.setDebugOptions(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -809,8 +819,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setFont(Font) public void
-     * javax.swing.DebugGraphics.setFont(java.awt.Font)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#setFont(java.awt.Font)
+     * public void javax.swing.DebugGraphics.setFont(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -832,8 +842,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setClip(Shape) public void
-     * javax.swing.DebugGraphics.setClip(java.awt.Shape)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#setClip(java.awt.Shape)
+     * public void javax.swing.DebugGraphics.setClip(java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -855,8 +865,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#setClip(int, int, int, int) public
-     * void javax.swing.DebugGraphics.setClip(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#setClip(int, int, int, int) public void
+     * javax.swing.DebugGraphics.setClip(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -878,8 +889,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#create() public java.awt.Graphics
-     * javax.swing.DebugGraphics.create()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#create() public
+     * java.awt.Graphics javax.swing.DebugGraphics.create()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -901,8 +912,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#create(int, int, int, int) public
-     * java.awt.Graphics javax.swing.DebugGraphics.create(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#create(int, int, int, int)
+     * public java.awt.Graphics javax.swing.DebugGraphics.create(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -925,7 +936,7 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#fill3DRect(int, int, int, int, boolean) public void
+     * {@link javax.swing.DebugGraphics#fill3DRect(int, int, int, int, boolean) public void
      * javax.swing.DebugGraphics.fill3DRect(int,int,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -948,8 +959,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#fillArc(int, int, int, int, int, int)
-     * public void javax.swing.DebugGraphics.fillArc(int,int,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#fillArc(int, int, int, int, int, int) public void
+     * javax.swing.DebugGraphics.fillArc(int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -971,8 +983,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#drawOval(int, int, int, int) public
-     * void javax.swing.DebugGraphics.drawOval(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawOval(int, int, int, int) public void
+     * javax.swing.DebugGraphics.drawOval(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -994,8 +1007,31 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#translate(int, int) public
+     * void javax.swing.DebugGraphics.translate(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_translate_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DebugGraphics#drawString(AttributedCharacterIterator, int, int) public void
+     * {@link javax.swing.DebugGraphics#drawString(java.text.AttributedCharacterIterator, int, int) public void
      * javax.swing.DebugGraphics.drawString(java.text.AttributedCharacterIterator,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1018,8 +1054,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#drawString(String, int, int) public
-     * void javax.swing.DebugGraphics.drawString(java.lang.String,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#drawString(String, int, int) public void
+     * javax.swing.DebugGraphics.drawString(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1041,31 +1078,9 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#translate(int, int) public void
-     * javax.swing.DebugGraphics.translate(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_translate_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#fillRect(int, int, int, int) public
-     * void javax.swing.DebugGraphics.fillRect(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DebugGraphics#fillRect(int, int, int, int) public void
+     * javax.swing.DebugGraphics.fillRect(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1087,8 +1102,8 @@ extends org.j8unit.repository.java.awt.GraphicsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DebugGraphics#getDebugOptions() public int
-     * javax.swing.DebugGraphics.getDebugOptions()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#getDebugOptions() public
+     * int javax.swing.DebugGraphics.getDebugOptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

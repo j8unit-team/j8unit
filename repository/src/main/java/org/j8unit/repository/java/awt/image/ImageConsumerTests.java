@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.image.ColorModel;
 import java.awt.image.ImageConsumer;
-import java.util.Hashtable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageConsumer#setColorModel(ColorModel) public
-     * abstract void java.awt.image.ImageConsumer.setColorModel(java.awt.image.ColorModel)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ImageConsumer#setColorModel(java.awt.image.ColorModel) public abstract void
+     * java.awt.image.ImageConsumer.setColorModel(java.awt.image.ColorModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageConsumer#setHints(int) public abstract void
-     * java.awt.image.ImageConsumer.setHints(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ImageConsumer#setHints(int) public
+     * abstract void java.awt.image.ImageConsumer.setHints(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageConsumer#setDimensions(int, int) public
-     * abstract void java.awt.image.ImageConsumer.setDimensions(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ImageConsumer#setDimensions(int, int)
+     * public abstract void java.awt.image.ImageConsumer.setDimensions(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageConsumer#setProperties(Hashtable) public
-     * abstract void java.awt.image.ImageConsumer.setProperties(java.util.Hashtable<?, ?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ImageConsumer#setProperties(java.util.Hashtable) public abstract void
+     * java.awt.image.ImageConsumer.setProperties(java.util.Hashtable<?, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +126,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageConsumer#setPixels(int, int, int, int, ColorModel, int[], int, int) public abstract void
+     * {@link java.awt.image.ImageConsumer#setPixels(int, int, int, int, java.awt.image.ColorModel, int[], int, int)
+     * public abstract void
      * java.awt.image.ImageConsumer.setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +150,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageConsumer#setPixels(int, int, int, int, ColorModel, byte[], int, int) public abstract void
+     * {@link java.awt.image.ImageConsumer#setPixels(int, int, int, int, java.awt.image.ColorModel, byte[], int, int)
+     * public abstract void
      * java.awt.image.ImageConsumer.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +173,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageConsumer#imageComplete(int) public abstract
-     * void java.awt.image.ImageConsumer.imageComplete(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ImageConsumer#imageComplete(int)
+     * public abstract void java.awt.image.ImageConsumer.imageComplete(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

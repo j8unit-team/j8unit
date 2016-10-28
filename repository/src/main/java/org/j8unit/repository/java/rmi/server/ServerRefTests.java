@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.rmi.Remote;
 import java.rmi.server.ServerRef;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,9 +34,9 @@ extends org.j8unit.repository.java.rmi.server.RemoteRefTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRef#exportObject(Remote, Object) public
-     * abstract java.rmi.server.RemoteStub java.rmi.server.ServerRef.exportObject(java.rmi.Remote,java.lang.Object)
-     * throws java.rmi.RemoteException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.ServerRef#exportObject(java.rmi.Remote, Object) public abstract java.rmi.server.RemoteStub
+     * java.rmi.server.ServerRef.exportObject(java.rmi.Remote,java.lang.Object) throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.rmi.server.RemoteRefTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRef#getClientHost() public abstract
-     * java.lang.String java.rmi.server.ServerRef.getClientHost() throws java.rmi.server.ServerNotActiveException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.ServerRef#getClientHost() public
+     * abstract java.lang.String java.rmi.server.ServerRef.getClientHost() throws
+     * java.rmi.server.ServerNotActiveException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

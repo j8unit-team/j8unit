@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.ORBPackage.InvalidNameClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidName#InvalidName() public
-     * org.omg.CORBA.ORBPackage.InvalidName()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ORBPackage.InvalidName#InvalidName() public org.omg.CORBA.ORBPackage.InvalidName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.ORBPackage.InvalidNameClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidName#InvalidName(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ORBPackage.InvalidName#InvalidName(String) public
      * org.omg.CORBA.ORBPackage.InvalidName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

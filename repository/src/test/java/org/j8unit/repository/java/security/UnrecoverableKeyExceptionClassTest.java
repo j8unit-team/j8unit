@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.security.UnrecoverableKeyExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnrecoverableKeyException#UnrecoverableKeyException() public java.security.UnrecoverableKeyException()}.
+     * {@link java.security.UnrecoverableKeyException#UnrecoverableKeyException() public
+     * java.security.UnrecoverableKeyException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.java.security.UnrecoverableKeyExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnrecoverableKeyException#UnrecoverableKeyException(String) public
+     * {@link java.security.UnrecoverableKeyException#UnrecoverableKeyException(String) public
      * java.security.UnrecoverableKeyException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

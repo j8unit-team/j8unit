@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.security.KeyExceptionClassTests<KeyExcepti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KeyException#KeyException(Throwable) public
-     * java.security.KeyException(java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.KeyException#KeyException(Throwable) public java.security.KeyException(java.lang.Throwable)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +44,9 @@ implements org.j8unit.repository.java.security.KeyExceptionClassTests<KeyExcepti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KeyException#KeyException(String, Throwable)
-     * public java.security.KeyException(java.lang.String,java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.KeyException#KeyException(String, Throwable) public
+     * java.security.KeyException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,8 +67,8 @@ implements org.j8unit.repository.java.security.KeyExceptionClassTests<KeyExcepti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KeyException#KeyException(String) public
-     * java.security.KeyException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.security.KeyException#KeyException(String)
+     * public java.security.KeyException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +89,8 @@ implements org.j8unit.repository.java.security.KeyExceptionClassTests<KeyExcepti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KeyException#KeyException() public
-     * java.security.KeyException()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.security.KeyException#KeyException()
+     * public java.security.KeyException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

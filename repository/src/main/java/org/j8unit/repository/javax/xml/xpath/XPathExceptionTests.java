@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.xpath;
 
-import java.io.PrintStream;
-import java.io.PrintWriter;
 import javax.xml.xpath.XPathException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathException#getCause() public java.lang.Throwable
-     * javax.xml.xpath.XPathException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPathException#getCause() public
+     * java.lang.Throwable javax.xml.xpath.XPathException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathException#printStackTrace() public void
-     * javax.xml.xpath.XPathException.printStackTrace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPathException#printStackTrace()
+     * public void javax.xml.xpath.XPathException.printStackTrace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +80,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathException#printStackTrace(PrintStream) public
-     * void javax.xml.xpath.XPathException.printStackTrace(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPathException#printStackTrace(java.io.PrintStream) public void
+     * javax.xml.xpath.XPathException.printStackTrace(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +104,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathException#printStackTrace(PrintWriter) public
-     * void javax.xml.xpath.XPathException.printStackTrace(java.io.PrintWriter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPathException#printStackTrace(java.io.PrintWriter) public void
+     * javax.xml.xpath.XPathException.printStackTrace(java.io.PrintWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

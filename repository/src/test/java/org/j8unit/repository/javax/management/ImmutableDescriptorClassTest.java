@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import java.util.Map;
-import javax.management.Descriptor;
 import javax.management.ImmutableDescriptor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.javax.management.ImmutableDescriptorClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImmutableDescriptor#ImmutableDescriptor(Map)
-     * public javax.management.ImmutableDescriptor(java.util.Map<java.lang.String, ?>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.ImmutableDescriptor#ImmutableDescriptor(java.util.Map) public
+     * javax.management.ImmutableDescriptor(java.util.Map<java.lang.String, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,13 @@ implements org.j8unit.repository.javax.management.ImmutableDescriptorClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImmutableDescriptor sut = null; // = new ImmutableDescriptor(Map);
+        final ImmutableDescriptor sut = null; // = new ImmutableDescriptor(java.util.Map);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImmutableDescriptor#ImmutableDescriptor(String...) public
+     * {@link javax.management.ImmutableDescriptor#ImmutableDescriptor(String...) public
      * javax.management.ImmutableDescriptor(java.lang.String...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,7 +68,7 @@ implements org.j8unit.repository.javax.management.ImmutableDescriptorClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImmutableDescriptor#ImmutableDescriptor(String[], Object[]) public
+     * {@link javax.management.ImmutableDescriptor#ImmutableDescriptor(String[], Object[]) public
      * javax.management.ImmutableDescriptor(java.lang.String[],java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,9 +90,9 @@ implements org.j8unit.repository.javax.management.ImmutableDescriptorClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#union(Descriptor...) public
-     * static javax.management.ImmutableDescriptor
-     * javax.management.ImmutableDescriptor.union(javax.management.Descriptor...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ImmutableDescriptor#union(javax.management.Descriptor...) public static
+     * javax.management.ImmutableDescriptor javax.management.ImmutableDescriptor.union(javax.management.Descriptor...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +106,7 @@ implements org.j8unit.repository.javax.management.ImmutableDescriptorClassTests<
     @Category(Draft.class)
     public void test_union_DescriptorArray()
     throws Exception {
-        // write some test for {@link ImmutableDescriptor#union(Descriptor...)}
+        // write some test for {@link javax.management.ImmutableDescriptor#union(javax.management.Descriptor...)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ImmutableDescriptor]

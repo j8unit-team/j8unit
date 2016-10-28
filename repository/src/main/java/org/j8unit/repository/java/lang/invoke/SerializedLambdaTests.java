@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getImplMethodName() public
-     * java.lang.String java.lang.invoke.SerializedLambda.getImplMethodName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SerializedLambda#getImplMethodName() public java.lang.String
+     * java.lang.invoke.SerializedLambda.getImplMethodName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getImplClass() public
-     * java.lang.String java.lang.invoke.SerializedLambda.getImplClass()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.SerializedLambda#getImplClass()
+     * public java.lang.String java.lang.invoke.SerializedLambda.getImplClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getCapturedArg(int) public
-     * java.lang.Object java.lang.invoke.SerializedLambda.getCapturedArg(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SerializedLambda#getCapturedArg(int) public java.lang.Object
+     * java.lang.invoke.SerializedLambda.getCapturedArg(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +102,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getCapturingClass() public
-     * java.lang.String java.lang.invoke.SerializedLambda.getCapturingClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SerializedLambda#getCapturingClass() public java.lang.String
+     * java.lang.invoke.SerializedLambda.getCapturingClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,7 +125,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getCapturedArgCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SerializedLambda#getCapturedArgCount() public int
      * java.lang.invoke.SerializedLambda.getCapturedArgCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +149,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SerializedLambda#getFunctionalInterfaceMethodSignature() public java.lang.String
+     * {@link java.lang.invoke.SerializedLambda#getFunctionalInterfaceMethodSignature() public java.lang.String
      * java.lang.invoke.SerializedLambda.getFunctionalInterfaceMethodSignature()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +171,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getFunctionalInterfaceMethodName()
-     * public java.lang.String java.lang.invoke.SerializedLambda.getFunctionalInterfaceMethodName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SerializedLambda#getFunctionalInterfaceMethodName() public java.lang.String
+     * java.lang.invoke.SerializedLambda.getFunctionalInterfaceMethodName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +194,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getImplMethodSignature() public
-     * java.lang.String java.lang.invoke.SerializedLambda.getImplMethodSignature()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SerializedLambda#getImplMethodSignature() public java.lang.String
+     * java.lang.invoke.SerializedLambda.getImplMethodSignature()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +217,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getFunctionalInterfaceClass()
-     * public java.lang.String java.lang.invoke.SerializedLambda.getFunctionalInterfaceClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SerializedLambda#getFunctionalInterfaceClass() public java.lang.String
+     * java.lang.invoke.SerializedLambda.getFunctionalInterfaceClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +240,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#toString() public java.lang.String
-     * java.lang.invoke.SerializedLambda.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.SerializedLambda#toString() public
+     * java.lang.String java.lang.invoke.SerializedLambda.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +263,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getInstantiatedMethodType() public
-     * final java.lang.String java.lang.invoke.SerializedLambda.getInstantiatedMethodType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SerializedLambda#getInstantiatedMethodType() public final java.lang.String
+     * java.lang.invoke.SerializedLambda.getInstantiatedMethodType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,7 +286,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerializedLambda#getImplMethodKind() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SerializedLambda#getImplMethodKind() public int
      * java.lang.invoke.SerializedLambda.getImplMethodKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

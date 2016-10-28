@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.smartcardio.CardPermissionClassTests<Card
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CardPermission#CardPermission(String, String)
-     * public javax.smartcardio.CardPermission(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.smartcardio.CardPermission#CardPermission(String, String) public
+     * javax.smartcardio.CardPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_ProfileGray#getTRC() public short[]
-     * java.awt.color.ICC_ProfileGray.getTRC()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ProfileGray#getTRC() public
+     * short[] java.awt.color.ICC_ProfileGray.getTRC()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_ProfileGray#getGamma() public float
-     * java.awt.color.ICC_ProfileGray.getGamma()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ProfileGray#getGamma() public
+     * float java.awt.color.ICC_ProfileGray.getGamma()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_ProfileGray#getMediaWhitePoint() public float[]
-     * java.awt.color.ICC_ProfileGray.getMediaWhitePoint()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ProfileGray#getMediaWhitePoint()
+     * public float[] java.awt.color.ICC_ProfileGray.getMediaWhitePoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.ShortHolderClassTests<ShortHolder
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ShortHolder#ShortHolder() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ShortHolder#ShortHolder() public
      * org.omg.CORBA.ShortHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.ShortHolderClassTests<ShortHolder
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ShortHolder#ShortHolder(short) public
-     * org.omg.CORBA.ShortHolder(short)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ShortHolder#ShortHolder(short)
+     * public org.omg.CORBA.ShortHolder(short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.FilteredImageSource;
-import java.awt.image.ImageConsumer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilteredImageSource#startProduction(ImageConsumer)
-     * public void java.awt.image.FilteredImageSource.startProduction(java.awt.image.ImageConsumer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.FilteredImageSource#startProduction(java.awt.image.ImageConsumer) public void
+     * java.awt.image.FilteredImageSource.startProduction(java.awt.image.ImageConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilteredImageSource#removeConsumer(ImageConsumer)
-     * public synchronized void java.awt.image.FilteredImageSource.removeConsumer(java.awt.image.ImageConsumer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.FilteredImageSource#removeConsumer(java.awt.image.ImageConsumer) public synchronized void
+     * java.awt.image.FilteredImageSource.removeConsumer(java.awt.image.ImageConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,9 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilteredImageSource#addConsumer(ImageConsumer)
-     * public synchronized void java.awt.image.FilteredImageSource.addConsumer(java.awt.image.ImageConsumer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.FilteredImageSource#addConsumer(java.awt.image.ImageConsumer) public synchronized void
+     * java.awt.image.FilteredImageSource.addConsumer(java.awt.image.ImageConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +106,9 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilteredImageSource#isConsumer(ImageConsumer) public
-     * synchronized boolean java.awt.image.FilteredImageSource.isConsumer(java.awt.image.ImageConsumer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.FilteredImageSource#isConsumer(java.awt.image.ImageConsumer) public synchronized boolean
+     * java.awt.image.FilteredImageSource.isConsumer(java.awt.image.ImageConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +131,7 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FilteredImageSource#requestTopDownLeftRightResend(ImageConsumer) public void
+     * {@link java.awt.image.FilteredImageSource#requestTopDownLeftRightResend(java.awt.image.ImageConsumer) public void
      * java.awt.image.FilteredImageSource.requestTopDownLeftRightResend(java.awt.image.ImageConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

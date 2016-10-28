@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.nio.FloatBufferClassTests<FloatBuffer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#allocate(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#allocate(int) public static
      * java.nio.FloatBuffer java.nio.FloatBuffer.allocate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.nio.FloatBufferClassTests<FloatBuffer> {
     @Category(Draft.class)
     public void test_allocate_int()
     throws Exception {
-        // write some test for {@link FloatBuffer#allocate(int)}
+        // write some test for {@link java.nio.FloatBuffer#allocate(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#wrap(float[], int, int) public static
-     * java.nio.FloatBuffer java.nio.FloatBuffer.wrap(float[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#wrap(float[], int, int) public
+     * static java.nio.FloatBuffer java.nio.FloatBuffer.wrap(float[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,12 +56,12 @@ implements org.j8unit.repository.java.nio.FloatBufferClassTests<FloatBuffer> {
     @Category(Draft.class)
     public void test_wrap_floatArray_int_int()
     throws Exception {
-        // write some test for {@link FloatBuffer#wrap(float[], int, int)}
+        // write some test for {@link java.nio.FloatBuffer#wrap(float[], int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#wrap(float[]) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#wrap(float[]) public static
      * java.nio.FloatBuffer java.nio.FloatBuffer.wrap(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -76,7 +76,7 @@ implements org.j8unit.repository.java.nio.FloatBufferClassTests<FloatBuffer> {
     @Category(Draft.class)
     public void test_wrap_floatArray()
     throws Exception {
-        // write some test for {@link FloatBuffer#wrap(float[])}
+        // write some test for {@link java.nio.FloatBuffer#wrap(float[])}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.FloatBuffer]

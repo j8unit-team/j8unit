@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Addressing#responses() public abstract
-     * javax.xml.ws.soap.AddressingFeature$Responses javax.xml.ws.soap.Addressing.responses()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.Addressing#responses() public
+     * abstract javax.xml.ws.soap.AddressingFeature$Responses javax.xml.ws.soap.Addressing.responses()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Addressing#required() public abstract boolean
-     * javax.xml.ws.soap.Addressing.required()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.Addressing#required() public
+     * abstract boolean javax.xml.ws.soap.Addressing.required()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Addressing#enabled() public abstract boolean
-     * javax.xml.ws.soap.Addressing.enabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.Addressing#enabled() public
+     * abstract boolean javax.xml.ws.soap.Addressing.enabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

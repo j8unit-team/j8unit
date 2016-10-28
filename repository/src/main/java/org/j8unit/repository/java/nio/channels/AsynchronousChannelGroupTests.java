@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.nio.channels;
 
 import java.nio.channels.AsynchronousChannelGroup;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,9 +35,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousChannelGroup#awaitTermination(long, TimeUnit) public abstract boolean
-     * java.nio.channels.AsynchronousChannelGroup.awaitTermination(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
+     * {@link java.nio.channels.AsynchronousChannelGroup#awaitTermination(long, java.util.concurrent.TimeUnit) public
+     * abstract boolean java.nio.channels.AsynchronousChannelGroup.awaitTermination(long,java.util.concurrent.TimeUnit)
+     * throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousChannelGroup#shutdownNow() public
-     * abstract void java.nio.channels.AsynchronousChannelGroup.shutdownNow() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousChannelGroup#shutdownNow() public abstract void
+     * java.nio.channels.AsynchronousChannelGroup.shutdownNow() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousChannelGroup#shutdown() public abstract
-     * void java.nio.channels.AsynchronousChannelGroup.shutdown()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousChannelGroup#shutdown() public abstract void
+     * java.nio.channels.AsynchronousChannelGroup.shutdown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousChannelGroup#isShutdown() public
-     * abstract boolean java.nio.channels.AsynchronousChannelGroup.isShutdown()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousChannelGroup#isShutdown() public abstract boolean
+     * java.nio.channels.AsynchronousChannelGroup.isShutdown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +127,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousChannelGroup#isTerminated() public
-     * abstract boolean java.nio.channels.AsynchronousChannelGroup.isTerminated()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousChannelGroup#isTerminated() public abstract boolean
+     * java.nio.channels.AsynchronousChannelGroup.isTerminated()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +150,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousChannelGroup#provider() public final
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousChannelGroup#provider() public final
      * java.nio.channels.spi.AsynchronousChannelProvider java.nio.channels.AsynchronousChannelGroup.provider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

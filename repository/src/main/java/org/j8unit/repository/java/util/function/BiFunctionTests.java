@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.function;
 
 import java.util.function.BiFunction;
-import java.util.function.Function;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BiFunction#apply(Object, Object) public abstract R
-     * java.util.function.BiFunction.apply(T,U)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.BiFunction#apply(Object, Object)
+     * public abstract R java.util.function.BiFunction.apply(T,U)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BiFunction#andThen(Function) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.BiFunction#andThen(java.util.function.Function) public default
      * <V> java.util.function.BiFunction<T, U, V> java.util.function.BiFunction.andThen(java.util.function.Function<?
      * super R, ? extends V>)}.
      *

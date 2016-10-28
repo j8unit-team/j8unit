@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.time.format;
 
 import java.time.format.DecimalStyle;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.time.format.DecimalStyleClassTests<Decimal
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#ofDefaultLocale() public static
-     * java.time.format.DecimalStyle java.time.format.DecimalStyle.ofDefaultLocale()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#ofDefaultLocale()
+     * public static java.time.format.DecimalStyle java.time.format.DecimalStyle.ofDefaultLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,13 +36,13 @@ implements org.j8unit.repository.java.time.format.DecimalStyleClassTests<Decimal
     @Category(Draft.class)
     public void test_ofDefaultLocale()
     throws Exception {
-        // write some test for {@link DecimalStyle#ofDefaultLocale()}
+        // write some test for {@link java.time.format.DecimalStyle#ofDefaultLocale()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#getAvailableLocales() public static
-     * java.util.Set<java.util.Locale> java.time.format.DecimalStyle.getAvailableLocales()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#getAvailableLocales()
+     * public static java.util.Set<java.util.Locale> java.time.format.DecimalStyle.getAvailableLocales()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +56,13 @@ implements org.j8unit.repository.java.time.format.DecimalStyleClassTests<Decimal
     @Category(Draft.class)
     public void test_getAvailableLocales()
     throws Exception {
-        // write some test for {@link DecimalStyle#getAvailableLocales()}
+        // write some test for {@link java.time.format.DecimalStyle#getAvailableLocales()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#of(Locale) public static
-     * java.time.format.DecimalStyle java.time.format.DecimalStyle.of(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#of(java.util.Locale)
+     * public static java.time.format.DecimalStyle java.time.format.DecimalStyle.of(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,7 +76,7 @@ implements org.j8unit.repository.java.time.format.DecimalStyleClassTests<Decimal
     @Category(Draft.class)
     public void test_of_Locale()
     throws Exception {
-        // write some test for {@link DecimalStyle#of(Locale)}
+        // write some test for {@link java.time.format.DecimalStyle#of(java.util.Locale)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DecimalStyle]

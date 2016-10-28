@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.HashSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashSet#spliterator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedHashSet#spliterator() public
      * java.util.Spliterator<E> java.util.LinkedHashSet.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
-import javax.swing.event.DocumentEvent;
-import javax.swing.text.ViewFactory;
 import javax.swing.text.WrappedPlainView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +35,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link WrappedPlainView#changedUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.WrappedPlainView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.WrappedPlainView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -63,8 +60,9 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WrappedPlainView#nextTabStop(float, int) public
-     * float javax.swing.text.WrappedPlainView.nextTabStop(float,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.WrappedPlainView#nextTabStop(float, int) public float
+     * javax.swing.text.WrappedPlainView.nextTabStop(float,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,7 +84,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WrappedPlainView#getMinimumSpan(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.WrappedPlainView#getMinimumSpan(int) public float
      * javax.swing.text.WrappedPlainView.getMinimumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +108,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WrappedPlainView#getPreferredSpan(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.WrappedPlainView#getPreferredSpan(int) public float
      * javax.swing.text.WrappedPlainView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,7 +133,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link WrappedPlainView#insertUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.WrappedPlainView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.WrappedPlainView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -157,7 +158,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WrappedPlainView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.WrappedPlainView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.WrappedPlainView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -180,7 +182,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WrappedPlainView#getMaximumSpan(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.WrappedPlainView#getMaximumSpan(int) public float
      * javax.swing.text.WrappedPlainView.getMaximumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -204,7 +207,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link WrappedPlainView#removeUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.WrappedPlainView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.WrappedPlainView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -228,7 +232,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WrappedPlainView#setSize(float, float) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.WrappedPlainView#setSize(float, float) public void
      * javax.swing.text.WrappedPlainView.setSize(float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

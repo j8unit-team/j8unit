@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.function.DoubleUnaryOperatorClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleUnaryOperator#identity() public static
-     * java.util.function.DoubleUnaryOperator java.util.function.DoubleUnaryOperator.identity()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.DoubleUnaryOperator#identity()
+     * public static java.util.function.DoubleUnaryOperator java.util.function.DoubleUnaryOperator.identity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +36,7 @@ implements org.j8unit.repository.java.util.function.DoubleUnaryOperatorClassTest
     @Category(Draft.class)
     public void test_identity()
     throws Exception {
-        // write some test for {@link DoubleUnaryOperator#identity()}
+        // write some test for {@link java.util.function.DoubleUnaryOperator#identity()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.DoubleUnaryOperator]

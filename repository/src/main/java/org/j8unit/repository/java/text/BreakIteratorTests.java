@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.text;
 
 import java.text.BreakIterator;
-import java.text.CharacterIterator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#isBoundary(int) public boolean
-     * java.text.BreakIterator.isBoundary(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#isBoundary(int) public
+     * boolean java.text.BreakIterator.isBoundary(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#getText() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#getText() public abstract
      * java.text.CharacterIterator java.text.BreakIterator.getText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#following(int) public abstract int
-     * java.text.BreakIterator.following(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#following(int) public
+     * abstract int java.text.BreakIterator.following(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +100,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#last() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#last() public abstract int
      * java.text.BreakIterator.last()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +122,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#previous() public abstract int
-     * java.text.BreakIterator.previous()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#previous() public abstract
+     * int java.text.BreakIterator.previous()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +144,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#current() public abstract int
-     * java.text.BreakIterator.current()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#current() public abstract
+     * int java.text.BreakIterator.current()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +166,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#next() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#next() public abstract int
      * java.text.BreakIterator.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +188,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#next(int) public abstract int
-     * java.text.BreakIterator.next(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#next(int) public abstract
+     * int java.text.BreakIterator.next(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +210,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#first() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#first() public abstract int
      * java.text.BreakIterator.first()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,8 +232,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#setText(CharacterIterator) public
-     * abstract void java.text.BreakIterator.setText(java.text.CharacterIterator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.BreakIterator#setText(java.text.CharacterIterator) public abstract void
+     * java.text.BreakIterator.setText(java.text.CharacterIterator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#setText(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#setText(String) public void
      * java.text.BreakIterator.setText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,8 +277,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#clone() public java.lang.Object
-     * java.text.BreakIterator.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#clone() public
+     * java.lang.Object java.text.BreakIterator.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,7 +299,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIterator#preceding(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#preceding(int) public int
      * java.text.BreakIterator.preceding(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

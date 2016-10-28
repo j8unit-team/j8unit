@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.lang.model.type.MirroredTypesExceptionTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MirroredTypeException#getTypeMirror() public
-     * javax.lang.model.type.TypeMirror javax.lang.model.type.MirroredTypeException.getTypeMirror()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.MirroredTypeException#getTypeMirror() public javax.lang.model.type.TypeMirror
+     * javax.lang.model.type.MirroredTypeException.getTypeMirror()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStream#mark(int) public synchronized void
-     * java.io.InputStream.mark(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStream#mark(int) public synchronized
+     * void java.io.InputStream.mark(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStream#close() public void
      * java.io.InputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStream#skip(long) public long
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStream#skip(long) public long
      * java.io.InputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStream#reset() public synchronized void
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStream#reset() public synchronized void
      * java.io.InputStream.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStream#available() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStream#available() public int
      * java.io.InputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStream#markSupported() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStream#markSupported() public boolean
      * java.io.InputStream.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStream#read() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStream#read() public abstract int
      * java.io.InputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,7 +189,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStream#read(byte[]) public int
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStream#read(byte[]) public int
      * java.io.InputStream.read(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,8 +211,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStream#read(byte[], int, int) public int
-     * java.io.InputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStream#read(byte[], int, int) public
+     * int java.io.InputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

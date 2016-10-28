@@ -7,10 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.FloatSeqHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class FloatSeqHelperClassTest
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.FloatSeqHelperClassTests<FloatSeq
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FloatSeqHelper#FloatSeqHelper() public
-     * org.omg.CORBA.FloatSeqHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.FloatSeqHelper#FloatSeqHelper()
+     * public org.omg.CORBA.FloatSeqHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.FloatSeqHelperClassTests<FloatSeq
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatSeqHelper#id() public static java.lang.String
-     * org.omg.CORBA.FloatSeqHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.FloatSeqHelper#id() public static
+     * java.lang.String org.omg.CORBA.FloatSeqHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,13 +57,14 @@ implements org.j8unit.repository.org.omg.CORBA.FloatSeqHelperClassTests<FloatSeq
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link FloatSeqHelper#id()}
+        // write some test for {@link org.omg.CORBA.FloatSeqHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatSeqHelper#insert(Any, float[]) public static
-     * void org.omg.CORBA.FloatSeqHelper.insert(org.omg.CORBA.Any,float[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.FloatSeqHelper#insert(org.omg.CORBA.Any, float[]) public static void
+     * org.omg.CORBA.FloatSeqHelper.insert(org.omg.CORBA.Any,float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +78,14 @@ implements org.j8unit.repository.org.omg.CORBA.FloatSeqHelperClassTests<FloatSeq
     @Category(Draft.class)
     public void test_insert_Any_floatArray()
     throws Exception {
-        // write some test for {@link FloatSeqHelper#insert(Any, float[])}
+        // write some test for {@link org.omg.CORBA.FloatSeqHelper#insert(org.omg.CORBA.Any, float[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatSeqHelper#write(OutputStream, float[]) public
-     * static void org.omg.CORBA.FloatSeqHelper.write(org.omg.CORBA.portable.OutputStream,float[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.FloatSeqHelper#write(org.omg.CORBA.portable.OutputStream, float[]) public static void
+     * org.omg.CORBA.FloatSeqHelper.write(org.omg.CORBA.portable.OutputStream,float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +99,13 @@ implements org.j8unit.repository.org.omg.CORBA.FloatSeqHelperClassTests<FloatSeq
     @Category(Draft.class)
     public void test_write_OutputStream_floatArray()
     throws Exception {
-        // write some test for {@link FloatSeqHelper#write(OutputStream, float[])}
+        // write some test for {@link org.omg.CORBA.FloatSeqHelper#write(org.omg.CORBA.portable.OutputStream, float[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatSeqHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.FloatSeqHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.FloatSeqHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.FloatSeqHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +119,14 @@ implements org.j8unit.repository.org.omg.CORBA.FloatSeqHelperClassTests<FloatSeq
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link FloatSeqHelper#type()}
+        // write some test for {@link org.omg.CORBA.FloatSeqHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatSeqHelper#read(InputStream) public static
-     * float[] org.omg.CORBA.FloatSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.FloatSeqHelper#read(org.omg.CORBA.portable.InputStream) public static float[]
+     * org.omg.CORBA.FloatSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,12 +140,13 @@ implements org.j8unit.repository.org.omg.CORBA.FloatSeqHelperClassTests<FloatSeq
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link FloatSeqHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.FloatSeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatSeqHelper#extract(Any) public static float[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.FloatSeqHelper#extract(org.omg.CORBA.Any) public static float[]
      * org.omg.CORBA.FloatSeqHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +161,7 @@ implements org.j8unit.repository.org.omg.CORBA.FloatSeqHelperClassTests<FloatSeq
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link FloatSeqHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.FloatSeqHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.FloatSeqHelper]

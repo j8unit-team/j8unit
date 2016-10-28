@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#getPresentationName() public abstract
-     * java.lang.String javax.swing.undo.UndoableEdit.getPresentationName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEdit#getPresentationName()
+     * public abstract java.lang.String javax.swing.undo.UndoableEdit.getPresentationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#isSignificant() public abstract boolean
-     * javax.swing.undo.UndoableEdit.isSignificant()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEdit#isSignificant() public
+     * abstract boolean javax.swing.undo.UndoableEdit.isSignificant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#die() public abstract void
-     * javax.swing.undo.UndoableEdit.die()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEdit#die() public abstract
+     * void javax.swing.undo.UndoableEdit.die()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#canUndo() public abstract boolean
-     * javax.swing.undo.UndoableEdit.canUndo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEdit#canUndo() public
+     * abstract boolean javax.swing.undo.UndoableEdit.canUndo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#undo() public abstract void
-     * javax.swing.undo.UndoableEdit.undo() throws javax.swing.undo.CannotUndoException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEdit#undo() public abstract
+     * void javax.swing.undo.UndoableEdit.undo() throws javax.swing.undo.CannotUndoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#replaceEdit(UndoableEdit) public
-     * abstract boolean javax.swing.undo.UndoableEdit.replaceEdit(javax.swing.undo.UndoableEdit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoableEdit#replaceEdit(javax.swing.undo.UndoableEdit) public abstract boolean
+     * javax.swing.undo.UndoableEdit.replaceEdit(javax.swing.undo.UndoableEdit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,30 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#getRedoPresentationName() public
-     * abstract java.lang.String javax.swing.undo.UndoableEdit.getRedoPresentationName()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRedoPresentationName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#canRedo() public abstract boolean
-     * javax.swing.undo.UndoableEdit.canRedo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEdit#canRedo() public
+     * abstract boolean javax.swing.undo.UndoableEdit.canRedo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +190,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#getUndoPresentationName() public
-     * abstract java.lang.String javax.swing.undo.UndoableEdit.getUndoPresentationName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoableEdit#getRedoPresentationName() public abstract java.lang.String
+     * javax.swing.undo.UndoableEdit.getRedoPresentationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,7 +204,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUndoPresentationName()
+    public default void test_getRedoPresentationName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -233,8 +213,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#addEdit(UndoableEdit) public abstract
-     * boolean javax.swing.undo.UndoableEdit.addEdit(javax.swing.undo.UndoableEdit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoableEdit#addEdit(javax.swing.undo.UndoableEdit) public abstract boolean
+     * javax.swing.undo.UndoableEdit.addEdit(javax.swing.undo.UndoableEdit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +236,31 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEdit#redo() public abstract void
-     * javax.swing.undo.UndoableEdit.redo() throws javax.swing.undo.CannotRedoException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoableEdit#getUndoPresentationName() public abstract java.lang.String
+     * javax.swing.undo.UndoableEdit.getUndoPresentationName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUndoPresentationName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEdit#redo() public abstract
+     * void javax.swing.undo.UndoableEdit.redo() throws javax.swing.undo.CannotRedoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

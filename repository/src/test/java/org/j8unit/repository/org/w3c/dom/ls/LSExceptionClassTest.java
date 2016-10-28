@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.w3c.dom.ls.LSExceptionClassTests<LSExceptio
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LSException#LSException(short, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.w3c.dom.ls.LSException#LSException(short, String) public
      * org.w3c.dom.ls.LSException(short,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

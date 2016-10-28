@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.jar;
 
-import java.io.File;
 import java.util.jar.JarFile;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.util.jar.JarFileClassTests<JarFile> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarFile#JarFile(File, boolean, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.jar.JarFile#JarFile(java.io.File, boolean, int) public
      * java.util.jar.JarFile(java.io.File,boolean,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +39,14 @@ implements org.j8unit.repository.java.util.jar.JarFileClassTests<JarFile> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JarFile sut = null; // = new JarFile(File, boolean, int);
+        final JarFile sut = null; // = new JarFile(java.io.File, boolean, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarFile#JarFile(File, boolean) public
-     * java.util.jar.JarFile(java.io.File,boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.jar.JarFile#JarFile(java.io.File, boolean) public java.util.jar.JarFile(java.io.File,boolean)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,13 +62,13 @@ implements org.j8unit.repository.java.util.jar.JarFileClassTests<JarFile> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JarFile sut = null; // = new JarFile(File, boolean);
+        final JarFile sut = null; // = new JarFile(java.io.File, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarFile#JarFile(File) public
-     * java.util.jar.JarFile(java.io.File) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.jar.JarFile#JarFile(java.io.File)
+     * public java.util.jar.JarFile(java.io.File) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,13 +84,13 @@ implements org.j8unit.repository.java.util.jar.JarFileClassTests<JarFile> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JarFile sut = null; // = new JarFile(File);
+        final JarFile sut = null; // = new JarFile(java.io.File);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarFile#JarFile(String, boolean) public
-     * java.util.jar.JarFile(java.lang.String,boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.jar.JarFile#JarFile(String, boolean)
+     * public java.util.jar.JarFile(java.lang.String,boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,7 +111,7 @@ implements org.j8unit.repository.java.util.jar.JarFileClassTests<JarFile> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarFile#JarFile(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.jar.JarFile#JarFile(String) public
      * java.util.jar.JarFile(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

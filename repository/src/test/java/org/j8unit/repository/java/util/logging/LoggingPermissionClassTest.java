@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.logging.LoggingPermissionClassTests<L
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LoggingPermission#LoggingPermission(String, String) public
+     * {@link java.util.logging.LoggingPermission#LoggingPermission(String, String) public
      * java.util.logging.LoggingPermission(java.lang.String,java.lang.String) throws java.lang.IllegalArgumentException}
      * .
      *

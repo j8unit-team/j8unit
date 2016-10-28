@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.midi;
 
-import javax.sound.midi.MidiEvent;
 import javax.sound.midi.Track;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Track#get(int) public javax.sound.midi.MidiEvent
-     * javax.sound.midi.Track.get(int) throws java.lang.ArrayIndexOutOfBoundsException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Track#get(int) public
+     * javax.sound.midi.MidiEvent javax.sound.midi.Track.get(int) throws java.lang.ArrayIndexOutOfBoundsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Track#ticks() public long
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Track#ticks() public long
      * javax.sound.midi.Track.ticks()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Track#size() public int
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Track#size() public int
      * javax.sound.midi.Track.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Track#add(MidiEvent) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Track#add(javax.sound.midi.MidiEvent) public boolean
      * javax.sound.midi.Track.add(javax.sound.midi.MidiEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Track#remove(MidiEvent) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Track#remove(javax.sound.midi.MidiEvent) public boolean
      * javax.sound.midi.Track.remove(javax.sound.midi.MidiEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

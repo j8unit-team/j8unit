@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.Element;
 import javax.swing.text.ParagraphView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.ParagraphViewClassTests<Paragr
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParagraphView#ParagraphView(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.ParagraphView#ParagraphView(javax.swing.text.Element) public
      * javax.swing.text.ParagraphView(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.ParagraphViewClassTests<Paragr
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ParagraphView sut = null; // = new ParagraphView(Element);
+        final ParagraphView sut = null; // = new ParagraphView(javax.swing.text.Element);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.ParagraphView]

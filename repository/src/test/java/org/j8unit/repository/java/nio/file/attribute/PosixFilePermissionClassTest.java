@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.nio.file.attribute.PosixFilePermissionClas
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PosixFilePermission#values() public static
-     * java.nio.file.attribute.PosixFilePermission[] java.nio.file.attribute.PosixFilePermission.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.PosixFilePermission#values()
+     * public static java.nio.file.attribute.PosixFilePermission[] java.nio.file.attribute.PosixFilePermission.values()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +37,13 @@ implements org.j8unit.repository.java.nio.file.attribute.PosixFilePermissionClas
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link PosixFilePermission#values()}
+        // write some test for {@link java.nio.file.attribute.PosixFilePermission#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PosixFilePermission#valueOf(String) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.PosixFilePermission#valueOf(String) public static
      * java.nio.file.attribute.PosixFilePermission
      * java.nio.file.attribute.PosixFilePermission.valueOf(java.lang.String)}.
      *
@@ -57,7 +59,7 @@ implements org.j8unit.repository.java.nio.file.attribute.PosixFilePermissionClas
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link PosixFilePermission#valueOf(String)}
+        // write some test for {@link java.nio.file.attribute.PosixFilePermission#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.PosixFilePermission]

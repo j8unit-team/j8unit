@@ -2,7 +2,6 @@ package org.j8unit.repository.javax.swing;
 
 import static org.junit.Assert.fail;
 import javax.swing.AbstractAction;
-import javax.swing.Icon;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Assert;
@@ -24,8 +23,8 @@ implements org.j8unit.repository.javax.swing.AbstractActionClassTests<AbstractAc
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AbstractAction#AbstractAction(String) public
-     * javax.swing.AbstractAction(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.AbstractAction#AbstractAction(String) public javax.swing.AbstractAction(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +43,9 @@ implements org.j8unit.repository.javax.swing.AbstractActionClassTests<AbstractAc
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AbstractAction#AbstractAction(String, Icon)
-     * public javax.swing.AbstractAction(java.lang.String,javax.swing.Icon)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.AbstractAction#AbstractAction(String, javax.swing.Icon) public
+     * javax.swing.AbstractAction(java.lang.String,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +64,8 @@ implements org.j8unit.repository.javax.swing.AbstractActionClassTests<AbstractAc
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AbstractAction#AbstractAction() public
-     * javax.swing.AbstractAction()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.AbstractAction#AbstractAction()
+     * public javax.swing.AbstractAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

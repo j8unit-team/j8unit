@@ -30,43 +30,51 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<DocFlavor> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor]
 
     @RunWith(J8Unit4.class)
-    public static class INPUT_STREAMTest
-    implements org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests<INPUT_STREAM> {
+    public static class SERVICE_FORMATTEDTest
+    implements org.j8unit.repository.javax.print.DocFlavorTests.SERVICE_FORMATTEDTests<SERVICE_FORMATTED> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return testParametersOf(INPUT_STREAM.PDF, //
-                                    INPUT_STREAM.TEXT_PLAIN_UTF_16LE, //
-                                    INPUT_STREAM.TEXT_HTML_UTF_16LE, //
-                                    INPUT_STREAM.PCL, //
-                                    INPUT_STREAM.POSTSCRIPT, //
-                                    INPUT_STREAM.TEXT_HTML_UTF_16, //
-                                    INPUT_STREAM.TEXT_PLAIN_UTF_8, //
-                                    INPUT_STREAM.TEXT_PLAIN_US_ASCII, //
-                                    INPUT_STREAM.TEXT_HTML_UTF_8, //
-                                    INPUT_STREAM.GIF, //
-                                    INPUT_STREAM.TEXT_PLAIN_HOST, //
-                                    INPUT_STREAM.TEXT_HTML_HOST, //
-                                    INPUT_STREAM.PNG, //
-                                    INPUT_STREAM.TEXT_HTML_US_ASCII, //
-                                    INPUT_STREAM.JPEG, //
-                                    INPUT_STREAM.TEXT_PLAIN_UTF_16, //
-                                    INPUT_STREAM.TEXT_PLAIN_UTF_16BE, //
-                                    INPUT_STREAM.TEXT_HTML_UTF_16BE, //
-                                    INPUT_STREAM.AUTOSENSE);
+            return testParametersOf(SERVICE_FORMATTED.PAGEABLE, //
+                                    SERVICE_FORMATTED.RENDERABLE_IMAGE, //
+                                    SERVICE_FORMATTED.PRINTABLE);
         }
 
         @Parameter(0)
-        public INPUT_STREAM sut;
+        public SERVICE_FORMATTED sut;
 
         @Override
-        public INPUT_STREAM createNewSUT() {
+        public SERVICE_FORMATTED createNewSUT() {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CHAR_ARRAYTest
+    implements org.j8unit.repository.javax.print.DocFlavorTests.CHAR_ARRAYTests<CHAR_ARRAY> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(CHAR_ARRAY.TEXT_HTML, //
+                                                       CHAR_ARRAY.TEXT_PLAIN);
+        }
+
+        @Parameter(0)
+        public CHAR_ARRAY sut;
+
+        @Override
+        public CHAR_ARRAY createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
 
     }
 
@@ -91,6 +99,47 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<DocFlavor> {
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$READER]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class BYTE_ARRAYTest
+    implements org.j8unit.repository.javax.print.DocFlavorTests.BYTE_ARRAYTests<BYTE_ARRAY> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(BYTE_ARRAY.GIF, //
+                                                       BYTE_ARRAY.TEXT_HTML_UTF_8, //
+                                                       BYTE_ARRAY.TEXT_PLAIN_US_ASCII, //
+                                                       BYTE_ARRAY.TEXT_PLAIN_UTF_8, //
+                                                       BYTE_ARRAY.TEXT_HTML_UTF_16, //
+                                                       BYTE_ARRAY.TEXT_PLAIN_UTF_16BE, //
+                                                       BYTE_ARRAY.TEXT_HTML_UTF_16BE, //
+                                                       BYTE_ARRAY.AUTOSENSE, //
+                                                       BYTE_ARRAY.TEXT_PLAIN_UTF_16, //
+                                                       BYTE_ARRAY.TEXT_HTML_US_ASCII, //
+                                                       BYTE_ARRAY.JPEG, //
+                                                       BYTE_ARRAY.TEXT_PLAIN_HOST, //
+                                                       BYTE_ARRAY.TEXT_HTML_HOST, //
+                                                       BYTE_ARRAY.PNG, //
+                                                       BYTE_ARRAY.TEXT_PLAIN_UTF_16LE, //
+                                                       BYTE_ARRAY.TEXT_HTML_UTF_16LE, //
+                                                       BYTE_ARRAY.PDF, //
+                                                       BYTE_ARRAY.POSTSCRIPT, //
+                                                       BYTE_ARRAY.PCL);
+        }
+
+        @Parameter(0)
+        public BYTE_ARRAY sut;
+
+        @Override
+        public BYTE_ARRAY createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
 
     }
 
@@ -136,92 +185,43 @@ implements org.j8unit.repository.javax.print.DocFlavorTests<DocFlavor> {
     }
 
     @RunWith(J8Unit4.class)
-    public static class CHAR_ARRAYTest
-    implements org.j8unit.repository.javax.print.DocFlavorTests.CHAR_ARRAYTests<CHAR_ARRAY> {
+    public static class INPUT_STREAMTest
+    implements org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests<INPUT_STREAM> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(CHAR_ARRAY.TEXT_HTML, //
-                                                       CHAR_ARRAY.TEXT_PLAIN);
-        }
-
-        @Parameter(0)
-        public CHAR_ARRAY sut;
-
-        @Override
-        public CHAR_ARRAY createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class SERVICE_FORMATTEDTest
-    implements org.j8unit.repository.javax.print.DocFlavorTests.SERVICE_FORMATTEDTests<SERVICE_FORMATTED> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(SERVICE_FORMATTED.PAGEABLE, //
-                                                       SERVICE_FORMATTED.RENDERABLE_IMAGE, //
-                                                       SERVICE_FORMATTED.PRINTABLE);
+            return TestParametersUtil.testParametersOf(INPUT_STREAM.PDF, //
+                                                       INPUT_STREAM.TEXT_PLAIN_UTF_16LE, //
+                                                       INPUT_STREAM.TEXT_HTML_UTF_16LE, //
+                                                       INPUT_STREAM.PCL, //
+                                                       INPUT_STREAM.POSTSCRIPT, //
+                                                       INPUT_STREAM.TEXT_HTML_UTF_16, //
+                                                       INPUT_STREAM.TEXT_PLAIN_UTF_8, //
+                                                       INPUT_STREAM.TEXT_PLAIN_US_ASCII, //
+                                                       INPUT_STREAM.TEXT_HTML_UTF_8, //
+                                                       INPUT_STREAM.GIF, //
+                                                       INPUT_STREAM.TEXT_PLAIN_HOST, //
+                                                       INPUT_STREAM.TEXT_HTML_HOST, //
+                                                       INPUT_STREAM.PNG, //
+                                                       INPUT_STREAM.TEXT_HTML_US_ASCII, //
+                                                       INPUT_STREAM.JPEG, //
+                                                       INPUT_STREAM.TEXT_PLAIN_UTF_16, //
+                                                       INPUT_STREAM.TEXT_PLAIN_UTF_16BE, //
+                                                       INPUT_STREAM.TEXT_HTML_UTF_16BE, //
+                                                       INPUT_STREAM.AUTOSENSE);
         }
 
         @Parameter(0)
-        public SERVICE_FORMATTED sut;
+        public INPUT_STREAM sut;
 
         @Override
-        public SERVICE_FORMATTED createNewSUT() {
+        public INPUT_STREAM createNewSUT() {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class BYTE_ARRAYTest
-    implements org.j8unit.repository.javax.print.DocFlavorTests.BYTE_ARRAYTests<BYTE_ARRAY> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(BYTE_ARRAY.GIF, //
-                                                       BYTE_ARRAY.TEXT_HTML_UTF_8, //
-                                                       BYTE_ARRAY.TEXT_PLAIN_US_ASCII, //
-                                                       BYTE_ARRAY.TEXT_PLAIN_UTF_8, //
-                                                       BYTE_ARRAY.TEXT_HTML_UTF_16, //
-                                                       BYTE_ARRAY.TEXT_PLAIN_UTF_16BE, //
-                                                       BYTE_ARRAY.TEXT_HTML_UTF_16BE, //
-                                                       BYTE_ARRAY.AUTOSENSE, //
-                                                       BYTE_ARRAY.TEXT_PLAIN_UTF_16, //
-                                                       BYTE_ARRAY.TEXT_HTML_US_ASCII, //
-                                                       BYTE_ARRAY.JPEG, //
-                                                       BYTE_ARRAY.TEXT_PLAIN_HOST, //
-                                                       BYTE_ARRAY.TEXT_HTML_HOST, //
-                                                       BYTE_ARRAY.PNG, //
-                                                       BYTE_ARRAY.TEXT_PLAIN_UTF_16LE, //
-                                                       BYTE_ARRAY.TEXT_HTML_UTF_16LE, //
-                                                       BYTE_ARRAY.PDF, //
-                                                       BYTE_ARRAY.POSTSCRIPT, //
-                                                       BYTE_ARRAY.PCL);
-        }
-
-        @Parameter(0)
-        public BYTE_ARRAY sut;
-
-        @Override
-        public BYTE_ARRAY createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
 
     }
 

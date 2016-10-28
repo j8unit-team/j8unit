@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntUnaryOperator#compose(IntUnaryOperator) public
-     * default java.util.function.IntUnaryOperator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.IntUnaryOperator#compose(java.util.function.IntUnaryOperator) public default
+     * java.util.function.IntUnaryOperator
      * java.util.function.IntUnaryOperator.compose(java.util.function.IntUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntUnaryOperator#applyAsInt(int) public abstract int
-     * java.util.function.IntUnaryOperator.applyAsInt(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.IntUnaryOperator#applyAsInt(int)
+     * public abstract int java.util.function.IntUnaryOperator.applyAsInt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntUnaryOperator#andThen(IntUnaryOperator) public
-     * default java.util.function.IntUnaryOperator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.IntUnaryOperator#andThen(java.util.function.IntUnaryOperator) public default
+     * java.util.function.IntUnaryOperator
      * java.util.function.IntUnaryOperator.andThen(java.util.function.IntUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

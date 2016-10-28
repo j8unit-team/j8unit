@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferInt#getElem(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferInt#getElem(int) public int
      * java.awt.image.DataBufferInt.getElem(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferInt#getElem(int, int) public int
-     * java.awt.image.DataBufferInt.getElem(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferInt#getElem(int, int)
+     * public int java.awt.image.DataBufferInt.getElem(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferInt#setElem(int, int, int) public void
-     * java.awt.image.DataBufferInt.setElem(int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferInt#setElem(int, int, int)
+     * public void java.awt.image.DataBufferInt.setElem(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferInt#setElem(int, int) public void
-     * java.awt.image.DataBufferInt.setElem(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferInt#setElem(int, int)
+     * public void java.awt.image.DataBufferInt.setElem(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferInt#getData() public int[]
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferInt#getData() public int[]
      * java.awt.image.DataBufferInt.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferInt#getData(int) public int[]
-     * java.awt.image.DataBufferInt.getData(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferInt#getData(int) public
+     * int[] java.awt.image.DataBufferInt.getData(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferInt#getBankData() public int[][]
-     * java.awt.image.DataBufferInt.getBankData()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferInt#getBankData() public
+     * int[][] java.awt.image.DataBufferInt.getBankData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

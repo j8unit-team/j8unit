@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.ws;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.transform.Source;
 import javax.xml.ws.LogicalMessage;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogicalMessage#setPayload(Object, JAXBContext)
-     * public abstract void javax.xml.ws.LogicalMessage.setPayload(java.lang.Object,javax.xml.bind.JAXBContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.LogicalMessage#setPayload(Object, javax.xml.bind.JAXBContext) public abstract void
+     * javax.xml.ws.LogicalMessage.setPayload(java.lang.Object,javax.xml.bind.JAXBContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogicalMessage#setPayload(Source) public abstract
-     * void javax.xml.ws.LogicalMessage.setPayload(javax.xml.transform.Source)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.LogicalMessage#setPayload(javax.xml.transform.Source) public abstract void
+     * javax.xml.ws.LogicalMessage.setPayload(javax.xml.transform.Source)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogicalMessage#getPayload() public abstract
-     * javax.xml.transform.Source javax.xml.ws.LogicalMessage.getPayload()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.LogicalMessage#getPayload() public
+     * abstract javax.xml.transform.Source javax.xml.ws.LogicalMessage.getPayload()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogicalMessage#getPayload(JAXBContext) public
-     * abstract java.lang.Object javax.xml.ws.LogicalMessage.getPayload(javax.xml.bind.JAXBContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.LogicalMessage#getPayload(javax.xml.bind.JAXBContext) public abstract java.lang.Object
+     * javax.xml.ws.LogicalMessage.getPayload(javax.xml.bind.JAXBContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

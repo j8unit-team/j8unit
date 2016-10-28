@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.element.AnnotationValue;
 import javax.lang.model.util.AbstractAnnotationValueVisitor6;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +36,8 @@ extends org.j8unit.repository.javax.lang.model.element.AnnotationValueVisitorTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractAnnotationValueVisitor6#visit(AnnotationValue, Object) public final R
+     * {@link javax.lang.model.util.AbstractAnnotationValueVisitor6#visit(javax.lang.model.element.AnnotationValue, Object)
+     * public final R
      * javax.lang.model.util.AbstractAnnotationValueVisitor6.visit(javax.lang.model.element.AnnotationValue,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,8 @@ extends org.j8unit.repository.javax.lang.model.element.AnnotationValueVisitorTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractAnnotationValueVisitor6#visit(AnnotationValue) public final R
+     * {@link javax.lang.model.util.AbstractAnnotationValueVisitor6#visit(javax.lang.model.element.AnnotationValue)
+     * public final R
      * javax.lang.model.util.AbstractAnnotationValueVisitor6.visit(javax.lang.model.element.AnnotationValue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,7 +86,8 @@ extends org.j8unit.repository.javax.lang.model.element.AnnotationValueVisitorTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractAnnotationValueVisitor6#visitUnknown(AnnotationValue, Object) public R
+     * {@link javax.lang.model.util.AbstractAnnotationValueVisitor6#visitUnknown(javax.lang.model.element.AnnotationValue, Object)
+     * public R
      * javax.lang.model.util.AbstractAnnotationValueVisitor6.visitUnknown(javax.lang.model.element.AnnotationValue,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

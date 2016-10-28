@@ -7,10 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.WCharSeqHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class WCharSeqHelperClassTest
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.WCharSeqHelperClassTests<WCharSeq
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WCharSeqHelper#WCharSeqHelper() public
-     * org.omg.CORBA.WCharSeqHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.WCharSeqHelper#WCharSeqHelper()
+     * public org.omg.CORBA.WCharSeqHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.WCharSeqHelperClassTests<WCharSeq
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WCharSeqHelper#id() public static java.lang.String
-     * org.omg.CORBA.WCharSeqHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.WCharSeqHelper#id() public static
+     * java.lang.String org.omg.CORBA.WCharSeqHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,13 +57,14 @@ implements org.j8unit.repository.org.omg.CORBA.WCharSeqHelperClassTests<WCharSeq
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link WCharSeqHelper#id()}
+        // write some test for {@link org.omg.CORBA.WCharSeqHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WCharSeqHelper#insert(Any, char[]) public static
-     * void org.omg.CORBA.WCharSeqHelper.insert(org.omg.CORBA.Any,char[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.WCharSeqHelper#insert(org.omg.CORBA.Any, char[]) public static void
+     * org.omg.CORBA.WCharSeqHelper.insert(org.omg.CORBA.Any,char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +78,13 @@ implements org.j8unit.repository.org.omg.CORBA.WCharSeqHelperClassTests<WCharSeq
     @Category(Draft.class)
     public void test_insert_Any_charArray()
     throws Exception {
-        // write some test for {@link WCharSeqHelper#insert(Any, char[])}
+        // write some test for {@link org.omg.CORBA.WCharSeqHelper#insert(org.omg.CORBA.Any, char[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WCharSeqHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.WCharSeqHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.WCharSeqHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.WCharSeqHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +98,14 @@ implements org.j8unit.repository.org.omg.CORBA.WCharSeqHelperClassTests<WCharSeq
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link WCharSeqHelper#type()}
+        // write some test for {@link org.omg.CORBA.WCharSeqHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WCharSeqHelper#write(OutputStream, char[]) public
-     * static void org.omg.CORBA.WCharSeqHelper.write(org.omg.CORBA.portable.OutputStream,char[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.WCharSeqHelper#write(org.omg.CORBA.portable.OutputStream, char[]) public static void
+     * org.omg.CORBA.WCharSeqHelper.write(org.omg.CORBA.portable.OutputStream,char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +119,14 @@ implements org.j8unit.repository.org.omg.CORBA.WCharSeqHelperClassTests<WCharSeq
     @Category(Draft.class)
     public void test_write_OutputStream_charArray()
     throws Exception {
-        // write some test for {@link WCharSeqHelper#write(OutputStream, char[])}
+        // write some test for {@link org.omg.CORBA.WCharSeqHelper#write(org.omg.CORBA.portable.OutputStream, char[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WCharSeqHelper#read(InputStream) public static
-     * char[] org.omg.CORBA.WCharSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.WCharSeqHelper#read(org.omg.CORBA.portable.InputStream) public static char[]
+     * org.omg.CORBA.WCharSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,12 +140,13 @@ implements org.j8unit.repository.org.omg.CORBA.WCharSeqHelperClassTests<WCharSeq
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link WCharSeqHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.WCharSeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WCharSeqHelper#extract(Any) public static char[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.WCharSeqHelper#extract(org.omg.CORBA.Any) public static char[]
      * org.omg.CORBA.WCharSeqHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +161,7 @@ implements org.j8unit.repository.org.omg.CORBA.WCharSeqHelperClassTests<WCharSeq
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link WCharSeqHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.WCharSeqHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.WCharSeqHelper]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.file.FileSystemLoopExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FileSystemLoopException#FileSystemLoopException(String) public
+     * {@link java.nio.file.FileSystemLoopException#FileSystemLoopException(String) public
      * java.nio.file.FileSystemLoopException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

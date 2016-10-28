@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.event.InputEventClassTests<InputEvent>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputEvent#getModifiersExText(int) public static
-     * java.lang.String java.awt.event.InputEvent.getModifiersExText(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InputEvent#getModifiersExText(int)
+     * public static java.lang.String java.awt.event.InputEvent.getModifiersExText(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.awt.event.InputEventClassTests<InputEvent>
     @Category(Draft.class)
     public void test_getModifiersExText_int()
     throws Exception {
-        // write some test for {@link InputEvent#getModifiersExText(int)}
+        // write some test for {@link java.awt.event.InputEvent#getModifiersExText(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputEvent#getMaskForButton(int) public static int
-     * java.awt.event.InputEvent.getMaskForButton(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InputEvent#getMaskForButton(int)
+     * public static int java.awt.event.InputEvent.getMaskForButton(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.awt.event.InputEventClassTests<InputEvent>
     @Category(Draft.class)
     public void test_getMaskForButton_int()
     throws Exception {
-        // write some test for {@link InputEvent#getMaskForButton(int)}
+        // write some test for {@link java.awt.event.InputEvent#getMaskForButton(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.InputEvent]

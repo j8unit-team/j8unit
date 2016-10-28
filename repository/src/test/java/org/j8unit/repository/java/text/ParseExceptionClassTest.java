@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.text.ParseExceptionClassTests<ParseExcepti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParseException#ParseException(String, int)
-     * public java.text.ParseException(java.lang.String,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.ParseException#ParseException(String, int) public
+     * java.text.ParseException(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

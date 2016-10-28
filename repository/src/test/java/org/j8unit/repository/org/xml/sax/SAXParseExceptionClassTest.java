@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.xml.sax.Locator;
 import org.xml.sax.SAXParseException;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.xml.sax.SAXParseExceptionClassTests<SAXPars
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SAXParseException#SAXParseException(String, String, String, int, int, Exception) public
+     * {@link org.xml.sax.SAXParseException#SAXParseException(String, String, String, int, int, Exception) public
      * org.xml.sax.SAXParseException(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,7 @@ implements org.j8unit.repository.org.xml.sax.SAXParseExceptionClassTests<SAXPars
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SAXParseException#SAXParseException(String, String, String, int, int) public
+     * {@link org.xml.sax.SAXParseException#SAXParseException(String, String, String, int, int) public
      * org.xml.sax.SAXParseException(java.lang.String,java.lang.String,java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,7 +68,7 @@ implements org.j8unit.repository.org.xml.sax.SAXParseExceptionClassTests<SAXPars
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SAXParseException#SAXParseException(String, Locator, Exception) public
+     * {@link org.xml.sax.SAXParseException#SAXParseException(String, org.xml.sax.Locator, Exception) public
      * org.xml.sax.SAXParseException(java.lang.String,org.xml.sax.Locator,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,13 +85,13 @@ implements org.j8unit.repository.org.xml.sax.SAXParseExceptionClassTests<SAXPars
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SAXParseException sut = null; // = new SAXParseException(String, Locator, Exception);
+        final SAXParseException sut = null; // = new SAXParseException(String, org.xml.sax.Locator, Exception);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SAXParseException#SAXParseException(String, Locator) public
+     * {@link org.xml.sax.SAXParseException#SAXParseException(String, org.xml.sax.Locator) public
      * org.xml.sax.SAXParseException(java.lang.String,org.xml.sax.Locator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +108,7 @@ implements org.j8unit.repository.org.xml.sax.SAXParseExceptionClassTests<SAXPars
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SAXParseException sut = null; // = new SAXParseException(String, Locator);
+        final SAXParseException sut = null; // = new SAXParseException(String, org.xml.sax.Locator);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.SAXParseException]

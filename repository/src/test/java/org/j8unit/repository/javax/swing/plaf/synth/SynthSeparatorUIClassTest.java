@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.synth.SynthSeparatorUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthSeparatorUIClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SynthSeparatorUI#SynthSeparatorUI() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.synth.SynthSeparatorUI#SynthSeparatorUI() public
      * javax.swing.plaf.synth.SynthSeparatorUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthSeparatorUIClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSeparatorUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSeparatorUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.synth.SynthSeparatorUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +59,7 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthSeparatorUIClassTes
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link SynthSeparatorUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.synth.SynthSeparatorUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthSeparatorUI]

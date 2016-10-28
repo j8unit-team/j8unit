@@ -35,7 +35,7 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AnnotatedParameterizedType#getAnnotatedActualTypeArguments() public abstract
+     * {@link java.lang.reflect.AnnotatedParameterizedType#getAnnotatedActualTypeArguments() public abstract
      * java.lang.reflect.AnnotatedType[] java.lang.reflect.AnnotatedParameterizedType.getAnnotatedActualTypeArguments()}
      * .
      *

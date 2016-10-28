@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Consumer#andThen(Consumer) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.Consumer#andThen(java.util.function.Consumer) public default
      * java.util.function.Consumer<T> java.util.function.Consumer.andThen(java.util.function.Consumer<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Consumer#accept(Object) public abstract void
-     * java.util.function.Consumer.accept(T)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.Consumer#accept(Object) public
+     * abstract void java.util.function.Consumer.accept(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

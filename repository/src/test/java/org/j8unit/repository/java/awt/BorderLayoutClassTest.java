@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.BorderLayoutClassTests<BorderLayout> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BorderLayout#BorderLayout() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.BorderLayout#BorderLayout() public
      * java.awt.BorderLayout()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.java.awt.BorderLayoutClassTests<BorderLayout> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BorderLayout#BorderLayout(int, int) public
-     * java.awt.BorderLayout(int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.BorderLayout#BorderLayout(int, int)
+     * public java.awt.BorderLayout(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

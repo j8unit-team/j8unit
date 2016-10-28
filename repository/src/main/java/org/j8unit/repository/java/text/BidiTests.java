@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#getLevelAt(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#getLevelAt(int) public int
      * java.text.Bidi.getLevelAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#isLeftToRight() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#isLeftToRight() public boolean
      * java.text.Bidi.isLeftToRight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#getRunLevel(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#createLineBidi(int, int) public
+     * java.text.Bidi java.text.Bidi.createLineBidi(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createLineBidi_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#getRunLevel(int) public int
      * java.text.Bidi.getRunLevel(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,29 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#createLineBidi(int, int) public java.text.Bidi
-     * java.text.Bidi.createLineBidi(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createLineBidi_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#baseIsLeftToRight() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#baseIsLeftToRight() public boolean
      * java.text.Bidi.baseIsLeftToRight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#isRightToLeft() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#isRightToLeft() public boolean
      * java.text.Bidi.isRightToLeft()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,29 +166,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#getRunCount() public int
-     * java.text.Bidi.getRunCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRunCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#getRunLimit(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#getRunLimit(int) public int
      * java.text.Bidi.getRunLimit(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,7 +188,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#getLength() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#getRunCount() public int
+     * java.text.Bidi.getRunCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRunCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#getLength() public int
      * java.text.Bidi.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -232,7 +232,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#toString() public java.lang.String
      * java.text.Bidi.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,7 +255,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#isMixed() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#getRunStart(int) public int
+     * java.text.Bidi.getRunStart(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRunStart_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#isMixed() public boolean
      * java.text.Bidi.isMixed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,7 +299,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#getBaseLevel() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#getBaseLevel() public int
      * java.text.Bidi.getBaseLevel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -291,28 +313,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBaseLevel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#getRunStart(int) public int
-     * java.text.Bidi.getRunStart(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRunStart_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

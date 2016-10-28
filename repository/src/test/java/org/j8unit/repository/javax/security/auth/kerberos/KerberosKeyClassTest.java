@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.security.auth.kerberos;
 
 import javax.security.auth.kerberos.KerberosKey;
-import javax.security.auth.kerberos.KerberosPrincipal;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosKeyClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KerberosKey#KerberosKey(KerberosPrincipal, byte[], int, int) public
-     * javax.security.auth.kerberos.KerberosKey(javax.security.auth.kerberos.KerberosPrincipal,byte[],int,int)}.
+     * {@link javax.security.auth.kerberos.KerberosKey#KerberosKey(javax.security.auth.kerberos.KerberosPrincipal, byte[], int, int)
+     * public javax.security.auth.kerberos.KerberosKey(javax.security.auth.kerberos.KerberosPrincipal,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,15 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosKeyClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final KerberosKey sut = null; // = new KerberosKey(KerberosPrincipal, byte[], int, int);
+        final KerberosKey sut = null; // = new KerberosKey(javax.security.auth.kerberos.KerberosPrincipal, byte[], int,
+                                      // int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KerberosKey#KerberosKey(KerberosPrincipal, char[], String) public
+     * {@link javax.security.auth.kerberos.KerberosKey#KerberosKey(javax.security.auth.kerberos.KerberosPrincipal, char[], String)
+     * public
      * javax.security.auth.kerberos.KerberosKey(javax.security.auth.kerberos.KerberosPrincipal,char[],java.lang.String)}
      * .
      *
@@ -64,7 +65,8 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosKeyClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final KerberosKey sut = null; // = new KerberosKey(KerberosPrincipal, char[], String);
+        final KerberosKey sut = null; // = new KerberosKey(javax.security.auth.kerberos.KerberosPrincipal, char[],
+                                      // String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.kerberos.KerberosKey]

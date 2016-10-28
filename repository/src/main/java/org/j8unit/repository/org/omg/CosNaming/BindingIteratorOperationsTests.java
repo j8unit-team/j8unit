@@ -6,9 +6,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CosNaming.BindingHolder;
 import org.omg.CosNaming.BindingIteratorOperations;
-import org.omg.CosNaming.BindingListHolder;
 
 /**
  * <p>
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingIteratorOperations#destroy() public abstract
-     * void org.omg.CosNaming.BindingIteratorOperations.destroy()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingIteratorOperations#destroy() public abstract void
+     * org.omg.CosNaming.BindingIteratorOperations.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BindingIteratorOperations#next_n(int, BindingListHolder) public abstract boolean
-     * org.omg.CosNaming.BindingIteratorOperations.next_n(int,org.omg.CosNaming.BindingListHolder)}.
+     * {@link org.omg.CosNaming.BindingIteratorOperations#next_n(int, org.omg.CosNaming.BindingListHolder) public
+     * abstract boolean org.omg.CosNaming.BindingIteratorOperations.next_n(int,org.omg.CosNaming.BindingListHolder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingIteratorOperations#next_one(BindingHolder)
-     * public abstract boolean org.omg.CosNaming.BindingIteratorOperations.next_one(org.omg.CosNaming.BindingHolder)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingIteratorOperations#next_one(org.omg.CosNaming.BindingHolder) public abstract
+     * boolean org.omg.CosNaming.BindingIteratorOperations.next_one(org.omg.CosNaming.BindingHolder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

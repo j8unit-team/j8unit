@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.DatagramPacket;
-import java.net.InetAddress;
-import java.net.SocketAddress;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.net.DatagramPacketClassTests<DatagramPacke
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DatagramPacket#DatagramPacket(byte[], int, SocketAddress) public
+     * {@link java.net.DatagramPacket#DatagramPacket(byte[], int, java.net.SocketAddress) public
      * java.net.DatagramPacket(byte[],int,java.net.SocketAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,13 @@ implements org.j8unit.repository.java.net.DatagramPacketClassTests<DatagramPacke
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DatagramPacket sut = null; // = new DatagramPacket(byte[], int, SocketAddress);
+        final DatagramPacket sut = null; // = new DatagramPacket(byte[], int, java.net.SocketAddress);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DatagramPacket#DatagramPacket(byte[], int, InetAddress, int) public
+     * {@link java.net.DatagramPacket#DatagramPacket(byte[], int, java.net.InetAddress, int) public
      * java.net.DatagramPacket(byte[],int,java.net.InetAddress,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +62,13 @@ implements org.j8unit.repository.java.net.DatagramPacketClassTests<DatagramPacke
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DatagramPacket sut = null; // = new DatagramPacket(byte[], int, InetAddress, int);
+        final DatagramPacket sut = null; // = new DatagramPacket(byte[], int, java.net.InetAddress, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DatagramPacket#DatagramPacket(byte[], int, int, SocketAddress) public
+     * {@link java.net.DatagramPacket#DatagramPacket(byte[], int, int, java.net.SocketAddress) public
      * java.net.DatagramPacket(byte[],int,int,java.net.SocketAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,13 +85,13 @@ implements org.j8unit.repository.java.net.DatagramPacketClassTests<DatagramPacke
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DatagramPacket sut = null; // = new DatagramPacket(byte[], int, int, SocketAddress);
+        final DatagramPacket sut = null; // = new DatagramPacket(byte[], int, int, java.net.SocketAddress);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DatagramPacket#DatagramPacket(byte[], int, int)
-     * public java.net.DatagramPacket(byte[],int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.DatagramPacket#DatagramPacket(byte[], int, int) public java.net.DatagramPacket(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -114,8 +112,8 @@ implements org.j8unit.repository.java.net.DatagramPacketClassTests<DatagramPacke
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DatagramPacket#DatagramPacket(byte[], int)
-     * public java.net.DatagramPacket(byte[],int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.DatagramPacket#DatagramPacket(byte[], int) public java.net.DatagramPacket(byte[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,7 +135,7 @@ implements org.j8unit.repository.java.net.DatagramPacketClassTests<DatagramPacke
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DatagramPacket#DatagramPacket(byte[], int, int, InetAddress, int) public
+     * {@link java.net.DatagramPacket#DatagramPacket(byte[], int, int, java.net.InetAddress, int) public
      * java.net.DatagramPacket(byte[],int,int,java.net.InetAddress,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,7 +152,7 @@ implements org.j8unit.repository.java.net.DatagramPacketClassTests<DatagramPacke
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DatagramPacket sut = null; // = new DatagramPacket(byte[], int, int, InetAddress, int);
+        final DatagramPacket sut = null; // = new DatagramPacket(byte[], int, int, java.net.InetAddress, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.DatagramPacket]

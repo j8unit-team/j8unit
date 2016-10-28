@@ -35,8 +35,9 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompoundControl#getMemberControls() public
-     * javax.sound.sampled.Control[] javax.sound.sampled.CompoundControl.getMemberControls()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.CompoundControl#getMemberControls() public javax.sound.sampled.Control[]
+     * javax.sound.sampled.CompoundControl.getMemberControls()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompoundControl#toString() public java.lang.String
-     * javax.sound.sampled.CompoundControl.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.CompoundControl#toString()
+     * public java.lang.String javax.sound.sampled.CompoundControl.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

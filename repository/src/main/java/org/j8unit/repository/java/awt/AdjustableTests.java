@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Adjustable;
-import java.awt.event.AdjustmentListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#setBlockIncrement(int) public abstract
-     * void java.awt.Adjustable.setBlockIncrement(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#setBlockIncrement(int) public
+     * abstract void java.awt.Adjustable.setBlockIncrement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#getMinimum() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#getMinimum() public abstract int
      * java.awt.Adjustable.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#setMinimum(int) public abstract void
-     * java.awt.Adjustable.setMinimum(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#setMinimum(int) public abstract
+     * void java.awt.Adjustable.setMinimum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#setUnitIncrement(int) public abstract
-     * void java.awt.Adjustable.setUnitIncrement(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#setUnitIncrement(int) public
+     * abstract void java.awt.Adjustable.setUnitIncrement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#getOrientation() public abstract int
-     * java.awt.Adjustable.getOrientation()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#getOrientation() public abstract
+     * int java.awt.Adjustable.getOrientation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#setVisibleAmount(int) public abstract
-     * void java.awt.Adjustable.setVisibleAmount(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#setVisibleAmount(int) public
+     * abstract void java.awt.Adjustable.setVisibleAmount(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#getUnitIncrement() public abstract int
-     * java.awt.Adjustable.getUnitIncrement()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#getUnitIncrement() public
+     * abstract int java.awt.Adjustable.getUnitIncrement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,7 +189,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#getValue() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#getValue() public abstract int
      * java.awt.Adjustable.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +211,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#getBlockIncrement() public abstract int
-     * java.awt.Adjustable.getBlockIncrement()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#getBlockIncrement() public
+     * abstract int java.awt.Adjustable.getBlockIncrement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +233,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#getVisibleAmount() public abstract int
-     * java.awt.Adjustable.getVisibleAmount()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#getVisibleAmount() public
+     * abstract int java.awt.Adjustable.getVisibleAmount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +255,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#setValue(int) public abstract void
-     * java.awt.Adjustable.setValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#setValue(int) public abstract
+     * void java.awt.Adjustable.setValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +277,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#addAdjustmentListener(AdjustmentListener)
-     * public abstract void java.awt.Adjustable.addAdjustmentListener(java.awt.event.AdjustmentListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Adjustable#addAdjustmentListener(java.awt.event.AdjustmentListener) public abstract void
+     * java.awt.Adjustable.addAdjustmentListener(java.awt.event.AdjustmentListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,7 +301,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Adjustable#removeAdjustmentListener(AdjustmentListener) public abstract void
+     * {@link java.awt.Adjustable#removeAdjustmentListener(java.awt.event.AdjustmentListener) public abstract void
      * java.awt.Adjustable.removeAdjustmentListener(java.awt.event.AdjustmentListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -323,7 +323,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#getMaximum() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#getMaximum() public abstract int
      * java.awt.Adjustable.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,8 +345,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Adjustable#setMaximum(int) public abstract void
-     * java.awt.Adjustable.setMaximum(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Adjustable#setMaximum(int) public abstract
+     * void java.awt.Adjustable.setMaximum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

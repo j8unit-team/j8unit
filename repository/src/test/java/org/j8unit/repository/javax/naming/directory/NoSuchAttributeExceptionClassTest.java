@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.directory.NoSuchAttributeException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchAttributeException#NoSuchAttributeException(String) public
+     * {@link javax.naming.directory.NoSuchAttributeException#NoSuchAttributeException(String) public
      * javax.naming.directory.NoSuchAttributeException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.naming.directory.NoSuchAttributeException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchAttributeException#NoSuchAttributeException() public
+     * {@link javax.naming.directory.NoSuchAttributeException#NoSuchAttributeException() public
      * javax.naming.directory.NoSuchAttributeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

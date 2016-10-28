@@ -35,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoiceCallback#getSelectedIndexes() public int[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.ChoiceCallback#getSelectedIndexes() public int[]
      * javax.security.auth.callback.ChoiceCallback.getSelectedIndexes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoiceCallback#allowMultipleSelections() public
-     * boolean javax.security.auth.callback.ChoiceCallback.allowMultipleSelections()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.ChoiceCallback#allowMultipleSelections() public boolean
+     * javax.security.auth.callback.ChoiceCallback.allowMultipleSelections()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoiceCallback#getChoices() public
-     * java.lang.String[] javax.security.auth.callback.ChoiceCallback.getChoices()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.ChoiceCallback#getChoices() public java.lang.String[]
+     * javax.security.auth.callback.ChoiceCallback.getChoices()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +104,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoiceCallback#setSelectedIndexes(int[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.ChoiceCallback#setSelectedIndexes(int[]) public void
      * javax.security.auth.callback.ChoiceCallback.setSelectedIndexes(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +127,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoiceCallback#getDefaultChoice() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.ChoiceCallback#getDefaultChoice() public int
      * javax.security.auth.callback.ChoiceCallback.getDefaultChoice()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +150,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoiceCallback#setSelectedIndex(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.ChoiceCallback#setSelectedIndex(int) public void
      * javax.security.auth.callback.ChoiceCallback.setSelectedIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +173,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoiceCallback#getPrompt() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.ChoiceCallback#getPrompt() public java.lang.String
      * javax.security.auth.callback.ChoiceCallback.getPrompt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

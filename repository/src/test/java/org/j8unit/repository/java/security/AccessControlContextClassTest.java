@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.AccessControlContext;
-import java.security.DomainCombiner;
-import java.security.ProtectionDomain;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.security.AccessControlContextClassTests<Ac
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccessControlContext#AccessControlContext(ProtectionDomain[]) public
+     * {@link java.security.AccessControlContext#AccessControlContext(java.security.ProtectionDomain[]) public
      * java.security.AccessControlContext(java.security.ProtectionDomain[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,14 +39,14 @@ implements org.j8unit.repository.java.security.AccessControlContextClassTests<Ac
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AccessControlContext sut = null; // = new AccessControlContext(ProtectionDomain[]);
+        final AccessControlContext sut = null; // = new AccessControlContext(java.security.ProtectionDomain[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccessControlContext#AccessControlContext(AccessControlContext, DomainCombiner) public
-     * java.security.AccessControlContext(java.security.AccessControlContext,java.security.DomainCombiner)}.
+     * {@link java.security.AccessControlContext#AccessControlContext(java.security.AccessControlContext, java.security.DomainCombiner)
+     * public java.security.AccessControlContext(java.security.AccessControlContext,java.security.DomainCombiner)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +62,8 @@ implements org.j8unit.repository.java.security.AccessControlContextClassTests<Ac
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AccessControlContext sut = null; // = new AccessControlContext(AccessControlContext, DomainCombiner);
+        final AccessControlContext sut = null; // = new AccessControlContext(java.security.AccessControlContext,
+                                               // java.security.DomainCombiner);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AccessControlContext]

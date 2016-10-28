@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig.spec;
 
-import java.util.Map;
 import javax.xml.crypto.dsig.spec.XPathFilterParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilterParameter
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XPathFilterParameterSpec#XPathFilterParameterSpec(String) public
+     * {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#XPathFilterParameterSpec(String) public
      * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,7 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilterParameter
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XPathFilterParameterSpec#XPathFilterParameterSpec(String, Map) public
+     * {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#XPathFilterParameterSpec(String, java.util.Map) public
      * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec(java.lang.String,java.util.Map)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilterParameter
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XPathFilterParameterSpec sut = null; // = new XPathFilterParameterSpec(String, Map);
+        final XPathFilterParameterSpec sut = null; // = new XPathFilterParameterSpec(String, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathFilterParameterSpec]

@@ -1,16 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.awt.event.FocusEvent;
-import java.awt.event.ItemEvent;
-import java.awt.event.KeyEvent;
-import java.beans.PropertyChangeEvent;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.event.ListDataEvent;
 import javax.swing.plaf.basic.BasicComboBoxUI;
 import javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager;
 import javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler;
@@ -51,7 +40,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#unconfigureArrowButton() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#unconfigureArrowButton() public void
      * javax.swing.plaf.basic.BasicComboBoxUI.unconfigureArrowButton()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -73,8 +63,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#addEditor() public void
-     * javax.swing.plaf.basic.BasicComboBoxUI.addEditor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicComboBoxUI#addEditor()
+     * public void javax.swing.plaf.basic.BasicComboBoxUI.addEditor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -95,7 +85,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#removeEditor() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#removeEditor() public void
      * javax.swing.plaf.basic.BasicComboBoxUI.removeEditor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -117,8 +108,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.basic.BasicComboBoxUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicComboBoxUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,8 +132,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#isFocusTraversable(JComboBox) public
-     * boolean javax.swing.plaf.basic.BasicComboBoxUI.isFocusTraversable(javax.swing.JComboBox)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#isFocusTraversable(javax.swing.JComboBox) public boolean
+     * javax.swing.plaf.basic.BasicComboBoxUI.isFocusTraversable(javax.swing.JComboBox)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -163,8 +156,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#isPopupVisible(JComboBox) public
-     * boolean javax.swing.plaf.basic.BasicComboBoxUI.isPopupVisible(javax.swing.JComboBox)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#isPopupVisible(javax.swing.JComboBox) public boolean
+     * javax.swing.plaf.basic.BasicComboBoxUI.isPopupVisible(javax.swing.JComboBox)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -187,7 +181,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicComboBoxUI#paintCurrentValue(Graphics, Rectangle, boolean) public void
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#paintCurrentValue(java.awt.Graphics, java.awt.Rectangle, boolean)
+     * public void
      * javax.swing.plaf.basic.BasicComboBoxUI.paintCurrentValue(java.awt.Graphics,java.awt.Rectangle,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -209,8 +204,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicComboBoxUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicComboBoxUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,7 +228,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#configureArrowButton() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#configureArrowButton() public void
      * javax.swing.plaf.basic.BasicComboBoxUI.configureArrowButton()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,7 +252,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicComboBoxUI#getAccessibleChildrenCount(JComponent) public int
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.basic.BasicComboBoxUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -278,8 +275,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#setPopupVisible(JComboBox, boolean)
-     * public void javax.swing.plaf.basic.BasicComboBoxUI.setPopupVisible(javax.swing.JComboBox,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#setPopupVisible(javax.swing.JComboBox, boolean) public void
+     * javax.swing.plaf.basic.BasicComboBoxUI.setPopupVisible(javax.swing.JComboBox,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,7 +299,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicComboBoxUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -325,7 +324,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicComboBoxUI#paintCurrentValueBackground(Graphics, Rectangle, boolean) public void
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#paintCurrentValueBackground(java.awt.Graphics, java.awt.Rectangle, boolean)
+     * public void
      * javax.swing.plaf.basic.BasicComboBoxUI.paintCurrentValueBackground(java.awt.Graphics,java.awt.Rectangle,boolean)}
      * .
      *
@@ -348,8 +348,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicComboBoxUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicComboBoxUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -372,7 +373,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicComboBoxUI#getBaselineResizeBehavior(JComponent) public java.awt.Component$BaselineResizeBehavior
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#getBaselineResizeBehavior(javax.swing.JComponent) public
+     * java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.basic.BasicComboBoxUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -395,8 +397,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.basic.BasicComboBoxUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -419,8 +422,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicComboBoxUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicComboBoxUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -442,7 +446,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicComboBoxUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -465,8 +470,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxUI#getBaseline(JComponent, int, int)
-     * public int javax.swing.plaf.basic.BasicComboBoxUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxUI#getBaseline(javax.swing.JComponent, int, int) public int
+     * javax.swing.plaf.basic.BasicComboBoxUI.getBaseline(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -487,234 +493,6 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI]
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link FocusHandler public class javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.FocusHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface FocusHandlerTests<SUT extends FocusHandler>
-    extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link FocusHandler#focusLost(FocusEvent) public void
-         * javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler.focusLost(java.awt.event.FocusEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_focusLost_FocusEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link FocusHandler#focusGained(FocusEvent) public void
-         * javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler.focusGained(java.awt.event.FocusEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_focusGained_FocusEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ListDataHandler public class javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ListDataHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ListDataHandlerTests<SUT extends ListDataHandler>
-    extends org.j8unit.repository.javax.swing.event.ListDataListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link ListDataHandler#contentsChanged(ListDataEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler.contentsChanged(javax.swing.event.ListDataEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_contentsChanged_ListDataEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link ListDataHandler#intervalRemoved(ListDataEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler.intervalRemoved(javax.swing.event.ListDataEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_intervalRemoved_ListDataEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link ListDataHandler#intervalAdded(ListDataEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler.intervalAdded(javax.swing.event.ListDataEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_intervalAdded_ListDataEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link KeyHandler
-     * public class javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface KeyHandlerTests<SUT extends KeyHandler>
-    extends org.j8unit.repository.java.awt.event.KeyAdapterTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link KeyHandler#keyPressed(KeyEvent) public void
-         * javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler.keyPressed(java.awt.event.KeyEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_keyPressed_KeyEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
-
-    }
 
     /**
      * <p>
@@ -745,7 +523,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link PropertyChangeHandler#propertyChange(PropertyChangeEvent) public void
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler#propertyChange(java.beans.PropertyChangeEvent)
+         * public void
          * javax.swing.plaf.basic.BasicComboBoxUI$PropertyChangeHandler.propertyChange(java.beans.PropertyChangeEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -799,7 +578,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link ComboBoxLayoutManager#preferredLayoutSize(Container) public java.awt.Dimension
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager#preferredLayoutSize(java.awt.Container)
+         * public java.awt.Dimension
          * javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager.preferredLayoutSize(java.awt.Container)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -823,7 +603,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link ComboBoxLayoutManager#removeLayoutComponent(Component) public void
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager#removeLayoutComponent(java.awt.Component)
+         * public void
          * javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager.removeLayoutComponent(java.awt.Component)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -847,7 +628,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link ComboBoxLayoutManager#minimumLayoutSize(Container) public java.awt.Dimension
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager#minimumLayoutSize(java.awt.Container)
+         * public java.awt.Dimension
          * javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager.minimumLayoutSize(java.awt.Container)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -870,7 +652,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ComboBoxLayoutManager#layoutContainer(Container)
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager#layoutContainer(java.awt.Container)
          * public void javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager.layoutContainer(java.awt.Container)}
          * .
          *
@@ -895,7 +678,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link ComboBoxLayoutManager#addLayoutComponent(String, Component) public void
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager#addLayoutComponent(String, java.awt.Component)
+         * public void
          * javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}
          * .
          *
@@ -918,6 +702,240 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
         }
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link FocusHandler public class javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.FocusHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface FocusHandlerTests<SUT extends FocusHandler>
+    extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler#focusLost(java.awt.event.FocusEvent) public void
+         * javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler.focusLost(java.awt.event.FocusEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_focusLost_FocusEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler#focusGained(java.awt.event.FocusEvent) public void
+         * javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler.focusGained(java.awt.event.FocusEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_focusGained_FocusEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ListDataHandler public class javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ListDataHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ListDataHandlerTests<SUT extends ListDataHandler>
+    extends org.j8unit.repository.javax.swing.event.ListDataListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler#contentsChanged(javax.swing.event.ListDataEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler.contentsChanged(javax.swing.event.ListDataEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_contentsChanged_ListDataEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler#intervalRemoved(javax.swing.event.ListDataEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler.intervalRemoved(javax.swing.event.ListDataEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_intervalRemoved_ListDataEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler#intervalAdded(javax.swing.event.ListDataEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler.intervalAdded(javax.swing.event.ListDataEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_intervalAdded_ListDataEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link KeyHandler
+     * public class javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface KeyHandlerTests<SUT extends KeyHandler>
+    extends org.j8unit.repository.java.awt.event.KeyAdapterTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler#keyPressed(java.awt.event.KeyEvent) public void
+         * javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler.keyPressed(java.awt.event.KeyEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_keyPressed_KeyEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
 
     }
 
@@ -948,7 +966,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ItemHandler#itemStateChanged(ItemEvent) public
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler#itemStateChanged(java.awt.event.ItemEvent) public
          * void javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler.itemStateChanged(java.awt.event.ItemEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

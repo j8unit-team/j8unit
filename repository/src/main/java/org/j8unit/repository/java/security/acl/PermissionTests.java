@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Permission#equals(Object) public abstract boolean
-     * java.security.acl.Permission.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.Permission#equals(Object) public
+     * abstract boolean java.security.acl.Permission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Permission#toString() public abstract
-     * java.lang.String java.security.acl.Permission.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.Permission#toString() public
+     * abstract java.lang.String java.security.acl.Permission.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

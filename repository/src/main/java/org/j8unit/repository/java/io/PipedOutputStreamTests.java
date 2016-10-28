@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedOutputStream#connect(PipedInputStream) public
-     * synchronized void java.io.PipedOutputStream.connect(java.io.PipedInputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.io.PipedOutputStream#connect(java.io.PipedInputStream) public synchronized void
+     * java.io.PipedOutputStream.connect(java.io.PipedInputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedOutputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedOutputStream#close() public void
      * java.io.PipedOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedOutputStream#write(byte[], int, int) public
-     * void java.io.PipedOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedOutputStream#write(byte[], int, int)
+     * public void java.io.PipedOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedOutputStream#write(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedOutputStream#write(int) public void
      * java.io.PipedOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedOutputStream#flush() public synchronized void
-     * java.io.PipedOutputStream.flush() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedOutputStream#flush() public
+     * synchronized void java.io.PipedOutputStream.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

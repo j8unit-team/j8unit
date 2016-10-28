@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.Element;
 import javax.swing.text.LabelView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.LabelViewClassTests<LabelView>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LabelView#LabelView(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.LabelView#LabelView(javax.swing.text.Element) public
      * javax.swing.text.LabelView(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.LabelViewClassTests<LabelView>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LabelView sut = null; // = new LabelView(Element);
+        final LabelView sut = null; // = new LabelView(javax.swing.text.Element);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.LabelView]

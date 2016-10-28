@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.time.format;
 
 import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeFormatter#ofLocalizedTime(FormatStyle)
-     * public static java.time.format.DateTimeFormatter
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeFormatter#ofLocalizedTime(java.time.format.FormatStyle) public static
+     * java.time.format.DateTimeFormatter
      * java.time.format.DateTimeFormatter.ofLocalizedTime(java.time.format.FormatStyle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +38,14 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     @Category(Draft.class)
     public void test_ofLocalizedTime_FormatStyle()
     throws Exception {
-        // write some test for {@link DateTimeFormatter#ofLocalizedTime(FormatStyle)}
+        // write some test for {@link java.time.format.DateTimeFormatter#ofLocalizedTime(java.time.format.FormatStyle)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeFormatter#parsedExcessDays() public static
-     * final java.time.temporal.TemporalQuery<java.time.Period> java.time.format.DateTimeFormatter.parsedExcessDays()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeFormatter#parsedExcessDays() public static final java.time.temporal.TemporalQuery
+     * <java.time.Period> java.time.format.DateTimeFormatter.parsedExcessDays()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,13 +59,14 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     @Category(Draft.class)
     public void test_parsedExcessDays()
     throws Exception {
-        // write some test for {@link DateTimeFormatter#parsedExcessDays()}
+        // write some test for {@link java.time.format.DateTimeFormatter#parsedExcessDays()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeFormatter#parsedLeapSecond() public static
-     * final java.time.temporal.TemporalQuery<java.lang.Boolean> java.time.format.DateTimeFormatter.parsedLeapSecond()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeFormatter#parsedLeapSecond() public static final java.time.temporal.TemporalQuery
+     * <java.lang.Boolean> java.time.format.DateTimeFormatter.parsedLeapSecond()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,14 +80,14 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     @Category(Draft.class)
     public void test_parsedLeapSecond()
     throws Exception {
-        // write some test for {@link DateTimeFormatter#parsedLeapSecond()}
+        // write some test for {@link java.time.format.DateTimeFormatter#parsedLeapSecond()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DateTimeFormatter#ofLocalizedDateTime(FormatStyle, FormatStyle) public static
-     * java.time.format.DateTimeFormatter
+     * {@link java.time.format.DateTimeFormatter#ofLocalizedDateTime(java.time.format.FormatStyle, java.time.format.FormatStyle)
+     * public static java.time.format.DateTimeFormatter
      * java.time.format.DateTimeFormatter.ofLocalizedDateTime(java.time.format.FormatStyle,java.time.format.FormatStyle)}
      * .
      *
@@ -102,13 +103,16 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     @Category(Draft.class)
     public void test_ofLocalizedDateTime_FormatStyle_FormatStyle()
     throws Exception {
-        // write some test for {@link DateTimeFormatter#ofLocalizedDateTime(FormatStyle, FormatStyle)}
+        // write some test for {@link
+        // java.time.format.DateTimeFormatter#ofLocalizedDateTime(java.time.format.FormatStyle,
+        // java.time.format.FormatStyle)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeFormatter#ofLocalizedDateTime(FormatStyle)
-     * public static java.time.format.DateTimeFormatter
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeFormatter#ofLocalizedDateTime(java.time.format.FormatStyle) public static
+     * java.time.format.DateTimeFormatter
      * java.time.format.DateTimeFormatter.ofLocalizedDateTime(java.time.format.FormatStyle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,13 +127,15 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     @Category(Draft.class)
     public void test_ofLocalizedDateTime_FormatStyle()
     throws Exception {
-        // write some test for {@link DateTimeFormatter#ofLocalizedDateTime(FormatStyle)}
+        // write some test for {@link
+        // java.time.format.DateTimeFormatter#ofLocalizedDateTime(java.time.format.FormatStyle)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeFormatter#ofLocalizedDate(FormatStyle)
-     * public static java.time.format.DateTimeFormatter
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeFormatter#ofLocalizedDate(java.time.format.FormatStyle) public static
+     * java.time.format.DateTimeFormatter
      * java.time.format.DateTimeFormatter.ofLocalizedDate(java.time.format.FormatStyle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,13 +150,13 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     @Category(Draft.class)
     public void test_ofLocalizedDate_FormatStyle()
     throws Exception {
-        // write some test for {@link DateTimeFormatter#ofLocalizedDate(FormatStyle)}
+        // write some test for {@link java.time.format.DateTimeFormatter#ofLocalizedDate(java.time.format.FormatStyle)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeFormatter#ofPattern(String) public static
-     * java.time.format.DateTimeFormatter java.time.format.DateTimeFormatter.ofPattern(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DateTimeFormatter#ofPattern(String)
+     * public static java.time.format.DateTimeFormatter java.time.format.DateTimeFormatter.ofPattern(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -164,13 +170,14 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     @Category(Draft.class)
     public void test_ofPattern_String()
     throws Exception {
-        // write some test for {@link DateTimeFormatter#ofPattern(String)}
+        // write some test for {@link java.time.format.DateTimeFormatter#ofPattern(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeFormatter#ofPattern(String, Locale) public
-     * static java.time.format.DateTimeFormatter
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeFormatter#ofPattern(String, java.util.Locale) public static
+     * java.time.format.DateTimeFormatter
      * java.time.format.DateTimeFormatter.ofPattern(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -185,7 +192,7 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     @Category(Draft.class)
     public void test_ofPattern_String_Locale()
     throws Exception {
-        // write some test for {@link DateTimeFormatter#ofPattern(String, Locale)}
+        // write some test for {@link java.time.format.DateTimeFormatter#ofPattern(String, java.util.Locale)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DateTimeFormatter]

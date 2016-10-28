@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.RuntimeOperationsExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RuntimeOperationsException#RuntimeOperationsException(RuntimeException) public
+     * {@link javax.management.RuntimeOperationsException#RuntimeOperationsException(RuntimeException) public
      * javax.management.RuntimeOperationsException(java.lang.RuntimeException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.RuntimeOperationsExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RuntimeOperationsException#RuntimeOperationsException(RuntimeException, String) public
+     * {@link javax.management.RuntimeOperationsException#RuntimeOperationsException(RuntimeException, String) public
      * javax.management.RuntimeOperationsException(java.lang.RuntimeException,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -2,7 +2,6 @@ package org.j8unit.repository.java.awt.font;
 
 import java.awt.font.NumericShaper;
 import java.awt.font.NumericShaper.Range;
-import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,48 +22,8 @@ implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericSh
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NumericShaper#getContextualShaper(Set) public static
-     * java.awt.font.NumericShaper java.awt.font.NumericShaper.getContextualShaper(java.util.Set
-     * <java.awt.font.NumericShaper$Range>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getContextualShaper_Set()
-    throws Exception {
-        // write some test for {@link NumericShaper#getContextualShaper(Set)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link NumericShaper#getContextualShaper(int) public static
-     * java.awt.font.NumericShaper java.awt.font.NumericShaper.getContextualShaper(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getContextualShaper_int()
-    throws Exception {
-        // write some test for {@link NumericShaper#getContextualShaper(int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link NumericShaper#getContextualShaper(Set, Range) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.NumericShaper#getContextualShaper(java.util.Set, java.awt.font.NumericShaper.Range) public
      * static java.awt.font.NumericShaper java.awt.font.NumericShaper.getContextualShaper(java.util.Set
      * <java.awt.font.NumericShaper$Range>,java.awt.font.NumericShaper$Range)}.
      *
@@ -80,13 +39,35 @@ implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericSh
     @Category(Draft.class)
     public void test_getContextualShaper_Set_Range()
     throws Exception {
-        // write some test for {@link NumericShaper#getContextualShaper(Set, Range)}
+        // write some test for {@link java.awt.font.NumericShaper#getContextualShaper(java.util.Set,
+        // java.awt.font.NumericShaper.Range)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NumericShaper#getContextualShaper(int, int) public
-     * static java.awt.font.NumericShaper java.awt.font.NumericShaper.getContextualShaper(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.NumericShaper#getContextualShaper(int)
+     * public static java.awt.font.NumericShaper java.awt.font.NumericShaper.getContextualShaper(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getContextualShaper_int()
+    throws Exception {
+        // write some test for {@link java.awt.font.NumericShaper#getContextualShaper(int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.NumericShaper#getContextualShaper(int, int) public static java.awt.font.NumericShaper
+     * java.awt.font.NumericShaper.getContextualShaper(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +81,14 @@ implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericSh
     @Category(Draft.class)
     public void test_getContextualShaper_int_int()
     throws Exception {
-        // write some test for {@link NumericShaper#getContextualShaper(int, int)}
+        // write some test for {@link java.awt.font.NumericShaper#getContextualShaper(int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NumericShaper#getShaper(int) public static
-     * java.awt.font.NumericShaper java.awt.font.NumericShaper.getShaper(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.NumericShaper#getContextualShaper(java.util.Set) public static java.awt.font.NumericShaper
+     * java.awt.font.NumericShaper.getContextualShaper(java.util.Set<java.awt.font.NumericShaper$Range>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -118,14 +100,15 @@ implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericSh
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getShaper_int()
+    public void test_getContextualShaper_Set()
     throws Exception {
-        // write some test for {@link NumericShaper#getShaper(int)}
+        // write some test for {@link java.awt.font.NumericShaper#getContextualShaper(java.util.Set)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NumericShaper#getShaper(Range) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.NumericShaper#getShaper(java.awt.font.NumericShaper.Range) public static
      * java.awt.font.NumericShaper java.awt.font.NumericShaper.getShaper(java.awt.font.NumericShaper$Range)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -140,7 +123,27 @@ implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericSh
     @Category(Draft.class)
     public void test_getShaper_Range()
     throws Exception {
-        // write some test for {@link NumericShaper#getShaper(Range)}
+        // write some test for {@link java.awt.font.NumericShaper#getShaper(java.awt.font.NumericShaper.Range)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.NumericShaper#getShaper(int) public
+     * static java.awt.font.NumericShaper java.awt.font.NumericShaper.getShaper(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getShaper_int()
+    throws Exception {
+        // write some test for {@link java.awt.font.NumericShaper#getShaper(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.NumericShaper]
@@ -158,8 +161,9 @@ implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericSh
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Range#valueOf(String) public static
-         * java.awt.font.NumericShaper$Range java.awt.font.NumericShaper$Range.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.font.NumericShaper.Range#valueOf(String) public static java.awt.font.NumericShaper$Range
+         * java.awt.font.NumericShaper$Range.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -173,13 +177,13 @@ implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericSh
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Range#valueOf(String)}
+            // write some test for {@link java.awt.font.NumericShaper.Range#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Range#values() public static
-         * java.awt.font.NumericShaper$Range[] java.awt.font.NumericShaper$Range.values()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.font.NumericShaper.Range#values()
+         * public static java.awt.font.NumericShaper$Range[] java.awt.font.NumericShaper$Range.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -193,7 +197,7 @@ implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericSh
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Range#values()}
+            // write some test for {@link java.awt.font.NumericShaper.Range#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.NumericShaper$Range]

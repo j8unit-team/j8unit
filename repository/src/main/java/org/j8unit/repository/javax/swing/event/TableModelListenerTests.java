@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableModelListener#tableChanged(TableModelEvent)
-     * public abstract void javax.swing.event.TableModelListener.tableChanged(javax.swing.event.TableModelEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TableModelListener#tableChanged(javax.swing.event.TableModelEvent) public abstract void
+     * javax.swing.event.TableModelListener.tableChanged(javax.swing.event.TableModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -54,21 +54,6 @@ implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, org.j8unit.repository.
     }
 
     @RunWith(J8Unit4.class)
-    public static class ElementSpecTest
-    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests<ElementSpec> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
-
-        @Override
-        public ElementSpec createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.DefaultStyledDocument.ElementSpec], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class ElementBufferTest
     implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests<ElementBuffer> {
 
@@ -80,6 +65,21 @@ implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, org.j8unit.repository.
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ElementSpecTest
+    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests<ElementSpec> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
+
+        @Override
+        public ElementSpec createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.DefaultStyledDocument.ElementSpec], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
 
     }
 

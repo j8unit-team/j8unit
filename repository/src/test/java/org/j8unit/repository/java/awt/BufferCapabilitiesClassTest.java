@@ -2,7 +2,6 @@ package org.j8unit.repository.java.awt;
 
 import java.awt.BufferCapabilities;
 import java.awt.BufferCapabilities.FlipContents;
-import java.awt.ImageCapabilities;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +23,8 @@ implements org.j8unit.repository.java.awt.BufferCapabilitiesClassTests<BufferCap
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BufferCapabilities#BufferCapabilities(ImageCapabilities, ImageCapabilities, FlipContents) public
+     * {@link java.awt.BufferCapabilities#BufferCapabilities(java.awt.ImageCapabilities, java.awt.ImageCapabilities, java.awt.BufferCapabilities.FlipContents)
+     * public
      * java.awt.BufferCapabilities(java.awt.ImageCapabilities,java.awt.ImageCapabilities,java.awt.BufferCapabilities$FlipContents)}
      * .
      *
@@ -42,8 +42,8 @@ implements org.j8unit.repository.java.awt.BufferCapabilitiesClassTests<BufferCap
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferCapabilities sut = null; // = new BufferCapabilities(ImageCapabilities, ImageCapabilities,
-                                             // FlipContents);
+        final BufferCapabilities sut = null; // = new BufferCapabilities(java.awt.ImageCapabilities,
+                                             // java.awt.ImageCapabilities, java.awt.BufferCapabilities.FlipContents);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.BufferCapabilities]

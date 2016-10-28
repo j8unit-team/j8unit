@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.text.Format;
-import javax.swing.JFormattedTextField;
 import javax.swing.text.InternationalFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,9 +34,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#stringToValue(String) public
-     * java.lang.Object javax.swing.text.InternationalFormatter.stringToValue(java.lang.String) throws
-     * java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.InternationalFormatter#stringToValue(String) public java.lang.Object
+     * javax.swing.text.InternationalFormatter.stringToValue(java.lang.String) throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#install(JFormattedTextField)
-     * public void javax.swing.text.InternationalFormatter.install(javax.swing.JFormattedTextField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.InternationalFormatter#install(javax.swing.JFormattedTextField) public void
+     * javax.swing.text.InternationalFormatter.install(javax.swing.JFormattedTextField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +82,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#setFormat(Format) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.InternationalFormatter#setFormat(java.text.Format) public void
      * javax.swing.text.InternationalFormatter.setFormat(java.text.Format)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +105,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#setMaximum(Comparable) public
-     * void javax.swing.text.InternationalFormatter.setMaximum(java.lang.Comparable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.InternationalFormatter#setMaximum(Comparable) public void
+     * javax.swing.text.InternationalFormatter.setMaximum(java.lang.Comparable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +128,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#getFields(int) public
-     * java.text.Format$Field[] javax.swing.text.InternationalFormatter.getFields(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.InternationalFormatter#getFields(int) public java.text.Format$Field[]
+     * javax.swing.text.InternationalFormatter.getFields(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,9 +151,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#valueToString(Object) public
-     * java.lang.String javax.swing.text.InternationalFormatter.valueToString(java.lang.Object) throws
-     * java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.InternationalFormatter#valueToString(Object) public java.lang.String
+     * javax.swing.text.InternationalFormatter.valueToString(java.lang.Object) throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +175,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#getMaximum() public
-     * java.lang.Comparable javax.swing.text.InternationalFormatter.getMaximum()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.InternationalFormatter#getMaximum()
+     * public java.lang.Comparable javax.swing.text.InternationalFormatter.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +197,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#setMinimum(Comparable) public
-     * void javax.swing.text.InternationalFormatter.setMinimum(java.lang.Comparable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.InternationalFormatter#setMinimum(Comparable) public void
+     * javax.swing.text.InternationalFormatter.setMinimum(java.lang.Comparable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,8 +220,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#getMinimum() public
-     * java.lang.Comparable javax.swing.text.InternationalFormatter.getMinimum()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.InternationalFormatter#getMinimum()
+     * public java.lang.Comparable javax.swing.text.InternationalFormatter.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,8 +242,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#clone() public
-     * java.lang.Object javax.swing.text.InternationalFormatter.clone() throws java.lang.CloneNotSupportedException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.InternationalFormatter#clone()
+     * public java.lang.Object javax.swing.text.InternationalFormatter.clone() throws
+     * java.lang.CloneNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -262,8 +266,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InternationalFormatter#getFormat() public
-     * java.text.Format javax.swing.text.InternationalFormatter.getFormat()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.InternationalFormatter#getFormat()
+     * public java.text.Format javax.swing.text.InternationalFormatter.getFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

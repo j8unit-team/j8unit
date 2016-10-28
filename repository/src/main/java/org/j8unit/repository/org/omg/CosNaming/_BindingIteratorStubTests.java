@@ -5,8 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CosNaming.BindingHolder;
-import org.omg.CosNaming.BindingListHolder;
 import org.omg.CosNaming._BindingIteratorStub;
 
 /**
@@ -36,8 +34,8 @@ extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _BindingIteratorStub#destroy() public void
-     * org.omg.CosNaming._BindingIteratorStub.destroy()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming._BindingIteratorStub#destroy()
+     * public void org.omg.CosNaming._BindingIteratorStub.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _BindingIteratorStub#next_n(int, BindingListHolder)
-     * public boolean org.omg.CosNaming._BindingIteratorStub.next_n(int,org.omg.CosNaming.BindingListHolder)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming._BindingIteratorStub#next_n(int, org.omg.CosNaming.BindingListHolder) public boolean
+     * org.omg.CosNaming._BindingIteratorStub.next_n(int,org.omg.CosNaming.BindingListHolder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,9 @@ extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _BindingIteratorStub#next_one(BindingHolder) public
-     * boolean org.omg.CosNaming._BindingIteratorStub.next_one(org.omg.CosNaming.BindingHolder)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming._BindingIteratorStub#next_one(org.omg.CosNaming.BindingHolder) public boolean
+     * org.omg.CosNaming._BindingIteratorStub.next_one(org.omg.CosNaming.BindingHolder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +105,7 @@ extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _BindingIteratorStub#_ids() public
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming._BindingIteratorStub#_ids() public
      * java.lang.String[] org.omg.CosNaming._BindingIteratorStub._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

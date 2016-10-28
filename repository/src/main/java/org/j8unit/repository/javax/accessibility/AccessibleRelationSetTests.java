@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.accessibility;
 
-import javax.accessibility.AccessibleRelation;
 import javax.accessibility.AccessibleRelationSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#contains(String) public
-     * boolean javax.accessibility.AccessibleRelationSet.contains(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleRelationSet#contains(String) public boolean
+     * javax.accessibility.AccessibleRelationSet.contains(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#add(AccessibleRelation) public
-     * boolean javax.accessibility.AccessibleRelationSet.add(javax.accessibility.AccessibleRelation)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleRelationSet#add(javax.accessibility.AccessibleRelation) public boolean
+     * javax.accessibility.AccessibleRelationSet.add(javax.accessibility.AccessibleRelation)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#get(String) public
-     * javax.accessibility.AccessibleRelation javax.accessibility.AccessibleRelationSet.get(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleRelationSet#get(String) public javax.accessibility.AccessibleRelation
+     * javax.accessibility.AccessibleRelationSet.get(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#addAll(AccessibleRelation[])
-     * public void javax.accessibility.AccessibleRelationSet.addAll(javax.accessibility.AccessibleRelation[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleRelationSet#addAll(javax.accessibility.AccessibleRelation[]) public void
+     * javax.accessibility.AccessibleRelationSet.addAll(javax.accessibility.AccessibleRelation[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#size() public int
-     * javax.accessibility.AccessibleRelationSet.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleRelationSet#size()
+     * public int javax.accessibility.AccessibleRelationSet.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +148,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#toString() public
-     * java.lang.String javax.accessibility.AccessibleRelationSet.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleRelationSet#toString()
+     * public java.lang.String javax.accessibility.AccessibleRelationSet.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +171,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#toArray() public
-     * javax.accessibility.AccessibleRelation[] javax.accessibility.AccessibleRelationSet.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleRelationSet#toArray()
+     * public javax.accessibility.AccessibleRelation[] javax.accessibility.AccessibleRelationSet.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +193,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#clear() public void
-     * javax.accessibility.AccessibleRelationSet.clear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleRelationSet#clear()
+     * public void javax.accessibility.AccessibleRelationSet.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +215,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#remove(AccessibleRelation)
-     * public boolean javax.accessibility.AccessibleRelationSet.remove(javax.accessibility.AccessibleRelation)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleRelationSet#remove(javax.accessibility.AccessibleRelation) public boolean
+     * javax.accessibility.AccessibleRelationSet.remove(javax.accessibility.AccessibleRelation)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

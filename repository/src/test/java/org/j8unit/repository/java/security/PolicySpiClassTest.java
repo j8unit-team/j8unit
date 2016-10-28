@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.PolicySpiClassTests<PolicySpi> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PolicySpi#PolicySpi() public
+     * Test method for the hereby targeted constructor-under-test {@link java.security.PolicySpi#PolicySpi() public
      * java.security.PolicySpi()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

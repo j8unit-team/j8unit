@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.annotation.processing;
 
 import javax.annotation.processing.Messager;
-import javax.lang.model.element.AnnotationMirror;
-import javax.lang.model.element.AnnotationValue;
-import javax.lang.model.element.Element;
-import javax.tools.Diagnostic.Kind;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Messager#printMessage(Kind, CharSequence) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence) public
      * abstract void
      * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence)}.
      *
@@ -62,7 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Messager#printMessage(Kind, CharSequence, Element)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence, javax.lang.model.element.Element)
      * public abstract void
      * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element)}
      * .
@@ -87,7 +85,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Messager#printMessage(Kind, CharSequence, Element, AnnotationMirror) public abstract void
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror)
+     * public abstract void
      * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror)}
      * .
      *
@@ -111,7 +110,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Messager#printMessage(Kind, CharSequence, Element, AnnotationMirror, AnnotationValue) public abstract void
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind, CharSequence, javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror, javax.lang.model.element.AnnotationValue)
+     * public abstract void
      * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.AnnotationValue)}
      * .
      *

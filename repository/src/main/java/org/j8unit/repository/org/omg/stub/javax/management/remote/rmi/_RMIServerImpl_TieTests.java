@@ -1,14 +1,10 @@
 package org.j8unit.repository.org.omg.stub.javax.management.remote.rmi;
 
-import java.rmi.Remote;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.ResponseHandler;
 import org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie;
 
 /**
@@ -38,8 +34,9 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServerImpl_Tie#getTarget() public
-     * java.rmi.Remote org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.getTarget()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie#getTarget() public java.rmi.Remote
+     * org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +59,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link _RMIServerImpl_Tie#_invoke(String, InputStream, ResponseHandler) public
-     * org.omg.CORBA.portable.OutputStream
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie#_invoke(String, org.omg.CORBA.portable.InputStream, org.omg.CORBA.portable.ResponseHandler)
+     * public org.omg.CORBA.portable.OutputStream
      * org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie._invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)
      * throws org.omg.CORBA.SystemException}.
      *
@@ -87,7 +84,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServerImpl_Tie#_ids() public java.lang.String[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie#_ids() public java.lang.String[]
      * org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,7 +108,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServerImpl_Tie#setTarget(Remote) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie#setTarget(java.rmi.Remote) public void
      * org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.setTarget(java.rmi.Remote)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,8 +132,9 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServerImpl_Tie#thisObject() public
-     * org.omg.CORBA.Object org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.thisObject()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie#thisObject() public org.omg.CORBA.Object
+     * org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.thisObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,7 +156,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServerImpl_Tie#deactivate() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie#deactivate() public void
      * org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.deactivate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,30 +180,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServerImpl_Tie#orb(ORB) public void
-     * org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.orb(org.omg.CORBA.ORB)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_orb_ORB()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServerImpl_Tie#orb() public org.omg.CORBA.ORB
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie#orb() public org.omg.CORBA.ORB
      * org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.orb()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -217,6 +196,30 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     public default void test_orb()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie#orb(org.omg.CORBA.ORB) public void
+     * org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie.orb(org.omg.CORBA.ORB)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_orb_ORB()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

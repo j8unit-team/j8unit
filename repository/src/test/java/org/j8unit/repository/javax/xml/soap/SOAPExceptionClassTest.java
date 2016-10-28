@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPExceptionClassTests<SOAPExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SOAPException#SOAPException(Throwable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.soap.SOAPException#SOAPException(Throwable) public
      * javax.xml.soap.SOAPException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +44,9 @@ implements org.j8unit.repository.javax.xml.soap.SOAPExceptionClassTests<SOAPExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SOAPException#SOAPException(String, Throwable)
-     * public javax.xml.soap.SOAPException(java.lang.String,java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.soap.SOAPException#SOAPException(String, Throwable) public
+     * javax.xml.soap.SOAPException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,8 +67,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPExceptionClassTests<SOAPExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SOAPException#SOAPException(String) public
-     * javax.xml.soap.SOAPException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.soap.SOAPException#SOAPException(String) public javax.xml.soap.SOAPException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +89,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPExceptionClassTests<SOAPExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SOAPException#SOAPException() public
-     * javax.xml.soap.SOAPException()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.soap.SOAPException#SOAPException()
+     * public javax.xml.soap.SOAPException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

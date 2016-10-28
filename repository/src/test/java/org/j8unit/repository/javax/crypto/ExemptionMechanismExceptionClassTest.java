@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.crypto.ExemptionMechanismExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ExemptionMechanismException#ExemptionMechanismException() public
+     * {@link javax.crypto.ExemptionMechanismException#ExemptionMechanismException() public
      * javax.crypto.ExemptionMechanismException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.crypto.ExemptionMechanismExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ExemptionMechanismException#ExemptionMechanismException(String) public
+     * {@link javax.crypto.ExemptionMechanismException#ExemptionMechanismException(String) public
      * javax.crypto.ExemptionMechanismException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

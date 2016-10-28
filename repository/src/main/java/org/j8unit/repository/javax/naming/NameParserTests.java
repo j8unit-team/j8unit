@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameParser#parse(String) public abstract
-     * javax.naming.Name javax.naming.NameParser.parse(java.lang.String) throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NameParser#parse(String) public
+     * abstract javax.naming.Name javax.naming.NameParser.parse(java.lang.String) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemException#getMessage() public
-     * java.lang.String java.nio.file.FileSystemException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileSystemException#getMessage()
+     * public java.lang.String java.nio.file.FileSystemException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemException#getOtherFile() public
-     * java.lang.String java.nio.file.FileSystemException.getOtherFile()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileSystemException#getOtherFile()
+     * public java.lang.String java.nio.file.FileSystemException.getOtherFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemException#getFile() public
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileSystemException#getFile() public
      * java.lang.String java.nio.file.FileSystemException.getFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemException#getReason() public
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileSystemException#getReason() public
      * java.lang.String java.nio.file.FileSystemException.getReason()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

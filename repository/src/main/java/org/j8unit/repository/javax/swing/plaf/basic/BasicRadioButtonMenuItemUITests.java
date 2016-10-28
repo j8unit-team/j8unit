@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.event.MouseEvent;
-import javax.swing.JMenuItem;
-import javax.swing.MenuElement;
-import javax.swing.MenuSelectionManager;
 import javax.swing.plaf.basic.BasicRadioButtonMenuItemUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +35,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicRadioButtonMenuItemUI#processMouseEvent(JMenuItem, MouseEvent, MenuElement[], MenuSelectionManager)
+     * {@link javax.swing.plaf.basic.BasicRadioButtonMenuItemUI#processMouseEvent(javax.swing.JMenuItem, java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public void
      * javax.swing.plaf.basic.BasicRadioButtonMenuItemUI.processMouseEvent(javax.swing.JMenuItem,java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .

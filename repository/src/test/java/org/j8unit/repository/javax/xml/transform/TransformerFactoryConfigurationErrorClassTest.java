@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerFactoryConfigura
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformerFactoryConfigurationError#TransformerFactoryConfigurationError(Exception, String) public
-     * javax.xml.transform.TransformerFactoryConfigurationError(java.lang.Exception,java.lang.String)}.
+     * {@link javax.xml.transform.TransformerFactoryConfigurationError#TransformerFactoryConfigurationError(Exception, String)
+     * public javax.xml.transform.TransformerFactoryConfigurationError(java.lang.Exception,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +46,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerFactoryConfigura
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformerFactoryConfigurationError#TransformerFactoryConfigurationError(Exception) public
-     * javax.xml.transform.TransformerFactoryConfigurationError(java.lang.Exception)}.
+     * {@link javax.xml.transform.TransformerFactoryConfigurationError#TransformerFactoryConfigurationError(Exception)
+     * public javax.xml.transform.TransformerFactoryConfigurationError(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -69,8 +69,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerFactoryConfigura
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformerFactoryConfigurationError#TransformerFactoryConfigurationError(String) public
-     * javax.xml.transform.TransformerFactoryConfigurationError(java.lang.String)}.
+     * {@link javax.xml.transform.TransformerFactoryConfigurationError#TransformerFactoryConfigurationError(String)
+     * public javax.xml.transform.TransformerFactoryConfigurationError(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -92,7 +92,7 @@ implements org.j8unit.repository.javax.xml.transform.TransformerFactoryConfigura
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformerFactoryConfigurationError#TransformerFactoryConfigurationError() public
+     * {@link javax.xml.transform.TransformerFactoryConfigurationError#TransformerFactoryConfigurationError() public
      * javax.xml.transform.TransformerFactoryConfigurationError()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Comparator;
-import java.util.Map;
-import java.util.SortedMap;
 import java.util.TreeMap;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,8 +22,8 @@ implements org.j8unit.repository.java.util.TreeMapClassTests<TreeMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeMap#TreeMap(SortedMap) public
-     * java.util.TreeMap(java.util.SortedMap<K, ? extends V>)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeMap#TreeMap(java.util.SortedMap)
+     * public java.util.TreeMap(java.util.SortedMap<K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,12 +39,12 @@ implements org.j8unit.repository.java.util.TreeMapClassTests<TreeMap> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeMap sut = null; // = new TreeMap(SortedMap);
+        final TreeMap sut = null; // = new TreeMap(java.util.SortedMap);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeMap#TreeMap(Map) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeMap#TreeMap(java.util.Map) public
      * java.util.TreeMap(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +61,13 @@ implements org.j8unit.repository.java.util.TreeMapClassTests<TreeMap> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeMap sut = null; // = new TreeMap(Map);
+        final TreeMap sut = null; // = new TreeMap(java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeMap#TreeMap(Comparator) public
-     * java.util.TreeMap(java.util.Comparator<? super K>)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeMap#TreeMap(java.util.Comparator)
+     * public java.util.TreeMap(java.util.Comparator<? super K>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,12 +83,13 @@ implements org.j8unit.repository.java.util.TreeMapClassTests<TreeMap> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeMap sut = null; // = new TreeMap(Comparator);
+        final TreeMap sut = null; // = new TreeMap(java.util.Comparator);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeMap#TreeMap() public java.util.TreeMap()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeMap#TreeMap() public
+     * java.util.TreeMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

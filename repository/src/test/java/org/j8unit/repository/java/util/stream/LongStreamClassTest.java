@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.stream;
 
-import java.util.function.LongSupplier;
-import java.util.function.LongUnaryOperator;
 import java.util.stream.LongStream;
 import java.util.stream.LongStream.Builder;
 import org.j8unit.repository.categories.Draft;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#of(long) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#of(long) public static
      * java.util.stream.LongStream java.util.stream.LongStream.of(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +37,13 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
     @Category(Draft.class)
     public void test_of_long()
     throws Exception {
-        // write some test for {@link LongStream#of(long)}
+        // write some test for {@link java.util.stream.LongStream#of(long)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#of(long...) public static
-     * java.util.stream.LongStream java.util.stream.LongStream.of(long...)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#of(long...) public
+     * static java.util.stream.LongStream java.util.stream.LongStream.of(long...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,13 +57,13 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
     @Category(Draft.class)
     public void test_of_longArray()
     throws Exception {
-        // write some test for {@link LongStream#of(long...)}
+        // write some test for {@link java.util.stream.LongStream#of(long...)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#rangeClosed(long, long) public static
-     * java.util.stream.LongStream java.util.stream.LongStream.rangeClosed(long,long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#rangeClosed(long, long)
+     * public static java.util.stream.LongStream java.util.stream.LongStream.rangeClosed(long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,13 +77,14 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
     @Category(Draft.class)
     public void test_rangeClosed_long_long()
     throws Exception {
-        // write some test for {@link LongStream#rangeClosed(long, long)}
+        // write some test for {@link java.util.stream.LongStream#rangeClosed(long, long)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#concat(LongStream, LongStream) public
-     * static java.util.stream.LongStream
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#concat(java.util.stream.LongStream, java.util.stream.LongStream) public static
+     * java.util.stream.LongStream
      * java.util.stream.LongStream.concat(java.util.stream.LongStream,java.util.stream.LongStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,13 +99,14 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
     @Category(Draft.class)
     public void test_concat_LongStream_LongStream()
     throws Exception {
-        // write some test for {@link LongStream#concat(LongStream, LongStream)}
+        // write some test for {@link java.util.stream.LongStream#concat(java.util.stream.LongStream,
+        // java.util.stream.LongStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#range(long, long) public static
-     * java.util.stream.LongStream java.util.stream.LongStream.range(long,long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#range(long, long) public
+     * static java.util.stream.LongStream java.util.stream.LongStream.range(long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,12 +120,12 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
     @Category(Draft.class)
     public void test_range_long_long()
     throws Exception {
-        // write some test for {@link LongStream#range(long, long)}
+        // write some test for {@link java.util.stream.LongStream#range(long, long)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#builder() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#builder() public static
      * java.util.stream.LongStream$Builder java.util.stream.LongStream.builder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -140,12 +140,12 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
     @Category(Draft.class)
     public void test_builder()
     throws Exception {
-        // write some test for {@link LongStream#builder()}
+        // write some test for {@link java.util.stream.LongStream#builder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#empty() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#empty() public static
      * java.util.stream.LongStream java.util.stream.LongStream.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,14 +160,14 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
     @Category(Draft.class)
     public void test_empty()
     throws Exception {
-        // write some test for {@link LongStream#empty()}
+        // write some test for {@link java.util.stream.LongStream#empty()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#iterate(long, LongUnaryOperator) public
-     * static java.util.stream.LongStream
-     * java.util.stream.LongStream.iterate(long,java.util.function.LongUnaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#iterate(long, java.util.function.LongUnaryOperator) public static
+     * java.util.stream.LongStream java.util.stream.LongStream.iterate(long,java.util.function.LongUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,12 +181,13 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
     @Category(Draft.class)
     public void test_iterate_long_LongUnaryOperator()
     throws Exception {
-        // write some test for {@link LongStream#iterate(long, LongUnaryOperator)}
+        // write some test for {@link java.util.stream.LongStream#iterate(long, java.util.function.LongUnaryOperator)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongStream#generate(LongSupplier) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#generate(java.util.function.LongSupplier) public static
      * java.util.stream.LongStream java.util.stream.LongStream.generate(java.util.function.LongSupplier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,7 +202,7 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
     @Category(Draft.class)
     public void test_generate_LongSupplier()
     throws Exception {
-        // write some test for {@link LongStream#generate(LongSupplier)}
+        // write some test for {@link java.util.stream.LongStream#generate(java.util.function.LongSupplier)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.LongStream]

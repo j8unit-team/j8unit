@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.IllegalFormatPrecisionExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalFormatPrecisionException#IllegalFormatPrecisionException(int) public
+     * {@link java.util.IllegalFormatPrecisionException#IllegalFormatPrecisionException(int) public
      * java.util.IllegalFormatPrecisionException(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

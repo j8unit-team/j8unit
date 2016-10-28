@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.tools;
 
-import java.io.InputStream;
-import java.io.OutputStream;
 import javax.tools.Tool;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -38,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Tool#run(InputStream, OutputStream, OutputStream, String...) public abstract int
+     * {@link javax.tools.Tool#run(java.io.InputStream, java.io.OutputStream, java.io.OutputStream, String...) public
+     * abstract int
      * javax.tools.Tool.run(java.io.InputStream,java.io.OutputStream,java.io.OutputStream,java.lang.String...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Tool#getSourceVersions() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Tool#getSourceVersions() public abstract
      * java.util.Set<javax.lang.model.SourceVersion> javax.tools.Tool.getSourceVersions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

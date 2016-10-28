@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
 import java.time.chrono.Chronology;
-import java.time.temporal.TemporalAccessor;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +21,7 @@ implements org.j8unit.repository.java.time.chrono.ChronologyClassTests<Chronolog
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Chronology#of(String) public static
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.Chronology#of(String) public static
      * java.time.chrono.Chronology java.time.chrono.Chronology.of(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,12 +36,13 @@ implements org.j8unit.repository.java.time.chrono.ChronologyClassTests<Chronolog
     @Category(Draft.class)
     public void test_of_String()
     throws Exception {
-        // write some test for {@link Chronology#of(String)}
+        // write some test for {@link java.time.chrono.Chronology#of(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Chronology#from(TemporalAccessor) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Chronology#from(java.time.temporal.TemporalAccessor) public static
      * java.time.chrono.Chronology java.time.chrono.Chronology.from(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,13 +57,14 @@ implements org.j8unit.repository.java.time.chrono.ChronologyClassTests<Chronolog
     @Category(Draft.class)
     public void test_from_TemporalAccessor()
     throws Exception {
-        // write some test for {@link Chronology#from(TemporalAccessor)}
+        // write some test for {@link java.time.chrono.Chronology#from(java.time.temporal.TemporalAccessor)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Chronology#getAvailableChronologies() public static
-     * java.util.Set<java.time.chrono.Chronology> java.time.chrono.Chronology.getAvailableChronologies()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Chronology#getAvailableChronologies() public static java.util.Set
+     * <java.time.chrono.Chronology> java.time.chrono.Chronology.getAvailableChronologies()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,13 +78,14 @@ implements org.j8unit.repository.java.time.chrono.ChronologyClassTests<Chronolog
     @Category(Draft.class)
     public void test_getAvailableChronologies()
     throws Exception {
-        // write some test for {@link Chronology#getAvailableChronologies()}
+        // write some test for {@link java.time.chrono.Chronology#getAvailableChronologies()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Chronology#ofLocale(Locale) public static
-     * java.time.chrono.Chronology java.time.chrono.Chronology.ofLocale(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Chronology#ofLocale(java.util.Locale) public static java.time.chrono.Chronology
+     * java.time.chrono.Chronology.ofLocale(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,7 +99,7 @@ implements org.j8unit.repository.java.time.chrono.ChronologyClassTests<Chronolog
     @Category(Draft.class)
     public void test_ofLocale_Locale()
     throws Exception {
-        // write some test for {@link Chronology#ofLocale(Locale)}
+        // write some test for {@link java.time.chrono.Chronology#ofLocale(java.util.Locale)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.Chronology]

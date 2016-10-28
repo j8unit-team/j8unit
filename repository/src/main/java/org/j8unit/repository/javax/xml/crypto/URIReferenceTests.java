@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URIReference#getType() public abstract
-     * java.lang.String javax.xml.crypto.URIReference.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.URIReference#getType() public
+     * abstract java.lang.String javax.xml.crypto.URIReference.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URIReference#getURI() public abstract
-     * java.lang.String javax.xml.crypto.URIReference.getURI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.URIReference#getURI() public
+     * abstract java.lang.String javax.xml.crypto.URIReference.getURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

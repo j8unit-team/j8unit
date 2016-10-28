@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#insertElementAt(Object, int) public
-     * void javax.swing.DefaultListModel.insertElementAt(E,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultListModel#insertElementAt(Object, int) public void
+     * javax.swing.DefaultListModel.insertElementAt(E,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#getSize() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#getSize() public int
      * javax.swing.DefaultListModel.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#contains(Object) public boolean
-     * javax.swing.DefaultListModel.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#contains(Object) public
+     * boolean javax.swing.DefaultListModel.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +102,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#lastIndexOf(Object, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultListModel#lastIndexOf(Object, int) public int
      * javax.swing.DefaultListModel.lastIndexOf(java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +125,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#lastIndexOf(Object) public int
-     * javax.swing.DefaultListModel.lastIndexOf(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#lastIndexOf(Object)
+     * public int javax.swing.DefaultListModel.lastIndexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +147,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#lastElement() public E
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#lastElement() public E
      * javax.swing.DefaultListModel.lastElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +169,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#elements() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#elements() public
      * java.util.Enumeration<E> javax.swing.DefaultListModel.elements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,7 +191,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#size() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#size() public int
      * javax.swing.DefaultListModel.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,8 +213,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#ensureCapacity(int) public void
-     * javax.swing.DefaultListModel.ensureCapacity(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#ensureCapacity(int)
+     * public void javax.swing.DefaultListModel.ensureCapacity(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +235,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#addElement(Object) public void
-     * javax.swing.DefaultListModel.addElement(E)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#addElement(Object)
+     * public void javax.swing.DefaultListModel.addElement(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +257,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#toString() public java.lang.String
-     * javax.swing.DefaultListModel.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#toString() public
+     * java.lang.String javax.swing.DefaultListModel.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +280,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#removeElement(Object) public
-     * boolean javax.swing.DefaultListModel.removeElement(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#removeElement(Object)
+     * public boolean javax.swing.DefaultListModel.removeElement(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,8 +302,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#trimToSize() public void
-     * javax.swing.DefaultListModel.trimToSize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#trimToSize() public
+     * void javax.swing.DefaultListModel.trimToSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -322,8 +324,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#set(int, Object) public E
-     * javax.swing.DefaultListModel.set(int,E)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#set(int, Object) public
+     * E javax.swing.DefaultListModel.set(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -344,8 +346,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#add(int, Object) public void
-     * javax.swing.DefaultListModel.add(int,E)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#add(int, Object) public
+     * void javax.swing.DefaultListModel.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -366,8 +368,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#copyInto(Object[]) public void
-     * javax.swing.DefaultListModel.copyInto(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#copyInto(Object[])
+     * public void javax.swing.DefaultListModel.copyInto(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -388,8 +390,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#isEmpty() public boolean
-     * javax.swing.DefaultListModel.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#isEmpty() public
+     * boolean javax.swing.DefaultListModel.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -410,7 +412,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#clear() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#clear() public void
      * javax.swing.DefaultListModel.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -432,8 +434,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#setSize(int) public void
-     * javax.swing.DefaultListModel.setSize(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#setSize(int) public
+     * void javax.swing.DefaultListModel.setSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -454,7 +456,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#get(int) public E
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#get(int) public E
      * javax.swing.DefaultListModel.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -476,8 +478,9 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#setElementAt(Object, int) public
-     * void javax.swing.DefaultListModel.setElementAt(E,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultListModel#setElementAt(Object, int) public void
+     * javax.swing.DefaultListModel.setElementAt(E,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -498,8 +501,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#removeRange(int, int) public void
-     * javax.swing.DefaultListModel.removeRange(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#removeRange(int, int)
+     * public void javax.swing.DefaultListModel.removeRange(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -520,8 +523,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#removeElementAt(int) public void
-     * javax.swing.DefaultListModel.removeElementAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#removeElementAt(int)
+     * public void javax.swing.DefaultListModel.removeElementAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -542,7 +545,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#elementAt(int) public E
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#elementAt(int) public E
      * javax.swing.DefaultListModel.elementAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -564,8 +567,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#toArray() public java.lang.Object[]
-     * javax.swing.DefaultListModel.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#toArray() public
+     * java.lang.Object[] javax.swing.DefaultListModel.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -586,8 +589,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#removeAllElements() public void
-     * javax.swing.DefaultListModel.removeAllElements()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#removeAllElements()
+     * public void javax.swing.DefaultListModel.removeAllElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -608,8 +611,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#getElementAt(int) public E
-     * javax.swing.DefaultListModel.getElementAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#getElementAt(int)
+     * public E javax.swing.DefaultListModel.getElementAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -631,8 +634,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#indexOf(Object) public int
-     * javax.swing.DefaultListModel.indexOf(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#indexOf(Object) public
+     * int javax.swing.DefaultListModel.indexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -653,8 +656,8 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#indexOf(Object, int) public int
-     * javax.swing.DefaultListModel.indexOf(java.lang.Object,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#indexOf(Object, int)
+     * public int javax.swing.DefaultListModel.indexOf(java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -675,7 +678,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#firstElement() public E
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#firstElement() public E
      * javax.swing.DefaultListModel.firstElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -697,7 +700,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#capacity() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#capacity() public int
      * javax.swing.DefaultListModel.capacity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -719,7 +722,7 @@ extends org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListModel#remove(int) public E
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListModel#remove(int) public E
      * javax.swing.DefaultListModel.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

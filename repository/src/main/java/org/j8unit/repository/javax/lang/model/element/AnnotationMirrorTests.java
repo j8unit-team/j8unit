@@ -35,9 +35,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationMirror#getElementValues() public abstract
-     * java.util.Map<? extends javax.lang.model.element.ExecutableElement, ? extends
-     * javax.lang.model.element.AnnotationValue> javax.lang.model.element.AnnotationMirror.getElementValues()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationMirror#getElementValues() public abstract java.util.Map<? extends
+     * javax.lang.model.element.ExecutableElement, ? extends javax.lang.model.element.AnnotationValue>
+     * javax.lang.model.element.AnnotationMirror.getElementValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationMirror#getAnnotationType() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationMirror#getAnnotationType() public abstract
      * javax.lang.model.type.DeclaredType javax.lang.model.element.AnnotationMirror.getAnnotationType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

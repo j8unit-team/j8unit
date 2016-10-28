@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumOperations#get_as_ulong() public abstract int
-     * org.omg.DynamicAny.DynEnumOperations.get_as_ulong()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynEnumOperations#get_as_ulong()
+     * public abstract int org.omg.DynamicAny.DynEnumOperations.get_as_ulong()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,9 +56,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumOperations#set_as_ulong(int) public abstract
-     * void org.omg.DynamicAny.DynEnumOperations.set_as_ulong(int) throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynEnumOperations#set_as_ulong(int) public abstract void
+     * org.omg.DynamicAny.DynEnumOperations.set_as_ulong(int) throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumOperations#set_as_string(String) public
-     * abstract void org.omg.DynamicAny.DynEnumOperations.set_as_string(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynEnumOperations#set_as_string(String) public abstract void
+     * org.omg.DynamicAny.DynEnumOperations.set_as_string(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +103,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumOperations#get_as_string() public abstract
-     * java.lang.String org.omg.DynamicAny.DynEnumOperations.get_as_string()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynEnumOperations#get_as_string()
+     * public abstract java.lang.String org.omg.DynamicAny.DynEnumOperations.get_as_string()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

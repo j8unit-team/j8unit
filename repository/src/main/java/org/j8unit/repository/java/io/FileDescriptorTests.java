@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDescriptor#valid() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.io.FileDescriptor#valid() public boolean
      * java.io.FileDescriptor.valid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDescriptor#sync() public native void
+     * Test method for the hereby targeted method-under-test {@link java.io.FileDescriptor#sync() public native void
      * java.io.FileDescriptor.sync() throws java.io.SyncFailedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReferenceQueue#remove() public
+     * Test method for the hereby targeted method-under-test {@link java.lang.ref.ReferenceQueue#remove() public
      * java.lang.ref.Reference<? extends T> java.lang.ref.ReferenceQueue.remove() throws java.lang.InterruptedException}
      * .
      *
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReferenceQueue#remove(long) public
+     * Test method for the hereby targeted method-under-test {@link java.lang.ref.ReferenceQueue#remove(long) public
      * java.lang.ref.Reference<? extends T> java.lang.ref.ReferenceQueue.remove(long) throws
      * java.lang.IllegalArgumentException,java.lang.InterruptedException}.
      *
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReferenceQueue#poll() public
+     * Test method for the hereby targeted method-under-test {@link java.lang.ref.ReferenceQueue#poll() public
      * java.lang.ref.Reference<? extends T> java.lang.ref.ReferenceQueue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

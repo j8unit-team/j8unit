@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.cert.CertificateExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateException#CertificateException(Throwable) public
+     * {@link java.security.cert.CertificateException#CertificateException(Throwable) public
      * java.security.cert.CertificateException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.cert.CertificateExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateException#CertificateException(String, Throwable) public
+     * {@link java.security.cert.CertificateException#CertificateException(String, Throwable) public
      * java.security.cert.CertificateException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.security.cert.CertificateExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateException#CertificateException(String) public
+     * {@link java.security.cert.CertificateException#CertificateException(String) public
      * java.security.cert.CertificateException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,8 +90,9 @@ implements org.j8unit.repository.java.security.cert.CertificateExceptionClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CertificateException#CertificateException()
-     * public java.security.cert.CertificateException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.CertificateException#CertificateException() public
+     * java.security.cert.CertificateException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

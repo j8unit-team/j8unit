@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationGroupID#getSystem() public
-     * java.rmi.activation.ActivationSystem java.rmi.activation.ActivationGroupID.getSystem()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationGroupID#getSystem()
+     * public java.rmi.activation.ActivationSystem java.rmi.activation.ActivationGroupID.getSystem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationGroupID#hashCode() public int
-     * java.rmi.activation.ActivationGroupID.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationGroupID#hashCode()
+     * public int java.rmi.activation.ActivationGroupID.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationGroupID#equals(Object) public boolean
-     * java.rmi.activation.ActivationGroupID.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationGroupID#equals(Object)
+     * public boolean java.rmi.activation.ActivationGroupID.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

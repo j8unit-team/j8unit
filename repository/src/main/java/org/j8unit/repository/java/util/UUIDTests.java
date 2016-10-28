@@ -35,7 +35,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#compareTo(UUID) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#compareTo(java.util.UUID) public int
      * java.util.UUID.compareTo(java.util.UUID)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#toString() public java.lang.String
      * java.util.UUID.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#variant() public int java.util.UUID.variant()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#variant() public int
+     * java.util.UUID.variant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +102,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#timestamp() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#timestamp() public long
      * java.util.UUID.timestamp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +124,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#clockSequence() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#clockSequence() public int
      * java.util.UUID.clockSequence()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +146,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#version() public int java.util.UUID.version()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#version() public int
+     * java.util.UUID.version()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +168,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#getLeastSignificantBits() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#getLeastSignificantBits() public long
      * java.util.UUID.getLeastSignificantBits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,7 +190,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#node() public long java.util.UUID.node()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#node() public long
+     * java.util.UUID.node()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -209,7 +212,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#equals(Object) public boolean
      * java.util.UUID.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -232,7 +235,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#hashCode() public int
      * java.util.UUID.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,7 +258,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UUID#getMostSignificantBits() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.UUID#getMostSignificantBits() public long
      * java.util.UUID.getMostSignificantBits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.cert.CertificateEncodingException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateEncodingException#CertificateEncodingException(Throwable) public
+     * {@link java.security.cert.CertificateEncodingException#CertificateEncodingException(Throwable) public
      * java.security.cert.CertificateEncodingException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.cert.CertificateEncodingException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateEncodingException#CertificateEncodingException(String, Throwable) public
+     * {@link java.security.cert.CertificateEncodingException#CertificateEncodingException(String, Throwable) public
      * java.security.cert.CertificateEncodingException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.security.cert.CertificateEncodingException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateEncodingException#CertificateEncodingException(String) public
+     * {@link java.security.cert.CertificateEncodingException#CertificateEncodingException(String) public
      * java.security.cert.CertificateEncodingException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.java.security.cert.CertificateEncodingException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateEncodingException#CertificateEncodingException() public
+     * {@link java.security.cert.CertificateEncodingException#CertificateEncodingException() public
      * java.security.cert.CertificateEncodingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

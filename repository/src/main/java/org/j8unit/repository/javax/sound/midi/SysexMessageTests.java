@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SysexMessage#clone() public java.lang.Object
-     * javax.sound.midi.SysexMessage.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.SysexMessage#clone() public
+     * java.lang.Object javax.sound.midi.SysexMessage.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SysexMessage#setMessage(byte[], int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.SysexMessage#setMessage(byte[], int) public void
      * javax.sound.midi.SysexMessage.setMessage(byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SysexMessage#setMessage(int, byte[], int) public
-     * void javax.sound.midi.SysexMessage.setMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.SysexMessage#setMessage(int, byte[], int) public void
+     * javax.sound.midi.SysexMessage.setMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SysexMessage#getData() public byte[]
-     * javax.sound.midi.SysexMessage.getData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.SysexMessage#getData() public
+     * byte[] javax.sound.midi.SysexMessage.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

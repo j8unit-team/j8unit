@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.AWTPermissionClassTests<AWTPermission>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AWTPermission#AWTPermission(String) public
-     * java.awt.AWTPermission(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.AWTPermission#AWTPermission(String)
+     * public java.awt.AWTPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,9 @@ implements org.j8unit.repository.java.awt.AWTPermissionClassTests<AWTPermission>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AWTPermission#AWTPermission(String, String)
-     * public java.awt.AWTPermission(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.AWTPermission#AWTPermission(String, String) public
+     * java.awt.AWTPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

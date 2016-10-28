@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#getController(int) public abstract int
-     * javax.sound.midi.MidiChannel.getController(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#getController(int)
+     * public abstract int javax.sound.midi.MidiChannel.getController(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#localControl(boolean) public abstract
-     * boolean javax.sound.midi.MidiChannel.localControl(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#localControl(boolean)
+     * public abstract boolean javax.sound.midi.MidiChannel.localControl(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#setMono(boolean) public abstract void
-     * javax.sound.midi.MidiChannel.setMono(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#setMono(boolean) public
+     * abstract void javax.sound.midi.MidiChannel.setMono(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#setChannelPressure(int) public abstract
-     * void javax.sound.midi.MidiChannel.setChannelPressure(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#setChannelPressure(int)
+     * public abstract void javax.sound.midi.MidiChannel.setChannelPressure(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,30 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#programChange(int, int) public abstract
-     * void javax.sound.midi.MidiChannel.programChange(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_programChange_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#programChange(int) public abstract void
-     * javax.sound.midi.MidiChannel.programChange(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#programChange(int)
+     * public abstract void javax.sound.midi.MidiChannel.programChange(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +145,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#setPitchBend(int) public abstract void
-     * javax.sound.midi.MidiChannel.setPitchBend(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#programChange(int, int)
+     * public abstract void javax.sound.midi.MidiChannel.programChange(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_programChange_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#setPitchBend(int)
+     * public abstract void javax.sound.midi.MidiChannel.setPitchBend(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#noteOff(int, int) public abstract void
-     * javax.sound.midi.MidiChannel.noteOff(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#noteOff(int, int)
+     * public abstract void javax.sound.midi.MidiChannel.noteOff(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#noteOff(int) public abstract void
-     * javax.sound.midi.MidiChannel.noteOff(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#noteOff(int) public
+     * abstract void javax.sound.midi.MidiChannel.noteOff(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +233,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#noteOn(int, int) public abstract void
-     * javax.sound.midi.MidiChannel.noteOn(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#noteOn(int, int) public
+     * abstract void javax.sound.midi.MidiChannel.noteOn(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +255,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#getPitchBend() public abstract int
-     * javax.sound.midi.MidiChannel.getPitchBend()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#getPitchBend() public
+     * abstract int javax.sound.midi.MidiChannel.getPitchBend()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +277,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#setSolo(boolean) public abstract void
-     * javax.sound.midi.MidiChannel.setSolo(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#setSolo(boolean) public
+     * abstract void javax.sound.midi.MidiChannel.setSolo(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,8 +299,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#getMute() public abstract boolean
-     * javax.sound.midi.MidiChannel.getMute()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#getMute() public
+     * abstract boolean javax.sound.midi.MidiChannel.getMute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,8 +321,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#getOmni() public abstract boolean
-     * javax.sound.midi.MidiChannel.getOmni()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#getOmni() public
+     * abstract boolean javax.sound.midi.MidiChannel.getOmni()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -343,8 +343,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#setPolyPressure(int, int) public
-     * abstract void javax.sound.midi.MidiChannel.setPolyPressure(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.MidiChannel#setPolyPressure(int, int) public abstract void
+     * javax.sound.midi.MidiChannel.setPolyPressure(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -365,8 +366,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#getChannelPressure() public abstract int
-     * javax.sound.midi.MidiChannel.getChannelPressure()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#getChannelPressure()
+     * public abstract int javax.sound.midi.MidiChannel.getChannelPressure()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -387,8 +388,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#allNotesOff() public abstract void
-     * javax.sound.midi.MidiChannel.allNotesOff()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#allNotesOff() public
+     * abstract void javax.sound.midi.MidiChannel.allNotesOff()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,8 +410,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#getMono() public abstract boolean
-     * javax.sound.midi.MidiChannel.getMono()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#getMono() public
+     * abstract boolean javax.sound.midi.MidiChannel.getMono()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,8 +432,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#allSoundOff() public abstract void
-     * javax.sound.midi.MidiChannel.allSoundOff()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#allSoundOff() public
+     * abstract void javax.sound.midi.MidiChannel.allSoundOff()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -453,8 +454,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#controlChange(int, int) public abstract
-     * void javax.sound.midi.MidiChannel.controlChange(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#controlChange(int, int)
+     * public abstract void javax.sound.midi.MidiChannel.controlChange(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -475,8 +476,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#setOmni(boolean) public abstract void
-     * javax.sound.midi.MidiChannel.setOmni(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#setOmni(boolean) public
+     * abstract void javax.sound.midi.MidiChannel.setOmni(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -497,8 +498,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#setMute(boolean) public abstract void
-     * javax.sound.midi.MidiChannel.setMute(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#setMute(boolean) public
+     * abstract void javax.sound.midi.MidiChannel.setMute(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -519,8 +520,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#getPolyPressure(int) public abstract int
-     * javax.sound.midi.MidiChannel.getPolyPressure(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#getPolyPressure(int)
+     * public abstract int javax.sound.midi.MidiChannel.getPolyPressure(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -541,8 +542,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#resetAllControllers() public abstract
-     * void javax.sound.midi.MidiChannel.resetAllControllers()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#resetAllControllers()
+     * public abstract void javax.sound.midi.MidiChannel.resetAllControllers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -563,8 +564,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#getSolo() public abstract boolean
-     * javax.sound.midi.MidiChannel.getSolo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#getSolo() public
+     * abstract boolean javax.sound.midi.MidiChannel.getSolo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -585,8 +586,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiChannel#getProgram() public abstract int
-     * javax.sound.midi.MidiChannel.getProgram()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiChannel#getProgram() public
+     * abstract int javax.sound.midi.MidiChannel.getProgram()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

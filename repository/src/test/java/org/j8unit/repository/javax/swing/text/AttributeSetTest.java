@@ -23,21 +23,6 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetTests<AttributeSet
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet]
 
     @RunWith(J8Unit4.class)
-    public static class CharacterAttributeTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests<CharacterAttribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
-
-        @Override
-        public CharacterAttribute createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.CharacterAttribute], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class ColorAttributeTest
     implements org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests<ColorAttribute> {
 
@@ -49,6 +34,21 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetTests<AttributeSet
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class FontAttributeTest
+    implements org.j8unit.repository.javax.swing.text.AttributeSetTests.FontAttributeTests<FontAttribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+
+        @Override
+        public FontAttribute createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.FontAttribute], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
 
     }
 
@@ -68,17 +68,17 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetTests<AttributeSet
     }
 
     @RunWith(J8Unit4.class)
-    public static class FontAttributeTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetTests.FontAttributeTests<FontAttribute> {
+    public static class CharacterAttributeTest
+    implements org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests<CharacterAttribute> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
 
         @Override
-        public FontAttribute createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.FontAttribute], j8unit does not support a generic way to provide instances.");
+        public CharacterAttribute createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.CharacterAttribute], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
 
     }
 

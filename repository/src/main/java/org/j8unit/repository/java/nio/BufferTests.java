@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#array() public abstract java.lang.Object
-     * java.nio.Buffer.array()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#array() public abstract
+     * java.lang.Object java.nio.Buffer.array()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#rewind() public final java.nio.Buffer
-     * java.nio.Buffer.rewind()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#rewind() public final
+     * java.nio.Buffer java.nio.Buffer.rewind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#isReadOnly() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#isReadOnly() public abstract boolean
      * java.nio.Buffer.isReadOnly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#mark() public final java.nio.Buffer
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#mark() public final java.nio.Buffer
      * java.nio.Buffer.mark()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#flip() public final java.nio.Buffer
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#flip() public final java.nio.Buffer
      * java.nio.Buffer.flip()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#isDirect() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#isDirect() public abstract boolean
      * java.nio.Buffer.isDirect()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,7 +166,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#position() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#position() public final int
      * java.nio.Buffer.position()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,8 +188,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#position(int) public final java.nio.Buffer
-     * java.nio.Buffer.position(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#position(int) public final
+     * java.nio.Buffer java.nio.Buffer.position(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,7 +210,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#reset() public final java.nio.Buffer
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#reset() public final java.nio.Buffer
      * java.nio.Buffer.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -232,7 +232,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#arrayOffset() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#arrayOffset() public abstract int
      * java.nio.Buffer.arrayOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -254,7 +254,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#limit() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#limit() public final int
      * java.nio.Buffer.limit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -276,8 +276,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#limit(int) public final java.nio.Buffer
-     * java.nio.Buffer.limit(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#limit(int) public final
+     * java.nio.Buffer java.nio.Buffer.limit(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,7 +298,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#hasRemaining() public final boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#hasRemaining() public final boolean
      * java.nio.Buffer.hasRemaining()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -320,7 +320,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#hasArray() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#hasArray() public abstract boolean
      * java.nio.Buffer.hasArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -342,7 +342,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#capacity() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#capacity() public final int
      * java.nio.Buffer.capacity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -364,7 +364,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#remaining() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#remaining() public final int
      * java.nio.Buffer.remaining()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -386,7 +386,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Buffer#clear() public final java.nio.Buffer
+     * Test method for the hereby targeted method-under-test {@link java.nio.Buffer#clear() public final java.nio.Buffer
      * java.nio.Buffer.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

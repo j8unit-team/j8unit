@@ -36,8 +36,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Position#getOffset() public abstract int
-     * javax.swing.text.Position.getOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Position#getOffset() public
+     * abstract int javax.swing.text.Position.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +85,8 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Bias#toString() public java.lang.String
-         * javax.swing.text.Position$Bias.toString()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.text.Position.Bias#toString() public
+         * java.lang.String javax.swing.text.Position$Bias.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

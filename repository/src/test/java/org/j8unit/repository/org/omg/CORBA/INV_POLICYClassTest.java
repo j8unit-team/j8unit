@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.INV_POLICY;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.INV_POLICYClassTests<INV_POLICY> 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link INV_POLICY#INV_POLICY(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.INV_POLICY#INV_POLICY(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.INV_POLICY(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,14 @@ implements org.j8unit.repository.org.omg.CORBA.INV_POLICYClassTests<INV_POLICY> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final INV_POLICY sut = null; // = new INV_POLICY(String, int, CompletionStatus);
+        final INV_POLICY sut = null; // = new INV_POLICY(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INV_POLICY#INV_POLICY(int, CompletionStatus)
-     * public org.omg.CORBA.INV_POLICY(int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.INV_POLICY#INV_POLICY(int, org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.INV_POLICY(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +62,13 @@ implements org.j8unit.repository.org.omg.CORBA.INV_POLICYClassTests<INV_POLICY> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final INV_POLICY sut = null; // = new INV_POLICY(int, CompletionStatus);
+        final INV_POLICY sut = null; // = new INV_POLICY(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INV_POLICY#INV_POLICY(String) public
-     * org.omg.CORBA.INV_POLICY(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.INV_POLICY#INV_POLICY(String)
+     * public org.omg.CORBA.INV_POLICY(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,7 +89,7 @@ implements org.j8unit.repository.org.omg.CORBA.INV_POLICYClassTests<INV_POLICY> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INV_POLICY#INV_POLICY() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.INV_POLICY#INV_POLICY() public
      * org.omg.CORBA.INV_POLICY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

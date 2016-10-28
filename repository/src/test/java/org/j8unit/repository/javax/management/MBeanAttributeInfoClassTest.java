@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import java.lang.reflect.Method;
-import javax.management.Descriptor;
 import javax.management.MBeanAttributeInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.management.MBeanAttributeInfoClassTests<M
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanAttributeInfo#MBeanAttributeInfo(String, String, Method, Method) public
+     * {@link javax.management.MBeanAttributeInfo#MBeanAttributeInfo(String, String, java.lang.reflect.Method, java.lang.reflect.Method)
+     * public
      * javax.management.MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method)
      * throws javax.management.IntrospectionException}.
      *
@@ -42,13 +41,14 @@ implements org.j8unit.repository.javax.management.MBeanAttributeInfoClassTests<M
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanAttributeInfo sut = null; // = new MBeanAttributeInfo(String, String, Method, Method);
+        final MBeanAttributeInfo sut = null; // = new MBeanAttributeInfo(String, String, java.lang.reflect.Method,
+                                             // java.lang.reflect.Method);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanAttributeInfo#MBeanAttributeInfo(String, String, String, boolean, boolean, boolean, Descriptor)
+     * {@link javax.management.MBeanAttributeInfo#MBeanAttributeInfo(String, String, String, boolean, boolean, boolean, javax.management.Descriptor)
      * public
      * javax.management.MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor)}
      * .
@@ -68,13 +68,14 @@ implements org.j8unit.repository.javax.management.MBeanAttributeInfoClassTests<M
         // create new instance
         @SuppressWarnings("unused")
         final MBeanAttributeInfo sut = null; // = new MBeanAttributeInfo(String, String, String, boolean, boolean,
-                                             // boolean, Descriptor);
+                                             // boolean, javax.management.Descriptor);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanAttributeInfo#MBeanAttributeInfo(String, String, String, boolean, boolean, boolean) public
+     * {@link javax.management.MBeanAttributeInfo#MBeanAttributeInfo(String, String, String, boolean, boolean, boolean)
+     * public
      * javax.management.MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

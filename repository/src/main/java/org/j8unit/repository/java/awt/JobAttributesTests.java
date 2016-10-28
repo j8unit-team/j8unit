@@ -39,8 +39,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getMultipleDocumentHandling() public
-     * java.awt.JobAttributes$MultipleDocumentHandlingType java.awt.JobAttributes.getMultipleDocumentHandling()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getMultipleDocumentHandling()
+     * public java.awt.JobAttributes$MultipleDocumentHandlingType java.awt.JobAttributes.getMultipleDocumentHandling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +62,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JobAttributes#setDefaultSelection(DefaultSelectionType) public void
+     * {@link java.awt.JobAttributes#setDefaultSelection(java.awt.JobAttributes.DefaultSelectionType) public void
      * java.awt.JobAttributes.setDefaultSelection(java.awt.JobAttributes$DefaultSelectionType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +84,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getDialog() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getDialog() public
      * java.awt.JobAttributes$DialogType java.awt.JobAttributes.getDialog()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +106,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setDestination(DestinationType) public
-     * void java.awt.JobAttributes.setDestination(java.awt.JobAttributes$DestinationType)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.JobAttributes#setDestination(java.awt.JobAttributes.DestinationType) public void
+     * java.awt.JobAttributes.setDestination(java.awt.JobAttributes$DestinationType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +129,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getPageRanges() public int[][]
-     * java.awt.JobAttributes.getPageRanges()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getPageRanges() public
+     * int[][] java.awt.JobAttributes.getPageRanges()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,7 +151,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setSides(SidesType) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.JobAttributes#setSides(java.awt.JobAttributes.SidesType) public void
      * java.awt.JobAttributes.setSides(java.awt.JobAttributes$SidesType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +174,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getMaxPage() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getMaxPage() public int
      * java.awt.JobAttributes.getMaxPage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,7 +197,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JobAttributes#setMultipleDocumentHandling(MultipleDocumentHandlingType) public void
+     * {@link java.awt.JobAttributes#setMultipleDocumentHandling(java.awt.JobAttributes.MultipleDocumentHandlingType)
+     * public void
      * java.awt.JobAttributes.setMultipleDocumentHandling(java.awt.JobAttributes$MultipleDocumentHandlingType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -217,7 +220,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getDestination() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getDestination() public
      * java.awt.JobAttributes$DestinationType java.awt.JobAttributes.getDestination()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -239,7 +242,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getDefaultSelection() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getDefaultSelection() public
      * java.awt.JobAttributes$DefaultSelectionType java.awt.JobAttributes.getDefaultSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,8 +264,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setSidesToDefault() public void
-     * java.awt.JobAttributes.setSidesToDefault()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setSidesToDefault() public
+     * void java.awt.JobAttributes.setSidesToDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -283,7 +286,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getCopies() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getCopies() public int
      * java.awt.JobAttributes.getCopies()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -305,8 +308,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setPageRanges(int[][]) public void
-     * java.awt.JobAttributes.setPageRanges(int[][])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setPageRanges(int[][]) public
+     * void java.awt.JobAttributes.setPageRanges(int[][])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,7 +330,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setMaxPage(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setMaxPage(int) public void
      * java.awt.JobAttributes.setMaxPage(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,8 +352,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getFileName() public java.lang.String
-     * java.awt.JobAttributes.getFileName()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getFileName() public
+     * java.lang.String java.awt.JobAttributes.getFileName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,7 +374,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setMinPage(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setMinPage(int) public void
      * java.awt.JobAttributes.setMinPage(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -393,7 +396,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setCopies(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setCopies(int) public void
      * java.awt.JobAttributes.setCopies(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -415,7 +418,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#hashCode() public int
      * java.awt.JobAttributes.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -438,8 +441,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setMultipleDocumentHandlingToDefault()
-     * public void java.awt.JobAttributes.setMultipleDocumentHandlingToDefault()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.JobAttributes#setMultipleDocumentHandlingToDefault() public void
+     * java.awt.JobAttributes.setMultipleDocumentHandlingToDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -460,8 +464,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setFileName(String) public void
-     * java.awt.JobAttributes.setFileName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setFileName(String) public
+     * void java.awt.JobAttributes.setFileName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -482,8 +486,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getPrinter() public java.lang.String
-     * java.awt.JobAttributes.getPrinter()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getPrinter() public
+     * java.lang.String java.awt.JobAttributes.getPrinter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -504,7 +508,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setToPage(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setToPage(int) public void
      * java.awt.JobAttributes.setToPage(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -526,7 +530,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setDialog(DialogType) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.JobAttributes#setDialog(java.awt.JobAttributes.DialogType) public void
      * java.awt.JobAttributes.setDialog(java.awt.JobAttributes$DialogType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -548,7 +553,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getToPage() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getToPage() public int
      * java.awt.JobAttributes.getToPage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -570,7 +575,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getFromPage() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getFromPage() public int
      * java.awt.JobAttributes.getFromPage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -592,8 +597,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setPrinter(String) public void
-     * java.awt.JobAttributes.setPrinter(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setPrinter(String) public
+     * void java.awt.JobAttributes.setPrinter(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -614,7 +619,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getSides() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getSides() public
      * java.awt.JobAttributes$SidesType java.awt.JobAttributes.getSides()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -636,8 +641,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#set(JobAttributes) public void
-     * java.awt.JobAttributes.set(java.awt.JobAttributes)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#set(java.awt.JobAttributes)
+     * public void java.awt.JobAttributes.set(java.awt.JobAttributes)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -658,7 +663,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#getMinPage() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#getMinPage() public int
      * java.awt.JobAttributes.getMinPage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -680,8 +685,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#toString() public java.lang.String
-     * java.awt.JobAttributes.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#toString() public
+     * java.lang.String java.awt.JobAttributes.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -703,7 +708,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setFromPage(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setFromPage(int) public void
      * java.awt.JobAttributes.setFromPage(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -725,8 +730,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#clone() public java.lang.Object
-     * java.awt.JobAttributes.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#clone() public
+     * java.lang.Object java.awt.JobAttributes.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -747,8 +752,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#setCopiesToDefault() public void
-     * java.awt.JobAttributes.setCopiesToDefault()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#setCopiesToDefault() public
+     * void java.awt.JobAttributes.setCopiesToDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -769,7 +774,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobAttributes#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.JobAttributes#equals(Object) public boolean
      * java.awt.JobAttributes.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReadWriteLock#readLock() public abstract
-     * java.util.concurrent.locks.Lock java.util.concurrent.locks.ReadWriteLock.readLock()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.ReadWriteLock#readLock()
+     * public abstract java.util.concurrent.locks.Lock java.util.concurrent.locks.ReadWriteLock.readLock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReadWriteLock#writeLock() public abstract
-     * java.util.concurrent.locks.Lock java.util.concurrent.locks.ReadWriteLock.writeLock()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.ReadWriteLock#writeLock()
+     * public abstract java.util.concurrent.locks.Lock java.util.concurrent.locks.ReadWriteLock.writeLock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

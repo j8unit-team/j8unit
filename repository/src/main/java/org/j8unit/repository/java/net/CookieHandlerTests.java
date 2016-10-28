@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.CookieHandler;
-import java.net.URI;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,10 +34,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CookieHandler#get(URI, Map) public abstract
-     * java.util.Map<java.lang.String, java.util.List<java.lang.String>>
-     * java.net.CookieHandler.get(java.net.URI,java.util.Map<java.lang.String, java.util.List<java.lang.String>>) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.CookieHandler#get(java.net.URI, java.util.Map) public abstract java.util.Map<java.lang.String,
+     * java.util.List<java.lang.String>> java.net.CookieHandler.get(java.net.URI,java.util.Map<java.lang.String,
+     * java.util.List<java.lang.String>>) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CookieHandler#put(URI, Map) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.CookieHandler#put(java.net.URI, java.util.Map) public abstract void
      * java.net.CookieHandler.put(java.net.URI,java.util.Map<java.lang.String, java.util.List<java.lang.String>>) throws
      * java.io.IOException}.
      *

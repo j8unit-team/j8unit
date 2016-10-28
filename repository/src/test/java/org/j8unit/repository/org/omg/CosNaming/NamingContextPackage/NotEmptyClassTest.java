@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NotEmpty#NotEmpty() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotEmpty#NotEmpty() public
      * org.omg.CosNaming.NamingContextPackage.NotEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NotEmpty#NotEmpty(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotEmpty#NotEmpty(String) public
      * org.omg.CosNaming.NamingContextPackage.NotEmpty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

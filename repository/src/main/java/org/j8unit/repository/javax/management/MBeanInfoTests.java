@@ -35,8 +35,8 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#getDescription() public java.lang.String
-     * javax.management.MBeanInfo.getDescription()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#getDescription() public
+     * java.lang.String javax.management.MBeanInfo.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#clone() public java.lang.Object
-     * javax.management.MBeanInfo.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#clone() public
+     * java.lang.Object javax.management.MBeanInfo.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#getClassName() public java.lang.String
-     * javax.management.MBeanInfo.getClassName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#getClassName() public
+     * java.lang.String javax.management.MBeanInfo.getClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#toString() public java.lang.String
-     * javax.management.MBeanInfo.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#toString() public
+     * java.lang.String javax.management.MBeanInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +124,7 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#getConstructors() public
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#getConstructors() public
      * javax.management.MBeanConstructorInfo[] javax.management.MBeanInfo.getConstructors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +146,7 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#getNotifications() public
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#getNotifications() public
      * javax.management.MBeanNotificationInfo[] javax.management.MBeanInfo.getNotifications()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#equals(Object) public boolean
-     * javax.management.MBeanInfo.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#equals(Object) public
+     * boolean javax.management.MBeanInfo.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,7 +191,7 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#hashCode() public int
      * javax.management.MBeanInfo.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,7 +214,7 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#getDescriptor() public
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#getDescriptor() public
      * javax.management.Descriptor javax.management.MBeanInfo.getDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,7 +237,7 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#getAttributes() public
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#getAttributes() public
      * javax.management.MBeanAttributeInfo[] javax.management.MBeanInfo.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,7 +259,7 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanInfo#getOperations() public
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanInfo#getOperations() public
      * javax.management.MBeanOperationInfo[] javax.management.MBeanInfo.getOperations()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

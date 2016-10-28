@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.MenuItem;
 import java.awt.peer.MenuPeer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.MenuItemPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuPeer#delItem(int) public abstract void
-     * java.awt.peer.MenuPeer.delItem(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.MenuPeer#delItem(int) public abstract
+     * void java.awt.peer.MenuPeer.delItem(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.awt.peer.MenuItemPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuPeer#addItem(MenuItem) public abstract void
-     * java.awt.peer.MenuPeer.addItem(java.awt.MenuItem)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.MenuPeer#addItem(java.awt.MenuItem)
+     * public abstract void java.awt.peer.MenuPeer.addItem(java.awt.MenuItem)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.awt.peer.MenuItemPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuPeer#addSeparator() public abstract void
-     * java.awt.peer.MenuPeer.addSeparator()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.MenuPeer#addSeparator() public
+     * abstract void java.awt.peer.MenuPeer.addSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

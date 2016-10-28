@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.annotation.AnnotationFormatErrorClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AnnotationFormatError#AnnotationFormatError(String) public
+     * {@link java.lang.annotation.AnnotationFormatError#AnnotationFormatError(String) public
      * java.lang.annotation.AnnotationFormatError(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.lang.annotation.AnnotationFormatErrorClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AnnotationFormatError#AnnotationFormatError(String, Throwable) public
+     * {@link java.lang.annotation.AnnotationFormatError#AnnotationFormatError(String, Throwable) public
      * java.lang.annotation.AnnotationFormatError(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.lang.annotation.AnnotationFormatErrorClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AnnotationFormatError#AnnotationFormatError(Throwable) public
+     * {@link java.lang.annotation.AnnotationFormatError#AnnotationFormatError(Throwable) public
      * java.lang.annotation.AnnotationFormatError(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

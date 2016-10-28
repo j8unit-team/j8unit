@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Container;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.GroupLayout.Group;
@@ -26,7 +25,8 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<GroupLayout> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GroupLayout#GroupLayout(Container) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.GroupLayout#GroupLayout(java.awt.Container) public
      * javax.swing.GroupLayout(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,25 +43,10 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<GroupLayout> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GroupLayout sut = null; // = new GroupLayout(Container);
+        final GroupLayout sut = null; // = new GroupLayout(java.awt.Container);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout]
-
-    @RunWith(J8Unit4.class)
-    public static class SequentialGroupClassTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.SequentialGroupClassTests<SequentialGroup> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
-
-        @Override
-        public Class<SequentialGroup> createNewSUT() {
-            return SequentialGroup.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class AlignmentClassTest
@@ -76,8 +61,8 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<GroupLayout> 
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Alignment#values() public static
-         * javax.swing.GroupLayout$Alignment[] javax.swing.GroupLayout$Alignment.values()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.GroupLayout.Alignment#values()
+         * public static javax.swing.GroupLayout$Alignment[] javax.swing.GroupLayout$Alignment.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -91,13 +76,14 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<GroupLayout> 
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Alignment#values()}
+            // write some test for {@link javax.swing.GroupLayout.Alignment#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Alignment#valueOf(String) public static
-         * javax.swing.GroupLayout$Alignment javax.swing.GroupLayout$Alignment.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.GroupLayout.Alignment#valueOf(String) public static javax.swing.GroupLayout$Alignment
+         * javax.swing.GroupLayout$Alignment.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -111,7 +97,7 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<GroupLayout> 
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Alignment#valueOf(String)}
+            // write some test for {@link javax.swing.GroupLayout.Alignment#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$Alignment]
@@ -130,6 +116,21 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<GroupLayout> 
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$ParallelGroup]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class SequentialGroupClassTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.SequentialGroupClassTests<SequentialGroup> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
+
+        @Override
+        public Class<SequentialGroup> createNewSUT() {
+            return SequentialGroup.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
 
     }
 

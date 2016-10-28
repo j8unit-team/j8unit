@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.ORB;
 
 /**
  * <p>
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stub#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Stub#hashCode() public int
      * javax.rmi.CORBA.Stub.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stub#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Stub#equals(Object) public boolean
      * javax.rmi.CORBA.Stub.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +80,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stub#connect(ORB) public void
-     * javax.rmi.CORBA.Stub.connect(org.omg.CORBA.ORB) throws java.rmi.RemoteException}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Stub#connect(org.omg.CORBA.ORB)
+     * public void javax.rmi.CORBA.Stub.connect(org.omg.CORBA.ORB) throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stub#toString() public java.lang.String
-     * javax.rmi.CORBA.Stub.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Stub#toString() public
+     * java.lang.String javax.rmi.CORBA.Stub.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

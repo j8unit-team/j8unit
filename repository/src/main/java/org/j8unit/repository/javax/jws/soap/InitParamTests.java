@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitParam#name() public abstract java.lang.String
-     * javax.jws.soap.InitParam.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.soap.InitParam#name() public abstract
+     * java.lang.String javax.jws.soap.InitParam.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitParam#value() public abstract java.lang.String
-     * javax.jws.soap.InitParam.value()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.soap.InitParam#value() public abstract
+     * java.lang.String javax.jws.soap.InitParam.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind.helpers;
 
-import javax.xml.bind.ValidationEventLocator;
 import javax.xml.bind.helpers.ValidationEventImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ValidationEventImpl#setLocator(ValidationEventLocator) public void
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#setLocator(javax.xml.bind.ValidationEventLocator) public void
      * javax.xml.bind.helpers.ValidationEventImpl.setLocator(javax.xml.bind.ValidationEventLocator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,9 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventImpl#setLinkedException(Throwable)
-     * public void javax.xml.bind.helpers.ValidationEventImpl.setLinkedException(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#setLinkedException(Throwable) public void
+     * javax.xml.bind.helpers.ValidationEventImpl.setLinkedException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,8 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventImpl#setMessage(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#setMessage(String) public void
      * javax.xml.bind.helpers.ValidationEventImpl.setMessage(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +103,9 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventImpl#toString() public
-     * java.lang.String javax.xml.bind.helpers.ValidationEventImpl.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#toString() public java.lang.String
+     * javax.xml.bind.helpers.ValidationEventImpl.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +127,9 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventImpl#getLocator() public
-     * javax.xml.bind.ValidationEventLocator javax.xml.bind.helpers.ValidationEventImpl.getLocator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#getLocator() public javax.xml.bind.ValidationEventLocator
+     * javax.xml.bind.helpers.ValidationEventImpl.getLocator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +151,9 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventImpl#getMessage() public
-     * java.lang.String javax.xml.bind.helpers.ValidationEventImpl.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#getMessage() public java.lang.String
+     * javax.xml.bind.helpers.ValidationEventImpl.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,7 +175,8 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventImpl#getSeverity() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#getSeverity() public int
      * javax.xml.bind.helpers.ValidationEventImpl.getSeverity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,8 +199,9 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventImpl#getLinkedException() public
-     * java.lang.Throwable javax.xml.bind.helpers.ValidationEventImpl.getLinkedException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#getLinkedException() public java.lang.Throwable
+     * javax.xml.bind.helpers.ValidationEventImpl.getLinkedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,7 +223,8 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventImpl#setSeverity(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#setSeverity(int) public void
      * javax.xml.bind.helpers.ValidationEventImpl.setSeverity(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

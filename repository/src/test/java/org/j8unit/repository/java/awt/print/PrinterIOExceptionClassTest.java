@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.print;
 
 import java.awt.print.PrinterIOException;
-import java.io.IOException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.print.PrinterIOExceptionClassTests<Pri
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrinterIOException#PrinterIOException(IOException) public
+     * {@link java.awt.print.PrinterIOException#PrinterIOException(java.io.IOException) public
      * java.awt.print.PrinterIOException(java.io.IOException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.awt.print.PrinterIOExceptionClassTests<Pri
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrinterIOException sut = null; // = new PrinterIOException(IOException);
+        final PrinterIOException sut = null; // = new PrinterIOException(java.io.IOException);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.PrinterIOException]

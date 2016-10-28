@@ -35,7 +35,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NumberUp#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.NumberUp#equals(Object) public boolean
      * javax.print.attribute.standard.NumberUp.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +59,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NumberUp#getName() public final java.lang.String
-     * javax.print.attribute.standard.NumberUp.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.NumberUp#getName()
+     * public final java.lang.String javax.print.attribute.standard.NumberUp.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,9 +82,9 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NumberUp#getCategory() public final
-     * java.lang.Class<? extends javax.print.attribute.Attribute> javax.print.attribute.standard.NumberUp.getCategory()}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.NumberUp#getCategory() public final java.lang.Class<? extends
+     * javax.print.attribute.Attribute> javax.print.attribute.standard.NumberUp.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

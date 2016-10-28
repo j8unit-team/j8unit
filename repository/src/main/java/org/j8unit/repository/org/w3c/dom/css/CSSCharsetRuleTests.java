@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSCharsetRule#getEncoding() public abstract
-     * java.lang.String org.w3c.dom.css.CSSCharsetRule.getEncoding()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSCharsetRule#getEncoding() public
+     * abstract java.lang.String org.w3c.dom.css.CSSCharsetRule.getEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSCharsetRule#setEncoding(String) public abstract
-     * void org.w3c.dom.css.CSSCharsetRule.setEncoding(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSCharsetRule#setEncoding(String)
+     * public abstract void org.w3c.dom.css.CSSCharsetRule.setEncoding(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

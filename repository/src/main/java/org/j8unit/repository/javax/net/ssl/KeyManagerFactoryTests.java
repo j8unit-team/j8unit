@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.security.KeyStore;
 import javax.net.ssl.KeyManagerFactory;
-import javax.net.ssl.ManagerFactoryParameters;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyManagerFactory#getProvider() public final
-     * java.security.Provider javax.net.ssl.KeyManagerFactory.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.KeyManagerFactory#getProvider() public
+     * final java.security.Provider javax.net.ssl.KeyManagerFactory.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyManagerFactory#getKeyManagers() public final
-     * javax.net.ssl.KeyManager[] javax.net.ssl.KeyManagerFactory.getKeyManagers()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.KeyManagerFactory#getKeyManagers()
+     * public final javax.net.ssl.KeyManager[] javax.net.ssl.KeyManagerFactory.getKeyManagers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +78,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyManagerFactory#init(ManagerFactoryParameters)
-     * public final void javax.net.ssl.KeyManagerFactory.init(javax.net.ssl.ManagerFactoryParameters) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.KeyManagerFactory#init(javax.net.ssl.ManagerFactoryParameters) public final void
+     * javax.net.ssl.KeyManagerFactory.init(javax.net.ssl.ManagerFactoryParameters) throws
      * java.security.InvalidAlgorithmParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +102,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyManagerFactory#init(KeyStore, char[]) public
-     * final void javax.net.ssl.KeyManagerFactory.init(java.security.KeyStore,char[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.KeyManagerFactory#init(java.security.KeyStore, char[]) public final void
+     * javax.net.ssl.KeyManagerFactory.init(java.security.KeyStore,char[]) throws
      * java.security.KeyStoreException,java.security.NoSuchAlgorithmException,java.security.UnrecoverableKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyManagerFactory#getAlgorithm() public final
-     * java.lang.String javax.net.ssl.KeyManagerFactory.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.KeyManagerFactory#getAlgorithm()
+     * public final java.lang.String javax.net.ssl.KeyManagerFactory.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.Element;
 import javax.swing.text.WrappedPlainView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.swing.text.WrappedPlainViewClassTests<Wra
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WrappedPlainView#WrappedPlainView(Element)
-     * public javax.swing.text.WrappedPlainView(javax.swing.text.Element)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.WrappedPlainView#WrappedPlainView(javax.swing.text.Element) public
+     * javax.swing.text.WrappedPlainView(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +39,13 @@ implements org.j8unit.repository.javax.swing.text.WrappedPlainViewClassTests<Wra
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final WrappedPlainView sut = null; // = new WrappedPlainView(Element);
+        final WrappedPlainView sut = null; // = new WrappedPlainView(javax.swing.text.Element);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link WrappedPlainView#WrappedPlainView(Element, boolean) public
+     * {@link javax.swing.text.WrappedPlainView#WrappedPlainView(javax.swing.text.Element, boolean) public
      * javax.swing.text.WrappedPlainView(javax.swing.text.Element,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.javax.swing.text.WrappedPlainViewClassTests<Wra
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final WrappedPlainView sut = null; // = new WrappedPlainView(Element, boolean);
+        final WrappedPlainView sut = null; // = new WrappedPlainView(javax.swing.text.Element, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.WrappedPlainView]

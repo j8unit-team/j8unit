@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.tree;
 
-import javax.swing.JTree;
 import javax.swing.tree.TreeCellRenderer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,7 +36,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TreeCellRenderer#getTreeCellRendererComponent(JTree, Object, boolean, boolean, boolean, int, boolean)
+     * {@link javax.swing.tree.TreeCellRenderer#getTreeCellRendererComponent(javax.swing.JTree, Object, boolean, boolean, boolean, int, boolean)
      * public abstract java.awt.Component
      * javax.swing.tree.TreeCellRenderer.getTreeCellRendererComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int,boolean)}
      * .

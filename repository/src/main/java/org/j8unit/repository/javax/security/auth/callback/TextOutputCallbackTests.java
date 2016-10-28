@@ -35,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextOutputCallback#getMessageType() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.TextOutputCallback#getMessageType() public int
      * javax.security.auth.callback.TextOutputCallback.getMessageType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextOutputCallback#getMessage() public
-     * java.lang.String javax.security.auth.callback.TextOutputCallback.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.TextOutputCallback#getMessage() public java.lang.String
+     * javax.security.auth.callback.TextOutputCallback.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getTime() public long java.util.Date.getTime()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#getTime() public long
+     * java.util.Date.getTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#before(Date) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#before(java.util.Date) public boolean
      * java.util.Date.before(java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#compareTo(Date) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#compareTo(java.util.Date) public int
      * java.util.Date.compareTo(java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setSeconds(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#setSeconds(int) public void
      * java.util.Date.setSeconds(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#hashCode() public int
      * java.util.Date.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +146,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setHours(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#setHours(int) public void
      * java.util.Date.setHours(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +168,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getHours() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#getHours() public int
      * java.util.Date.getHours()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +190,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setTime(long) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#setTime(long) public void
      * java.util.Date.setTime(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,7 +212,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getDate() public int java.util.Date.getDate()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#getDate() public int
+     * java.util.Date.getDate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,7 +234,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getMonth() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#getMonth() public int
      * java.util.Date.getMonth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,7 +256,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#after(Date) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#after(java.util.Date) public boolean
      * java.util.Date.after(java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,7 +278,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setMonth(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#setMonth(int) public void
      * java.util.Date.setMonth(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -299,7 +300,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getDay() public int java.util.Date.getDay()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#getDay() public int
+     * java.util.Date.getDay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -320,7 +322,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getMinutes() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#getMinutes() public int
      * java.util.Date.getMinutes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -342,7 +344,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#toInstant() public java.time.Instant
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#toInstant() public java.time.Instant
      * java.util.Date.toInstant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -364,7 +366,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setYear(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#setYear(int) public void
      * java.util.Date.setYear(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -386,7 +388,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setMinutes(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#setMinutes(int) public void
      * java.util.Date.setMinutes(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -408,7 +410,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#equals(Object) public boolean
      * java.util.Date.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -431,7 +433,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getYear() public int java.util.Date.getYear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#getYear() public int
+     * java.util.Date.getYear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -452,7 +455,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getTimezoneOffset() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#getTimezoneOffset() public int
      * java.util.Date.getTimezoneOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -474,7 +477,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getSeconds() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#getSeconds() public int
      * java.util.Date.getSeconds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -496,7 +499,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#toGMTString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#toGMTString() public java.lang.String
      * java.util.Date.toGMTString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -518,8 +521,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#toLocaleString() public java.lang.String
-     * java.util.Date.toLocaleString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#toLocaleString() public
+     * java.lang.String java.util.Date.toLocaleString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -540,7 +543,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#toString() public java.lang.String
      * java.util.Date.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -563,7 +566,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#clone() public java.lang.Object
      * java.util.Date.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -585,7 +588,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setDate(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Date#setDate(int) public void
      * java.util.Date.setDate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

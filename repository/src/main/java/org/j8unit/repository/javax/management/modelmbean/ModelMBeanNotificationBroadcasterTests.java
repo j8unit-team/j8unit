@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.management.modelmbean;
 
-import javax.management.Attribute;
-import javax.management.AttributeChangeNotification;
-import javax.management.Notification;
-import javax.management.NotificationListener;
 import javax.management.modelmbean.ModelMBeanNotificationBroadcaster;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,7 +36,7 @@ extends org.j8unit.repository.javax.management.NotificationBroadcasterTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ModelMBeanNotificationBroadcaster#removeAttributeChangeNotificationListener(NotificationListener, String)
+     * {@link javax.management.modelmbean.ModelMBeanNotificationBroadcaster#removeAttributeChangeNotificationListener(javax.management.NotificationListener, String)
      * public abstract void
      * javax.management.modelmbean.ModelMBeanNotificationBroadcaster.removeAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String)
      * throws
@@ -67,7 +63,7 @@ extends org.j8unit.repository.javax.management.NotificationBroadcasterTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ModelMBeanNotificationBroadcaster#addAttributeChangeNotificationListener(NotificationListener, String, Object)
+     * {@link javax.management.modelmbean.ModelMBeanNotificationBroadcaster#addAttributeChangeNotificationListener(javax.management.NotificationListener, String, Object)
      * public abstract void
      * javax.management.modelmbean.ModelMBeanNotificationBroadcaster.addAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String,java.lang.Object)
      * throws
@@ -93,7 +89,32 @@ extends org.j8unit.repository.javax.management.NotificationBroadcasterTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ModelMBeanNotificationBroadcaster#sendNotification(Notification) public abstract void
+     * {@link javax.management.modelmbean.ModelMBeanNotificationBroadcaster#sendNotification(String) public abstract
+     * void javax.management.modelmbean.ModelMBeanNotificationBroadcaster.sendNotification(java.lang.String) throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sendNotification_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanNotificationBroadcaster#sendNotification(javax.management.Notification)
+     * public abstract void
      * javax.management.modelmbean.ModelMBeanNotificationBroadcaster.sendNotification(javax.management.Notification)
      * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
@@ -117,57 +138,8 @@ extends org.j8unit.repository.javax.management.NotificationBroadcasterTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ModelMBeanNotificationBroadcaster#sendNotification(String) public abstract void
-     * javax.management.modelmbean.ModelMBeanNotificationBroadcaster.sendNotification(java.lang.String) throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sendNotification_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link ModelMBeanNotificationBroadcaster#sendAttributeChangeNotification(AttributeChangeNotification) public
-     * abstract void
-     * javax.management.modelmbean.ModelMBeanNotificationBroadcaster.sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
-     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sendAttributeChangeNotification_AttributeChangeNotification()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link ModelMBeanNotificationBroadcaster#sendAttributeChangeNotification(Attribute, Attribute) public abstract
-     * void
+     * {@link javax.management.modelmbean.ModelMBeanNotificationBroadcaster#sendAttributeChangeNotification(javax.management.Attribute, javax.management.Attribute)
+     * public abstract void
      * javax.management.modelmbean.ModelMBeanNotificationBroadcaster.sendAttributeChangeNotification(javax.management.Attribute,javax.management.Attribute)
      * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
@@ -182,6 +154,31 @@ extends org.j8unit.repository.javax.management.NotificationBroadcasterTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_sendAttributeChangeNotification_Attribute_Attribute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanNotificationBroadcaster#sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
+     * public abstract void
+     * javax.management.modelmbean.ModelMBeanNotificationBroadcaster.sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
+     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sendAttributeChangeNotification_AttributeChangeNotification()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
 import static org.junit.Assert.fail;
-import java.security.cert.CertStoreParameters;
 import java.security.cert.CertStoreSpi;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.java.security.cert.CertStoreSpiClassTests<CertS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CertStoreSpi#CertStoreSpi(CertStoreParameters)
-     * public java.security.cert.CertStoreSpi(java.security.cert.CertStoreParameters) throws
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.CertStoreSpi#CertStoreSpi(java.security.cert.CertStoreParameters) public
+     * java.security.cert.CertStoreSpi(java.security.cert.CertStoreParameters) throws
      * java.security.InvalidAlgorithmParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

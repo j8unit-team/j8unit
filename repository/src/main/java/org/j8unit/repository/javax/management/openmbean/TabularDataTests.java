@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.TabularData;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#containsValue(CompositeData) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularData#containsValue(javax.management.openmbean.CompositeData) public
      * abstract boolean javax.management.openmbean.TabularData.containsValue(javax.management.openmbean.CompositeData)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#put(CompositeData) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularData#put(javax.management.openmbean.CompositeData) public abstract void
      * javax.management.openmbean.TabularData.put(javax.management.openmbean.CompositeData)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#remove(Object[]) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularData#remove(Object[]) public abstract
      * javax.management.openmbean.CompositeData javax.management.openmbean.TabularData.remove(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +104,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#isEmpty() public abstract boolean
-     * javax.management.openmbean.TabularData.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.TabularData#isEmpty()
+     * public abstract boolean javax.management.openmbean.TabularData.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +126,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#clear() public abstract void
-     * javax.management.openmbean.TabularData.clear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.TabularData#clear()
+     * public abstract void javax.management.openmbean.TabularData.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +148,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#containsKey(Object[]) public abstract
-     * boolean javax.management.openmbean.TabularData.containsKey(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularData#containsKey(Object[]) public abstract boolean
+     * javax.management.openmbean.TabularData.containsKey(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +171,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#values() public abstract
-     * java.util.Collection<?> javax.management.openmbean.TabularData.values()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.TabularData#values()
+     * public abstract java.util.Collection<?> javax.management.openmbean.TabularData.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,7 +193,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#getTabularType() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularData#getTabularType() public abstract
      * javax.management.openmbean.TabularType javax.management.openmbean.TabularData.getTabularType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +216,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#keySet() public abstract java.util.Set
-     * <?> javax.management.openmbean.TabularData.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.TabularData#keySet()
+     * public abstract java.util.Set<?> javax.management.openmbean.TabularData.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,7 +238,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#calculateIndex(CompositeData) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularData#calculateIndex(javax.management.openmbean.CompositeData) public
      * abstract java.lang.Object[]
      * javax.management.openmbean.TabularData.calculateIndex(javax.management.openmbean.CompositeData)}.
      *
@@ -257,8 +262,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#toString() public abstract
-     * java.lang.String javax.management.openmbean.TabularData.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.TabularData#toString()
+     * public abstract java.lang.String javax.management.openmbean.TabularData.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,8 +284,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#size() public abstract int
-     * javax.management.openmbean.TabularData.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.TabularData#size() public
+     * abstract int javax.management.openmbean.TabularData.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,8 +306,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#hashCode() public abstract int
-     * javax.management.openmbean.TabularData.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.TabularData#hashCode()
+     * public abstract int javax.management.openmbean.TabularData.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -323,7 +328,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#putAll(CompositeData[]) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularData#putAll(javax.management.openmbean.CompositeData[]) public abstract
      * void javax.management.openmbean.TabularData.putAll(javax.management.openmbean.CompositeData[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,7 +351,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#equals(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularData#equals(Object) public abstract boolean
      * javax.management.openmbean.TabularData.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -367,8 +374,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularData#get(Object[]) public abstract
-     * javax.management.openmbean.CompositeData javax.management.openmbean.TabularData.get(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.TabularData#get(Object[])
+     * public abstract javax.management.openmbean.CompositeData
+     * javax.management.openmbean.TabularData.get(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

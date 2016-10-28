@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivateFailedExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivateFailedException#ActivateFailedException(String) public
+     * {@link java.rmi.activation.ActivateFailedException#ActivateFailedException(String) public
      * java.rmi.activation.ActivateFailedException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivateFailedExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivateFailedException#ActivateFailedException(String, Exception) public
+     * {@link java.rmi.activation.ActivateFailedException#ActivateFailedException(String, Exception) public
      * java.rmi.activation.ActivateFailedException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

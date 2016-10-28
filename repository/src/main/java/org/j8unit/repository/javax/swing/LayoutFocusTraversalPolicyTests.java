@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
 import javax.swing.LayoutFocusTraversalPolicy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LayoutFocusTraversalPolicy#getComponentBefore(Container, Component) public java.awt.Component
+     * {@link javax.swing.LayoutFocusTraversalPolicy#getComponentBefore(java.awt.Container, java.awt.Component) public
+     * java.awt.Component
      * javax.swing.LayoutFocusTraversalPolicy.getComponentBefore(java.awt.Container,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LayoutFocusTraversalPolicy#getFirstComponent(Container) public java.awt.Component
+     * {@link javax.swing.LayoutFocusTraversalPolicy#getFirstComponent(java.awt.Container) public java.awt.Component
      * javax.swing.LayoutFocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,7 +84,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LayoutFocusTraversalPolicy#getLastComponent(Container) public java.awt.Component
+     * {@link javax.swing.LayoutFocusTraversalPolicy#getLastComponent(java.awt.Container) public java.awt.Component
      * javax.swing.LayoutFocusTraversalPolicy.getLastComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +108,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LayoutFocusTraversalPolicy#getComponentAfter(Container, Component) public java.awt.Component
+     * {@link javax.swing.LayoutFocusTraversalPolicy#getComponentAfter(java.awt.Container, java.awt.Component) public
+     * java.awt.Component
      * javax.swing.LayoutFocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

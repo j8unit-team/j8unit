@@ -35,7 +35,8 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedRequestTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StartTlsRequest#createExtendedResponse(String, byte[], int, int) public javax.naming.ldap.ExtendedResponse
+     * {@link javax.naming.ldap.StartTlsRequest#createExtendedResponse(String, byte[], int, int) public
+     * javax.naming.ldap.ExtendedResponse
      * javax.naming.ldap.StartTlsRequest.createExtendedResponse(java.lang.String,byte[],int,int) throws
      * javax.naming.NamingException}.
      *
@@ -59,8 +60,8 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedRequestTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartTlsRequest#getID() public java.lang.String
-     * javax.naming.ldap.StartTlsRequest.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.StartTlsRequest#getID() public
+     * java.lang.String javax.naming.ldap.StartTlsRequest.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +83,8 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedRequestTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartTlsRequest#getEncodedValue() public byte[]
-     * javax.naming.ldap.StartTlsRequest.getEncodedValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.StartTlsRequest#getEncodedValue()
+     * public byte[] javax.naming.ldap.StartTlsRequest.getEncodedValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#lowerCaseMode(boolean) public void
-     * java.io.StreamTokenizer.lowerCaseMode(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#lowerCaseMode(boolean)
+     * public void java.io.StreamTokenizer.lowerCaseMode(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#toString() public java.lang.String
-     * java.io.StreamTokenizer.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#toString() public
+     * java.lang.String java.io.StreamTokenizer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#whitespaceChars(int, int) public
-     * void java.io.StreamTokenizer.whitespaceChars(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#whitespaceChars(int, int)
+     * public void java.io.StreamTokenizer.whitespaceChars(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#slashStarComments(boolean) public
-     * void java.io.StreamTokenizer.slashStarComments(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#slashStarComments(boolean)
+     * public void java.io.StreamTokenizer.slashStarComments(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#parseNumbers() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#parseNumbers() public void
      * java.io.StreamTokenizer.parseNumbers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#lineno() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#lineno() public int
      * java.io.StreamTokenizer.lineno()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#pushBack() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#pushBack() public void
      * java.io.StreamTokenizer.pushBack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +189,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#ordinaryChar(int) public void
-     * java.io.StreamTokenizer.ordinaryChar(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#ordinaryChar(int) public
+     * void java.io.StreamTokenizer.ordinaryChar(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +211,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#nextToken() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#nextToken() public int
      * java.io.StreamTokenizer.nextToken() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,8 +233,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#eolIsSignificant(boolean) public
-     * void java.io.StreamTokenizer.eolIsSignificant(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#eolIsSignificant(boolean)
+     * public void java.io.StreamTokenizer.eolIsSignificant(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#commentChar(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#commentChar(int) public void
      * java.io.StreamTokenizer.commentChar(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,8 +277,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#wordChars(int, int) public void
-     * java.io.StreamTokenizer.wordChars(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#wordChars(int, int) public
+     * void java.io.StreamTokenizer.wordChars(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,7 +299,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#quoteChar(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#quoteChar(int) public void
      * java.io.StreamTokenizer.quoteChar(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -321,7 +321,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#resetSyntax() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#resetSyntax() public void
      * java.io.StreamTokenizer.resetSyntax()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -343,8 +343,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#slashSlashComments(boolean) public
-     * void java.io.StreamTokenizer.slashSlashComments(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#slashSlashComments(boolean)
+     * public void java.io.StreamTokenizer.slashSlashComments(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -365,8 +365,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamTokenizer#ordinaryChars(int, int) public void
-     * java.io.StreamTokenizer.ordinaryChars(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#ordinaryChars(int, int)
+     * public void java.io.StreamTokenizer.ordinaryChars(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

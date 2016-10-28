@@ -1,9 +1,7 @@
 package org.j8unit.repository.javax.xml.crypto.dsig;
 
-import javax.xml.crypto.dsig.XMLSignContext;
 import javax.xml.crypto.dsig.XMLSignature;
 import javax.xml.crypto.dsig.XMLSignature.SignatureValue;
-import javax.xml.crypto.dsig.XMLValidateContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignature#getObjects() public abstract
-     * java.util.List javax.xml.crypto.dsig.XMLSignature.getObjects()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.XMLSignature#getObjects()
+     * public abstract java.util.List javax.xml.crypto.dsig.XMLSignature.getObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignature#validate(XMLValidateContext) public
-     * abstract boolean javax.xml.crypto.dsig.XMLSignature.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignature#validate(javax.xml.crypto.dsig.XMLValidateContext) public abstract
+     * boolean javax.xml.crypto.dsig.XMLSignature.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
      * javax.xml.crypto.dsig.XMLSignatureException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +81,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignature#getKeyInfo() public abstract
-     * javax.xml.crypto.dsig.keyinfo.KeyInfo javax.xml.crypto.dsig.XMLSignature.getKeyInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.XMLSignature#getKeyInfo()
+     * public abstract javax.xml.crypto.dsig.keyinfo.KeyInfo javax.xml.crypto.dsig.XMLSignature.getKeyInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignature#getId() public abstract
-     * java.lang.String javax.xml.crypto.dsig.XMLSignature.getId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.XMLSignature#getId() public
+     * abstract java.lang.String javax.xml.crypto.dsig.XMLSignature.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,9 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignature#sign(XMLSignContext) public abstract
-     * void javax.xml.crypto.dsig.XMLSignature.sign(javax.xml.crypto.dsig.XMLSignContext) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignature#sign(javax.xml.crypto.dsig.XMLSignContext) public abstract void
+     * javax.xml.crypto.dsig.XMLSignature.sign(javax.xml.crypto.dsig.XMLSignContext) throws
      * javax.xml.crypto.MarshalException,javax.xml.crypto.dsig.XMLSignatureException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +149,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignature#getKeySelectorResult() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignature#getKeySelectorResult() public abstract
      * javax.xml.crypto.KeySelectorResult javax.xml.crypto.dsig.XMLSignature.getKeySelectorResult()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +172,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignature#getSignedInfo() public abstract
-     * javax.xml.crypto.dsig.SignedInfo javax.xml.crypto.dsig.XMLSignature.getSignedInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.XMLSignature#getSignedInfo()
+     * public abstract javax.xml.crypto.dsig.SignedInfo javax.xml.crypto.dsig.XMLSignature.getSignedInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,7 +194,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignature#getSignatureValue() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignature#getSignatureValue() public abstract
      * javax.xml.crypto.dsig.XMLSignature$SignatureValue javax.xml.crypto.dsig.XMLSignature.getSignatureValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -242,7 +244,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SignatureValue#getValue() public abstract byte[]
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.crypto.dsig.XMLSignature.SignatureValue#getValue() public abstract byte[]
          * javax.xml.crypto.dsig.XMLSignature$SignatureValue.getValue()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,7 +267,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SignatureValue#validate(XMLValidateContext)
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.crypto.dsig.XMLSignature.SignatureValue#validate(javax.xml.crypto.dsig.XMLValidateContext)
          * public abstract boolean
          * javax.xml.crypto.dsig.XMLSignature$SignatureValue.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
          * javax.xml.crypto.dsig.XMLSignatureException}.
@@ -288,8 +292,9 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SignatureValue#getId() public abstract
-         * java.lang.String javax.xml.crypto.dsig.XMLSignature$SignatureValue.getId()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.crypto.dsig.XMLSignature.SignatureValue#getId() public abstract java.lang.String
+         * javax.xml.crypto.dsig.XMLSignature$SignatureValue.getId()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

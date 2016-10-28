@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
 import javax.swing.plaf.multi.MultiToolBarUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiToolBarUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiToolBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiToolBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,9 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#update(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiToolBarUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiToolBarUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,7 +107,7 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiToolBarUI#getAccessibleChildrenCount(JComponent) public int
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiToolBarUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,8 +130,9 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#contains(JComponent, int, int) public
-     * boolean javax.swing.plaf.multi.MultiToolBarUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiToolBarUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +154,8 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#getUIs() public
-     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiToolBarUI.getUIs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiToolBarUI#getUIs()
+     * public javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiToolBarUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +176,9 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiToolBarUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,8 +201,9 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiToolBarUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiToolBarUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,7 +225,8 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiToolBarUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,8 +249,9 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiToolBarUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiToolBarUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +273,9 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiToolBarUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiToolBarUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiToolBarUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiToolBarUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing.tree;
 
-import javax.swing.event.TreeModelListener;
 import javax.swing.tree.DefaultTreeModel;
-import javax.swing.tree.MutableTreeNode;
-import javax.swing.tree.TreeNode;
-import javax.swing.tree.TreePath;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +36,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeModel#removeNodeFromParent(MutableTreeNode) public void
+     * {@link javax.swing.tree.DefaultTreeModel#removeNodeFromParent(javax.swing.tree.MutableTreeNode) public void
      * javax.swing.tree.DefaultTreeModel.removeNodeFromParent(javax.swing.tree.MutableTreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#getRoot() public java.lang.Object
-     * javax.swing.tree.DefaultTreeModel.getRoot()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultTreeModel#getRoot() public
+     * java.lang.Object javax.swing.tree.DefaultTreeModel.getRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +81,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#setAsksAllowsChildren(boolean)
-     * public void javax.swing.tree.DefaultTreeModel.setAsksAllowsChildren(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#setAsksAllowsChildren(boolean) public void
+     * javax.swing.tree.DefaultTreeModel.setAsksAllowsChildren(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +104,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#nodesChanged(TreeNode, int[])
-     * public void javax.swing.tree.DefaultTreeModel.nodesChanged(javax.swing.tree.TreeNode,int[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#nodesChanged(javax.swing.tree.TreeNode, int[]) public void
+     * javax.swing.tree.DefaultTreeModel.nodesChanged(javax.swing.tree.TreeNode,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,7 +127,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#asksAllowsChildren() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#asksAllowsChildren() public boolean
      * javax.swing.tree.DefaultTreeModel.asksAllowsChildren()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,30 +150,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#reload(TreeNode) public void
-     * javax.swing.tree.DefaultTreeModel.reload(javax.swing.tree.TreeNode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_reload_TreeNode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#reload() public void
-     * javax.swing.tree.DefaultTreeModel.reload()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultTreeModel#reload() public
+     * void javax.swing.tree.DefaultTreeModel.reload()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,7 +173,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeModel#insertNodeInto(MutableTreeNode, MutableTreeNode, int) public void
+     * {@link javax.swing.tree.DefaultTreeModel#reload(javax.swing.tree.TreeNode) public void
+     * javax.swing.tree.DefaultTreeModel.reload(javax.swing.tree.TreeNode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reload_TreeNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#insertNodeInto(javax.swing.tree.MutableTreeNode, javax.swing.tree.MutableTreeNode, int)
+     * public void
      * javax.swing.tree.DefaultTreeModel.insertNodeInto(javax.swing.tree.MutableTreeNode,javax.swing.tree.MutableTreeNode,int)}
      * .
      *
@@ -219,7 +220,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#getChildCount(Object) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#getChildCount(Object) public int
      * javax.swing.tree.DefaultTreeModel.getChildCount(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -243,30 +245,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeModel#nodesWereRemoved(TreeNode, int[], Object[]) public void
-     * javax.swing.tree.DefaultTreeModel.nodesWereRemoved(javax.swing.tree.TreeNode,int[],java.lang.Object[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nodesWereRemoved_TreeNode_intArray_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeModel#removeTreeModelListener(TreeModelListener) public void
+     * {@link javax.swing.tree.DefaultTreeModel#removeTreeModelListener(javax.swing.event.TreeModelListener) public void
      * javax.swing.tree.DefaultTreeModel.removeTreeModelListener(javax.swing.event.TreeModelListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,8 +268,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#getTreeModelListeners() public
-     * javax.swing.event.TreeModelListener[] javax.swing.tree.DefaultTreeModel.getTreeModelListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#nodesWereRemoved(javax.swing.tree.TreeNode, int[], Object[]) public void
+     * javax.swing.tree.DefaultTreeModel.nodesWereRemoved(javax.swing.tree.TreeNode,int[],java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,7 +282,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTreeModelListeners()
+    public default void test_nodesWereRemoved_TreeNode_intArray_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -311,8 +291,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#isLeaf(Object) public boolean
-     * javax.swing.tree.DefaultTreeModel.isLeaf(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultTreeModel#isLeaf(Object)
+     * public boolean javax.swing.tree.DefaultTreeModel.isLeaf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -334,7 +314,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#setRoot(TreeNode) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#getTreeModelListeners() public javax.swing.event.TreeModelListener[]
+     * javax.swing.tree.DefaultTreeModel.getTreeModelListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTreeModelListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#setRoot(javax.swing.tree.TreeNode) public void
      * javax.swing.tree.DefaultTreeModel.setRoot(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -356,8 +360,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#nodesWereInserted(TreeNode, int[])
-     * public void javax.swing.tree.DefaultTreeModel.nodesWereInserted(javax.swing.tree.TreeNode,int[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#nodesWereInserted(javax.swing.tree.TreeNode, int[]) public void
+     * javax.swing.tree.DefaultTreeModel.nodesWereInserted(javax.swing.tree.TreeNode,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -379,7 +384,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeModel#addTreeModelListener(TreeModelListener) public void
+     * {@link javax.swing.tree.DefaultTreeModel#addTreeModelListener(javax.swing.event.TreeModelListener) public void
      * javax.swing.tree.DefaultTreeModel.addTreeModelListener(javax.swing.event.TreeModelListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -402,8 +407,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#getChild(Object, int) public
-     * java.lang.Object javax.swing.tree.DefaultTreeModel.getChild(java.lang.Object,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#getChild(Object, int) public java.lang.Object
+     * javax.swing.tree.DefaultTreeModel.getChild(java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -426,7 +432,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeModel#valueForPathChanged(TreePath, Object) public void
+     * {@link javax.swing.tree.DefaultTreeModel#valueForPathChanged(javax.swing.tree.TreePath, Object) public void
      * javax.swing.tree.DefaultTreeModel.valueForPathChanged(javax.swing.tree.TreePath,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -449,8 +455,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#getIndexOfChild(Object, Object)
-     * public int javax.swing.tree.DefaultTreeModel.getIndexOfChild(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#getIndexOfChild(Object, Object) public int
+     * javax.swing.tree.DefaultTreeModel.getIndexOfChild(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -472,29 +479,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#nodeStructureChanged(TreeNode)
-     * public void javax.swing.tree.DefaultTreeModel.nodeStructureChanged(javax.swing.tree.TreeNode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nodeStructureChanged_TreeNode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#getPathToRoot(TreeNode) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#getPathToRoot(javax.swing.tree.TreeNode) public
      * javax.swing.tree.TreeNode[] javax.swing.tree.DefaultTreeModel.getPathToRoot(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -516,8 +502,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#nodeChanged(TreeNode) public void
-     * javax.swing.tree.DefaultTreeModel.nodeChanged(javax.swing.tree.TreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#nodeStructureChanged(javax.swing.tree.TreeNode) public void
+     * javax.swing.tree.DefaultTreeModel.nodeStructureChanged(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -529,7 +516,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nodeChanged_TreeNode()
+    public default void test_nodeStructureChanged_TreeNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -538,7 +525,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeModel#getListeners(Class) public <T> T[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#getListeners(Class) public <T> T[]
      * javax.swing.tree.DefaultTreeModel.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -552,6 +540,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getListeners_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#nodeChanged(javax.swing.tree.TreeNode) public void
+     * javax.swing.tree.DefaultTreeModel.nodeChanged(javax.swing.tree.TreeNode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nodeChanged_TreeNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

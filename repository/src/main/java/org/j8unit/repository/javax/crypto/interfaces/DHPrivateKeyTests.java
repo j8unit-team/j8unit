@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.crypto.interfaces.DHKeyTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DHPrivateKey#getX() public abstract
-     * java.math.BigInteger javax.crypto.interfaces.DHPrivateKey.getX()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.interfaces.DHPrivateKey#getX() public
+     * abstract java.math.BigInteger javax.crypto.interfaces.DHPrivateKey.getX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.file.ClosedDirectoryStreamExceptionCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ClosedDirectoryStreamException#ClosedDirectoryStreamException() public
+     * {@link java.nio.file.ClosedDirectoryStreamException#ClosedDirectoryStreamException() public
      * java.nio.file.ClosedDirectoryStreamException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

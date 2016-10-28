@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.NotificationEmitter;
 import javax.management.StandardEmitterMBean;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.javax.management.StandardEmitterMBeanClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StandardEmitterMBean#StandardEmitterMBean(Object, Class, boolean, NotificationEmitter) public
-     * <T> javax.management.StandardEmitterMBean(T,java.lang.Class<T>,boolean,javax.management.NotificationEmitter)}.
+     * {@link javax.management.StandardEmitterMBean#StandardEmitterMBean(Object, Class, boolean, javax.management.NotificationEmitter)
+     * public <T> javax.management.StandardEmitterMBean(T,java.lang.Class
+     * <T>,boolean,javax.management.NotificationEmitter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,14 +41,14 @@ implements org.j8unit.repository.javax.management.StandardEmitterMBeanClassTests
         // create new instance
         @SuppressWarnings("unused")
         final StandardEmitterMBean sut = null; // = new StandardEmitterMBean(Object, Class, boolean,
-                                               // NotificationEmitter);
+                                               // javax.management.NotificationEmitter);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StandardEmitterMBean#StandardEmitterMBean(Object, Class, NotificationEmitter) public
-     * <T> javax.management.StandardEmitterMBean(T,java.lang.Class<T>,javax.management.NotificationEmitter)}.
+     * {@link javax.management.StandardEmitterMBean#StandardEmitterMBean(Object, Class, javax.management.NotificationEmitter)
+     * public <T> javax.management.StandardEmitterMBean(T,java.lang.Class<T>,javax.management.NotificationEmitter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +64,8 @@ implements org.j8unit.repository.javax.management.StandardEmitterMBeanClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StandardEmitterMBean sut = null; // = new StandardEmitterMBean(Object, Class, NotificationEmitter);
+        final StandardEmitterMBean sut = null; // = new StandardEmitterMBean(Object, Class,
+                                               // javax.management.NotificationEmitter);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.StandardEmitterMBean]

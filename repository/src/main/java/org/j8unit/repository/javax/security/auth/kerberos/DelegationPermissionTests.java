@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth.kerberos;
 
-import java.security.Permission;
 import javax.security.auth.kerberos.DelegationPermission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelegationPermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.DelegationPermission#hashCode() public int
      * javax.security.auth.kerberos.DelegationPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,8 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelegationPermission#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.DelegationPermission#equals(Object) public boolean
      * javax.security.auth.kerberos.DelegationPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,9 +82,9 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelegationPermission#newPermissionCollection()
-     * public java.security.PermissionCollection
-     * javax.security.auth.kerberos.DelegationPermission.newPermissionCollection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.DelegationPermission#newPermissionCollection() public
+     * java.security.PermissionCollection javax.security.auth.kerberos.DelegationPermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +106,9 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelegationPermission#implies(Permission) public
-     * boolean javax.security.auth.kerberos.DelegationPermission.implies(java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.DelegationPermission#implies(java.security.Permission) public boolean
+     * javax.security.auth.kerberos.DelegationPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

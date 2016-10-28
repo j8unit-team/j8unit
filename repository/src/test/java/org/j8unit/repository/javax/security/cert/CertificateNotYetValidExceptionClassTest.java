@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.cert.CertificateNotYetValidExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateNotYetValidException#CertificateNotYetValidException() public
+     * {@link javax.security.cert.CertificateNotYetValidException#CertificateNotYetValidException() public
      * javax.security.cert.CertificateNotYetValidException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.security.cert.CertificateNotYetValidExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateNotYetValidException#CertificateNotYetValidException(String) public
+     * {@link javax.security.cert.CertificateNotYetValidException#CertificateNotYetValidException(String) public
      * javax.security.cert.CertificateNotYetValidException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

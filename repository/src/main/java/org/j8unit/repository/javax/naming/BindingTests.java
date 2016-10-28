@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.naming.NameClassPairTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binding#toString() public java.lang.String
-     * javax.naming.Binding.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Binding#toString() public
+     * java.lang.String javax.naming.Binding.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.naming.NameClassPairTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binding#getClassName() public java.lang.String
-     * javax.naming.Binding.getClassName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Binding#getClassName() public
+     * java.lang.String javax.naming.Binding.getClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ extends org.j8unit.repository.javax.naming.NameClassPairTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binding#setObject(Object) public void
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Binding#setObject(Object) public void
      * javax.naming.Binding.setObject(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.javax.naming.NameClassPairTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binding#getObject() public java.lang.Object
-     * javax.naming.Binding.getObject()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Binding#getObject() public
+     * java.lang.Object javax.naming.Binding.getObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Collection;
 import java.util.LinkedList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.util.LinkedListClassTests<LinkedList> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedList#LinkedList() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.LinkedList#LinkedList() public
      * java.util.LinkedList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +43,9 @@ implements org.j8unit.repository.java.util.LinkedListClassTests<LinkedList> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedList#LinkedList(Collection) public
-     * java.util.LinkedList(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.LinkedList#LinkedList(java.util.Collection) public java.util.LinkedList(java.util.Collection<?
+     * extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +61,7 @@ implements org.j8unit.repository.java.util.LinkedListClassTests<LinkedList> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LinkedList sut = null; // = new LinkedList(Collection);
+        final LinkedList sut = null; // = new LinkedList(java.util.Collection);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.LinkedList]

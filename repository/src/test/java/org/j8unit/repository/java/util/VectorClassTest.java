@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Collection;
 import java.util.Vector;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.util.VectorClassTests<Vector> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Vector#Vector(Collection) public
-     * java.util.Vector(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Vector#Vector(java.util.Collection)
+     * public java.util.Vector(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,12 +39,13 @@ implements org.j8unit.repository.java.util.VectorClassTests<Vector> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Vector sut = null; // = new Vector(Collection);
+        final Vector sut = null; // = new Vector(java.util.Collection);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Vector#Vector() public java.util.Vector()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Vector#Vector() public
+     * java.util.Vector()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,7 +65,7 @@ implements org.j8unit.repository.java.util.VectorClassTests<Vector> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Vector#Vector(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Vector#Vector(int) public
      * java.util.Vector(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,7 +87,7 @@ implements org.j8unit.repository.java.util.VectorClassTests<Vector> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Vector#Vector(int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Vector#Vector(int, int) public
      * java.util.Vector(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

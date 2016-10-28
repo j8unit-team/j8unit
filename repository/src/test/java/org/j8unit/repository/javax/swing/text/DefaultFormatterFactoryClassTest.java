@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.JFormattedTextField.AbstractFormatter;
 import javax.swing.text.DefaultFormatterFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.text.DefaultFormatterFactoryClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultFormatterFactory#DefaultFormatterFactory(AbstractFormatter, AbstractFormatter, AbstractFormatter, AbstractFormatter)
+     * {@link javax.swing.text.DefaultFormatterFactory#DefaultFormatterFactory(javax.swing.JFormattedTextField.AbstractFormatter, javax.swing.JFormattedTextField.AbstractFormatter, javax.swing.JFormattedTextField.AbstractFormatter, javax.swing.JFormattedTextField.AbstractFormatter)
      * public
      * javax.swing.text.DefaultFormatterFactory(javax.swing.JFormattedTextField$AbstractFormatter,javax.swing.JFormattedTextField$AbstractFormatter,javax.swing.JFormattedTextField$AbstractFormatter,javax.swing.JFormattedTextField$AbstractFormatter)}
      * .
@@ -42,14 +41,17 @@ implements org.j8unit.repository.javax.swing.text.DefaultFormatterFactoryClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultFormatterFactory sut = null; // = new DefaultFormatterFactory(AbstractFormatter, AbstractFormatter,
-                                                  // AbstractFormatter, AbstractFormatter);
+        final DefaultFormatterFactory sut = null; // = new
+                                                  // DefaultFormatterFactory(javax.swing.JFormattedTextField.AbstractFormatter,
+                                                  // javax.swing.JFormattedTextField.AbstractFormatter,
+                                                  // javax.swing.JFormattedTextField.AbstractFormatter,
+                                                  // javax.swing.JFormattedTextField.AbstractFormatter);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultFormatterFactory#DefaultFormatterFactory(AbstractFormatter, AbstractFormatter, AbstractFormatter)
+     * {@link javax.swing.text.DefaultFormatterFactory#DefaultFormatterFactory(javax.swing.JFormattedTextField.AbstractFormatter, javax.swing.JFormattedTextField.AbstractFormatter, javax.swing.JFormattedTextField.AbstractFormatter)
      * public
      * javax.swing.text.DefaultFormatterFactory(javax.swing.JFormattedTextField$AbstractFormatter,javax.swing.JFormattedTextField$AbstractFormatter,javax.swing.JFormattedTextField$AbstractFormatter)}
      * .
@@ -68,14 +70,17 @@ implements org.j8unit.repository.javax.swing.text.DefaultFormatterFactoryClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultFormatterFactory sut = null; // = new DefaultFormatterFactory(AbstractFormatter, AbstractFormatter,
-                                                  // AbstractFormatter);
+        final DefaultFormatterFactory sut = null; // = new
+                                                  // DefaultFormatterFactory(javax.swing.JFormattedTextField.AbstractFormatter,
+                                                  // javax.swing.JFormattedTextField.AbstractFormatter,
+                                                  // javax.swing.JFormattedTextField.AbstractFormatter);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultFormatterFactory#DefaultFormatterFactory(AbstractFormatter, AbstractFormatter) public
+     * {@link javax.swing.text.DefaultFormatterFactory#DefaultFormatterFactory(javax.swing.JFormattedTextField.AbstractFormatter, javax.swing.JFormattedTextField.AbstractFormatter)
+     * public
      * javax.swing.text.DefaultFormatterFactory(javax.swing.JFormattedTextField$AbstractFormatter,javax.swing.JFormattedTextField$AbstractFormatter)}
      * .
      *
@@ -93,15 +98,16 @@ implements org.j8unit.repository.javax.swing.text.DefaultFormatterFactoryClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultFormatterFactory sut = null; // = new DefaultFormatterFactory(AbstractFormatter,
-                                                  // AbstractFormatter);
+        final DefaultFormatterFactory sut = null; // = new
+                                                  // DefaultFormatterFactory(javax.swing.JFormattedTextField.AbstractFormatter,
+                                                  // javax.swing.JFormattedTextField.AbstractFormatter);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultFormatterFactory#DefaultFormatterFactory(AbstractFormatter) public
-     * javax.swing.text.DefaultFormatterFactory(javax.swing.JFormattedTextField$AbstractFormatter)}.
+     * {@link javax.swing.text.DefaultFormatterFactory#DefaultFormatterFactory(javax.swing.JFormattedTextField.AbstractFormatter)
+     * public javax.swing.text.DefaultFormatterFactory(javax.swing.JFormattedTextField$AbstractFormatter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,13 +123,15 @@ implements org.j8unit.repository.javax.swing.text.DefaultFormatterFactoryClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultFormatterFactory sut = null; // = new DefaultFormatterFactory(AbstractFormatter);
+        final DefaultFormatterFactory sut = null; // = new
+                                                  // DefaultFormatterFactory(javax.swing.JFormattedTextField.AbstractFormatter);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultFormatterFactory#DefaultFormatterFactory() public javax.swing.text.DefaultFormatterFactory()}.
+     * {@link javax.swing.text.DefaultFormatterFactory#DefaultFormatterFactory() public
+     * javax.swing.text.DefaultFormatterFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
 import static org.junit.Assert.fail;
-import javax.swing.text.Element;
 import javax.swing.text.TableView;
 import javax.swing.text.TableView.TableCell;
 import javax.swing.text.TableView.TableRow;
@@ -25,7 +24,8 @@ implements org.j8unit.repository.javax.swing.text.TableViewClassTests<TableView>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TableView#TableView(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.TableView#TableView(javax.swing.text.Element) public
      * javax.swing.text.TableView(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,8 @@ implements org.j8unit.repository.javax.swing.text.TableViewClassTests<TableView>
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link TableRow#TableRow(TableView, Element)
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.TableView.TableRow#TableRow(javax.swing.text.TableView, javax.swing.text.Element)
          * public javax.swing.text.TableView$TableRow(javax.swing.text.TableView,javax.swing.text.Element)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -75,7 +76,7 @@ implements org.j8unit.repository.javax.swing.text.TableViewClassTests<TableView>
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TableRow sut = null; // = new TableRow(TableView, Element);
+            final TableRow sut = null; // = new TableRow(javax.swing.text.TableView, javax.swing.text.Element);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView$TableRow]
@@ -95,7 +96,8 @@ implements org.j8unit.repository.javax.swing.text.TableViewClassTests<TableView>
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link TableCell#TableCell(TableView, Element)
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.TableView.TableCell#TableCell(javax.swing.text.TableView, javax.swing.text.Element)
          * public javax.swing.text.TableView$TableCell(javax.swing.text.TableView,javax.swing.text.Element)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,7 +114,7 @@ implements org.j8unit.repository.javax.swing.text.TableViewClassTests<TableView>
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TableCell sut = null; // = new TableCell(TableView, Element);
+            final TableCell sut = null; // = new TableCell(javax.swing.text.TableView, javax.swing.text.Element);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView$TableCell]

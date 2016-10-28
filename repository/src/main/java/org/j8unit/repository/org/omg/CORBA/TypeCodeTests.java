@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#member_name(int) public abstract
-     * java.lang.String org.omg.CORBA.TypeCode.member_name(int) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#member_name(int) public
+     * abstract java.lang.String org.omg.CORBA.TypeCode.member_name(int) throws
      * org.omg.CORBA.TypeCodePackage.BadKind,org.omg.CORBA.TypeCodePackage.Bounds}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#type_modifier() public abstract short
-     * org.omg.CORBA.TypeCode.type_modifier() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#type_modifier() public
+     * abstract short org.omg.CORBA.TypeCode.type_modifier() throws org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#fixed_scale() public abstract short
-     * org.omg.CORBA.TypeCode.fixed_scale() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#fixed_scale() public abstract
+     * short org.omg.CORBA.TypeCode.fixed_scale() throws org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#length() public abstract int
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#length() public abstract int
      * org.omg.CORBA.TypeCode.length() throws org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#concrete_base_type() public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.concrete_base_type() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#concrete_base_type() public
+     * abstract org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.concrete_base_type() throws
+     * org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#get_compact_typecode() public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.get_compact_typecode()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#get_compact_typecode() public
+     * abstract org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.get_compact_typecode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#kind() public abstract org.omg.CORBA.TCKind
-     * org.omg.CORBA.TypeCode.kind()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#kind() public abstract
+     * org.omg.CORBA.TCKind org.omg.CORBA.TypeCode.kind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +190,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#member_label(int) public abstract
-     * org.omg.CORBA.Any org.omg.CORBA.TypeCode.member_label(int) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#member_label(int) public
+     * abstract org.omg.CORBA.Any org.omg.CORBA.TypeCode.member_label(int) throws
      * org.omg.CORBA.TypeCodePackage.BadKind,org.omg.CORBA.TypeCodePackage.Bounds}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +213,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#equivalent(TypeCode) public abstract
-     * boolean org.omg.CORBA.TypeCode.equivalent(org.omg.CORBA.TypeCode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.TypeCode#equivalent(org.omg.CORBA.TypeCode) public abstract boolean
+     * org.omg.CORBA.TypeCode.equivalent(org.omg.CORBA.TypeCode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +236,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#member_type(int) public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.member_type(int) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#member_type(int) public
+     * abstract org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.member_type(int) throws
      * org.omg.CORBA.TypeCodePackage.BadKind,org.omg.CORBA.TypeCodePackage.Bounds}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -257,8 +259,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#member_visibility(int) public abstract
-     * short org.omg.CORBA.TypeCode.member_visibility(int) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#member_visibility(int) public
+     * abstract short org.omg.CORBA.TypeCode.member_visibility(int) throws
      * org.omg.CORBA.TypeCodePackage.BadKind,org.omg.CORBA.TypeCodePackage.Bounds}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -280,8 +282,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#member_count() public abstract int
-     * org.omg.CORBA.TypeCode.member_count() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#member_count() public
+     * abstract int org.omg.CORBA.TypeCode.member_count() throws org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,8 +304,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#name() public abstract java.lang.String
-     * org.omg.CORBA.TypeCode.name() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#name() public abstract
+     * java.lang.String org.omg.CORBA.TypeCode.name() throws org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +326,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#id() public abstract java.lang.String
-     * org.omg.CORBA.TypeCode.id() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#id() public abstract
+     * java.lang.String org.omg.CORBA.TypeCode.id() throws org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,8 +348,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#fixed_digits() public abstract short
-     * org.omg.CORBA.TypeCode.fixed_digits() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#fixed_digits() public
+     * abstract short org.omg.CORBA.TypeCode.fixed_digits() throws org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -368,8 +370,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#content_type() public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.content_type() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#content_type() public
+     * abstract org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.content_type() throws
+     * org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -390,30 +393,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#equal(TypeCode) public abstract boolean
-     * org.omg.CORBA.TypeCode.equal(org.omg.CORBA.TypeCode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_equal_TypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#discriminator_type() public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.discriminator_type() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#discriminator_type() public
+     * abstract org.omg.CORBA.TypeCode org.omg.CORBA.TypeCode.discriminator_type() throws
+     * org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -434,8 +416,30 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeCode#default_index() public abstract int
-     * org.omg.CORBA.TypeCode.default_index() throws org.omg.CORBA.TypeCodePackage.BadKind}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#equal(org.omg.CORBA.TypeCode)
+     * public abstract boolean org.omg.CORBA.TypeCode.equal(org.omg.CORBA.TypeCode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_equal_TypeCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TypeCode#default_index() public
+     * abstract int org.omg.CORBA.TypeCode.default_index() throws org.omg.CORBA.TypeCodePackage.BadKind}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

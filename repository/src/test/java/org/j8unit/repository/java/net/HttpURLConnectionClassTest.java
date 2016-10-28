@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.net.HttpURLConnectionClassTests<HttpURLCon
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpURLConnection#getFollowRedirects() public static
-     * boolean java.net.HttpURLConnection.getFollowRedirects()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpURLConnection#getFollowRedirects()
+     * public static boolean java.net.HttpURLConnection.getFollowRedirects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,14 @@ implements org.j8unit.repository.java.net.HttpURLConnectionClassTests<HttpURLCon
     @Category(Draft.class)
     public void test_getFollowRedirects()
     throws Exception {
-        // write some test for {@link HttpURLConnection#getFollowRedirects()}
+        // write some test for {@link java.net.HttpURLConnection#getFollowRedirects()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpURLConnection#setFollowRedirects(boolean) public
-     * static void java.net.HttpURLConnection.setFollowRedirects(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.HttpURLConnection#setFollowRedirects(boolean) public static void
+     * java.net.HttpURLConnection.setFollowRedirects(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,7 @@ implements org.j8unit.repository.java.net.HttpURLConnectionClassTests<HttpURLCon
     @Category(Draft.class)
     public void test_setFollowRedirects_boolean()
     throws Exception {
-        // write some test for {@link HttpURLConnection#setFollowRedirects(boolean)}
+        // write some test for {@link java.net.HttpURLConnection#setFollowRedirects(boolean)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.HttpURLConnection]

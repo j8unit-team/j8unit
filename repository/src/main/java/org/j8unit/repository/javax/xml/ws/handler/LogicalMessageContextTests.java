@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogicalMessageContext#getMessage() public abstract
-     * javax.xml.ws.LogicalMessage javax.xml.ws.handler.LogicalMessageContext.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.handler.LogicalMessageContext#getMessage() public abstract javax.xml.ws.LogicalMessage
+     * javax.xml.ws.handler.LogicalMessageContext.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

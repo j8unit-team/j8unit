@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
 import javax.swing.plaf.multi.MultiPanelUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#getAccessibleChildrenCount(JComponent)
-     * public int javax.swing.plaf.multi.MultiPanelUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
+     * javax.swing.plaf.multi.MultiPanelUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,8 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiPanelUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +82,8 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#paint(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiPanelUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +106,9 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#update(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiPanelUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiPanelUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +130,9 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiPanelUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiPanelUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,7 +154,8 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiPanelUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +178,9 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiPanelUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiPanelUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,8 +202,9 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiPanelUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiPanelUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,8 +226,9 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiPanelUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,7 +251,7 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#getUIs() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiPanelUI#getUIs() public
      * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiPanelUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -266,8 +273,9 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiPanelUI#contains(JComponent, int, int) public
-     * boolean javax.swing.plaf.multi.MultiPanelUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiPanelUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiPanelUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

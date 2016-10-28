@@ -6,8 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.TypeCode;
 import org.omg.DynamicAny.DynAnyFactoryOperations;
 
 /**
@@ -37,9 +35,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynAnyFactoryOperations#create_dyn_any(Any) public
-     * abstract org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any(org.omg.CORBA.Any)
-     * throws org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyFactoryOperations#create_dyn_any(org.omg.CORBA.Any) public abstract
+     * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any(org.omg.CORBA.Any) throws
+     * org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +60,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DynAnyFactoryOperations#create_dyn_any_from_type_code(TypeCode) public abstract org.omg.DynamicAny.DynAny
+     * {@link org.omg.DynamicAny.DynAnyFactoryOperations#create_dyn_any_from_type_code(org.omg.CORBA.TypeCode) public
+     * abstract org.omg.DynamicAny.DynAny
      * org.omg.DynamicAny.DynAnyFactoryOperations.create_dyn_any_from_type_code(org.omg.CORBA.TypeCode) throws
      * org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode}.
      *

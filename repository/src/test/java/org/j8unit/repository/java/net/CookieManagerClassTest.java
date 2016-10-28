@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.CookieManager;
-import java.net.CookiePolicy;
-import java.net.CookieStore;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +21,7 @@ implements org.j8unit.repository.java.net.CookieManagerClassTests<CookieManager>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CookieManager#CookieManager() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.CookieManager#CookieManager() public
      * java.net.CookieManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +43,7 @@ implements org.j8unit.repository.java.net.CookieManagerClassTests<CookieManager>
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CookieManager#CookieManager(CookieStore, CookiePolicy) public
+     * {@link java.net.CookieManager#CookieManager(java.net.CookieStore, java.net.CookiePolicy) public
      * java.net.CookieManager(java.net.CookieStore,java.net.CookiePolicy)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +60,7 @@ implements org.j8unit.repository.java.net.CookieManagerClassTests<CookieManager>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CookieManager sut = null; // = new CookieManager(CookieStore, CookiePolicy);
+        final CookieManager sut = null; // = new CookieManager(java.net.CookieStore, java.net.CookiePolicy);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CookieManager]

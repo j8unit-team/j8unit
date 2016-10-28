@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableModelEvent#getFirstRow() public int
-     * javax.swing.event.TableModelEvent.getFirstRow()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TableModelEvent#getFirstRow()
+     * public int javax.swing.event.TableModelEvent.getFirstRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableModelEvent#getLastRow() public int
-     * javax.swing.event.TableModelEvent.getLastRow()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TableModelEvent#getLastRow()
+     * public int javax.swing.event.TableModelEvent.getLastRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableModelEvent#getType() public int
-     * javax.swing.event.TableModelEvent.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TableModelEvent#getType() public
+     * int javax.swing.event.TableModelEvent.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableModelEvent#getColumn() public int
-     * javax.swing.event.TableModelEvent.getColumn()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TableModelEvent#getColumn() public
+     * int javax.swing.event.TableModelEvent.getColumn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

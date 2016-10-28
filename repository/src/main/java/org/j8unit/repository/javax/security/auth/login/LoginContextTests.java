@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoginContext#login() public void
-     * javax.security.auth.login.LoginContext.login() throws javax.security.auth.login.LoginException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.login.LoginContext#login()
+     * public void javax.security.auth.login.LoginContext.login() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoginContext#logout() public void
-     * javax.security.auth.login.LoginContext.logout() throws javax.security.auth.login.LoginException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.login.LoginContext#logout()
+     * public void javax.security.auth.login.LoginContext.logout() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoginContext#getSubject() public
-     * javax.security.auth.Subject javax.security.auth.login.LoginContext.getSubject()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.login.LoginContext#getSubject()
+     * public javax.security.auth.Subject javax.security.auth.login.LoginContext.getSubject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

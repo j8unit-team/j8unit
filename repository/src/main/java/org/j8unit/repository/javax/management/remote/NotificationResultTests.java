@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationResult#getTargetedNotifications() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.NotificationResult#getTargetedNotifications() public
      * javax.management.remote.TargetedNotification[]
      * javax.management.remote.NotificationResult.getTargetedNotifications()}.
      *
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationResult#getEarliestSequenceNumber()
-     * public long javax.management.remote.NotificationResult.getEarliestSequenceNumber()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.NotificationResult#getEarliestSequenceNumber() public long
+     * javax.management.remote.NotificationResult.getEarliestSequenceNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationResult#toString() public
-     * java.lang.String javax.management.remote.NotificationResult.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.NotificationResult#toString() public java.lang.String
+     * javax.management.remote.NotificationResult.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +105,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationResult#getNextSequenceNumber() public
-     * long javax.management.remote.NotificationResult.getNextSequenceNumber()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.NotificationResult#getNextSequenceNumber() public long
+     * javax.management.remote.NotificationResult.getNextSequenceNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

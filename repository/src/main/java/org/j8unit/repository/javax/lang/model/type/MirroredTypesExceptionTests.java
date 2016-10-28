@@ -34,9 +34,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MirroredTypesException#getTypeMirrors() public
-     * java.util.List<? extends javax.lang.model.type.TypeMirror>
-     * javax.lang.model.type.MirroredTypesException.getTypeMirrors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.MirroredTypesException#getTypeMirrors() public java.util.List<? extends
+     * javax.lang.model.type.TypeMirror> javax.lang.model.type.MirroredTypesException.getTypeMirrors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import java.awt.Color;
 import javax.swing.plaf.ColorUIResource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.ColorUIResourceClassTests<Colo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ColorUIResource#ColorUIResource(Color) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.ColorUIResource#ColorUIResource(java.awt.Color) public
      * javax.swing.plaf.ColorUIResource(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +39,13 @@ implements org.j8unit.repository.javax.swing.plaf.ColorUIResourceClassTests<Colo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ColorUIResource sut = null; // = new ColorUIResource(Color);
+        final ColorUIResource sut = null; // = new ColorUIResource(java.awt.Color);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ColorUIResource#ColorUIResource(float, float, float) public
+     * {@link javax.swing.plaf.ColorUIResource#ColorUIResource(float, float, float) public
      * javax.swing.plaf.ColorUIResource(float,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,8 @@ implements org.j8unit.repository.javax.swing.plaf.ColorUIResourceClassTests<Colo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ColorUIResource#ColorUIResource(int) public
-     * javax.swing.plaf.ColorUIResource(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.ColorUIResource#ColorUIResource(int) public javax.swing.plaf.ColorUIResource(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +89,9 @@ implements org.j8unit.repository.javax.swing.plaf.ColorUIResourceClassTests<Colo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ColorUIResource#ColorUIResource(int, int, int)
-     * public javax.swing.plaf.ColorUIResource(int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.ColorUIResource#ColorUIResource(int, int, int) public
+     * javax.swing.plaf.ColorUIResource(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

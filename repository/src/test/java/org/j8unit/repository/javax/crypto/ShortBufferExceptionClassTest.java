@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.crypto.ShortBufferExceptionClassTests<Sho
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ShortBufferException#ShortBufferException()
-     * public javax.crypto.ShortBufferException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.ShortBufferException#ShortBufferException() public javax.crypto.ShortBufferException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.javax.crypto.ShortBufferExceptionClassTests<Sho
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ShortBufferException#ShortBufferException(String) public
+     * {@link javax.crypto.ShortBufferException#ShortBufferException(String) public
      * javax.crypto.ShortBufferException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

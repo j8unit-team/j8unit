@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.lang;
 
-import java.nio.charset.Charset;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -592,8 +590,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link String#toUpperCase(Locale) public java.lang.String
-     * java.lang.String.toUpperCase(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link String#toUpperCase(java.util.Locale) public
+     * java.lang.String java.lang.String.toUpperCase(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -966,8 +964,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link String#getBytes(Charset) public byte[]
-     * java.lang.String.getBytes(java.nio.charset.Charset)}.
+     * Test method for the hereby targeted method-under-test {@link String#getBytes(java.nio.charset.Charset) public
+     * byte[] java.lang.String.getBytes(java.nio.charset.Charset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1164,8 +1162,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link String#toLowerCase(Locale) public java.lang.String
-     * java.lang.String.toLowerCase(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link String#toLowerCase(java.util.Locale) public
+     * java.lang.String java.lang.String.toLowerCase(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

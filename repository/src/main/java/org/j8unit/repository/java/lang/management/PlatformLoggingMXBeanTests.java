@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlatformLoggingMXBean#getLoggerNames() public
-     * abstract java.util.List<java.lang.String> java.lang.management.PlatformLoggingMXBean.getLoggerNames()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.PlatformLoggingMXBean#getLoggerNames() public abstract java.util.List
+     * <java.lang.String> java.lang.management.PlatformLoggingMXBean.getLoggerNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlatformLoggingMXBean#setLoggerLevel(String, String)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.PlatformLoggingMXBean#setLoggerLevel(String, String) public abstract void
      * java.lang.management.PlatformLoggingMXBean.setLoggerLevel(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlatformLoggingMXBean#getParentLoggerName(String)
-     * public abstract java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.PlatformLoggingMXBean#getParentLoggerName(String) public abstract java.lang.String
      * java.lang.management.PlatformLoggingMXBean.getParentLoggerName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +103,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlatformLoggingMXBean#getLoggerLevel(String) public
-     * abstract java.lang.String java.lang.management.PlatformLoggingMXBean.getLoggerLevel(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.PlatformLoggingMXBean#getLoggerLevel(String) public abstract java.lang.String
+     * java.lang.management.PlatformLoggingMXBean.getLoggerLevel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

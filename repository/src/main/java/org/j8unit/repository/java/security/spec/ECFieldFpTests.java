@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECFieldFp#getP() public java.math.BigInteger
-     * java.security.spec.ECFieldFp.getP()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECFieldFp#getP() public
+     * java.math.BigInteger java.security.spec.ECFieldFp.getP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECFieldFp#getFieldSize() public int
-     * java.security.spec.ECFieldFp.getFieldSize()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECFieldFp#getFieldSize() public
+     * int java.security.spec.ECFieldFp.getFieldSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECFieldFp#equals(Object) public boolean
-     * java.security.spec.ECFieldFp.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECFieldFp#equals(Object) public
+     * boolean java.security.spec.ECFieldFp.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECFieldFp#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECFieldFp#hashCode() public int
      * java.security.spec.ECFieldFp.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

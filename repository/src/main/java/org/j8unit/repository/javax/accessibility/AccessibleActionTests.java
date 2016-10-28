@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleAction#doAccessibleAction(int) public
-     * abstract boolean javax.accessibility.AccessibleAction.doAccessibleAction(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleAction#doAccessibleAction(int) public abstract boolean
+     * javax.accessibility.AccessibleAction.doAccessibleAction(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleAction#getAccessibleActionDescription(int)
-     * public abstract java.lang.String javax.accessibility.AccessibleAction.getAccessibleActionDescription(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleAction#getAccessibleActionDescription(int) public abstract java.lang.String
+     * javax.accessibility.AccessibleAction.getAccessibleActionDescription(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleAction#getAccessibleActionCount() public
-     * abstract int javax.accessibility.AccessibleAction.getAccessibleActionCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleAction#getAccessibleActionCount() public abstract int
+     * javax.accessibility.AccessibleAction.getAccessibleActionCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

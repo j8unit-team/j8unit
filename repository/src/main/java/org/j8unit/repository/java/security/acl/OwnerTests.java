@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.acl;
 
-import java.security.Principal;
 import java.security.acl.Owner;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Owner#deleteOwner(Principal, Principal) public
-     * abstract boolean java.security.acl.Owner.deleteOwner(java.security.Principal,java.security.Principal) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Owner#deleteOwner(java.security.Principal, java.security.Principal) public abstract
+     * boolean java.security.acl.Owner.deleteOwner(java.security.Principal,java.security.Principal) throws
      * java.security.acl.NotOwnerException,java.security.acl.LastOwnerException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Owner#isOwner(Principal) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Owner#isOwner(java.security.Principal) public abstract boolean
      * java.security.acl.Owner.isOwner(java.security.Principal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Owner#addOwner(Principal, Principal) public abstract
-     * boolean java.security.acl.Owner.addOwner(java.security.Principal,java.security.Principal) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Owner#addOwner(java.security.Principal, java.security.Principal) public abstract boolean
+     * java.security.acl.Owner.addOwner(java.security.Principal,java.security.Principal) throws
      * java.security.acl.NotOwnerException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

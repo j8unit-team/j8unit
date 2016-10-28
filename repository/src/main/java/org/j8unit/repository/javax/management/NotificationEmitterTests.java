@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.NotificationEmitter;
-import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,8 @@ extends org.j8unit.repository.javax.management.NotificationBroadcasterTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NotificationEmitter#removeNotificationListener(NotificationListener, NotificationFilter, Object) public
-     * abstract void
+     * {@link javax.management.NotificationEmitter#removeNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
+     * public abstract void
      * javax.management.NotificationEmitter.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
      * throws javax.management.ListenerNotFoundException}.
      *

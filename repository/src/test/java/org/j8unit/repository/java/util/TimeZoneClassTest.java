@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import static org.junit.Assert.fail;
-import java.time.ZoneId;
 import java.util.TimeZone;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.util.TimeZoneClassTests<TimeZone> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TimeZone#TimeZone() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TimeZone#TimeZone() public
      * java.util.TimeZone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +42,7 @@ implements org.j8unit.repository.java.util.TimeZoneClassTests<TimeZone> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeZone#getTimeZone(String) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.TimeZone#getTimeZone(String) public static
      * synchronized java.util.TimeZone java.util.TimeZone.getTimeZone(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,13 +57,13 @@ implements org.j8unit.repository.java.util.TimeZoneClassTests<TimeZone> {
     @Category(Draft.class)
     public void test_getTimeZone_String()
     throws Exception {
-        // write some test for {@link TimeZone#getTimeZone(String)}
+        // write some test for {@link java.util.TimeZone#getTimeZone(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeZone#getTimeZone(ZoneId) public static
-     * java.util.TimeZone java.util.TimeZone.getTimeZone(java.time.ZoneId)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TimeZone#getTimeZone(java.time.ZoneId)
+     * public static java.util.TimeZone java.util.TimeZone.getTimeZone(java.time.ZoneId)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,13 +77,13 @@ implements org.j8unit.repository.java.util.TimeZoneClassTests<TimeZone> {
     @Category(Draft.class)
     public void test_getTimeZone_ZoneId()
     throws Exception {
-        // write some test for {@link TimeZone#getTimeZone(ZoneId)}
+        // write some test for {@link java.util.TimeZone#getTimeZone(java.time.ZoneId)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeZone#getAvailableIDs(int) public static
-     * synchronized java.lang.String[] java.util.TimeZone.getAvailableIDs(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TimeZone#getAvailableIDs(int) public
+     * static synchronized java.lang.String[] java.util.TimeZone.getAvailableIDs(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,12 +97,12 @@ implements org.j8unit.repository.java.util.TimeZoneClassTests<TimeZone> {
     @Category(Draft.class)
     public void test_getAvailableIDs_int()
     throws Exception {
-        // write some test for {@link TimeZone#getAvailableIDs(int)}
+        // write some test for {@link java.util.TimeZone#getAvailableIDs(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeZone#getAvailableIDs() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.TimeZone#getAvailableIDs() public static
      * synchronized java.lang.String[] java.util.TimeZone.getAvailableIDs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -118,13 +117,13 @@ implements org.j8unit.repository.java.util.TimeZoneClassTests<TimeZone> {
     @Category(Draft.class)
     public void test_getAvailableIDs()
     throws Exception {
-        // write some test for {@link TimeZone#getAvailableIDs()}
+        // write some test for {@link java.util.TimeZone#getAvailableIDs()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeZone#setDefault(TimeZone) public static void
-     * java.util.TimeZone.setDefault(java.util.TimeZone)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TimeZone#setDefault(java.util.TimeZone)
+     * public static void java.util.TimeZone.setDefault(java.util.TimeZone)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -138,12 +137,12 @@ implements org.j8unit.repository.java.util.TimeZoneClassTests<TimeZone> {
     @Category(Draft.class)
     public void test_setDefault_TimeZone()
     throws Exception {
-        // write some test for {@link TimeZone#setDefault(TimeZone)}
+        // write some test for {@link java.util.TimeZone#setDefault(java.util.TimeZone)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimeZone#getDefault() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.TimeZone#getDefault() public static
      * java.util.TimeZone java.util.TimeZone.getDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -158,7 +157,7 @@ implements org.j8unit.repository.java.util.TimeZoneClassTests<TimeZone> {
     @Category(Draft.class)
     public void test_getDefault()
     throws Exception {
-        // write some test for {@link TimeZone#getDefault()}
+        // write some test for {@link java.util.TimeZone#getDefault()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.TimeZone]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.GeneralSecurityExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GeneralSecurityException#GeneralSecurityException(Throwable) public
+     * {@link java.security.GeneralSecurityException#GeneralSecurityException(Throwable) public
      * java.security.GeneralSecurityException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.GeneralSecurityExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GeneralSecurityException#GeneralSecurityException(String, Throwable) public
+     * {@link java.security.GeneralSecurityException#GeneralSecurityException(String, Throwable) public
      * java.security.GeneralSecurityException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.security.GeneralSecurityExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GeneralSecurityException#GeneralSecurityException(String) public
+     * {@link java.security.GeneralSecurityException#GeneralSecurityException(String) public
      * java.security.GeneralSecurityException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,8 @@ implements org.j8unit.repository.java.security.GeneralSecurityExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GeneralSecurityException#GeneralSecurityException() public java.security.GeneralSecurityException()}.
+     * {@link java.security.GeneralSecurityException#GeneralSecurityException() public
+     * java.security.GeneralSecurityException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

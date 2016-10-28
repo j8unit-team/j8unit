@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Card#getProtocol() public abstract java.lang.String
-     * javax.smartcardio.Card.getProtocol()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.Card#getProtocol() public abstract
+     * java.lang.String javax.smartcardio.Card.getProtocol()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,9 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Card#openLogicalChannel() public abstract
-     * javax.smartcardio.CardChannel javax.smartcardio.Card.openLogicalChannel() throws javax.smartcardio.CardException}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.Card#openLogicalChannel() public
+     * abstract javax.smartcardio.CardChannel javax.smartcardio.Card.openLogicalChannel() throws
+     * javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Card#getBasicChannel() public abstract
-     * javax.smartcardio.CardChannel javax.smartcardio.Card.getBasicChannel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.Card#getBasicChannel() public
+     * abstract javax.smartcardio.CardChannel javax.smartcardio.Card.getBasicChannel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Card#beginExclusive() public abstract void
-     * javax.smartcardio.Card.beginExclusive() throws javax.smartcardio.CardException}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.Card#beginExclusive() public
+     * abstract void javax.smartcardio.Card.beginExclusive() throws javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,30 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Card#getATR() public abstract javax.smartcardio.ATR
-     * javax.smartcardio.Card.getATR()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getATR()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Card#disconnect(boolean) public abstract void
-     * javax.smartcardio.Card.disconnect(boolean) throws javax.smartcardio.CardException}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.Card#disconnect(boolean) public
+     * abstract void javax.smartcardio.Card.disconnect(boolean) throws javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,9 +145,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Card#transmitControlCommand(int, byte[]) public
-     * abstract byte[] javax.smartcardio.Card.transmitControlCommand(int,byte[]) throws javax.smartcardio.CardException}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.Card#getATR() public abstract
+     * javax.smartcardio.ATR javax.smartcardio.Card.getATR()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getATR()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.smartcardio.Card#transmitControlCommand(int, byte[]) public abstract byte[]
+     * javax.smartcardio.Card.transmitControlCommand(int,byte[]) throws javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Card#endExclusive() public abstract void
-     * javax.smartcardio.Card.endExclusive() throws javax.smartcardio.CardException}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.Card#endExclusive() public
+     * abstract void javax.smartcardio.Card.endExclusive() throws javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

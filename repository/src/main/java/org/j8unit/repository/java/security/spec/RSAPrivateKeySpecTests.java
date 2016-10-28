@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAPrivateKeySpec#getPrivateExponent() public
-     * java.math.BigInteger java.security.spec.RSAPrivateKeySpec.getPrivateExponent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAPrivateKeySpec#getPrivateExponent() public java.math.BigInteger
+     * java.security.spec.RSAPrivateKeySpec.getPrivateExponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAPrivateKeySpec#getModulus() public
-     * java.math.BigInteger java.security.spec.RSAPrivateKeySpec.getModulus()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.RSAPrivateKeySpec#getModulus()
+     * public java.math.BigInteger java.security.spec.RSAPrivateKeySpec.getModulus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

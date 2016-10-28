@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Shape;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#contains(Point2D) public abstract boolean
-     * java.awt.Shape.contains(java.awt.geom.Point2D)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Shape#contains(java.awt.geom.Point2D)
+     * public abstract boolean java.awt.Shape.contains(java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#contains(Rectangle2D) public abstract boolean
-     * java.awt.Shape.contains(java.awt.geom.Rectangle2D)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Shape#contains(java.awt.geom.Rectangle2D)
+     * public abstract boolean java.awt.Shape.contains(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#contains(double, double) public abstract
-     * boolean java.awt.Shape.contains(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Shape#contains(double, double) public
+     * abstract boolean java.awt.Shape.contains(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#contains(double, double, double, double)
-     * public abstract boolean java.awt.Shape.contains(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Shape#contains(double, double, double, double) public abstract boolean
+     * java.awt.Shape.contains(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +124,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#getPathIterator(AffineTransform) public
-     * abstract java.awt.geom.PathIterator java.awt.Shape.getPathIterator(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Shape#getPathIterator(java.awt.geom.AffineTransform) public abstract java.awt.geom.PathIterator
+     * java.awt.Shape.getPathIterator(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +147,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#getPathIterator(AffineTransform, double)
-     * public abstract java.awt.geom.PathIterator java.awt.Shape.getPathIterator(java.awt.geom.AffineTransform,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Shape#getPathIterator(java.awt.geom.AffineTransform, double) public abstract
+     * java.awt.geom.PathIterator java.awt.Shape.getPathIterator(java.awt.geom.AffineTransform,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#intersects(double, double, double, double)
-     * public abstract boolean java.awt.Shape.intersects(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Shape#intersects(double, double, double, double) public abstract boolean
+     * java.awt.Shape.intersects(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +193,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#intersects(Rectangle2D) public abstract
-     * boolean java.awt.Shape.intersects(java.awt.geom.Rectangle2D)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Shape#intersects(java.awt.geom.Rectangle2D)
+     * public abstract boolean java.awt.Shape.intersects(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,7 +215,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#getBounds2D() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.awt.Shape#getBounds2D() public abstract
      * java.awt.geom.Rectangle2D java.awt.Shape.getBounds2D()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +237,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Shape#getBounds() public abstract java.awt.Rectangle
-     * java.awt.Shape.getBounds()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Shape#getBounds() public abstract
+     * java.awt.Rectangle java.awt.Shape.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

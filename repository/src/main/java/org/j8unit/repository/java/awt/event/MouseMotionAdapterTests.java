@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseMotionAdapter#mouseMoved(MouseEvent) public
-     * void java.awt.event.MouseMotionAdapter.mouseMoved(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseMotionAdapter#mouseMoved(java.awt.event.MouseEvent) public void
+     * java.awt.event.MouseMotionAdapter.mouseMoved(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseMotionAdapter#mouseDragged(MouseEvent) public
-     * void java.awt.event.MouseMotionAdapter.mouseDragged(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseMotionAdapter#mouseDragged(java.awt.event.MouseEvent) public void
+     * java.awt.event.MouseMotionAdapter.mouseDragged(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

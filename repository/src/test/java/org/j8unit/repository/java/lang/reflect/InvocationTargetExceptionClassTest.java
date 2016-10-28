@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.reflect.InvocationTargetExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvocationTargetException#InvocationTargetException(Throwable, String) public
+     * {@link java.lang.reflect.InvocationTargetException#InvocationTargetException(Throwable, String) public
      * java.lang.reflect.InvocationTargetException(java.lang.Throwable,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.lang.reflect.InvocationTargetExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvocationTargetException#InvocationTargetException(Throwable) public
+     * {@link java.lang.reflect.InvocationTargetException#InvocationTargetException(Throwable) public
      * java.lang.reflect.InvocationTargetException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

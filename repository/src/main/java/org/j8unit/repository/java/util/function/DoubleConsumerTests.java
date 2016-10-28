@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleConsumer#accept(double) public abstract void
-     * java.util.function.DoubleConsumer.accept(double)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.DoubleConsumer#accept(double)
+     * public abstract void java.util.function.DoubleConsumer.accept(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,9 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleConsumer#andThen(DoubleConsumer) public
-     * default java.util.function.DoubleConsumer
-     * java.util.function.DoubleConsumer.andThen(java.util.function.DoubleConsumer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.DoubleConsumer#andThen(java.util.function.DoubleConsumer) public default
+     * java.util.function.DoubleConsumer java.util.function.DoubleConsumer.andThen(java.util.function.DoubleConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.util.RandomClassTests<Random> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Random#Random() public java.util.Random()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Random#Random() public
+     * java.util.Random()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +42,7 @@ implements org.j8unit.repository.java.util.RandomClassTests<Random> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Random#Random(long) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Random#Random(long) public
      * java.util.Random(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

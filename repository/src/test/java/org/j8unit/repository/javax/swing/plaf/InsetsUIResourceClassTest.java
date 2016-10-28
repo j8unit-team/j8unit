@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.InsetsUIResourceClassTests<Ins
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InsetsUIResource#InsetsUIResource(int, int, int, int) public
+     * {@link javax.swing.plaf.InsetsUIResource#InsetsUIResource(int, int, int, int) public
      * javax.swing.plaf.InsetsUIResource(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

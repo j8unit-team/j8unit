@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.naming;
 
-import java.util.Hashtable;
 import javax.naming.CannotProceedException;
-import javax.naming.Context;
-import javax.naming.Name;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedException#getAltName() public
-     * javax.naming.Name javax.naming.CannotProceedException.getAltName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CannotProceedException#getAltName()
+     * public javax.naming.Name javax.naming.CannotProceedException.getAltName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +56,9 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedException#setRemainingNewName(Name)
-     * public void javax.naming.CannotProceedException.setRemainingNewName(javax.naming.Name)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.CannotProceedException#setRemainingNewName(javax.naming.Name) public void
+     * javax.naming.CannotProceedException.setRemainingNewName(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +79,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedException#getEnvironment() public
-     * java.util.Hashtable<?, ?> javax.naming.CannotProceedException.getEnvironment()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CannotProceedException#getEnvironment()
+     * public java.util.Hashtable<?, ?> javax.naming.CannotProceedException.getEnvironment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +101,9 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedException#setEnvironment(Hashtable)
-     * public void javax.naming.CannotProceedException.setEnvironment(java.util.Hashtable<?, ?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.CannotProceedException#setEnvironment(java.util.Hashtable) public void
+     * javax.naming.CannotProceedException.setEnvironment(java.util.Hashtable<?, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +124,9 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedException#setAltNameCtx(Context) public
-     * void javax.naming.CannotProceedException.setAltNameCtx(javax.naming.Context)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.CannotProceedException#setAltNameCtx(javax.naming.Context) public void
+     * javax.naming.CannotProceedException.setAltNameCtx(javax.naming.Context)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,9 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedException#getRemainingNewName() public
-     * javax.naming.Name javax.naming.CannotProceedException.getRemainingNewName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.CannotProceedException#getRemainingNewName() public javax.naming.Name
+     * javax.naming.CannotProceedException.getRemainingNewName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +170,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedException#setAltName(Name) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.CannotProceedException#setAltName(javax.naming.Name) public void
      * javax.naming.CannotProceedException.setAltName(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +193,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedException#getAltNameCtx() public
-     * javax.naming.Context javax.naming.CannotProceedException.getAltNameCtx()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.CannotProceedException#getAltNameCtx()
+     * public javax.naming.Context javax.naming.CannotProceedException.getAltNameCtx()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.ContentHandlerClassTests<ContentHandle
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ContentHandler#ContentHandler() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.ContentHandler#ContentHandler() public
      * java.net.ContentHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

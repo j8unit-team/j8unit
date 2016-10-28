@@ -1,13 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Insets;
-import java.awt.LayoutManager;
-import javax.swing.Action;
 import javax.swing.JToolBar;
 import javax.swing.JToolBar.Separator;
-import javax.swing.plaf.ToolBarUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -42,7 +36,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#setOrientation(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#setOrientation(int) public void
      * javax.swing.JToolBar.setOrientation(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,8 +58,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#add(Action) public javax.swing.JButton
-     * javax.swing.JToolBar.add(javax.swing.Action)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#add(javax.swing.Action) public
+     * javax.swing.JButton javax.swing.JToolBar.add(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,7 +80,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#getComponentAtIndex(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#getComponentAtIndex(int) public
      * java.awt.Component javax.swing.JToolBar.getComponentAtIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,8 +102,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#getMargin() public java.awt.Insets
-     * javax.swing.JToolBar.getMargin()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#getMargin() public
+     * java.awt.Insets javax.swing.JToolBar.getMargin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,7 +124,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#getComponentIndex(Component) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JToolBar#getComponentIndex(java.awt.Component) public int
      * javax.swing.JToolBar.getComponentIndex(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,7 +147,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#isFloatable() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#isFloatable() public boolean
      * javax.swing.JToolBar.isFloatable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +169,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#setBorderPainted(boolean) public void
-     * javax.swing.JToolBar.setBorderPainted(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#setBorderPainted(boolean)
+     * public void javax.swing.JToolBar.setBorderPainted(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,7 +191,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#setMargin(java.awt.Insets)
+     * public void javax.swing.JToolBar.setMargin(java.awt.Insets)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMargin_Insets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#updateUI() public void
      * javax.swing.JToolBar.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -219,29 +236,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#setMargin(Insets) public void
-     * javax.swing.JToolBar.setMargin(java.awt.Insets)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMargin_Insets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#setLayout(LayoutManager) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JToolBar#setLayout(java.awt.LayoutManager) public void
      * javax.swing.JToolBar.setLayout(java.awt.LayoutManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,8 +260,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#getUIClassID() public java.lang.String
-     * javax.swing.JToolBar.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#getUIClassID() public
+     * java.lang.String javax.swing.JToolBar.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,7 +283,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JToolBar.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -310,8 +306,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#setRollover(boolean) public void
-     * javax.swing.JToolBar.setRollover(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#setRollover(boolean) public
+     * void javax.swing.JToolBar.setRollover(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -332,8 +328,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#getUI() public javax.swing.plaf.ToolBarUI
-     * javax.swing.JToolBar.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#getUI() public
+     * javax.swing.plaf.ToolBarUI javax.swing.JToolBar.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -354,7 +350,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#getOrientation() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#getOrientation() public int
      * javax.swing.JToolBar.getOrientation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -376,7 +372,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#setUI(ToolBarUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JToolBar#setUI(javax.swing.plaf.ToolBarUI) public void
      * javax.swing.JToolBar.setUI(javax.swing.plaf.ToolBarUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -398,7 +395,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#addSeparator() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#addSeparator() public void
      * javax.swing.JToolBar.addSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -420,7 +417,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#addSeparator(Dimension) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JToolBar#addSeparator(java.awt.Dimension) public void
      * javax.swing.JToolBar.addSeparator(java.awt.Dimension)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -442,8 +440,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#isBorderPainted() public boolean
-     * javax.swing.JToolBar.isBorderPainted()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#isBorderPainted() public
+     * boolean javax.swing.JToolBar.isBorderPainted()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -464,7 +462,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#isRollover() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#isRollover() public boolean
      * javax.swing.JToolBar.isRollover()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -486,8 +484,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolBar#setFloatable(boolean) public void
-     * javax.swing.JToolBar.setFloatable(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#setFloatable(boolean) public
+     * void javax.swing.JToolBar.setFloatable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -535,8 +533,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Separator#setSeparatorSize(Dimension) public
-         * void javax.swing.JToolBar$Separator.setSeparatorSize(java.awt.Dimension)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JToolBar.Separator#setSeparatorSize(java.awt.Dimension) public void
+         * javax.swing.JToolBar$Separator.setSeparatorSize(java.awt.Dimension)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -557,8 +556,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Separator#getMaximumSize() public
-         * java.awt.Dimension javax.swing.JToolBar$Separator.getMaximumSize()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar.Separator#getMaximumSize()
+         * public java.awt.Dimension javax.swing.JToolBar$Separator.getMaximumSize()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -580,8 +579,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Separator#getPreferredSize() public
-         * java.awt.Dimension javax.swing.JToolBar$Separator.getPreferredSize()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JToolBar.Separator#getPreferredSize() public java.awt.Dimension
+         * javax.swing.JToolBar$Separator.getPreferredSize()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -603,8 +603,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Separator#getMinimumSize() public
-         * java.awt.Dimension javax.swing.JToolBar$Separator.getMinimumSize()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar.Separator#getMinimumSize()
+         * public java.awt.Dimension javax.swing.JToolBar$Separator.getMinimumSize()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -626,8 +626,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Separator#getSeparatorSize() public
-         * java.awt.Dimension javax.swing.JToolBar$Separator.getSeparatorSize()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JToolBar.Separator#getSeparatorSize() public java.awt.Dimension
+         * javax.swing.JToolBar$Separator.getSeparatorSize()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -648,8 +649,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Separator#getUIClassID() public java.lang.String
-         * javax.swing.JToolBar$Separator.getUIClassID()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar.Separator#getUIClassID()
+         * public java.lang.String javax.swing.JToolBar$Separator.getUIClassID()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

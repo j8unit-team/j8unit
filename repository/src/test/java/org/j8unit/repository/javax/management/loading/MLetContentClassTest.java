@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.management.loading;
 
-import java.net.URL;
-import java.util.List;
-import java.util.Map;
 import javax.management.loading.MLetContent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +21,8 @@ implements org.j8unit.repository.javax.management.loading.MLetContentClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MLetContent#MLetContent(URL, Map, List, List)
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.loading.MLetContent#MLetContent(java.net.URL, java.util.Map, java.util.List, java.util.List)
      * public javax.management.loading.MLetContent(java.net.URL,java.util.Map<java.lang.String,
      * java.lang.String>,java.util.List<java.lang.String>,java.util.List<java.lang.String>)}.
      *
@@ -42,7 +40,7 @@ implements org.j8unit.repository.javax.management.loading.MLetContentClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MLetContent sut = null; // = new MLetContent(URL, Map, List, List);
+        final MLetContent sut = null; // = new MLetContent(java.net.URL, java.util.Map, java.util.List, java.util.List);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.MLetContent]

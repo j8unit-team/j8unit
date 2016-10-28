@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Renderer#setValue(Object, boolean) public abstract
-     * void javax.swing.Renderer.setValue(java.lang.Object,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Renderer#setValue(Object, boolean)
+     * public abstract void javax.swing.Renderer.setValue(java.lang.Object,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Renderer#getComponent() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Renderer#getComponent() public abstract
      * java.awt.Component javax.swing.Renderer.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

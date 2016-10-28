@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.ItemSelectable;
 import java.awt.event.ItemEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.event.ItemEventClassTests<ItemEvent> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ItemEvent#ItemEvent(ItemSelectable, int, Object, int) public
+     * {@link java.awt.event.ItemEvent#ItemEvent(java.awt.ItemSelectable, int, Object, int) public
      * java.awt.event.ItemEvent(java.awt.ItemSelectable,int,java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.awt.event.ItemEventClassTests<ItemEvent> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ItemEvent sut = null; // = new ItemEvent(ItemSelectable, int, Object, int);
+        final ItemEvent sut = null; // = new ItemEvent(java.awt.ItemSelectable, int, Object, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ItemEvent]

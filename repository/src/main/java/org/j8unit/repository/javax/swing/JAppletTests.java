@@ -1,13 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Graphics;
-import java.awt.LayoutManager;
 import javax.swing.JApplet;
-import javax.swing.JLayeredPane;
-import javax.swing.JMenuBar;
-import javax.swing.TransferHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,8 +34,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#getGlassPane() public java.awt.Component
-     * javax.swing.JApplet.getGlassPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#getGlassPane() public
+     * java.awt.Component javax.swing.JApplet.getGlassPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +57,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#getRootPane() public javax.swing.JRootPane
-     * javax.swing.JApplet.getRootPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#getRootPane() public
+     * javax.swing.JRootPane javax.swing.JApplet.getRootPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,7 +80,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#setJMenuBar(JMenuBar) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JApplet#setJMenuBar(javax.swing.JMenuBar) public void
      * javax.swing.JApplet.setJMenuBar(javax.swing.JMenuBar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +103,7 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JApplet.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,8 +126,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#remove(Component) public void
-     * javax.swing.JApplet.remove(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#remove(java.awt.Component)
+     * public void javax.swing.JApplet.remove(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,8 +149,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#getContentPane() public java.awt.Container
-     * javax.swing.JApplet.getContentPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#getContentPane() public
+     * java.awt.Container javax.swing.JApplet.getContentPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,8 +172,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#update(Graphics) public void
-     * javax.swing.JApplet.update(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#update(java.awt.Graphics) public
+     * void javax.swing.JApplet.update(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,7 +195,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#setLayout(LayoutManager) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JApplet#setLayout(java.awt.LayoutManager) public void
      * javax.swing.JApplet.setLayout(java.awt.LayoutManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -224,8 +219,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#getJMenuBar() public javax.swing.JMenuBar
-     * javax.swing.JApplet.getJMenuBar()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#getJMenuBar() public
+     * javax.swing.JMenuBar javax.swing.JApplet.getJMenuBar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -246,7 +241,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#setLayeredPane(JLayeredPane) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JApplet#setLayeredPane(javax.swing.JLayeredPane) public void
      * javax.swing.JApplet.setLayeredPane(javax.swing.JLayeredPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -269,8 +265,9 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#setTransferHandler(TransferHandler) public
-     * void javax.swing.JApplet.setTransferHandler(javax.swing.TransferHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JApplet#setTransferHandler(javax.swing.TransferHandler) public void
+     * javax.swing.JApplet.setTransferHandler(javax.swing.TransferHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -291,7 +288,7 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#getTransferHandler() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#getTransferHandler() public
      * javax.swing.TransferHandler javax.swing.JApplet.getTransferHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -313,8 +310,9 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#repaint(long, int, int, int, int) public
-     * void javax.swing.JApplet.repaint(long,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JApplet#repaint(long, int, int, int, int) public void
+     * javax.swing.JApplet.repaint(long,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -336,8 +334,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#setGlassPane(Component) public void
-     * javax.swing.JApplet.setGlassPane(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#setGlassPane(java.awt.Component)
+     * public void javax.swing.JApplet.setGlassPane(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -359,7 +357,7 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#getLayeredPane() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#getLayeredPane() public
      * javax.swing.JLayeredPane javax.swing.JApplet.getLayeredPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -382,7 +380,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#setContentPane(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JApplet#setContentPane(java.awt.Container) public void
      * javax.swing.JApplet.setContentPane(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -405,8 +404,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JApplet#getGraphics() public java.awt.Graphics
-     * javax.swing.JApplet.getGraphics()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JApplet#getGraphics() public
+     * java.awt.Graphics javax.swing.JApplet.getGraphics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.JMX;
-import javax.management.MBeanServerConnection;
-import javax.management.ObjectName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.javax.management.JMXClassTests<JMX> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMX#isMXBeanInterface(Class) public static boolean
-     * javax.management.JMX.isMXBeanInterface(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.JMX#isMXBeanInterface(Class) public
+     * static boolean javax.management.JMX.isMXBeanInterface(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,13 +36,14 @@ implements org.j8unit.repository.javax.management.JMXClassTests<JMX> {
     @Category(Draft.class)
     public void test_isMXBeanInterface_Class()
     throws Exception {
-        // write some test for {@link JMX#isMXBeanInterface(Class)}
+        // write some test for {@link javax.management.JMX#isMXBeanInterface(Class)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMX#newMBeanProxy(MBeanServerConnection, ObjectName, Class) public static <T> T
+     * {@link javax.management.JMX#newMBeanProxy(javax.management.MBeanServerConnection, javax.management.ObjectName, Class)
+     * public static <T> T
      * javax.management.JMX.newMBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class
      * <T>)}.
      *
@@ -60,13 +59,15 @@ implements org.j8unit.repository.javax.management.JMXClassTests<JMX> {
     @Category(Draft.class)
     public void test_newMBeanProxy_MBeanServerConnection_ObjectName_Class()
     throws Exception {
-        // write some test for {@link JMX#newMBeanProxy(MBeanServerConnection, ObjectName, Class)}
+        // write some test for {@link javax.management.JMX#newMBeanProxy(javax.management.MBeanServerConnection,
+        // javax.management.ObjectName, Class)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMX#newMBeanProxy(MBeanServerConnection, ObjectName, Class, boolean) public static <T> T
+     * {@link javax.management.JMX#newMBeanProxy(javax.management.MBeanServerConnection, javax.management.ObjectName, Class, boolean)
+     * public static <T> T
      * javax.management.JMX.newMBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class
      * <T>,boolean)}.
      *
@@ -82,13 +83,15 @@ implements org.j8unit.repository.javax.management.JMXClassTests<JMX> {
     @Category(Draft.class)
     public void test_newMBeanProxy_MBeanServerConnection_ObjectName_Class_boolean()
     throws Exception {
-        // write some test for {@link JMX#newMBeanProxy(MBeanServerConnection, ObjectName, Class, boolean)}
+        // write some test for {@link javax.management.JMX#newMBeanProxy(javax.management.MBeanServerConnection,
+        // javax.management.ObjectName, Class, boolean)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMX#newMXBeanProxy(MBeanServerConnection, ObjectName, Class, boolean) public static <T> T
+     * {@link javax.management.JMX#newMXBeanProxy(javax.management.MBeanServerConnection, javax.management.ObjectName, Class, boolean)
+     * public static <T> T
      * javax.management.JMX.newMXBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class
      * <T>,boolean)}.
      *
@@ -104,13 +107,15 @@ implements org.j8unit.repository.javax.management.JMXClassTests<JMX> {
     @Category(Draft.class)
     public void test_newMXBeanProxy_MBeanServerConnection_ObjectName_Class_boolean()
     throws Exception {
-        // write some test for {@link JMX#newMXBeanProxy(MBeanServerConnection, ObjectName, Class, boolean)}
+        // write some test for {@link javax.management.JMX#newMXBeanProxy(javax.management.MBeanServerConnection,
+        // javax.management.ObjectName, Class, boolean)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMX#newMXBeanProxy(MBeanServerConnection, ObjectName, Class) public static <T> T
+     * {@link javax.management.JMX#newMXBeanProxy(javax.management.MBeanServerConnection, javax.management.ObjectName, Class)
+     * public static <T> T
      * javax.management.JMX.newMXBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class
      * <T>)}.
      *
@@ -126,7 +131,8 @@ implements org.j8unit.repository.javax.management.JMXClassTests<JMX> {
     @Category(Draft.class)
     public void test_newMXBeanProxy_MBeanServerConnection_ObjectName_Class()
     throws Exception {
-        // write some test for {@link JMX#newMXBeanProxy(MBeanServerConnection, ObjectName, Class)}
+        // write some test for {@link javax.management.JMX#newMXBeanProxy(javax.management.MBeanServerConnection,
+        // javax.management.ObjectName, Class)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.JMX]

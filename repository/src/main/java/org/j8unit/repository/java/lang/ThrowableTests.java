@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.lang;
 
-import java.io.PrintStream;
-import java.io.PrintWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -101,8 +99,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Throwable#printStackTrace(PrintStream) public void
-     * java.lang.Throwable.printStackTrace(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test {@link Throwable#printStackTrace(java.io.PrintStream)
+     * public void java.lang.Throwable.printStackTrace(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +121,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Throwable#printStackTrace(PrintWriter) public void
-     * java.lang.Throwable.printStackTrace(java.io.PrintWriter)}.
+     * Test method for the hereby targeted method-under-test {@link Throwable#printStackTrace(java.io.PrintWriter)
+     * public void java.lang.Throwable.printStackTrace(java.io.PrintWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

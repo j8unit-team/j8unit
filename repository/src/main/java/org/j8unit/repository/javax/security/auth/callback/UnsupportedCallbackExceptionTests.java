@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnsupportedCallbackException#getCallback() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.UnsupportedCallbackException#getCallback() public
      * javax.security.auth.callback.Callback javax.security.auth.callback.UnsupportedCallbackException.getCallback()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

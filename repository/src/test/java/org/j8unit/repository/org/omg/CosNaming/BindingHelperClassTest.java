@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.CosNaming.Binding;
 import org.omg.CosNaming.BindingHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<Bindi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BindingHelper#BindingHelper() public
-     * org.omg.CosNaming.BindingHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CosNaming.BindingHelper#BindingHelper()
+     * public org.omg.CosNaming.BindingHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +42,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<Bindi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingHelper#id() public static java.lang.String
-     * org.omg.CosNaming.BindingHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming.BindingHelper#id() public static
+     * java.lang.String org.omg.CosNaming.BindingHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,13 +57,14 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<Bindi
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link BindingHelper#id()}
+        // write some test for {@link org.omg.CosNaming.BindingHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingHelper#insert(Any, Binding) public static
-     * void org.omg.CosNaming.BindingHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.Binding)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingHelper#insert(org.omg.CORBA.Any, org.omg.CosNaming.Binding) public static void
+     * org.omg.CosNaming.BindingHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.Binding)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,14 +78,16 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<Bindi
     @Category(Draft.class)
     public void test_insert_Any_Binding()
     throws Exception {
-        // write some test for {@link BindingHelper#insert(Any, Binding)}
+        // write some test for {@link org.omg.CosNaming.BindingHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CosNaming.Binding)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingHelper#write(OutputStream, Binding) public
-     * static void org.omg.CosNaming.BindingHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.Binding)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CosNaming.Binding)
+     * public static void
+     * org.omg.CosNaming.BindingHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.Binding)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,13 +101,14 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<Bindi
     @Category(Draft.class)
     public void test_write_OutputStream_Binding()
     throws Exception {
-        // write some test for {@link BindingHelper#write(OutputStream, Binding)}
+        // write some test for {@link org.omg.CosNaming.BindingHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CosNaming.Binding)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CosNaming.BindingHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming.BindingHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CosNaming.BindingHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,12 +122,13 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<Bindi
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link BindingHelper#type()}
+        // write some test for {@link org.omg.CosNaming.BindingHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.CosNaming.Binding org.omg.CosNaming.BindingHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -142,13 +143,14 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<Bindi
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link BindingHelper#read(InputStream)}
+        // write some test for {@link org.omg.CosNaming.BindingHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingHelper#extract(Any) public static
-     * org.omg.CosNaming.Binding org.omg.CosNaming.BindingHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingHelper#extract(org.omg.CORBA.Any) public static org.omg.CosNaming.Binding
+     * org.omg.CosNaming.BindingHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,7 +164,7 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<Bindi
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link BindingHelper#extract(Any)}
+        // write some test for {@link org.omg.CosNaming.BindingHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingHelper]

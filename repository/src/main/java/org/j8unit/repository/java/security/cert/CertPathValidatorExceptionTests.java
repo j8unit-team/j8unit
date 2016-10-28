@@ -36,8 +36,9 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidatorException#getCertPath() public
-     * java.security.cert.CertPath java.security.cert.CertPathValidatorException.getCertPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidatorException#getCertPath() public java.security.cert.CertPath
+     * java.security.cert.CertPathValidatorException.getCertPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +59,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidatorException#getReason() public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidatorException#getReason() public
      * java.security.cert.CertPathValidatorException$Reason java.security.cert.CertPathValidatorException.getReason()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +82,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidatorException#getIndex() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidatorException#getIndex() public int
      * java.security.cert.CertPathValidatorException.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

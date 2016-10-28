@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.xml.ws;
 
-import javax.xml.transform.Result;
 import javax.xml.ws.EndpointReference;
-import javax.xml.ws.WebServiceFeature;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EndpointReference#writeTo(Result) public abstract
-     * void javax.xml.ws.EndpointReference.writeTo(javax.xml.transform.Result)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.EndpointReference#writeTo(javax.xml.transform.Result) public abstract void
+     * javax.xml.ws.EndpointReference.writeTo(javax.xml.transform.Result)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EndpointReference#getPort(Class, WebServiceFeature...) public <T> T
+     * {@link javax.xml.ws.EndpointReference#getPort(Class, javax.xml.ws.WebServiceFeature...) public <T> T
      * javax.xml.ws.EndpointReference.getPort(java.lang.Class<T>,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EndpointReference#toString() public java.lang.String
-     * javax.xml.ws.EndpointReference.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.EndpointReference#toString() public
+     * java.lang.String javax.xml.ws.EndpointReference.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

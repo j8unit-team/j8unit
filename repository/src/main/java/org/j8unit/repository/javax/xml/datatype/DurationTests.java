@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.xml.datatype;
 
-import java.math.BigDecimal;
-import java.util.Calendar;
-import java.util.Date;
-import javax.xml.datatype.DatatypeConstants.Field;
 import javax.xml.datatype.Duration;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getHours() public int
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getHours() public int
      * javax.xml.datatype.Duration.getHours()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getYears() public int
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getYears() public int
      * javax.xml.datatype.Duration.getYears()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#hashCode() public abstract int
-     * javax.xml.datatype.Duration.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#hashCode() public
+     * abstract int javax.xml.datatype.Duration.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,29 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#multiply(BigDecimal) public abstract
-     * javax.xml.datatype.Duration javax.xml.datatype.Duration.multiply(java.math.BigDecimal)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_multiply_BigDecimal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#multiply(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#multiply(int) public
      * javax.xml.datatype.Duration javax.xml.datatype.Duration.multiply(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +123,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#compare(Duration) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#multiply(java.math.BigDecimal) public abstract javax.xml.datatype.Duration
+     * javax.xml.datatype.Duration.multiply(java.math.BigDecimal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_multiply_BigDecimal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#compare(javax.xml.datatype.Duration) public abstract int
      * javax.xml.datatype.Duration.compare(javax.xml.datatype.Duration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +169,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#normalizeWith(Calendar) public abstract
-     * javax.xml.datatype.Duration javax.xml.datatype.Duration.normalizeWith(java.util.Calendar)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#normalizeWith(java.util.Calendar) public abstract javax.xml.datatype.Duration
+     * javax.xml.datatype.Duration.normalizeWith(java.util.Calendar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,7 +192,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#isLongerThan(Duration) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#isLongerThan(javax.xml.datatype.Duration) public boolean
      * javax.xml.datatype.Duration.isLongerThan(javax.xml.datatype.Duration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +215,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getXMLSchemaType() public
-     * javax.xml.namespace.QName javax.xml.datatype.Duration.getXMLSchemaType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getXMLSchemaType()
+     * public javax.xml.namespace.QName javax.xml.datatype.Duration.getXMLSchemaType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,7 +237,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getMonths() public int
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getMonths() public int
      * javax.xml.datatype.Duration.getMonths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,7 +259,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#isShorterThan(Duration) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#isShorterThan(javax.xml.datatype.Duration) public boolean
      * javax.xml.datatype.Duration.isShorterThan(javax.xml.datatype.Duration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,7 +282,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getDays() public int
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getDays() public int
      * javax.xml.datatype.Duration.getDays()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -303,7 +304,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getSeconds() public int
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getSeconds() public int
      * javax.xml.datatype.Duration.getSeconds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -325,8 +326,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#equals(Object) public boolean
-     * javax.xml.datatype.Duration.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#equals(Object) public
+     * boolean javax.xml.datatype.Duration.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -348,8 +349,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getSign() public abstract int
-     * javax.xml.datatype.Duration.getSign()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getSign() public
+     * abstract int javax.xml.datatype.Duration.getSign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -370,7 +371,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#negate() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#negate() public abstract
      * javax.xml.datatype.Duration javax.xml.datatype.Duration.negate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -392,8 +393,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#toString() public java.lang.String
-     * javax.xml.datatype.Duration.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#toString() public
+     * java.lang.String javax.xml.datatype.Duration.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -415,8 +416,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#addTo(Date) public void
-     * javax.xml.datatype.Duration.addTo(java.util.Date)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#addTo(java.util.Date)
+     * public void javax.xml.datatype.Duration.addTo(java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -437,7 +438,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#addTo(Calendar) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#addTo(java.util.Calendar) public abstract void
      * javax.xml.datatype.Duration.addTo(java.util.Calendar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -459,8 +461,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#add(Duration) public abstract
-     * javax.xml.datatype.Duration javax.xml.datatype.Duration.add(javax.xml.datatype.Duration)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#add(javax.xml.datatype.Duration) public abstract javax.xml.datatype.Duration
+     * javax.xml.datatype.Duration.add(javax.xml.datatype.Duration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -481,8 +484,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#subtract(Duration) public
-     * javax.xml.datatype.Duration javax.xml.datatype.Duration.subtract(javax.xml.datatype.Duration)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#subtract(javax.xml.datatype.Duration) public javax.xml.datatype.Duration
+     * javax.xml.datatype.Duration.subtract(javax.xml.datatype.Duration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -503,7 +507,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#isSet(Field) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#isSet(javax.xml.datatype.DatatypeConstants.Field) public abstract boolean
      * javax.xml.datatype.Duration.isSet(javax.xml.datatype.DatatypeConstants$Field)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -525,7 +530,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getTimeInMillis(Calendar) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#getTimeInMillis(java.util.Calendar) public long
      * javax.xml.datatype.Duration.getTimeInMillis(java.util.Calendar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -547,7 +553,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getTimeInMillis(Date) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#getTimeInMillis(java.util.Date) public long
      * javax.xml.datatype.Duration.getTimeInMillis(java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -569,7 +576,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getField(Field) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.Duration#getField(javax.xml.datatype.DatatypeConstants.Field) public abstract
      * java.lang.Number javax.xml.datatype.Duration.getField(javax.xml.datatype.DatatypeConstants$Field)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -591,7 +599,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getMinutes() public int
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getMinutes() public int
      * javax.xml.datatype.Duration.getMinutes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

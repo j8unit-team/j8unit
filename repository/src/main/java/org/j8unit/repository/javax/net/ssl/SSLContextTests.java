@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.security.SecureRandom;
-import javax.net.ssl.KeyManager;
 import javax.net.ssl.SSLContext;
-import javax.net.ssl.TrustManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#createSSLEngine() public final
-     * javax.net.ssl.SSLEngine javax.net.ssl.SSLContext.createSSLEngine()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#createSSLEngine() public
+     * final javax.net.ssl.SSLEngine javax.net.ssl.SSLContext.createSSLEngine()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#createSSLEngine(String, int) public final
-     * javax.net.ssl.SSLEngine javax.net.ssl.SSLContext.createSSLEngine(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLContext#createSSLEngine(String, int) public final javax.net.ssl.SSLEngine
+     * javax.net.ssl.SSLContext.createSSLEngine(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getServerSocketFactory() public final
-     * javax.net.ssl.SSLServerSocketFactory javax.net.ssl.SSLContext.getServerSocketFactory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getServerSocketFactory()
+     * public final javax.net.ssl.SSLServerSocketFactory javax.net.ssl.SSLContext.getServerSocketFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getSocketFactory() public final
-     * javax.net.ssl.SSLSocketFactory javax.net.ssl.SSLContext.getSocketFactory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getSocketFactory() public
+     * final javax.net.ssl.SSLSocketFactory javax.net.ssl.SSLContext.getSocketFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SSLContext#init(KeyManager[], TrustManager[], SecureRandom) public final void
+     * {@link javax.net.ssl.SSLContext#init(javax.net.ssl.KeyManager[], javax.net.ssl.TrustManager[], java.security.SecureRandom)
+     * public final void
      * javax.net.ssl.SSLContext.init(javax.net.ssl.KeyManager[],javax.net.ssl.TrustManager[],java.security.SecureRandom)
      * throws java.security.KeyManagementException}.
      *
@@ -149,7 +148,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getProtocol() public final
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getProtocol() public final
      * java.lang.String javax.net.ssl.SSLContext.getProtocol()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +170,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getSupportedSSLParameters() public final
-     * javax.net.ssl.SSLParameters javax.net.ssl.SSLContext.getSupportedSSLParameters()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getSupportedSSLParameters()
+     * public final javax.net.ssl.SSLParameters javax.net.ssl.SSLContext.getSupportedSSLParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,7 +192,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getProvider() public final
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getProvider() public final
      * java.security.Provider javax.net.ssl.SSLContext.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +214,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getServerSessionContext() public final
-     * javax.net.ssl.SSLSessionContext javax.net.ssl.SSLContext.getServerSessionContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getServerSessionContext()
+     * public final javax.net.ssl.SSLSessionContext javax.net.ssl.SSLContext.getServerSessionContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +236,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getClientSessionContext() public final
-     * javax.net.ssl.SSLSessionContext javax.net.ssl.SSLContext.getClientSessionContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getClientSessionContext()
+     * public final javax.net.ssl.SSLSessionContext javax.net.ssl.SSLContext.getClientSessionContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +258,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getDefaultSSLParameters() public final
-     * javax.net.ssl.SSLParameters javax.net.ssl.SSLContext.getDefaultSSLParameters()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getDefaultSSLParameters()
+     * public final javax.net.ssl.SSLParameters javax.net.ssl.SSLContext.getDefaultSSLParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

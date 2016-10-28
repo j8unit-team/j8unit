@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#toString() public java.lang.String
-     * java.beans.FeatureDescriptor.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#toString() public
+     * java.lang.String java.beans.FeatureDescriptor.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#setExpert(boolean) public void
-     * java.beans.FeatureDescriptor.setExpert(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#setExpert(boolean)
+     * public void java.beans.FeatureDescriptor.setExpert(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#setPreferred(boolean) public void
-     * java.beans.FeatureDescriptor.setPreferred(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#setPreferred(boolean)
+     * public void java.beans.FeatureDescriptor.setPreferred(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#attributeNames() public
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#attributeNames() public
      * java.util.Enumeration<java.lang.String> java.beans.FeatureDescriptor.attributeNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#getValue(String) public
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#getValue(String) public
      * java.lang.Object java.beans.FeatureDescriptor.getValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +145,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#setValue(String, Object) public
-     * void java.beans.FeatureDescriptor.setValue(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.FeatureDescriptor#setValue(String, Object) public void
+     * java.beans.FeatureDescriptor.setValue(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#setHidden(boolean) public void
-     * java.beans.FeatureDescriptor.setHidden(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#setHidden(boolean)
+     * public void java.beans.FeatureDescriptor.setHidden(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +190,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#getShortDescription() public
-     * java.lang.String java.beans.FeatureDescriptor.getShortDescription()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#getShortDescription()
+     * public java.lang.String java.beans.FeatureDescriptor.getShortDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +212,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#getDisplayName() public
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#getDisplayName() public
      * java.lang.String java.beans.FeatureDescriptor.getDisplayName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,8 +234,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#isPreferred() public boolean
-     * java.beans.FeatureDescriptor.isPreferred()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#isPreferred() public
+     * boolean java.beans.FeatureDescriptor.isPreferred()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +256,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#isHidden() public boolean
-     * java.beans.FeatureDescriptor.isHidden()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#isHidden() public
+     * boolean java.beans.FeatureDescriptor.isHidden()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +278,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#setDisplayName(String) public void
-     * java.beans.FeatureDescriptor.setDisplayName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#setDisplayName(String)
+     * public void java.beans.FeatureDescriptor.setDisplayName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,8 +300,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#getName() public java.lang.String
-     * java.beans.FeatureDescriptor.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#getName() public
+     * java.lang.String java.beans.FeatureDescriptor.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,8 +322,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#setShortDescription(String) public
-     * void java.beans.FeatureDescriptor.setShortDescription(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.FeatureDescriptor#setShortDescription(String) public void
+     * java.beans.FeatureDescriptor.setShortDescription(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -343,8 +345,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#isExpert() public boolean
-     * java.beans.FeatureDescriptor.isExpert()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#isExpert() public
+     * boolean java.beans.FeatureDescriptor.isExpert()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -365,8 +367,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FeatureDescriptor#setName(String) public void
-     * java.beans.FeatureDescriptor.setName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.FeatureDescriptor#setName(String) public
+     * void java.beans.FeatureDescriptor.setName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

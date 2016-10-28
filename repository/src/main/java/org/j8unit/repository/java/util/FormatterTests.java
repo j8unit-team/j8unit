@@ -2,7 +2,6 @@ package org.j8unit.repository.java.util;
 
 import java.util.Formatter;
 import java.util.Formatter.BigDecimalLayoutForm;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#out() public java.lang.Appendable
-     * java.util.Formatter.out()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Formatter#out() public
+     * java.lang.Appendable java.util.Formatter.out()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#ioException() public java.io.IOException
-     * java.util.Formatter.ioException()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Formatter#ioException() public
+     * java.io.IOException java.util.Formatter.ioException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Formatter#close() public void
      * java.util.Formatter.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +102,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#locale() public java.util.Locale
+     * Test method for the hereby targeted method-under-test {@link java.util.Formatter#locale() public java.util.Locale
      * java.util.Formatter.locale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +124,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#toString() public java.lang.String
-     * java.util.Formatter.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Formatter#toString() public
+     * java.lang.String java.util.Formatter.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +147,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#format(String, Object...) public
+     * Test method for the hereby targeted method-under-test {@link java.util.Formatter#format(String, Object...) public
      * java.util.Formatter java.util.Formatter.format(java.lang.String,java.lang.Object...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +169,9 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#format(Locale, String, Object...) public
-     * java.util.Formatter java.util.Formatter.format(java.util.Locale,java.lang.String,java.lang.Object...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Formatter#format(java.util.Locale, String, Object...) public java.util.Formatter
+     * java.util.Formatter.format(java.util.Locale,java.lang.String,java.lang.Object...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +192,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#flush() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Formatter#flush() public void
      * java.util.Formatter.flush()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.text;
 
-import java.text.AttributedCharacterIterator;
-import java.text.AttributedCharacterIterator.Attribute;
 import java.text.AttributedString;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributedString#AttributedString(AttributedCharacterIterator, int, int, Attribute[]) public
+     * {@link java.text.AttributedString#AttributedString(java.text.AttributedCharacterIterator, int, int, java.text.AttributedCharacterIterator.Attribute[])
+     * public
      * java.text.AttributedString(java.text.AttributedCharacterIterator,int,int,java.text.AttributedCharacterIterator$Attribute[])}
      * .
      *
@@ -43,14 +41,14 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AttributedString sut = null; // = new AttributedString(AttributedCharacterIterator, int, int,
-                                           // Attribute[]);
+        final AttributedString sut = null; // = new AttributedString(java.text.AttributedCharacterIterator, int, int,
+                                           // java.text.AttributedCharacterIterator.Attribute[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributedString#AttributedString(AttributedCharacterIterator, int, int) public
+     * {@link java.text.AttributedString#AttributedString(java.text.AttributedCharacterIterator, int, int) public
      * java.text.AttributedString(java.text.AttributedCharacterIterator,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,13 +65,13 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AttributedString sut = null; // = new AttributedString(AttributedCharacterIterator, int, int);
+        final AttributedString sut = null; // = new AttributedString(java.text.AttributedCharacterIterator, int, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributedString#AttributedString(AttributedCharacterIterator) public
+     * {@link java.text.AttributedString#AttributedString(java.text.AttributedCharacterIterator) public
      * java.text.AttributedString(java.text.AttributedCharacterIterator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,13 +88,13 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AttributedString sut = null; // = new AttributedString(AttributedCharacterIterator);
+        final AttributedString sut = null; // = new AttributedString(java.text.AttributedCharacterIterator);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AttributedString#AttributedString(String)
-     * public java.text.AttributedString(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.AttributedString#AttributedString(String) public java.text.AttributedString(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,8 +115,9 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AttributedString#AttributedString(String, Map)
-     * public java.text.AttributedString(java.lang.String,java.util.Map<? extends
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.AttributedString#AttributedString(String, java.util.Map) public
+     * java.text.AttributedString(java.lang.String,java.util.Map<? extends
      * java.text.AttributedCharacterIterator$Attribute, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,7 +134,7 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AttributedString sut = null; // = new AttributedString(String, Map);
+        final AttributedString sut = null; // = new AttributedString(String, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.AttributedString]

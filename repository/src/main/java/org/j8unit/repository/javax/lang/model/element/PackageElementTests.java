@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PackageElement#getEnclosingElement() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.PackageElement#getEnclosingElement() public abstract
      * javax.lang.model.element.Element javax.lang.model.element.PackageElement.getEnclosingElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,9 @@ extends org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PackageElement#getQualifiedName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.PackageElement.getQualifiedName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.PackageElement#getQualifiedName() public abstract javax.lang.model.element.Name
+     * javax.lang.model.element.PackageElement.getQualifiedName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,8 @@ extends org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PackageElement#isUnnamed() public abstract boolean
-     * javax.lang.model.element.PackageElement.isUnnamed()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.PackageElement#isUnnamed()
+     * public abstract boolean javax.lang.model.element.PackageElement.isUnnamed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,9 +104,9 @@ extends org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PackageElement#getEnclosedElements() public abstract
-     * java.util.List<? extends javax.lang.model.element.Element>
-     * javax.lang.model.element.PackageElement.getEnclosedElements()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.PackageElement#getEnclosedElements() public abstract java.util.List<? extends
+     * javax.lang.model.element.Element> javax.lang.model.element.PackageElement.getEnclosedElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +128,9 @@ extends org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PackageElement#getSimpleName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.PackageElement.getSimpleName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.PackageElement#getSimpleName() public abstract javax.lang.model.element.Name
+     * javax.lang.model.element.PackageElement.getSimpleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

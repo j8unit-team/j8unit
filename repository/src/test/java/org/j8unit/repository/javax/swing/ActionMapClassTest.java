@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.ActionMapClassTests<ActionMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ActionMap#ActionMap() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ActionMap#ActionMap() public
      * javax.swing.ActionMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

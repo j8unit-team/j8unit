@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.text.CharacterIterator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getMaxAdvance() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getMaxAdvance() public int
      * java.awt.FontMetrics.getMaxAdvance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#stringWidth(String) public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#stringWidth(String) public int
      * java.awt.FontMetrics.stringWidth(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +78,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getAscent() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getAscent() public int
      * java.awt.FontMetrics.getAscent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +100,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getFont() public java.awt.Font
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getFont() public java.awt.Font
      * java.awt.FontMetrics.getFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +122,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#toString() public java.lang.String
-     * java.awt.FontMetrics.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#toString() public
+     * java.lang.String java.awt.FontMetrics.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +145,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getWidths() public int[]
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getWidths() public int[]
      * java.awt.FontMetrics.getWidths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +167,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getMaxDecent() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getMaxDecent() public int
      * java.awt.FontMetrics.getMaxDecent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,7 +189,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#charWidth(char) public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#charWidth(char) public int
      * java.awt.FontMetrics.charWidth(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,7 +211,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#charWidth(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#charWidth(int) public int
      * java.awt.FontMetrics.charWidth(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,7 +234,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FontMetrics#getStringBounds(char[], int, int, Graphics) public java.awt.geom.Rectangle2D
+     * {@link java.awt.FontMetrics#getStringBounds(char[], int, int, java.awt.Graphics) public java.awt.geom.Rectangle2D
      * java.awt.FontMetrics.getStringBounds(char[],int,int,java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,7 +257,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FontMetrics#getStringBounds(String, int, int, Graphics) public java.awt.geom.Rectangle2D
+     * {@link java.awt.FontMetrics#getStringBounds(String, int, int, java.awt.Graphics) public java.awt.geom.Rectangle2D
      * java.awt.FontMetrics.getStringBounds(java.lang.String,int,int,java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,7 +280,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FontMetrics#getStringBounds(CharacterIterator, int, int, Graphics) public java.awt.geom.Rectangle2D
+     * {@link java.awt.FontMetrics#getStringBounds(java.text.CharacterIterator, int, int, java.awt.Graphics) public
+     * java.awt.geom.Rectangle2D
      * java.awt.FontMetrics.getStringBounds(java.text.CharacterIterator,int,int,java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,8 +303,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getStringBounds(String, Graphics) public
-     * java.awt.geom.Rectangle2D java.awt.FontMetrics.getStringBounds(java.lang.String,java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.FontMetrics#getStringBounds(String, java.awt.Graphics) public java.awt.geom.Rectangle2D
+     * java.awt.FontMetrics.getStringBounds(java.lang.String,java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,7 +326,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getMaxDescent() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getMaxDescent() public int
      * java.awt.FontMetrics.getMaxDescent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -348,8 +348,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#charsWidth(char[], int, int) public int
-     * java.awt.FontMetrics.charsWidth(char[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#charsWidth(char[], int, int)
+     * public int java.awt.FontMetrics.charsWidth(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -370,7 +370,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getHeight() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getHeight() public int
      * java.awt.FontMetrics.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -392,8 +392,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#bytesWidth(byte[], int, int) public int
-     * java.awt.FontMetrics.bytesWidth(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#bytesWidth(byte[], int, int)
+     * public int java.awt.FontMetrics.bytesWidth(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -414,7 +414,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getFontRenderContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getFontRenderContext() public
      * java.awt.font.FontRenderContext java.awt.FontMetrics.getFontRenderContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -436,7 +436,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getMaxAscent() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getMaxAscent() public int
      * java.awt.FontMetrics.getMaxAscent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -459,7 +459,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FontMetrics#getLineMetrics(char[], int, int, Graphics) public java.awt.font.LineMetrics
+     * {@link java.awt.FontMetrics#getLineMetrics(char[], int, int, java.awt.Graphics) public java.awt.font.LineMetrics
      * java.awt.FontMetrics.getLineMetrics(char[],int,int,java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -481,8 +481,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getLineMetrics(String, Graphics) public
-     * java.awt.font.LineMetrics java.awt.FontMetrics.getLineMetrics(java.lang.String,java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.FontMetrics#getLineMetrics(String, java.awt.Graphics) public java.awt.font.LineMetrics
+     * java.awt.FontMetrics.getLineMetrics(java.lang.String,java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -504,7 +505,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FontMetrics#getLineMetrics(String, int, int, Graphics) public java.awt.font.LineMetrics
+     * {@link java.awt.FontMetrics#getLineMetrics(String, int, int, java.awt.Graphics) public java.awt.font.LineMetrics
      * java.awt.FontMetrics.getLineMetrics(java.lang.String,int,int,java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -527,7 +528,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FontMetrics#getLineMetrics(CharacterIterator, int, int, Graphics) public java.awt.font.LineMetrics
+     * {@link java.awt.FontMetrics#getLineMetrics(java.text.CharacterIterator, int, int, java.awt.Graphics) public
+     * java.awt.font.LineMetrics
      * java.awt.FontMetrics.getLineMetrics(java.text.CharacterIterator,int,int,java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -549,8 +551,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#hasUniformLineMetrics() public boolean
-     * java.awt.FontMetrics.hasUniformLineMetrics()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#hasUniformLineMetrics() public
+     * boolean java.awt.FontMetrics.hasUniformLineMetrics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -571,7 +573,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getLeading() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getLeading() public int
      * java.awt.FontMetrics.getLeading()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -593,7 +595,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getDescent() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FontMetrics#getDescent() public int
      * java.awt.FontMetrics.getDescent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -615,8 +617,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontMetrics#getMaxCharBounds(Graphics) public
-     * java.awt.geom.Rectangle2D java.awt.FontMetrics.getMaxCharBounds(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.FontMetrics#getMaxCharBounds(java.awt.Graphics) public java.awt.geom.Rectangle2D
+     * java.awt.FontMetrics.getMaxCharBounds(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIJRMPServerImpl#toStub() public java.rmi.Remote
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIJRMPServerImpl#toStub() public java.rmi.Remote
      * javax.management.remote.rmi.RMIJRMPServerImpl.toStub() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

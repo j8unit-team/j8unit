@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidPolicy#InvalidPolicy() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicy#InvalidPolicy() public
      * org.omg.PortableServer.POAPackage.InvalidPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidPolicy#InvalidPolicy(short) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicy#InvalidPolicy(short) public
      * org.omg.PortableServer.POAPackage.InvalidPolicy(short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,8 +66,9 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidPolicy#InvalidPolicy(String, short)
-     * public org.omg.PortableServer.POAPackage.InvalidPolicy(java.lang.String,short)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicy#InvalidPolicy(String, short) public
+     * org.omg.PortableServer.POAPackage.InvalidPolicy(java.lang.String,short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

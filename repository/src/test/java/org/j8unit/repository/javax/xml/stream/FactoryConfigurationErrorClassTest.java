@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.stream.FactoryConfigurationErrorClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FactoryConfigurationError#FactoryConfigurationError(String) public
+     * {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError(String) public
      * javax.xml.stream.FactoryConfigurationError(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.stream.FactoryConfigurationErrorClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FactoryConfigurationError#FactoryConfigurationError(String, Exception) public
+     * {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError(String, Exception) public
      * javax.xml.stream.FactoryConfigurationError(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.xml.stream.FactoryConfigurationErrorClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FactoryConfigurationError#FactoryConfigurationError(Exception, String) public
+     * {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError(Exception, String) public
      * javax.xml.stream.FactoryConfigurationError(java.lang.Exception,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.javax.xml.stream.FactoryConfigurationErrorClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FactoryConfigurationError#FactoryConfigurationError(Exception) public
+     * {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError(Exception) public
      * javax.xml.stream.FactoryConfigurationError(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -114,8 +114,8 @@ implements org.j8unit.repository.javax.xml.stream.FactoryConfigurationErrorClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FactoryConfigurationError#FactoryConfigurationError() public javax.xml.stream.FactoryConfigurationError()}
-     * .
+     * {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError() public
+     * javax.xml.stream.FactoryConfigurationError()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

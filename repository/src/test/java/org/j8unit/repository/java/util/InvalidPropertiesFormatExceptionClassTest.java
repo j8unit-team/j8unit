@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.InvalidPropertiesFormatExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidPropertiesFormatException#InvalidPropertiesFormatException(Throwable) public
+     * {@link java.util.InvalidPropertiesFormatException#InvalidPropertiesFormatException(Throwable) public
      * java.util.InvalidPropertiesFormatException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.InvalidPropertiesFormatExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidPropertiesFormatException#InvalidPropertiesFormatException(String) public
+     * {@link java.util.InvalidPropertiesFormatException#InvalidPropertiesFormatException(String) public
      * java.util.InvalidPropertiesFormatException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

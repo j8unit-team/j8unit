@@ -1,10 +1,7 @@
 package org.j8unit.repository.javax.print;
 
 import static org.junit.Assert.fail;
-import javax.print.DocFlavor;
-import javax.print.PrintService;
 import javax.print.PrintServiceLookup;
-import javax.print.attribute.AttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,8 +22,8 @@ implements org.j8unit.repository.javax.print.PrintServiceLookupClassTests<PrintS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintServiceLookup#PrintServiceLookup() public
-     * javax.print.PrintServiceLookup()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.PrintServiceLookup#PrintServiceLookup() public javax.print.PrintServiceLookup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +43,8 @@ implements org.j8unit.repository.javax.print.PrintServiceLookupClassTests<PrintS
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintServiceLookup#lookupPrintServices(DocFlavor, AttributeSet) public static final
-     * javax.print.PrintService[]
+     * {@link javax.print.PrintServiceLookup#lookupPrintServices(javax.print.DocFlavor, javax.print.attribute.AttributeSet)
+     * public static final javax.print.PrintService[]
      * javax.print.PrintServiceLookup.lookupPrintServices(javax.print.DocFlavor,javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,14 +59,15 @@ implements org.j8unit.repository.javax.print.PrintServiceLookupClassTests<PrintS
     @Category(Draft.class)
     public void test_lookupPrintServices_DocFlavor_AttributeSet()
     throws Exception {
-        // write some test for {@link PrintServiceLookup#lookupPrintServices(DocFlavor, AttributeSet)}
+        // write some test for {@link javax.print.PrintServiceLookup#lookupPrintServices(javax.print.DocFlavor,
+        // javax.print.attribute.AttributeSet)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintServiceLookup#registerServiceProvider(PrintServiceLookup) public static boolean
-     * javax.print.PrintServiceLookup.registerServiceProvider(javax.print.PrintServiceLookup)}.
+     * {@link javax.print.PrintServiceLookup#registerServiceProvider(javax.print.PrintServiceLookup) public static
+     * boolean javax.print.PrintServiceLookup.registerServiceProvider(javax.print.PrintServiceLookup)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,13 +81,15 @@ implements org.j8unit.repository.javax.print.PrintServiceLookupClassTests<PrintS
     @Category(Draft.class)
     public void test_registerServiceProvider_PrintServiceLookup()
     throws Exception {
-        // write some test for {@link PrintServiceLookup#registerServiceProvider(PrintServiceLookup)}
+        // write some test for {@link
+        // javax.print.PrintServiceLookup#registerServiceProvider(javax.print.PrintServiceLookup)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintServiceLookup#lookupDefaultPrintService()
-     * public static final javax.print.PrintService javax.print.PrintServiceLookup.lookupDefaultPrintService()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.PrintServiceLookup#lookupDefaultPrintService() public static final javax.print.PrintService
+     * javax.print.PrintServiceLookup.lookupDefaultPrintService()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,13 +103,14 @@ implements org.j8unit.repository.javax.print.PrintServiceLookupClassTests<PrintS
     @Category(Draft.class)
     public void test_lookupDefaultPrintService()
     throws Exception {
-        // write some test for {@link PrintServiceLookup#lookupDefaultPrintService()}
+        // write some test for {@link javax.print.PrintServiceLookup#lookupDefaultPrintService()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintServiceLookup#registerService(PrintService)
-     * public static boolean javax.print.PrintServiceLookup.registerService(javax.print.PrintService)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.PrintServiceLookup#registerService(javax.print.PrintService) public static boolean
+     * javax.print.PrintServiceLookup.registerService(javax.print.PrintService)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,14 +124,14 @@ implements org.j8unit.repository.javax.print.PrintServiceLookupClassTests<PrintS
     @Category(Draft.class)
     public void test_registerService_PrintService()
     throws Exception {
-        // write some test for {@link PrintServiceLookup#registerService(PrintService)}
+        // write some test for {@link javax.print.PrintServiceLookup#registerService(javax.print.PrintService)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintServiceLookup#lookupMultiDocPrintServices(DocFlavor[], AttributeSet) public static final
-     * javax.print.MultiDocPrintService[]
+     * {@link javax.print.PrintServiceLookup#lookupMultiDocPrintServices(javax.print.DocFlavor[], javax.print.attribute.AttributeSet)
+     * public static final javax.print.MultiDocPrintService[]
      * javax.print.PrintServiceLookup.lookupMultiDocPrintServices(javax.print.DocFlavor[],javax.print.attribute.AttributeSet)}
      * .
      *
@@ -146,7 +147,9 @@ implements org.j8unit.repository.javax.print.PrintServiceLookupClassTests<PrintS
     @Category(Draft.class)
     public void test_lookupMultiDocPrintServices_DocFlavorArray_AttributeSet()
     throws Exception {
-        // write some test for {@link PrintServiceLookup#lookupMultiDocPrintServices(DocFlavor[], AttributeSet)}
+        // write some test for {@link
+        // javax.print.PrintServiceLookup#lookupMultiDocPrintServices(javax.print.DocFlavor[],
+        // javax.print.attribute.AttributeSet)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.PrintServiceLookup]

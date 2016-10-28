@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#getBuffer() public
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#getBuffer() public
      * java.lang.StringBuffer java.io.StringWriter.getBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#flush() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#flush() public void
      * java.io.StringWriter.flush()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#append(CharSequence) public
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#append(CharSequence) public
      * java.io.StringWriter java.io.StringWriter.append(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#append(char) public
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#append(char) public
      * java.io.StringWriter java.io.StringWriter.append(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +125,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#append(CharSequence, int, int) public
-     * java.io.StringWriter java.io.StringWriter.append(java.lang.CharSequence,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#append(CharSequence, int, int)
+     * public java.io.StringWriter java.io.StringWriter.append(java.lang.CharSequence,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +148,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#close() public void
      * java.io.StringWriter.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +171,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#write(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#write(int) public void
      * java.io.StringWriter.write(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,8 +194,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#write(char[], int, int) public void
-     * java.io.StringWriter.write(char[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#write(char[], int, int) public
+     * void java.io.StringWriter.write(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,7 +217,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#write(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#write(String) public void
      * java.io.StringWriter.write(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,8 +240,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#write(String, int, int) public void
-     * java.io.StringWriter.write(java.lang.String,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#write(String, int, int) public
+     * void java.io.StringWriter.write(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,8 +263,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringWriter#toString() public java.lang.String
-     * java.io.StringWriter.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StringWriter#toString() public
+     * java.lang.String java.io.StringWriter.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

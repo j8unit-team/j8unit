@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.util.zip.Adler32ClassTests<Adler32> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Adler32#Adler32() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.Adler32#Adler32() public
      * java.util.zip.Adler32()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

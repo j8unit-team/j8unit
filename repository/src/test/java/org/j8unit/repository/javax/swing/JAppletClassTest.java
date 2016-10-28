@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.JAppletClassTests<JApplet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JApplet#JApplet() public javax.swing.JApplet()
-     * throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JApplet#JApplet() public
+     * javax.swing.JApplet() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

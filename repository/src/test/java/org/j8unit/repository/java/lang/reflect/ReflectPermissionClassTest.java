@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.lang.reflect.ReflectPermissionClassTests<R
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ReflectPermission#ReflectPermission(String)
-     * public java.lang.reflect.ReflectPermission(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.lang.reflect.ReflectPermission#ReflectPermission(String) public
+     * java.lang.reflect.ReflectPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.java.lang.reflect.ReflectPermissionClassTests<R
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ReflectPermission#ReflectPermission(String, String) public
+     * {@link java.lang.reflect.ReflectPermission#ReflectPermission(String, String) public
      * java.lang.reflect.ReflectPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,12 +1,6 @@
 package org.j8unit.repository.java.rmi.activation;
 
-import java.rmi.MarshalledObject;
-import java.rmi.Remote;
 import java.rmi.activation.Activatable;
-import java.rmi.activation.ActivationDesc;
-import java.rmi.activation.ActivationID;
-import java.rmi.server.RMIClientSocketFactory;
-import java.rmi.server.RMIServerSocketFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -28,7 +22,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Activatable#exportObject(Remote, String, MarshalledObject, boolean, int, RMIClientSocketFactory, RMIServerSocketFactory)
+     * {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote, String, java.rmi.MarshalledObject, boolean, int, java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)
      * public static java.rmi.activation.ActivationID
      * java.rmi.activation.Activatable.exportObject(java.rmi.Remote,java.lang.String,java.rmi.MarshalledObject
      * <?>,boolean,int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory) throws
@@ -46,13 +40,15 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
     @Category(Draft.class)
     public void test_exportObject_Remote_String_MarshalledObject_boolean_int_RMIClientSocketFactory_RMIServerSocketFactory()
     throws Exception {
-        // write some test for {@link Activatable#exportObject(Remote, String, MarshalledObject, boolean, int,
-        // RMIClientSocketFactory, RMIServerSocketFactory)}
+        // write some test for {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote, String,
+        // java.rmi.MarshalledObject, boolean, int, java.rmi.server.RMIClientSocketFactory,
+        // java.rmi.server.RMIServerSocketFactory)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Activatable#exportObject(Remote, ActivationID, int)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote, java.rmi.activation.ActivationID, int)
      * public static java.rmi.Remote
      * java.rmi.activation.Activatable.exportObject(java.rmi.Remote,java.rmi.activation.ActivationID,int) throws
      * java.rmi.RemoteException}.
@@ -69,14 +65,15 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
     @Category(Draft.class)
     public void test_exportObject_Remote_ActivationID_int()
     throws Exception {
-        // write some test for {@link Activatable#exportObject(Remote, ActivationID, int)}
+        // write some test for {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote,
+        // java.rmi.activation.ActivationID, int)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Activatable#exportObject(Remote, ActivationID, int, RMIClientSocketFactory, RMIServerSocketFactory) public
-     * static java.rmi.Remote
+     * {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote, java.rmi.activation.ActivationID, int, java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)
+     * public static java.rmi.Remote
      * java.rmi.activation.Activatable.exportObject(java.rmi.Remote,java.rmi.activation.ActivationID,int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
      * throws java.rmi.RemoteException}.
      *
@@ -92,15 +89,16 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
     @Category(Draft.class)
     public void test_exportObject_Remote_ActivationID_int_RMIClientSocketFactory_RMIServerSocketFactory()
     throws Exception {
-        // write some test for {@link Activatable#exportObject(Remote, ActivationID, int, RMIClientSocketFactory,
-        // RMIServerSocketFactory)}
+        // write some test for {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote,
+        // java.rmi.activation.ActivationID, int, java.rmi.server.RMIClientSocketFactory,
+        // java.rmi.server.RMIServerSocketFactory)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Activatable#exportObject(Remote, String, MarshalledObject, boolean, int) public static
-     * java.rmi.activation.ActivationID
+     * {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote, String, java.rmi.MarshalledObject, boolean, int)
+     * public static java.rmi.activation.ActivationID
      * java.rmi.activation.Activatable.exportObject(java.rmi.Remote,java.lang.String,java.rmi.MarshalledObject
      * <?>,boolean,int) throws java.rmi.activation.ActivationException,java.rmi.RemoteException}.
      *
@@ -116,13 +114,15 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
     @Category(Draft.class)
     public void test_exportObject_Remote_String_MarshalledObject_boolean_int()
     throws Exception {
-        // write some test for {@link Activatable#exportObject(Remote, String, MarshalledObject, boolean, int)}
+        // write some test for {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote, String,
+        // java.rmi.MarshalledObject, boolean, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Activatable#inactive(ActivationID) public static
-     * boolean java.rmi.activation.Activatable.inactive(java.rmi.activation.ActivationID) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.activation.Activatable#inactive(java.rmi.activation.ActivationID) public static boolean
+     * java.rmi.activation.Activatable.inactive(java.rmi.activation.ActivationID) throws
      * java.rmi.activation.UnknownObjectException,java.rmi.activation.ActivationException,java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -137,14 +137,14 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
     @Category(Draft.class)
     public void test_inactive_ActivationID()
     throws Exception {
-        // write some test for {@link Activatable#inactive(ActivationID)}
+        // write some test for {@link java.rmi.activation.Activatable#inactive(java.rmi.activation.ActivationID)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Activatable#unexportObject(Remote, boolean) public
-     * static boolean java.rmi.activation.Activatable.unexportObject(java.rmi.Remote,boolean) throws
-     * java.rmi.NoSuchObjectException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.activation.Activatable#unexportObject(java.rmi.Remote, boolean) public static boolean
+     * java.rmi.activation.Activatable.unexportObject(java.rmi.Remote,boolean) throws java.rmi.NoSuchObjectException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,13 +158,14 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
     @Category(Draft.class)
     public void test_unexportObject_Remote_boolean()
     throws Exception {
-        // write some test for {@link Activatable#unexportObject(Remote, boolean)}
+        // write some test for {@link java.rmi.activation.Activatable#unexportObject(java.rmi.Remote, boolean)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Activatable#register(ActivationDesc) public static
-     * java.rmi.Remote java.rmi.activation.Activatable.register(java.rmi.activation.ActivationDesc) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.activation.Activatable#register(java.rmi.activation.ActivationDesc) public static java.rmi.Remote
+     * java.rmi.activation.Activatable.register(java.rmi.activation.ActivationDesc) throws
      * java.rmi.activation.UnknownGroupException,java.rmi.activation.ActivationException,java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,13 +180,14 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
     @Category(Draft.class)
     public void test_register_ActivationDesc()
     throws Exception {
-        // write some test for {@link Activatable#register(ActivationDesc)}
+        // write some test for {@link java.rmi.activation.Activatable#register(java.rmi.activation.ActivationDesc)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Activatable#unregister(ActivationID) public static
-     * void java.rmi.activation.Activatable.unregister(java.rmi.activation.ActivationID) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.activation.Activatable#unregister(java.rmi.activation.ActivationID) public static void
+     * java.rmi.activation.Activatable.unregister(java.rmi.activation.ActivationID) throws
      * java.rmi.activation.UnknownObjectException,java.rmi.activation.ActivationException,java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -200,7 +202,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
     @Category(Draft.class)
     public void test_unregister_ActivationID()
     throws Exception {
-        // write some test for {@link Activatable#unregister(ActivationID)}
+        // write some test for {@link java.rmi.activation.Activatable#unregister(java.rmi.activation.ActivationID)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.Activatable]

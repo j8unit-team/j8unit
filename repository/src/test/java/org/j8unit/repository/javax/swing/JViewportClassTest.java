@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JViewportClassTests<JViewport> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JViewport#JViewport() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JViewport#JViewport() public
      * javax.swing.JViewport()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

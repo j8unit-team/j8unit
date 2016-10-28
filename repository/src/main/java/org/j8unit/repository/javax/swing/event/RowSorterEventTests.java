@@ -35,8 +35,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSorterEvent#convertPreviousRowIndexToModel(int)
-     * public int javax.swing.event.RowSorterEvent.convertPreviousRowIndexToModel(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.RowSorterEvent#convertPreviousRowIndexToModel(int) public int
+     * javax.swing.event.RowSorterEvent.convertPreviousRowIndexToModel(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +58,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSorterEvent#getType() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.RowSorterEvent#getType() public
      * javax.swing.event.RowSorterEvent$Type javax.swing.event.RowSorterEvent.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +80,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSorterEvent#getSource() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.RowSorterEvent#getSource() public
      * javax.swing.RowSorter javax.swing.event.RowSorterEvent.getSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +103,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSorterEvent#getPreviousRowCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.RowSorterEvent#getPreviousRowCount() public int
      * javax.swing.event.RowSorterEvent.getPreviousRowCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

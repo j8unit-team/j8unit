@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.logging.LevelClassTests<Level> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Level#parse(String) public static synchronized
-     * java.util.logging.Level java.util.logging.Level.parse(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Level#parse(String) public static
+     * synchronized java.util.logging.Level java.util.logging.Level.parse(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +37,7 @@ implements org.j8unit.repository.java.util.logging.LevelClassTests<Level> {
     @Category(Draft.class)
     public void test_parse_String()
     throws Exception {
-        // write some test for {@link Level#parse(String)}
+        // write some test for {@link java.util.logging.Level#parse(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.Level]

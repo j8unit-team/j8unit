@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.management.MemoryManagerMXBeanTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GarbageCollectorMXBean#getCollectionTime() public
-     * abstract long java.lang.management.GarbageCollectorMXBean.getCollectionTime()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.GarbageCollectorMXBean#getCollectionTime() public abstract long
+     * java.lang.management.GarbageCollectorMXBean.getCollectionTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.lang.management.MemoryManagerMXBeanTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GarbageCollectorMXBean#getCollectionCount() public
-     * abstract long java.lang.management.GarbageCollectorMXBean.getCollectionCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.GarbageCollectorMXBean#getCollectionCount() public abstract long
+     * java.lang.management.GarbageCollectorMXBean.getCollectionCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

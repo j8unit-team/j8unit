@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.soap;
 
-import javax.xml.soap.Name;
 import javax.xml.soap.SOAPElementFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPElementFactory#create(String) public
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPElementFactory.create(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPElementFactory#create(String)
+     * public javax.xml.soap.SOAPElement javax.xml.soap.SOAPElementFactory.create(java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPElementFactory#create(String, String, String)
-     * public javax.xml.soap.SOAPElement
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPElementFactory#create(String, String, String) public javax.xml.soap.SOAPElement
      * javax.xml.soap.SOAPElementFactory.create(java.lang.String,java.lang.String,java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
@@ -82,9 +81,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPElementFactory#create(Name) public
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPElementFactory.create(javax.xml.soap.Name) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPElementFactory#create(javax.xml.soap.Name) public javax.xml.soap.SOAPElement
+     * javax.xml.soap.SOAPElementFactory.create(javax.xml.soap.Name) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

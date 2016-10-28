@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.directory;
 
-import javax.naming.directory.Attributes;
 import javax.naming.directory.SearchResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.naming.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchResult#toString() public java.lang.String
-     * javax.naming.directory.SearchResult.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.SearchResult#toString()
+     * public java.lang.String javax.naming.directory.SearchResult.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,8 @@ extends org.j8unit.repository.javax.naming.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchResult#setAttributes(Attributes) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchResult#setAttributes(javax.naming.directory.Attributes) public void
      * javax.naming.directory.SearchResult.setAttributes(javax.naming.directory.Attributes)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends org.j8unit.repository.javax.naming.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchResult#getAttributes() public
-     * javax.naming.directory.Attributes javax.naming.directory.SearchResult.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.SearchResult#getAttributes()
+     * public javax.naming.directory.Attributes javax.naming.directory.SearchResult.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

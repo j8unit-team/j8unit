@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.awt.image.ShortLookupTableClassTests<Short
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ShortLookupTable#ShortLookupTable(int, short[][]) public java.awt.image.ShortLookupTable(int,short[][])}.
+     * {@link java.awt.image.ShortLookupTable#ShortLookupTable(int, short[][]) public
+     * java.awt.image.ShortLookupTable(int,short[][])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +44,9 @@ implements org.j8unit.repository.java.awt.image.ShortLookupTableClassTests<Short
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ShortLookupTable#ShortLookupTable(int, short[])
-     * public java.awt.image.ShortLookupTable(int,short[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.ShortLookupTable#ShortLookupTable(int, short[]) public
+     * java.awt.image.ShortLookupTable(int,short[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

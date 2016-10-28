@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Statement#execute() public void
+     * Test method for the hereby targeted method-under-test {@link java.beans.Statement#execute() public void
      * java.beans.Statement.execute() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Statement#getArguments() public java.lang.Object[]
-     * java.beans.Statement.getArguments()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Statement#getArguments() public
+     * java.lang.Object[] java.beans.Statement.getArguments()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Statement#toString() public java.lang.String
-     * java.beans.Statement.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Statement#toString() public
+     * java.lang.String java.beans.Statement.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Statement#getMethodName() public java.lang.String
-     * java.beans.Statement.getMethodName()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Statement#getMethodName() public
+     * java.lang.String java.beans.Statement.getMethodName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Statement#getTarget() public java.lang.Object
-     * java.beans.Statement.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Statement#getTarget() public
+     * java.lang.Object java.beans.Statement.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

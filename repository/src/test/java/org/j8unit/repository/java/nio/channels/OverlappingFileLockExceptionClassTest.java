@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.OverlappingFileLockExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OverlappingFileLockException#OverlappingFileLockException() public
+     * {@link java.nio.channels.OverlappingFileLockException#OverlappingFileLockException() public
      * java.nio.channels.OverlappingFileLockException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

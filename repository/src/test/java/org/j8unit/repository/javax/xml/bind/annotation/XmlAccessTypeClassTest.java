@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlAccessTypeClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlAccessType#values() public static
-     * javax.xml.bind.annotation.XmlAccessType[] javax.xml.bind.annotation.XmlAccessType.values()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlAccessType#values()
+     * public static javax.xml.bind.annotation.XmlAccessType[] javax.xml.bind.annotation.XmlAccessType.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +36,13 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlAccessTypeClassTes
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link XmlAccessType#values()}
+        // write some test for {@link javax.xml.bind.annotation.XmlAccessType#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlAccessType#valueOf(String) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.XmlAccessType#valueOf(String) public static
      * javax.xml.bind.annotation.XmlAccessType javax.xml.bind.annotation.XmlAccessType.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +57,7 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlAccessTypeClassTes
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link XmlAccessType#valueOf(String)}
+        // write some test for {@link javax.xml.bind.annotation.XmlAccessType#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlAccessType]

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventObject#toString() public java.lang.String
-     * java.util.EventObject.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EventObject#toString() public
+     * java.lang.String java.util.EventObject.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventObject#getSource() public java.lang.Object
-     * java.util.EventObject.getSource()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EventObject#getSource() public
+     * java.lang.Object java.util.EventObject.getSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

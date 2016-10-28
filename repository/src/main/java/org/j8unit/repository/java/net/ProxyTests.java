@@ -35,7 +35,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Proxy#equals(Object) public final boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.Proxy#equals(Object) public final boolean
      * java.net.Proxy.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Proxy#hashCode() public final int
+     * Test method for the hereby targeted method-under-test {@link java.net.Proxy#hashCode() public final int
      * java.net.Proxy.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Proxy#address() public java.net.SocketAddress
-     * java.net.Proxy.address()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.Proxy#address() public
+     * java.net.SocketAddress java.net.Proxy.address()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Proxy#type() public java.net.Proxy$Type
+     * Test method for the hereby targeted method-under-test {@link java.net.Proxy#type() public java.net.Proxy$Type
      * java.net.Proxy.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Proxy#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.Proxy#toString() public java.lang.String
      * java.net.Proxy.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

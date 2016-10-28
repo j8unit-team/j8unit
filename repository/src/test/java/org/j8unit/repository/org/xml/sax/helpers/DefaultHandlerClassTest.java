@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.DefaultHandlerClassTests<De
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DefaultHandler#DefaultHandler() public
-     * org.xml.sax.helpers.DefaultHandler()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#DefaultHandler() public org.xml.sax.helpers.DefaultHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorPOAClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServantLocatorPOA#ServantLocatorPOA() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.ServantLocatorPOA#ServantLocatorPOA() public
      * org.omg.PortableServer.ServantLocatorPOA()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

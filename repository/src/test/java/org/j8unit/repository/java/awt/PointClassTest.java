@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.PointClassTests<Point> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Point#Point(int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Point#Point(int, int) public
      * java.awt.Point(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.awt.PointClassTests<Point> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Point#Point(Point) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Point#Point(java.awt.Point) public
      * java.awt.Point(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,12 +60,13 @@ implements org.j8unit.repository.java.awt.PointClassTests<Point> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Point sut = null; // = new Point(Point);
+        final Point sut = null; // = new Point(java.awt.Point);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Point#Point() public java.awt.Point()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Point#Point() public java.awt.Point()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

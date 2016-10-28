@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.sampled;
 
-import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.DataLine.Info;
 import org.j8unit.repository.categories.Draft;
@@ -36,7 +35,8 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests<DataLine
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Info#Info(Class, AudioFormat) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.sound.sampled.DataLine.Info#Info(Class, javax.sound.sampled.AudioFormat) public
          * javax.sound.sampled.DataLine$Info(java.lang.Class<?>,javax.sound.sampled.AudioFormat)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -53,12 +53,13 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests<DataLine
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Info sut = null; // = new Info(Class, AudioFormat);
+            final Info sut = null; // = new Info(Class, javax.sound.sampled.AudioFormat);
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Info#Info(Class, AudioFormat, int) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.sound.sampled.DataLine.Info#Info(Class, javax.sound.sampled.AudioFormat, int) public
          * javax.sound.sampled.DataLine$Info(java.lang.Class<?>,javax.sound.sampled.AudioFormat,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -75,13 +76,14 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests<DataLine
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Info sut = null; // = new Info(Class, AudioFormat, int);
+            final Info sut = null; // = new Info(Class, javax.sound.sampled.AudioFormat, int);
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Info#Info(Class, AudioFormat[], int, int)
-         * public javax.sound.sampled.DataLine$Info(java.lang.Class<?>,javax.sound.sampled.AudioFormat[],int,int)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.sound.sampled.DataLine.Info#Info(Class, javax.sound.sampled.AudioFormat[], int, int) public
+         * javax.sound.sampled.DataLine$Info(java.lang.Class<?>,javax.sound.sampled.AudioFormat[],int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -97,7 +99,7 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests<DataLine
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Info sut = null; // = new Info(Class, AudioFormat[], int, int);
+            final Info sut = null; // = new Info(Class, javax.sound.sampled.AudioFormat[], int, int);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.DataLine$Info]

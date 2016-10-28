@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.text.AnnotationClassTests<Annotation> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Annotation#Annotation(Object) public
+     * Test method for the hereby targeted constructor-under-test {@link java.text.Annotation#Annotation(Object) public
      * java.text.Annotation(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

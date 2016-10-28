@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.swing.JToggleButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBox#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBox#updateUI() public void
      * javax.swing.JCheckBox.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.swing.JToggleButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBox#getUIClassID() public java.lang.String
-     * javax.swing.JCheckBox.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBox#getUIClassID() public
+     * java.lang.String javax.swing.JCheckBox.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.javax.swing.JToggleButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBox#setBorderPaintedFlat(boolean) public void
-     * javax.swing.JCheckBox.setBorderPaintedFlat(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBox#setBorderPaintedFlat(boolean)
+     * public void javax.swing.JCheckBox.setBorderPaintedFlat(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,7 @@ extends org.j8unit.repository.javax.swing.JToggleButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBox#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBox#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JCheckBox.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +125,8 @@ extends org.j8unit.repository.javax.swing.JToggleButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBox#isBorderPaintedFlat() public boolean
-     * javax.swing.JCheckBox.isBorderPaintedFlat()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBox#isBorderPaintedFlat() public
+     * boolean javax.swing.JCheckBox.isBorderPaintedFlat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

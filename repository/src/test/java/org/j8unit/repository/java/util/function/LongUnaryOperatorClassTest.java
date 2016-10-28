@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.function.LongUnaryOperatorClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongUnaryOperator#identity() public static
-     * java.util.function.LongUnaryOperator java.util.function.LongUnaryOperator.identity()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.LongUnaryOperator#identity()
+     * public static java.util.function.LongUnaryOperator java.util.function.LongUnaryOperator.identity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +36,7 @@ implements org.j8unit.repository.java.util.function.LongUnaryOperatorClassTests<
     @Category(Draft.class)
     public void test_identity()
     throws Exception {
-        // write some test for {@link LongUnaryOperator#identity()}
+        // write some test for {@link java.util.function.LongUnaryOperator#identity()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.LongUnaryOperator]

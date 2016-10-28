@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.nio.file;
 
-import java.nio.file.WatchEvent.Kind;
-import java.nio.file.WatchEvent.Modifier;
-import java.nio.file.WatchService;
 import java.nio.file.Watchable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -38,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Watchable#register(WatchService, Kind...) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.Watchable#register(java.nio.file.WatchService, java.nio.file.WatchEvent.Kind...) public
      * abstract java.nio.file.WatchKey
      * java.nio.file.Watchable.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind
      * <?>...) throws java.io.IOException}.
@@ -63,7 +61,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Watchable#register(WatchService, Kind[], Modifier...) public abstract java.nio.file.WatchKey
+     * {@link java.nio.file.Watchable#register(java.nio.file.WatchService, java.nio.file.WatchEvent.Kind[], java.nio.file.WatchEvent.Modifier...)
+     * public abstract java.nio.file.WatchKey
      * java.nio.file.Watchable.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind
      * <?>[],java.nio.file.WatchEvent$Modifier...) throws java.io.IOException}.
      *

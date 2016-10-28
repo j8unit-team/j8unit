@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
 
 @RunWith(J8Unit4.class)
@@ -25,7 +22,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Strin
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringNameHelper#StringNameHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#StringNameHelper() public
      * org.omg.CosNaming.NamingContextExtPackage.StringNameHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +43,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Strin
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringNameHelper#read(InputStream) public static
-     * java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static java.lang.String
      * org.omg.CosNaming.NamingContextExtPackage.StringNameHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,12 +60,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Strin
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link StringNameHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringNameHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#extract(org.omg.CORBA.Any) public static
      * java.lang.String org.omg.CosNaming.NamingContextExtPackage.StringNameHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,12 +82,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Strin
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link StringNameHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringNameHelper#id() public static java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#id() public static java.lang.String
      * org.omg.CosNaming.NamingContextExtPackage.StringNameHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,12 +104,13 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Strin
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link StringNameHelper#id()}
+        // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringNameHelper#insert(Any, String) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#insert(org.omg.CORBA.Any, String) public static
      * void org.omg.CosNaming.NamingContextExtPackage.StringNameHelper.insert(org.omg.CORBA.Any,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,12 +125,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Strin
     @Category(Draft.class)
     public void test_insert_Any_String()
     throws Exception {
-        // write some test for {@link StringNameHelper#insert(Any, String)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#insert(org.omg.CORBA.Any, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringNameHelper#type() public static synchronized
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#type() public static synchronized
      * org.omg.CORBA.TypeCode org.omg.CosNaming.NamingContextExtPackage.StringNameHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -141,13 +147,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Strin
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link StringNameHelper#type()}
+        // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringNameHelper#write(OutputStream, String) public
-     * static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#write(org.omg.CORBA.portable.OutputStream, String)
+     * public static void
      * org.omg.CosNaming.NamingContextExtPackage.StringNameHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}
      * .
      *
@@ -163,7 +170,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Strin
     @Category(Draft.class)
     public void test_write_OutputStream_String()
     throws Exception {
-        // write some test for {@link StringNameHelper#write(OutputStream, String)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.StringNameHelper#write(org.omg.CORBA.portable.OutputStream,
+        // String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.StringNameHelper]

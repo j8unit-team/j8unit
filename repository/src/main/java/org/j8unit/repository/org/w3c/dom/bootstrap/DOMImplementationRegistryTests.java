@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.DOMImplementationSource;
 import org.w3c.dom.bootstrap.DOMImplementationRegistry;
 
 /**
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DOMImplementationRegistry#getDOMImplementationList(String) public org.w3c.dom.DOMImplementationList
+     * {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#getDOMImplementationList(String) public
+     * org.w3c.dom.DOMImplementationList
      * org.w3c.dom.bootstrap.DOMImplementationRegistry.getDOMImplementationList(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +59,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DOMImplementationRegistry#addSource(DOMImplementationSource) public void
+     * {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#addSource(org.w3c.dom.DOMImplementationSource) public void
      * org.w3c.dom.bootstrap.DOMImplementationRegistry.addSource(org.w3c.dom.DOMImplementationSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +82,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DOMImplementationRegistry#getDOMImplementation(String) public org.w3c.dom.DOMImplementation
+     * {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#getDOMImplementation(String) public
+     * org.w3c.dom.DOMImplementation
      * org.w3c.dom.bootstrap.DOMImplementationRegistry.getDOMImplementation(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

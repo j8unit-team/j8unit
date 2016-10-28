@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeIterator#getWhatToShow() public abstract int
-     * org.w3c.dom.traversal.NodeIterator.getWhatToShow()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.NodeIterator#getWhatToShow()
+     * public abstract int org.w3c.dom.traversal.NodeIterator.getWhatToShow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeIterator#getFilter() public abstract
-     * org.w3c.dom.traversal.NodeFilter org.w3c.dom.traversal.NodeIterator.getFilter()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.NodeIterator#getFilter()
+     * public abstract org.w3c.dom.traversal.NodeFilter org.w3c.dom.traversal.NodeIterator.getFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeIterator#nextNode() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.NodeIterator.nextNode() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.NodeIterator#nextNode() public
+     * abstract org.w3c.dom.Node org.w3c.dom.traversal.NodeIterator.nextNode() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeIterator#detach() public abstract void
-     * org.w3c.dom.traversal.NodeIterator.detach()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.NodeIterator#detach() public
+     * abstract void org.w3c.dom.traversal.NodeIterator.detach()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeIterator#previousNode() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.NodeIterator.previousNode() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.NodeIterator#previousNode()
+     * public abstract org.w3c.dom.Node org.w3c.dom.traversal.NodeIterator.previousNode() throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeIterator#getExpandEntityReferences() public
-     * abstract boolean org.w3c.dom.traversal.NodeIterator.getExpandEntityReferences()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.traversal.NodeIterator#getExpandEntityReferences() public abstract boolean
+     * org.w3c.dom.traversal.NodeIterator.getExpandEntityReferences()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +169,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeIterator#getRoot() public abstract
-     * org.w3c.dom.Node org.w3c.dom.traversal.NodeIterator.getRoot()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.traversal.NodeIterator#getRoot() public
+     * abstract org.w3c.dom.Node org.w3c.dom.traversal.NodeIterator.getRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

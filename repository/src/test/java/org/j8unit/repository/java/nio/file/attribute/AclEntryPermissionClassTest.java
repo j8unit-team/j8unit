@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryPermissionClass
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntryPermission#valueOf(String) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.AclEntryPermission#valueOf(String) public static
      * java.nio.file.attribute.AclEntryPermission java.nio.file.attribute.AclEntryPermission.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,13 +37,13 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryPermissionClass
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link AclEntryPermission#valueOf(String)}
+        // write some test for {@link java.nio.file.attribute.AclEntryPermission#valueOf(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntryPermission#values() public static
-     * java.nio.file.attribute.AclEntryPermission[] java.nio.file.attribute.AclEntryPermission.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntryPermission#values()
+     * public static java.nio.file.attribute.AclEntryPermission[] java.nio.file.attribute.AclEntryPermission.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,7 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryPermissionClass
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link AclEntryPermission#values()}
+        // write some test for {@link java.nio.file.attribute.AclEntryPermission#values()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AclEntryPermission]

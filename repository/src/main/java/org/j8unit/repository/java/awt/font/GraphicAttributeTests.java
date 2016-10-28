@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.font;
 
-import java.awt.Graphics2D;
 import java.awt.font.GraphicAttribute;
-import java.awt.geom.AffineTransform;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicAttribute#draw(Graphics2D, float, float)
-     * public abstract void java.awt.font.GraphicAttribute.draw(java.awt.Graphics2D,float,float)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.GraphicAttribute#draw(java.awt.Graphics2D, float, float) public abstract void
+     * java.awt.font.GraphicAttribute.draw(java.awt.Graphics2D,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicAttribute#getBounds() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.GraphicAttribute#getBounds() public
      * java.awt.geom.Rectangle2D java.awt.font.GraphicAttribute.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicAttribute#getDescent() public abstract float
-     * java.awt.font.GraphicAttribute.getDescent()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.GraphicAttribute#getDescent() public
+     * abstract float java.awt.font.GraphicAttribute.getDescent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicAttribute#getAscent() public abstract float
-     * java.awt.font.GraphicAttribute.getAscent()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.GraphicAttribute#getAscent() public
+     * abstract float java.awt.font.GraphicAttribute.getAscent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicAttribute#getAlignment() public final int
-     * java.awt.font.GraphicAttribute.getAlignment()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.GraphicAttribute#getAlignment() public
+     * final int java.awt.font.GraphicAttribute.getAlignment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +145,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicAttribute#getOutline(AffineTransform) public
-     * java.awt.Shape java.awt.font.GraphicAttribute.getOutline(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.GraphicAttribute#getOutline(java.awt.geom.AffineTransform) public java.awt.Shape
+     * java.awt.font.GraphicAttribute.getOutline(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +168,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicAttribute#getAdvance() public abstract float
-     * java.awt.font.GraphicAttribute.getAdvance()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.GraphicAttribute#getAdvance() public
+     * abstract float java.awt.font.GraphicAttribute.getAdvance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicAttribute#getJustificationInfo() public
-     * java.awt.font.GlyphJustificationInfo java.awt.font.GraphicAttribute.getJustificationInfo()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.GraphicAttribute#getJustificationInfo() public java.awt.font.GlyphJustificationInfo
+     * java.awt.font.GraphicAttribute.getJustificationInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

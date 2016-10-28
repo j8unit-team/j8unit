@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.xml.soap.MessageFactoryClassTests<Message
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MessageFactory#MessageFactory() public
-     * javax.xml.soap.MessageFactory()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.soap.MessageFactory#MessageFactory()
+     * public javax.xml.soap.MessageFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.javax.xml.soap.MessageFactoryClassTests<Message
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFactory#newInstance(String) public static
-     * javax.xml.soap.MessageFactory javax.xml.soap.MessageFactory.newInstance(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.MessageFactory#newInstance(String)
+     * public static javax.xml.soap.MessageFactory javax.xml.soap.MessageFactory.newInstance(java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,13 +58,14 @@ implements org.j8unit.repository.javax.xml.soap.MessageFactoryClassTests<Message
     @Category(Draft.class)
     public void test_newInstance_String()
     throws Exception {
-        // write some test for {@link MessageFactory#newInstance(String)}
+        // write some test for {@link javax.xml.soap.MessageFactory#newInstance(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFactory#newInstance() public static
-     * javax.xml.soap.MessageFactory javax.xml.soap.MessageFactory.newInstance() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.MessageFactory#newInstance() public
+     * static javax.xml.soap.MessageFactory javax.xml.soap.MessageFactory.newInstance() throws
+     * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +79,7 @@ implements org.j8unit.repository.javax.xml.soap.MessageFactoryClassTests<Message
     @Category(Draft.class)
     public void test_newInstance()
     throws Exception {
-        // write some test for {@link MessageFactory#newInstance()}
+        // write some test for {@link javax.xml.soap.MessageFactory#newInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.MessageFactory]

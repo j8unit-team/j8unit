@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.nio.channels.spi;
 
-import java.nio.channels.AsynchronousChannelGroup;
 import java.nio.channels.spi.AsynchronousChannelProvider;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.ThreadFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousChannelProvider#openAsynchronousServerSocketChannel(AsynchronousChannelGroup) public abstract
-     * java.nio.channels.AsynchronousServerSocketChannel
+     * {@link java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousServerSocketChannel(java.nio.channels.AsynchronousChannelGroup)
+     * public abstract java.nio.channels.AsynchronousServerSocketChannel
      * java.nio.channels.spi.AsynchronousChannelProvider.openAsynchronousServerSocketChannel(java.nio.channels.AsynchronousChannelGroup)
      * throws java.io.IOException}.
      *
@@ -63,8 +60,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousChannelProvider#openAsynchronousSocketChannel(AsynchronousChannelGroup) public abstract
-     * java.nio.channels.AsynchronousSocketChannel
+     * {@link java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousSocketChannel(java.nio.channels.AsynchronousChannelGroup)
+     * public abstract java.nio.channels.AsynchronousSocketChannel
      * java.nio.channels.spi.AsynchronousChannelProvider.openAsynchronousSocketChannel(java.nio.channels.AsynchronousChannelGroup)
      * throws java.io.IOException}.
      *
@@ -88,8 +85,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousChannelProvider#openAsynchronousChannelGroup(int, ThreadFactory) public abstract
-     * java.nio.channels.AsynchronousChannelGroup
+     * {@link java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousChannelGroup(int, java.util.concurrent.ThreadFactory)
+     * public abstract java.nio.channels.AsynchronousChannelGroup
      * java.nio.channels.spi.AsynchronousChannelProvider.openAsynchronousChannelGroup(int,java.util.concurrent.ThreadFactory)
      * throws java.io.IOException}.
      *
@@ -113,8 +110,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousChannelProvider#openAsynchronousChannelGroup(ExecutorService, int) public abstract
-     * java.nio.channels.AsynchronousChannelGroup
+     * {@link java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousChannelGroup(java.util.concurrent.ExecutorService, int)
+     * public abstract java.nio.channels.AsynchronousChannelGroup
      * java.nio.channels.spi.AsynchronousChannelProvider.openAsynchronousChannelGroup(java.util.concurrent.ExecutorService,int)
      * throws java.io.IOException}.
      *

@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.awt.datatransfer.StringSelectionClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringSelection#StringSelection(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.datatransfer.StringSelection#StringSelection(String) public
      * java.awt.datatransfer.StringSelection(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

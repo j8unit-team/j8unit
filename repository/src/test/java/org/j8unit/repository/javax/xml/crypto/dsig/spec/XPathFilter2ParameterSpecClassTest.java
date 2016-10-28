@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig.spec;
 
-import java.util.List;
 import javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilter2Paramete
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XPathFilter2ParameterSpec#XPathFilter2ParameterSpec(List) public
+     * {@link javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec#XPathFilter2ParameterSpec(java.util.List) public
      * javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec(java.util.List)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilter2Paramete
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XPathFilter2ParameterSpec sut = null; // = new XPathFilter2ParameterSpec(List);
+        final XPathFilter2ParameterSpec sut = null; // = new XPathFilter2ParameterSpec(java.util.List);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec]

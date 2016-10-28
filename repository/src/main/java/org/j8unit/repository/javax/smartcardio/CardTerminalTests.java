@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardTerminal#waitForCardAbsent(long) public abstract
-     * boolean javax.smartcardio.CardTerminal.waitForCardAbsent(long) throws javax.smartcardio.CardException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.smartcardio.CardTerminal#waitForCardAbsent(long) public abstract boolean
+     * javax.smartcardio.CardTerminal.waitForCardAbsent(long) throws javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardTerminal#getName() public abstract
-     * java.lang.String javax.smartcardio.CardTerminal.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardTerminal#getName() public
+     * abstract java.lang.String javax.smartcardio.CardTerminal.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardTerminal#waitForCardPresent(long) public
-     * abstract boolean javax.smartcardio.CardTerminal.waitForCardPresent(long) throws javax.smartcardio.CardException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.smartcardio.CardTerminal#waitForCardPresent(long) public abstract boolean
+     * javax.smartcardio.CardTerminal.waitForCardPresent(long) throws javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardTerminal#connect(String) public abstract
-     * javax.smartcardio.Card javax.smartcardio.CardTerminal.connect(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardTerminal#connect(String)
+     * public abstract javax.smartcardio.Card javax.smartcardio.CardTerminal.connect(java.lang.String) throws
      * javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardTerminal#isCardPresent() public abstract boolean
-     * javax.smartcardio.CardTerminal.isCardPresent() throws javax.smartcardio.CardException}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardTerminal#isCardPresent()
+     * public abstract boolean javax.smartcardio.CardTerminal.isCardPresent() throws javax.smartcardio.CardException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

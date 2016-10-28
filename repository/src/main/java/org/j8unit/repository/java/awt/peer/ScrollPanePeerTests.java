@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.Adjustable;
 import java.awt.peer.ScrollPanePeer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPanePeer#setUnitIncrement(Adjustable, int)
-     * public abstract void java.awt.peer.ScrollPanePeer.setUnitIncrement(java.awt.Adjustable,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.ScrollPanePeer#setUnitIncrement(java.awt.Adjustable, int) public abstract void
+     * java.awt.peer.ScrollPanePeer.setUnitIncrement(java.awt.Adjustable,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPanePeer#setValue(Adjustable, int) public
-     * abstract void java.awt.peer.ScrollPanePeer.setValue(java.awt.Adjustable,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.ScrollPanePeer#setValue(java.awt.Adjustable, int) public abstract void
+     * java.awt.peer.ScrollPanePeer.setValue(java.awt.Adjustable,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPanePeer#getVScrollbarWidth() public abstract
-     * int java.awt.peer.ScrollPanePeer.getVScrollbarWidth()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ScrollPanePeer#getVScrollbarWidth()
+     * public abstract int java.awt.peer.ScrollPanePeer.getVScrollbarWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPanePeer#getHScrollbarHeight() public abstract
-     * int java.awt.peer.ScrollPanePeer.getHScrollbarHeight()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ScrollPanePeer#getHScrollbarHeight()
+     * public abstract int java.awt.peer.ScrollPanePeer.getHScrollbarHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPanePeer#childResized(int, int) public
-     * abstract void java.awt.peer.ScrollPanePeer.childResized(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ScrollPanePeer#childResized(int, int)
+     * public abstract void java.awt.peer.ScrollPanePeer.childResized(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,9 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPanePeer#setScrollPosition(int, int) public
-     * abstract void java.awt.peer.ScrollPanePeer.setScrollPosition(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.ScrollPanePeer#setScrollPosition(int, int) public abstract void
+     * java.awt.peer.ScrollPanePeer.setScrollPosition(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

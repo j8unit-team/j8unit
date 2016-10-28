@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.util.OptionalDoubleClassTests<OptionalDoub
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#empty() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalDouble#empty() public static
      * java.util.OptionalDouble java.util.OptionalDouble.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.util.OptionalDoubleClassTests<OptionalDoub
     @Category(Draft.class)
     public void test_empty()
     throws Exception {
-        // write some test for {@link OptionalDouble#empty()}
+        // write some test for {@link java.util.OptionalDouble#empty()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#of(double) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalDouble#of(double) public static
      * java.util.OptionalDouble java.util.OptionalDouble.of(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.util.OptionalDoubleClassTests<OptionalDoub
     @Category(Draft.class)
     public void test_of_double()
     throws Exception {
-        // write some test for {@link OptionalDouble#of(double)}
+        // write some test for {@link java.util.OptionalDouble#of(double)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.OptionalDouble]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicViewportUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.javax.swing.plaf.ViewportUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicViewportUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicViewportUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicViewportUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,8 @@ extends org.j8unit.repository.javax.swing.plaf.ViewportUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicViewportUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicViewportUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicViewportUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

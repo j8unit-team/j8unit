@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.font.LayoutPathClassTests<LayoutPath> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LayoutPath#LayoutPath() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.font.LayoutPath#LayoutPath() public
      * java.awt.font.LayoutPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

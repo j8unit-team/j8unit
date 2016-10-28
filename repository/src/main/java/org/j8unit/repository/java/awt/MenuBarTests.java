@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Event;
-import java.awt.Menu;
 import java.awt.MenuBar;
-import java.awt.MenuComponent;
-import java.awt.MenuContainer;
-import java.awt.MenuShortcut;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +35,7 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#remove(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#remove(int) public void
      * java.awt.MenuBar.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +57,8 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#remove(MenuComponent) public void
-     * java.awt.MenuBar.remove(java.awt.MenuComponent)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#remove(java.awt.MenuComponent)
+     * public void java.awt.MenuBar.remove(java.awt.MenuComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +80,9 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#getShortcutMenuItem(MenuShortcut) public
-     * java.awt.MenuItem java.awt.MenuBar.getShortcutMenuItem(java.awt.MenuShortcut)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.MenuBar#getShortcutMenuItem(java.awt.MenuShortcut) public java.awt.MenuItem
+     * java.awt.MenuBar.getShortcutMenuItem(java.awt.MenuShortcut)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,29 +103,7 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#countMenus() public int
-     * java.awt.MenuBar.countMenus()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_countMenus()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.MenuBar.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,7 +126,29 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#shortcuts() public synchronized
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#countMenus() public int
+     * java.awt.MenuBar.countMenus()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_countMenus()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#shortcuts() public synchronized
      * java.util.Enumeration<java.awt.MenuShortcut> java.awt.MenuBar.shortcuts()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,7 +170,8 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#deleteShortcut(MenuShortcut) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.MenuBar#deleteShortcut(java.awt.MenuShortcut) public void
      * java.awt.MenuBar.deleteShortcut(java.awt.MenuShortcut)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -196,8 +193,8 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#add(Menu) public java.awt.Menu
-     * java.awt.MenuBar.add(java.awt.Menu)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#add(java.awt.Menu) public
+     * java.awt.Menu java.awt.MenuBar.add(java.awt.Menu)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,8 +215,8 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#setHelpMenu(Menu) public void
-     * java.awt.MenuBar.setHelpMenu(java.awt.Menu)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#setHelpMenu(java.awt.Menu) public
+     * void java.awt.MenuBar.setHelpMenu(java.awt.Menu)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,7 +237,7 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#getMenuCount() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#getMenuCount() public int
      * java.awt.MenuBar.getMenuCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,7 +259,7 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#removeNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#removeNotify() public void
      * java.awt.MenuBar.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -285,7 +282,7 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#getMenu(int) public java.awt.Menu
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#getMenu(int) public java.awt.Menu
      * java.awt.MenuBar.getMenu(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -307,7 +304,7 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#addNotify() public void
      * java.awt.MenuBar.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -329,7 +326,7 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuBar#getHelpMenu() public java.awt.Menu
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#getHelpMenu() public java.awt.Menu
      * java.awt.MenuBar.getHelpMenu()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -355,8 +352,8 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MenuComponent#getFont() class java.awt.MenuComponent}</li>
-     * <li>{@link MenuContainer#getFont() interface java.awt.MenuContainer}</li>
+     * <li>{@link java.awt.MenuComponent#getFont() class java.awt.MenuComponent}</li>
+     * <li>{@link java.awt.MenuContainer#getFont() interface java.awt.MenuContainer}</li>
      * </ul>
      *
      * <p>
@@ -383,8 +380,8 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MenuComponent#postEvent(Event) class java.awt.MenuComponent}</li>
-     * <li>{@link MenuContainer#postEvent(Event) interface java.awt.MenuContainer}</li>
+     * <li>{@link java.awt.MenuComponent#postEvent(java.awt.Event) class java.awt.MenuComponent}</li>
+     * <li>{@link java.awt.MenuContainer#postEvent(java.awt.Event) interface java.awt.MenuContainer}</li>
      * </ul>
      *
      * <p>

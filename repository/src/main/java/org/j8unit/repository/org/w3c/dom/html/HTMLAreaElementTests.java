@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#getAccessKey() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLAreaElement.getAccessKey()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#getAccessKey()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLAreaElement.getAccessKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#setTarget(String) public abstract
-     * void org.w3c.dom.html.HTMLAreaElement.setTarget(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#setTarget(String)
+     * public abstract void org.w3c.dom.html.HTMLAreaElement.setTarget(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#getAlt() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLAreaElement.getAlt()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#getAlt() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLAreaElement.getAlt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#setTabIndex(int) public abstract
-     * void org.w3c.dom.html.HTMLAreaElement.setTabIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#setTabIndex(int)
+     * public abstract void org.w3c.dom.html.HTMLAreaElement.setTabIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#setAccessKey(String) public abstract
-     * void org.w3c.dom.html.HTMLAreaElement.setAccessKey(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLAreaElement#setAccessKey(String) public abstract void
+     * org.w3c.dom.html.HTMLAreaElement.setAccessKey(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#getTarget() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLAreaElement.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#getTarget() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLAreaElement.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +167,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#setCoords(String) public abstract
-     * void org.w3c.dom.html.HTMLAreaElement.setCoords(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#setCoords(String)
+     * public abstract void org.w3c.dom.html.HTMLAreaElement.setCoords(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +189,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#setNoHref(boolean) public abstract
-     * void org.w3c.dom.html.HTMLAreaElement.setNoHref(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#setNoHref(boolean)
+     * public abstract void org.w3c.dom.html.HTMLAreaElement.setNoHref(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +211,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#setShape(String) public abstract
-     * void org.w3c.dom.html.HTMLAreaElement.setShape(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#setShape(String)
+     * public abstract void org.w3c.dom.html.HTMLAreaElement.setShape(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +233,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#getNoHref() public abstract boolean
-     * org.w3c.dom.html.HTMLAreaElement.getNoHref()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#getNoHref() public
+     * abstract boolean org.w3c.dom.html.HTMLAreaElement.getNoHref()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,8 +255,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#getShape() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLAreaElement.getShape()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#getShape() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLAreaElement.getShape()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,8 +277,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#setAlt(String) public abstract void
-     * org.w3c.dom.html.HTMLAreaElement.setAlt(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#setAlt(String)
+     * public abstract void org.w3c.dom.html.HTMLAreaElement.setAlt(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,8 +299,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#setHref(String) public abstract void
-     * org.w3c.dom.html.HTMLAreaElement.setHref(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#setHref(String)
+     * public abstract void org.w3c.dom.html.HTMLAreaElement.setHref(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -320,8 +321,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#getHref() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLAreaElement.getHref()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#getHref() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLAreaElement.getHref()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -342,8 +343,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#getTabIndex() public abstract int
-     * org.w3c.dom.html.HTMLAreaElement.getTabIndex()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#getTabIndex()
+     * public abstract int org.w3c.dom.html.HTMLAreaElement.getTabIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -364,8 +365,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLAreaElement#getCoords() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLAreaElement.getCoords()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAreaElement#getCoords() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLAreaElement.getCoords()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

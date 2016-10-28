@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import javax.swing.text.AttributeSet;
 import javax.swing.text.html.Option;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.OptionClassTests<Option> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Option#Option(AttributeSet) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.Option#Option(javax.swing.text.AttributeSet) public
      * javax.swing.text.html.Option(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.html.OptionClassTests<Option> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Option sut = null; // = new Option(AttributeSet);
+        final Option sut = null; // = new Option(javax.swing.text.AttributeSet);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.Option]

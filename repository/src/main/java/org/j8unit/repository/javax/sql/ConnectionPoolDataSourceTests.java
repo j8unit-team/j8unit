@@ -35,7 +35,8 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConnectionPoolDataSource#getPooledConnection(String, String) public abstract javax.sql.PooledConnection
+     * {@link javax.sql.ConnectionPoolDataSource#getPooledConnection(String, String) public abstract
+     * javax.sql.PooledConnection
      * javax.sql.ConnectionPoolDataSource.getPooledConnection(java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
      *
@@ -58,9 +59,9 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConnectionPoolDataSource#getPooledConnection()
-     * public abstract javax.sql.PooledConnection javax.sql.ConnectionPoolDataSource.getPooledConnection() throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.ConnectionPoolDataSource#getPooledConnection() public abstract javax.sql.PooledConnection
+     * javax.sql.ConnectionPoolDataSource.getPooledConnection() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

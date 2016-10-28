@@ -1,11 +1,7 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.AbstractQueue;
-import java.util.Collection;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.DelayQueue;
 import java.util.concurrent.Delayed;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +35,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#toArray(Object[]) public <T> T[]
-     * java.util.concurrent.DelayQueue.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#toArray(Object[])
+     * public <T> T[] java.util.concurrent.DelayQueue.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +58,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#toArray() public java.lang.Object[]
-     * java.util.concurrent.DelayQueue.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#toArray() public
+     * java.lang.Object[] java.util.concurrent.DelayQueue.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +81,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#remainingCapacity() public int
-     * java.util.concurrent.DelayQueue.remainingCapacity()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#remainingCapacity()
+     * public int java.util.concurrent.DelayQueue.remainingCapacity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +104,9 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#offer(Delayed, long, TimeUnit) public
-     * boolean java.util.concurrent.DelayQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.DelayQueue#offer(java.util.concurrent.Delayed, long, java.util.concurrent.TimeUnit)
+     * public boolean java.util.concurrent.DelayQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,7 +127,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#offer(Delayed) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.DelayQueue#offer(java.util.concurrent.Delayed) public boolean
      * java.util.concurrent.DelayQueue.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,7 +150,7 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#take() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#take() public E
      * java.util.concurrent.DelayQueue.take() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,8 +173,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#iterator() public java.util.Iterator
-     * <E> java.util.concurrent.DelayQueue.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#iterator() public
+     * java.util.Iterator<E> java.util.concurrent.DelayQueue.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,7 +196,7 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#size() public int
      * java.util.concurrent.DelayQueue.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -221,7 +219,7 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#clear() public void
      * java.util.concurrent.DelayQueue.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,7 +242,7 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#poll() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#poll() public E
      * java.util.concurrent.DelayQueue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -267,7 +265,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#poll(long, TimeUnit) public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.DelayQueue#poll(long, java.util.concurrent.TimeUnit) public E
      * java.util.concurrent.DelayQueue.poll(long,java.util.concurrent.TimeUnit) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -290,7 +289,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#drainTo(Collection, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.DelayQueue#drainTo(java.util.Collection, int) public int
      * java.util.concurrent.DelayQueue.drainTo(java.util.Collection<? super E>,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -313,7 +313,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#drainTo(Collection) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.DelayQueue#drainTo(java.util.Collection) public int
      * java.util.concurrent.DelayQueue.drainTo(java.util.Collection<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -336,7 +337,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#put(Delayed) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.DelayQueue#put(java.util.concurrent.Delayed) public void
      * java.util.concurrent.DelayQueue.put(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -358,8 +360,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#remove(Object) public boolean
-     * java.util.concurrent.DelayQueue.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#remove(Object)
+     * public boolean java.util.concurrent.DelayQueue.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -381,7 +383,7 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#peek() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#peek() public E
      * java.util.concurrent.DelayQueue.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -404,7 +406,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DelayQueue#add(Delayed) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.DelayQueue#add(java.util.concurrent.Delayed) public boolean
      * java.util.concurrent.DelayQueue.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -430,8 +433,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link AbstractQueue#contains(Object) class java.util.AbstractQueue}</li>
-     * <li>{@link BlockingQueue#contains(Object) interface java.util.concurrent.BlockingQueue}</li>
+     * <li>{@link java.util.AbstractQueue#contains(Object) class java.util.AbstractQueue}</li>
+     * <li>{@link java.util.concurrent.BlockingQueue#contains(Object) interface java.util.concurrent.BlockingQueue}</li>
      * </ul>
      *
      * <p>
@@ -458,8 +461,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link AbstractQueue#add(Object) class java.util.AbstractQueue}</li>
-     * <li>{@link BlockingQueue#add(Object) interface java.util.concurrent.BlockingQueue}</li>
+     * <li>{@link java.util.AbstractQueue#add(Object) class java.util.AbstractQueue}</li>
+     * <li>{@link java.util.concurrent.BlockingQueue#add(Object) interface java.util.concurrent.BlockingQueue}</li>
      * </ul>
      *
      * <p>

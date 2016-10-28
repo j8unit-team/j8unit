@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.net.URL;
 import javax.sql.rowset.serial.SerialDatalink;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialDatalinkClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialDatalink#SerialDatalink(URL) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialDatalink#SerialDatalink(java.net.URL) public
      * javax.sql.rowset.serial.SerialDatalink(java.net.URL) throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialDatalinkClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SerialDatalink sut = null; // = new SerialDatalink(URL);
+        final SerialDatalink sut = null; // = new SerialDatalink(java.net.URL);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialDatalink]

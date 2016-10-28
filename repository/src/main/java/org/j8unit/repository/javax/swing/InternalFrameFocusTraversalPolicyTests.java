@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.InternalFrameFocusTraversalPolicy;
-import javax.swing.JInternalFrame;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,9 @@ extends org.j8unit.repository.java.awt.FocusTraversalPolicyTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InternalFrameFocusTraversalPolicy#getInitialComponent(JInternalFrame) public java.awt.Component
-     * javax.swing.InternalFrameFocusTraversalPolicy.getInitialComponent(javax.swing.JInternalFrame)}.
+     * {@link javax.swing.InternalFrameFocusTraversalPolicy#getInitialComponent(javax.swing.JInternalFrame) public
+     * java.awt.Component javax.swing.InternalFrameFocusTraversalPolicy.getInitialComponent(javax.swing.JInternalFrame)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

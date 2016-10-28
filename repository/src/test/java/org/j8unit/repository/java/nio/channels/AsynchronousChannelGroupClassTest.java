@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.nio.channels;
 
 import java.nio.channels.AsynchronousChannelGroup;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.ThreadFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousChannelGroupClass
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousChannelGroup#withCachedThreadPool(ExecutorService, int) public static
-     * java.nio.channels.AsynchronousChannelGroup
+     * {@link java.nio.channels.AsynchronousChannelGroup#withCachedThreadPool(java.util.concurrent.ExecutorService, int)
+     * public static java.nio.channels.AsynchronousChannelGroup
      * java.nio.channels.AsynchronousChannelGroup.withCachedThreadPool(java.util.concurrent.ExecutorService,int) throws
      * java.io.IOException}.
      *
@@ -41,14 +39,15 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousChannelGroupClass
     @Category(Draft.class)
     public void test_withCachedThreadPool_ExecutorService_int()
     throws Exception {
-        // write some test for {@link AsynchronousChannelGroup#withCachedThreadPool(ExecutorService, int)}
+        // write some test for {@link
+        // java.nio.channels.AsynchronousChannelGroup#withCachedThreadPool(java.util.concurrent.ExecutorService, int)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousChannelGroup#withThreadPool(ExecutorService) public static
-     * java.nio.channels.AsynchronousChannelGroup
+     * {@link java.nio.channels.AsynchronousChannelGroup#withThreadPool(java.util.concurrent.ExecutorService) public
+     * static java.nio.channels.AsynchronousChannelGroup
      * java.nio.channels.AsynchronousChannelGroup.withThreadPool(java.util.concurrent.ExecutorService) throws
      * java.io.IOException}.
      *
@@ -64,14 +63,15 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousChannelGroupClass
     @Category(Draft.class)
     public void test_withThreadPool_ExecutorService()
     throws Exception {
-        // write some test for {@link AsynchronousChannelGroup#withThreadPool(ExecutorService)}
+        // write some test for {@link
+        // java.nio.channels.AsynchronousChannelGroup#withThreadPool(java.util.concurrent.ExecutorService)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousChannelGroup#withFixedThreadPool(int, ThreadFactory) public static
-     * java.nio.channels.AsynchronousChannelGroup
+     * {@link java.nio.channels.AsynchronousChannelGroup#withFixedThreadPool(int, java.util.concurrent.ThreadFactory)
+     * public static java.nio.channels.AsynchronousChannelGroup
      * java.nio.channels.AsynchronousChannelGroup.withFixedThreadPool(int,java.util.concurrent.ThreadFactory) throws
      * java.io.IOException}.
      *
@@ -87,7 +87,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousChannelGroupClass
     @Category(Draft.class)
     public void test_withFixedThreadPool_int_ThreadFactory()
     throws Exception {
-        // write some test for {@link AsynchronousChannelGroup#withFixedThreadPool(int, ThreadFactory)}
+        // write some test for {@link java.nio.channels.AsynchronousChannelGroup#withFixedThreadPool(int,
+        // java.util.concurrent.ThreadFactory)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AsynchronousChannelGroup]

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.sql;
 
-import java.sql.SQLException;
 import javax.sql.ConnectionEvent;
-import javax.sql.PooledConnection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.sql.ConnectionEventClassTests<ConnectionE
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConnectionEvent#ConnectionEvent(PooledConnection) public
+     * {@link javax.sql.ConnectionEvent#ConnectionEvent(javax.sql.PooledConnection) public
      * javax.sql.ConnectionEvent(javax.sql.PooledConnection)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,13 @@ implements org.j8unit.repository.javax.sql.ConnectionEventClassTests<ConnectionE
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConnectionEvent sut = null; // = new ConnectionEvent(PooledConnection);
+        final ConnectionEvent sut = null; // = new ConnectionEvent(javax.sql.PooledConnection);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConnectionEvent#ConnectionEvent(PooledConnection, SQLException) public
+     * {@link javax.sql.ConnectionEvent#ConnectionEvent(javax.sql.PooledConnection, java.sql.SQLException) public
      * javax.sql.ConnectionEvent(javax.sql.PooledConnection,java.sql.SQLException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +62,7 @@ implements org.j8unit.repository.javax.sql.ConnectionEventClassTests<ConnectionE
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConnectionEvent sut = null; // = new ConnectionEvent(PooledConnection, SQLException);
+        final ConnectionEvent sut = null; // = new ConnectionEvent(javax.sql.PooledConnection, java.sql.SQLException);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.ConnectionEvent]

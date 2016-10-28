@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldPosition#getEndIndex() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.FieldPosition#getEndIndex() public int
      * java.text.FieldPosition.getEndIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldPosition#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.FieldPosition#hashCode() public int
      * java.text.FieldPosition.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldPosition#getFieldAttribute() public
+     * Test method for the hereby targeted method-under-test {@link java.text.FieldPosition#getFieldAttribute() public
      * java.text.Format$Field java.text.FieldPosition.getFieldAttribute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldPosition#equals(Object) public boolean
-     * java.text.FieldPosition.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.FieldPosition#equals(Object) public
+     * boolean java.text.FieldPosition.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldPosition#getBeginIndex() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.FieldPosition#getBeginIndex() public int
      * java.text.FieldPosition.getBeginIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldPosition#setBeginIndex(int) public void
-     * java.text.FieldPosition.setBeginIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.FieldPosition#setBeginIndex(int) public
+     * void java.text.FieldPosition.setBeginIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +168,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldPosition#getField() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.FieldPosition#getField() public int
      * java.text.FieldPosition.getField()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +190,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldPosition#setEndIndex(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.text.FieldPosition#setEndIndex(int) public void
      * java.text.FieldPosition.setEndIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +212,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldPosition#toString() public java.lang.String
-     * java.text.FieldPosition.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.FieldPosition#toString() public
+     * java.lang.String java.text.FieldPosition.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.GraphicsDevice;
 import java.awt.Robot;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.awt.RobotClassTests<Robot> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Robot#Robot() public java.awt.Robot() throws
-     * java.awt.AWTException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Robot#Robot() public java.awt.Robot()
+     * throws java.awt.AWTException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,8 @@ implements org.j8unit.repository.java.awt.RobotClassTests<Robot> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Robot#Robot(GraphicsDevice) public
-     * java.awt.Robot(java.awt.GraphicsDevice) throws java.awt.AWTException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Robot#Robot(java.awt.GraphicsDevice)
+     * public java.awt.Robot(java.awt.GraphicsDevice) throws java.awt.AWTException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +59,7 @@ implements org.j8unit.repository.java.awt.RobotClassTests<Robot> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Robot sut = null; // = new Robot(GraphicsDevice);
+        final Robot sut = null; // = new Robot(java.awt.GraphicsDevice);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Robot]

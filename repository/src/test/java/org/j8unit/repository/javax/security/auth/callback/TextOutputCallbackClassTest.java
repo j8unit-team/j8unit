@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.callback.TextOutputCallback
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TextOutputCallback#TextOutputCallback(int, String) public
+     * {@link javax.security.auth.callback.TextOutputCallback#TextOutputCallback(int, String) public
      * javax.security.auth.callback.TextOutputCallback(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

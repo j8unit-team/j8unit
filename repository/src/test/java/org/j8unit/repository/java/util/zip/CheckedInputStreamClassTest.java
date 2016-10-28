@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.io.InputStream;
 import java.util.zip.CheckedInputStream;
-import java.util.zip.Checksum;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.util.zip.CheckedInputStreamClassTests<Chec
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CheckedInputStream#CheckedInputStream(InputStream, Checksum) public
+     * {@link java.util.zip.CheckedInputStream#CheckedInputStream(java.io.InputStream, java.util.zip.Checksum) public
      * java.util.zip.CheckedInputStream(java.io.InputStream,java.util.zip.Checksum)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +39,7 @@ implements org.j8unit.repository.java.util.zip.CheckedInputStreamClassTests<Chec
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CheckedInputStream sut = null; // = new CheckedInputStream(InputStream, Checksum);
+        final CheckedInputStream sut = null; // = new CheckedInputStream(java.io.InputStream, java.util.zip.Checksum);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.CheckedInputStream]

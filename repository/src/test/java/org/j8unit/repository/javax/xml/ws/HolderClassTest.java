@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.xml.ws.HolderClassTests<Holder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Holder#Holder() public javax.xml.ws.Holder()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.ws.Holder#Holder() public
+     * javax.xml.ws.Holder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +43,7 @@ implements org.j8unit.repository.javax.xml.ws.HolderClassTests<Holder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Holder#Holder(Object) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.ws.Holder#Holder(Object) public
      * javax.xml.ws.Holder(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

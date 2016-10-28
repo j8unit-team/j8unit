@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CountDownLatch#await() public void
-     * java.util.concurrent.CountDownLatch.await() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CountDownLatch#await() public
+     * void java.util.concurrent.CountDownLatch.await() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CountDownLatch#await(long, TimeUnit) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CountDownLatch#await(long, java.util.concurrent.TimeUnit) public boolean
      * java.util.concurrent.CountDownLatch.await(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CountDownLatch#countDown() public void
-     * java.util.concurrent.CountDownLatch.countDown()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CountDownLatch#countDown()
+     * public void java.util.concurrent.CountDownLatch.countDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CountDownLatch#toString() public java.lang.String
-     * java.util.concurrent.CountDownLatch.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CountDownLatch#toString()
+     * public java.lang.String java.util.concurrent.CountDownLatch.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CountDownLatch#getCount() public long
-     * java.util.concurrent.CountDownLatch.getCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CountDownLatch#getCount()
+     * public long java.util.concurrent.CountDownLatch.getCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

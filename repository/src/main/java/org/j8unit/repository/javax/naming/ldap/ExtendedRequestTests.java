@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ExtendedRequest#getID() public abstract
-     * java.lang.String javax.naming.ldap.ExtendedRequest.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.ExtendedRequest#getID() public
+     * abstract java.lang.String javax.naming.ldap.ExtendedRequest.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ExtendedRequest#createExtendedResponse(String, byte[], int, int) public abstract
+     * {@link javax.naming.ldap.ExtendedRequest#createExtendedResponse(String, byte[], int, int) public abstract
      * javax.naming.ldap.ExtendedResponse
      * javax.naming.ldap.ExtendedRequest.createExtendedResponse(java.lang.String,byte[],int,int) throws
      * javax.naming.NamingException}.
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ExtendedRequest#getEncodedValue() public abstract
-     * byte[] javax.naming.ldap.ExtendedRequest.getEncodedValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.ExtendedRequest#getEncodedValue()
+     * public abstract byte[] javax.naming.ldap.ExtendedRequest.getEncodedValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

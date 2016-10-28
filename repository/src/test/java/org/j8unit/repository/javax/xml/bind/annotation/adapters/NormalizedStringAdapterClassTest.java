@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.bind.annotation.adapters.NormalizedSt
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NormalizedStringAdapter#NormalizedStringAdapter() public
+     * {@link javax.xml.bind.annotation.adapters.NormalizedStringAdapter#NormalizedStringAdapter() public
      * javax.xml.bind.annotation.adapters.NormalizedStringAdapter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

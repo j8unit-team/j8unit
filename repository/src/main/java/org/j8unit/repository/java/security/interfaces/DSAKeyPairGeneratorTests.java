@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security.interfaces;
 
-import java.security.SecureRandom;
 import java.security.interfaces.DSAKeyPairGenerator;
-import java.security.interfaces.DSAParams;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,9 +36,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DSAKeyPairGenerator#initialize(int, boolean, SecureRandom) public abstract void
-     * java.security.interfaces.DSAKeyPairGenerator.initialize(int,boolean,java.security.SecureRandom) throws
-     * java.security.InvalidParameterException}.
+     * {@link java.security.interfaces.DSAKeyPairGenerator#initialize(int, boolean, java.security.SecureRandom) public
+     * abstract void java.security.interfaces.DSAKeyPairGenerator.initialize(int,boolean,java.security.SecureRandom)
+     * throws java.security.InvalidParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +60,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DSAKeyPairGenerator#initialize(DSAParams, SecureRandom) public abstract void
+     * {@link java.security.interfaces.DSAKeyPairGenerator#initialize(java.security.interfaces.DSAParams, java.security.SecureRandom)
+     * public abstract void
      * java.security.interfaces.DSAKeyPairGenerator.initialize(java.security.interfaces.DSAParams,java.security.SecureRandom)
      * throws java.security.InvalidParameterException}.
      *

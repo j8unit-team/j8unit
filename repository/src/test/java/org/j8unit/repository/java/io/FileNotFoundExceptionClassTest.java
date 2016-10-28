@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.io.FileNotFoundExceptionClassTests<FileNot
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileNotFoundException#FileNotFoundException()
-     * public java.io.FileNotFoundException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.FileNotFoundException#FileNotFoundException() public java.io.FileNotFoundException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.io.FileNotFoundExceptionClassTests<FileNot
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FileNotFoundException#FileNotFoundException(String) public
+     * {@link java.io.FileNotFoundException#FileNotFoundException(String) public
      * java.io.FileNotFoundException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

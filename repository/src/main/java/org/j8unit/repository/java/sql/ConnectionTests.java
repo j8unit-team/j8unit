@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.sql;
 
 import java.sql.Connection;
-import java.sql.Savepoint;
-import java.util.Map;
-import java.util.Properties;
-import java.util.concurrent.Executor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,9 +34,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#prepareStatement(String, int, int, int)
-     * public abstract java.sql.PreparedStatement java.sql.Connection.prepareStatement(java.lang.String,int,int,int)
-     * throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Connection#prepareStatement(String, int, int, int) public abstract java.sql.PreparedStatement
+     * java.sql.Connection.prepareStatement(java.lang.String,int,int,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +57,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setHoldability(int) public abstract void
-     * java.sql.Connection.setHoldability(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setHoldability(int) public
+     * abstract void java.sql.Connection.setHoldability(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +79,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#prepareStatement(String, int) public
-     * abstract java.sql.PreparedStatement java.sql.Connection.prepareStatement(java.lang.String,int) throws
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#prepareStatement(String, int)
+     * public abstract java.sql.PreparedStatement java.sql.Connection.prepareStatement(java.lang.String,int) throws
      * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +102,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#prepareStatement(String) public abstract
-     * java.sql.PreparedStatement java.sql.Connection.prepareStatement(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#prepareStatement(String) public
+     * abstract java.sql.PreparedStatement java.sql.Connection.prepareStatement(java.lang.String) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,9 +125,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#prepareStatement(String, int, int) public
-     * abstract java.sql.PreparedStatement java.sql.Connection.prepareStatement(java.lang.String,int,int) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Connection#prepareStatement(String, int, int) public abstract java.sql.PreparedStatement
+     * java.sql.Connection.prepareStatement(java.lang.String,int,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,9 +148,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#prepareStatement(String, String[]) public
-     * abstract java.sql.PreparedStatement java.sql.Connection.prepareStatement(java.lang.String,java.lang.String[])
-     * throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Connection#prepareStatement(String, String[]) public abstract java.sql.PreparedStatement
+     * java.sql.Connection.prepareStatement(java.lang.String,java.lang.String[]) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +171,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#prepareStatement(String, int[]) public
-     * abstract java.sql.PreparedStatement java.sql.Connection.prepareStatement(java.lang.String,int[]) throws
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#prepareStatement(String, int[])
+     * public abstract java.sql.PreparedStatement java.sql.Connection.prepareStatement(java.lang.String,int[]) throws
      * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -197,8 +194,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setCatalog(String) public abstract void
-     * java.sql.Connection.setCatalog(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setCatalog(String) public
+     * abstract void java.sql.Connection.setCatalog(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,8 +216,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getHoldability() public abstract int
-     * java.sql.Connection.getHoldability() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getHoldability() public abstract
+     * int java.sql.Connection.getHoldability() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -241,7 +238,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#commit() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#commit() public abstract void
      * java.sql.Connection.commit() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -263,7 +260,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getCatalog() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getCatalog() public abstract
      * java.lang.String java.sql.Connection.getCatalog() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -285,8 +282,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setSchema(String) public abstract void
-     * java.sql.Connection.setSchema(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setSchema(String) public
+     * abstract void java.sql.Connection.setSchema(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -307,8 +304,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setClientInfo(String, String) public
-     * abstract void java.sql.Connection.setClientInfo(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setClientInfo(String, String)
+     * public abstract void java.sql.Connection.setClientInfo(java.lang.String,java.lang.String) throws
      * java.sql.SQLClientInfoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -330,8 +327,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setClientInfo(Properties) public abstract
-     * void java.sql.Connection.setClientInfo(java.util.Properties) throws java.sql.SQLClientInfoException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Connection#setClientInfo(java.util.Properties) public abstract void
+     * java.sql.Connection.setClientInfo(java.util.Properties) throws java.sql.SQLClientInfoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -352,7 +350,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#createSQLXML() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#createSQLXML() public abstract
      * java.sql.SQLXML java.sql.Connection.createSQLXML() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -374,7 +372,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#createClob() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#createClob() public abstract
      * java.sql.Clob java.sql.Connection.createClob() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -396,7 +394,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#createBlob() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#createBlob() public abstract
      * java.sql.Blob java.sql.Connection.createBlob() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -418,8 +416,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#createStatement() public abstract
-     * java.sql.Statement java.sql.Connection.createStatement() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#createStatement() public
+     * abstract java.sql.Statement java.sql.Connection.createStatement() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -440,8 +438,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#createStatement(int, int, int) public
-     * abstract java.sql.Statement java.sql.Connection.createStatement(int,int,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#createStatement(int, int, int)
+     * public abstract java.sql.Statement java.sql.Connection.createStatement(int,int,int) throws java.sql.SQLException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -462,8 +461,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#createStatement(int, int) public abstract
-     * java.sql.Statement java.sql.Connection.createStatement(int,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#createStatement(int, int) public
+     * abstract java.sql.Statement java.sql.Connection.createStatement(int,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -484,8 +483,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setAutoCommit(boolean) public abstract
-     * void java.sql.Connection.setAutoCommit(boolean) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setAutoCommit(boolean) public
+     * abstract void java.sql.Connection.setAutoCommit(boolean) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -506,7 +505,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#abort(Executor) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Connection#abort(java.util.concurrent.Executor) public abstract void
      * java.sql.Connection.abort(java.util.concurrent.Executor) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -528,8 +528,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#prepareCall(String) public abstract
-     * java.sql.CallableStatement java.sql.Connection.prepareCall(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#prepareCall(String) public
+     * abstract java.sql.CallableStatement java.sql.Connection.prepareCall(java.lang.String) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -550,8 +551,31 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#prepareCall(String, int, int) public
-     * abstract java.sql.CallableStatement java.sql.Connection.prepareCall(java.lang.String,int,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Connection#prepareCall(String, int, int, int) public abstract java.sql.CallableStatement
+     * java.sql.Connection.prepareCall(java.lang.String,int,int,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_prepareCall_String_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#prepareCall(String, int, int)
+     * public abstract java.sql.CallableStatement java.sql.Connection.prepareCall(java.lang.String,int,int) throws
      * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -573,31 +597,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#prepareCall(String, int, int, int) public
-     * abstract java.sql.CallableStatement java.sql.Connection.prepareCall(java.lang.String,int,int,int) throws
-     * java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_prepareCall_String_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setReadOnly(boolean) public abstract void
-     * java.sql.Connection.setReadOnly(boolean) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setReadOnly(boolean) public
+     * abstract void java.sql.Connection.setReadOnly(boolean) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -618,7 +619,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getMetaData() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getMetaData() public abstract
      * java.sql.DatabaseMetaData java.sql.Connection.getMetaData() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -640,8 +641,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setTransactionIsolation(int) public
-     * abstract void java.sql.Connection.setTransactionIsolation(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setTransactionIsolation(int)
+     * public abstract void java.sql.Connection.setTransactionIsolation(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -662,7 +663,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getWarnings() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getWarnings() public abstract
      * java.sql.SQLWarning java.sql.Connection.getWarnings() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -684,8 +685,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#releaseSavepoint(Savepoint) public
-     * abstract void java.sql.Connection.releaseSavepoint(java.sql.Savepoint) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Connection#releaseSavepoint(java.sql.Savepoint) public abstract void
+     * java.sql.Connection.releaseSavepoint(java.sql.Savepoint) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -706,8 +708,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#isReadOnly() public abstract boolean
-     * java.sql.Connection.isReadOnly() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#isReadOnly() public abstract
+     * boolean java.sql.Connection.isReadOnly() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -728,8 +730,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#nativeSQL(String) public abstract
-     * java.lang.String java.sql.Connection.nativeSQL(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#nativeSQL(String) public
+     * abstract java.lang.String java.sql.Connection.nativeSQL(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -750,8 +752,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#createArrayOf(String, Object[]) public
-     * abstract java.sql.Array java.sql.Connection.createArrayOf(java.lang.String,java.lang.Object[]) throws
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#createArrayOf(String, Object[])
+     * public abstract java.sql.Array java.sql.Connection.createArrayOf(java.lang.String,java.lang.Object[]) throws
      * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -773,8 +775,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setSavepoint(String) public abstract
-     * java.sql.Savepoint java.sql.Connection.setSavepoint(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setSavepoint(String) public
+     * abstract java.sql.Savepoint java.sql.Connection.setSavepoint(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -795,7 +797,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setSavepoint() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setSavepoint() public abstract
      * java.sql.Savepoint java.sql.Connection.setSavepoint() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -817,7 +819,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#close() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#close() public abstract void
      * java.sql.Connection.close() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -840,8 +842,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#rollback(Savepoint) public abstract void
-     * java.sql.Connection.rollback(java.sql.Savepoint) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#rollback(java.sql.Savepoint)
+     * public abstract void java.sql.Connection.rollback(java.sql.Savepoint) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -862,7 +864,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#rollback() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#rollback() public abstract void
      * java.sql.Connection.rollback() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -884,7 +886,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#createNClob() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#createNClob() public abstract
      * java.sql.NClob java.sql.Connection.createNClob() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -906,8 +908,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getAutoCommit() public abstract boolean
-     * java.sql.Connection.getAutoCommit() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getAutoCommit() public abstract
+     * boolean java.sql.Connection.getAutoCommit() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -928,8 +930,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#isValid(int) public abstract boolean
-     * java.sql.Connection.isValid(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#isValid(int) public abstract
+     * boolean java.sql.Connection.isValid(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -950,9 +952,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setTypeMap(Map) public abstract void
-     * java.sql.Connection.setTypeMap(java.util.Map<java.lang.String, java.lang.Class<?>>) throws java.sql.SQLException}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#setTypeMap(java.util.Map) public
+     * abstract void java.sql.Connection.setTypeMap(java.util.Map<java.lang.String, java.lang.Class<?>>) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -973,9 +975,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#setNetworkTimeout(Executor, int) public
-     * abstract void java.sql.Connection.setNetworkTimeout(java.util.concurrent.Executor,int) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Connection#setNetworkTimeout(java.util.concurrent.Executor, int) public abstract void
+     * java.sql.Connection.setNetworkTimeout(java.util.concurrent.Executor,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -996,8 +998,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#clearWarnings() public abstract void
-     * java.sql.Connection.clearWarnings() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#clearWarnings() public abstract
+     * void java.sql.Connection.clearWarnings() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1018,7 +1020,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getSchema() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getSchema() public abstract
      * java.lang.String java.sql.Connection.getSchema() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1040,8 +1042,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getNetworkTimeout() public abstract int
-     * java.sql.Connection.getNetworkTimeout() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getNetworkTimeout() public
+     * abstract int java.sql.Connection.getNetworkTimeout() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1062,8 +1064,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#isClosed() public abstract boolean
-     * java.sql.Connection.isClosed() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#isClosed() public abstract
+     * boolean java.sql.Connection.isClosed() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1084,8 +1086,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#createStruct(String, Object[]) public
-     * abstract java.sql.Struct java.sql.Connection.createStruct(java.lang.String,java.lang.Object[]) throws
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#createStruct(String, Object[])
+     * public abstract java.sql.Struct java.sql.Connection.createStruct(java.lang.String,java.lang.Object[]) throws
      * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1107,8 +1109,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getTransactionIsolation() public abstract
-     * int java.sql.Connection.getTransactionIsolation() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getTransactionIsolation() public
+     * abstract int java.sql.Connection.getTransactionIsolation() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1129,7 +1131,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getTypeMap() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getTypeMap() public abstract
      * java.util.Map<java.lang.String, java.lang.Class<?>> java.sql.Connection.getTypeMap() throws
      * java.sql.SQLException}.
      *
@@ -1152,8 +1154,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getClientInfo(String) public abstract
-     * java.lang.String java.sql.Connection.getClientInfo(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getClientInfo(String) public
+     * abstract java.lang.String java.sql.Connection.getClientInfo(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1174,7 +1176,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Connection#getClientInfo() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Connection#getClientInfo() public abstract
      * java.util.Properties java.sql.Connection.getClientInfo() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 
 /**
  * <p>
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMSource#getSystemId() public java.lang.String
-     * javax.xml.transform.dom.DOMSource.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.dom.DOMSource#getSystemId()
+     * public java.lang.String javax.xml.transform.dom.DOMSource.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMSource#setSystemId(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.dom.DOMSource#setSystemId(String) public void
      * javax.xml.transform.dom.DOMSource.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +81,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMSource#setNode(Node) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.dom.DOMSource#setNode(org.w3c.dom.Node) public void
      * javax.xml.transform.dom.DOMSource.setNode(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +104,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMSource#getNode() public org.w3c.dom.Node
-     * javax.xml.transform.dom.DOMSource.getNode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.dom.DOMSource#getNode() public
+     * org.w3c.dom.Node javax.xml.transform.dom.DOMSource.getNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

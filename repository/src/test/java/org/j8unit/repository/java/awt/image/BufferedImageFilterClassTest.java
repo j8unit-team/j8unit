@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.BufferedImageFilter;
-import java.awt.image.BufferedImageOp;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.BufferedImageFilterClassTests<Bu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BufferedImageFilter#BufferedImageFilter(BufferedImageOp) public
+     * {@link java.awt.image.BufferedImageFilter#BufferedImageFilter(java.awt.image.BufferedImageOp) public
      * java.awt.image.BufferedImageFilter(java.awt.image.BufferedImageOp)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.awt.image.BufferedImageFilterClassTests<Bu
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferedImageFilter sut = null; // = new BufferedImageFilter(BufferedImageOp);
+        final BufferedImageFilter sut = null; // = new BufferedImageFilter(java.awt.image.BufferedImageOp);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BufferedImageFilter]

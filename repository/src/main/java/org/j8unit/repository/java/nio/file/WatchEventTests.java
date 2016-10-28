@@ -37,7 +37,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchEvent#kind() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent#kind() public abstract
      * java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind<T> java.nio.file.WatchEvent.kind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +59,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchEvent#count() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent#count() public abstract int
      * java.nio.file.WatchEvent.count()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +81,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchEvent#context() public abstract T
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent#context() public abstract T
      * java.nio.file.WatchEvent.context()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,8 +130,8 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Kind#type() public abstract java.lang.Class
-         * <T> java.nio.file.WatchEvent$Kind.type()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent.Kind#type() public
+         * abstract java.lang.Class<T> java.nio.file.WatchEvent$Kind.type()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -152,8 +152,8 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Kind#name() public abstract java.lang.String
-         * java.nio.file.WatchEvent$Kind.name()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent.Kind#name() public
+         * abstract java.lang.String java.nio.file.WatchEvent$Kind.name()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -203,8 +203,8 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Modifier#name() public abstract java.lang.String
-         * java.nio.file.WatchEvent$Modifier.name()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent.Modifier#name() public
+         * abstract java.lang.String java.nio.file.WatchEvent$Modifier.name()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

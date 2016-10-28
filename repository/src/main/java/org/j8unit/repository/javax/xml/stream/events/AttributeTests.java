@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#getName() public abstract
-     * javax.xml.namespace.QName javax.xml.stream.events.Attribute.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.Attribute#getName() public
+     * abstract javax.xml.namespace.QName javax.xml.stream.events.Attribute.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#getDTDType() public abstract
-     * java.lang.String javax.xml.stream.events.Attribute.getDTDType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.Attribute#getDTDType()
+     * public abstract java.lang.String javax.xml.stream.events.Attribute.getDTDType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#getValue() public abstract
-     * java.lang.String javax.xml.stream.events.Attribute.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.Attribute#getValue() public
+     * abstract java.lang.String javax.xml.stream.events.Attribute.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#isSpecified() public abstract boolean
-     * javax.xml.stream.events.Attribute.isSpecified()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.Attribute#isSpecified()
+     * public abstract boolean javax.xml.stream.events.Attribute.isSpecified()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

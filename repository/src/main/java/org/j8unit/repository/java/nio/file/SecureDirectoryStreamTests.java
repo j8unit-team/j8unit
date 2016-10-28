@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.nio.file;
 
-import java.nio.file.LinkOption;
 import java.nio.file.SecureDirectoryStream;
-import java.nio.file.attribute.FileAttribute;
-import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +35,9 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SecureDirectoryStream#getFileAttributeView(Object, Class, LinkOption...) public abstract <V> V
-     * java.nio.file.SecureDirectoryStream.getFileAttributeView(T,java.lang.Class<V>,java.nio.file.LinkOption...)}.
+     * {@link java.nio.file.SecureDirectoryStream#getFileAttributeView(Object, Class, java.nio.file.LinkOption...)
+     * public abstract <V> V java.nio.file.SecureDirectoryStream.getFileAttributeView(T,java.lang.Class
+     * <V>,java.nio.file.LinkOption...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,9 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecureDirectoryStream#getFileAttributeView(Class)
-     * public abstract <V> V java.nio.file.SecureDirectoryStream.getFileAttributeView(java.lang.Class<V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.SecureDirectoryStream#getFileAttributeView(Class) public abstract <V> V
+     * java.nio.file.SecureDirectoryStream.getFileAttributeView(java.lang.Class<V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,9 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecureDirectoryStream#deleteFile(Object) public
-     * abstract void java.nio.file.SecureDirectoryStream.deleteFile(T) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.SecureDirectoryStream#deleteFile(Object) public abstract void
+     * java.nio.file.SecureDirectoryStream.deleteFile(T) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,9 +105,10 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SecureDirectoryStream#newByteChannel(Object, Set, FileAttribute...) public abstract
-     * java.nio.channels.SeekableByteChannel java.nio.file.SecureDirectoryStream.newByteChannel(T,java.util.Set<?
-     * extends java.nio.file.OpenOption>,java.nio.file.attribute.FileAttribute<?>...) throws java.io.IOException}.
+     * {@link java.nio.file.SecureDirectoryStream#newByteChannel(Object, java.util.Set, java.nio.file.attribute.FileAttribute...)
+     * public abstract java.nio.channels.SeekableByteChannel
+     * java.nio.file.SecureDirectoryStream.newByteChannel(T,java.util.Set<? extends
+     * java.nio.file.OpenOption>,java.nio.file.attribute.FileAttribute<?>...) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +130,9 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SecureDirectoryStream#move(Object, SecureDirectoryStream, Object) public abstract void
-     * java.nio.file.SecureDirectoryStream.move(T,java.nio.file.SecureDirectoryStream<T>,T) throws java.io.IOException}.
+     * {@link java.nio.file.SecureDirectoryStream#move(Object, java.nio.file.SecureDirectoryStream, Object) public
+     * abstract void java.nio.file.SecureDirectoryStream.move(T,java.nio.file.SecureDirectoryStream<T>,T) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +153,9 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecureDirectoryStream#deleteDirectory(Object) public
-     * abstract void java.nio.file.SecureDirectoryStream.deleteDirectory(T) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.SecureDirectoryStream#deleteDirectory(Object) public abstract void
+     * java.nio.file.SecureDirectoryStream.deleteDirectory(T) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +177,8 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SecureDirectoryStream#newDirectoryStream(Object, LinkOption...) public abstract
-     * java.nio.file.SecureDirectoryStream
+     * {@link java.nio.file.SecureDirectoryStream#newDirectoryStream(Object, java.nio.file.LinkOption...) public
+     * abstract java.nio.file.SecureDirectoryStream
      * <T> java.nio.file.SecureDirectoryStream.newDirectoryStream(T,java.nio.file.LinkOption...) throws
      * java.io.IOException}.
      *

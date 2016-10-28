@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Component;
 import java.awt.PopupMenu;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.awt.MenuTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PopupMenu#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.PopupMenu#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.PopupMenu.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,8 @@ extends org.j8unit.repository.java.awt.MenuTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PopupMenu#show(Component, int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.PopupMenu#show(java.awt.Component, int, int) public void
      * java.awt.PopupMenu.show(java.awt.Component,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.awt.MenuTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PopupMenu#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.PopupMenu#addNotify() public void
      * java.awt.PopupMenu.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.awt.MenuTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PopupMenu#getParent() public java.awt.MenuContainer
-     * java.awt.PopupMenu.getParent()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PopupMenu#getParent() public
+     * java.awt.MenuContainer java.awt.PopupMenu.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

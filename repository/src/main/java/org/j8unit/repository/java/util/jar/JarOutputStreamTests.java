@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.jar;
 
 import java.util.jar.JarOutputStream;
-import java.util.zip.ZipEntry;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.util.zip.ZipOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarOutputStream#putNextEntry(ZipEntry) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.jar.JarOutputStream#putNextEntry(java.util.zip.ZipEntry) public void
      * java.util.jar.JarOutputStream.putNextEntry(java.util.zip.ZipEntry) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

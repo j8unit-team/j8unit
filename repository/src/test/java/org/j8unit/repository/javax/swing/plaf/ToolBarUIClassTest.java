@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.ToolBarUIClassTests<ToolBarUI>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ToolBarUI#ToolBarUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.ToolBarUI#ToolBarUI() public
      * javax.swing.plaf.ToolBarUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.naming.event;
 
-import javax.naming.Name;
-import javax.naming.directory.SearchControls;
 import javax.naming.event.EventDirContext;
-import javax.naming.event.NamingListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +35,8 @@ extends org.j8unit.repository.javax.naming.event.EventContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EventDirContext#addNamingListener(Name, String, SearchControls, NamingListener) public abstract void
+     * {@link javax.naming.event.EventDirContext#addNamingListener(javax.naming.Name, String, javax.naming.directory.SearchControls, javax.naming.event.NamingListener)
+     * public abstract void
      * javax.naming.event.EventDirContext.addNamingListener(javax.naming.Name,java.lang.String,javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
      * throws javax.naming.NamingException}.
      *
@@ -62,7 +60,8 @@ extends org.j8unit.repository.javax.naming.event.EventContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EventDirContext#addNamingListener(String, String, SearchControls, NamingListener) public abstract void
+     * {@link javax.naming.event.EventDirContext#addNamingListener(String, String, javax.naming.directory.SearchControls, javax.naming.event.NamingListener)
+     * public abstract void
      * javax.naming.event.EventDirContext.addNamingListener(java.lang.String,java.lang.String,javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
      * throws javax.naming.NamingException}.
      *
@@ -86,8 +85,8 @@ extends org.j8unit.repository.javax.naming.event.EventContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EventDirContext#addNamingListener(Name, String, Object[], SearchControls, NamingListener) public abstract
-     * void
+     * {@link javax.naming.event.EventDirContext#addNamingListener(javax.naming.Name, String, Object[], javax.naming.directory.SearchControls, javax.naming.event.NamingListener)
+     * public abstract void
      * javax.naming.event.EventDirContext.addNamingListener(javax.naming.Name,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
      * throws javax.naming.NamingException}.
      *
@@ -111,8 +110,8 @@ extends org.j8unit.repository.javax.naming.event.EventContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EventDirContext#addNamingListener(String, String, Object[], SearchControls, NamingListener) public
-     * abstract void
+     * {@link javax.naming.event.EventDirContext#addNamingListener(String, String, Object[], javax.naming.directory.SearchControls, javax.naming.event.NamingListener)
+     * public abstract void
      * javax.naming.event.EventDirContext.addNamingListener(java.lang.String,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
      * throws javax.naming.NamingException}.
      *

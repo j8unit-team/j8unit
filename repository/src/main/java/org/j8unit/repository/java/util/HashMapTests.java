@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.HashMap;
-import java.util.Map;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +35,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#replace(Object, Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#replace(Object, Object) public V
      * java.util.HashMap.replace(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +58,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#replace(Object, Object, Object) public
-     * boolean java.util.HashMap.replace(K,V,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#replace(Object, Object, Object)
+     * public boolean java.util.HashMap.replace(K,V,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +81,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#isEmpty() public boolean
      * java.util.HashMap.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,7 +104,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#clear() public void
      * java.util.HashMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +127,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#containsValue(Object) public boolean
-     * java.util.HashMap.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#containsValue(Object) public
+     * boolean java.util.HashMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,7 +150,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#put(Object, Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#put(Object, Object) public V
      * java.util.HashMap.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +173,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#remove(Object, Object) public boolean
-     * java.util.HashMap.remove(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#remove(Object, Object) public
+     * boolean java.util.HashMap.remove(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,7 +196,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#remove(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#remove(Object) public V
      * java.util.HashMap.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -223,7 +219,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#replaceAll(BiFunction) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.HashMap#replaceAll(java.util.function.BiFunction) public void
      * java.util.HashMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -246,8 +243,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#getOrDefault(Object, Object) public V
-     * java.util.HashMap.getOrDefault(java.lang.Object,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#getOrDefault(Object, Object)
+     * public V java.util.HashMap.getOrDefault(java.lang.Object,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,7 +266,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#forEach(BiConsumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.HashMap#forEach(java.util.function.BiConsumer) public void
      * java.util.HashMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -292,7 +290,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#containsKey(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#containsKey(Object) public boolean
      * java.util.HashMap.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -315,7 +313,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#computeIfAbsent(Object, Function) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.HashMap#computeIfAbsent(Object, java.util.function.Function) public V
      * java.util.HashMap.computeIfAbsent(K,java.util.function.Function<? super K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -338,8 +337,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#values() public java.util.Collection
-     * <V> java.util.HashMap.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#values() public
+     * java.util.Collection<V> java.util.HashMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -361,7 +360,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#entrySet() public
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.HashMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -384,7 +383,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#clone() public java.lang.Object
      * java.util.HashMap.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -406,7 +405,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#keySet() public java.util.Set
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#keySet() public java.util.Set
      * <K> java.util.HashMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -429,8 +428,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#putIfAbsent(Object, Object) public V
-     * java.util.HashMap.putIfAbsent(K,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#putIfAbsent(Object, Object) public
+     * V java.util.HashMap.putIfAbsent(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -452,8 +451,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#computeIfPresent(Object, BiFunction) public
-     * V java.util.HashMap.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.HashMap#computeIfPresent(Object, java.util.function.BiFunction) public V
+     * java.util.HashMap.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -475,7 +475,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#compute(Object, BiFunction) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.HashMap#compute(Object, java.util.function.BiFunction) public V
      * java.util.HashMap.compute(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -498,7 +499,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#merge(Object, Object, BiFunction) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.HashMap#merge(Object, Object, java.util.function.BiFunction) public V
      * java.util.HashMap.merge(K,V,java.util.function.BiFunction<? super V, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -521,7 +523,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#putAll(Map) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#putAll(java.util.Map) public void
      * java.util.HashMap.putAll(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -544,7 +546,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#get(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#get(Object) public V
      * java.util.HashMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -567,7 +569,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashMap#size() public int java.util.HashMap.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashMap#size() public int
+     * java.util.HashMap.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

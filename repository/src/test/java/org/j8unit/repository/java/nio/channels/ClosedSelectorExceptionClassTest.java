@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.nio.channels.ClosedSelectorExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ClosedSelectorException#ClosedSelectorException() public java.nio.channels.ClosedSelectorException()}.
+     * {@link java.nio.channels.ClosedSelectorException#ClosedSelectorException() public
+     * java.nio.channels.ClosedSelectorException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

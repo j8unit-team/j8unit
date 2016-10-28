@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pageable#getPageFormat(int) public abstract
-     * java.awt.print.PageFormat java.awt.print.Pageable.getPageFormat(int) throws java.lang.IndexOutOfBoundsException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Pageable#getPageFormat(int) public
+     * abstract java.awt.print.PageFormat java.awt.print.Pageable.getPageFormat(int) throws
+     * java.lang.IndexOutOfBoundsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pageable#getPrintable(int) public abstract
-     * java.awt.print.Printable java.awt.print.Pageable.getPrintable(int) throws java.lang.IndexOutOfBoundsException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Pageable#getPrintable(int) public
+     * abstract java.awt.print.Printable java.awt.print.Pageable.getPrintable(int) throws
+     * java.lang.IndexOutOfBoundsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pageable#getNumberOfPages() public abstract int
-     * java.awt.print.Pageable.getNumberOfPages()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Pageable#getNumberOfPages() public
+     * abstract int java.awt.print.Pageable.getNumberOfPages()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

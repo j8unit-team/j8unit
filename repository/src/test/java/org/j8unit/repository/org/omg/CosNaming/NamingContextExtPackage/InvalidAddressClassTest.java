@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidAddress#InvalidAddress() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddress#InvalidAddress() public
      * org.omg.CosNaming.NamingContextExtPackage.InvalidAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidAddress#InvalidAddress(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddress#InvalidAddress(String) public
      * org.omg.CosNaming.NamingContextExtPackage.InvalidAddress(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

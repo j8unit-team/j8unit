@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.concurrent.FutureTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Response#getContext() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Response#getContext() public abstract
      * java.util.Map<java.lang.String, java.lang.Object> javax.xml.ws.Response.getContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

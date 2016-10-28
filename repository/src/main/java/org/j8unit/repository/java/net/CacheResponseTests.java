@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CacheResponse#getBody() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.net.CacheResponse#getBody() public abstract
      * java.io.InputStream java.net.CacheResponse.getBody() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CacheResponse#getHeaders() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.net.CacheResponse#getHeaders() public abstract
      * java.util.Map<java.lang.String, java.util.List<java.lang.String>> java.net.CacheResponse.getHeaders() throws
      * java.io.IOException}.
      *

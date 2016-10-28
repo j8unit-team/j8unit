@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.naming.event;
 
 import javax.naming.event.NamespaceChangeListener;
-import javax.naming.event.NamingEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.naming.event.NamingListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceChangeListener#objectRemoved(NamingEvent)
-     * public abstract void javax.naming.event.NamespaceChangeListener.objectRemoved(javax.naming.event.NamingEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.event.NamespaceChangeListener#objectRemoved(javax.naming.event.NamingEvent) public abstract
+     * void javax.naming.event.NamespaceChangeListener.objectRemoved(javax.naming.event.NamingEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.naming.event.NamingListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceChangeListener#objectAdded(NamingEvent)
-     * public abstract void javax.naming.event.NamespaceChangeListener.objectAdded(javax.naming.event.NamingEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.event.NamespaceChangeListener#objectAdded(javax.naming.event.NamingEvent) public abstract
+     * void javax.naming.event.NamespaceChangeListener.objectAdded(javax.naming.event.NamingEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.javax.naming.event.NamingListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceChangeListener#objectRenamed(NamingEvent)
-     * public abstract void javax.naming.event.NamespaceChangeListener.objectRenamed(javax.naming.event.NamingEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.event.NamespaceChangeListener#objectRenamed(javax.naming.event.NamingEvent) public abstract
+     * void javax.naming.event.NamespaceChangeListener.objectRenamed(javax.naming.event.NamingEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import static org.junit.Assert.fail;
-import java.awt.Component;
-import java.util.Locale;
 import javax.swing.JComponent;
 import javax.swing.JComponent.AccessibleJComponent;
 import org.j8unit.repository.categories.Draft;
@@ -25,7 +23,7 @@ implements org.j8unit.repository.javax.swing.JComponentClassTests<JComponent> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JComponent#JComponent() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JComponent#JComponent() public
      * javax.swing.JComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +43,9 @@ implements org.j8unit.repository.javax.swing.JComponentClassTests<JComponent> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComponent#isLightweightComponent(Component) public
-     * static boolean javax.swing.JComponent.isLightweightComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComponent#isLightweightComponent(java.awt.Component) public static boolean
+     * javax.swing.JComponent.isLightweightComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,13 +59,14 @@ implements org.j8unit.repository.javax.swing.JComponentClassTests<JComponent> {
     @Category(Draft.class)
     public void test_isLightweightComponent_Component()
     throws Exception {
-        // write some test for {@link JComponent#isLightweightComponent(Component)}
+        // write some test for {@link javax.swing.JComponent#isLightweightComponent(java.awt.Component)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComponent#setDefaultLocale(Locale) public static
-     * void javax.swing.JComponent.setDefaultLocale(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComponent#setDefaultLocale(java.util.Locale) public static void
+     * javax.swing.JComponent.setDefaultLocale(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +80,13 @@ implements org.j8unit.repository.javax.swing.JComponentClassTests<JComponent> {
     @Category(Draft.class)
     public void test_setDefaultLocale_Locale()
     throws Exception {
-        // write some test for {@link JComponent#setDefaultLocale(Locale)}
+        // write some test for {@link javax.swing.JComponent#setDefaultLocale(java.util.Locale)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComponent#getDefaultLocale() public static
-     * java.util.Locale javax.swing.JComponent.getDefaultLocale()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getDefaultLocale() public
+     * static java.util.Locale javax.swing.JComponent.getDefaultLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ implements org.j8unit.repository.javax.swing.JComponentClassTests<JComponent> {
     @Category(Draft.class)
     public void test_getDefaultLocale()
     throws Exception {
-        // write some test for {@link JComponent#getDefaultLocale()}
+        // write some test for {@link javax.swing.JComponent#getDefaultLocale()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComponent]

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.beans.beancontext;
 
 import java.beans.beancontext.BeanContextServiceRevokedEvent;
-import java.beans.beancontext.BeanContextServices;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevoke
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BeanContextServiceRevokedEvent#BeanContextServiceRevokedEvent(BeanContextServices, Class, boolean) public
+     * {@link java.beans.beancontext.BeanContextServiceRevokedEvent#BeanContextServiceRevokedEvent(java.beans.beancontext.BeanContextServices, Class, boolean)
+     * public
      * java.beans.beancontext.BeanContextServiceRevokedEvent(java.beans.beancontext.BeanContextServices,java.lang.Class,boolean)}
      * .
      *
@@ -41,7 +41,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevoke
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BeanContextServiceRevokedEvent sut = null; // = new BeanContextServiceRevokedEvent(BeanContextServices,
+        final BeanContextServiceRevokedEvent sut = null; // = new
+                                                         // BeanContextServiceRevokedEvent(java.beans.beancontext.BeanContextServices,
                                                          // Class, boolean);
     }
 

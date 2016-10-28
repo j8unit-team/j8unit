@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.AbstractQueue;
-import java.util.Collection;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +35,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#drainTo(Collection) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#drainTo(java.util.Collection) public int
      * java.util.concurrent.LinkedBlockingQueue.drainTo(java.util.Collection<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +59,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#drainTo(Collection, int) public
-     * int java.util.concurrent.LinkedBlockingQueue.drainTo(java.util.Collection<? super E>,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#drainTo(java.util.Collection, int) public int
+     * java.util.concurrent.LinkedBlockingQueue.drainTo(java.util.Collection<? super E>,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +83,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#peek() public E
-     * java.util.concurrent.LinkedBlockingQueue.peek()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedBlockingQueue#peek()
+     * public E java.util.concurrent.LinkedBlockingQueue.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +106,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#put(Object) public void
-     * java.util.concurrent.LinkedBlockingQueue.put(E) throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedBlockingQueue#put(Object)
+     * public void java.util.concurrent.LinkedBlockingQueue.put(E) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,7 +129,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#remove(Object) public boolean
      * java.util.concurrent.LinkedBlockingQueue.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +153,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#clear() public void
-     * java.util.concurrent.LinkedBlockingQueue.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedBlockingQueue#clear()
+     * public void java.util.concurrent.LinkedBlockingQueue.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,7 +176,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#poll(long, TimeUnit) public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#poll(long, java.util.concurrent.TimeUnit) public E
      * java.util.concurrent.LinkedBlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
@@ -201,8 +201,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#poll() public E
-     * java.util.concurrent.LinkedBlockingQueue.poll()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedBlockingQueue#poll()
+     * public E java.util.concurrent.LinkedBlockingQueue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,8 +224,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#spliterator() public
-     * java.util.Spliterator<E> java.util.concurrent.LinkedBlockingQueue.spliterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#spliterator() public java.util.Spliterator
+     * <E> java.util.concurrent.LinkedBlockingQueue.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,7 +248,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#remainingCapacity() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#remainingCapacity() public int
      * java.util.concurrent.LinkedBlockingQueue.remainingCapacity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -270,8 +272,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#toArray() public
-     * java.lang.Object[] java.util.concurrent.LinkedBlockingQueue.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedBlockingQueue#toArray()
+     * public java.lang.Object[] java.util.concurrent.LinkedBlockingQueue.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,7 +295,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#toArray(Object[]) public <T> T[]
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#toArray(Object[]) public <T> T[]
      * java.util.concurrent.LinkedBlockingQueue.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -316,8 +319,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#toString() public
-     * java.lang.String java.util.concurrent.LinkedBlockingQueue.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedBlockingQueue#toString()
+     * public java.lang.String java.util.concurrent.LinkedBlockingQueue.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -339,8 +342,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#size() public int
-     * java.util.concurrent.LinkedBlockingQueue.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedBlockingQueue#size()
+     * public int java.util.concurrent.LinkedBlockingQueue.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -362,8 +365,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#take() public E
-     * java.util.concurrent.LinkedBlockingQueue.take() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedBlockingQueue#take()
+     * public E java.util.concurrent.LinkedBlockingQueue.take() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -385,7 +388,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#offer(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#offer(Object) public boolean
      * java.util.concurrent.LinkedBlockingQueue.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -408,8 +412,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#offer(Object, long, TimeUnit)
-     * public boolean java.util.concurrent.LinkedBlockingQueue.offer(E,long,java.util.concurrent.TimeUnit) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public boolean
+     * java.util.concurrent.LinkedBlockingQueue.offer(E,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -432,8 +437,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#iterator() public
-     * java.util.Iterator<E> java.util.concurrent.LinkedBlockingQueue.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedBlockingQueue#iterator()
+     * public java.util.Iterator<E> java.util.concurrent.LinkedBlockingQueue.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -455,7 +460,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedBlockingQueue#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#contains(Object) public boolean
      * java.util.concurrent.LinkedBlockingQueue.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -482,8 +488,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link AbstractQueue#add(Object) class java.util.AbstractQueue}</li>
-     * <li>{@link BlockingQueue#add(Object) interface java.util.concurrent.BlockingQueue}</li>
+     * <li>{@link java.util.AbstractQueue#add(Object) class java.util.AbstractQueue}</li>
+     * <li>{@link java.util.concurrent.BlockingQueue#add(Object) interface java.util.concurrent.BlockingQueue}</li>
      * </ul>
      *
      * <p>

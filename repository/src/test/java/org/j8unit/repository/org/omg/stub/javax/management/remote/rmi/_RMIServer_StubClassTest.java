@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMISe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link _RMIServer_Stub#_RMIServer_Stub() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServer_Stub#_RMIServer_Stub() public
      * org.omg.stub.javax.management.remote.rmi._RMIServer_Stub()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

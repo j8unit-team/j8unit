@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.TextUIClassTests<TextUI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TextUI#TextUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.TextUI#TextUI() public
      * javax.swing.plaf.TextUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

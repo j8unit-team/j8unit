@@ -1,12 +1,6 @@
 package org.j8unit.repository.javax.annotation.processing;
 
-import java.util.Set;
 import javax.annotation.processing.AbstractProcessor;
-import javax.annotation.processing.ProcessingEnvironment;
-import javax.annotation.processing.RoundEnvironment;
-import javax.lang.model.element.AnnotationMirror;
-import javax.lang.model.element.Element;
-import javax.lang.model.element.ExecutableElement;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,8 +35,8 @@ extends org.j8unit.repository.javax.annotation.processing.ProcessorTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractProcessor#getCompletions(Element, AnnotationMirror, ExecutableElement, String) public
-     * java.lang.Iterable<? extends javax.annotation.processing.Completion>
+     * {@link javax.annotation.processing.AbstractProcessor#getCompletions(javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror, javax.lang.model.element.ExecutableElement, String)
+     * public java.lang.Iterable<? extends javax.annotation.processing.Completion>
      * javax.annotation.processing.AbstractProcessor.getCompletions(javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.ExecutableElement,java.lang.String)}
      * .
      *
@@ -66,8 +60,8 @@ extends org.j8unit.repository.javax.annotation.processing.ProcessorTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractProcessor#getSupportedAnnotationTypes()
-     * public java.util.Set
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.AbstractProcessor#getSupportedAnnotationTypes() public java.util.Set
      * <java.lang.String> javax.annotation.processing.AbstractProcessor.getSupportedAnnotationTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,8 +84,9 @@ extends org.j8unit.repository.javax.annotation.processing.ProcessorTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractProcessor#init(ProcessingEnvironment) public
-     * synchronized void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.AbstractProcessor#init(javax.annotation.processing.ProcessingEnvironment)
+     * public synchronized void
      * javax.annotation.processing.AbstractProcessor.init(javax.annotation.processing.ProcessingEnvironment)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -114,7 +109,8 @@ extends org.j8unit.repository.javax.annotation.processing.ProcessorTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractProcessor#process(Set, RoundEnvironment)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.AbstractProcessor#process(java.util.Set, javax.annotation.processing.RoundEnvironment)
      * public abstract boolean javax.annotation.processing.AbstractProcessor.process(java.util.Set<? extends
      * javax.lang.model.element.TypeElement>,javax.annotation.processing.RoundEnvironment)}.
      *
@@ -138,8 +134,9 @@ extends org.j8unit.repository.javax.annotation.processing.ProcessorTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractProcessor#getSupportedOptions() public
-     * java.util.Set<java.lang.String> javax.annotation.processing.AbstractProcessor.getSupportedOptions()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.AbstractProcessor#getSupportedOptions() public java.util.Set
+     * <java.lang.String> javax.annotation.processing.AbstractProcessor.getSupportedOptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -161,7 +158,8 @@ extends org.j8unit.repository.javax.annotation.processing.ProcessorTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractProcessor#getSupportedSourceVersion() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.AbstractProcessor#getSupportedSourceVersion() public
      * javax.lang.model.SourceVersion javax.annotation.processing.AbstractProcessor.getSupportedSourceVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

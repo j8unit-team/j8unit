@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.text.MaskFormatterClassTests<MaskFo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MaskFormatter#MaskFormatter() public
-     * javax.swing.text.MaskFormatter()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.MaskFormatter#MaskFormatter()
+     * public javax.swing.text.MaskFormatter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.javax.swing.text.MaskFormatterClassTests<MaskFo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MaskFormatter#MaskFormatter(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.MaskFormatter#MaskFormatter(String) public
      * javax.swing.text.MaskFormatter(java.lang.String) throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

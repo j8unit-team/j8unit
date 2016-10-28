@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslException#getCause() public java.lang.Throwable
-     * javax.security.sasl.SaslException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.sasl.SaslException#getCause() public
+     * java.lang.Throwable javax.security.sasl.SaslException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslException#initCause(Throwable) public
-     * java.lang.Throwable javax.security.sasl.SaslException.initCause(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.SaslException#initCause(Throwable) public java.lang.Throwable
+     * javax.security.sasl.SaslException.initCause(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslException#toString() public java.lang.String
-     * javax.security.sasl.SaslException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.sasl.SaslException#toString() public
+     * java.lang.String javax.security.sasl.SaslException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

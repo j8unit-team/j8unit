@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
-import javax.swing.event.DocumentEvent;
 import javax.swing.text.PlainView;
-import javax.swing.text.Position.Bias;
-import javax.swing.text.ViewFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlainView#nextTabStop(float, int) public float
-     * javax.swing.text.PlainView.nextTabStop(float,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.PlainView#nextTabStop(float, int)
+     * public float javax.swing.text.PlainView.nextTabStop(float,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +58,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PlainView#changedUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.PlainView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.PlainView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -87,7 +83,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlainView#modelToView(int, Shape, Bias) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.PlainView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.PlainView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias) throws
      * javax.swing.text.BadLocationException}.
      *
@@ -111,8 +108,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlainView#getPreferredSpan(int) public float
-     * javax.swing.text.PlainView.getPreferredSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.PlainView#getPreferredSpan(int)
+     * public float javax.swing.text.PlainView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,7 +132,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PlainView#insertUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.PlainView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.PlainView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -159,7 +157,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlainView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.PlainView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.PlainView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -183,7 +182,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PlainView#removeUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.PlainView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.PlainView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -207,7 +207,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlainView#viewToModel(float, float, Shape, Bias[])
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.PlainView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
      * public int javax.swing.text.PlainView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -230,8 +231,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlainView#setSize(float, float) public void
-     * javax.swing.text.PlainView.setSize(float,float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.PlainView#setSize(float, float)
+     * public void javax.swing.text.PlainView.setSize(float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

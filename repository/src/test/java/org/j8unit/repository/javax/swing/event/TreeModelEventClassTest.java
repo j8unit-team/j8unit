@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.event;
 
 import javax.swing.event.TreeModelEvent;
-import javax.swing.tree.TreePath;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.swing.event.TreeModelEventClassTests<Tree
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeModelEvent#TreeModelEvent(Object, TreePath)
-     * public javax.swing.event.TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.event.TreeModelEvent#TreeModelEvent(Object, javax.swing.tree.TreePath) public
+     * javax.swing.event.TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +39,14 @@ implements org.j8unit.repository.javax.swing.event.TreeModelEventClassTests<Tree
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeModelEvent sut = null; // = new TreeModelEvent(Object, TreePath);
+        final TreeModelEvent sut = null; // = new TreeModelEvent(Object, javax.swing.tree.TreePath);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeModelEvent#TreeModelEvent(Object, Object[])
-     * public javax.swing.event.TreeModelEvent(java.lang.Object,java.lang.Object[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.event.TreeModelEvent#TreeModelEvent(Object, Object[]) public
+     * javax.swing.event.TreeModelEvent(java.lang.Object,java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,7 +68,7 @@ implements org.j8unit.repository.javax.swing.event.TreeModelEventClassTests<Tree
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TreeModelEvent#TreeModelEvent(Object, TreePath, int[], Object[]) public
+     * {@link javax.swing.event.TreeModelEvent#TreeModelEvent(Object, javax.swing.tree.TreePath, int[], Object[]) public
      * javax.swing.event.TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath,int[],java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,13 +85,13 @@ implements org.j8unit.repository.javax.swing.event.TreeModelEventClassTests<Tree
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeModelEvent sut = null; // = new TreeModelEvent(Object, TreePath, int[], Object[]);
+        final TreeModelEvent sut = null; // = new TreeModelEvent(Object, javax.swing.tree.TreePath, int[], Object[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TreeModelEvent#TreeModelEvent(Object, Object[], int[], Object[]) public
+     * {@link javax.swing.event.TreeModelEvent#TreeModelEvent(Object, Object[], int[], Object[]) public
      * javax.swing.event.TreeModelEvent(java.lang.Object,java.lang.Object[],int[],java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

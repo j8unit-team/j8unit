@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.transform.sax;
 
-import javax.xml.transform.Result;
 import javax.xml.transform.sax.TransformerHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerHandler#setResult(Result) public abstract
-     * void javax.xml.transform.sax.TransformerHandler.setResult(javax.xml.transform.Result) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.TransformerHandler#setResult(javax.xml.transform.Result) public abstract void
+     * javax.xml.transform.sax.TransformerHandler.setResult(javax.xml.transform.Result) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +59,8 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerHandler#getTransformer() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.TransformerHandler#getTransformer() public abstract
      * javax.xml.transform.Transformer javax.xml.transform.sax.TransformerHandler.getTransformer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +82,9 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerHandler#setSystemId(String) public
-     * abstract void javax.xml.transform.sax.TransformerHandler.setSystemId(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.TransformerHandler#setSystemId(String) public abstract void
+     * javax.xml.transform.sax.TransformerHandler.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +105,9 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerHandler#getSystemId() public abstract
-     * java.lang.String javax.xml.transform.sax.TransformerHandler.getSystemId()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.TransformerHandler#getSystemId() public abstract java.lang.String
+     * javax.xml.transform.sax.TransformerHandler.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.sql.Clob;
 import javax.sql.rowset.serial.SerialClob;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialClobClassTests<Se
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialClob#SerialClob(char[]) public
-     * javax.sql.rowset.serial.SerialClob(char[]) throws javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialClob#SerialClob(char[]) public javax.sql.rowset.serial.SerialClob(char[])
+     * throws javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialClobClassTests<Se
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialClob#SerialClob(Clob) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialClob#SerialClob(java.sql.Clob) public
      * javax.sql.rowset.serial.SerialClob(java.sql.Clob) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
@@ -62,7 +63,7 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialClobClassTests<Se
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SerialClob sut = null; // = new SerialClob(Clob);
+        final SerialClob sut = null; // = new SerialClob(java.sql.Clob);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialClob]

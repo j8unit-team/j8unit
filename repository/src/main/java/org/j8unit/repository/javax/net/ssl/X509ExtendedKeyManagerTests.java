@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.security.Principal;
-import javax.net.ssl.SSLEngine;
 import javax.net.ssl.X509ExtendedKeyManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.javax.net.ssl.X509KeyManagerTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509ExtendedKeyManager#chooseEngineServerAlias(String, Principal[], SSLEngine) public java.lang.String
+     * {@link javax.net.ssl.X509ExtendedKeyManager#chooseEngineServerAlias(String, java.security.Principal[], javax.net.ssl.SSLEngine)
+     * public java.lang.String
      * javax.net.ssl.X509ExtendedKeyManager.chooseEngineServerAlias(java.lang.String,java.security.Principal[],javax.net.ssl.SSLEngine)}
      * .
      *
@@ -61,7 +60,8 @@ extends org.j8unit.repository.javax.net.ssl.X509KeyManagerTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509ExtendedKeyManager#chooseEngineClientAlias(String[], Principal[], SSLEngine) public java.lang.String
+     * {@link javax.net.ssl.X509ExtendedKeyManager#chooseEngineClientAlias(String[], java.security.Principal[], javax.net.ssl.SSLEngine)
+     * public java.lang.String
      * javax.net.ssl.X509ExtendedKeyManager.chooseEngineClientAlias(java.lang.String[],java.security.Principal[],javax.net.ssl.SSLEngine)}
      * .
      *

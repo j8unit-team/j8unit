@@ -35,9 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServerSocketFactory#createServerSocket(int)
-     * public abstract java.net.ServerSocket java.rmi.server.RMIServerSocketFactory.createServerSocket(int) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RMIServerSocketFactory#createServerSocket(int) public abstract java.net.ServerSocket
+     * java.rmi.server.RMIServerSocketFactory.createServerSocket(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

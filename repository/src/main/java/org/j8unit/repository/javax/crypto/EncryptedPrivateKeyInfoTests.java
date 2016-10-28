@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.security.Key;
-import java.security.Provider;
-import javax.crypto.Cipher;
 import javax.crypto.EncryptedPrivateKeyInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EncryptedPrivateKeyInfo#getEncoded() public byte[]
-     * javax.crypto.EncryptedPrivateKeyInfo.getEncoded() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.EncryptedPrivateKeyInfo#getEncoded()
+     * public byte[] javax.crypto.EncryptedPrivateKeyInfo.getEncoded() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EncryptedPrivateKeyInfo#getKeySpec(Key, Provider)
-     * public java.security.spec.PKCS8EncodedKeySpec
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#getKeySpec(java.security.Key, java.security.Provider) public
+     * java.security.spec.PKCS8EncodedKeySpec
      * javax.crypto.EncryptedPrivateKeyInfo.getKeySpec(java.security.Key,java.security.Provider) throws
      * java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}.
      *
@@ -83,8 +81,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EncryptedPrivateKeyInfo#getKeySpec(Key, String)
-     * public java.security.spec.PKCS8EncodedKeySpec
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#getKeySpec(java.security.Key, String) public
+     * java.security.spec.PKCS8EncodedKeySpec
      * javax.crypto.EncryptedPrivateKeyInfo.getKeySpec(java.security.Key,java.lang.String) throws
      * java.security.NoSuchProviderException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}.
      *
@@ -107,7 +106,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EncryptedPrivateKeyInfo#getKeySpec(Key) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#getKeySpec(java.security.Key) public
      * java.security.spec.PKCS8EncodedKeySpec javax.crypto.EncryptedPrivateKeyInfo.getKeySpec(java.security.Key) throws
      * java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}.
      *
@@ -130,7 +130,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EncryptedPrivateKeyInfo#getKeySpec(Cipher) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#getKeySpec(javax.crypto.Cipher) public
      * java.security.spec.PKCS8EncodedKeySpec javax.crypto.EncryptedPrivateKeyInfo.getKeySpec(javax.crypto.Cipher)
      * throws java.security.spec.InvalidKeySpecException}.
      *
@@ -153,8 +154,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EncryptedPrivateKeyInfo#getAlgParameters() public
-     * java.security.AlgorithmParameters javax.crypto.EncryptedPrivateKeyInfo.getAlgParameters()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#getAlgParameters() public java.security.AlgorithmParameters
+     * javax.crypto.EncryptedPrivateKeyInfo.getAlgParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,8 +177,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EncryptedPrivateKeyInfo#getAlgName() public
-     * java.lang.String javax.crypto.EncryptedPrivateKeyInfo.getAlgName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.EncryptedPrivateKeyInfo#getAlgName()
+     * public java.lang.String javax.crypto.EncryptedPrivateKeyInfo.getAlgName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,8 +199,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EncryptedPrivateKeyInfo#getEncryptedData() public
-     * byte[] javax.crypto.EncryptedPrivateKeyInfo.getEncryptedData()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#getEncryptedData() public byte[]
+     * javax.crypto.EncryptedPrivateKeyInfo.getEncryptedData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.text;
 
-import java.text.AttributedCharacterIterator;
 import java.text.Bidi;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.text.BidiClassTests<Bidi> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Bidi#Bidi(char[], int, byte[], int, int, int)
-     * public java.text.Bidi(char[],int,byte[],int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.Bidi#Bidi(char[], int, byte[], int, int, int) public
+     * java.text.Bidi(char[],int,byte[],int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,8 @@ implements org.j8unit.repository.java.text.BidiClassTests<Bidi> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Bidi#Bidi(AttributedCharacterIterator) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.Bidi#Bidi(java.text.AttributedCharacterIterator) public
      * java.text.Bidi(java.text.AttributedCharacterIterator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,12 +62,12 @@ implements org.j8unit.repository.java.text.BidiClassTests<Bidi> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Bidi sut = null; // = new Bidi(AttributedCharacterIterator);
+        final Bidi sut = null; // = new Bidi(java.text.AttributedCharacterIterator);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Bidi#Bidi(String, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.text.Bidi#Bidi(String, int) public
      * java.text.Bidi(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +90,7 @@ implements org.j8unit.repository.java.text.BidiClassTests<Bidi> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Bidi#reorderVisually(byte[], int, Object[], int, int) public static void
+     * {@link java.text.Bidi#reorderVisually(byte[], int, Object[], int, int) public static void
      * java.text.Bidi.reorderVisually(byte[],int,java.lang.Object[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,13 +105,13 @@ implements org.j8unit.repository.java.text.BidiClassTests<Bidi> {
     @Category(Draft.class)
     public void test_reorderVisually_byteArray_int_ObjectArray_int_int()
     throws Exception {
-        // write some test for {@link Bidi#reorderVisually(byte[], int, Object[], int, int)}
+        // write some test for {@link java.text.Bidi#reorderVisually(byte[], int, Object[], int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bidi#requiresBidi(char[], int, int) public static
-     * boolean java.text.Bidi.requiresBidi(char[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Bidi#requiresBidi(char[], int, int) public
+     * static boolean java.text.Bidi.requiresBidi(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +125,7 @@ implements org.j8unit.repository.java.text.BidiClassTests<Bidi> {
     @Category(Draft.class)
     public void test_requiresBidi_charArray_int_int()
     throws Exception {
-        // write some test for {@link Bidi#requiresBidi(char[], int, int)}
+        // write some test for {@link java.text.Bidi#requiresBidi(char[], int, int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Bidi]

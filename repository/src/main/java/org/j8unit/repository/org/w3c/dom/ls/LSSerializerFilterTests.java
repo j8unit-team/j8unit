@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.traversal.NodeFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSSerializerFilter#getWhatToShow() public abstract
-     * int org.w3c.dom.ls.LSSerializerFilter.getWhatToShow()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSSerializerFilter#getWhatToShow()
+     * public abstract int org.w3c.dom.ls.LSSerializerFilter.getWhatToShow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

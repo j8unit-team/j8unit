@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig.keyinfo;
 
-import java.security.Provider;
 import javax.xml.crypto.dsig.keyinfo.KeyInfoFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryCla
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#getInstance() public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance() public static
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,13 +37,14 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryCla
     @Category(Draft.class)
     public void test_getInstance()
     throws Exception {
-        // write some test for {@link KeyInfoFactory#getInstance()}
+        // write some test for {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#getInstance(String, String) public
-     * static javax.xml.crypto.dsig.keyinfo.KeyInfoFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String, String) public static
+     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getInstance(java.lang.String,java.lang.String) throws
      * java.security.NoSuchProviderException}.
      *
@@ -59,13 +60,14 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryCla
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link KeyInfoFactory#getInstance(String, String)}
+        // write some test for {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#getInstance(String, Provider) public
-     * static javax.xml.crypto.dsig.keyinfo.KeyInfoFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String, java.security.Provider) public static
+     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getInstance(java.lang.String,java.security.Provider)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,12 +82,14 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryCla
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link KeyInfoFactory#getInstance(String, Provider)}
+        // write some test for {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String,
+        // java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#getInstance(String) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String) public static
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getInstance(java.lang.String)}.
      *
@@ -101,7 +105,7 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryCla
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link KeyInfoFactory#getInstance(String)}
+        // write some test for {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.keyinfo.KeyInfoFactory]

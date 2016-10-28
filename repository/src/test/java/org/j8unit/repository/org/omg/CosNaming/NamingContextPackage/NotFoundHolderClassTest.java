@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NamingContextPackage.NotFound;
 import org.omg.CosNaming.NamingContextPackage.NotFoundHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,7 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NotFoundHolder#NotFoundHolder() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundHolder#NotFoundHolder() public
      * org.omg.CosNaming.NamingContextPackage.NotFoundHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +43,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NotFoundHolder#NotFoundHolder(NotFound) public
-     * org.omg.CosNaming.NamingContextPackage.NotFoundHolder(org.omg.CosNaming.NamingContextPackage.NotFound)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundHolder#NotFoundHolder(org.omg.CosNaming.NamingContextPackage.NotFound)
+     * public org.omg.CosNaming.NamingContextPackage.NotFoundHolder(org.omg.CosNaming.NamingContextPackage.NotFound)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +61,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NotFoundHolder sut = null; // = new NotFoundHolder(NotFound);
+        final NotFoundHolder sut = null; // = new NotFoundHolder(org.omg.CosNaming.NamingContextPackage.NotFound);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFoundHolder]

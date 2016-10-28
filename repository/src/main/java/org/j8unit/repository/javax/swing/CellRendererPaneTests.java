@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Graphics;
-import java.awt.Rectangle;
 import javax.swing.CellRendererPane;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +34,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CellRendererPane#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.CellRendererPane.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.CellRendererPane#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.CellRendererPane.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +57,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CellRendererPane#invalidate() public void
-     * javax.swing.CellRendererPane.invalidate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.CellRendererPane#invalidate() public
+     * void javax.swing.CellRendererPane.invalidate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +80,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CellRendererPane#paint(Graphics) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.CellRendererPane#paint(java.awt.Graphics) public void
      * javax.swing.CellRendererPane.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,7 +104,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CellRendererPane#update(Graphics) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.CellRendererPane#update(java.awt.Graphics) public void
      * javax.swing.CellRendererPane.update(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,7 +129,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CellRendererPane#paintComponent(Graphics, Component, Container, Rectangle) public void
+     * {@link javax.swing.CellRendererPane#paintComponent(java.awt.Graphics, java.awt.Component, java.awt.Container, java.awt.Rectangle)
+     * public void
      * javax.swing.CellRendererPane.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,java.awt.Rectangle)}
      * .
      *
@@ -155,7 +154,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CellRendererPane#paintComponent(Graphics, Component, Container, int, int, int, int) public void
+     * {@link javax.swing.CellRendererPane#paintComponent(java.awt.Graphics, java.awt.Component, java.awt.Container, int, int, int, int)
+     * public void
      * javax.swing.CellRendererPane.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int)}
      * .
      *
@@ -179,7 +179,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CellRendererPane#paintComponent(Graphics, Component, Container, int, int, int, int, boolean) public void
+     * {@link javax.swing.CellRendererPane#paintComponent(java.awt.Graphics, java.awt.Component, java.awt.Container, int, int, int, int, boolean)
+     * public void
      * javax.swing.CellRendererPane.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int,boolean)}
      * .
      *

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#isError() public boolean
-     * java.nio.charset.CoderResult.isError()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CoderResult#isError() public
+     * boolean java.nio.charset.CoderResult.isError()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#isMalformed() public boolean
-     * java.nio.charset.CoderResult.isMalformed()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CoderResult#isMalformed() public
+     * boolean java.nio.charset.CoderResult.isMalformed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#isUnmappable() public boolean
-     * java.nio.charset.CoderResult.isUnmappable()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CoderResult#isUnmappable() public
+     * boolean java.nio.charset.CoderResult.isUnmappable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#isOverflow() public boolean
-     * java.nio.charset.CoderResult.isOverflow()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CoderResult#isOverflow() public
+     * boolean java.nio.charset.CoderResult.isOverflow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#toString() public java.lang.String
-     * java.nio.charset.CoderResult.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CoderResult#toString() public
+     * java.lang.String java.nio.charset.CoderResult.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#isUnderflow() public boolean
-     * java.nio.charset.CoderResult.isUnderflow()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CoderResult#isUnderflow() public
+     * boolean java.nio.charset.CoderResult.isUnderflow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#length() public int
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CoderResult#length() public int
      * java.nio.charset.CoderResult.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +189,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#throwException() public void
-     * java.nio.charset.CoderResult.throwException() throws java.nio.charset.CharacterCodingException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CoderResult#throwException() public
+     * void java.nio.charset.CoderResult.throwException() throws java.nio.charset.CharacterCodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

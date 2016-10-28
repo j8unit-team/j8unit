@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.sound.sampled.spi;
 
-import java.io.File;
-import java.io.OutputStream;
-import javax.sound.sampled.AudioFileFormat.Type;
-import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.spi.AudioFileWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileWriter#getAudioFileTypes() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileWriter#getAudioFileTypes() public abstract
      * javax.sound.sampled.AudioFileFormat$Type[] javax.sound.sampled.spi.AudioFileWriter.getAudioFileTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileWriter#getAudioFileTypes(AudioInputStream)
-     * public abstract javax.sound.sampled.AudioFileFormat$Type[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileWriter#getAudioFileTypes(javax.sound.sampled.AudioInputStream) public
+     * abstract javax.sound.sampled.AudioFileFormat$Type[]
      * javax.sound.sampled.spi.AudioFileWriter.getAudioFileTypes(javax.sound.sampled.AudioInputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +82,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AudioFileWriter#isFileTypeSupported(Type, AudioInputStream) public boolean
+     * {@link javax.sound.sampled.spi.AudioFileWriter#isFileTypeSupported(javax.sound.sampled.AudioFileFormat.Type, javax.sound.sampled.AudioInputStream)
+     * public boolean
      * javax.sound.sampled.spi.AudioFileWriter.isFileTypeSupported(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioInputStream)}
      * .
      *
@@ -107,8 +106,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileWriter#isFileTypeSupported(Type) public
-     * boolean javax.sound.sampled.spi.AudioFileWriter.isFileTypeSupported(javax.sound.sampled.AudioFileFormat$Type)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileWriter#isFileTypeSupported(javax.sound.sampled.AudioFileFormat.Type)
+     * public boolean
+     * javax.sound.sampled.spi.AudioFileWriter.isFileTypeSupported(javax.sound.sampled.AudioFileFormat$Type)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,7 +130,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileWriter#write(AudioInputStream, Type, File)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileWriter#write(javax.sound.sampled.AudioInputStream, javax.sound.sampled.AudioFileFormat.Type, java.io.File)
      * public abstract int
      * javax.sound.sampled.spi.AudioFileWriter.write(javax.sound.sampled.AudioInputStream,javax.sound.sampled.AudioFileFormat$Type,java.io.File)
      * throws java.io.IOException}.
@@ -154,7 +156,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AudioFileWriter#write(AudioInputStream, Type, OutputStream) public abstract int
+     * {@link javax.sound.sampled.spi.AudioFileWriter#write(javax.sound.sampled.AudioInputStream, javax.sound.sampled.AudioFileFormat.Type, java.io.OutputStream)
+     * public abstract int
      * javax.sound.sampled.spi.AudioFileWriter.write(javax.sound.sampled.AudioInputStream,javax.sound.sampled.AudioFileFormat$Type,java.io.OutputStream)
      * throws java.io.IOException}.
      *

@@ -1,11 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Insets;
-import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,7 +34,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#setTitleJustification(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#setTitleJustification(int) public void
      * javax.swing.border.TitledBorder.setTitleJustification(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,8 +58,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TitledBorder#paintBorder(Component, Graphics, int, int, int, int) public void
-     * javax.swing.border.TitledBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * {@link javax.swing.border.TitledBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+     * public void javax.swing.border.TitledBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,8 +81,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getTitle() public java.lang.String
-     * javax.swing.border.TitledBorder.getTitle()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.TitledBorder#getTitle() public
+     * java.lang.String javax.swing.border.TitledBorder.getTitle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +103,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getBaseline(Component, int, int) public
-     * int javax.swing.border.TitledBorder.getBaseline(java.awt.Component,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#getBaseline(java.awt.Component, int, int) public int
+     * javax.swing.border.TitledBorder.getBaseline(java.awt.Component,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,8 +127,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getMinimumSize(Component) public
-     * java.awt.Dimension javax.swing.border.TitledBorder.getMinimumSize(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#getMinimumSize(java.awt.Component) public java.awt.Dimension
+     * javax.swing.border.TitledBorder.getMinimumSize(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +150,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getBaselineResizeBehavior(Component)
-     * public java.awt.Component$BaselineResizeBehavior
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#getBaselineResizeBehavior(java.awt.Component) public
+     * java.awt.Component$BaselineResizeBehavior
      * javax.swing.border.TitledBorder.getBaselineResizeBehavior(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,7 +175,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#setBorder(Border) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#setBorder(javax.swing.border.Border) public void
      * javax.swing.border.TitledBorder.setBorder(javax.swing.border.Border)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,29 +198,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#setTitle(String) public void
-     * javax.swing.border.TitledBorder.setTitle(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTitle_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#setTitleColor(Color) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#setTitleColor(java.awt.Color) public void
      * javax.swing.border.TitledBorder.setTitleColor(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -243,7 +221,30 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#setTitleFont(Font) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.TitledBorder#setTitle(String)
+     * public void javax.swing.border.TitledBorder.setTitle(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTitle_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#setTitleFont(java.awt.Font) public void
      * javax.swing.border.TitledBorder.setTitleFont(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -265,8 +266,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getTitleFont() public java.awt.Font
-     * javax.swing.border.TitledBorder.getTitleFont()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.TitledBorder#getTitleFont()
+     * public java.awt.Font javax.swing.border.TitledBorder.getTitleFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +288,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#isBorderOpaque() public boolean
-     * javax.swing.border.TitledBorder.isBorderOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.TitledBorder#isBorderOpaque()
+     * public boolean javax.swing.border.TitledBorder.isBorderOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,8 +311,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getTitlePosition() public int
-     * javax.swing.border.TitledBorder.getTitlePosition()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.TitledBorder#getTitlePosition()
+     * public int javax.swing.border.TitledBorder.getTitlePosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -332,7 +333,7 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getBorder() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.TitledBorder#getBorder() public
      * javax.swing.border.Border javax.swing.border.TitledBorder.getBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -354,8 +355,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getTitleColor() public java.awt.Color
-     * javax.swing.border.TitledBorder.getTitleColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.TitledBorder#getTitleColor()
+     * public java.awt.Color javax.swing.border.TitledBorder.getTitleColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -376,7 +377,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getTitleJustification() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#getTitleJustification() public int
      * javax.swing.border.TitledBorder.getTitleJustification()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -398,7 +400,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#setTitlePosition(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#setTitlePosition(int) public void
      * javax.swing.border.TitledBorder.setTitlePosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -420,8 +423,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TitledBorder#getBorderInsets(Component, Insets)
-     * public java.awt.Insets javax.swing.border.TitledBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.TitledBorder#getBorderInsets(java.awt.Component, java.awt.Insets) public
+     * java.awt.Insets javax.swing.border.TitledBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

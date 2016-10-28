@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.annotation.processing;
 
 import javax.annotation.processing.RoundEnvironment;
-import javax.lang.model.element.TypeElement;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundEnvironment#errorRaised() public abstract
-     * boolean javax.annotation.processing.RoundEnvironment.errorRaised()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.RoundEnvironment#errorRaised() public abstract boolean
+     * javax.annotation.processing.RoundEnvironment.errorRaised()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundEnvironment#getRootElements() public abstract
-     * java.util.Set<? extends javax.lang.model.element.Element>
-     * javax.annotation.processing.RoundEnvironment.getRootElements()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.RoundEnvironment#getRootElements() public abstract java.util.Set<? extends
+     * javax.lang.model.element.Element> javax.annotation.processing.RoundEnvironment.getRootElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RoundEnvironment#getElementsAnnotatedWith(TypeElement) public abstract java.util.Set<? extends
-     * javax.lang.model.element.Element>
+     * {@link javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(javax.lang.model.element.TypeElement)
+     * public abstract java.util.Set<? extends javax.lang.model.element.Element>
      * javax.annotation.processing.RoundEnvironment.getElementsAnnotatedWith(javax.lang.model.element.TypeElement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +105,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundEnvironment#getElementsAnnotatedWith(Class)
-     * public abstract java.util.Set<? extends javax.lang.model.element.Element>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.RoundEnvironment#getElementsAnnotatedWith(Class) public abstract
+     * java.util.Set<? extends javax.lang.model.element.Element>
      * javax.annotation.processing.RoundEnvironment.getElementsAnnotatedWith(java.lang.Class<? extends
      * java.lang.annotation.Annotation>)}.
      *
@@ -129,8 +130,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundEnvironment#processingOver() public abstract
-     * boolean javax.annotation.processing.RoundEnvironment.processingOver()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.RoundEnvironment#processingOver() public abstract boolean
+     * javax.annotation.processing.RoundEnvironment.processingOver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

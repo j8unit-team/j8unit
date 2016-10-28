@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management;
 
-import java.lang.reflect.Method;
-import javax.management.Descriptor;
 import javax.management.MBeanOperationInfo;
-import javax.management.MBeanParameterInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,7 @@ implements org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<M
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanOperationInfo#MBeanOperationInfo(String, String, MBeanParameterInfo[], String, int, Descriptor)
+     * {@link javax.management.MBeanOperationInfo#MBeanOperationInfo(String, String, javax.management.MBeanParameterInfo[], String, int, javax.management.Descriptor)
      * public
      * javax.management.MBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor)}
      * .
@@ -44,14 +41,16 @@ implements org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<M
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanOperationInfo sut = null; // = new MBeanOperationInfo(String, String, MBeanParameterInfo[], String,
-                                             // int, Descriptor);
+        final MBeanOperationInfo sut = null; // = new MBeanOperationInfo(String, String,
+                                             // javax.management.MBeanParameterInfo[], String, int,
+                                             // javax.management.Descriptor);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanOperationInfo#MBeanOperationInfo(String, String, MBeanParameterInfo[], String, int) public
+     * {@link javax.management.MBeanOperationInfo#MBeanOperationInfo(String, String, javax.management.MBeanParameterInfo[], String, int)
+     * public
      * javax.management.MBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int)}
      * .
      *
@@ -69,14 +68,14 @@ implements org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<M
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanOperationInfo sut = null; // = new MBeanOperationInfo(String, String, MBeanParameterInfo[], String,
-                                             // int);
+        final MBeanOperationInfo sut = null; // = new MBeanOperationInfo(String, String,
+                                             // javax.management.MBeanParameterInfo[], String, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanOperationInfo#MBeanOperationInfo(String, Method) public
+     * {@link javax.management.MBeanOperationInfo#MBeanOperationInfo(String, java.lang.reflect.Method) public
      * javax.management.MBeanOperationInfo(java.lang.String,java.lang.reflect.Method)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -93,7 +92,7 @@ implements org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<M
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanOperationInfo sut = null; // = new MBeanOperationInfo(String, Method);
+        final MBeanOperationInfo sut = null; // = new MBeanOperationInfo(String, java.lang.reflect.Method);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanOperationInfo]

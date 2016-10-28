@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.script;
 
-import java.io.Reader;
 import javax.script.Compilable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Compilable#compile(Reader) public abstract
-     * javax.script.CompiledScript javax.script.Compilable.compile(java.io.Reader) throws javax.script.ScriptException}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.Compilable#compile(java.io.Reader)
+     * public abstract javax.script.CompiledScript javax.script.Compilable.compile(java.io.Reader) throws
+     * javax.script.ScriptException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Compilable#compile(String) public abstract
-     * javax.script.CompiledScript javax.script.Compilable.compile(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.script.Compilable#compile(String) public
+     * abstract javax.script.CompiledScript javax.script.Compilable.compile(java.lang.String) throws
      * javax.script.ScriptException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIClientSocketFactoryClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SslRMIClientSocketFactory#SslRMIClientSocketFactory() public javax.rmi.ssl.SslRMIClientSocketFactory()}.
+     * {@link javax.rmi.ssl.SslRMIClientSocketFactory#SslRMIClientSocketFactory() public
+     * javax.rmi.ssl.SslRMIClientSocketFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

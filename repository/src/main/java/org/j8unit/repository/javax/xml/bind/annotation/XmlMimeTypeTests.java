@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlMimeType#value() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlMimeType.value()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlMimeType#value() public
+     * abstract java.lang.String javax.xml.bind.annotation.XmlMimeType.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

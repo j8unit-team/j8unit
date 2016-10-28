@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.sound.midi.PatchClassTests<Patch> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Patch#Patch(int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.sound.midi.Patch#Patch(int, int) public
      * javax.sound.midi.Patch(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.sql;
 
 import java.sql.Timestamp;
-import java.util.Date;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#getTime() public long
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#getTime() public long
      * java.sql.Timestamp.getTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#before(Timestamp) public boolean
-     * java.sql.Timestamp.before(java.sql.Timestamp)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#before(java.sql.Timestamp) public
+     * boolean java.sql.Timestamp.before(java.sql.Timestamp)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#toInstant() public java.time.Instant
-     * java.sql.Timestamp.toInstant()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#toInstant() public
+     * java.time.Instant java.sql.Timestamp.toInstant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#compareTo(Date) public int
-     * java.sql.Timestamp.compareTo(java.util.Date)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#compareTo(java.util.Date) public
+     * int java.sql.Timestamp.compareTo(java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#compareTo(Timestamp) public int
-     * java.sql.Timestamp.compareTo(java.sql.Timestamp)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#compareTo(java.sql.Timestamp)
+     * public int java.sql.Timestamp.compareTo(java.sql.Timestamp)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +147,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#toLocalDateTime() public
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#toLocalDateTime() public
      * java.time.LocalDateTime java.sql.Timestamp.toLocalDateTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,7 +169,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#equals(Object) public boolean
      * java.sql.Timestamp.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,8 +192,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#equals(Timestamp) public boolean
-     * java.sql.Timestamp.equals(java.sql.Timestamp)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#equals(java.sql.Timestamp) public
+     * boolean java.sql.Timestamp.equals(java.sql.Timestamp)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,7 +214,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#hashCode() public int
      * java.sql.Timestamp.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,7 +237,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#getNanos() public int
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#getNanos() public int
      * java.sql.Timestamp.getNanos()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,7 +259,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#setTime(long) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#setTime(long) public void
      * java.sql.Timestamp.setTime(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -283,8 +282,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#after(Timestamp) public boolean
-     * java.sql.Timestamp.after(java.sql.Timestamp)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#after(java.sql.Timestamp) public
+     * boolean java.sql.Timestamp.after(java.sql.Timestamp)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -305,7 +304,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#setNanos(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#setNanos(int) public void
      * java.sql.Timestamp.setNanos(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -327,8 +326,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#toString() public java.lang.String
-     * java.sql.Timestamp.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#toString() public
+     * java.lang.String java.sql.Timestamp.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import javax.swing.Icon;
 import javax.swing.JOptionPane;
-import javax.swing.plaf.OptionPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getSelectionValues() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getSelectionValues() public
      * java.lang.Object[] javax.swing.JOptionPane.getSelectionValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +56,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setMessage(Object) public void
-     * javax.swing.JOptionPane.setMessage(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setMessage(Object) public
+     * void javax.swing.JOptionPane.setMessage(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +78,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JOptionPane.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JOptionPane.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +101,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setMessageType(int) public void
-     * javax.swing.JOptionPane.setMessageType(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setMessageType(int) public
+     * void javax.swing.JOptionPane.setMessageType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +123,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getIcon() public javax.swing.Icon
-     * javax.swing.JOptionPane.getIcon()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getIcon() public
+     * javax.swing.Icon javax.swing.JOptionPane.getIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +145,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setWantsInput(boolean) public void
-     * javax.swing.JOptionPane.setWantsInput(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setWantsInput(boolean)
+     * public void javax.swing.JOptionPane.setWantsInput(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +167,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getMessage() public java.lang.Object
-     * javax.swing.JOptionPane.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getMessage() public
+     * java.lang.Object javax.swing.JOptionPane.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +189,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#createDialog(String) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#createDialog(String) public
      * javax.swing.JDialog javax.swing.JOptionPane.createDialog(java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,9 +211,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#createDialog(Component, String) public
-     * javax.swing.JDialog javax.swing.JOptionPane.createDialog(java.awt.Component,java.lang.String) throws
-     * java.awt.HeadlessException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#createDialog(java.awt.Component, String) public javax.swing.JDialog
+     * javax.swing.JOptionPane.createDialog(java.awt.Component,java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,7 +234,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getOptionType() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getOptionType() public int
      * javax.swing.JOptionPane.getOptionType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,8 +256,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setInitialSelectionValue(Object) public
-     * void javax.swing.JOptionPane.setInitialSelectionValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#setInitialSelectionValue(Object) public void
+     * javax.swing.JOptionPane.setInitialSelectionValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,7 +279,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getMessageType() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getMessageType() public int
      * javax.swing.JOptionPane.getMessageType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -303,8 +301,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getMaxCharactersPerLineCount() public
-     * int javax.swing.JOptionPane.getMaxCharactersPerLineCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#getMaxCharactersPerLineCount() public int
+     * javax.swing.JOptionPane.getMaxCharactersPerLineCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,8 +324,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#createInternalFrame(Component, String)
-     * public javax.swing.JInternalFrame
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#createInternalFrame(java.awt.Component, String) public javax.swing.JInternalFrame
      * javax.swing.JOptionPane.createInternalFrame(java.awt.Component,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -348,8 +347,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getOptions() public java.lang.Object[]
-     * javax.swing.JOptionPane.getOptions()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getOptions() public
+     * java.lang.Object[] javax.swing.JOptionPane.getOptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -370,7 +369,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setValue(Object) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setValue(Object) public void
      * javax.swing.JOptionPane.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -392,8 +391,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setIcon(Icon) public void
-     * javax.swing.JOptionPane.setIcon(javax.swing.Icon)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setIcon(javax.swing.Icon)
+     * public void javax.swing.JOptionPane.setIcon(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -414,7 +413,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getUI() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getUI() public
      * javax.swing.plaf.OptionPaneUI javax.swing.JOptionPane.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -436,8 +435,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getValue() public java.lang.Object
-     * javax.swing.JOptionPane.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getValue() public
+     * java.lang.Object javax.swing.JOptionPane.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -458,7 +457,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setUI(OptionPaneUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#setUI(javax.swing.plaf.OptionPaneUI) public void
      * javax.swing.JOptionPane.setUI(javax.swing.plaf.OptionPaneUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -480,8 +480,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setInputValue(Object) public void
-     * javax.swing.JOptionPane.setInputValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setInputValue(Object) public
+     * void javax.swing.JOptionPane.setInputValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -502,8 +502,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#selectInitialValue() public void
-     * javax.swing.JOptionPane.selectInitialValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#selectInitialValue() public
+     * void javax.swing.JOptionPane.selectInitialValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -524,7 +524,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#updateUI() public void
      * javax.swing.JOptionPane.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -547,8 +547,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getUIClassID() public java.lang.String
-     * javax.swing.JOptionPane.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getUIClassID() public
+     * java.lang.String javax.swing.JOptionPane.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -570,8 +570,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setInitialValue(Object) public void
-     * javax.swing.JOptionPane.setInitialValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setInitialValue(Object)
+     * public void javax.swing.JOptionPane.setInitialValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -592,8 +592,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setSelectionValues(Object[]) public void
-     * javax.swing.JOptionPane.setSelectionValues(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setSelectionValues(Object[])
+     * public void javax.swing.JOptionPane.setSelectionValues(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -614,8 +614,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getWantsInput() public boolean
-     * javax.swing.JOptionPane.getWantsInput()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getWantsInput() public
+     * boolean javax.swing.JOptionPane.getWantsInput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -636,7 +636,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getInitialValue() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getInitialValue() public
      * java.lang.Object javax.swing.JOptionPane.getInitialValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -658,8 +658,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getInputValue() public java.lang.Object
-     * javax.swing.JOptionPane.getInputValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getInputValue() public
+     * java.lang.Object javax.swing.JOptionPane.getInputValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -680,8 +680,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#getInitialSelectionValue() public
-     * java.lang.Object javax.swing.JOptionPane.getInitialSelectionValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#getInitialSelectionValue()
+     * public java.lang.Object javax.swing.JOptionPane.getInitialSelectionValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -702,8 +702,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setOptions(Object[]) public void
-     * javax.swing.JOptionPane.setOptions(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setOptions(Object[]) public
+     * void javax.swing.JOptionPane.setOptions(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -724,8 +724,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JOptionPane#setOptionType(int) public void
-     * javax.swing.JOptionPane.setOptionType(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#setOptionType(int) public
+     * void javax.swing.JOptionPane.setOptionType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

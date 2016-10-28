@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.table;
 
-import javax.swing.JTable;
 import javax.swing.table.TableCellRenderer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TableCellRenderer#getTableCellRendererComponent(JTable, Object, boolean, boolean, int, int) public
-     * abstract java.awt.Component
+     * {@link javax.swing.table.TableCellRenderer#getTableCellRendererComponent(javax.swing.JTable, Object, boolean, boolean, int, int)
+     * public abstract java.awt.Component
      * javax.swing.table.TableCellRenderer.getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int)}
      * .
      *

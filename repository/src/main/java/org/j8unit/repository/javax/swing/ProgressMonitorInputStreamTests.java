@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitorInputStream#close() public void
-     * javax.swing.ProgressMonitorInputStream.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitorInputStream#close()
+     * public void javax.swing.ProgressMonitorInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitorInputStream#reset() public
-     * synchronized void javax.swing.ProgressMonitorInputStream.reset() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitorInputStream#reset()
+     * public synchronized void javax.swing.ProgressMonitorInputStream.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitorInputStream#getProgressMonitor()
-     * public javax.swing.ProgressMonitor javax.swing.ProgressMonitorInputStream.getProgressMonitor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ProgressMonitorInputStream#getProgressMonitor() public javax.swing.ProgressMonitor
+     * javax.swing.ProgressMonitorInputStream.getProgressMonitor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitorInputStream#skip(long) public long
-     * javax.swing.ProgressMonitorInputStream.skip(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitorInputStream#skip(long)
+     * public long javax.swing.ProgressMonitorInputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +126,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitorInputStream#read() public int
-     * javax.swing.ProgressMonitorInputStream.read() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitorInputStream#read() public
+     * int javax.swing.ProgressMonitorInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +149,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitorInputStream#read(byte[]) public int
-     * javax.swing.ProgressMonitorInputStream.read(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ProgressMonitorInputStream#read(byte[])
+     * public int javax.swing.ProgressMonitorInputStream.read(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +172,9 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProgressMonitorInputStream#read(byte[], int, int)
-     * public int javax.swing.ProgressMonitorInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ProgressMonitorInputStream#read(byte[], int, int) public int
+     * javax.swing.ProgressMonitorInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

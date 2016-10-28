@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.crypto.spec.GCMParameterSpecClassTests<GC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GCMParameterSpec#GCMParameterSpec(int, byte[])
-     * public javax.crypto.spec.GCMParameterSpec(int,byte[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.spec.GCMParameterSpec#GCMParameterSpec(int, byte[]) public
+     * javax.crypto.spec.GCMParameterSpec(int,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.javax.crypto.spec.GCMParameterSpecClassTests<GC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GCMParameterSpec#GCMParameterSpec(int, byte[], int, int) public
+     * {@link javax.crypto.spec.GCMParameterSpec#GCMParameterSpec(int, byte[], int, int) public
      * javax.crypto.spec.GCMParameterSpec(int,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

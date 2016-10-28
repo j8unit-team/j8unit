@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.net.SocketExceptionClassTests<SocketExcept
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SocketException#SocketException(String) public
-     * java.net.SocketException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.SocketException#SocketException(String) public java.net.SocketException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,8 @@ implements org.j8unit.repository.java.net.SocketExceptionClassTests<SocketExcept
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SocketException#SocketException() public
-     * java.net.SocketException()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.SocketException#SocketException()
+     * public java.net.SocketException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

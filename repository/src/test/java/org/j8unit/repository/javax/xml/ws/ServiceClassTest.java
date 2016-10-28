@@ -1,10 +1,7 @@
 package org.j8unit.repository.javax.xml.ws;
 
-import java.net.URL;
-import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 import javax.xml.ws.Service.Mode;
-import javax.xml.ws.WebServiceFeature;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,8 +22,9 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#create(URL, QName) public static
-     * javax.xml.ws.Service javax.xml.ws.Service.create(java.net.URL,javax.xml.namespace.QName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#create(java.net.URL, javax.xml.namespace.QName) public static javax.xml.ws.Service
+     * javax.xml.ws.Service.create(java.net.URL,javax.xml.namespace.QName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,14 +38,14 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
     @Category(Draft.class)
     public void test_create_URL_QName()
     throws Exception {
-        // write some test for {@link Service#create(URL, QName)}
+        // write some test for {@link javax.xml.ws.Service#create(java.net.URL, javax.xml.namespace.QName)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#create(QName, WebServiceFeature...) public
-     * static javax.xml.ws.Service
-     * javax.xml.ws.Service.create(javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#create(javax.xml.namespace.QName, javax.xml.ws.WebServiceFeature...) public static
+     * javax.xml.ws.Service javax.xml.ws.Service.create(javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,12 +59,14 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
     @Category(Draft.class)
     public void test_create_QName_WebServiceFeatureArray()
     throws Exception {
-        // write some test for {@link Service#create(QName, WebServiceFeature...)}
+        // write some test for {@link javax.xml.ws.Service#create(javax.xml.namespace.QName,
+        // javax.xml.ws.WebServiceFeature...)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#create(URL, QName, WebServiceFeature...)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#create(java.net.URL, javax.xml.namespace.QName, javax.xml.ws.WebServiceFeature...)
      * public static javax.xml.ws.Service
      * javax.xml.ws.Service.create(java.net.URL,javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)}.
      *
@@ -82,13 +82,15 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
     @Category(Draft.class)
     public void test_create_URL_QName_WebServiceFeatureArray()
     throws Exception {
-        // write some test for {@link Service#create(URL, QName, WebServiceFeature...)}
+        // write some test for {@link javax.xml.ws.Service#create(java.net.URL, javax.xml.namespace.QName,
+        // javax.xml.ws.WebServiceFeature...)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#create(QName) public static
-     * javax.xml.ws.Service javax.xml.ws.Service.create(javax.xml.namespace.QName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#create(javax.xml.namespace.QName) public static javax.xml.ws.Service
+     * javax.xml.ws.Service.create(javax.xml.namespace.QName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +104,7 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
     @Category(Draft.class)
     public void test_create_QName()
     throws Exception {
-        // write some test for {@link Service#create(QName)}
+        // write some test for {@link javax.xml.ws.Service#create(javax.xml.namespace.QName)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Service]
@@ -120,8 +122,8 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Mode#valueOf(String) public static
-         * javax.xml.ws.Service$Mode javax.xml.ws.Service$Mode.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Service.Mode#valueOf(String) public
+         * static javax.xml.ws.Service$Mode javax.xml.ws.Service$Mode.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -135,12 +137,12 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Mode#valueOf(String)}
+            // write some test for {@link javax.xml.ws.Service.Mode#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Mode#values() public static
+         * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Service.Mode#values() public static
          * javax.xml.ws.Service$Mode[] javax.xml.ws.Service$Mode.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,7 +157,7 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Mode#values()}
+            // write some test for {@link javax.xml.ws.Service.Mode#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Service$Mode]

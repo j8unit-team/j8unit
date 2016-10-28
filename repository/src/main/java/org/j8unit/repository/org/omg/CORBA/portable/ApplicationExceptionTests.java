@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ApplicationException#getId() public java.lang.String
-     * org.omg.CORBA.portable.ApplicationException.getId()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ApplicationException#getId()
+     * public java.lang.String org.omg.CORBA.portable.ApplicationException.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ApplicationException#getInputStream() public
-     * org.omg.CORBA.portable.InputStream org.omg.CORBA.portable.ApplicationException.getInputStream()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ApplicationException#getInputStream() public org.omg.CORBA.portable.InputStream
+     * org.omg.CORBA.portable.ApplicationException.getInputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

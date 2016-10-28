@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.transaction.InvalidTransactionExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidTransactionException#InvalidTransactionException() public
+     * {@link javax.transaction.InvalidTransactionException#InvalidTransactionException() public
      * javax.transaction.InvalidTransactionException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.transaction.InvalidTransactionExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidTransactionException#InvalidTransactionException(String) public
+     * {@link javax.transaction.InvalidTransactionException#InvalidTransactionException(String) public
      * javax.transaction.InvalidTransactionException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

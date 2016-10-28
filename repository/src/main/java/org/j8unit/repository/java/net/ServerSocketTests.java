@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.ServerSocket;
-import java.net.SocketAddress;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServerSocket#setPerformancePreferences(int, int, int) public void
+     * {@link java.net.ServerSocket#setPerformancePreferences(int, int, int) public void
      * java.net.ServerSocket.setPerformancePreferences(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#bind(SocketAddress) public void
-     * java.net.ServerSocket.bind(java.net.SocketAddress) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#bind(java.net.SocketAddress)
+     * public void java.net.ServerSocket.bind(java.net.SocketAddress) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#bind(SocketAddress, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.ServerSocket#bind(java.net.SocketAddress, int) public void
      * java.net.ServerSocket.bind(java.net.SocketAddress,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#isClosed() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#isClosed() public boolean
      * java.net.ServerSocket.isClosed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#isBound() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#isBound() public boolean
      * java.net.ServerSocket.isBound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#getChannel() public
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#getChannel() public
      * java.nio.channels.ServerSocketChannel java.net.ServerSocket.getChannel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#getSoTimeout() public synchronized int
-     * java.net.ServerSocket.getSoTimeout() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#getSoTimeout() public
+     * synchronized int java.net.ServerSocket.getSoTimeout() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#toString() public java.lang.String
-     * java.net.ServerSocket.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#toString() public
+     * java.lang.String java.net.ServerSocket.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,7 +213,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#close() public void
      * java.net.ServerSocket.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,7 +236,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#getInetAddress() public
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#getInetAddress() public
      * java.net.InetAddress java.net.ServerSocket.getInetAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +258,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#setReceiveBufferSize(int) public
-     * synchronized void java.net.ServerSocket.setReceiveBufferSize(int) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#setReceiveBufferSize(int)
+     * public synchronized void java.net.ServerSocket.setReceiveBufferSize(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,7 +280,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#getLocalPort() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#getLocalPort() public int
      * java.net.ServerSocket.getLocalPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -302,8 +302,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#setReuseAddress(boolean) public void
-     * java.net.ServerSocket.setReuseAddress(boolean) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#setReuseAddress(boolean)
+     * public void java.net.ServerSocket.setReuseAddress(boolean) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,7 +324,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#getReceiveBufferSize() public
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#getReceiveBufferSize() public
      * synchronized int java.net.ServerSocket.getReceiveBufferSize() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -346,7 +346,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#getLocalSocketAddress() public
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#getLocalSocketAddress() public
      * java.net.SocketAddress java.net.ServerSocket.getLocalSocketAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -368,8 +368,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#getReuseAddress() public boolean
-     * java.net.ServerSocket.getReuseAddress() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#getReuseAddress() public
+     * boolean java.net.ServerSocket.getReuseAddress() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -390,8 +390,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#setSoTimeout(int) public synchronized
-     * void java.net.ServerSocket.setSoTimeout(int) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#setSoTimeout(int) public
+     * synchronized void java.net.ServerSocket.setSoTimeout(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -412,8 +412,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#accept() public java.net.Socket
-     * java.net.ServerSocket.accept() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.ServerSocket#accept() public
+     * java.net.Socket java.net.ServerSocket.accept() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,30 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModelEvent#getChildIndices() public int[]
-     * javax.swing.event.TreeModelEvent.getChildIndices()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChildIndices()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModelEvent#getChildren() public
-     * java.lang.Object[] javax.swing.event.TreeModelEvent.getChildren()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeModelEvent#getChildren()
+     * public java.lang.Object[] javax.swing.event.TreeModelEvent.getChildren()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +56,30 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModelEvent#toString() public java.lang.String
-     * javax.swing.event.TreeModelEvent.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeModelEvent#getChildIndices()
+     * public int[] javax.swing.event.TreeModelEvent.getChildIndices()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChildIndices()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeModelEvent#toString() public
+     * java.lang.String javax.swing.event.TreeModelEvent.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModelEvent#getPath() public java.lang.Object[]
-     * javax.swing.event.TreeModelEvent.getPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeModelEvent#getPath() public
+     * java.lang.Object[] javax.swing.event.TreeModelEvent.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModelEvent#getTreePath() public
-     * javax.swing.tree.TreePath javax.swing.event.TreeModelEvent.getTreePath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeModelEvent#getTreePath()
+     * public javax.swing.tree.TreePath javax.swing.event.TreeModelEvent.getTreePath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

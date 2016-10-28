@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.activation.ActivationDataFlavorClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationDataFlavor#ActivationDataFlavor(String, String) public
+     * {@link javax.activation.ActivationDataFlavor#ActivationDataFlavor(String, String) public
      * javax.activation.ActivationDataFlavor(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.activation.ActivationDataFlavorClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationDataFlavor#ActivationDataFlavor(Class, String) public
+     * {@link javax.activation.ActivationDataFlavor#ActivationDataFlavor(Class, String) public
      * javax.activation.ActivationDataFlavor(java.lang.Class,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.activation.ActivationDataFlavorClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationDataFlavor#ActivationDataFlavor(Class, String, String) public
+     * {@link javax.activation.ActivationDataFlavor#ActivationDataFlavor(Class, String, String) public
      * javax.activation.ActivationDataFlavor(java.lang.Class,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

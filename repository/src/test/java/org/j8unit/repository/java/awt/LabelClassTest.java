@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.LabelClassTests<Label> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Label#Label(String, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Label#Label(String, int) public
      * java.awt.Label(java.lang.String,int) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.awt.LabelClassTests<Label> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Label#Label(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Label#Label(String) public
      * java.awt.Label(java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +65,8 @@ implements org.j8unit.repository.java.awt.LabelClassTests<Label> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Label#Label() public java.awt.Label() throws
-     * java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Label#Label() public java.awt.Label()
+     * throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

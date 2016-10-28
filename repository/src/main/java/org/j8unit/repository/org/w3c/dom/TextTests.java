@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.CharacterDataTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Text#replaceWholeText(String) public abstract
-     * org.w3c.dom.Text org.w3c.dom.Text.replaceWholeText(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Text#replaceWholeText(String) public
+     * abstract org.w3c.dom.Text org.w3c.dom.Text.replaceWholeText(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.CharacterDataTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Text#getWholeText() public abstract java.lang.String
-     * org.w3c.dom.Text.getWholeText()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Text#getWholeText() public abstract
+     * java.lang.String org.w3c.dom.Text.getWholeText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.CharacterDataTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Text#isElementContentWhitespace() public abstract
-     * boolean org.w3c.dom.Text.isElementContentWhitespace()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Text#isElementContentWhitespace() public
+     * abstract boolean org.w3c.dom.Text.isElementContentWhitespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.CharacterDataTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Text#splitText(int) public abstract org.w3c.dom.Text
-     * org.w3c.dom.Text.splitText(int) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Text#splitText(int) public abstract
+     * org.w3c.dom.Text org.w3c.dom.Text.splitText(int) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

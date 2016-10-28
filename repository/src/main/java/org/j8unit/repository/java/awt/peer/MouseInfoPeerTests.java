@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.Point;
-import java.awt.Window;
 import java.awt.peer.MouseInfoPeer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseInfoPeer#fillPointWithCoords(Point) public
-     * abstract int java.awt.peer.MouseInfoPeer.fillPointWithCoords(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.MouseInfoPeer#fillPointWithCoords(java.awt.Point) public abstract int
+     * java.awt.peer.MouseInfoPeer.fillPointWithCoords(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseInfoPeer#isWindowUnderMouse(Window) public
-     * abstract boolean java.awt.peer.MouseInfoPeer.isWindowUnderMouse(java.awt.Window)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.MouseInfoPeer#isWindowUnderMouse(java.awt.Window) public abstract boolean
+     * java.awt.peer.MouseInfoPeer.isWindowUnderMouse(java.awt.Window)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

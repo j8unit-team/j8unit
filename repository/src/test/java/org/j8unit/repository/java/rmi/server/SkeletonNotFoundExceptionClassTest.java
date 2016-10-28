@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.server.SkeletonNotFoundExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SkeletonNotFoundException#SkeletonNotFoundException(String) public
+     * {@link java.rmi.server.SkeletonNotFoundException#SkeletonNotFoundException(String) public
      * java.rmi.server.SkeletonNotFoundException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.rmi.server.SkeletonNotFoundExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SkeletonNotFoundException#SkeletonNotFoundException(String, Exception) public
+     * {@link java.rmi.server.SkeletonNotFoundException#SkeletonNotFoundException(String, Exception) public
      * java.rmi.server.SkeletonNotFoundException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

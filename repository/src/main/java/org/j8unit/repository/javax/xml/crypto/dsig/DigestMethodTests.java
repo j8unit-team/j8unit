@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestMethod#getParameterSpec() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.DigestMethod#getParameterSpec() public abstract
      * java.security.spec.AlgorithmParameterSpec javax.xml.crypto.dsig.DigestMethod.getParameterSpec()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

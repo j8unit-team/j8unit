@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.MenuItemUIClassTests<MenuItemU
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MenuItemUI#MenuItemUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.MenuItemUI#MenuItemUI() public
      * javax.swing.plaf.MenuItemUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.beans.IndexedPropertyChangeEventClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexedPropertyChangeEvent#IndexedPropertyChangeEvent(Object, String, Object, Object, int) public
+     * {@link java.beans.IndexedPropertyChangeEvent#IndexedPropertyChangeEvent(Object, String, Object, Object, int)
+     * public
      * java.beans.IndexedPropertyChangeEvent(java.lang.Object,java.lang.String,java.lang.Object,java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

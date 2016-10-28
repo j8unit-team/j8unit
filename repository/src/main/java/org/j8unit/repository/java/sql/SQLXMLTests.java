@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLXML#getString() public abstract java.lang.String
-     * java.sql.SQLXML.getString() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLXML#getString() public abstract
+     * java.lang.String java.sql.SQLXML.getString() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLXML#setBinaryStream() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLXML#setBinaryStream() public abstract
      * java.io.OutputStream java.sql.SQLXML.setBinaryStream() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,29 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLXML#getCharacterStream() public abstract
-     * java.io.Reader java.sql.SQLXML.getCharacterStream() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCharacterStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLXML#free() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLXML#free() public abstract void
      * java.sql.SQLXML.free() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +101,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLXML#setString(String) public abstract void
-     * java.sql.SQLXML.setString(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLXML#getCharacterStream() public abstract
+     * java.io.Reader java.sql.SQLXML.getCharacterStream() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharacterStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLXML#setString(String) public abstract
+     * void java.sql.SQLXML.setString(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +145,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLXML#setCharacterStream() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLXML#setCharacterStream() public abstract
      * java.io.Writer java.sql.SQLXML.setCharacterStream() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLXML#setResult(Class) public abstract <T> T
-     * java.sql.SQLXML.setResult(java.lang.Class<T>) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLXML#setResult(Class) public abstract
+     * <T> T java.sql.SQLXML.setResult(java.lang.Class<T>) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,7 +189,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLXML#getBinaryStream() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLXML#getBinaryStream() public abstract
      * java.io.InputStream java.sql.SQLXML.getBinaryStream() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,8 +211,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLXML#getSource(Class) public abstract <T> T
-     * java.sql.SQLXML.getSource(java.lang.Class<T>) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLXML#getSource(Class) public abstract
+     * <T> T java.sql.SQLXML.getSource(java.lang.Class<T>) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

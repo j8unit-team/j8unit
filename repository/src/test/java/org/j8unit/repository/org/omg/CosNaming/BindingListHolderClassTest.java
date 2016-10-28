@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.Binding;
 import org.omg.CosNaming.BindingListHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingListHolderClassTests<B
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BindingListHolder#BindingListHolder() public
-     * org.omg.CosNaming.BindingListHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.BindingListHolder#BindingListHolder() public org.omg.CosNaming.BindingListHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,9 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingListHolderClassTests<B
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BindingListHolder#BindingListHolder(Binding[])
-     * public org.omg.CosNaming.BindingListHolder(org.omg.CosNaming.Binding[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.BindingListHolder#BindingListHolder(org.omg.CosNaming.Binding[]) public
+     * org.omg.CosNaming.BindingListHolder(org.omg.CosNaming.Binding[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingListHolderClassTests<B
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BindingListHolder sut = null; // = new BindingListHolder(Binding[]);
+        final BindingListHolder sut = null; // = new BindingListHolder(org.omg.CosNaming.Binding[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingListHolder]

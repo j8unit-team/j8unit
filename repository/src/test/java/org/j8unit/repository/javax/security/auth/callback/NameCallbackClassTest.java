@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.security.auth.callback.NameCallbackClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NameCallback#NameCallback(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.callback.NameCallback#NameCallback(String) public
      * javax.security.auth.callback.NameCallback(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +44,9 @@ implements org.j8unit.repository.javax.security.auth.callback.NameCallbackClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NameCallback#NameCallback(String, String)
-     * public javax.security.auth.callback.NameCallback(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.callback.NameCallback#NameCallback(String, String) public
+     * javax.security.auth.callback.NameCallback(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

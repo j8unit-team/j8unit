@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.lang;
 
-import java.net.URL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -79,7 +78,7 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Package#isSealed(URL) public boolean
+     * Test method for the hereby targeted method-under-test {@link Package#isSealed(java.net.URL) public boolean
      * java.lang.Package.isSealed(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.sampled.spi;
 
-import javax.sound.sampled.Mixer.Info;
 import javax.sound.sampled.spi.MixerProvider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MixerProvider#getMixerInfo() public abstract
-     * javax.sound.sampled.Mixer$Info[] javax.sound.sampled.spi.MixerProvider.getMixerInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.spi.MixerProvider#getMixerInfo()
+     * public abstract javax.sound.sampled.Mixer$Info[] javax.sound.sampled.spi.MixerProvider.getMixerInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MixerProvider#isMixerSupported(Info) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.MixerProvider#isMixerSupported(javax.sound.sampled.Mixer.Info) public boolean
      * javax.sound.sampled.spi.MixerProvider.isMixerSupported(javax.sound.sampled.Mixer$Info)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MixerProvider#getMixer(Info) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.MixerProvider#getMixer(javax.sound.sampled.Mixer.Info) public abstract
      * javax.sound.sampled.Mixer javax.sound.sampled.spi.MixerProvider.getMixer(javax.sound.sampled.Mixer$Info)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

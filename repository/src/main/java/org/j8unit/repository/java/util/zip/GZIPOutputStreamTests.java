@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GZIPOutputStream#finish() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.GZIPOutputStream#finish() public void
      * java.util.zip.GZIPOutputStream.finish() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GZIPOutputStream#write(byte[], int, int) public
-     * synchronized void java.util.zip.GZIPOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.GZIPOutputStream#write(byte[], int, int) public synchronized void
+     * java.util.zip.GZIPOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

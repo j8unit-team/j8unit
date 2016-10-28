@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.accessibility;
 
-import java.awt.Point;
 import javax.accessibility.AccessibleText;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getAfterIndex(int, int) public
-     * abstract java.lang.String javax.accessibility.AccessibleText.getAfterIndex(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleText#getAfterIndex(int, int) public abstract java.lang.String
+     * javax.accessibility.AccessibleText.getAfterIndex(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getCharacterBounds(int) public
-     * abstract java.awt.Rectangle javax.accessibility.AccessibleText.getCharacterBounds(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleText#getCharacterBounds(int) public abstract java.awt.Rectangle
+     * javax.accessibility.AccessibleText.getCharacterBounds(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getCaretPosition() public abstract
-     * int javax.accessibility.AccessibleText.getCaretPosition()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleText#getCaretPosition() public abstract int
+     * javax.accessibility.AccessibleText.getCaretPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getAtIndex(int, int) public abstract
-     * java.lang.String javax.accessibility.AccessibleText.getAtIndex(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleText#getAtIndex(int, int) public abstract java.lang.String
+     * javax.accessibility.AccessibleText.getAtIndex(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getSelectionEnd() public abstract int
-     * javax.accessibility.AccessibleText.getSelectionEnd()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleText#getSelectionEnd()
+     * public abstract int javax.accessibility.AccessibleText.getSelectionEnd()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +149,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getIndexAtPoint(Point) public
-     * abstract int javax.accessibility.AccessibleText.getIndexAtPoint(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleText#getIndexAtPoint(java.awt.Point) public abstract int
+     * javax.accessibility.AccessibleText.getIndexAtPoint(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +172,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getSelectedText() public abstract
-     * java.lang.String javax.accessibility.AccessibleText.getSelectedText()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleText#getSelectedText()
+     * public abstract java.lang.String javax.accessibility.AccessibleText.getSelectedText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +194,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getSelectionStart() public abstract
-     * int javax.accessibility.AccessibleText.getSelectionStart()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleText#getSelectionStart() public abstract int
+     * javax.accessibility.AccessibleText.getSelectionStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +217,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getCharacterAttribute(int) public
-     * abstract javax.swing.text.AttributeSet javax.accessibility.AccessibleText.getCharacterAttribute(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleText#getCharacterAttribute(int) public abstract
+     * javax.swing.text.AttributeSet javax.accessibility.AccessibleText.getCharacterAttribute(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +240,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getBeforeIndex(int, int) public
-     * abstract java.lang.String javax.accessibility.AccessibleText.getBeforeIndex(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleText#getBeforeIndex(int, int) public abstract java.lang.String
+     * javax.accessibility.AccessibleText.getBeforeIndex(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +263,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleText#getCharCount() public abstract int
-     * javax.accessibility.AccessibleText.getCharCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleText#getCharCount()
+     * public abstract int javax.accessibility.AccessibleText.getCharCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

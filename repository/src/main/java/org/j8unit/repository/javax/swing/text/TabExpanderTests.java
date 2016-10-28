@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabExpander#nextTabStop(float, int) public abstract
-     * float javax.swing.text.TabExpander.nextTabStop(float,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.TabExpander#nextTabStop(float, int)
+     * public abstract float javax.swing.text.TabExpander.nextTabStop(float,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

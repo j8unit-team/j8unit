@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.ParserFactoryClassTests<Par
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParserFactory#makeParser() public static
-     * org.xml.sax.Parser org.xml.sax.helpers.ParserFactory.makeParser() throws
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.ParserFactory#makeParser()
+     * public static org.xml.sax.Parser org.xml.sax.helpers.ParserFactory.makeParser() throws
      * java.lang.ClassNotFoundException,java.lang.IllegalAccessException,java.lang.InstantiationException,java.lang.NullPointerException,java.lang.ClassCastException}
      * .
      *
@@ -38,13 +38,13 @@ implements org.j8unit.repository.org.xml.sax.helpers.ParserFactoryClassTests<Par
     @Category(Draft.class)
     public void test_makeParser()
     throws Exception {
-        // write some test for {@link ParserFactory#makeParser()}
+        // write some test for {@link org.xml.sax.helpers.ParserFactory#makeParser()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParserFactory#makeParser(String) public static
-     * org.xml.sax.Parser org.xml.sax.helpers.ParserFactory.makeParser(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.ParserFactory#makeParser(String)
+     * public static org.xml.sax.Parser org.xml.sax.helpers.ParserFactory.makeParser(java.lang.String) throws
      * java.lang.ClassNotFoundException,java.lang.IllegalAccessException,java.lang.InstantiationException,java.lang.ClassCastException}
      * .
      *
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.xml.sax.helpers.ParserFactoryClassTests<Par
     @Category(Draft.class)
     public void test_makeParser_String()
     throws Exception {
-        // write some test for {@link ParserFactory#makeParser(String)}
+        // write some test for {@link org.xml.sax.helpers.ParserFactory#makeParser(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.ParserFactory]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.xpath.XPathFunctionExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XPathFunctionException#XPathFunctionException(String) public
+     * {@link javax.xml.xpath.XPathFunctionException#XPathFunctionException(String) public
      * javax.xml.xpath.XPathFunctionException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.xpath.XPathFunctionExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XPathFunctionException#XPathFunctionException(Throwable) public
+     * {@link javax.xml.xpath.XPathFunctionException#XPathFunctionException(Throwable) public
      * javax.xml.xpath.XPathFunctionException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

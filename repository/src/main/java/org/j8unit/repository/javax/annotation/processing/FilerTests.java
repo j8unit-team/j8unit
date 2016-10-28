@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.annotation.processing;
 
 import javax.annotation.processing.Filer;
-import javax.lang.model.element.Element;
-import javax.tools.JavaFileManager.Location;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Filer#createResource(Location, CharSequence, CharSequence, Element...) public abstract
-     * javax.tools.FileObject
+     * {@link javax.annotation.processing.Filer#createResource(javax.tools.JavaFileManager.Location, CharSequence, CharSequence, javax.lang.model.element.Element...)
+     * public abstract javax.tools.FileObject
      * javax.annotation.processing.Filer.createResource(javax.tools.JavaFileManager$Location,java.lang.CharSequence,java.lang.CharSequence,javax.lang.model.element.Element...)
      * throws java.io.IOException}.
      *
@@ -63,7 +61,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Filer#getResource(Location, CharSequence, CharSequence) public abstract javax.tools.FileObject
+     * {@link javax.annotation.processing.Filer#getResource(javax.tools.JavaFileManager.Location, CharSequence, CharSequence)
+     * public abstract javax.tools.FileObject
      * javax.annotation.processing.Filer.getResource(javax.tools.JavaFileManager$Location,java.lang.CharSequence,java.lang.CharSequence)
      * throws java.io.IOException}.
      *
@@ -86,7 +85,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Filer#createSourceFile(CharSequence, Element...)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.Filer#createSourceFile(CharSequence, javax.lang.model.element.Element...)
      * public abstract javax.tools.JavaFileObject
      * javax.annotation.processing.Filer.createSourceFile(java.lang.CharSequence,javax.lang.model.element.Element...)
      * throws java.io.IOException}.
@@ -110,7 +110,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Filer#createClassFile(CharSequence, Element...)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.Filer#createClassFile(CharSequence, javax.lang.model.element.Element...)
      * public abstract javax.tools.JavaFileObject
      * javax.annotation.processing.Filer.createClassFile(java.lang.CharSequence,javax.lang.model.element.Element...)
      * throws java.io.IOException}.

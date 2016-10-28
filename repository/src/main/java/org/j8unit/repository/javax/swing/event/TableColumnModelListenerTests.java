@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.TableColumnModelEvent;
 import javax.swing.event.TableColumnModelListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TableColumnModelListener#columnSelectionChanged(ListSelectionEvent) public abstract void
+     * {@link javax.swing.event.TableColumnModelListener#columnSelectionChanged(javax.swing.event.ListSelectionEvent)
+     * public abstract void
      * javax.swing.event.TableColumnModelListener.columnSelectionChanged(javax.swing.event.ListSelectionEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +59,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TableColumnModelListener#columnMoved(TableColumnModelEvent) public abstract void
-     * javax.swing.event.TableColumnModelListener.columnMoved(javax.swing.event.TableColumnModelEvent)}.
+     * {@link javax.swing.event.TableColumnModelListener#columnMoved(javax.swing.event.TableColumnModelEvent) public
+     * abstract void javax.swing.event.TableColumnModelListener.columnMoved(javax.swing.event.TableColumnModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +82,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TableColumnModelListener#columnRemoved(TableColumnModelEvent) public abstract void
-     * javax.swing.event.TableColumnModelListener.columnRemoved(javax.swing.event.TableColumnModelEvent)}.
+     * {@link javax.swing.event.TableColumnModelListener#columnRemoved(javax.swing.event.TableColumnModelEvent) public
+     * abstract void javax.swing.event.TableColumnModelListener.columnRemoved(javax.swing.event.TableColumnModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +105,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TableColumnModelListener#columnMarginChanged(ChangeEvent) public abstract void
-     * javax.swing.event.TableColumnModelListener.columnMarginChanged(javax.swing.event.ChangeEvent)}.
+     * {@link javax.swing.event.TableColumnModelListener#columnMarginChanged(javax.swing.event.ChangeEvent) public
+     * abstract void javax.swing.event.TableColumnModelListener.columnMarginChanged(javax.swing.event.ChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +128,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TableColumnModelListener#columnAdded(TableColumnModelEvent) public abstract void
-     * javax.swing.event.TableColumnModelListener.columnAdded(javax.swing.event.TableColumnModelEvent)}.
+     * {@link javax.swing.event.TableColumnModelListener#columnAdded(javax.swing.event.TableColumnModelEvent) public
+     * abstract void javax.swing.event.TableColumnModelListener.columnAdded(javax.swing.event.TableColumnModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

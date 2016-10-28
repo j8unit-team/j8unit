@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPException#getCause() public java.lang.Throwable
-     * javax.xml.soap.SOAPException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPException#getCause() public
+     * java.lang.Throwable javax.xml.soap.SOAPException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPException#getMessage() public java.lang.String
-     * javax.xml.soap.SOAPException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPException#getMessage() public
+     * java.lang.String javax.xml.soap.SOAPException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPException#initCause(Throwable) public
-     * synchronized java.lang.Throwable javax.xml.soap.SOAPException.initCause(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPException#initCause(Throwable)
+     * public synchronized java.lang.Throwable javax.xml.soap.SOAPException.initCause(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

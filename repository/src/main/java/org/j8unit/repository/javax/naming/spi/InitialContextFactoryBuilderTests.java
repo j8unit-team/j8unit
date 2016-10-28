@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import java.util.Hashtable;
 import javax.naming.spi.InitialContextFactoryBuilder;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialContextFactoryBuilder#createInitialContextFactory(Hashtable) public abstract
-     * javax.naming.spi.InitialContextFactory
+     * {@link javax.naming.spi.InitialContextFactoryBuilder#createInitialContextFactory(java.util.Hashtable) public
+     * abstract javax.naming.spi.InitialContextFactory
      * javax.naming.spi.InitialContextFactoryBuilder.createInitialContextFactory(java.util.Hashtable<?, ?>) throws
      * javax.naming.NamingException}.
      *

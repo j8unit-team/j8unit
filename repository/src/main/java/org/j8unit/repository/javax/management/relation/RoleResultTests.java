@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.relation;
 
-import javax.management.relation.RoleList;
 import javax.management.relation.RoleResult;
-import javax.management.relation.RoleUnresolvedList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleResult#getRolesUnresolved() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleResult#getRolesUnresolved() public
      * javax.management.relation.RoleUnresolvedList javax.management.relation.RoleResult.getRolesUnresolved()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleResult#setRolesUnresolved(RoleUnresolvedList)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleResult#setRolesUnresolved(javax.management.relation.RoleUnresolvedList)
      * public void
      * javax.management.relation.RoleResult.setRolesUnresolved(javax.management.relation.RoleUnresolvedList)}.
      *
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleResult#getRoles() public
-     * javax.management.relation.RoleList javax.management.relation.RoleResult.getRoles()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleResult#getRoles()
+     * public javax.management.relation.RoleList javax.management.relation.RoleResult.getRoles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +103,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleResult#setRoles(RoleList) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleResult#setRoles(javax.management.relation.RoleList) public void
      * javax.management.relation.RoleResult.setRoles(javax.management.relation.RoleList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

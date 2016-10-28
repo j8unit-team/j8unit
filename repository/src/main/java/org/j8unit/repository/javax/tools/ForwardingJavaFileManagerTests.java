@@ -1,13 +1,7 @@
 package org.j8unit.repository.javax.tools;
 
-import java.util.Iterator;
-import java.util.Set;
-import javax.tools.FileObject;
 import javax.tools.ForwardingJavaFileManager;
 import javax.tools.JavaFileManager;
-import javax.tools.JavaFileManager.Location;
-import javax.tools.JavaFileObject;
-import javax.tools.JavaFileObject.Kind;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -42,8 +36,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardingJavaFileManager#isSameFile(FileObject, FileObject) public boolean
-     * javax.tools.ForwardingJavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
+     * {@link javax.tools.ForwardingJavaFileManager#isSameFile(javax.tools.FileObject, javax.tools.FileObject) public
+     * boolean javax.tools.ForwardingJavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,8 +60,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardingJavaFileManager#getJavaFileForOutput(Location, String, Kind, FileObject) public
-     * javax.tools.JavaFileObject
+     * {@link javax.tools.ForwardingJavaFileManager#getJavaFileForOutput(javax.tools.JavaFileManager.Location, String, javax.tools.JavaFileObject.Kind, javax.tools.FileObject)
+     * public javax.tools.JavaFileObject
      * javax.tools.ForwardingJavaFileManager.getJavaFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,javax.tools.JavaFileObject$Kind,javax.tools.FileObject)
      * throws java.io.IOException}.
      *
@@ -92,7 +86,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardingJavaFileManager#getJavaFileForInput(Location, String, Kind) public javax.tools.JavaFileObject
+     * {@link javax.tools.ForwardingJavaFileManager#getJavaFileForInput(javax.tools.JavaFileManager.Location, String, javax.tools.JavaFileObject.Kind)
+     * public javax.tools.JavaFileObject
      * javax.tools.ForwardingJavaFileManager.getJavaFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,javax.tools.JavaFileObject$Kind)
      * throws java.io.IOException}.
      *
@@ -117,8 +112,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardingJavaFileManager#getFileForOutput(Location, String, String, FileObject) public
-     * javax.tools.FileObject
+     * {@link javax.tools.ForwardingJavaFileManager#getFileForOutput(javax.tools.JavaFileManager.Location, String, String, javax.tools.FileObject)
+     * public javax.tools.FileObject
      * javax.tools.ForwardingJavaFileManager.getFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String,javax.tools.FileObject)
      * throws java.io.IOException}.
      *
@@ -142,8 +137,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardingJavaFileManager#flush() public void
-     * javax.tools.ForwardingJavaFileManager.flush() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingJavaFileManager#flush() public
+     * void javax.tools.ForwardingJavaFileManager.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +161,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardingJavaFileManager#inferBinaryName(Location, JavaFileObject) public java.lang.String
+     * {@link javax.tools.ForwardingJavaFileManager#inferBinaryName(javax.tools.JavaFileManager.Location, javax.tools.JavaFileObject)
+     * public java.lang.String
      * javax.tools.ForwardingJavaFileManager.inferBinaryName(javax.tools.JavaFileManager$Location,javax.tools.JavaFileObject)}
      * .
      *
@@ -191,7 +187,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardingJavaFileManager#getFileForInput(Location, String, String) public javax.tools.FileObject
+     * {@link javax.tools.ForwardingJavaFileManager#getFileForInput(javax.tools.JavaFileManager.Location, String, String)
+     * public javax.tools.FileObject
      * javax.tools.ForwardingJavaFileManager.getFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String)
      * throws java.io.IOException}.
      *
@@ -215,9 +212,10 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardingJavaFileManager#getClassLoader(Location)
-     * public java.lang.ClassLoader
-     * javax.tools.ForwardingJavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.ForwardingJavaFileManager#getClassLoader(javax.tools.JavaFileManager.Location) public
+     * java.lang.ClassLoader javax.tools.ForwardingJavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,8 +237,9 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardingJavaFileManager#hasLocation(Location)
-     * public boolean javax.tools.ForwardingJavaFileManager.hasLocation(javax.tools.JavaFileManager$Location)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.ForwardingJavaFileManager#hasLocation(javax.tools.JavaFileManager.Location) public boolean
+     * javax.tools.ForwardingJavaFileManager.hasLocation(javax.tools.JavaFileManager$Location)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,8 +262,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardingJavaFileManager#list(Location, String, Set, boolean) public java.lang.Iterable
-     * <javax.tools.JavaFileObject>
+     * {@link javax.tools.ForwardingJavaFileManager#list(javax.tools.JavaFileManager.Location, String, java.util.Set, boolean)
+     * public java.lang.Iterable<javax.tools.JavaFileObject>
      * javax.tools.ForwardingJavaFileManager.list(javax.tools.JavaFileManager$Location,java.lang.String,java.util.Set
      * <javax.tools.JavaFileObject$Kind>,boolean) throws java.io.IOException}.
      *
@@ -288,8 +287,9 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardingJavaFileManager#isSupportedOption(String)
-     * public int javax.tools.ForwardingJavaFileManager.isSupportedOption(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.ForwardingJavaFileManager#isSupportedOption(String) public int
+     * javax.tools.ForwardingJavaFileManager.isSupportedOption(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -312,7 +312,7 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardingJavaFileManager#handleOption(String, Iterator) public boolean
+     * {@link javax.tools.ForwardingJavaFileManager#handleOption(String, java.util.Iterator) public boolean
      * javax.tools.ForwardingJavaFileManager.handleOption(java.lang.String,java.util.Iterator<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -335,8 +335,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardingJavaFileManager#close() public void
-     * javax.tools.ForwardingJavaFileManager.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingJavaFileManager#close() public
+     * void javax.tools.ForwardingJavaFileManager.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

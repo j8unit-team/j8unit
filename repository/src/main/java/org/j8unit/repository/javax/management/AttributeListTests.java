@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import java.util.Collection;
-import javax.management.Attribute;
 import javax.management.AttributeList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#asList() public java.util.List
-     * <javax.management.Attribute> javax.management.AttributeList.asList()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.AttributeList#asList() public
+     * java.util.List<javax.management.Attribute> javax.management.AttributeList.asList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +56,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#addAll(AttributeList) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeList#addAll(javax.management.AttributeList) public boolean
      * javax.management.AttributeList.addAll(javax.management.AttributeList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +79,9 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#addAll(int, AttributeList) public
-     * boolean javax.management.AttributeList.addAll(int,javax.management.AttributeList)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeList#addAll(int, javax.management.AttributeList) public boolean
+     * javax.management.AttributeList.addAll(int,javax.management.AttributeList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#addAll(int, Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeList#addAll(int, java.util.Collection) public boolean
      * javax.management.AttributeList.addAll(int,java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +126,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#addAll(Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeList#addAll(java.util.Collection) public boolean
      * javax.management.AttributeList.addAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +150,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#add(Attribute) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeList#add(javax.management.Attribute) public void
      * javax.management.AttributeList.add(javax.management.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +173,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#add(Object) public boolean
-     * javax.management.AttributeList.add(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.AttributeList#add(Object) public
+     * boolean javax.management.AttributeList.add(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,7 +196,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#add(int, Attribute) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeList#add(int, javax.management.Attribute) public void
      * javax.management.AttributeList.add(int,javax.management.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +219,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#add(int, Object) public void
-     * javax.management.AttributeList.add(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.AttributeList#add(int, Object)
+     * public void javax.management.AttributeList.add(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,7 +242,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#set(int, Attribute) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeList#set(int, javax.management.Attribute) public void
      * javax.management.AttributeList.set(int,javax.management.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,8 +265,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#set(int, Object) public
-     * java.lang.Object javax.management.AttributeList.set(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.AttributeList#set(int, Object)
+     * public java.lang.Object javax.management.AttributeList.set(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

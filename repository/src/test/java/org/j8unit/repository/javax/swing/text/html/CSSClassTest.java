@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<CSS> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CSS#CSS() public javax.swing.text.html.CSS()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.html.CSS#CSS() public
+     * javax.swing.text.html.CSS()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +43,9 @@ implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<CSS> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSS#getAttribute(String) public static final
-     * javax.swing.text.html.CSS$Attribute javax.swing.text.html.CSS.getAttribute(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.CSS#getAttribute(String)
+     * public static final javax.swing.text.html.CSS$Attribute javax.swing.text.html.CSS.getAttribute(java.lang.String)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +59,13 @@ implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<CSS> {
     @Category(Draft.class)
     public void test_getAttribute_String()
     throws Exception {
-        // write some test for {@link CSS#getAttribute(String)}
+        // write some test for {@link javax.swing.text.html.CSS#getAttribute(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSS#getAllAttributeKeys() public static
-     * javax.swing.text.html.CSS$Attribute[] javax.swing.text.html.CSS.getAllAttributeKeys()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.CSS#getAllAttributeKeys()
+     * public static javax.swing.text.html.CSS$Attribute[] javax.swing.text.html.CSS.getAllAttributeKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,7 +79,7 @@ implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<CSS> {
     @Category(Draft.class)
     public void test_getAllAttributeKeys()
     throws Exception {
-        // write some test for {@link CSS#getAllAttributeKeys()}
+        // write some test for {@link javax.swing.text.html.CSS#getAllAttributeKeys()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.CSS]

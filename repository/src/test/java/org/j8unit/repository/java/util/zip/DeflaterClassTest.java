@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.util.zip.DeflaterClassTests<Deflater> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Deflater#Deflater() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.Deflater#Deflater() public
      * java.util.zip.Deflater()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.util.zip.DeflaterClassTests<Deflater> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Deflater#Deflater(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.Deflater#Deflater(int) public
      * java.util.zip.Deflater(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,8 +64,8 @@ implements org.j8unit.repository.java.util.zip.DeflaterClassTests<Deflater> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Deflater#Deflater(int, boolean) public
-     * java.util.zip.Deflater(int,boolean)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.Deflater#Deflater(int, boolean)
+     * public java.util.zip.Deflater(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

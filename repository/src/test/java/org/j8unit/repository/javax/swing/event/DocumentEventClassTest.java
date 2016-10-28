@@ -20,21 +20,6 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests<Docum
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent]
 
     @RunWith(J8Unit4.class)
-    public static class ElementChangeClassTest
-    implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests.ElementChangeClassTests<ElementChange> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.DocumentEvent$ElementChange]
-
-        @Override
-        public Class<ElementChange> createNewSUT() {
-            return ElementChange.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent$ElementChange]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class EventTypeClassTest
     implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests.EventTypeClassTests<EventType> {
 
@@ -46,6 +31,21 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests<Docum
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent$EventType]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ElementChangeClassTest
+    implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests.ElementChangeClassTests<ElementChange> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.DocumentEvent$ElementChange]
+
+        @Override
+        public Class<ElementChange> createNewSUT() {
+            return ElementChange.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent$ElementChange]
 
     }
 

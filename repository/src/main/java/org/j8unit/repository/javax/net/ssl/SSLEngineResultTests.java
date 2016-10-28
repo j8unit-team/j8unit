@@ -36,8 +36,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLEngineResult#bytesProduced() public final int
-     * javax.net.ssl.SSLEngineResult.bytesProduced()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#bytesProduced() public
+     * final int javax.net.ssl.SSLEngineResult.bytesProduced()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLEngineResult#getHandshakeStatus() public final
-     * javax.net.ssl.SSLEngineResult$HandshakeStatus javax.net.ssl.SSLEngineResult.getHandshakeStatus()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#getHandshakeStatus()
+     * public final javax.net.ssl.SSLEngineResult$HandshakeStatus javax.net.ssl.SSLEngineResult.getHandshakeStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLEngineResult#toString() public java.lang.String
-     * javax.net.ssl.SSLEngineResult.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#toString() public
+     * java.lang.String javax.net.ssl.SSLEngineResult.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLEngineResult#bytesConsumed() public final int
-     * javax.net.ssl.SSLEngineResult.bytesConsumed()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#bytesConsumed() public
+     * final int javax.net.ssl.SSLEngineResult.bytesConsumed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLEngineResult#getStatus() public final
-     * javax.net.ssl.SSLEngineResult$Status javax.net.ssl.SSLEngineResult.getStatus()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#getStatus() public
+     * final javax.net.ssl.SSLEngineResult$Status javax.net.ssl.SSLEngineResult.getStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

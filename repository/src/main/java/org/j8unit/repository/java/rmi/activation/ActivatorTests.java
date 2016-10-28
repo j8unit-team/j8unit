@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.activation;
 
-import java.rmi.activation.ActivationID;
 import java.rmi.activation.Activator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Activator#activate(ActivationID, boolean) public
-     * abstract java.rmi.MarshalledObject<? extends java.rmi.Remote>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.activation.Activator#activate(java.rmi.activation.ActivationID, boolean) public abstract
+     * java.rmi.MarshalledObject<? extends java.rmi.Remote>
      * java.rmi.activation.Activator.activate(java.rmi.activation.ActivationID,boolean) throws
      * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
      *

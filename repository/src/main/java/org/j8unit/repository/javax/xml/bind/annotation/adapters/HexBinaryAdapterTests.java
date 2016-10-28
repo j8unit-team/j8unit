@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HexBinaryAdapter#unmarshal(String) public byte[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.adapters.HexBinaryAdapter#unmarshal(String) public byte[]
      * javax.xml.bind.annotation.adapters.HexBinaryAdapter.unmarshal(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HexBinaryAdapter#marshal(byte[]) public
-     * java.lang.String javax.xml.bind.annotation.adapters.HexBinaryAdapter.marshal(byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.adapters.HexBinaryAdapter#marshal(byte[]) public java.lang.String
+     * javax.xml.bind.annotation.adapters.HexBinaryAdapter.marshal(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

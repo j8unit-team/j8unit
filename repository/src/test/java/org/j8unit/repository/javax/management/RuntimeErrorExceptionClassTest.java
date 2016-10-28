@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.RuntimeErrorExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RuntimeErrorException#RuntimeErrorException(Error) public
+     * {@link javax.management.RuntimeErrorException#RuntimeErrorException(Error) public
      * javax.management.RuntimeErrorException(java.lang.Error)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.RuntimeErrorExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RuntimeErrorException#RuntimeErrorException(Error, String) public
+     * {@link javax.management.RuntimeErrorException#RuntimeErrorException(Error, String) public
      * javax.management.RuntimeErrorException(java.lang.Error,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

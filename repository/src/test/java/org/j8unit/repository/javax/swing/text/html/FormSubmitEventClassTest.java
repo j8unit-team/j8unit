@@ -35,7 +35,8 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MethodType#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.FormSubmitEvent.MethodType#values() public static
          * javax.swing.text.html.FormSubmitEvent$MethodType[] javax.swing.text.html.FormSubmitEvent$MethodType.values()}
          * .
          *
@@ -51,12 +52,13 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link MethodType#values()}
+            // write some test for {@link javax.swing.text.html.FormSubmitEvent.MethodType#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MethodType#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.FormSubmitEvent.MethodType#valueOf(String) public static
          * javax.swing.text.html.FormSubmitEvent$MethodType
          * javax.swing.text.html.FormSubmitEvent$MethodType.valueOf(java.lang.String)}.
          *
@@ -72,7 +74,7 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link MethodType#valueOf(String)}
+            // write some test for {@link javax.swing.text.html.FormSubmitEvent.MethodType#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.FormSubmitEvent$MethodType]

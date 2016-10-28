@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.DatagramPacket;
-import java.net.InetAddress;
-import java.net.SocketAddress;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#setSocketAddress(SocketAddress)
-     * public synchronized void java.net.DatagramPacket.setSocketAddress(java.net.SocketAddress)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.DatagramPacket#setSocketAddress(java.net.SocketAddress) public synchronized void
+     * java.net.DatagramPacket.setSocketAddress(java.net.SocketAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#getAddress() public synchronized
-     * java.net.InetAddress java.net.DatagramPacket.getAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#getAddress() public
+     * synchronized java.net.InetAddress java.net.DatagramPacket.getAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#getLength() public synchronized int
-     * java.net.DatagramPacket.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#getLength() public
+     * synchronized int java.net.DatagramPacket.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#getData() public synchronized byte[]
-     * java.net.DatagramPacket.getData()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#getData() public
+     * synchronized byte[] java.net.DatagramPacket.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#setPort(int) public synchronized void
-     * java.net.DatagramPacket.setPort(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#setPort(int) public
+     * synchronized void java.net.DatagramPacket.setPort(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#getPort() public synchronized int
-     * java.net.DatagramPacket.getPort()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#getPort() public
+     * synchronized int java.net.DatagramPacket.getPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +167,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#setLength(int) public synchronized
-     * void java.net.DatagramPacket.setLength(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#setLength(int) public
+     * synchronized void java.net.DatagramPacket.setLength(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +189,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#getOffset() public synchronized int
-     * java.net.DatagramPacket.getOffset()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#getOffset() public
+     * synchronized int java.net.DatagramPacket.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,7 +211,51 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#getSocketAddress() public
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#setData(byte[], int, int)
+     * public synchronized void java.net.DatagramPacket.setData(byte[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setData_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#setData(byte[]) public
+     * synchronized void java.net.DatagramPacket.setData(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setData_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramPacket#getSocketAddress() public
      * synchronized java.net.SocketAddress java.net.DatagramPacket.getSocketAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -234,52 +277,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#setData(byte[], int, int) public
-     * synchronized void java.net.DatagramPacket.setData(byte[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setData_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#setData(byte[]) public synchronized
-     * void java.net.DatagramPacket.setData(byte[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setData_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramPacket#setAddress(InetAddress) public
-     * synchronized void java.net.DatagramPacket.setAddress(java.net.InetAddress)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.DatagramPacket#setAddress(java.net.InetAddress) public synchronized void
+     * java.net.DatagramPacket.setAddress(java.net.InetAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

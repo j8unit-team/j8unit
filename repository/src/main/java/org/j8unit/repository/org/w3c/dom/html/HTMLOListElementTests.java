@@ -34,8 +34,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOListElement#setCompact(boolean) public abstract
-     * void org.w3c.dom.html.HTMLOListElement.setCompact(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLOListElement#setCompact(boolean) public abstract void
+     * org.w3c.dom.html.HTMLOListElement.setCompact(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOListElement#getStart() public abstract int
-     * org.w3c.dom.html.HTMLOListElement.getStart()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLOListElement#getStart() public
+     * abstract int org.w3c.dom.html.HTMLOListElement.getStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOListElement#getType() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLOListElement.getType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLOListElement#getType() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLOListElement.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOListElement#setStart(int) public abstract void
-     * org.w3c.dom.html.HTMLOListElement.setStart(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLOListElement#setStart(int)
+     * public abstract void org.w3c.dom.html.HTMLOListElement.setStart(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOListElement#setType(String) public abstract
-     * void org.w3c.dom.html.HTMLOListElement.setType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLOListElement#setType(String)
+     * public abstract void org.w3c.dom.html.HTMLOListElement.setType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOListElement#getCompact() public abstract
-     * boolean org.w3c.dom.html.HTMLOListElement.getCompact()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLOListElement#getCompact()
+     * public abstract boolean org.w3c.dom.html.HTMLOListElement.getCompact()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

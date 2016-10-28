@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
 import javax.swing.plaf.metal.MetalPopupMenuSeparatorUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalSeparatorUITests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MetalPopupMenuSeparatorUI#getPreferredSize(JComponent) public java.awt.Dimension
-     * javax.swing.plaf.metal.MetalPopupMenuSeparatorUI.getPreferredSize(javax.swing.JComponent)}.
+     * {@link javax.swing.plaf.metal.MetalPopupMenuSeparatorUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.metal.MetalPopupMenuSeparatorUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +59,8 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalSeparatorUITests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MetalPopupMenuSeparatorUI#paint(Graphics, JComponent) public void
-     * javax.swing.plaf.metal.MetalPopupMenuSeparatorUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * {@link javax.swing.plaf.metal.MetalPopupMenuSeparatorUI#paint(java.awt.Graphics, javax.swing.JComponent) public
+     * void javax.swing.plaf.metal.MetalPopupMenuSeparatorUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

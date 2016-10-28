@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.net;
 
-import java.net.URL;
 import java.net.URLClassLoader;
-import java.net.URLStreamHandlerFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.net.URLClassLoaderClassTests<URLClassLoade
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URLClassLoader#URLClassLoader(URL[], ClassLoader, URLStreamHandlerFactory) public
-     * java.net.URLClassLoader(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)}.
+     * {@link java.net.URLClassLoader#URLClassLoader(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory)
+     * public java.net.URLClassLoader(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +39,14 @@ implements org.j8unit.repository.java.net.URLClassLoaderClassTests<URLClassLoade
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final URLClassLoader sut = null; // = new URLClassLoader(URL[], ClassLoader, URLStreamHandlerFactory);
+        final URLClassLoader sut = null; // = new URLClassLoader(java.net.URL[], ClassLoader,
+                                         // java.net.URLStreamHandlerFactory);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URLClassLoader#URLClassLoader(URL[]) public
-     * java.net.URLClassLoader(java.net.URL[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.URLClassLoader#URLClassLoader(java.net.URL[]) public java.net.URLClassLoader(java.net.URL[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,13 +62,13 @@ implements org.j8unit.repository.java.net.URLClassLoaderClassTests<URLClassLoade
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final URLClassLoader sut = null; // = new URLClassLoader(URL[]);
+        final URLClassLoader sut = null; // = new URLClassLoader(java.net.URL[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URLClassLoader#URLClassLoader(URL[], ClassLoader) public
+     * {@link java.net.URLClassLoader#URLClassLoader(java.net.URL[], ClassLoader) public
      * java.net.URLClassLoader(java.net.URL[],java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,13 +85,14 @@ implements org.j8unit.repository.java.net.URLClassLoaderClassTests<URLClassLoade
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final URLClassLoader sut = null; // = new URLClassLoader(URL[], ClassLoader);
+        final URLClassLoader sut = null; // = new URLClassLoader(java.net.URL[], ClassLoader);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLClassLoader#newInstance(URL[], ClassLoader)
-     * public static java.net.URLClassLoader java.net.URLClassLoader.newInstance(java.net.URL[],java.lang.ClassLoader)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.URLClassLoader#newInstance(java.net.URL[], ClassLoader) public static java.net.URLClassLoader
+     * java.net.URLClassLoader.newInstance(java.net.URL[],java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,13 +106,13 @@ implements org.j8unit.repository.java.net.URLClassLoaderClassTests<URLClassLoade
     @Category(Draft.class)
     public void test_newInstance_URLArray_ClassLoader()
     throws Exception {
-        // write some test for {@link URLClassLoader#newInstance(URL[], ClassLoader)}
+        // write some test for {@link java.net.URLClassLoader#newInstance(java.net.URL[], ClassLoader)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLClassLoader#newInstance(URL[]) public static
-     * java.net.URLClassLoader java.net.URLClassLoader.newInstance(java.net.URL[])}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URLClassLoader#newInstance(java.net.URL[])
+     * public static java.net.URLClassLoader java.net.URLClassLoader.newInstance(java.net.URL[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +126,7 @@ implements org.j8unit.repository.java.net.URLClassLoaderClassTests<URLClassLoade
     @Category(Draft.class)
     public void test_newInstance_URLArray()
     throws Exception {
-        // write some test for {@link URLClassLoader#newInstance(URL[])}
+        // write some test for {@link java.net.URLClassLoader#newInstance(java.net.URL[])}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLClassLoader]

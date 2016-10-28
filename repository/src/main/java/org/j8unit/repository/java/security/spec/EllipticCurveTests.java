@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EllipticCurve#getA() public java.math.BigInteger
-     * java.security.spec.EllipticCurve.getA()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.EllipticCurve#getA() public
+     * java.math.BigInteger java.security.spec.EllipticCurve.getA()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EllipticCurve#getField() public
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.EllipticCurve#getField() public
      * java.security.spec.ECField java.security.spec.EllipticCurve.getField()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EllipticCurve#getB() public java.math.BigInteger
-     * java.security.spec.EllipticCurve.getB()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.EllipticCurve#getB() public
+     * java.math.BigInteger java.security.spec.EllipticCurve.getB()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EllipticCurve#getSeed() public byte[]
-     * java.security.spec.EllipticCurve.getSeed()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.EllipticCurve#getSeed() public
+     * byte[] java.security.spec.EllipticCurve.getSeed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EllipticCurve#equals(Object) public boolean
-     * java.security.spec.EllipticCurve.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.EllipticCurve#equals(Object)
+     * public boolean java.security.spec.EllipticCurve.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EllipticCurve#hashCode() public int
-     * java.security.spec.EllipticCurve.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.EllipticCurve#hashCode() public
+     * int java.security.spec.EllipticCurve.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

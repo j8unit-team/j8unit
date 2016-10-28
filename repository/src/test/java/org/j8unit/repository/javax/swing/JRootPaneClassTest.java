@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JRootPaneClassTests<JRootPane> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JRootPane#JRootPane() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JRootPane#JRootPane() public
      * javax.swing.JRootPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

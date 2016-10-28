@@ -26,29 +26,6 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding]
 
     @RunWith(J8Unit4.class)
-    public static class StyleTest
-    implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests<Style> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOfEnumClass(Style.class);
-        }
-
-        @Parameter(0)
-        public Style sut;
-
-        @Override
-        public Style createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class ParameterStyleTest
     implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests.ParameterStyleTests<ParameterStyle> {
 
@@ -56,7 +33,7 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOfEnumClass(ParameterStyle.class);
+            return testParametersOfEnumClass(ParameterStyle.class);
         }
 
         @Parameter(0)
@@ -68,6 +45,29 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$ParameterStyle]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class StyleTest
+    implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests<Style> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOfEnumClass(Style.class);
+        }
+
+        @Parameter(0)
+        public Style sut;
+
+        @Override
+        public Style createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
 
     }
 

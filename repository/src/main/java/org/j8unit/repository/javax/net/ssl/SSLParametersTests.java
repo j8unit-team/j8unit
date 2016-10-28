@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.security.AlgorithmConstraints;
-import java.util.Collection;
-import java.util.List;
 import javax.net.ssl.SSLParameters;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#setSNIMatchers(Collection) public
-     * final void javax.net.ssl.SSLParameters.setSNIMatchers(java.util.Collection<javax.net.ssl.SNIMatcher>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLParameters#setSNIMatchers(java.util.Collection) public final void
+     * javax.net.ssl.SSLParameters.setSNIMatchers(java.util.Collection<javax.net.ssl.SNIMatcher>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#setWantClientAuth(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLParameters#setWantClientAuth(boolean) public void
      * javax.net.ssl.SSLParameters.setWantClientAuth(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#setCipherSuites(String[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLParameters#setCipherSuites(String[]) public void
      * javax.net.ssl.SSLParameters.setCipherSuites(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#setServerNames(List) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLParameters#setServerNames(java.util.List) public final void
      * javax.net.ssl.SSLParameters.setServerNames(java.util.List<javax.net.ssl.SNIServerName>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +126,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#setUseCipherSuitesOrder(boolean)
-     * public final void javax.net.ssl.SSLParameters.setUseCipherSuitesOrder(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLParameters#setUseCipherSuitesOrder(boolean) public final void
+     * javax.net.ssl.SSLParameters.setUseCipherSuitesOrder(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +149,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#getUseCipherSuitesOrder() public final
-     * boolean javax.net.ssl.SSLParameters.getUseCipherSuitesOrder()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLParameters#getUseCipherSuitesOrder() public final boolean
+     * javax.net.ssl.SSLParameters.getUseCipherSuitesOrder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +173,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SSLParameters#setEndpointIdentificationAlgorithm(String) public void
+     * {@link javax.net.ssl.SSLParameters#setEndpointIdentificationAlgorithm(String) public void
      * javax.net.ssl.SSLParameters.setEndpointIdentificationAlgorithm(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,7 +196,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SSLParameters#setAlgorithmConstraints(AlgorithmConstraints) public void
+     * {@link javax.net.ssl.SSLParameters#setAlgorithmConstraints(java.security.AlgorithmConstraints) public void
      * javax.net.ssl.SSLParameters.setAlgorithmConstraints(java.security.AlgorithmConstraints)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +218,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#getServerNames() public final
-     * java.util.List<javax.net.ssl.SNIServerName> javax.net.ssl.SSLParameters.getServerNames()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLParameters#getServerNames() public
+     * final java.util.List<javax.net.ssl.SNIServerName> javax.net.ssl.SSLParameters.getServerNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +240,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#getAlgorithmConstraints() public
-     * java.security.AlgorithmConstraints javax.net.ssl.SSLParameters.getAlgorithmConstraints()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLParameters#getAlgorithmConstraints() public java.security.AlgorithmConstraints
+     * javax.net.ssl.SSLParameters.getAlgorithmConstraints()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +263,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#getEndpointIdentificationAlgorithm()
-     * public java.lang.String javax.net.ssl.SSLParameters.getEndpointIdentificationAlgorithm()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLParameters#getEndpointIdentificationAlgorithm() public java.lang.String
+     * javax.net.ssl.SSLParameters.getEndpointIdentificationAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +286,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#getWantClientAuth() public boolean
-     * javax.net.ssl.SSLParameters.getWantClientAuth()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLParameters#getWantClientAuth()
+     * public boolean javax.net.ssl.SSLParameters.getWantClientAuth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,7 +308,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#getProtocols() public
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLParameters#getProtocols() public
      * java.lang.String[] javax.net.ssl.SSLParameters.getProtocols()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -325,8 +330,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#setProtocols(String[]) public void
-     * javax.net.ssl.SSLParameters.setProtocols(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLParameters#setProtocols(String[])
+     * public void javax.net.ssl.SSLParameters.setProtocols(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,8 +352,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#getNeedClientAuth() public boolean
-     * javax.net.ssl.SSLParameters.getNeedClientAuth()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLParameters#getNeedClientAuth()
+     * public boolean javax.net.ssl.SSLParameters.getNeedClientAuth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,7 +374,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#getCipherSuites() public
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLParameters#getCipherSuites() public
      * java.lang.String[] javax.net.ssl.SSLParameters.getCipherSuites()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -391,7 +396,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#setNeedClientAuth(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLParameters#setNeedClientAuth(boolean) public void
      * javax.net.ssl.SSLParameters.setNeedClientAuth(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -413,8 +419,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLParameters#getSNIMatchers() public final
-     * java.util.Collection<javax.net.ssl.SNIMatcher> javax.net.ssl.SSLParameters.getSNIMatchers()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLParameters#getSNIMatchers() public
+     * final java.util.Collection<javax.net.ssl.SNIMatcher> javax.net.ssl.SSLParameters.getSNIMatchers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

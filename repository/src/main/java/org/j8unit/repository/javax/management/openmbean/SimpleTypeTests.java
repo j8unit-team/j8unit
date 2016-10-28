@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleType#equals(Object) public boolean
-     * javax.management.openmbean.SimpleType.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.SimpleType#equals(Object)
+     * public boolean javax.management.openmbean.SimpleType.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleType#hashCode() public int
-     * javax.management.openmbean.SimpleType.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.SimpleType#hashCode()
+     * public int javax.management.openmbean.SimpleType.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleType#readResolve() public java.lang.Object
-     * javax.management.openmbean.SimpleType.readResolve() throws java.io.ObjectStreamException}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.SimpleType#readResolve()
+     * public java.lang.Object javax.management.openmbean.SimpleType.readResolve() throws java.io.ObjectStreamException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +103,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleType#isValue(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.SimpleType#isValue(Object) public boolean
      * javax.management.openmbean.SimpleType.isValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +127,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleType#toString() public java.lang.String
-     * javax.management.openmbean.SimpleType.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.SimpleType#toString()
+     * public java.lang.String javax.management.openmbean.SimpleType.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

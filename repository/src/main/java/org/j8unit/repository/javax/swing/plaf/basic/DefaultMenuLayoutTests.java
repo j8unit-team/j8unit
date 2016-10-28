@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Container;
 import javax.swing.plaf.basic.DefaultMenuLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMenuLayout#preferredLayoutSize(Container)
-     * public java.awt.Dimension javax.swing.plaf.basic.DefaultMenuLayout.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.DefaultMenuLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.plaf.basic.DefaultMenuLayout.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

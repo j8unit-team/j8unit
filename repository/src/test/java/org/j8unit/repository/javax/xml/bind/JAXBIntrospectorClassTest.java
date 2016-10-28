@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBIntrospectorClassTests<JAXBI
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBIntrospector#JAXBIntrospector() public
-     * javax.xml.bind.JAXBIntrospector()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.JAXBIntrospector#JAXBIntrospector() public javax.xml.bind.JAXBIntrospector()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBIntrospectorClassTests<JAXBI
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBIntrospector#getValue(Object) public static
-     * java.lang.Object javax.xml.bind.JAXBIntrospector.getValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBIntrospector#getValue(Object)
+     * public static java.lang.Object javax.xml.bind.JAXBIntrospector.getValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ implements org.j8unit.repository.javax.xml.bind.JAXBIntrospectorClassTests<JAXBI
     @Category(Draft.class)
     public void test_getValue_Object()
     throws Exception {
-        // write some test for {@link JAXBIntrospector#getValue(Object)}
+        // write some test for {@link javax.xml.bind.JAXBIntrospector#getValue(Object)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBIntrospector]

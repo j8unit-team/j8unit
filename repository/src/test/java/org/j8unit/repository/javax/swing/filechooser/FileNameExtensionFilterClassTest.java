@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.filechooser.FileNameExtensionFilter
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FileNameExtensionFilter#FileNameExtensionFilter(String, String...) public
+     * {@link javax.swing.filechooser.FileNameExtensionFilter#FileNameExtensionFilter(String, String...) public
      * javax.swing.filechooser.FileNameExtensionFilter(java.lang.String,java.lang.String...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

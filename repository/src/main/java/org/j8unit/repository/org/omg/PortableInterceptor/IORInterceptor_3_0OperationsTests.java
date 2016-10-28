@@ -5,9 +5,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableInterceptor.IORInfo;
 import org.omg.PortableInterceptor.IORInterceptor_3_0Operations;
-import org.omg.PortableInterceptor.ObjectReferenceTemplate;
 
 /**
  * <p>
@@ -38,7 +36,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperatio
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IORInterceptor_3_0Operations#adapter_state_changed(ObjectReferenceTemplate[], short) public abstract void
+     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Operations#adapter_state_changed(org.omg.PortableInterceptor.ObjectReferenceTemplate[], short)
+     * public abstract void
      * org.omg.PortableInterceptor.IORInterceptor_3_0Operations.adapter_state_changed(org.omg.PortableInterceptor.ObjectReferenceTemplate[],short)}
      * .
      *
@@ -62,8 +61,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperatio
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IORInterceptor_3_0Operations#adapter_manager_state_changed(int, short) public abstract void
-     * org.omg.PortableInterceptor.IORInterceptor_3_0Operations.adapter_manager_state_changed(int,short)}.
+     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Operations#adapter_manager_state_changed(int, short) public
+     * abstract void org.omg.PortableInterceptor.IORInterceptor_3_0Operations.adapter_manager_state_changed(int,short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +84,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperatio
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IORInterceptor_3_0Operations#components_established(IORInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Operations#components_established(org.omg.PortableInterceptor.IORInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.IORInterceptor_3_0Operations.components_established(org.omg.PortableInterceptor.IORInfo)}
      * .
      *

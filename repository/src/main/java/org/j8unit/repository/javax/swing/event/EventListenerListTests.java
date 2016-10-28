@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import java.util.EventListener;
 import javax.swing.event.EventListenerList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventListenerList#getListeners(Class) public <T> T[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.EventListenerList#getListeners(Class) public <T> T[]
      * javax.swing.event.EventListenerList.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventListenerList#add(Class, EventListener) public
-     * synchronized <T> void javax.swing.event.EventListenerList.add(java.lang.Class<T>,T)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.EventListenerList#add(Class, java.util.EventListener) public synchronized <T> void
+     * javax.swing.event.EventListenerList.add(java.lang.Class<T>,T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventListenerList#getListenerList() public
-     * java.lang.Object[] javax.swing.event.EventListenerList.getListenerList()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.EventListenerList#getListenerList() public java.lang.Object[]
+     * javax.swing.event.EventListenerList.getListenerList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventListenerList#remove(Class, EventListener)
-     * public synchronized <T> void javax.swing.event.EventListenerList.remove(java.lang.Class<T>,T)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.EventListenerList#remove(Class, java.util.EventListener) public synchronized <T> void
+     * javax.swing.event.EventListenerList.remove(java.lang.Class<T>,T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +126,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventListenerList#getListenerCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.EventListenerList#getListenerCount() public int
      * javax.swing.event.EventListenerList.getListenerCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +149,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventListenerList#getListenerCount(Class) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.EventListenerList#getListenerCount(Class) public int
      * javax.swing.event.EventListenerList.getListenerCount(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +172,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventListenerList#toString() public java.lang.String
-     * javax.swing.event.EventListenerList.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.EventListenerList#toString()
+     * public java.lang.String javax.swing.event.EventListenerList.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Refreshable#refresh() public abstract void
-     * javax.security.auth.Refreshable.refresh() throws javax.security.auth.RefreshFailedException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.Refreshable#refresh() public
+     * abstract void javax.security.auth.Refreshable.refresh() throws javax.security.auth.RefreshFailedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Refreshable#isCurrent() public abstract boolean
-     * javax.security.auth.Refreshable.isCurrent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.Refreshable#isCurrent() public
+     * abstract boolean javax.security.auth.Refreshable.isCurrent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

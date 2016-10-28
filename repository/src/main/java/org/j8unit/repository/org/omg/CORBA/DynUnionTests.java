@@ -34,7 +34,7 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnion#member() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynUnion#member() public abstract
      * org.omg.CORBA.DynAny org.omg.CORBA.DynUnion.member()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnion#member_name() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynUnion#member_name() public abstract
      * java.lang.String org.omg.CORBA.DynUnion.member_name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnion#member_name(String) public abstract void
-     * org.omg.CORBA.DynUnion.member_name(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynUnion#member_name(String) public
+     * abstract void org.omg.CORBA.DynUnion.member_name(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnion#discriminator() public abstract
-     * org.omg.CORBA.DynAny org.omg.CORBA.DynUnion.discriminator()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynUnion#discriminator() public
+     * abstract org.omg.CORBA.DynAny org.omg.CORBA.DynUnion.discriminator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnion#discriminator_kind() public abstract
-     * org.omg.CORBA.TCKind org.omg.CORBA.DynUnion.discriminator_kind()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynUnion#discriminator_kind() public
+     * abstract org.omg.CORBA.TCKind org.omg.CORBA.DynUnion.discriminator_kind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,7 +144,7 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnion#member_kind() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynUnion#member_kind() public abstract
      * org.omg.CORBA.TCKind org.omg.CORBA.DynUnion.member_kind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,8 +166,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnion#set_as_default(boolean) public abstract
-     * void org.omg.CORBA.DynUnion.set_as_default(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynUnion#set_as_default(boolean)
+     * public abstract void org.omg.CORBA.DynUnion.set_as_default(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +188,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnion#set_as_default() public abstract boolean
-     * org.omg.CORBA.DynUnion.set_as_default()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynUnion#set_as_default() public
+     * abstract boolean org.omg.CORBA.DynUnion.set_as_default()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

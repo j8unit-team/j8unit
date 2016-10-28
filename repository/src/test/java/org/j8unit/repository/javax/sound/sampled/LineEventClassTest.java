@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.sampled;
 
-import javax.sound.sampled.Line;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineEvent.Type;
 import org.j8unit.repository.categories.Draft;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.javax.sound.sampled.LineEventClassTests<LineEve
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LineEvent#LineEvent(Line, Type, long) public
-     * javax.sound.sampled.LineEvent(javax.sound.sampled.Line,javax.sound.sampled.LineEvent$Type,long)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.sampled.LineEvent#LineEvent(javax.sound.sampled.Line, javax.sound.sampled.LineEvent.Type, long)
+     * public javax.sound.sampled.LineEvent(javax.sound.sampled.Line,javax.sound.sampled.LineEvent$Type,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +40,8 @@ implements org.j8unit.repository.javax.sound.sampled.LineEventClassTests<LineEve
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LineEvent sut = null; // = new LineEvent(Line, Type, long);
+        final LineEvent sut = null; // = new LineEvent(javax.sound.sampled.Line, javax.sound.sampled.LineEvent.Type,
+                                    // long);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.LineEvent]

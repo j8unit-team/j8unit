@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#toString() public java.lang.String
-     * java.security.PKCS12Attribute.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PKCS12Attribute#toString() public
+     * java.lang.String java.security.PKCS12Attribute.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#getName() public java.lang.String
-     * java.security.PKCS12Attribute.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PKCS12Attribute#getName() public
+     * java.lang.String java.security.PKCS12Attribute.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#getValue() public java.lang.String
-     * java.security.PKCS12Attribute.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PKCS12Attribute#getValue() public
+     * java.lang.String java.security.PKCS12Attribute.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#getEncoded() public byte[]
-     * java.security.PKCS12Attribute.getEncoded()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PKCS12Attribute#getEncoded() public
+     * byte[] java.security.PKCS12Attribute.getEncoded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.PKCS12Attribute#hashCode() public int
      * java.security.PKCS12Attribute.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#equals(Object) public boolean
-     * java.security.PKCS12Attribute.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PKCS12Attribute#equals(Object) public
+     * boolean java.security.PKCS12Attribute.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

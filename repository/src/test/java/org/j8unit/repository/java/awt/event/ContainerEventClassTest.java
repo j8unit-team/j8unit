@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.Component;
 import java.awt.event.ContainerEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.event.ContainerEventClassTests<Contain
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ContainerEvent#ContainerEvent(Component, int, Component) public
+     * {@link java.awt.event.ContainerEvent#ContainerEvent(java.awt.Component, int, java.awt.Component) public
      * java.awt.event.ContainerEvent(java.awt.Component,int,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.awt.event.ContainerEventClassTests<Contain
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ContainerEvent sut = null; // = new ContainerEvent(Component, int, Component);
+        final ContainerEvent sut = null; // = new ContainerEvent(java.awt.Component, int, java.awt.Component);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ContainerEvent]

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.logging.LogManagerClassTests<LogManag
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#getLogManager() public static
-     * java.util.logging.LogManager java.util.logging.LogManager.getLogManager()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogManager#getLogManager() public
+     * static java.util.logging.LogManager java.util.logging.LogManager.getLogManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.util.logging.LogManagerClassTests<LogManag
     @Category(Draft.class)
     public void test_getLogManager()
     throws Exception {
-        // write some test for {@link LogManager#getLogManager()}
+        // write some test for {@link java.util.logging.LogManager#getLogManager()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#getLoggingMXBean() public static
-     * synchronized java.util.logging.LoggingMXBean java.util.logging.LogManager.getLoggingMXBean()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogManager#getLoggingMXBean()
+     * public static synchronized java.util.logging.LoggingMXBean java.util.logging.LogManager.getLoggingMXBean()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.util.logging.LogManagerClassTests<LogManag
     @Category(Draft.class)
     public void test_getLoggingMXBean()
     throws Exception {
-        // write some test for {@link LogManager#getLoggingMXBean()}
+        // write some test for {@link java.util.logging.LogManager#getLoggingMXBean()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.LogManager]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
 import java.util.concurrent.ArrayBlockingQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +23,7 @@ implements org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ArrayBlockingQueue#ArrayBlockingQueue(int, boolean) public
+     * {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int, boolean) public
      * java.util.concurrent.ArrayBlockingQueue(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,7 +46,7 @@ implements org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ArrayBlockingQueue#ArrayBlockingQueue(int, boolean, Collection) public
+     * {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int, boolean, java.util.Collection) public
      * java.util.concurrent.ArrayBlockingQueue(int,boolean,java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +63,14 @@ implements org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ArrayBlockingQueue sut = null; // = new ArrayBlockingQueue(int, boolean, Collection);
+        final ArrayBlockingQueue sut = null; // = new ArrayBlockingQueue(int, boolean, java.util.Collection);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ArrayBlockingQueue#ArrayBlockingQueue(int)
-     * public java.util.concurrent.ArrayBlockingQueue(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int) public
+     * java.util.concurrent.ArrayBlockingQueue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

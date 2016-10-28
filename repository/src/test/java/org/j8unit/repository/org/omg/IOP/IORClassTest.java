@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.IOR;
-import org.omg.IOP.TaggedProfile;
 
 @RunWith(J8Unit4.class)
 public class IORClassTest
@@ -22,7 +21,8 @@ implements org.j8unit.repository.org.omg.IOP.IORClassTests<IOR> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IOR#IOR() public org.omg.IOP.IOR()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.IOP.IOR#IOR() public org.omg.IOP.IOR()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.org.omg.IOP.IORClassTests<IOR> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IOR#IOR(String, TaggedProfile[]) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.IOR#IOR(String, org.omg.IOP.TaggedProfile[]) public
      * org.omg.IOP.IOR(java.lang.String,org.omg.IOP.TaggedProfile[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +60,7 @@ implements org.j8unit.repository.org.omg.IOP.IORClassTests<IOR> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IOR sut = null; // = new IOR(String, TaggedProfile[]);
+        final IOR sut = null; // = new IOR(String, org.omg.IOP.TaggedProfile[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.IOR]

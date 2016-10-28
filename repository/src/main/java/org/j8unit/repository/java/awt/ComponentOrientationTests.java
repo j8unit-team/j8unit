@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentOrientation#isHorizontal() public boolean
-     * java.awt.ComponentOrientation.isHorizontal()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ComponentOrientation#isHorizontal() public
+     * boolean java.awt.ComponentOrientation.isHorizontal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentOrientation#isLeftToRight() public boolean
-     * java.awt.ComponentOrientation.isLeftToRight()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ComponentOrientation#isLeftToRight() public
+     * boolean java.awt.ComponentOrientation.isLeftToRight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

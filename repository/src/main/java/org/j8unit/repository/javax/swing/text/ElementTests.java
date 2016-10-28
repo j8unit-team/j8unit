@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#isLeaf() public abstract boolean
-     * javax.swing.text.Element.isLeaf()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#isLeaf() public abstract
+     * boolean javax.swing.text.Element.isLeaf()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,30 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getElement(int) public abstract
-     * javax.swing.text.Element javax.swing.text.Element.getElement(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElement_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getDocument() public abstract
-     * javax.swing.text.Document javax.swing.text.Element.getDocument()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#getDocument() public
+     * abstract javax.swing.text.Document javax.swing.text.Element.getDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +79,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getEndOffset() public abstract int
-     * javax.swing.text.Element.getEndOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#getElement(int) public
+     * abstract javax.swing.text.Element javax.swing.text.Element.getElement(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElement_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#getEndOffset() public
+     * abstract int javax.swing.text.Element.getEndOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getStartOffset() public abstract int
-     * javax.swing.text.Element.getStartOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#getStartOffset() public
+     * abstract int javax.swing.text.Element.getStartOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getElementCount() public abstract int
-     * javax.swing.text.Element.getElementCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#getElementCount() public
+     * abstract int javax.swing.text.Element.getElementCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getParentElement() public abstract
-     * javax.swing.text.Element javax.swing.text.Element.getParentElement()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#getParentElement() public
+     * abstract javax.swing.text.Element javax.swing.text.Element.getParentElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getElementIndex(int) public abstract int
-     * javax.swing.text.Element.getElementIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#getElementIndex(int) public
+     * abstract int javax.swing.text.Element.getElementIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAttributes() public abstract
-     * javax.swing.text.AttributeSet javax.swing.text.Element.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#getAttributes() public
+     * abstract javax.swing.text.AttributeSet javax.swing.text.Element.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +233,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getName() public abstract java.lang.String
-     * javax.swing.text.Element.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Element#getName() public abstract
+     * java.lang.String javax.swing.text.Element.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

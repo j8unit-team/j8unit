@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getMinutes() public int
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#getMinutes() public int
      * java.sql.Date.getMinutes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setTime(long) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#setTime(long) public void
      * java.sql.Date.setTime(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#toInstant() public java.time.Instant
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#toInstant() public java.time.Instant
      * java.sql.Date.toInstant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setMinutes(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#setMinutes(int) public void
      * java.sql.Date.setMinutes(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#toString() public java.lang.String
      * java.sql.Date.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +149,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setSeconds(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#setSeconds(int) public void
      * java.sql.Date.setSeconds(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +172,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#setHours(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#setHours(int) public void
      * java.sql.Date.setHours(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,8 +195,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#toLocalDate() public java.time.LocalDate
-     * java.sql.Date.toLocalDate()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#toLocalDate() public
+     * java.time.LocalDate java.sql.Date.toLocalDate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,7 +217,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getSeconds() public int
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#getSeconds() public int
      * java.sql.Date.getSeconds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,8 +240,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#getHours() public int java.sql.Date.getHours()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#getHours() public int
+     * java.sql.Date.getHours()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

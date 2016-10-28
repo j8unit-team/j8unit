@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.security.cert.CertPathParameters;
 import javax.net.ssl.CertPathTrustManagerParameters;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.net.ssl.CertPathTrustManagerParametersCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertPathTrustManagerParameters#CertPathTrustManagerParameters(CertPathParameters) public
-     * javax.net.ssl.CertPathTrustManagerParameters(java.security.cert.CertPathParameters)}.
+     * {@link javax.net.ssl.CertPathTrustManagerParameters#CertPathTrustManagerParameters(java.security.cert.CertPathParameters)
+     * public javax.net.ssl.CertPathTrustManagerParameters(java.security.cert.CertPathParameters)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.javax.net.ssl.CertPathTrustManagerParametersCla
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CertPathTrustManagerParameters sut = null; // = new CertPathTrustManagerParameters(CertPathParameters);
+        final CertPathTrustManagerParameters sut = null; // = new
+                                                         // CertPathTrustManagerParameters(java.security.cert.CertPathParameters);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.CertPathTrustManagerParameters]

@@ -35,8 +35,9 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RequestProcessingPolicyOperations#value() public
-     * abstract org.omg.PortableServer.RequestProcessingPolicyValue
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.RequestProcessingPolicyOperations#value() public abstract
+     * org.omg.PortableServer.RequestProcessingPolicyValue
      * org.omg.PortableServer.RequestProcessingPolicyOperations.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

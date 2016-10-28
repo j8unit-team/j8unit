@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.event.InvocationEventClassTests<Invoca
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvocationEvent#InvocationEvent(Object, Runnable, Runnable, boolean) public
+     * {@link java.awt.event.InvocationEvent#InvocationEvent(Object, Runnable, Runnable, boolean) public
      * java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Runnable,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.awt.event.InvocationEventClassTests<Invoca
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvocationEvent#InvocationEvent(Object, Runnable, Object, boolean) public
+     * {@link java.awt.event.InvocationEvent#InvocationEvent(Object, Runnable, Object, boolean) public
      * java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Object,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.awt.event.InvocationEventClassTests<Invoca
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvocationEvent#InvocationEvent(Object, Runnable) public
+     * {@link java.awt.event.InvocationEvent#InvocationEvent(Object, Runnable) public
      * java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

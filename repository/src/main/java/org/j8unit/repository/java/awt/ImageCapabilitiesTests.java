@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageCapabilities#clone() public java.lang.Object
-     * java.awt.ImageCapabilities.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ImageCapabilities#clone() public
+     * java.lang.Object java.awt.ImageCapabilities.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageCapabilities#isAccelerated() public boolean
-     * java.awt.ImageCapabilities.isAccelerated()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ImageCapabilities#isAccelerated() public
+     * boolean java.awt.ImageCapabilities.isAccelerated()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageCapabilities#isTrueVolatile() public boolean
-     * java.awt.ImageCapabilities.isTrueVolatile()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ImageCapabilities#isTrueVolatile() public
+     * boolean java.awt.ImageCapabilities.isTrueVolatile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

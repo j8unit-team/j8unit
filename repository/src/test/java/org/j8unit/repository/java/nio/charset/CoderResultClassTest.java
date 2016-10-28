@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.nio.charset.CoderResultClassTests<CoderRes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#unmappableForLength(int) public static
-     * java.nio.charset.CoderResult java.nio.charset.CoderResult.unmappableForLength(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.CoderResult#unmappableForLength(int) public static java.nio.charset.CoderResult
+     * java.nio.charset.CoderResult.unmappableForLength(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +37,13 @@ implements org.j8unit.repository.java.nio.charset.CoderResultClassTests<CoderRes
     @Category(Draft.class)
     public void test_unmappableForLength_int()
     throws Exception {
-        // write some test for {@link CoderResult#unmappableForLength(int)}
+        // write some test for {@link java.nio.charset.CoderResult#unmappableForLength(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CoderResult#malformedForLength(int) public static
-     * java.nio.charset.CoderResult java.nio.charset.CoderResult.malformedForLength(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CoderResult#malformedForLength(int)
+     * public static java.nio.charset.CoderResult java.nio.charset.CoderResult.malformedForLength(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,7 @@ implements org.j8unit.repository.java.nio.charset.CoderResultClassTests<CoderRes
     @Category(Draft.class)
     public void test_malformedForLength_int()
     throws Exception {
-        // write some test for {@link CoderResult#malformedForLength(int)}
+        // write some test for {@link java.nio.charset.CoderResult#malformedForLength(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.CoderResult]

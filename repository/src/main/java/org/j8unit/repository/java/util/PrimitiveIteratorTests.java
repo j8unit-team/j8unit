@@ -4,7 +4,6 @@ import java.util.PrimitiveIterator;
 import java.util.PrimitiveIterator.OfDouble;
 import java.util.PrimitiveIterator.OfInt;
 import java.util.PrimitiveIterator.OfLong;
-import java.util.function.Consumer;
 import java.util.function.DoubleConsumer;
 import java.util.function.IntConsumer;
 import java.util.function.LongConsumer;
@@ -41,8 +40,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrimitiveIterator#forEachRemaining(Object) public
-     * abstract void java.util.PrimitiveIterator.forEachRemaining(T_CONS)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator#forEachRemaining(Object)
+     * public abstract void java.util.PrimitiveIterator.forEachRemaining(T_CONS)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,8 +89,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfDouble#next() public default java.lang.Double
-         * java.util.PrimitiveIterator$OfDouble.next()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator.OfDouble#next()
+         * public default java.lang.Double java.util.PrimitiveIterator$OfDouble.next()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -113,9 +112,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfDouble#forEachRemaining(Consumer) public
-         * default void java.util.PrimitiveIterator$OfDouble.forEachRemaining(java.util.function.Consumer<? super
-         * java.lang.Double>)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.PrimitiveIterator.OfDouble#forEachRemaining(java.util.function.Consumer) public default void
+         * java.util.PrimitiveIterator$OfDouble.forEachRemaining(java.util.function.Consumer<? super java.lang.Double>)}
+         * .
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -137,7 +137,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfDouble#forEachRemaining(DoubleConsumer) public
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.PrimitiveIterator.OfDouble#forEachRemaining(java.util.function.DoubleConsumer) public
          * default void java.util.PrimitiveIterator$OfDouble.forEachRemaining(java.util.function.DoubleConsumer)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -159,7 +160,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfDouble#nextDouble() public abstract double
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.PrimitiveIterator.OfDouble#nextDouble() public abstract double
          * java.util.PrimitiveIterator$OfDouble.nextDouble()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,8 +212,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfInt#next() public default java.lang.Integer
-         * java.util.PrimitiveIterator$OfInt.next()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator.OfInt#next() public
+         * default java.lang.Integer java.util.PrimitiveIterator$OfInt.next()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -233,9 +235,9 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfInt#forEachRemaining(Consumer) public default
-         * void java.util.PrimitiveIterator$OfInt.forEachRemaining(java.util.function.Consumer<? super
-         * java.lang.Integer>)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.PrimitiveIterator.OfInt#forEachRemaining(java.util.function.Consumer) public default void
+         * java.util.PrimitiveIterator$OfInt.forEachRemaining(java.util.function.Consumer<? super java.lang.Integer>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -257,8 +259,9 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfInt#forEachRemaining(IntConsumer) public
-         * default void java.util.PrimitiveIterator$OfInt.forEachRemaining(java.util.function.IntConsumer)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.PrimitiveIterator.OfInt#forEachRemaining(java.util.function.IntConsumer) public default void
+         * java.util.PrimitiveIterator$OfInt.forEachRemaining(java.util.function.IntConsumer)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -279,8 +282,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfInt#nextInt() public abstract int
-         * java.util.PrimitiveIterator$OfInt.nextInt()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator.OfInt#nextInt()
+         * public abstract int java.util.PrimitiveIterator$OfInt.nextInt()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -330,8 +333,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfLong#next() public default java.lang.Long
-         * java.util.PrimitiveIterator$OfLong.next()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator.OfLong#next() public
+         * default java.lang.Long java.util.PrimitiveIterator$OfLong.next()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -353,8 +356,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfLong#nextLong() public abstract long
-         * java.util.PrimitiveIterator$OfLong.nextLong()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator.OfLong#nextLong()
+         * public abstract long java.util.PrimitiveIterator$OfLong.nextLong()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -375,8 +378,9 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfLong#forEachRemaining(LongConsumer) public
-         * default void java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.LongConsumer)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.LongConsumer) public default
+         * void java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.LongConsumer)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -397,9 +401,9 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link OfLong#forEachRemaining(Consumer) public default
-         * void java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.Consumer<? super
-         * java.lang.Long>)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.Consumer) public default void
+         * java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.Consumer<? super java.lang.Long>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

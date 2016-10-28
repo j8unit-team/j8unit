@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.logging;
 
 import java.util.logging.Formatter;
-import java.util.logging.Handler;
-import java.util.logging.LogRecord;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#format(LogRecord) public abstract
-     * java.lang.String java.util.logging.Formatter.format(java.util.logging.LogRecord)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Formatter#format(java.util.logging.LogRecord) public abstract java.lang.String
+     * java.util.logging.Formatter.format(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#getHead(Handler) public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Formatter#getHead(java.util.logging.Handler) public java.lang.String
      * java.util.logging.Formatter.getHead(java.util.logging.Handler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#getTail(Handler) public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Formatter#getTail(java.util.logging.Handler) public java.lang.String
      * java.util.logging.Formatter.getTail(java.util.logging.Handler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Formatter#formatMessage(LogRecord) public
-     * synchronized java.lang.String java.util.logging.Formatter.formatMessage(java.util.logging.LogRecord)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Formatter#formatMessage(java.util.logging.LogRecord) public synchronized
+     * java.lang.String java.util.logging.Formatter.formatMessage(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

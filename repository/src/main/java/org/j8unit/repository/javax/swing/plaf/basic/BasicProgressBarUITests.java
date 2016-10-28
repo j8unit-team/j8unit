@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
-import javax.swing.event.ChangeEvent;
 import javax.swing.plaf.basic.BasicProgressBarUI;
 import javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler;
 import org.j8unit.repository.categories.Draft;
@@ -38,8 +35,9 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicProgressBarUI#getBaseline(JComponent, int, int)
-     * public int javax.swing.plaf.basic.BasicProgressBarUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#getBaseline(javax.swing.JComponent, int, int) public int
+     * javax.swing.plaf.basic.BasicProgressBarUI.getBaseline(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +59,8 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicProgressBarUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicProgressBarUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +83,9 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicProgressBarUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicProgressBarUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicProgressBarUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +107,9 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicProgressBarUI#getPreferredSize(JComponent)
-     * public java.awt.Dimension javax.swing.plaf.basic.BasicProgressBarUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicProgressBarUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +131,9 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicProgressBarUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicProgressBarUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicProgressBarUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,7 +156,8 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicProgressBarUI#getBaselineResizeBehavior(JComponent) public java.awt.Component$BaselineResizeBehavior
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#getBaselineResizeBehavior(javax.swing.JComponent) public
+     * java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.basic.BasicProgressBarUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +180,9 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicProgressBarUI#uninstallUI(JComponent) public
-     * void javax.swing.plaf.basic.BasicProgressBarUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicProgressBarUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +204,9 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicProgressBarUI#paint(Graphics, JComponent)
-     * public void javax.swing.plaf.basic.BasicProgressBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicProgressBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -250,8 +255,10 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChangeHandler#stateChanged(ChangeEvent) public
-         * void javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler.stateChanged(javax.swing.event.ChangeEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler#stateChanged(javax.swing.event.ChangeEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler.stateChanged(javax.swing.event.ChangeEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

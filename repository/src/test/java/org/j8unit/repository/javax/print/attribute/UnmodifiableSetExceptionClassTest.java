@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.print.attribute.UnmodifiableSetExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmodifiableSetException#UnmodifiableSetException() public
+     * {@link javax.print.attribute.UnmodifiableSetException#UnmodifiableSetException() public
      * javax.print.attribute.UnmodifiableSetException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.print.attribute.UnmodifiableSetExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmodifiableSetException#UnmodifiableSetException(String) public
+     * {@link javax.print.attribute.UnmodifiableSetException#UnmodifiableSetException(String) public
      * javax.print.attribute.UnmodifiableSetException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

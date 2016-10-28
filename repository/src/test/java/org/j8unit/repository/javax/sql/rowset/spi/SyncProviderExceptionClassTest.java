@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.sql.rowset.spi;
 
 import javax.sql.rowset.spi.SyncProviderException;
-import javax.sql.rowset.spi.SyncResolver;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.sql.rowset.spi.SyncProviderExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SyncProviderException#SyncProviderException(SyncResolver) public
+     * {@link javax.sql.rowset.spi.SyncProviderException#SyncProviderException(javax.sql.rowset.spi.SyncResolver) public
      * javax.sql.rowset.spi.SyncProviderException(javax.sql.rowset.spi.SyncResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.javax.sql.rowset.spi.SyncProviderExceptionClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SyncProviderException sut = null; // = new SyncProviderException(SyncResolver);
+        final SyncProviderException sut = null; // = new SyncProviderException(javax.sql.rowset.spi.SyncResolver);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SyncProviderException#SyncProviderException(String) public
+     * {@link javax.sql.rowset.spi.SyncProviderException#SyncProviderException(String) public
      * javax.sql.rowset.spi.SyncProviderException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +67,9 @@ implements org.j8unit.repository.javax.sql.rowset.spi.SyncProviderExceptionClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SyncProviderException#SyncProviderException()
-     * public javax.sql.rowset.spi.SyncProviderException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.spi.SyncProviderException#SyncProviderException() public
+     * javax.sql.rowset.spi.SyncProviderException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

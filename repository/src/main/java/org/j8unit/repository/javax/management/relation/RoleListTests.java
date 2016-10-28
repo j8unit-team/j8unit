@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.relation;
 
-import java.util.Collection;
-import javax.management.relation.Role;
 import javax.management.relation.RoleList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#addAll(int, RoleList) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleList#addAll(int, javax.management.relation.RoleList) public boolean
      * javax.management.relation.RoleList.addAll(int,javax.management.relation.RoleList) throws
      * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
      *
@@ -59,7 +58,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#addAll(RoleList) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleList#addAll(javax.management.relation.RoleList) public boolean
      * javax.management.relation.RoleList.addAll(javax.management.relation.RoleList) throws
      * java.lang.IndexOutOfBoundsException}.
      *
@@ -82,7 +82,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#addAll(int, Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleList#addAll(int, java.util.Collection) public boolean
      * javax.management.relation.RoleList.addAll(int,java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +106,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#addAll(Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleList#addAll(java.util.Collection) public boolean
      * javax.management.relation.RoleList.addAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,7 +130,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#add(Role) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleList#add(javax.management.relation.Role) public void
      * javax.management.relation.RoleList.add(javax.management.relation.Role) throws java.lang.IllegalArgumentException}
      * .
      *
@@ -151,8 +154,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#add(int, Object) public void
-     * javax.management.relation.RoleList.add(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleList#add(int, Object)
+     * public void javax.management.relation.RoleList.add(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +177,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#add(Object) public boolean
-     * javax.management.relation.RoleList.add(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleList#add(Object)
+     * public boolean javax.management.relation.RoleList.add(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,7 +200,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#add(int, Role) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleList#add(int, javax.management.relation.Role) public void
      * javax.management.relation.RoleList.add(int,javax.management.relation.Role) throws
      * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
      *
@@ -220,7 +224,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#set(int, Role) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleList#set(int, javax.management.relation.Role) public void
      * javax.management.relation.RoleList.set(int,javax.management.relation.Role) throws
      * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
      *
@@ -243,8 +248,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#set(int, Object) public java.lang.Object
-     * javax.management.relation.RoleList.set(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleList#set(int, Object)
+     * public java.lang.Object javax.management.relation.RoleList.set(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -266,8 +271,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleList#asList() public java.util.List
-     * <javax.management.relation.Role> javax.management.relation.RoleList.asList()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleList#asList() public
+     * java.util.List<javax.management.relation.Role> javax.management.relation.RoleList.asList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

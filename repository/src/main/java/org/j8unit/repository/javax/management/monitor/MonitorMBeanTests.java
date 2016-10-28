@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.monitor;
 
-import javax.management.ObjectName;
 import javax.management.monitor.MonitorMBean;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#getObservedAttribute() public abstract
-     * java.lang.String javax.management.monitor.MonitorMBean.getObservedAttribute()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#getObservedAttribute() public abstract java.lang.String
+     * javax.management.monitor.MonitorMBean.getObservedAttribute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#isActive() public abstract boolean
-     * javax.management.monitor.MonitorMBean.isActive()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.MonitorMBean#isActive()
+     * public abstract boolean javax.management.monitor.MonitorMBean.isActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#getGranularityPeriod() public abstract
-     * long javax.management.monitor.MonitorMBean.getGranularityPeriod()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#getGranularityPeriod() public abstract long
+     * javax.management.monitor.MonitorMBean.getGranularityPeriod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#start() public abstract void
-     * javax.management.monitor.MonitorMBean.start()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.MonitorMBean#start() public
+     * abstract void javax.management.monitor.MonitorMBean.start()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#setObservedAttribute(String) public
-     * abstract void javax.management.monitor.MonitorMBean.setObservedAttribute(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#setObservedAttribute(String) public abstract void
+     * javax.management.monitor.MonitorMBean.setObservedAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +148,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#setObservedObject(ObjectName) public
-     * abstract void javax.management.monitor.MonitorMBean.setObservedObject(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#setObservedObject(javax.management.ObjectName) public abstract void
+     * javax.management.monitor.MonitorMBean.setObservedObject(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +171,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#stop() public abstract void
-     * javax.management.monitor.MonitorMBean.stop()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.MonitorMBean#stop() public
+     * abstract void javax.management.monitor.MonitorMBean.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +193,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#getObservedObjects() public abstract
-     * javax.management.ObjectName[] javax.management.monitor.MonitorMBean.getObservedObjects()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#getObservedObjects() public abstract javax.management.ObjectName[]
+     * javax.management.monitor.MonitorMBean.getObservedObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,9 +216,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#setGranularityPeriod(long) public
-     * abstract void javax.management.monitor.MonitorMBean.setGranularityPeriod(long) throws
-     * java.lang.IllegalArgumentException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#setGranularityPeriod(long) public abstract void
+     * javax.management.monitor.MonitorMBean.setGranularityPeriod(long) throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +239,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#addObservedObject(ObjectName) public
-     * abstract void javax.management.monitor.MonitorMBean.addObservedObject(javax.management.ObjectName) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#addObservedObject(javax.management.ObjectName) public abstract void
+     * javax.management.monitor.MonitorMBean.addObservedObject(javax.management.ObjectName) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +263,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#getObservedObject() public abstract
-     * javax.management.ObjectName javax.management.monitor.MonitorMBean.getObservedObject()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#getObservedObject() public abstract javax.management.ObjectName
+     * javax.management.monitor.MonitorMBean.getObservedObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,8 +286,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#removeObservedObject(ObjectName) public
-     * abstract void javax.management.monitor.MonitorMBean.removeObservedObject(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#removeObservedObject(javax.management.ObjectName) public abstract
+     * void javax.management.monitor.MonitorMBean.removeObservedObject(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,9 +309,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorMBean#containsObservedObject(ObjectName)
-     * public abstract boolean
-     * javax.management.monitor.MonitorMBean.containsObservedObject(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.MonitorMBean#containsObservedObject(javax.management.ObjectName) public abstract
+     * boolean javax.management.monitor.MonitorMBean.containsObservedObject(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

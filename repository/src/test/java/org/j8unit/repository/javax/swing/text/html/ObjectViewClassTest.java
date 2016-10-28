@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import javax.swing.text.Element;
 import javax.swing.text.html.ObjectView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.ObjectViewClassTests<Obje
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectView#ObjectView(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.ObjectView#ObjectView(javax.swing.text.Element) public
      * javax.swing.text.html.ObjectView(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.html.ObjectViewClassTests<Obje
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ObjectView sut = null; // = new ObjectView(Element);
+        final ObjectView sut = null; // = new ObjectView(javax.swing.text.Element);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.ObjectView]

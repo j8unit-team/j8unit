@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.net.Socket;
-import java.security.Principal;
 import javax.net.ssl.X509KeyManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,9 +34,9 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509KeyManager#getClientAliases(String, Principal[])
-     * public abstract java.lang.String[]
-     * javax.net.ssl.X509KeyManager.getClientAliases(java.lang.String,java.security.Principal[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.X509KeyManager#getClientAliases(String, java.security.Principal[]) public abstract
+     * java.lang.String[] javax.net.ssl.X509KeyManager.getClientAliases(java.lang.String,java.security.Principal[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,9 +57,9 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509KeyManager#getCertificateChain(String) public
-     * abstract java.security.cert.X509Certificate[] javax.net.ssl.X509KeyManager.getCertificateChain(java.lang.String)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.X509KeyManager#getCertificateChain(String) public abstract
+     * java.security.cert.X509Certificate[] javax.net.ssl.X509KeyManager.getCertificateChain(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +81,8 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509KeyManager#chooseClientAlias(String[], Principal[], Socket) public abstract java.lang.String
+     * {@link javax.net.ssl.X509KeyManager#chooseClientAlias(String[], java.security.Principal[], java.net.Socket)
+     * public abstract java.lang.String
      * javax.net.ssl.X509KeyManager.chooseClientAlias(java.lang.String[],java.security.Principal[],java.net.Socket)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,9 +104,9 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509KeyManager#getServerAliases(String, Principal[])
-     * public abstract java.lang.String[]
-     * javax.net.ssl.X509KeyManager.getServerAliases(java.lang.String,java.security.Principal[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.X509KeyManager#getServerAliases(String, java.security.Principal[]) public abstract
+     * java.lang.String[] javax.net.ssl.X509KeyManager.getServerAliases(java.lang.String,java.security.Principal[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,7 +128,8 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509KeyManager#chooseServerAlias(String, Principal[], Socket) public abstract java.lang.String
+     * {@link javax.net.ssl.X509KeyManager#chooseServerAlias(String, java.security.Principal[], java.net.Socket) public
+     * abstract java.lang.String
      * javax.net.ssl.X509KeyManager.chooseServerAlias(java.lang.String,java.security.Principal[],java.net.Socket)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +151,8 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509KeyManager#getPrivateKey(String) public abstract
-     * java.security.PrivateKey javax.net.ssl.X509KeyManager.getPrivateKey(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.X509KeyManager#getPrivateKey(String)
+     * public abstract java.security.PrivateKey javax.net.ssl.X509KeyManager.getPrivateKey(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

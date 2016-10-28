@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoggingMXBean#getLoggerLevel(String) public abstract
-     * java.lang.String java.util.logging.LoggingMXBean.getLoggerLevel(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LoggingMXBean#getLoggerLevel(String) public abstract java.lang.String
+     * java.util.logging.LoggingMXBean.getLoggerLevel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoggingMXBean#getParentLoggerName(String) public
-     * abstract java.lang.String java.util.logging.LoggingMXBean.getParentLoggerName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LoggingMXBean#getParentLoggerName(String) public abstract java.lang.String
+     * java.util.logging.LoggingMXBean.getParentLoggerName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoggingMXBean#setLoggerLevel(String, String) public
-     * abstract void java.util.logging.LoggingMXBean.setLoggerLevel(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LoggingMXBean#setLoggerLevel(String, String) public abstract void
+     * java.util.logging.LoggingMXBean.setLoggerLevel(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoggingMXBean#getLoggerNames() public abstract
-     * java.util.List<java.lang.String> java.util.logging.LoggingMXBean.getLoggerNames()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LoggingMXBean#getLoggerNames()
+     * public abstract java.util.List<java.lang.String> java.util.logging.LoggingMXBean.getLoggerNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

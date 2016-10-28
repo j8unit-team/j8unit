@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.ListUIClassTests<ListUI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ListUI#ListUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.ListUI#ListUI() public
      * javax.swing.plaf.ListUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

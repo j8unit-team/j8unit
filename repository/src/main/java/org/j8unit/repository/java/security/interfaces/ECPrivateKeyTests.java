@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.security.PrivateKeyTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECPrivateKey#getS() public abstract
-     * java.math.BigInteger java.security.interfaces.ECPrivateKey.getS()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.interfaces.ECPrivateKey#getS() public
+     * abstract java.math.BigInteger java.security.interfaces.ECPrivateKey.getS()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

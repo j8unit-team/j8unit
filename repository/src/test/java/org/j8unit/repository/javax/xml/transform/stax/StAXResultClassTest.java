@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.transform.stax;
 
-import javax.xml.stream.XMLEventWriter;
-import javax.xml.stream.XMLStreamWriter;
 import javax.xml.transform.stax.StAXResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.xml.transform.stax.StAXResultClassTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StAXResult#StAXResult(XMLEventWriter) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stax.StAXResult#StAXResult(javax.xml.stream.XMLEventWriter) public
      * javax.xml.transform.stax.StAXResult(javax.xml.stream.XMLEventWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,13 @@ implements org.j8unit.repository.javax.xml.transform.stax.StAXResultClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StAXResult sut = null; // = new StAXResult(XMLEventWriter);
+        final StAXResult sut = null; // = new StAXResult(javax.xml.stream.XMLEventWriter);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StAXResult#StAXResult(XMLStreamWriter) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stax.StAXResult#StAXResult(javax.xml.stream.XMLStreamWriter) public
      * javax.xml.transform.stax.StAXResult(javax.xml.stream.XMLStreamWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.javax.xml.transform.stax.StAXResultClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StAXResult sut = null; // = new StAXResult(XMLStreamWriter);
+        final StAXResult sut = null; // = new StAXResult(javax.xml.stream.XMLStreamWriter);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.stax.StAXResult]

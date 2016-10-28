@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.CropImageFilterClassTests<CropIm
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CropImageFilter#CropImageFilter(int, int, int, int) public
+     * {@link java.awt.image.CropImageFilter#CropImageFilter(int, int, int, int) public
      * java.awt.image.CropImageFilter(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

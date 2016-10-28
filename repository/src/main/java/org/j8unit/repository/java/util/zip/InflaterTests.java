@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#needsInput() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#needsInput() public boolean
      * java.util.zip.Inflater.needsInput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#getRemaining() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#getRemaining() public int
      * java.util.zip.Inflater.getRemaining()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#getAdler() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#getAdler() public int
      * java.util.zip.Inflater.getAdler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#needsDictionary() public boolean
-     * java.util.zip.Inflater.needsDictionary()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#needsDictionary() public
+     * boolean java.util.zip.Inflater.needsDictionary()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#setInput(byte[]) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#setInput(byte[]) public void
      * java.util.zip.Inflater.setInput(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#setInput(byte[], int, int) public void
-     * java.util.zip.Inflater.setInput(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#setInput(byte[], int, int)
+     * public void java.util.zip.Inflater.setInput(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +166,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#getTotalIn() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#getTotalIn() public int
      * java.util.zip.Inflater.getTotalIn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,7 +188,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#finished() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#finished() public boolean
      * java.util.zip.Inflater.finished()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,7 +210,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#inflate(byte[]) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#inflate(byte[]) public int
      * java.util.zip.Inflater.inflate(byte[]) throws java.util.zip.DataFormatException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -232,8 +232,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#inflate(byte[], int, int) public int
-     * java.util.zip.Inflater.inflate(byte[],int,int) throws java.util.zip.DataFormatException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#inflate(byte[], int, int)
+     * public int java.util.zip.Inflater.inflate(byte[],int,int) throws java.util.zip.DataFormatException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,7 +254,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#getTotalOut() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#getTotalOut() public int
      * java.util.zip.Inflater.getTotalOut()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -276,8 +276,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#setDictionary(byte[]) public void
-     * java.util.zip.Inflater.setDictionary(byte[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#setDictionary(byte[]) public
+     * void java.util.zip.Inflater.setDictionary(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,7 +298,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#setDictionary(byte[], int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.Inflater#setDictionary(byte[], int, int) public void
      * java.util.zip.Inflater.setDictionary(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -320,7 +321,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#getBytesWritten() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#getBytesWritten() public long
      * java.util.zip.Inflater.getBytesWritten()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -342,7 +343,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#getBytesRead() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#getBytesRead() public long
      * java.util.zip.Inflater.getBytesRead()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -364,7 +365,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#reset() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#reset() public void
      * java.util.zip.Inflater.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -386,7 +387,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Inflater#end() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Inflater#end() public void
      * java.util.zip.Inflater.end()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

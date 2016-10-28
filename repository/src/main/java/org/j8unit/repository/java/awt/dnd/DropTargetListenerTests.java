@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.dnd.DropTargetDragEvent;
-import java.awt.dnd.DropTargetDropEvent;
-import java.awt.dnd.DropTargetEvent;
 import java.awt.dnd.DropTargetListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DropTargetListener#dropActionChanged(DropTargetDragEvent) public abstract void
+     * {@link java.awt.dnd.DropTargetListener#dropActionChanged(java.awt.dnd.DropTargetDragEvent) public abstract void
      * java.awt.dnd.DropTargetListener.dropActionChanged(java.awt.dnd.DropTargetDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetListener#dragOver(DropTargetDragEvent)
-     * public abstract void java.awt.dnd.DropTargetListener.dragOver(java.awt.dnd.DropTargetDragEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DropTargetListener#dragOver(java.awt.dnd.DropTargetDragEvent) public abstract void
+     * java.awt.dnd.DropTargetListener.dragOver(java.awt.dnd.DropTargetDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetListener#dragExit(DropTargetEvent) public
-     * abstract void java.awt.dnd.DropTargetListener.dragExit(java.awt.dnd.DropTargetEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DropTargetListener#dragExit(java.awt.dnd.DropTargetEvent) public abstract void
+     * java.awt.dnd.DropTargetListener.dragExit(java.awt.dnd.DropTargetEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetListener#drop(DropTargetDropEvent) public
-     * abstract void java.awt.dnd.DropTargetListener.drop(java.awt.dnd.DropTargetDropEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DropTargetListener#drop(java.awt.dnd.DropTargetDropEvent) public abstract void
+     * java.awt.dnd.DropTargetListener.drop(java.awt.dnd.DropTargetDropEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetListener#dragEnter(DropTargetDragEvent)
-     * public abstract void java.awt.dnd.DropTargetListener.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DropTargetListener#dragEnter(java.awt.dnd.DropTargetDragEvent) public abstract void
+     * java.awt.dnd.DropTargetListener.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

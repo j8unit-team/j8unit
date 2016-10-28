@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.font;
 
-import java.awt.Graphics2D;
 import java.awt.font.ImageGraphicAttribute;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageGraphicAttribute#getAscent() public float
-     * java.awt.font.ImageGraphicAttribute.getAscent()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.ImageGraphicAttribute#getAscent()
+     * public float java.awt.font.ImageGraphicAttribute.getAscent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageGraphicAttribute#getAdvance() public float
-     * java.awt.font.ImageGraphicAttribute.getAdvance()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.ImageGraphicAttribute#getAdvance()
+     * public float java.awt.font.ImageGraphicAttribute.getAdvance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,8 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageGraphicAttribute#hashCode() public int
-     * java.awt.font.ImageGraphicAttribute.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.ImageGraphicAttribute#hashCode()
+     * public int java.awt.font.ImageGraphicAttribute.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,8 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageGraphicAttribute#equals(Object) public boolean
-     * java.awt.font.ImageGraphicAttribute.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.ImageGraphicAttribute#equals(Object)
+     * public boolean java.awt.font.ImageGraphicAttribute.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +126,9 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageGraphicAttribute#equals(ImageGraphicAttribute)
-     * public boolean java.awt.font.ImageGraphicAttribute.equals(java.awt.font.ImageGraphicAttribute)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.ImageGraphicAttribute#equals(java.awt.font.ImageGraphicAttribute) public boolean
+     * java.awt.font.ImageGraphicAttribute.equals(java.awt.font.ImageGraphicAttribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +149,9 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageGraphicAttribute#draw(Graphics2D, float, float)
-     * public void java.awt.font.ImageGraphicAttribute.draw(java.awt.Graphics2D,float,float)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.ImageGraphicAttribute#draw(java.awt.Graphics2D, float, float) public void
+     * java.awt.font.ImageGraphicAttribute.draw(java.awt.Graphics2D,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +173,8 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageGraphicAttribute#getBounds() public
-     * java.awt.geom.Rectangle2D java.awt.font.ImageGraphicAttribute.getBounds()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.ImageGraphicAttribute#getBounds()
+     * public java.awt.geom.Rectangle2D java.awt.font.ImageGraphicAttribute.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +196,8 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageGraphicAttribute#getDescent() public float
-     * java.awt.font.ImageGraphicAttribute.getDescent()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.ImageGraphicAttribute#getDescent()
+     * public float java.awt.font.ImageGraphicAttribute.getDescent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

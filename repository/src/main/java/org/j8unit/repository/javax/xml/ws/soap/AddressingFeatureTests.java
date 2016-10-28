@@ -35,8 +35,8 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AddressingFeature#getResponses() public
-     * javax.xml.ws.soap.AddressingFeature$Responses javax.xml.ws.soap.AddressingFeature.getResponses()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.AddressingFeature#getResponses()
+     * public javax.xml.ws.soap.AddressingFeature$Responses javax.xml.ws.soap.AddressingFeature.getResponses()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AddressingFeature#isRequired() public boolean
-     * javax.xml.ws.soap.AddressingFeature.isRequired()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.AddressingFeature#isRequired()
+     * public boolean javax.xml.ws.soap.AddressingFeature.isRequired()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AddressingFeature#getID() public java.lang.String
-     * javax.xml.ws.soap.AddressingFeature.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.AddressingFeature#getID() public
+     * java.lang.String javax.xml.ws.soap.AddressingFeature.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

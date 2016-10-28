@@ -7,11 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.ServiceDetail;
 import org.omg.CORBA.ServiceDetailHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class ServiceDetailHelperClassTest
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperClassTests<Ser
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServiceDetailHelper#ServiceDetailHelper()
-     * public org.omg.CORBA.ServiceDetailHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ServiceDetailHelper#ServiceDetailHelper() public org.omg.CORBA.ServiceDetailHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperClassTests<Ser
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDetailHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ServiceDetailHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.CORBA.ServiceDetail org.omg.CORBA.ServiceDetailHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +58,14 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperClassTests<Ser
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ServiceDetailHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.ServiceDetailHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDetailHelper#extract(Any) public static
-     * org.omg.CORBA.ServiceDetail org.omg.CORBA.ServiceDetailHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ServiceDetailHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.ServiceDetail
+     * org.omg.CORBA.ServiceDetailHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,13 +79,14 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperClassTests<Ser
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ServiceDetailHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.ServiceDetailHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceDetailHelper#write(OutputStream, ServiceDetail) public static void
+     * {@link org.omg.CORBA.ServiceDetailHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.ServiceDetail)
+     * public static void
      * org.omg.CORBA.ServiceDetailHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.ServiceDetail)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,13 +101,14 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperClassTests<Ser
     @Category(Draft.class)
     public void test_write_OutputStream_ServiceDetail()
     throws Exception {
-        // write some test for {@link ServiceDetailHelper#write(OutputStream, ServiceDetail)}
+        // write some test for {@link org.omg.CORBA.ServiceDetailHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CORBA.ServiceDetail)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDetailHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.ServiceDetailHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ServiceDetailHelper#type() public
+     * static synchronized org.omg.CORBA.TypeCode org.omg.CORBA.ServiceDetailHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,13 +122,14 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperClassTests<Ser
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ServiceDetailHelper#type()}
+        // write some test for {@link org.omg.CORBA.ServiceDetailHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDetailHelper#insert(Any, ServiceDetail)
-     * public static void org.omg.CORBA.ServiceDetailHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.ServiceDetail)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ServiceDetailHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.ServiceDetail) public static
+     * void org.omg.CORBA.ServiceDetailHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.ServiceDetail)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -142,12 +143,13 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperClassTests<Ser
     @Category(Draft.class)
     public void test_insert_Any_ServiceDetail()
     throws Exception {
-        // write some test for {@link ServiceDetailHelper#insert(Any, ServiceDetail)}
+        // write some test for {@link org.omg.CORBA.ServiceDetailHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CORBA.ServiceDetail)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDetailHelper#id() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ServiceDetailHelper#id() public static
      * java.lang.String org.omg.CORBA.ServiceDetailHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -162,7 +164,7 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperClassTests<Ser
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ServiceDetailHelper#id()}
+        // write some test for {@link org.omg.CORBA.ServiceDetailHelper#id()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ServiceDetailHelper]

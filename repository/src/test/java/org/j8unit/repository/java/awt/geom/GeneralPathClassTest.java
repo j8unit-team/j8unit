@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.geom;
 
-import java.awt.Shape;
 import java.awt.geom.GeneralPath;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.awt.geom.GeneralPathClassTests<GeneralPath
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GeneralPath#GeneralPath(Shape) public
-     * java.awt.geom.GeneralPath(java.awt.Shape)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.geom.GeneralPath#GeneralPath(java.awt.Shape) public java.awt.geom.GeneralPath(java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +38,13 @@ implements org.j8unit.repository.java.awt.geom.GeneralPathClassTests<GeneralPath
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GeneralPath sut = null; // = new GeneralPath(Shape);
+        final GeneralPath sut = null; // = new GeneralPath(java.awt.Shape);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GeneralPath#GeneralPath(int, int) public
-     * java.awt.geom.GeneralPath(int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.GeneralPath#GeneralPath(int, int)
+     * public java.awt.geom.GeneralPath(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,8 +65,8 @@ implements org.j8unit.repository.java.awt.geom.GeneralPathClassTests<GeneralPath
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GeneralPath#GeneralPath(int) public
-     * java.awt.geom.GeneralPath(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.GeneralPath#GeneralPath(int)
+     * public java.awt.geom.GeneralPath(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,7 +87,7 @@ implements org.j8unit.repository.java.awt.geom.GeneralPathClassTests<GeneralPath
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GeneralPath#GeneralPath() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.GeneralPath#GeneralPath() public
      * java.awt.geom.GeneralPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

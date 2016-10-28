@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.NonReadableChannelExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NonReadableChannelException#NonReadableChannelException() public
+     * {@link java.nio.channels.NonReadableChannelException#NonReadableChannelException() public
      * java.nio.channels.NonReadableChannelException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

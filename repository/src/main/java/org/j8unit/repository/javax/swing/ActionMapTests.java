@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import javax.swing.Action;
 import javax.swing.ActionMap;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActionMap#put(Object, Action) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ActionMap#put(Object, javax.swing.Action) public void
      * javax.swing.ActionMap.put(java.lang.Object,javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActionMap#remove(Object) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ActionMap#remove(Object) public void
      * javax.swing.ActionMap.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActionMap#allKeys() public java.lang.Object[]
-     * javax.swing.ActionMap.allKeys()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ActionMap#allKeys() public
+     * java.lang.Object[] javax.swing.ActionMap.allKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActionMap#clear() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ActionMap#clear() public void
      * javax.swing.ActionMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActionMap#setParent(ActionMap) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ActionMap#setParent(javax.swing.ActionMap) public void
      * javax.swing.ActionMap.setParent(javax.swing.ActionMap)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +146,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActionMap#size() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ActionMap#size() public int
      * javax.swing.ActionMap.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +168,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActionMap#get(Object) public javax.swing.Action
-     * javax.swing.ActionMap.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ActionMap#get(Object) public
+     * javax.swing.Action javax.swing.ActionMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +190,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActionMap#keys() public java.lang.Object[]
-     * javax.swing.ActionMap.keys()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ActionMap#keys() public
+     * java.lang.Object[] javax.swing.ActionMap.keys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +212,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActionMap#getParent() public javax.swing.ActionMap
-     * javax.swing.ActionMap.getParent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ActionMap#getParent() public
+     * javax.swing.ActionMap javax.swing.ActionMap.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

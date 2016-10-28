@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.stream;
 
-import javax.xml.stream.Location;
 import javax.xml.stream.XMLStreamException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.xml.stream.XMLStreamExceptionClassTests<X
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XMLStreamException#XMLStreamException(String, Location) public
+     * {@link javax.xml.stream.XMLStreamException#XMLStreamException(String, javax.xml.stream.Location) public
      * javax.xml.stream.XMLStreamException(java.lang.String,javax.xml.stream.Location)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,14 +39,14 @@ implements org.j8unit.repository.javax.xml.stream.XMLStreamExceptionClassTests<X
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XMLStreamException sut = null; // = new XMLStreamException(String, Location);
+        final XMLStreamException sut = null; // = new XMLStreamException(String, javax.xml.stream.Location);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XMLStreamException#XMLStreamException(String, Location, Throwable) public
-     * javax.xml.stream.XMLStreamException(java.lang.String,javax.xml.stream.Location,java.lang.Throwable)}.
+     * {@link javax.xml.stream.XMLStreamException#XMLStreamException(String, javax.xml.stream.Location, Throwable)
+     * public javax.xml.stream.XMLStreamException(java.lang.String,javax.xml.stream.Location,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,13 +62,13 @@ implements org.j8unit.repository.javax.xml.stream.XMLStreamExceptionClassTests<X
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XMLStreamException sut = null; // = new XMLStreamException(String, Location, Throwable);
+        final XMLStreamException sut = null; // = new XMLStreamException(String, javax.xml.stream.Location, Throwable);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XMLStreamException#XMLStreamException(String, Throwable) public
+     * {@link javax.xml.stream.XMLStreamException#XMLStreamException(String, Throwable) public
      * javax.xml.stream.XMLStreamException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,8 +90,8 @@ implements org.j8unit.repository.javax.xml.stream.XMLStreamExceptionClassTests<X
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLStreamException#XMLStreamException() public
-     * javax.xml.stream.XMLStreamException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.stream.XMLStreamException#XMLStreamException() public javax.xml.stream.XMLStreamException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -112,8 +111,9 @@ implements org.j8unit.repository.javax.xml.stream.XMLStreamExceptionClassTests<X
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLStreamException#XMLStreamException(String)
-     * public javax.xml.stream.XMLStreamException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.stream.XMLStreamException#XMLStreamException(String) public
+     * javax.xml.stream.XMLStreamException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,7 +135,7 @@ implements org.j8unit.repository.javax.xml.stream.XMLStreamExceptionClassTests<X
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XMLStreamException#XMLStreamException(Throwable) public
+     * {@link javax.xml.stream.XMLStreamException#XMLStreamException(Throwable) public
      * javax.xml.stream.XMLStreamException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

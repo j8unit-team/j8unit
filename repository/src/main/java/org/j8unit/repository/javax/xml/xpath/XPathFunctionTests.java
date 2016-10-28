@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.xpath;
 
-import java.util.List;
 import javax.xml.xpath.XPathFunction;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,9 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathFunction#evaluate(List) public abstract
-     * java.lang.Object javax.xml.xpath.XPathFunction.evaluate(java.util.List) throws
-     * javax.xml.xpath.XPathFunctionException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPathFunction#evaluate(java.util.List) public abstract java.lang.Object
+     * javax.xml.xpath.XPathFunction.evaluate(java.util.List) throws javax.xml.xpath.XPathFunctionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

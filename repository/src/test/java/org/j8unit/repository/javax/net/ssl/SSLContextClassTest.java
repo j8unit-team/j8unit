@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.security.Provider;
 import javax.net.ssl.SSLContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.net.ssl.SSLContextClassTests<SSLContext> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getDefault() public static synchronized
-     * javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getDefault() throws java.security.NoSuchAlgorithmException}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getDefault() public static
+     * synchronized javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getDefault() throws
+     * java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,14 +37,14 @@ implements org.j8unit.repository.javax.net.ssl.SSLContextClassTests<SSLContext> 
     @Category(Draft.class)
     public void test_getDefault()
     throws Exception {
-        // write some test for {@link SSLContext#getDefault()}
+        // write some test for {@link javax.net.ssl.SSLContext#getDefault()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getInstance(String, String) public static
-     * javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String,java.lang.String) throws
-     * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getInstance(String, String)
+     * public static javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String,java.lang.String)
+     * throws java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,14 +58,15 @@ implements org.j8unit.repository.javax.net.ssl.SSLContextClassTests<SSLContext> 
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link SSLContext#getInstance(String, String)}
+        // write some test for {@link javax.net.ssl.SSLContext#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getInstance(String, Provider) public
-     * static javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String,java.security.Provider)
-     * throws java.security.NoSuchAlgorithmException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLContext#getInstance(String, java.security.Provider) public static
+     * javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String,java.security.Provider) throws
+     * java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,13 +80,13 @@ implements org.j8unit.repository.javax.net.ssl.SSLContextClassTests<SSLContext> 
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link SSLContext#getInstance(String, Provider)}
+        // write some test for {@link javax.net.ssl.SSLContext#getInstance(String, java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#getInstance(String) public static
-     * javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLContext#getInstance(String) public
+     * static javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String) throws
      * java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,13 +101,14 @@ implements org.j8unit.repository.javax.net.ssl.SSLContextClassTests<SSLContext> 
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link SSLContext#getInstance(String)}
+        // write some test for {@link javax.net.ssl.SSLContext#getInstance(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLContext#setDefault(SSLContext) public static
-     * synchronized void javax.net.ssl.SSLContext.setDefault(javax.net.ssl.SSLContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLContext#setDefault(javax.net.ssl.SSLContext) public static synchronized void
+     * javax.net.ssl.SSLContext.setDefault(javax.net.ssl.SSLContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,7 +122,7 @@ implements org.j8unit.repository.javax.net.ssl.SSLContextClassTests<SSLContext> 
     @Category(Draft.class)
     public void test_setDefault_SSLContext()
     throws Exception {
-        // write some test for {@link SSLContext#setDefault(SSLContext)}
+        // write some test for {@link javax.net.ssl.SSLContext#setDefault(javax.net.ssl.SSLContext)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLContext]

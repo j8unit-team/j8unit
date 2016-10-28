@@ -23,7 +23,7 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicMarkableRefer
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AtomicMarkableReference#AtomicMarkableReference(Object, boolean) public
+     * {@link java.util.concurrent.atomic.AtomicMarkableReference#AtomicMarkableReference(Object, boolean) public
      * java.util.concurrent.atomic.AtomicMarkableReference(V,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

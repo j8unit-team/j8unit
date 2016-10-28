@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.net.HttpCookieClassTests<HttpCookie> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HttpCookie#HttpCookie(String, String) public
-     * java.net.HttpCookie(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.HttpCookie#HttpCookie(String, String)
+     * public java.net.HttpCookie(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.net.HttpCookieClassTests<HttpCookie> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpCookie#parse(String) public static
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#parse(String) public static
      * java.util.List<java.net.HttpCookie> java.net.HttpCookie.parse(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,13 +58,13 @@ implements org.j8unit.repository.java.net.HttpCookieClassTests<HttpCookie> {
     @Category(Draft.class)
     public void test_parse_String()
     throws Exception {
-        // write some test for {@link HttpCookie#parse(String)}
+        // write some test for {@link java.net.HttpCookie#parse(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpCookie#domainMatches(String, String) public
-     * static boolean java.net.HttpCookie.domainMatches(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#domainMatches(String, String)
+     * public static boolean java.net.HttpCookie.domainMatches(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ implements org.j8unit.repository.java.net.HttpCookieClassTests<HttpCookie> {
     @Category(Draft.class)
     public void test_domainMatches_String_String()
     throws Exception {
-        // write some test for {@link HttpCookie#domainMatches(String, String)}
+        // write some test for {@link java.net.HttpCookie#domainMatches(String, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.HttpCookie]

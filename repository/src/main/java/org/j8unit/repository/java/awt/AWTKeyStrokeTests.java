@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTKeyStroke#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#hashCode() public int
      * java.awt.AWTKeyStroke.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTKeyStroke#isOnKeyRelease() public final boolean
-     * java.awt.AWTKeyStroke.isOnKeyRelease()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#isOnKeyRelease() public final
+     * boolean java.awt.AWTKeyStroke.isOnKeyRelease()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTKeyStroke#equals(Object) public final boolean
-     * java.awt.AWTKeyStroke.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#equals(Object) public final
+     * boolean java.awt.AWTKeyStroke.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTKeyStroke#getKeyChar() public final char
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#getKeyChar() public final char
      * java.awt.AWTKeyStroke.getKeyChar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTKeyStroke#toString() public java.lang.String
-     * java.awt.AWTKeyStroke.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#toString() public
+     * java.lang.String java.awt.AWTKeyStroke.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTKeyStroke#getModifiers() public final int
-     * java.awt.AWTKeyStroke.getModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#getModifiers() public final
+     * int java.awt.AWTKeyStroke.getModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +169,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTKeyStroke#getKeyEventType() public final int
-     * java.awt.AWTKeyStroke.getKeyEventType()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#getKeyEventType() public final
+     * int java.awt.AWTKeyStroke.getKeyEventType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,7 +191,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AWTKeyStroke#getKeyCode() public final int
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#getKeyCode() public final int
      * java.awt.AWTKeyStroke.getKeyCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.print;
 
 import java.awt.print.Book;
-import java.awt.print.PageFormat;
-import java.awt.print.Printable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,7 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Book#getNumberOfPages() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Book#getNumberOfPages() public int
      * java.awt.print.Book.getNumberOfPages()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +57,7 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Book#getPrintable(int) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Book#getPrintable(int) public
      * java.awt.print.Printable java.awt.print.Book.getPrintable(int) throws java.lang.IndexOutOfBoundsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +80,8 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Book#setPage(int, Printable, PageFormat) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.print.Book#setPage(int, java.awt.print.Printable, java.awt.print.PageFormat) public void
      * java.awt.print.Book.setPage(int,java.awt.print.Printable,java.awt.print.PageFormat) throws
      * java.lang.IndexOutOfBoundsException}.
      *
@@ -105,7 +104,7 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Book#getPageFormat(int) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.Book#getPageFormat(int) public
      * java.awt.print.PageFormat java.awt.print.Book.getPageFormat(int) throws java.lang.IndexOutOfBoundsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,7 +127,8 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Book#append(Printable, PageFormat) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.print.Book#append(java.awt.print.Printable, java.awt.print.PageFormat) public void
      * java.awt.print.Book.append(java.awt.print.Printable,java.awt.print.PageFormat)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,7 +150,8 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Book#append(Printable, PageFormat, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.print.Book#append(java.awt.print.Printable, java.awt.print.PageFormat, int) public void
      * java.awt.print.Book.append(java.awt.print.Printable,java.awt.print.PageFormat,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

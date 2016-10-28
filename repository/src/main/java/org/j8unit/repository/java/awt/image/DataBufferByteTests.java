@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferByte#getElem(int) public int
-     * java.awt.image.DataBufferByte.getElem(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferByte#getElem(int) public
+     * int java.awt.image.DataBufferByte.getElem(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferByte#getElem(int, int) public int
-     * java.awt.image.DataBufferByte.getElem(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferByte#getElem(int, int)
+     * public int java.awt.image.DataBufferByte.getElem(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferByte#setElem(int, int, int) public void
-     * java.awt.image.DataBufferByte.setElem(int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferByte#setElem(int, int, int)
+     * public void java.awt.image.DataBufferByte.setElem(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferByte#setElem(int, int) public void
-     * java.awt.image.DataBufferByte.setElem(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferByte#setElem(int, int)
+     * public void java.awt.image.DataBufferByte.setElem(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferByte#getBankData() public byte[][]
-     * java.awt.image.DataBufferByte.getBankData()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferByte#getBankData() public
+     * byte[][] java.awt.image.DataBufferByte.getBankData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferByte#getData() public byte[]
-     * java.awt.image.DataBufferByte.getData()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferByte#getData() public
+     * byte[] java.awt.image.DataBufferByte.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferByte#getData(int) public byte[]
-     * java.awt.image.DataBufferByte.getData(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferByte#getData(int) public
+     * byte[] java.awt.image.DataBufferByte.getData(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

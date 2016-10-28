@@ -1,12 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Paint;
 import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.border.Border;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -27,8 +21,9 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createRaisedSoftBevelBorder() public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createRaisedSoftBevelBorder()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createRaisedSoftBevelBorder() public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createRaisedSoftBevelBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,13 +37,13 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createRaisedSoftBevelBorder()
     throws Exception {
-        // write some test for {@link BorderFactory#createRaisedSoftBevelBorder()}
+        // write some test for {@link javax.swing.BorderFactory#createRaisedSoftBevelBorder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createLoweredBevelBorder() public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createLoweredBevelBorder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BorderFactory#createLoweredBevelBorder()
+     * public static javax.swing.border.Border javax.swing.BorderFactory.createLoweredBevelBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +57,13 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createLoweredBevelBorder()
     throws Exception {
-        // write some test for {@link BorderFactory#createLoweredBevelBorder()}
+        // write some test for {@link javax.swing.BorderFactory#createLoweredBevelBorder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createRaisedBevelBorder() public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createRaisedBevelBorder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BorderFactory#createRaisedBevelBorder()
+     * public static javax.swing.border.Border javax.swing.BorderFactory.createRaisedBevelBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,13 +77,13 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createRaisedBevelBorder()
     throws Exception {
-        // write some test for {@link BorderFactory#createRaisedBevelBorder()}
+        // write some test for {@link javax.swing.BorderFactory#createRaisedBevelBorder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createEmptyBorder() public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createEmptyBorder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BorderFactory#createEmptyBorder() public
+     * static javax.swing.border.Border javax.swing.BorderFactory.createEmptyBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,13 +97,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createEmptyBorder()
     throws Exception {
-        // write some test for {@link BorderFactory#createEmptyBorder()}
+        // write some test for {@link javax.swing.BorderFactory#createEmptyBorder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createEmptyBorder(int, int, int, int)
-     * public static javax.swing.border.Border javax.swing.BorderFactory.createEmptyBorder(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createEmptyBorder(int, int, int, int) public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createEmptyBorder(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,14 +118,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createEmptyBorder_int_int_int_int()
     throws Exception {
-        // write some test for {@link BorderFactory#createEmptyBorder(int, int, int, int)}
+        // write some test for {@link javax.swing.BorderFactory#createEmptyBorder(int, int, int, int)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createMatteBorder(int, int, int, int, Icon) public static javax.swing.border.MatteBorder
-     * javax.swing.BorderFactory.createMatteBorder(int,int,int,int,javax.swing.Icon)}.
+     * {@link javax.swing.BorderFactory#createMatteBorder(int, int, int, int, javax.swing.Icon) public static
+     * javax.swing.border.MatteBorder javax.swing.BorderFactory.createMatteBorder(int,int,int,int,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -143,14 +139,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createMatteBorder_int_int_int_int_Icon()
     throws Exception {
-        // write some test for {@link BorderFactory#createMatteBorder(int, int, int, int, Icon)}
+        // write some test for {@link javax.swing.BorderFactory#createMatteBorder(int, int, int, int, javax.swing.Icon)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createMatteBorder(int, int, int, int, Color) public static javax.swing.border.MatteBorder
-     * javax.swing.BorderFactory.createMatteBorder(int,int,int,int,java.awt.Color)}.
+     * {@link javax.swing.BorderFactory#createMatteBorder(int, int, int, int, java.awt.Color) public static
+     * javax.swing.border.MatteBorder javax.swing.BorderFactory.createMatteBorder(int,int,int,int,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -164,13 +160,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createMatteBorder_int_int_int_int_Color()
     throws Exception {
-        // write some test for {@link BorderFactory#createMatteBorder(int, int, int, int, Color)}
+        // write some test for {@link javax.swing.BorderFactory#createMatteBorder(int, int, int, int, java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createLineBorder(Color, int) public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createLineBorder(java.awt.Color,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createLineBorder(java.awt.Color, int) public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createLineBorder(java.awt.Color,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -184,13 +181,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createLineBorder_Color_int()
     throws Exception {
-        // write some test for {@link BorderFactory#createLineBorder(Color, int)}
+        // write some test for {@link javax.swing.BorderFactory#createLineBorder(java.awt.Color, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createLineBorder(Color) public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createLineBorder(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createLineBorder(java.awt.Color) public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createLineBorder(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -204,13 +202,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createLineBorder_Color()
     throws Exception {
-        // write some test for {@link BorderFactory#createLineBorder(Color)}
+        // write some test for {@link javax.swing.BorderFactory#createLineBorder(java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createLineBorder(Color, int, boolean)
-     * public static javax.swing.border.Border javax.swing.BorderFactory.createLineBorder(java.awt.Color,int,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createLineBorder(java.awt.Color, int, boolean) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createLineBorder(java.awt.Color,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,14 +223,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createLineBorder_Color_int_boolean()
     throws Exception {
-        // write some test for {@link BorderFactory#createLineBorder(Color, int, boolean)}
+        // write some test for {@link javax.swing.BorderFactory#createLineBorder(java.awt.Color, int, boolean)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createBevelBorder(int, Color, Color)
-     * public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createBevelBorder(int,java.awt.Color,java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createBevelBorder(int, java.awt.Color, java.awt.Color) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createBevelBorder(int,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,13 +244,13 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createBevelBorder_int_Color_Color()
     throws Exception {
-        // write some test for {@link BorderFactory#createBevelBorder(int, Color, Color)}
+        // write some test for {@link javax.swing.BorderFactory#createBevelBorder(int, java.awt.Color, java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createBevelBorder(int) public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createBevelBorder(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BorderFactory#createBevelBorder(int)
+     * public static javax.swing.border.Border javax.swing.BorderFactory.createBevelBorder(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,13 +264,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createBevelBorder_int()
     throws Exception {
-        // write some test for {@link BorderFactory#createBevelBorder(int)}
+        // write some test for {@link javax.swing.BorderFactory#createBevelBorder(int)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createBevelBorder(int, Color, Color, Color, Color) public static javax.swing.border.Border
+     * {@link javax.swing.BorderFactory#createBevelBorder(int, java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
+     * public static javax.swing.border.Border
      * javax.swing.BorderFactory.createBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -286,12 +286,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createBevelBorder_int_Color_Color_Color_Color()
     throws Exception {
-        // write some test for {@link BorderFactory#createBevelBorder(int, Color, Color, Color, Color)}
+        // write some test for {@link javax.swing.BorderFactory#createBevelBorder(int, java.awt.Color, java.awt.Color,
+        // java.awt.Color, java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createCompoundBorder(Border, Border)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createCompoundBorder(javax.swing.border.Border, javax.swing.border.Border)
      * public static javax.swing.border.CompoundBorder
      * javax.swing.BorderFactory.createCompoundBorder(javax.swing.border.Border,javax.swing.border.Border)}.
      *
@@ -307,13 +309,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createCompoundBorder_Border_Border()
     throws Exception {
-        // write some test for {@link BorderFactory#createCompoundBorder(Border, Border)}
+        // write some test for {@link javax.swing.BorderFactory#createCompoundBorder(javax.swing.border.Border,
+        // javax.swing.border.Border)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createCompoundBorder() public static
-     * javax.swing.border.CompoundBorder javax.swing.BorderFactory.createCompoundBorder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BorderFactory#createCompoundBorder()
+     * public static javax.swing.border.CompoundBorder javax.swing.BorderFactory.createCompoundBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,13 +330,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createCompoundBorder()
     throws Exception {
-        // write some test for {@link BorderFactory#createCompoundBorder()}
+        // write some test for {@link javax.swing.BorderFactory#createCompoundBorder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createStrokeBorder(BasicStroke) public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createStrokeBorder(java.awt.BasicStroke)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createStrokeBorder(java.awt.BasicStroke) public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createStrokeBorder(java.awt.BasicStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,14 +351,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createStrokeBorder_BasicStroke()
     throws Exception {
-        // write some test for {@link BorderFactory#createStrokeBorder(BasicStroke)}
+        // write some test for {@link javax.swing.BorderFactory#createStrokeBorder(java.awt.BasicStroke)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createStrokeBorder(BasicStroke, Paint)
-     * public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createStrokeBorder(java.awt.BasicStroke,java.awt.Paint)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createStrokeBorder(java.awt.BasicStroke, java.awt.Paint) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createStrokeBorder(java.awt.BasicStroke,java.awt.Paint)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -368,13 +372,15 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createStrokeBorder_BasicStroke_Paint()
     throws Exception {
-        // write some test for {@link BorderFactory#createStrokeBorder(BasicStroke, Paint)}
+        // write some test for {@link javax.swing.BorderFactory#createStrokeBorder(java.awt.BasicStroke,
+        // java.awt.Paint)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createLoweredSoftBevelBorder() public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createLoweredSoftBevelBorder()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createLoweredSoftBevelBorder() public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createLoweredSoftBevelBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -388,14 +394,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createLoweredSoftBevelBorder()
     throws Exception {
-        // write some test for {@link BorderFactory#createLoweredSoftBevelBorder()}
+        // write some test for {@link javax.swing.BorderFactory#createLoweredSoftBevelBorder()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createSoftBevelBorder(int, Color, Color, Color, Color) public static
-     * javax.swing.border.Border
+     * {@link javax.swing.BorderFactory#createSoftBevelBorder(int, java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
+     * public static javax.swing.border.Border
      * javax.swing.BorderFactory.createSoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
      * .
      *
@@ -411,13 +417,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createSoftBevelBorder_int_Color_Color_Color_Color()
     throws Exception {
-        // write some test for {@link BorderFactory#createSoftBevelBorder(int, Color, Color, Color, Color)}
+        // write some test for {@link javax.swing.BorderFactory#createSoftBevelBorder(int, java.awt.Color,
+        // java.awt.Color, java.awt.Color, java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createSoftBevelBorder(int) public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createSoftBevelBorder(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BorderFactory#createSoftBevelBorder(int)
+     * public static javax.swing.border.Border javax.swing.BorderFactory.createSoftBevelBorder(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,14 +438,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createSoftBevelBorder_int()
     throws Exception {
-        // write some test for {@link BorderFactory#createSoftBevelBorder(int)}
+        // write some test for {@link javax.swing.BorderFactory#createSoftBevelBorder(int)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createSoftBevelBorder(int, Color, Color) public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createSoftBevelBorder(int,java.awt.Color,java.awt.Color)}.
+     * {@link javax.swing.BorderFactory#createSoftBevelBorder(int, java.awt.Color, java.awt.Color) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createSoftBevelBorder(int,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -452,13 +459,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createSoftBevelBorder_int_Color_Color()
     throws Exception {
-        // write some test for {@link BorderFactory#createSoftBevelBorder(int, Color, Color)}
+        // write some test for {@link javax.swing.BorderFactory#createSoftBevelBorder(int, java.awt.Color,
+        // java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createEtchedBorder(int) public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BorderFactory#createEtchedBorder(int)
+     * public static javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -472,14 +480,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createEtchedBorder_int()
     throws Exception {
-        // write some test for {@link BorderFactory#createEtchedBorder(int)}
+        // write some test for {@link javax.swing.BorderFactory#createEtchedBorder(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createEtchedBorder(Color, Color)
-     * public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createEtchedBorder(java.awt.Color,java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createEtchedBorder(java.awt.Color, java.awt.Color) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder(java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -493,13 +501,13 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createEtchedBorder_Color_Color()
     throws Exception {
-        // write some test for {@link BorderFactory#createEtchedBorder(Color, Color)}
+        // write some test for {@link javax.swing.BorderFactory#createEtchedBorder(java.awt.Color, java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createEtchedBorder() public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BorderFactory#createEtchedBorder()
+     * public static javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -513,14 +521,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createEtchedBorder()
     throws Exception {
-        // write some test for {@link BorderFactory#createEtchedBorder()}
+        // write some test for {@link javax.swing.BorderFactory#createEtchedBorder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createEtchedBorder(int, Color, Color)
-     * public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createEtchedBorder(int,java.awt.Color,java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createEtchedBorder(int, java.awt.Color, java.awt.Color) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder(int,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -534,16 +542,13 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createEtchedBorder_int_Color_Color()
     throws Exception {
-        // write some test for {@link BorderFactory#createEtchedBorder(int, Color, Color)}
+        // write some test for {@link javax.swing.BorderFactory#createEtchedBorder(int, java.awt.Color, java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createTitledBorder(Border, String, int, int, Font, Color) public static
-     * javax.swing.border.TitledBorder
-     * javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BorderFactory#createTitledBorder(String)
+     * public static javax.swing.border.TitledBorder javax.swing.BorderFactory.createTitledBorder(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -555,15 +560,15 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_createTitledBorder_Border_String_int_int_Font_Color()
+    public void test_createTitledBorder_String()
     throws Exception {
-        // write some test for {@link BorderFactory#createTitledBorder(Border, String, int, int, Font, Color)}
+        // write some test for {@link javax.swing.BorderFactory#createTitledBorder(String)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createDashedBorder(Paint, float, float, float, boolean) public static
+     * {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint, float, float, float, boolean) public static
      * javax.swing.border.Border javax.swing.BorderFactory.createDashedBorder(java.awt.Paint,float,float,float,boolean)}
      * .
      *
@@ -579,14 +584,15 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createDashedBorder_Paint_float_float_float_boolean()
     throws Exception {
-        // write some test for {@link BorderFactory#createDashedBorder(Paint, float, float, float, boolean)}
+        // write some test for {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint, float, float, float,
+        // boolean)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createDashedBorder(Paint, float, float) public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createDashedBorder(java.awt.Paint,float,float)}.
+     * {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint, float, float) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createDashedBorder(java.awt.Paint,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -600,13 +606,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createDashedBorder_Paint_float_float()
     throws Exception {
-        // write some test for {@link BorderFactory#createDashedBorder(Paint, float, float)}
+        // write some test for {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint, float, float)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createDashedBorder(Paint) public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createDashedBorder(java.awt.Paint)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint) public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createDashedBorder(java.awt.Paint)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -620,13 +627,16 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createDashedBorder_Paint()
     throws Exception {
-        // write some test for {@link BorderFactory#createDashedBorder(Paint)}
+        // write some test for {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createTitledBorder(String) public
-     * static javax.swing.border.TitledBorder javax.swing.BorderFactory.createTitledBorder(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border, String, int, int, java.awt.Font, java.awt.Color)
+     * public static javax.swing.border.TitledBorder
+     * javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -638,15 +648,17 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_createTitledBorder_String()
+    public void test_createTitledBorder_Border_String_int_int_Font_Color()
     throws Exception {
-        // write some test for {@link BorderFactory#createTitledBorder(String)}
+        // write some test for {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border, String,
+        // int, int, java.awt.Font, java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createTitledBorder(Border) public
-     * static javax.swing.border.TitledBorder javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border) public static
+     * javax.swing.border.TitledBorder javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -660,13 +672,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createTitledBorder_Border()
     throws Exception {
-        // write some test for {@link BorderFactory#createTitledBorder(Border)}
+        // write some test for {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BorderFactory#createTitledBorder(Border, String)
-     * public static javax.swing.border.TitledBorder
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border, String) public static
+     * javax.swing.border.TitledBorder
      * javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -681,14 +694,14 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createTitledBorder_Border_String()
     throws Exception {
-        // write some test for {@link BorderFactory#createTitledBorder(Border, String)}
+        // write some test for {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border, String)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createTitledBorder(Border, String, int, int, Font) public static
-     * javax.swing.border.TitledBorder
+     * {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border, String, int, int, java.awt.Font)
+     * public static javax.swing.border.TitledBorder
      * javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -703,13 +716,15 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createTitledBorder_Border_String_int_int_Font()
     throws Exception {
-        // write some test for {@link BorderFactory#createTitledBorder(Border, String, int, int, Font)}
+        // write some test for {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border, String,
+        // int, int, java.awt.Font)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BorderFactory#createTitledBorder(Border, String, int, int) public static javax.swing.border.TitledBorder
+     * {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border, String, int, int) public static
+     * javax.swing.border.TitledBorder
      * javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -724,7 +739,8 @@ implements org.j8unit.repository.javax.swing.BorderFactoryClassTests<BorderFacto
     @Category(Draft.class)
     public void test_createTitledBorder_Border_String_int_int()
     throws Exception {
-        // write some test for {@link BorderFactory#createTitledBorder(Border, String, int, int)}
+        // write some test for {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border, String,
+        // int, int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.BorderFactory]

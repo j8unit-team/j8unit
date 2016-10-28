@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.remote.JMXServerErrorException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JMXServerErrorException#JMXServerErrorException(String, Error) public
+     * {@link javax.management.remote.JMXServerErrorException#JMXServerErrorException(String, Error) public
      * javax.management.remote.JMXServerErrorException(java.lang.String,java.lang.Error)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

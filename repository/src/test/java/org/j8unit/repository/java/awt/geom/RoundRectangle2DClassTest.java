@@ -36,8 +36,8 @@ implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<RoundR
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float() public
-         * java.awt.geom.RoundRectangle2D$Float()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Float#Float() public java.awt.geom.RoundRectangle2D$Float()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -58,7 +58,7 @@ implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<RoundR
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link Float#Float(float, float, float, float, float, float) public
+         * {@link java.awt.geom.RoundRectangle2D.Float#Float(float, float, float, float, float, float) public
          * java.awt.geom.RoundRectangle2D$Float(float,float,float,float,float,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -95,8 +95,8 @@ implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<RoundR
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double() public
-         * java.awt.geom.RoundRectangle2D$Double()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Double#Double() public java.awt.geom.RoundRectangle2D$Double()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -117,7 +117,7 @@ implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<RoundR
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link Double#Double(double, double, double, double, double, double) public
+         * {@link java.awt.geom.RoundRectangle2D.Double#Double(double, double, double, double, double, double) public
          * java.awt.geom.RoundRectangle2D$Double(double,double,double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

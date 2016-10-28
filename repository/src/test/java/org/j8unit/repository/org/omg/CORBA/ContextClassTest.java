@@ -22,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.ContextClassTests<Context> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Context#Context() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.Context#Context() public
      * org.omg.CORBA.Context()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

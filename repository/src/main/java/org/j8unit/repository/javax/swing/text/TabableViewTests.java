@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.TabExpander;
 import javax.swing.text.TabableView;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabableView#getPartialSpan(int, int) public abstract
-     * float javax.swing.text.TabableView.getPartialSpan(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.TabableView#getPartialSpan(int, int) public abstract float
+     * javax.swing.text.TabableView.getPartialSpan(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabableView#getTabbedSpan(float, TabExpander) public
-     * abstract float javax.swing.text.TabableView.getTabbedSpan(float,javax.swing.text.TabExpander)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.TabableView#getTabbedSpan(float, javax.swing.text.TabExpander) public abstract float
+     * javax.swing.text.TabableView.getTabbedSpan(float,javax.swing.text.TabExpander)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

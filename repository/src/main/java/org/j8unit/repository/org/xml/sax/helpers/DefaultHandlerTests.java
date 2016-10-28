@@ -5,9 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.Attributes;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
 
 /**
@@ -39,8 +36,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#characters(char[], int, int) public
-     * void org.xml.sax.helpers.DefaultHandler.characters(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#characters(char[], int, int) public void
+     * org.xml.sax.helpers.DefaultHandler.characters(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +60,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#startPrefixMapping(String, String)
-     * public void org.xml.sax.helpers.DefaultHandler.startPrefixMapping(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#startPrefixMapping(String, String) public void
+     * org.xml.sax.helpers.DefaultHandler.startPrefixMapping(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,9 +85,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#endElement(String, String, String)
-     * public void org.xml.sax.helpers.DefaultHandler.endElement(java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#endElement(String, String, String) public void
+     * org.xml.sax.helpers.DefaultHandler.endElement(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,7 +110,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#skippedEntity(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#skippedEntity(String) public void
      * org.xml.sax.helpers.DefaultHandler.skippedEntity(java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,7 +135,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultHandler#unparsedEntityDecl(String, String, String, String) public void
+     * {@link org.xml.sax.helpers.DefaultHandler#unparsedEntityDecl(String, String, String, String) public void
      * org.xml.sax.helpers.DefaultHandler.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws org.xml.sax.SAXException}.
      *
@@ -158,8 +159,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#warning(SAXParseException) public
-     * void org.xml.sax.helpers.DefaultHandler.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#warning(org.xml.sax.SAXParseException) public void
+     * org.xml.sax.helpers.DefaultHandler.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,8 +183,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#setDocumentLocator(Locator) public
-     * void org.xml.sax.helpers.DefaultHandler.setDocumentLocator(org.xml.sax.Locator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#setDocumentLocator(org.xml.sax.Locator) public void
+     * org.xml.sax.helpers.DefaultHandler.setDocumentLocator(org.xml.sax.Locator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -204,9 +207,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#ignorableWhitespace(char[], int, int)
-     * public void org.xml.sax.helpers.DefaultHandler.ignorableWhitespace(char[],int,int) throws
-     * org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#ignorableWhitespace(char[], int, int) public void
+     * org.xml.sax.helpers.DefaultHandler.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -228,8 +231,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#processingInstruction(String, String)
-     * public void org.xml.sax.helpers.DefaultHandler.processingInstruction(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#processingInstruction(String, String) public void
+     * org.xml.sax.helpers.DefaultHandler.processingInstruction(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -252,7 +256,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#endPrefixMapping(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#endPrefixMapping(String) public void
      * org.xml.sax.helpers.DefaultHandler.endPrefixMapping(java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -276,7 +281,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultHandler#startElement(String, String, String, Attributes) public void
+     * {@link org.xml.sax.helpers.DefaultHandler#startElement(String, String, String, org.xml.sax.Attributes) public
+     * void
      * org.xml.sax.helpers.DefaultHandler.startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes)
      * throws org.xml.sax.SAXException}.
      *
@@ -300,9 +306,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#fatalError(SAXParseException) public
-     * void org.xml.sax.helpers.DefaultHandler.fatalError(org.xml.sax.SAXParseException) throws
-     * org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#fatalError(org.xml.sax.SAXParseException) public void
+     * org.xml.sax.helpers.DefaultHandler.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,9 +330,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#resolveEntity(String, String) public
-     * org.xml.sax.InputSource org.xml.sax.helpers.DefaultHandler.resolveEntity(java.lang.String,java.lang.String)
-     * throws java.io.IOException,org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#resolveEntity(String, String) public org.xml.sax.InputSource
+     * org.xml.sax.helpers.DefaultHandler.resolveEntity(java.lang.String,java.lang.String) throws
+     * java.io.IOException,org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -348,7 +355,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#error(SAXParseException) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#error(org.xml.sax.SAXParseException) public void
      * org.xml.sax.helpers.DefaultHandler.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -371,8 +379,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#endDocument() public void
-     * org.xml.sax.helpers.DefaultHandler.endDocument() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.DefaultHandler#endDocument()
+     * public void org.xml.sax.helpers.DefaultHandler.endDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -394,8 +402,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#startDocument() public void
-     * org.xml.sax.helpers.DefaultHandler.startDocument() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.DefaultHandler#startDocument()
+     * public void org.xml.sax.helpers.DefaultHandler.startDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -417,9 +425,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHandler#notationDecl(String, String, String)
-     * public void org.xml.sax.helpers.DefaultHandler.notationDecl(java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.DefaultHandler#notationDecl(String, String, String) public void
+     * org.xml.sax.helpers.DefaultHandler.notationDecl(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobPriorityClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JobPriority#JobPriority(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.JobPriority#JobPriority(int) public
      * javax.print.attribute.standard.JobPriority(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.rmi.ConnectExceptionClassTests<ConnectExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConnectException#ConnectException(String)
-     * public java.rmi.ConnectException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.ConnectException#ConnectException(String) public java.rmi.ConnectException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.rmi.ConnectExceptionClassTests<ConnectExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConnectException#ConnectException(String, Exception) public
+     * {@link java.rmi.ConnectException#ConnectException(String, Exception) public
      * java.rmi.ConnectException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

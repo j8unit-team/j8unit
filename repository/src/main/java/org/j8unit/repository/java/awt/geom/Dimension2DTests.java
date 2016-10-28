@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension2D#setSize(Dimension2D) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Dimension2D#setSize(java.awt.geom.Dimension2D) public void
      * java.awt.geom.Dimension2D.setSize(java.awt.geom.Dimension2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension2D#setSize(double, double) public abstract
-     * void java.awt.geom.Dimension2D.setSize(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Dimension2D#setSize(double, double)
+     * public abstract void java.awt.geom.Dimension2D.setSize(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension2D#getHeight() public abstract double
-     * java.awt.geom.Dimension2D.getHeight()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Dimension2D#getHeight() public
+     * abstract double java.awt.geom.Dimension2D.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension2D#getWidth() public abstract double
-     * java.awt.geom.Dimension2D.getWidth()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Dimension2D#getWidth() public abstract
+     * double java.awt.geom.Dimension2D.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension2D#clone() public java.lang.Object
-     * java.awt.geom.Dimension2D.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Dimension2D#clone() public
+     * java.lang.Object java.awt.geom.Dimension2D.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

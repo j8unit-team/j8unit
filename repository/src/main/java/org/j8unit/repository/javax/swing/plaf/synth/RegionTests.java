@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Region#getName() public java.lang.String
-     * javax.swing.plaf.synth.Region.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.synth.Region#getName() public
+     * java.lang.String javax.swing.plaf.synth.Region.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Region#isSubregion() public boolean
-     * javax.swing.plaf.synth.Region.isSubregion()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.synth.Region#isSubregion() public
+     * boolean javax.swing.plaf.synth.Region.isSubregion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Region#toString() public java.lang.String
-     * javax.swing.plaf.synth.Region.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.synth.Region#toString() public
+     * java.lang.String javax.swing.plaf.synth.Region.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

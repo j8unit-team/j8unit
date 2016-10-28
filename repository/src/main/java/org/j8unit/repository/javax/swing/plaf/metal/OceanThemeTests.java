@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import javax.swing.UIDefaults;
 import javax.swing.plaf.metal.OceanTheme;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OceanTheme#getInactiveControlTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getInactiveControlTextColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.OceanTheme#getInactiveControlTextColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.OceanTheme.getInactiveControlTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OceanTheme#getMenuDisabledForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getMenuDisabledForeground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.OceanTheme#getMenuDisabledForeground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.OceanTheme.getMenuDisabledForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,8 @@ extends org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OceanTheme#getDesktopColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getDesktopColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.OceanTheme#getDesktopColor()
+     * public javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getDesktopColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +105,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OceanTheme#addCustomEntriesToTable(UIDefaults)
-     * public void javax.swing.plaf.metal.OceanTheme.addCustomEntriesToTable(javax.swing.UIDefaults)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.OceanTheme#addCustomEntriesToTable(javax.swing.UIDefaults) public void
+     * javax.swing.plaf.metal.OceanTheme.addCustomEntriesToTable(javax.swing.UIDefaults)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +129,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OceanTheme#getControlTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getControlTextColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.OceanTheme#getControlTextColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.OceanTheme.getControlTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +153,8 @@ extends org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OceanTheme#getName() public java.lang.String
-     * javax.swing.plaf.metal.OceanTheme.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.OceanTheme#getName() public
+     * java.lang.String javax.swing.plaf.metal.OceanTheme.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

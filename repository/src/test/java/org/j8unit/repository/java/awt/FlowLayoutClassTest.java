@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.FlowLayoutClassTests<FlowLayout> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FlowLayout#FlowLayout(int, int, int) public
-     * java.awt.FlowLayout(int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.FlowLayout#FlowLayout(int, int, int)
+     * public java.awt.FlowLayout(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.awt.FlowLayoutClassTests<FlowLayout> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FlowLayout#FlowLayout(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.FlowLayout#FlowLayout(int) public
      * java.awt.FlowLayout(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,7 +65,7 @@ implements org.j8unit.repository.java.awt.FlowLayoutClassTests<FlowLayout> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FlowLayout#FlowLayout() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.FlowLayout#FlowLayout() public
      * java.awt.FlowLayout()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

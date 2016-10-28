@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#setNamespaceDeclUris(boolean)
-     * public void org.xml.sax.helpers.NamespaceSupport.setNamespaceDeclUris(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.NamespaceSupport#setNamespaceDeclUris(boolean) public void
+     * org.xml.sax.helpers.NamespaceSupport.setNamespaceDeclUris(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#isNamespaceDeclUris() public
-     * boolean org.xml.sax.helpers.NamespaceSupport.isNamespaceDeclUris()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.NamespaceSupport#isNamespaceDeclUris() public boolean
+     * org.xml.sax.helpers.NamespaceSupport.isNamespaceDeclUris()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,30 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#getPrefix(String) public
-     * java.lang.String org.xml.sax.helpers.NamespaceSupport.getPrefix(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrefix_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#pushContext() public void
-     * org.xml.sax.helpers.NamespaceSupport.pushContext()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.NamespaceSupport#pushContext()
+     * public void org.xml.sax.helpers.NamespaceSupport.pushContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +103,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NamespaceSupport#processName(String, String[], boolean) public java.lang.String[]
+     * {@link org.xml.sax.helpers.NamespaceSupport#getPrefix(String) public java.lang.String
+     * org.xml.sax.helpers.NamespaceSupport.getPrefix(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrefix_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.NamespaceSupport#processName(String, String[], boolean) public java.lang.String[]
      * org.xml.sax.helpers.NamespaceSupport.processName(java.lang.String,java.lang.String[],boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +148,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#getDeclaredPrefixes() public
-     * java.util.Enumeration org.xml.sax.helpers.NamespaceSupport.getDeclaredPrefixes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.NamespaceSupport#getDeclaredPrefixes() public java.util.Enumeration
+     * org.xml.sax.helpers.NamespaceSupport.getDeclaredPrefixes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +171,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#declarePrefix(String, String)
-     * public boolean org.xml.sax.helpers.NamespaceSupport.declarePrefix(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.NamespaceSupport#declarePrefix(String, String) public boolean
+     * org.xml.sax.helpers.NamespaceSupport.declarePrefix(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +194,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#reset() public void
-     * org.xml.sax.helpers.NamespaceSupport.reset()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.NamespaceSupport#reset() public
+     * void org.xml.sax.helpers.NamespaceSupport.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +216,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#getPrefixes() public
-     * java.util.Enumeration org.xml.sax.helpers.NamespaceSupport.getPrefixes()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.NamespaceSupport#getPrefixes()
+     * public java.util.Enumeration org.xml.sax.helpers.NamespaceSupport.getPrefixes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +238,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#getPrefixes(String) public
-     * java.util.Enumeration org.xml.sax.helpers.NamespaceSupport.getPrefixes(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.NamespaceSupport#getPrefixes(String) public java.util.Enumeration
+     * org.xml.sax.helpers.NamespaceSupport.getPrefixes(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +261,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#getURI(String) public
-     * java.lang.String org.xml.sax.helpers.NamespaceSupport.getURI(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.NamespaceSupport#getURI(String)
+     * public java.lang.String org.xml.sax.helpers.NamespaceSupport.getURI(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +283,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamespaceSupport#popContext() public void
-     * org.xml.sax.helpers.NamespaceSupport.popContext()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.NamespaceSupport#popContext()
+     * public void org.xml.sax.helpers.NamespaceSupport.popContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

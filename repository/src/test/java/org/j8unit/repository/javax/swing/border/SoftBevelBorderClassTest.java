@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Color;
 import javax.swing.border.SoftBevelBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.swing.border.SoftBevelBorderClassTests<So
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SoftBevelBorder#SoftBevelBorder(int, Color, Color, Color, Color) public
-     * javax.swing.border.SoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
+     * {@link javax.swing.border.SoftBevelBorder#SoftBevelBorder(int, java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
+     * public javax.swing.border.SoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,14 @@ implements org.j8unit.repository.javax.swing.border.SoftBevelBorderClassTests<So
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SoftBevelBorder sut = null; // = new SoftBevelBorder(int, Color, Color, Color, Color);
+        final SoftBevelBorder sut = null; // = new SoftBevelBorder(int, java.awt.Color, java.awt.Color, java.awt.Color,
+                                          // java.awt.Color);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SoftBevelBorder#SoftBevelBorder(int, Color, Color) public
+     * {@link javax.swing.border.SoftBevelBorder#SoftBevelBorder(int, java.awt.Color, java.awt.Color) public
      * javax.swing.border.SoftBevelBorder(int,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +63,13 @@ implements org.j8unit.repository.javax.swing.border.SoftBevelBorderClassTests<So
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SoftBevelBorder sut = null; // = new SoftBevelBorder(int, Color, Color);
+        final SoftBevelBorder sut = null; // = new SoftBevelBorder(int, java.awt.Color, java.awt.Color);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SoftBevelBorder#SoftBevelBorder(int) public
-     * javax.swing.border.SoftBevelBorder(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.SoftBevelBorder#SoftBevelBorder(int) public javax.swing.border.SoftBevelBorder(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

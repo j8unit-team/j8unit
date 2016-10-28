@@ -34,7 +34,7 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParseException#getSystemId() public
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.SAXParseException#getSystemId() public
      * java.lang.String org.xml.sax.SAXParseException.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParseException#getLineNumber() public int
-     * org.xml.sax.SAXParseException.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.SAXParseException#getLineNumber() public
+     * int org.xml.sax.SAXParseException.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParseException#toString() public java.lang.String
-     * org.xml.sax.SAXParseException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.SAXParseException#toString() public
+     * java.lang.String org.xml.sax.SAXParseException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParseException#getColumnNumber() public int
-     * org.xml.sax.SAXParseException.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.SAXParseException#getColumnNumber()
+     * public int org.xml.sax.SAXParseException.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,7 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParseException#getPublicId() public
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.SAXParseException#getPublicId() public
      * java.lang.String org.xml.sax.SAXParseException.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

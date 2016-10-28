@@ -6,10 +6,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
-import org.w3c.dom.ls.LSInput;
 import org.w3c.dom.ls.LSParser;
-import org.w3c.dom.ls.LSParserFilter;
 
 /**
  * <p>
@@ -38,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParser#getFilter() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#getFilter() public abstract
      * org.w3c.dom.ls.LSParserFilter org.w3c.dom.ls.LSParser.getFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParser#getBusy() public abstract boolean
-     * org.w3c.dom.ls.LSParser.getBusy()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#getBusy() public abstract
+     * boolean org.w3c.dom.ls.LSParser.getBusy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParser#parseURI(String) public abstract
-     * org.w3c.dom.Document org.w3c.dom.ls.LSParser.parseURI(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#parseURI(String) public
+     * abstract org.w3c.dom.Document org.w3c.dom.ls.LSParser.parseURI(java.lang.String) throws
      * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +102,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParser#abort() public abstract void
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#abort() public abstract void
      * org.w3c.dom.ls.LSParser.abort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,9 +124,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParser#parseWithContext(LSInput, Node, short)
-     * public abstract org.w3c.dom.Node
-     * org.w3c.dom.ls.LSParser.parseWithContext(org.w3c.dom.ls.LSInput,org.w3c.dom.Node,short) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.LSParser#parseWithContext(org.w3c.dom.ls.LSInput, org.w3c.dom.Node, short) public abstract
+     * org.w3c.dom.Node org.w3c.dom.ls.LSParser.parseWithContext(org.w3c.dom.ls.LSInput,org.w3c.dom.Node,short) throws
      * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +148,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParser#getDomConfig() public abstract
-     * org.w3c.dom.DOMConfiguration org.w3c.dom.ls.LSParser.getDomConfig()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#getDomConfig() public
+     * abstract org.w3c.dom.DOMConfiguration org.w3c.dom.ls.LSParser.getDomConfig()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,9 +170,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParser#parse(LSInput) public abstract
-     * org.w3c.dom.Document org.w3c.dom.ls.LSParser.parse(org.w3c.dom.ls.LSInput) throws
-     * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.LSParser#parse(org.w3c.dom.ls.LSInput) public abstract org.w3c.dom.Document
+     * org.w3c.dom.ls.LSParser.parse(org.w3c.dom.ls.LSInput) throws org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,8 +194,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParser#getAsync() public abstract boolean
-     * org.w3c.dom.ls.LSParser.getAsync()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#getAsync() public abstract
+     * boolean org.w3c.dom.ls.LSParser.getAsync()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,8 +216,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParser#setFilter(LSParserFilter) public abstract
-     * void org.w3c.dom.ls.LSParser.setFilter(org.w3c.dom.ls.LSParserFilter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.LSParser#setFilter(org.w3c.dom.ls.LSParserFilter) public abstract void
+     * org.w3c.dom.ls.LSParser.setFilter(org.w3c.dom.ls.LSParserFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

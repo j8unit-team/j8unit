@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
 import static org.junit.Assert.fail;
-import javax.swing.text.Element;
 import javax.swing.text.FlowView;
 import javax.swing.text.FlowView.FlowStrategy;
 import org.j8unit.repository.categories.Draft;
@@ -24,7 +23,8 @@ implements org.j8unit.repository.javax.swing.text.FlowViewClassTests<FlowView> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FlowView#FlowView(Element, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.FlowView#FlowView(javax.swing.text.Element, int) public
      * javax.swing.text.FlowView(javax.swing.text.Element,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,9 @@ implements org.j8unit.repository.javax.swing.text.FlowViewClassTests<FlowView> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link FlowStrategy#FlowStrategy() public
-         * javax.swing.text.FlowView$FlowStrategy()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.FlowView.FlowStrategy#FlowStrategy() public javax.swing.text.FlowView$FlowStrategy()}
+         * .
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

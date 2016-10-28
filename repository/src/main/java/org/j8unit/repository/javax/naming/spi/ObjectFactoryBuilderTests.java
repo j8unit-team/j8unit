@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import java.util.Hashtable;
 import javax.naming.spi.ObjectFactoryBuilder;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ObjectFactoryBuilder#createObjectFactory(Object, Hashtable) public abstract javax.naming.spi.ObjectFactory
+     * {@link javax.naming.spi.ObjectFactoryBuilder#createObjectFactory(Object, java.util.Hashtable) public abstract
+     * javax.naming.spi.ObjectFactory
      * javax.naming.spi.ObjectFactoryBuilder.createObjectFactory(java.lang.Object,java.util.Hashtable<?, ?>) throws
      * javax.naming.NamingException}.
      *

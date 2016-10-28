@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.naming.ReferenceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkRef#getLinkName() public java.lang.String
-     * javax.naming.LinkRef.getLinkName() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.LinkRef#getLinkName() public
+     * java.lang.String javax.naming.LinkRef.getLinkName() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

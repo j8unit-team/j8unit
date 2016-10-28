@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.CompositeDataInvocationHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.management.openmbean.CompositeDataInvocat
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CompositeDataInvocationHandler#CompositeDataInvocationHandler(CompositeData) public
-     * javax.management.openmbean.CompositeDataInvocationHandler(javax.management.openmbean.CompositeData)}.
+     * {@link javax.management.openmbean.CompositeDataInvocationHandler#CompositeDataInvocationHandler(javax.management.openmbean.CompositeData)
+     * public javax.management.openmbean.CompositeDataInvocationHandler(javax.management.openmbean.CompositeData)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.javax.management.openmbean.CompositeDataInvocat
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CompositeDataInvocationHandler sut = null; // = new CompositeDataInvocationHandler(CompositeData);
+        final CompositeDataInvocationHandler sut = null; // = new
+                                                         // CompositeDataInvocationHandler(javax.management.openmbean.CompositeData);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.CompositeDataInvocationHandler]

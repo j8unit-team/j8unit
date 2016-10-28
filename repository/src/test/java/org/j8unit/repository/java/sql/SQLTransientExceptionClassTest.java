@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SQLTra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLTransientException#SQLTransientException(Throwable) public
+     * {@link java.sql.SQLTransientException#SQLTransientException(Throwable) public
      * java.sql.SQLTransientException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SQLTra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLTransientException#SQLTransientException(String, Throwable) public
+     * {@link java.sql.SQLTransientException#SQLTransientException(String, Throwable) public
      * java.sql.SQLTransientException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SQLTra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLTransientException#SQLTransientException(String, String, Throwable) public
+     * {@link java.sql.SQLTransientException#SQLTransientException(String, String, Throwable) public
      * java.sql.SQLTransientException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SQLTra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLTransientException#SQLTransientException(String, String, int, Throwable) public
+     * {@link java.sql.SQLTransientException#SQLTransientException(String, String, int, Throwable) public
      * java.sql.SQLTransientException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -113,8 +113,8 @@ implements org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SQLTra
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLTransientException#SQLTransientException()
-     * public java.sql.SQLTransientException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.sql.SQLTransientException#SQLTransientException() public java.sql.SQLTransientException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,7 +135,7 @@ implements org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SQLTra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLTransientException#SQLTransientException(String) public
+     * {@link java.sql.SQLTransientException#SQLTransientException(String) public
      * java.sql.SQLTransientException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -158,7 +158,7 @@ implements org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SQLTra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLTransientException#SQLTransientException(String, String) public
+     * {@link java.sql.SQLTransientException#SQLTransientException(String, String) public
      * java.sql.SQLTransientException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -181,7 +181,7 @@ implements org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SQLTra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLTransientException#SQLTransientException(String, String, int) public
+     * {@link java.sql.SQLTransientException#SQLTransientException(String, String, int) public
      * java.sql.SQLTransientException(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

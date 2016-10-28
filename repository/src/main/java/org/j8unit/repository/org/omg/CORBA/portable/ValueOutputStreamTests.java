@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueOutputStream#end_value() public abstract void
-     * org.omg.CORBA.portable.ValueOutputStream.end_value()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ValueOutputStream#end_value()
+     * public abstract void org.omg.CORBA.portable.ValueOutputStream.end_value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueOutputStream#start_value(String) public
-     * abstract void org.omg.CORBA.portable.ValueOutputStream.start_value(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ValueOutputStream#start_value(String) public abstract void
+     * org.omg.CORBA.portable.ValueOutputStream.start_value(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

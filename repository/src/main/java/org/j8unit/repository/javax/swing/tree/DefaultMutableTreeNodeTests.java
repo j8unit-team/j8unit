@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing.tree;
 
 import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.MutableTreeNode;
-import javax.swing.tree.TreeNode;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getFirstLeaf() public
-     * javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode.getFirstLeaf()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getFirstLeaf() public javax.swing.tree.DefaultMutableTreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getFirstLeaf()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getLastChild() public
-     * javax.swing.tree.TreeNode javax.swing.tree.DefaultMutableTreeNode.getLastChild()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getLastChild() public javax.swing.tree.TreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getLastChild()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#breadthFirstEnumeration()
-     * public java.util.Enumeration javax.swing.tree.DefaultMutableTreeNode.breadthFirstEnumeration()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#breadthFirstEnumeration() public java.util.Enumeration
+     * javax.swing.tree.DefaultMutableTreeNode.breadthFirstEnumeration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#isNodeAncestor(TreeNode)
-     * public boolean javax.swing.tree.DefaultMutableTreeNode.isNodeAncestor(javax.swing.tree.TreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#isNodeAncestor(javax.swing.tree.TreeNode) public boolean
+     * javax.swing.tree.DefaultMutableTreeNode.isNodeAncestor(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +127,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getPreviousSibling() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getPreviousSibling() public
      * javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode.getPreviousSibling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,8 +150,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#add(MutableTreeNode) public
-     * void javax.swing.tree.DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#add(javax.swing.tree.MutableTreeNode) public void
+     * javax.swing.tree.DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +173,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getPreviousLeaf() public
-     * javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode.getPreviousLeaf()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getPreviousLeaf() public javax.swing.tree.DefaultMutableTreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getPreviousLeaf()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +196,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getNextNode() public
-     * javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode.getNextNode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getNextNode() public javax.swing.tree.DefaultMutableTreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getNextNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +219,32 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#removeFromParent() public
-     * void javax.swing.tree.DefaultMutableTreeNode.removeFromParent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getUserObject() public java.lang.Object
+     * javax.swing.tree.DefaultMutableTreeNode.getUserObject()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUserObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#removeFromParent() public void
+     * javax.swing.tree.DefaultMutableTreeNode.removeFromParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,29 +266,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getUserObject() public
-     * java.lang.Object javax.swing.tree.DefaultMutableTreeNode.getUserObject()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUserObject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getChildCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getChildCount() public int
      * javax.swing.tree.DefaultMutableTreeNode.getChildCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,8 +290,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#isLeaf() public boolean
-     * javax.swing.tree.DefaultMutableTreeNode.isLeaf()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#isLeaf()
+     * public boolean javax.swing.tree.DefaultMutableTreeNode.isLeaf()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,8 +313,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#isRoot() public boolean
-     * javax.swing.tree.DefaultMutableTreeNode.isRoot()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#isRoot()
+     * public boolean javax.swing.tree.DefaultMutableTreeNode.isRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,7 +335,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getIndex(TreeNode) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getIndex(javax.swing.tree.TreeNode) public int
      * javax.swing.tree.DefaultMutableTreeNode.getIndex(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,8 +359,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getNextSibling() public
-     * javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode.getNextSibling()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getNextSibling() public javax.swing.tree.DefaultMutableTreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getNextSibling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,8 +382,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getUserObjectPath() public
-     * java.lang.Object[] javax.swing.tree.DefaultMutableTreeNode.getUserObjectPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getUserObjectPath() public java.lang.Object[]
+     * javax.swing.tree.DefaultMutableTreeNode.getUserObjectPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -393,30 +405,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getSiblingCount() public int
-     * javax.swing.tree.DefaultMutableTreeNode.getSiblingCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSiblingCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#setUserObject(Object) public
-     * void javax.swing.tree.DefaultMutableTreeNode.setUserObject(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#setUserObject(Object) public void
+     * javax.swing.tree.DefaultMutableTreeNode.setUserObject(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -439,7 +430,31 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultMutableTreeNode#pathFromAncestorEnumeration(TreeNode) public java.util.Enumeration
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getSiblingCount() public int
+     * javax.swing.tree.DefaultMutableTreeNode.getSiblingCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSiblingCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#pathFromAncestorEnumeration(javax.swing.tree.TreeNode) public
+     * java.util.Enumeration
      * javax.swing.tree.DefaultMutableTreeNode.pathFromAncestorEnumeration(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -461,8 +476,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getPath() public
-     * javax.swing.tree.TreeNode[] javax.swing.tree.DefaultMutableTreeNode.getPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#getPath()
+     * public javax.swing.tree.TreeNode[] javax.swing.tree.DefaultMutableTreeNode.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -483,8 +498,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#children() public
-     * java.util.Enumeration javax.swing.tree.DefaultMutableTreeNode.children()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#children()
+     * public java.util.Enumeration javax.swing.tree.DefaultMutableTreeNode.children()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -506,8 +521,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#preorderEnumeration() public
-     * java.util.Enumeration javax.swing.tree.DefaultMutableTreeNode.preorderEnumeration()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#preorderEnumeration() public java.util.Enumeration
+     * javax.swing.tree.DefaultMutableTreeNode.preorderEnumeration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -528,8 +544,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#removeAllChildren() public
-     * void javax.swing.tree.DefaultMutableTreeNode.removeAllChildren()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#removeAllChildren() public void
+     * javax.swing.tree.DefaultMutableTreeNode.removeAllChildren()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -551,8 +568,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultMutableTreeNode#isNodeRelated(DefaultMutableTreeNode) public boolean
-     * javax.swing.tree.DefaultMutableTreeNode.isNodeRelated(javax.swing.tree.DefaultMutableTreeNode)}.
+     * {@link javax.swing.tree.DefaultMutableTreeNode#isNodeRelated(javax.swing.tree.DefaultMutableTreeNode) public
+     * boolean javax.swing.tree.DefaultMutableTreeNode.isNodeRelated(javax.swing.tree.DefaultMutableTreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -573,8 +590,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getParent() public
-     * javax.swing.tree.TreeNode javax.swing.tree.DefaultMutableTreeNode.getParent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#getParent()
+     * public javax.swing.tree.TreeNode javax.swing.tree.DefaultMutableTreeNode.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -596,8 +613,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#postorderEnumeration() public
-     * java.util.Enumeration javax.swing.tree.DefaultMutableTreeNode.postorderEnumeration()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#postorderEnumeration() public java.util.Enumeration
+     * javax.swing.tree.DefaultMutableTreeNode.postorderEnumeration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -618,8 +636,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#toString() public
-     * java.lang.String javax.swing.tree.DefaultMutableTreeNode.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#toString()
+     * public java.lang.String javax.swing.tree.DefaultMutableTreeNode.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -641,9 +659,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getChildBefore(TreeNode)
-     * public javax.swing.tree.TreeNode
-     * javax.swing.tree.DefaultMutableTreeNode.getChildBefore(javax.swing.tree.TreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getChildBefore(javax.swing.tree.TreeNode) public
+     * javax.swing.tree.TreeNode javax.swing.tree.DefaultMutableTreeNode.getChildBefore(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -664,8 +682,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#clone() public
-     * java.lang.Object javax.swing.tree.DefaultMutableTreeNode.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#clone()
+     * public java.lang.Object javax.swing.tree.DefaultMutableTreeNode.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -686,8 +704,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getAllowsChildren() public
-     * boolean javax.swing.tree.DefaultMutableTreeNode.getAllowsChildren()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getAllowsChildren() public boolean
+     * javax.swing.tree.DefaultMutableTreeNode.getAllowsChildren()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -709,8 +728,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#setAllowsChildren(boolean)
-     * public void javax.swing.tree.DefaultMutableTreeNode.setAllowsChildren(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#setAllowsChildren(boolean) public void
+     * javax.swing.tree.DefaultMutableTreeNode.setAllowsChildren(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -731,8 +751,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getChildAt(int) public
-     * javax.swing.tree.TreeNode javax.swing.tree.DefaultMutableTreeNode.getChildAt(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getChildAt(int) public javax.swing.tree.TreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getChildAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -754,8 +775,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getLevel() public int
-     * javax.swing.tree.DefaultMutableTreeNode.getLevel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#getLevel()
+     * public int javax.swing.tree.DefaultMutableTreeNode.getLevel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -776,9 +797,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getChildAfter(TreeNode)
-     * public javax.swing.tree.TreeNode
-     * javax.swing.tree.DefaultMutableTreeNode.getChildAfter(javax.swing.tree.TreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getChildAfter(javax.swing.tree.TreeNode) public
+     * javax.swing.tree.TreeNode javax.swing.tree.DefaultMutableTreeNode.getChildAfter(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -799,8 +820,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#remove(int) public void
-     * javax.swing.tree.DefaultMutableTreeNode.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#remove(int)
+     * public void javax.swing.tree.DefaultMutableTreeNode.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -822,8 +843,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#remove(MutableTreeNode)
-     * public void javax.swing.tree.DefaultMutableTreeNode.remove(javax.swing.tree.MutableTreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#remove(javax.swing.tree.MutableTreeNode) public void
+     * javax.swing.tree.DefaultMutableTreeNode.remove(javax.swing.tree.MutableTreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -845,7 +867,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getLeafCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getLeafCount() public int
      * javax.swing.tree.DefaultMutableTreeNode.getLeafCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -867,8 +890,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#insert(MutableTreeNode, int)
-     * public void javax.swing.tree.DefaultMutableTreeNode.insert(javax.swing.tree.MutableTreeNode,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#insert(javax.swing.tree.MutableTreeNode, int) public void
+     * javax.swing.tree.DefaultMutableTreeNode.insert(javax.swing.tree.MutableTreeNode,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -891,8 +915,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultMutableTreeNode#isNodeDescendant(DefaultMutableTreeNode) public boolean
-     * javax.swing.tree.DefaultMutableTreeNode.isNodeDescendant(javax.swing.tree.DefaultMutableTreeNode)}.
+     * {@link javax.swing.tree.DefaultMutableTreeNode#isNodeDescendant(javax.swing.tree.DefaultMutableTreeNode) public
+     * boolean javax.swing.tree.DefaultMutableTreeNode.isNodeDescendant(javax.swing.tree.DefaultMutableTreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -913,8 +937,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getDepth() public int
-     * javax.swing.tree.DefaultMutableTreeNode.getDepth()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#getDepth()
+     * public int javax.swing.tree.DefaultMutableTreeNode.getDepth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -935,8 +959,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#isNodeChild(TreeNode) public
-     * boolean javax.swing.tree.DefaultMutableTreeNode.isNodeChild(javax.swing.tree.TreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#isNodeChild(javax.swing.tree.TreeNode) public boolean
+     * javax.swing.tree.DefaultMutableTreeNode.isNodeChild(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -957,8 +982,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#depthFirstEnumeration()
-     * public java.util.Enumeration javax.swing.tree.DefaultMutableTreeNode.depthFirstEnumeration()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#depthFirstEnumeration() public java.util.Enumeration
+     * javax.swing.tree.DefaultMutableTreeNode.depthFirstEnumeration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -979,8 +1005,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getRoot() public
-     * javax.swing.tree.TreeNode javax.swing.tree.DefaultMutableTreeNode.getRoot()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultMutableTreeNode#getRoot()
+     * public javax.swing.tree.TreeNode javax.swing.tree.DefaultMutableTreeNode.getRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1001,8 +1027,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#isNodeSibling(TreeNode)
-     * public boolean javax.swing.tree.DefaultMutableTreeNode.isNodeSibling(javax.swing.tree.TreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#isNodeSibling(javax.swing.tree.TreeNode) public boolean
+     * javax.swing.tree.DefaultMutableTreeNode.isNodeSibling(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1023,8 +1050,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#setParent(MutableTreeNode)
-     * public void javax.swing.tree.DefaultMutableTreeNode.setParent(javax.swing.tree.MutableTreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#setParent(javax.swing.tree.MutableTreeNode) public void
+     * javax.swing.tree.DefaultMutableTreeNode.setParent(javax.swing.tree.MutableTreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1046,8 +1074,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getNextLeaf() public
-     * javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode.getNextLeaf()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getNextLeaf() public javax.swing.tree.DefaultMutableTreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getNextLeaf()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1068,8 +1097,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getFirstChild() public
-     * javax.swing.tree.TreeNode javax.swing.tree.DefaultMutableTreeNode.getFirstChild()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getFirstChild() public javax.swing.tree.TreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getFirstChild()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1090,8 +1120,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getPreviousNode() public
-     * javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode.getPreviousNode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getPreviousNode() public javax.swing.tree.DefaultMutableTreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getPreviousNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1112,8 +1143,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMutableTreeNode#getLastLeaf() public
-     * javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode.getLastLeaf()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getLastLeaf() public javax.swing.tree.DefaultMutableTreeNode
+     * javax.swing.tree.DefaultMutableTreeNode.getLastLeaf()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1135,7 +1167,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultMutableTreeNode#getSharedAncestor(DefaultMutableTreeNode) public javax.swing.tree.TreeNode
+     * {@link javax.swing.tree.DefaultMutableTreeNode#getSharedAncestor(javax.swing.tree.DefaultMutableTreeNode) public
+     * javax.swing.tree.TreeNode
      * javax.swing.tree.DefaultMutableTreeNode.getSharedAncestor(javax.swing.tree.DefaultMutableTreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

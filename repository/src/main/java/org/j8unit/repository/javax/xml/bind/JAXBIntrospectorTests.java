@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBIntrospector#getElementName(Object) public
-     * abstract javax.xml.namespace.QName javax.xml.bind.JAXBIntrospector.getElementName(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.JAXBIntrospector#getElementName(Object) public abstract javax.xml.namespace.QName
+     * javax.xml.bind.JAXBIntrospector.getElementName(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBIntrospector#isElement(Object) public abstract
-     * boolean javax.xml.bind.JAXBIntrospector.isElement(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBIntrospector#isElement(Object)
+     * public abstract boolean javax.xml.bind.JAXBIntrospector.isElement(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

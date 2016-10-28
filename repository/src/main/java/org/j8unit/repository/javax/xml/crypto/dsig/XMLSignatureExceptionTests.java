@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig;
 
-import java.io.PrintStream;
-import java.io.PrintWriter;
 import javax.xml.crypto.dsig.XMLSignatureException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignatureException#getCause() public
-     * java.lang.Throwable javax.xml.crypto.dsig.XMLSignatureException.getCause()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureException#getCause() public java.lang.Throwable
+     * javax.xml.crypto.dsig.XMLSignatureException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignatureException#printStackTrace(PrintWriter)
-     * public void javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintWriter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintWriter) public void
+     * javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignatureException#printStackTrace(PrintStream)
-     * public void javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintStream) public void
+     * javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +106,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLSignatureException#printStackTrace() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace() public void
      * javax.xml.crypto.dsig.XMLSignatureException.printStackTrace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

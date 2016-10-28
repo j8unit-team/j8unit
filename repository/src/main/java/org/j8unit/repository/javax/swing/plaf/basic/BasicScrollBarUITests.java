@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Graphics;
-import java.beans.PropertyChangeEvent;
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicScrollBarUI;
 import javax.swing.plaf.basic.BasicScrollBarUI.PropertyChangeHandler;
 import org.j8unit.repository.categories.Draft;
@@ -41,8 +36,9 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#minimumLayoutSize(Container) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicScrollBarUI.minimumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicScrollBarUI.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +60,8 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicScrollBarUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,8 +84,9 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicScrollBarUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicScrollBarUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,8 +108,9 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicScrollBarUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicScrollBarUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +132,9 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#removeLayoutComponent(Component)
-     * public void javax.swing.plaf.basic.BasicScrollBarUI.removeLayoutComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#removeLayoutComponent(java.awt.Component) public void
+     * javax.swing.plaf.basic.BasicScrollBarUI.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,8 +156,9 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#preferredLayoutSize(Container)
-     * public java.awt.Dimension javax.swing.plaf.basic.BasicScrollBarUI.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicScrollBarUI.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -179,7 +180,8 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#isThumbRollover() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#isThumbRollover() public boolean
      * javax.swing.plaf.basic.BasicScrollBarUI.isThumbRollover()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,8 +203,9 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#getSupportsAbsolutePositioning()
-     * public boolean javax.swing.plaf.basic.BasicScrollBarUI.getSupportsAbsolutePositioning()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#getSupportsAbsolutePositioning() public boolean
+     * javax.swing.plaf.basic.BasicScrollBarUI.getSupportsAbsolutePositioning()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,8 +226,9 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#layoutContainer(Container) public
-     * void javax.swing.plaf.basic.BasicScrollBarUI.layoutContainer(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#layoutContainer(java.awt.Container) public void
+     * javax.swing.plaf.basic.BasicScrollBarUI.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -246,7 +250,8 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicScrollBarUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -269,8 +274,9 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.basic.BasicScrollBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicScrollBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,7 +299,7 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicScrollBarUI#addLayoutComponent(String, Component) public void
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#addLayoutComponent(String, java.awt.Component) public void
      * javax.swing.plaf.basic.BasicScrollBarUI.addLayoutComponent(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,7 +351,8 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link PropertyChangeHandler#propertyChange(PropertyChangeEvent) public void
+         * {@link javax.swing.plaf.basic.BasicScrollBarUI.PropertyChangeHandler#propertyChange(java.beans.PropertyChangeEvent)
+         * public void
          * javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler.propertyChange(java.beans.PropertyChangeEvent)}
          * .
          *

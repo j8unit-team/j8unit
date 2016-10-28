@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLDataSource#getName() public java.lang.String
-     * javax.activation.URLDataSource.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.URLDataSource#getName() public
+     * java.lang.String javax.activation.URLDataSource.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLDataSource#getURL() public java.net.URL
-     * javax.activation.URLDataSource.getURL()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.URLDataSource#getURL() public
+     * java.net.URL javax.activation.URLDataSource.getURL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLDataSource#getInputStream() public
-     * java.io.InputStream javax.activation.URLDataSource.getInputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.URLDataSource#getInputStream()
+     * public java.io.InputStream javax.activation.URLDataSource.getInputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLDataSource#getOutputStream() public
-     * java.io.OutputStream javax.activation.URLDataSource.getOutputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.URLDataSource#getOutputStream()
+     * public java.io.OutputStream javax.activation.URLDataSource.getOutputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLDataSource#getContentType() public
-     * java.lang.String javax.activation.URLDataSource.getContentType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.URLDataSource#getContentType()
+     * public java.lang.String javax.activation.URLDataSource.getContentType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,9 +21,10 @@ implements org.j8unit.repository.org.w3c.dom.bootstrap.DOMImplementationRegistry
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMImplementationRegistry#newInstance() public
-     * static org.w3c.dom.bootstrap.DOMImplementationRegistry
-     * org.w3c.dom.bootstrap.DOMImplementationRegistry.newInstance() throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#newInstance() public static
+     * org.w3c.dom.bootstrap.DOMImplementationRegistry org.w3c.dom.bootstrap.DOMImplementationRegistry.newInstance()
+     * throws
      * java.lang.ClassNotFoundException,java.lang.InstantiationException,java.lang.IllegalAccessException,java.lang.ClassCastException}
      * .
      *
@@ -39,7 +40,7 @@ implements org.j8unit.repository.org.w3c.dom.bootstrap.DOMImplementationRegistry
     @Category(Draft.class)
     public void test_newInstance()
     throws Exception {
-        // write some test for {@link DOMImplementationRegistry#newInstance()}
+        // write some test for {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#newInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.bootstrap.DOMImplementationRegistry]

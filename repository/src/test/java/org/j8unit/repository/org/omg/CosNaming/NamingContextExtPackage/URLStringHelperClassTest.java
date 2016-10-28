@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.CosNaming.NamingContextExtPackage.URLStringHelper;
 
 @RunWith(J8Unit4.class)
@@ -25,7 +22,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLSt
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URLStringHelper#URLStringHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#URLStringHelper() public
      * org.omg.CosNaming.NamingContextExtPackage.URLStringHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +43,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLStringHelper#read(InputStream) public static
-     * java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static java.lang.String
      * org.omg.CosNaming.NamingContextExtPackage.URLStringHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,12 +60,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLSt
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link URLStringHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLStringHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#extract(org.omg.CORBA.Any) public static
      * java.lang.String org.omg.CosNaming.NamingContextExtPackage.URLStringHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,12 +82,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLSt
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link URLStringHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLStringHelper#type() public static synchronized
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#type() public static synchronized
      * org.omg.CORBA.TypeCode org.omg.CosNaming.NamingContextExtPackage.URLStringHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,13 +104,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLSt
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link URLStringHelper#type()}
+        // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLStringHelper#write(OutputStream, String) public
-     * static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#write(org.omg.CORBA.portable.OutputStream, String)
+     * public static void
      * org.omg.CosNaming.NamingContextExtPackage.URLStringHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}
      * .
      *
@@ -123,12 +127,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLSt
     @Category(Draft.class)
     public void test_write_OutputStream_String()
     throws Exception {
-        // write some test for {@link URLStringHelper#write(OutputStream, String)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#write(org.omg.CORBA.portable.OutputStream, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLStringHelper#id() public static java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#id() public static java.lang.String
      * org.omg.CosNaming.NamingContextExtPackage.URLStringHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -143,12 +149,13 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLSt
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link URLStringHelper#id()}
+        // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLStringHelper#insert(Any, String) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#insert(org.omg.CORBA.Any, String) public static
      * void org.omg.CosNaming.NamingContextExtPackage.URLStringHelper.insert(org.omg.CORBA.Any,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -163,7 +170,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLSt
     @Category(Draft.class)
     public void test_insert_Any_String()
     throws Exception {
-        // write some test for {@link URLStringHelper#insert(Any, String)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#insert(org.omg.CORBA.Any, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.URLStringHelper]

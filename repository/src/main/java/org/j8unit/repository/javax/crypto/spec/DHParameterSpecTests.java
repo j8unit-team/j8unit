@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DHParameterSpec#getP() public java.math.BigInteger
-     * javax.crypto.spec.DHParameterSpec.getP()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.DHParameterSpec#getP() public
+     * java.math.BigInteger javax.crypto.spec.DHParameterSpec.getP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DHParameterSpec#getG() public java.math.BigInteger
-     * javax.crypto.spec.DHParameterSpec.getG()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.DHParameterSpec#getG() public
+     * java.math.BigInteger javax.crypto.spec.DHParameterSpec.getG()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DHParameterSpec#getL() public int
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.DHParameterSpec#getL() public int
      * javax.crypto.spec.DHParameterSpec.getL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,9 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Rectangle;
 import javax.swing.DefaultListCellRenderer;
 import javax.swing.DefaultListCellRenderer.UIResource;
-import javax.swing.JList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +36,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#firePropertyChange(String, short, short) public void
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, short, short) public void
      * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,short,short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +60,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#firePropertyChange(String, char, char) public void
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, char, char) public void
      * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,char,char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,7 +84,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#firePropertyChange(String, byte, byte) public void
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, byte, byte) public void
      * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,byte,byte)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,7 +108,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#firePropertyChange(String, boolean, boolean) public void
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, boolean, boolean) public void
      * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,7 +132,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#firePropertyChange(String, double, double) public void
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, double, double) public void
      * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -158,7 +156,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#firePropertyChange(String, int, int) public void
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, int, int) public void
      * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,7 +180,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#firePropertyChange(String, long, long) public void
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, long, long) public void
      * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -206,7 +204,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#firePropertyChange(String, float, float) public void
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, float, float) public void
      * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -229,8 +227,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListCellRenderer#invalidate() public void
-     * javax.swing.DefaultListCellRenderer.invalidate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListCellRenderer#invalidate()
+     * public void javax.swing.DefaultListCellRenderer.invalidate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -252,8 +250,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListCellRenderer#revalidate() public void
-     * javax.swing.DefaultListCellRenderer.revalidate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListCellRenderer#revalidate()
+     * public void javax.swing.DefaultListCellRenderer.revalidate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,7 +274,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#repaint(long, int, int, int, int) public void
+     * {@link javax.swing.DefaultListCellRenderer#repaint(long, int, int, int, int) public void
      * javax.swing.DefaultListCellRenderer.repaint(long,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -299,8 +297,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListCellRenderer#repaint() public void
-     * javax.swing.DefaultListCellRenderer.repaint()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListCellRenderer#repaint() public
+     * void javax.swing.DefaultListCellRenderer.repaint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -322,8 +320,9 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListCellRenderer#repaint(Rectangle) public
-     * void javax.swing.DefaultListCellRenderer.repaint(java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultListCellRenderer#repaint(java.awt.Rectangle) public void
+     * javax.swing.DefaultListCellRenderer.repaint(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -345,8 +344,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListCellRenderer#isOpaque() public boolean
-     * javax.swing.DefaultListCellRenderer.isOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListCellRenderer#isOpaque()
+     * public boolean javax.swing.DefaultListCellRenderer.isOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,8 +368,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultListCellRenderer#getListCellRendererComponent(JList, Object, int, boolean, boolean) public
-     * java.awt.Component javax.swing.DefaultListCellRenderer.getListCellRendererComponent(javax.swing.JList
+     * {@link javax.swing.DefaultListCellRenderer#getListCellRendererComponent(javax.swing.JList, Object, int, boolean, boolean)
+     * public java.awt.Component javax.swing.DefaultListCellRenderer.getListCellRendererComponent(javax.swing.JList
      * <?>,java.lang.Object,int,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -393,8 +392,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultListCellRenderer#validate() public void
-     * javax.swing.DefaultListCellRenderer.validate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListCellRenderer#validate()
+     * public void javax.swing.DefaultListCellRenderer.validate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

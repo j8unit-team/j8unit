@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Queue#poll() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Queue#poll() public abstract E
      * java.util.Queue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Queue#element() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Queue#element() public abstract E
      * java.util.Queue.element()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Queue#peek() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Queue#peek() public abstract E
      * java.util.Queue.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Queue#remove() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Queue#remove() public abstract E
      * java.util.Queue.remove()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Queue#offer(Object) public abstract boolean
-     * java.util.Queue.offer(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Queue#offer(Object) public abstract
+     * boolean java.util.Queue.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Queue#add(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Queue#add(Object) public abstract boolean
      * java.util.Queue.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

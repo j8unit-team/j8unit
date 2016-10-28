@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
 import javax.swing.plaf.multi.MultiRootPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#getUIs() public
-     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiRootPaneUI.getUIs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiRootPaneUI#getUIs()
+     * public javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiRootPaneUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,9 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#contains(JComponent, int, int)
-     * public boolean javax.swing.plaf.multi.MultiRootPaneUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiRootPaneUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,9 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiRootPaneUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiRootPaneUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +104,8 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiRootPaneUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +128,9 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiRootPaneUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiRootPaneUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +152,9 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiRootPaneUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiRootPaneUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +176,9 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiRootPaneUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -197,7 +201,8 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiRootPaneUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,8 +225,9 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiRootPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiRootPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,8 +249,9 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiRootPaneUI#update(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiRootPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiRootPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,7 +274,7 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiRootPaneUI#getAccessibleChildrenCount(JComponent) public int
+     * {@link javax.swing.plaf.multi.MultiRootPaneUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiRootPaneUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

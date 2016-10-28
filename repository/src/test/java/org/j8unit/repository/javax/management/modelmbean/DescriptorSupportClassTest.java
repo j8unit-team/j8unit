@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.management.modelmbean.DescriptorSupportCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DescriptorSupport#DescriptorSupport(String...)
-     * public javax.management.modelmbean.DescriptorSupport(java.lang.String...)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(String...) public
+     * javax.management.modelmbean.DescriptorSupport(java.lang.String...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.javax.management.modelmbean.DescriptorSupportCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DescriptorSupport#DescriptorSupport(String[], Object[]) public
+     * {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(String[], Object[]) public
      * javax.management.modelmbean.DescriptorSupport(java.lang.String[],java.lang.Object[]) throws
      * javax.management.RuntimeOperationsException}.
      *
@@ -67,8 +68,9 @@ implements org.j8unit.repository.javax.management.modelmbean.DescriptorSupportCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DescriptorSupport#DescriptorSupport(String)
-     * public javax.management.modelmbean.DescriptorSupport(java.lang.String) throws
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(String) public
+     * javax.management.modelmbean.DescriptorSupport(java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.modelmbean.XMLParseException}
      * .
      *
@@ -91,7 +93,8 @@ implements org.j8unit.repository.javax.management.modelmbean.DescriptorSupportCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DescriptorSupport#DescriptorSupport() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport() public
      * javax.management.modelmbean.DescriptorSupport()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,7 +115,8 @@ implements org.j8unit.repository.javax.management.modelmbean.DescriptorSupportCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DescriptorSupport#DescriptorSupport(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(int) public
      * javax.management.modelmbean.DescriptorSupport(int) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
@@ -136,8 +140,8 @@ implements org.j8unit.repository.javax.management.modelmbean.DescriptorSupportCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DescriptorSupport#DescriptorSupport(DescriptorSupport) public
-     * javax.management.modelmbean.DescriptorSupport(javax.management.modelmbean.DescriptorSupport)}.
+     * {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(javax.management.modelmbean.DescriptorSupport)
+     * public javax.management.modelmbean.DescriptorSupport(javax.management.modelmbean.DescriptorSupport)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,7 +157,7 @@ implements org.j8unit.repository.javax.management.modelmbean.DescriptorSupportCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DescriptorSupport sut = null; // = new DescriptorSupport(DescriptorSupport);
+        final DescriptorSupport sut = null; // = new DescriptorSupport(javax.management.modelmbean.DescriptorSupport);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.DescriptorSupport]

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.sql;
 
 import java.sql.Date;
-import java.time.LocalDate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.java.sql.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Date#Date(int, int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.sql.Date#Date(int, int, int) public
      * java.sql.Date(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +43,8 @@ implements org.j8unit.repository.java.sql.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Date#Date(long) public java.sql.Date(long)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.sql.Date#Date(long) public
+     * java.sql.Date(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,8 +65,8 @@ implements org.j8unit.repository.java.sql.DateClassTests<Date> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#valueOf(LocalDate) public static java.sql.Date
-     * java.sql.Date.valueOf(java.time.LocalDate)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#valueOf(java.time.LocalDate) public
+     * static java.sql.Date java.sql.Date.valueOf(java.time.LocalDate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +80,13 @@ implements org.j8unit.repository.java.sql.DateClassTests<Date> {
     @Category(Draft.class)
     public void test_valueOf_LocalDate()
     throws Exception {
-        // write some test for {@link Date#valueOf(LocalDate)}
+        // write some test for {@link java.sql.Date#valueOf(java.time.LocalDate)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Date#valueOf(String) public static java.sql.Date
-     * java.sql.Date.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Date#valueOf(String) public static
+     * java.sql.Date java.sql.Date.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ implements org.j8unit.repository.java.sql.DateClassTests<Date> {
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link Date#valueOf(String)}
+        // write some test for {@link java.sql.Date#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Date]

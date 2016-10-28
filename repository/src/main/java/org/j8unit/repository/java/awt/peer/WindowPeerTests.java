@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.Dialog;
 import java.awt.peer.WindowPeer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#updateWindow() public abstract void
-     * java.awt.peer.WindowPeer.updateWindow()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.WindowPeer#updateWindow() public
+     * abstract void java.awt.peer.WindowPeer.updateWindow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#updateFocusableWindowState() public
-     * abstract void java.awt.peer.WindowPeer.updateFocusableWindowState()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.WindowPeer#updateFocusableWindowState() public abstract void
+     * java.awt.peer.WindowPeer.updateFocusableWindowState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#toFront() public abstract void
-     * java.awt.peer.WindowPeer.toFront()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.WindowPeer#toFront() public abstract
+     * void java.awt.peer.WindowPeer.toFront()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,9 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#setModalBlocked(Dialog, boolean) public
-     * abstract void java.awt.peer.WindowPeer.setModalBlocked(java.awt.Dialog,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.WindowPeer#setModalBlocked(java.awt.Dialog, boolean) public abstract void
+     * java.awt.peer.WindowPeer.setModalBlocked(java.awt.Dialog,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#updateIconImages() public abstract void
-     * java.awt.peer.WindowPeer.updateIconImages()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.WindowPeer#updateIconImages() public
+     * abstract void java.awt.peer.WindowPeer.updateIconImages()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,30 +146,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#repositionSecurityWarning() public
-     * abstract void java.awt.peer.WindowPeer.repositionSecurityWarning()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_repositionSecurityWarning()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#updateAlwaysOnTopState() public abstract
-     * void java.awt.peer.WindowPeer.updateAlwaysOnTopState()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.WindowPeer#updateAlwaysOnTopState()
+     * public abstract void java.awt.peer.WindowPeer.updateAlwaysOnTopState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +168,30 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#setOpaque(boolean) public abstract void
-     * java.awt.peer.WindowPeer.setOpaque(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.WindowPeer#repositionSecurityWarning()
+     * public abstract void java.awt.peer.WindowPeer.repositionSecurityWarning()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_repositionSecurityWarning()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.WindowPeer#setOpaque(boolean) public
+     * abstract void java.awt.peer.WindowPeer.setOpaque(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +212,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#updateMinimumSize() public abstract void
-     * java.awt.peer.WindowPeer.updateMinimumSize()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.WindowPeer#updateMinimumSize() public
+     * abstract void java.awt.peer.WindowPeer.updateMinimumSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +234,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#toBack() public abstract void
-     * java.awt.peer.WindowPeer.toBack()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.WindowPeer#toBack() public abstract
+     * void java.awt.peer.WindowPeer.toBack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +256,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowPeer#setOpacity(float) public abstract void
-     * java.awt.peer.WindowPeer.setOpacity(float)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.WindowPeer#setOpacity(float) public
+     * abstract void java.awt.peer.WindowPeer.setOpacity(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

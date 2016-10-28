@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security;
 
-import java.io.File;
 import java.security.KeyStore;
 import java.security.KeyStore.Builder;
 import java.security.KeyStore.CallbackHandlerProtection;
@@ -12,13 +11,6 @@ import java.security.KeyStore.PrivateKeyEntry;
 import java.security.KeyStore.ProtectionParameter;
 import java.security.KeyStore.SecretKeyEntry;
 import java.security.KeyStore.TrustedCertificateEntry;
-import java.security.PrivateKey;
-import java.security.Provider;
-import java.security.cert.Certificate;
-import java.security.spec.AlgorithmParameterSpec;
-import java.util.Set;
-import javax.crypto.SecretKey;
-import javax.security.auth.callback.CallbackHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -39,8 +31,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getInstance(String) public static
-     * java.security.KeyStore java.security.KeyStore.getInstance(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#getInstance(String) public
+     * static java.security.KeyStore java.security.KeyStore.getInstance(java.lang.String) throws
      * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -55,13 +47,13 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link KeyStore#getInstance(String)}
+        // write some test for {@link java.security.KeyStore#getInstance(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getInstance(String, String) public static
-     * java.security.KeyStore java.security.KeyStore.getInstance(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#getInstance(String, String)
+     * public static java.security.KeyStore java.security.KeyStore.getInstance(java.lang.String,java.lang.String) throws
      * java.security.KeyStoreException,java.security.NoSuchProviderException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -76,13 +68,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link KeyStore#getInstance(String, String)}
+        // write some test for {@link java.security.KeyStore#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getInstance(String, Provider) public static
-     * java.security.KeyStore java.security.KeyStore.getInstance(java.lang.String,java.security.Provider) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#getInstance(String, java.security.Provider) public static java.security.KeyStore
+     * java.security.KeyStore.getInstance(java.lang.String,java.security.Provider) throws
      * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,13 +90,13 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link KeyStore#getInstance(String, Provider)}
+        // write some test for {@link java.security.KeyStore#getInstance(String, java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getDefaultType() public static final
-     * java.lang.String java.security.KeyStore.getDefaultType()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#getDefaultType() public
+     * static final java.lang.String java.security.KeyStore.getDefaultType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,7 +110,7 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
     @Category(Draft.class)
     public void test_getDefaultType()
     throws Exception {
-        // write some test for {@link KeyStore#getDefaultType()}
+        // write some test for {@link java.security.KeyStore#getDefaultType()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore]
@@ -150,8 +143,9 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link SecretKeyEntry#SecretKeyEntry(SecretKey)
-         * public java.security.KeyStore$SecretKeyEntry(javax.crypto.SecretKey)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.security.KeyStore.SecretKeyEntry#SecretKeyEntry(javax.crypto.SecretKey) public
+         * java.security.KeyStore$SecretKeyEntry(javax.crypto.SecretKey)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -167,13 +161,13 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final SecretKeyEntry sut = null; // = new SecretKeyEntry(SecretKey);
+            final SecretKeyEntry sut = null; // = new SecretKeyEntry(javax.crypto.SecretKey);
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link SecretKeyEntry#SecretKeyEntry(SecretKey, Set) public
+         * {@link java.security.KeyStore.SecretKeyEntry#SecretKeyEntry(javax.crypto.SecretKey, java.util.Set) public
          * java.security.KeyStore$SecretKeyEntry(javax.crypto.SecretKey,java.util.Set
          * <java.security.KeyStore$Entry$Attribute>)}.
          *
@@ -191,7 +185,7 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final SecretKeyEntry sut = null; // = new SecretKeyEntry(SecretKey, Set);
+            final SecretKeyEntry sut = null; // = new SecretKeyEntry(javax.crypto.SecretKey, java.util.Set);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$SecretKeyEntry]
@@ -212,8 +206,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TrustedCertificateEntry#TrustedCertificateEntry(Certificate) public
-         * java.security.KeyStore$TrustedCertificateEntry(java.security.cert.Certificate)}.
+         * {@link java.security.KeyStore.TrustedCertificateEntry#TrustedCertificateEntry(java.security.cert.Certificate)
+         * public java.security.KeyStore$TrustedCertificateEntry(java.security.cert.Certificate)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -229,14 +223,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TrustedCertificateEntry sut = null; // = new TrustedCertificateEntry(Certificate);
+            final TrustedCertificateEntry sut = null; // = new TrustedCertificateEntry(java.security.cert.Certificate);
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TrustedCertificateEntry#TrustedCertificateEntry(Certificate, Set) public
-         * java.security.KeyStore$TrustedCertificateEntry(java.security.cert.Certificate,java.util.Set
+         * {@link java.security.KeyStore.TrustedCertificateEntry#TrustedCertificateEntry(java.security.cert.Certificate, java.util.Set)
+         * public java.security.KeyStore$TrustedCertificateEntry(java.security.cert.Certificate,java.util.Set
          * <java.security.KeyStore$Entry$Attribute>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -253,7 +247,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TrustedCertificateEntry sut = null; // = new TrustedCertificateEntry(Certificate, Set);
+            final TrustedCertificateEntry sut = null; // = new TrustedCertificateEntry(java.security.cert.Certificate,
+                                                      // java.util.Set);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$TrustedCertificateEntry]
@@ -289,7 +284,7 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link PasswordProtection#PasswordProtection(char[]) public
+         * {@link java.security.KeyStore.PasswordProtection#PasswordProtection(char[]) public
          * java.security.KeyStore$PasswordProtection(char[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,7 +307,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link PasswordProtection#PasswordProtection(char[], String, AlgorithmParameterSpec) public
+         * {@link java.security.KeyStore.PasswordProtection#PasswordProtection(char[], String, java.security.spec.AlgorithmParameterSpec)
+         * public
          * java.security.KeyStore$PasswordProtection(char[],java.lang.String,java.security.spec.AlgorithmParameterSpec)}
          * .
          *
@@ -330,7 +326,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PasswordProtection sut = null; // = new PasswordProtection(char[], String, AlgorithmParameterSpec);
+            final PasswordProtection sut = null; // = new PasswordProtection(char[], String,
+                                                 // java.security.spec.AlgorithmParameterSpec);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$PasswordProtection]
@@ -351,8 +348,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link PrivateKeyEntry#PrivateKeyEntry(PrivateKey, Certificate[]) public
-         * java.security.KeyStore$PrivateKeyEntry(java.security.PrivateKey,java.security.cert.Certificate[])}.
+         * {@link java.security.KeyStore.PrivateKeyEntry#PrivateKeyEntry(java.security.PrivateKey, java.security.cert.Certificate[])
+         * public java.security.KeyStore$PrivateKeyEntry(java.security.PrivateKey,java.security.cert.Certificate[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -368,13 +365,15 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PrivateKeyEntry sut = null; // = new PrivateKeyEntry(PrivateKey, Certificate[]);
+            final PrivateKeyEntry sut = null; // = new PrivateKeyEntry(java.security.PrivateKey,
+                                              // java.security.cert.Certificate[]);
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link PrivateKeyEntry#PrivateKeyEntry(PrivateKey, Certificate[], Set) public
+         * {@link java.security.KeyStore.PrivateKeyEntry#PrivateKeyEntry(java.security.PrivateKey, java.security.cert.Certificate[], java.util.Set)
+         * public
          * java.security.KeyStore$PrivateKeyEntry(java.security.PrivateKey,java.security.cert.Certificate[],java.util.Set
          * <java.security.KeyStore$Entry$Attribute>)}.
          *
@@ -392,7 +391,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PrivateKeyEntry sut = null; // = new PrivateKeyEntry(PrivateKey, Certificate[], Set);
+            final PrivateKeyEntry sut = null; // = new PrivateKeyEntry(java.security.PrivateKey,
+                                              // java.security.cert.Certificate[], java.util.Set);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$PrivateKeyEntry]
@@ -413,8 +413,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link CallbackHandlerProtection#CallbackHandlerProtection(CallbackHandler) public
-         * java.security.KeyStore$CallbackHandlerProtection(javax.security.auth.callback.CallbackHandler)}.
+         * {@link java.security.KeyStore.CallbackHandlerProtection#CallbackHandlerProtection(javax.security.auth.callback.CallbackHandler)
+         * public java.security.KeyStore$CallbackHandlerProtection(javax.security.auth.callback.CallbackHandler)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -430,7 +430,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final CallbackHandlerProtection sut = null; // = new CallbackHandlerProtection(CallbackHandler);
+            final CallbackHandlerProtection sut = null; // = new
+                                                        // CallbackHandlerProtection(javax.security.auth.callback.CallbackHandler);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$CallbackHandlerProtection]
@@ -451,7 +452,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Builder#newInstance(KeyStore, ProtectionParameter) public static java.security.KeyStore$Builder
+         * {@link java.security.KeyStore.Builder#newInstance(java.security.KeyStore, java.security.KeyStore.ProtectionParameter)
+         * public static java.security.KeyStore$Builder
          * java.security.KeyStore$Builder.newInstance(java.security.KeyStore,java.security.KeyStore$ProtectionParameter)}
          * .
          *
@@ -467,14 +469,15 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         @Category(Draft.class)
         public void test_newInstance_KeyStore_ProtectionParameter()
         throws Exception {
-            // write some test for {@link Builder#newInstance(KeyStore, ProtectionParameter)}
+            // write some test for {@link java.security.KeyStore.Builder#newInstance(java.security.KeyStore,
+            // java.security.KeyStore.ProtectionParameter)}
         }
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Builder#newInstance(String, Provider, File, ProtectionParameter) public static
-         * java.security.KeyStore$Builder
+         * {@link java.security.KeyStore.Builder#newInstance(String, java.security.Provider, java.io.File, java.security.KeyStore.ProtectionParameter)
+         * public static java.security.KeyStore$Builder
          * java.security.KeyStore$Builder.newInstance(java.lang.String,java.security.Provider,java.io.File,java.security.KeyStore$ProtectionParameter)}
          * .
          *
@@ -490,14 +493,15 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         @Category(Draft.class)
         public void test_newInstance_String_Provider_File_ProtectionParameter()
         throws Exception {
-            // write some test for {@link Builder#newInstance(String, Provider, File, ProtectionParameter)}
+            // write some test for {@link java.security.KeyStore.Builder#newInstance(String, java.security.Provider,
+            // java.io.File, java.security.KeyStore.ProtectionParameter)}
         }
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Builder#newInstance(String, Provider, ProtectionParameter) public static
-         * java.security.KeyStore$Builder
+         * {@link java.security.KeyStore.Builder#newInstance(String, java.security.Provider, java.security.KeyStore.ProtectionParameter)
+         * public static java.security.KeyStore$Builder
          * java.security.KeyStore$Builder.newInstance(java.lang.String,java.security.Provider,java.security.KeyStore$ProtectionParameter)}
          * .
          *
@@ -513,7 +517,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         @Category(Draft.class)
         public void test_newInstance_String_Provider_ProtectionParameter()
         throws Exception {
-            // write some test for {@link Builder#newInstance(String, Provider, ProtectionParameter)}
+            // write some test for {@link java.security.KeyStore.Builder#newInstance(String, java.security.Provider,
+            // java.security.KeyStore.ProtectionParameter)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$Builder]

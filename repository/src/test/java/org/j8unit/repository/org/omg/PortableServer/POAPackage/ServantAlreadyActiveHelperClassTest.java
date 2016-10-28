@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableServer.POAPackage.ServantAlreadyActive;
 import org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper;
 
 @RunWith(J8Unit4.class)
@@ -27,7 +23,7 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServantAlreadyActiveHelper#ServantAlreadyActiveHelper() public
+     * {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#ServantAlreadyActiveHelper() public
      * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantAlreadyActiveHelper#read(InputStream) public
-     * static org.omg.PortableServer.POAPackage.ServantAlreadyActive
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#read(org.omg.CORBA.portable.InputStream)
+     * public static org.omg.PortableServer.POAPackage.ServantAlreadyActive
      * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +60,15 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ServantAlreadyActiveHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantAlreadyActiveHelper#extract(Any) public
-     * static org.omg.PortableServer.POAPackage.ServantAlreadyActive
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.PortableServer.POAPackage.ServantAlreadyActive
      * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,13 +83,15 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ServantAlreadyActiveHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantAlreadyActiveHelper#id() public static
-     * java.lang.String org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#id() public static java.lang.String
+     * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,13 +105,14 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ServantAlreadyActiveHelper#id()}
+        // write some test for {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#id()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServantAlreadyActiveHelper#insert(Any, ServantAlreadyActive) public static void
+     * {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#insert(org.omg.CORBA.Any, org.omg.PortableServer.POAPackage.ServantAlreadyActive)
+     * public static void
      * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POAPackage.ServantAlreadyActive)}
      * .
      *
@@ -126,13 +128,16 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
     @Category(Draft.class)
     public void test_insert_Any_ServantAlreadyActive()
     throws Exception {
-        // write some test for {@link ServantAlreadyActiveHelper#insert(Any, ServantAlreadyActive)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableServer.POAPackage.ServantAlreadyActive)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServantAlreadyActiveHelper#write(OutputStream, ServantAlreadyActive) public static void
+     * {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableServer.POAPackage.ServantAlreadyActive)
+     * public static void
      * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.POAPackage.ServantAlreadyActive)}
      * .
      *
@@ -148,13 +153,16 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
     @Category(Draft.class)
     public void test_write_OutputStream_ServantAlreadyActive()
     throws Exception {
-        // write some test for {@link ServantAlreadyActiveHelper#write(OutputStream, ServantAlreadyActive)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableServer.POAPackage.ServantAlreadyActive)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantAlreadyActiveHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +176,7 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ServantAlreadyActiveHelper#type()}
+        // write some test for {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#type()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]

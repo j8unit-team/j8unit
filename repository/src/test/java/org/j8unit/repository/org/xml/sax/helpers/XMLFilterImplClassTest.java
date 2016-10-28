@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLFilterImpl;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.XMLFilterImplClassTests<XML
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLFilterImpl#XMLFilterImpl() public
-     * org.xml.sax.helpers.XMLFilterImpl()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#XMLFilterImpl() public org.xml.sax.helpers.XMLFilterImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +42,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.XMLFilterImplClassTests<XML
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLFilterImpl#XMLFilterImpl(XMLReader) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#XMLFilterImpl(org.xml.sax.XMLReader) public
      * org.xml.sax.helpers.XMLFilterImpl(org.xml.sax.XMLReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.xml.sax.helpers.XMLFilterImplClassTests<XML
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XMLFilterImpl sut = null; // = new XMLFilterImpl(XMLReader);
+        final XMLFilterImpl sut = null; // = new XMLFilterImpl(org.xml.sax.XMLReader);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.XMLFilterImpl]

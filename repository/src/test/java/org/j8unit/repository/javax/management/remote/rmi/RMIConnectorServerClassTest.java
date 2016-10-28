@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
-import java.util.Map;
-import javax.management.MBeanServer;
-import javax.management.remote.JMXServiceURL;
 import javax.management.remote.rmi.RMIConnectorServer;
-import javax.management.remote.rmi.RMIServerImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -26,7 +22,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectorServerC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RMIConnectorServer#RMIConnectorServer(JMXServiceURL, Map, RMIServerImpl, MBeanServer) public
+     * {@link javax.management.remote.rmi.RMIConnectorServer#RMIConnectorServer(javax.management.remote.JMXServiceURL, java.util.Map, javax.management.remote.rmi.RMIServerImpl, javax.management.MBeanServer)
+     * public
      * javax.management.remote.rmi.RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
      * ?>,javax.management.remote.rmi.RMIServerImpl,javax.management.MBeanServer) throws java.io.IOException}.
      *
@@ -44,14 +41,16 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectorServerC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RMIConnectorServer sut = null; // = new RMIConnectorServer(JMXServiceURL, Map, RMIServerImpl,
-                                             // MBeanServer);
+        final RMIConnectorServer sut = null; // = new RMIConnectorServer(javax.management.remote.JMXServiceURL,
+                                             // java.util.Map, javax.management.remote.rmi.RMIServerImpl,
+                                             // javax.management.MBeanServer);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RMIConnectorServer#RMIConnectorServer(JMXServiceURL, Map, MBeanServer) public
+     * {@link javax.management.remote.rmi.RMIConnectorServer#RMIConnectorServer(javax.management.remote.JMXServiceURL, java.util.Map, javax.management.MBeanServer)
+     * public
      * javax.management.remote.rmi.RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
      * ?>,javax.management.MBeanServer) throws java.io.IOException}.
      *
@@ -69,13 +68,15 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectorServerC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RMIConnectorServer sut = null; // = new RMIConnectorServer(JMXServiceURL, Map, MBeanServer);
+        final RMIConnectorServer sut = null; // = new RMIConnectorServer(javax.management.remote.JMXServiceURL,
+                                             // java.util.Map, javax.management.MBeanServer);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RMIConnectorServer#RMIConnectorServer(JMXServiceURL, Map) public
+     * {@link javax.management.remote.rmi.RMIConnectorServer#RMIConnectorServer(javax.management.remote.JMXServiceURL, java.util.Map)
+     * public
      * javax.management.remote.rmi.RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
      * ?>) throws java.io.IOException}.
      *
@@ -93,7 +94,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectorServerC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RMIConnectorServer sut = null; // = new RMIConnectorServer(JMXServiceURL, Map);
+        final RMIConnectorServer sut = null; // = new RMIConnectorServer(javax.management.remote.JMXServiceURL,
+                                             // java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnectorServer]

@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
-import java.util.Comparator;
 import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +35,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#retainAll(Collection) public
-     * boolean java.util.concurrent.CopyOnWriteArrayList.retainAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#retainAll(java.util.Collection) public boolean
+     * java.util.concurrent.CopyOnWriteArrayList.retainAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,8 +59,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#addIfAbsent(Object) public
-     * boolean java.util.concurrent.CopyOnWriteArrayList.addIfAbsent(E)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#addIfAbsent(Object) public boolean
+     * java.util.concurrent.CopyOnWriteArrayList.addIfAbsent(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +82,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#toString() public
-     * java.lang.String java.util.concurrent.CopyOnWriteArrayList.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArrayList#toString()
+     * public java.lang.String java.util.concurrent.CopyOnWriteArrayList.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +105,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#listIterator(int) public
-     * java.util.ListIterator<E> java.util.concurrent.CopyOnWriteArrayList.listIterator(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#listIterator(int) public java.util.ListIterator
+     * <E> java.util.concurrent.CopyOnWriteArrayList.listIterator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,8 +129,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#listIterator() public
-     * java.util.ListIterator<E> java.util.concurrent.CopyOnWriteArrayList.listIterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#listIterator() public java.util.ListIterator
+     * <E> java.util.concurrent.CopyOnWriteArrayList.listIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,8 +153,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#clone() public java.lang.Object
-     * java.util.concurrent.CopyOnWriteArrayList.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArrayList#clone()
+     * public java.lang.Object java.util.concurrent.CopyOnWriteArrayList.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,7 +175,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#equals(Object) public boolean
      * java.util.concurrent.CopyOnWriteArrayList.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,8 +199,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#addAll(int, Collection) public
-     * boolean java.util.concurrent.CopyOnWriteArrayList.addAll(int,java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#addAll(int, java.util.Collection) public boolean
+     * java.util.concurrent.CopyOnWriteArrayList.addAll(int,java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,8 +223,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#addAll(Collection) public
-     * boolean java.util.concurrent.CopyOnWriteArrayList.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#addAll(java.util.Collection) public boolean
+     * java.util.concurrent.CopyOnWriteArrayList.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,8 +247,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#size() public int
-     * java.util.concurrent.CopyOnWriteArrayList.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArrayList#size()
+     * public int java.util.concurrent.CopyOnWriteArrayList.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -268,7 +270,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#contains(Object) public boolean
      * java.util.concurrent.CopyOnWriteArrayList.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -291,8 +294,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#lastIndexOf(Object, int) public
-     * int java.util.concurrent.CopyOnWriteArrayList.lastIndexOf(E,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#lastIndexOf(Object, int) public int
+     * java.util.concurrent.CopyOnWriteArrayList.lastIndexOf(E,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -313,7 +317,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#lastIndexOf(Object) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#lastIndexOf(Object) public int
      * java.util.concurrent.CopyOnWriteArrayList.lastIndexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -336,8 +341,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#removeIf(Predicate) public
-     * boolean java.util.concurrent.CopyOnWriteArrayList.removeIf(java.util.function.Predicate<? super E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#removeIf(java.util.function.Predicate) public boolean
+     * java.util.concurrent.CopyOnWriteArrayList.removeIf(java.util.function.Predicate<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -359,7 +365,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#sort(Comparator) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#sort(java.util.Comparator) public void
      * java.util.concurrent.CopyOnWriteArrayList.sort(java.util.Comparator<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -382,8 +389,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#isEmpty() public boolean
-     * java.util.concurrent.CopyOnWriteArrayList.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArrayList#isEmpty()
+     * public boolean java.util.concurrent.CopyOnWriteArrayList.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -405,8 +412,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#clear() public void
-     * java.util.concurrent.CopyOnWriteArrayList.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArrayList#clear()
+     * public void java.util.concurrent.CopyOnWriteArrayList.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -428,8 +435,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#containsAll(Collection) public
-     * boolean java.util.concurrent.CopyOnWriteArrayList.containsAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#containsAll(java.util.Collection) public boolean
+     * java.util.concurrent.CopyOnWriteArrayList.containsAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -451,7 +459,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#forEach(Consumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#forEach(java.util.function.Consumer) public void
      * java.util.concurrent.CopyOnWriteArrayList.forEach(java.util.function.Consumer<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -474,8 +483,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#spliterator() public
-     * java.util.Spliterator<E> java.util.concurrent.CopyOnWriteArrayList.spliterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#spliterator() public java.util.Spliterator
+     * <E> java.util.concurrent.CopyOnWriteArrayList.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -497,7 +507,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#set(int, Object) public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#set(int, Object) public E
      * java.util.concurrent.CopyOnWriteArrayList.set(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -520,8 +531,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#subList(int, int) public
-     * java.util.List<E> java.util.concurrent.CopyOnWriteArrayList.subList(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#subList(int, int) public java.util.List
+     * <E> java.util.concurrent.CopyOnWriteArrayList.subList(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -543,7 +555,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#add(int, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#add(int, Object) public void
      * java.util.concurrent.CopyOnWriteArrayList.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -566,7 +579,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#add(Object) public boolean
      * java.util.concurrent.CopyOnWriteArrayList.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -589,7 +603,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#indexOf(Object) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#indexOf(Object) public int
      * java.util.concurrent.CopyOnWriteArrayList.indexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -612,7 +627,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#indexOf(Object, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#indexOf(Object, int) public int
      * java.util.concurrent.CopyOnWriteArrayList.indexOf(E,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -634,8 +650,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#toArray(Object[]) public
-     * <T> T[] java.util.concurrent.CopyOnWriteArrayList.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#toArray(Object[]) public <T> T[]
+     * java.util.concurrent.CopyOnWriteArrayList.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -657,8 +674,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#toArray() public
-     * java.lang.Object[] java.util.concurrent.CopyOnWriteArrayList.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArrayList#toArray()
+     * public java.lang.Object[] java.util.concurrent.CopyOnWriteArrayList.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -680,8 +697,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#get(int) public E
-     * java.util.concurrent.CopyOnWriteArrayList.get(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArrayList#get(int)
+     * public E java.util.concurrent.CopyOnWriteArrayList.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -703,8 +720,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#hashCode() public int
-     * java.util.concurrent.CopyOnWriteArrayList.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArrayList#hashCode()
+     * public int java.util.concurrent.CopyOnWriteArrayList.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -726,8 +743,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#removeAll(Collection) public
-     * boolean java.util.concurrent.CopyOnWriteArrayList.removeAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#removeAll(java.util.Collection) public boolean
+     * java.util.concurrent.CopyOnWriteArrayList.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -749,8 +767,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#iterator() public
-     * java.util.Iterator<E> java.util.concurrent.CopyOnWriteArrayList.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CopyOnWriteArrayList#iterator()
+     * public java.util.Iterator<E> java.util.concurrent.CopyOnWriteArrayList.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -772,7 +790,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#remove(int) public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#remove(int) public E
      * java.util.concurrent.CopyOnWriteArrayList.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -795,7 +814,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#remove(Object) public boolean
      * java.util.concurrent.CopyOnWriteArrayList.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -818,8 +838,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#replaceAll(UnaryOperator)
-     * public void java.util.concurrent.CopyOnWriteArrayList.replaceAll(java.util.function.UnaryOperator<E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#replaceAll(java.util.function.UnaryOperator) public void
+     * java.util.concurrent.CopyOnWriteArrayList.replaceAll(java.util.function.UnaryOperator<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -841,8 +862,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CopyOnWriteArrayList#addAllAbsent(Collection) public
-     * int java.util.concurrent.CopyOnWriteArrayList.addAllAbsent(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CopyOnWriteArrayList#addAllAbsent(java.util.Collection) public int
+     * java.util.concurrent.CopyOnWriteArrayList.addAllAbsent(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

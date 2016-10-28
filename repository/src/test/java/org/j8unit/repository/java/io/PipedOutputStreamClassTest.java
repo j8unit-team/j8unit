@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.io.PipedOutputStreamClassTests<PipedOutput
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PipedOutputStream#PipedOutputStream(PipedInputStream) public
+     * {@link java.io.PipedOutputStream#PipedOutputStream(java.io.PipedInputStream) public
      * java.io.PipedOutputStream(java.io.PipedInputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.io.PipedOutputStreamClassTests<PipedOutput
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PipedOutputStream sut = null; // = new PipedOutputStream(PipedInputStream);
+        final PipedOutputStream sut = null; // = new PipedOutputStream(java.io.PipedInputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PipedOutputStream#PipedOutputStream() public
-     * java.io.PipedOutputStream()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PipedOutputStream#PipedOutputStream()
+     * public java.io.PipedOutputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

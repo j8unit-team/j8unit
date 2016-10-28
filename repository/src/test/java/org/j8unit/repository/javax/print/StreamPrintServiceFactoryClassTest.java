@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.print;
 
 import static org.junit.Assert.fail;
-import javax.print.DocFlavor;
 import javax.print.StreamPrintServiceFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +23,8 @@ implements org.j8unit.repository.javax.print.StreamPrintServiceFactoryClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StreamPrintServiceFactory#StreamPrintServiceFactory() public javax.print.StreamPrintServiceFactory()}.
+     * {@link javax.print.StreamPrintServiceFactory#StreamPrintServiceFactory() public
+     * javax.print.StreamPrintServiceFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +44,8 @@ implements org.j8unit.repository.javax.print.StreamPrintServiceFactoryClassTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StreamPrintServiceFactory#lookupStreamPrintServiceFactories(DocFlavor, String) public static
-     * javax.print.StreamPrintServiceFactory[]
+     * {@link javax.print.StreamPrintServiceFactory#lookupStreamPrintServiceFactories(javax.print.DocFlavor, String)
+     * public static javax.print.StreamPrintServiceFactory[]
      * javax.print.StreamPrintServiceFactory.lookupStreamPrintServiceFactories(javax.print.DocFlavor,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,8 @@ implements org.j8unit.repository.javax.print.StreamPrintServiceFactoryClassTests
     @Category(Draft.class)
     public void test_lookupStreamPrintServiceFactories_DocFlavor_String()
     throws Exception {
-        // write some test for {@link StreamPrintServiceFactory#lookupStreamPrintServiceFactories(DocFlavor, String)}
+        // write some test for {@link
+        // javax.print.StreamPrintServiceFactory#lookupStreamPrintServiceFactories(javax.print.DocFlavor, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.StreamPrintServiceFactory]

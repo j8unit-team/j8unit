@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.zip.ZipEntryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarEntry#getAttributes() public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarEntry#getAttributes() public
      * java.util.jar.Attributes java.util.jar.JarEntry.getAttributes() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.zip.ZipEntryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarEntry#getCodeSigners() public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarEntry#getCodeSigners() public
      * java.security.CodeSigner[] java.util.jar.JarEntry.getCodeSigners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.util.zip.ZipEntryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarEntry#getCertificates() public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarEntry#getCertificates() public
      * java.security.cert.Certificate[] java.util.jar.JarEntry.getCertificates()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

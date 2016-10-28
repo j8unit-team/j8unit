@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.management.remote.JMXPrincipalClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMXPrincipal#JMXPrincipal(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.remote.JMXPrincipal#JMXPrincipal(String) public
      * javax.management.remote.JMXPrincipal(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

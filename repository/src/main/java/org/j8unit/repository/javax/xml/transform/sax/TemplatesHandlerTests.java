@@ -34,8 +34,9 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TemplatesHandler#setSystemId(String) public abstract
-     * void javax.xml.transform.sax.TemplatesHandler.setSystemId(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.TemplatesHandler#setSystemId(String) public abstract void
+     * javax.xml.transform.sax.TemplatesHandler.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TemplatesHandler#getSystemId() public abstract
-     * java.lang.String javax.xml.transform.sax.TemplatesHandler.getSystemId()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.TemplatesHandler#getSystemId() public abstract java.lang.String
+     * javax.xml.transform.sax.TemplatesHandler.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TemplatesHandler#getTemplates() public abstract
-     * javax.xml.transform.Templates javax.xml.transform.sax.TemplatesHandler.getTemplates()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.TemplatesHandler#getTemplates() public abstract javax.xml.transform.Templates
+     * javax.xml.transform.sax.TemplatesHandler.getTemplates()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

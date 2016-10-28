@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.prefs;
 
 import java.util.prefs.NodeChangeEvent;
-import java.util.prefs.Preferences;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.util.prefs.NodeChangeEventClassTests<NodeC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NodeChangeEvent#NodeChangeEvent(Preferences, Preferences) public
-     * java.util.prefs.NodeChangeEvent(java.util.prefs.Preferences,java.util.prefs.Preferences)}.
+     * {@link java.util.prefs.NodeChangeEvent#NodeChangeEvent(java.util.prefs.Preferences, java.util.prefs.Preferences)
+     * public java.util.prefs.NodeChangeEvent(java.util.prefs.Preferences,java.util.prefs.Preferences)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.java.util.prefs.NodeChangeEventClassTests<NodeC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NodeChangeEvent sut = null; // = new NodeChangeEvent(Preferences, Preferences);
+        final NodeChangeEvent sut = null; // = new NodeChangeEvent(java.util.prefs.Preferences,
+                                          // java.util.prefs.Preferences);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.NodeChangeEvent]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.xpath.XPathFactoryConfigurationExcept
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XPathFactoryConfigurationException#XPathFactoryConfigurationException(String) public
+     * {@link javax.xml.xpath.XPathFactoryConfigurationException#XPathFactoryConfigurationException(String) public
      * javax.xml.xpath.XPathFactoryConfigurationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.xpath.XPathFactoryConfigurationExcept
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XPathFactoryConfigurationException#XPathFactoryConfigurationException(Throwable) public
+     * {@link javax.xml.xpath.XPathFactoryConfigurationException#XPathFactoryConfigurationException(Throwable) public
      * javax.xml.xpath.XPathFactoryConfigurationException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

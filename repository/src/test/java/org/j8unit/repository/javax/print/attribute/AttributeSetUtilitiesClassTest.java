@@ -1,12 +1,6 @@
 package org.j8unit.repository.javax.print.attribute;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.AttributeSet;
 import javax.print.attribute.AttributeSetUtilities;
-import javax.print.attribute.DocAttributeSet;
-import javax.print.attribute.PrintJobAttributeSet;
-import javax.print.attribute.PrintRequestAttributeSet;
-import javax.print.attribute.PrintServiceAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -28,7 +22,8 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#verifyAttributeValue(Object, Class) public static javax.print.attribute.Attribute
+     * {@link javax.print.attribute.AttributeSetUtilities#verifyAttributeValue(Object, Class) public static
+     * javax.print.attribute.Attribute
      * javax.print.attribute.AttributeSetUtilities.verifyAttributeValue(java.lang.Object,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,14 +38,14 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_verifyAttributeValue_Object_Class()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#verifyAttributeValue(Object, Class)}
+        // write some test for {@link javax.print.attribute.AttributeSetUtilities#verifyAttributeValue(Object, Class)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#synchronizedView(PrintRequestAttributeSet) public static
-     * javax.print.attribute.PrintRequestAttributeSet
+     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintRequestAttributeSet)
+     * public static javax.print.attribute.PrintRequestAttributeSet
      * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.PrintRequestAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,14 +60,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_synchronizedView_PrintRequestAttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#synchronizedView(PrintRequestAttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintRequestAttributeSet)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#synchronizedView(DocAttributeSet) public static
-     * javax.print.attribute.DocAttributeSet
+     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.DocAttributeSet) public
+     * static javax.print.attribute.DocAttributeSet
      * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.DocAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,13 +83,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_synchronizedView_DocAttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#synchronizedView(DocAttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.DocAttributeSet)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSetUtilities#synchronizedView(AttributeSet)
-     * public static javax.print.attribute.AttributeSet
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.AttributeSet) public
+     * static javax.print.attribute.AttributeSet
      * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,14 +106,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_synchronizedView_AttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#synchronizedView(AttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.AttributeSet)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#synchronizedView(PrintJobAttributeSet) public static
-     * javax.print.attribute.PrintJobAttributeSet
+     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintJobAttributeSet)
+     * public static javax.print.attribute.PrintJobAttributeSet
      * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.PrintJobAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,14 +129,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_synchronizedView_PrintJobAttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#synchronizedView(PrintJobAttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintJobAttributeSet)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#synchronizedView(PrintServiceAttributeSet) public static
-     * javax.print.attribute.PrintServiceAttributeSet
+     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintServiceAttributeSet)
+     * public static javax.print.attribute.PrintServiceAttributeSet
      * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.PrintServiceAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,14 +152,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_synchronizedView_PrintServiceAttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#synchronizedView(PrintServiceAttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintServiceAttributeSet)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#verifyCategoryForValue(Class, Attribute) public static void
-     * javax.print.attribute.AttributeSetUtilities.verifyCategoryForValue(java.lang.Class
+     * {@link javax.print.attribute.AttributeSetUtilities#verifyCategoryForValue(Class, javax.print.attribute.Attribute)
+     * public static void javax.print.attribute.AttributeSetUtilities.verifyCategoryForValue(java.lang.Class
      * <?>,javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,13 +175,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_verifyCategoryForValue_Class_Attribute()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#verifyCategoryForValue(Class, Attribute)}
+        // write some test for {@link javax.print.attribute.AttributeSetUtilities#verifyCategoryForValue(Class,
+        // javax.print.attribute.Attribute)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#verifyAttributeCategory(Object, Class) public static java.lang.Class
+     * {@link javax.print.attribute.AttributeSetUtilities#verifyAttributeCategory(Object, Class) public static
+     * java.lang.Class
      * <?> javax.print.attribute.AttributeSetUtilities.verifyAttributeCategory(java.lang.Object,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,13 +198,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_verifyAttributeCategory_Object_Class()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#verifyAttributeCategory(Object, Class)}
+        // write some test for {@link javax.print.attribute.AttributeSetUtilities#verifyAttributeCategory(Object,
+        // Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSetUtilities#unmodifiableView(AttributeSet)
-     * public static javax.print.attribute.AttributeSet
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.AttributeSet) public
+     * static javax.print.attribute.AttributeSet
      * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,14 +221,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_unmodifiableView_AttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#unmodifiableView(AttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.AttributeSet)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#unmodifiableView(DocAttributeSet) public static
-     * javax.print.attribute.DocAttributeSet
+     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.DocAttributeSet) public
+     * static javax.print.attribute.DocAttributeSet
      * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.DocAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,14 +244,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_unmodifiableView_DocAttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#unmodifiableView(DocAttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.DocAttributeSet)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#unmodifiableView(PrintRequestAttributeSet) public static
-     * javax.print.attribute.PrintRequestAttributeSet
+     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintRequestAttributeSet)
+     * public static javax.print.attribute.PrintRequestAttributeSet
      * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.PrintRequestAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,14 +267,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_unmodifiableView_PrintRequestAttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#unmodifiableView(PrintRequestAttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintRequestAttributeSet)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#unmodifiableView(PrintJobAttributeSet) public static
-     * javax.print.attribute.PrintJobAttributeSet
+     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintJobAttributeSet)
+     * public static javax.print.attribute.PrintJobAttributeSet
      * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.PrintJobAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,14 +290,15 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_unmodifiableView_PrintJobAttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#unmodifiableView(PrintJobAttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintJobAttributeSet)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeSetUtilities#unmodifiableView(PrintServiceAttributeSet) public static
-     * javax.print.attribute.PrintServiceAttributeSet
+     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)
+     * public static javax.print.attribute.PrintServiceAttributeSet
      * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,7 +313,8 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Category(Draft.class)
     public void test_unmodifiableView_PrintServiceAttributeSet()
     throws Exception {
-        // write some test for {@link AttributeSetUtilities#unmodifiableView(PrintServiceAttributeSet)}
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.AttributeSetUtilities]

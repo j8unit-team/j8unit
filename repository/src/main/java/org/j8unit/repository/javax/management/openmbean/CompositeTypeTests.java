@@ -35,7 +35,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeType#isValue(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeType#isValue(Object) public boolean
      * javax.management.openmbean.CompositeType.isValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +59,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeType#containsKey(String) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeType#containsKey(String) public boolean
      * javax.management.openmbean.CompositeType.containsKey(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +82,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeType#hashCode() public int
-     * javax.management.openmbean.CompositeType.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.CompositeType#hashCode()
+     * public int javax.management.openmbean.CompositeType.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +105,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeType#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeType#equals(Object) public boolean
      * javax.management.openmbean.CompositeType.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +129,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeType#getType(String) public
-     * javax.management.openmbean.OpenType<?> javax.management.openmbean.CompositeType.getType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeType#getType(String) public javax.management.openmbean.OpenType
+     * <?> javax.management.openmbean.CompositeType.getType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +152,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeType#toString() public java.lang.String
-     * javax.management.openmbean.CompositeType.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.CompositeType#toString()
+     * public java.lang.String javax.management.openmbean.CompositeType.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +175,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeType#getDescription(String) public
-     * java.lang.String javax.management.openmbean.CompositeType.getDescription(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeType#getDescription(String) public java.lang.String
+     * javax.management.openmbean.CompositeType.getDescription(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +198,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeType#keySet() public java.util.Set
-     * <java.lang.String> javax.management.openmbean.CompositeType.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.CompositeType#keySet()
+     * public java.util.Set<java.lang.String> javax.management.openmbean.CompositeType.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

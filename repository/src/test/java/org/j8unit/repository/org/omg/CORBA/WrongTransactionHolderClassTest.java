@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.WrongTransaction;
 import org.omg.CORBA.WrongTransactionHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CORBA.WrongTransactionHolderClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WrongTransactionHolder#WrongTransactionHolder()
-     * public org.omg.CORBA.WrongTransactionHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.WrongTransactionHolder#WrongTransactionHolder() public
+     * org.omg.CORBA.WrongTransactionHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.org.omg.CORBA.WrongTransactionHolderClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link WrongTransactionHolder#WrongTransactionHolder(WrongTransaction) public
+     * {@link org.omg.CORBA.WrongTransactionHolder#WrongTransactionHolder(org.omg.CORBA.WrongTransaction) public
      * org.omg.CORBA.WrongTransactionHolder(org.omg.CORBA.WrongTransaction)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,7 @@ implements org.j8unit.repository.org.omg.CORBA.WrongTransactionHolderClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final WrongTransactionHolder sut = null; // = new WrongTransactionHolder(WrongTransaction);
+        final WrongTransactionHolder sut = null; // = new WrongTransactionHolder(org.omg.CORBA.WrongTransaction);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.WrongTransactionHolder]

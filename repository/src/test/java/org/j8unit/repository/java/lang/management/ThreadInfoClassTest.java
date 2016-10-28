@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.management;
 
 import java.lang.management.ThreadInfo;
-import javax.management.openmbean.CompositeData;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.lang.management.ThreadInfoClassTests<Threa
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadInfo#from(CompositeData) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadInfo#from(javax.management.openmbean.CompositeData) public static
      * java.lang.management.ThreadInfo java.lang.management.ThreadInfo.from(javax.management.openmbean.CompositeData)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +37,7 @@ implements org.j8unit.repository.java.lang.management.ThreadInfoClassTests<Threa
     @Category(Draft.class)
     public void test_from_CompositeData()
     throws Exception {
-        // write some test for {@link ThreadInfo#from(CompositeData)}
+        // write some test for {@link java.lang.management.ThreadInfo#from(javax.management.openmbean.CompositeData)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.ThreadInfo]

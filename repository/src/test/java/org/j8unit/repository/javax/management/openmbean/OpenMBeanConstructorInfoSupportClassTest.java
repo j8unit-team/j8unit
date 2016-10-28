@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import javax.management.Descriptor;
 import javax.management.openmbean.OpenMBeanConstructorInfoSupport;
-import javax.management.openmbean.OpenMBeanParameterInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanConstructor
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanConstructorInfoSupport#OpenMBeanConstructorInfoSupport(String, String, OpenMBeanParameterInfo[])
+     * {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#OpenMBeanConstructorInfoSupport(String, String, javax.management.openmbean.OpenMBeanParameterInfo[])
      * public
      * javax.management.openmbean.OpenMBeanConstructorInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanParameterInfo[])}
      * .
@@ -44,13 +42,13 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanConstructor
         // create new instance
         @SuppressWarnings("unused")
         final OpenMBeanConstructorInfoSupport sut = null; // = new OpenMBeanConstructorInfoSupport(String, String,
-                                                          // OpenMBeanParameterInfo[]);
+                                                          // javax.management.openmbean.OpenMBeanParameterInfo[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanConstructorInfoSupport#OpenMBeanConstructorInfoSupport(String, String, OpenMBeanParameterInfo[], Descriptor)
+     * {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#OpenMBeanConstructorInfoSupport(String, String, javax.management.openmbean.OpenMBeanParameterInfo[], javax.management.Descriptor)
      * public
      * javax.management.openmbean.OpenMBeanConstructorInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanParameterInfo[],javax.management.Descriptor)}
      * .
@@ -70,7 +68,8 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanConstructor
         // create new instance
         @SuppressWarnings("unused")
         final OpenMBeanConstructorInfoSupport sut = null; // = new OpenMBeanConstructorInfoSupport(String, String,
-                                                          // OpenMBeanParameterInfo[], Descriptor);
+                                                          // javax.management.openmbean.OpenMBeanParameterInfo[],
+                                                          // javax.management.Descriptor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanConstructorInfoSupport]

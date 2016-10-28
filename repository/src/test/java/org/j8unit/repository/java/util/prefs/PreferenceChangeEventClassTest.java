@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.prefs;
 
 import java.util.prefs.PreferenceChangeEvent;
-import java.util.prefs.Preferences;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.util.prefs.PreferenceChangeEventClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PreferenceChangeEvent#PreferenceChangeEvent(Preferences, String, String) public
-     * java.util.prefs.PreferenceChangeEvent(java.util.prefs.Preferences,java.lang.String,java.lang.String)}.
+     * {@link java.util.prefs.PreferenceChangeEvent#PreferenceChangeEvent(java.util.prefs.Preferences, String, String)
+     * public java.util.prefs.PreferenceChangeEvent(java.util.prefs.Preferences,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.java.util.prefs.PreferenceChangeEventClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PreferenceChangeEvent sut = null; // = new PreferenceChangeEvent(Preferences, String, String);
+        final PreferenceChangeEvent sut = null; // = new PreferenceChangeEvent(java.util.prefs.Preferences, String,
+                                                // String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.PreferenceChangeEvent]

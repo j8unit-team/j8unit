@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.Point;
 import java.awt.dnd.Autoscroll;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Autoscroll#getAutoscrollInsets() public abstract
-     * java.awt.Insets java.awt.dnd.Autoscroll.getAutoscrollInsets()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.Autoscroll#getAutoscrollInsets() public
+     * abstract java.awt.Insets java.awt.dnd.Autoscroll.getAutoscrollInsets()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Autoscroll#autoscroll(Point) public abstract void
-     * java.awt.dnd.Autoscroll.autoscroll(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.Autoscroll#autoscroll(java.awt.Point)
+     * public abstract void java.awt.dnd.Autoscroll.autoscroll(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Introspector#flushFromCaches(Class) public static
-     * void java.beans.Introspector.flushFromCaches(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Introspector#flushFromCaches(Class)
+     * public static void java.beans.Introspector.flushFromCaches(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
     @Category(Draft.class)
     public void test_flushFromCaches_Class()
     throws Exception {
-        // write some test for {@link Introspector#flushFromCaches(Class)}
+        // write some test for {@link java.beans.Introspector#flushFromCaches(Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Introspector#getBeanInfoSearchPath() public static
-     * java.lang.String[] java.beans.Introspector.getBeanInfoSearchPath()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Introspector#getBeanInfoSearchPath()
+     * public static java.lang.String[] java.beans.Introspector.getBeanInfoSearchPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,13 +56,14 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
     @Category(Draft.class)
     public void test_getBeanInfoSearchPath()
     throws Exception {
-        // write some test for {@link Introspector#getBeanInfoSearchPath()}
+        // write some test for {@link java.beans.Introspector#getBeanInfoSearchPath()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Introspector#setBeanInfoSearchPath(String[]) public
-     * static void java.beans.Introspector.setBeanInfoSearchPath(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.Introspector#setBeanInfoSearchPath(String[]) public static void
+     * java.beans.Introspector.setBeanInfoSearchPath(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,13 +77,13 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
     @Category(Draft.class)
     public void test_setBeanInfoSearchPath_StringArray()
     throws Exception {
-        // write some test for {@link Introspector#setBeanInfoSearchPath(String[])}
+        // write some test for {@link java.beans.Introspector#setBeanInfoSearchPath(String[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Introspector#getBeanInfo(Class) public static
-     * java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class<?>) throws
+     * Test method for the hereby targeted method-under-test {@link java.beans.Introspector#getBeanInfo(Class) public
+     * static java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class<?>) throws
      * java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,13 +98,13 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
     @Category(Draft.class)
     public void test_getBeanInfo_Class()
     throws Exception {
-        // write some test for {@link Introspector#getBeanInfo(Class)}
+        // write some test for {@link java.beans.Introspector#getBeanInfo(Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Introspector#getBeanInfo(Class, int) public static
-     * java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class<?>,int) throws
+     * Test method for the hereby targeted method-under-test {@link java.beans.Introspector#getBeanInfo(Class, int)
+     * public static java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class<?>,int) throws
      * java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -118,13 +119,14 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
     @Category(Draft.class)
     public void test_getBeanInfo_Class_int()
     throws Exception {
-        // write some test for {@link Introspector#getBeanInfo(Class, int)}
+        // write some test for {@link java.beans.Introspector#getBeanInfo(Class, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Introspector#getBeanInfo(Class, Class, int) public
-     * static java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class<?>,java.lang.Class<?>,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.Introspector#getBeanInfo(Class, Class, int) public static java.beans.BeanInfo
+     * java.beans.Introspector.getBeanInfo(java.lang.Class<?>,java.lang.Class<?>,int) throws
      * java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -139,14 +141,14 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
     @Category(Draft.class)
     public void test_getBeanInfo_Class_Class_int()
     throws Exception {
-        // write some test for {@link Introspector#getBeanInfo(Class, Class, int)}
+        // write some test for {@link java.beans.Introspector#getBeanInfo(Class, Class, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Introspector#getBeanInfo(Class, Class) public static
-     * java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class<?>,java.lang.Class<?>) throws
-     * java.beans.IntrospectionException}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Introspector#getBeanInfo(Class, Class)
+     * public static java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class<?>,java.lang.Class<?>)
+     * throws java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,13 +162,13 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
     @Category(Draft.class)
     public void test_getBeanInfo_Class_Class()
     throws Exception {
-        // write some test for {@link Introspector#getBeanInfo(Class, Class)}
+        // write some test for {@link java.beans.Introspector#getBeanInfo(Class, Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Introspector#decapitalize(String) public static
-     * java.lang.String java.beans.Introspector.decapitalize(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Introspector#decapitalize(String) public
+     * static java.lang.String java.beans.Introspector.decapitalize(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,13 +182,13 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
     @Category(Draft.class)
     public void test_decapitalize_String()
     throws Exception {
-        // write some test for {@link Introspector#decapitalize(String)}
+        // write some test for {@link java.beans.Introspector#decapitalize(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Introspector#flushCaches() public static void
-     * java.beans.Introspector.flushCaches()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Introspector#flushCaches() public static
+     * void java.beans.Introspector.flushCaches()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,7 +202,7 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
     @Category(Draft.class)
     public void test_flushCaches()
     throws Exception {
-        // write some test for {@link Introspector#flushCaches()}
+        // write some test for {@link java.beans.Introspector#flushCaches()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Introspector]

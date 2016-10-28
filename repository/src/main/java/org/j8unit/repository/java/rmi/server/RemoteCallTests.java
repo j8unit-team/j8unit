@@ -35,30 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteCall#releaseInputStream() public abstract void
-     * java.rmi.server.RemoteCall.releaseInputStream() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_releaseInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteCall#done() public abstract void
-     * java.rmi.server.RemoteCall.done() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteCall#done() public abstract
+     * void java.rmi.server.RemoteCall.done() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +57,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteCall#getInputStream() public abstract
-     * java.io.ObjectInput java.rmi.server.RemoteCall.getInputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteCall#releaseInputStream()
+     * public abstract void java.rmi.server.RemoteCall.releaseInputStream() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_releaseInputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteCall#getInputStream() public
+     * abstract java.io.ObjectInput java.rmi.server.RemoteCall.getInputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteCall#releaseOutputStream() public abstract
-     * void java.rmi.server.RemoteCall.releaseOutputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteCall#releaseOutputStream()
+     * public abstract void java.rmi.server.RemoteCall.releaseOutputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteCall#getResultStream(boolean) public abstract
-     * java.io.ObjectOutput java.rmi.server.RemoteCall.getResultStream(boolean) throws
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteCall#getResultStream(boolean)
+     * public abstract java.io.ObjectOutput java.rmi.server.RemoteCall.getResultStream(boolean) throws
      * java.io.IOException,java.io.StreamCorruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteCall#getOutputStream() public abstract
-     * java.io.ObjectOutput java.rmi.server.RemoteCall.getOutputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteCall#getOutputStream() public
+     * abstract java.io.ObjectOutput java.rmi.server.RemoteCall.getOutputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteCall#executeCall() public abstract void
-     * java.rmi.server.RemoteCall.executeCall() throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteCall#executeCall() public
+     * abstract void java.rmi.server.RemoteCall.executeCall() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

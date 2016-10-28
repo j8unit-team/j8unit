@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.dnd.DragSourceDragEvent;
 import java.awt.dnd.DragSourceMotionListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragSourceMotionListener#dragMouseMoved(DragSourceDragEvent) public abstract void
-     * java.awt.dnd.DragSourceMotionListener.dragMouseMoved(java.awt.dnd.DragSourceDragEvent)}.
+     * {@link java.awt.dnd.DragSourceMotionListener#dragMouseMoved(java.awt.dnd.DragSourceDragEvent) public abstract
+     * void java.awt.dnd.DragSourceMotionListener.dragMouseMoved(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

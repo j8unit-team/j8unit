@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.sound.midi.InvalidMidiDataExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidMidiDataException#InvalidMidiDataException() public javax.sound.midi.InvalidMidiDataException()}.
+     * {@link javax.sound.midi.InvalidMidiDataException#InvalidMidiDataException() public
+     * javax.sound.midi.InvalidMidiDataException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.sound.midi.InvalidMidiDataExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidMidiDataException#InvalidMidiDataException(String) public
+     * {@link javax.sound.midi.InvalidMidiDataException#InvalidMidiDataException(String) public
      * javax.sound.midi.InvalidMidiDataException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

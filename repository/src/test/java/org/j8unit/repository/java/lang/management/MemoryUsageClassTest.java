@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.management;
 
 import java.lang.management.MemoryUsage;
-import javax.management.openmbean.CompositeData;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.lang.management.MemoryUsageClassTests<Memo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MemoryUsage#MemoryUsage(long, long, long, long)
-     * public java.lang.management.MemoryUsage(long,long,long,long)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.lang.management.MemoryUsage#MemoryUsage(long, long, long, long) public
+     * java.lang.management.MemoryUsage(long,long,long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,8 @@ implements org.j8unit.repository.java.lang.management.MemoryUsageClassTests<Memo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryUsage#from(CompositeData) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MemoryUsage#from(javax.management.openmbean.CompositeData) public static
      * java.lang.management.MemoryUsage java.lang.management.MemoryUsage.from(javax.management.openmbean.CompositeData)}
      * .
      *
@@ -60,7 +61,7 @@ implements org.j8unit.repository.java.lang.management.MemoryUsageClassTests<Memo
     @Category(Draft.class)
     public void test_from_CompositeData()
     throws Exception {
-        // write some test for {@link MemoryUsage#from(CompositeData)}
+        // write some test for {@link java.lang.management.MemoryUsage#from(javax.management.openmbean.CompositeData)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.MemoryUsage]

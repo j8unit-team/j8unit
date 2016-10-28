@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.xml.sax.Attributes;
 import org.xml.sax.helpers.AttributesImpl;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.AttributesImplClassTests<At
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AttributesImpl#AttributesImpl() public
-     * org.xml.sax.helpers.AttributesImpl()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#AttributesImpl() public org.xml.sax.helpers.AttributesImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,9 @@ implements org.j8unit.repository.org.xml.sax.helpers.AttributesImplClassTests<At
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AttributesImpl#AttributesImpl(Attributes)
-     * public org.xml.sax.helpers.AttributesImpl(org.xml.sax.Attributes)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#AttributesImpl(org.xml.sax.Attributes) public
+     * org.xml.sax.helpers.AttributesImpl(org.xml.sax.Attributes)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.xml.sax.helpers.AttributesImplClassTests<At
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AttributesImpl sut = null; // = new AttributesImpl(Attributes);
+        final AttributesImpl sut = null; // = new AttributesImpl(org.xml.sax.Attributes);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.AttributesImpl]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.instrument.IllegalClassFormatExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalClassFormatException#IllegalClassFormatException() public
+     * {@link java.lang.instrument.IllegalClassFormatException#IllegalClassFormatException() public
      * java.lang.instrument.IllegalClassFormatException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.lang.instrument.IllegalClassFormatExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalClassFormatException#IllegalClassFormatException(String) public
+     * {@link java.lang.instrument.IllegalClassFormatException#IllegalClassFormatException(String) public
      * java.lang.instrument.IllegalClassFormatException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

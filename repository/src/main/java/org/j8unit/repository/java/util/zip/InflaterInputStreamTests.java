@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InflaterInputStream#markSupported() public boolean
-     * java.util.zip.InflaterInputStream.markSupported()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.InflaterInputStream#markSupported()
+     * public boolean java.util.zip.InflaterInputStream.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InflaterInputStream#read(byte[], int, int) public
-     * int java.util.zip.InflaterInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.InflaterInputStream#read(byte[], int, int) public int
+     * java.util.zip.InflaterInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +81,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InflaterInputStream#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.InflaterInputStream#read() public int
      * java.util.zip.InflaterInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +104,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InflaterInputStream#mark(int) public synchronized
-     * void java.util.zip.InflaterInputStream.mark(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.InflaterInputStream#mark(int) public
+     * synchronized void java.util.zip.InflaterInputStream.mark(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +127,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InflaterInputStream#close() public void
-     * java.util.zip.InflaterInputStream.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.InflaterInputStream#close() public
+     * void java.util.zip.InflaterInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +150,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InflaterInputStream#skip(long) public long
-     * java.util.zip.InflaterInputStream.skip(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.InflaterInputStream#skip(long) public
+     * long java.util.zip.InflaterInputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +173,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InflaterInputStream#reset() public synchronized void
-     * java.util.zip.InflaterInputStream.reset() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.InflaterInputStream#reset() public
+     * synchronized void java.util.zip.InflaterInputStream.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +196,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InflaterInputStream#available() public int
-     * java.util.zip.InflaterInputStream.available() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.InflaterInputStream#available() public
+     * int java.util.zip.InflaterInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

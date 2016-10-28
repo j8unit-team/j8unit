@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.rmi.activation;
 
 import java.rmi.activation.ActivationGroup_Stub;
-import java.rmi.server.RemoteRef;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroup_StubClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationGroup_Stub#ActivationGroup_Stub(RemoteRef) public
+     * {@link java.rmi.activation.ActivationGroup_Stub#ActivationGroup_Stub(java.rmi.server.RemoteRef) public
      * java.rmi.activation.ActivationGroup_Stub(java.rmi.server.RemoteRef)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroup_StubClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ActivationGroup_Stub sut = null; // = new ActivationGroup_Stub(RemoteRef);
+        final ActivationGroup_Stub sut = null; // = new ActivationGroup_Stub(java.rmi.server.RemoteRef);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationGroup_Stub]

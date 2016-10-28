@@ -5,8 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableServer.POA;
-import org.omg.PortableServer.Servant;
 import org.omg.PortableServer.ServantActivatorOperations;
 
 /**
@@ -36,8 +34,9 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantActivatorOperations#incarnate(byte[], POA)
-     * public abstract org.omg.PortableServer.Servant
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantActivatorOperations#incarnate(byte[], org.omg.PortableServer.POA) public
+     * abstract org.omg.PortableServer.Servant
      * org.omg.PortableServer.ServantActivatorOperations.incarnate(byte[],org.omg.PortableServer.POA) throws
      * org.omg.PortableServer.ForwardRequest}.
      *
@@ -61,7 +60,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServantActivatorOperations#etherealize(byte[], POA, Servant, boolean, boolean) public abstract void
+     * {@link org.omg.PortableServer.ServantActivatorOperations#etherealize(byte[], org.omg.PortableServer.POA, org.omg.PortableServer.Servant, boolean, boolean)
+     * public abstract void
      * org.omg.PortableServer.ServantActivatorOperations.etherealize(byte[],org.omg.PortableServer.POA,org.omg.PortableServer.Servant,boolean,boolean)}
      * .
      *

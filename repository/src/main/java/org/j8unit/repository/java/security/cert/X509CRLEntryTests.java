@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLEntry#getCertificateIssuer() public
-     * javax.security.auth.x500.X500Principal java.security.cert.X509CRLEntry.getCertificateIssuer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLEntry#getCertificateIssuer() public javax.security.auth.x500.X500Principal
+     * java.security.cert.X509CRLEntry.getCertificateIssuer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLEntry#getSerialNumber() public abstract
-     * java.math.BigInteger java.security.cert.X509CRLEntry.getSerialNumber()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLEntry#getSerialNumber()
+     * public abstract java.math.BigInteger java.security.cert.X509CRLEntry.getSerialNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLEntry#hasExtensions() public abstract boolean
-     * java.security.cert.X509CRLEntry.hasExtensions()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLEntry#hasExtensions()
+     * public abstract boolean java.security.cert.X509CRLEntry.hasExtensions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLEntry#getEncoded() public abstract byte[]
-     * java.security.cert.X509CRLEntry.getEncoded() throws java.security.cert.CRLException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLEntry#getEncoded() public
+     * abstract byte[] java.security.cert.X509CRLEntry.getEncoded() throws java.security.cert.CRLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLEntry#hashCode() public int
-     * java.security.cert.X509CRLEntry.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLEntry#hashCode() public
+     * int java.security.cert.X509CRLEntry.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,8 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLEntry#equals(Object) public boolean
-     * java.security.cert.X509CRLEntry.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLEntry#equals(Object)
+     * public boolean java.security.cert.X509CRLEntry.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +169,8 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLEntry#toString() public abstract
-     * java.lang.String java.security.cert.X509CRLEntry.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLEntry#toString() public
+     * abstract java.lang.String java.security.cert.X509CRLEntry.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +192,9 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLEntry#getRevocationReason() public
-     * java.security.cert.CRLReason java.security.cert.X509CRLEntry.getRevocationReason()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLEntry#getRevocationReason() public java.security.cert.CRLReason
+     * java.security.cert.X509CRLEntry.getRevocationReason()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +215,8 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLEntry#getRevocationDate() public abstract
-     * java.util.Date java.security.cert.X509CRLEntry.getRevocationDate()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLEntry#getRevocationDate()
+     * public abstract java.util.Date java.security.cert.X509CRLEntry.getRevocationDate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

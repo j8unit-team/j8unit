@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.xml.sax.AttributeList;
 import org.xml.sax.helpers.AttributeListImpl;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.AttributeListImplClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AttributeListImpl#AttributeListImpl() public
-     * org.xml.sax.helpers.AttributeListImpl()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.AttributeListImpl#AttributeListImpl() public org.xml.sax.helpers.AttributeListImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.org.xml.sax.helpers.AttributeListImplClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributeListImpl#AttributeListImpl(AttributeList) public
+     * {@link org.xml.sax.helpers.AttributeListImpl#AttributeListImpl(org.xml.sax.AttributeList) public
      * org.xml.sax.helpers.AttributeListImpl(org.xml.sax.AttributeList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.org.xml.sax.helpers.AttributeListImplClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AttributeListImpl sut = null; // = new AttributeListImpl(AttributeList);
+        final AttributeListImpl sut = null; // = new AttributeListImpl(org.xml.sax.AttributeList);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.AttributeListImpl]

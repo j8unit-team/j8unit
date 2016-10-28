@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeExpansionEvent#getPath() public
-     * javax.swing.tree.TreePath javax.swing.event.TreeExpansionEvent.getPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeExpansionEvent#getPath()
+     * public javax.swing.tree.TreePath javax.swing.event.TreeExpansionEvent.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.text.SegmentClassTests<Segment> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Segment#Segment() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.Segment#Segment() public
      * javax.swing.text.Segment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.javax.swing.text.SegmentClassTests<Segment> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Segment#Segment(char[], int, int) public
-     * javax.swing.text.Segment(char[],int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.Segment#Segment(char[], int, int) public javax.swing.text.Segment(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

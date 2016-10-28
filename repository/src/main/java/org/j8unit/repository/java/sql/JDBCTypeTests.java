@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.sql.SQLTypeTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDBCType#getName() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.sql.JDBCType#getName() public java.lang.String
      * java.sql.JDBCType.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.sql.SQLTypeTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDBCType#getVendorTypeNumber() public
+     * Test method for the hereby targeted method-under-test {@link java.sql.JDBCType#getVendorTypeNumber() public
      * java.lang.Integer java.sql.JDBCType.getVendorTypeNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.sql.SQLTypeTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDBCType#getVendor() public java.lang.String
-     * java.sql.JDBCType.getVendor()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.JDBCType#getVendor() public
+     * java.lang.String java.sql.JDBCType.getVendor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

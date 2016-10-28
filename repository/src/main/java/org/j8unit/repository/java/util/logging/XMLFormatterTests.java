@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.logging;
 
-import java.util.logging.Handler;
-import java.util.logging.LogRecord;
 import java.util.logging.XMLFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.util.logging.FormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFormatter#getTail(Handler) public
-     * java.lang.String java.util.logging.XMLFormatter.getTail(java.util.logging.Handler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.XMLFormatter#getTail(java.util.logging.Handler) public java.lang.String
+     * java.util.logging.XMLFormatter.getTail(java.util.logging.Handler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends org.j8unit.repository.java.util.logging.FormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFormatter#getHead(Handler) public
-     * java.lang.String java.util.logging.XMLFormatter.getHead(java.util.logging.Handler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.XMLFormatter#getHead(java.util.logging.Handler) public java.lang.String
+     * java.util.logging.XMLFormatter.getHead(java.util.logging.Handler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,9 @@ extends org.j8unit.repository.java.util.logging.FormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFormatter#format(LogRecord) public
-     * java.lang.String java.util.logging.XMLFormatter.format(java.util.logging.LogRecord)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.XMLFormatter#format(java.util.logging.LogRecord) public java.lang.String
+     * java.util.logging.XMLFormatter.format(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

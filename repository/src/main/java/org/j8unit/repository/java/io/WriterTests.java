@@ -35,7 +35,7 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#close() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#close() public abstract void
      * java.io.Writer.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,7 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#write(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#write(String) public void
      * java.io.Writer.write(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#write(String, int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#write(String, int, int) public void
      * java.io.Writer.write(java.lang.String,int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#write(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#write(int) public void
      * java.io.Writer.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,8 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#write(char[], int, int) public abstract void
-     * java.io.Writer.write(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#write(char[], int, int) public
+     * abstract void java.io.Writer.write(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#write(char[]) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#write(char[]) public void
      * java.io.Writer.write(char[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#append(CharSequence) public java.io.Writer
-     * java.io.Writer.append(java.lang.CharSequence) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#append(CharSequence) public
+     * java.io.Writer java.io.Writer.append(java.lang.CharSequence) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,7 +191,7 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#append(char) public java.io.Writer
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#append(char) public java.io.Writer
      * java.io.Writer.append(char) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,7 +214,7 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#append(CharSequence, int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#append(CharSequence, int, int) public
      * java.io.Writer java.io.Writer.append(java.lang.CharSequence,int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,7 +237,7 @@ org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.la
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Writer#flush() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.io.Writer#flush() public abstract void
      * java.io.Writer.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

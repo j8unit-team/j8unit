@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.CookieHandlerClassTests<CookieHandler>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CookieHandler#CookieHandler() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.CookieHandler#CookieHandler() public
      * java.net.CookieHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,9 @@ implements org.j8unit.repository.java.net.CookieHandlerClassTests<CookieHandler>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CookieHandler#setDefault(CookieHandler) public
-     * static synchronized void java.net.CookieHandler.setDefault(java.net.CookieHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.CookieHandler#setDefault(java.net.CookieHandler) public static synchronized void
+     * java.net.CookieHandler.setDefault(java.net.CookieHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,12 +58,12 @@ implements org.j8unit.repository.java.net.CookieHandlerClassTests<CookieHandler>
     @Category(Draft.class)
     public void test_setDefault_CookieHandler()
     throws Exception {
-        // write some test for {@link CookieHandler#setDefault(CookieHandler)}
+        // write some test for {@link java.net.CookieHandler#setDefault(java.net.CookieHandler)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CookieHandler#getDefault() public static
+     * Test method for the hereby targeted method-under-test {@link java.net.CookieHandler#getDefault() public static
      * synchronized java.net.CookieHandler java.net.CookieHandler.getDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -77,7 +78,7 @@ implements org.j8unit.repository.java.net.CookieHandlerClassTests<CookieHandler>
     @Category(Draft.class)
     public void test_getDefault()
     throws Exception {
-        // write some test for {@link CookieHandler#getDefault()}
+        // write some test for {@link java.net.CookieHandler#getDefault()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CookieHandler]

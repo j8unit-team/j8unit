@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.bind.DataBindingExceptionClassTests<D
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBindingException#DataBindingException(String, Throwable) public
+     * {@link javax.xml.bind.DataBindingException#DataBindingException(String, Throwable) public
      * javax.xml.bind.DataBindingException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.bind.DataBindingExceptionClassTests<D
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBindingException#DataBindingException(Throwable) public
+     * {@link javax.xml.bind.DataBindingException#DataBindingException(Throwable) public
      * javax.xml.bind.DataBindingException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.io.File;
-import javax.swing.event.ListDataEvent;
 import javax.swing.plaf.basic.BasicDirectoryModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +34,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#validateFileCache() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#validateFileCache() public void
      * javax.swing.plaf.basic.BasicDirectoryModel.validateFileCache()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +58,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicDirectoryModel#removePropertyChangeListener(PropertyChangeListener) public void
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#removePropertyChangeListener(java.beans.PropertyChangeListener)
+     * public void
      * javax.swing.plaf.basic.BasicDirectoryModel.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +81,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#getFiles() public
-     * java.util.Vector<java.io.File> javax.swing.plaf.basic.BasicDirectoryModel.getFiles()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#getFiles() public java.util.Vector
+     * <java.io.File> javax.swing.plaf.basic.BasicDirectoryModel.getFiles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,9 +104,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#getPropertyChangeListeners()
-     * public java.beans.PropertyChangeListener[]
-     * javax.swing.plaf.basic.BasicDirectoryModel.getPropertyChangeListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#getPropertyChangeListeners() public
+     * java.beans.PropertyChangeListener[] javax.swing.plaf.basic.BasicDirectoryModel.getPropertyChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +127,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#invalidateFileCache() public
-     * void javax.swing.plaf.basic.BasicDirectoryModel.invalidateFileCache()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#invalidateFileCache() public void
+     * javax.swing.plaf.basic.BasicDirectoryModel.invalidateFileCache()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +150,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#intervalAdded(ListDataEvent)
-     * public void javax.swing.plaf.basic.BasicDirectoryModel.intervalAdded(javax.swing.event.ListDataEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#intervalAdded(javax.swing.event.ListDataEvent) public void
+     * javax.swing.plaf.basic.BasicDirectoryModel.intervalAdded(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +173,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#fireContentsChanged() public
-     * void javax.swing.plaf.basic.BasicDirectoryModel.fireContentsChanged()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#fireContentsChanged() public void
+     * javax.swing.plaf.basic.BasicDirectoryModel.fireContentsChanged()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,8 +196,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#renameFile(File, File) public
-     * boolean javax.swing.plaf.basic.BasicDirectoryModel.renameFile(java.io.File,java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#renameFile(java.io.File, java.io.File) public boolean
+     * javax.swing.plaf.basic.BasicDirectoryModel.renameFile(java.io.File,java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,7 +220,7 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicDirectoryModel#propertyChange(PropertyChangeEvent) public void
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#propertyChange(java.beans.PropertyChangeEvent) public void
      * javax.swing.plaf.basic.BasicDirectoryModel.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,7 +244,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicDirectoryModel#addPropertyChangeListener(PropertyChangeListener) public void
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#addPropertyChangeListener(java.beans.PropertyChangeListener)
+     * public void
      * javax.swing.plaf.basic.BasicDirectoryModel.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -263,8 +267,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#getElementAt(int) public
-     * java.lang.Object javax.swing.plaf.basic.BasicDirectoryModel.getElementAt(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#getElementAt(int) public java.lang.Object
+     * javax.swing.plaf.basic.BasicDirectoryModel.getElementAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -286,8 +291,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#getDirectories() public
-     * java.util.Vector<java.io.File> javax.swing.plaf.basic.BasicDirectoryModel.getDirectories()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#getDirectories() public java.util.Vector
+     * <java.io.File> javax.swing.plaf.basic.BasicDirectoryModel.getDirectories()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -308,7 +314,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#indexOf(Object) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#indexOf(Object) public int
      * javax.swing.plaf.basic.BasicDirectoryModel.indexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -330,8 +337,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#intervalRemoved(ListDataEvent)
-     * public void javax.swing.plaf.basic.BasicDirectoryModel.intervalRemoved(javax.swing.event.ListDataEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#intervalRemoved(javax.swing.event.ListDataEvent) public void
+     * javax.swing.plaf.basic.BasicDirectoryModel.intervalRemoved(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -352,8 +360,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#getSize() public int
-     * javax.swing.plaf.basic.BasicDirectoryModel.getSize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicDirectoryModel#getSize()
+     * public int javax.swing.plaf.basic.BasicDirectoryModel.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -375,7 +383,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicDirectoryModel#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#contains(Object) public boolean
      * javax.swing.plaf.basic.BasicDirectoryModel.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

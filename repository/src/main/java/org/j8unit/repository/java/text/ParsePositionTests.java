@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParsePosition#toString() public java.lang.String
-     * java.text.ParsePosition.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.ParsePosition#toString() public
+     * java.lang.String java.text.ParsePosition.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParsePosition#setErrorIndex(int) public void
-     * java.text.ParsePosition.setErrorIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.ParsePosition#setErrorIndex(int) public
+     * void java.text.ParsePosition.setErrorIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParsePosition#getErrorIndex() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.ParsePosition#getErrorIndex() public int
      * java.text.ParsePosition.getErrorIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParsePosition#getIndex() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.ParsePosition#getIndex() public int
      * java.text.ParsePosition.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParsePosition#setIndex(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.text.ParsePosition#setIndex(int) public void
      * java.text.ParsePosition.setIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParsePosition#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.ParsePosition#hashCode() public int
      * java.text.ParsePosition.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParsePosition#equals(Object) public boolean
-     * java.text.ParsePosition.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.ParsePosition#equals(Object) public
+     * boolean java.text.ParsePosition.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

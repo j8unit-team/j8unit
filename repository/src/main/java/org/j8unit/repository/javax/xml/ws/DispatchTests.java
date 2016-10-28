@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.ws;
 
-import javax.xml.ws.AsyncHandler;
 import javax.xml.ws.Dispatch;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.xml.ws.BindingProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dispatch#invoke(Object) public abstract T
-     * javax.xml.ws.Dispatch.invoke(T)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Dispatch#invoke(Object) public abstract
+     * T javax.xml.ws.Dispatch.invoke(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.javax.xml.ws.BindingProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dispatch#invokeAsync(Object) public abstract
-     * javax.xml.ws.Response<T> javax.xml.ws.Dispatch.invokeAsync(T)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Dispatch#invokeAsync(Object) public
+     * abstract javax.xml.ws.Response<T> javax.xml.ws.Dispatch.invokeAsync(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,9 @@ extends org.j8unit.repository.javax.xml.ws.BindingProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dispatch#invokeAsync(Object, AsyncHandler) public
-     * abstract java.util.concurrent.Future<?> javax.xml.ws.Dispatch.invokeAsync(T,javax.xml.ws.AsyncHandler<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Dispatch#invokeAsync(Object, javax.xml.ws.AsyncHandler) public abstract
+     * java.util.concurrent.Future<?> javax.xml.ws.Dispatch.invokeAsync(T,javax.xml.ws.AsyncHandler<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.javax.xml.ws.BindingProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dispatch#invokeOneWay(Object) public abstract void
-     * javax.xml.ws.Dispatch.invokeOneWay(T)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Dispatch#invokeOneWay(Object) public
+     * abstract void javax.xml.ws.Dispatch.invokeOneWay(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

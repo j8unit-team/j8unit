@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.xpath;
 
-import javax.xml.namespace.QName;
 import javax.xml.xpath.XPathFunctionResolver;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathFunctionResolver#resolveFunction(QName, int)
-     * public abstract javax.xml.xpath.XPathFunction
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPathFunctionResolver#resolveFunction(javax.xml.namespace.QName, int) public abstract
+     * javax.xml.xpath.XPathFunction
      * javax.xml.xpath.XPathFunctionResolver.resolveFunction(javax.xml.namespace.QName,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

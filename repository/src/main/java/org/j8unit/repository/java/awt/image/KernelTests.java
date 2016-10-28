@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Kernel#getXOrigin() public final int
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.Kernel#getXOrigin() public final int
      * java.awt.image.Kernel.getXOrigin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Kernel#getHeight() public final int
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.Kernel#getHeight() public final int
      * java.awt.image.Kernel.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Kernel#getKernelData(float[]) public final float[]
-     * java.awt.image.Kernel.getKernelData(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.Kernel#getKernelData(float[]) public
+     * final float[] java.awt.image.Kernel.getKernelData(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Kernel#getYOrigin() public final int
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.Kernel#getYOrigin() public final int
      * java.awt.image.Kernel.getYOrigin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Kernel#getWidth() public final int
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.Kernel#getWidth() public final int
      * java.awt.image.Kernel.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Kernel#clone() public java.lang.Object
-     * java.awt.image.Kernel.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.Kernel#clone() public
+     * java.lang.Object java.awt.image.Kernel.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

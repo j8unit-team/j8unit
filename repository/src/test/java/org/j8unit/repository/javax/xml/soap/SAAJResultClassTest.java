@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.xml.soap;
 
 import javax.xml.soap.SAAJResult;
-import javax.xml.soap.SOAPElement;
-import javax.xml.soap.SOAPMessage;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.xml.soap.SAAJResultClassTests<SAAJResult>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SAAJResult#SAAJResult(SOAPElement) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.soap.SAAJResult#SAAJResult(javax.xml.soap.SOAPElement) public
      * javax.xml.soap.SAAJResult(javax.xml.soap.SOAPElement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,13 @@ implements org.j8unit.repository.javax.xml.soap.SAAJResultClassTests<SAAJResult>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SAAJResult sut = null; // = new SAAJResult(SOAPElement);
+        final SAAJResult sut = null; // = new SAAJResult(javax.xml.soap.SOAPElement);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SAAJResult#SAAJResult(SOAPMessage) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.soap.SAAJResult#SAAJResult(javax.xml.soap.SOAPMessage) public
      * javax.xml.soap.SAAJResult(javax.xml.soap.SOAPMessage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +62,13 @@ implements org.j8unit.repository.javax.xml.soap.SAAJResultClassTests<SAAJResult>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SAAJResult sut = null; // = new SAAJResult(SOAPMessage);
+        final SAAJResult sut = null; // = new SAAJResult(javax.xml.soap.SOAPMessage);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SAAJResult#SAAJResult(String) public
-     * javax.xml.soap.SAAJResult(java.lang.String) throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.soap.SAAJResult#SAAJResult(String)
+     * public javax.xml.soap.SAAJResult(java.lang.String) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,7 +89,7 @@ implements org.j8unit.repository.javax.xml.soap.SAAJResultClassTests<SAAJResult>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SAAJResult#SAAJResult() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.soap.SAAJResult#SAAJResult() public
      * javax.xml.soap.SAAJResult() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

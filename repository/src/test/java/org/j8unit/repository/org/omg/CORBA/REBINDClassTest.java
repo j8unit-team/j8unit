@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.REBIND;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CORBA.REBINDClassTests<REBIND> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link REBIND#REBIND(String, int, CompletionStatus)
-     * public org.omg.CORBA.REBIND(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.REBIND#REBIND(String, int, org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.REBIND(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,12 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.REBINDClassTests<REBIND> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final REBIND sut = null; // = new REBIND(String, int, CompletionStatus);
+        final REBIND sut = null; // = new REBIND(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link REBIND#REBIND(int, CompletionStatus) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.REBIND#REBIND(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.REBIND(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,12 +62,12 @@ implements org.j8unit.repository.org.omg.CORBA.REBINDClassTests<REBIND> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final REBIND sut = null; // = new REBIND(int, CompletionStatus);
+        final REBIND sut = null; // = new REBIND(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link REBIND#REBIND(String) public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.REBIND#REBIND(String) public
      * org.omg.CORBA.REBIND(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,7 +89,8 @@ implements org.j8unit.repository.org.omg.CORBA.REBINDClassTests<REBIND> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link REBIND#REBIND() public org.omg.CORBA.REBIND()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.REBIND#REBIND() public
+     * org.omg.CORBA.REBIND()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

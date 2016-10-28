@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebFault#messageName() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebFault#messageName() public abstract
      * java.lang.String javax.xml.ws.WebFault.messageName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebFault#targetNamespace() public abstract
-     * java.lang.String javax.xml.ws.WebFault.targetNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebFault#targetNamespace() public
+     * abstract java.lang.String javax.xml.ws.WebFault.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebFault#name() public abstract java.lang.String
-     * javax.xml.ws.WebFault.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebFault#name() public abstract
+     * java.lang.String javax.xml.ws.WebFault.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebFault#faultBean() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebFault#faultBean() public abstract
      * java.lang.String javax.xml.ws.WebFault.faultBean()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

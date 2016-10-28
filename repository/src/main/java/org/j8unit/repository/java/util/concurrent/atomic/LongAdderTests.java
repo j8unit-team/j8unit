@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#add(long) public void
-     * java.util.concurrent.atomic.LongAdder.add(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#add(long)
+     * public void java.util.concurrent.atomic.LongAdder.add(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#sumThenReset() public long
-     * java.util.concurrent.atomic.LongAdder.sumThenReset()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#sumThenReset()
+     * public long java.util.concurrent.atomic.LongAdder.sumThenReset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#decrement() public void
-     * java.util.concurrent.atomic.LongAdder.decrement()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#decrement()
+     * public void java.util.concurrent.atomic.LongAdder.decrement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#intValue() public int
-     * java.util.concurrent.atomic.LongAdder.intValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#intValue()
+     * public int java.util.concurrent.atomic.LongAdder.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#reset() public void
-     * java.util.concurrent.atomic.LongAdder.reset()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#reset() public
+     * void java.util.concurrent.atomic.LongAdder.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#increment() public void
-     * java.util.concurrent.atomic.LongAdder.increment()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#increment()
+     * public void java.util.concurrent.atomic.LongAdder.increment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#floatValue() public float
-     * java.util.concurrent.atomic.LongAdder.floatValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#floatValue()
+     * public float java.util.concurrent.atomic.LongAdder.floatValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#doubleValue() public double
-     * java.util.concurrent.atomic.LongAdder.doubleValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#doubleValue()
+     * public double java.util.concurrent.atomic.LongAdder.doubleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +213,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#sum() public long
-     * java.util.concurrent.atomic.LongAdder.sum()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#sum() public
+     * long java.util.concurrent.atomic.LongAdder.sum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +235,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#toString() public java.lang.String
-     * java.util.concurrent.atomic.LongAdder.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#toString()
+     * public java.lang.String java.util.concurrent.atomic.LongAdder.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +258,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongAdder#longValue() public long
-     * java.util.concurrent.atomic.LongAdder.longValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.LongAdder#longValue()
+     * public long java.util.concurrent.atomic.LongAdder.longValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

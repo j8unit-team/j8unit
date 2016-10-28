@@ -6,8 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.IDLType;
-import org.omg.CORBA.TypeCode;
 import org.omg.CORBA.ValueMember;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberClassTests<ValueMember
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ValueMember#ValueMember() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ValueMember#ValueMember() public
      * org.omg.CORBA.ValueMember()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +43,8 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberClassTests<ValueMember
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ValueMember#ValueMember(String, String, String, String, TypeCode, IDLType, short) public
+     * {@link org.omg.CORBA.ValueMember#ValueMember(String, String, String, String, org.omg.CORBA.TypeCode, org.omg.CORBA.IDLType, short)
+     * public
      * org.omg.CORBA.ValueMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.omg.CORBA.TypeCode,org.omg.CORBA.IDLType,short)}
      * .
      *
@@ -63,7 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberClassTests<ValueMember
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ValueMember sut = null; // = new ValueMember(String, String, String, String, TypeCode, IDLType, short);
+        final ValueMember sut = null; // = new ValueMember(String, String, String, String, org.omg.CORBA.TypeCode,
+                                      // org.omg.CORBA.IDLType, short);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ValueMember]

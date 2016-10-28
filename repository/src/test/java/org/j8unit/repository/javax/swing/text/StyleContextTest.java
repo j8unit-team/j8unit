@@ -38,21 +38,6 @@ implements FactoryBasedJ8UnitTest<StyleContext>, org.j8unit.repository.javax.swi
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext]
 
     @RunWith(J8Unit4.class)
-    public static class SmallAttributeSetTest
-    implements org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests<SmallAttributeSet> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
-
-        @Override
-        public SmallAttributeSet createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleContext.SmallAttributeSet], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class NamedStyleTest
     implements org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests<NamedStyle> {
 
@@ -64,6 +49,21 @@ implements FactoryBasedJ8UnitTest<StyleContext>, org.j8unit.repository.javax.swi
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class SmallAttributeSetTest
+    implements org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests<SmallAttributeSet> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
+
+        @Override
+        public SmallAttributeSet createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleContext.SmallAttributeSet], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
 
     }
 

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.rmi.CORBA;
 
-import java.rmi.Remote;
 import javax.rmi.CORBA.PortableRemoteObjectDelegate;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,9 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PortableRemoteObjectDelegate#toStub(Remote) public
-     * abstract java.rmi.Remote javax.rmi.CORBA.PortableRemoteObjectDelegate.toStub(java.rmi.Remote) throws
-     * java.rmi.NoSuchObjectException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#toStub(java.rmi.Remote) public abstract java.rmi.Remote
+     * javax.rmi.CORBA.PortableRemoteObjectDelegate.toStub(java.rmi.Remote) throws java.rmi.NoSuchObjectException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PortableRemoteObjectDelegate#connect(Remote, Remote)
-     * public abstract void javax.rmi.CORBA.PortableRemoteObjectDelegate.connect(java.rmi.Remote,java.rmi.Remote) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#connect(java.rmi.Remote, java.rmi.Remote) public abstract
+     * void javax.rmi.CORBA.PortableRemoteObjectDelegate.connect(java.rmi.Remote,java.rmi.Remote) throws
      * java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PortableRemoteObjectDelegate#narrow(Object, Class)
-     * public abstract java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#narrow(Object, Class) public abstract java.lang.Object
      * javax.rmi.CORBA.PortableRemoteObjectDelegate.narrow(java.lang.Object,java.lang.Class) throws
      * java.lang.ClassCastException}.
      *
@@ -106,9 +106,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PortableRemoteObjectDelegate#exportObject(Remote)
-     * public abstract void javax.rmi.CORBA.PortableRemoteObjectDelegate.exportObject(java.rmi.Remote) throws
-     * java.rmi.RemoteException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#exportObject(java.rmi.Remote) public abstract void
+     * javax.rmi.CORBA.PortableRemoteObjectDelegate.exportObject(java.rmi.Remote) throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +129,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PortableRemoteObjectDelegate#unexportObject(Remote)
-     * public abstract void javax.rmi.CORBA.PortableRemoteObjectDelegate.unexportObject(java.rmi.Remote) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#unexportObject(java.rmi.Remote) public abstract void
+     * javax.rmi.CORBA.PortableRemoteObjectDelegate.unexportObject(java.rmi.Remote) throws
      * java.rmi.NoSuchObjectException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

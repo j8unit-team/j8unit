@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PathIterator#isDone() public abstract boolean
-     * java.awt.geom.PathIterator.isDone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.PathIterator#isDone() public abstract
+     * boolean java.awt.geom.PathIterator.isDone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PathIterator#currentSegment(double[]) public
-     * abstract int java.awt.geom.PathIterator.currentSegment(double[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.PathIterator#currentSegment(double[])
+     * public abstract int java.awt.geom.PathIterator.currentSegment(double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PathIterator#currentSegment(float[]) public abstract
-     * int java.awt.geom.PathIterator.currentSegment(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.PathIterator#currentSegment(float[])
+     * public abstract int java.awt.geom.PathIterator.currentSegment(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PathIterator#getWindingRule() public abstract int
-     * java.awt.geom.PathIterator.getWindingRule()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.PathIterator#getWindingRule() public
+     * abstract int java.awt.geom.PathIterator.getWindingRule()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PathIterator#next() public abstract void
-     * java.awt.geom.PathIterator.next()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.PathIterator#next() public abstract
+     * void java.awt.geom.PathIterator.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

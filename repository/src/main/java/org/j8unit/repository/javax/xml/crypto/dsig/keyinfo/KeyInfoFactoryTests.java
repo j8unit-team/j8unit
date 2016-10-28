@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig.keyinfo;
 
-import java.math.BigInteger;
-import java.security.PublicKey;
-import java.util.List;
-import javax.xml.crypto.XMLStructure;
 import javax.xml.crypto.dsig.keyinfo.KeyInfoFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#getURIDereferencer() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getURIDereferencer() public abstract
      * javax.xml.crypto.URIDereferencer javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getURIDereferencer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#getProvider() public final
-     * java.security.Provider javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getProvider()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getProvider() public final java.security.Provider
+     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#newX509Data(List) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newX509Data(java.util.List) public abstract
      * javax.xml.crypto.dsig.keyinfo.X509Data javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newX509Data(java.util.List)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#newPGPData(byte[], List) public
-     * abstract javax.xml.crypto.dsig.keyinfo.PGPData
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newPGPData(byte[], java.util.List) public abstract
+     * javax.xml.crypto.dsig.keyinfo.PGPData
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newPGPData(byte[],java.util.List)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +127,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#newPGPData(byte[], byte[], List)
-     * public abstract javax.xml.crypto.dsig.keyinfo.PGPData
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newPGPData(byte[], byte[], java.util.List) public abstract
+     * javax.xml.crypto.dsig.keyinfo.PGPData
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newPGPData(byte[],byte[],java.util.List)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,7 +151,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#newPGPData(byte[]) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newPGPData(byte[]) public abstract
      * javax.xml.crypto.dsig.keyinfo.PGPData javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newPGPData(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +174,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#newKeyName(String) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newKeyName(String) public abstract
      * javax.xml.crypto.dsig.keyinfo.KeyName javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newKeyName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,7 +197,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#newKeyInfo(List) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newKeyInfo(java.util.List) public abstract
      * javax.xml.crypto.dsig.keyinfo.KeyInfo javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newKeyInfo(java.util.List)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,8 +220,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#newKeyInfo(List, String) public
-     * abstract javax.xml.crypto.dsig.keyinfo.KeyInfo
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newKeyInfo(java.util.List, String) public abstract
+     * javax.xml.crypto.dsig.keyinfo.KeyInfo
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newKeyInfo(java.util.List,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -239,7 +244,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#unmarshalKeyInfo(XMLStructure) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#unmarshalKeyInfo(javax.xml.crypto.XMLStructure) public
      * abstract javax.xml.crypto.dsig.keyinfo.KeyInfo
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.unmarshalKeyInfo(javax.xml.crypto.XMLStructure) throws
      * javax.xml.crypto.MarshalException}.
@@ -263,8 +269,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#getMechanismType() public final
-     * java.lang.String javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getMechanismType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getMechanismType() public final java.lang.String
+     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getMechanismType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -286,8 +293,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyInfoFactory#newX509IssuerSerial(String, BigInteger) public abstract
-     * javax.xml.crypto.dsig.keyinfo.X509IssuerSerial
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newX509IssuerSerial(String, java.math.BigInteger) public
+     * abstract javax.xml.crypto.dsig.keyinfo.X509IssuerSerial
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newX509IssuerSerial(java.lang.String,java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -309,8 +316,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#newKeyValue(PublicKey) public
-     * abstract javax.xml.crypto.dsig.keyinfo.KeyValue
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newKeyValue(java.security.PublicKey) public abstract
+     * javax.xml.crypto.dsig.keyinfo.KeyValue
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newKeyValue(java.security.PublicKey) throws
      * java.security.KeyException}.
      *
@@ -333,8 +341,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#newRetrievalMethod(String) public
-     * abstract javax.xml.crypto.dsig.keyinfo.RetrievalMethod
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newRetrievalMethod(String) public abstract
+     * javax.xml.crypto.dsig.keyinfo.RetrievalMethod
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newRetrievalMethod(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -357,8 +366,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyInfoFactory#newRetrievalMethod(String, String, List) public abstract
-     * javax.xml.crypto.dsig.keyinfo.RetrievalMethod
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#newRetrievalMethod(String, String, java.util.List) public
+     * abstract javax.xml.crypto.dsig.keyinfo.RetrievalMethod
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.newRetrievalMethod(java.lang.String,java.lang.String,java.util.List)}
      * .
      *
@@ -381,8 +390,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyInfoFactory#isFeatureSupported(String) public
-     * abstract boolean javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.isFeatureSupported(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#isFeatureSupported(String) public abstract boolean
+     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.isFeatureSupported(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

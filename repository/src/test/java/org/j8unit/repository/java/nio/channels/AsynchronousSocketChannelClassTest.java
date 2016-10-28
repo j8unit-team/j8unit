@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.nio.channels.AsynchronousChannelGroup;
 import java.nio.channels.AsynchronousSocketChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,9 +21,9 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousSocketChannelClas
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#open() public static
-     * java.nio.channels.AsynchronousSocketChannel java.nio.channels.AsynchronousSocketChannel.open() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.AsynchronousSocketChannel#open()
+     * public static java.nio.channels.AsynchronousSocketChannel java.nio.channels.AsynchronousSocketChannel.open()
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,13 +37,13 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousSocketChannelClas
     @Category(Draft.class)
     public void test_open()
     throws Exception {
-        // write some test for {@link AsynchronousSocketChannel#open()}
+        // write some test for {@link java.nio.channels.AsynchronousSocketChannel#open()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousSocketChannel#open(AsynchronousChannelGroup) public static
+     * {@link java.nio.channels.AsynchronousSocketChannel#open(java.nio.channels.AsynchronousChannelGroup) public static
      * java.nio.channels.AsynchronousSocketChannel
      * java.nio.channels.AsynchronousSocketChannel.open(java.nio.channels.AsynchronousChannelGroup) throws
      * java.io.IOException}.
@@ -61,7 +60,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousSocketChannelClas
     @Category(Draft.class)
     public void test_open_AsynchronousChannelGroup()
     throws Exception {
-        // write some test for {@link AsynchronousSocketChannel#open(AsynchronousChannelGroup)}
+        // write some test for {@link
+        // java.nio.channels.AsynchronousSocketChannel#open(java.nio.channels.AsynchronousChannelGroup)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AsynchronousSocketChannel]

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.rmi.activation;
 
 import java.rmi.activation.ActivationID;
-import java.rmi.activation.Activator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationIDClassTests<Acti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ActivationID#ActivationID(Activator) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.activation.ActivationID#ActivationID(java.rmi.activation.Activator) public
      * java.rmi.activation.ActivationID(java.rmi.activation.Activator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivationIDClassTests<Acti
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ActivationID sut = null; // = new ActivationID(Activator);
+        final ActivationID sut = null; // = new ActivationID(java.rmi.activation.Activator);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationID]

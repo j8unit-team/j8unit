@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicColorChooserUI;
 import javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler;
 import org.j8unit.repository.categories.Draft;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicColorChooserUI#BasicColorChooserUI()
-     * public javax.swing.plaf.basic.BasicColorChooserUI()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicColorChooserUI#BasicColorChooserUI() public
+     * javax.swing.plaf.basic.BasicColorChooserUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +44,9 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClass
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicColorChooserUI#createUI(JComponent) public
-     * static javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicColorChooserUI.createUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicColorChooserUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicColorChooserUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +60,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClass
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link BasicColorChooserUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.basic.BasicColorChooserUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicColorChooserUI]
@@ -78,7 +79,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClass
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link PropertyHandler#PropertyHandler(BasicColorChooserUI) public
+         * {@link javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler#PropertyHandler(javax.swing.plaf.basic.BasicColorChooserUI)
+         * public
          * javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler(javax.swing.plaf.basic.BasicColorChooserUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -95,7 +97,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClass
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PropertyHandler sut = null; // = new PropertyHandler(BasicColorChooserUI);
+            final PropertyHandler sut = null; // = new PropertyHandler(javax.swing.plaf.basic.BasicColorChooserUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler]

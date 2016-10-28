@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.beans.EventHandlerClassTests<EventHandler>
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EventHandler#EventHandler(Object, String, String, String) public
+     * {@link java.beans.EventHandler#EventHandler(Object, String, String, String) public
      * java.beans.EventHandler(java.lang.Object,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.java.beans.EventHandlerClassTests<EventHandler>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventHandler#create(Class, Object, String) public
-     * static <T> T java.beans.EventHandler.create(java.lang.Class<T>,java.lang.Object,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.EventHandler#create(Class, Object, String) public static <T> T
+     * java.beans.EventHandler.create(java.lang.Class<T>,java.lang.Object,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,14 +60,14 @@ implements org.j8unit.repository.java.beans.EventHandlerClassTests<EventHandler>
     @Category(Draft.class)
     public void test_create_Class_Object_String()
     throws Exception {
-        // write some test for {@link EventHandler#create(Class, Object, String)}
+        // write some test for {@link java.beans.EventHandler#create(Class, Object, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventHandler#create(Class, Object, String, String)
-     * public static <T> T java.beans.EventHandler.create(java.lang.Class
-     * <T>,java.lang.Object,java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.EventHandler#create(Class, Object, String, String) public static <T> T
+     * java.beans.EventHandler.create(java.lang.Class<T>,java.lang.Object,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +81,13 @@ implements org.j8unit.repository.java.beans.EventHandlerClassTests<EventHandler>
     @Category(Draft.class)
     public void test_create_Class_Object_String_String()
     throws Exception {
-        // write some test for {@link EventHandler#create(Class, Object, String, String)}
+        // write some test for {@link java.beans.EventHandler#create(Class, Object, String, String)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EventHandler#create(Class, Object, String, String, String) public static <T> T
+     * {@link java.beans.EventHandler#create(Class, Object, String, String, String) public static <T> T
      * java.beans.EventHandler.create(java.lang.Class
      * <T>,java.lang.Object,java.lang.String,java.lang.String,java.lang.String)}.
      *
@@ -102,7 +103,7 @@ implements org.j8unit.repository.java.beans.EventHandlerClassTests<EventHandler>
     @Category(Draft.class)
     public void test_create_Class_Object_String_String_String()
     throws Exception {
-        // write some test for {@link EventHandler#create(Class, Object, String, String, String)}
+        // write some test for {@link java.beans.EventHandler#create(Class, Object, String, String, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.EventHandler]

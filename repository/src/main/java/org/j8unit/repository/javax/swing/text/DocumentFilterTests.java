@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.AttributeSet;
 import javax.swing.text.DocumentFilter;
 import javax.swing.text.DocumentFilter.FilterBypass;
 import org.j8unit.repository.categories.Draft;
@@ -37,7 +36,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocumentFilter#insertString(FilterBypass, int, String, AttributeSet) public void
+     * {@link javax.swing.text.DocumentFilter#insertString(javax.swing.text.DocumentFilter.FilterBypass, int, String, javax.swing.text.AttributeSet)
+     * public void
      * javax.swing.text.DocumentFilter.insertString(javax.swing.text.DocumentFilter$FilterBypass,int,java.lang.String,javax.swing.text.AttributeSet)
      * throws javax.swing.text.BadLocationException}.
      *
@@ -61,7 +61,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocumentFilter#replace(FilterBypass, int, int, String, AttributeSet) public void
+     * {@link javax.swing.text.DocumentFilter#replace(javax.swing.text.DocumentFilter.FilterBypass, int, int, String, javax.swing.text.AttributeSet)
+     * public void
      * javax.swing.text.DocumentFilter.replace(javax.swing.text.DocumentFilter$FilterBypass,int,int,java.lang.String,javax.swing.text.AttributeSet)
      * throws javax.swing.text.BadLocationException}.
      *
@@ -84,8 +85,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentFilter#remove(FilterBypass, int, int) public
-     * void javax.swing.text.DocumentFilter.remove(javax.swing.text.DocumentFilter$FilterBypass,int,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DocumentFilter#remove(javax.swing.text.DocumentFilter.FilterBypass, int, int) public void
+     * javax.swing.text.DocumentFilter.remove(javax.swing.text.DocumentFilter$FilterBypass,int,int) throws
      * javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,8 +136,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link FilterBypass#getDocument() public abstract
-         * javax.swing.text.Document javax.swing.text.DocumentFilter$FilterBypass.getDocument()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DocumentFilter.FilterBypass#getDocument() public abstract javax.swing.text.Document
+         * javax.swing.text.DocumentFilter$FilterBypass.getDocument()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -156,9 +159,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link FilterBypass#remove(int, int) public abstract
-         * void javax.swing.text.DocumentFilter$FilterBypass.remove(int,int) throws
-         * javax.swing.text.BadLocationException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DocumentFilter.FilterBypass#remove(int, int) public abstract void
+         * javax.swing.text.DocumentFilter$FilterBypass.remove(int,int) throws javax.swing.text.BadLocationException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -180,7 +183,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link FilterBypass#insertString(int, String, AttributeSet) public abstract void
+         * {@link javax.swing.text.DocumentFilter.FilterBypass#insertString(int, String, javax.swing.text.AttributeSet)
+         * public abstract void
          * javax.swing.text.DocumentFilter$FilterBypass.insertString(int,java.lang.String,javax.swing.text.AttributeSet)
          * throws javax.swing.text.BadLocationException}.
          *
@@ -204,7 +208,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link FilterBypass#replace(int, int, String, AttributeSet) public abstract void
+         * {@link javax.swing.text.DocumentFilter.FilterBypass#replace(int, int, String, javax.swing.text.AttributeSet)
+         * public abstract void
          * javax.swing.text.DocumentFilter$FilterBypass.replace(int,int,java.lang.String,javax.swing.text.AttributeSet)
          * throws javax.swing.text.BadLocationException}.
          *

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.NotCompliantMBeanExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NotCompliantMBeanException#NotCompliantMBeanException() public
+     * {@link javax.management.NotCompliantMBeanException#NotCompliantMBeanException() public
      * javax.management.NotCompliantMBeanException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.NotCompliantMBeanExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NotCompliantMBeanException#NotCompliantMBeanException(String) public
+     * {@link javax.management.NotCompliantMBeanException#NotCompliantMBeanException(String) public
      * javax.management.NotCompliantMBeanException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

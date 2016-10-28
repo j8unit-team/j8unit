@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.io.StreamCorruptedExceptionClassTests<Stre
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StreamCorruptedException#StreamCorruptedException(String) public
+     * {@link java.io.StreamCorruptedException#StreamCorruptedException(String) public
      * java.io.StreamCorruptedException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.io.StreamCorruptedExceptionClassTests<Stre
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StreamCorruptedException#StreamCorruptedException() public java.io.StreamCorruptedException()}.
+     * {@link java.io.StreamCorruptedException#StreamCorruptedException() public java.io.StreamCorruptedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

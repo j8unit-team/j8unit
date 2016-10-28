@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getJarFiles() public java.lang.String
-     * javax.management.loading.MLetContent.getJarFiles()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLetContent#getJarFiles()
+     * public java.lang.String javax.management.loading.MLetContent.getJarFiles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getAttributes() public
-     * java.util.Map<java.lang.String, java.lang.String> javax.management.loading.MLetContent.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLetContent#getAttributes()
+     * public java.util.Map<java.lang.String, java.lang.String> javax.management.loading.MLetContent.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getName() public java.lang.String
-     * javax.management.loading.MLetContent.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLetContent#getName()
+     * public java.lang.String javax.management.loading.MLetContent.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getCodeBase() public java.net.URL
-     * javax.management.loading.MLetContent.getCodeBase()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLetContent#getCodeBase()
+     * public java.net.URL javax.management.loading.MLetContent.getCodeBase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getParameterValues() public
-     * java.util.List<java.lang.String> javax.management.loading.MLetContent.getParameterValues()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetContent#getParameterValues() public java.util.List
+     * <java.lang.String> javax.management.loading.MLetContent.getParameterValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getVersion() public java.lang.String
-     * javax.management.loading.MLetContent.getVersion()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLetContent#getVersion()
+     * public java.lang.String javax.management.loading.MLetContent.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,30 +167,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getCode() public java.lang.String
-     * javax.management.loading.MLetContent.getCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getSerializedObject() public
-     * java.lang.String javax.management.loading.MLetContent.getSerializedObject()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetContent#getSerializedObject() public java.lang.String
+     * javax.management.loading.MLetContent.getSerializedObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +190,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getParameterTypes() public
-     * java.util.List<java.lang.String> javax.management.loading.MLetContent.getParameterTypes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLetContent#getCode()
+     * public java.lang.String javax.management.loading.MLetContent.getCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetContent#getParameterTypes() public java.util.List
+     * <java.lang.String> javax.management.loading.MLetContent.getParameterTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,7 +235,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetContent#getDocumentBase() public java.net.URL
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetContent#getDocumentBase() public java.net.URL
      * javax.management.loading.MLetContent.getDocumentBase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

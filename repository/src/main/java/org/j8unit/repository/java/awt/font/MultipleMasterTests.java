@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultipleMaster#getDesignAxisRanges() public abstract
-     * float[] java.awt.font.MultipleMaster.getDesignAxisRanges()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.MultipleMaster#getDesignAxisRanges()
+     * public abstract float[] java.awt.font.MultipleMaster.getDesignAxisRanges()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultipleMaster#getNumDesignAxes() public abstract
-     * int java.awt.font.MultipleMaster.getNumDesignAxes()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.MultipleMaster#getNumDesignAxes()
+     * public abstract int java.awt.font.MultipleMaster.getNumDesignAxes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultipleMaster#getDesignAxisNames() public abstract
-     * java.lang.String[] java.awt.font.MultipleMaster.getDesignAxisNames()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.MultipleMaster#getDesignAxisNames()
+     * public abstract java.lang.String[] java.awt.font.MultipleMaster.getDesignAxisNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultipleMaster#deriveMMFont(float[]) public abstract
-     * java.awt.Font java.awt.font.MultipleMaster.deriveMMFont(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.MultipleMaster#deriveMMFont(float[])
+     * public abstract java.awt.Font java.awt.font.MultipleMaster.deriveMMFont(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultipleMaster#deriveMMFont(float[], float, float, float, float) public abstract java.awt.Font
-     * java.awt.font.MultipleMaster.deriveMMFont(float[],float,float,float,float)}.
+     * {@link java.awt.font.MultipleMaster#deriveMMFont(float[], float, float, float, float) public abstract
+     * java.awt.Font java.awt.font.MultipleMaster.deriveMMFont(float[],float,float,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultipleMaster#getDesignAxisDefaults() public
-     * abstract float[] java.awt.font.MultipleMaster.getDesignAxisDefaults()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.MultipleMaster#getDesignAxisDefaults()
+     * public abstract float[] java.awt.font.MultipleMaster.getDesignAxisDefaults()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

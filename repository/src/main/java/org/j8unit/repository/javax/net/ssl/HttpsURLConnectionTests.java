@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
-import javax.net.ssl.SSLSocketFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpsURLConnection#getCipherSuite() public abstract
-     * java.lang.String javax.net.ssl.HttpsURLConnection.getCipherSuite()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.HttpsURLConnection#getCipherSuite()
+     * public abstract java.lang.String javax.net.ssl.HttpsURLConnection.getCipherSuite()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,8 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpsURLConnection#getLocalPrincipal() public
-     * java.security.Principal javax.net.ssl.HttpsURLConnection.getLocalPrincipal()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.HttpsURLConnection#getLocalPrincipal()
+     * public java.security.Principal javax.net.ssl.HttpsURLConnection.getLocalPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +79,7 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link HttpsURLConnection#setSSLSocketFactory(SSLSocketFactory) public void
+     * {@link javax.net.ssl.HttpsURLConnection#setSSLSocketFactory(javax.net.ssl.SSLSocketFactory) public void
      * javax.net.ssl.HttpsURLConnection.setSSLSocketFactory(javax.net.ssl.SSLSocketFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +101,9 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpsURLConnection#getHostnameVerifier() public
-     * javax.net.ssl.HostnameVerifier javax.net.ssl.HttpsURLConnection.getHostnameVerifier()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.HttpsURLConnection#getHostnameVerifier() public javax.net.ssl.HostnameVerifier
+     * javax.net.ssl.HttpsURLConnection.getHostnameVerifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,9 +124,9 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpsURLConnection#getServerCertificates() public
-     * abstract java.security.cert.Certificate[] javax.net.ssl.HttpsURLConnection.getServerCertificates() throws
-     * javax.net.ssl.SSLPeerUnverifiedException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.HttpsURLConnection#getServerCertificates() public abstract java.security.cert.Certificate[]
+     * javax.net.ssl.HttpsURLConnection.getServerCertificates() throws javax.net.ssl.SSLPeerUnverifiedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +147,9 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpsURLConnection#getSSLSocketFactory() public
-     * javax.net.ssl.SSLSocketFactory javax.net.ssl.HttpsURLConnection.getSSLSocketFactory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.HttpsURLConnection#getSSLSocketFactory() public javax.net.ssl.SSLSocketFactory
+     * javax.net.ssl.HttpsURLConnection.getSSLSocketFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,9 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpsURLConnection#getLocalCertificates() public
-     * abstract java.security.cert.Certificate[] javax.net.ssl.HttpsURLConnection.getLocalCertificates()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.HttpsURLConnection#getLocalCertificates() public abstract java.security.cert.Certificate[]
+     * javax.net.ssl.HttpsURLConnection.getLocalCertificates()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +193,8 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpsURLConnection#getPeerPrincipal() public
-     * java.security.Principal javax.net.ssl.HttpsURLConnection.getPeerPrincipal() throws
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.HttpsURLConnection#getPeerPrincipal()
+     * public java.security.Principal javax.net.ssl.HttpsURLConnection.getPeerPrincipal() throws
      * javax.net.ssl.SSLPeerUnverifiedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,7 +217,7 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link HttpsURLConnection#setHostnameVerifier(HostnameVerifier) public void
+     * {@link javax.net.ssl.HttpsURLConnection#setHostnameVerifier(javax.net.ssl.HostnameVerifier) public void
      * javax.net.ssl.HttpsURLConnection.setHostnameVerifier(javax.net.ssl.HostnameVerifier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.login.CredentialNotFoundExc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CredentialNotFoundException#CredentialNotFoundException() public
+     * {@link javax.security.auth.login.CredentialNotFoundException#CredentialNotFoundException() public
      * javax.security.auth.login.CredentialNotFoundException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.security.auth.login.CredentialNotFoundExc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CredentialNotFoundException#CredentialNotFoundException(String) public
+     * {@link javax.security.auth.login.CredentialNotFoundException#CredentialNotFoundException(String) public
      * javax.security.auth.login.CredentialNotFoundException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.sound.sampled.spi;
 
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioFormat.Encoding;
-import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.spi.FormatConversionProvider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatConversionProvider#isTargetEncodingSupported(Encoding) public boolean
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#isTargetEncodingSupported(javax.sound.sampled.AudioFormat.Encoding)
+     * public boolean
      * javax.sound.sampled.spi.FormatConversionProvider.isTargetEncodingSupported(javax.sound.sampled.AudioFormat$Encoding)}
      * .
      *
@@ -61,9 +59,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormatConversionProvider#getTargetEncodings() public
-     * abstract javax.sound.sampled.AudioFormat$Encoding[]
-     * javax.sound.sampled.spi.FormatConversionProvider.getTargetEncodings()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#getTargetEncodings() public abstract
+     * javax.sound.sampled.AudioFormat$Encoding[] javax.sound.sampled.spi.FormatConversionProvider.getTargetEncodings()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +84,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatConversionProvider#getTargetEncodings(AudioFormat) public abstract
-     * javax.sound.sampled.AudioFormat$Encoding[]
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#getTargetEncodings(javax.sound.sampled.AudioFormat)
+     * public abstract javax.sound.sampled.AudioFormat$Encoding[]
      * javax.sound.sampled.spi.FormatConversionProvider.getTargetEncodings(javax.sound.sampled.AudioFormat)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +108,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatConversionProvider#isSourceEncodingSupported(Encoding) public boolean
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#isSourceEncodingSupported(javax.sound.sampled.AudioFormat.Encoding)
+     * public boolean
      * javax.sound.sampled.spi.FormatConversionProvider.isSourceEncodingSupported(javax.sound.sampled.AudioFormat$Encoding)}
      * .
      *
@@ -132,9 +132,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormatConversionProvider#getSourceEncodings() public
-     * abstract javax.sound.sampled.AudioFormat$Encoding[]
-     * javax.sound.sampled.spi.FormatConversionProvider.getSourceEncodings()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#getSourceEncodings() public abstract
+     * javax.sound.sampled.AudioFormat$Encoding[] javax.sound.sampled.spi.FormatConversionProvider.getSourceEncodings()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,8 +157,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatConversionProvider#getAudioInputStream(AudioFormat, AudioInputStream) public abstract
-     * javax.sound.sampled.AudioInputStream
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#getAudioInputStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)
+     * public abstract javax.sound.sampled.AudioInputStream
      * javax.sound.sampled.spi.FormatConversionProvider.getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)}
      * .
      *
@@ -181,8 +182,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatConversionProvider#getAudioInputStream(Encoding, AudioInputStream) public abstract
-     * javax.sound.sampled.AudioInputStream
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#getAudioInputStream(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioInputStream)
+     * public abstract javax.sound.sampled.AudioInputStream
      * javax.sound.sampled.spi.FormatConversionProvider.getAudioInputStream(javax.sound.sampled.AudioFormat$Encoding,javax.sound.sampled.AudioInputStream)}
      * .
      *
@@ -206,8 +207,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatConversionProvider#getTargetFormats(Encoding, AudioFormat) public abstract
-     * javax.sound.sampled.AudioFormat[]
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#getTargetFormats(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioFormat)
+     * public abstract javax.sound.sampled.AudioFormat[]
      * javax.sound.sampled.spi.FormatConversionProvider.getTargetFormats(javax.sound.sampled.AudioFormat$Encoding,javax.sound.sampled.AudioFormat)}
      * .
      *
@@ -231,7 +232,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatConversionProvider#isConversionSupported(Encoding, AudioFormat) public boolean
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#isConversionSupported(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioFormat)
+     * public boolean
      * javax.sound.sampled.spi.FormatConversionProvider.isConversionSupported(javax.sound.sampled.AudioFormat$Encoding,javax.sound.sampled.AudioFormat)}
      * .
      *
@@ -255,7 +257,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatConversionProvider#isConversionSupported(AudioFormat, AudioFormat) public boolean
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#isConversionSupported(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioFormat)
+     * public boolean
      * javax.sound.sampled.spi.FormatConversionProvider.isConversionSupported(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioFormat)}
      * .
      *

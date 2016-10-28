@@ -35,7 +35,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineEvent#getType() public final
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.LineEvent#getType() public final
      * javax.sound.sampled.LineEvent$Type javax.sound.sampled.LineEvent.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineEvent#toString() public java.lang.String
-     * javax.sound.sampled.LineEvent.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.LineEvent#toString() public
+     * java.lang.String javax.sound.sampled.LineEvent.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineEvent#getLine() public final
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.LineEvent#getLine() public final
      * javax.sound.sampled.Line javax.sound.sampled.LineEvent.getLine()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineEvent#getFramePosition() public final long
-     * javax.sound.sampled.LineEvent.getFramePosition()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.LineEvent#getFramePosition()
+     * public final long javax.sound.sampled.LineEvent.getFramePosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,7 +151,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#equals(Object) public final boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.LineEvent.Type#equals(Object) public final boolean
          * javax.sound.sampled.LineEvent$Type.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +175,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#hashCode() public final int
-         * javax.sound.sampled.LineEvent$Type.hashCode()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.LineEvent.Type#hashCode()
+         * public final int javax.sound.sampled.LineEvent$Type.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -197,8 +198,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#toString() public java.lang.String
-         * javax.sound.sampled.LineEvent$Type.toString()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.LineEvent.Type#toString()
+         * public java.lang.String javax.sound.sampled.LineEvent$Type.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

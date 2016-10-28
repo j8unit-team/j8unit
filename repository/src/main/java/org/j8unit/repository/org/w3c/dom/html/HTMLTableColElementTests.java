@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#getAlign() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLTableColElement.getAlign()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableColElement#getAlign()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLTableColElement.getAlign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#getWidth() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLTableColElement.getWidth()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableColElement#getWidth()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLTableColElement.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#setWidth(String) public abstract
-     * void org.w3c.dom.html.HTMLTableColElement.setWidth(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableColElement#setWidth(String) public abstract void
+     * org.w3c.dom.html.HTMLTableColElement.setWidth(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#getVAlign() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLTableColElement.getVAlign()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableColElement#getVAlign()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLTableColElement.getVAlign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#setSpan(int) public abstract
-     * void org.w3c.dom.html.HTMLTableColElement.setSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableColElement#setSpan(int)
+     * public abstract void org.w3c.dom.html.HTMLTableColElement.setSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#setVAlign(String) public
-     * abstract void org.w3c.dom.html.HTMLTableColElement.setVAlign(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableColElement#setVAlign(String) public abstract void
+     * org.w3c.dom.html.HTMLTableColElement.setVAlign(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +168,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#getCh() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLTableColElement.getCh()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableColElement#getCh() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLTableColElement.getCh()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +190,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#setCh(String) public abstract
-     * void org.w3c.dom.html.HTMLTableColElement.setCh(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableColElement#setCh(String)
+     * public abstract void org.w3c.dom.html.HTMLTableColElement.setCh(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +212,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#getChOff() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLTableColElement.getChOff()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableColElement#getChOff()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLTableColElement.getChOff()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +234,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#getSpan() public abstract int
-     * org.w3c.dom.html.HTMLTableColElement.getSpan()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableColElement#getSpan()
+     * public abstract int org.w3c.dom.html.HTMLTableColElement.getSpan()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,8 +256,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#setChOff(String) public abstract
-     * void org.w3c.dom.html.HTMLTableColElement.setChOff(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableColElement#setChOff(String) public abstract void
+     * org.w3c.dom.html.HTMLTableColElement.setChOff(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,8 +279,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLTableColElement#setAlign(String) public abstract
-     * void org.w3c.dom.html.HTMLTableColElement.setAlign(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableColElement#setAlign(String) public abstract void
+     * org.w3c.dom.html.HTMLTableColElement.setAlign(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

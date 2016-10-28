@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.concurrent.locks;
 
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
@@ -39,8 +37,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#getWriteHoldCount() public
-     * int java.util.concurrent.locks.ReentrantReadWriteLock.getWriteHoldCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#getWriteHoldCount() public int
+     * java.util.concurrent.locks.ReentrantReadWriteLock.getWriteHoldCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +60,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#getQueueLength() public final
-     * int java.util.concurrent.locks.ReentrantReadWriteLock.getQueueLength()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#getQueueLength() public final int
+     * java.util.concurrent.locks.ReentrantReadWriteLock.getQueueLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +83,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#getWaitQueueLength(Condition)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#getWaitQueueLength(java.util.concurrent.locks.Condition)
      * public int
      * java.util.concurrent.locks.ReentrantReadWriteLock.getWaitQueueLength(java.util.concurrent.locks.Condition)}.
      *
@@ -106,7 +107,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#isFair() public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#isFair() public final boolean
      * java.util.concurrent.locks.ReentrantReadWriteLock.isFair()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,7 +130,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#writeLock() public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#writeLock() public
      * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock
      * java.util.concurrent.locks.ReentrantReadWriteLock.writeLock()}.
      *
@@ -152,7 +155,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#readLock() public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#readLock() public
      * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock
      * java.util.concurrent.locks.ReentrantReadWriteLock.readLock()}.
      *
@@ -176,7 +180,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#getReadLockCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#getReadLockCount() public int
      * java.util.concurrent.locks.ReentrantReadWriteLock.getReadLockCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +203,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#hasWaiters(Condition) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#hasWaiters(java.util.concurrent.locks.Condition) public
      * boolean java.util.concurrent.locks.ReentrantReadWriteLock.hasWaiters(java.util.concurrent.locks.Condition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,8 +226,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#hasQueuedThreads() public
-     * final boolean java.util.concurrent.locks.ReentrantReadWriteLock.hasQueuedThreads()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#hasQueuedThreads() public final boolean
+     * java.util.concurrent.locks.ReentrantReadWriteLock.hasQueuedThreads()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,8 +249,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#toString() public
-     * java.lang.String java.util.concurrent.locks.ReentrantReadWriteLock.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#toString() public java.lang.String
+     * java.util.concurrent.locks.ReentrantReadWriteLock.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,8 +273,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#hasQueuedThread(Thread)
-     * public final boolean java.util.concurrent.locks.ReentrantReadWriteLock.hasQueuedThread(java.lang.Thread)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#hasQueuedThread(Thread) public final boolean
+     * java.util.concurrent.locks.ReentrantReadWriteLock.hasQueuedThread(java.lang.Thread)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +296,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#isWriteLocked() public
-     * boolean java.util.concurrent.locks.ReentrantReadWriteLock.isWriteLocked()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#isWriteLocked() public boolean
+     * java.util.concurrent.locks.ReentrantReadWriteLock.isWriteLocked()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,7 +320,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ReentrantReadWriteLock#isWriteLockedByCurrentThread() public boolean
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#isWriteLockedByCurrentThread() public boolean
      * java.util.concurrent.locks.ReentrantReadWriteLock.isWriteLockedByCurrentThread()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -332,7 +342,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantReadWriteLock#getReadHoldCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#getReadHoldCount() public int
      * java.util.concurrent.locks.ReentrantReadWriteLock.getReadHoldCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -383,7 +394,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ReadLock#newCondition() public
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#newCondition() public
          * java.util.concurrent.locks.Condition
          * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.newCondition()}.
          *
@@ -407,7 +419,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ReadLock#unlock() public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#unlock() public void
          * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.unlock()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -430,7 +443,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ReadLock#lockInterruptibly() public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#lockInterruptibly() public void
          * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.lockInterruptibly() throws
          * java.lang.InterruptedException}.
          *
@@ -454,7 +468,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ReadLock#tryLock() public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#tryLock() public boolean
          * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.tryLock()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -477,7 +492,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ReadLock#tryLock(long, TimeUnit) public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#tryLock(long, java.util.concurrent.TimeUnit)
+         * public boolean
          * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.tryLock(long,java.util.concurrent.TimeUnit) throws
          * java.lang.InterruptedException}.
          *
@@ -501,7 +518,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ReadLock#lock() public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#lock() public void
          * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.lock()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -524,7 +542,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ReadLock#toString() public java.lang.String
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#toString() public java.lang.String
          * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -578,7 +597,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WriteLock#getHoldCount() public int
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#getHoldCount() public int
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.getHoldCount()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -600,7 +620,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WriteLock#tryLock() public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#tryLock() public boolean
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.tryLock()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -623,7 +644,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WriteLock#tryLock(long, TimeUnit) public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#tryLock(long, java.util.concurrent.TimeUnit)
+         * public boolean
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.tryLock(long,java.util.concurrent.TimeUnit)
          * throws java.lang.InterruptedException}.
          *
@@ -647,7 +670,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WriteLock#isHeldByCurrentThread() public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#isHeldByCurrentThread() public boolean
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.isHeldByCurrentThread()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -669,7 +693,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WriteLock#lock() public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#lock() public void
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.lock()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -692,7 +717,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WriteLock#toString() public java.lang.String
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#toString() public java.lang.String
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -715,7 +741,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WriteLock#newCondition() public
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#newCondition() public
          * java.util.concurrent.locks.Condition
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.newCondition()}.
          *
@@ -739,7 +766,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WriteLock#unlock() public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#unlock() public void
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -762,7 +790,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WriteLock#lockInterruptibly() public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#lockInterruptibly() public void
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.lockInterruptibly() throws
          * java.lang.InterruptedException}.
          *

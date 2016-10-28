@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.crypto.spec.IvParameterSpecClassTests<IvP
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IvParameterSpec#IvParameterSpec(byte[]) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.spec.IvParameterSpec#IvParameterSpec(byte[]) public
      * javax.crypto.spec.IvParameterSpec(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +45,7 @@ implements org.j8unit.repository.javax.crypto.spec.IvParameterSpecClassTests<IvP
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IvParameterSpec#IvParameterSpec(byte[], int, int) public
+     * {@link javax.crypto.spec.IvParameterSpec#IvParameterSpec(byte[], int, int) public
      * javax.crypto.spec.IvParameterSpec(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

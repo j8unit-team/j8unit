@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.datatype.DurationClassTests<Duration>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Duration#Duration() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.datatype.Duration#Duration() public
      * javax.xml.datatype.Duration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

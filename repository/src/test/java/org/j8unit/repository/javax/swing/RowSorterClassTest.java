@@ -3,7 +3,6 @@ package org.j8unit.repository.javax.swing;
 import static org.junit.Assert.fail;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
-import javax.swing.SortOrder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +24,7 @@ implements org.j8unit.repository.javax.swing.RowSorterClassTests<RowSorter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RowSorter#RowSorter() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.RowSorter#RowSorter() public
      * javax.swing.RowSorter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,8 @@ implements org.j8unit.repository.javax.swing.RowSorterClassTests<RowSorter> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link SortKey#SortKey(int, SortOrder) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.RowSorter.SortKey#SortKey(int, javax.swing.SortOrder) public
          * javax.swing.RowSorter$SortKey(int,javax.swing.SortOrder)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -75,7 +75,7 @@ implements org.j8unit.repository.javax.swing.RowSorterClassTests<RowSorter> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final SortKey sut = null; // = new SortKey(int, SortOrder);
+            final SortKey sut = null; // = new SortKey(int, javax.swing.SortOrder);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowSorter$SortKey]

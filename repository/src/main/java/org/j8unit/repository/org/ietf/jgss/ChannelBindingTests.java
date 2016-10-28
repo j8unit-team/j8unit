@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChannelBinding#getAcceptorAddress() public
-     * java.net.InetAddress org.ietf.jgss.ChannelBinding.getAcceptorAddress()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#getAcceptorAddress()
+     * public java.net.InetAddress org.ietf.jgss.ChannelBinding.getAcceptorAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChannelBinding#getInitiatorAddress() public
-     * java.net.InetAddress org.ietf.jgss.ChannelBinding.getInitiatorAddress()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#getInitiatorAddress()
+     * public java.net.InetAddress org.ietf.jgss.ChannelBinding.getInitiatorAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChannelBinding#getApplicationData() public byte[]
-     * org.ietf.jgss.ChannelBinding.getApplicationData()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#getApplicationData()
+     * public byte[] org.ietf.jgss.ChannelBinding.getApplicationData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChannelBinding#equals(Object) public boolean
-     * org.ietf.jgss.ChannelBinding.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#equals(Object) public
+     * boolean org.ietf.jgss.ChannelBinding.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChannelBinding#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#hashCode() public int
      * org.ietf.jgss.ChannelBinding.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorPackage.Co
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CookieHolder#CookieHolder() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.ServantLocatorPackage.CookieHolder#CookieHolder() public
      * org.omg.PortableServer.ServantLocatorPackage.CookieHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorPackage.Co
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CookieHolder#CookieHolder(Object) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.ServantLocatorPackage.CookieHolder#CookieHolder(Object) public
      * org.omg.PortableServer.ServantLocatorPackage.CookieHolder(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.imageio.stream.IIOByteBufferClassTests<II
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IIOByteBuffer#IIOByteBuffer(byte[], int, int)
-     * public javax.imageio.stream.IIOByteBuffer(byte[],int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.stream.IIOByteBuffer#IIOByteBuffer(byte[], int, int) public
+     * javax.imageio.stream.IIOByteBuffer(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

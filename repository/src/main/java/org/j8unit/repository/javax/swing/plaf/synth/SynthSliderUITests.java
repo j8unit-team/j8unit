@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Graphics;
-import java.beans.PropertyChangeEvent;
-import javax.swing.JComponent;
-import javax.swing.plaf.synth.SynthContext;
 import javax.swing.plaf.synth.SynthSliderUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +35,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#propertyChange(PropertyChangeEvent)
-     * public void javax.swing.plaf.synth.SynthSliderUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#propertyChange(java.beans.PropertyChangeEvent) public void
+     * javax.swing.plaf.synth.SynthSliderUI.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +59,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.synth.SynthSliderUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthSliderUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +83,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#update(Graphics, JComponent) public
-     * void javax.swing.plaf.synth.SynthSliderUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthSliderUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +107,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#setThumbLocation(int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#setThumbLocation(int, int) public void
      * javax.swing.plaf.synth.SynthSliderUI.setThumbLocation(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,7 +131,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#valueForXPosition(int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#valueForXPosition(int) public int
      * javax.swing.plaf.synth.SynthSliderUI.valueForXPosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,7 +155,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#getContext(JComponent) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#getContext(javax.swing.JComponent) public
      * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthSliderUI.getContext(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +179,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#getBaseline(JComponent, int, int)
-     * public int javax.swing.plaf.synth.SynthSliderUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#getBaseline(javax.swing.JComponent, int, int) public int
+     * javax.swing.plaf.synth.SynthSliderUI.getBaseline(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,7 +204,32 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthSliderUI#paintBorder(SynthContext, Graphics, int, int, int, int) public void
+     * {@link javax.swing.plaf.synth.SynthSliderUI#valueForYPosition(int) public int
+     * javax.swing.plaf.synth.SynthSliderUI.valueForYPosition(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_valueForYPosition_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public void
      * javax.swing.plaf.synth.SynthSliderUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *
@@ -225,31 +253,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#valueForYPosition(int) public int
-     * javax.swing.plaf.synth.SynthSliderUI.valueForYPosition(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_valueForYPosition_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.synth.SynthSliderUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.synth.SynthSliderUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -271,8 +277,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthSliderUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.synth.SynthSliderUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthSliderUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.synth.SynthSliderUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

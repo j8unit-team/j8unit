@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.security.Key;
-import javax.crypto.Cipher;
 import javax.crypto.SealedObject;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SealedObject#getAlgorithm() public final
-     * java.lang.String javax.crypto.SealedObject.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.SealedObject#getAlgorithm() public
+     * final java.lang.String javax.crypto.SealedObject.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SealedObject#getObject(Key) public final
-     * java.lang.Object javax.crypto.SealedObject.getObject(java.security.Key) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.SealedObject#getObject(java.security.Key) public final java.lang.Object
+     * javax.crypto.SealedObject.getObject(java.security.Key) throws
      * java.io.IOException,java.lang.ClassNotFoundException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}
      * .
      *
@@ -82,8 +81,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SealedObject#getObject(Key, String) public final
-     * java.lang.Object javax.crypto.SealedObject.getObject(java.security.Key,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.SealedObject#getObject(java.security.Key, String) public final java.lang.Object
+     * javax.crypto.SealedObject.getObject(java.security.Key,java.lang.String) throws
      * java.io.IOException,java.lang.ClassNotFoundException,java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException,java.security.InvalidKeyException}
      * .
      *
@@ -106,8 +106,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SealedObject#getObject(Cipher) public final
-     * java.lang.Object javax.crypto.SealedObject.getObject(javax.crypto.Cipher) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.SealedObject#getObject(javax.crypto.Cipher) public final java.lang.Object
+     * javax.crypto.SealedObject.getObject(javax.crypto.Cipher) throws
      * java.io.IOException,java.lang.ClassNotFoundException,javax.crypto.IllegalBlockSizeException,javax.crypto.BadPaddingException}
      * .
      *

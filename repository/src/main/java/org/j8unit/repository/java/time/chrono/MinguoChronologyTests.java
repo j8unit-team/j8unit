@@ -1,14 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
-import java.time.Clock;
-import java.time.Instant;
-import java.time.ZoneId;
-import java.time.chrono.Era;
 import java.time.chrono.MinguoChronology;
-import java.time.format.ResolverStyle;
-import java.time.temporal.ChronoField;
-import java.time.temporal.TemporalAccessor;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -42,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#prolepticYear(Era, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#prolepticYear(java.time.chrono.Era, int) public int
      * java.time.chrono.MinguoChronology.prolepticYear(java.time.chrono.Era,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +58,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#eras() public java.util.List
-     * <java.time.chrono.Era> java.time.chrono.MinguoChronology.eras()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoChronology#eras() public
+     * java.util.List<java.time.chrono.Era> java.time.chrono.MinguoChronology.eras()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,8 +81,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#zonedDateTime(Instant, ZoneId)
-     * public java.time.chrono.ChronoZonedDateTime<java.time.chrono.MinguoDate>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#zonedDateTime(java.time.Instant, java.time.ZoneId) public
+     * java.time.chrono.ChronoZonedDateTime<java.time.chrono.MinguoDate>
      * java.time.chrono.MinguoChronology.zonedDateTime(java.time.Instant,java.time.ZoneId)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,8 +106,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#zonedDateTime(TemporalAccessor)
-     * public java.time.chrono.ChronoZonedDateTime<java.time.chrono.MinguoDate>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#zonedDateTime(java.time.temporal.TemporalAccessor) public
+     * java.time.chrono.ChronoZonedDateTime<java.time.chrono.MinguoDate>
      * java.time.chrono.MinguoChronology.zonedDateTime(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -136,8 +131,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#dateYearDay(int, int) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.dateYearDay(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#dateYearDay(int, int) public java.time.chrono.MinguoDate
+     * java.time.chrono.MinguoChronology.dateYearDay(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -159,7 +155,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#dateYearDay(Era, int, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#dateYearDay(java.time.chrono.Era, int, int) public
      * java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.dateYearDay(java.time.chrono.Era,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,8 +179,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#getCalendarType() public
-     * java.lang.String java.time.chrono.MinguoChronology.getCalendarType()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoChronology#getCalendarType()
+     * public java.lang.String java.time.chrono.MinguoChronology.getCalendarType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -205,8 +202,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#localDateTime(TemporalAccessor)
-     * public java.time.chrono.ChronoLocalDateTime<java.time.chrono.MinguoDate>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#localDateTime(java.time.temporal.TemporalAccessor) public
+     * java.time.chrono.ChronoLocalDateTime<java.time.chrono.MinguoDate>
      * java.time.chrono.MinguoChronology.localDateTime(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -229,8 +227,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#date(int, int, int) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.date(int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#date(int, int, int) public java.time.chrono.MinguoDate
+     * java.time.chrono.MinguoChronology.date(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -252,7 +251,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#date(Era, int, int, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#date(java.time.chrono.Era, int, int, int) public
      * java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.date(java.time.chrono.Era,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -275,7 +275,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#date(TemporalAccessor) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#date(java.time.temporal.TemporalAccessor) public
      * java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.date(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -298,8 +299,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#resolveDate(Map, ResolverStyle)
-     * public java.time.chrono.MinguoDate
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#resolveDate(java.util.Map, java.time.format.ResolverStyle) public
+     * java.time.chrono.MinguoDate
      * java.time.chrono.MinguoChronology.resolveDate(java.util.Map<java.time.temporal.TemporalField,
      * java.lang.Long>,java.time.format.ResolverStyle)}.
      *
@@ -323,8 +325,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#dateEpochDay(long) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.dateEpochDay(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoChronology#dateEpochDay(long)
+     * public java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.dateEpochDay(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,8 +348,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#getId() public java.lang.String
-     * java.time.chrono.MinguoChronology.getId()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoChronology#getId() public
+     * java.lang.String java.time.chrono.MinguoChronology.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,8 +371,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#isLeapYear(long) public boolean
-     * java.time.chrono.MinguoChronology.isLeapYear(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoChronology#isLeapYear(long)
+     * public boolean java.time.chrono.MinguoChronology.isLeapYear(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -392,7 +394,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#range(ChronoField) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#range(java.time.temporal.ChronoField) public
      * java.time.temporal.ValueRange java.time.chrono.MinguoChronology.range(java.time.temporal.ChronoField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -415,7 +418,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#eraOf(int) public
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoChronology#eraOf(int) public
      * java.time.chrono.MinguoEra java.time.chrono.MinguoChronology.eraOf(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -438,8 +441,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#dateNow(Clock) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.dateNow(java.time.Clock)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#dateNow(java.time.Clock) public java.time.chrono.MinguoDate
+     * java.time.chrono.MinguoChronology.dateNow(java.time.Clock)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -461,7 +465,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#dateNow() public
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoChronology#dateNow() public
      * java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.dateNow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -484,8 +488,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MinguoChronology#dateNow(ZoneId) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoChronology.dateNow(java.time.ZoneId)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.MinguoChronology#dateNow(java.time.ZoneId) public java.time.chrono.MinguoDate
+     * java.time.chrono.MinguoChronology.dateNow(java.time.ZoneId)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#enqueue() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.lang.ref.Reference#enqueue() public boolean
      * java.lang.ref.Reference.enqueue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#get() public T
+     * Test method for the hereby targeted method-under-test {@link java.lang.ref.Reference#get() public T
      * java.lang.ref.Reference.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.lang.ref.Reference#clear() public void
      * java.lang.ref.Reference.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#isEnqueued() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.lang.ref.Reference#isEnqueued() public boolean
      * java.lang.ref.Reference.isEnqueued()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

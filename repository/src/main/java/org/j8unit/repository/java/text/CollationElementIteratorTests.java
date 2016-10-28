@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.text;
 
-import java.text.CharacterIterator;
 import java.text.CollationElementIterator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,30 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#setText(CharacterIterator)
-     * public void java.text.CollationElementIterator.setText(java.text.CharacterIterator)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setText_CharacterIterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#setText(String) public void
-     * java.text.CollationElementIterator.setText(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.CollationElementIterator#setText(String)
+     * public void java.text.CollationElementIterator.setText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +56,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#getMaxExpansion(int) public
-     * int java.text.CollationElementIterator.getMaxExpansion(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.CollationElementIterator#setText(java.text.CharacterIterator) public void
+     * java.text.CollationElementIterator.setText(java.text.CharacterIterator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setText_CharacterIterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.CollationElementIterator#getMaxExpansion(int) public int
+     * java.text.CollationElementIterator.getMaxExpansion(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#reset() public void
-     * java.text.CollationElementIterator.reset()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.CollationElementIterator#reset() public
+     * void java.text.CollationElementIterator.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#setOffset(int) public void
-     * java.text.CollationElementIterator.setOffset(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.CollationElementIterator#setOffset(int)
+     * public void java.text.CollationElementIterator.setOffset(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#getOffset() public int
-     * java.text.CollationElementIterator.getOffset()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.CollationElementIterator#getOffset()
+     * public int java.text.CollationElementIterator.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#previous() public int
-     * java.text.CollationElementIterator.previous()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.CollationElementIterator#previous() public
+     * int java.text.CollationElementIterator.previous()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,7 +190,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#next() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.CollationElementIterator#next() public int
      * java.text.CollationElementIterator.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

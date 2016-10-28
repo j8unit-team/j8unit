@@ -1,15 +1,5 @@
 package org.j8unit.repository.java.util.stream;
 
-import java.util.function.BiConsumer;
-import java.util.function.IntBinaryOperator;
-import java.util.function.IntConsumer;
-import java.util.function.IntFunction;
-import java.util.function.IntPredicate;
-import java.util.function.IntToDoubleFunction;
-import java.util.function.IntToLongFunction;
-import java.util.function.IntUnaryOperator;
-import java.util.function.ObjIntConsumer;
-import java.util.function.Supplier;
 import java.util.stream.IntStream;
 import java.util.stream.IntStream.Builder;
 import org.j8unit.repository.categories.Draft;
@@ -45,7 +35,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#average() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#average() public abstract
      * java.util.OptionalDouble java.util.stream.IntStream.average()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +57,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#sequential() public abstract
-     * java.util.stream.IntStream java.util.stream.IntStream.sequential()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#sequential() public
+     * abstract java.util.stream.IntStream java.util.stream.IntStream.sequential()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,8 +80,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#distinct() public abstract
-     * java.util.stream.IntStream java.util.stream.IntStream.distinct()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#distinct() public
+     * abstract java.util.stream.IntStream java.util.stream.IntStream.distinct()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -112,8 +102,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#findFirst() public abstract
-     * java.util.OptionalInt java.util.stream.IntStream.findFirst()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#findFirst() public
+     * abstract java.util.OptionalInt java.util.stream.IntStream.findFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -134,7 +124,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#sum() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#sum() public abstract int
      * java.util.stream.IntStream.sum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -156,8 +146,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#skip(long) public abstract
-     * java.util.stream.IntStream java.util.stream.IntStream.skip(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#skip(long) public
+     * abstract java.util.stream.IntStream java.util.stream.IntStream.skip(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,8 +168,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#asLongStream() public abstract
-     * java.util.stream.LongStream java.util.stream.IntStream.asLongStream()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#asLongStream() public
+     * abstract java.util.stream.LongStream java.util.stream.IntStream.asLongStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +190,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#allMatch(IntPredicate) public abstract
-     * boolean java.util.stream.IntStream.allMatch(java.util.function.IntPredicate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#allMatch(java.util.function.IntPredicate) public abstract boolean
+     * java.util.stream.IntStream.allMatch(java.util.function.IntPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,7 +213,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#mapToObj(IntFunction) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#mapToObj(java.util.function.IntFunction) public abstract
      * <U> java.util.stream.Stream<U> java.util.stream.IntStream.mapToObj(java.util.function.IntFunction<? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,8 +236,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#iterator() public abstract
-     * java.util.PrimitiveIterator$OfInt java.util.stream.IntStream.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#iterator() public
+     * abstract java.util.PrimitiveIterator$OfInt java.util.stream.IntStream.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +259,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#asDoubleStream() public abstract
-     * java.util.stream.DoubleStream java.util.stream.IntStream.asDoubleStream()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#asDoubleStream() public
+     * abstract java.util.stream.DoubleStream java.util.stream.IntStream.asDoubleStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,7 +281,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#min() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#min() public abstract
      * java.util.OptionalInt java.util.stream.IntStream.min()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -311,8 +303,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#mapToLong(IntToLongFunction) public
-     * abstract java.util.stream.LongStream java.util.stream.IntStream.mapToLong(java.util.function.IntToLongFunction)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#mapToLong(java.util.function.IntToLongFunction) public abstract
+     * java.util.stream.LongStream java.util.stream.IntStream.mapToLong(java.util.function.IntToLongFunction)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,8 +326,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#parallel() public abstract
-     * java.util.stream.IntStream java.util.stream.IntStream.parallel()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#parallel() public
+     * abstract java.util.stream.IntStream java.util.stream.IntStream.parallel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -356,8 +349,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#noneMatch(IntPredicate) public abstract
-     * boolean java.util.stream.IntStream.noneMatch(java.util.function.IntPredicate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#noneMatch(java.util.function.IntPredicate) public abstract boolean
+     * java.util.stream.IntStream.noneMatch(java.util.function.IntPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -378,7 +372,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#findAny() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#findAny() public abstract
      * java.util.OptionalInt java.util.stream.IntStream.findAny()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -400,8 +394,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#toArray() public abstract int[]
-     * java.util.stream.IntStream.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#toArray() public abstract
+     * int[] java.util.stream.IntStream.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -422,8 +416,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#limit(long) public abstract
-     * java.util.stream.IntStream java.util.stream.IntStream.limit(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#limit(long) public
+     * abstract java.util.stream.IntStream java.util.stream.IntStream.limit(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -444,8 +438,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#forEachOrdered(IntConsumer) public
-     * abstract void java.util.stream.IntStream.forEachOrdered(java.util.function.IntConsumer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#forEachOrdered(java.util.function.IntConsumer) public abstract void
+     * java.util.stream.IntStream.forEachOrdered(java.util.function.IntConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -466,8 +461,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#anyMatch(IntPredicate) public abstract
-     * boolean java.util.stream.IntStream.anyMatch(java.util.function.IntPredicate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#anyMatch(java.util.function.IntPredicate) public abstract boolean
+     * java.util.stream.IntStream.anyMatch(java.util.function.IntPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -488,7 +484,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#map(IntUnaryOperator) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#map(java.util.function.IntUnaryOperator) public abstract
      * java.util.stream.IntStream java.util.stream.IntStream.map(java.util.function.IntUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -510,9 +507,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#mapToDouble(IntToDoubleFunction) public
-     * abstract java.util.stream.DoubleStream
-     * java.util.stream.IntStream.mapToDouble(java.util.function.IntToDoubleFunction)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#mapToDouble(java.util.function.IntToDoubleFunction) public abstract
+     * java.util.stream.DoubleStream java.util.stream.IntStream.mapToDouble(java.util.function.IntToDoubleFunction)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -533,8 +530,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#reduce(int, IntBinaryOperator) public
-     * abstract int java.util.stream.IntStream.reduce(int,java.util.function.IntBinaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#reduce(int, java.util.function.IntBinaryOperator) public abstract int
+     * java.util.stream.IntStream.reduce(int,java.util.function.IntBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -555,7 +553,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#reduce(IntBinaryOperator) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#reduce(java.util.function.IntBinaryOperator) public abstract
      * java.util.OptionalInt java.util.stream.IntStream.reduce(java.util.function.IntBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -577,8 +576,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#spliterator() public abstract
-     * java.util.Spliterator$OfInt java.util.stream.IntStream.spliterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#spliterator() public
+     * abstract java.util.Spliterator$OfInt java.util.stream.IntStream.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -600,7 +599,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#max() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#max() public abstract
      * java.util.OptionalInt java.util.stream.IntStream.max()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -622,7 +621,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#forEach(IntConsumer) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#forEach(java.util.function.IntConsumer) public abstract void
      * java.util.stream.IntStream.forEach(java.util.function.IntConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -644,8 +644,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#count() public abstract long
-     * java.util.stream.IntStream.count()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#count() public abstract
+     * long java.util.stream.IntStream.count()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -666,8 +666,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#peek(IntConsumer) public abstract
-     * java.util.stream.IntStream java.util.stream.IntStream.peek(java.util.function.IntConsumer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#peek(java.util.function.IntConsumer) public abstract java.util.stream.IntStream
+     * java.util.stream.IntStream.peek(java.util.function.IntConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -688,7 +689,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#flatMap(IntFunction) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#flatMap(java.util.function.IntFunction) public abstract
      * java.util.stream.IntStream java.util.stream.IntStream.flatMap(java.util.function.IntFunction<? extends
      * java.util.stream.IntStream>)}.
      *
@@ -711,7 +713,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#filter(IntPredicate) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.IntStream#filter(java.util.function.IntPredicate) public abstract
      * java.util.stream.IntStream java.util.stream.IntStream.filter(java.util.function.IntPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -733,7 +736,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#sorted() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#sorted() public abstract
      * java.util.stream.IntStream java.util.stream.IntStream.sorted()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -755,7 +758,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#boxed() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#boxed() public abstract
      * java.util.stream.Stream<java.lang.Integer> java.util.stream.IntStream.boxed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -777,8 +780,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntStream#summaryStatistics() public abstract
-     * java.util.IntSummaryStatistics java.util.stream.IntStream.summaryStatistics()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#summaryStatistics()
+     * public abstract java.util.IntSummaryStatistics java.util.stream.IntStream.summaryStatistics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -800,9 +803,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IntStream#collect(Supplier, ObjIntConsumer, BiConsumer) public abstract <R> R
-     * java.util.stream.IntStream.collect(java.util.function.Supplier<R>,java.util.function.ObjIntConsumer
-     * <R>,java.util.function.BiConsumer<R, R>)}.
+     * {@link java.util.stream.IntStream#collect(java.util.function.Supplier, java.util.function.ObjIntConsumer, java.util.function.BiConsumer)
+     * public abstract <R> R java.util.stream.IntStream.collect(java.util.function.Supplier
+     * <R>,java.util.function.ObjIntConsumer<R>,java.util.function.BiConsumer<R, R>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -850,8 +853,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#accept(int) public abstract void
-         * java.util.stream.IntStream$Builder.accept(int)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream.Builder#accept(int)
+         * public abstract void java.util.stream.IntStream$Builder.accept(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -873,8 +876,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#add(int) public default
-         * java.util.stream.IntStream$Builder java.util.stream.IntStream$Builder.add(int)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream.Builder#add(int)
+         * public default java.util.stream.IntStream$Builder java.util.stream.IntStream$Builder.add(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -895,8 +898,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Integer, Int
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#build() public abstract
-         * java.util.stream.IntStream java.util.stream.IntStream$Builder.build()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream.Builder#build()
+         * public abstract java.util.stream.IntStream java.util.stream.IntStream$Builder.build()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

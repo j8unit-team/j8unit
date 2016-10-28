@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.crypto.spec;
 
-import java.math.BigInteger;
 import javax.crypto.spec.DHParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.crypto.spec.DHParameterSpecClassTests<DHP
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DHParameterSpec#DHParameterSpec(BigInteger, BigInteger) public
+     * {@link javax.crypto.spec.DHParameterSpec#DHParameterSpec(java.math.BigInteger, java.math.BigInteger) public
      * javax.crypto.spec.DHParameterSpec(java.math.BigInteger,java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.javax.crypto.spec.DHParameterSpecClassTests<DHP
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DHParameterSpec sut = null; // = new DHParameterSpec(BigInteger, BigInteger);
+        final DHParameterSpec sut = null; // = new DHParameterSpec(java.math.BigInteger, java.math.BigInteger);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DHParameterSpec#DHParameterSpec(BigInteger, BigInteger, int) public
+     * {@link javax.crypto.spec.DHParameterSpec#DHParameterSpec(java.math.BigInteger, java.math.BigInteger, int) public
      * javax.crypto.spec.DHParameterSpec(java.math.BigInteger,java.math.BigInteger,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.javax.crypto.spec.DHParameterSpecClassTests<DHP
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DHParameterSpec sut = null; // = new DHParameterSpec(BigInteger, BigInteger, int);
+        final DHParameterSpec sut = null; // = new DHParameterSpec(java.math.BigInteger, java.math.BigInteger, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DHParameterSpec]

@@ -35,7 +35,8 @@ implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<M
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Scope#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.ws.handler.MessageContext.Scope#values() public static
          * javax.xml.ws.handler.MessageContext$Scope[] javax.xml.ws.handler.MessageContext$Scope.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -50,12 +51,13 @@ implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<M
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Scope#values()}
+            // write some test for {@link javax.xml.ws.handler.MessageContext.Scope#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Scope#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.ws.handler.MessageContext.Scope#valueOf(String) public static
          * javax.xml.ws.handler.MessageContext$Scope
          * javax.xml.ws.handler.MessageContext$Scope.valueOf(java.lang.String)}.
          *
@@ -71,7 +73,7 @@ implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<M
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Scope#valueOf(String)}
+            // write some test for {@link javax.xml.ws.handler.MessageContext.Scope#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.MessageContext$Scope]

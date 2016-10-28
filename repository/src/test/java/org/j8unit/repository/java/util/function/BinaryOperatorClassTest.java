@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.function;
 
-import java.util.Comparator;
 import java.util.function.BinaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.util.function.BinaryOperatorClassTests<Bin
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BinaryOperator#minBy(Comparator) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.BinaryOperator#minBy(java.util.Comparator) public static
      * <T> java.util.function.BinaryOperator<T> java.util.function.BinaryOperator.minBy(java.util.Comparator<? super
      * T>)}.
      *
@@ -39,12 +39,13 @@ implements org.j8unit.repository.java.util.function.BinaryOperatorClassTests<Bin
     @Category(Draft.class)
     public void test_minBy_Comparator()
     throws Exception {
-        // write some test for {@link BinaryOperator#minBy(Comparator)}
+        // write some test for {@link java.util.function.BinaryOperator#minBy(java.util.Comparator)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BinaryOperator#maxBy(Comparator) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.BinaryOperator#maxBy(java.util.Comparator) public static
      * <T> java.util.function.BinaryOperator<T> java.util.function.BinaryOperator.maxBy(java.util.Comparator<? super
      * T>)}.
      *
@@ -60,7 +61,7 @@ implements org.j8unit.repository.java.util.function.BinaryOperatorClassTests<Bin
     @Category(Draft.class)
     public void test_maxBy_Comparator()
     throws Exception {
-        // write some test for {@link BinaryOperator#maxBy(Comparator)}
+        // write some test for {@link java.util.function.BinaryOperator#maxBy(java.util.Comparator)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.BinaryOperator]

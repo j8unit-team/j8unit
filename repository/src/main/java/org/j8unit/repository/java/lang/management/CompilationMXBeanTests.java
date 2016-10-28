@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompilationMXBean#getName() public abstract
-     * java.lang.String java.lang.management.CompilationMXBean.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.CompilationMXBean#getName()
+     * public abstract java.lang.String java.lang.management.CompilationMXBean.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompilationMXBean#getTotalCompilationTime() public
-     * abstract long java.lang.management.CompilationMXBean.getTotalCompilationTime()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.CompilationMXBean#getTotalCompilationTime() public abstract long
+     * java.lang.management.CompilationMXBean.getTotalCompilationTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +80,7 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompilationMXBean#isCompilationTimeMonitoringSupported() public abstract boolean
+     * {@link java.lang.management.CompilationMXBean#isCompilationTimeMonitoringSupported() public abstract boolean
      * java.lang.management.CompilationMXBean.isCompilationTimeMonitoringSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.CharSeqHolderClassTests<CharSeqHo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CharSeqHolder#CharSeqHolder() public
-     * org.omg.CORBA.CharSeqHolder()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.CharSeqHolder#CharSeqHolder()
+     * public org.omg.CORBA.CharSeqHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.CharSeqHolderClassTests<CharSeqHo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CharSeqHolder#CharSeqHolder(char[]) public
-     * org.omg.CORBA.CharSeqHolder(char[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.CharSeqHolder#CharSeqHolder(char[]) public org.omg.CORBA.CharSeqHolder(char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

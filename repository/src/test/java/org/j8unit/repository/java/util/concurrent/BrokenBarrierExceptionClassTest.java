@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.util.concurrent.BrokenBarrierExceptionClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BrokenBarrierException#BrokenBarrierException()
-     * public java.util.concurrent.BrokenBarrierException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.BrokenBarrierException#BrokenBarrierException() public
+     * java.util.concurrent.BrokenBarrierException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.java.util.concurrent.BrokenBarrierExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BrokenBarrierException#BrokenBarrierException(String) public
+     * {@link java.util.concurrent.BrokenBarrierException#BrokenBarrierException(String) public
      * java.util.concurrent.BrokenBarrierException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

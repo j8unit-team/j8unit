@@ -27,7 +27,7 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JobAttributes#JobAttributes(int, DefaultSelectionType, DestinationType, DialogType, String, int, int, MultipleDocumentHandlingType, int[][], String, SidesType)
+     * {@link java.awt.JobAttributes#JobAttributes(int, java.awt.JobAttributes.DefaultSelectionType, java.awt.JobAttributes.DestinationType, java.awt.JobAttributes.DialogType, String, int, int, java.awt.JobAttributes.MultipleDocumentHandlingType, int[][], String, java.awt.JobAttributes.SidesType)
      * public
      * java.awt.JobAttributes(int,java.awt.JobAttributes$DefaultSelectionType,java.awt.JobAttributes$DestinationType,java.awt.JobAttributes$DialogType,java.lang.String,int,int,java.awt.JobAttributes$MultipleDocumentHandlingType,int[][],java.lang.String,java.awt.JobAttributes$SidesType)}
      * .
@@ -46,14 +46,17 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JobAttributes sut = null; // = new JobAttributes(int, DefaultSelectionType, DestinationType, DialogType,
-                                        // String, int, int, MultipleDocumentHandlingType, int[][], String, SidesType);
+        final JobAttributes sut = null; // = new JobAttributes(int, java.awt.JobAttributes.DefaultSelectionType,
+                                        // java.awt.JobAttributes.DestinationType, java.awt.JobAttributes.DialogType,
+                                        // String, int, int, java.awt.JobAttributes.MultipleDocumentHandlingType,
+                                        // int[][], String, java.awt.JobAttributes.SidesType);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JobAttributes#JobAttributes(JobAttributes)
-     * public java.awt.JobAttributes(java.awt.JobAttributes)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.JobAttributes#JobAttributes(java.awt.JobAttributes) public
+     * java.awt.JobAttributes(java.awt.JobAttributes)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -69,12 +72,12 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JobAttributes sut = null; // = new JobAttributes(JobAttributes);
+        final JobAttributes sut = null; // = new JobAttributes(java.awt.JobAttributes);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JobAttributes#JobAttributes() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.JobAttributes#JobAttributes() public
      * java.awt.JobAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

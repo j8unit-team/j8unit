@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.SystemTrayClassTests<SystemTray> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemTray#getSystemTray() public static
+     * Test method for the hereby targeted method-under-test {@link java.awt.SystemTray#getSystemTray() public static
      * java.awt.SystemTray java.awt.SystemTray.getSystemTray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.awt.SystemTrayClassTests<SystemTray> {
     @Category(Draft.class)
     public void test_getSystemTray()
     throws Exception {
-        // write some test for {@link SystemTray#getSystemTray()}
+        // write some test for {@link java.awt.SystemTray#getSystemTray()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemTray#isSupported() public static boolean
-     * java.awt.SystemTray.isSupported()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SystemTray#isSupported() public static
+     * boolean java.awt.SystemTray.isSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.awt.SystemTrayClassTests<SystemTray> {
     @Category(Draft.class)
     public void test_isSupported()
     throws Exception {
-        // write some test for {@link SystemTray#isSupported()}
+        // write some test for {@link java.awt.SystemTray#isSupported()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.SystemTray]

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckedOutputStream#getChecksum() public
-     * java.util.zip.Checksum java.util.zip.CheckedOutputStream.getChecksum()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.CheckedOutputStream#getChecksum()
+     * public java.util.zip.Checksum java.util.zip.CheckedOutputStream.getChecksum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckedOutputStream#write(int) public void
-     * java.util.zip.CheckedOutputStream.write(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.CheckedOutputStream#write(int) public
+     * void java.util.zip.CheckedOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckedOutputStream#write(byte[], int, int) public
-     * void java.util.zip.CheckedOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.CheckedOutputStream#write(byte[], int, int) public void
+     * java.util.zip.CheckedOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

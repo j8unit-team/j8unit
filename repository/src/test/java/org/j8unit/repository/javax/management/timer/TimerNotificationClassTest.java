@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.management.timer.TimerNotificationClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TimerNotification#TimerNotification(String, Object, long, long, String, Integer) public
+     * {@link javax.management.timer.TimerNotification#TimerNotification(String, Object, long, long, String, Integer)
+     * public
      * javax.management.timer.TimerNotification(java.lang.String,java.lang.Object,long,long,java.lang.String,java.lang.Integer)}
      * .
      *

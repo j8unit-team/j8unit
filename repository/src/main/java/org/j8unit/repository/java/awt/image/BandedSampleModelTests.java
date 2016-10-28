@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.BandedSampleModel;
-import java.awt.image.DataBuffer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BandedSampleModel#createDataBuffer() public
-     * java.awt.image.DataBuffer java.awt.image.BandedSampleModel.createDataBuffer()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BandedSampleModel#createDataBuffer()
+     * public java.awt.image.DataBuffer java.awt.image.BandedSampleModel.createDataBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#getPixels(int, int, int, int, int[], DataBuffer) public int[]
-     * java.awt.image.BandedSampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.BandedSampleModel#getPixels(int, int, int, int, int[], java.awt.image.DataBuffer) public
+     * int[] java.awt.image.BandedSampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +82,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
+     * {@link java.awt.image.BandedSampleModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
      * java.awt.image.BandedSampleModel.createCompatibleSampleModel(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +105,8 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BandedSampleModel#hashCode() public int
-     * java.awt.image.BandedSampleModel.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BandedSampleModel#hashCode() public
+     * int java.awt.image.BandedSampleModel.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,7 +129,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#getSample(int, int, int, DataBuffer) public int
+     * {@link java.awt.image.BandedSampleModel#getSample(int, int, int, java.awt.image.DataBuffer) public int
      * java.awt.image.BandedSampleModel.getSample(int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,7 +153,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#setSample(int, int, int, int, DataBuffer) public void
+     * {@link java.awt.image.BandedSampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer) public void
      * java.awt.image.BandedSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -178,7 +177,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#setSample(int, int, int, float, DataBuffer) public void
+     * {@link java.awt.image.BandedSampleModel#setSample(int, int, int, float, java.awt.image.DataBuffer) public void
      * java.awt.image.BandedSampleModel.setSample(int,int,int,float,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -202,7 +201,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#setSample(int, int, int, double, DataBuffer) public void
+     * {@link java.awt.image.BandedSampleModel#setSample(int, int, int, double, java.awt.image.DataBuffer) public void
      * java.awt.image.BandedSampleModel.setSample(int,int,int,double,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -226,7 +225,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#getSampleDouble(int, int, int, DataBuffer) public double
+     * {@link java.awt.image.BandedSampleModel#getSampleDouble(int, int, int, java.awt.image.DataBuffer) public double
      * java.awt.image.BandedSampleModel.getSampleDouble(int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -250,7 +249,8 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#getDataElements(int, int, Object, DataBuffer) public java.lang.Object
+     * {@link java.awt.image.BandedSampleModel#getDataElements(int, int, Object, java.awt.image.DataBuffer) public
+     * java.lang.Object
      * java.awt.image.BandedSampleModel.getDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -274,7 +274,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#setDataElements(int, int, Object, DataBuffer) public void
+     * {@link java.awt.image.BandedSampleModel#setDataElements(int, int, Object, java.awt.image.DataBuffer) public void
      * java.awt.image.BandedSampleModel.setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -298,8 +298,8 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#setPixels(int, int, int, int, int[], DataBuffer) public void
-     * java.awt.image.BandedSampleModel.setPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.BandedSampleModel#setPixels(int, int, int, int, int[], java.awt.image.DataBuffer) public
+     * void java.awt.image.BandedSampleModel.setPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -322,8 +322,8 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#getSamples(int, int, int, int, int, int[], DataBuffer) public int[]
-     * java.awt.image.BandedSampleModel.getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.BandedSampleModel#getSamples(int, int, int, int, int, int[], java.awt.image.DataBuffer)
+     * public int[] java.awt.image.BandedSampleModel.getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,8 +346,8 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#setSamples(int, int, int, int, int, int[], DataBuffer) public void
-     * java.awt.image.BandedSampleModel.setSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.BandedSampleModel#setSamples(int, int, int, int, int, int[], java.awt.image.DataBuffer)
+     * public void java.awt.image.BandedSampleModel.setSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,8 +369,9 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BandedSampleModel#createSubsetSampleModel(int[])
-     * public java.awt.image.SampleModel java.awt.image.BandedSampleModel.createSubsetSampleModel(int[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BandedSampleModel#createSubsetSampleModel(int[]) public java.awt.image.SampleModel
+     * java.awt.image.BandedSampleModel.createSubsetSampleModel(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -393,7 +394,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#setPixel(int, int, int[], DataBuffer) public void
+     * {@link java.awt.image.BandedSampleModel#setPixel(int, int, int[], java.awt.image.DataBuffer) public void
      * java.awt.image.BandedSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -417,7 +418,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#getSampleFloat(int, int, int, DataBuffer) public float
+     * {@link java.awt.image.BandedSampleModel#getSampleFloat(int, int, int, java.awt.image.DataBuffer) public float
      * java.awt.image.BandedSampleModel.getSampleFloat(int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -441,7 +442,7 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BandedSampleModel#getPixel(int, int, int[], DataBuffer) public int[]
+     * {@link java.awt.image.BandedSampleModel#getPixel(int, int, int[], java.awt.image.DataBuffer) public int[]
      * java.awt.image.BandedSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

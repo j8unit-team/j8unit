@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentEvent#getComponent() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.ComponentEvent#getComponent() public
      * java.awt.Component java.awt.event.ComponentEvent.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentEvent#paramString() public java.lang.String
-     * java.awt.event.ComponentEvent.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.ComponentEvent#paramString() public
+     * java.lang.String java.awt.event.ComponentEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Principal;
 import org.omg.CORBA.PrincipalHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.PrincipalHolderClassTests<Princip
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrincipalHolder#PrincipalHolder() public
-     * org.omg.CORBA.PrincipalHolder()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.PrincipalHolder#PrincipalHolder()
+     * public org.omg.CORBA.PrincipalHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,9 @@ implements org.j8unit.repository.org.omg.CORBA.PrincipalHolderClassTests<Princip
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrincipalHolder#PrincipalHolder(Principal)
-     * public org.omg.CORBA.PrincipalHolder(org.omg.CORBA.Principal)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.PrincipalHolder#PrincipalHolder(org.omg.CORBA.Principal) public
+     * org.omg.CORBA.PrincipalHolder(org.omg.CORBA.Principal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.omg.CORBA.PrincipalHolderClassTests<Princip
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrincipalHolder sut = null; // = new PrincipalHolder(Principal);
+        final PrincipalHolder sut = null; // = new PrincipalHolder(org.omg.CORBA.Principal);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PrincipalHolder]

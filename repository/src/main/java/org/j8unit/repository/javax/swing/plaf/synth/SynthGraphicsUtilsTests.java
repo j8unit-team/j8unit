@@ -1,11 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import javax.swing.Icon;
-import javax.swing.plaf.synth.SynthContext;
 import javax.swing.plaf.synth.SynthGraphicsUtils;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -41,7 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#paintText(SynthContext, Graphics, String, Rectangle, int) public void
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#paintText(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, String, java.awt.Rectangle, int)
+     * public void
      * javax.swing.plaf.synth.SynthGraphicsUtils.paintText(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,java.lang.String,java.awt.Rectangle,int)}
      * .
      *
@@ -65,7 +60,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#paintText(SynthContext, Graphics, String, Icon, int, int, int, int, int, int, int)
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#paintText(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, String, int, int, int)
+     * public void
+     * javax.swing.plaf.synth.SynthGraphicsUtils.paintText(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,java.lang.String,int,int,int)}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paintText_SynthContext_Graphics_String_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#paintText(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, String, javax.swing.Icon, int, int, int, int, int, int, int)
      * public void
      * javax.swing.plaf.synth.SynthGraphicsUtils.paintText(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,java.lang.String,javax.swing.Icon,int,int,int,int,int,int,int)}
      * .
@@ -90,31 +110,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#paintText(SynthContext, Graphics, String, int, int, int) public void
-     * javax.swing.plaf.synth.SynthGraphicsUtils.paintText(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,java.lang.String,int,int,int)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_paintText_SynthContext_Graphics_String_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#drawLine(SynthContext, Object, Graphics, int, int, int, int) public void
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#drawLine(javax.swing.plaf.synth.SynthContext, Object, java.awt.Graphics, int, int, int, int)
+     * public void
      * javax.swing.plaf.synth.SynthGraphicsUtils.drawLine(javax.swing.plaf.synth.SynthContext,java.lang.Object,java.awt.Graphics,int,int,int,int)}
      * .
      *
@@ -138,7 +135,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#drawLine(SynthContext, Object, Graphics, int, int, int, int, Object) public void
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#drawLine(javax.swing.plaf.synth.SynthContext, Object, java.awt.Graphics, int, int, int, int, Object)
+     * public void
      * javax.swing.plaf.synth.SynthGraphicsUtils.drawLine(javax.swing.plaf.synth.SynthContext,java.lang.Object,java.awt.Graphics,int,int,int,int,java.lang.Object)}
      * .
      *
@@ -162,7 +160,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#layoutText(SynthContext, FontMetrics, String, Icon, int, int, int, int, Rectangle, Rectangle, Rectangle, int)
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#layoutText(javax.swing.plaf.synth.SynthContext, java.awt.FontMetrics, String, javax.swing.Icon, int, int, int, int, java.awt.Rectangle, java.awt.Rectangle, java.awt.Rectangle, int)
      * public java.lang.String
      * javax.swing.plaf.synth.SynthGraphicsUtils.layoutText(javax.swing.plaf.synth.SynthContext,java.awt.FontMetrics,java.lang.String,javax.swing.Icon,int,int,int,int,java.awt.Rectangle,java.awt.Rectangle,java.awt.Rectangle,int)}
      * .
@@ -187,8 +185,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#getMaximumCharHeight(SynthContext) public int
-     * javax.swing.plaf.synth.SynthGraphicsUtils.getMaximumCharHeight(javax.swing.plaf.synth.SynthContext)}.
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#getMaximumCharHeight(javax.swing.plaf.synth.SynthContext) public
+     * int javax.swing.plaf.synth.SynthGraphicsUtils.getMaximumCharHeight(javax.swing.plaf.synth.SynthContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,7 +208,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#computeStringWidth(SynthContext, Font, FontMetrics, String) public int
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#computeStringWidth(javax.swing.plaf.synth.SynthContext, java.awt.Font, java.awt.FontMetrics, String)
+     * public int
      * javax.swing.plaf.synth.SynthGraphicsUtils.computeStringWidth(javax.swing.plaf.synth.SynthContext,java.awt.Font,java.awt.FontMetrics,java.lang.String)}
      * .
      *
@@ -234,8 +233,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#getPreferredSize(SynthContext, Font, String, Icon, int, int, int, int, int, int) public
-     * java.awt.Dimension
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#getPreferredSize(javax.swing.plaf.synth.SynthContext, java.awt.Font, String, javax.swing.Icon, int, int, int, int, int, int)
+     * public java.awt.Dimension
      * javax.swing.plaf.synth.SynthGraphicsUtils.getPreferredSize(javax.swing.plaf.synth.SynthContext,java.awt.Font,java.lang.String,javax.swing.Icon,int,int,int,int,int,int)}
      * .
      *
@@ -259,8 +258,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#getMaximumSize(SynthContext, Font, String, Icon, int, int, int, int, int, int) public
-     * java.awt.Dimension
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#getMaximumSize(javax.swing.plaf.synth.SynthContext, java.awt.Font, String, javax.swing.Icon, int, int, int, int, int, int)
+     * public java.awt.Dimension
      * javax.swing.plaf.synth.SynthGraphicsUtils.getMaximumSize(javax.swing.plaf.synth.SynthContext,java.awt.Font,java.lang.String,javax.swing.Icon,int,int,int,int,int,int)}
      * .
      *
@@ -284,8 +283,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthGraphicsUtils#getMinimumSize(SynthContext, Font, String, Icon, int, int, int, int, int, int) public
-     * java.awt.Dimension
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#getMinimumSize(javax.swing.plaf.synth.SynthContext, java.awt.Font, String, javax.swing.Icon, int, int, int, int, int, int)
+     * public java.awt.Dimension
      * javax.swing.plaf.synth.SynthGraphicsUtils.getMinimumSize(javax.swing.plaf.synth.SynthContext,java.awt.Font,java.lang.String,javax.swing.Icon,int,int,int,int,int,int)}
      * .
      *

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.LongAdderClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LongAdder#LongAdder() public
-     * java.util.concurrent.atomic.LongAdder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.LongAdder#LongAdder() public java.util.concurrent.atomic.LongAdder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

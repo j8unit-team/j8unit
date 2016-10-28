@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterReader#skip(long) public long
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterReader#skip(long) public long
      * java.io.FilterReader.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterReader#reset() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterReader#reset() public void
      * java.io.FilterReader.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterReader#mark(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterReader#mark(int) public void
      * java.io.FilterReader.mark(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterReader#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterReader#close() public void
      * java.io.FilterReader.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterReader#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterReader#read() public int
      * java.io.FilterReader.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +149,8 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterReader#read(char[], int, int) public int
-     * java.io.FilterReader.read(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterReader#read(char[], int, int) public
+     * int java.io.FilterReader.read(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +172,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterReader#ready() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterReader#ready() public boolean
      * java.io.FilterReader.ready() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,7 +195,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterReader#markSupported() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterReader#markSupported() public boolean
      * java.io.FilterReader.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

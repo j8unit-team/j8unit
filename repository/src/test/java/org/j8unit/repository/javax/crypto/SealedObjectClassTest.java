@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.io.Serializable;
-import javax.crypto.Cipher;
 import javax.crypto.SealedObject;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.javax.crypto.SealedObjectClassTests<SealedObjec
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SealedObject#SealedObject(Serializable, Cipher)
-     * public javax.crypto.SealedObject(java.io.Serializable,javax.crypto.Cipher) throws
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.SealedObject#SealedObject(java.io.Serializable, javax.crypto.Cipher) public
+     * javax.crypto.SealedObject(java.io.Serializable,javax.crypto.Cipher) throws
      * java.io.IOException,javax.crypto.IllegalBlockSizeException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +40,7 @@ implements org.j8unit.repository.javax.crypto.SealedObjectClassTests<SealedObjec
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SealedObject sut = null; // = new SealedObject(Serializable, Cipher);
+        final SealedObject sut = null; // = new SealedObject(java.io.Serializable, javax.crypto.Cipher);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.SealedObject]

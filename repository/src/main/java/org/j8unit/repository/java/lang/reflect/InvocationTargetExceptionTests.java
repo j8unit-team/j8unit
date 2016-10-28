@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvocationTargetException#getCause() public
-     * java.lang.Throwable java.lang.reflect.InvocationTargetException.getCause()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.InvocationTargetException#getCause() public java.lang.Throwable
+     * java.lang.reflect.InvocationTargetException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvocationTargetException#getTargetException()
-     * public java.lang.Throwable java.lang.reflect.InvocationTargetException.getTargetException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.InvocationTargetException#getTargetException() public java.lang.Throwable
+     * java.lang.reflect.InvocationTargetException.getTargetException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

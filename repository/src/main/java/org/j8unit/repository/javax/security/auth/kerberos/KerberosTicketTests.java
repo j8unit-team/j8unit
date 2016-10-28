@@ -35,7 +35,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getClient() public final
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getClient() public final
      * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KerberosTicket.getClient()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +58,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#refresh() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#refresh() public void
      * javax.security.auth.kerberos.KerberosTicket.refresh() throws javax.security.auth.RefreshFailedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +82,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#destroy() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#destroy() public void
      * javax.security.auth.kerberos.KerberosTicket.destroy() throws javax.security.auth.DestroyFailedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +106,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#isInitial() public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#isInitial() public final boolean
      * javax.security.auth.kerberos.KerberosTicket.isInitial()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,29 +129,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#isProxiable() public final boolean
-     * javax.security.auth.kerberos.KerberosTicket.isProxiable()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isProxiable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#isProxy() public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#isProxy() public final boolean
      * javax.security.auth.kerberos.KerberosTicket.isProxy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +152,31 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getServer() public final
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#isProxiable() public final boolean
+     * javax.security.auth.kerberos.KerberosTicket.isProxiable()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isProxiable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getServer() public final
      * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KerberosTicket.getServer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,7 +198,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#isDestroyed() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#isDestroyed() public boolean
      * javax.security.auth.kerberos.KerberosTicket.isDestroyed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,7 +222,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getSessionKeyType() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getSessionKeyType() public final int
      * javax.security.auth.kerberos.KerberosTicket.getSessionKeyType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,7 +245,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getEncoded() public final byte[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getEncoded() public final byte[]
      * javax.security.auth.kerberos.KerberosTicket.getEncoded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +268,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getStartTime() public final
-     * java.util.Date javax.security.auth.kerberos.KerberosTicket.getStartTime()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getStartTime() public final java.util.Date
+     * javax.security.auth.kerberos.KerberosTicket.getStartTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,7 +291,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#toString() public java.lang.String
      * javax.security.auth.kerberos.KerberosTicket.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -303,8 +315,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getClientAddresses() public final
-     * java.net.InetAddress[] javax.security.auth.kerberos.KerberosTicket.getClientAddresses()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getClientAddresses() public final java.net.InetAddress[]
+     * javax.security.auth.kerberos.KerberosTicket.getClientAddresses()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,7 +338,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#isForwarded() public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#isForwarded() public final boolean
      * javax.security.auth.kerberos.KerberosTicket.isForwarded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -347,7 +361,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getFlags() public final boolean[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getFlags() public final boolean[]
      * javax.security.auth.kerberos.KerberosTicket.getFlags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -369,7 +384,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#isRenewable() public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#isRenewable() public final boolean
      * javax.security.auth.kerberos.KerberosTicket.isRenewable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -391,8 +407,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getAuthTime() public final
-     * java.util.Date javax.security.auth.kerberos.KerberosTicket.getAuthTime()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getAuthTime() public final java.util.Date
+     * javax.security.auth.kerberos.KerberosTicket.getAuthTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -413,7 +430,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#isPostdated() public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#isPostdated() public final boolean
      * javax.security.auth.kerberos.KerberosTicket.isPostdated()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -435,8 +453,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getEndTime() public final
-     * java.util.Date javax.security.auth.kerberos.KerberosTicket.getEndTime()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getEndTime() public final java.util.Date
+     * javax.security.auth.kerberos.KerberosTicket.getEndTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -457,7 +476,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#isCurrent() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#isCurrent() public boolean
      * javax.security.auth.kerberos.KerberosTicket.isCurrent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -480,7 +500,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#isForwardable() public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#isForwardable() public final boolean
      * javax.security.auth.kerberos.KerberosTicket.isForwardable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -502,8 +523,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getSessionKey() public final
-     * javax.crypto.SecretKey javax.security.auth.kerberos.KerberosTicket.getSessionKey()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getSessionKey() public final javax.crypto.SecretKey
+     * javax.security.auth.kerberos.KerberosTicket.getSessionKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -524,7 +546,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#equals(Object) public boolean
      * javax.security.auth.kerberos.KerberosTicket.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -547,7 +570,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#hashCode() public int
      * javax.security.auth.kerberos.KerberosTicket.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -570,8 +594,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosTicket#getRenewTill() public final
-     * java.util.Date javax.security.auth.kerberos.KerberosTicket.getRenewTill()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosTicket#getRenewTill() public final java.util.Date
+     * javax.security.auth.kerberos.KerberosTicket.getRenewTill()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

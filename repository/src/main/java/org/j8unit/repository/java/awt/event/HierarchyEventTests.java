@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HierarchyEvent#getComponent() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.HierarchyEvent#getComponent() public
      * java.awt.Component java.awt.event.HierarchyEvent.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HierarchyEvent#getChangedParent() public
-     * java.awt.Container java.awt.event.HierarchyEvent.getChangedParent()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.HierarchyEvent#getChangedParent()
+     * public java.awt.Container java.awt.event.HierarchyEvent.getChangedParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HierarchyEvent#paramString() public java.lang.String
-     * java.awt.event.HierarchyEvent.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.HierarchyEvent#paramString() public
+     * java.lang.String java.awt.event.HierarchyEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HierarchyEvent#getChanged() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.HierarchyEvent#getChanged() public
      * java.awt.Component java.awt.event.HierarchyEvent.getChanged()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HierarchyEvent#getChangeFlags() public long
-     * java.awt.event.HierarchyEvent.getChangeFlags()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.HierarchyEvent#getChangeFlags()
+     * public long java.awt.event.HierarchyEvent.getChangeFlags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

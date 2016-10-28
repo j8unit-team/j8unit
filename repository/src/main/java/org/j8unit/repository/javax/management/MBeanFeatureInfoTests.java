@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#equals(Object) public boolean
-     * javax.management.MBeanFeatureInfo.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanFeatureInfo#equals(Object)
+     * public boolean javax.management.MBeanFeatureInfo.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#hashCode() public int
-     * javax.management.MBeanFeatureInfo.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanFeatureInfo#hashCode() public
+     * int javax.management.MBeanFeatureInfo.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#getName() public java.lang.String
-     * javax.management.MBeanFeatureInfo.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanFeatureInfo#getName() public
+     * java.lang.String javax.management.MBeanFeatureInfo.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#getDescriptor() public
-     * javax.management.Descriptor javax.management.MBeanFeatureInfo.getDescriptor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanFeatureInfo#getDescriptor()
+     * public javax.management.Descriptor javax.management.MBeanFeatureInfo.getDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#getDescription() public
-     * java.lang.String javax.management.MBeanFeatureInfo.getDescription()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanFeatureInfo#getDescription()
+     * public java.lang.String javax.management.MBeanFeatureInfo.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

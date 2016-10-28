@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.login.CredentialExpiredExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CredentialExpiredException#CredentialExpiredException() public
+     * {@link javax.security.auth.login.CredentialExpiredException#CredentialExpiredException() public
      * javax.security.auth.login.CredentialExpiredException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.security.auth.login.CredentialExpiredExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CredentialExpiredException#CredentialExpiredException(String) public
+     * {@link javax.security.auth.login.CredentialExpiredException#CredentialExpiredException(String) public
      * javax.security.auth.login.CredentialExpiredException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

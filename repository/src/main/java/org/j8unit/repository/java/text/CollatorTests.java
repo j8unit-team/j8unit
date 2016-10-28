@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#setDecomposition(int) public synchronized
-     * void java.text.Collator.setDecomposition(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#setDecomposition(int) public
+     * synchronized void java.text.Collator.setDecomposition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#getStrength() public synchronized int
-     * java.text.Collator.getStrength()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#getStrength() public synchronized
+     * int java.text.Collator.getStrength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#clone() public java.lang.Object
      * java.text.Collator.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#equals(Object) public boolean
      * java.text.Collator.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#equals(String, String) public boolean
-     * java.text.Collator.equals(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#equals(String, String) public
+     * boolean java.text.Collator.equals(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#getCollationKey(String) public abstract
-     * java.text.CollationKey java.text.Collator.getCollationKey(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#getCollationKey(String) public
+     * abstract java.text.CollationKey java.text.Collator.getCollationKey(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +168,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#hashCode() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#hashCode() public abstract int
      * java.text.Collator.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +191,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#setStrength(int) public synchronized void
-     * java.text.Collator.setStrength(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#setStrength(int) public
+     * synchronized void java.text.Collator.setStrength(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +213,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#compare(String, String) public abstract int
-     * java.text.Collator.compare(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#compare(String, String) public
+     * abstract int java.text.Collator.compare(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +235,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#compare(Object, Object) public int
-     * java.text.Collator.compare(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#compare(Object, Object) public
+     * int java.text.Collator.compare(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +258,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#getDecomposition() public synchronized int
-     * java.text.Collator.getDecomposition()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#getDecomposition() public
+     * synchronized int java.text.Collator.getDecomposition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableInterceptor.ForwardRequest;
 import org.omg.PortableInterceptor.ForwardRequestHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,9 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelpe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ForwardRequestHelper#ForwardRequestHelper()
-     * public org.omg.PortableInterceptor.ForwardRequestHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ForwardRequestHelper#ForwardRequestHelper() public
+     * org.omg.PortableInterceptor.ForwardRequestHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelpe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardRequestHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ForwardRequestHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.PortableInterceptor.ForwardRequest
      * org.omg.PortableInterceptor.ForwardRequestHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
@@ -62,12 +60,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelpe
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ForwardRequestHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ForwardRequestHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardRequestHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ForwardRequestHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.PortableInterceptor.ForwardRequest
      * org.omg.PortableInterceptor.ForwardRequestHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -83,13 +83,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelpe
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ForwardRequestHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableInterceptor.ForwardRequestHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardRequestHelper#id() public static
-     * java.lang.String org.omg.PortableInterceptor.ForwardRequestHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ForwardRequestHelper#id() public static java.lang.String
+     * org.omg.PortableInterceptor.ForwardRequestHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,12 +104,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelpe
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ForwardRequestHelper#id()}
+        // write some test for {@link org.omg.PortableInterceptor.ForwardRequestHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardRequestHelper#insert(Any, ForwardRequest)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ForwardRequestHelper#insert(org.omg.CORBA.Any, org.omg.PortableInterceptor.ForwardRequest)
      * public static void
      * org.omg.PortableInterceptor.ForwardRequestHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.ForwardRequest)}
      * .
@@ -125,13 +127,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelpe
     @Category(Draft.class)
     public void test_insert_Any_ForwardRequest()
     throws Exception {
-        // write some test for {@link ForwardRequestHelper#insert(Any, ForwardRequest)}
+        // write some test for {@link org.omg.PortableInterceptor.ForwardRequestHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableInterceptor.ForwardRequest)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardRequestHelper#write(OutputStream, ForwardRequest) public static void
+     * {@link org.omg.PortableInterceptor.ForwardRequestHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableInterceptor.ForwardRequest)
+     * public static void
      * org.omg.PortableInterceptor.ForwardRequestHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.ForwardRequest)}
      * .
      *
@@ -147,13 +151,16 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelpe
     @Category(Draft.class)
     public void test_write_OutputStream_ForwardRequest()
     throws Exception {
-        // write some test for {@link ForwardRequestHelper#write(OutputStream, ForwardRequest)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ForwardRequestHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableInterceptor.ForwardRequest)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardRequestHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ForwardRequestHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ForwardRequestHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.PortableInterceptor.ForwardRequestHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +174,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelpe
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ForwardRequestHelper#type()}
+        // write some test for {@link org.omg.PortableInterceptor.ForwardRequestHelper#type()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ForwardRequestHelper]

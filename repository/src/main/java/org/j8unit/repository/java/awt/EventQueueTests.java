@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.AWTEvent;
 import java.awt.EventQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventQueue#createSecondaryLoop() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#createSecondaryLoop() public
      * java.awt.SecondaryLoop java.awt.EventQueue.createSecondaryLoop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,30 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventQueue#peekEvent(int) public java.awt.AWTEvent
-     * java.awt.EventQueue.peekEvent(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_peekEvent_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link EventQueue#peekEvent() public java.awt.AWTEvent
-     * java.awt.EventQueue.peekEvent()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#peekEvent() public
+     * java.awt.AWTEvent java.awt.EventQueue.peekEvent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +78,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventQueue#getNextEvent() public java.awt.AWTEvent
-     * java.awt.EventQueue.getNextEvent() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#peekEvent(int) public
+     * java.awt.AWTEvent java.awt.EventQueue.peekEvent(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_peekEvent_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#getNextEvent() public
+     * java.awt.AWTEvent java.awt.EventQueue.getNextEvent() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventQueue#push(EventQueue) public void
-     * java.awt.EventQueue.push(java.awt.EventQueue)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#push(java.awt.EventQueue) public
+     * void java.awt.EventQueue.push(java.awt.EventQueue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +144,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventQueue#postEvent(AWTEvent) public void
-     * java.awt.EventQueue.postEvent(java.awt.AWTEvent)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#postEvent(java.awt.AWTEvent)
+     * public void java.awt.EventQueue.postEvent(java.awt.AWTEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

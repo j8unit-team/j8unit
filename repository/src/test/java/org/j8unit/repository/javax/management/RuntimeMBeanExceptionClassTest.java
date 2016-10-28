@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.RuntimeMBeanExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RuntimeMBeanException#RuntimeMBeanException(RuntimeException) public
+     * {@link javax.management.RuntimeMBeanException#RuntimeMBeanException(RuntimeException) public
      * javax.management.RuntimeMBeanException(java.lang.RuntimeException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.RuntimeMBeanExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RuntimeMBeanException#RuntimeMBeanException(RuntimeException, String) public
+     * {@link javax.management.RuntimeMBeanException#RuntimeMBeanException(RuntimeException, String) public
      * javax.management.RuntimeMBeanException(java.lang.RuntimeException,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

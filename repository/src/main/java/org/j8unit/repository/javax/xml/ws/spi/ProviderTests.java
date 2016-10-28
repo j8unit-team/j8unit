@@ -1,13 +1,5 @@
 package org.j8unit.repository.javax.xml.ws.spi;
 
-import java.net.URL;
-import java.util.List;
-import java.util.Map;
-import javax.xml.namespace.QName;
-import javax.xml.transform.Source;
-import javax.xml.ws.EndpointReference;
-import javax.xml.ws.WebServiceFeature;
-import javax.xml.ws.spi.Invoker;
 import javax.xml.ws.spi.Provider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -42,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#createEndpoint(String, Object) public
-     * abstract javax.xml.ws.Endpoint javax.xml.ws.spi.Provider.createEndpoint(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.Provider#createEndpoint(String, Object) public abstract javax.xml.ws.Endpoint
+     * javax.xml.ws.spi.Provider.createEndpoint(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Provider#createEndpoint(String, Class, Invoker, WebServiceFeature...) public javax.xml.ws.Endpoint
-     * javax.xml.ws.spi.Provider.createEndpoint(java.lang.String,java.lang.Class
+     * {@link javax.xml.ws.spi.Provider#createEndpoint(String, Class, javax.xml.ws.spi.Invoker, javax.xml.ws.WebServiceFeature...)
+     * public javax.xml.ws.Endpoint javax.xml.ws.spi.Provider.createEndpoint(java.lang.String,java.lang.Class
      * <?>,javax.xml.ws.spi.Invoker,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +82,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Provider#createEndpoint(String, Object, WebServiceFeature...) public javax.xml.ws.Endpoint
+     * {@link javax.xml.ws.spi.Provider#createEndpoint(String, Object, javax.xml.ws.WebServiceFeature...) public
+     * javax.xml.ws.Endpoint
      * javax.xml.ws.spi.Provider.createEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,8 +105,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#createAndPublishEndpoint(String, Object)
-     * public abstract javax.xml.ws.Endpoint
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.Provider#createAndPublishEndpoint(String, Object) public abstract javax.xml.ws.Endpoint
      * javax.xml.ws.spi.Provider.createAndPublishEndpoint(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,7 +129,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Provider#createAndPublishEndpoint(String, Object, WebServiceFeature...) public javax.xml.ws.Endpoint
+     * {@link javax.xml.ws.spi.Provider#createAndPublishEndpoint(String, Object, javax.xml.ws.WebServiceFeature...)
+     * public javax.xml.ws.Endpoint
      * javax.xml.ws.spi.Provider.createAndPublishEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)}
      * .
      *
@@ -159,8 +154,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Provider#getPort(EndpointReference, Class, WebServiceFeature...) public abstract <T> T
-     * javax.xml.ws.spi.Provider.getPort(javax.xml.ws.EndpointReference,java.lang.Class
+     * {@link javax.xml.ws.spi.Provider#getPort(javax.xml.ws.EndpointReference, Class, javax.xml.ws.WebServiceFeature...)
+     * public abstract <T> T javax.xml.ws.spi.Provider.getPort(javax.xml.ws.EndpointReference,java.lang.Class
      * <T>,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,8 +177,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#createServiceDelegate(URL, QName, Class)
-     * public abstract javax.xml.ws.spi.ServiceDelegate
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.Provider#createServiceDelegate(java.net.URL, javax.xml.namespace.QName, Class) public
+     * abstract javax.xml.ws.spi.ServiceDelegate
      * javax.xml.ws.spi.Provider.createServiceDelegate(java.net.URL,javax.xml.namespace.QName,java.lang.Class<? extends
      * javax.xml.ws.Service>)}.
      *
@@ -207,8 +203,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Provider#createServiceDelegate(URL, QName, Class, WebServiceFeature...) public
-     * javax.xml.ws.spi.ServiceDelegate
+     * {@link javax.xml.ws.spi.Provider#createServiceDelegate(java.net.URL, javax.xml.namespace.QName, Class, javax.xml.ws.WebServiceFeature...)
+     * public javax.xml.ws.spi.ServiceDelegate
      * javax.xml.ws.spi.Provider.createServiceDelegate(java.net.URL,javax.xml.namespace.QName,java.lang.Class<? extends
      * javax.xml.ws.Service>,javax.xml.ws.WebServiceFeature...)}.
      *
@@ -231,9 +227,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#readEndpointReference(Source) public
-     * abstract javax.xml.ws.EndpointReference
-     * javax.xml.ws.spi.Provider.readEndpointReference(javax.xml.transform.Source)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.Provider#readEndpointReference(javax.xml.transform.Source) public abstract
+     * javax.xml.ws.EndpointReference javax.xml.ws.spi.Provider.readEndpointReference(javax.xml.transform.Source)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +251,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Provider#createW3CEndpointReference(String, QName, QName, QName, List, String, List, List, Map) public
-     * javax.xml.ws.wsaddressing.W3CEndpointReference
+     * {@link javax.xml.ws.spi.Provider#createW3CEndpointReference(String, javax.xml.namespace.QName, javax.xml.namespace.QName, javax.xml.namespace.QName, java.util.List, String, java.util.List, java.util.List, java.util.Map)
+     * public javax.xml.ws.wsaddressing.W3CEndpointReference
      * javax.xml.ws.spi.Provider.createW3CEndpointReference(java.lang.String,javax.xml.namespace.QName,javax.xml.namespace.QName,javax.xml.namespace.QName,java.util.List
      * <org.w3c.dom.Element>,java.lang.String,java.util.List<org.w3c.dom.Element>,java.util.List
      * <org.w3c.dom.Element>,java.util.Map<javax.xml.namespace.QName, java.lang.String>)}.
@@ -281,8 +277,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Provider#createW3CEndpointReference(String, QName, QName, List, String, List) public abstract
-     * javax.xml.ws.wsaddressing.W3CEndpointReference
+     * {@link javax.xml.ws.spi.Provider#createW3CEndpointReference(String, javax.xml.namespace.QName, javax.xml.namespace.QName, java.util.List, String, java.util.List)
+     * public abstract javax.xml.ws.wsaddressing.W3CEndpointReference
      * javax.xml.ws.spi.Provider.createW3CEndpointReference(java.lang.String,javax.xml.namespace.QName,javax.xml.namespace.QName,java.util.List
      * <org.w3c.dom.Element>,java.lang.String,java.util.List<org.w3c.dom.Element>)}.
      *

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.net.SocketAddressTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetSocketAddress#getHostString() public final
-     * java.lang.String java.net.InetSocketAddress.getHostString()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetSocketAddress#getHostString() public
+     * final java.lang.String java.net.InetSocketAddress.getHostString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.net.SocketAddressTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetSocketAddress#getAddress() public final
+     * Test method for the hereby targeted method-under-test {@link java.net.InetSocketAddress#getAddress() public final
      * java.net.InetAddress java.net.InetSocketAddress.getAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.net.SocketAddressTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetSocketAddress#toString() public java.lang.String
-     * java.net.InetSocketAddress.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetSocketAddress#toString() public
+     * java.lang.String java.net.InetSocketAddress.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.net.SocketAddressTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetSocketAddress#getHostName() public final
-     * java.lang.String java.net.InetSocketAddress.getHostName()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetSocketAddress#getHostName() public
+     * final java.lang.String java.net.InetSocketAddress.getHostName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.net.SocketAddressTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetSocketAddress#equals(Object) public final
-     * boolean java.net.InetSocketAddress.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetSocketAddress#equals(Object) public
+     * final boolean java.net.InetSocketAddress.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.net.SocketAddressTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetSocketAddress#hashCode() public final int
-     * java.net.InetSocketAddress.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetSocketAddress#hashCode() public final
+     * int java.net.InetSocketAddress.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +169,8 @@ extends org.j8unit.repository.java.net.SocketAddressTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetSocketAddress#isUnresolved() public final
-     * boolean java.net.InetSocketAddress.isUnresolved()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetSocketAddress#isUnresolved() public
+     * final boolean java.net.InetSocketAddress.isUnresolved()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +191,8 @@ extends org.j8unit.repository.java.net.SocketAddressTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetSocketAddress#getPort() public final int
-     * java.net.InetSocketAddress.getPort()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetSocketAddress#getPort() public final
+     * int java.net.InetSocketAddress.getPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

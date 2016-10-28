@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableServer.POAManagerPackage.AdapterInactive;
 import org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,9 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AdapterInactiveHelper#AdapterInactiveHelper()
-     * public org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#AdapterInactiveHelper() public
+     * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterInactiveHelper#read(InputStream) public
-     * static org.omg.PortableServer.POAManagerPackage.AdapterInactive
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#read(org.omg.CORBA.portable.InputStream)
+     * public static org.omg.PortableServer.POAManagerPackage.AdapterInactive
      * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +60,14 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link AdapterInactiveHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterInactiveHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive
      * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -83,13 +83,15 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link AdapterInactiveHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterInactiveHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,13 +105,14 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link AdapterInactiveHelper#type()}
+        // write some test for {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AdapterInactiveHelper#write(OutputStream, AdapterInactive) public static void
+     * {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableServer.POAManagerPackage.AdapterInactive)
+     * public static void
      * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.POAManagerPackage.AdapterInactive)}
      * .
      *
@@ -125,12 +128,15 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
     @Category(Draft.class)
     public void test_write_OutputStream_AdapterInactive()
     throws Exception {
-        // write some test for {@link AdapterInactiveHelper#write(OutputStream, AdapterInactive)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableServer.POAManagerPackage.AdapterInactive)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterInactiveHelper#insert(Any, AdapterInactive)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#insert(org.omg.CORBA.Any, org.omg.PortableServer.POAManagerPackage.AdapterInactive)
      * public static void
      * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POAManagerPackage.AdapterInactive)}
      * .
@@ -147,13 +153,16 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
     @Category(Draft.class)
     public void test_insert_Any_AdapterInactive()
     throws Exception {
-        // write some test for {@link AdapterInactiveHelper#insert(Any, AdapterInactive)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableServer.POAManagerPackage.AdapterInactive)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterInactiveHelper#id() public static
-     * java.lang.String org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#id() public static java.lang.String
+     * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +176,7 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link AdapterInactiveHelper#id()}
+        // write some test for {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#id()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper]

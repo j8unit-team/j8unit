@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.event;
 
 import javax.swing.event.TreeSelectionEvent;
-import javax.swing.tree.TreePath;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSelectionEvent#getPaths() public
-     * javax.swing.tree.TreePath[] javax.swing.event.TreeSelectionEvent.getPaths()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeSelectionEvent#getPaths()
+     * public javax.swing.tree.TreePath[] javax.swing.event.TreeSelectionEvent.getPaths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSelectionEvent#isAddedPath() public boolean
-     * javax.swing.event.TreeSelectionEvent.isAddedPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeSelectionEvent#isAddedPath()
+     * public boolean javax.swing.event.TreeSelectionEvent.isAddedPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSelectionEvent#isAddedPath(TreePath) public
-     * boolean javax.swing.event.TreeSelectionEvent.isAddedPath(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TreeSelectionEvent#isAddedPath(javax.swing.tree.TreePath) public boolean
+     * javax.swing.event.TreeSelectionEvent.isAddedPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSelectionEvent#isAddedPath(int) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TreeSelectionEvent#isAddedPath(int) public boolean
      * javax.swing.event.TreeSelectionEvent.isAddedPath(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +124,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSelectionEvent#getNewLeadSelectionPath() public
-     * javax.swing.tree.TreePath javax.swing.event.TreeSelectionEvent.getNewLeadSelectionPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TreeSelectionEvent#getNewLeadSelectionPath() public javax.swing.tree.TreePath
+     * javax.swing.event.TreeSelectionEvent.getNewLeadSelectionPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +147,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSelectionEvent#getPath() public
-     * javax.swing.tree.TreePath javax.swing.event.TreeSelectionEvent.getPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeSelectionEvent#getPath()
+     * public javax.swing.tree.TreePath javax.swing.event.TreeSelectionEvent.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +169,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSelectionEvent#cloneWithSource(Object) public
-     * java.lang.Object javax.swing.event.TreeSelectionEvent.cloneWithSource(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TreeSelectionEvent#cloneWithSource(Object) public java.lang.Object
+     * javax.swing.event.TreeSelectionEvent.cloneWithSource(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +192,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeSelectionEvent#getOldLeadSelectionPath() public
-     * javax.swing.tree.TreePath javax.swing.event.TreeSelectionEvent.getOldLeadSelectionPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TreeSelectionEvent#getOldLeadSelectionPath() public javax.swing.tree.TreePath
+     * javax.swing.event.TreeSelectionEvent.getOldLeadSelectionPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

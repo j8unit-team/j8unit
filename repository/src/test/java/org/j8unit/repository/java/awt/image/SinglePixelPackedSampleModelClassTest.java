@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.SinglePixelPackedSampleModelClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SinglePixelPackedSampleModel#SinglePixelPackedSampleModel(int, int, int, int, int[]) public
+     * {@link java.awt.image.SinglePixelPackedSampleModel#SinglePixelPackedSampleModel(int, int, int, int, int[]) public
      * java.awt.image.SinglePixelPackedSampleModel(int,int,int,int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.awt.image.SinglePixelPackedSampleModelClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SinglePixelPackedSampleModel#SinglePixelPackedSampleModel(int, int, int, int[]) public
+     * {@link java.awt.image.SinglePixelPackedSampleModel#SinglePixelPackedSampleModel(int, int, int, int[]) public
      * java.awt.image.SinglePixelPackedSampleModel(int,int,int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

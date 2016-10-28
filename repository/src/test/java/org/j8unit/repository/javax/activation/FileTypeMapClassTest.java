@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.activation.FileTypeMapClassTests<FileType
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileTypeMap#FileTypeMap() public
-     * javax.activation.FileTypeMap()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.activation.FileTypeMap#FileTypeMap()
+     * public javax.activation.FileTypeMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,9 +42,9 @@ implements org.j8unit.repository.javax.activation.FileTypeMapClassTests<FileType
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTypeMap#setDefaultFileTypeMap(FileTypeMap)
-     * public static synchronized void javax.activation.FileTypeMap.setDefaultFileTypeMap(javax.activation.FileTypeMap)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.FileTypeMap#setDefaultFileTypeMap(javax.activation.FileTypeMap) public static
+     * synchronized void javax.activation.FileTypeMap.setDefaultFileTypeMap(javax.activation.FileTypeMap)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,13 +58,13 @@ implements org.j8unit.repository.javax.activation.FileTypeMapClassTests<FileType
     @Category(Draft.class)
     public void test_setDefaultFileTypeMap_FileTypeMap()
     throws Exception {
-        // write some test for {@link FileTypeMap#setDefaultFileTypeMap(FileTypeMap)}
+        // write some test for {@link javax.activation.FileTypeMap#setDefaultFileTypeMap(javax.activation.FileTypeMap)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTypeMap#getDefaultFileTypeMap() public static
-     * synchronized javax.activation.FileTypeMap javax.activation.FileTypeMap.getDefaultFileTypeMap()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.FileTypeMap#getDefaultFileTypeMap()
+     * public static synchronized javax.activation.FileTypeMap javax.activation.FileTypeMap.getDefaultFileTypeMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ implements org.j8unit.repository.javax.activation.FileTypeMapClassTests<FileType
     @Category(Draft.class)
     public void test_getDefaultFileTypeMap()
     throws Exception {
-        // write some test for {@link FileTypeMap#getDefaultFileTypeMap()}
+        // write some test for {@link javax.activation.FileTypeMap#getDefaultFileTypeMap()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.FileTypeMap]

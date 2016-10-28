@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator#getPublicId() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Locator#getPublicId() public abstract
      * java.lang.String org.xml.sax.Locator.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator#getColumnNumber() public abstract int
-     * org.xml.sax.Locator.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Locator#getColumnNumber() public
+     * abstract int org.xml.sax.Locator.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator#getSystemId() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Locator#getSystemId() public abstract
      * java.lang.String org.xml.sax.Locator.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator#getLineNumber() public abstract int
-     * org.xml.sax.Locator.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Locator#getLineNumber() public abstract
+     * int org.xml.sax.Locator.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

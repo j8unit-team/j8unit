@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.util.PropertiesClassTests<Properties> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Properties#Properties() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Properties#Properties() public
      * java.util.Properties()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.java.util.PropertiesClassTests<Properties> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Properties#Properties(Properties) public
-     * java.util.Properties(java.util.Properties)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Properties#Properties(java.util.Properties) public java.util.Properties(java.util.Properties)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +59,7 @@ implements org.j8unit.repository.java.util.PropertiesClassTests<Properties> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Properties sut = null; // = new Properties(Properties);
+        final Properties sut = null; // = new Properties(java.util.Properties);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Properties]

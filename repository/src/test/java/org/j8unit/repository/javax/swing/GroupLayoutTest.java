@@ -26,21 +26,6 @@ implements org.j8unit.repository.javax.swing.GroupLayoutTests<GroupLayout> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout]
 
     @RunWith(J8Unit4.class)
-    public static class SequentialGroupTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutTests.SequentialGroupTests<SequentialGroup> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
-
-        @Override
-        public SequentialGroup createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.GroupLayout.SequentialGroup], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class AlignmentTest
     implements org.j8unit.repository.javax.swing.GroupLayoutTests.AlignmentTests<Alignment> {
 
@@ -75,6 +60,21 @@ implements org.j8unit.repository.javax.swing.GroupLayoutTests<GroupLayout> {
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$ParallelGroup]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class SequentialGroupTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutTests.SequentialGroupTests<SequentialGroup> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
+
+        @Override
+        public SequentialGroup createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.GroupLayout.SequentialGroup], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
 
     }
 

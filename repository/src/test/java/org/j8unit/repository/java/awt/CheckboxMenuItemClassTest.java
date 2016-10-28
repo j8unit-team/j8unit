@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.CheckboxMenuItemClassTests<CheckboxMen
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CheckboxMenuItem#CheckboxMenuItem(String, boolean) public
+     * {@link java.awt.CheckboxMenuItem#CheckboxMenuItem(String, boolean) public
      * java.awt.CheckboxMenuItem(java.lang.String,boolean) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.java.awt.CheckboxMenuItemClassTests<CheckboxMen
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CheckboxMenuItem#CheckboxMenuItem(String)
-     * public java.awt.CheckboxMenuItem(java.lang.String) throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.CheckboxMenuItem#CheckboxMenuItem(String) public java.awt.CheckboxMenuItem(java.lang.String)
+     * throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,8 +67,8 @@ implements org.j8unit.repository.java.awt.CheckboxMenuItemClassTests<CheckboxMen
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CheckboxMenuItem#CheckboxMenuItem() public
-     * java.awt.CheckboxMenuItem() throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.CheckboxMenuItem#CheckboxMenuItem()
+     * public java.awt.CheckboxMenuItem() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

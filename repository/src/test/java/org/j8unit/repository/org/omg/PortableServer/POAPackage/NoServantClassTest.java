@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.NoServantClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NoServant#NoServant() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.NoServant#NoServant() public
      * org.omg.PortableServer.POAPackage.NoServant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.NoServantClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NoServant#NoServant(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.NoServant#NoServant(String) public
      * org.omg.PortableServer.POAPackage.NoServant(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.naming.NoInitialContextExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoInitialContextException#NoInitialContextException() public javax.naming.NoInitialContextException()}.
+     * {@link javax.naming.NoInitialContextException#NoInitialContextException() public
+     * javax.naming.NoInitialContextException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.naming.NoInitialContextExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoInitialContextException#NoInitialContextException(String) public
+     * {@link javax.naming.NoInitialContextException#NoInitialContextException(String) public
      * javax.naming.NoInitialContextException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

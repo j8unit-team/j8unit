@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.AWTEvent;
-import java.awt.Event;
-import java.awt.Font;
 import java.awt.MenuComponent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#removeNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#removeNotify() public void
      * java.awt.MenuComponent.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#getFont() public java.awt.Font
-     * java.awt.MenuComponent.getFont()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#getFont() public
+     * java.awt.Font java.awt.MenuComponent.getFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#toString() public java.lang.String
-     * java.awt.MenuComponent.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#toString() public
+     * java.lang.String java.awt.MenuComponent.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +101,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#getPeer() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#getPeer() public
      * java.awt.peer.MenuComponentPeer java.awt.MenuComponent.getPeer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +123,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#setFont(Font) public void
-     * java.awt.MenuComponent.setFont(java.awt.Font)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#setFont(java.awt.Font) public
+     * void java.awt.MenuComponent.setFont(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +145,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.MenuComponent.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +167,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#postEvent(Event) public boolean
-     * java.awt.MenuComponent.postEvent(java.awt.Event)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#postEvent(java.awt.Event)
+     * public boolean java.awt.MenuComponent.postEvent(java.awt.Event)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +189,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#setName(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#setName(String) public void
      * java.awt.MenuComponent.setName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,7 +211,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#getParent() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#getParent() public
      * java.awt.MenuContainer java.awt.MenuComponent.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +233,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#dispatchEvent(AWTEvent) public final
-     * void java.awt.MenuComponent.dispatchEvent(java.awt.AWTEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.MenuComponent#dispatchEvent(java.awt.AWTEvent) public final void
+     * java.awt.MenuComponent.dispatchEvent(java.awt.AWTEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +256,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuComponent#getName() public java.lang.String
-     * java.awt.MenuComponent.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuComponent#getName() public
+     * java.lang.String java.awt.MenuComponent.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Control#toString() public java.lang.String
-     * javax.sound.sampled.Control.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Control#toString() public
+     * java.lang.String javax.sound.sampled.Control.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Control#getType() public
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Control#getType() public
      * javax.sound.sampled.Control$Type javax.sound.sampled.Control.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +107,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#toString() public final java.lang.String
-         * javax.sound.sampled.Control$Type.toString()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Control.Type#toString()
+         * public final java.lang.String javax.sound.sampled.Control$Type.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -130,8 +130,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#hashCode() public final int
-         * javax.sound.sampled.Control$Type.hashCode()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Control.Type#hashCode()
+         * public final int javax.sound.sampled.Control$Type.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -153,8 +153,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#equals(Object) public final boolean
-         * javax.sound.sampled.Control$Type.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Control.Type#equals(Object)
+         * public final boolean javax.sound.sampled.Control$Type.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

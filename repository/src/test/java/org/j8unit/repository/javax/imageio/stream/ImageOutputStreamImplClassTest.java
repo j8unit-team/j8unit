@@ -22,8 +22,9 @@ implements org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageOutputStreamImpl#ImageOutputStreamImpl()
-     * public javax.imageio.stream.ImageOutputStreamImpl()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.stream.ImageOutputStreamImpl#ImageOutputStreamImpl() public
+     * javax.imageio.stream.ImageOutputStreamImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

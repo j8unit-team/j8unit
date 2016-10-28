@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.text.TabStopClassTests<TabStop> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TabStop#TabStop(float) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.TabStop#TabStop(float) public
      * javax.swing.text.TabStop(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +43,8 @@ implements org.j8unit.repository.javax.swing.text.TabStopClassTests<TabStop> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TabStop#TabStop(float, int, int) public
-     * javax.swing.text.TabStop(float,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.TabStop#TabStop(float, int, int) public javax.swing.text.TabStop(float,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

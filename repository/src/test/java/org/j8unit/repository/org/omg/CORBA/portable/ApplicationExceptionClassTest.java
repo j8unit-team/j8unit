@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.ApplicationException;
-import org.omg.CORBA.portable.InputStream;
 
 @RunWith(J8Unit4.class)
 public class ApplicationExceptionClassTest
@@ -23,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.ApplicationExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ApplicationException#ApplicationException(String, InputStream) public
-     * org.omg.CORBA.portable.ApplicationException(java.lang.String,org.omg.CORBA.portable.InputStream)}.
+     * {@link org.omg.CORBA.portable.ApplicationException#ApplicationException(String, org.omg.CORBA.portable.InputStream)
+     * public org.omg.CORBA.portable.ApplicationException(java.lang.String,org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.ApplicationExceptionClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ApplicationException sut = null; // = new ApplicationException(String, InputStream);
+        final ApplicationException sut = null; // = new ApplicationException(String,
+                                               // org.omg.CORBA.portable.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.ApplicationException]

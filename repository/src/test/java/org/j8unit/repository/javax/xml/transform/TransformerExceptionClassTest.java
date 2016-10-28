@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.transform;
 
-import javax.xml.transform.SourceLocator;
 import javax.xml.transform.TransformerException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformerException#TransformerException(String, SourceLocator, Throwable) public
+     * {@link javax.xml.transform.TransformerException#TransformerException(String, javax.xml.transform.SourceLocator, Throwable)
+     * public
      * javax.xml.transform.TransformerException(java.lang.String,javax.xml.transform.SourceLocator,java.lang.Throwable)}
      * .
      *
@@ -41,14 +41,15 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TransformerException sut = null; // = new TransformerException(String, SourceLocator, Throwable);
+        final TransformerException sut = null; // = new TransformerException(String, javax.xml.transform.SourceLocator,
+                                               // Throwable);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformerException#TransformerException(String, SourceLocator) public
-     * javax.xml.transform.TransformerException(java.lang.String,javax.xml.transform.SourceLocator)}.
+     * {@link javax.xml.transform.TransformerException#TransformerException(String, javax.xml.transform.SourceLocator)
+     * public javax.xml.transform.TransformerException(java.lang.String,javax.xml.transform.SourceLocator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,13 +65,13 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TransformerException sut = null; // = new TransformerException(String, SourceLocator);
+        final TransformerException sut = null; // = new TransformerException(String, javax.xml.transform.SourceLocator);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformerException#TransformerException(String) public
+     * {@link javax.xml.transform.TransformerException#TransformerException(String) public
      * javax.xml.transform.TransformerException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -93,7 +94,7 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformerException#TransformerException(Throwable) public
+     * {@link javax.xml.transform.TransformerException#TransformerException(Throwable) public
      * javax.xml.transform.TransformerException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -116,7 +117,7 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransformerException#TransformerException(String, Throwable) public
+     * {@link javax.xml.transform.TransformerException#TransformerException(String, Throwable) public
      * javax.xml.transform.TransformerException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

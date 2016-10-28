@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.xml.parsers.SAXParserFactoryClassTests<SA
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#newInstance(String, ClassLoader)
-     * public static javax.xml.parsers.SAXParserFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.SAXParserFactory#newInstance(String, ClassLoader) public static
+     * javax.xml.parsers.SAXParserFactory
      * javax.xml.parsers.SAXParserFactory.newInstance(java.lang.String,java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,13 +38,13 @@ implements org.j8unit.repository.javax.xml.parsers.SAXParserFactoryClassTests<SA
     @Category(Draft.class)
     public void test_newInstance_String_ClassLoader()
     throws Exception {
-        // write some test for {@link SAXParserFactory#newInstance(String, ClassLoader)}
+        // write some test for {@link javax.xml.parsers.SAXParserFactory#newInstance(String, ClassLoader)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXParserFactory#newInstance() public static
-     * javax.xml.parsers.SAXParserFactory javax.xml.parsers.SAXParserFactory.newInstance()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.SAXParserFactory#newInstance()
+     * public static javax.xml.parsers.SAXParserFactory javax.xml.parsers.SAXParserFactory.newInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +58,7 @@ implements org.j8unit.repository.javax.xml.parsers.SAXParserFactoryClassTests<SA
     @Category(Draft.class)
     public void test_newInstance()
     throws Exception {
-        // write some test for {@link SAXParserFactory#newInstance()}
+        // write some test for {@link javax.xml.parsers.SAXParserFactory#newInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.parsers.SAXParserFactory]

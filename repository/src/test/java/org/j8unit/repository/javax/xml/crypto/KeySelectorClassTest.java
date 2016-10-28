@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto;
 
-import java.security.Key;
 import javax.xml.crypto.KeySelector;
 import javax.xml.crypto.KeySelector.Purpose;
 import org.j8unit.repository.categories.Draft;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests<KeySelec
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeySelector#singletonKeySelector(Key) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.KeySelector#singletonKeySelector(java.security.Key) public static
      * javax.xml.crypto.KeySelector javax.xml.crypto.KeySelector.singletonKeySelector(java.security.Key)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,7 +38,7 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests<KeySelec
     @Category(Draft.class)
     public void test_singletonKeySelector_Key()
     throws Exception {
-        // write some test for {@link KeySelector#singletonKeySelector(Key)}
+        // write some test for {@link javax.xml.crypto.KeySelector#singletonKeySelector(java.security.Key)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.KeySelector]

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrayIconPeer#showPopupMenu(int, int) public abstract
-     * void java.awt.peer.TrayIconPeer.showPopupMenu(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.TrayIconPeer#showPopupMenu(int, int)
+     * public abstract void java.awt.peer.TrayIconPeer.showPopupMenu(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrayIconPeer#displayMessage(String, String, String)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.TrayIconPeer#displayMessage(String, String, String) public abstract void
      * java.awt.peer.TrayIconPeer.displayMessage(java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrayIconPeer#updateImage() public abstract void
-     * java.awt.peer.TrayIconPeer.updateImage()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.TrayIconPeer#updateImage() public
+     * abstract void java.awt.peer.TrayIconPeer.updateImage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrayIconPeer#dispose() public abstract void
-     * java.awt.peer.TrayIconPeer.dispose()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.TrayIconPeer#dispose() public abstract
+     * void java.awt.peer.TrayIconPeer.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrayIconPeer#setToolTip(String) public abstract void
-     * java.awt.peer.TrayIconPeer.setToolTip(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.TrayIconPeer#setToolTip(String) public
+     * abstract void java.awt.peer.TrayIconPeer.setToolTip(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.QueryEvalClassTests<QueryEval>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link QueryEval#QueryEval() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.management.QueryEval#QueryEval() public
      * javax.management.QueryEval()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.javax.management.QueryEvalClassTests<QueryEval>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QueryEval#getMBeanServer() public static
-     * javax.management.MBeanServer javax.management.QueryEval.getMBeanServer()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.QueryEval#getMBeanServer() public
+     * static javax.management.MBeanServer javax.management.QueryEval.getMBeanServer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ implements org.j8unit.repository.javax.management.QueryEvalClassTests<QueryEval>
     @Category(Draft.class)
     public void test_getMBeanServer()
     throws Exception {
-        // write some test for {@link QueryEval#getMBeanServer()}
+        // write some test for {@link javax.management.QueryEval#getMBeanServer()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.QueryEval]

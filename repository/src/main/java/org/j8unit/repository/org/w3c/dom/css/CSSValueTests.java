@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSValue#setCssText(String) public abstract void
-     * org.w3c.dom.css.CSSValue.setCssText(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSValue#setCssText(String) public
+     * abstract void org.w3c.dom.css.CSSValue.setCssText(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSValue#getCssText() public abstract
-     * java.lang.String org.w3c.dom.css.CSSValue.getCssText()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSValue#getCssText() public
+     * abstract java.lang.String org.w3c.dom.css.CSSValue.getCssText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSValue#getCssValueType() public abstract short
-     * org.w3c.dom.css.CSSValue.getCssValueType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSValue#getCssValueType() public
+     * abstract short org.w3c.dom.css.CSSValue.getCssValueType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

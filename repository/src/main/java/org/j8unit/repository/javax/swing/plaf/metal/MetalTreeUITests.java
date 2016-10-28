@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
 import javax.swing.plaf.metal.MetalTreeUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTreeUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTreeUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.metal.MetalTreeUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTreeUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTreeUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.metal.MetalTreeUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +82,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTreeUI#paint(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTreeUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.metal.MetalTreeUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletStub#appletResize(int, int) public abstract
-     * void java.applet.AppletStub.appletResize(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletStub#appletResize(int, int) public
+     * abstract void java.applet.AppletStub.appletResize(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletStub#getCodeBase() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletStub#getCodeBase() public abstract
      * java.net.URL java.applet.AppletStub.getCodeBase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletStub#getAppletContext() public abstract
-     * java.applet.AppletContext java.applet.AppletStub.getAppletContext()}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletStub#getAppletContext() public
+     * abstract java.applet.AppletContext java.applet.AppletStub.getAppletContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletStub#getParameter(String) public abstract
-     * java.lang.String java.applet.AppletStub.getParameter(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletStub#getParameter(String) public
+     * abstract java.lang.String java.applet.AppletStub.getParameter(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletStub#isActive() public abstract boolean
-     * java.applet.AppletStub.isActive()}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletStub#isActive() public abstract
+     * boolean java.applet.AppletStub.isActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletStub#getDocumentBase() public abstract
-     * java.net.URL java.applet.AppletStub.getDocumentBase()}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletStub#getDocumentBase() public
+     * abstract java.net.URL java.applet.AppletStub.getDocumentBase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

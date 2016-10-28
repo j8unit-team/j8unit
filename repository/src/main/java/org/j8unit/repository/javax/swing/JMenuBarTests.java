@@ -1,15 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Insets;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import javax.swing.JMenu;
 import javax.swing.JMenuBar;
-import javax.swing.MenuElement;
-import javax.swing.MenuSelectionManager;
-import javax.swing.SingleSelectionModel;
-import javax.swing.plaf.MenuBarUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -44,8 +35,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#add(JMenu) public javax.swing.JMenu
-     * javax.swing.JMenuBar.add(javax.swing.JMenu)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#add(javax.swing.JMenu) public
+     * javax.swing.JMenu javax.swing.JMenuBar.add(javax.swing.JMenu)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,7 +57,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getComponentAtIndex(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getComponentAtIndex(int) public
      * java.awt.Component javax.swing.JMenuBar.getComponentAtIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,7 +79,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getSelectionModel() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getSelectionModel() public
      * javax.swing.SingleSelectionModel javax.swing.JMenuBar.getSelectionModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,8 +101,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#setMargin(Insets) public void
-     * javax.swing.JMenuBar.setMargin(java.awt.Insets)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#setMargin(java.awt.Insets)
+     * public void javax.swing.JMenuBar.setMargin(java.awt.Insets)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,7 +123,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JMenuBar.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +146,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getUI() public javax.swing.plaf.MenuBarUI
-     * javax.swing.JMenuBar.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getUI() public
+     * javax.swing.plaf.MenuBarUI javax.swing.JMenuBar.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,30 +168,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#menuSelectionChanged(boolean) public void
-     * javax.swing.JMenuBar.menuSelectionChanged(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_menuSelectionChanged_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#setUI(MenuBarUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuBar#setUI(javax.swing.plaf.MenuBarUI) public void
      * javax.swing.JMenuBar.setUI(javax.swing.plaf.MenuBarUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -222,8 +191,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getHelpMenu() public javax.swing.JMenu
-     * javax.swing.JMenuBar.getHelpMenu()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#menuSelectionChanged(boolean)
+     * public void javax.swing.JMenuBar.menuSelectionChanged(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_menuSelectionChanged_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getHelpMenu() public
+     * javax.swing.JMenu javax.swing.JMenuBar.getHelpMenu()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,8 +236,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#setSelectionModel(SingleSelectionModel)
-     * public void javax.swing.JMenuBar.setSelectionModel(javax.swing.SingleSelectionModel)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuBar#setSelectionModel(javax.swing.SingleSelectionModel) public void
+     * javax.swing.JMenuBar.setSelectionModel(javax.swing.SingleSelectionModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -266,7 +259,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#addNotify() public void
      * javax.swing.JMenuBar.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,7 +282,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#removeNotify() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#removeNotify() public void
      * javax.swing.JMenuBar.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,8 +305,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getComponent() public java.awt.Component
-     * javax.swing.JMenuBar.getComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getComponent() public
+     * java.awt.Component javax.swing.JMenuBar.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -335,8 +328,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#setHelpMenu(JMenu) public void
-     * javax.swing.JMenuBar.setHelpMenu(javax.swing.JMenu)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#setHelpMenu(javax.swing.JMenu)
+     * public void javax.swing.JMenuBar.setHelpMenu(javax.swing.JMenu)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -357,8 +350,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#setSelected(Component) public void
-     * javax.swing.JMenuBar.setSelected(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#setSelected(java.awt.Component)
+     * public void javax.swing.JMenuBar.setSelected(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -379,8 +372,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getMargin() public java.awt.Insets
-     * javax.swing.JMenuBar.getMargin()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getMargin() public
+     * java.awt.Insets javax.swing.JMenuBar.getMargin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -401,7 +394,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getComponentIndex(Component) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuBar#getComponentIndex(java.awt.Component) public int
      * javax.swing.JMenuBar.getComponentIndex(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -423,7 +417,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#updateUI() public void
      * javax.swing.JMenuBar.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -446,8 +440,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#setBorderPainted(boolean) public void
-     * javax.swing.JMenuBar.setBorderPainted(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#setBorderPainted(boolean)
+     * public void javax.swing.JMenuBar.setBorderPainted(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -468,8 +462,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getUIClassID() public java.lang.String
-     * javax.swing.JMenuBar.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getUIClassID() public
+     * java.lang.String javax.swing.JMenuBar.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -492,7 +486,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMenuBar#processKeyEvent(KeyEvent, MenuElement[], MenuSelectionManager) public void
+     * {@link javax.swing.JMenuBar#processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public void
      * javax.swing.JMenuBar.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
      *
@@ -516,7 +511,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getSubElements() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getSubElements() public
      * javax.swing.MenuElement[] javax.swing.JMenuBar.getSubElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -539,30 +534,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getMenu(int) public javax.swing.JMenu
-     * javax.swing.JMenuBar.getMenu(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenu_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#isBorderPainted() public boolean
-     * javax.swing.JMenuBar.isBorderPainted()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#isBorderPainted() public
+     * boolean javax.swing.JMenuBar.isBorderPainted()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -583,7 +556,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#isSelected() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getMenu(int) public
+     * javax.swing.JMenu javax.swing.JMenuBar.getMenu(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMenu_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#isSelected() public boolean
      * javax.swing.JMenuBar.isSelected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -605,7 +600,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuBar#getMenuCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getMenuCount() public int
      * javax.swing.JMenuBar.getMenuCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -628,7 +623,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMenuBar#processMouseEvent(MouseEvent, MenuElement[], MenuSelectionManager) public void
+     * {@link javax.swing.JMenuBar#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public void
      * javax.swing.JMenuBar.processMouseEvent(java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
      *

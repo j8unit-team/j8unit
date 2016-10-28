@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialExceptionClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialException#SerialException() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialException#SerialException() public
      * javax.sql.rowset.serial.SerialException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialExceptionClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialException#SerialException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialException#SerialException(String) public
      * javax.sql.rowset.serial.SerialException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

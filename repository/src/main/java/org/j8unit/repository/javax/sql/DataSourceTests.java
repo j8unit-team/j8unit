@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataSource#getConnection(String, String) public
-     * abstract java.sql.Connection javax.sql.DataSource.getConnection(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.sql.DataSource#getConnection(String, String)
+     * public abstract java.sql.Connection javax.sql.DataSource.getConnection(java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataSource#getConnection() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.sql.DataSource#getConnection() public abstract
      * java.sql.Connection javax.sql.DataSource.getConnection() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

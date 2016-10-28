@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.util.logging;
 
-import java.util.logging.ErrorManager;
-import java.util.logging.Filter;
-import java.util.logging.Formatter;
 import java.util.logging.Handler;
-import java.util.logging.Level;
-import java.util.logging.LogRecord;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#getFormatter() public
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Handler#getFormatter() public
      * java.util.logging.Formatter java.util.logging.Handler.getFormatter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#close() public abstract void
-     * java.util.logging.Handler.close() throws java.lang.SecurityException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Handler#close() public abstract
+     * void java.util.logging.Handler.close() throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#flush() public abstract void
-     * java.util.logging.Handler.flush()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Handler#flush() public abstract
+     * void java.util.logging.Handler.flush()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +100,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#setErrorManager(ErrorManager) public
-     * synchronized void java.util.logging.Handler.setErrorManager(java.util.logging.ErrorManager)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Handler#setErrorManager(java.util.logging.ErrorManager) public synchronized void
+     * java.util.logging.Handler.setErrorManager(java.util.logging.ErrorManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#publish(LogRecord) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Handler#publish(java.util.logging.LogRecord) public abstract void
      * java.util.logging.Handler.publish(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#getEncoding() public java.lang.String
-     * java.util.logging.Handler.getEncoding()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Handler#getEncoding() public
+     * java.lang.String java.util.logging.Handler.getEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +168,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#getLevel() public java.util.logging.Level
-     * java.util.logging.Handler.getLevel()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Handler#getLevel() public
+     * java.util.logging.Level java.util.logging.Handler.getLevel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +190,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#getFilter() public java.util.logging.Filter
-     * java.util.logging.Handler.getFilter()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Handler#getFilter() public
+     * java.util.logging.Filter java.util.logging.Handler.getFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +212,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#setFormatter(Formatter) public synchronized
-     * void java.util.logging.Handler.setFormatter(java.util.logging.Formatter) throws java.lang.SecurityException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Handler#setFormatter(java.util.logging.Formatter) public synchronized void
+     * java.util.logging.Handler.setFormatter(java.util.logging.Formatter) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,7 +235,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#getErrorManager() public
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Handler#getErrorManager() public
      * java.util.logging.ErrorManager java.util.logging.Handler.getErrorManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,7 +257,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#setFilter(Filter) public synchronized void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Handler#setFilter(java.util.logging.Filter) public synchronized void
      * java.util.logging.Handler.setFilter(java.util.logging.Filter) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,7 +280,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#setLevel(Level) public synchronized void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Handler#setLevel(java.util.logging.Level) public synchronized void
      * java.util.logging.Handler.setLevel(java.util.logging.Level) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -303,8 +303,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#setEncoding(String) public synchronized void
-     * java.util.logging.Handler.setEncoding(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Handler#setEncoding(String) public
+     * synchronized void java.util.logging.Handler.setEncoding(java.lang.String) throws
      * java.lang.SecurityException,java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -326,7 +326,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#isLoggable(LogRecord) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Handler#isLoggable(java.util.logging.LogRecord) public boolean
      * java.util.logging.Handler.isLoggable(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

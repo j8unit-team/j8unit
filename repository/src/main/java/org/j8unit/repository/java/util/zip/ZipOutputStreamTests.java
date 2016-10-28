@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipOutputStream#setMethod(int) public void
-     * java.util.zip.ZipOutputStream.setMethod(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipOutputStream#setMethod(int) public
+     * void java.util.zip.ZipOutputStream.setMethod(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,8 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipOutputStream#putNextEntry(ZipEntry) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.ZipOutputStream#putNextEntry(java.util.zip.ZipEntry) public void
      * java.util.zip.ZipOutputStream.putNextEntry(java.util.zip.ZipEntry) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipOutputStream#closeEntry() public void
-     * java.util.zip.ZipOutputStream.closeEntry() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipOutputStream#closeEntry() public
+     * void java.util.zip.ZipOutputStream.closeEntry() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipOutputStream#setComment(String) public void
-     * java.util.zip.ZipOutputStream.setComment(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipOutputStream#setComment(String)
+     * public void java.util.zip.ZipOutputStream.setComment(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipOutputStream#finish() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipOutputStream#finish() public void
      * java.util.zip.ZipOutputStream.finish() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipOutputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipOutputStream#close() public void
      * java.util.zip.ZipOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +169,9 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipOutputStream#write(byte[], int, int) public
-     * synchronized void java.util.zip.ZipOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.ZipOutputStream#write(byte[], int, int) public synchronized void
+     * java.util.zip.ZipOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +193,8 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipOutputStream#setLevel(int) public void
-     * java.util.zip.ZipOutputStream.setLevel(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipOutputStream#setLevel(int) public
+     * void java.util.zip.ZipOutputStream.setLevel(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

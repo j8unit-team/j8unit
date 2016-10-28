@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Font;
 import java.awt.GraphicsEnvironment;
-import java.awt.image.BufferedImage;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#getAllFonts() public abstract
-     * java.awt.Font[] java.awt.GraphicsEnvironment.getAllFonts()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsEnvironment#getAllFonts() public
+     * abstract java.awt.Font[] java.awt.GraphicsEnvironment.getAllFonts()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#getCenterPoint() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsEnvironment#getCenterPoint() public
      * java.awt.Point java.awt.GraphicsEnvironment.getCenterPoint() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +78,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#registerFont(Font) public
-     * boolean java.awt.GraphicsEnvironment.registerFont(java.awt.Font)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsEnvironment#registerFont(java.awt.Font) public boolean
+     * java.awt.GraphicsEnvironment.registerFont(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +101,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#createGraphics(BufferedImage)
-     * public abstract java.awt.Graphics2D java.awt.GraphicsEnvironment.createGraphics(java.awt.image.BufferedImage)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsEnvironment#createGraphics(java.awt.image.BufferedImage) public abstract
+     * java.awt.Graphics2D java.awt.GraphicsEnvironment.createGraphics(java.awt.image.BufferedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#preferLocaleFonts() public void
-     * java.awt.GraphicsEnvironment.preferLocaleFonts()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsEnvironment#preferLocaleFonts()
+     * public void java.awt.GraphicsEnvironment.preferLocaleFonts()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#getScreenDevices() public
-     * abstract java.awt.GraphicsDevice[] java.awt.GraphicsEnvironment.getScreenDevices() throws
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsEnvironment#getScreenDevices()
+     * public abstract java.awt.GraphicsDevice[] java.awt.GraphicsEnvironment.getScreenDevices() throws
      * java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +169,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#preferProportionalFonts() public
-     * void java.awt.GraphicsEnvironment.preferProportionalFonts()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsEnvironment#preferProportionalFonts() public void
+     * java.awt.GraphicsEnvironment.preferProportionalFonts()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,31 +192,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#isHeadlessInstance() public
-     * boolean java.awt.GraphicsEnvironment.isHeadlessInstance()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isHeadlessInstance()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#getDefaultScreenDevice() public
-     * abstract java.awt.GraphicsDevice java.awt.GraphicsEnvironment.getDefaultScreenDevice() throws
-     * java.awt.HeadlessException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsEnvironment#getDefaultScreenDevice() public abstract java.awt.GraphicsDevice
+     * java.awt.GraphicsEnvironment.getDefaultScreenDevice() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +215,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#getMaximumWindowBounds() public
-     * java.awt.Rectangle java.awt.GraphicsEnvironment.getMaximumWindowBounds() throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsEnvironment#isHeadlessInstance()
+     * public boolean java.awt.GraphicsEnvironment.isHeadlessInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isHeadlessInstance()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsEnvironment#getMaximumWindowBounds() public java.awt.Rectangle
+     * java.awt.GraphicsEnvironment.getMaximumWindowBounds() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,8 +261,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GraphicsEnvironment#getAvailableFontFamilyNames(Locale) public abstract java.lang.String[]
-     * java.awt.GraphicsEnvironment.getAvailableFontFamilyNames(java.util.Locale)}.
+     * {@link java.awt.GraphicsEnvironment#getAvailableFontFamilyNames(java.util.Locale) public abstract
+     * java.lang.String[] java.awt.GraphicsEnvironment.getAvailableFontFamilyNames(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -282,8 +283,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsEnvironment#getAvailableFontFamilyNames()
-     * public abstract java.lang.String[] java.awt.GraphicsEnvironment.getAvailableFontFamilyNames()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsEnvironment#getAvailableFontFamilyNames() public abstract java.lang.String[]
+     * java.awt.GraphicsEnvironment.getAvailableFontFamilyNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

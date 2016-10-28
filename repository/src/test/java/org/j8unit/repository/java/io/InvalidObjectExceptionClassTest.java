@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.io.InvalidObjectExceptionClassTests<Invali
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidObjectException#InvalidObjectException(String) public
+     * {@link java.io.InvalidObjectException#InvalidObjectException(String) public
      * java.io.InvalidObjectException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

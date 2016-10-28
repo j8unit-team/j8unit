@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.imageio.stream;
 
-import java.io.File;
-import java.io.RandomAccessFile;
 import javax.imageio.stream.FileImageInputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,9 +21,10 @@ implements org.j8unit.repository.javax.imageio.stream.FileImageInputStreamClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileImageInputStream#FileImageInputStream(File)
-     * public javax.imageio.stream.FileImageInputStream(java.io.File) throws
-     * java.io.FileNotFoundException,java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.stream.FileImageInputStream#FileImageInputStream(java.io.File) public
+     * javax.imageio.stream.FileImageInputStream(java.io.File) throws java.io.FileNotFoundException,java.io.IOException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +40,13 @@ implements org.j8unit.repository.javax.imageio.stream.FileImageInputStreamClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileImageInputStream sut = null; // = new FileImageInputStream(File);
+        final FileImageInputStream sut = null; // = new FileImageInputStream(java.io.File);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FileImageInputStream#FileImageInputStream(RandomAccessFile) public
+     * {@link javax.imageio.stream.FileImageInputStream#FileImageInputStream(java.io.RandomAccessFile) public
      * javax.imageio.stream.FileImageInputStream(java.io.RandomAccessFile)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +63,7 @@ implements org.j8unit.repository.javax.imageio.stream.FileImageInputStreamClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileImageInputStream sut = null; // = new FileImageInputStream(RandomAccessFile);
+        final FileImageInputStream sut = null; // = new FileImageInputStream(java.io.RandomAccessFile);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.FileImageInputStream]

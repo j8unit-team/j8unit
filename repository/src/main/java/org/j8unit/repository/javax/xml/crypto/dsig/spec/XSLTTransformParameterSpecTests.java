@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.TransformParameterSpecT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XSLTTransformParameterSpec#getStylesheet() public
-     * javax.xml.crypto.XMLStructure javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec.getStylesheet()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec#getStylesheet() public javax.xml.crypto.XMLStructure
+     * javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec.getStylesheet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

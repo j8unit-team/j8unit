@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.rmi.activation;
 
-import java.rmi.Remote;
 import java.rmi.activation.ActivationGroup;
-import java.rmi.activation.ActivationID;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationGroup#inactiveObject(ActivationID) public
-     * boolean java.rmi.activation.ActivationGroup.inactiveObject(java.rmi.activation.ActivationID) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.activation.ActivationGroup#inactiveObject(java.rmi.activation.ActivationID) public boolean
+     * java.rmi.activation.ActivationGroup.inactiveObject(java.rmi.activation.ActivationID) throws
      * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,9 +58,10 @@ extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationGroup#activeObject(ActivationID, Remote)
-     * public abstract void
-     * java.rmi.activation.ActivationGroup.activeObject(java.rmi.activation.ActivationID,java.rmi.Remote) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.activation.ActivationGroup#activeObject(java.rmi.activation.ActivationID, java.rmi.Remote) public
+     * abstract void java.rmi.activation.ActivationGroup.activeObject(java.rmi.activation.ActivationID,java.rmi.Remote)
+     * throws
      * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

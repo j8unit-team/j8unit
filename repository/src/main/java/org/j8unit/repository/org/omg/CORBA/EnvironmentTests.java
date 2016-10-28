@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Environment#clear() public abstract void
-     * org.omg.CORBA.Environment.clear()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Environment#clear() public abstract
+     * void org.omg.CORBA.Environment.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Environment#exception(Exception) public abstract
-     * void org.omg.CORBA.Environment.exception(java.lang.Exception)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Environment#exception(Exception)
+     * public abstract void org.omg.CORBA.Environment.exception(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Environment#exception() public abstract
-     * java.lang.Exception org.omg.CORBA.Environment.exception()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Environment#exception() public
+     * abstract java.lang.Exception org.omg.CORBA.Environment.exception()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

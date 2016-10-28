@@ -23,7 +23,7 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicStampedRefere
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AtomicStampedReference#AtomicStampedReference(Object, int) public
+     * {@link java.util.concurrent.atomic.AtomicStampedReference#AtomicStampedReference(Object, int) public
      * java.util.concurrent.atomic.AtomicStampedReference(V,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

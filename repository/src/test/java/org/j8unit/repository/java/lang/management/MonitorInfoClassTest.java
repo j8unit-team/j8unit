@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.management;
 
 import java.lang.management.MonitorInfo;
-import javax.management.openmbean.CompositeData;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.lang.management.MonitorInfoClassTests<Moni
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MonitorInfo#MonitorInfo(String, int, int, StackTraceElement) public
+     * {@link java.lang.management.MonitorInfo#MonitorInfo(String, int, int, StackTraceElement) public
      * java.lang.management.MonitorInfo(java.lang.String,int,int,java.lang.StackTraceElement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +44,8 @@ implements org.j8unit.repository.java.lang.management.MonitorInfoClassTests<Moni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MonitorInfo#from(CompositeData) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MonitorInfo#from(javax.management.openmbean.CompositeData) public static
      * java.lang.management.MonitorInfo java.lang.management.MonitorInfo.from(javax.management.openmbean.CompositeData)}
      * .
      *
@@ -61,7 +61,7 @@ implements org.j8unit.repository.java.lang.management.MonitorInfoClassTests<Moni
     @Category(Draft.class)
     public void test_from_CompositeData()
     throws Exception {
-        // write some test for {@link MonitorInfo#from(CompositeData)}
+        // write some test for {@link java.lang.management.MonitorInfo#from(javax.management.openmbean.CompositeData)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.MonitorInfo]

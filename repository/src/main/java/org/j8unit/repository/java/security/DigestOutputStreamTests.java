@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.DigestOutputStream;
-import java.security.MessageDigest;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestOutputStream#getMessageDigest() public
-     * java.security.MessageDigest java.security.DigestOutputStream.getMessageDigest()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.DigestOutputStream#getMessageDigest()
+     * public java.security.MessageDigest java.security.DigestOutputStream.getMessageDigest()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestOutputStream#setMessageDigest(MessageDigest)
-     * public void java.security.DigestOutputStream.setMessageDigest(java.security.MessageDigest)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.DigestOutputStream#setMessageDigest(java.security.MessageDigest) public void
+     * java.security.DigestOutputStream.setMessageDigest(java.security.MessageDigest)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestOutputStream#toString() public
+     * Test method for the hereby targeted method-under-test {@link java.security.DigestOutputStream#toString() public
      * java.lang.String java.security.DigestOutputStream.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestOutputStream#on(boolean) public void
-     * java.security.DigestOutputStream.on(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.DigestOutputStream#on(boolean) public
+     * void java.security.DigestOutputStream.on(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,9 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestOutputStream#write(byte[], int, int) public
-     * void java.security.DigestOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.DigestOutputStream#write(byte[], int, int) public void
+     * java.security.DigestOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestOutputStream#write(int) public void
-     * java.security.DigestOutputStream.write(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.DigestOutputStream#write(int) public
+     * void java.security.DigestOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

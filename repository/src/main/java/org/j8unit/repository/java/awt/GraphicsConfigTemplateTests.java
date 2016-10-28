@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.GraphicsConfigTemplate;
-import java.awt.GraphicsConfiguration;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GraphicsConfigTemplate#isGraphicsConfigSupported(GraphicsConfiguration) public abstract boolean
-     * java.awt.GraphicsConfigTemplate.isGraphicsConfigSupported(java.awt.GraphicsConfiguration)}.
+     * {@link java.awt.GraphicsConfigTemplate#isGraphicsConfigSupported(java.awt.GraphicsConfiguration) public abstract
+     * boolean java.awt.GraphicsConfigTemplate.isGraphicsConfigSupported(java.awt.GraphicsConfiguration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GraphicsConfigTemplate#getBestConfiguration(GraphicsConfiguration[]) public abstract
+     * {@link java.awt.GraphicsConfigTemplate#getBestConfiguration(java.awt.GraphicsConfiguration[]) public abstract
      * java.awt.GraphicsConfiguration
      * java.awt.GraphicsConfigTemplate.getBestConfiguration(java.awt.GraphicsConfiguration[])}.
      *

@@ -21,8 +21,9 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.Inconsi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InconsistentTypeCode#InconsistentTypeCode()
-     * public org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode#InconsistentTypeCode() public
+     * org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.Inconsi
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InconsistentTypeCode#InconsistentTypeCode(String) public
+     * {@link org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode#InconsistentTypeCode(String) public
      * org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

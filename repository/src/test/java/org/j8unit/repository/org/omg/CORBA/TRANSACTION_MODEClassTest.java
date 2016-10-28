@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.TRANSACTION_MODE;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_MODEClassTests<TRANSA
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TRANSACTION_MODE#TRANSACTION_MODE(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.TRANSACTION_MODE#TRANSACTION_MODE(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.TRANSACTION_MODE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_MODEClassTests<TRANSA
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TRANSACTION_MODE sut = null; // = new TRANSACTION_MODE(String, int, CompletionStatus);
+        final TRANSACTION_MODE sut = null; // = new TRANSACTION_MODE(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TRANSACTION_MODE#TRANSACTION_MODE(int, CompletionStatus) public
+     * {@link org.omg.CORBA.TRANSACTION_MODE#TRANSACTION_MODE(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.TRANSACTION_MODE(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +62,14 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_MODEClassTests<TRANSA
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TRANSACTION_MODE sut = null; // = new TRANSACTION_MODE(int, CompletionStatus);
+        final TRANSACTION_MODE sut = null; // = new TRANSACTION_MODE(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TRANSACTION_MODE#TRANSACTION_MODE(String)
-     * public org.omg.CORBA.TRANSACTION_MODE(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.TRANSACTION_MODE#TRANSACTION_MODE(String) public
+     * org.omg.CORBA.TRANSACTION_MODE(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,8 +90,8 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_MODEClassTests<TRANSA
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TRANSACTION_MODE#TRANSACTION_MODE() public
-     * org.omg.CORBA.TRANSACTION_MODE()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.TRANSACTION_MODE#TRANSACTION_MODE() public org.omg.CORBA.TRANSACTION_MODE()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.charset.CoderMalfunctionErrorClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CoderMalfunctionError#CoderMalfunctionError(Exception) public
+     * {@link java.nio.charset.CoderMalfunctionError#CoderMalfunctionError(Exception) public
      * java.nio.charset.CoderMalfunctionError(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

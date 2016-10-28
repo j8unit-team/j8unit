@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetMetaDataImplClassTests<R
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RowSetMetaDataImpl#RowSetMetaDataImpl() public
-     * javax.sql.rowset.RowSetMetaDataImpl()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.RowSetMetaDataImpl#RowSetMetaDataImpl() public javax.sql.rowset.RowSetMetaDataImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

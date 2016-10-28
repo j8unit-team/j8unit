@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.modelmbean;
 
-import javax.management.Descriptor;
 import javax.management.modelmbean.ModelMBeanNotificationInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificat
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(ModelMBeanNotificationInfo) public
+     * {@link javax.management.modelmbean.ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(javax.management.modelmbean.ModelMBeanNotificationInfo)
+     * public
      * javax.management.modelmbean.ModelMBeanNotificationInfo(javax.management.modelmbean.ModelMBeanNotificationInfo)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +40,15 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificat
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ModelMBeanNotificationInfo sut = null; // = new ModelMBeanNotificationInfo(ModelMBeanNotificationInfo);
+        final ModelMBeanNotificationInfo sut = null; // = new
+                                                     // ModelMBeanNotificationInfo(javax.management.modelmbean.ModelMBeanNotificationInfo);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(String[], String, String, Descriptor) public
+     * {@link javax.management.modelmbean.ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(String[], String, String, javax.management.Descriptor)
+     * public
      * javax.management.modelmbean.ModelMBeanNotificationInfo(java.lang.String[],java.lang.String,java.lang.String,javax.management.Descriptor)}
      * .
      *
@@ -65,13 +67,14 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificat
         // create new instance
         @SuppressWarnings("unused")
         final ModelMBeanNotificationInfo sut = null; // = new ModelMBeanNotificationInfo(String[], String, String,
-                                                     // Descriptor);
+                                                     // javax.management.Descriptor);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(String[], String, String) public
+     * {@link javax.management.modelmbean.ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(String[], String, String)
+     * public
      * javax.management.modelmbean.ModelMBeanNotificationInfo(java.lang.String[],java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

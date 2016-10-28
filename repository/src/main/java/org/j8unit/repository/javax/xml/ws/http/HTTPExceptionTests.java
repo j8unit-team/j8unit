@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.ws.ProtocolExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTTPException#getStatusCode() public int
-     * javax.xml.ws.http.HTTPException.getStatusCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.http.HTTPException#getStatusCode()
+     * public int javax.xml.ws.http.HTTPException.getStatusCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

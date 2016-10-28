@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
 import java.time.chrono.HijrahEra;
-import java.time.temporal.TemporalField;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahEra#range(TemporalField) public
-     * java.time.temporal.ValueRange java.time.chrono.HijrahEra.range(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.HijrahEra#range(java.time.temporal.TemporalField) public java.time.temporal.ValueRange
+     * java.time.chrono.HijrahEra.range(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahEra#getValue() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahEra#getValue() public int
      * java.time.chrono.HijrahEra.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

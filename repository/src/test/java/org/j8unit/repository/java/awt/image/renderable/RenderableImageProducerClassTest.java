@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt.image.renderable;
 
-import java.awt.image.renderable.RenderContext;
-import java.awt.image.renderable.RenderableImage;
 import java.awt.image.renderable.RenderableImageProducer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderableImageProduc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RenderableImageProducer#RenderableImageProducer(RenderableImage, RenderContext) public
+     * {@link java.awt.image.renderable.RenderableImageProducer#RenderableImageProducer(java.awt.image.renderable.RenderableImage, java.awt.image.renderable.RenderContext)
+     * public
      * java.awt.image.renderable.RenderableImageProducer(java.awt.image.renderable.RenderableImage,java.awt.image.renderable.RenderContext)}
      * .
      *
@@ -42,7 +41,9 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderableImageProduc
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RenderableImageProducer sut = null; // = new RenderableImageProducer(RenderableImage, RenderContext);
+        final RenderableImageProducer sut = null; // = new
+                                                  // RenderableImageProducer(java.awt.image.renderable.RenderableImage,
+                                                  // java.awt.image.renderable.RenderContext);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.RenderableImageProducer]

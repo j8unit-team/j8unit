@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.Hashtable;
-import java.util.Map;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +35,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#keySet() public java.util.Set
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#keySet() public java.util.Set
      * <K> java.util.Hashtable.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +58,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#hashCode() public synchronized int
-     * java.util.Hashtable.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#hashCode() public synchronized
+     * int java.util.Hashtable.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +81,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#merge(Object, Object, BiFunction) public
-     * synchronized V java.util.Hashtable.merge(K,V,java.util.function.BiFunction<? super V, ? super V, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Hashtable#merge(Object, Object, java.util.function.BiFunction) public synchronized V
+     * java.util.Hashtable.merge(K,V,java.util.function.BiFunction<? super V, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +105,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#putAll(Map) public synchronized void
-     * java.util.Hashtable.putAll(java.util.Map<? extends K, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#putAll(java.util.Map) public
+     * synchronized void java.util.Hashtable.putAll(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,8 +128,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#get(Object) public synchronized V
-     * java.util.Hashtable.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#get(Object) public synchronized
+     * V java.util.Hashtable.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,8 +151,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#compute(Object, BiFunction) public
-     * synchronized V java.util.Hashtable.compute(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Hashtable#compute(Object, java.util.function.BiFunction) public synchronized V
+     * java.util.Hashtable.compute(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +175,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#containsValue(Object) public boolean
-     * java.util.Hashtable.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#containsValue(Object) public
+     * boolean java.util.Hashtable.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +198,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#put(Object, Object) public synchronized V
-     * java.util.Hashtable.put(K,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#put(Object, Object) public
+     * synchronized V java.util.Hashtable.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,8 +221,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#remove(Object) public synchronized V
-     * java.util.Hashtable.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#remove(Object) public
+     * synchronized V java.util.Hashtable.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -246,8 +244,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#remove(Object, Object) public synchronized
-     * boolean java.util.Hashtable.remove(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#remove(Object, Object) public
+     * synchronized boolean java.util.Hashtable.remove(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,8 +267,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#replaceAll(BiFunction) public synchronized
-     * void java.util.Hashtable.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Hashtable#replaceAll(java.util.function.BiFunction) public synchronized void
+     * java.util.Hashtable.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -292,7 +291,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#replace(Object, Object) public
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#replace(Object, Object) public
      * synchronized V java.util.Hashtable.replace(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -315,8 +314,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#replace(Object, Object, Object) public
-     * synchronized boolean java.util.Hashtable.replace(K,V,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#replace(Object, Object, Object)
+     * public synchronized boolean java.util.Hashtable.replace(K,V,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -338,7 +337,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#keys() public synchronized
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#keys() public synchronized
      * java.util.Enumeration<K> java.util.Hashtable.keys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -361,8 +360,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#computeIfAbsent(Object, Function) public
-     * synchronized V java.util.Hashtable.computeIfAbsent(K,java.util.function.Function<? super K, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Hashtable#computeIfAbsent(Object, java.util.function.Function) public synchronized V
+     * java.util.Hashtable.computeIfAbsent(K,java.util.function.Function<? super K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -384,8 +384,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#values() public java.util.Collection
-     * <V> java.util.Hashtable.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#values() public
+     * java.util.Collection<V> java.util.Hashtable.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -407,8 +407,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#getOrDefault(Object, Object) public
-     * synchronized V java.util.Hashtable.getOrDefault(java.lang.Object,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#getOrDefault(Object, Object)
+     * public synchronized V java.util.Hashtable.getOrDefault(java.lang.Object,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -430,8 +430,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#putIfAbsent(Object, Object) public
-     * synchronized V java.util.Hashtable.putIfAbsent(K,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#putIfAbsent(Object, Object)
+     * public synchronized V java.util.Hashtable.putIfAbsent(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -453,7 +453,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#toString() public synchronized
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#toString() public synchronized
      * java.lang.String java.util.Hashtable.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -476,7 +476,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#clone() public synchronized
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#clone() public synchronized
      * java.lang.Object java.util.Hashtable.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -498,7 +498,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#elements() public synchronized
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#elements() public synchronized
      * java.util.Enumeration<V> java.util.Hashtable.elements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -521,8 +521,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#equals(Object) public synchronized boolean
-     * java.util.Hashtable.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#equals(Object) public
+     * synchronized boolean java.util.Hashtable.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -544,7 +544,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#size() public synchronized int
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#size() public synchronized int
      * java.util.Hashtable.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -567,8 +567,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#contains(Object) public synchronized
-     * boolean java.util.Hashtable.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#contains(Object) public
+     * synchronized boolean java.util.Hashtable.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -589,9 +589,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#computeIfPresent(Object, BiFunction)
-     * public synchronized V java.util.Hashtable.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super V,
-     * ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Hashtable#computeIfPresent(Object, java.util.function.BiFunction) public synchronized V
+     * java.util.Hashtable.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -613,8 +613,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#isEmpty() public synchronized boolean
-     * java.util.Hashtable.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#isEmpty() public synchronized
+     * boolean java.util.Hashtable.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -636,7 +636,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#clear() public synchronized void
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#clear() public synchronized void
      * java.util.Hashtable.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -659,8 +659,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#forEach(BiConsumer) public synchronized
-     * void java.util.Hashtable.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Hashtable#forEach(java.util.function.BiConsumer) public synchronized void
+     * java.util.Hashtable.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -682,8 +683,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#containsKey(Object) public synchronized
-     * boolean java.util.Hashtable.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#containsKey(Object) public
+     * synchronized boolean java.util.Hashtable.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -705,7 +706,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Hashtable#entrySet() public
+     * Test method for the hereby targeted method-under-test {@link java.util.Hashtable#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.Hashtable.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

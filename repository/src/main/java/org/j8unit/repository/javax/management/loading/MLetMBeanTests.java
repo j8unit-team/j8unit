@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.loading;
 
-import java.net.URL;
 import javax.management.loading.MLetMBean;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#setLibraryDirectory(String) public
-     * abstract void javax.management.loading.MLetMBean.setLibraryDirectory(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetMBean#setLibraryDirectory(String) public abstract void
+     * javax.management.loading.MLetMBean.setLibraryDirectory(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#getLibraryDirectory() public abstract
-     * java.lang.String javax.management.loading.MLetMBean.getLibraryDirectory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetMBean#getLibraryDirectory() public abstract java.lang.String
+     * javax.management.loading.MLetMBean.getLibraryDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#addURL(URL) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetMBean#addURL(java.net.URL) public abstract void
      * javax.management.loading.MLetMBean.addURL(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#addURL(String) public abstract void
-     * javax.management.loading.MLetMBean.addURL(java.lang.String) throws javax.management.ServiceNotFoundException}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLetMBean#addURL(String)
+     * public abstract void javax.management.loading.MLetMBean.addURL(java.lang.String) throws
+     * javax.management.ServiceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#getURLs() public abstract java.net.URL[]
-     * javax.management.loading.MLetMBean.getURLs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLetMBean#getURLs() public
+     * abstract java.net.URL[] javax.management.loading.MLetMBean.getURLs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +149,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#getResource(String) public abstract
-     * java.net.URL javax.management.loading.MLetMBean.getResource(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetMBean#getResource(String) public abstract java.net.URL
+     * javax.management.loading.MLetMBean.getResource(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,9 +172,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#getResources(String) public abstract
-     * java.util.Enumeration<java.net.URL> javax.management.loading.MLetMBean.getResources(java.lang.String) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetMBean#getResources(String) public abstract java.util.Enumeration
+     * <java.net.URL> javax.management.loading.MLetMBean.getResources(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +195,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#getResourceAsStream(String) public
-     * abstract java.io.InputStream javax.management.loading.MLetMBean.getResourceAsStream(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetMBean#getResourceAsStream(String) public abstract java.io.InputStream
+     * javax.management.loading.MLetMBean.getResourceAsStream(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +218,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#getMBeansFromURL(URL) public abstract
-     * java.util.Set<java.lang.Object> javax.management.loading.MLetMBean.getMBeansFromURL(java.net.URL) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetMBean#getMBeansFromURL(java.net.URL) public abstract java.util.Set
+     * <java.lang.Object> javax.management.loading.MLetMBean.getMBeansFromURL(java.net.URL) throws
      * javax.management.ServiceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +242,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MLetMBean#getMBeansFromURL(String) public abstract
-     * java.util.Set<java.lang.Object> javax.management.loading.MLetMBean.getMBeansFromURL(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLetMBean#getMBeansFromURL(String) public abstract java.util.Set
+     * <java.lang.Object> javax.management.loading.MLetMBean.getMBeansFromURL(java.lang.String) throws
      * javax.management.ServiceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

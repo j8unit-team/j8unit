@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.sound.midi.SoundbankResourceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrument#getPatch() public javax.sound.midi.Patch
-     * javax.sound.midi.Instrument.getPatch()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Instrument#getPatch() public
+     * javax.sound.midi.Patch javax.sound.midi.Instrument.getPatch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

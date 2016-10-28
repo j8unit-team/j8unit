@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.xml.transform.stream;
 
-import java.io.File;
-import java.io.OutputStream;
-import java.io.Writer;
 import javax.xml.transform.stream.StreamResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +34,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamResult#setSystemId(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamResult#setSystemId(String) public void
      * javax.xml.transform.stream.StreamResult.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +58,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamResult#setSystemId(File) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamResult#setSystemId(java.io.File) public void
      * javax.xml.transform.stream.StreamResult.setSystemId(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +81,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamResult#getWriter() public java.io.Writer
-     * javax.xml.transform.stream.StreamResult.getWriter()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.stream.StreamResult#getWriter()
+     * public java.io.Writer javax.xml.transform.stream.StreamResult.getWriter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,9 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamResult#setOutputStream(OutputStream) public
-     * void javax.xml.transform.stream.StreamResult.setOutputStream(java.io.OutputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamResult#setOutputStream(java.io.OutputStream) public void
+     * javax.xml.transform.stream.StreamResult.setOutputStream(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +126,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamResult#getSystemId() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamResult#getSystemId() public java.lang.String
      * javax.xml.transform.stream.StreamResult.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +150,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamResult#setWriter(Writer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamResult#setWriter(java.io.Writer) public void
      * javax.xml.transform.stream.StreamResult.setWriter(java.io.Writer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +173,9 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamResult#getOutputStream() public
-     * java.io.OutputStream javax.xml.transform.stream.StreamResult.getOutputStream()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamResult#getOutputStream() public java.io.OutputStream
+     * javax.xml.transform.stream.StreamResult.getOutputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

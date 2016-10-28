@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.ldap.SortResponseControlClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SortResponseControl#SortResponseControl(String, boolean, byte[]) public
+     * {@link javax.naming.ldap.SortResponseControl#SortResponseControl(String, boolean, byte[]) public
      * javax.naming.ldap.SortResponseControl(java.lang.String,boolean,byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

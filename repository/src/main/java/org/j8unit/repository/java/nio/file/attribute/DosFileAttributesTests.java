@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributes#isHidden() public abstract boolean
-     * java.nio.file.attribute.DosFileAttributes.isHidden()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.DosFileAttributes#isHidden()
+     * public abstract boolean java.nio.file.attribute.DosFileAttributes.isHidden()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributes#isSystem() public abstract boolean
-     * java.nio.file.attribute.DosFileAttributes.isSystem()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.DosFileAttributes#isSystem()
+     * public abstract boolean java.nio.file.attribute.DosFileAttributes.isSystem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,9 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributes#isArchive() public abstract
-     * boolean java.nio.file.attribute.DosFileAttributes.isArchive()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.DosFileAttributes#isArchive() public abstract boolean
+     * java.nio.file.attribute.DosFileAttributes.isArchive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,9 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributes#isReadOnly() public abstract
-     * boolean java.nio.file.attribute.DosFileAttributes.isReadOnly()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.DosFileAttributes#isReadOnly() public abstract boolean
+     * java.nio.file.attribute.DosFileAttributes.isReadOnly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

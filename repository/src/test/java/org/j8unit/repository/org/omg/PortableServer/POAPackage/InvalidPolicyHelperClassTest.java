@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableServer.POAPackage.InvalidPolicy;
 import org.omg.PortableServer.POAPackage.InvalidPolicyHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,9 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidPolicyHelper#InvalidPolicyHelper()
-     * public org.omg.PortableServer.POAPackage.InvalidPolicyHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#InvalidPolicyHelper() public
+     * org.omg.PortableServer.POAPackage.InvalidPolicyHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidPolicyHelper#read(InputStream) public static
-     * org.omg.PortableServer.POAPackage.InvalidPolicy
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.PortableServer.POAPackage.InvalidPolicy
      * org.omg.PortableServer.POAPackage.InvalidPolicyHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +60,14 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link InvalidPolicyHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.InvalidPolicyHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidPolicyHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.PortableServer.POAPackage.InvalidPolicy
      * org.omg.PortableServer.POAPackage.InvalidPolicyHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -83,13 +83,14 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link InvalidPolicyHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidPolicyHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableServer.POAPackage.InvalidPolicyHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableServer.POAPackage.InvalidPolicyHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,13 +104,14 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link InvalidPolicyHelper#type()}
+        // write some test for {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InvalidPolicyHelper#write(OutputStream, InvalidPolicy) public static void
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableServer.POAPackage.InvalidPolicy)
+     * public static void
      * org.omg.PortableServer.POAPackage.InvalidPolicyHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.POAPackage.InvalidPolicy)}
      * .
      *
@@ -125,12 +127,15 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
     @Category(Draft.class)
     public void test_write_OutputStream_InvalidPolicy()
     throws Exception {
-        // write some test for {@link InvalidPolicyHelper#write(OutputStream, InvalidPolicy)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.InvalidPolicyHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableServer.POAPackage.InvalidPolicy)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidPolicyHelper#insert(Any, InvalidPolicy)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#insert(org.omg.CORBA.Any, org.omg.PortableServer.POAPackage.InvalidPolicy)
      * public static void
      * org.omg.PortableServer.POAPackage.InvalidPolicyHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POAPackage.InvalidPolicy)}
      * .
@@ -147,13 +152,15 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
     @Category(Draft.class)
     public void test_insert_Any_InvalidPolicy()
     throws Exception {
-        // write some test for {@link InvalidPolicyHelper#insert(Any, InvalidPolicy)}
+        // write some test for {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableServer.POAPackage.InvalidPolicy)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidPolicyHelper#id() public static
-     * java.lang.String org.omg.PortableServer.POAPackage.InvalidPolicyHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#id() public static java.lang.String
+     * org.omg.PortableServer.POAPackage.InvalidPolicyHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +174,7 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link InvalidPolicyHelper#id()}
+        // write some test for {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#id()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.InvalidPolicyHelper]

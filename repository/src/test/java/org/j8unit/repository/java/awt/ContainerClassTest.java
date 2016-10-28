@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.ContainerClassTests<Container> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Container#Container() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Container#Container() public
      * java.awt.Container()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JButton#isDefaultCapable() public boolean
-     * javax.swing.JButton.isDefaultCapable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JButton#isDefaultCapable() public
+     * boolean javax.swing.JButton.isDefaultCapable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JButton#setDefaultCapable(boolean) public void
-     * javax.swing.JButton.setDefaultCapable(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JButton#setDefaultCapable(boolean)
+     * public void javax.swing.JButton.setDefaultCapable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JButton#getUIClassID() public java.lang.String
-     * javax.swing.JButton.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JButton#getUIClassID() public
+     * java.lang.String javax.swing.JButton.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JButton#removeNotify() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JButton#removeNotify() public void
      * javax.swing.JButton.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JButton#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JButton#updateUI() public void
      * javax.swing.JButton.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +147,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JButton#isDefaultButton() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JButton#isDefaultButton() public boolean
      * javax.swing.JButton.isDefaultButton()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +169,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JButton#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JButton#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JButton.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

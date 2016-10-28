@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.cert.CRLSelector;
-import java.security.cert.CertSelector;
 import java.security.cert.CertStoreSpi;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStoreSpi#engineGetCertificates(CertSelector)
-     * public abstract java.util.Collection<? extends java.security.cert.Certificate>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertStoreSpi#engineGetCertificates(java.security.cert.CertSelector) public abstract
+     * java.util.Collection<? extends java.security.cert.Certificate>
      * java.security.cert.CertStoreSpi.engineGetCertificates(java.security.cert.CertSelector) throws
      * java.security.cert.CertStoreException}.
      *
@@ -60,8 +59,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStoreSpi#engineGetCRLs(CRLSelector) public
-     * abstract java.util.Collection<? extends java.security.cert.CRL>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertStoreSpi#engineGetCRLs(java.security.cert.CRLSelector) public abstract
+     * java.util.Collection<? extends java.security.cert.CRL>
      * java.security.cert.CertStoreSpi.engineGetCRLs(java.security.cert.CRLSelector) throws
      * java.security.cert.CertStoreException}.
      *

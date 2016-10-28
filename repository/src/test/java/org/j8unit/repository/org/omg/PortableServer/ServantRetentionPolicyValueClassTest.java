@@ -21,8 +21,9 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyVa
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantRetentionPolicyValue#from_int(int) public
-     * static org.omg.PortableServer.ServantRetentionPolicyValue
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantRetentionPolicyValue#from_int(int) public static
+     * org.omg.PortableServer.ServantRetentionPolicyValue
      * org.omg.PortableServer.ServantRetentionPolicyValue.from_int(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +38,7 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyVa
     @Category(Draft.class)
     public void test_from_int_int()
     throws Exception {
-        // write some test for {@link ServantRetentionPolicyValue#from_int(int)}
+        // write some test for {@link org.omg.PortableServer.ServantRetentionPolicyValue#from_int(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantRetentionPolicyValue]

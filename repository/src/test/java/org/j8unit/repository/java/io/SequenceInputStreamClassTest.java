@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.io;
 
-import java.io.InputStream;
 import java.io.SequenceInputStream;
-import java.util.Enumeration;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.io.SequenceInputStreamClassTests<SequenceI
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SequenceInputStream#SequenceInputStream(Enumeration) public
+     * {@link java.io.SequenceInputStream#SequenceInputStream(java.util.Enumeration) public
      * java.io.SequenceInputStream(java.util.Enumeration<? extends java.io.InputStream>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,13 @@ implements org.j8unit.repository.java.io.SequenceInputStreamClassTests<SequenceI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SequenceInputStream sut = null; // = new SequenceInputStream(Enumeration);
+        final SequenceInputStream sut = null; // = new SequenceInputStream(java.util.Enumeration);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SequenceInputStream#SequenceInputStream(InputStream, InputStream) public
+     * {@link java.io.SequenceInputStream#SequenceInputStream(java.io.InputStream, java.io.InputStream) public
      * java.io.SequenceInputStream(java.io.InputStream,java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +62,7 @@ implements org.j8unit.repository.java.io.SequenceInputStreamClassTests<SequenceI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SequenceInputStream sut = null; // = new SequenceInputStream(InputStream, InputStream);
+        final SequenceInputStream sut = null; // = new SequenceInputStream(java.io.InputStream, java.io.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.SequenceInputStream]

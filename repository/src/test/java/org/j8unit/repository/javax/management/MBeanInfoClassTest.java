@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Descriptor;
-import javax.management.MBeanAttributeInfo;
-import javax.management.MBeanConstructorInfo;
 import javax.management.MBeanInfo;
-import javax.management.MBeanNotificationInfo;
-import javax.management.MBeanOperationInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -27,7 +22,7 @@ implements org.j8unit.repository.javax.management.MBeanInfoClassTests<MBeanInfo>
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanInfo#MBeanInfo(String, String, MBeanAttributeInfo[], MBeanConstructorInfo[], MBeanOperationInfo[], MBeanNotificationInfo[])
+     * {@link javax.management.MBeanInfo#MBeanInfo(String, String, javax.management.MBeanAttributeInfo[], javax.management.MBeanConstructorInfo[], javax.management.MBeanOperationInfo[], javax.management.MBeanNotificationInfo[])
      * public
      * javax.management.MBeanInfo(java.lang.String,java.lang.String,javax.management.MBeanAttributeInfo[],javax.management.MBeanConstructorInfo[],javax.management.MBeanOperationInfo[],javax.management.MBeanNotificationInfo[])
      * throws java.lang.IllegalArgumentException}.
@@ -46,14 +41,15 @@ implements org.j8unit.repository.javax.management.MBeanInfoClassTests<MBeanInfo>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanInfo sut = null; // = new MBeanInfo(String, String, MBeanAttributeInfo[], MBeanConstructorInfo[],
-                                    // MBeanOperationInfo[], MBeanNotificationInfo[]);
+        final MBeanInfo sut = null; // = new MBeanInfo(String, String, javax.management.MBeanAttributeInfo[],
+                                    // javax.management.MBeanConstructorInfo[], javax.management.MBeanOperationInfo[],
+                                    // javax.management.MBeanNotificationInfo[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanInfo#MBeanInfo(String, String, MBeanAttributeInfo[], MBeanConstructorInfo[], MBeanOperationInfo[], MBeanNotificationInfo[], Descriptor)
+     * {@link javax.management.MBeanInfo#MBeanInfo(String, String, javax.management.MBeanAttributeInfo[], javax.management.MBeanConstructorInfo[], javax.management.MBeanOperationInfo[], javax.management.MBeanNotificationInfo[], javax.management.Descriptor)
      * public
      * javax.management.MBeanInfo(java.lang.String,java.lang.String,javax.management.MBeanAttributeInfo[],javax.management.MBeanConstructorInfo[],javax.management.MBeanOperationInfo[],javax.management.MBeanNotificationInfo[],javax.management.Descriptor)
      * throws java.lang.IllegalArgumentException}.
@@ -72,8 +68,9 @@ implements org.j8unit.repository.javax.management.MBeanInfoClassTests<MBeanInfo>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanInfo sut = null; // = new MBeanInfo(String, String, MBeanAttributeInfo[], MBeanConstructorInfo[],
-                                    // MBeanOperationInfo[], MBeanNotificationInfo[], Descriptor);
+        final MBeanInfo sut = null; // = new MBeanInfo(String, String, javax.management.MBeanAttributeInfo[],
+                                    // javax.management.MBeanConstructorInfo[], javax.management.MBeanOperationInfo[],
+                                    // javax.management.MBeanNotificationInfo[], javax.management.Descriptor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanInfo]

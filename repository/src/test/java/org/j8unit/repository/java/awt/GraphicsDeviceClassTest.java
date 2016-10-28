@@ -35,7 +35,8 @@ implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests<GraphicsDevic
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WindowTranslucency#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.GraphicsDevice.WindowTranslucency#values() public static
          * java.awt.GraphicsDevice$WindowTranslucency[] java.awt.GraphicsDevice$WindowTranslucency.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -50,12 +51,13 @@ implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests<GraphicsDevic
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link WindowTranslucency#values()}
+            // write some test for {@link java.awt.GraphicsDevice.WindowTranslucency#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link WindowTranslucency#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.GraphicsDevice.WindowTranslucency#valueOf(String) public static
          * java.awt.GraphicsDevice$WindowTranslucency
          * java.awt.GraphicsDevice$WindowTranslucency.valueOf(java.lang.String)}.
          *
@@ -71,7 +73,7 @@ implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests<GraphicsDevic
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link WindowTranslucency#valueOf(String)}
+            // write some test for {@link java.awt.GraphicsDevice.WindowTranslucency#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GraphicsDevice$WindowTranslucency]

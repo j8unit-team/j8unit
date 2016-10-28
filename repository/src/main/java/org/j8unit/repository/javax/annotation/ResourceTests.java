@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Resource#name() public abstract java.lang.String
-     * javax.annotation.Resource.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#name() public abstract
+     * java.lang.String javax.annotation.Resource.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Resource#description() public abstract
-     * java.lang.String javax.annotation.Resource.description()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#description() public
+     * abstract java.lang.String javax.annotation.Resource.description()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Resource#authenticationType() public abstract
-     * javax.annotation.Resource$AuthenticationType javax.annotation.Resource.authenticationType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#authenticationType()
+     * public abstract javax.annotation.Resource$AuthenticationType javax.annotation.Resource.authenticationType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Resource#type() public abstract java.lang.Class
-     * <?> javax.annotation.Resource.type()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#type() public abstract
+     * java.lang.Class<?> javax.annotation.Resource.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Resource#mappedName() public abstract
-     * java.lang.String javax.annotation.Resource.mappedName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#mappedName() public
+     * abstract java.lang.String javax.annotation.Resource.mappedName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Resource#shareable() public abstract boolean
-     * javax.annotation.Resource.shareable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#shareable() public
+     * abstract boolean javax.annotation.Resource.shareable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Resource#lookup() public abstract java.lang.String
-     * javax.annotation.Resource.lookup()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#lookup() public abstract
+     * java.lang.String javax.annotation.Resource.lookup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

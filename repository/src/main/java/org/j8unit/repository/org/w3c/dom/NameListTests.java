@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameList#contains(String) public abstract boolean
-     * org.w3c.dom.NameList.contains(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.NameList#contains(String) public
+     * abstract boolean org.w3c.dom.NameList.contains(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameList#getName(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.NameList#getName(int) public abstract
      * java.lang.String org.w3c.dom.NameList.getName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameList#containsNS(String, String) public abstract
-     * boolean org.w3c.dom.NameList.containsNS(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.NameList#containsNS(String, String)
+     * public abstract boolean org.w3c.dom.NameList.containsNS(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameList#getLength() public abstract int
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.NameList#getLength() public abstract int
      * org.w3c.dom.NameList.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameList#getNamespaceURI(int) public abstract
-     * java.lang.String org.w3c.dom.NameList.getNamespaceURI(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.NameList#getNamespaceURI(int) public
+     * abstract java.lang.String org.w3c.dom.NameList.getNamespaceURI(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

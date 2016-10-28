@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorType#getID() public final int
-     * javax.swing.plaf.synth.ColorType.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.synth.ColorType#getID() public
+     * final int javax.swing.plaf.synth.ColorType.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorType#toString() public java.lang.String
-     * javax.swing.plaf.synth.ColorType.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.synth.ColorType#toString() public
+     * java.lang.String javax.swing.plaf.synth.ColorType.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

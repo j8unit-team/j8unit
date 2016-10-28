@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.sound.midi.spi;
 
-import java.io.File;
-import java.io.InputStream;
-import java.net.URL;
 import javax.sound.midi.spi.SoundbankReader;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SoundbankReader#getSoundbank(URL) public abstract
-     * javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.net.URL) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.SoundbankReader#getSoundbank(java.net.URL) public abstract javax.sound.midi.Soundbank
+     * javax.sound.midi.spi.SoundbankReader.getSoundbank(java.net.URL) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +58,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SoundbankReader#getSoundbank(InputStream) public
-     * abstract javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.InputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.SoundbankReader#getSoundbank(java.io.InputStream) public abstract
+     * javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.InputStream) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +82,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SoundbankReader#getSoundbank(File) public abstract
-     * javax.sound.midi.Soundbank javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.File) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.SoundbankReader#getSoundbank(java.io.File) public abstract javax.sound.midi.Soundbank
+     * javax.sound.midi.spi.SoundbankReader.getSoundbank(java.io.File) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

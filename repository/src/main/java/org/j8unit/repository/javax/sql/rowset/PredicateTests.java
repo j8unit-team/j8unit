@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset;
 
-import javax.sql.RowSet;
 import javax.sql.rowset.Predicate;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Predicate#evaluate(Object, String) public abstract
-     * boolean javax.sql.rowset.Predicate.evaluate(java.lang.Object,java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Predicate#evaluate(Object, String)
+     * public abstract boolean javax.sql.rowset.Predicate.evaluate(java.lang.Object,java.lang.String) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Predicate#evaluate(Object, int) public abstract
-     * boolean javax.sql.rowset.Predicate.evaluate(java.lang.Object,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Predicate#evaluate(Object, int)
+     * public abstract boolean javax.sql.rowset.Predicate.evaluate(java.lang.Object,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Predicate#evaluate(RowSet) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.Predicate#evaluate(javax.sql.RowSet) public abstract boolean
      * javax.sql.rowset.Predicate.evaluate(javax.sql.RowSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

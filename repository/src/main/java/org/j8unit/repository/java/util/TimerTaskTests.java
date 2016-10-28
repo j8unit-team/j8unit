@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimerTask#scheduledExecutionTime() public long
-     * java.util.TimerTask.scheduledExecutionTime()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.TimerTask#scheduledExecutionTime() public
+     * long java.util.TimerTask.scheduledExecutionTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimerTask#run() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.util.TimerTask#run() public abstract void
      * java.util.TimerTask.run()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TimerTask#cancel() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.TimerTask#cancel() public boolean
      * java.util.TimerTask.cancel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

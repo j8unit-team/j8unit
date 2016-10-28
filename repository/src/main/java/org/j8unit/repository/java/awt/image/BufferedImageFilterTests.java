@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.BufferedImageFilter;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedImageFilter#setDimensions(int, int) public
-     * void java.awt.image.BufferedImageFilter.setDimensions(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BufferedImageFilter#setDimensions(int, int) public void
+     * java.awt.image.BufferedImageFilter.setDimensions(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedImageFilter#getBufferedImageOp() public
-     * java.awt.image.BufferedImageOp java.awt.image.BufferedImageFilter.getBufferedImageOp()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BufferedImageFilter#getBufferedImageOp() public java.awt.image.BufferedImageOp
+     * java.awt.image.BufferedImageFilter.getBufferedImageOp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedImageFilter#setColorModel(ColorModel) public
-     * void java.awt.image.BufferedImageFilter.setColorModel(java.awt.image.ColorModel)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BufferedImageFilter#setColorModel(java.awt.image.ColorModel) public void
+     * java.awt.image.BufferedImageFilter.setColorModel(java.awt.image.ColorModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +105,8 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedImageFilter#imageComplete(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BufferedImageFilter#imageComplete(int) public void
      * java.awt.image.BufferedImageFilter.imageComplete(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,7 +130,8 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BufferedImageFilter#setPixels(int, int, int, int, ColorModel, byte[], int, int) public void
+     * {@link java.awt.image.BufferedImageFilter#setPixels(int, int, int, int, java.awt.image.ColorModel, byte[], int, int)
+     * public void
      * java.awt.image.BufferedImageFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,7 +155,8 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BufferedImageFilter#setPixels(int, int, int, int, ColorModel, int[], int, int) public void
+     * {@link java.awt.image.BufferedImageFilter#setPixels(int, int, int, int, java.awt.image.ColorModel, int[], int, int)
+     * public void
      * java.awt.image.BufferedImageFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

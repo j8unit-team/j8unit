@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.CheckboxGroup;
 import java.awt.peer.CheckboxPeer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxPeer#setLabel(String) public abstract void
-     * java.awt.peer.CheckboxPeer.setLabel(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.CheckboxPeer#setLabel(String) public
+     * abstract void java.awt.peer.CheckboxPeer.setLabel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxPeer#setState(boolean) public abstract void
-     * java.awt.peer.CheckboxPeer.setState(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.CheckboxPeer#setState(boolean) public
+     * abstract void java.awt.peer.CheckboxPeer.setState(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,9 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxPeer#setCheckboxGroup(CheckboxGroup) public
-     * abstract void java.awt.peer.CheckboxPeer.setCheckboxGroup(java.awt.CheckboxGroup)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.CheckboxPeer#setCheckboxGroup(java.awt.CheckboxGroup) public abstract void
+     * java.awt.peer.CheckboxPeer.setCheckboxGroup(java.awt.CheckboxGroup)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

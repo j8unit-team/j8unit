@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.PasswordAuthenticationClassTests<Passw
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PasswordAuthentication#PasswordAuthentication(String, char[]) public
+     * {@link java.net.PasswordAuthentication#PasswordAuthentication(String, char[]) public
      * java.net.PasswordAuthentication(java.lang.String,char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

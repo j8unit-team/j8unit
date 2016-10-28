@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.management.ManagementPermissionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ManagementPermission#ManagementPermission(String) public
+     * {@link java.lang.management.ManagementPermission#ManagementPermission(String) public
      * java.lang.management.ManagementPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.lang.management.ManagementPermissionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ManagementPermission#ManagementPermission(String, String) public
+     * {@link java.lang.management.ManagementPermission#ManagementPermission(String, String) public
      * java.lang.management.ManagementPermission(java.lang.String,java.lang.String) throws
      * java.lang.IllegalArgumentException}.
      *

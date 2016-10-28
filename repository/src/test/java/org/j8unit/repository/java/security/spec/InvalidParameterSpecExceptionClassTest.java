@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.spec.InvalidParameterSpecExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidParameterSpecException#InvalidParameterSpecException() public
+     * {@link java.security.spec.InvalidParameterSpecException#InvalidParameterSpecException() public
      * java.security.spec.InvalidParameterSpecException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.security.spec.InvalidParameterSpecExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidParameterSpecException#InvalidParameterSpecException(String) public
+     * {@link java.security.spec.InvalidParameterSpecException#InvalidParameterSpecException(String) public
      * java.security.spec.InvalidParameterSpecException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

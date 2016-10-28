@@ -36,8 +36,8 @@ implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<Documen
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Location#values() public static
-         * javax.tools.DocumentationTool$Location[] javax.tools.DocumentationTool$Location.values()}.
+         * Test method for the hereby targeted method-under-test {@link javax.tools.DocumentationTool.Location#values()
+         * public static javax.tools.DocumentationTool$Location[] javax.tools.DocumentationTool$Location.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -51,12 +51,13 @@ implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<Documen
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Location#values()}
+            // write some test for {@link javax.tools.DocumentationTool.Location#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Location#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.tools.DocumentationTool.Location#valueOf(String) public static
          * javax.tools.DocumentationTool$Location javax.tools.DocumentationTool$Location.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,7 +72,7 @@ implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<Documen
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Location#valueOf(String)}
+            // write some test for {@link javax.tools.DocumentationTool.Location#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool$Location]

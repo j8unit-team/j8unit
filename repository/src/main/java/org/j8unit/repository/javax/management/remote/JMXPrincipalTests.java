@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXPrincipal#toString() public java.lang.String
-     * javax.management.remote.JMXPrincipal.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXPrincipal#toString()
+     * public java.lang.String javax.management.remote.JMXPrincipal.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXPrincipal#getName() public java.lang.String
-     * javax.management.remote.JMXPrincipal.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXPrincipal#getName()
+     * public java.lang.String javax.management.remote.JMXPrincipal.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXPrincipal#equals(Object) public boolean
-     * javax.management.remote.JMXPrincipal.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXPrincipal#equals(Object)
+     * public boolean javax.management.remote.JMXPrincipal.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXPrincipal#hashCode() public int
-     * javax.management.remote.JMXPrincipal.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXPrincipal#hashCode()
+     * public int javax.management.remote.JMXPrincipal.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

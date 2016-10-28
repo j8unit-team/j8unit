@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.smartcardio.ATRClassTests<ATR> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ATR#ATR(byte[]) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.smartcardio.ATR#ATR(byte[]) public
      * javax.smartcardio.ATR(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

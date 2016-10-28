@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.lang.annotation.RetentionPolicyClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RetentionPolicy#values() public static
-     * java.lang.annotation.RetentionPolicy[] java.lang.annotation.RetentionPolicy.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.annotation.RetentionPolicy#values() public
+     * static java.lang.annotation.RetentionPolicy[] java.lang.annotation.RetentionPolicy.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,14 @@ implements org.j8unit.repository.java.lang.annotation.RetentionPolicyClassTests<
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link RetentionPolicy#values()}
+        // write some test for {@link java.lang.annotation.RetentionPolicy#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RetentionPolicy#valueOf(String) public static
-     * java.lang.annotation.RetentionPolicy java.lang.annotation.RetentionPolicy.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.annotation.RetentionPolicy#valueOf(String)
+     * public static java.lang.annotation.RetentionPolicy
+     * java.lang.annotation.RetentionPolicy.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,7 @@ implements org.j8unit.repository.java.lang.annotation.RetentionPolicyClassTests<
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link RetentionPolicy#valueOf(String)}
+        // write some test for {@link java.lang.annotation.RetentionPolicy#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.RetentionPolicy]

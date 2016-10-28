@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.applet.Applet;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Window;
-import javax.swing.JComponent;
 import javax.swing.RepaintManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#isDoubleBufferingEnabled() public
-     * boolean javax.swing.RepaintManager.isDoubleBufferingEnabled()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#isDoubleBufferingEnabled() public boolean
+     * javax.swing.RepaintManager.isDoubleBufferingEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#addInvalidComponent(JComponent)
-     * public synchronized void javax.swing.RepaintManager.addInvalidComponent(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#addInvalidComponent(javax.swing.JComponent) public synchronized void
+     * javax.swing.RepaintManager.addInvalidComponent(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#markCompletelyDirty(JComponent)
-     * public void javax.swing.RepaintManager.markCompletelyDirty(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#markCompletelyDirty(javax.swing.JComponent) public void
+     * javax.swing.RepaintManager.markCompletelyDirty(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#setDoubleBufferingEnabled(boolean)
-     * public void javax.swing.RepaintManager.setDoubleBufferingEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#setDoubleBufferingEnabled(boolean) public void
+     * javax.swing.RepaintManager.setDoubleBufferingEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,30 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#getDirtyRegion(JComponent) public
-     * java.awt.Rectangle javax.swing.RepaintManager.getDirtyRegion(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDirtyRegion_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#paintDirtyRegions() public void
-     * javax.swing.RepaintManager.paintDirtyRegions()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.RepaintManager#paintDirtyRegions()
+     * public void javax.swing.RepaintManager.paintDirtyRegions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +148,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#toString() public synchronized
-     * java.lang.String javax.swing.RepaintManager.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#getDirtyRegion(javax.swing.JComponent) public java.awt.Rectangle
+     * javax.swing.RepaintManager.getDirtyRegion(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDirtyRegion_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.RepaintManager#toString() public
+     * synchronized java.lang.String javax.swing.RepaintManager.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,7 +195,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RepaintManager#getVolatileOffscreenBuffer(Component, int, int) public java.awt.Image
+     * {@link javax.swing.RepaintManager#getVolatileOffscreenBuffer(java.awt.Component, int, int) public java.awt.Image
      * javax.swing.RepaintManager.getVolatileOffscreenBuffer(java.awt.Component,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -218,7 +218,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RepaintManager#addDirtyRegion(JComponent, int, int, int, int) public void
+     * {@link javax.swing.RepaintManager#addDirtyRegion(javax.swing.JComponent, int, int, int, int) public void
      * javax.swing.RepaintManager.addDirtyRegion(javax.swing.JComponent,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,7 +241,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RepaintManager#addDirtyRegion(Window, int, int, int, int) public void
+     * {@link javax.swing.RepaintManager#addDirtyRegion(java.awt.Window, int, int, int, int) public void
      * javax.swing.RepaintManager.addDirtyRegion(java.awt.Window,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,7 +264,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RepaintManager#addDirtyRegion(Applet, int, int, int, int) public void
+     * {@link javax.swing.RepaintManager#addDirtyRegion(java.applet.Applet, int, int, int, int) public void
      * javax.swing.RepaintManager.addDirtyRegion(java.applet.Applet,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -286,8 +286,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#isCompletelyDirty(JComponent) public
-     * boolean javax.swing.RepaintManager.isCompletelyDirty(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#isCompletelyDirty(javax.swing.JComponent) public boolean
+     * javax.swing.RepaintManager.isCompletelyDirty(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -308,8 +309,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#getDoubleBufferMaximumSize() public
-     * java.awt.Dimension javax.swing.RepaintManager.getDoubleBufferMaximumSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#getDoubleBufferMaximumSize() public java.awt.Dimension
+     * javax.swing.RepaintManager.getDoubleBufferMaximumSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -330,8 +332,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#markCompletelyClean(JComponent)
-     * public void javax.swing.RepaintManager.markCompletelyClean(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#markCompletelyClean(javax.swing.JComponent) public void
+     * javax.swing.RepaintManager.markCompletelyClean(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -353,7 +356,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RepaintManager#getOffscreenBuffer(Component, int, int) public java.awt.Image
+     * {@link javax.swing.RepaintManager#getOffscreenBuffer(java.awt.Component, int, int) public java.awt.Image
      * javax.swing.RepaintManager.getOffscreenBuffer(java.awt.Component,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -375,30 +378,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#removeInvalidComponent(JComponent)
-     * public synchronized void javax.swing.RepaintManager.removeInvalidComponent(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeInvalidComponent_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#validateInvalidComponents() public
-     * void javax.swing.RepaintManager.validateInvalidComponents()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#validateInvalidComponents() public void
+     * javax.swing.RepaintManager.validateInvalidComponents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -419,8 +401,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#setDoubleBufferMaximumSize(Dimension)
-     * public void javax.swing.RepaintManager.setDoubleBufferMaximumSize(java.awt.Dimension)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#removeInvalidComponent(javax.swing.JComponent) public synchronized void
+     * javax.swing.RepaintManager.removeInvalidComponent(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeInvalidComponent_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#setDoubleBufferMaximumSize(java.awt.Dimension) public void
+     * javax.swing.RepaintManager.setDoubleBufferMaximumSize(java.awt.Dimension)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

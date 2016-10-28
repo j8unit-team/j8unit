@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.peer;
 
 import java.awt.peer.FileDialogPeer;
-import java.io.FilenameFilter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.DialogPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialogPeer#setDirectory(String) public abstract
-     * void java.awt.peer.FileDialogPeer.setDirectory(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.FileDialogPeer#setDirectory(String)
+     * public abstract void java.awt.peer.FileDialogPeer.setDirectory(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.awt.peer.DialogPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialogPeer#setFile(String) public abstract void
-     * java.awt.peer.FileDialogPeer.setFile(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.FileDialogPeer#setFile(String) public
+     * abstract void java.awt.peer.FileDialogPeer.setFile(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,9 @@ extends org.j8unit.repository.java.awt.peer.DialogPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialogPeer#setFilenameFilter(FilenameFilter)
-     * public abstract void java.awt.peer.FileDialogPeer.setFilenameFilter(java.io.FilenameFilter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.FileDialogPeer#setFilenameFilter(java.io.FilenameFilter) public abstract void
+     * java.awt.peer.FileDialogPeer.setFilenameFilter(java.io.FilenameFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

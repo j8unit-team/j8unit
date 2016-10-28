@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.BufferedImage;
-import java.awt.image.ColorModel;
-import java.awt.image.IndexColorModel;
-import java.awt.image.WritableRaster;
-import java.util.Hashtable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -26,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.BufferedImageClassTests<Buffered
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BufferedImage#BufferedImage(int, int, int, IndexColorModel) public
+     * {@link java.awt.image.BufferedImage#BufferedImage(int, int, int, java.awt.image.IndexColorModel) public
      * java.awt.image.BufferedImage(int,int,int,java.awt.image.IndexColorModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,13 +39,14 @@ implements org.j8unit.repository.java.awt.image.BufferedImageClassTests<Buffered
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferedImage sut = null; // = new BufferedImage(int, int, int, IndexColorModel);
+        final BufferedImage sut = null; // = new BufferedImage(int, int, int, java.awt.image.IndexColorModel);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BufferedImage#BufferedImage(int, int, int)
-     * public java.awt.image.BufferedImage(int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.BufferedImage#BufferedImage(int, int, int) public
+     * java.awt.image.BufferedImage(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -71,7 +68,8 @@ implements org.j8unit.repository.java.awt.image.BufferedImageClassTests<Buffered
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BufferedImage#BufferedImage(ColorModel, WritableRaster, boolean, Hashtable) public
+     * {@link java.awt.image.BufferedImage#BufferedImage(java.awt.image.ColorModel, java.awt.image.WritableRaster, boolean, java.util.Hashtable)
+     * public
      * java.awt.image.BufferedImage(java.awt.image.ColorModel,java.awt.image.WritableRaster,boolean,java.util.Hashtable<?,
      * ?>)}.
      *
@@ -89,7 +87,8 @@ implements org.j8unit.repository.java.awt.image.BufferedImageClassTests<Buffered
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferedImage sut = null; // = new BufferedImage(ColorModel, WritableRaster, boolean, Hashtable);
+        final BufferedImage sut = null; // = new BufferedImage(java.awt.image.ColorModel, java.awt.image.WritableRaster,
+                                        // boolean, java.util.Hashtable);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BufferedImage]

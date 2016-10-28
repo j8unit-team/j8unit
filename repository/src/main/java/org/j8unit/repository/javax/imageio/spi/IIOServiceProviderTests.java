@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.imageio.spi;
 
-import java.util.Locale;
 import javax.imageio.spi.IIOServiceProvider;
-import javax.imageio.spi.ServiceRegistry;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOServiceProvider#getVersion() public
-     * java.lang.String javax.imageio.spi.IIOServiceProvider.getVersion()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.spi.IIOServiceProvider#getVersion()
+     * public java.lang.String javax.imageio.spi.IIOServiceProvider.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOServiceProvider#onDeregistration(ServiceRegistry, Class) public void
-     * javax.imageio.spi.IIOServiceProvider.onDeregistration(javax.imageio.spi.ServiceRegistry,java.lang.Class<?>)}.
+     * {@link javax.imageio.spi.IIOServiceProvider#onDeregistration(javax.imageio.spi.ServiceRegistry, Class) public
+     * void javax.imageio.spi.IIOServiceProvider.onDeregistration(javax.imageio.spi.ServiceRegistry,java.lang.Class<?>)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,9 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOServiceProvider#getDescription(Locale) public
-     * abstract java.lang.String javax.imageio.spi.IIOServiceProvider.getDescription(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.IIOServiceProvider#getDescription(java.util.Locale) public abstract java.lang.String
+     * javax.imageio.spi.IIOServiceProvider.getDescription(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +105,7 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOServiceProvider#onRegistration(ServiceRegistry, Class) public void
+     * {@link javax.imageio.spi.IIOServiceProvider#onRegistration(javax.imageio.spi.ServiceRegistry, Class) public void
      * javax.imageio.spi.IIOServiceProvider.onRegistration(javax.imageio.spi.ServiceRegistry,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,8 +128,8 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOServiceProvider#getVendorName() public
-     * java.lang.String javax.imageio.spi.IIOServiceProvider.getVendorName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.spi.IIOServiceProvider#getVendorName()
+     * public java.lang.String javax.imageio.spi.IIOServiceProvider.getVendorName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

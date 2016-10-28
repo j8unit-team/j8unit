@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Insets;
 import javax.swing.border.BevelBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getHighlightOuterColor(Component) public
-     * java.awt.Color javax.swing.border.BevelBorder.getHighlightOuterColor(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.BevelBorder#getHighlightOuterColor(java.awt.Component) public java.awt.Color
+     * javax.swing.border.BevelBorder.getHighlightOuterColor(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getHighlightOuterColor() public
-     * java.awt.Color javax.swing.border.BevelBorder.getHighlightOuterColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.BevelBorder#getHighlightOuterColor() public java.awt.Color
+     * javax.swing.border.BevelBorder.getHighlightOuterColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#isBorderOpaque() public boolean
-     * javax.swing.border.BevelBorder.isBorderOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.BevelBorder#isBorderOpaque()
+     * public boolean javax.swing.border.BevelBorder.isBorderOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getHighlightInnerColor(Component) public
-     * java.awt.Color javax.swing.border.BevelBorder.getHighlightInnerColor(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.BevelBorder#getHighlightInnerColor(java.awt.Component) public java.awt.Color
+     * javax.swing.border.BevelBorder.getHighlightInnerColor(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getHighlightInnerColor() public
-     * java.awt.Color javax.swing.border.BevelBorder.getHighlightInnerColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.BevelBorder#getHighlightInnerColor() public java.awt.Color
+     * javax.swing.border.BevelBorder.getHighlightInnerColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +149,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getShadowInnerColor(Component) public
-     * java.awt.Color javax.swing.border.BevelBorder.getShadowInnerColor(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.BevelBorder#getShadowInnerColor(java.awt.Component) public java.awt.Color
+     * javax.swing.border.BevelBorder.getShadowInnerColor(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +172,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getShadowInnerColor() public
-     * java.awt.Color javax.swing.border.BevelBorder.getShadowInnerColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.BevelBorder#getShadowInnerColor()
+     * public java.awt.Color javax.swing.border.BevelBorder.getShadowInnerColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +195,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BevelBorder#paintBorder(Component, Graphics, int, int, int, int) public void
-     * javax.swing.border.BevelBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * {@link javax.swing.border.BevelBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+     * public void javax.swing.border.BevelBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,8 +218,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getShadowOuterColor(Component) public
-     * java.awt.Color javax.swing.border.BevelBorder.getShadowOuterColor(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.BevelBorder#getShadowOuterColor(java.awt.Component) public java.awt.Color
+     * javax.swing.border.BevelBorder.getShadowOuterColor(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,8 +241,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getShadowOuterColor() public
-     * java.awt.Color javax.swing.border.BevelBorder.getShadowOuterColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.BevelBorder#getShadowOuterColor()
+     * public java.awt.Color javax.swing.border.BevelBorder.getShadowOuterColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,8 +263,31 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getBorderInsets(Component, Insets)
-     * public java.awt.Insets javax.swing.border.BevelBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.BevelBorder#getBevelType() public
+     * int javax.swing.border.BevelBorder.getBevelType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBevelType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.BevelBorder#getBorderInsets(java.awt.Component, java.awt.Insets) public java.awt.Insets
+     * javax.swing.border.BevelBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -275,28 +301,6 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBorderInsets_Component_Insets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BevelBorder#getBevelType() public int
-     * javax.swing.border.BevelBorder.getBevelType()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBevelType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

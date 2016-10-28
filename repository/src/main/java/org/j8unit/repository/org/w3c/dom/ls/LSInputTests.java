@@ -1,7 +1,5 @@
 package org.j8unit.repository.org.w3c.dom.ls;
 
-import java.io.InputStream;
-import java.io.Reader;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#setByteStream(InputStream) public abstract
-     * void org.w3c.dom.ls.LSInput.setByteStream(java.io.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.LSInput#setByteStream(java.io.InputStream) public abstract void
+     * org.w3c.dom.ls.LSInput.setByteStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#getBaseURI() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#getBaseURI() public abstract
      * java.lang.String org.w3c.dom.ls.LSInput.getBaseURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#setBaseURI(String) public abstract void
-     * org.w3c.dom.ls.LSInput.setBaseURI(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#setBaseURI(String) public
+     * abstract void org.w3c.dom.ls.LSInput.setBaseURI(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#setCharacterStream(Reader) public abstract
-     * void org.w3c.dom.ls.LSInput.setCharacterStream(java.io.Reader)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.LSInput#setCharacterStream(java.io.Reader) public abstract void
+     * org.w3c.dom.ls.LSInput.setCharacterStream(java.io.Reader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#getByteStream() public abstract
-     * java.io.InputStream org.w3c.dom.ls.LSInput.getByteStream()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#getByteStream() public
+     * abstract java.io.InputStream org.w3c.dom.ls.LSInput.getByteStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +147,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#getEncoding() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#getEncoding() public abstract
      * java.lang.String org.w3c.dom.ls.LSInput.getEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +169,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#setSystemId(String) public abstract void
-     * org.w3c.dom.ls.LSInput.setSystemId(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#setSystemId(String) public
+     * abstract void org.w3c.dom.ls.LSInput.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +191,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#setPublicId(String) public abstract void
-     * org.w3c.dom.ls.LSInput.setPublicId(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#setPublicId(String) public
+     * abstract void org.w3c.dom.ls.LSInput.setPublicId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,7 +213,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#getPublicId() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#getPublicId() public abstract
      * java.lang.String org.w3c.dom.ls.LSInput.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -235,8 +235,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#getCharacterStream() public abstract
-     * java.io.Reader org.w3c.dom.ls.LSInput.getCharacterStream()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#getCharacterStream() public
+     * abstract java.io.Reader org.w3c.dom.ls.LSInput.getCharacterStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,8 +257,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#setCertifiedText(boolean) public abstract
-     * void org.w3c.dom.ls.LSInput.setCertifiedText(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#setCertifiedText(boolean)
+     * public abstract void org.w3c.dom.ls.LSInput.setCertifiedText(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,7 +279,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#getSystemId() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#getSystemId() public abstract
      * java.lang.String org.w3c.dom.ls.LSInput.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -301,8 +301,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#setStringData(String) public abstract void
-     * org.w3c.dom.ls.LSInput.setStringData(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#setStringData(String) public
+     * abstract void org.w3c.dom.ls.LSInput.setStringData(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -323,8 +323,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#getStringData() public abstract
-     * java.lang.String org.w3c.dom.ls.LSInput.getStringData()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#getStringData() public
+     * abstract java.lang.String org.w3c.dom.ls.LSInput.getStringData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -345,8 +345,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#getCertifiedText() public abstract boolean
-     * org.w3c.dom.ls.LSInput.getCertifiedText()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#getCertifiedText() public
+     * abstract boolean org.w3c.dom.ls.LSInput.getCertifiedText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,8 +367,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSInput#setEncoding(String) public abstract void
-     * org.w3c.dom.ls.LSInput.setEncoding(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSInput#setEncoding(String) public
+     * abstract void org.w3c.dom.ls.LSInput.setEncoding(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

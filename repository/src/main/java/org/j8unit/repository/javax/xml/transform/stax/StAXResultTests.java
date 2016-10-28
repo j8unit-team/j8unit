@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StAXResult#getSystemId() public java.lang.String
-     * javax.xml.transform.stax.StAXResult.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.stax.StAXResult#getSystemId()
+     * public java.lang.String javax.xml.transform.stax.StAXResult.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StAXResult#setSystemId(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stax.StAXResult#setSystemId(String) public void
      * javax.xml.transform.stax.StAXResult.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +81,9 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StAXResult#getXMLEventWriter() public
-     * javax.xml.stream.XMLEventWriter javax.xml.transform.stax.StAXResult.getXMLEventWriter()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stax.StAXResult#getXMLEventWriter() public javax.xml.stream.XMLEventWriter
+     * javax.xml.transform.stax.StAXResult.getXMLEventWriter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,9 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StAXResult#getXMLStreamWriter() public
-     * javax.xml.stream.XMLStreamWriter javax.xml.transform.stax.StAXResult.getXMLStreamWriter()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stax.StAXResult#getXMLStreamWriter() public javax.xml.stream.XMLStreamWriter
+     * javax.xml.transform.stax.StAXResult.getXMLStreamWriter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlAnyElement#lax() public abstract boolean
-     * javax.xml.bind.annotation.XmlAnyElement.lax()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlAnyElement#lax() public
+     * abstract boolean javax.xml.bind.annotation.XmlAnyElement.lax()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlAnyElement#value() public abstract
-     * java.lang.Class<? extends javax.xml.bind.annotation.DomHandler> javax.xml.bind.annotation.XmlAnyElement.value()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlAnyElement#value()
+     * public abstract java.lang.Class<? extends javax.xml.bind.annotation.DomHandler>
+     * javax.xml.bind.annotation.XmlAnyElement.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

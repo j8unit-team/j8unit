@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileInputStream#skip(long) public native long
-     * java.io.FileInputStream.skip(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FileInputStream#skip(long) public native
+     * long java.io.FileInputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileInputStream#available() public native int
-     * java.io.FileInputStream.available() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FileInputStream#available() public native
+     * int java.io.FileInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileInputStream#getFD() public final
+     * Test method for the hereby targeted method-under-test {@link java.io.FileInputStream#getFD() public final
      * java.io.FileDescriptor java.io.FileInputStream.getFD() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileInputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FileInputStream#close() public void
      * java.io.FileInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileInputStream#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.FileInputStream#read() public int
      * java.io.FileInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +148,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileInputStream#read(byte[]) public int
+     * Test method for the hereby targeted method-under-test {@link java.io.FileInputStream#read(byte[]) public int
      * java.io.FileInputStream.read(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +171,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileInputStream#read(byte[], int, int) public int
-     * java.io.FileInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FileInputStream#read(byte[], int, int)
+     * public int java.io.FileInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,7 +194,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileInputStream#getChannel() public
+     * Test method for the hereby targeted method-under-test {@link java.io.FileInputStream#getChannel() public
      * java.nio.channels.FileChannel java.io.FileInputStream.getChannel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

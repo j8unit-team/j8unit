@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Notification;
 import javax.management.NotificationBroadcasterSupport;
-import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,9 +34,9 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationBroadcasterSupport#getNotificationInfo()
-     * public javax.management.MBeanNotificationInfo[]
-     * javax.management.NotificationBroadcasterSupport.getNotificationInfo()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.NotificationBroadcasterSupport#getNotificationInfo() public
+     * javax.management.MBeanNotificationInfo[] javax.management.NotificationBroadcasterSupport.getNotificationInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +59,8 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NotificationBroadcasterSupport#removeNotificationListener(NotificationListener) public void
+     * {@link javax.management.NotificationBroadcasterSupport#removeNotificationListener(javax.management.NotificationListener)
+     * public void
      * javax.management.NotificationBroadcasterSupport.removeNotificationListener(javax.management.NotificationListener)
      * throws javax.management.ListenerNotFoundException}.
      *
@@ -87,7 +85,7 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NotificationBroadcasterSupport#removeNotificationListener(NotificationListener, NotificationFilter, Object)
+     * {@link javax.management.NotificationBroadcasterSupport#removeNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
      * public void
      * javax.management.NotificationBroadcasterSupport.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
      * throws javax.management.ListenerNotFoundException}.
@@ -113,8 +111,8 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NotificationBroadcasterSupport#sendNotification(Notification) public void
-     * javax.management.NotificationBroadcasterSupport.sendNotification(javax.management.Notification)}.
+     * {@link javax.management.NotificationBroadcasterSupport#sendNotification(javax.management.Notification) public
+     * void javax.management.NotificationBroadcasterSupport.sendNotification(javax.management.Notification)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,7 +134,7 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NotificationBroadcasterSupport#addNotificationListener(NotificationListener, NotificationFilter, Object)
+     * {@link javax.management.NotificationBroadcasterSupport#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
      * public void
      * javax.management.NotificationBroadcasterSupport.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}
      * .

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Dimension;
 import javax.swing.Box;
 import javax.swing.Box.Filler;
 import org.j8unit.repository.categories.Draft;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Box#Box(int) public javax.swing.Box(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.Box#Box(int) public
+     * javax.swing.Box(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#createHorizontalBox() public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#createHorizontalBox() public static
      * javax.swing.Box javax.swing.Box.createHorizontalBox()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,12 +59,12 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
     @Category(Draft.class)
     public void test_createHorizontalBox()
     throws Exception {
-        // write some test for {@link Box#createHorizontalBox()}
+        // write some test for {@link javax.swing.Box#createHorizontalBox()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#createVerticalGlue() public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#createVerticalGlue() public static
      * java.awt.Component javax.swing.Box.createVerticalGlue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,12 +79,12 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
     @Category(Draft.class)
     public void test_createVerticalGlue()
     throws Exception {
-        // write some test for {@link Box#createVerticalGlue()}
+        // write some test for {@link javax.swing.Box#createVerticalGlue()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#createHorizontalGlue() public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#createHorizontalGlue() public static
      * java.awt.Component javax.swing.Box.createHorizontalGlue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,13 +99,13 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
     @Category(Draft.class)
     public void test_createHorizontalGlue()
     throws Exception {
-        // write some test for {@link Box#createHorizontalGlue()}
+        // write some test for {@link javax.swing.Box#createHorizontalGlue()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#createGlue() public static java.awt.Component
-     * javax.swing.Box.createGlue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#createGlue() public static
+     * java.awt.Component javax.swing.Box.createGlue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -119,13 +119,13 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
     @Category(Draft.class)
     public void test_createGlue()
     throws Exception {
-        // write some test for {@link Box#createGlue()}
+        // write some test for {@link javax.swing.Box#createGlue()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#createHorizontalStrut(int) public static
-     * java.awt.Component javax.swing.Box.createHorizontalStrut(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#createHorizontalStrut(int) public
+     * static java.awt.Component javax.swing.Box.createHorizontalStrut(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -139,13 +139,13 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
     @Category(Draft.class)
     public void test_createHorizontalStrut_int()
     throws Exception {
-        // write some test for {@link Box#createHorizontalStrut(int)}
+        // write some test for {@link javax.swing.Box#createHorizontalStrut(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#createRigidArea(Dimension) public static
-     * java.awt.Component javax.swing.Box.createRigidArea(java.awt.Dimension)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#createRigidArea(java.awt.Dimension)
+     * public static java.awt.Component javax.swing.Box.createRigidArea(java.awt.Dimension)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -159,12 +159,12 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
     @Category(Draft.class)
     public void test_createRigidArea_Dimension()
     throws Exception {
-        // write some test for {@link Box#createRigidArea(Dimension)}
+        // write some test for {@link javax.swing.Box#createRigidArea(java.awt.Dimension)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#createVerticalBox() public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#createVerticalBox() public static
      * javax.swing.Box javax.swing.Box.createVerticalBox()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,13 +179,13 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
     @Category(Draft.class)
     public void test_createVerticalBox()
     throws Exception {
-        // write some test for {@link Box#createVerticalBox()}
+        // write some test for {@link javax.swing.Box#createVerticalBox()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Box#createVerticalStrut(int) public static
-     * java.awt.Component javax.swing.Box.createVerticalStrut(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Box#createVerticalStrut(int) public
+     * static java.awt.Component javax.swing.Box.createVerticalStrut(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,7 +199,7 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
     @Category(Draft.class)
     public void test_createVerticalStrut_int()
     throws Exception {
-        // write some test for {@link Box#createVerticalStrut(int)}
+        // write some test for {@link javax.swing.Box#createVerticalStrut(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Box]
@@ -218,7 +218,7 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link Filler#Filler(Dimension, Dimension, Dimension) public
+         * {@link javax.swing.Box.Filler#Filler(java.awt.Dimension, java.awt.Dimension, java.awt.Dimension) public
          * javax.swing.Box$Filler(java.awt.Dimension,java.awt.Dimension,java.awt.Dimension)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -235,7 +235,7 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Filler sut = null; // = new Filler(Dimension, Dimension, Dimension);
+            final Filler sut = null; // = new Filler(java.awt.Dimension, java.awt.Dimension, java.awt.Dimension);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Box$Filler]

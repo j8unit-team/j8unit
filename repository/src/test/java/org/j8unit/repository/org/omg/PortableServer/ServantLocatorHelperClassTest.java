@@ -7,11 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableServer.ServantLocator;
 import org.omg.PortableServer.ServantLocatorHelper;
 
 @RunWith(J8Unit4.class)
@@ -27,8 +22,9 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServantLocatorHelper#ServantLocatorHelper()
-     * public org.omg.PortableServer.ServantLocatorHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.ServantLocatorHelper#ServantLocatorHelper() public
+     * org.omg.PortableServer.ServantLocatorHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantLocatorHelper#narrow(Object) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantLocatorHelper#narrow(org.omg.CORBA.Object) public static
      * org.omg.PortableServer.ServantLocator org.omg.PortableServer.ServantLocatorHelper.narrow(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +59,13 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
     @Category(Draft.class)
     public void test_narrow_Object()
     throws Exception {
-        // write some test for {@link ServantLocatorHelper#narrow(Object)}
+        // write some test for {@link org.omg.PortableServer.ServantLocatorHelper#narrow(org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantLocatorHelper#id() public static
-     * java.lang.String org.omg.PortableServer.ServantLocatorHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.ServantLocatorHelper#id()
+     * public static java.lang.String org.omg.PortableServer.ServantLocatorHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,12 +79,13 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ServantLocatorHelper#id()}
+        // write some test for {@link org.omg.PortableServer.ServantLocatorHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantLocatorHelper#insert(Any, ServantLocator)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantLocatorHelper#insert(org.omg.CORBA.Any, org.omg.PortableServer.ServantLocator)
      * public static void
      * org.omg.PortableServer.ServantLocatorHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.ServantLocator)}.
      *
@@ -103,13 +101,15 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
     @Category(Draft.class)
     public void test_insert_Any_ServantLocator()
     throws Exception {
-        // write some test for {@link ServantLocatorHelper#insert(Any, ServantLocator)}
+        // write some test for {@link org.omg.PortableServer.ServantLocatorHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableServer.ServantLocator)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantLocatorHelper#unchecked_narrow(Object) public
-     * static org.omg.PortableServer.ServantLocator
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantLocatorHelper#unchecked_narrow(org.omg.CORBA.Object) public static
+     * org.omg.PortableServer.ServantLocator
      * org.omg.PortableServer.ServantLocatorHelper.unchecked_narrow(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,13 +124,14 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
     @Category(Draft.class)
     public void test_unchecked_narrow_Object()
     throws Exception {
-        // write some test for {@link ServantLocatorHelper#unchecked_narrow(Object)}
+        // write some test for {@link
+        // org.omg.PortableServer.ServantLocatorHelper#unchecked_narrow(org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantLocatorHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableServer.ServantLocatorHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.ServantLocatorHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.PortableServer.ServantLocatorHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,13 +145,14 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ServantLocatorHelper#type()}
+        // write some test for {@link org.omg.PortableServer.ServantLocatorHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServantLocatorHelper#write(OutputStream, ServantLocator) public static void
+     * {@link org.omg.PortableServer.ServantLocatorHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableServer.ServantLocator)
+     * public static void
      * org.omg.PortableServer.ServantLocatorHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.ServantLocator)}
      * .
      *
@@ -166,12 +168,15 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
     @Category(Draft.class)
     public void test_write_OutputStream_ServantLocator()
     throws Exception {
-        // write some test for {@link ServantLocatorHelper#write(OutputStream, ServantLocator)}
+        // write some test for {@link
+        // org.omg.PortableServer.ServantLocatorHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableServer.ServantLocator)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantLocatorHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantLocatorHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.PortableServer.ServantLocator
      * org.omg.PortableServer.ServantLocatorHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
@@ -187,12 +192,14 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ServantLocatorHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableServer.ServantLocatorHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantLocatorHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantLocatorHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.PortableServer.ServantLocator org.omg.PortableServer.ServantLocatorHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -207,7 +214,7 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ServantLocatorHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableServer.ServantLocatorHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantLocatorHelper]

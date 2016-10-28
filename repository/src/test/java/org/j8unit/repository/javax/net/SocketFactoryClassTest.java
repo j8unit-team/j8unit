@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.net.SocketFactoryClassTests<SocketFactory
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketFactory#getDefault() public static
+     * Test method for the hereby targeted method-under-test {@link javax.net.SocketFactory#getDefault() public static
      * javax.net.SocketFactory javax.net.SocketFactory.getDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,7 +36,7 @@ implements org.j8unit.repository.javax.net.SocketFactoryClassTests<SocketFactory
     @Category(Draft.class)
     public void test_getDefault()
     throws Exception {
-        // write some test for {@link SocketFactory#getDefault()}
+        // write some test for {@link javax.net.SocketFactory#getDefault()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.SocketFactory]

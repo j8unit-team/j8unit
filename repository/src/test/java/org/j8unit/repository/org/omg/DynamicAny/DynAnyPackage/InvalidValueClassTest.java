@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidValue#InvalidValue() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.InvalidValue#InvalidValue() public
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidValue#InvalidValue(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.InvalidValue#InvalidValue(String) public
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

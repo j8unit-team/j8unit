@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.soap.SOAPPartClassTests<SOAPPart> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SOAPPart#SOAPPart() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.soap.SOAPPart#SOAPPart() public
      * javax.xml.soap.SOAPPart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

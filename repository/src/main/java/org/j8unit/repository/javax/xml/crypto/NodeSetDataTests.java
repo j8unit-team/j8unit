@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeSetData#iterator() public abstract
-     * java.util.Iterator javax.xml.crypto.NodeSetData.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.NodeSetData#iterator() public
+     * abstract java.util.Iterator javax.xml.crypto.NodeSetData.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

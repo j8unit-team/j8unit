@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.LocalObjectClassTests<LocalObject
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LocalObject#LocalObject() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.LocalObject#LocalObject() public
      * org.omg.CORBA.LocalObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

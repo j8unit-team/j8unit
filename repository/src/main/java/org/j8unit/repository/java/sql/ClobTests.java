@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#getAsciiStream() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#getAsciiStream() public abstract
      * java.io.InputStream java.sql.Clob.getAsciiStream() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,51 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#getCharacterStream() public abstract
-     * java.io.Reader java.sql.Clob.getCharacterStream() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCharacterStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#getCharacterStream(long, long) public abstract
-     * java.io.Reader java.sql.Clob.getCharacterStream(long,long) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCharacterStream_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#free() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#free() public abstract void
      * java.sql.Clob.free() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +79,51 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#length() public abstract long
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#getCharacterStream() public abstract
+     * java.io.Reader java.sql.Clob.getCharacterStream() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharacterStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#getCharacterStream(long, long) public
+     * abstract java.io.Reader java.sql.Clob.getCharacterStream(long,long) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharacterStream_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#length() public abstract long
      * java.sql.Clob.length() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,30 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#position(String, long) public abstract long
-     * java.sql.Clob.position(java.lang.String,long) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_position_String_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#position(Clob, long) public abstract long
-     * java.sql.Clob.position(java.sql.Clob,long) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#position(java.sql.Clob, long) public
+     * abstract long java.sql.Clob.position(java.sql.Clob,long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +167,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#getSubString(long, int) public abstract
-     * java.lang.String java.sql.Clob.getSubString(long,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#position(String, long) public abstract
+     * long java.sql.Clob.position(java.lang.String,long) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_position_String_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#getSubString(long, int) public
+     * abstract java.lang.String java.sql.Clob.getSubString(long,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +211,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#truncate(long) public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#truncate(long) public abstract void
      * java.sql.Clob.truncate(long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,7 +233,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#setAsciiStream(long) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#setAsciiStream(long) public abstract
      * java.io.OutputStream java.sql.Clob.setAsciiStream(long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,30 +255,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#setString(long, String) public abstract int
-     * java.sql.Clob.setString(long,java.lang.String) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setString_long_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#setString(long, String, int, int) public
-     * abstract int java.sql.Clob.setString(long,java.lang.String,int,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#setString(long, String, int, int)
+     * public abstract int java.sql.Clob.setString(long,java.lang.String,int,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,8 +277,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clob#setCharacterStream(long) public abstract
-     * java.io.Writer java.sql.Clob.setCharacterStream(long) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#setString(long, String) public
+     * abstract int java.sql.Clob.setString(long,java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setString_long_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.Clob#setCharacterStream(long) public
+     * abstract java.io.Writer java.sql.Clob.setCharacterStream(long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Visibility#okToUseGui() public abstract void
-     * java.beans.Visibility.okToUseGui()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Visibility#okToUseGui() public abstract
+     * void java.beans.Visibility.okToUseGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Visibility#needsGui() public abstract boolean
-     * java.beans.Visibility.needsGui()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Visibility#needsGui() public abstract
+     * boolean java.beans.Visibility.needsGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Visibility#dontUseGui() public abstract void
-     * java.beans.Visibility.dontUseGui()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Visibility#dontUseGui() public abstract
+     * void java.beans.Visibility.dontUseGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Visibility#avoidingGui() public abstract boolean
-     * java.beans.Visibility.avoidingGui()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Visibility#avoidingGui() public abstract
+     * boolean java.beans.Visibility.avoidingGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

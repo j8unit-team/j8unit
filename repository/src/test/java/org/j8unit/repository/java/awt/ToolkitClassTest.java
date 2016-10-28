@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.awt.ToolkitClassTests<Toolkit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Toolkit#Toolkit() public java.awt.Toolkit()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Toolkit#Toolkit() public
+     * java.awt.Toolkit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +42,7 @@ implements org.j8unit.repository.java.awt.ToolkitClassTests<Toolkit> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Toolkit#getDefaultToolkit() public static
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getDefaultToolkit() public static
      * synchronized java.awt.Toolkit java.awt.Toolkit.getDefaultToolkit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,13 +57,13 @@ implements org.j8unit.repository.java.awt.ToolkitClassTests<Toolkit> {
     @Category(Draft.class)
     public void test_getDefaultToolkit()
     throws Exception {
-        // write some test for {@link Toolkit#getDefaultToolkit()}
+        // write some test for {@link java.awt.Toolkit#getDefaultToolkit()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Toolkit#getProperty(String, String) public static
-     * java.lang.String java.awt.Toolkit.getProperty(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getProperty(String, String) public
+     * static java.lang.String java.awt.Toolkit.getProperty(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,7 +77,7 @@ implements org.j8unit.repository.java.awt.ToolkitClassTests<Toolkit> {
     @Category(Draft.class)
     public void test_getProperty_String_String()
     throws Exception {
-        // write some test for {@link Toolkit#getProperty(String, String)}
+        // write some test for {@link java.awt.Toolkit#getProperty(String, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Toolkit]

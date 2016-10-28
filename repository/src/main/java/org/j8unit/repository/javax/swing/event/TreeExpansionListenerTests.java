@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.event.TreeExpansionEvent;
 import javax.swing.event.TreeExpansionListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TreeExpansionListener#treeCollapsed(TreeExpansionEvent) public abstract void
-     * javax.swing.event.TreeExpansionListener.treeCollapsed(javax.swing.event.TreeExpansionEvent)}.
+     * {@link javax.swing.event.TreeExpansionListener#treeCollapsed(javax.swing.event.TreeExpansionEvent) public
+     * abstract void javax.swing.event.TreeExpansionListener.treeCollapsed(javax.swing.event.TreeExpansionEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TreeExpansionListener#treeExpanded(TreeExpansionEvent) public abstract void
-     * javax.swing.event.TreeExpansionListener.treeExpanded(javax.swing.event.TreeExpansionEvent)}.
+     * {@link javax.swing.event.TreeExpansionListener#treeExpanded(javax.swing.event.TreeExpansionEvent) public abstract
+     * void javax.swing.event.TreeExpansionListener.treeExpanded(javax.swing.event.TreeExpansionEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

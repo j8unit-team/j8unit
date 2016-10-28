@@ -34,9 +34,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceFactory#make_object(String, byte[])
-     * public abstract org.omg.CORBA.Object
-     * org.omg.PortableInterceptor.ObjectReferenceFactory.make_object(java.lang.String,byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactory#make_object(String, byte[]) public abstract
+     * org.omg.CORBA.Object org.omg.PortableInterceptor.ObjectReferenceFactory.make_object(java.lang.String,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

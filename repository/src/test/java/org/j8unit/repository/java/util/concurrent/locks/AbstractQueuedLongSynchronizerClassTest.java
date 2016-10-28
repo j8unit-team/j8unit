@@ -36,7 +36,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSy
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link ConditionObject#ConditionObject(AbstractQueuedLongSynchronizer) public
+         * {@link java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject#ConditionObject(java.util.concurrent.locks.AbstractQueuedLongSynchronizer)
+         * public
          * java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject(java.util.concurrent.locks.AbstractQueuedLongSynchronizer)}
          * .
          *
@@ -54,7 +55,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSy
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final ConditionObject sut = null; // = new ConditionObject(AbstractQueuedLongSynchronizer);
+            final ConditionObject sut = null; // = new
+                                              // ConditionObject(java.util.concurrent.locks.AbstractQueuedLongSynchronizer);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject]

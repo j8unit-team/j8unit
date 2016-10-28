@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidName#InvalidName() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName#InvalidName() public
      * org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidName#InvalidName(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName#InvalidName(String) public
      * org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

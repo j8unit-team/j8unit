@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.net.URIClassTests<URI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URI#URI(String, String, String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.URI#URI(String, String, String) public
      * java.net.URI(java.lang.String,java.lang.String,java.lang.String) throws java.net.URISyntaxException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,8 @@ implements org.j8unit.repository.java.net.URIClassTests<URI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URI#URI(String, String, String, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.URI#URI(String, String, String, String) public
      * java.net.URI(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws
      * java.net.URISyntaxException}.
      *
@@ -66,8 +67,9 @@ implements org.j8unit.repository.java.net.URIClassTests<URI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URI#URI(String, String, String, String, String)
-     * public java.net.URI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.URI#URI(String, String, String, String, String) public
+     * java.net.URI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws
      * java.net.URISyntaxException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +91,7 @@ implements org.j8unit.repository.java.net.URIClassTests<URI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link URI#URI(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.URI#URI(String) public
      * java.net.URI(java.lang.String) throws java.net.URISyntaxException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,7 +114,7 @@ implements org.j8unit.repository.java.net.URIClassTests<URI> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URI#URI(String, String, String, int, String, String, String) public
+     * {@link java.net.URI#URI(String, String, String, int, String, String, String) public
      * java.net.URI(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)
      * throws java.net.URISyntaxException}.
      *
@@ -135,8 +137,8 @@ implements org.j8unit.repository.java.net.URIClassTests<URI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#create(String) public static java.net.URI
-     * java.net.URI.create(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#create(String) public static
+     * java.net.URI java.net.URI.create(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,7 +152,7 @@ implements org.j8unit.repository.java.net.URIClassTests<URI> {
     @Category(Draft.class)
     public void test_create_String()
     throws Exception {
-        // write some test for {@link URI#create(String)}
+        // write some test for {@link java.net.URI#create(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URI]

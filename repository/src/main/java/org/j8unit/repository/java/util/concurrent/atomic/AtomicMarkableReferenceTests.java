@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicMarkableReference#getReference() public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicMarkableReference#getReference() public V
      * java.util.concurrent.atomic.AtomicMarkableReference.getReference()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicMarkableReference#attemptMark(Object, boolean)
-     * public boolean java.util.concurrent.atomic.AtomicMarkableReference.attemptMark(V,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicMarkableReference#attemptMark(Object, boolean) public boolean
+     * java.util.concurrent.atomic.AtomicMarkableReference.attemptMark(V,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicMarkableReference#isMarked() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicMarkableReference#isMarked() public boolean
      * java.util.concurrent.atomic.AtomicMarkableReference.isMarked()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +104,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicMarkableReference#weakCompareAndSet(Object, Object, boolean, boolean) public boolean
-     * java.util.concurrent.atomic.AtomicMarkableReference.weakCompareAndSet(V,V,boolean,boolean)}.
+     * {@link java.util.concurrent.atomic.AtomicMarkableReference#weakCompareAndSet(Object, Object, boolean, boolean)
+     * public boolean java.util.concurrent.atomic.AtomicMarkableReference.weakCompareAndSet(V,V,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +127,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicMarkableReference#compareAndSet(Object, Object, boolean, boolean) public boolean
-     * java.util.concurrent.atomic.AtomicMarkableReference.compareAndSet(V,V,boolean,boolean)}.
+     * {@link java.util.concurrent.atomic.AtomicMarkableReference#compareAndSet(Object, Object, boolean, boolean) public
+     * boolean java.util.concurrent.atomic.AtomicMarkableReference.compareAndSet(V,V,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +149,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicMarkableReference#get(boolean[]) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicMarkableReference#get(boolean[]) public V
      * java.util.concurrent.atomic.AtomicMarkableReference.get(boolean[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +172,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicMarkableReference#set(Object, boolean) public
-     * void java.util.concurrent.atomic.AtomicMarkableReference.set(V,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicMarkableReference#set(Object, boolean) public void
+     * java.util.concurrent.atomic.AtomicMarkableReference.set(V,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

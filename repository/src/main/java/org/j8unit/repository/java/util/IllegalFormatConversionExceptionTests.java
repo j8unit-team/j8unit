@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IllegalFormatConversionException#getMessage() public
-     * java.lang.String java.util.IllegalFormatConversionException.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.IllegalFormatConversionException#getMessage() public java.lang.String
+     * java.util.IllegalFormatConversionException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IllegalFormatConversionException#getArgumentClass()
-     * public java.lang.Class<?> java.util.IllegalFormatConversionException.getArgumentClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.IllegalFormatConversionException#getArgumentClass() public java.lang.Class
+     * <?> java.util.IllegalFormatConversionException.getArgumentClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IllegalFormatConversionException#getConversion()
-     * public char java.util.IllegalFormatConversionException.getConversion()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.IllegalFormatConversionException#getConversion() public char
+     * java.util.IllegalFormatConversionException.getConversion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

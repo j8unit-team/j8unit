@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.naming.event;
 
-import javax.naming.NamingException;
-import javax.naming.event.EventContext;
 import javax.naming.event.NamingExceptionEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.javax.naming.event.NamingExceptionEventClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NamingExceptionEvent#NamingExceptionEvent(EventContext, NamingException) public
-     * javax.naming.event.NamingExceptionEvent(javax.naming.event.EventContext,javax.naming.NamingException)}.
+     * {@link javax.naming.event.NamingExceptionEvent#NamingExceptionEvent(javax.naming.event.EventContext, javax.naming.NamingException)
+     * public javax.naming.event.NamingExceptionEvent(javax.naming.event.EventContext,javax.naming.NamingException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +39,8 @@ implements org.j8unit.repository.javax.naming.event.NamingExceptionEventClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NamingExceptionEvent sut = null; // = new NamingExceptionEvent(EventContext, NamingException);
+        final NamingExceptionEvent sut = null; // = new NamingExceptionEvent(javax.naming.event.EventContext,
+                                               // javax.naming.NamingException);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.NamingExceptionEvent]

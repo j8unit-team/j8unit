@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.xml.sax.Parser;
 import org.xml.sax.helpers.ParserAdapter;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.xml.sax.helpers.ParserAdapterClassTests<Par
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParserAdapter#ParserAdapter() public
-     * org.xml.sax.helpers.ParserAdapter() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.ParserAdapter#ParserAdapter() public org.xml.sax.helpers.ParserAdapter() throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.ParserAdapterClassTests<Par
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParserAdapter#ParserAdapter(Parser) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.ParserAdapter#ParserAdapter(org.xml.sax.Parser) public
      * org.xml.sax.helpers.ParserAdapter(org.xml.sax.Parser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +61,7 @@ implements org.j8unit.repository.org.xml.sax.helpers.ParserAdapterClassTests<Par
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ParserAdapter sut = null; // = new ParserAdapter(Parser);
+        final ParserAdapter sut = null; // = new ParserAdapter(org.xml.sax.Parser);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.ParserAdapter]

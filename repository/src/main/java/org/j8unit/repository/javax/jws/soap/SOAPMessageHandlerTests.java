@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#roles() public abstract
-     * java.lang.String[] javax.jws.soap.SOAPMessageHandler.roles()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.soap.SOAPMessageHandler#roles() public
+     * abstract java.lang.String[] javax.jws.soap.SOAPMessageHandler.roles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#initParams() public abstract
-     * javax.jws.soap.InitParam[] javax.jws.soap.SOAPMessageHandler.initParams()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.soap.SOAPMessageHandler#initParams()
+     * public abstract javax.jws.soap.InitParam[] javax.jws.soap.SOAPMessageHandler.initParams()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#headers() public abstract
-     * java.lang.String[] javax.jws.soap.SOAPMessageHandler.headers()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.soap.SOAPMessageHandler#headers() public
+     * abstract java.lang.String[] javax.jws.soap.SOAPMessageHandler.headers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#className() public abstract
-     * java.lang.String javax.jws.soap.SOAPMessageHandler.className()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.soap.SOAPMessageHandler#className() public
+     * abstract java.lang.String javax.jws.soap.SOAPMessageHandler.className()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#name() public abstract
-     * java.lang.String javax.jws.soap.SOAPMessageHandler.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.soap.SOAPMessageHandler#name() public
+     * abstract java.lang.String javax.jws.soap.SOAPMessageHandler.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

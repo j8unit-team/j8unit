@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import java.util.Hashtable;
-import javax.naming.Context;
-import javax.naming.Name;
-import javax.naming.directory.Attributes;
 import javax.naming.spi.DirStateFactory;
 import javax.naming.spi.DirStateFactory.Result;
 import org.j8unit.repository.categories.Draft;
@@ -40,8 +36,8 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DirStateFactory#getStateToBind(Object, Name, Context, Hashtable, Attributes) public abstract
-     * javax.naming.spi.DirStateFactory$Result
+     * {@link javax.naming.spi.DirStateFactory#getStateToBind(Object, javax.naming.Name, javax.naming.Context, java.util.Hashtable, javax.naming.directory.Attributes)
+     * public abstract javax.naming.spi.DirStateFactory$Result
      * javax.naming.spi.DirStateFactory.getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable<?,
      * ?>,javax.naming.directory.Attributes) throws javax.naming.NamingException}.
      *
@@ -91,7 +87,8 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Result#getObject() public java.lang.Object
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.naming.spi.DirStateFactory.Result#getObject() public java.lang.Object
          * javax.naming.spi.DirStateFactory$Result.getObject()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -113,8 +110,9 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Result#getAttributes() public
-         * javax.naming.directory.Attributes javax.naming.spi.DirStateFactory$Result.getAttributes()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.naming.spi.DirStateFactory.Result#getAttributes() public javax.naming.directory.Attributes
+         * javax.naming.spi.DirStateFactory$Result.getAttributes()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

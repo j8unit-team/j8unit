@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlSchema#namespace() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlSchema.namespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlSchema#namespace()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlSchema.namespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlSchema#location() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlSchema.location()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlSchema#location()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlSchema.location()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlSchema#attributeFormDefault() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.XmlSchema#attributeFormDefault() public abstract
      * javax.xml.bind.annotation.XmlNsForm javax.xml.bind.annotation.XmlSchema.attributeFormDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +101,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlSchema#xmlns() public abstract
-     * javax.xml.bind.annotation.XmlNs[] javax.xml.bind.annotation.XmlSchema.xmlns()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlSchema#xmlns() public
+     * abstract javax.xml.bind.annotation.XmlNs[] javax.xml.bind.annotation.XmlSchema.xmlns()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,7 +123,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlSchema#elementFormDefault() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.XmlSchema#elementFormDefault() public abstract
      * javax.xml.bind.annotation.XmlNsForm javax.xml.bind.annotation.XmlSchema.elementFormDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

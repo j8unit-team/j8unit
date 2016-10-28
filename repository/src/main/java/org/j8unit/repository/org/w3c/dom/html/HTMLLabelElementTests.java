@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLabelElement#getHtmlFor() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLabelElement.getHtmlFor()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLabelElement#getHtmlFor()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLLabelElement.getHtmlFor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLabelElement#getForm() public abstract
-     * org.w3c.dom.html.HTMLFormElement org.w3c.dom.html.HTMLLabelElement.getForm()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLabelElement#getForm() public
+     * abstract org.w3c.dom.html.HTMLFormElement org.w3c.dom.html.HTMLLabelElement.getForm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLabelElement#setHtmlFor(String) public abstract
-     * void org.w3c.dom.html.HTMLLabelElement.setHtmlFor(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLabelElement#setHtmlFor(String)
+     * public abstract void org.w3c.dom.html.HTMLLabelElement.setHtmlFor(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLabelElement#setAccessKey(String) public
-     * abstract void org.w3c.dom.html.HTMLLabelElement.setAccessKey(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLLabelElement#setAccessKey(String) public abstract void
+     * org.w3c.dom.html.HTMLLabelElement.setAccessKey(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLabelElement#getAccessKey() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLabelElement.getAccessKey()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLabelElement#getAccessKey()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLLabelElement.getAccessKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

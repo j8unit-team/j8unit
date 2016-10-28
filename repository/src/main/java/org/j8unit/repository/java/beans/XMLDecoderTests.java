@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans;
 
-import java.beans.ExceptionListener;
 import java.beans.XMLDecoder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLDecoder#getExceptionListener() public
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLDecoder#getExceptionListener() public
      * java.beans.ExceptionListener java.beans.XMLDecoder.getExceptionListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,29 +56,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLDecoder#setExceptionListener(ExceptionListener)
-     * public void java.beans.XMLDecoder.setExceptionListener(java.beans.ExceptionListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setExceptionListener_ExceptionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLDecoder#setOwner(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLDecoder#setOwner(Object) public void
      * java.beans.XMLDecoder.setOwner(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +78,31 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLDecoder#readObject() public java.lang.Object
-     * java.beans.XMLDecoder.readObject()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.XMLDecoder#setExceptionListener(java.beans.ExceptionListener) public void
+     * java.beans.XMLDecoder.setExceptionListener(java.beans.ExceptionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setExceptionListener_ExceptionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLDecoder#readObject() public
+     * java.lang.Object java.beans.XMLDecoder.readObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLDecoder#getOwner() public java.lang.Object
-     * java.beans.XMLDecoder.getOwner()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLDecoder#getOwner() public
+     * java.lang.Object java.beans.XMLDecoder.getOwner()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLDecoder#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLDecoder#close() public void
      * java.beans.XMLDecoder.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

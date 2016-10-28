@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.net;
 
-import java.net.DatagramPacket;
-import java.net.InetAddress;
 import java.net.MulticastSocket;
-import java.net.NetworkInterface;
-import java.net.SocketAddress;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +34,8 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#setLoopbackMode(boolean) public void
-     * java.net.MulticastSocket.setLoopbackMode(boolean) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.MulticastSocket#setLoopbackMode(boolean)
+     * public void java.net.MulticastSocket.setLoopbackMode(boolean) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +56,8 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#getNetworkInterface() public
-     * java.net.NetworkInterface java.net.MulticastSocket.getNetworkInterface() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.MulticastSocket#getNetworkInterface()
+     * public java.net.NetworkInterface java.net.MulticastSocket.getNetworkInterface() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +78,9 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#send(DatagramPacket, byte) public
-     * void java.net.MulticastSocket.send(java.net.DatagramPacket,byte) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.MulticastSocket#send(java.net.DatagramPacket, byte) public void
+     * java.net.MulticastSocket.send(java.net.DatagramPacket,byte) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +101,8 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#setTimeToLive(int) public void
-     * java.net.MulticastSocket.setTimeToLive(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.MulticastSocket#setTimeToLive(int) public
+     * void java.net.MulticastSocket.setTimeToLive(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +124,7 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MulticastSocket#setNetworkInterface(NetworkInterface) public void
+     * {@link java.net.MulticastSocket#setNetworkInterface(java.net.NetworkInterface) public void
      * java.net.MulticastSocket.setNetworkInterface(java.net.NetworkInterface) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +146,7 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#getTTL() public byte
+     * Test method for the hereby targeted method-under-test {@link java.net.MulticastSocket#getTTL() public byte
      * java.net.MulticastSocket.getTTL() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +168,8 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#getLoopbackMode() public boolean
-     * java.net.MulticastSocket.getLoopbackMode() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.MulticastSocket#getLoopbackMode() public
+     * boolean java.net.MulticastSocket.getLoopbackMode() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +190,9 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#setInterface(InetAddress) public
-     * void java.net.MulticastSocket.setInterface(java.net.InetAddress) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.MulticastSocket#setInterface(java.net.InetAddress) public void
+     * java.net.MulticastSocket.setInterface(java.net.InetAddress) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,7 +213,7 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#getInterface() public
+     * Test method for the hereby targeted method-under-test {@link java.net.MulticastSocket#getInterface() public
      * java.net.InetAddress java.net.MulticastSocket.getInterface() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,30 +235,8 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#leaveGroup(InetAddress) public void
-     * java.net.MulticastSocket.leaveGroup(java.net.InetAddress) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_leaveGroup_InetAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MulticastSocket#leaveGroup(SocketAddress, NetworkInterface) public void
+     * {@link java.net.MulticastSocket#leaveGroup(java.net.SocketAddress, java.net.NetworkInterface) public void
      * java.net.MulticastSocket.leaveGroup(java.net.SocketAddress,java.net.NetworkInterface) throws java.io.IOException}
      * .
      *
@@ -284,7 +260,30 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MulticastSocket#joinGroup(SocketAddress, NetworkInterface) public void
+     * {@link java.net.MulticastSocket#leaveGroup(java.net.InetAddress) public void
+     * java.net.MulticastSocket.leaveGroup(java.net.InetAddress) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_leaveGroup_InetAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.MulticastSocket#joinGroup(java.net.SocketAddress, java.net.NetworkInterface) public void
      * java.net.MulticastSocket.joinGroup(java.net.SocketAddress,java.net.NetworkInterface) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -306,7 +305,8 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#joinGroup(InetAddress) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.MulticastSocket#joinGroup(java.net.InetAddress) public void
      * java.net.MulticastSocket.joinGroup(java.net.InetAddress) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -328,7 +328,7 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#getTimeToLive() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.MulticastSocket#getTimeToLive() public int
      * java.net.MulticastSocket.getTimeToLive() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -350,7 +350,7 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastSocket#setTTL(byte) public void
+     * Test method for the hereby targeted method-under-test {@link java.net.MulticastSocket#setTTL(byte) public void
      * java.net.MulticastSocket.setTTL(byte) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

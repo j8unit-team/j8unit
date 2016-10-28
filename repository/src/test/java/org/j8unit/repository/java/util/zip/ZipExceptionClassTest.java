@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.zip.ZipExceptionClassTests<ZipExcepti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipException#ZipException() public
-     * java.util.zip.ZipException()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.ZipException#ZipException()
+     * public java.util.zip.ZipException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.java.util.zip.ZipExceptionClassTests<ZipExcepti
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipException#ZipException(String) public
-     * java.util.zip.ZipException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.ZipException#ZipException(String)
+     * public java.util.zip.ZipException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

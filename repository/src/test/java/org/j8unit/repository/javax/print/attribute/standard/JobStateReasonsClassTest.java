@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
-import java.util.Collection;
 import javax.print.attribute.standard.JobStateReasons;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobStateReasonsC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JobStateReasons#JobStateReasons(Collection)
-     * public javax.print.attribute.standard.JobStateReasons(java.util.Collection
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons(java.util.Collection) public
+     * javax.print.attribute.standard.JobStateReasons(java.util.Collection
      * <javax.print.attribute.standard.JobStateReason>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +40,14 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobStateReasonsC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JobStateReasons sut = null; // = new JobStateReasons(Collection);
+        final JobStateReasons sut = null; // = new JobStateReasons(java.util.Collection);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JobStateReasons#JobStateReasons(int, float)
-     * public javax.print.attribute.standard.JobStateReasons(int,float)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons(int, float) public
+     * javax.print.attribute.standard.JobStateReasons(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,7 +68,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobStateReasonsC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JobStateReasons#JobStateReasons(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons(int) public
      * javax.print.attribute.standard.JobStateReasons(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +91,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobStateReasonsC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JobStateReasons#JobStateReasons() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons() public
      * javax.print.attribute.standard.JobStateReasons()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

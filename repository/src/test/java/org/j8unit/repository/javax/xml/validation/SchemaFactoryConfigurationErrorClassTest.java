@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.xml.validation.SchemaFactoryConfiguration
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(String, Throwable) public
-     * javax.xml.validation.SchemaFactoryConfigurationError(java.lang.String,java.lang.Throwable)}.
+     * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(String, Throwable)
+     * public javax.xml.validation.SchemaFactoryConfigurationError(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.validation.SchemaFactoryConfiguration
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(Throwable) public
+     * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(Throwable) public
      * javax.xml.validation.SchemaFactoryConfigurationError(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.xml.validation.SchemaFactoryConfiguration
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(String) public
+     * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(String) public
      * javax.xml.validation.SchemaFactoryConfigurationError(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.javax.xml.validation.SchemaFactoryConfiguration
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SchemaFactoryConfigurationError#SchemaFactoryConfigurationError() public
+     * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError() public
      * javax.xml.validation.SchemaFactoryConfigurationError()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

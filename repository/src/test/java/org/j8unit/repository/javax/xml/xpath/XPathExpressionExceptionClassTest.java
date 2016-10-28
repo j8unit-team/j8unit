@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.xpath.XPathExpressionExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XPathExpressionException#XPathExpressionException(String) public
+     * {@link javax.xml.xpath.XPathExpressionException#XPathExpressionException(String) public
      * javax.xml.xpath.XPathExpressionException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.xpath.XPathExpressionExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XPathExpressionException#XPathExpressionException(Throwable) public
+     * {@link javax.xml.xpath.XPathExpressionException#XPathExpressionException(Throwable) public
      * javax.xml.xpath.XPathExpressionException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.loading;
 
-import java.net.URL;
-import java.net.URLStreamHandlerFactory;
 import javax.management.loading.PrivateMLet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.management.loading.PrivateMLetClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrivateMLet#PrivateMLet(URL[], boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.loading.PrivateMLet#PrivateMLet(java.net.URL[], boolean) public
      * javax.management.loading.PrivateMLet(java.net.URL[],boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.javax.management.loading.PrivateMLetClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrivateMLet sut = null; // = new PrivateMLet(URL[], boolean);
+        final PrivateMLet sut = null; // = new PrivateMLet(java.net.URL[], boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrivateMLet#PrivateMLet(URL[], ClassLoader, boolean) public
+     * {@link javax.management.loading.PrivateMLet#PrivateMLet(java.net.URL[], ClassLoader, boolean) public
      * javax.management.loading.PrivateMLet(java.net.URL[],java.lang.ClassLoader,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +62,14 @@ implements org.j8unit.repository.javax.management.loading.PrivateMLetClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrivateMLet sut = null; // = new PrivateMLet(URL[], ClassLoader, boolean);
+        final PrivateMLet sut = null; // = new PrivateMLet(java.net.URL[], ClassLoader, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrivateMLet#PrivateMLet(URL[], ClassLoader, URLStreamHandlerFactory, boolean) public
+     * {@link javax.management.loading.PrivateMLet#PrivateMLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory, boolean)
+     * public
      * javax.management.loading.PrivateMLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean)}
      * .
      *
@@ -87,7 +87,8 @@ implements org.j8unit.repository.javax.management.loading.PrivateMLetClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrivateMLet sut = null; // = new PrivateMLet(URL[], ClassLoader, URLStreamHandlerFactory, boolean);
+        final PrivateMLet sut = null; // = new PrivateMLet(java.net.URL[], ClassLoader,
+                                      // java.net.URLStreamHandlerFactory, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.PrivateMLet]

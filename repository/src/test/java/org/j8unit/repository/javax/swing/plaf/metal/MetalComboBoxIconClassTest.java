@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxIconClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MetalComboBoxIcon#MetalComboBoxIcon() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.metal.MetalComboBoxIcon#MetalComboBoxIcon() public
      * javax.swing.plaf.metal.MetalComboBoxIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

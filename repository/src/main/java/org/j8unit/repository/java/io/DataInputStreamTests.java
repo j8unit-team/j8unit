@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#read(byte[]) public final int
-     * java.io.DataInputStream.read(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#read(byte[]) public final
+     * int java.io.DataInputStream.read(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#read(byte[], int, int) public final
-     * int java.io.DataInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#read(byte[], int, int)
+     * public final int java.io.DataInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readLine() public final
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readLine() public final
      * java.lang.String java.io.DataInputStream.readLine() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#skipBytes(int) public final int
-     * java.io.DataInputStream.skipBytes(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#skipBytes(int) public final
+     * int java.io.DataInputStream.skipBytes(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readChar() public final char
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readChar() public final char
      * java.io.DataInputStream.readChar() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +149,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readShort() public final short
-     * java.io.DataInputStream.readShort() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readShort() public final
+     * short java.io.DataInputStream.readShort() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +172,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readLong() public final long
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readLong() public final long
      * java.io.DataInputStream.readLong() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,7 +195,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readUTF() public final
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readUTF() public final
      * java.lang.String java.io.DataInputStream.readUTF() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -218,8 +218,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readDouble() public final double
-     * java.io.DataInputStream.readDouble() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readDouble() public final
+     * double java.io.DataInputStream.readDouble() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -241,8 +241,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readFully(byte[]) public final void
-     * java.io.DataInputStream.readFully(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readFully(byte[]) public
+     * final void java.io.DataInputStream.readFully(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -264,8 +264,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readFully(byte[], int, int) public
-     * final void java.io.DataInputStream.readFully(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readFully(byte[], int, int)
+     * public final void java.io.DataInputStream.readFully(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +287,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readFloat() public final float
-     * java.io.DataInputStream.readFloat() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readFloat() public final
+     * float java.io.DataInputStream.readFloat() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,8 +310,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readBoolean() public final boolean
-     * java.io.DataInputStream.readBoolean() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readBoolean() public final
+     * boolean java.io.DataInputStream.readBoolean() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,8 +333,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readUnsignedByte() public final int
-     * java.io.DataInputStream.readUnsignedByte() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readUnsignedByte() public
+     * final int java.io.DataInputStream.readUnsignedByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -356,7 +356,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readByte() public final byte
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readByte() public final byte
      * java.io.DataInputStream.readByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -379,7 +379,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readInt() public final int
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readInt() public final int
      * java.io.DataInputStream.readInt() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -402,8 +402,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readUnsignedShort() public final int
-     * java.io.DataInputStream.readUnsignedShort() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readUnsignedShort() public
+     * final int java.io.DataInputStream.readUnsignedShort() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

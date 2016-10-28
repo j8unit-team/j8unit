@@ -34,30 +34,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleComponentTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleExtendedComponent#getToolTipText() public
-     * abstract java.lang.String javax.accessibility.AccessibleExtendedComponent.getToolTipText()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getToolTipText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AccessibleExtendedComponent#getAccessibleKeyBinding() public abstract
+     * {@link javax.accessibility.AccessibleExtendedComponent#getAccessibleKeyBinding() public abstract
      * javax.accessibility.AccessibleKeyBinding
      * javax.accessibility.AccessibleExtendedComponent.getAccessibleKeyBinding()}.
      *
@@ -80,8 +58,32 @@ extends org.j8unit.repository.javax.accessibility.AccessibleComponentTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleExtendedComponent#getTitledBorderText()
-     * public abstract java.lang.String javax.accessibility.AccessibleExtendedComponent.getTitledBorderText()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleExtendedComponent#getToolTipText() public abstract java.lang.String
+     * javax.accessibility.AccessibleExtendedComponent.getToolTipText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getToolTipText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleExtendedComponent#getTitledBorderText() public abstract java.lang.String
+     * javax.accessibility.AccessibleExtendedComponent.getTitledBorderText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

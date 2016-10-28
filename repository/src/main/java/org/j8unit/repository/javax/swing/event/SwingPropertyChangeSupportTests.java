@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import java.beans.PropertyChangeEvent;
 import javax.swing.event.SwingPropertyChangeSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeSupportTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SwingPropertyChangeSupport#firePropertyChange(PropertyChangeEvent) public void
-     * javax.swing.event.SwingPropertyChangeSupport.firePropertyChange(java.beans.PropertyChangeEvent)}.
+     * {@link javax.swing.event.SwingPropertyChangeSupport#firePropertyChange(java.beans.PropertyChangeEvent) public
+     * void javax.swing.event.SwingPropertyChangeSupport.firePropertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeSupportTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SwingPropertyChangeSupport#isNotifyOnEDT() public
-     * final boolean javax.swing.event.SwingPropertyChangeSupport.isNotifyOnEDT()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.SwingPropertyChangeSupport#isNotifyOnEDT() public final boolean
+     * javax.swing.event.SwingPropertyChangeSupport.isNotifyOnEDT()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

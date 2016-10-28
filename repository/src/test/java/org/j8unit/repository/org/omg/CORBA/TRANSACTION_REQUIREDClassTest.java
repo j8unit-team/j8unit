@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.TRANSACTION_REQUIRED;
 
 @RunWith(J8Unit4.class)
@@ -23,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_REQUIREDClassTests<TR
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TRANSACTION_REQUIRED#TRANSACTION_REQUIRED(String, int, CompletionStatus) public
-     * org.omg.CORBA.TRANSACTION_REQUIRED(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * {@link org.omg.CORBA.TRANSACTION_REQUIRED#TRANSACTION_REQUIRED(String, int, org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.TRANSACTION_REQUIRED(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,14 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_REQUIREDClassTests<TR
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TRANSACTION_REQUIRED sut = null; // = new TRANSACTION_REQUIRED(String, int, CompletionStatus);
+        final TRANSACTION_REQUIRED sut = null; // = new TRANSACTION_REQUIRED(String, int,
+                                               // org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TRANSACTION_REQUIRED#TRANSACTION_REQUIRED(int, CompletionStatus) public
+     * {@link org.omg.CORBA.TRANSACTION_REQUIRED#TRANSACTION_REQUIRED(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.TRANSACTION_REQUIRED(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +63,13 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_REQUIREDClassTests<TR
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TRANSACTION_REQUIRED sut = null; // = new TRANSACTION_REQUIRED(int, CompletionStatus);
+        final TRANSACTION_REQUIRED sut = null; // = new TRANSACTION_REQUIRED(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TRANSACTION_REQUIRED#TRANSACTION_REQUIRED(String) public
+     * {@link org.omg.CORBA.TRANSACTION_REQUIRED#TRANSACTION_REQUIRED(String) public
      * org.omg.CORBA.TRANSACTION_REQUIRED(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,8 +91,8 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_REQUIREDClassTests<TR
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TRANSACTION_REQUIRED#TRANSACTION_REQUIRED()
-     * public org.omg.CORBA.TRANSACTION_REQUIRED()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.TRANSACTION_REQUIRED#TRANSACTION_REQUIRED() public org.omg.CORBA.TRANSACTION_REQUIRED()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

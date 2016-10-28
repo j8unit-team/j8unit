@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.io.ObjectInput;
 import java.rmi.server.ObjID;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.java.rmi.server.ObjIDClassTests<ObjID> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjID#ObjID(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.rmi.server.ObjID#ObjID(int) public
      * java.rmi.server.ObjID(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +43,8 @@ implements org.j8unit.repository.java.rmi.server.ObjIDClassTests<ObjID> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjID#ObjID() public java.rmi.server.ObjID()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.rmi.server.ObjID#ObjID() public
+     * java.rmi.server.ObjID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +64,8 @@ implements org.j8unit.repository.java.rmi.server.ObjIDClassTests<ObjID> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjID#read(ObjectInput) public static
-     * java.rmi.server.ObjID java.rmi.server.ObjID.read(java.io.ObjectInput) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.ObjID#read(java.io.ObjectInput)
+     * public static java.rmi.server.ObjID java.rmi.server.ObjID.read(java.io.ObjectInput) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ implements org.j8unit.repository.java.rmi.server.ObjIDClassTests<ObjID> {
     @Category(Draft.class)
     public void test_read_ObjectInput()
     throws Exception {
-        // write some test for {@link ObjID#read(ObjectInput)}
+        // write some test for {@link java.rmi.server.ObjID#read(java.io.ObjectInput)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.ObjID]

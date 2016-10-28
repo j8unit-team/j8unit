@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.TransformParameterSpecT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathFilterParameterSpec#getNamespaceMap() public
-     * java.util.Map javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getNamespaceMap()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getNamespaceMap() public java.util.Map
+     * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getNamespaceMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.TransformParameterSpecT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathFilterParameterSpec#getXPath() public
-     * java.lang.String javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getXPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#getXPath() public java.lang.String
+     * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec.getXPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

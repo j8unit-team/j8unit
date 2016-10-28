@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
 import org.omg.PortableInterceptor.CurrentOperations;
 
 /**
@@ -35,8 +34,9 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentOperations#set_slot(int, Any) public abstract
-     * void org.omg.PortableInterceptor.CurrentOperations.set_slot(int,org.omg.CORBA.Any) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.CurrentOperations#set_slot(int, org.omg.CORBA.Any) public abstract void
+     * org.omg.PortableInterceptor.CurrentOperations.set_slot(int,org.omg.CORBA.Any) throws
      * org.omg.PortableInterceptor.InvalidSlot}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,9 +58,9 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentOperations#get_slot(int) public abstract
-     * org.omg.CORBA.Any org.omg.PortableInterceptor.CurrentOperations.get_slot(int) throws
-     * org.omg.PortableInterceptor.InvalidSlot}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.CurrentOperations#get_slot(int) public abstract org.omg.CORBA.Any
+     * org.omg.PortableInterceptor.CurrentOperations.get_slot(int) throws org.omg.PortableInterceptor.InvalidSlot}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

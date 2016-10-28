@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.remote;
 
-import java.util.Map;
 import javax.management.remote.JMXConnectorServerMBean;
-import javax.management.remote.MBeanServerForwarder;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectorServerMBean#toJMXConnector(Map) public
-     * abstract javax.management.remote.JMXConnector
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServerMBean#toJMXConnector(java.util.Map) public abstract
+     * javax.management.remote.JMXConnector
      * javax.management.remote.JMXConnectorServerMBean.toJMXConnector(java.util.Map<java.lang.String, ?>) throws
      * java.io.IOException}.
      *
@@ -61,8 +60,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectorServerMBean#getConnectionIds() public
-     * abstract java.lang.String[] javax.management.remote.JMXConnectorServerMBean.getConnectionIds()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServerMBean#getConnectionIds() public abstract java.lang.String[]
+     * javax.management.remote.JMXConnectorServerMBean.getConnectionIds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +83,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectorServerMBean#isActive() public abstract
-     * boolean javax.management.remote.JMXConnectorServerMBean.isActive()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServerMBean#isActive() public abstract boolean
+     * javax.management.remote.JMXConnectorServerMBean.isActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +106,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectorServerMBean#getAddress() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServerMBean#getAddress() public abstract
      * javax.management.remote.JMXServiceURL javax.management.remote.JMXConnectorServerMBean.getAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,7 +129,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectorServerMBean#start() public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServerMBean#start() public abstract void
      * javax.management.remote.JMXConnectorServerMBean.start() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +152,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectorServerMBean#stop() public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServerMBean#stop() public abstract void
      * javax.management.remote.JMXConnectorServerMBean.stop() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +176,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMXConnectorServerMBean#setMBeanServerForwarder(MBeanServerForwarder) public abstract void
+     * {@link javax.management.remote.JMXConnectorServerMBean#setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)
+     * public abstract void
      * javax.management.remote.JMXConnectorServerMBean.setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)}
      * .
      *
@@ -195,8 +200,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectorServerMBean#getAttributes() public
-     * abstract java.util.Map<java.lang.String, ?> javax.management.remote.JMXConnectorServerMBean.getAttributes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServerMBean#getAttributes() public abstract
+     * java.util.Map<java.lang.String, ?> javax.management.remote.JMXConnectorServerMBean.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

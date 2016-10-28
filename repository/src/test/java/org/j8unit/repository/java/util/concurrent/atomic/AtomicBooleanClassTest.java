@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicBooleanClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicBoolean#AtomicBoolean(boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicBoolean#AtomicBoolean(boolean) public
      * java.util.concurrent.atomic.AtomicBoolean(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +44,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicBooleanClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicBoolean#AtomicBoolean() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicBoolean#AtomicBoolean() public
      * java.util.concurrent.atomic.AtomicBoolean()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

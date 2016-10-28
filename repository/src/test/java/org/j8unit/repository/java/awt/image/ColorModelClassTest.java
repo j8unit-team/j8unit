@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.image.ColorModelClassTests<ColorModel>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ColorModel#ColorModel(int) public
-     * java.awt.image.ColorModel(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.image.ColorModel#ColorModel(int)
+     * public java.awt.image.ColorModel(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.java.awt.image.ColorModelClassTests<ColorModel>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorModel#getRGBdefault() public static
-     * java.awt.image.ColorModel java.awt.image.ColorModel.getRGBdefault()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getRGBdefault() public
+     * static java.awt.image.ColorModel java.awt.image.ColorModel.getRGBdefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ implements org.j8unit.repository.java.awt.image.ColorModelClassTests<ColorModel>
     @Category(Draft.class)
     public void test_getRGBdefault()
     throws Exception {
-        // write some test for {@link ColorModel#getRGBdefault()}
+        // write some test for {@link java.awt.image.ColorModel#getRGBdefault()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ColorModel]

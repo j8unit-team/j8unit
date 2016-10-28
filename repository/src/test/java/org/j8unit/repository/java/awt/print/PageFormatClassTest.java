@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.print.PageFormatClassTests<PageFormat>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PageFormat#PageFormat() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.print.PageFormat#PageFormat() public
      * java.awt.print.PageFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

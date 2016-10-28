@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.BufferedInputStream;
-import java.io.InputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.io.BufferedInputStreamClassTests<BufferedI
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BufferedInputStream#BufferedInputStream(InputStream) public
+     * {@link java.io.BufferedInputStream#BufferedInputStream(java.io.InputStream) public
      * java.io.BufferedInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.io.BufferedInputStreamClassTests<BufferedI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferedInputStream sut = null; // = new BufferedInputStream(InputStream);
+        final BufferedInputStream sut = null; // = new BufferedInputStream(java.io.InputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BufferedInputStream#BufferedInputStream(InputStream, int) public
+     * {@link java.io.BufferedInputStream#BufferedInputStream(java.io.InputStream, int) public
      * java.io.BufferedInputStream(java.io.InputStream,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.io.BufferedInputStreamClassTests<BufferedI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BufferedInputStream sut = null; // = new BufferedInputStream(InputStream, int);
+        final BufferedInputStream sut = null; // = new BufferedInputStream(java.io.InputStream, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.BufferedInputStream]

@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.imageio;
 
-import java.awt.Point;
-import java.awt.Rectangle;
 import javax.imageio.IIOParam;
-import javax.imageio.IIOParamController;
-import javax.imageio.ImageTypeSpecifier;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#setSourceBands(int[]) public void
-     * javax.imageio.IIOParam.setSourceBands(int[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#setSourceBands(int[]) public
+     * void javax.imageio.IIOParam.setSourceBands(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#setDestinationType(ImageTypeSpecifier)
-     * public void javax.imageio.IIOParam.setDestinationType(javax.imageio.ImageTypeSpecifier)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.IIOParam#setDestinationType(javax.imageio.ImageTypeSpecifier) public void
+     * javax.imageio.IIOParam.setDestinationType(javax.imageio.ImageTypeSpecifier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getSourceRegion() public java.awt.Rectangle
-     * javax.imageio.IIOParam.getSourceRegion()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getSourceRegion() public
+     * java.awt.Rectangle javax.imageio.IIOParam.getSourceRegion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getSubsamplingXOffset() public int
-     * javax.imageio.IIOParam.getSubsamplingXOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getSubsamplingXOffset()
+     * public int javax.imageio.IIOParam.getSubsamplingXOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getController() public
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getController() public
      * javax.imageio.IIOParamController javax.imageio.IIOParam.getController()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getSubsamplingYOffset() public int
-     * javax.imageio.IIOParam.getSubsamplingYOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getSubsamplingYOffset()
+     * public int javax.imageio.IIOParam.getSubsamplingYOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +167,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getSourceBands() public int[]
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getSourceBands() public int[]
      * javax.imageio.IIOParam.getSourceBands()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +189,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#setSourceSubsampling(int, int, int, int)
-     * public void javax.imageio.IIOParam.setSourceSubsampling(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.IIOParam#setSourceSubsampling(int, int, int, int) public void
+     * javax.imageio.IIOParam.setSourceSubsampling(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,7 +212,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#setSourceRegion(Rectangle) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.IIOParam#setSourceRegion(java.awt.Rectangle) public void
      * javax.imageio.IIOParam.setSourceRegion(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +235,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#hasController() public boolean
-     * javax.imageio.IIOParam.hasController()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#hasController() public
+     * boolean javax.imageio.IIOParam.hasController()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,7 +257,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getDestinationOffset() public
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getDestinationOffset() public
      * java.awt.Point javax.imageio.IIOParam.getDestinationOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -280,7 +279,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getDestinationType() public
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getDestinationType() public
      * javax.imageio.ImageTypeSpecifier javax.imageio.IIOParam.getDestinationType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -302,7 +301,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#setDestinationOffset(Point) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.IIOParam#setDestinationOffset(java.awt.Point) public void
      * javax.imageio.IIOParam.setDestinationOffset(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -324,8 +324,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#setController(IIOParamController) public
-     * void javax.imageio.IIOParam.setController(javax.imageio.IIOParamController)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.IIOParam#setController(javax.imageio.IIOParamController) public void
+     * javax.imageio.IIOParam.setController(javax.imageio.IIOParamController)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,8 +347,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getSourceXSubsampling() public int
-     * javax.imageio.IIOParam.getSourceXSubsampling()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getSourceXSubsampling()
+     * public int javax.imageio.IIOParam.getSourceXSubsampling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -368,8 +369,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#activateController() public boolean
-     * javax.imageio.IIOParam.activateController()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#activateController() public
+     * boolean javax.imageio.IIOParam.activateController()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -390,8 +391,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getSourceYSubsampling() public int
-     * javax.imageio.IIOParam.getSourceYSubsampling()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getSourceYSubsampling()
+     * public int javax.imageio.IIOParam.getSourceYSubsampling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -412,7 +413,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOParam#getDefaultController() public
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOParam#getDefaultController() public
      * javax.imageio.IIOParamController javax.imageio.IIOParam.getDefaultController()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

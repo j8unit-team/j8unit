@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RegistryHandler#registryImpl(int) public abstract
-     * java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryImpl(int) throws java.rmi.RemoteException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.registry.RegistryHandler#registryImpl(int)
+     * public abstract java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryImpl(int) throws
+     * java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RegistryHandler#registryStub(String, int) public
-     * abstract java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.registry.RegistryHandler#registryStub(String, int) public abstract java.rmi.registry.Registry
+     * java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int) throws
      * java.rmi.RemoteException,java.rmi.UnknownHostException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

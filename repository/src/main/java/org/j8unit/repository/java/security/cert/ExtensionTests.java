@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.io.OutputStream;
 import java.security.cert.Extension;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Extension#isCritical() public abstract boolean
-     * java.security.cert.Extension.isCritical()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.Extension#isCritical() public
+     * abstract boolean java.security.cert.Extension.isCritical()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Extension#getId() public abstract java.lang.String
-     * java.security.cert.Extension.getId()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.Extension#getId() public abstract
+     * java.lang.String java.security.cert.Extension.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Extension#encode(OutputStream) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.Extension#encode(java.io.OutputStream) public abstract void
      * java.security.cert.Extension.encode(java.io.OutputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Extension#getValue() public abstract byte[]
-     * java.security.cert.Extension.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.Extension#getValue() public
+     * abstract byte[] java.security.cert.Extension.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

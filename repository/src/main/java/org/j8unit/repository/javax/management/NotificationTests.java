@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#setUserData(Object) public void
-     * javax.management.Notification.setUserData(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Notification#setUserData(Object)
+     * public void javax.management.Notification.setUserData(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#getMessage() public java.lang.String
-     * javax.management.Notification.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Notification#getMessage() public
+     * java.lang.String javax.management.Notification.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#getUserData() public java.lang.Object
-     * javax.management.Notification.getUserData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Notification#getUserData() public
+     * java.lang.Object javax.management.Notification.getUserData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#toString() public java.lang.String
-     * javax.management.Notification.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Notification#toString() public
+     * java.lang.String javax.management.Notification.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#setSequenceNumber(long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.Notification#setSequenceNumber(long) public void
      * javax.management.Notification.setSequenceNumber(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +146,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#getType() public java.lang.String
-     * javax.management.Notification.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Notification#getType() public
+     * java.lang.String javax.management.Notification.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#setSource(Object) public void
-     * javax.management.Notification.setSource(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Notification#setSource(Object)
+     * public void javax.management.Notification.setSource(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +190,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#setTimeStamp(long) public void
-     * javax.management.Notification.setTimeStamp(long)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Notification#setTimeStamp(long)
+     * public void javax.management.Notification.setTimeStamp(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +212,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#getTimeStamp() public long
-     * javax.management.Notification.getTimeStamp()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Notification#getTimeStamp() public
+     * long javax.management.Notification.getTimeStamp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +234,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notification#getSequenceNumber() public long
-     * javax.management.Notification.getSequenceNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Notification#getSequenceNumber()
+     * public long javax.management.Notification.getSequenceNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

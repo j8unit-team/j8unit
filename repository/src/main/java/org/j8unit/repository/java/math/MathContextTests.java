@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MathContext#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.math.MathContext#hashCode() public int
      * java.math.MathContext.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MathContext#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.math.MathContext#equals(Object) public boolean
      * java.math.MathContext.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MathContext#getRoundingMode() public
+     * Test method for the hereby targeted method-under-test {@link java.math.MathContext#getRoundingMode() public
      * java.math.RoundingMode java.math.MathContext.getRoundingMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MathContext#getPrecision() public int
+     * Test method for the hereby targeted method-under-test {@link java.math.MathContext#getPrecision() public int
      * java.math.MathContext.getPrecision()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MathContext#toString() public java.lang.String
-     * java.math.MathContext.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.math.MathContext#toString() public
+     * java.lang.String java.math.MathContext.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

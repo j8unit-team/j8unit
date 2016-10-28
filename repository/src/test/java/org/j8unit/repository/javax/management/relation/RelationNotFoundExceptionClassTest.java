@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.relation.RelationNotFoundExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RelationNotFoundException#RelationNotFoundException() public
+     * {@link javax.management.relation.RelationNotFoundException#RelationNotFoundException() public
      * javax.management.relation.RelationNotFoundException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.relation.RelationNotFoundExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RelationNotFoundException#RelationNotFoundException(String) public
+     * {@link javax.management.relation.RelationNotFoundException#RelationNotFoundException(String) public
      * javax.management.relation.RelationNotFoundException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

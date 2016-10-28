@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.sound.sampled.spi;
 
-import java.io.File;
-import java.io.InputStream;
-import java.net.URL;
 import javax.sound.sampled.spi.AudioFileReader;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileReader#getAudioInputStream(InputStream)
-     * public abstract javax.sound.sampled.AudioInputStream
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioInputStream(java.io.InputStream) public abstract
+     * javax.sound.sampled.AudioInputStream
      * javax.sound.sampled.spi.AudioFileReader.getAudioInputStream(java.io.InputStream) throws
      * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      *
@@ -61,10 +59,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileReader#getAudioInputStream(URL) public
-     * abstract javax.sound.sampled.AudioInputStream
-     * javax.sound.sampled.spi.AudioFileReader.getAudioInputStream(java.net.URL) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioInputStream(java.net.URL) public abstract
+     * javax.sound.sampled.AudioInputStream javax.sound.sampled.spi.AudioFileReader.getAudioInputStream(java.net.URL)
+     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,10 +83,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileReader#getAudioInputStream(File) public
-     * abstract javax.sound.sampled.AudioInputStream
-     * javax.sound.sampled.spi.AudioFileReader.getAudioInputStream(java.io.File) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioInputStream(java.io.File) public abstract
+     * javax.sound.sampled.AudioInputStream javax.sound.sampled.spi.AudioFileReader.getAudioInputStream(java.io.File)
+     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,8 +107,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileReader#getAudioFileFormat(InputStream)
-     * public abstract javax.sound.sampled.AudioFileFormat
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioFileFormat(java.io.InputStream) public abstract
+     * javax.sound.sampled.AudioFileFormat
      * javax.sound.sampled.spi.AudioFileReader.getAudioFileFormat(java.io.InputStream) throws
      * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      *
@@ -133,10 +132,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileReader#getAudioFileFormat(URL) public
-     * abstract javax.sound.sampled.AudioFileFormat
-     * javax.sound.sampled.spi.AudioFileReader.getAudioFileFormat(java.net.URL) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioFileFormat(java.net.URL) public abstract
+     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.spi.AudioFileReader.getAudioFileFormat(java.net.URL)
+     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,10 +156,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileReader#getAudioFileFormat(File) public
-     * abstract javax.sound.sampled.AudioFileFormat
-     * javax.sound.sampled.spi.AudioFileReader.getAudioFileFormat(java.io.File) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioFileFormat(java.io.File) public abstract
+     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.spi.AudioFileReader.getAudioFileFormat(java.io.File)
+     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

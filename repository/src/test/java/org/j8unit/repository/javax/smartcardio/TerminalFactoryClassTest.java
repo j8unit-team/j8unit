@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.smartcardio;
 
-import java.security.Provider;
 import javax.smartcardio.TerminalFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.smartcardio.TerminalFactoryClassTests<Ter
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TerminalFactory#getDefaultType() public static
-     * java.lang.String javax.smartcardio.TerminalFactory.getDefaultType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.TerminalFactory#getDefaultType()
+     * public static java.lang.String javax.smartcardio.TerminalFactory.getDefaultType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,13 +36,14 @@ implements org.j8unit.repository.javax.smartcardio.TerminalFactoryClassTests<Ter
     @Category(Draft.class)
     public void test_getDefaultType()
     throws Exception {
-        // write some test for {@link TerminalFactory#getDefaultType()}
+        // write some test for {@link javax.smartcardio.TerminalFactory#getDefaultType()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TerminalFactory#getInstance(String, Object, Provider) public static javax.smartcardio.TerminalFactory
+     * {@link javax.smartcardio.TerminalFactory#getInstance(String, Object, java.security.Provider) public static
+     * javax.smartcardio.TerminalFactory
      * javax.smartcardio.TerminalFactory.getInstance(java.lang.String,java.lang.Object,java.security.Provider) throws
      * java.security.NoSuchAlgorithmException}.
      *
@@ -59,13 +59,15 @@ implements org.j8unit.repository.javax.smartcardio.TerminalFactoryClassTests<Ter
     @Category(Draft.class)
     public void test_getInstance_String_Object_Provider()
     throws Exception {
-        // write some test for {@link TerminalFactory#getInstance(String, Object, Provider)}
+        // write some test for {@link javax.smartcardio.TerminalFactory#getInstance(String, Object,
+        // java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TerminalFactory#getInstance(String, Object) public
-     * static javax.smartcardio.TerminalFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.smartcardio.TerminalFactory#getInstance(String, Object) public static
+     * javax.smartcardio.TerminalFactory
      * javax.smartcardio.TerminalFactory.getInstance(java.lang.String,java.lang.Object) throws
      * java.security.NoSuchAlgorithmException}.
      *
@@ -81,13 +83,14 @@ implements org.j8unit.repository.javax.smartcardio.TerminalFactoryClassTests<Ter
     @Category(Draft.class)
     public void test_getInstance_String_Object()
     throws Exception {
-        // write some test for {@link TerminalFactory#getInstance(String, Object)}
+        // write some test for {@link javax.smartcardio.TerminalFactory#getInstance(String, Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TerminalFactory#getInstance(String, Object, String)
-     * public static javax.smartcardio.TerminalFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.smartcardio.TerminalFactory#getInstance(String, Object, String) public static
+     * javax.smartcardio.TerminalFactory
      * javax.smartcardio.TerminalFactory.getInstance(java.lang.String,java.lang.Object,java.lang.String) throws
      * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      *
@@ -103,13 +106,13 @@ implements org.j8unit.repository.javax.smartcardio.TerminalFactoryClassTests<Ter
     @Category(Draft.class)
     public void test_getInstance_String_Object_String()
     throws Exception {
-        // write some test for {@link TerminalFactory#getInstance(String, Object, String)}
+        // write some test for {@link javax.smartcardio.TerminalFactory#getInstance(String, Object, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TerminalFactory#getDefault() public static
-     * javax.smartcardio.TerminalFactory javax.smartcardio.TerminalFactory.getDefault()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.TerminalFactory#getDefault()
+     * public static javax.smartcardio.TerminalFactory javax.smartcardio.TerminalFactory.getDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +126,7 @@ implements org.j8unit.repository.javax.smartcardio.TerminalFactoryClassTests<Ter
     @Category(Draft.class)
     public void test_getDefault()
     throws Exception {
-        // write some test for {@link TerminalFactory#getDefault()}
+        // write some test for {@link javax.smartcardio.TerminalFactory#getDefault()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.TerminalFactory]

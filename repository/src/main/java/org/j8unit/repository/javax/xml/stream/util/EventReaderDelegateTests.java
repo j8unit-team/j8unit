@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.stream.util;
 
-import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.util.EventReaderDelegate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -41,8 +40,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#remove() public void
-     * javax.xml.stream.util.EventReaderDelegate.remove()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.EventReaderDelegate#remove()
+     * public void javax.xml.stream.util.EventReaderDelegate.remove()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +63,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#peek() public
-     * javax.xml.stream.events.XMLEvent javax.xml.stream.util.EventReaderDelegate.peek() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.EventReaderDelegate#peek()
+     * public javax.xml.stream.events.XMLEvent javax.xml.stream.util.EventReaderDelegate.peek() throws
      * javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +87,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#close() public void
-     * javax.xml.stream.util.EventReaderDelegate.close() throws javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.EventReaderDelegate#close()
+     * public void javax.xml.stream.util.EventReaderDelegate.close() throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +110,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#hasNext() public boolean
-     * javax.xml.stream.util.EventReaderDelegate.hasNext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.EventReaderDelegate#hasNext()
+     * public boolean javax.xml.stream.util.EventReaderDelegate.hasNext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -134,8 +133,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#setParent(XMLEventReader) public
-     * void javax.xml.stream.util.EventReaderDelegate.setParent(javax.xml.stream.XMLEventReader)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.EventReaderDelegate#setParent(javax.xml.stream.XMLEventReader) public void
+     * javax.xml.stream.util.EventReaderDelegate.setParent(javax.xml.stream.XMLEventReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,9 +156,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#nextEvent() public
-     * javax.xml.stream.events.XMLEvent javax.xml.stream.util.EventReaderDelegate.nextEvent() throws
-     * javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.EventReaderDelegate#nextEvent() public javax.xml.stream.events.XMLEvent
+     * javax.xml.stream.util.EventReaderDelegate.nextEvent() throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,9 +180,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#getElementText() public
-     * java.lang.String javax.xml.stream.util.EventReaderDelegate.getElementText() throws
-     * javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.EventReaderDelegate#getElementText() public java.lang.String
+     * javax.xml.stream.util.EventReaderDelegate.getElementText() throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -204,8 +204,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#getParent() public
-     * javax.xml.stream.XMLEventReader javax.xml.stream.util.EventReaderDelegate.getParent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.EventReaderDelegate#getParent() public javax.xml.stream.XMLEventReader
+     * javax.xml.stream.util.EventReaderDelegate.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -226,8 +227,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#getProperty(String) public
-     * java.lang.Object javax.xml.stream.util.EventReaderDelegate.getProperty(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.EventReaderDelegate#getProperty(String) public java.lang.Object
+     * javax.xml.stream.util.EventReaderDelegate.getProperty(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -250,8 +252,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#nextTag() public
-     * javax.xml.stream.events.XMLEvent javax.xml.stream.util.EventReaderDelegate.nextTag() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.EventReaderDelegate#nextTag()
+     * public javax.xml.stream.events.XMLEvent javax.xml.stream.util.EventReaderDelegate.nextTag() throws
      * javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -274,8 +276,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventReaderDelegate#next() public java.lang.Object
-     * javax.xml.stream.util.EventReaderDelegate.next()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.EventReaderDelegate#next()
+     * public java.lang.Object javax.xml.stream.util.EventReaderDelegate.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

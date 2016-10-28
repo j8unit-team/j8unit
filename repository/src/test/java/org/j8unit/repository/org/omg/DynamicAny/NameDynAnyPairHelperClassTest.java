@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.DynamicAny.NameDynAnyPair;
 import org.omg.DynamicAny.NameDynAnyPairHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,9 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairHelperClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NameDynAnyPairHelper#NameDynAnyPairHelper()
-     * public org.omg.DynamicAny.NameDynAnyPairHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.NameDynAnyPairHelper#NameDynAnyPairHelper() public
+     * org.omg.DynamicAny.NameDynAnyPairHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +43,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairHelperClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameDynAnyPairHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.NameDynAnyPairHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.DynamicAny.NameDynAnyPair
      * org.omg.DynamicAny.NameDynAnyPairHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
@@ -62,12 +60,13 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairHelperClassTes
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link NameDynAnyPairHelper#read(InputStream)}
+        // write some test for {@link org.omg.DynamicAny.NameDynAnyPairHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameDynAnyPairHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.NameDynAnyPairHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.DynamicAny.NameDynAnyPair org.omg.DynamicAny.NameDynAnyPairHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,13 +81,13 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairHelperClassTes
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link NameDynAnyPairHelper#extract(Any)}
+        // write some test for {@link org.omg.DynamicAny.NameDynAnyPairHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameDynAnyPairHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.DynamicAny.NameDynAnyPairHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.NameDynAnyPairHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.DynamicAny.NameDynAnyPairHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,13 +101,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairHelperClassTes
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link NameDynAnyPairHelper#type()}
+        // write some test for {@link org.omg.DynamicAny.NameDynAnyPairHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NameDynAnyPairHelper#write(OutputStream, NameDynAnyPair) public static void
+     * {@link org.omg.DynamicAny.NameDynAnyPairHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.DynamicAny.NameDynAnyPair)
+     * public static void
      * org.omg.DynamicAny.NameDynAnyPairHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.NameDynAnyPair)}
      * .
      *
@@ -124,12 +124,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairHelperClassTes
     @Category(Draft.class)
     public void test_write_OutputStream_NameDynAnyPair()
     throws Exception {
-        // write some test for {@link NameDynAnyPairHelper#write(OutputStream, NameDynAnyPair)}
+        // write some test for {@link org.omg.DynamicAny.NameDynAnyPairHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.DynamicAny.NameDynAnyPair)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameDynAnyPairHelper#insert(Any, NameDynAnyPair)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.NameDynAnyPairHelper#insert(org.omg.CORBA.Any, org.omg.DynamicAny.NameDynAnyPair)
      * public static void
      * org.omg.DynamicAny.NameDynAnyPairHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.NameDynAnyPair)}.
      *
@@ -145,13 +147,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairHelperClassTes
     @Category(Draft.class)
     public void test_insert_Any_NameDynAnyPair()
     throws Exception {
-        // write some test for {@link NameDynAnyPairHelper#insert(Any, NameDynAnyPair)}
+        // write some test for {@link org.omg.DynamicAny.NameDynAnyPairHelper#insert(org.omg.CORBA.Any,
+        // org.omg.DynamicAny.NameDynAnyPair)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameDynAnyPairHelper#id() public static
-     * java.lang.String org.omg.DynamicAny.NameDynAnyPairHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.NameDynAnyPairHelper#id() public
+     * static java.lang.String org.omg.DynamicAny.NameDynAnyPairHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -165,7 +168,7 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairHelperClassTes
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link NameDynAnyPairHelper#id()}
+        // write some test for {@link org.omg.DynamicAny.NameDynAnyPairHelper#id()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPairHelper]

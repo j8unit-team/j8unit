@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthStyleFactoryClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SynthStyleFactory#SynthStyleFactory() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.synth.SynthStyleFactory#SynthStyleFactory() public
      * javax.swing.plaf.synth.SynthStyleFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

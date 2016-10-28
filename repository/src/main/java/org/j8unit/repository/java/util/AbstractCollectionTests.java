@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.AbstractCollection;
-import java.util.Collection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#removeAll(Collection) public
-     * boolean java.util.AbstractCollection.removeAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.AbstractCollection#removeAll(java.util.Collection) public boolean
+     * java.util.AbstractCollection.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#iterator() public abstract
-     * java.util.Iterator<E> java.util.AbstractCollection.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#iterator() public
+     * abstract java.util.Iterator<E> java.util.AbstractCollection.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#contains(Object) public boolean
-     * java.util.AbstractCollection.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#contains(Object) public
+     * boolean java.util.AbstractCollection.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#size() public abstract int
-     * java.util.AbstractCollection.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#size() public abstract
+     * int java.util.AbstractCollection.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +127,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#addAll(Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.AbstractCollection#addAll(java.util.Collection) public boolean
      * java.util.AbstractCollection.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,7 +151,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#toString() public
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#toString() public
      * java.lang.String java.util.AbstractCollection.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,8 +174,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#toArray(Object[]) public <T> T[]
-     * java.util.AbstractCollection.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#toArray(Object[])
+     * public <T> T[] java.util.AbstractCollection.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,7 +197,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#toArray() public
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#toArray() public
      * java.lang.Object[] java.util.AbstractCollection.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -219,8 +220,9 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#retainAll(Collection) public
-     * boolean java.util.AbstractCollection.retainAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.AbstractCollection#retainAll(java.util.Collection) public boolean
+     * java.util.AbstractCollection.retainAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,8 +244,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#add(Object) public boolean
-     * java.util.AbstractCollection.add(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#add(Object) public
+     * boolean java.util.AbstractCollection.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,8 +267,9 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#containsAll(Collection) public
-     * boolean java.util.AbstractCollection.containsAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.AbstractCollection#containsAll(java.util.Collection) public boolean
+     * java.util.AbstractCollection.containsAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -288,8 +291,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#isEmpty() public boolean
-     * java.util.AbstractCollection.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#isEmpty() public
+     * boolean java.util.AbstractCollection.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -311,7 +314,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#clear() public void
      * java.util.AbstractCollection.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -334,8 +337,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCollection#remove(Object) public boolean
-     * java.util.AbstractCollection.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractCollection#remove(Object) public
+     * boolean java.util.AbstractCollection.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -361,7 +364,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Collection#hashCode() interface java.util.Collection}</li>
+     * <li>{@link java.util.Collection#hashCode() interface java.util.Collection}</li>
      * <li>{@link Object#hashCode() class java.lang.Object}</li>
      * </ul>
      *
@@ -389,7 +392,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Collection#equals(Object) interface java.util.Collection}</li>
+     * <li>{@link java.util.Collection#equals(Object) interface java.util.Collection}</li>
      * <li>{@link Object#equals(Object) class java.lang.Object}</li>
      * </ul>
      *

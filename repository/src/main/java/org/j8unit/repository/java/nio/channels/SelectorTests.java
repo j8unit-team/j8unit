@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#selectedKeys() public abstract
-     * java.util.Set<java.nio.channels.SelectionKey> java.nio.channels.Selector.selectedKeys()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#selectedKeys() public
+     * abstract java.util.Set<java.nio.channels.SelectionKey> java.nio.channels.Selector.selectedKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#wakeup() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#wakeup() public abstract
      * java.nio.channels.Selector java.nio.channels.Selector.wakeup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#keys() public abstract java.util.Set
-     * <java.nio.channels.SelectionKey> java.nio.channels.Selector.keys()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#keys() public abstract
+     * java.util.Set<java.nio.channels.SelectionKey> java.nio.channels.Selector.keys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#provider() public abstract
-     * java.nio.channels.spi.SelectorProvider java.nio.channels.Selector.provider()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#provider() public
+     * abstract java.nio.channels.spi.SelectorProvider java.nio.channels.Selector.provider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#select(long) public abstract int
-     * java.nio.channels.Selector.select(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#select(long) public
+     * abstract int java.nio.channels.Selector.select(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#select() public abstract int
-     * java.nio.channels.Selector.select() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#select() public abstract
+     * int java.nio.channels.Selector.select() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +166,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#isOpen() public abstract boolean
-     * java.nio.channels.Selector.isOpen()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#isOpen() public abstract
+     * boolean java.nio.channels.Selector.isOpen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +188,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#selectNow() public abstract int
-     * java.nio.channels.Selector.selectNow() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#selectNow() public
+     * abstract int java.nio.channels.Selector.selectNow() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +210,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#close() public abstract void
-     * java.nio.channels.Selector.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#close() public abstract
+     * void java.nio.channels.Selector.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.lang.model.element.ModifierClassTests<Mod
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#values() public static
-     * javax.lang.model.element.Modifier[] javax.lang.model.element.Modifier.values()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.Modifier#values() public
+     * static javax.lang.model.element.Modifier[] javax.lang.model.element.Modifier.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.javax.lang.model.element.ModifierClassTests<Mod
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link Modifier#values()}
+        // write some test for {@link javax.lang.model.element.Modifier#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#valueOf(String) public static
-     * javax.lang.model.element.Modifier javax.lang.model.element.Modifier.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.Modifier#valueOf(String)
+     * public static javax.lang.model.element.Modifier javax.lang.model.element.Modifier.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ implements org.j8unit.repository.javax.lang.model.element.ModifierClassTests<Mod
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link Modifier#valueOf(String)}
+        // write some test for {@link javax.lang.model.element.Modifier#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.Modifier]

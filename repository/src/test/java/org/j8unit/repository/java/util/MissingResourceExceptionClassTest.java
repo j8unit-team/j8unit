@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.MissingResourceExceptionClassTests<Mi
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MissingResourceException#MissingResourceException(String, String, String) public
+     * {@link java.util.MissingResourceException#MissingResourceException(String, String, String) public
      * java.util.MissingResourceException(java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

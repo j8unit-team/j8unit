@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.ldap.PagedResultsResponseControlCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PagedResultsResponseControl#PagedResultsResponseControl(String, boolean, byte[]) public
+     * {@link javax.naming.ldap.PagedResultsResponseControl#PagedResultsResponseControl(String, boolean, byte[]) public
      * javax.naming.ldap.PagedResultsResponseControl(java.lang.String,boolean,byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

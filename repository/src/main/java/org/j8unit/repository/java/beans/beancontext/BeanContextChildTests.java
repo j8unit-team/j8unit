@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.PropertyChangeListener;
-import java.beans.VetoableChangeListener;
-import java.beans.beancontext.BeanContext;
 import java.beans.beancontext.BeanContextChild;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -39,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChild#removeVetoableChangeListener(String, VetoableChangeListener) public abstract void
+     * {@link java.beans.beancontext.BeanContextChild#removeVetoableChangeListener(String, java.beans.VetoableChangeListener)
+     * public abstract void
      * java.beans.beancontext.BeanContextChild.removeVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}
      * .
      *
@@ -62,8 +60,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextChild#setBeanContext(BeanContext) public
-     * abstract void java.beans.beancontext.BeanContextChild.setBeanContext(java.beans.beancontext.BeanContext) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextChild#setBeanContext(java.beans.beancontext.BeanContext) public abstract
+     * void java.beans.beancontext.BeanContextChild.setBeanContext(java.beans.beancontext.BeanContext) throws
      * java.beans.PropertyVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,7 +85,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChild#removePropertyChangeListener(String, PropertyChangeListener) public abstract void
+     * {@link java.beans.beancontext.BeanContextChild#removePropertyChangeListener(String, java.beans.PropertyChangeListener)
+     * public abstract void
      * java.beans.beancontext.BeanContextChild.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}
      * .
      *
@@ -110,7 +110,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChild#addPropertyChangeListener(String, PropertyChangeListener) public abstract void
+     * {@link java.beans.beancontext.BeanContextChild#addPropertyChangeListener(String, java.beans.PropertyChangeListener)
+     * public abstract void
      * java.beans.beancontext.BeanContextChild.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}
      * .
      *
@@ -134,7 +135,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextChild#addVetoableChangeListener(String, VetoableChangeListener) public abstract void
+     * {@link java.beans.beancontext.BeanContextChild#addVetoableChangeListener(String, java.beans.VetoableChangeListener)
+     * public abstract void
      * java.beans.beancontext.BeanContextChild.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}
      * .
      *
@@ -157,7 +159,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextChild#getBeanContext() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextChild#getBeanContext() public abstract
      * java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextChild.getBeanContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

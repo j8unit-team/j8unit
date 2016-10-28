@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.imageio.spi.IIORegistryClassTests<IIORegi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIORegistry#getDefaultInstance() public static
-     * javax.imageio.spi.IIORegistry javax.imageio.spi.IIORegistry.getDefaultInstance()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.spi.IIORegistry#getDefaultInstance()
+     * public static javax.imageio.spi.IIORegistry javax.imageio.spi.IIORegistry.getDefaultInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +36,7 @@ implements org.j8unit.repository.javax.imageio.spi.IIORegistryClassTests<IIORegi
     @Category(Draft.class)
     public void test_getDefaultInstance()
     throws Exception {
-        // write some test for {@link IIORegistry#getDefaultInstance()}
+        // write some test for {@link javax.imageio.spi.IIORegistry#getDefaultInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.spi.IIORegistry]

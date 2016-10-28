@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#isPopupTrigger() public boolean
-     * java.awt.event.MouseEvent.isPopupTrigger()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#isPopupTrigger() public
+     * boolean java.awt.event.MouseEvent.isPopupTrigger()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,30 +56,7 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getModifiersEx() public int
-     * java.awt.event.MouseEvent.getModifiersEx()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getModifiersEx()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getXOnScreen() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getXOnScreen() public int
      * java.awt.event.MouseEvent.getXOnScreen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +78,30 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getClickCount() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getModifiersEx() public
+     * int java.awt.event.MouseEvent.getModifiersEx()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getModifiersEx()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getClickCount() public int
      * java.awt.event.MouseEvent.getClickCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getLocationOnScreen() public
-     * java.awt.Point java.awt.event.MouseEvent.getLocationOnScreen()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getLocationOnScreen()
+     * public java.awt.Point java.awt.event.MouseEvent.getLocationOnScreen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getYOnScreen() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getYOnScreen() public int
      * java.awt.event.MouseEvent.getYOnScreen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getX() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getX() public int
      * java.awt.event.MouseEvent.getX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,7 +189,7 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getY() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getY() public int
      * java.awt.event.MouseEvent.getY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,8 +211,30 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#translatePoint(int, int) public
-     * synchronized void java.awt.event.MouseEvent.translatePoint(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getPoint() public
+     * java.awt.Point java.awt.event.MouseEvent.getPoint()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPoint()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#translatePoint(int, int)
+     * public synchronized void java.awt.event.MouseEvent.translatePoint(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,7 +255,7 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getButton() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getButton() public int
      * java.awt.event.MouseEvent.getButton()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,30 +277,8 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#getPoint() public java.awt.Point
-     * java.awt.event.MouseEvent.getPoint()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPoint()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseEvent#paramString() public java.lang.String
-     * java.awt.event.MouseEvent.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#paramString() public
+     * java.lang.String java.awt.event.MouseEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.sound.sampled.spi.AudioFileWriterClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AudioFileWriter#AudioFileWriter() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.sampled.spi.AudioFileWriter#AudioFileWriter() public
      * javax.sound.sampled.spi.AudioFileWriter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

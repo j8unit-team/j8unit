@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.security.sasl;
 
-import java.util.Map;
-import javax.security.auth.callback.CallbackHandler;
 import javax.security.sasl.SaslClientFactory;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslClientFactory#getMechanismNames(Map) public
-     * abstract java.lang.String[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.SaslClientFactory#getMechanismNames(java.util.Map) public abstract java.lang.String[]
      * javax.security.sasl.SaslClientFactory.getMechanismNames(java.util.Map<java.lang.String, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +59,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SaslClientFactory#createSaslClient(String[], String, String, String, Map, CallbackHandler) public abstract
-     * javax.security.sasl.SaslClient
+     * {@link javax.security.sasl.SaslClientFactory#createSaslClient(String[], String, String, String, java.util.Map, javax.security.auth.callback.CallbackHandler)
+     * public abstract javax.security.sasl.SaslClient
      * javax.security.sasl.SaslClientFactory.createSaslClient(java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,
      * ?>,javax.security.auth.callback.CallbackHandler) throws javax.security.sasl.SaslException}.
      *

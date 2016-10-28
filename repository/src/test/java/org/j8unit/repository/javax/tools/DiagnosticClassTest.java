@@ -36,8 +36,8 @@ implements org.j8unit.repository.javax.tools.DiagnosticClassTests<Diagnostic> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Kind#valueOf(String) public static
-         * javax.tools.Diagnostic$Kind javax.tools.Diagnostic$Kind.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic.Kind#valueOf(String)
+         * public static javax.tools.Diagnostic$Kind javax.tools.Diagnostic$Kind.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -51,13 +51,13 @@ implements org.j8unit.repository.javax.tools.DiagnosticClassTests<Diagnostic> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Kind#valueOf(String)}
+            // write some test for {@link javax.tools.Diagnostic.Kind#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Kind#values() public static
-         * javax.tools.Diagnostic$Kind[] javax.tools.Diagnostic$Kind.values()}.
+         * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic.Kind#values() public
+         * static javax.tools.Diagnostic$Kind[] javax.tools.Diagnostic$Kind.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -71,7 +71,7 @@ implements org.j8unit.repository.javax.tools.DiagnosticClassTests<Diagnostic> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Kind#values()}
+            // write some test for {@link javax.tools.Diagnostic.Kind#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.Diagnostic$Kind]

@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DuplicateName#DuplicateName() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName#DuplicateName() public
      * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DuplicateName#DuplicateName(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName#DuplicateName(String) public
      * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,8 +66,9 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DuplicateName#DuplicateName(String, String)
-     * public org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName#DuplicateName(String, String) public
+     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

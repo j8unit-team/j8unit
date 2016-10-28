@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.tree;
 
 import javax.swing.tree.DefaultTreeModel;
-import javax.swing.tree.TreeNode;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeModelClassTests<Def
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DefaultTreeModel#DefaultTreeModel(TreeNode)
-     * public javax.swing.tree.DefaultTreeModel(javax.swing.tree.TreeNode)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.tree.DefaultTreeModel#DefaultTreeModel(javax.swing.tree.TreeNode) public
+     * javax.swing.tree.DefaultTreeModel(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +39,13 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeModelClassTests<Def
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultTreeModel sut = null; // = new DefaultTreeModel(TreeNode);
+        final DefaultTreeModel sut = null; // = new DefaultTreeModel(javax.swing.tree.TreeNode);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultTreeModel#DefaultTreeModel(TreeNode, boolean) public
+     * {@link javax.swing.tree.DefaultTreeModel#DefaultTreeModel(javax.swing.tree.TreeNode, boolean) public
      * javax.swing.tree.DefaultTreeModel(javax.swing.tree.TreeNode,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeModelClassTests<Def
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultTreeModel sut = null; // = new DefaultTreeModel(TreeNode, boolean);
+        final DefaultTreeModel sut = null; // = new DefaultTreeModel(javax.swing.tree.TreeNode, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeModel]

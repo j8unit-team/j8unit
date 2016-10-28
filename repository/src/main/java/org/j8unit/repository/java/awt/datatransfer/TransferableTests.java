@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
-import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,9 +35,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Transferable#getTransferData(DataFlavor) public
-     * abstract java.lang.Object java.awt.datatransfer.Transferable.getTransferData(java.awt.datatransfer.DataFlavor)
-     * throws java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.Transferable#getTransferData(java.awt.datatransfer.DataFlavor) public abstract
+     * java.lang.Object java.awt.datatransfer.Transferable.getTransferData(java.awt.datatransfer.DataFlavor) throws
+     * java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +59,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Transferable#getTransferDataFlavors() public
-     * abstract java.awt.datatransfer.DataFlavor[] java.awt.datatransfer.Transferable.getTransferDataFlavors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.Transferable#getTransferDataFlavors() public abstract
+     * java.awt.datatransfer.DataFlavor[] java.awt.datatransfer.Transferable.getTransferDataFlavors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,9 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Transferable#isDataFlavorSupported(DataFlavor)
-     * public abstract boolean
-     * java.awt.datatransfer.Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.Transferable#isDataFlavorSupported(java.awt.datatransfer.DataFlavor) public abstract
+     * boolean java.awt.datatransfer.Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.remote.JMXServiceURLClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JMXServiceURL#JMXServiceURL(String, String, int, String) public
+     * {@link javax.management.remote.JMXServiceURL#JMXServiceURL(String, String, int, String) public
      * javax.management.remote.JMXServiceURL(java.lang.String,java.lang.String,int,java.lang.String) throws
      * java.net.MalformedURLException}.
      *
@@ -46,7 +46,7 @@ implements org.j8unit.repository.javax.management.remote.JMXServiceURLClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JMXServiceURL#JMXServiceURL(String, String, int) public
+     * {@link javax.management.remote.JMXServiceURL#JMXServiceURL(String, String, int) public
      * javax.management.remote.JMXServiceURL(java.lang.String,java.lang.String,int) throws
      * java.net.MalformedURLException}.
      *
@@ -69,7 +69,8 @@ implements org.j8unit.repository.javax.management.remote.JMXServiceURLClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMXServiceURL#JMXServiceURL(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.remote.JMXServiceURL#JMXServiceURL(String) public
      * javax.management.remote.JMXServiceURL(java.lang.String) throws java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.io.File;
-import java.nio.charset.Charset;
 import java.util.zip.ZipFile;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.java.util.zip.ZipFileClassTests<ZipFile> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipFile#ZipFile(String, Charset) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.ZipFile#ZipFile(String, java.nio.charset.Charset) public
      * java.util.zip.ZipFile(java.lang.String,java.nio.charset.Charset) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,13 @@ implements org.j8unit.repository.java.util.zip.ZipFileClassTests<ZipFile> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ZipFile sut = null; // = new ZipFile(String, Charset);
+        final ZipFile sut = null; // = new ZipFile(String, java.nio.charset.Charset);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipFile#ZipFile(File, int, Charset) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.ZipFile#ZipFile(java.io.File, int, java.nio.charset.Charset) public
      * java.util.zip.ZipFile(java.io.File,int,java.nio.charset.Charset) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +62,13 @@ implements org.j8unit.repository.java.util.zip.ZipFileClassTests<ZipFile> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ZipFile sut = null; // = new ZipFile(File, int, Charset);
+        final ZipFile sut = null; // = new ZipFile(java.io.File, int, java.nio.charset.Charset);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipFile#ZipFile(File) public
-     * java.util.zip.ZipFile(java.io.File) throws java.util.zip.ZipException,java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.ZipFile#ZipFile(java.io.File)
+     * public java.util.zip.ZipFile(java.io.File) throws java.util.zip.ZipException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,12 +84,13 @@ implements org.j8unit.repository.java.util.zip.ZipFileClassTests<ZipFile> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ZipFile sut = null; // = new ZipFile(File);
+        final ZipFile sut = null; // = new ZipFile(java.io.File);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipFile#ZipFile(File, Charset) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.ZipFile#ZipFile(java.io.File, java.nio.charset.Charset) public
      * java.util.zip.ZipFile(java.io.File,java.nio.charset.Charset) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,12 +107,12 @@ implements org.j8unit.repository.java.util.zip.ZipFileClassTests<ZipFile> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ZipFile sut = null; // = new ZipFile(File, Charset);
+        final ZipFile sut = null; // = new ZipFile(java.io.File, java.nio.charset.Charset);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipFile#ZipFile(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.ZipFile#ZipFile(String) public
      * java.util.zip.ZipFile(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,8 +134,9 @@ implements org.j8unit.repository.java.util.zip.ZipFileClassTests<ZipFile> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipFile#ZipFile(File, int) public
-     * java.util.zip.ZipFile(java.io.File,int) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.ZipFile#ZipFile(java.io.File, int) public java.util.zip.ZipFile(java.io.File,int) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,7 +152,7 @@ implements org.j8unit.repository.java.util.zip.ZipFileClassTests<ZipFile> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ZipFile sut = null; // = new ZipFile(File, int);
+        final ZipFile sut = null; // = new ZipFile(java.io.File, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.ZipFile]

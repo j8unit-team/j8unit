@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.prefs;
 
-import java.util.prefs.NodeChangeEvent;
 import java.util.prefs.NodeChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeChangeListener#childAdded(NodeChangeEvent)
-     * public abstract void java.util.prefs.NodeChangeListener.childAdded(java.util.prefs.NodeChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.NodeChangeListener#childAdded(java.util.prefs.NodeChangeEvent) public abstract void
+     * java.util.prefs.NodeChangeListener.childAdded(java.util.prefs.NodeChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeChangeListener#childRemoved(NodeChangeEvent)
-     * public abstract void java.util.prefs.NodeChangeListener.childRemoved(java.util.prefs.NodeChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.NodeChangeListener#childRemoved(java.util.prefs.NodeChangeEvent) public abstract void
+     * java.util.prefs.NodeChangeListener.childRemoved(java.util.prefs.NodeChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

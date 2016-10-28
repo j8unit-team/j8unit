@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.io.InputStream;
-import java.net.Socket;
 import javax.net.ssl.SSLSocketFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.net.SocketFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSocketFactory#getSupportedCipherSuites() public
-     * abstract java.lang.String[] javax.net.ssl.SSLSocketFactory.getSupportedCipherSuites()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLSocketFactory#getSupportedCipherSuites() public abstract java.lang.String[]
+     * javax.net.ssl.SSLSocketFactory.getSupportedCipherSuites()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.javax.net.SocketFactoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SSLSocketFactory#createSocket(Socket, String, int, boolean) public abstract java.net.Socket
-     * javax.net.ssl.SSLSocketFactory.createSocket(java.net.Socket,java.lang.String,int,boolean) throws
+     * {@link javax.net.ssl.SSLSocketFactory#createSocket(java.net.Socket, String, int, boolean) public abstract
+     * java.net.Socket javax.net.ssl.SSLSocketFactory.createSocket(java.net.Socket,java.lang.String,int,boolean) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +82,8 @@ extends org.j8unit.repository.javax.net.SocketFactoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SSLSocketFactory#createSocket(Socket, InputStream, boolean) public java.net.Socket
-     * javax.net.ssl.SSLSocketFactory.createSocket(java.net.Socket,java.io.InputStream,boolean) throws
+     * {@link javax.net.ssl.SSLSocketFactory#createSocket(java.net.Socket, java.io.InputStream, boolean) public
+     * java.net.Socket javax.net.ssl.SSLSocketFactory.createSocket(java.net.Socket,java.io.InputStream,boolean) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +105,9 @@ extends org.j8unit.repository.javax.net.SocketFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSocketFactory#getDefaultCipherSuites() public
-     * abstract java.lang.String[] javax.net.ssl.SSLSocketFactory.getDefaultCipherSuites()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLSocketFactory#getDefaultCipherSuites() public abstract java.lang.String[]
+     * javax.net.ssl.SSLSocketFactory.getDefaultCipherSuites()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

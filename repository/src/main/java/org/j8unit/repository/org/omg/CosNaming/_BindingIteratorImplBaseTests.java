@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.ServerRequest;
 import org.omg.CosNaming._BindingIteratorImplBase;
 
 /**
@@ -35,8 +34,9 @@ extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _BindingIteratorImplBase#invoke(ServerRequest)
-     * public void org.omg.CosNaming._BindingIteratorImplBase.invoke(org.omg.CORBA.ServerRequest)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming._BindingIteratorImplBase#invoke(org.omg.CORBA.ServerRequest) public void
+     * org.omg.CosNaming._BindingIteratorImplBase.invoke(org.omg.CORBA.ServerRequest)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _BindingIteratorImplBase#_ids() public
-     * java.lang.String[] org.omg.CosNaming._BindingIteratorImplBase._ids()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming._BindingIteratorImplBase#_ids()
+     * public java.lang.String[] org.omg.CosNaming._BindingIteratorImplBase._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

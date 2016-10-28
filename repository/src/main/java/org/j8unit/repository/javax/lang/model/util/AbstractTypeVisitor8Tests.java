@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.type.IntersectionType;
 import javax.lang.model.util.AbstractTypeVisitor8;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor7Tests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractTypeVisitor8#visitIntersection(IntersectionType, Object) public abstract R
+     * {@link javax.lang.model.util.AbstractTypeVisitor8#visitIntersection(javax.lang.model.type.IntersectionType, Object)
+     * public abstract R
      * javax.lang.model.util.AbstractTypeVisitor8.visitIntersection(javax.lang.model.type.IntersectionType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

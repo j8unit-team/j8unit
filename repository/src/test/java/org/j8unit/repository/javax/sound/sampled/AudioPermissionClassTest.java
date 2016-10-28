@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioPermissionClassTests<A
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AudioPermission#AudioPermission(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.sampled.AudioPermission#AudioPermission(String) public
      * javax.sound.sampled.AudioPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +44,9 @@ implements org.j8unit.repository.javax.sound.sampled.AudioPermissionClassTests<A
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AudioPermission#AudioPermission(String, String)
-     * public javax.sound.sampled.AudioPermission(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.sampled.AudioPermission#AudioPermission(String, String) public
+     * javax.sound.sampled.AudioPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.PSSParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.security.spec.PSSParameterSpecClassTests<P
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PSSParameterSpec#PSSParameterSpec(int) public
-     * java.security.spec.PSSParameterSpec(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.spec.PSSParameterSpec#PSSParameterSpec(int) public java.security.spec.PSSParameterSpec(int)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +45,8 @@ implements org.j8unit.repository.java.security.spec.PSSParameterSpecClassTests<P
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PSSParameterSpec#PSSParameterSpec(String, String, AlgorithmParameterSpec, int, int) public
+     * {@link java.security.spec.PSSParameterSpec#PSSParameterSpec(String, String, java.security.spec.AlgorithmParameterSpec, int, int)
+     * public
      * java.security.spec.PSSParameterSpec(java.lang.String,java.lang.String,java.security.spec.AlgorithmParameterSpec,int,int)}
      * .
      *
@@ -63,7 +64,8 @@ implements org.j8unit.repository.java.security.spec.PSSParameterSpecClassTests<P
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PSSParameterSpec sut = null; // = new PSSParameterSpec(String, String, AlgorithmParameterSpec, int, int);
+        final PSSParameterSpec sut = null; // = new PSSParameterSpec(String, String,
+                                           // java.security.spec.AlgorithmParameterSpec, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.PSSParameterSpec]

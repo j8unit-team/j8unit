@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.dnd.DragGestureEvent;
 import java.awt.dnd.DragGestureListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragGestureListener#dragGestureRecognized(DragGestureEvent) public abstract void
+     * {@link java.awt.dnd.DragGestureListener#dragGestureRecognized(java.awt.dnd.DragGestureEvent) public abstract void
      * java.awt.dnd.DragGestureListener.dragGestureRecognized(java.awt.dnd.DragGestureEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

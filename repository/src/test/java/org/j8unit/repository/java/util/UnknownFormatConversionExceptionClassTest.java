@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.UnknownFormatConversionExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownFormatConversionException#UnknownFormatConversionException(String) public
+     * {@link java.util.UnknownFormatConversionException#UnknownFormatConversionException(String) public
      * java.util.UnknownFormatConversionException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

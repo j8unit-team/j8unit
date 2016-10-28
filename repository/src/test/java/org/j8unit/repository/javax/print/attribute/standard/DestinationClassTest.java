@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
-import java.net.URI;
 import javax.print.attribute.standard.Destination;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.DestinationClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Destination#Destination(URI) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.Destination#Destination(java.net.URI) public
      * javax.print.attribute.standard.Destination(java.net.URI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.DestinationClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Destination sut = null; // = new Destination(URI);
+        final Destination sut = null; // = new Destination(java.net.URI);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.Destination]

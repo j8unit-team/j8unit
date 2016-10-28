@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.event.AncestorEvent;
 import javax.swing.event.AncestorListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AncestorListener#ancestorAdded(AncestorEvent) public
-     * abstract void javax.swing.event.AncestorListener.ancestorAdded(javax.swing.event.AncestorEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.AncestorListener#ancestorAdded(javax.swing.event.AncestorEvent) public abstract void
+     * javax.swing.event.AncestorListener.ancestorAdded(javax.swing.event.AncestorEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AncestorListener#ancestorMoved(AncestorEvent) public
-     * abstract void javax.swing.event.AncestorListener.ancestorMoved(javax.swing.event.AncestorEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.AncestorListener#ancestorMoved(javax.swing.event.AncestorEvent) public abstract void
+     * javax.swing.event.AncestorListener.ancestorMoved(javax.swing.event.AncestorEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AncestorListener#ancestorRemoved(AncestorEvent)
-     * public abstract void javax.swing.event.AncestorListener.ancestorRemoved(javax.swing.event.AncestorEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.AncestorListener#ancestorRemoved(javax.swing.event.AncestorEvent) public abstract void
+     * javax.swing.event.AncestorListener.ancestorRemoved(javax.swing.event.AncestorEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

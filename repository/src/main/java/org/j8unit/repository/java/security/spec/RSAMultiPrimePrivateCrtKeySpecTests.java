@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAMultiPrimePrivateCrtKeySpec#getPrimeQ() public
-     * java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeQ()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPrimeQ() public java.math.BigInteger
+     * java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeQ()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAMultiPrimePrivateCrtKeySpec#getPrimeExponentQ()
-     * public java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeExponentQ()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPrimeExponentQ() public java.math.BigInteger
+     * java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeExponentQ()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAMultiPrimePrivateCrtKeySpec#getPrimeExponentP()
-     * public java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeExponentP()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPrimeExponentP() public java.math.BigInteger
+     * java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeExponentP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,9 +103,9 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAMultiPrimePrivateCrtKeySpec#getOtherPrimeInfo()
-     * public java.security.spec.RSAOtherPrimeInfo[]
-     * java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getOtherPrimeInfo()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getOtherPrimeInfo() public
+     * java.security.spec.RSAOtherPrimeInfo[] java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getOtherPrimeInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +126,9 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAMultiPrimePrivateCrtKeySpec#getCrtCoefficient()
-     * public java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getCrtCoefficient()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getCrtCoefficient() public java.math.BigInteger
+     * java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getCrtCoefficient()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +149,9 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAMultiPrimePrivateCrtKeySpec#getPublicExponent()
-     * public java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPublicExponent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPublicExponent() public java.math.BigInteger
+     * java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPublicExponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +172,9 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAMultiPrimePrivateCrtKeySpec#getPrimeP() public
-     * java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeP()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPrimeP() public java.math.BigInteger
+     * java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

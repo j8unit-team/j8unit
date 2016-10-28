@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.io.OutputStreamClassTests<OutputStream> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OutputStream#OutputStream() public
+     * Test method for the hereby targeted constructor-under-test {@link java.io.OutputStream#OutputStream() public
      * java.io.OutputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.geom;
 
-import java.awt.geom.AffineTransform;
 import java.awt.geom.Area;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#subtract(Area) public void
-     * java.awt.geom.Area.subtract(java.awt.geom.Area)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#subtract(java.awt.geom.Area)
+     * public void java.awt.geom.Area.subtract(java.awt.geom.Area)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +56,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#intersect(Area) public void
-     * java.awt.geom.Area.intersect(java.awt.geom.Area)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#intersect(java.awt.geom.Area)
+     * public void java.awt.geom.Area.intersect(java.awt.geom.Area)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +78,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#isSingular() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#isSingular() public boolean
      * java.awt.geom.Area.isSingular()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +100,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#intersects(Rectangle2D) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Area#intersects(java.awt.geom.Rectangle2D) public boolean
      * java.awt.geom.Area.intersects(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +124,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#intersects(double, double, double, double)
-     * public boolean java.awt.geom.Area.intersects(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Area#intersects(double, double, double, double) public boolean
+     * java.awt.geom.Area.intersects(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +148,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#add(Area) public void
-     * java.awt.geom.Area.add(java.awt.geom.Area)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#add(java.awt.geom.Area) public
+     * void java.awt.geom.Area.add(java.awt.geom.Area)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +170,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#getBounds() public java.awt.Rectangle
-     * java.awt.geom.Area.getBounds()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#getBounds() public
+     * java.awt.Rectangle java.awt.geom.Area.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,7 +193,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#isRectangular() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#isRectangular() public boolean
      * java.awt.geom.Area.isRectangular()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,7 +215,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#isEmpty() public boolean
      * java.awt.geom.Area.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,8 +237,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#equals(Area) public boolean
-     * java.awt.geom.Area.equals(java.awt.geom.Area)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#equals(java.awt.geom.Area) public
+     * boolean java.awt.geom.Area.equals(java.awt.geom.Area)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,8 +259,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#getPathIterator(AffineTransform) public
-     * java.awt.geom.PathIterator java.awt.geom.Area.getPathIterator(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Area#getPathIterator(java.awt.geom.AffineTransform) public java.awt.geom.PathIterator
+     * java.awt.geom.Area.getPathIterator(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -283,7 +283,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#getPathIterator(AffineTransform, double) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Area#getPathIterator(java.awt.geom.AffineTransform, double) public
      * java.awt.geom.PathIterator java.awt.geom.Area.getPathIterator(java.awt.geom.AffineTransform,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -306,7 +307,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#transform(AffineTransform) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Area#transform(java.awt.geom.AffineTransform) public void
      * java.awt.geom.Area.transform(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -328,7 +330,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#contains(Rectangle2D) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Area#contains(java.awt.geom.Rectangle2D) public boolean
      * java.awt.geom.Area.contains(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -351,8 +354,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#contains(double, double) public boolean
-     * java.awt.geom.Area.contains(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#contains(double, double) public
+     * boolean java.awt.geom.Area.contains(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -374,8 +377,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#contains(double, double, double, double) public
-     * boolean java.awt.geom.Area.contains(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Area#contains(double, double, double, double) public boolean
+     * java.awt.geom.Area.contains(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -397,8 +401,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#contains(Point2D) public boolean
-     * java.awt.geom.Area.contains(java.awt.geom.Point2D)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#contains(java.awt.geom.Point2D)
+     * public boolean java.awt.geom.Area.contains(java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -420,8 +424,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#exclusiveOr(Area) public void
-     * java.awt.geom.Area.exclusiveOr(java.awt.geom.Area)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#exclusiveOr(java.awt.geom.Area)
+     * public void java.awt.geom.Area.exclusiveOr(java.awt.geom.Area)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -442,7 +446,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#isPolygonal() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#isPolygonal() public boolean
      * java.awt.geom.Area.isPolygonal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -464,8 +468,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#createTransformedArea(AffineTransform) public
-     * java.awt.geom.Area java.awt.geom.Area.createTransformedArea(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Area#createTransformedArea(java.awt.geom.AffineTransform) public java.awt.geom.Area
+     * java.awt.geom.Area.createTransformedArea(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -486,8 +491,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#getBounds2D() public java.awt.geom.Rectangle2D
-     * java.awt.geom.Area.getBounds2D()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#getBounds2D() public
+     * java.awt.geom.Rectangle2D java.awt.geom.Area.getBounds2D()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -509,7 +514,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#clone() public java.lang.Object
      * java.awt.geom.Area.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -531,8 +536,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Area#reset() public void java.awt.geom.Area.reset()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Area#reset() public void
+     * java.awt.geom.Area.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

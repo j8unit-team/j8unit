@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.ldap;
 
-import java.util.List;
 import javax.naming.ldap.LdapName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.naming.ldap.LdapNameClassTests<LdapName> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LdapName#LdapName(List) public
-     * javax.naming.ldap.LdapName(java.util.List<javax.naming.ldap.Rdn>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.ldap.LdapName#LdapName(java.util.List) public javax.naming.ldap.LdapName(java.util.List
+     * <javax.naming.ldap.Rdn>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +39,13 @@ implements org.j8unit.repository.javax.naming.ldap.LdapNameClassTests<LdapName> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LdapName sut = null; // = new LdapName(List);
+        final LdapName sut = null; // = new LdapName(java.util.List);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LdapName#LdapName(String) public
-     * javax.naming.ldap.LdapName(java.lang.String) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.naming.ldap.LdapName#LdapName(String)
+     * public javax.naming.ldap.LdapName(java.lang.String) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

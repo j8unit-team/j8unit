@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.invoke.WrongMethodTypeExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link WrongMethodTypeException#WrongMethodTypeException(String) public
+     * {@link java.lang.invoke.WrongMethodTypeException#WrongMethodTypeException(String) public
      * java.lang.invoke.WrongMethodTypeException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,8 @@ implements org.j8unit.repository.java.lang.invoke.WrongMethodTypeExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link WrongMethodTypeException#WrongMethodTypeException() public java.lang.invoke.WrongMethodTypeException()}.
+     * {@link java.lang.invoke.WrongMethodTypeException#WrongMethodTypeException() public
+     * java.lang.invoke.WrongMethodTypeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

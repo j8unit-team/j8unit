@@ -1,12 +1,7 @@
 package org.j8unit.repository.javax.tools;
 
-import java.util.Iterator;
-import java.util.Set;
-import javax.tools.FileObject;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
-import javax.tools.JavaFileObject;
-import javax.tools.JavaFileObject.Kind;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -42,8 +37,8 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileManager#flush() public abstract void
-     * javax.tools.JavaFileManager.flush() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.JavaFileManager#flush() public abstract
+     * void javax.tools.JavaFileManager.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,7 +61,8 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JavaFileManager#getJavaFileForInput(Location, String, Kind) public abstract javax.tools.JavaFileObject
+     * {@link javax.tools.JavaFileManager#getJavaFileForInput(javax.tools.JavaFileManager.Location, String, javax.tools.JavaFileObject.Kind)
+     * public abstract javax.tools.JavaFileObject
      * javax.tools.JavaFileManager.getJavaFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,javax.tools.JavaFileObject$Kind)
      * throws java.io.IOException}.
      *
@@ -89,8 +85,9 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileManager#isSameFile(FileObject, FileObject)
-     * public abstract boolean javax.tools.JavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.JavaFileManager#isSameFile(javax.tools.FileObject, javax.tools.FileObject) public abstract
+     * boolean javax.tools.JavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -112,8 +109,8 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JavaFileManager#getJavaFileForOutput(Location, String, Kind, FileObject) public abstract
-     * javax.tools.JavaFileObject
+     * {@link javax.tools.JavaFileManager#getJavaFileForOutput(javax.tools.JavaFileManager.Location, String, javax.tools.JavaFileObject.Kind, javax.tools.FileObject)
+     * public abstract javax.tools.JavaFileObject
      * javax.tools.JavaFileManager.getJavaFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,javax.tools.JavaFileObject$Kind,javax.tools.FileObject)
      * throws java.io.IOException}.
      *
@@ -137,8 +134,8 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JavaFileManager#getFileForOutput(Location, String, String, FileObject) public abstract
-     * javax.tools.FileObject
+     * {@link javax.tools.JavaFileManager#getFileForOutput(javax.tools.JavaFileManager.Location, String, String, javax.tools.FileObject)
+     * public abstract javax.tools.FileObject
      * javax.tools.JavaFileManager.getFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String,javax.tools.FileObject)
      * throws java.io.IOException}.
      *
@@ -161,9 +158,9 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileManager#handleOption(String, Iterator)
-     * public abstract boolean javax.tools.JavaFileManager.handleOption(java.lang.String,java.util.Iterator
-     * <java.lang.String>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.JavaFileManager#handleOption(String, java.util.Iterator) public abstract boolean
+     * javax.tools.JavaFileManager.handleOption(java.lang.String,java.util.Iterator<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -184,8 +181,8 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileManager#close() public abstract void
-     * javax.tools.JavaFileManager.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.JavaFileManager#close() public abstract
+     * void javax.tools.JavaFileManager.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -207,7 +204,8 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileManager#list(Location, String, Set, boolean)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.JavaFileManager#list(javax.tools.JavaFileManager.Location, String, java.util.Set, boolean)
      * public abstract java.lang.Iterable<javax.tools.JavaFileObject>
      * javax.tools.JavaFileManager.list(javax.tools.JavaFileManager$Location,java.lang.String,java.util.Set
      * <javax.tools.JavaFileObject$Kind>,boolean) throws java.io.IOException}.
@@ -232,7 +230,8 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JavaFileManager#getFileForInput(Location, String, String) public abstract javax.tools.FileObject
+     * {@link javax.tools.JavaFileManager#getFileForInput(javax.tools.JavaFileManager.Location, String, String) public
+     * abstract javax.tools.FileObject
      * javax.tools.JavaFileManager.getFileForInput(javax.tools.JavaFileManager$Location,java.lang.String,java.lang.String)
      * throws java.io.IOException}.
      *
@@ -256,7 +255,8 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JavaFileManager#inferBinaryName(Location, JavaFileObject) public abstract java.lang.String
+     * {@link javax.tools.JavaFileManager#inferBinaryName(javax.tools.JavaFileManager.Location, javax.tools.JavaFileObject)
+     * public abstract java.lang.String
      * javax.tools.JavaFileManager.inferBinaryName(javax.tools.JavaFileManager$Location,javax.tools.JavaFileObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -278,8 +278,9 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileManager#hasLocation(Location) public
-     * abstract boolean javax.tools.JavaFileManager.hasLocation(javax.tools.JavaFileManager$Location)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.JavaFileManager#hasLocation(javax.tools.JavaFileManager.Location) public abstract boolean
+     * javax.tools.JavaFileManager.hasLocation(javax.tools.JavaFileManager$Location)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,8 +301,9 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileManager#getClassLoader(Location) public
-     * abstract java.lang.ClassLoader javax.tools.JavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.JavaFileManager#getClassLoader(javax.tools.JavaFileManager.Location) public abstract
+     * java.lang.ClassLoader javax.tools.JavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -349,8 +351,9 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Location#isOutputLocation() public abstract
-         * boolean javax.tools.JavaFileManager$Location.isOutputLocation()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.tools.JavaFileManager.Location#isOutputLocation() public abstract boolean
+         * javax.tools.JavaFileManager$Location.isOutputLocation()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -371,8 +374,8 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Location#getName() public abstract
-         * java.lang.String javax.tools.JavaFileManager$Location.getName()}.
+         * Test method for the hereby targeted method-under-test {@link javax.tools.JavaFileManager.Location#getName()
+         * public abstract java.lang.String javax.tools.JavaFileManager$Location.getName()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

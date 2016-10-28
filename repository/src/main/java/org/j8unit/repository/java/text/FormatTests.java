@@ -1,9 +1,7 @@
 package org.j8unit.repository.java.text;
 
-import java.text.FieldPosition;
 import java.text.Format;
 import java.text.Format.Field;
-import java.text.ParsePosition;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +36,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Format#formatToCharacterIterator(Object) public
-     * java.text.AttributedCharacterIterator java.text.Format.formatToCharacterIterator(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Format#formatToCharacterIterator(Object)
+     * public java.text.AttributedCharacterIterator java.text.Format.formatToCharacterIterator(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Format#format(Object) public final java.lang.String
-     * java.text.Format.format(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Format#format(Object) public final
+     * java.lang.String java.text.Format.format(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,9 +80,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Format#format(Object, StringBuffer, FieldPosition)
-     * public abstract java.lang.StringBuffer
-     * java.text.Format.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.Format#format(Object, StringBuffer, java.text.FieldPosition) public abstract
+     * java.lang.StringBuffer java.text.Format.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +103,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Format#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.text.Format#clone() public java.lang.Object
      * java.text.Format.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +125,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Format#parseObject(String) public java.lang.Object
-     * java.text.Format.parseObject(java.lang.String) throws java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Format#parseObject(String) public
+     * java.lang.Object java.text.Format.parseObject(java.lang.String) throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +147,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Format#parseObject(String, ParsePosition) public
-     * abstract java.lang.Object java.text.Format.parseObject(java.lang.String,java.text.ParsePosition)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.Format#parseObject(String, java.text.ParsePosition) public abstract java.lang.Object
+     * java.text.Format.parseObject(java.lang.String,java.text.ParsePosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

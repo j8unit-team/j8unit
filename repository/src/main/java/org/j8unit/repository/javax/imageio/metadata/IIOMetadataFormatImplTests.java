@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.imageio.metadata;
 
-import java.util.Locale;
-import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getChildNames(String) public
-     * java.lang.String[] javax.imageio.metadata.IIOMetadataFormatImpl.getChildNames(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getChildNames(String) public java.lang.String[]
+     * javax.imageio.metadata.IIOMetadataFormatImpl.getChildNames(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +59,8 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#canNodeAppear(String, ImageTypeSpecifier) public abstract boolean
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#canNodeAppear(String, javax.imageio.ImageTypeSpecifier)
+     * public abstract boolean
      * javax.imageio.metadata.IIOMetadataFormatImpl.canNodeAppear(java.lang.String,javax.imageio.ImageTypeSpecifier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +83,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getObjectDefaultValue(String)
-     * public java.lang.Object javax.imageio.metadata.IIOMetadataFormatImpl.getObjectDefaultValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getObjectDefaultValue(String) public java.lang.Object
+     * javax.imageio.metadata.IIOMetadataFormatImpl.getObjectDefaultValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +107,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getObjectMaxValue(String)
-     * public java.lang.Comparable<?> javax.imageio.metadata.IIOMetadataFormatImpl.getObjectMaxValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getObjectMaxValue(String) public java.lang.Comparable
+     * <?> javax.imageio.metadata.IIOMetadataFormatImpl.getObjectMaxValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +131,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getObjectValueType(String)
-     * public int javax.imageio.metadata.IIOMetadataFormatImpl.getObjectValueType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getObjectValueType(String) public int
+     * javax.imageio.metadata.IIOMetadataFormatImpl.getObjectValueType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,7 +156,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getAttributeListMinLength(String, String) public int
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeListMinLength(String, String) public int
      * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeListMinLength(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,7 +180,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#isAttributeRequired(String, String) public boolean
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#isAttributeRequired(String, String) public boolean
      * javax.imageio.metadata.IIOMetadataFormatImpl.isAttributeRequired(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,7 +204,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getAttributeListMaxLength(String, String) public int
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeListMaxLength(String, String) public int
      * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeListMaxLength(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -224,8 +227,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getChildPolicy(String) public
-     * int javax.imageio.metadata.IIOMetadataFormatImpl.getChildPolicy(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getChildPolicy(String) public int
+     * javax.imageio.metadata.IIOMetadataFormatImpl.getChildPolicy(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,8 +251,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getElementMaxChildren(String)
-     * public int javax.imageio.metadata.IIOMetadataFormatImpl.getElementMaxChildren(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getElementMaxChildren(String) public int
+     * javax.imageio.metadata.IIOMetadataFormatImpl.getElementMaxChildren(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -271,7 +276,8 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getElementDescription(String, Locale) public java.lang.String
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getElementDescription(String, java.util.Locale) public
+     * java.lang.String
      * javax.imageio.metadata.IIOMetadataFormatImpl.getElementDescription(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -295,7 +301,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getAttributeDataType(String, String) public int
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeDataType(String, String) public int
      * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeDataType(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -319,7 +325,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getAttributeMinValue(String, String) public java.lang.String
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeMinValue(String, String) public java.lang.String
      * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeMinValue(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -343,7 +349,8 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getAttributeDefaultValue(String, String) public java.lang.String
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeDefaultValue(String, String) public
+     * java.lang.String
      * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeDefaultValue(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -366,8 +373,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getRootName() public
-     * java.lang.String javax.imageio.metadata.IIOMetadataFormatImpl.getRootName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getRootName() public java.lang.String
+     * javax.imageio.metadata.IIOMetadataFormatImpl.getRootName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -390,7 +398,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getAttributeValueType(String, String) public int
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeValueType(String, String) public int
      * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeValueType(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -413,8 +421,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getElementMinChildren(String)
-     * public int javax.imageio.metadata.IIOMetadataFormatImpl.getElementMinChildren(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getElementMinChildren(String) public int
+     * javax.imageio.metadata.IIOMetadataFormatImpl.getElementMinChildren(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -436,8 +445,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getObjectClass(String) public
-     * java.lang.Class<?> javax.imageio.metadata.IIOMetadataFormatImpl.getObjectClass(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getObjectClass(String) public java.lang.Class
+     * <?> javax.imageio.metadata.IIOMetadataFormatImpl.getObjectClass(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -460,7 +470,8 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getAttributeDescription(String, String, Locale) public java.lang.String
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeDescription(String, String, java.util.Locale)
+     * public java.lang.String
      * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeDescription(java.lang.String,java.lang.String,java.util.Locale)}
      * .
      *
@@ -485,7 +496,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getObjectArrayMaxLength(String) public int
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getObjectArrayMaxLength(String) public int
      * javax.imageio.metadata.IIOMetadataFormatImpl.getObjectArrayMaxLength(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -509,7 +520,8 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getAttributeEnumerations(String, String) public java.lang.String[]
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeEnumerations(String, String) public
+     * java.lang.String[]
      * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeEnumerations(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -533,7 +545,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getAttributeMaxValue(String, String) public java.lang.String
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeMaxValue(String, String) public java.lang.String
      * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeMaxValue(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -556,8 +568,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getAttributeNames(String)
-     * public java.lang.String[] javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeNames(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getAttributeNames(String) public java.lang.String[]
+     * javax.imageio.metadata.IIOMetadataFormatImpl.getAttributeNames(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -580,7 +593,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOMetadataFormatImpl#getObjectArrayMinLength(String) public int
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getObjectArrayMinLength(String) public int
      * javax.imageio.metadata.IIOMetadataFormatImpl.getObjectArrayMinLength(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -603,8 +616,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getObjectEnumerations(String)
-     * public java.lang.Object[] javax.imageio.metadata.IIOMetadataFormatImpl.getObjectEnumerations(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getObjectEnumerations(String) public java.lang.Object[]
+     * javax.imageio.metadata.IIOMetadataFormatImpl.getObjectEnumerations(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -626,8 +640,9 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getObjectMinValue(String)
-     * public java.lang.Comparable<?> javax.imageio.metadata.IIOMetadataFormatImpl.getObjectMinValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getObjectMinValue(String) public java.lang.Comparable
+     * <?> javax.imageio.metadata.IIOMetadataFormatImpl.getObjectMinValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

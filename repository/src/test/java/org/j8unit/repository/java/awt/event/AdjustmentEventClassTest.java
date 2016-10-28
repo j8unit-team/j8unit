@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.Adjustable;
 import java.awt.event.AdjustmentEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.event.AdjustmentEventClassTests<Adjust
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AdjustmentEvent#AdjustmentEvent(Adjustable, int, int, int) public
+     * {@link java.awt.event.AdjustmentEvent#AdjustmentEvent(java.awt.Adjustable, int, int, int) public
      * java.awt.event.AdjustmentEvent(java.awt.Adjustable,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.awt.event.AdjustmentEventClassTests<Adjust
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AdjustmentEvent sut = null; // = new AdjustmentEvent(Adjustable, int, int, int);
+        final AdjustmentEvent sut = null; // = new AdjustmentEvent(java.awt.Adjustable, int, int, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AdjustmentEvent#AdjustmentEvent(Adjustable, int, int, int, boolean) public
+     * {@link java.awt.event.AdjustmentEvent#AdjustmentEvent(java.awt.Adjustable, int, int, int, boolean) public
      * java.awt.event.AdjustmentEvent(java.awt.Adjustable,int,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.awt.event.AdjustmentEventClassTests<Adjust
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AdjustmentEvent sut = null; // = new AdjustmentEvent(Adjustable, int, int, int, boolean);
+        final AdjustmentEvent sut = null; // = new AdjustmentEvent(java.awt.Adjustable, int, int, int, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.AdjustmentEvent]

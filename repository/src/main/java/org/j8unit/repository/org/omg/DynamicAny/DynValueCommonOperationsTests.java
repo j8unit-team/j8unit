@@ -34,8 +34,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynValueCommonOperations#set_to_value() public
-     * abstract void org.omg.DynamicAny.DynValueCommonOperations.set_to_value()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynValueCommonOperations#set_to_value() public abstract void
+     * org.omg.DynamicAny.DynValueCommonOperations.set_to_value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynValueCommonOperations#is_null() public abstract
-     * boolean org.omg.DynamicAny.DynValueCommonOperations.is_null()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynValueCommonOperations#is_null() public abstract boolean
+     * org.omg.DynamicAny.DynValueCommonOperations.is_null()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynValueCommonOperations#set_to_null() public
-     * abstract void org.omg.DynamicAny.DynValueCommonOperations.set_to_null()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynValueCommonOperations#set_to_null() public abstract void
+     * org.omg.DynamicAny.DynValueCommonOperations.set_to_null()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

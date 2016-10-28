@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.xml.soap;
 
-import javax.xml.namespace.QName;
 import javax.xml.soap.Detail;
-import javax.xml.soap.Name;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPFaultElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Detail#getDetailEntries() public abstract
-     * java.util.Iterator javax.xml.soap.Detail.getDetailEntries()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Detail#getDetailEntries() public
+     * abstract java.util.Iterator javax.xml.soap.Detail.getDetailEntries()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +56,9 @@ extends org.j8unit.repository.javax.xml.soap.SOAPFaultElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Detail#addDetailEntry(QName) public abstract
-     * javax.xml.soap.DetailEntry javax.xml.soap.Detail.addDetailEntry(javax.xml.namespace.QName) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.Detail#addDetailEntry(javax.xml.namespace.QName) public abstract javax.xml.soap.DetailEntry
+     * javax.xml.soap.Detail.addDetailEntry(javax.xml.namespace.QName) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,9 +79,9 @@ extends org.j8unit.repository.javax.xml.soap.SOAPFaultElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Detail#addDetailEntry(Name) public abstract
-     * javax.xml.soap.DetailEntry javax.xml.soap.Detail.addDetailEntry(javax.xml.soap.Name) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.Detail#addDetailEntry(javax.xml.soap.Name) public abstract javax.xml.soap.DetailEntry
+     * javax.xml.soap.Detail.addDetailEntry(javax.xml.soap.Name) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.crypto.spec;
 
-import java.security.spec.AlgorithmParameterSpec;
 import javax.crypto.spec.OAEPParameterSpec;
-import javax.crypto.spec.PSource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.crypto.spec.OAEPParameterSpecClassTests<O
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OAEPParameterSpec#OAEPParameterSpec(String, String, AlgorithmParameterSpec, PSource) public
+     * {@link javax.crypto.spec.OAEPParameterSpec#OAEPParameterSpec(String, String, java.security.spec.AlgorithmParameterSpec, javax.crypto.spec.PSource)
+     * public
      * javax.crypto.spec.OAEPParameterSpec(java.lang.String,java.lang.String,java.security.spec.AlgorithmParameterSpec,javax.crypto.spec.PSource)}
      * .
      *
@@ -42,7 +41,8 @@ implements org.j8unit.repository.javax.crypto.spec.OAEPParameterSpecClassTests<O
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OAEPParameterSpec sut = null; // = new OAEPParameterSpec(String, String, AlgorithmParameterSpec, PSource);
+        final OAEPParameterSpec sut = null; // = new OAEPParameterSpec(String, String,
+                                            // java.security.spec.AlgorithmParameterSpec, javax.crypto.spec.PSource);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.OAEPParameterSpec]

@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.RadialGradientPaint;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +34,7 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RadialGradientPaint#getFocusPoint() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.RadialGradientPaint#getFocusPoint() public
      * java.awt.geom.Point2D java.awt.RadialGradientPaint.getFocusPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +56,8 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RadialGradientPaint#getRadius() public float
-     * java.awt.RadialGradientPaint.getRadius()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.RadialGradientPaint#getRadius() public
+     * float java.awt.RadialGradientPaint.getRadius()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +79,7 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RadialGradientPaint#createContext(ColorModel, Rectangle, Rectangle2D, AffineTransform, RenderingHints)
+     * {@link java.awt.RadialGradientPaint#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
      * public java.awt.PaintContext
      * java.awt.RadialGradientPaint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
      * .
@@ -109,7 +104,7 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RadialGradientPaint#getCenterPoint() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.RadialGradientPaint#getCenterPoint() public
      * java.awt.geom.Point2D java.awt.RadialGradientPaint.getCenterPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.imageio;
 
-import java.awt.color.ColorSpace;
-import java.awt.image.ColorModel;
-import java.awt.image.RenderedImage;
-import java.awt.image.SampleModel;
 import javax.imageio.ImageTypeSpecifier;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -26,7 +22,7 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImageTypeSpecifier#ImageTypeSpecifier(RenderedImage) public
+     * {@link javax.imageio.ImageTypeSpecifier#ImageTypeSpecifier(java.awt.image.RenderedImage) public
      * javax.imageio.ImageTypeSpecifier(java.awt.image.RenderedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,14 +39,14 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageTypeSpecifier sut = null; // = new ImageTypeSpecifier(RenderedImage);
+        final ImageTypeSpecifier sut = null; // = new ImageTypeSpecifier(java.awt.image.RenderedImage);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImageTypeSpecifier#ImageTypeSpecifier(ColorModel, SampleModel) public
-     * javax.imageio.ImageTypeSpecifier(java.awt.image.ColorModel,java.awt.image.SampleModel)}.
+     * {@link javax.imageio.ImageTypeSpecifier#ImageTypeSpecifier(java.awt.image.ColorModel, java.awt.image.SampleModel)
+     * public javax.imageio.ImageTypeSpecifier(java.awt.image.ColorModel,java.awt.image.SampleModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,14 +62,15 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageTypeSpecifier sut = null; // = new ImageTypeSpecifier(ColorModel, SampleModel);
+        final ImageTypeSpecifier sut = null; // = new ImageTypeSpecifier(java.awt.image.ColorModel,
+                                             // java.awt.image.SampleModel);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageTypeSpecifier#createBanded(ColorSpace, int[], int[], int, boolean, boolean) public static
-     * javax.imageio.ImageTypeSpecifier
+     * {@link javax.imageio.ImageTypeSpecifier#createBanded(java.awt.color.ColorSpace, int[], int[], int, boolean, boolean)
+     * public static javax.imageio.ImageTypeSpecifier
      * javax.imageio.ImageTypeSpecifier.createBanded(java.awt.color.ColorSpace,int[],int[],int,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,13 +85,15 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     @Category(Draft.class)
     public void test_createBanded_ColorSpace_intArray_intArray_int_boolean_boolean()
     throws Exception {
-        // write some test for {@link ImageTypeSpecifier#createBanded(ColorSpace, int[], int[], int, boolean, boolean)}
+        // write some test for {@link javax.imageio.ImageTypeSpecifier#createBanded(java.awt.color.ColorSpace, int[],
+        // int[], int, boolean, boolean)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageTypeSpecifier#createFromRenderedImage(RenderedImage) public static javax.imageio.ImageTypeSpecifier
+     * {@link javax.imageio.ImageTypeSpecifier#createFromRenderedImage(java.awt.image.RenderedImage) public static
+     * javax.imageio.ImageTypeSpecifier
      * javax.imageio.ImageTypeSpecifier.createFromRenderedImage(java.awt.image.RenderedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,14 +108,15 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     @Category(Draft.class)
     public void test_createFromRenderedImage_RenderedImage()
     throws Exception {
-        // write some test for {@link ImageTypeSpecifier#createFromRenderedImage(RenderedImage)}
+        // write some test for {@link
+        // javax.imageio.ImageTypeSpecifier#createFromRenderedImage(java.awt.image.RenderedImage)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageTypeSpecifier#createPacked(ColorSpace, int, int, int, int, int, boolean) public static
-     * javax.imageio.ImageTypeSpecifier
+     * {@link javax.imageio.ImageTypeSpecifier#createPacked(java.awt.color.ColorSpace, int, int, int, int, int, boolean)
+     * public static javax.imageio.ImageTypeSpecifier
      * javax.imageio.ImageTypeSpecifier.createPacked(java.awt.color.ColorSpace,int,int,int,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,14 +131,15 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     @Category(Draft.class)
     public void test_createPacked_ColorSpace_int_int_int_int_int_boolean()
     throws Exception {
-        // write some test for {@link ImageTypeSpecifier#createPacked(ColorSpace, int, int, int, int, int, boolean)}
+        // write some test for {@link javax.imageio.ImageTypeSpecifier#createPacked(java.awt.color.ColorSpace, int, int,
+        // int, int, int, boolean)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageTypeSpecifier#createGrayscale(int, int, boolean) public static javax.imageio.ImageTypeSpecifier
-     * javax.imageio.ImageTypeSpecifier.createGrayscale(int,int,boolean)}.
+     * {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean) public static
+     * javax.imageio.ImageTypeSpecifier javax.imageio.ImageTypeSpecifier.createGrayscale(int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,13 +153,13 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     @Category(Draft.class)
     public void test_createGrayscale_int_int_boolean()
     throws Exception {
-        // write some test for {@link ImageTypeSpecifier#createGrayscale(int, int, boolean)}
+        // write some test for {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageTypeSpecifier#createGrayscale(int, int, boolean, boolean) public static
+     * {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean, boolean) public static
      * javax.imageio.ImageTypeSpecifier javax.imageio.ImageTypeSpecifier.createGrayscale(int,int,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,14 +174,14 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     @Category(Draft.class)
     public void test_createGrayscale_int_int_boolean_boolean()
     throws Exception {
-        // write some test for {@link ImageTypeSpecifier#createGrayscale(int, int, boolean, boolean)}
+        // write some test for {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean, boolean)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageTypeSpecifier#createInterleaved(ColorSpace, int[], int, boolean, boolean) public static
-     * javax.imageio.ImageTypeSpecifier
+     * {@link javax.imageio.ImageTypeSpecifier#createInterleaved(java.awt.color.ColorSpace, int[], int, boolean, boolean)
+     * public static javax.imageio.ImageTypeSpecifier
      * javax.imageio.ImageTypeSpecifier.createInterleaved(java.awt.color.ColorSpace,int[],int,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,13 +196,14 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     @Category(Draft.class)
     public void test_createInterleaved_ColorSpace_intArray_int_boolean_boolean()
     throws Exception {
-        // write some test for {@link ImageTypeSpecifier#createInterleaved(ColorSpace, int[], int, boolean, boolean)}
+        // write some test for {@link javax.imageio.ImageTypeSpecifier#createInterleaved(java.awt.color.ColorSpace,
+        // int[], int, boolean, boolean)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageTypeSpecifier#createIndexed(byte[], byte[], byte[], byte[], int, int) public static
+     * {@link javax.imageio.ImageTypeSpecifier#createIndexed(byte[], byte[], byte[], byte[], int, int) public static
      * javax.imageio.ImageTypeSpecifier
      * javax.imageio.ImageTypeSpecifier.createIndexed(byte[],byte[],byte[],byte[],int,int)}.
      *
@@ -217,14 +219,15 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     @Category(Draft.class)
     public void test_createIndexed_byteArray_byteArray_byteArray_byteArray_int_int()
     throws Exception {
-        // write some test for {@link ImageTypeSpecifier#createIndexed(byte[], byte[], byte[], byte[], int, int)}
+        // write some test for {@link javax.imageio.ImageTypeSpecifier#createIndexed(byte[], byte[], byte[], byte[],
+        // int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageTypeSpecifier#createFromBufferedImageType(int)
-     * public static javax.imageio.ImageTypeSpecifier javax.imageio.ImageTypeSpecifier.createFromBufferedImageType(int)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageTypeSpecifier#createFromBufferedImageType(int) public static
+     * javax.imageio.ImageTypeSpecifier javax.imageio.ImageTypeSpecifier.createFromBufferedImageType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,7 +241,7 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     @Category(Draft.class)
     public void test_createFromBufferedImageType_int()
     throws Exception {
-        // write some test for {@link ImageTypeSpecifier#createFromBufferedImageType(int)}
+        // write some test for {@link javax.imageio.ImageTypeSpecifier#createFromBufferedImageType(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.ImageTypeSpecifier]

@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.BAD_QOS;
-import org.omg.CORBA.CompletionStatus;
 
 @RunWith(J8Unit4.class)
 public class BAD_QOSClassTest
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_QOSClassTests<BAD_QOS> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BAD_QOS#BAD_QOS(String, int, CompletionStatus)
-     * public org.omg.CORBA.BAD_QOS(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.BAD_QOS#BAD_QOS(String, int, org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.BAD_QOS(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,12 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_QOSClassTests<BAD_QOS> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BAD_QOS sut = null; // = new BAD_QOS(String, int, CompletionStatus);
+        final BAD_QOS sut = null; // = new BAD_QOS(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BAD_QOS#BAD_QOS(int, CompletionStatus) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.BAD_QOS#BAD_QOS(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.BAD_QOS(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,12 +62,12 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_QOSClassTests<BAD_QOS> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BAD_QOS sut = null; // = new BAD_QOS(int, CompletionStatus);
+        final BAD_QOS sut = null; // = new BAD_QOS(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BAD_QOS#BAD_QOS(String) public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.BAD_QOS#BAD_QOS(String) public
      * org.omg.CORBA.BAD_QOS(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,7 +89,7 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_QOSClassTests<BAD_QOS> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BAD_QOS#BAD_QOS() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.BAD_QOS#BAD_QOS() public
      * org.omg.CORBA.BAD_QOS()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

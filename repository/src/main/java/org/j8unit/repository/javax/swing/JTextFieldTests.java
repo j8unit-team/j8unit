@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Font;
-import java.awt.Rectangle;
-import java.awt.event.ActionListener;
-import javax.swing.Action;
 import javax.swing.JTextField;
-import javax.swing.text.Document;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +34,9 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#scrollRectToVisible(Rectangle) public
-     * void javax.swing.JTextField.scrollRectToVisible(java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTextField#scrollRectToVisible(java.awt.Rectangle) public void
+     * javax.swing.JTextField.scrollRectToVisible(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +58,9 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#addActionListener(ActionListener) public
-     * synchronized void javax.swing.JTextField.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTextField#addActionListener(java.awt.event.ActionListener) public synchronized void
+     * javax.swing.JTextField.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +81,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#postActionEvent() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#postActionEvent() public void
      * javax.swing.JTextField.postActionEvent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +103,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#setColumns(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#setColumns(int) public void
      * javax.swing.JTextField.setColumns(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,8 +125,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#setAction(Action) public void
-     * javax.swing.JTextField.setAction(javax.swing.Action)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#setAction(javax.swing.Action)
+     * public void javax.swing.JTextField.setAction(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,7 +147,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JTextField.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,7 +170,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getColumns() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getColumns() public int
      * javax.swing.JTextField.getColumns()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,8 +192,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#setActionCommand(String) public void
-     * javax.swing.JTextField.setActionCommand(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#setActionCommand(String)
+     * public void javax.swing.JTextField.setActionCommand(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,8 +214,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getUIClassID() public java.lang.String
-     * javax.swing.JTextField.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getUIClassID() public
+     * java.lang.String javax.swing.JTextField.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,8 +237,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getAction() public javax.swing.Action
-     * javax.swing.JTextField.getAction()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getAction() public
+     * javax.swing.Action javax.swing.JTextField.getAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -262,8 +259,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getActions() public javax.swing.Action[]
-     * javax.swing.JTextField.getActions()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getActions() public
+     * javax.swing.Action[] javax.swing.JTextField.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -285,7 +282,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getPreferredSize() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getPreferredSize() public
      * java.awt.Dimension javax.swing.JTextField.getPreferredSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -308,8 +305,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getHorizontalAlignment() public int
-     * javax.swing.JTextField.getHorizontalAlignment()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getHorizontalAlignment()
+     * public int javax.swing.JTextField.getHorizontalAlignment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -330,8 +327,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#setScrollOffset(int) public void
-     * javax.swing.JTextField.setScrollOffset(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#setScrollOffset(int) public
+     * void javax.swing.JTextField.setScrollOffset(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -352,8 +349,9 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#removeActionListener(ActionListener)
-     * public synchronized void javax.swing.JTextField.removeActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTextField#removeActionListener(java.awt.event.ActionListener) public synchronized void
+     * javax.swing.JTextField.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -374,7 +372,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#setDocument(Document) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTextField#setDocument(javax.swing.text.Document) public void
      * javax.swing.JTextField.setDocument(javax.swing.text.Document)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -397,8 +396,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#isValidateRoot() public boolean
-     * javax.swing.JTextField.isValidateRoot()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#isValidateRoot() public
+     * boolean javax.swing.JTextField.isValidateRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -420,8 +419,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#setHorizontalAlignment(int) public void
-     * javax.swing.JTextField.setHorizontalAlignment(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#setHorizontalAlignment(int)
+     * public void javax.swing.JTextField.setHorizontalAlignment(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -442,8 +441,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getHorizontalVisibility() public
-     * javax.swing.BoundedRangeModel javax.swing.JTextField.getHorizontalVisibility()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getHorizontalVisibility()
+     * public javax.swing.BoundedRangeModel javax.swing.JTextField.getHorizontalVisibility()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -464,8 +463,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getActionListeners() public synchronized
-     * java.awt.event.ActionListener[] javax.swing.JTextField.getActionListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getActionListeners() public
+     * synchronized java.awt.event.ActionListener[] javax.swing.JTextField.getActionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -486,7 +485,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#getScrollOffset() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#getScrollOffset() public int
      * javax.swing.JTextField.getScrollOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -508,8 +507,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextField#setFont(Font) public void
-     * javax.swing.JTextField.setFont(java.awt.Font)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextField#setFont(java.awt.Font) public
+     * void javax.swing.JTextField.setFont(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

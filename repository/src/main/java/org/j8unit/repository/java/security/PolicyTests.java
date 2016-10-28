@@ -1,10 +1,7 @@
 package org.j8unit.repository.java.security;
 
-import java.security.CodeSource;
-import java.security.Permission;
 import java.security.Policy;
 import java.security.Policy.Parameters;
-import java.security.ProtectionDomain;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +36,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#implies(ProtectionDomain, Permission) public
-     * boolean java.security.Policy.implies(java.security.ProtectionDomain,java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Policy#implies(java.security.ProtectionDomain, java.security.Permission) public boolean
+     * java.security.Policy.implies(java.security.ProtectionDomain,java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +59,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#refresh() public void
+     * Test method for the hereby targeted method-under-test {@link java.security.Policy#refresh() public void
      * java.security.Policy.refresh()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#getProvider() public java.security.Provider
-     * java.security.Policy.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Policy#getProvider() public
+     * java.security.Provider java.security.Policy.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +103,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#getParameters() public
+     * Test method for the hereby targeted method-under-test {@link java.security.Policy#getParameters() public
      * java.security.Policy$Parameters java.security.Policy.getParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#getType() public java.lang.String
-     * java.security.Policy.getType()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Policy#getType() public
+     * java.lang.String java.security.Policy.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#getPermissions(ProtectionDomain) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Policy#getPermissions(java.security.ProtectionDomain) public
      * java.security.PermissionCollection java.security.Policy.getPermissions(java.security.ProtectionDomain)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +170,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#getPermissions(CodeSource) public
-     * java.security.PermissionCollection java.security.Policy.getPermissions(java.security.CodeSource)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Policy#getPermissions(java.security.CodeSource) public java.security.PermissionCollection
+     * java.security.Policy.getPermissions(java.security.CodeSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

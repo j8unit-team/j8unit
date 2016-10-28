@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.sound.midi.spi;
 
-import java.io.File;
-import java.io.OutputStream;
-import javax.sound.midi.Sequence;
 import javax.sound.midi.spi.MidiFileWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileWriter#getMidiFileTypes(Sequence) public
-     * abstract int[] javax.sound.midi.spi.MidiFileWriter.getMidiFileTypes(javax.sound.midi.Sequence)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.MidiFileWriter#getMidiFileTypes(javax.sound.midi.Sequence) public abstract int[]
+     * javax.sound.midi.spi.MidiFileWriter.getMidiFileTypes(javax.sound.midi.Sequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileWriter#getMidiFileTypes() public abstract
-     * int[] javax.sound.midi.spi.MidiFileWriter.getMidiFileTypes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.MidiFileWriter#getMidiFileTypes() public abstract int[]
+     * javax.sound.midi.spi.MidiFileWriter.getMidiFileTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileWriter#isFileTypeSupported(int) public
-     * boolean javax.sound.midi.spi.MidiFileWriter.isFileTypeSupported(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.MidiFileWriter#isFileTypeSupported(int) public boolean
+     * javax.sound.midi.spi.MidiFileWriter.isFileTypeSupported(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileWriter#isFileTypeSupported(int, Sequence)
-     * public boolean javax.sound.midi.spi.MidiFileWriter.isFileTypeSupported(int,javax.sound.midi.Sequence)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.MidiFileWriter#isFileTypeSupported(int, javax.sound.midi.Sequence) public boolean
+     * javax.sound.midi.spi.MidiFileWriter.isFileTypeSupported(int,javax.sound.midi.Sequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +126,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileWriter#write(Sequence, int, File) public
-     * abstract int javax.sound.midi.spi.MidiFileWriter.write(javax.sound.midi.Sequence,int,java.io.File) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.MidiFileWriter#write(javax.sound.midi.Sequence, int, java.io.File) public abstract
+     * int javax.sound.midi.spi.MidiFileWriter.write(javax.sound.midi.Sequence,int,java.io.File) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,9 +150,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileWriter#write(Sequence, int, OutputStream)
-     * public abstract int javax.sound.midi.spi.MidiFileWriter.write(javax.sound.midi.Sequence,int,java.io.OutputStream)
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.MidiFileWriter#write(javax.sound.midi.Sequence, int, java.io.OutputStream) public
+     * abstract int javax.sound.midi.spi.MidiFileWriter.write(javax.sound.midi.Sequence,int,java.io.OutputStream) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

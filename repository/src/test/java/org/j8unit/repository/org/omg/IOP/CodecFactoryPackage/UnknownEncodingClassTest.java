@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncoding
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UnknownEncoding#UnknownEncoding() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.CodecFactoryPackage.UnknownEncoding#UnknownEncoding() public
      * org.omg.IOP.CodecFactoryPackage.UnknownEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncoding
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UnknownEncoding#UnknownEncoding(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.CodecFactoryPackage.UnknownEncoding#UnknownEncoding(String) public
      * org.omg.IOP.CodecFactoryPackage.UnknownEncoding(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

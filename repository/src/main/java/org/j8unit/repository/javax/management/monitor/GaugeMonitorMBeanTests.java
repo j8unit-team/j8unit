@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.monitor;
 
-import javax.management.ObjectName;
 import javax.management.monitor.GaugeMonitorMBean;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#getHighThreshold() public abstract
-     * java.lang.Number javax.management.monitor.GaugeMonitorMBean.getHighThreshold()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#getHighThreshold() public abstract java.lang.Number
+     * javax.management.monitor.GaugeMonitorMBean.getHighThreshold()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,9 +57,10 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#setThresholds(Number, Number)
-     * public abstract void javax.management.monitor.GaugeMonitorMBean.setThresholds(java.lang.Number,java.lang.Number)
-     * throws java.lang.IllegalArgumentException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#setThresholds(Number, Number) public abstract void
+     * javax.management.monitor.GaugeMonitorMBean.setThresholds(java.lang.Number,java.lang.Number) throws
+     * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#getDerivedGaugeTimeStamp() public
-     * abstract long javax.management.monitor.GaugeMonitorMBean.getDerivedGaugeTimeStamp()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#getDerivedGaugeTimeStamp() public abstract long
+     * javax.management.monitor.GaugeMonitorMBean.getDerivedGaugeTimeStamp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +105,8 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GaugeMonitorMBean#getDerivedGaugeTimeStamp(ObjectName) public abstract long
-     * javax.management.monitor.GaugeMonitorMBean.getDerivedGaugeTimeStamp(javax.management.ObjectName)}.
+     * {@link javax.management.monitor.GaugeMonitorMBean#getDerivedGaugeTimeStamp(javax.management.ObjectName) public
+     * abstract long javax.management.monitor.GaugeMonitorMBean.getDerivedGaugeTimeStamp(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +127,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#setDifferenceMode(boolean) public
-     * abstract void javax.management.monitor.GaugeMonitorMBean.setDifferenceMode(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#setDifferenceMode(boolean) public abstract void
+     * javax.management.monitor.GaugeMonitorMBean.setDifferenceMode(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,9 +150,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#getDerivedGauge(ObjectName) public
-     * abstract java.lang.Number
-     * javax.management.monitor.GaugeMonitorMBean.getDerivedGauge(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#getDerivedGauge(javax.management.ObjectName) public abstract
+     * java.lang.Number javax.management.monitor.GaugeMonitorMBean.getDerivedGauge(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +173,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#getDerivedGauge() public abstract
-     * java.lang.Number javax.management.monitor.GaugeMonitorMBean.getDerivedGauge()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#getDerivedGauge() public abstract java.lang.Number
+     * javax.management.monitor.GaugeMonitorMBean.getDerivedGauge()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +196,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#setNotifyHigh(boolean) public
-     * abstract void javax.management.monitor.GaugeMonitorMBean.setNotifyHigh(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#setNotifyHigh(boolean) public abstract void
+     * javax.management.monitor.GaugeMonitorMBean.setNotifyHigh(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +219,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#getDifferenceMode() public
-     * abstract boolean javax.management.monitor.GaugeMonitorMBean.getDifferenceMode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#getDifferenceMode() public abstract boolean
+     * javax.management.monitor.GaugeMonitorMBean.getDifferenceMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,8 +242,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#getNotifyHigh() public abstract
-     * boolean javax.management.monitor.GaugeMonitorMBean.getNotifyHigh()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#getNotifyHigh() public abstract boolean
+     * javax.management.monitor.GaugeMonitorMBean.getNotifyHigh()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +265,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#setNotifyLow(boolean) public
-     * abstract void javax.management.monitor.GaugeMonitorMBean.setNotifyLow(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#setNotifyLow(boolean) public abstract void
+     * javax.management.monitor.GaugeMonitorMBean.setNotifyLow(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,8 +288,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#getNotifyLow() public abstract
-     * boolean javax.management.monitor.GaugeMonitorMBean.getNotifyLow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#getNotifyLow() public abstract boolean
+     * javax.management.monitor.GaugeMonitorMBean.getNotifyLow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,8 +311,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GaugeMonitorMBean#getLowThreshold() public abstract
-     * java.lang.Number javax.management.monitor.GaugeMonitorMBean.getLowThreshold()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.GaugeMonitorMBean#getLowThreshold() public abstract java.lang.Number
+     * javax.management.monitor.GaugeMonitorMBean.getLowThreshold()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

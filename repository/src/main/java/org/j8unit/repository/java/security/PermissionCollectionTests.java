@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security;
 
-import java.security.Permission;
 import java.security.PermissionCollection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PermissionCollection#implies(Permission) public
-     * abstract boolean java.security.PermissionCollection.implies(java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.PermissionCollection#implies(java.security.Permission) public abstract boolean
+     * java.security.PermissionCollection.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PermissionCollection#setReadOnly() public void
-     * java.security.PermissionCollection.setReadOnly()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PermissionCollection#setReadOnly()
+     * public void java.security.PermissionCollection.setReadOnly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PermissionCollection#toString() public
+     * Test method for the hereby targeted method-under-test {@link java.security.PermissionCollection#toString() public
      * java.lang.String java.security.PermissionCollection.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PermissionCollection#elements() public abstract
-     * java.util.Enumeration<java.security.Permission> java.security.PermissionCollection.elements()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PermissionCollection#elements() public
+     * abstract java.util.Enumeration<java.security.Permission> java.security.PermissionCollection.elements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PermissionCollection#add(Permission) public abstract
-     * void java.security.PermissionCollection.add(java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.PermissionCollection#add(java.security.Permission) public abstract void
+     * java.security.PermissionCollection.add(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +147,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PermissionCollection#isReadOnly() public boolean
-     * java.security.PermissionCollection.isReadOnly()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.PermissionCollection#isReadOnly()
+     * public boolean java.security.PermissionCollection.isReadOnly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.rmi.ssl;
 
-import javax.net.ssl.SSLContext;
 import javax.rmi.ssl.SslRMIServerSocketFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SslRMIServerSocketFactory#SslRMIServerSocketFactory(SSLContext, String[], String[], boolean) public
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory(javax.net.ssl.SSLContext, String[], String[], boolean)
+     * public
      * javax.rmi.ssl.SslRMIServerSocketFactory(javax.net.ssl.SSLContext,java.lang.String[],java.lang.String[],boolean)
      * throws java.lang.IllegalArgumentException}.
      *
@@ -41,14 +41,14 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SslRMIServerSocketFactory sut = null; // = new SslRMIServerSocketFactory(SSLContext, String[], String[],
-                                                    // boolean);
+        final SslRMIServerSocketFactory sut = null; // = new SslRMIServerSocketFactory(javax.net.ssl.SSLContext,
+                                                    // String[], String[], boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SslRMIServerSocketFactory#SslRMIServerSocketFactory(String[], String[], boolean) public
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory(String[], String[], boolean) public
      * javax.rmi.ssl.SslRMIServerSocketFactory(java.lang.String[],java.lang.String[],boolean) throws
      * java.lang.IllegalArgumentException}.
      *
@@ -72,7 +72,8 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SslRMIServerSocketFactory#SslRMIServerSocketFactory() public javax.rmi.ssl.SslRMIServerSocketFactory()}.
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory() public
+     * javax.rmi.ssl.SslRMIServerSocketFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

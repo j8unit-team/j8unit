@@ -3,8 +3,6 @@ package org.j8unit.repository.javax.swing.text;
 import javax.swing.text.AsyncBoxView;
 import javax.swing.text.AsyncBoxView.ChildLocator;
 import javax.swing.text.AsyncBoxView.ChildState;
-import javax.swing.text.Element;
-import javax.swing.text.View;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +23,8 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AsyncBoxView#AsyncBoxView(Element, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.AsyncBoxView#AsyncBoxView(javax.swing.text.Element, int) public
      * javax.swing.text.AsyncBoxView(javax.swing.text.Element,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +41,7 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AsyncBoxView sut = null; // = new AsyncBoxView(Element, int);
+        final AsyncBoxView sut = null; // = new AsyncBoxView(javax.swing.text.Element, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView]
@@ -60,8 +59,9 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link ChildLocator#ChildLocator(AsyncBoxView)
-         * public javax.swing.text.AsyncBoxView$ChildLocator(javax.swing.text.AsyncBoxView)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildLocator#ChildLocator(javax.swing.text.AsyncBoxView) public
+         * javax.swing.text.AsyncBoxView$ChildLocator(javax.swing.text.AsyncBoxView)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -77,7 +77,7 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final ChildLocator sut = null; // = new ChildLocator(AsyncBoxView);
+            final ChildLocator sut = null; // = new ChildLocator(javax.swing.text.AsyncBoxView);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildLocator]
@@ -97,7 +97,8 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link ChildState#ChildState(AsyncBoxView, View)
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#ChildState(javax.swing.text.AsyncBoxView, javax.swing.text.View)
          * public javax.swing.text.AsyncBoxView$ChildState(javax.swing.text.AsyncBoxView,javax.swing.text.View)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -114,7 +115,7 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final ChildState sut = null; // = new ChildState(AsyncBoxView, View);
+            final ChildState sut = null; // = new ChildState(javax.swing.text.AsyncBoxView, javax.swing.text.View);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]

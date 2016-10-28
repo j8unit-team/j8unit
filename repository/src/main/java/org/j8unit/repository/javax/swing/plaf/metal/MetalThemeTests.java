@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import javax.swing.UIDefaults;
 import javax.swing.plaf.metal.MetalTheme;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getMenuTextFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getMenuTextFont()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getMenuTextFont()
+     * public abstract javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getMenuTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getAcceleratorSelectedForeground() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getAcceleratorSelectedForeground() public
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getAcceleratorSelectedForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getWindowTitleFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleFont()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleFont() public abstract javax.swing.plaf.FontUIResource
+     * javax.swing.plaf.metal.MetalTheme.getWindowTitleFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getUserTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getUserTextColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getUserTextColor()
+     * public javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getUserTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getSystemTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSystemTextColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getSystemTextColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getSystemTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getFocusColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getFocusColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getFocusColor()
+     * public javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getFocusColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +169,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getInactiveSystemTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getInactiveSystemTextColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getInactiveSystemTextColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getInactiveSystemTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +192,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getControlDarkShadow() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlDarkShadow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getControlDarkShadow() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getControlDarkShadow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +215,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getMenuSelectedBackground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuSelectedBackground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getMenuSelectedBackground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getMenuSelectedBackground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +238,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getSeparatorBackground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSeparatorBackground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getSeparatorBackground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getSeparatorBackground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +261,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getSeparatorForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getSeparatorForeground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getSeparatorForeground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getSeparatorForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +284,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getPrimaryControlShadow() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlShadow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlShadow() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getPrimaryControlShadow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,8 +307,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getMenuSelectedForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuSelectedForeground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getMenuSelectedForeground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getMenuSelectedForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,8 +330,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getControlHighlight() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlHighlight()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getControlHighlight() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getControlHighlight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -343,8 +353,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getControl() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControl()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getControl()
+     * public javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -365,8 +375,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getControlInfo() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getControlInfo()
+     * public javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -387,8 +397,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getControlTextFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getControlTextFont()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getControlTextFont() public abstract javax.swing.plaf.FontUIResource
+     * javax.swing.plaf.metal.MetalTheme.getControlTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,8 +420,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getAcceleratorForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getAcceleratorForeground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getAcceleratorForeground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getAcceleratorForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,8 +443,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getPrimaryControlInfo() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlInfo()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlInfo() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getPrimaryControlInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -453,8 +466,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getUserTextFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getUserTextFont()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getUserTextFont()
+     * public abstract javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getUserTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -475,8 +488,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getWindowBackground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowBackground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getWindowBackground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getWindowBackground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -497,8 +511,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#addCustomEntriesToTable(UIDefaults)
-     * public void javax.swing.plaf.metal.MetalTheme.addCustomEntriesToTable(javax.swing.UIDefaults)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#addCustomEntriesToTable(javax.swing.UIDefaults) public void
+     * javax.swing.plaf.metal.MetalTheme.addCustomEntriesToTable(javax.swing.UIDefaults)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -519,8 +534,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getMenuForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuForeground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getMenuForeground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getMenuForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -541,8 +557,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getDesktopColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getDesktopColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getDesktopColor()
+     * public javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getDesktopColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -563,8 +579,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getSystemTextFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getSystemTextFont()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getSystemTextFont() public abstract javax.swing.plaf.FontUIResource
+     * javax.swing.plaf.metal.MetalTheme.getSystemTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -585,8 +602,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getPrimaryControl() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControl()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControl() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getPrimaryControl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -607,8 +625,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getControlTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlTextColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getControlTextColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getControlTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -629,8 +648,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getSubTextFont() public abstract
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getSubTextFont()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getSubTextFont()
+     * public abstract javax.swing.plaf.FontUIResource javax.swing.plaf.metal.MetalTheme.getSubTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -651,8 +670,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getTextHighlightColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getTextHighlightColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getTextHighlightColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getTextHighlightColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -673,8 +693,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getMenuDisabledForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuDisabledForeground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getMenuDisabledForeground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getMenuDisabledForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -695,8 +716,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getMenuBackground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getMenuBackground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getMenuBackground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getMenuBackground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -717,8 +739,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getWindowTitleForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleForeground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleForeground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getWindowTitleForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -739,7 +762,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getWindowTitleInactiveForeground() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveForeground() public
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleInactiveForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -761,8 +785,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getWindowTitleBackground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleBackground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleBackground() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getWindowTitleBackground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -783,7 +808,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getWindowTitleInactiveBackground() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getWindowTitleInactiveBackground() public
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getWindowTitleInactiveBackground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -805,8 +831,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getPrimaryControlDarkShadow() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlDarkShadow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlDarkShadow() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getPrimaryControlDarkShadow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -827,8 +854,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getControlDisabled() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlDisabled()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getControlDisabled() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getControlDisabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -849,8 +877,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getControlShadow() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlShadow()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getControlShadow()
+     * public javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getControlShadow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -871,8 +899,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getName() public abstract
-     * java.lang.String javax.swing.plaf.metal.MetalTheme.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalTheme#getName() public
+     * abstract java.lang.String javax.swing.plaf.metal.MetalTheme.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -893,8 +921,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getHighlightedTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getHighlightedTextColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getHighlightedTextColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getHighlightedTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -915,8 +944,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getInactiveControlTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getInactiveControlTextColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getInactiveControlTextColor() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getInactiveControlTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -937,8 +967,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalTheme#getPrimaryControlHighlight() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalTheme.getPrimaryControlHighlight()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalTheme#getPrimaryControlHighlight() public javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalTheme.getPrimaryControlHighlight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProtocolFamily#name() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.net.ProtocolFamily#name() public abstract
      * java.lang.String java.net.ProtocolFamily.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

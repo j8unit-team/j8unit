@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectStreamClass#toString() public java.lang.String
-     * java.io.ObjectStreamClass.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectStreamClass#toString() public
+     * java.lang.String java.io.ObjectStreamClass.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectStreamClass#getField(String) public
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectStreamClass#getField(String) public
      * java.io.ObjectStreamField java.io.ObjectStreamClass.getField(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectStreamClass#forClass() public java.lang.Class
-     * <?> java.io.ObjectStreamClass.forClass()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectStreamClass#forClass() public
+     * java.lang.Class<?> java.io.ObjectStreamClass.forClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectStreamClass#getFields() public
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectStreamClass#getFields() public
      * java.io.ObjectStreamField[] java.io.ObjectStreamClass.getFields()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectStreamClass#getName() public java.lang.String
-     * java.io.ObjectStreamClass.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectStreamClass#getName() public
+     * java.lang.String java.io.ObjectStreamClass.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectStreamClass#getSerialVersionUID() public long
-     * java.io.ObjectStreamClass.getSerialVersionUID()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectStreamClass#getSerialVersionUID()
+     * public long java.io.ObjectStreamClass.getSerialVersionUID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

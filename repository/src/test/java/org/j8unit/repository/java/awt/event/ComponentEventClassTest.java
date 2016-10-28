@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.Component;
 import java.awt.event.ComponentEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.awt.event.ComponentEventClassTests<Compone
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ComponentEvent#ComponentEvent(Component, int)
-     * public java.awt.event.ComponentEvent(java.awt.Component,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.event.ComponentEvent#ComponentEvent(java.awt.Component, int) public
+     * java.awt.event.ComponentEvent(java.awt.Component,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,7 +39,7 @@ implements org.j8unit.repository.java.awt.event.ComponentEventClassTests<Compone
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ComponentEvent sut = null; // = new ComponentEvent(Component, int);
+        final ComponentEvent sut = null; // = new ComponentEvent(java.awt.Component, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ComponentEvent]

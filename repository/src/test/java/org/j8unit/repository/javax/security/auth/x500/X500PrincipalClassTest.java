@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.security.auth.x500;
 
-import java.io.InputStream;
-import java.util.Map;
 import javax.security.auth.x500.X500Principal;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrincipalClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link X500Principal#X500Principal(InputStream) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.x500.X500Principal#X500Principal(java.io.InputStream) public
      * javax.security.auth.x500.X500Principal(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,13 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrincipalClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final X500Principal sut = null; // = new X500Principal(InputStream);
+        final X500Principal sut = null; // = new X500Principal(java.io.InputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link X500Principal#X500Principal(byte[]) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.x500.X500Principal#X500Principal(byte[]) public
      * javax.security.auth.x500.X500Principal(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,7 +67,8 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrincipalClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link X500Principal#X500Principal(String, Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.x500.X500Principal#X500Principal(String, java.util.Map) public
      * javax.security.auth.x500.X500Principal(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,12 +85,13 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrincipalClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final X500Principal sut = null; // = new X500Principal(String, Map);
+        final X500Principal sut = null; // = new X500Principal(String, java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link X500Principal#X500Principal(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.x500.X500Principal#X500Principal(String) public
      * javax.security.auth.x500.X500Principal(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

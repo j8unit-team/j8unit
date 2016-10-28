@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnum#value_as_ulong() public abstract int
-     * org.omg.CORBA.DynEnum.value_as_ulong()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynEnum#value_as_ulong() public
+     * abstract int org.omg.CORBA.DynEnum.value_as_ulong()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnum#value_as_ulong(int) public abstract void
-     * org.omg.CORBA.DynEnum.value_as_ulong(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynEnum#value_as_ulong(int) public
+     * abstract void org.omg.CORBA.DynEnum.value_as_ulong(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnum#value_as_string(String) public abstract void
-     * org.omg.CORBA.DynEnum.value_as_string(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynEnum#value_as_string(String) public
+     * abstract void org.omg.CORBA.DynEnum.value_as_string(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnum#value_as_string() public abstract
-     * java.lang.String org.omg.CORBA.DynEnum.value_as_string()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynEnum#value_as_string() public
+     * abstract java.lang.String org.omg.CORBA.DynEnum.value_as_string()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

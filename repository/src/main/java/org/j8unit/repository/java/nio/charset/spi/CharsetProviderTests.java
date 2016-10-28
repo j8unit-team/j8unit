@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetProvider#charsetForName(String) public
-     * abstract java.nio.charset.Charset java.nio.charset.spi.CharsetProvider.charsetForName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.spi.CharsetProvider#charsetForName(String) public abstract java.nio.charset.Charset
+     * java.nio.charset.spi.CharsetProvider.charsetForName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetProvider#charsets() public abstract
-     * java.util.Iterator<java.nio.charset.Charset> java.nio.charset.spi.CharsetProvider.charsets()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.spi.CharsetProvider#charsets()
+     * public abstract java.util.Iterator<java.nio.charset.Charset> java.nio.charset.spi.CharsetProvider.charsets()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,7 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectImpl#_get_codebase() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA_2_3.portable.ObjectImpl#_get_codebase() public java.lang.String
      * org.omg.CORBA_2_3.portable.ObjectImpl._get_codebase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

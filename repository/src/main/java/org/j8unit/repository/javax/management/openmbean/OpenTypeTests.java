@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#isValue(Object) public abstract boolean
-     * javax.management.openmbean.OpenType.isValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenType#isValue(Object)
+     * public abstract boolean javax.management.openmbean.OpenType.isValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#hashCode() public abstract int
-     * javax.management.openmbean.OpenType.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenType#hashCode()
+     * public abstract int javax.management.openmbean.OpenType.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#equals(Object) public abstract boolean
-     * javax.management.openmbean.OpenType.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenType#equals(Object)
+     * public abstract boolean javax.management.openmbean.OpenType.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#isArray() public boolean
-     * javax.management.openmbean.OpenType.isArray()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenType#isArray() public
+     * boolean javax.management.openmbean.OpenType.isArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#toString() public abstract java.lang.String
-     * javax.management.openmbean.OpenType.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenType#toString()
+     * public abstract java.lang.String javax.management.openmbean.OpenType.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getClassName() public java.lang.String
-     * javax.management.openmbean.OpenType.getClassName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenType#getClassName()
+     * public java.lang.String javax.management.openmbean.OpenType.getClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +169,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getTypeName() public java.lang.String
-     * javax.management.openmbean.OpenType.getTypeName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenType#getTypeName()
+     * public java.lang.String javax.management.openmbean.OpenType.getTypeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +191,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getDescription() public java.lang.String
-     * javax.management.openmbean.OpenType.getDescription()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenType#getDescription()
+     * public java.lang.String javax.management.openmbean.OpenType.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

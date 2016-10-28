@@ -34,7 +34,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterMode#value() public int
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ParameterMode#value() public int
      * org.omg.CORBA.ParameterMode.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

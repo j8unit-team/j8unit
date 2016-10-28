@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt.print;
 
-import java.awt.Graphics;
-import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Printable#print(Graphics, PageFormat, int) public
-     * abstract int java.awt.print.Printable.print(java.awt.Graphics,java.awt.print.PageFormat,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.print.Printable#print(java.awt.Graphics, java.awt.print.PageFormat, int) public abstract int
+     * java.awt.print.Printable.print(java.awt.Graphics,java.awt.print.PageFormat,int) throws
      * java.awt.print.PrinterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

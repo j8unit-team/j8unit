@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(Throwable) public
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(Throwable) public
      * java.sql.SQLInvalidAuthorizationSpecException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +45,8 @@ implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, Throwable) public
-     * java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.Throwable)}.
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, Throwable)
+     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -69,7 +69,7 @@ implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, String, Throwable)
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, String, Throwable)
      * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -93,7 +93,7 @@ implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, String, int, Throwable)
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, String, int, Throwable)
      * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -117,7 +117,7 @@ implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException() public
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException() public
      * java.sql.SQLInvalidAuthorizationSpecException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -139,7 +139,7 @@ implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String) public
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String) public
      * java.sql.SQLInvalidAuthorizationSpecException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -162,7 +162,7 @@ implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, String) public
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, String) public
      * java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -186,8 +186,8 @@ implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, String, int) public
-     * java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int)}.
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(String, String, int)
+     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

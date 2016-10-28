@@ -35,7 +35,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#toString() public java.lang.String
      * java.util.BitSet.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#clone() public java.lang.Object
      * java.util.BitSet.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#andNot(BitSet) public void
-     * java.util.BitSet.andNot(java.util.BitSet)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#andNot(java.util.BitSet) public
+     * void java.util.BitSet.andNot(java.util.BitSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#toByteArray() public byte[]
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#toByteArray() public byte[]
      * java.util.BitSet.toByteArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#equals(Object) public boolean
      * java.util.BitSet.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +147,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#size() public int java.util.BitSet.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#size() public int
+     * java.util.BitSet.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +169,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#length() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#length() public int
      * java.util.BitSet.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +191,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#isEmpty() public boolean
      * java.util.BitSet.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +213,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#clear() public void java.util.BitSet.clear()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#clear() public void
+     * java.util.BitSet.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,7 +235,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#clear(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#clear(int) public void
      * java.util.BitSet.clear(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -256,7 +257,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#clear(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#clear(int, int) public void
      * java.util.BitSet.clear(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -278,7 +279,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#cardinality() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#cardinality() public int
      * java.util.BitSet.cardinality()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -300,7 +301,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#or(BitSet) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#or(java.util.BitSet) public void
      * java.util.BitSet.or(java.util.BitSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -322,7 +323,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#set(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#set(int, int) public void
      * java.util.BitSet.set(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -344,7 +345,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#set(int, int, boolean) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#set(int, int, boolean) public void
      * java.util.BitSet.set(int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -366,7 +367,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#set(int, boolean) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#set(int, boolean) public void
      * java.util.BitSet.set(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -388,7 +389,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#set(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#set(int) public void
      * java.util.BitSet.set(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -410,7 +411,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#previousClearBit(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#previousClearBit(int) public int
      * java.util.BitSet.previousClearBit(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -432,7 +433,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#nextClearBit(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#nextClearBit(int) public int
      * java.util.BitSet.nextClearBit(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -454,7 +455,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#toLongArray() public long[]
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#toLongArray() public long[]
      * java.util.BitSet.toLongArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -476,7 +477,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#xor(BitSet) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#xor(java.util.BitSet) public void
      * java.util.BitSet.xor(java.util.BitSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -498,7 +499,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#flip(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#flip(int) public void
      * java.util.BitSet.flip(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -520,7 +521,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#flip(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#flip(int, int) public void
      * java.util.BitSet.flip(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -542,7 +543,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#get(int) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#get(int) public boolean
      * java.util.BitSet.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -564,8 +565,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#get(int, int) public java.util.BitSet
-     * java.util.BitSet.get(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#get(int, int) public
+     * java.util.BitSet java.util.BitSet.get(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -586,7 +587,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#and(BitSet) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#and(java.util.BitSet) public void
      * java.util.BitSet.and(java.util.BitSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -608,7 +609,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#hashCode() public int
      * java.util.BitSet.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -631,8 +632,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#stream() public java.util.stream.IntStream
-     * java.util.BitSet.stream()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#stream() public
+     * java.util.stream.IntStream java.util.BitSet.stream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -653,7 +654,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#nextSetBit(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#nextSetBit(int) public int
      * java.util.BitSet.nextSetBit(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -675,7 +676,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#previousSetBit(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#previousSetBit(int) public int
      * java.util.BitSet.previousSetBit(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -697,8 +698,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BitSet#intersects(BitSet) public boolean
-     * java.util.BitSet.intersects(java.util.BitSet)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.BitSet#intersects(java.util.BitSet) public
+     * boolean java.util.BitSet.intersects(java.util.BitSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

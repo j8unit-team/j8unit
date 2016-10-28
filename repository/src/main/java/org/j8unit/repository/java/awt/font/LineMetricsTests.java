@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getHeight() public abstract float
-     * java.awt.font.LineMetrics.getHeight()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getHeight() public
+     * abstract float java.awt.font.LineMetrics.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,30 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getAscent() public abstract float
-     * java.awt.font.LineMetrics.getAscent()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAscent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getBaselineIndex() public abstract int
-     * java.awt.font.LineMetrics.getBaselineIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getBaselineIndex() public
+     * abstract int java.awt.font.LineMetrics.getBaselineIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +78,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getStrikethroughOffset() public abstract
-     * float java.awt.font.LineMetrics.getStrikethroughOffset()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getAscent() public
+     * abstract float java.awt.font.LineMetrics.getAscent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAscent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getStrikethroughOffset()
+     * public abstract float java.awt.font.LineMetrics.getStrikethroughOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getBaselineOffsets() public abstract
-     * float[] java.awt.font.LineMetrics.getBaselineOffsets()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getBaselineOffsets()
+     * public abstract float[] java.awt.font.LineMetrics.getBaselineOffsets()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getStrikethroughThickness() public
-     * abstract float java.awt.font.LineMetrics.getStrikethroughThickness()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.LineMetrics#getStrikethroughThickness() public abstract float
+     * java.awt.font.LineMetrics.getStrikethroughThickness()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +167,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getUnderlineThickness() public abstract
-     * float java.awt.font.LineMetrics.getUnderlineThickness()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getUnderlineThickness()
+     * public abstract float java.awt.font.LineMetrics.getUnderlineThickness()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +189,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getUnderlineOffset() public abstract
-     * float java.awt.font.LineMetrics.getUnderlineOffset()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getUnderlineOffset()
+     * public abstract float java.awt.font.LineMetrics.getUnderlineOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +211,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getNumChars() public abstract int
-     * java.awt.font.LineMetrics.getNumChars()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getNumChars() public
+     * abstract int java.awt.font.LineMetrics.getNumChars()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +233,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getDescent() public abstract float
-     * java.awt.font.LineMetrics.getDescent()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getDescent() public
+     * abstract float java.awt.font.LineMetrics.getDescent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,8 +255,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineMetrics#getLeading() public abstract float
-     * java.awt.font.LineMetrics.getLeading()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.LineMetrics#getLeading() public
+     * abstract float java.awt.font.LineMetrics.getLeading()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

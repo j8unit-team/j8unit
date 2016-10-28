@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.security.auth;
 
-import java.security.AccessControlContext;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedExceptionAction;
-import java.util.Set;
 import javax.security.auth.Subject;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +21,7 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Subject#Subject() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.security.auth.Subject#Subject() public
      * javax.security.auth.Subject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +42,8 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Subject#Subject(boolean, Set, Set, Set) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.Subject#Subject(boolean, java.util.Set, java.util.Set, java.util.Set) public
      * javax.security.auth.Subject(boolean,java.util.Set<? extends java.security.Principal>,java.util.Set
      * <?>,java.util.Set<?>)}.
      *
@@ -64,13 +61,14 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Subject sut = null; // = new Subject(boolean, Set, Set, Set);
+        final Subject sut = null; // = new Subject(boolean, java.util.Set, java.util.Set, java.util.Set);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Subject#doAsPrivileged(Subject, PrivilegedExceptionAction, AccessControlContext) public static <T> T
+     * {@link javax.security.auth.Subject#doAsPrivileged(javax.security.auth.Subject, java.security.PrivilegedExceptionAction, java.security.AccessControlContext)
+     * public static <T> T
      * javax.security.auth.Subject.doAsPrivileged(javax.security.auth.Subject,java.security.PrivilegedExceptionAction
      * <T>,java.security.AccessControlContext) throws java.security.PrivilegedActionException}.
      *
@@ -86,13 +84,15 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
     @Category(Draft.class)
     public void test_doAsPrivileged_Subject_PrivilegedExceptionAction_AccessControlContext()
     throws Exception {
-        // write some test for {@link Subject#doAsPrivileged(Subject, PrivilegedExceptionAction, AccessControlContext)}
+        // write some test for {@link javax.security.auth.Subject#doAsPrivileged(javax.security.auth.Subject,
+        // java.security.PrivilegedExceptionAction, java.security.AccessControlContext)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Subject#doAsPrivileged(Subject, PrivilegedAction, AccessControlContext) public static <T> T
+     * {@link javax.security.auth.Subject#doAsPrivileged(javax.security.auth.Subject, java.security.PrivilegedAction, java.security.AccessControlContext)
+     * public static <T> T
      * javax.security.auth.Subject.doAsPrivileged(javax.security.auth.Subject,java.security.PrivilegedAction
      * <T>,java.security.AccessControlContext)}.
      *
@@ -108,12 +108,14 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
     @Category(Draft.class)
     public void test_doAsPrivileged_Subject_PrivilegedAction_AccessControlContext()
     throws Exception {
-        // write some test for {@link Subject#doAsPrivileged(Subject, PrivilegedAction, AccessControlContext)}
+        // write some test for {@link javax.security.auth.Subject#doAsPrivileged(javax.security.auth.Subject,
+        // java.security.PrivilegedAction, java.security.AccessControlContext)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Subject#doAs(Subject, PrivilegedAction) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject, java.security.PrivilegedAction) public
      * static <T> T javax.security.auth.Subject.doAs(javax.security.auth.Subject,java.security.PrivilegedAction<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,12 +130,14 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
     @Category(Draft.class)
     public void test_doAs_Subject_PrivilegedAction()
     throws Exception {
-        // write some test for {@link Subject#doAs(Subject, PrivilegedAction)}
+        // write some test for {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject,
+        // java.security.PrivilegedAction)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Subject#doAs(Subject, PrivilegedExceptionAction)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject, java.security.PrivilegedExceptionAction)
      * public static <T> T
      * javax.security.auth.Subject.doAs(javax.security.auth.Subject,java.security.PrivilegedExceptionAction<T>) throws
      * java.security.PrivilegedActionException}.
@@ -150,13 +154,15 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
     @Category(Draft.class)
     public void test_doAs_Subject_PrivilegedExceptionAction()
     throws Exception {
-        // write some test for {@link Subject#doAs(Subject, PrivilegedExceptionAction)}
+        // write some test for {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject,
+        // java.security.PrivilegedExceptionAction)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Subject#getSubject(AccessControlContext) public
-     * static javax.security.auth.Subject javax.security.auth.Subject.getSubject(java.security.AccessControlContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.Subject#getSubject(java.security.AccessControlContext) public static
+     * javax.security.auth.Subject javax.security.auth.Subject.getSubject(java.security.AccessControlContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +176,7 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
     @Category(Draft.class)
     public void test_getSubject_AccessControlContext()
     throws Exception {
-        // write some test for {@link Subject#getSubject(AccessControlContext)}
+        // write some test for {@link javax.security.auth.Subject#getSubject(java.security.AccessControlContext)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.Subject]

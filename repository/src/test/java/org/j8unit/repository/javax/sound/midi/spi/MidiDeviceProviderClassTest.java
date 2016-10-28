@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.sound.midi.spi.MidiDeviceProviderClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MidiDeviceProvider#MidiDeviceProvider() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.midi.spi.MidiDeviceProvider#MidiDeviceProvider() public
      * javax.sound.midi.spi.MidiDeviceProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.beancontext.BeanContext;
 import java.beans.beancontext.BeanContextEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextEvent#isPropagated() public synchronized
-     * boolean java.beans.beancontext.BeanContextEvent.isPropagated()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextEvent#isPropagated() public synchronized boolean
+     * java.beans.beancontext.BeanContextEvent.isPropagated()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,9 +57,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextEvent#setPropagatedFrom(BeanContext)
-     * public synchronized void
-     * java.beans.beancontext.BeanContextEvent.setPropagatedFrom(java.beans.beancontext.BeanContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextEvent#setPropagatedFrom(java.beans.beancontext.BeanContext) public
+     * synchronized void java.beans.beancontext.BeanContextEvent.setPropagatedFrom(java.beans.beancontext.BeanContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextEvent#getPropagatedFrom() public
-     * synchronized java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextEvent.getPropagatedFrom()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextEvent#getPropagatedFrom() public synchronized
+     * java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextEvent.getPropagatedFrom()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextEvent#getBeanContext() public
-     * java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextEvent.getBeanContext()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextEvent#getBeanContext() public java.beans.beancontext.BeanContext
+     * java.beans.beancontext.BeanContextEvent.getBeanContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

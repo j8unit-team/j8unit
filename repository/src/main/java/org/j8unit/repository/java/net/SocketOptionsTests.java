@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketOptions#setOption(int, Object) public abstract
-     * void java.net.SocketOptions.setOption(int,java.lang.Object) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.SocketOptions#setOption(int, Object) public
+     * abstract void java.net.SocketOptions.setOption(int,java.lang.Object) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketOptions#getOption(int) public abstract
-     * java.lang.Object java.net.SocketOptions.getOption(int) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.SocketOptions#getOption(int) public
+     * abstract java.lang.Object java.net.SocketOptions.getOption(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

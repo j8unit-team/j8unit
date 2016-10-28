@@ -23,7 +23,7 @@ implements org.j8unit.repository.javax.print.attribute.ResolutionSyntaxClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ResolutionSyntax#ResolutionSyntax(int, int, int) public
+     * {@link javax.print.attribute.ResolutionSyntax#ResolutionSyntax(int, int, int) public
      * javax.print.attribute.ResolutionSyntax(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.ClosedByInterruptExceptionCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ClosedByInterruptException#ClosedByInterruptException() public
+     * {@link java.nio.channels.ClosedByInterruptException#ClosedByInterruptException() public
      * java.nio.channels.ClosedByInterruptException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

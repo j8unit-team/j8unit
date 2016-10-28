@@ -1,12 +1,10 @@
 package org.j8unit.repository.org.omg.CORBA_2_3.portable;
 
-import java.io.Serializable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.portable.BoxedValueHelper;
 import org.omg.CORBA_2_3.portable.OutputStream;
 
 /**
@@ -36,7 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OutputStream#write_value(Serializable) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA_2_3.portable.OutputStream#write_value(java.io.Serializable) public void
      * org.omg.CORBA_2_3.portable.OutputStream.write_value(java.io.Serializable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OutputStream#write_value(Serializable, String)
-     * public void org.omg.CORBA_2_3.portable.OutputStream.write_value(java.io.Serializable,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA_2_3.portable.OutputStream#write_value(java.io.Serializable, String) public void
+     * org.omg.CORBA_2_3.portable.OutputStream.write_value(java.io.Serializable,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +81,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.OutputStreamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link OutputStream#write_value(Serializable, BoxedValueHelper) public void
+     * {@link org.omg.CORBA_2_3.portable.OutputStream#write_value(java.io.Serializable, org.omg.CORBA.portable.BoxedValueHelper)
+     * public void
      * org.omg.CORBA_2_3.portable.OutputStream.write_value(java.io.Serializable,org.omg.CORBA.portable.BoxedValueHelper)}
      * .
      *
@@ -104,8 +105,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OutputStream#write_value(Serializable, Class) public
-     * void org.omg.CORBA_2_3.portable.OutputStream.write_value(java.io.Serializable,java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA_2_3.portable.OutputStream#write_value(java.io.Serializable, Class) public void
+     * org.omg.CORBA_2_3.portable.OutputStream.write_value(java.io.Serializable,java.lang.Class)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +128,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OutputStream#write_abstract_interface(Object) public
-     * void org.omg.CORBA_2_3.portable.OutputStream.write_abstract_interface(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA_2_3.portable.OutputStream#write_abstract_interface(Object) public void
+     * org.omg.CORBA_2_3.portable.OutputStream.write_abstract_interface(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

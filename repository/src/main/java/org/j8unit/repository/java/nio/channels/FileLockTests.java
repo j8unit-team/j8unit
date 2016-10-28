@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#acquiredBy() public
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#acquiredBy() public
      * java.nio.channels.Channel java.nio.channels.FileLock.acquiredBy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#isShared() public final boolean
-     * java.nio.channels.FileLock.isShared()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#isShared() public final
+     * boolean java.nio.channels.FileLock.isShared()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#close() public final void
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#close() public final void
      * java.nio.channels.FileLock.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#position() public final long
-     * java.nio.channels.FileLock.position()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#position() public final
+     * long java.nio.channels.FileLock.position()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#toString() public final java.lang.String
-     * java.nio.channels.FileLock.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#toString() public final
+     * java.lang.String java.nio.channels.FileLock.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#overlaps(long, long) public final boolean
-     * java.nio.channels.FileLock.overlaps(long,long)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#overlaps(long, long)
+     * public final boolean java.nio.channels.FileLock.overlaps(long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +168,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#channel() public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#channel() public final
      * java.nio.channels.FileChannel java.nio.channels.FileLock.channel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#isValid() public abstract boolean
-     * java.nio.channels.FileLock.isValid()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#isValid() public abstract
+     * boolean java.nio.channels.FileLock.isValid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +212,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#release() public abstract void
-     * java.nio.channels.FileLock.release() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#release() public abstract
+     * void java.nio.channels.FileLock.release() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,7 +234,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileLock#size() public final long
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#size() public final long
      * java.nio.channels.FileLock.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

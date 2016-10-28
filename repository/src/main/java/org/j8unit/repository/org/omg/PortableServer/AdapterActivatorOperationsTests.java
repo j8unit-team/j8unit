@@ -7,7 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.AdapterActivatorOperations;
-import org.omg.PortableServer.POA;
 
 /**
  * <p>
@@ -37,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AdapterActivatorOperations#unknown_adapter(POA, String) public abstract boolean
+     * {@link org.omg.PortableServer.AdapterActivatorOperations#unknown_adapter(org.omg.PortableServer.POA, String)
+     * public abstract boolean
      * org.omg.PortableServer.AdapterActivatorOperations.unknown_adapter(org.omg.PortableServer.POA,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

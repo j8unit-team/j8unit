@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleExtendedTable#getAccessibleIndex(int, int)
-     * public abstract int javax.accessibility.AccessibleExtendedTable.getAccessibleIndex(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleExtendedTable#getAccessibleIndex(int, int) public abstract int
+     * javax.accessibility.AccessibleExtendedTable.getAccessibleIndex(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleExtendedTable#getAccessibleRow(int) public
-     * abstract int javax.accessibility.AccessibleExtendedTable.getAccessibleRow(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleExtendedTable#getAccessibleRow(int) public abstract int
+     * javax.accessibility.AccessibleExtendedTable.getAccessibleRow(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleExtendedTable#getAccessibleColumn(int)
-     * public abstract int javax.accessibility.AccessibleExtendedTable.getAccessibleColumn(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleExtendedTable#getAccessibleColumn(int) public abstract int
+     * javax.accessibility.AccessibleExtendedTable.getAccessibleColumn(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

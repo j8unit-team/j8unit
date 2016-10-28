@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming;
 
-import javax.naming.RefAddr;
 import javax.naming.Reference;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#add(int, RefAddr) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.Reference#add(int, javax.naming.RefAddr) public void
      * javax.naming.Reference.add(int,javax.naming.RefAddr)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#add(RefAddr) public void
-     * javax.naming.Reference.add(javax.naming.RefAddr)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#add(javax.naming.RefAddr)
+     * public void javax.naming.Reference.add(javax.naming.RefAddr)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getFactoryClassName() public
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#getFactoryClassName() public
      * java.lang.String javax.naming.Reference.getFactoryClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getAll() public java.util.Enumeration
-     * <javax.naming.RefAddr> javax.naming.Reference.getAll()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#getAll() public
+     * java.util.Enumeration<javax.naming.RefAddr> javax.naming.Reference.getAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#remove(int) public java.lang.Object
-     * javax.naming.Reference.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#remove(int) public
+     * java.lang.Object javax.naming.Reference.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#clear() public void
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#clear() public void
      * javax.naming.Reference.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +168,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#size() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#size() public int
      * javax.naming.Reference.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +190,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#hashCode() public int
      * javax.naming.Reference.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,7 +213,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#equals(Object) public boolean
      * javax.naming.Reference.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +236,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#get(String) public javax.naming.RefAddr
-     * javax.naming.Reference.get(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#get(String) public
+     * javax.naming.RefAddr javax.naming.Reference.get(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +258,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#get(int) public javax.naming.RefAddr
-     * javax.naming.Reference.get(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#get(int) public
+     * javax.naming.RefAddr javax.naming.Reference.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,8 +280,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getFactoryClassLocation() public
-     * java.lang.String javax.naming.Reference.getFactoryClassLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#getFactoryClassLocation()
+     * public java.lang.String javax.naming.Reference.getFactoryClassLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,8 +302,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#clone() public java.lang.Object
-     * javax.naming.Reference.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#clone() public
+     * java.lang.Object javax.naming.Reference.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +324,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#toString() public java.lang.String
-     * javax.naming.Reference.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#toString() public
+     * java.lang.String javax.naming.Reference.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,8 +347,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getClassName() public java.lang.String
-     * javax.naming.Reference.getClassName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Reference#getClassName() public
+     * java.lang.String javax.naming.Reference.getClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

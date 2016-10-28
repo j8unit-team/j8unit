@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.openmbean.KeyAlreadyExistsExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyAlreadyExistsException#KeyAlreadyExistsException() public
+     * {@link javax.management.openmbean.KeyAlreadyExistsException#KeyAlreadyExistsException() public
      * javax.management.openmbean.KeyAlreadyExistsException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.openmbean.KeyAlreadyExistsExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyAlreadyExistsException#KeyAlreadyExistsException(String) public
+     * {@link javax.management.openmbean.KeyAlreadyExistsException#KeyAlreadyExistsException(String) public
      * javax.management.openmbean.KeyAlreadyExistsException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

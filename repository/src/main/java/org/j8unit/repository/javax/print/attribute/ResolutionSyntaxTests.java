@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolutionSyntax#toString() public java.lang.String
-     * javax.print.attribute.ResolutionSyntax.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.ResolutionSyntax#toString()
+     * public java.lang.String javax.print.attribute.ResolutionSyntax.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolutionSyntax#toString(int, String) public
-     * java.lang.String javax.print.attribute.ResolutionSyntax.toString(int,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.ResolutionSyntax#toString(int, String) public java.lang.String
+     * javax.print.attribute.ResolutionSyntax.toString(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolutionSyntax#lessThanOrEquals(ResolutionSyntax)
-     * public boolean javax.print.attribute.ResolutionSyntax.lessThanOrEquals(javax.print.attribute.ResolutionSyntax)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.ResolutionSyntax#lessThanOrEquals(javax.print.attribute.ResolutionSyntax) public
+     * boolean javax.print.attribute.ResolutionSyntax.lessThanOrEquals(javax.print.attribute.ResolutionSyntax)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolutionSyntax#getCrossFeedResolution(int) public
-     * int javax.print.attribute.ResolutionSyntax.getCrossFeedResolution(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.ResolutionSyntax#getCrossFeedResolution(int) public int
+     * javax.print.attribute.ResolutionSyntax.getCrossFeedResolution(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +127,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolutionSyntax#hashCode() public int
-     * javax.print.attribute.ResolutionSyntax.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.ResolutionSyntax#hashCode()
+     * public int javax.print.attribute.ResolutionSyntax.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +150,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolutionSyntax#getFeedResolution(int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.ResolutionSyntax#getFeedResolution(int) public int
      * javax.print.attribute.ResolutionSyntax.getFeedResolution(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +173,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolutionSyntax#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.ResolutionSyntax#equals(Object) public boolean
      * javax.print.attribute.ResolutionSyntax.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,7 +197,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolutionSyntax#getResolution(int) public int[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.ResolutionSyntax#getResolution(int) public int[]
      * javax.print.attribute.ResolutionSyntax.getResolution(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans;
 
-import java.beans.VetoableChangeListener;
 import java.beans.VetoableChangeListenerProxy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.beans.VetoableChangeListenerProxyClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link VetoableChangeListenerProxy#VetoableChangeListenerProxy(String, VetoableChangeListener) public
-     * java.beans.VetoableChangeListenerProxy(java.lang.String,java.beans.VetoableChangeListener)}.
+     * {@link java.beans.VetoableChangeListenerProxy#VetoableChangeListenerProxy(String, java.beans.VetoableChangeListener)
+     * public java.beans.VetoableChangeListenerProxy(java.lang.String,java.beans.VetoableChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +40,7 @@ implements org.j8unit.repository.java.beans.VetoableChangeListenerProxyClassTest
         // create new instance
         @SuppressWarnings("unused")
         final VetoableChangeListenerProxy sut = null; // = new VetoableChangeListenerProxy(String,
-                                                      // VetoableChangeListener);
+                                                      // java.beans.VetoableChangeListener);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.VetoableChangeListenerProxy]

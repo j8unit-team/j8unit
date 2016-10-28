@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
-import java.io.OutputStream;
 import java.security.DigestOutputStream;
-import java.security.MessageDigest;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.security.DigestOutputStreamClassTests<Dige
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DigestOutputStream#DigestOutputStream(OutputStream, MessageDigest) public
-     * java.security.DigestOutputStream(java.io.OutputStream,java.security.MessageDigest)}.
+     * {@link java.security.DigestOutputStream#DigestOutputStream(java.io.OutputStream, java.security.MessageDigest)
+     * public java.security.DigestOutputStream(java.io.OutputStream,java.security.MessageDigest)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +39,8 @@ implements org.j8unit.repository.java.security.DigestOutputStreamClassTests<Dige
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DigestOutputStream sut = null; // = new DigestOutputStream(OutputStream, MessageDigest);
+        final DigestOutputStream sut = null; // = new DigestOutputStream(java.io.OutputStream,
+                                             // java.security.MessageDigest);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.DigestOutputStream]

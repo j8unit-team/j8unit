@@ -50,244 +50,50 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, org.j8unit.repository.javax.swi
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class MenuItemBorderTest
-    implements FactoryBasedJ8UnitTest<MenuItemBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuItemBorderTests<MenuItemBorder> {
+    public static class InternalFrameBorderTest
+    implements FactoryBasedJ8UnitTest<InternalFrameBorder>,
+    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.InternalFrameBorderTests<InternalFrameBorder> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(MenuItemBorder::new);
+            return TestParametersUtil.testParametersOf(InternalFrameBorder::new);
         }
 
         @Parameter(0)
-        public Callable<MenuItemBorder> sutFactory;
+        public Callable<InternalFrameBorder> sutFactory;
 
         @Override
-        public Callable<MenuItemBorder> getSUTFactory() {
+        public Callable<InternalFrameBorder> getSUTFactory() {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
 
     }
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class MenuBarBorderTest
-    implements FactoryBasedJ8UnitTest<MenuBarBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuBarBorderTests<MenuBarBorder> {
+    public static class TextFieldBorderTest
+    implements FactoryBasedJ8UnitTest<TextFieldBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TextFieldBorderTests<TextFieldBorder> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(MenuBarBorder::new);
-        }
-
-        @Parameter(0)
-        public Callable<MenuBarBorder> sutFactory;
-
-        @Override
-        public Callable<MenuBarBorder> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class Flush3DBorderTest
-    implements FactoryBasedJ8UnitTest<Flush3DBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.Flush3DBorderTests<Flush3DBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(Flush3DBorder::new);
+            return TestParametersUtil.testParametersOf(TextFieldBorder::new);
         }
 
         @Parameter(0)
-        public Callable<Flush3DBorder> sutFactory;
+        public Callable<TextFieldBorder> sutFactory;
 
         @Override
-        public Callable<Flush3DBorder> getSUTFactory() {
+        public Callable<TextFieldBorder> getSUTFactory() {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class ToolBarBorderTest
-    implements FactoryBasedJ8UnitTest<ToolBarBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToolBarBorderTests<ToolBarBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(ToolBarBorder::new);
-        }
-
-        @Parameter(0)
-        public Callable<ToolBarBorder> sutFactory;
-
-        @Override
-        public Callable<ToolBarBorder> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class PaletteBorderTest
-    implements FactoryBasedJ8UnitTest<PaletteBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PaletteBorderTests<PaletteBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(PaletteBorder::new);
-        }
-
-        @Parameter(0)
-        public Callable<PaletteBorder> sutFactory;
-
-        @Override
-        public Callable<PaletteBorder> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class PopupMenuBorderTest
-    implements FactoryBasedJ8UnitTest<PopupMenuBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PopupMenuBorderTests<PopupMenuBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(PopupMenuBorder::new);
-        }
-
-        @Parameter(0)
-        public Callable<PopupMenuBorder> sutFactory;
-
-        @Override
-        public Callable<PopupMenuBorder> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class ToggleButtonBorderTest
-    implements FactoryBasedJ8UnitTest<ToggleButtonBorder>,
-    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToggleButtonBorderTests<ToggleButtonBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(ToggleButtonBorder::new);
-        }
-
-        @Parameter(0)
-        public Callable<ToggleButtonBorder> sutFactory;
-
-        @Override
-        public Callable<ToggleButtonBorder> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class TableHeaderBorderTest
-    implements FactoryBasedJ8UnitTest<TableHeaderBorder>,
-    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TableHeaderBorderTests<TableHeaderBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(TableHeaderBorder::new);
-        }
-
-        @Parameter(0)
-        public Callable<TableHeaderBorder> sutFactory;
-
-        @Override
-        public Callable<TableHeaderBorder> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class ButtonBorderTest
-    implements FactoryBasedJ8UnitTest<ButtonBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ButtonBorderTests<ButtonBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(ButtonBorder::new);
-        }
-
-        @Parameter(0)
-        public Callable<ButtonBorder> sutFactory;
-
-        @Override
-        public Callable<ButtonBorder> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class OptionDialogBorderTest
-    implements FactoryBasedJ8UnitTest<OptionDialogBorder>,
-    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.OptionDialogBorderTests<OptionDialogBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(OptionDialogBorder::new);
-        }
-
-        @Parameter(0)
-        public Callable<OptionDialogBorder> sutFactory;
-
-        @Override
-        public Callable<OptionDialogBorder> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
 
     }
 
@@ -318,25 +124,49 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, org.j8unit.repository.javax.swi
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class TextFieldBorderTest
-    implements FactoryBasedJ8UnitTest<TextFieldBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TextFieldBorderTests<TextFieldBorder> {
+    public static class ToolBarBorderTest
+    implements FactoryBasedJ8UnitTest<ToolBarBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToolBarBorderTests<ToolBarBorder> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(TextFieldBorder::new);
+            return TestParametersUtil.testParametersOf(ToolBarBorder::new);
         }
 
         @Parameter(0)
-        public Callable<TextFieldBorder> sutFactory;
+        public Callable<ToolBarBorder> sutFactory;
 
         @Override
-        public Callable<TextFieldBorder> getSUTFactory() {
+        public Callable<ToolBarBorder> getSUTFactory() {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class Flush3DBorderTest
+    implements FactoryBasedJ8UnitTest<Flush3DBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.Flush3DBorderTests<Flush3DBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(Flush3DBorder::new);
+        }
+
+        @Parameter(0)
+        public Callable<Flush3DBorder> sutFactory;
+
+        @Override
+        public Callable<Flush3DBorder> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
 
     }
 
@@ -367,26 +197,196 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, org.j8unit.repository.javax.swi
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class InternalFrameBorderTest
-    implements FactoryBasedJ8UnitTest<InternalFrameBorder>,
-    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.InternalFrameBorderTests<InternalFrameBorder> {
+    public static class TableHeaderBorderTest
+    implements FactoryBasedJ8UnitTest<TableHeaderBorder>,
+    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TableHeaderBorderTests<TableHeaderBorder> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(InternalFrameBorder::new);
+            return TestParametersUtil.testParametersOf(TableHeaderBorder::new);
         }
 
         @Parameter(0)
-        public Callable<InternalFrameBorder> sutFactory;
+        public Callable<TableHeaderBorder> sutFactory;
 
         @Override
-        public Callable<InternalFrameBorder> getSUTFactory() {
+        public Callable<TableHeaderBorder> getSUTFactory() {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class MenuBarBorderTest
+    implements FactoryBasedJ8UnitTest<MenuBarBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuBarBorderTests<MenuBarBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(MenuBarBorder::new);
+        }
+
+        @Parameter(0)
+        public Callable<MenuBarBorder> sutFactory;
+
+        @Override
+        public Callable<MenuBarBorder> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class PaletteBorderTest
+    implements FactoryBasedJ8UnitTest<PaletteBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PaletteBorderTests<PaletteBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(PaletteBorder::new);
+        }
+
+        @Parameter(0)
+        public Callable<PaletteBorder> sutFactory;
+
+        @Override
+        public Callable<PaletteBorder> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class MenuItemBorderTest
+    implements FactoryBasedJ8UnitTest<MenuItemBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuItemBorderTests<MenuItemBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(MenuItemBorder::new);
+        }
+
+        @Parameter(0)
+        public Callable<MenuItemBorder> sutFactory;
+
+        @Override
+        public Callable<MenuItemBorder> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class OptionDialogBorderTest
+    implements FactoryBasedJ8UnitTest<OptionDialogBorder>,
+    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.OptionDialogBorderTests<OptionDialogBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(OptionDialogBorder::new);
+        }
+
+        @Parameter(0)
+        public Callable<OptionDialogBorder> sutFactory;
+
+        @Override
+        public Callable<OptionDialogBorder> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class PopupMenuBorderTest
+    implements FactoryBasedJ8UnitTest<PopupMenuBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PopupMenuBorderTests<PopupMenuBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(PopupMenuBorder::new);
+        }
+
+        @Parameter(0)
+        public Callable<PopupMenuBorder> sutFactory;
+
+        @Override
+        public Callable<PopupMenuBorder> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class ButtonBorderTest
+    implements FactoryBasedJ8UnitTest<ButtonBorder>, org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ButtonBorderTests<ButtonBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(ButtonBorder::new);
+        }
+
+        @Parameter(0)
+        public Callable<ButtonBorder> sutFactory;
+
+        @Override
+        public Callable<ButtonBorder> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class ToggleButtonBorderTest
+    implements FactoryBasedJ8UnitTest<ToggleButtonBorder>,
+    org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToggleButtonBorderTests<ToggleButtonBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(ToggleButtonBorder::new);
+        }
+
+        @Parameter(0)
+        public Callable<ToggleButtonBorder> sutFactory;
+
+        @Override
+        public Callable<ToggleButtonBorder> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
 
     }
 

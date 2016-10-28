@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.math.BigInteger;
-import java.security.spec.ECParameterSpec;
 import java.security.spec.ECPrivateKeySpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.security.spec.ECPrivateKeySpecClassTests<E
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ECPrivateKeySpec#ECPrivateKeySpec(BigInteger, ECParameterSpec) public
-     * java.security.spec.ECPrivateKeySpec(java.math.BigInteger,java.security.spec.ECParameterSpec)}.
+     * {@link java.security.spec.ECPrivateKeySpec#ECPrivateKeySpec(java.math.BigInteger, java.security.spec.ECParameterSpec)
+     * public java.security.spec.ECPrivateKeySpec(java.math.BigInteger,java.security.spec.ECParameterSpec)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +39,8 @@ implements org.j8unit.repository.java.security.spec.ECPrivateKeySpecClassTests<E
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ECPrivateKeySpec sut = null; // = new ECPrivateKeySpec(BigInteger, ECParameterSpec);
+        final ECPrivateKeySpec sut = null; // = new ECPrivateKeySpec(java.math.BigInteger,
+                                           // java.security.spec.ECParameterSpec);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECPrivateKeySpec]

@@ -36,8 +36,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Configuration#getAppConfigurationEntry(String)
-     * public abstract javax.security.auth.login.AppConfigurationEntry[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.Configuration#getAppConfigurationEntry(String) public abstract
+     * javax.security.auth.login.AppConfigurationEntry[]
      * javax.security.auth.login.Configuration.getAppConfigurationEntry(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +60,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Configuration#refresh() public void
-     * javax.security.auth.login.Configuration.refresh()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.login.Configuration#refresh()
+     * public void javax.security.auth.login.Configuration.refresh()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Configuration#getProvider() public
-     * java.security.Provider javax.security.auth.login.Configuration.getProvider()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.Configuration#getProvider() public java.security.Provider
+     * javax.security.auth.login.Configuration.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +105,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Configuration#getParameters() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.Configuration#getParameters() public
      * javax.security.auth.login.Configuration$Parameters javax.security.auth.login.Configuration.getParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +128,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Configuration#getType() public java.lang.String
-     * javax.security.auth.login.Configuration.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.login.Configuration#getType()
+     * public java.lang.String javax.security.auth.login.Configuration.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

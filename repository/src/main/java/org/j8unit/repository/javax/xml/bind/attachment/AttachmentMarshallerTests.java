@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind.attachment;
 
-import javax.activation.DataHandler;
 import javax.xml.bind.attachment.AttachmentMarshaller;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttachmentMarshaller#addMtomAttachment(DataHandler, String, String) public abstract java.lang.String
+     * {@link javax.xml.bind.attachment.AttachmentMarshaller#addMtomAttachment(javax.activation.DataHandler, String, String)
+     * public abstract java.lang.String
      * javax.xml.bind.attachment.AttachmentMarshaller.addMtomAttachment(javax.activation.DataHandler,java.lang.String,java.lang.String)}
      * .
      *
@@ -60,8 +60,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttachmentMarshaller#addMtomAttachment(byte[], int, int, String, String, String) public abstract
-     * java.lang.String
+     * {@link javax.xml.bind.attachment.AttachmentMarshaller#addMtomAttachment(byte[], int, int, String, String, String)
+     * public abstract java.lang.String
      * javax.xml.bind.attachment.AttachmentMarshaller.addMtomAttachment(byte[],int,int,java.lang.String,java.lang.String,java.lang.String)}
      * .
      *
@@ -84,7 +84,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentMarshaller#isXOPPackage() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.attachment.AttachmentMarshaller#isXOPPackage() public boolean
      * javax.xml.bind.attachment.AttachmentMarshaller.isXOPPackage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,7 +108,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttachmentMarshaller#addSwaRefAttachment(DataHandler) public abstract java.lang.String
+     * {@link javax.xml.bind.attachment.AttachmentMarshaller#addSwaRefAttachment(javax.activation.DataHandler) public
+     * abstract java.lang.String
      * javax.xml.bind.attachment.AttachmentMarshaller.addSwaRefAttachment(javax.activation.DataHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.beans;
 
 import java.beans.EventHandler;
-import java.lang.reflect.Method;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventHandler#getTarget() public java.lang.Object
-     * java.beans.EventHandler.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventHandler#getTarget() public
+     * java.lang.Object java.beans.EventHandler.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventHandler#getEventPropertyName() public
-     * java.lang.String java.beans.EventHandler.getEventPropertyName()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventHandler#getEventPropertyName()
+     * public java.lang.String java.beans.EventHandler.getEventPropertyName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventHandler#getAction() public java.lang.String
-     * java.beans.EventHandler.getAction()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventHandler#getAction() public
+     * java.lang.String java.beans.EventHandler.getAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +100,9 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventHandler#invoke(Object, Method, Object[]) public
-     * java.lang.Object java.beans.EventHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.EventHandler#invoke(Object, java.lang.reflect.Method, Object[]) public java.lang.Object
+     * java.beans.EventHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventHandler#getListenerMethodName() public
-     * java.lang.String java.beans.EventHandler.getListenerMethodName()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventHandler#getListenerMethodName()
+     * public java.lang.String java.beans.EventHandler.getListenerMethodName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

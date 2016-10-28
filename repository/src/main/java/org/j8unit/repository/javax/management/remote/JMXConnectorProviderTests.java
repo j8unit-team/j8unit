@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.remote;
 
-import java.util.Map;
 import javax.management.remote.JMXConnectorProvider;
-import javax.management.remote.JMXServiceURL;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMXConnectorProvider#newJMXConnector(JMXServiceURL, Map) public abstract
-     * javax.management.remote.JMXConnector
+     * {@link javax.management.remote.JMXConnectorProvider#newJMXConnector(javax.management.remote.JMXServiceURL, java.util.Map)
+     * public abstract javax.management.remote.JMXConnector
      * javax.management.remote.JMXConnectorProvider.newJMXConnector(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
      * ?>) throws java.io.IOException}.
      *

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import static org.junit.Assert.fail;
-import java.security.IdentityScope;
 import java.security.Signer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +23,8 @@ implements org.j8unit.repository.java.security.SignerClassTests<Signer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Signer#Signer(String, IdentityScope) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.Signer#Signer(String, java.security.IdentityScope) public
      * java.security.Signer(java.lang.String,java.security.IdentityScope) throws java.security.KeyManagementException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.security.SignerClassTests<Signer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Signer#Signer(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.security.Signer#Signer(String) public
      * java.security.Signer(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

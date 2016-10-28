@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.VectorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stack#push(Object) public E java.util.Stack.push(E)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.util.Stack#push(Object) public E
+     * java.util.Stack.push(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.VectorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stack#empty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Stack#empty() public boolean
      * java.util.Stack.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.util.VectorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stack#peek() public synchronized E
+     * Test method for the hereby targeted method-under-test {@link java.util.Stack#peek() public synchronized E
      * java.util.Stack.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.util.VectorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stack#search(Object) public synchronized int
-     * java.util.Stack.search(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Stack#search(Object) public synchronized
+     * int java.util.Stack.search(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.util.VectorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stack#pop() public synchronized E
+     * Test method for the hereby targeted method-under-test {@link java.util.Stack#pop() public synchronized E
      * java.util.Stack.pop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

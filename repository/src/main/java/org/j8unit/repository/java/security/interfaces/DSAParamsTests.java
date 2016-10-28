@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAParams#getQ() public abstract
-     * java.math.BigInteger java.security.interfaces.DSAParams.getQ()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.interfaces.DSAParams#getQ() public
+     * abstract java.math.BigInteger java.security.interfaces.DSAParams.getQ()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAParams#getP() public abstract
-     * java.math.BigInteger java.security.interfaces.DSAParams.getP()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.interfaces.DSAParams#getP() public
+     * abstract java.math.BigInteger java.security.interfaces.DSAParams.getP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAParams#getG() public abstract
-     * java.math.BigInteger java.security.interfaces.DSAParams.getG()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.interfaces.DSAParams#getG() public
+     * abstract java.math.BigInteger java.security.interfaces.DSAParams.getG()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

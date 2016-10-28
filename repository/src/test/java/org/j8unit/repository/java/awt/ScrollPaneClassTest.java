@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.ScrollPaneClassTests<ScrollPane> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ScrollPane#ScrollPane(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.ScrollPane#ScrollPane(int) public
      * java.awt.ScrollPane(int) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.awt.ScrollPaneClassTests<ScrollPane> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ScrollPane#ScrollPane() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.ScrollPane#ScrollPane() public
      * java.awt.ScrollPane() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

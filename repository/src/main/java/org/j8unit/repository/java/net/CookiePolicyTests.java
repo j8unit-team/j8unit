@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.CookiePolicy;
-import java.net.HttpCookie;
-import java.net.URI;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CookiePolicy#shouldAccept(URI, HttpCookie) public
-     * abstract boolean java.net.CookiePolicy.shouldAccept(java.net.URI,java.net.HttpCookie)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.CookiePolicy#shouldAccept(java.net.URI, java.net.HttpCookie) public abstract boolean
+     * java.net.CookiePolicy.shouldAccept(java.net.URI,java.net.HttpCookie)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

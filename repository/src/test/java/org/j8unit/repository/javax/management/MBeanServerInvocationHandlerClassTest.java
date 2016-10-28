@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.MBeanServerConnection;
 import javax.management.MBeanServerInvocationHandler;
-import javax.management.ObjectName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.management.MBeanServerInvocationHandlerCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanServerInvocationHandler#MBeanServerInvocationHandler(MBeanServerConnection, ObjectName) public
+     * {@link javax.management.MBeanServerInvocationHandler#MBeanServerInvocationHandler(javax.management.MBeanServerConnection, javax.management.ObjectName)
+     * public
      * javax.management.MBeanServerInvocationHandler(javax.management.MBeanServerConnection,javax.management.ObjectName)}
      * .
      *
@@ -42,14 +41,15 @@ implements org.j8unit.repository.javax.management.MBeanServerInvocationHandlerCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanServerInvocationHandler sut = null; // = new MBeanServerInvocationHandler(MBeanServerConnection,
-                                                       // ObjectName);
+        final MBeanServerInvocationHandler sut = null; // = new
+                                                       // MBeanServerInvocationHandler(javax.management.MBeanServerConnection,
+                                                       // javax.management.ObjectName);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanServerInvocationHandler#MBeanServerInvocationHandler(MBeanServerConnection, ObjectName, boolean)
+     * {@link javax.management.MBeanServerInvocationHandler#MBeanServerInvocationHandler(javax.management.MBeanServerConnection, javax.management.ObjectName, boolean)
      * public
      * javax.management.MBeanServerInvocationHandler(javax.management.MBeanServerConnection,javax.management.ObjectName,boolean)}
      * .
@@ -68,15 +68,16 @@ implements org.j8unit.repository.javax.management.MBeanServerInvocationHandlerCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanServerInvocationHandler sut = null; // = new MBeanServerInvocationHandler(MBeanServerConnection,
-                                                       // ObjectName, boolean);
+        final MBeanServerInvocationHandler sut = null; // = new
+                                                       // MBeanServerInvocationHandler(javax.management.MBeanServerConnection,
+                                                       // javax.management.ObjectName, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerInvocationHandler#newProxyInstance(MBeanServerConnection, ObjectName, Class, boolean) public
-     * static <T> T
+     * {@link javax.management.MBeanServerInvocationHandler#newProxyInstance(javax.management.MBeanServerConnection, javax.management.ObjectName, Class, boolean)
+     * public static <T> T
      * javax.management.MBeanServerInvocationHandler.newProxyInstance(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class
      * <T>,boolean)}.
      *
@@ -92,8 +93,9 @@ implements org.j8unit.repository.javax.management.MBeanServerInvocationHandlerCl
     @Category(Draft.class)
     public void test_newProxyInstance_MBeanServerConnection_ObjectName_Class_boolean()
     throws Exception {
-        // write some test for {@link MBeanServerInvocationHandler#newProxyInstance(MBeanServerConnection, ObjectName,
-        // Class, boolean)}
+        // write some test for {@link
+        // javax.management.MBeanServerInvocationHandler#newProxyInstance(javax.management.MBeanServerConnection,
+        // javax.management.ObjectName, Class, boolean)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerInvocationHandler]

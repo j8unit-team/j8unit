@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMConfiguration#getParameterNames() public abstract
-     * org.w3c.dom.DOMStringList org.w3c.dom.DOMConfiguration.getParameterNames()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMConfiguration#getParameterNames()
+     * public abstract org.w3c.dom.DOMStringList org.w3c.dom.DOMConfiguration.getParameterNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,9 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMConfiguration#setParameter(String, Object) public
-     * abstract void org.w3c.dom.DOMConfiguration.setParameter(java.lang.String,java.lang.Object) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.DOMConfiguration#setParameter(String, Object) public abstract void
+     * org.w3c.dom.DOMConfiguration.setParameter(java.lang.String,java.lang.Object) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMConfiguration#canSetParameter(String, Object)
-     * public abstract boolean org.w3c.dom.DOMConfiguration.canSetParameter(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.DOMConfiguration#canSetParameter(String, Object) public abstract boolean
+     * org.w3c.dom.DOMConfiguration.canSetParameter(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMConfiguration#getParameter(String) public
-     * abstract java.lang.Object org.w3c.dom.DOMConfiguration.getParameter(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMConfiguration#getParameter(String)
+     * public abstract java.lang.Object org.w3c.dom.DOMConfiguration.getParameter(java.lang.String) throws
      * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

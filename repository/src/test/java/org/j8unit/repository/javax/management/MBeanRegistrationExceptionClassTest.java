@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.MBeanRegistrationExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanRegistrationException#MBeanRegistrationException(Exception) public
+     * {@link javax.management.MBeanRegistrationException#MBeanRegistrationException(Exception) public
      * javax.management.MBeanRegistrationException(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.MBeanRegistrationExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanRegistrationException#MBeanRegistrationException(Exception, String) public
+     * {@link javax.management.MBeanRegistrationException#MBeanRegistrationException(Exception, String) public
      * javax.management.MBeanRegistrationException(java.lang.Exception,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

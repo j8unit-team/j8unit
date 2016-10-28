@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.lang.model.type;
 
-import javax.lang.model.type.TypeMirror;
 import javax.lang.model.type.UnknownTypeException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.lang.model.type.UnknownTypeExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownTypeException#UnknownTypeException(TypeMirror, Object) public
-     * javax.lang.model.type.UnknownTypeException(javax.lang.model.type.TypeMirror,java.lang.Object)}.
+     * {@link javax.lang.model.type.UnknownTypeException#UnknownTypeException(javax.lang.model.type.TypeMirror, Object)
+     * public javax.lang.model.type.UnknownTypeException(javax.lang.model.type.TypeMirror,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.lang.model.type.UnknownTypeExceptionClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UnknownTypeException sut = null; // = new UnknownTypeException(TypeMirror, Object);
+        final UnknownTypeException sut = null; // = new UnknownTypeException(javax.lang.model.type.TypeMirror, Object);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.UnknownTypeException]

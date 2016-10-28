@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.MBeanServer;
 import javax.management.QueryEval;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QueryEval#setMBeanServer(MBeanServer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.QueryEval#setMBeanServer(javax.management.MBeanServer) public void
      * javax.management.QueryEval.setMBeanServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

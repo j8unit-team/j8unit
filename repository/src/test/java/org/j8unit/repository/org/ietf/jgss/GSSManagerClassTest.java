@@ -22,7 +22,7 @@ implements org.j8unit.repository.org.ietf.jgss.GSSManagerClassTests<GSSManager> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GSSManager#GSSManager() public
+     * Test method for the hereby targeted constructor-under-test {@link org.ietf.jgss.GSSManager#GSSManager() public
      * org.ietf.jgss.GSSManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.org.ietf.jgss.GSSManagerClassTests<GSSManager> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#getInstance() public static
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSManager#getInstance() public static
      * org.ietf.jgss.GSSManager org.ietf.jgss.GSSManager.getInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ implements org.j8unit.repository.org.ietf.jgss.GSSManagerClassTests<GSSManager> 
     @Category(Draft.class)
     public void test_getInstance()
     throws Exception {
-        // write some test for {@link GSSManager#getInstance()}
+        // write some test for {@link org.ietf.jgss.GSSManager#getInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.GSSManager]

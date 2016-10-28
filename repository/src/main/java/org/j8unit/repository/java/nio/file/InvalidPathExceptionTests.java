@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidPathException#getIndex() public int
-     * java.nio.file.InvalidPathException.getIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.InvalidPathException#getIndex() public
+     * int java.nio.file.InvalidPathException.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidPathException#getReason() public
-     * java.lang.String java.nio.file.InvalidPathException.getReason()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.InvalidPathException#getReason()
+     * public java.lang.String java.nio.file.InvalidPathException.getReason()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidPathException#getInput() public
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.InvalidPathException#getInput() public
      * java.lang.String java.nio.file.InvalidPathException.getInput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidPathException#getMessage() public
-     * java.lang.String java.nio.file.InvalidPathException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.InvalidPathException#getMessage()
+     * public java.lang.String java.nio.file.InvalidPathException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

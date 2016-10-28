@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberInputStream#getLineNumber() public int
-     * java.io.LineNumberInputStream.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberInputStream#getLineNumber() public
+     * int java.io.LineNumberInputStream.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberInputStream#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberInputStream#read() public int
      * java.io.LineNumberInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberInputStream#read(byte[], int, int) public
-     * int java.io.LineNumberInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberInputStream#read(byte[], int, int)
+     * public int java.io.LineNumberInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberInputStream#setLineNumber(int) public void
-     * java.io.LineNumberInputStream.setLineNumber(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberInputStream#setLineNumber(int)
+     * public void java.io.LineNumberInputStream.setLineNumber(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberInputStream#reset() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberInputStream#reset() public void
      * java.io.LineNumberInputStream.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +147,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberInputStream#available() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberInputStream#available() public int
      * java.io.LineNumberInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,7 +170,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberInputStream#skip(long) public long
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberInputStream#skip(long) public long
      * java.io.LineNumberInputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,7 +193,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberInputStream#mark(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberInputStream#mark(int) public void
      * java.io.LineNumberInputStream.mark(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -35,7 +35,8 @@ implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTe
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Option#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.cert.PKIXRevocationChecker.Option#values() public static
          * java.security.cert.PKIXRevocationChecker$Option[] java.security.cert.PKIXRevocationChecker$Option.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -50,12 +51,13 @@ implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTe
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Option#values()}
+            // write some test for {@link java.security.cert.PKIXRevocationChecker.Option#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Option#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.cert.PKIXRevocationChecker.Option#valueOf(String) public static
          * java.security.cert.PKIXRevocationChecker$Option
          * java.security.cert.PKIXRevocationChecker$Option.valueOf(java.lang.String)}.
          *
@@ -71,7 +73,7 @@ implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTe
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Option#valueOf(String)}
+            // write some test for {@link java.security.cert.PKIXRevocationChecker.Option#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXRevocationChecker$Option]

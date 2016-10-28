@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.sql.SQLData;
-import java.sql.Struct;
-import java.util.Map;
 import javax.sql.rowset.serial.SerialStruct;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +21,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialStructClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialStruct#SerialStruct(Struct, Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialStruct#SerialStruct(java.sql.Struct, java.util.Map) public
      * javax.sql.rowset.serial.SerialStruct(java.sql.Struct,java.util.Map<java.lang.String, java.lang.Class<?>>) throws
      * javax.sql.rowset.serial.SerialException}.
      *
@@ -42,12 +40,13 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialStructClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SerialStruct sut = null; // = new SerialStruct(Struct, Map);
+        final SerialStruct sut = null; // = new SerialStruct(java.sql.Struct, java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialStruct#SerialStruct(SQLData, Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialStruct#SerialStruct(java.sql.SQLData, java.util.Map) public
      * javax.sql.rowset.serial.SerialStruct(java.sql.SQLData,java.util.Map<java.lang.String, java.lang.Class<?>>) throws
      * javax.sql.rowset.serial.SerialException}.
      *
@@ -65,7 +64,7 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialStructClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SerialStruct sut = null; // = new SerialStruct(SQLData, Map);
+        final SerialStruct sut = null; // = new SerialStruct(java.sql.SQLData, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialStruct]

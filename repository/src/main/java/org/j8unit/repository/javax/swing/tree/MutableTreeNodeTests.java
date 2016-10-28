@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableTreeNode#remove(int) public abstract void
-     * javax.swing.tree.MutableTreeNode.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.MutableTreeNode#remove(int) public
+     * abstract void javax.swing.tree.MutableTreeNode.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableTreeNode#remove(MutableTreeNode) public
-     * abstract void javax.swing.tree.MutableTreeNode.remove(javax.swing.tree.MutableTreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.MutableTreeNode#remove(javax.swing.tree.MutableTreeNode) public abstract void
+     * javax.swing.tree.MutableTreeNode.remove(javax.swing.tree.MutableTreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,9 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableTreeNode#setUserObject(Object) public
-     * abstract void javax.swing.tree.MutableTreeNode.setUserObject(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.MutableTreeNode#setUserObject(Object) public abstract void
+     * javax.swing.tree.MutableTreeNode.setUserObject(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +102,9 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableTreeNode#setParent(MutableTreeNode) public
-     * abstract void javax.swing.tree.MutableTreeNode.setParent(javax.swing.tree.MutableTreeNode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.MutableTreeNode#setParent(javax.swing.tree.MutableTreeNode) public abstract void
+     * javax.swing.tree.MutableTreeNode.setParent(javax.swing.tree.MutableTreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +125,9 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableTreeNode#insert(MutableTreeNode, int) public
-     * abstract void javax.swing.tree.MutableTreeNode.insert(javax.swing.tree.MutableTreeNode,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.MutableTreeNode#insert(javax.swing.tree.MutableTreeNode, int) public abstract void
+     * javax.swing.tree.MutableTreeNode.insert(javax.swing.tree.MutableTreeNode,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +148,8 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableTreeNode#removeFromParent() public abstract
-     * void javax.swing.tree.MutableTreeNode.removeFromParent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.MutableTreeNode#removeFromParent()
+     * public abstract void javax.swing.tree.MutableTreeNode.removeFromParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

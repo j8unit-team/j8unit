@@ -5,8 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.NVList;
 import org.omg.CORBA.ServerRequest;
 
 /**
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRequest#result(Any) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ServerRequest#result(org.omg.CORBA.Any) public void
      * org.omg.CORBA.ServerRequest.result(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRequest#set_exception(Any) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ServerRequest#set_exception(org.omg.CORBA.Any) public void
      * org.omg.CORBA.ServerRequest.set_exception(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRequest#ctx() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ServerRequest#ctx() public abstract
      * org.omg.CORBA.Context org.omg.CORBA.ServerRequest.ctx()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRequest#except(Any) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ServerRequest#except(org.omg.CORBA.Any) public void
      * org.omg.CORBA.ServerRequest.except(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRequest#arguments(NVList) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ServerRequest#arguments(org.omg.CORBA.NVList) public void
      * org.omg.CORBA.ServerRequest.arguments(org.omg.CORBA.NVList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +148,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRequest#set_result(Any) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ServerRequest#set_result(org.omg.CORBA.Any) public void
      * org.omg.CORBA.ServerRequest.set_result(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +171,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRequest#op_name() public java.lang.String
-     * org.omg.CORBA.ServerRequest.op_name()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ServerRequest#op_name() public
+     * java.lang.String org.omg.CORBA.ServerRequest.op_name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,7 +193,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRequest#params(NVList) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ServerRequest#params(org.omg.CORBA.NVList) public void
      * org.omg.CORBA.ServerRequest.params(org.omg.CORBA.NVList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +216,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerRequest#operation() public java.lang.String
-     * org.omg.CORBA.ServerRequest.operation()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ServerRequest#operation() public
+     * java.lang.String org.omg.CORBA.ServerRequest.operation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

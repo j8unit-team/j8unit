@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.util.concurrent.SynchronousQueueClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SynchronousQueue#SynchronousQueue() public
-     * java.util.concurrent.SynchronousQueue()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.SynchronousQueue#SynchronousQueue() public java.util.concurrent.SynchronousQueue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,9 @@ implements org.j8unit.repository.java.util.concurrent.SynchronousQueueClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SynchronousQueue#SynchronousQueue(boolean)
-     * public java.util.concurrent.SynchronousQueue(boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.SynchronousQueue#SynchronousQueue(boolean) public
+     * java.util.concurrent.SynchronousQueue(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

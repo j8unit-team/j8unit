@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicScrollBarUI;
 import javax.swing.plaf.basic.BasicScrollBarUI.PropertyChangeHandler;
 import org.j8unit.repository.categories.Draft;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicScrollBarUI#BasicScrollBarUI() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#BasicScrollBarUI() public
      * javax.swing.plaf.basic.BasicScrollBarUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicScrollBarUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicScrollBarUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +60,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTes
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link BasicScrollBarUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.basic.BasicScrollBarUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI]
@@ -78,7 +79,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTes
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link PropertyChangeHandler#PropertyChangeHandler(BasicScrollBarUI) public
+         * {@link javax.swing.plaf.basic.BasicScrollBarUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollBarUI)
+         * public
          * javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollBarUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -95,7 +97,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTes
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PropertyChangeHandler sut = null; // = new PropertyChangeHandler(BasicScrollBarUI);
+            final PropertyChangeHandler sut = null; // = new
+                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollBarUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler]

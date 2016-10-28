@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.undo;
 
-import java.util.Hashtable;
 import javax.swing.undo.StateEditable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StateEditable#storeState(Hashtable) public abstract
-     * void javax.swing.undo.StateEditable.storeState(java.util.Hashtable<java.lang.Object, java.lang.Object>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.StateEditable#storeState(java.util.Hashtable) public abstract void
+     * javax.swing.undo.StateEditable.storeState(java.util.Hashtable<java.lang.Object, java.lang.Object>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StateEditable#restoreState(Hashtable) public
-     * abstract void javax.swing.undo.StateEditable.restoreState(java.util.Hashtable<?, ?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.StateEditable#restoreState(java.util.Hashtable) public abstract void
+     * javax.swing.undo.StateEditable.restoreState(java.util.Hashtable<?, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

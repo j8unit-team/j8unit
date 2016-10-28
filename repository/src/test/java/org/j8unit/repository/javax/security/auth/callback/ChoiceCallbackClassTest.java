@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.callback.ChoiceCallbackClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ChoiceCallback#ChoiceCallback(String, String[], int, boolean) public
+     * {@link javax.security.auth.callback.ChoiceCallback#ChoiceCallback(String, String[], int, boolean) public
      * javax.security.auth.callback.ChoiceCallback(java.lang.String,java.lang.String[],int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

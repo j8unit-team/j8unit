@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.time.chrono.JapaneseEraClassTests<Japanese
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JapaneseEra#valueOf(String) public static
-     * java.time.chrono.JapaneseEra java.time.chrono.JapaneseEra.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.JapaneseEra#valueOf(String) public
+     * static java.time.chrono.JapaneseEra java.time.chrono.JapaneseEra.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.time.chrono.JapaneseEraClassTests<Japanese
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link JapaneseEra#valueOf(String)}
+        // write some test for {@link java.time.chrono.JapaneseEra#valueOf(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JapaneseEra#values() public static
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.JapaneseEra#values() public static
      * java.time.chrono.JapaneseEra[] java.time.chrono.JapaneseEra.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,12 +56,12 @@ implements org.j8unit.repository.java.time.chrono.JapaneseEraClassTests<Japanese
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link JapaneseEra#values()}
+        // write some test for {@link java.time.chrono.JapaneseEra#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JapaneseEra#of(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.JapaneseEra#of(int) public static
      * java.time.chrono.JapaneseEra java.time.chrono.JapaneseEra.of(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -76,7 +76,7 @@ implements org.j8unit.repository.java.time.chrono.JapaneseEraClassTests<Japanese
     @Category(Draft.class)
     public void test_of_int()
     throws Exception {
-        // write some test for {@link JapaneseEra#of(int)}
+        // write some test for {@link java.time.chrono.JapaneseEra#of(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.JapaneseEra]

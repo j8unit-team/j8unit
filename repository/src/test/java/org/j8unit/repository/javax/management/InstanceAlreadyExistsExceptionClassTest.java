@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.InstanceAlreadyExistsException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InstanceAlreadyExistsException#InstanceAlreadyExistsException() public
+     * {@link javax.management.InstanceAlreadyExistsException#InstanceAlreadyExistsException() public
      * javax.management.InstanceAlreadyExistsException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.InstanceAlreadyExistsException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InstanceAlreadyExistsException#InstanceAlreadyExistsException(String) public
+     * {@link javax.management.InstanceAlreadyExistsException#InstanceAlreadyExistsException(String) public
      * javax.management.InstanceAlreadyExistsException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

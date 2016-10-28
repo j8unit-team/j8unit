@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming;
 
-import javax.naming.Name;
 import javax.naming.NamingException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#getResolvedObj() public
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#getResolvedObj() public
      * java.lang.Object javax.naming.NamingException.getResolvedObj()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#getResolvedName() public
-     * javax.naming.Name javax.naming.NamingException.getResolvedName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#getResolvedName()
+     * public javax.naming.Name javax.naming.NamingException.getResolvedName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#initCause(Throwable) public
-     * java.lang.Throwable javax.naming.NamingException.initCause(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#initCause(Throwable)
+     * public java.lang.Throwable javax.naming.NamingException.initCause(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +101,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#getExplanation() public
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#getExplanation() public
      * java.lang.String javax.naming.NamingException.getExplanation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +123,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#appendRemainingComponent(String)
-     * public void javax.naming.NamingException.appendRemainingComponent(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.NamingException#appendRemainingComponent(String) public void
+     * javax.naming.NamingException.appendRemainingComponent(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#getCause() public
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#getCause() public
      * java.lang.Throwable javax.naming.NamingException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +169,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#getRemainingName() public
-     * javax.naming.Name javax.naming.NamingException.getRemainingName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#getRemainingName()
+     * public javax.naming.Name javax.naming.NamingException.getRemainingName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,7 +191,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#setRemainingName(Name) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.NamingException#setRemainingName(javax.naming.Name) public void
      * javax.naming.NamingException.setRemainingName(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,8 +214,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#setRootCause(Throwable) public void
-     * javax.naming.NamingException.setRootCause(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#setRootCause(Throwable)
+     * public void javax.naming.NamingException.setRootCause(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +236,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#toString(boolean) public
-     * java.lang.String javax.naming.NamingException.toString(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#toString(boolean)
+     * public java.lang.String javax.naming.NamingException.toString(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,8 +258,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#toString() public java.lang.String
-     * javax.naming.NamingException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#toString() public
+     * java.lang.String javax.naming.NamingException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,7 +281,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#setResolvedName(Name) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.NamingException#setResolvedName(javax.naming.Name) public void
      * javax.naming.NamingException.setResolvedName(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -302,7 +304,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#getRootCause() public
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#getRootCause() public
      * java.lang.Throwable javax.naming.NamingException.getRootCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -324,8 +326,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#setResolvedObj(Object) public void
-     * javax.naming.NamingException.setResolvedObj(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingException#setResolvedObj(Object)
+     * public void javax.naming.NamingException.setResolvedObj(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,8 +348,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingException#appendRemainingName(Name) public
-     * void javax.naming.NamingException.appendRemainingName(javax.naming.Name)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.NamingException#appendRemainingName(javax.naming.Name) public void
+     * javax.naming.NamingException.appendRemainingName(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

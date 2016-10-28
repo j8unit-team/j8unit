@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.event.MouseEvent;
-import javax.swing.JComponent;
 import javax.swing.ToolTipManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#mouseExited(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ToolTipManager#mouseExited(java.awt.event.MouseEvent) public void
      * javax.swing.ToolTipManager.mouseExited(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#mouseDragged(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ToolTipManager#mouseDragged(java.awt.event.MouseEvent) public void
      * javax.swing.ToolTipManager.mouseDragged(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#setReshowDelay(int) public void
-     * javax.swing.ToolTipManager.setReshowDelay(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ToolTipManager#setReshowDelay(int)
+     * public void javax.swing.ToolTipManager.setReshowDelay(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,9 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#registerComponent(JComponent) public
-     * void javax.swing.ToolTipManager.registerComponent(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ToolTipManager#registerComponent(javax.swing.JComponent) public void
+     * javax.swing.ToolTipManager.registerComponent(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +127,9 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#setLightWeightPopupEnabled(boolean)
-     * public void javax.swing.ToolTipManager.setLightWeightPopupEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ToolTipManager#setLightWeightPopupEnabled(boolean) public void
+     * javax.swing.ToolTipManager.setLightWeightPopupEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +150,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#getReshowDelay() public int
-     * javax.swing.ToolTipManager.getReshowDelay()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ToolTipManager#getReshowDelay() public
+     * int javax.swing.ToolTipManager.getReshowDelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +172,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#mousePressed(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ToolTipManager#mousePressed(java.awt.event.MouseEvent) public void
      * javax.swing.ToolTipManager.mousePressed(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,8 +196,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#setInitialDelay(int) public void
-     * javax.swing.ToolTipManager.setInitialDelay(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ToolTipManager#setInitialDelay(int)
+     * public void javax.swing.ToolTipManager.setInitialDelay(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +218,9 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#unregisterComponent(JComponent)
-     * public void javax.swing.ToolTipManager.unregisterComponent(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ToolTipManager#unregisterComponent(javax.swing.JComponent) public void
+     * javax.swing.ToolTipManager.unregisterComponent(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,7 +241,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#mouseEntered(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ToolTipManager#mouseEntered(java.awt.event.MouseEvent) public void
      * javax.swing.ToolTipManager.mouseEntered(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,8 +265,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#getDismissDelay() public int
-     * javax.swing.ToolTipManager.getDismissDelay()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ToolTipManager#getDismissDelay() public
+     * int javax.swing.ToolTipManager.getDismissDelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -282,8 +287,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#isEnabled() public boolean
-     * javax.swing.ToolTipManager.isEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ToolTipManager#isEnabled() public
+     * boolean javax.swing.ToolTipManager.isEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,8 +309,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#setEnabled(boolean) public void
-     * javax.swing.ToolTipManager.setEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ToolTipManager#setEnabled(boolean)
+     * public void javax.swing.ToolTipManager.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,8 +331,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#getInitialDelay() public int
-     * javax.swing.ToolTipManager.getInitialDelay()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ToolTipManager#getInitialDelay() public
+     * int javax.swing.ToolTipManager.getInitialDelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -348,7 +353,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#mouseMoved(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ToolTipManager#mouseMoved(java.awt.event.MouseEvent) public void
      * javax.swing.ToolTipManager.mouseMoved(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -371,8 +377,9 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#isLightWeightPopupEnabled() public
-     * boolean javax.swing.ToolTipManager.isLightWeightPopupEnabled()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ToolTipManager#isLightWeightPopupEnabled() public boolean
+     * javax.swing.ToolTipManager.isLightWeightPopupEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -393,8 +400,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#setDismissDelay(int) public void
-     * javax.swing.ToolTipManager.setDismissDelay(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ToolTipManager#setDismissDelay(int)
+     * public void javax.swing.ToolTipManager.setDismissDelay(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

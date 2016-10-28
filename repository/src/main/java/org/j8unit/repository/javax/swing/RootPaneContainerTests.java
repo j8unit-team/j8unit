@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
-import javax.swing.JLayeredPane;
 import javax.swing.RootPaneContainer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -38,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RootPaneContainer#setContentPane(Container) public
-     * abstract void javax.swing.RootPaneContainer.setContentPane(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RootPaneContainer#setContentPane(java.awt.Container) public abstract void
+     * javax.swing.RootPaneContainer.setContentPane(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RootPaneContainer#getLayeredPane() public abstract
-     * javax.swing.JLayeredPane javax.swing.RootPaneContainer.getLayeredPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.RootPaneContainer#getLayeredPane()
+     * public abstract javax.swing.JLayeredPane javax.swing.RootPaneContainer.getLayeredPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RootPaneContainer#getContentPane() public abstract
-     * java.awt.Container javax.swing.RootPaneContainer.getContentPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.RootPaneContainer#getContentPane()
+     * public abstract java.awt.Container javax.swing.RootPaneContainer.getContentPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +102,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RootPaneContainer#setGlassPane(Component) public
-     * abstract void javax.swing.RootPaneContainer.setGlassPane(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RootPaneContainer#setGlassPane(java.awt.Component) public abstract void
+     * javax.swing.RootPaneContainer.setGlassPane(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RootPaneContainer#getRootPane() public abstract
-     * javax.swing.JRootPane javax.swing.RootPaneContainer.getRootPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.RootPaneContainer#getRootPane() public
+     * abstract javax.swing.JRootPane javax.swing.RootPaneContainer.getRootPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +147,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RootPaneContainer#setLayeredPane(JLayeredPane)
-     * public abstract void javax.swing.RootPaneContainer.setLayeredPane(javax.swing.JLayeredPane)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RootPaneContainer#setLayeredPane(javax.swing.JLayeredPane) public abstract void
+     * javax.swing.RootPaneContainer.setLayeredPane(javax.swing.JLayeredPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RootPaneContainer#getGlassPane() public abstract
-     * java.awt.Component javax.swing.RootPaneContainer.getGlassPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.RootPaneContainer#getGlassPane() public
+     * abstract java.awt.Component javax.swing.RootPaneContainer.getGlassPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

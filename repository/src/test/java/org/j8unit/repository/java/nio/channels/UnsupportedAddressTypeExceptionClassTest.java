@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.UnsupportedAddressTypeExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedAddressTypeException#UnsupportedAddressTypeException() public
+     * {@link java.nio.channels.UnsupportedAddressTypeException#UnsupportedAddressTypeException() public
      * java.nio.channels.UnsupportedAddressTypeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

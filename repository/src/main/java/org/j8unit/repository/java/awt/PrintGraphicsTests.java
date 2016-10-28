@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintGraphics#getPrintJob() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.awt.PrintGraphics#getPrintJob() public abstract
      * java.awt.PrintJob java.awt.PrintGraphics.getPrintJob()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

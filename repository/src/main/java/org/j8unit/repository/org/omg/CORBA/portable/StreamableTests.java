@@ -6,8 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.CORBA.portable.Streamable;
 
 /**
@@ -37,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Streamable#_read(InputStream) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.Streamable#_read(org.omg.CORBA.portable.InputStream) public abstract void
      * org.omg.CORBA.portable.Streamable._read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Streamable#_type() public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.portable.Streamable._type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.Streamable#_type() public
+     * abstract org.omg.CORBA.TypeCode org.omg.CORBA.portable.Streamable._type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Streamable#_write(OutputStream) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.Streamable#_write(org.omg.CORBA.portable.OutputStream) public abstract void
      * org.omg.CORBA.portable.Streamable._write(org.omg.CORBA.portable.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

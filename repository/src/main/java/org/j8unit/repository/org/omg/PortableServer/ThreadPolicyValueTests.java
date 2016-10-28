@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadPolicyValue#value() public int
-     * org.omg.PortableServer.ThreadPolicyValue.value()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.ThreadPolicyValue#value()
+     * public int org.omg.PortableServer.ThreadPolicyValue.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

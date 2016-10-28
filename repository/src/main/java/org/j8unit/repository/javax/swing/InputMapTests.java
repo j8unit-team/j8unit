@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.InputMap;
-import javax.swing.KeyStroke;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMap#put(KeyStroke, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.InputMap#put(javax.swing.KeyStroke, Object) public void
      * javax.swing.InputMap.put(javax.swing.KeyStroke,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMap#remove(KeyStroke) public void
-     * javax.swing.InputMap.remove(javax.swing.KeyStroke)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.InputMap#remove(javax.swing.KeyStroke)
+     * public void javax.swing.InputMap.remove(javax.swing.KeyStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMap#allKeys() public javax.swing.KeyStroke[]
-     * javax.swing.InputMap.allKeys()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.InputMap#allKeys() public
+     * javax.swing.KeyStroke[] javax.swing.InputMap.allKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMap#clear() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.InputMap#clear() public void
      * javax.swing.InputMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMap#setParent(InputMap) public void
-     * javax.swing.InputMap.setParent(javax.swing.InputMap)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.InputMap#setParent(javax.swing.InputMap)
+     * public void javax.swing.InputMap.setParent(javax.swing.InputMap)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMap#size() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.InputMap#size() public int
      * javax.swing.InputMap.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMap#keys() public javax.swing.KeyStroke[]
-     * javax.swing.InputMap.keys()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.InputMap#keys() public
+     * javax.swing.KeyStroke[] javax.swing.InputMap.keys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMap#get(KeyStroke) public java.lang.Object
-     * javax.swing.InputMap.get(javax.swing.KeyStroke)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.InputMap#get(javax.swing.KeyStroke)
+     * public java.lang.Object javax.swing.InputMap.get(javax.swing.KeyStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMap#getParent() public javax.swing.InputMap
-     * javax.swing.InputMap.getParent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.InputMap#getParent() public
+     * javax.swing.InputMap javax.swing.InputMap.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

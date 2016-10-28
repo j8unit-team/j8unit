@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.parsers.ParserConfigurationExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ParserConfigurationException#ParserConfigurationException() public
+     * {@link javax.xml.parsers.ParserConfigurationException#ParserConfigurationException() public
      * javax.xml.parsers.ParserConfigurationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.xml.parsers.ParserConfigurationExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ParserConfigurationException#ParserConfigurationException(String) public
+     * {@link javax.xml.parsers.ParserConfigurationException#ParserConfigurationException(String) public
      * javax.xml.parsers.ParserConfigurationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

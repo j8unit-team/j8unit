@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlJavaTypeAdapters#value() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters#value() public abstract
      * javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter[]
      * javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters.value()}.
      *

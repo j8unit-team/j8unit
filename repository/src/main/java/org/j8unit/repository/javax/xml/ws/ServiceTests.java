@@ -1,13 +1,7 @@
 package org.j8unit.repository.javax.xml.ws;
 
-import java.util.concurrent.Executor;
-import javax.xml.bind.JAXBContext;
-import javax.xml.namespace.QName;
-import javax.xml.ws.EndpointReference;
 import javax.xml.ws.Service;
 import javax.xml.ws.Service.Mode;
-import javax.xml.ws.WebServiceFeature;
-import javax.xml.ws.handler.HandlerResolver;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,7 +35,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#getHandlerResolver() public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Service#getHandlerResolver() public
      * javax.xml.ws.handler.HandlerResolver javax.xml.ws.Service.getHandlerResolver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#addPort(QName, String, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#addPort(javax.xml.namespace.QName, String, String) public void
      * javax.xml.ws.Service.addPort(javax.xml.namespace.QName,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#setHandlerResolver(HandlerResolver) public
-     * void javax.xml.ws.Service.setHandlerResolver(javax.xml.ws.handler.HandlerResolver)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#setHandlerResolver(javax.xml.ws.handler.HandlerResolver) public void
+     * javax.xml.ws.Service.setHandlerResolver(javax.xml.ws.handler.HandlerResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +103,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#getServiceName() public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Service#getServiceName() public
      * javax.xml.namespace.QName javax.xml.ws.Service.getServiceName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +125,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#getExecutor() public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Service#getExecutor() public
      * java.util.concurrent.Executor javax.xml.ws.Service.getExecutor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,7 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#setExecutor(Executor) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#setExecutor(java.util.concurrent.Executor) public void
      * javax.xml.ws.Service.setExecutor(java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,8 +170,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#getPorts() public java.util.Iterator
-     * <javax.xml.namespace.QName> javax.xml.ws.Service.getPorts()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Service#getPorts() public
+     * java.util.Iterator<javax.xml.namespace.QName> javax.xml.ws.Service.getPorts()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,7 +192,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#createDispatch(QName, JAXBContext, Mode)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#createDispatch(javax.xml.namespace.QName, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode)
      * public javax.xml.ws.Dispatch<java.lang.Object>
      * javax.xml.ws.Service.createDispatch(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode)}
      * .
@@ -219,7 +217,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#createDispatch(QName, Class, Mode) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#createDispatch(javax.xml.namespace.QName, Class, javax.xml.ws.Service.Mode) public
      * <T> javax.xml.ws.Dispatch<T> javax.xml.ws.Service.createDispatch(javax.xml.namespace.QName,java.lang.Class
      * <T>,javax.xml.ws.Service$Mode)}.
      *
@@ -243,8 +242,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Service#createDispatch(QName, Class, Mode, WebServiceFeature...) public <T> javax.xml.ws.Dispatch
-     * <T> javax.xml.ws.Service.createDispatch(javax.xml.namespace.QName,java.lang.Class
+     * {@link javax.xml.ws.Service#createDispatch(javax.xml.namespace.QName, Class, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public <T> javax.xml.ws.Dispatch<T> javax.xml.ws.Service.createDispatch(javax.xml.namespace.QName,java.lang.Class
      * <T>,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -267,8 +266,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Service#createDispatch(EndpointReference, JAXBContext, Mode, WebServiceFeature...) public
-     * javax.xml.ws.Dispatch<java.lang.Object>
+     * {@link javax.xml.ws.Service#createDispatch(javax.xml.ws.EndpointReference, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public javax.xml.ws.Dispatch<java.lang.Object>
      * javax.xml.ws.Service.createDispatch(javax.xml.ws.EndpointReference,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}
      * .
      *
@@ -292,8 +291,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Service#createDispatch(EndpointReference, Class, Mode, WebServiceFeature...) public
-     * <T> javax.xml.ws.Dispatch<T> javax.xml.ws.Service.createDispatch(javax.xml.ws.EndpointReference,java.lang.Class
+     * {@link javax.xml.ws.Service#createDispatch(javax.xml.ws.EndpointReference, Class, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public <T> javax.xml.ws.Dispatch
+     * <T> javax.xml.ws.Service.createDispatch(javax.xml.ws.EndpointReference,java.lang.Class
      * <T>,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -316,8 +316,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Service#createDispatch(QName, JAXBContext, Mode, WebServiceFeature...) public javax.xml.ws.Dispatch
-     * <java.lang.Object>
+     * {@link javax.xml.ws.Service#createDispatch(javax.xml.namespace.QName, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public javax.xml.ws.Dispatch<java.lang.Object>
      * javax.xml.ws.Service.createDispatch(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}
      * .
      *
@@ -340,8 +340,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#getWSDLDocumentLocation() public
-     * java.net.URL javax.xml.ws.Service.getWSDLDocumentLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Service#getWSDLDocumentLocation()
+     * public java.net.URL javax.xml.ws.Service.getWSDLDocumentLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -362,7 +362,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#getPort(QName, Class) public <T> T
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#getPort(javax.xml.namespace.QName, Class) public <T> T
      * javax.xml.ws.Service.getPort(javax.xml.namespace.QName,java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -385,8 +386,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Service#getPort(EndpointReference, Class, WebServiceFeature...) public <T> T
-     * javax.xml.ws.Service.getPort(javax.xml.ws.EndpointReference,java.lang.Class
+     * {@link javax.xml.ws.Service#getPort(javax.xml.ws.EndpointReference, Class, javax.xml.ws.WebServiceFeature...)
+     * public <T> T javax.xml.ws.Service.getPort(javax.xml.ws.EndpointReference,java.lang.Class
      * <T>,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -408,8 +409,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#getPort(QName, Class, WebServiceFeature...)
-     * public <T> T javax.xml.ws.Service.getPort(javax.xml.namespace.QName,java.lang.Class
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#getPort(javax.xml.namespace.QName, Class, javax.xml.ws.WebServiceFeature...) public
+     * <T> T javax.xml.ws.Service.getPort(javax.xml.namespace.QName,java.lang.Class
      * <T>,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -431,7 +433,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#getPort(Class) public <T> T
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Service#getPort(Class) public <T> T
      * javax.xml.ws.Service.getPort(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -453,8 +455,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Service#getPort(Class, WebServiceFeature...) public
-     * <T> T javax.xml.ws.Service.getPort(java.lang.Class<T>,javax.xml.ws.WebServiceFeature...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.Service#getPort(Class, javax.xml.ws.WebServiceFeature...) public <T> T
+     * javax.xml.ws.Service.getPort(java.lang.Class<T>,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

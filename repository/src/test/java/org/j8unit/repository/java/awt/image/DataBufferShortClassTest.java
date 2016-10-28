@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.DataBufferShortClassTests<DataBu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBufferShort#DataBufferShort(short[][], int, int[]) public
+     * {@link java.awt.image.DataBufferShort#DataBufferShort(short[][], int, int[]) public
      * java.awt.image.DataBufferShort(short[][],int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.java.awt.image.DataBufferShortClassTests<DataBu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferShort#DataBufferShort(short[][], int)
-     * public java.awt.image.DataBufferShort(short[][],int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferShort#DataBufferShort(short[][], int) public
+     * java.awt.image.DataBufferShort(short[][],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,8 +68,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferShortClassTests<DataBu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBufferShort#DataBufferShort(short[], int, int) public java.awt.image.DataBufferShort(short[],int,int)}
-     * .
+     * {@link java.awt.image.DataBufferShort#DataBufferShort(short[], int, int) public
+     * java.awt.image.DataBufferShort(short[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +90,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferShortClassTests<DataBu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferShort#DataBufferShort(int) public
-     * java.awt.image.DataBufferShort(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferShort#DataBufferShort(int) public java.awt.image.DataBufferShort(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +112,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferShortClassTests<DataBu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferShort#DataBufferShort(int, int)
-     * public java.awt.image.DataBufferShort(int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferShort#DataBufferShort(int, int) public java.awt.image.DataBufferShort(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +134,9 @@ implements org.j8unit.repository.java.awt.image.DataBufferShortClassTests<DataBu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferShort#DataBufferShort(short[], int)
-     * public java.awt.image.DataBufferShort(short[],int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferShort#DataBufferShort(short[], int) public
+     * java.awt.image.DataBufferShort(short[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

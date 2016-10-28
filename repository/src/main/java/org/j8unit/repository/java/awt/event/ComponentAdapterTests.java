@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.event;
 
 import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.awt.event.ComponentListenerTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentAdapter#componentHidden(ComponentEvent)
-     * public void java.awt.event.ComponentAdapter.componentHidden(java.awt.event.ComponentEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.ComponentAdapter#componentHidden(java.awt.event.ComponentEvent) public void
+     * java.awt.event.ComponentAdapter.componentHidden(java.awt.event.ComponentEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.java.awt.event.ComponentListenerTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentAdapter#componentResized(ComponentEvent)
-     * public void java.awt.event.ComponentAdapter.componentResized(java.awt.event.ComponentEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.ComponentAdapter#componentResized(java.awt.event.ComponentEvent) public void
+     * java.awt.event.ComponentAdapter.componentResized(java.awt.event.ComponentEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,9 @@ extends org.j8unit.repository.java.awt.event.ComponentListenerTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentAdapter#componentShown(ComponentEvent)
-     * public void java.awt.event.ComponentAdapter.componentShown(java.awt.event.ComponentEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.ComponentAdapter#componentShown(java.awt.event.ComponentEvent) public void
+     * java.awt.event.ComponentAdapter.componentShown(java.awt.event.ComponentEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +106,9 @@ extends org.j8unit.repository.java.awt.event.ComponentListenerTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentAdapter#componentMoved(ComponentEvent)
-     * public void java.awt.event.ComponentAdapter.componentMoved(java.awt.event.ComponentEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.ComponentAdapter#componentMoved(java.awt.event.ComponentEvent) public void
+     * java.awt.event.ComponentAdapter.componentMoved(java.awt.event.ComponentEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

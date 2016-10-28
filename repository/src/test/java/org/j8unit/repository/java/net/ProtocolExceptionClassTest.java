@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.net.ProtocolExceptionClassTests<ProtocolEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProtocolException#ProtocolException(String)
-     * public java.net.ProtocolException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.ProtocolException#ProtocolException(String) public java.net.ProtocolException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,8 @@ implements org.j8unit.repository.java.net.ProtocolExceptionClassTests<ProtocolEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProtocolException#ProtocolException() public
-     * java.net.ProtocolException()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.ProtocolException#ProtocolException()
+     * public java.net.ProtocolException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

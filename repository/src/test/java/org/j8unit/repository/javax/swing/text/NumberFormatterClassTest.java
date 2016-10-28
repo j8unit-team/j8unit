@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.text.NumberFormat;
 import javax.swing.text.NumberFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.swing.text.NumberFormatterClassTests<Numb
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NumberFormatter#NumberFormatter() public
-     * javax.swing.text.NumberFormatter()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.NumberFormatter#NumberFormatter() public javax.swing.text.NumberFormatter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,9 @@ implements org.j8unit.repository.javax.swing.text.NumberFormatterClassTests<Numb
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NumberFormatter#NumberFormatter(NumberFormat)
-     * public javax.swing.text.NumberFormatter(java.text.NumberFormat)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.NumberFormatter#NumberFormatter(java.text.NumberFormat) public
+     * javax.swing.text.NumberFormatter(java.text.NumberFormat)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +60,7 @@ implements org.j8unit.repository.javax.swing.text.NumberFormatterClassTests<Numb
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NumberFormatter sut = null; // = new NumberFormatter(NumberFormat);
+        final NumberFormatter sut = null; // = new NumberFormatter(java.text.NumberFormat);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.NumberFormatter]

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.GraphicsConfiguration;
-import java.awt.ImageCapabilities;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsConfiguration#getColorModel(int) public
-     * abstract java.awt.image.ColorModel java.awt.GraphicsConfiguration.getColorModel(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsConfiguration#getColorModel(int)
+     * public abstract java.awt.image.ColorModel java.awt.GraphicsConfiguration.getColorModel(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsConfiguration#getColorModel() public
-     * abstract java.awt.image.ColorModel java.awt.GraphicsConfiguration.getColorModel()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsConfiguration#getColorModel()
+     * public abstract java.awt.image.ColorModel java.awt.GraphicsConfiguration.getColorModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsConfiguration#getNormalizingTransform()
-     * public abstract java.awt.geom.AffineTransform java.awt.GraphicsConfiguration.getNormalizingTransform()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsConfiguration#getNormalizingTransform() public abstract java.awt.geom.AffineTransform
+     * java.awt.GraphicsConfiguration.getNormalizingTransform()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsConfiguration#getDefaultTransform() public
-     * abstract java.awt.geom.AffineTransform java.awt.GraphicsConfiguration.getDefaultTransform()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsConfiguration#getDefaultTransform()
+     * public abstract java.awt.geom.AffineTransform java.awt.GraphicsConfiguration.getDefaultTransform()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsConfiguration#getDevice() public abstract
-     * java.awt.GraphicsDevice java.awt.GraphicsConfiguration.getDevice()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsConfiguration#getDevice() public
+     * abstract java.awt.GraphicsDevice java.awt.GraphicsConfiguration.getDevice()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsConfiguration#getBounds() public abstract
-     * java.awt.Rectangle java.awt.GraphicsConfiguration.getBounds()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GraphicsConfiguration#getBounds() public
+     * abstract java.awt.Rectangle java.awt.GraphicsConfiguration.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsConfiguration#isTranslucencyCapable() public
-     * boolean java.awt.GraphicsConfiguration.isTranslucencyCapable()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsConfiguration#isTranslucencyCapable() public boolean
+     * java.awt.GraphicsConfiguration.isTranslucencyCapable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +191,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GraphicsConfiguration#createCompatibleVolatileImage(int, int, int) public java.awt.image.VolatileImage
-     * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int,int)}.
+     * {@link java.awt.GraphicsConfiguration#createCompatibleVolatileImage(int, int) public java.awt.image.VolatileImage
+     * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -203,7 +204,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createCompatibleVolatileImage_int_int_int()
+    public default void test_createCompatibleVolatileImage_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -213,32 +214,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GraphicsConfiguration#createCompatibleVolatileImage(int, int, ImageCapabilities, int) public
-     * java.awt.image.VolatileImage
-     * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int,java.awt.ImageCapabilities,int) throws
-     * java.awt.AWTException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createCompatibleVolatileImage_int_int_ImageCapabilities_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link GraphicsConfiguration#createCompatibleVolatileImage(int, int, ImageCapabilities) public
+     * {@link java.awt.GraphicsConfiguration#createCompatibleVolatileImage(int, int, java.awt.ImageCapabilities) public
      * java.awt.image.VolatileImage
      * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int,java.awt.ImageCapabilities) throws
      * java.awt.AWTException}.
@@ -263,8 +239,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GraphicsConfiguration#createCompatibleVolatileImage(int, int) public java.awt.image.VolatileImage
-     * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int)}.
+     * {@link java.awt.GraphicsConfiguration#createCompatibleVolatileImage(int, int, java.awt.ImageCapabilities, int)
+     * public java.awt.image.VolatileImage
+     * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int,java.awt.ImageCapabilities,int) throws
+     * java.awt.AWTException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,7 +254,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createCompatibleVolatileImage_int_int()
+    public default void test_createCompatibleVolatileImage_int_int_ImageCapabilities_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -285,8 +263,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsConfiguration#getImageCapabilities() public
-     * java.awt.ImageCapabilities java.awt.GraphicsConfiguration.getImageCapabilities()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsConfiguration#createCompatibleVolatileImage(int, int, int) public
+     * java.awt.image.VolatileImage java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createCompatibleVolatileImage_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsConfiguration#getImageCapabilities() public java.awt.ImageCapabilities
+     * java.awt.GraphicsConfiguration.getImageCapabilities()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -307,8 +309,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GraphicsConfiguration#getBufferCapabilities() public
-     * java.awt.BufferCapabilities java.awt.GraphicsConfiguration.getBufferCapabilities()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsConfiguration#getBufferCapabilities() public java.awt.BufferCapabilities
+     * java.awt.GraphicsConfiguration.getBufferCapabilities()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -330,30 +333,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GraphicsConfiguration#createCompatibleImage(int, int) public java.awt.image.BufferedImage
-     * java.awt.GraphicsConfiguration.createCompatibleImage(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createCompatibleImage_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link GraphicsConfiguration#createCompatibleImage(int, int, int) public java.awt.image.BufferedImage
+     * {@link java.awt.GraphicsConfiguration#createCompatibleImage(int, int, int) public java.awt.image.BufferedImage
      * java.awt.GraphicsConfiguration.createCompatibleImage(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -367,6 +347,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createCompatibleImage_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GraphicsConfiguration#createCompatibleImage(int, int) public java.awt.image.BufferedImage
+     * java.awt.GraphicsConfiguration.createCompatibleImage(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createCompatibleImage_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

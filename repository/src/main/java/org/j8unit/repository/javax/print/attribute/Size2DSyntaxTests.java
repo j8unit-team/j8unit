@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Size2DSyntax#hashCode() public int
-     * javax.print.attribute.Size2DSyntax.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.Size2DSyntax#hashCode() public
+     * int javax.print.attribute.Size2DSyntax.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Size2DSyntax#equals(Object) public boolean
-     * javax.print.attribute.Size2DSyntax.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.Size2DSyntax#equals(Object)
+     * public boolean javax.print.attribute.Size2DSyntax.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Size2DSyntax#getX(int) public float
-     * javax.print.attribute.Size2DSyntax.getX(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.Size2DSyntax#getX(int) public
+     * float javax.print.attribute.Size2DSyntax.getX(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Size2DSyntax#getSize(int) public float[]
-     * javax.print.attribute.Size2DSyntax.getSize(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.Size2DSyntax#getSize(int)
+     * public float[] javax.print.attribute.Size2DSyntax.getSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Size2DSyntax#getY(int) public float
-     * javax.print.attribute.Size2DSyntax.getY(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.Size2DSyntax#getY(int) public
+     * float javax.print.attribute.Size2DSyntax.getY(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Size2DSyntax#toString() public java.lang.String
-     * javax.print.attribute.Size2DSyntax.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.Size2DSyntax#toString() public
+     * java.lang.String javax.print.attribute.Size2DSyntax.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Size2DSyntax#toString(int, String) public
-     * java.lang.String javax.print.attribute.Size2DSyntax.toString(int,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.Size2DSyntax#toString(int, String) public java.lang.String
+     * javax.print.attribute.Size2DSyntax.toString(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

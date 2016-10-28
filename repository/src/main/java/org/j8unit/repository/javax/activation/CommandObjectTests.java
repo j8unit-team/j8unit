@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.activation;
 
 import javax.activation.CommandObject;
-import javax.activation.DataHandler;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,9 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandObject#setCommandContext(String, DataHandler)
-     * public abstract void
-     * javax.activation.CommandObject.setCommandContext(java.lang.String,javax.activation.DataHandler) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.CommandObject#setCommandContext(String, javax.activation.DataHandler) public abstract
+     * void javax.activation.CommandObject.setCommandContext(java.lang.String,javax.activation.DataHandler) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

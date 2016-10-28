@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.monitor;
 
-import javax.management.ObjectName;
 import javax.management.monitor.StringMonitorMBean;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitorMBean#setStringToCompare(String) public
-     * abstract void javax.management.monitor.StringMonitorMBean.setStringToCompare(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitorMBean#setStringToCompare(String) public abstract void
+     * javax.management.monitor.StringMonitorMBean.setStringToCompare(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitorMBean#setNotifyDiffer(boolean) public
-     * abstract void javax.management.monitor.StringMonitorMBean.setNotifyDiffer(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitorMBean#setNotifyDiffer(boolean) public abstract void
+     * javax.management.monitor.StringMonitorMBean.setNotifyDiffer(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,9 +81,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitorMBean#getDerivedGauge(ObjectName)
-     * public abstract java.lang.String
-     * javax.management.monitor.StringMonitorMBean.getDerivedGauge(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitorMBean#getDerivedGauge(javax.management.ObjectName) public abstract
+     * java.lang.String javax.management.monitor.StringMonitorMBean.getDerivedGauge(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitorMBean#getDerivedGauge() public abstract
-     * java.lang.String javax.management.monitor.StringMonitorMBean.getDerivedGauge()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitorMBean#getDerivedGauge() public abstract java.lang.String
+     * javax.management.monitor.StringMonitorMBean.getDerivedGauge()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +127,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitorMBean#getDerivedGaugeTimeStamp() public
-     * abstract long javax.management.monitor.StringMonitorMBean.getDerivedGaugeTimeStamp()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitorMBean#getDerivedGaugeTimeStamp() public abstract long
+     * javax.management.monitor.StringMonitorMBean.getDerivedGaugeTimeStamp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +151,8 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StringMonitorMBean#getDerivedGaugeTimeStamp(ObjectName) public abstract long
-     * javax.management.monitor.StringMonitorMBean.getDerivedGaugeTimeStamp(javax.management.ObjectName)}.
+     * {@link javax.management.monitor.StringMonitorMBean#getDerivedGaugeTimeStamp(javax.management.ObjectName) public
+     * abstract long javax.management.monitor.StringMonitorMBean.getDerivedGaugeTimeStamp(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +173,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitorMBean#getNotifyDiffer() public abstract
-     * boolean javax.management.monitor.StringMonitorMBean.getNotifyDiffer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitorMBean#getNotifyDiffer() public abstract boolean
+     * javax.management.monitor.StringMonitorMBean.getNotifyDiffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +196,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitorMBean#getNotifyMatch() public abstract
-     * boolean javax.management.monitor.StringMonitorMBean.getNotifyMatch()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitorMBean#getNotifyMatch() public abstract boolean
+     * javax.management.monitor.StringMonitorMBean.getNotifyMatch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +219,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitorMBean#setNotifyMatch(boolean) public
-     * abstract void javax.management.monitor.StringMonitorMBean.setNotifyMatch(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitorMBean#setNotifyMatch(boolean) public abstract void
+     * javax.management.monitor.StringMonitorMBean.setNotifyMatch(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,8 +242,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringMonitorMBean#getStringToCompare() public
-     * abstract java.lang.String javax.management.monitor.StringMonitorMBean.getStringToCompare()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.StringMonitorMBean#getStringToCompare() public abstract java.lang.String
+     * javax.management.monitor.StringMonitorMBean.getStringToCompare()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

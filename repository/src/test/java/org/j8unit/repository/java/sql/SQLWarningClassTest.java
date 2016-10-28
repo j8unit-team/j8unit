@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLWarning#SQLWarning(Throwable) public
-     * java.sql.SQLWarning(java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.sql.SQLWarning#SQLWarning(Throwable)
+     * public java.sql.SQLWarning(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,8 @@ implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLWarning#SQLWarning(String, Throwable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.sql.SQLWarning#SQLWarning(String, Throwable) public
      * java.sql.SQLWarning(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,7 +67,7 @@ implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLWarning#SQLWarning(String, String, Throwable) public
+     * {@link java.sql.SQLWarning#SQLWarning(String, String, Throwable) public
      * java.sql.SQLWarning(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +90,7 @@ implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SQLWarning#SQLWarning(String, String, int, Throwable) public
+     * {@link java.sql.SQLWarning#SQLWarning(String, String, int, Throwable) public
      * java.sql.SQLWarning(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,8 +112,9 @@ implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLWarning#SQLWarning(String, String, int)
-     * public java.sql.SQLWarning(java.lang.String,java.lang.String,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.sql.SQLWarning#SQLWarning(String, String, int) public
+     * java.sql.SQLWarning(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +135,8 @@ implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLWarning#SQLWarning(String, String) public
-     * java.sql.SQLWarning(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.sql.SQLWarning#SQLWarning(String, String)
+     * public java.sql.SQLWarning(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,7 +157,7 @@ implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLWarning#SQLWarning(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.sql.SQLWarning#SQLWarning(String) public
      * java.sql.SQLWarning(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,7 +179,7 @@ implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLWarning#SQLWarning() public
+     * Test method for the hereby targeted constructor-under-test {@link java.sql.SQLWarning#SQLWarning() public
      * java.sql.SQLWarning()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

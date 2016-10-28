@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.applet;
 
 import java.applet.Applet;
-import java.net.URL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.applet.AppletClassTests<Applet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Applet#Applet() public java.applet.Applet()
-     * throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.applet.Applet#Applet() public
+     * java.applet.Applet() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,8 @@ implements org.j8unit.repository.java.applet.AppletClassTests<Applet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#newAudioClip(URL) public static final
-     * java.applet.AudioClip java.applet.Applet.newAudioClip(java.net.URL)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#newAudioClip(java.net.URL) public
+     * static final java.applet.AudioClip java.applet.Applet.newAudioClip(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,7 @@ implements org.j8unit.repository.java.applet.AppletClassTests<Applet> {
     @Category(Draft.class)
     public void test_newAudioClip_URL()
     throws Exception {
-        // write some test for {@link Applet#newAudioClip(URL)}
+        // write some test for {@link java.applet.Applet#newAudioClip(java.net.URL)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.applet.Applet]

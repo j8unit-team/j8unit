@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.ToolTipManagerClassTests<ToolTipMan
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolTipManager#sharedInstance() public static
-     * javax.swing.ToolTipManager javax.swing.ToolTipManager.sharedInstance()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ToolTipManager#sharedInstance() public
+     * static javax.swing.ToolTipManager javax.swing.ToolTipManager.sharedInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +36,7 @@ implements org.j8unit.repository.javax.swing.ToolTipManagerClassTests<ToolTipMan
     @Category(Draft.class)
     public void test_sharedInstance()
     throws Exception {
-        // write some test for {@link ToolTipManager#sharedInstance()}
+        // write some test for {@link javax.swing.ToolTipManager#sharedInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ToolTipManager]

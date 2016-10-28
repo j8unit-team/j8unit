@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.io.DataInput;
 import java.rmi.server.UID;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.java.rmi.server.UIDClassTests<UID> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UID#UID(short) public
+     * Test method for the hereby targeted constructor-under-test {@link java.rmi.server.UID#UID(short) public
      * java.rmi.server.UID(short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +43,8 @@ implements org.j8unit.repository.java.rmi.server.UIDClassTests<UID> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UID#UID() public java.rmi.server.UID()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.rmi.server.UID#UID() public
+     * java.rmi.server.UID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +64,8 @@ implements org.j8unit.repository.java.rmi.server.UIDClassTests<UID> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UID#read(DataInput) public static
-     * java.rmi.server.UID java.rmi.server.UID.read(java.io.DataInput) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.UID#read(java.io.DataInput) public
+     * static java.rmi.server.UID java.rmi.server.UID.read(java.io.DataInput) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ implements org.j8unit.repository.java.rmi.server.UIDClassTests<UID> {
     @Category(Draft.class)
     public void test_read_DataInput()
     throws Exception {
-        // write some test for {@link UID#read(DataInput)}
+        // write some test for {@link java.rmi.server.UID#read(java.io.DataInput)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.UID]

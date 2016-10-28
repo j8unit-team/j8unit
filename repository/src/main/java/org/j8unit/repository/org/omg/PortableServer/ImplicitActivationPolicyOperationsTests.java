@@ -35,8 +35,9 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImplicitActivationPolicyOperations#value() public
-     * abstract org.omg.PortableServer.ImplicitActivationPolicyValue
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ImplicitActivationPolicyOperations#value() public abstract
+     * org.omg.PortableServer.ImplicitActivationPolicyValue
      * org.omg.PortableServer.ImplicitActivationPolicyOperations.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

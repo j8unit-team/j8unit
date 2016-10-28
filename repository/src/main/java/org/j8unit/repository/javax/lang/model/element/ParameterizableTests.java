@@ -34,9 +34,9 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Parameterizable#getTypeParameters() public abstract
-     * java.util.List<? extends javax.lang.model.element.TypeParameterElement>
-     * javax.lang.model.element.Parameterizable.getTypeParameters()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.Parameterizable#getTypeParameters() public abstract java.util.List<? extends
+     * javax.lang.model.element.TypeParameterElement> javax.lang.model.element.Parameterizable.getTypeParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

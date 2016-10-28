@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetFactory#createJdbcRowSet() public abstract
-     * javax.sql.rowset.JdbcRowSet javax.sql.rowset.RowSetFactory.createJdbcRowSet() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetFactory#createJdbcRowSet()
+     * public abstract javax.sql.rowset.JdbcRowSet javax.sql.rowset.RowSetFactory.createJdbcRowSet() throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetFactory#createJoinRowSet() public abstract
-     * javax.sql.rowset.JoinRowSet javax.sql.rowset.RowSetFactory.createJoinRowSet() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetFactory#createJoinRowSet()
+     * public abstract javax.sql.rowset.JoinRowSet javax.sql.rowset.RowSetFactory.createJoinRowSet() throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,9 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetFactory#createFilteredRowSet() public abstract
-     * javax.sql.rowset.FilteredRowSet javax.sql.rowset.RowSetFactory.createFilteredRowSet() throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.RowSetFactory#createFilteredRowSet() public abstract javax.sql.rowset.FilteredRowSet
+     * javax.sql.rowset.RowSetFactory.createFilteredRowSet() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetFactory#createWebRowSet() public abstract
-     * javax.sql.rowset.WebRowSet javax.sql.rowset.RowSetFactory.createWebRowSet() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetFactory#createWebRowSet()
+     * public abstract javax.sql.rowset.WebRowSet javax.sql.rowset.RowSetFactory.createWebRowSet() throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetFactory#createCachedRowSet() public abstract
-     * javax.sql.rowset.CachedRowSet javax.sql.rowset.RowSetFactory.createCachedRowSet() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetFactory#createCachedRowSet()
+     * public abstract javax.sql.rowset.CachedRowSet javax.sql.rowset.RowSetFactory.createCachedRowSet() throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

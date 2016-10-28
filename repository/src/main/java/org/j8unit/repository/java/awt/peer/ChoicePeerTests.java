@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoicePeer#remove(int) public abstract void
-     * java.awt.peer.ChoicePeer.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ChoicePeer#remove(int) public abstract
+     * void java.awt.peer.ChoicePeer.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoicePeer#add(String, int) public abstract void
-     * java.awt.peer.ChoicePeer.add(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ChoicePeer#add(String, int) public
+     * abstract void java.awt.peer.ChoicePeer.add(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoicePeer#removeAll() public abstract void
-     * java.awt.peer.ChoicePeer.removeAll()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ChoicePeer#removeAll() public abstract
+     * void java.awt.peer.ChoicePeer.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChoicePeer#select(int) public abstract void
-     * java.awt.peer.ChoicePeer.select(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ChoicePeer#select(int) public abstract
+     * void java.awt.peer.ChoicePeer.select(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

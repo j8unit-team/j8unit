@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.security.auth.callback.LanguageCallbackCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LanguageCallback#LanguageCallback() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.callback.LanguageCallback#LanguageCallback() public
      * javax.security.auth.callback.LanguageCallback()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

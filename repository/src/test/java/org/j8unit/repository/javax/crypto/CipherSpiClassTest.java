@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.crypto.CipherSpiClassTests<CipherSpi> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CipherSpi#CipherSpi() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.crypto.CipherSpi#CipherSpi() public
      * javax.crypto.CipherSpi()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

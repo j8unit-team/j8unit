@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileImageOutputStream#seek(long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileImageOutputStream#seek(long) public void
      * javax.imageio.stream.FileImageOutputStream.seek(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileImageOutputStream#close() public void
-     * javax.imageio.stream.FileImageOutputStream.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.FileImageOutputStream#close()
+     * public void javax.imageio.stream.FileImageOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +81,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileImageOutputStream#write(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileImageOutputStream#write(int) public void
      * javax.imageio.stream.FileImageOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +105,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileImageOutputStream#write(byte[], int, int) public
-     * void javax.imageio.stream.FileImageOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileImageOutputStream#write(byte[], int, int) public void
+     * javax.imageio.stream.FileImageOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +129,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileImageOutputStream#length() public long
-     * javax.imageio.stream.FileImageOutputStream.length()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.FileImageOutputStream#length()
+     * public long javax.imageio.stream.FileImageOutputStream.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +152,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileImageOutputStream#read() public int
-     * javax.imageio.stream.FileImageOutputStream.read() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.FileImageOutputStream#read()
+     * public int javax.imageio.stream.FileImageOutputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +175,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileImageOutputStream#read(byte[], int, int) public
-     * int javax.imageio.stream.FileImageOutputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileImageOutputStream#read(byte[], int, int) public int
+     * javax.imageio.stream.FileImageOutputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

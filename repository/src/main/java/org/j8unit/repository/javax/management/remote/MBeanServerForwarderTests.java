@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.remote;
 
-import javax.management.MBeanServer;
 import javax.management.remote.MBeanServerForwarder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.management.MBeanServerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerForwarder#setMBeanServer(MBeanServer)
-     * public abstract void javax.management.remote.MBeanServerForwarder.setMBeanServer(javax.management.MBeanServer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.MBeanServerForwarder#setMBeanServer(javax.management.MBeanServer) public abstract
+     * void javax.management.remote.MBeanServerForwarder.setMBeanServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.management.MBeanServerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerForwarder#getMBeanServer() public
-     * abstract javax.management.MBeanServer javax.management.remote.MBeanServerForwarder.getMBeanServer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.MBeanServerForwarder#getMBeanServer() public abstract javax.management.MBeanServer
+     * javax.management.remote.MBeanServerForwarder.getMBeanServer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

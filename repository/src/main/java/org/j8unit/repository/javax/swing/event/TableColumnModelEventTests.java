@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableColumnModelEvent#getFromIndex() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.TableColumnModelEvent#getFromIndex() public int
      * javax.swing.event.TableColumnModelEvent.getFromIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableColumnModelEvent#getToIndex() public int
-     * javax.swing.event.TableColumnModelEvent.getToIndex()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TableColumnModelEvent#getToIndex()
+     * public int javax.swing.event.TableColumnModelEvent.getToIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

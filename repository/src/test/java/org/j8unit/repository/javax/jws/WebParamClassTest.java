@@ -35,7 +35,7 @@ implements org.j8unit.repository.javax.jws.WebParamClassTests<WebParam> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Mode#values() public static
+         * Test method for the hereby targeted method-under-test {@link javax.jws.WebParam.Mode#values() public static
          * javax.jws.WebParam$Mode[] javax.jws.WebParam$Mode.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -50,13 +50,13 @@ implements org.j8unit.repository.javax.jws.WebParamClassTests<WebParam> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Mode#values()}
+            // write some test for {@link javax.jws.WebParam.Mode#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Mode#valueOf(String) public static
-         * javax.jws.WebParam$Mode javax.jws.WebParam$Mode.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link javax.jws.WebParam.Mode#valueOf(String) public
+         * static javax.jws.WebParam$Mode javax.jws.WebParam$Mode.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -70,7 +70,7 @@ implements org.j8unit.repository.javax.jws.WebParamClassTests<WebParam> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Mode#valueOf(String)}
+            // write some test for {@link javax.jws.WebParam.Mode#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebParam$Mode]

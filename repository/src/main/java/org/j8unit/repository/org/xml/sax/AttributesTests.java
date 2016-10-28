@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getLength() public abstract int
-     * org.xml.sax.Attributes.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getLength() public abstract
+     * int org.xml.sax.Attributes.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getQName(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getQName(int) public abstract
      * java.lang.String org.xml.sax.Attributes.getQName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getURI(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getURI(int) public abstract
      * java.lang.String org.xml.sax.Attributes.getURI(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getValue(String, String) public abstract
-     * java.lang.String org.xml.sax.Attributes.getValue(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getValue(String, String)
+     * public abstract java.lang.String org.xml.sax.Attributes.getValue(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getValue(String) public abstract
-     * java.lang.String org.xml.sax.Attributes.getValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getValue(String) public
+     * abstract java.lang.String org.xml.sax.Attributes.getValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +145,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getValue(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getValue(int) public abstract
      * java.lang.String org.xml.sax.Attributes.getValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getLocalName(int) public abstract
-     * java.lang.String org.xml.sax.Attributes.getLocalName(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getLocalName(int) public
+     * abstract java.lang.String org.xml.sax.Attributes.getLocalName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getIndex(String) public abstract int
-     * org.xml.sax.Attributes.getIndex(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getIndex(String) public
+     * abstract int org.xml.sax.Attributes.getIndex(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getIndex(String, String) public abstract
-     * int org.xml.sax.Attributes.getIndex(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getIndex(String, String)
+     * public abstract int org.xml.sax.Attributes.getIndex(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,7 +233,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getType(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getType(int) public abstract
      * java.lang.String org.xml.sax.Attributes.getType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,8 +255,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getType(String, String) public abstract
-     * java.lang.String org.xml.sax.Attributes.getType(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getType(String, String)
+     * public abstract java.lang.String org.xml.sax.Attributes.getType(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +277,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getType(String) public abstract
-     * java.lang.String org.xml.sax.Attributes.getType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Attributes#getType(String) public
+     * abstract java.lang.String org.xml.sax.Attributes.getType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.concurrent.TimeoutExceptionClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TimeoutException#TimeoutException() public
-     * java.util.concurrent.TimeoutException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.TimeoutException#TimeoutException() public java.util.concurrent.TimeoutException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,9 @@ implements org.j8unit.repository.java.util.concurrent.TimeoutExceptionClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TimeoutException#TimeoutException(String)
-     * public java.util.concurrent.TimeoutException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.TimeoutException#TimeoutException(String) public
+     * java.util.concurrent.TimeoutException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

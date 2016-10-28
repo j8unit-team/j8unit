@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.smartcardio.CardNotPresentExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CardNotPresentException#CardNotPresentException(String) public
+     * {@link javax.smartcardio.CardNotPresentException#CardNotPresentException(String) public
      * javax.smartcardio.CardNotPresentException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.smartcardio.CardNotPresentExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CardNotPresentException#CardNotPresentException(Throwable) public
+     * {@link javax.smartcardio.CardNotPresentException#CardNotPresentException(Throwable) public
      * javax.smartcardio.CardNotPresentException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.smartcardio.CardNotPresentExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CardNotPresentException#CardNotPresentException(String, Throwable) public
+     * {@link javax.smartcardio.CardNotPresentException#CardNotPresentException(String, Throwable) public
      * javax.smartcardio.CardNotPresentException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

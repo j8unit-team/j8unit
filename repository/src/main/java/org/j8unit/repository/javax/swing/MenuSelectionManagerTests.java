@@ -1,12 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Point;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import javax.swing.MenuElement;
 import javax.swing.MenuSelectionManager;
-import javax.swing.event.ChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuSelectionManager#clearSelectedPath() public void
-     * javax.swing.MenuSelectionManager.clearSelectedPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.MenuSelectionManager#clearSelectedPath()
+     * public void javax.swing.MenuSelectionManager.clearSelectedPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuSelectionManager#getSelectedPath() public
-     * javax.swing.MenuElement[] javax.swing.MenuSelectionManager.getSelectedPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.MenuSelectionManager#getSelectedPath()
+     * public javax.swing.MenuElement[] javax.swing.MenuSelectionManager.getSelectedPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +78,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuSelectionManager#processMouseEvent(MouseEvent)
-     * public void javax.swing.MenuSelectionManager.processMouseEvent(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.MenuSelectionManager#processMouseEvent(java.awt.event.MouseEvent) public void
+     * javax.swing.MenuSelectionManager.processMouseEvent(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MenuSelectionManager#componentForPoint(Component, Point) public java.awt.Component
-     * javax.swing.MenuSelectionManager.componentForPoint(java.awt.Component,java.awt.Point)}.
+     * {@link javax.swing.MenuSelectionManager#componentForPoint(java.awt.Component, java.awt.Point) public
+     * java.awt.Component javax.swing.MenuSelectionManager.componentForPoint(java.awt.Component,java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,7 +125,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MenuSelectionManager#isComponentPartOfCurrentMenu(Component) public boolean
+     * {@link javax.swing.MenuSelectionManager#isComponentPartOfCurrentMenu(java.awt.Component) public boolean
      * javax.swing.MenuSelectionManager.isComponentPartOfCurrentMenu(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +147,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuSelectionManager#processKeyEvent(KeyEvent)
-     * public void javax.swing.MenuSelectionManager.processKeyEvent(java.awt.event.KeyEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.MenuSelectionManager#processKeyEvent(java.awt.event.KeyEvent) public void
+     * javax.swing.MenuSelectionManager.processKeyEvent(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,7 +171,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MenuSelectionManager#addChangeListener(ChangeListener) public void
+     * {@link javax.swing.MenuSelectionManager#addChangeListener(javax.swing.event.ChangeListener) public void
      * javax.swing.MenuSelectionManager.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +194,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MenuSelectionManager#removeChangeListener(ChangeListener) public void
+     * {@link javax.swing.MenuSelectionManager#removeChangeListener(javax.swing.event.ChangeListener) public void
      * javax.swing.MenuSelectionManager.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,8 +216,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuSelectionManager#getChangeListeners() public
-     * javax.swing.event.ChangeListener[] javax.swing.MenuSelectionManager.getChangeListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.MenuSelectionManager#getChangeListeners() public javax.swing.event.ChangeListener[]
+     * javax.swing.MenuSelectionManager.getChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,8 +239,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuSelectionManager#setSelectedPath(MenuElement[])
-     * public void javax.swing.MenuSelectionManager.setSelectedPath(javax.swing.MenuElement[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.MenuSelectionManager#setSelectedPath(javax.swing.MenuElement[]) public void
+     * javax.swing.MenuSelectionManager.setSelectedPath(javax.swing.MenuElement[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

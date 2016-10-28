@@ -36,8 +36,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#distance(double, double) public double
-     * java.awt.geom.Point2D.distance(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D#distance(double, double)
+     * public double java.awt.geom.Point2D.distance(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#distance(Point2D) public double
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Point2D#distance(java.awt.geom.Point2D) public double
      * java.awt.geom.Point2D.distance(java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +81,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#setLocation(double, double) public abstract
-     * void java.awt.geom.Point2D.setLocation(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D#setLocation(double, double)
+     * public abstract void java.awt.geom.Point2D.setLocation(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +103,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#setLocation(Point2D) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Point2D#setLocation(java.awt.geom.Point2D) public void
      * java.awt.geom.Point2D.setLocation(java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +126,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D#hashCode() public int
      * java.awt.geom.Point2D.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +149,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D#equals(Object) public boolean
      * java.awt.geom.Point2D.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,7 +172,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#getX() public abstract double
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D#getX() public abstract double
      * java.awt.geom.Point2D.getX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,7 +194,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#getY() public abstract double
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D#getY() public abstract double
      * java.awt.geom.Point2D.getY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,29 +216,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#distanceSq(double, double) public double
-     * java.awt.geom.Point2D.distanceSq(double,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_distanceSq_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#distanceSq(Point2D) public double
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Point2D#distanceSq(java.awt.geom.Point2D) public double
      * java.awt.geom.Point2D.distanceSq(java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +239,30 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#clone() public java.lang.Object
-     * java.awt.geom.Point2D.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D#distanceSq(double, double)
+     * public double java.awt.geom.Point2D.distanceSq(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_distanceSq_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D#clone() public
+     * java.lang.Object java.awt.geom.Point2D.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -307,8 +310,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getX() public double
-         * java.awt.geom.Point2D$Double.getX()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D.Double#getX() public
+         * double java.awt.geom.Point2D$Double.getX()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -330,8 +333,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getY() public double
-         * java.awt.geom.Point2D$Double.getY()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D.Double#getY() public
+         * double java.awt.geom.Point2D$Double.getY()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -353,7 +356,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#setLocation(double, double) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Point2D.Double#setLocation(double, double) public void
          * java.awt.geom.Point2D$Double.setLocation(double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -376,8 +380,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#toString() public java.lang.String
-         * java.awt.geom.Point2D$Double.toString()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D.Double#toString() public
+         * java.lang.String java.awt.geom.Point2D$Double.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -428,7 +432,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getY() public double
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D.Float#getY() public double
          * java.awt.geom.Point2D$Float.getY()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -451,7 +455,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getX() public double
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D.Float#getX() public double
          * java.awt.geom.Point2D$Float.getX()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -474,7 +478,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#setLocation(double, double) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Point2D.Float#setLocation(double, double) public void
          * java.awt.geom.Point2D$Float.setLocation(double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -497,7 +502,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#setLocation(float, float) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Point2D.Float#setLocation(float, float) public void
          * java.awt.geom.Point2D$Float.setLocation(float,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -519,8 +525,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#toString() public java.lang.String
-         * java.awt.geom.Point2D$Float.toString()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Point2D.Float#toString() public
+         * java.lang.String java.awt.geom.Point2D$Float.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

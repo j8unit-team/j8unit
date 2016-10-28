@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.PipedInputStream;
-import java.io.PipedOutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedInputStream#read(byte[], int, int) public
-     * synchronized int java.io.PipedInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedInputStream#read(byte[], int, int)
+     * public synchronized int java.io.PipedInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedInputStream#read() public synchronized int
-     * java.io.PipedInputStream.read() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedInputStream#read() public synchronized
+     * int java.io.PipedInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedInputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedInputStream#close() public void
      * java.io.PipedInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,9 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedInputStream#connect(PipedOutputStream) public
-     * void java.io.PipedInputStream.connect(java.io.PipedOutputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.io.PipedInputStream#connect(java.io.PipedOutputStream) public void
+     * java.io.PipedInputStream.connect(java.io.PipedOutputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedInputStream#available() public synchronized int
-     * java.io.PipedInputStream.available() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedInputStream#available() public
+     * synchronized int java.io.PipedInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

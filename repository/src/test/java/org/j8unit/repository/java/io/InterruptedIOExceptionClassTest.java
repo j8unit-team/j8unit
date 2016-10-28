@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.io.InterruptedIOExceptionClassTests<Interr
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InterruptedIOException#InterruptedIOException()
-     * public java.io.InterruptedIOException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.InterruptedIOException#InterruptedIOException() public java.io.InterruptedIOException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.io.InterruptedIOExceptionClassTests<Interr
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InterruptedIOException#InterruptedIOException(String) public
+     * {@link java.io.InterruptedIOException#InterruptedIOException(String) public
      * java.io.InterruptedIOException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

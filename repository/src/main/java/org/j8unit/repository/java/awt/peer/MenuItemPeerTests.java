@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.MenuComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItemPeer#setEnabled(boolean) public abstract
-     * void java.awt.peer.MenuItemPeer.setEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.MenuItemPeer#setEnabled(boolean)
+     * public abstract void java.awt.peer.MenuItemPeer.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.peer.MenuComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItemPeer#setLabel(String) public abstract void
-     * java.awt.peer.MenuItemPeer.setLabel(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.MenuItemPeer#setLabel(String) public
+     * abstract void java.awt.peer.MenuItemPeer.setLabel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

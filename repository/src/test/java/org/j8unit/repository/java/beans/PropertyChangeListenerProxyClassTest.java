@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans;
 
-import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeListenerProxy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.beans.PropertyChangeListenerProxyClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyChangeListenerProxy#PropertyChangeListenerProxy(String, PropertyChangeListener) public
-     * java.beans.PropertyChangeListenerProxy(java.lang.String,java.beans.PropertyChangeListener)}.
+     * {@link java.beans.PropertyChangeListenerProxy#PropertyChangeListenerProxy(String, java.beans.PropertyChangeListener)
+     * public java.beans.PropertyChangeListenerProxy(java.lang.String,java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +40,7 @@ implements org.j8unit.repository.java.beans.PropertyChangeListenerProxyClassTest
         // create new instance
         @SuppressWarnings("unused")
         final PropertyChangeListenerProxy sut = null; // = new PropertyChangeListenerProxy(String,
-                                                      // PropertyChangeListener);
+                                                      // java.beans.PropertyChangeListener);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyChangeListenerProxy]

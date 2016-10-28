@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.security.PermissionsClassTests<Permissions
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Permissions#Permissions() public
+     * Test method for the hereby targeted constructor-under-test {@link java.security.Permissions#Permissions() public
      * java.security.Permissions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

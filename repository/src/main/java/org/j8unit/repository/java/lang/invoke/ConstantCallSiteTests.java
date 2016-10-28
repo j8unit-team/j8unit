@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.invoke;
 
 import java.lang.invoke.ConstantCallSite;
-import java.lang.invoke.MethodHandle;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConstantCallSite#dynamicInvoker() public final
-     * java.lang.invoke.MethodHandle java.lang.invoke.ConstantCallSite.dynamicInvoker()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.ConstantCallSite#dynamicInvoker()
+     * public final java.lang.invoke.MethodHandle java.lang.invoke.ConstantCallSite.dynamicInvoker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConstantCallSite#setTarget(MethodHandle) public
-     * final void java.lang.invoke.ConstantCallSite.setTarget(java.lang.invoke.MethodHandle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.ConstantCallSite#setTarget(java.lang.invoke.MethodHandle) public final void
+     * java.lang.invoke.ConstantCallSite.setTarget(java.lang.invoke.MethodHandle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConstantCallSite#getTarget() public final
-     * java.lang.invoke.MethodHandle java.lang.invoke.ConstantCallSite.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.ConstantCallSite#getTarget() public
+     * final java.lang.invoke.MethodHandle java.lang.invoke.ConstantCallSite.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

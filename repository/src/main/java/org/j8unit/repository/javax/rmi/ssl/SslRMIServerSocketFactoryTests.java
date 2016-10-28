@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SslRMIServerSocketFactory#getNeedClientAuth() public
-     * final boolean javax.rmi.ssl.SslRMIServerSocketFactory.getNeedClientAuth()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#getNeedClientAuth() public final boolean
+     * javax.rmi.ssl.SslRMIServerSocketFactory.getNeedClientAuth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,9 +57,9 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SslRMIServerSocketFactory#createServerSocket(int)
-     * public java.net.ServerSocket javax.rmi.ssl.SslRMIServerSocketFactory.createServerSocket(int) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#createServerSocket(int) public java.net.ServerSocket
+     * javax.rmi.ssl.SslRMIServerSocketFactory.createServerSocket(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SslRMIServerSocketFactory#equals(Object) public
-     * boolean javax.rmi.ssl.SslRMIServerSocketFactory.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#equals(Object) public boolean
+     * javax.rmi.ssl.SslRMIServerSocketFactory.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +105,9 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SslRMIServerSocketFactory#getEnabledCipherSuites()
-     * public final java.lang.String[] javax.rmi.ssl.SslRMIServerSocketFactory.getEnabledCipherSuites()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#getEnabledCipherSuites() public final java.lang.String[]
+     * javax.rmi.ssl.SslRMIServerSocketFactory.getEnabledCipherSuites()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +128,8 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SslRMIServerSocketFactory#hashCode() public int
-     * javax.rmi.ssl.SslRMIServerSocketFactory.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.ssl.SslRMIServerSocketFactory#hashCode()
+     * public int javax.rmi.ssl.SslRMIServerSocketFactory.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +151,9 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SslRMIServerSocketFactory#getEnabledProtocols()
-     * public final java.lang.String[] javax.rmi.ssl.SslRMIServerSocketFactory.getEnabledProtocols()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#getEnabledProtocols() public final java.lang.String[]
+     * javax.rmi.ssl.SslRMIServerSocketFactory.getEnabledProtocols()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

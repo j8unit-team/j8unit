@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.InputMismatchExceptionClassTests<Inpu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InputMismatchException#InputMismatchException()
-     * public java.util.InputMismatchException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.InputMismatchException#InputMismatchException() public java.util.InputMismatchException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.util.InputMismatchExceptionClassTests<Inpu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputMismatchException#InputMismatchException(String) public
+     * {@link java.util.InputMismatchException#InputMismatchException(String) public
      * java.util.InputMismatchException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

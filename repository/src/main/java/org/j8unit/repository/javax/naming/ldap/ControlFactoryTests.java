@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.ldap;
 
-import javax.naming.ldap.Control;
 import javax.naming.ldap.ControlFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,9 +34,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ControlFactory#getControlInstance(Control) public
-     * abstract javax.naming.ldap.Control javax.naming.ldap.ControlFactory.getControlInstance(javax.naming.ldap.Control)
-     * throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.ControlFactory#getControlInstance(javax.naming.ldap.Control) public abstract
+     * javax.naming.ldap.Control javax.naming.ldap.ControlFactory.getControlInstance(javax.naming.ldap.Control) throws
+     * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

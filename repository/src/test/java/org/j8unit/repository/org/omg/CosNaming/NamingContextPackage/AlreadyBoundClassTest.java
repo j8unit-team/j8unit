@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyB
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AlreadyBound#AlreadyBound() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.AlreadyBound#AlreadyBound() public
      * org.omg.CosNaming.NamingContextPackage.AlreadyBound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyB
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AlreadyBound#AlreadyBound(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.AlreadyBound#AlreadyBound(String) public
      * org.omg.CosNaming.NamingContextPackage.AlreadyBound(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

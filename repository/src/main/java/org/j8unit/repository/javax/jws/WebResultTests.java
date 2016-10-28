@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebResult#name() public abstract java.lang.String
-     * javax.jws.WebResult.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebResult#name() public abstract
+     * java.lang.String javax.jws.WebResult.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebResult#header() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebResult#header() public abstract boolean
      * javax.jws.WebResult.header()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebResult#partName() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebResult#partName() public abstract
      * java.lang.String javax.jws.WebResult.partName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebResult#targetNamespace() public abstract
-     * java.lang.String javax.jws.WebResult.targetNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebResult#targetNamespace() public
+     * abstract java.lang.String javax.jws.WebResult.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

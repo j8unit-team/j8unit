@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.nio.file;
 
 import java.nio.file.WatchService;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchService#take() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchService#take() public abstract
      * java.nio.file.WatchKey java.nio.file.WatchService.take() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +56,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchService#poll() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchService#poll() public abstract
      * java.nio.file.WatchKey java.nio.file.WatchService.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +78,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchService#poll(long, TimeUnit) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.WatchService#poll(long, java.util.concurrent.TimeUnit) public abstract
      * java.nio.file.WatchKey java.nio.file.WatchService.poll(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchService#close() public abstract void
-     * java.nio.file.WatchService.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchService#close() public abstract
+     * void java.nio.file.WatchService.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

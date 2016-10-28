@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Object;
 import org.omg.PortableInterceptor.ForwardRequest;
 
 @RunWith(J8Unit4.class)
@@ -22,7 +21,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ForwardRequest#ForwardRequest() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ForwardRequest#ForwardRequest() public
      * org.omg.PortableInterceptor.ForwardRequest()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ForwardRequest#ForwardRequest(Object) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ForwardRequest#ForwardRequest(org.omg.CORBA.Object) public
      * org.omg.PortableInterceptor.ForwardRequest(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,13 +61,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ForwardRequest sut = null; // = new ForwardRequest(Object);
+        final ForwardRequest sut = null; // = new ForwardRequest(org.omg.CORBA.Object);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ForwardRequest#ForwardRequest(String, Object)
-     * public org.omg.PortableInterceptor.ForwardRequest(java.lang.String,org.omg.CORBA.Object)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ForwardRequest#ForwardRequest(String, org.omg.CORBA.Object) public
+     * org.omg.PortableInterceptor.ForwardRequest(java.lang.String,org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +84,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ForwardRequest sut = null; // = new ForwardRequest(String, Object);
+        final ForwardRequest sut = null; // = new ForwardRequest(String, org.omg.CORBA.Object);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ForwardRequest]

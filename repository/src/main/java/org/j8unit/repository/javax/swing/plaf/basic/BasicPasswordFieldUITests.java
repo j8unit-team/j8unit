@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import javax.swing.plaf.basic.BasicPasswordFieldUI;
-import javax.swing.text.Element;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicTextFieldUITests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPasswordFieldUI#create(Element) public
-     * javax.swing.text.View javax.swing.plaf.basic.BasicPasswordFieldUI.create(javax.swing.text.Element)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicPasswordFieldUI#create(javax.swing.text.Element) public javax.swing.text.View
+     * javax.swing.plaf.basic.BasicPasswordFieldUI.create(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

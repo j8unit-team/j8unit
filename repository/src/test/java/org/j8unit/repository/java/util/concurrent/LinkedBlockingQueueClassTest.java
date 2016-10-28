@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
 import java.util.concurrent.LinkedBlockingQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.java.util.concurrent.LinkedBlockingQueueClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedBlockingQueue#LinkedBlockingQueue(int)
-     * public java.util.concurrent.LinkedBlockingQueue(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#LinkedBlockingQueue(int) public
+     * java.util.concurrent.LinkedBlockingQueue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +45,9 @@ implements org.j8unit.repository.java.util.concurrent.LinkedBlockingQueueClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedBlockingQueue#LinkedBlockingQueue()
-     * public java.util.concurrent.LinkedBlockingQueue()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#LinkedBlockingQueue() public
+     * java.util.concurrent.LinkedBlockingQueue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,7 +68,7 @@ implements org.j8unit.repository.java.util.concurrent.LinkedBlockingQueueClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LinkedBlockingQueue#LinkedBlockingQueue(Collection) public
+     * {@link java.util.concurrent.LinkedBlockingQueue#LinkedBlockingQueue(java.util.Collection) public
      * java.util.concurrent.LinkedBlockingQueue(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +85,7 @@ implements org.j8unit.repository.java.util.concurrent.LinkedBlockingQueueClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LinkedBlockingQueue sut = null; // = new LinkedBlockingQueue(Collection);
+        final LinkedBlockingQueue sut = null; // = new LinkedBlockingQueue(java.util.Collection);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.LinkedBlockingQueue]

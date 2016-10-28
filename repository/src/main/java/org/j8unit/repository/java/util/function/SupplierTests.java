@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Supplier#get() public abstract T
+     * Test method for the hereby targeted method-under-test {@link java.util.function.Supplier#get() public abstract T
      * java.util.function.Supplier.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

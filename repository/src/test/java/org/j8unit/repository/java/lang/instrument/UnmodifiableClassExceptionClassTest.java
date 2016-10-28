@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.instrument.UnmodifiableClassException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmodifiableClassException#UnmodifiableClassException() public
+     * {@link java.lang.instrument.UnmodifiableClassException#UnmodifiableClassException() public
      * java.lang.instrument.UnmodifiableClassException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.lang.instrument.UnmodifiableClassException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmodifiableClassException#UnmodifiableClassException(String) public
+     * {@link java.lang.instrument.UnmodifiableClassException#UnmodifiableClassException(String) public
      * java.lang.instrument.UnmodifiableClassException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

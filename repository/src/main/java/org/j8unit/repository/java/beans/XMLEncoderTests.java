@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.beans;
 
-import java.beans.Expression;
-import java.beans.Statement;
 import java.beans.XMLEncoder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEncoder#flush() public void
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLEncoder#flush() public void
      * java.beans.XMLEncoder.flush()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +56,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEncoder#writeObject(Object) public void
-     * java.beans.XMLEncoder.writeObject(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLEncoder#writeObject(Object) public
+     * void java.beans.XMLEncoder.writeObject(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +78,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEncoder#writeExpression(Expression) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.XMLEncoder#writeExpression(java.beans.Expression) public void
      * java.beans.XMLEncoder.writeExpression(java.beans.Expression)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +102,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEncoder#writeStatement(Statement) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.XMLEncoder#writeStatement(java.beans.Statement) public void
      * java.beans.XMLEncoder.writeStatement(java.beans.Statement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEncoder#getOwner() public java.lang.Object
-     * java.beans.XMLEncoder.getOwner()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLEncoder#getOwner() public
+     * java.lang.Object java.beans.XMLEncoder.getOwner()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +148,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEncoder#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLEncoder#close() public void
      * java.beans.XMLEncoder.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +171,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEncoder#setOwner(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.beans.XMLEncoder#setOwner(Object) public void
      * java.beans.XMLEncoder.setOwner(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

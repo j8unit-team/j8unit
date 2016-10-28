@@ -5,11 +5,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.ResponseHandler;
 import org.omg.CosNaming.BindingIteratorPOA;
-import org.omg.PortableServer.POA;
 
 /**
  * <p>
@@ -40,8 +36,8 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BindingIteratorPOA#_invoke(String, InputStream, ResponseHandler) public
-     * org.omg.CORBA.portable.OutputStream
+     * {@link org.omg.CosNaming.BindingIteratorPOA#_invoke(String, org.omg.CORBA.portable.InputStream, org.omg.CORBA.portable.ResponseHandler)
+     * public org.omg.CORBA.portable.OutputStream
      * org.omg.CosNaming.BindingIteratorPOA._invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)}
      * .
      *
@@ -65,9 +61,9 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingIteratorPOA#_all_interfaces(POA, byte[])
-     * public java.lang.String[]
-     * org.omg.CosNaming.BindingIteratorPOA._all_interfaces(org.omg.PortableServer.POA,byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingIteratorPOA#_all_interfaces(org.omg.PortableServer.POA, byte[]) public
+     * java.lang.String[] org.omg.CosNaming.BindingIteratorPOA._all_interfaces(org.omg.PortableServer.POA,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +85,9 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingIteratorPOA#_this(ORB) public
-     * org.omg.CosNaming.BindingIterator org.omg.CosNaming.BindingIteratorPOA._this(org.omg.CORBA.ORB)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingIteratorPOA#_this(org.omg.CORBA.ORB) public org.omg.CosNaming.BindingIterator
+     * org.omg.CosNaming.BindingIteratorPOA._this(org.omg.CORBA.ORB)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,7 +108,7 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingIteratorPOA#_this() public
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming.BindingIteratorPOA#_this() public
      * org.omg.CosNaming.BindingIterator org.omg.CosNaming.BindingIteratorPOA._this()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

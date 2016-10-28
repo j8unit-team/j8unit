@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.imageio;
 
 import javax.imageio.ImageTranscoder;
-import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.ImageWriteParam;
-import javax.imageio.metadata.IIOMetadata;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageTranscoder#convertStreamMetadata(IIOMetadata, ImageWriteParam) public abstract
-     * javax.imageio.metadata.IIOMetadata
+     * {@link javax.imageio.ImageTranscoder#convertStreamMetadata(javax.imageio.metadata.IIOMetadata, javax.imageio.ImageWriteParam)
+     * public abstract javax.imageio.metadata.IIOMetadata
      * javax.imageio.ImageTranscoder.convertStreamMetadata(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageWriteParam)}
      * .
      *
@@ -64,8 +61,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageTranscoder#convertImageMetadata(IIOMetadata, ImageTypeSpecifier, ImageWriteParam) public abstract
-     * javax.imageio.metadata.IIOMetadata
+     * {@link javax.imageio.ImageTranscoder#convertImageMetadata(javax.imageio.metadata.IIOMetadata, javax.imageio.ImageTypeSpecifier, javax.imageio.ImageWriteParam)
+     * public abstract javax.imageio.metadata.IIOMetadata
      * javax.imageio.ImageTranscoder.convertImageMetadata(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageTypeSpecifier,javax.imageio.ImageWriteParam)}
      * .
      *

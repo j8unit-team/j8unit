@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link POAManagerOperations#get_state() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerOperations#get_state() public abstract
      * org.omg.PortableServer.POAManagerPackage.State org.omg.PortableServer.POAManagerOperations.get_state()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link POAManagerOperations#hold_requests(boolean) public
-     * abstract void org.omg.PortableServer.POAManagerOperations.hold_requests(boolean) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerOperations#hold_requests(boolean) public abstract void
+     * org.omg.PortableServer.POAManagerOperations.hold_requests(boolean) throws
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link POAManagerOperations#discard_requests(boolean)
-     * public abstract void org.omg.PortableServer.POAManagerOperations.discard_requests(boolean) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerOperations#discard_requests(boolean) public abstract void
+     * org.omg.PortableServer.POAManagerOperations.discard_requests(boolean) throws
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +106,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link POAManagerOperations#activate() public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerOperations#activate() public abstract void
      * org.omg.PortableServer.POAManagerOperations.activate() throws
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
      *
@@ -126,8 +130,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link POAManagerOperations#deactivate(boolean, boolean)
-     * public abstract void org.omg.PortableServer.POAManagerOperations.deactivate(boolean,boolean) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAManagerOperations#deactivate(boolean, boolean) public abstract void
+     * org.omg.PortableServer.POAManagerOperations.deactivate(boolean,boolean) throws
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

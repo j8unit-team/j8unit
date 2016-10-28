@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueBase#_truncatable_ids() public abstract
-     * java.lang.String[] org.omg.CORBA.portable.ValueBase._truncatable_ids()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ValueBase#_truncatable_ids()
+     * public abstract java.lang.String[] org.omg.CORBA.portable.ValueBase._truncatable_ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

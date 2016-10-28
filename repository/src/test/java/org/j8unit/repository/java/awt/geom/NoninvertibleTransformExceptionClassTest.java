@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.geom.NoninvertibleTransformExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoninvertibleTransformException#NoninvertibleTransformException(String) public
+     * {@link java.awt.geom.NoninvertibleTransformException#NoninvertibleTransformException(String) public
      * java.awt.geom.NoninvertibleTransformException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

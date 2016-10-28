@@ -5,8 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.CosNaming.BindingListHolder;
 
 /**
@@ -36,7 +34,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingListHolder#_type() public
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming.BindingListHolder#_type() public
      * org.omg.CORBA.TypeCode org.omg.CosNaming.BindingListHolder._type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +57,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingListHolder#_write(OutputStream) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingListHolder#_write(org.omg.CORBA.portable.OutputStream) public void
      * org.omg.CosNaming.BindingListHolder._write(org.omg.CORBA.portable.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +81,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BindingListHolder#_read(InputStream) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.BindingListHolder#_read(org.omg.CORBA.portable.InputStream) public void
      * org.omg.CosNaming.BindingListHolder._read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

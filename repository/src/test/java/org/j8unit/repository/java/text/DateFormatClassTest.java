@@ -2,7 +2,6 @@ package org.j8unit.repository.java.text;
 
 import java.text.DateFormat;
 import java.text.DateFormat.Field;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getAvailableLocales() public static
-     * java.util.Locale[] java.text.DateFormat.getAvailableLocales()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormat#getAvailableLocales() public
+     * static java.util.Locale[] java.text.DateFormat.getAvailableLocales()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,13 +37,13 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
     @Category(Draft.class)
     public void test_getAvailableLocales()
     throws Exception {
-        // write some test for {@link DateFormat#getAvailableLocales()}
+        // write some test for {@link java.text.DateFormat#getAvailableLocales()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getDateInstance() public static final
-     * java.text.DateFormat java.text.DateFormat.getDateInstance()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormat#getDateInstance() public static
+     * final java.text.DateFormat java.text.DateFormat.getDateInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,13 +57,13 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
     @Category(Draft.class)
     public void test_getDateInstance()
     throws Exception {
-        // write some test for {@link DateFormat#getDateInstance()}
+        // write some test for {@link java.text.DateFormat#getDateInstance()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getDateInstance(int) public static final
-     * java.text.DateFormat java.text.DateFormat.getDateInstance(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormat#getDateInstance(int) public
+     * static final java.text.DateFormat java.text.DateFormat.getDateInstance(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,13 +77,14 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
     @Category(Draft.class)
     public void test_getDateInstance_int()
     throws Exception {
-        // write some test for {@link DateFormat#getDateInstance(int)}
+        // write some test for {@link java.text.DateFormat#getDateInstance(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getDateInstance(int, Locale) public
-     * static final java.text.DateFormat java.text.DateFormat.getDateInstance(int,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DateFormat#getDateInstance(int, java.util.Locale) public static final java.text.DateFormat
+     * java.text.DateFormat.getDateInstance(int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,53 +98,14 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
     @Category(Draft.class)
     public void test_getDateInstance_int_Locale()
     throws Exception {
-        // write some test for {@link DateFormat#getDateInstance(int, Locale)}
+        // write some test for {@link java.text.DateFormat#getDateInstance(int, java.util.Locale)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getTimeInstance() public static final
-     * java.text.DateFormat java.text.DateFormat.getTimeInstance()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getTimeInstance()
-    throws Exception {
-        // write some test for {@link DateFormat#getTimeInstance()}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getTimeInstance(int) public static final
-     * java.text.DateFormat java.text.DateFormat.getTimeInstance(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getTimeInstance_int()
-    throws Exception {
-        // write some test for {@link DateFormat#getTimeInstance(int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getTimeInstance(int, Locale) public
-     * static final java.text.DateFormat java.text.DateFormat.getTimeInstance(int,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DateFormat#getTimeInstance(int, java.util.Locale) public static final java.text.DateFormat
+     * java.text.DateFormat.getTimeInstance(int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,13 +119,53 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
     @Category(Draft.class)
     public void test_getTimeInstance_int_Locale()
     throws Exception {
-        // write some test for {@link DateFormat#getTimeInstance(int, Locale)}
+        // write some test for {@link java.text.DateFormat#getTimeInstance(int, java.util.Locale)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getInstance() public static final
-     * java.text.DateFormat java.text.DateFormat.getInstance()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormat#getTimeInstance(int) public
+     * static final java.text.DateFormat java.text.DateFormat.getTimeInstance(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getTimeInstance_int()
+    throws Exception {
+        // write some test for {@link java.text.DateFormat#getTimeInstance(int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormat#getTimeInstance() public static
+     * final java.text.DateFormat java.text.DateFormat.getTimeInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getTimeInstance()
+    throws Exception {
+        // write some test for {@link java.text.DateFormat#getTimeInstance()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormat#getInstance() public static
+     * final java.text.DateFormat java.text.DateFormat.getInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,53 +179,14 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
     @Category(Draft.class)
     public void test_getInstance()
     throws Exception {
-        // write some test for {@link DateFormat#getInstance()}
+        // write some test for {@link java.text.DateFormat#getInstance()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getDateTimeInstance() public static final
-     * java.text.DateFormat java.text.DateFormat.getDateTimeInstance()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getDateTimeInstance()
-    throws Exception {
-        // write some test for {@link DateFormat#getDateTimeInstance()}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getDateTimeInstance(int, int) public
-     * static final java.text.DateFormat java.text.DateFormat.getDateTimeInstance(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getDateTimeInstance_int_int()
-    throws Exception {
-        // write some test for {@link DateFormat#getDateTimeInstance(int, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormat#getDateTimeInstance(int, int, Locale)
-     * public static final java.text.DateFormat java.text.DateFormat.getDateTimeInstance(int,int,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DateFormat#getDateTimeInstance(int, int, java.util.Locale) public static final
+     * java.text.DateFormat java.text.DateFormat.getDateTimeInstance(int,int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,7 +200,47 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
     @Category(Draft.class)
     public void test_getDateTimeInstance_int_int_Locale()
     throws Exception {
-        // write some test for {@link DateFormat#getDateTimeInstance(int, int, Locale)}
+        // write some test for {@link java.text.DateFormat#getDateTimeInstance(int, int, java.util.Locale)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormat#getDateTimeInstance() public
+     * static final java.text.DateFormat java.text.DateFormat.getDateTimeInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getDateTimeInstance()
+    throws Exception {
+        // write some test for {@link java.text.DateFormat#getDateTimeInstance()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DateFormat#getDateTimeInstance(int, int)
+     * public static final java.text.DateFormat java.text.DateFormat.getDateTimeInstance(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getDateTimeInstance_int_int()
+    throws Exception {
+        // write some test for {@link java.text.DateFormat#getDateTimeInstance(int, int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.DateFormat]
@@ -256,8 +258,8 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Field#ofCalendarField(int) public static
-         * java.text.DateFormat$Field java.text.DateFormat$Field.ofCalendarField(int)}.
+         * Test method for the hereby targeted method-under-test {@link java.text.DateFormat.Field#ofCalendarField(int)
+         * public static java.text.DateFormat$Field java.text.DateFormat$Field.ofCalendarField(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -271,7 +273,7 @@ implements org.j8unit.repository.java.text.DateFormatClassTests<DateFormat> {
         @Category(Draft.class)
         public void test_ofCalendarField_int()
         throws Exception {
-            // write some test for {@link Field#ofCalendarField(int)}
+            // write some test for {@link java.text.DateFormat.Field#ofCalendarField(int)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.text.DateFormat$Field]

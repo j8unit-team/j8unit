@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.invoke;
 
 import java.lang.invoke.MethodHandleInfo;
-import java.lang.invoke.MethodHandles.Lookup;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandleInfo#getMethodType() public abstract
-     * java.lang.invoke.MethodType java.lang.invoke.MethodHandleInfo.getMethodType()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandleInfo#getMethodType()
+     * public abstract java.lang.invoke.MethodType java.lang.invoke.MethodHandleInfo.getMethodType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandleInfo#getModifiers() public abstract int
-     * java.lang.invoke.MethodHandleInfo.getModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandleInfo#getModifiers()
+     * public abstract int java.lang.invoke.MethodHandleInfo.getModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,9 +79,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandleInfo#reflectAs(Class, Lookup) public
-     * abstract <T> T java.lang.invoke.MethodHandleInfo.reflectAs(java.lang.Class
-     * <T>,java.lang.invoke.MethodHandles$Lookup)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodHandleInfo#reflectAs(Class, java.lang.invoke.MethodHandles.Lookup) public abstract
+     * <T> T java.lang.invoke.MethodHandleInfo.reflectAs(java.lang.Class<T>,java.lang.invoke.MethodHandles$Lookup)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandleInfo#getReferenceKind() public abstract
-     * int java.lang.invoke.MethodHandleInfo.getReferenceKind()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandleInfo#getReferenceKind()
+     * public abstract int java.lang.invoke.MethodHandleInfo.getReferenceKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +124,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandleInfo#getDeclaringClass() public abstract
-     * java.lang.Class<?> java.lang.invoke.MethodHandleInfo.getDeclaringClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodHandleInfo#getDeclaringClass() public abstract java.lang.Class
+     * <?> java.lang.invoke.MethodHandleInfo.getDeclaringClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandleInfo#getName() public abstract
-     * java.lang.String java.lang.invoke.MethodHandleInfo.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandleInfo#getName() public
+     * abstract java.lang.String java.lang.invoke.MethodHandleInfo.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +169,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandleInfo#isVarArgs() public default boolean
-     * java.lang.invoke.MethodHandleInfo.isVarArgs()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandleInfo#isVarArgs() public
+     * default boolean java.lang.invoke.MethodHandleInfo.isVarArgs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

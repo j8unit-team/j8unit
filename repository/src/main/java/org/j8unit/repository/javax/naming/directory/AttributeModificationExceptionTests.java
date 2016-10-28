@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.naming.directory;
 
 import javax.naming.directory.AttributeModificationException;
-import javax.naming.directory.ModificationItem;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeModificationException#setUnexecutedModifications(ModificationItem[]) public void
+     * {@link javax.naming.directory.AttributeModificationException#setUnexecutedModifications(javax.naming.directory.ModificationItem[])
+     * public void
      * javax.naming.directory.AttributeModificationException.setUnexecutedModifications(javax.naming.directory.ModificationItem[])}
      * .
      *
@@ -59,8 +59,9 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeModificationException#toString() public
-     * java.lang.String javax.naming.directory.AttributeModificationException.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.AttributeModificationException#toString() public java.lang.String
+     * javax.naming.directory.AttributeModificationException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +84,7 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeModificationException#getUnexecutedModifications() public
+     * {@link javax.naming.directory.AttributeModificationException#getUnexecutedModifications() public
      * javax.naming.directory.ModificationItem[]
      * javax.naming.directory.AttributeModificationException.getUnexecutedModifications()}.
      *

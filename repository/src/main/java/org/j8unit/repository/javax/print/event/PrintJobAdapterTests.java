@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.print.event;
 
 import javax.print.event.PrintJobAdapter;
-import javax.print.event.PrintJobEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.print.event.PrintJobListenerTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobAdapter#printJobNoMoreEvents(PrintJobEvent)
-     * public void javax.print.event.PrintJobAdapter.printJobNoMoreEvents(javax.print.event.PrintJobEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.event.PrintJobAdapter#printJobNoMoreEvents(javax.print.event.PrintJobEvent) public void
+     * javax.print.event.PrintJobAdapter.printJobNoMoreEvents(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +59,7 @@ extends org.j8unit.repository.javax.print.event.PrintJobListenerTests<SUT>, org.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintJobAdapter#printDataTransferCompleted(PrintJobEvent) public void
+     * {@link javax.print.event.PrintJobAdapter#printDataTransferCompleted(javax.print.event.PrintJobEvent) public void
      * javax.print.event.PrintJobAdapter.printDataTransferCompleted(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,9 @@ extends org.j8unit.repository.javax.print.event.PrintJobListenerTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobAdapter#printJobCanceled(PrintJobEvent)
-     * public void javax.print.event.PrintJobAdapter.printJobCanceled(javax.print.event.PrintJobEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.event.PrintJobAdapter#printJobCanceled(javax.print.event.PrintJobEvent) public void
+     * javax.print.event.PrintJobAdapter.printJobCanceled(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,7 +107,7 @@ extends org.j8unit.repository.javax.print.event.PrintJobListenerTests<SUT>, org.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintJobAdapter#printJobRequiresAttention(PrintJobEvent) public void
+     * {@link javax.print.event.PrintJobAdapter#printJobRequiresAttention(javax.print.event.PrintJobEvent) public void
      * javax.print.event.PrintJobAdapter.printJobRequiresAttention(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,8 +130,9 @@ extends org.j8unit.repository.javax.print.event.PrintJobListenerTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobAdapter#printJobCompleted(PrintJobEvent)
-     * public void javax.print.event.PrintJobAdapter.printJobCompleted(javax.print.event.PrintJobEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.event.PrintJobAdapter#printJobCompleted(javax.print.event.PrintJobEvent) public void
+     * javax.print.event.PrintJobAdapter.printJobCompleted(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +154,9 @@ extends org.j8unit.repository.javax.print.event.PrintJobListenerTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobAdapter#printJobFailed(PrintJobEvent) public
-     * void javax.print.event.PrintJobAdapter.printJobFailed(javax.print.event.PrintJobEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.event.PrintJobAdapter#printJobFailed(javax.print.event.PrintJobEvent) public void
+     * javax.print.event.PrintJobAdapter.printJobFailed(javax.print.event.PrintJobEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

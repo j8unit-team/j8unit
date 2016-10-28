@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.util.function.PredicateClassTests<Predicat
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Predicate#isEqual(Object) public static
-     * <T> java.util.function.Predicate<T> java.util.function.Predicate.isEqual(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.Predicate#isEqual(Object) public
+     * static <T> java.util.function.Predicate<T> java.util.function.Predicate.isEqual(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,7 +37,7 @@ implements org.j8unit.repository.java.util.function.PredicateClassTests<Predicat
     @Category(Draft.class)
     public void test_isEqual_Object()
     throws Exception {
-        // write some test for {@link Predicate#isEqual(Object)}
+        // write some test for {@link java.util.function.Predicate#isEqual(Object)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.Predicate]

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.io.ObjectStreamClassClassTests<ObjectStrea
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectStreamClass#lookupAny(Class) public static
-     * java.io.ObjectStreamClass java.io.ObjectStreamClass.lookupAny(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectStreamClass#lookupAny(Class) public
+     * static java.io.ObjectStreamClass java.io.ObjectStreamClass.lookupAny(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.io.ObjectStreamClassClassTests<ObjectStrea
     @Category(Draft.class)
     public void test_lookupAny_Class()
     throws Exception {
-        // write some test for {@link ObjectStreamClass#lookupAny(Class)}
+        // write some test for {@link java.io.ObjectStreamClass#lookupAny(Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectStreamClass#lookup(Class) public static
-     * java.io.ObjectStreamClass java.io.ObjectStreamClass.lookup(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectStreamClass#lookup(Class) public
+     * static java.io.ObjectStreamClass java.io.ObjectStreamClass.lookup(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.io.ObjectStreamClassClassTests<ObjectStrea
     @Category(Draft.class)
     public void test_lookup_Class()
     throws Exception {
-        // write some test for {@link ObjectStreamClass#lookup(Class)}
+        // write some test for {@link java.io.ObjectStreamClass#lookup(Class)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectStreamClass]

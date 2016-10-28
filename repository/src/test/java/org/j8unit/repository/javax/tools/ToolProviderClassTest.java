@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.tools.ToolProviderClassTests<ToolProvider
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolProvider#getSystemToolClassLoader() public
-     * static java.lang.ClassLoader javax.tools.ToolProvider.getSystemToolClassLoader()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.ToolProvider#getSystemToolClassLoader()
+     * public static java.lang.ClassLoader javax.tools.ToolProvider.getSystemToolClassLoader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,14 @@ implements org.j8unit.repository.javax.tools.ToolProviderClassTests<ToolProvider
     @Category(Draft.class)
     public void test_getSystemToolClassLoader()
     throws Exception {
-        // write some test for {@link ToolProvider#getSystemToolClassLoader()}
+        // write some test for {@link javax.tools.ToolProvider#getSystemToolClassLoader()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolProvider#getSystemDocumentationTool() public
-     * static javax.tools.DocumentationTool javax.tools.ToolProvider.getSystemDocumentationTool()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.ToolProvider#getSystemDocumentationTool() public static javax.tools.DocumentationTool
+     * javax.tools.ToolProvider.getSystemDocumentationTool()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,13 +57,13 @@ implements org.j8unit.repository.javax.tools.ToolProviderClassTests<ToolProvider
     @Category(Draft.class)
     public void test_getSystemDocumentationTool()
     throws Exception {
-        // write some test for {@link ToolProvider#getSystemDocumentationTool()}
+        // write some test for {@link javax.tools.ToolProvider#getSystemDocumentationTool()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ToolProvider#getSystemJavaCompiler() public static
-     * javax.tools.JavaCompiler javax.tools.ToolProvider.getSystemJavaCompiler()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.ToolProvider#getSystemJavaCompiler()
+     * public static javax.tools.JavaCompiler javax.tools.ToolProvider.getSystemJavaCompiler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,7 +77,7 @@ implements org.j8unit.repository.javax.tools.ToolProviderClassTests<ToolProvider
     @Category(Draft.class)
     public void test_getSystemJavaCompiler()
     throws Exception {
-        // write some test for {@link ToolProvider#getSystemJavaCompiler()}
+        // write some test for {@link javax.tools.ToolProvider#getSystemJavaCompiler()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.ToolProvider]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.Element;
 import javax.swing.text.PasswordView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.PasswordViewClassTests<Passwor
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PasswordView#PasswordView(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.PasswordView#PasswordView(javax.swing.text.Element) public
      * javax.swing.text.PasswordView(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.PasswordViewClassTests<Passwor
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PasswordView sut = null; // = new PasswordView(Element);
+        final PasswordView sut = null; // = new PasswordView(javax.swing.text.Element);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.PasswordView]

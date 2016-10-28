@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.InvalidAttributeValueException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidAttributeValueException#InvalidAttributeValueException() public
+     * {@link javax.management.InvalidAttributeValueException#InvalidAttributeValueException() public
      * javax.management.InvalidAttributeValueException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.InvalidAttributeValueException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidAttributeValueException#InvalidAttributeValueException(String) public
+     * {@link javax.management.InvalidAttributeValueException#InvalidAttributeValueException(String) public
      * javax.management.InvalidAttributeValueException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

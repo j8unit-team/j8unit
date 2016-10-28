@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathExceptionClassTests<XPathE
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XPathException#XPathException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.xpath.XPathException#XPathException(String) public
      * javax.xml.xpath.XPathException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +44,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathExceptionClassTests<XPathE
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XPathException#XPathException(Throwable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.xpath.XPathException#XPathException(Throwable) public
      * javax.xml.xpath.XPathException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

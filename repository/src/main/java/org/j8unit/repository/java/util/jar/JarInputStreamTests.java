@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.zip.ZipInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarInputStream#getNextJarEntry() public
-     * java.util.jar.JarEntry java.util.jar.JarInputStream.getNextJarEntry() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarInputStream#getNextJarEntry()
+     * public java.util.jar.JarEntry java.util.jar.JarInputStream.getNextJarEntry() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.zip.ZipInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarInputStream#getNextEntry() public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarInputStream#getNextEntry() public
      * java.util.zip.ZipEntry java.util.jar.JarInputStream.getNextEntry() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.util.zip.ZipInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarInputStream#read(byte[], int, int) public int
-     * java.util.jar.JarInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarInputStream#read(byte[], int, int)
+     * public int java.util.jar.JarInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.util.zip.ZipInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarInputStream#getManifest() public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarInputStream#getManifest() public
      * java.util.jar.Manifest java.util.jar.JarInputStream.getManifest()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFontElement#setFace(String) public abstract void
-     * org.w3c.dom.html.HTMLFontElement.setFace(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFontElement#setFace(String)
+     * public abstract void org.w3c.dom.html.HTMLFontElement.setFace(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFontElement#setColor(String) public abstract
-     * void org.w3c.dom.html.HTMLFontElement.setColor(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFontElement#setColor(String)
+     * public abstract void org.w3c.dom.html.HTMLFontElement.setColor(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFontElement#setSize(String) public abstract void
-     * org.w3c.dom.html.HTMLFontElement.setSize(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFontElement#setSize(String)
+     * public abstract void org.w3c.dom.html.HTMLFontElement.setSize(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFontElement#getSize() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFontElement.getSize()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFontElement#getSize() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLFontElement.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFontElement#getFace() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFontElement.getFace()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFontElement#getFace() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLFontElement.getFace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFontElement#getColor() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFontElement.getColor()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFontElement#getColor() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLFontElement.getColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

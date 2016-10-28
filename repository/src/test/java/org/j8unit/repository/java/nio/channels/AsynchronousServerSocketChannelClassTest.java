@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.nio.channels.AsynchronousChannelGroup;
 import java.nio.channels.AsynchronousServerSocketChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousServerSocketChann
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousServerSocketChannel#open() public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#open() public static
      * java.nio.channels.AsynchronousServerSocketChannel java.nio.channels.AsynchronousServerSocketChannel.open() throws
      * java.io.IOException}.
      *
@@ -38,14 +38,14 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousServerSocketChann
     @Category(Draft.class)
     public void test_open()
     throws Exception {
-        // write some test for {@link AsynchronousServerSocketChannel#open()}
+        // write some test for {@link java.nio.channels.AsynchronousServerSocketChannel#open()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousServerSocketChannel#open(AsynchronousChannelGroup) public static
-     * java.nio.channels.AsynchronousServerSocketChannel
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#open(java.nio.channels.AsynchronousChannelGroup) public
+     * static java.nio.channels.AsynchronousServerSocketChannel
      * java.nio.channels.AsynchronousServerSocketChannel.open(java.nio.channels.AsynchronousChannelGroup) throws
      * java.io.IOException}.
      *
@@ -61,7 +61,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousServerSocketChann
     @Category(Draft.class)
     public void test_open_AsynchronousChannelGroup()
     throws Exception {
-        // write some test for {@link AsynchronousServerSocketChannel#open(AsynchronousChannelGroup)}
+        // write some test for {@link
+        // java.nio.channels.AsynchronousServerSocketChannel#open(java.nio.channels.AsynchronousChannelGroup)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AsynchronousServerSocketChannel]

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParseException#getErrorOffset() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.ParseException#getErrorOffset() public int
      * java.text.ParseException.getErrorOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

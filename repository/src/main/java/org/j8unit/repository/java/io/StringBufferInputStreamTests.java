@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBufferInputStream#available() public
+     * Test method for the hereby targeted method-under-test {@link java.io.StringBufferInputStream#available() public
      * synchronized int java.io.StringBufferInputStream.available()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBufferInputStream#reset() public synchronized
-     * void java.io.StringBufferInputStream.reset()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StringBufferInputStream#reset() public
+     * synchronized void java.io.StringBufferInputStream.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBufferInputStream#skip(long) public
+     * Test method for the hereby targeted method-under-test {@link java.io.StringBufferInputStream#skip(long) public
      * synchronized long java.io.StringBufferInputStream.skip(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBufferInputStream#read() public synchronized
-     * int java.io.StringBufferInputStream.read()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StringBufferInputStream#read() public
+     * synchronized int java.io.StringBufferInputStream.read()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,9 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBufferInputStream#read(byte[], int, int)
-     * public synchronized int java.io.StringBufferInputStream.read(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.io.StringBufferInputStream#read(byte[], int, int) public synchronized int
+     * java.io.StringBufferInputStream.read(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

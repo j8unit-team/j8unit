@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.activity.ActivityCompletedExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivityCompletedException#ActivityCompletedException(String, Throwable) public
+     * {@link javax.activity.ActivityCompletedException#ActivityCompletedException(String, Throwable) public
      * javax.activity.ActivityCompletedException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.activity.ActivityCompletedExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivityCompletedException#ActivityCompletedException(Throwable) public
+     * {@link javax.activity.ActivityCompletedException#ActivityCompletedException(Throwable) public
      * javax.activity.ActivityCompletedException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.activity.ActivityCompletedExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivityCompletedException#ActivityCompletedException(String) public
+     * {@link javax.activity.ActivityCompletedException#ActivityCompletedException(String) public
      * javax.activity.ActivityCompletedException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.javax.activity.ActivityCompletedExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivityCompletedException#ActivityCompletedException() public
+     * {@link javax.activity.ActivityCompletedException#ActivityCompletedException() public
      * javax.activity.ActivityCompletedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

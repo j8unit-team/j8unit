@@ -7,7 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.IOP.CodecFactoryOperations;
-import org.omg.IOP.Encoding;
 
 /**
  * <p>
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodecFactoryOperations#create_codec(Encoding) public
-     * abstract org.omg.IOP.Codec org.omg.IOP.CodecFactoryOperations.create_codec(org.omg.IOP.Encoding) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.CodecFactoryOperations#create_codec(org.omg.IOP.Encoding) public abstract org.omg.IOP.Codec
+     * org.omg.IOP.CodecFactoryOperations.create_codec(org.omg.IOP.Encoding) throws
      * org.omg.IOP.CodecFactoryPackage.UnknownEncoding}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

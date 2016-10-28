@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.directory.InvalidSearchFilterExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidSearchFilterException#InvalidSearchFilterException() public
+     * {@link javax.naming.directory.InvalidSearchFilterException#InvalidSearchFilterException() public
      * javax.naming.directory.InvalidSearchFilterException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.naming.directory.InvalidSearchFilterExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidSearchFilterException#InvalidSearchFilterException(String) public
+     * {@link javax.naming.directory.InvalidSearchFilterException#InvalidSearchFilterException(String) public
      * javax.naming.directory.InvalidSearchFilterException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

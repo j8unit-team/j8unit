@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.IllegalFormatWidthExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalFormatWidthException#IllegalFormatWidthException(int) public
+     * {@link java.util.IllegalFormatWidthException#IllegalFormatWidthException(int) public
      * java.util.IllegalFormatWidthException(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.ObjectStreamExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidClassException#getMessage() public
+     * Test method for the hereby targeted method-under-test {@link java.io.InvalidClassException#getMessage() public
      * java.lang.String java.io.InvalidClassException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

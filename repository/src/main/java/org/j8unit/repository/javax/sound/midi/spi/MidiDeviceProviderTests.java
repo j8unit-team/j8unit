@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.midi.spi;
 
-import javax.sound.midi.MidiDevice.Info;
 import javax.sound.midi.spi.MidiDeviceProvider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiDeviceProvider#isDeviceSupported(Info) public
-     * boolean javax.sound.midi.spi.MidiDeviceProvider.isDeviceSupported(javax.sound.midi.MidiDevice$Info)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.MidiDeviceProvider#isDeviceSupported(javax.sound.midi.MidiDevice.Info) public boolean
+     * javax.sound.midi.spi.MidiDeviceProvider.isDeviceSupported(javax.sound.midi.MidiDevice$Info)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiDeviceProvider#getDeviceInfo() public abstract
-     * javax.sound.midi.MidiDevice$Info[] javax.sound.midi.spi.MidiDeviceProvider.getDeviceInfo()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.MidiDeviceProvider#getDeviceInfo() public abstract javax.sound.midi.MidiDevice$Info[]
+     * javax.sound.midi.spi.MidiDeviceProvider.getDeviceInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiDeviceProvider#getDevice(Info) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.spi.MidiDeviceProvider#getDevice(javax.sound.midi.MidiDevice.Info) public abstract
      * javax.sound.midi.MidiDevice javax.sound.midi.spi.MidiDeviceProvider.getDevice(javax.sound.midi.MidiDevice$Info)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.IOP.ServiceContext;
 import org.omg.IOP.ServiceContextHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHolderClassTests<Serv
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServiceContextHolder#ServiceContextHolder()
-     * public org.omg.IOP.ServiceContextHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.ServiceContextHolder#ServiceContextHolder() public org.omg.IOP.ServiceContextHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHolderClassTests<Serv
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServiceContextHolder#ServiceContextHolder(ServiceContext) public
+     * {@link org.omg.IOP.ServiceContextHolder#ServiceContextHolder(org.omg.IOP.ServiceContext) public
      * org.omg.IOP.ServiceContextHolder(org.omg.IOP.ServiceContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHolderClassTests<Serv
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ServiceContextHolder sut = null; // = new ServiceContextHolder(ServiceContext);
+        final ServiceContextHolder sut = null; // = new ServiceContextHolder(org.omg.IOP.ServiceContext);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ServiceContextHolder]

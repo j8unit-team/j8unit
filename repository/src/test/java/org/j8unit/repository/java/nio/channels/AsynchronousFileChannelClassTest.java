@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.nio.channels;
 
 import java.nio.channels.AsynchronousFileChannel;
-import java.nio.file.OpenOption;
-import java.nio.file.Path;
-import java.nio.file.attribute.FileAttribute;
-import java.util.Set;
-import java.util.concurrent.ExecutorService;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -27,8 +22,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousFileChannelClassT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousFileChannel#open(Path, Set, ExecutorService, FileAttribute...) public static
-     * java.nio.channels.AsynchronousFileChannel
+     * {@link java.nio.channels.AsynchronousFileChannel#open(java.nio.file.Path, java.util.Set, java.util.concurrent.ExecutorService, java.nio.file.attribute.FileAttribute...)
+     * public static java.nio.channels.AsynchronousFileChannel
      * java.nio.channels.AsynchronousFileChannel.open(java.nio.file.Path,java.util.Set<? extends
      * java.nio.file.OpenOption>,java.util.concurrent.ExecutorService,java.nio.file.attribute.FileAttribute<?>...)
      * throws java.io.IOException}.
@@ -45,13 +40,15 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousFileChannelClassT
     @Category(Draft.class)
     public void test_open_Path_Set_ExecutorService_FileAttributeArray()
     throws Exception {
-        // write some test for {@link AsynchronousFileChannel#open(Path, Set, ExecutorService, FileAttribute...)}
+        // write some test for {@link java.nio.channels.AsynchronousFileChannel#open(java.nio.file.Path, java.util.Set,
+        // java.util.concurrent.ExecutorService, java.nio.file.attribute.FileAttribute...)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#open(Path, OpenOption...)
-     * public static java.nio.channels.AsynchronousFileChannel
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousFileChannel#open(java.nio.file.Path, java.nio.file.OpenOption...) public
+     * static java.nio.channels.AsynchronousFileChannel
      * java.nio.channels.AsynchronousFileChannel.open(java.nio.file.Path,java.nio.file.OpenOption...) throws
      * java.io.IOException}.
      *
@@ -67,7 +64,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousFileChannelClassT
     @Category(Draft.class)
     public void test_open_Path_OpenOptionArray()
     throws Exception {
-        // write some test for {@link AsynchronousFileChannel#open(Path, OpenOption...)}
+        // write some test for {@link java.nio.channels.AsynchronousFileChannel#open(java.nio.file.Path,
+        // java.nio.file.OpenOption...)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AsynchronousFileChannel]

@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.script.ScriptEngineManagerClassTests<Scri
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ScriptEngineManager#ScriptEngineManager()
-     * public javax.script.ScriptEngineManager()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.script.ScriptEngineManager#ScriptEngineManager() public javax.script.ScriptEngineManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.javax.script.ScriptEngineManagerClassTests<Scri
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ScriptEngineManager#ScriptEngineManager(ClassLoader) public
+     * {@link javax.script.ScriptEngineManager#ScriptEngineManager(ClassLoader) public
      * javax.script.ScriptEngineManager(java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

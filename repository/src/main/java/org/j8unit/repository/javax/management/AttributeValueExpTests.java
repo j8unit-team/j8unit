@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.AttributeValueExp;
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeValueExp#setMBeanServer(MBeanServer) public
-     * void javax.management.AttributeValueExp.setMBeanServer(javax.management.MBeanServer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeValueExp#setMBeanServer(javax.management.MBeanServer) public void
+     * javax.management.AttributeValueExp.setMBeanServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeValueExp#getAttributeName() public
-     * java.lang.String javax.management.AttributeValueExp.getAttributeName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeValueExp#getAttributeName() public java.lang.String
+     * javax.management.AttributeValueExp.getAttributeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeValueExp#toString() public java.lang.String
-     * javax.management.AttributeValueExp.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.AttributeValueExp#toString() public
+     * java.lang.String javax.management.AttributeValueExp.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,9 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeValueExp#apply(ObjectName) public
-     * javax.management.ValueExp javax.management.AttributeValueExp.apply(javax.management.ObjectName) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeValueExp#apply(javax.management.ObjectName) public javax.management.ValueExp
+     * javax.management.AttributeValueExp.apply(javax.management.ObjectName) throws
      * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
      * .
      *

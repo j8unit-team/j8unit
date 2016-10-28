@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.PortableInterceptor.ObjectReferenceTemplate;
 import org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectReferenceTemplateSeqHolder#ObjectReferenceTemplateSeqHolder() public
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder#ObjectReferenceTemplateSeqHolder() public
      * org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +44,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectReferenceTemplateSeqHolder#ObjectReferenceTemplateSeqHolder(ObjectReferenceTemplate[]) public
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder#ObjectReferenceTemplateSeqHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate[])
+     * public
      * org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate[])}
      * .
      *
@@ -64,7 +64,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
         // create new instance
         @SuppressWarnings("unused")
         final ObjectReferenceTemplateSeqHolder sut = null; // = new
-                                                           // ObjectReferenceTemplateSeqHolder(ObjectReferenceTemplate[]);
+                                                           // ObjectReferenceTemplateSeqHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder]

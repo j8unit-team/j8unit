@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryCacheImageInputStream#flushBefore(long) public
-     * void javax.imageio.stream.MemoryCacheImageInputStream.flushBefore(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#flushBefore(long) public void
+     * javax.imageio.stream.MemoryCacheImageInputStream.flushBefore(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryCacheImageInputStream#read(byte[], int, int)
-     * public int javax.imageio.stream.MemoryCacheImageInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#read(byte[], int, int) public int
+     * javax.imageio.stream.MemoryCacheImageInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +82,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryCacheImageInputStream#read() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#read() public int
      * javax.imageio.stream.MemoryCacheImageInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +106,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryCacheImageInputStream#isCachedFile() public
-     * boolean javax.imageio.stream.MemoryCacheImageInputStream.isCachedFile()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#isCachedFile() public boolean
+     * javax.imageio.stream.MemoryCacheImageInputStream.isCachedFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +130,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryCacheImageInputStream#isCachedMemory() public
-     * boolean javax.imageio.stream.MemoryCacheImageInputStream.isCachedMemory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#isCachedMemory() public boolean
+     * javax.imageio.stream.MemoryCacheImageInputStream.isCachedMemory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +154,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryCacheImageInputStream#isCached() public
-     * boolean javax.imageio.stream.MemoryCacheImageInputStream.isCached()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#isCached() public boolean
+     * javax.imageio.stream.MemoryCacheImageInputStream.isCached()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +178,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryCacheImageInputStream#close() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#close() public void
      * javax.imageio.stream.MemoryCacheImageInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

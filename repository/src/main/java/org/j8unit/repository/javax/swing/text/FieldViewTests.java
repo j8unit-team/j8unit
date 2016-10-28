@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
-import javax.swing.event.DocumentEvent;
 import javax.swing.text.FieldView;
-import javax.swing.text.Position.Bias;
-import javax.swing.text.ViewFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +34,8 @@ extends org.j8unit.repository.javax.swing.text.PlainViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldView#viewToModel(float, float, Shape, Bias[])
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.FieldView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
      * public int javax.swing.text.FieldView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +58,8 @@ extends org.j8unit.repository.javax.swing.text.PlainViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldView#getResizeWeight(int) public int
-     * javax.swing.text.FieldView.getResizeWeight(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.FieldView#getResizeWeight(int)
+     * public int javax.swing.text.FieldView.getResizeWeight(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,7 +82,8 @@ extends org.j8unit.repository.javax.swing.text.PlainViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FieldView#removeUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.FieldView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.FieldView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -110,7 +107,8 @@ extends org.j8unit.repository.javax.swing.text.PlainViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.FieldView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.FieldView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,8 +131,8 @@ extends org.j8unit.repository.javax.swing.text.PlainViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldView#getPreferredSpan(int) public float
-     * javax.swing.text.FieldView.getPreferredSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.FieldView#getPreferredSpan(int)
+     * public float javax.swing.text.FieldView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,7 +155,8 @@ extends org.j8unit.repository.javax.swing.text.PlainViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FieldView#insertUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.FieldView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.FieldView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -181,7 +180,8 @@ extends org.j8unit.repository.javax.swing.text.PlainViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldView#modelToView(int, Shape, Bias) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.FieldView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.FieldView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias) throws
      * javax.swing.text.BadLocationException}.
      *

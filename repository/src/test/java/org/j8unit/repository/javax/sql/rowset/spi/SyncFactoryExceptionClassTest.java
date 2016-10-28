@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.sql.rowset.spi.SyncFactoryExceptionClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SyncFactoryException#SyncFactoryException()
-     * public javax.sql.rowset.spi.SyncFactoryException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.spi.SyncFactoryException#SyncFactoryException() public
+     * javax.sql.rowset.spi.SyncFactoryException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.sql.rowset.spi.SyncFactoryExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SyncFactoryException#SyncFactoryException(String) public
+     * {@link javax.sql.rowset.spi.SyncFactoryException#SyncFactoryException(String) public
      * javax.sql.rowset.spi.SyncFactoryException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

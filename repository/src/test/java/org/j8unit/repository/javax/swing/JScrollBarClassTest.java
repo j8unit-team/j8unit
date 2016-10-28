@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JScrollBarClassTests<JScrollBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JScrollBar#JScrollBar(int) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JScrollBar#JScrollBar(int) public
      * javax.swing.JScrollBar(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +43,9 @@ implements org.j8unit.repository.javax.swing.JScrollBarClassTests<JScrollBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JScrollBar#JScrollBar(int, int, int, int, int)
-     * public javax.swing.JScrollBar(int,int,int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JScrollBar#JScrollBar(int, int, int, int, int) public
+     * javax.swing.JScrollBar(int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,7 +66,7 @@ implements org.j8unit.repository.javax.swing.JScrollBarClassTests<JScrollBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JScrollBar#JScrollBar() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JScrollBar#JScrollBar() public
      * javax.swing.JScrollBar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

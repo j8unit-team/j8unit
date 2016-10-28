@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import javax.swing.Action;
 import javax.swing.JMenu;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JMenuClassTests<JMenu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenu#JMenu(String, boolean) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenu#JMenu(String, boolean) public
      * javax.swing.JMenu(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +43,8 @@ implements org.j8unit.repository.javax.swing.JMenuClassTests<JMenu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenu#JMenu(Action) public
-     * javax.swing.JMenu(javax.swing.Action)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenu#JMenu(javax.swing.Action)
+     * public javax.swing.JMenu(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,12 +60,12 @@ implements org.j8unit.repository.javax.swing.JMenuClassTests<JMenu> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JMenu sut = null; // = new JMenu(Action);
+        final JMenu sut = null; // = new JMenu(javax.swing.Action);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenu#JMenu(String) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenu#JMenu(String) public
      * javax.swing.JMenu(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,7 +87,8 @@ implements org.j8unit.repository.javax.swing.JMenuClassTests<JMenu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenu#JMenu() public javax.swing.JMenu()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenu#JMenu() public
+     * javax.swing.JMenu()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

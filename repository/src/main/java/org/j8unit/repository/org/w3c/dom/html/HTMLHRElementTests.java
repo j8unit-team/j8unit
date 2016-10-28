@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLHRElement#setAlign(String) public abstract void
-     * org.w3c.dom.html.HTMLHRElement.setAlign(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLHRElement#setAlign(String)
+     * public abstract void org.w3c.dom.html.HTMLHRElement.setAlign(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLHRElement#getNoShade() public abstract boolean
-     * org.w3c.dom.html.HTMLHRElement.getNoShade()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLHRElement#getNoShade() public
+     * abstract boolean org.w3c.dom.html.HTMLHRElement.getNoShade()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLHRElement#setSize(String) public abstract void
-     * org.w3c.dom.html.HTMLHRElement.setSize(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLHRElement#setSize(String)
+     * public abstract void org.w3c.dom.html.HTMLHRElement.setSize(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLHRElement#setNoShade(boolean) public abstract
-     * void org.w3c.dom.html.HTMLHRElement.setNoShade(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLHRElement#setNoShade(boolean)
+     * public abstract void org.w3c.dom.html.HTMLHRElement.setNoShade(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLHRElement#getSize() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLHRElement.getSize()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLHRElement#getSize() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLHRElement.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLHRElement#setWidth(String) public abstract void
-     * org.w3c.dom.html.HTMLHRElement.setWidth(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLHRElement#setWidth(String)
+     * public abstract void org.w3c.dom.html.HTMLHRElement.setWidth(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +166,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLHRElement#getAlign() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLHRElement.getAlign()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLHRElement#getAlign() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLHRElement.getAlign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +188,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLHRElement#getWidth() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLHRElement.getWidth()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLHRElement#getWidth() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLHRElement.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

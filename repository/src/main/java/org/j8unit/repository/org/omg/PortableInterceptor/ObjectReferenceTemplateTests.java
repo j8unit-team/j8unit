@@ -34,8 +34,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactory
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceTemplate#adapter_name() public
-     * abstract java.lang.String[] org.omg.PortableInterceptor.ObjectReferenceTemplate.adapter_name()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplate#adapter_name() public abstract java.lang.String[]
+     * org.omg.PortableInterceptor.ObjectReferenceTemplate.adapter_name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactory
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceTemplate#orb_id() public abstract
-     * java.lang.String org.omg.PortableInterceptor.ObjectReferenceTemplate.orb_id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplate#orb_id() public abstract java.lang.String
+     * org.omg.PortableInterceptor.ObjectReferenceTemplate.orb_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactory
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceTemplate#server_id() public abstract
-     * java.lang.String org.omg.PortableInterceptor.ObjectReferenceTemplate.server_id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplate#server_id() public abstract java.lang.String
+     * org.omg.PortableInterceptor.ObjectReferenceTemplate.server_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

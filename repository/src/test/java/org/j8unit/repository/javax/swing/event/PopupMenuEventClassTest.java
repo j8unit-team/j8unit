@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.swing.event.PopupMenuEventClassTests<Popu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PopupMenuEvent#PopupMenuEvent(Object) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.event.PopupMenuEvent#PopupMenuEvent(Object) public
      * javax.swing.event.PopupMenuEvent(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

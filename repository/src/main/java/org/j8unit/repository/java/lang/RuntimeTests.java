@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.lang;
 
-import java.io.File;
-import java.io.InputStream;
-import java.io.OutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -124,8 +121,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Runtime#getLocalizedOutputStream(OutputStream)
-     * public java.io.OutputStream java.lang.Runtime.getLocalizedOutputStream(java.io.OutputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link Runtime#getLocalizedOutputStream(java.io.OutputStream) public java.io.OutputStream
+     * java.lang.Runtime.getLocalizedOutputStream(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +210,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Runtime#getLocalizedInputStream(InputStream) public
-     * java.io.InputStream java.lang.Runtime.getLocalizedInputStream(java.io.InputStream)}.
+     * Test method for the hereby targeted method-under-test {@link Runtime#getLocalizedInputStream(java.io.InputStream)
+     * public java.io.InputStream java.lang.Runtime.getLocalizedInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,7 +298,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Runtime#exec(String, String[], File) public
+     * Test method for the hereby targeted method-under-test {@link Runtime#exec(String, String[], java.io.File) public
      * java.lang.Process java.lang.Runtime.exec(java.lang.String,java.lang.String[],java.io.File) throws
      * java.io.IOException}.
      *
@@ -345,8 +343,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Runtime#exec(String[], String[], File) public
-     * java.lang.Process java.lang.Runtime.exec(java.lang.String[],java.lang.String[],java.io.File) throws
+     * Test method for the hereby targeted method-under-test {@link Runtime#exec(String[], String[], java.io.File)
+     * public java.lang.Process java.lang.Runtime.exec(java.lang.String[],java.lang.String[],java.io.File) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

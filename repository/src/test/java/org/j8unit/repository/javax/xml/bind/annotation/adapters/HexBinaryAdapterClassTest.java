@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.adapters.HexBinaryAda
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HexBinaryAdapter#HexBinaryAdapter() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.annotation.adapters.HexBinaryAdapter#HexBinaryAdapter() public
      * javax.xml.bind.annotation.adapters.HexBinaryAdapter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

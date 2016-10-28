@@ -7,11 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.ValueMember;
 import org.omg.CORBA.ValueMemberHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class ValueMemberHelperClassTest
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberHelperClassTests<Value
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ValueMemberHelper#ValueMemberHelper() public
-     * org.omg.CORBA.ValueMemberHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ValueMemberHelper#ValueMemberHelper() public org.omg.CORBA.ValueMemberHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberHelperClassTests<Value
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueMemberHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ValueMemberHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.CORBA.ValueMember org.omg.CORBA.ValueMemberHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +58,14 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberHelperClassTests<Value
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ValueMemberHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.ValueMemberHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueMemberHelper#extract(Any) public static
-     * org.omg.CORBA.ValueMember org.omg.CORBA.ValueMemberHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ValueMemberHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.ValueMember
+     * org.omg.CORBA.ValueMemberHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,13 +79,14 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberHelperClassTests<Value
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ValueMemberHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.ValueMemberHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueMemberHelper#insert(Any, ValueMember) public
-     * static void org.omg.CORBA.ValueMemberHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.ValueMember)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ValueMemberHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.ValueMember) public static void
+     * org.omg.CORBA.ValueMemberHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.ValueMember)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,12 +100,13 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberHelperClassTests<Value
     @Category(Draft.class)
     public void test_insert_Any_ValueMember()
     throws Exception {
-        // write some test for {@link ValueMemberHelper#insert(Any, ValueMember)}
+        // write some test for {@link org.omg.CORBA.ValueMemberHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CORBA.ValueMember)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueMemberHelper#id() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ValueMemberHelper#id() public static
      * java.lang.String org.omg.CORBA.ValueMemberHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,12 +121,13 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberHelperClassTests<Value
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ValueMemberHelper#id()}
+        // write some test for {@link org.omg.CORBA.ValueMemberHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueMemberHelper#write(OutputStream, ValueMember)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ValueMemberHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.ValueMember)
      * public static void
      * org.omg.CORBA.ValueMemberHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.ValueMember)}.
      *
@@ -142,13 +143,14 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberHelperClassTests<Value
     @Category(Draft.class)
     public void test_write_OutputStream_ValueMember()
     throws Exception {
-        // write some test for {@link ValueMemberHelper#write(OutputStream, ValueMember)}
+        // write some test for {@link org.omg.CORBA.ValueMemberHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CORBA.ValueMember)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueMemberHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ValueMemberHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ValueMemberHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.ValueMemberHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,7 +164,7 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberHelperClassTests<Value
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ValueMemberHelper#type()}
+        // write some test for {@link org.omg.CORBA.ValueMemberHelper#type()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ValueMemberHelper]

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayInputStream#markSupported() public boolean
-     * java.io.ByteArrayInputStream.markSupported()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayInputStream#markSupported() public
+     * boolean java.io.ByteArrayInputStream.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayInputStream#read() public synchronized int
-     * java.io.ByteArrayInputStream.read()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayInputStream#read() public
+     * synchronized int java.io.ByteArrayInputStream.read()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayInputStream#read(byte[], int, int) public
-     * synchronized int java.io.ByteArrayInputStream.read(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayInputStream#read(byte[], int, int)
+     * public synchronized int java.io.ByteArrayInputStream.read(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayInputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayInputStream#close() public void
      * java.io.ByteArrayInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayInputStream#mark(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayInputStream#mark(int) public void
      * java.io.ByteArrayInputStream.mark(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +149,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayInputStream#available() public synchronized
-     * int java.io.ByteArrayInputStream.available()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayInputStream#available() public
+     * synchronized int java.io.ByteArrayInputStream.available()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +172,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayInputStream#reset() public synchronized
-     * void java.io.ByteArrayInputStream.reset()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayInputStream#reset() public
+     * synchronized void java.io.ByteArrayInputStream.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +195,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayInputStream#skip(long) public synchronized
-     * long java.io.ByteArrayInputStream.skip(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayInputStream#skip(long) public
+     * synchronized long java.io.ByteArrayInputStream.skip(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

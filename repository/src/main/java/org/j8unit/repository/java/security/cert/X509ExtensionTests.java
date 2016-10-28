@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509Extension#getNonCriticalExtensionOIDs() public
-     * abstract java.util.Set<java.lang.String> java.security.cert.X509Extension.getNonCriticalExtensionOIDs()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509Extension#getNonCriticalExtensionOIDs() public abstract java.util.Set
+     * <java.lang.String> java.security.cert.X509Extension.getNonCriticalExtensionOIDs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509Extension#getExtensionValue(String) public
-     * abstract byte[] java.security.cert.X509Extension.getExtensionValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509Extension#getExtensionValue(String) public abstract byte[]
+     * java.security.cert.X509Extension.getExtensionValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509Extension#hasUnsupportedCriticalExtension()
-     * public abstract boolean java.security.cert.X509Extension.hasUnsupportedCriticalExtension()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509Extension#hasUnsupportedCriticalExtension() public abstract boolean
+     * java.security.cert.X509Extension.hasUnsupportedCriticalExtension()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509Extension#getCriticalExtensionOIDs() public
-     * abstract java.util.Set<java.lang.String> java.security.cert.X509Extension.getCriticalExtensionOIDs()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509Extension#getCriticalExtensionOIDs() public abstract java.util.Set
+     * <java.lang.String> java.security.cert.X509Extension.getCriticalExtensionOIDs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

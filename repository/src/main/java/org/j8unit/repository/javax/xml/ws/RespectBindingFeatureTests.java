@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RespectBindingFeature#getID() public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.RespectBindingFeature#getID() public
      * java.lang.String javax.xml.ws.RespectBindingFeature.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

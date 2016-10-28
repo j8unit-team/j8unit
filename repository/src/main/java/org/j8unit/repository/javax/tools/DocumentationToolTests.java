@@ -1,13 +1,8 @@
 package org.j8unit.repository.javax.tools;
 
-import java.io.Writer;
-import java.nio.charset.Charset;
-import java.util.Locale;
-import javax.tools.DiagnosticListener;
 import javax.tools.DocumentationTool;
 import javax.tools.DocumentationTool.DocumentationTask;
 import javax.tools.DocumentationTool.Location;
-import javax.tools.JavaFileManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -42,8 +37,8 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocumentationTool#getTask(Writer, JavaFileManager, DiagnosticListener, Class, Iterable, Iterable) public
-     * abstract javax.tools.DocumentationTool$DocumentationTask
+     * {@link javax.tools.DocumentationTool#getTask(java.io.Writer, javax.tools.JavaFileManager, javax.tools.DiagnosticListener, Class, Iterable, Iterable)
+     * public abstract javax.tools.DocumentationTool$DocumentationTask
      * javax.tools.DocumentationTool.getTask(java.io.Writer,javax.tools.JavaFileManager,javax.tools.DiagnosticListener<?
      * super javax.tools.JavaFileObject>,java.lang.Class<?>,java.lang.Iterable<java.lang.String>,java.lang.Iterable<?
      * extends javax.tools.JavaFileObject>)}.
@@ -68,8 +63,8 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocumentationTool#getStandardFileManager(DiagnosticListener, Locale, Charset) public abstract
-     * javax.tools.StandardJavaFileManager
+     * {@link javax.tools.DocumentationTool#getStandardFileManager(javax.tools.DiagnosticListener, java.util.Locale, java.nio.charset.Charset)
+     * public abstract javax.tools.StandardJavaFileManager
      * javax.tools.DocumentationTool.getStandardFileManager(javax.tools.DiagnosticListener<? super
      * javax.tools.JavaFileObject>,java.util.Locale,java.nio.charset.Charset)}.
      *
@@ -119,8 +114,8 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Location#getName() public java.lang.String
-         * javax.tools.DocumentationTool$Location.getName()}.
+         * Test method for the hereby targeted method-under-test {@link javax.tools.DocumentationTool.Location#getName()
+         * public java.lang.String javax.tools.DocumentationTool$Location.getName()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -142,7 +137,8 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Location#isOutputLocation() public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.tools.DocumentationTool.Location#isOutputLocation() public boolean
          * javax.tools.DocumentationTool$Location.isOutputLocation()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,8 +190,9 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link DocumentationTask#call() public abstract
-         * java.lang.Boolean javax.tools.DocumentationTool$DocumentationTask.call()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.tools.DocumentationTool.DocumentationTask#call() public abstract java.lang.Boolean
+         * javax.tools.DocumentationTool$DocumentationTask.call()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -217,8 +214,9 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link DocumentationTask#setLocale(Locale) public
-         * abstract void javax.tools.DocumentationTool$DocumentationTask.setLocale(java.util.Locale)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.tools.DocumentationTool.DocumentationTask#setLocale(java.util.Locale) public abstract void
+         * javax.tools.DocumentationTool$DocumentationTask.setLocale(java.util.Locale)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

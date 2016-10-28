@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#duplicate() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#duplicate() public abstract
      * java.nio.ShortBuffer java.nio.ShortBuffer.duplicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#compareTo(ShortBuffer) public int
-     * java.nio.ShortBuffer.compareTo(java.nio.ShortBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#compareTo(java.nio.ShortBuffer)
+     * public int java.nio.ShortBuffer.compareTo(java.nio.ShortBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#asReadOnlyBuffer() public abstract
-     * java.nio.ShortBuffer java.nio.ShortBuffer.asReadOnlyBuffer()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#asReadOnlyBuffer() public
+     * abstract java.nio.ShortBuffer java.nio.ShortBuffer.asReadOnlyBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(short) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#put(short) public abstract
      * java.nio.ShortBuffer java.nio.ShortBuffer.put(short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(ShortBuffer) public
-     * java.nio.ShortBuffer java.nio.ShortBuffer.put(java.nio.ShortBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#put(java.nio.ShortBuffer)
+     * public java.nio.ShortBuffer java.nio.ShortBuffer.put(java.nio.ShortBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(int, short) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#put(int, short) public abstract
      * java.nio.ShortBuffer java.nio.ShortBuffer.put(int,short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,7 +166,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(short[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#put(short[], int, int) public
      * java.nio.ShortBuffer java.nio.ShortBuffer.put(short[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,7 +188,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(short[]) public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#put(short[]) public final
      * java.nio.ShortBuffer java.nio.ShortBuffer.put(short[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,7 +210,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#hasArray() public final boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#hasArray() public final boolean
      * java.nio.ShortBuffer.hasArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,7 +233,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#compact() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#compact() public abstract
      * java.nio.ShortBuffer java.nio.ShortBuffer.compact()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#arrayOffset() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#arrayOffset() public final int
      * java.nio.ShortBuffer.arrayOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -278,8 +278,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#toString() public java.lang.String
-     * java.nio.ShortBuffer.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#toString() public
+     * java.lang.String java.nio.ShortBuffer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,8 +301,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#isDirect() public abstract boolean
-     * java.nio.ShortBuffer.isDirect()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#isDirect() public abstract
+     * boolean java.nio.ShortBuffer.isDirect()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,7 +324,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#order() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#order() public abstract
      * java.nio.ByteOrder java.nio.ShortBuffer.order()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -346,7 +346,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#slice() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#slice() public abstract
      * java.nio.ShortBuffer java.nio.ShortBuffer.slice()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -368,7 +368,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#array() public final short[]
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#array() public final short[]
      * java.nio.ShortBuffer.array()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -391,7 +391,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#equals(Object) public boolean
      * java.nio.ShortBuffer.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -414,7 +414,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#get(int) public abstract short
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#get(int) public abstract short
      * java.nio.ShortBuffer.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -436,7 +436,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#get() public abstract short
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#get() public abstract short
      * java.nio.ShortBuffer.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -458,8 +458,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#get(short[]) public java.nio.ShortBuffer
-     * java.nio.ShortBuffer.get(short[])}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#get(short[]) public
+     * java.nio.ShortBuffer java.nio.ShortBuffer.get(short[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -480,7 +480,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#get(short[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#get(short[], int, int) public
      * java.nio.ShortBuffer java.nio.ShortBuffer.get(short[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -502,7 +502,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#hashCode() public int
      * java.nio.ShortBuffer.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

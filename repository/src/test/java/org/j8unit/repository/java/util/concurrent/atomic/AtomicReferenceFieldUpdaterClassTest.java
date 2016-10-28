@@ -23,7 +23,7 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceFiel
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicReferenceFieldUpdater#newUpdater(Class, Class, String) public static
+     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#newUpdater(Class, Class, String) public static
      * <U,W> java.util.concurrent.atomic.AtomicReferenceFieldUpdater<U, W>
      * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.newUpdater(java.lang.Class<U>,java.lang.Class
      * <W>,java.lang.String)}.
@@ -40,7 +40,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceFiel
     @Category(Draft.class)
     public void test_newUpdater_Class_Class_String()
     throws Exception {
-        // write some test for {@link AtomicReferenceFieldUpdater#newUpdater(Class, Class, String)}
+        // write some test for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#newUpdater(Class, Class,
+        // String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicReferenceFieldUpdater]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.ComponentInputMapUIResource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.ComponentInputMapUIResourceCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ComponentInputMapUIResource#ComponentInputMapUIResource(JComponent) public
+     * {@link javax.swing.plaf.ComponentInputMapUIResource#ComponentInputMapUIResource(javax.swing.JComponent) public
      * javax.swing.plaf.ComponentInputMapUIResource(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.ComponentInputMapUIResourceCla
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ComponentInputMapUIResource sut = null; // = new ComponentInputMapUIResource(JComponent);
+        final ComponentInputMapUIResource sut = null; // = new ComponentInputMapUIResource(javax.swing.JComponent);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.ComponentInputMapUIResource]

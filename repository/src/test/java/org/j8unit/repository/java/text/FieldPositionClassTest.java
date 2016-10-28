@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.text;
 
 import java.text.FieldPosition;
-import java.text.Format.Field;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.text.FieldPositionClassTests<FieldPosition
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FieldPosition#FieldPosition(Field, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.FieldPosition#FieldPosition(java.text.Format.Field, int) public
      * java.text.FieldPosition(java.text.Format$Field,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,12 +39,13 @@ implements org.j8unit.repository.java.text.FieldPositionClassTests<FieldPosition
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FieldPosition sut = null; // = new FieldPosition(Field, int);
+        final FieldPosition sut = null; // = new FieldPosition(java.text.Format.Field, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FieldPosition#FieldPosition(Field) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.FieldPosition#FieldPosition(java.text.Format.Field) public
      * java.text.FieldPosition(java.text.Format$Field)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +62,13 @@ implements org.j8unit.repository.java.text.FieldPositionClassTests<FieldPosition
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FieldPosition sut = null; // = new FieldPosition(Field);
+        final FieldPosition sut = null; // = new FieldPosition(java.text.Format.Field);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FieldPosition#FieldPosition(int) public
-     * java.text.FieldPosition(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.text.FieldPosition#FieldPosition(int)
+     * public java.text.FieldPosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

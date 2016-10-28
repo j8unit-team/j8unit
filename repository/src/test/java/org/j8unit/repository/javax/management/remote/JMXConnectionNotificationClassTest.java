@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectionNotificati
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JMXConnectionNotification#JMXConnectionNotification(String, Object, String, long, String, Object) public
+     * {@link javax.management.remote.JMXConnectionNotification#JMXConnectionNotification(String, Object, String, long, String, Object)
+     * public
      * javax.management.remote.JMXConnectionNotification(java.lang.String,java.lang.Object,java.lang.String,long,java.lang.String,java.lang.Object)}
      * .
      *

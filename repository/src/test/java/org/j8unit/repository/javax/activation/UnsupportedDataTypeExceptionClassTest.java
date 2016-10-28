@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.activation.UnsupportedDataTypeExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedDataTypeException#UnsupportedDataTypeException() public
+     * {@link javax.activation.UnsupportedDataTypeException#UnsupportedDataTypeException() public
      * javax.activation.UnsupportedDataTypeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.activation.UnsupportedDataTypeExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedDataTypeException#UnsupportedDataTypeException(String) public
+     * {@link javax.activation.UnsupportedDataTypeException#UnsupportedDataTypeException(String) public
      * javax.activation.UnsupportedDataTypeException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOByteBuffer#getData() public byte[]
-     * javax.imageio.stream.IIOByteBuffer.getData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.IIOByteBuffer#getData() public
+     * byte[] javax.imageio.stream.IIOByteBuffer.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOByteBuffer#getLength() public int
-     * javax.imageio.stream.IIOByteBuffer.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.IIOByteBuffer#getLength()
+     * public int javax.imageio.stream.IIOByteBuffer.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOByteBuffer#setData(byte[]) public void
-     * javax.imageio.stream.IIOByteBuffer.setData(byte[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.IIOByteBuffer#setData(byte[])
+     * public void javax.imageio.stream.IIOByteBuffer.setData(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOByteBuffer#getOffset() public int
-     * javax.imageio.stream.IIOByteBuffer.getOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.IIOByteBuffer#getOffset()
+     * public int javax.imageio.stream.IIOByteBuffer.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOByteBuffer#setOffset(int) public void
-     * javax.imageio.stream.IIOByteBuffer.setOffset(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.IIOByteBuffer#setOffset(int)
+     * public void javax.imageio.stream.IIOByteBuffer.setOffset(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOByteBuffer#setLength(int) public void
-     * javax.imageio.stream.IIOByteBuffer.setLength(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.IIOByteBuffer#setLength(int)
+     * public void javax.imageio.stream.IIOByteBuffer.setLength(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

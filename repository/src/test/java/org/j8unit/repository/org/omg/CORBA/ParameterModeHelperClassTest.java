@@ -7,11 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.ParameterMode;
 import org.omg.CORBA.ParameterModeHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class ParameterModeHelperClassTest
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperClassTests<Par
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParameterModeHelper#ParameterModeHelper()
-     * public org.omg.CORBA.ParameterModeHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ParameterModeHelper#ParameterModeHelper() public org.omg.CORBA.ParameterModeHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperClassTests<Par
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterModeHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ParameterModeHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.CORBA.ParameterMode org.omg.CORBA.ParameterModeHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +58,14 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperClassTests<Par
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ParameterModeHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.ParameterModeHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterModeHelper#extract(Any) public static
-     * org.omg.CORBA.ParameterMode org.omg.CORBA.ParameterModeHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ParameterModeHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.ParameterMode
+     * org.omg.CORBA.ParameterModeHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,13 +79,14 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperClassTests<Par
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ParameterModeHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.ParameterModeHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterModeHelper#insert(Any, ParameterMode)
-     * public static void org.omg.CORBA.ParameterModeHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.ParameterMode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ParameterModeHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.ParameterMode) public static
+     * void org.omg.CORBA.ParameterModeHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.ParameterMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,12 +100,13 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperClassTests<Par
     @Category(Draft.class)
     public void test_insert_Any_ParameterMode()
     throws Exception {
-        // write some test for {@link ParameterModeHelper#insert(Any, ParameterMode)}
+        // write some test for {@link org.omg.CORBA.ParameterModeHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CORBA.ParameterMode)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterModeHelper#id() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ParameterModeHelper#id() public static
      * java.lang.String org.omg.CORBA.ParameterModeHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,13 +121,13 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperClassTests<Par
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ParameterModeHelper#id()}
+        // write some test for {@link org.omg.CORBA.ParameterModeHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParameterModeHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.ParameterModeHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ParameterModeHelper#type() public
+     * static synchronized org.omg.CORBA.TypeCode org.omg.CORBA.ParameterModeHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -141,13 +141,14 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperClassTests<Par
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ParameterModeHelper#type()}
+        // write some test for {@link org.omg.CORBA.ParameterModeHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ParameterModeHelper#write(OutputStream, ParameterMode) public static void
+     * {@link org.omg.CORBA.ParameterModeHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.ParameterMode)
+     * public static void
      * org.omg.CORBA.ParameterModeHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.ParameterMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -162,7 +163,8 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperClassTests<Par
     @Category(Draft.class)
     public void test_write_OutputStream_ParameterMode()
     throws Exception {
-        // write some test for {@link ParameterModeHelper#write(OutputStream, ParameterMode)}
+        // write some test for {@link org.omg.CORBA.ParameterModeHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CORBA.ParameterMode)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ParameterModeHelper]

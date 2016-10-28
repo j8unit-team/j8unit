@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.management.remote.rmi._RMIServerImpl_TieC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link _RMIServerImpl_Tie#_RMIServerImpl_Tie() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.remote.rmi._RMIServerImpl_Tie#_RMIServerImpl_Tie() public
      * javax.management.remote.rmi._RMIServerImpl_Tie()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

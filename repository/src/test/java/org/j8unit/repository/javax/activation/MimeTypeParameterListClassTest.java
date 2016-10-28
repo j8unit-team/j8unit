@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.activation.MimeTypeParameterListClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MimeTypeParameterList#MimeTypeParameterList()
-     * public javax.activation.MimeTypeParameterList()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.MimeTypeParameterList#MimeTypeParameterList() public
+     * javax.activation.MimeTypeParameterList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.activation.MimeTypeParameterListClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MimeTypeParameterList#MimeTypeParameterList(String) public
+     * {@link javax.activation.MimeTypeParameterList#MimeTypeParameterList(String) public
      * javax.activation.MimeTypeParameterList(java.lang.String) throws javax.activation.MimeTypeParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

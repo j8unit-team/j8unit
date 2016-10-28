@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActiveEvent#dispatch() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.awt.ActiveEvent#dispatch() public abstract void
      * java.awt.ActiveEvent.dispatch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

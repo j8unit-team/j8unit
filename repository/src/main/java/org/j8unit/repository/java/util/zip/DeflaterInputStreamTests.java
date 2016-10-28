@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterInputStream#markSupported() public boolean
-     * java.util.zip.DeflaterInputStream.markSupported()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterInputStream#markSupported()
+     * public boolean java.util.zip.DeflaterInputStream.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterInputStream#read(byte[], int, int) public
-     * int java.util.zip.DeflaterInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.DeflaterInputStream#read(byte[], int, int) public int
+     * java.util.zip.DeflaterInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +81,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterInputStream#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterInputStream#read() public int
      * java.util.zip.DeflaterInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +104,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterInputStream#mark(int) public void
-     * java.util.zip.DeflaterInputStream.mark(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterInputStream#mark(int) public
+     * void java.util.zip.DeflaterInputStream.mark(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +127,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterInputStream#close() public void
-     * java.util.zip.DeflaterInputStream.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterInputStream#close() public
+     * void java.util.zip.DeflaterInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +150,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterInputStream#skip(long) public long
-     * java.util.zip.DeflaterInputStream.skip(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterInputStream#skip(long) public
+     * long java.util.zip.DeflaterInputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +173,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterInputStream#available() public int
-     * java.util.zip.DeflaterInputStream.available() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterInputStream#available() public
+     * int java.util.zip.DeflaterInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +196,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterInputStream#reset() public void
-     * java.util.zip.DeflaterInputStream.reset() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterInputStream#reset() public
+     * void java.util.zip.DeflaterInputStream.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

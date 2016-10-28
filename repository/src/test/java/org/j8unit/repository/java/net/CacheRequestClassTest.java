@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.CacheRequestClassTests<CacheRequest> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CacheRequest#CacheRequest() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.CacheRequest#CacheRequest() public
      * java.net.CacheRequest()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

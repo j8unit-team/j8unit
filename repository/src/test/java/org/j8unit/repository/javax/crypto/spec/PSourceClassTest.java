@@ -35,7 +35,8 @@ implements org.j8unit.repository.javax.crypto.spec.PSourceClassTests<PSource> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link PSpecified#PSpecified(byte[]) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.crypto.spec.PSource.PSpecified#PSpecified(byte[]) public
          * javax.crypto.spec.PSource$PSpecified(byte[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

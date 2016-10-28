@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.dnd.DropTargetContext;
 import java.awt.dnd.DropTargetEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetEventClassTests<DropTarg
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DropTargetEvent#DropTargetEvent(DropTargetContext) public
+     * {@link java.awt.dnd.DropTargetEvent#DropTargetEvent(java.awt.dnd.DropTargetContext) public
      * java.awt.dnd.DropTargetEvent(java.awt.dnd.DropTargetContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetEventClassTests<DropTarg
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DropTargetEvent sut = null; // = new DropTargetEvent(DropTargetContext);
+        final DropTargetEvent sut = null; // = new DropTargetEvent(java.awt.dnd.DropTargetContext);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DropTargetEvent]

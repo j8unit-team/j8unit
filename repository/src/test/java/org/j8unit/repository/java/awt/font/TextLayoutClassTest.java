@@ -1,11 +1,7 @@
 package org.j8unit.repository.java.awt.font;
 
-import java.awt.Font;
-import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
 import java.awt.font.TextLayout.CaretPolicy;
-import java.text.AttributedCharacterIterator;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -27,8 +23,8 @@ implements org.j8unit.repository.java.awt.font.TextLayoutClassTests<TextLayout> 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TextLayout#TextLayout(AttributedCharacterIterator, FontRenderContext) public
-     * java.awt.font.TextLayout(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)}.
+     * {@link java.awt.font.TextLayout#TextLayout(java.text.AttributedCharacterIterator, java.awt.font.FontRenderContext)
+     * public java.awt.font.TextLayout(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,13 +40,14 @@ implements org.j8unit.repository.java.awt.font.TextLayoutClassTests<TextLayout> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TextLayout sut = null; // = new TextLayout(AttributedCharacterIterator, FontRenderContext);
+        final TextLayout sut = null; // = new TextLayout(java.text.AttributedCharacterIterator,
+                                     // java.awt.font.FontRenderContext);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TextLayout#TextLayout(String, Map, FontRenderContext) public
+     * {@link java.awt.font.TextLayout#TextLayout(String, java.util.Map, java.awt.font.FontRenderContext) public
      * java.awt.font.TextLayout(java.lang.String,java.util.Map<? extends
      * java.text.AttributedCharacterIterator$Attribute, ?>,java.awt.font.FontRenderContext)}.
      *
@@ -68,13 +65,13 @@ implements org.j8unit.repository.java.awt.font.TextLayoutClassTests<TextLayout> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TextLayout sut = null; // = new TextLayout(String, Map, FontRenderContext);
+        final TextLayout sut = null; // = new TextLayout(String, java.util.Map, java.awt.font.FontRenderContext);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TextLayout#TextLayout(String, Font, FontRenderContext) public
+     * {@link java.awt.font.TextLayout#TextLayout(String, java.awt.Font, java.awt.font.FontRenderContext) public
      * java.awt.font.TextLayout(java.lang.String,java.awt.Font,java.awt.font.FontRenderContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +88,7 @@ implements org.j8unit.repository.java.awt.font.TextLayoutClassTests<TextLayout> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TextLayout sut = null; // = new TextLayout(String, Font, FontRenderContext);
+        final TextLayout sut = null; // = new TextLayout(String, java.awt.Font, java.awt.font.FontRenderContext);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextLayout]
@@ -109,8 +106,8 @@ implements org.j8unit.repository.java.awt.font.TextLayoutClassTests<TextLayout> 
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link CaretPolicy#CaretPolicy() public
-         * java.awt.font.TextLayout$CaretPolicy()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.font.TextLayout.CaretPolicy#CaretPolicy() public java.awt.font.TextLayout$CaretPolicy()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

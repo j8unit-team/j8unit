@@ -24,7 +24,7 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatImplCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IIOMetadataFormatImpl#IIOMetadataFormatImpl(String, int) public
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#IIOMetadataFormatImpl(String, int) public
      * javax.imageio.metadata.IIOMetadataFormatImpl(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatImplCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IIOMetadataFormatImpl#IIOMetadataFormatImpl(String, int, int) public
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#IIOMetadataFormatImpl(String, int, int) public
      * javax.imageio.metadata.IIOMetadataFormatImpl(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +65,9 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatImplCla
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOMetadataFormatImpl#getStandardFormatInstance()
-     * public static javax.imageio.metadata.IIOMetadataFormat
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#getStandardFormatInstance() public static
+     * javax.imageio.metadata.IIOMetadataFormat
      * javax.imageio.metadata.IIOMetadataFormatImpl.getStandardFormatInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +82,7 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatImplCla
     @Category(Draft.class)
     public void test_getStandardFormatInstance()
     throws Exception {
-        // write some test for {@link IIOMetadataFormatImpl#getStandardFormatInstance()}
+        // write some test for {@link javax.imageio.metadata.IIOMetadataFormatImpl#getStandardFormatInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.metadata.IIOMetadataFormatImpl]

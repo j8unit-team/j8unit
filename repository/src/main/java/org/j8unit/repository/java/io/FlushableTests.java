@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Flushable#flush() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.io.Flushable#flush() public abstract void
      * java.io.Flushable.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

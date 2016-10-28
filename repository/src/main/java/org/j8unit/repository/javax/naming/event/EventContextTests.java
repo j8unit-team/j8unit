@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.naming.event;
 
-import javax.naming.Name;
 import javax.naming.event.EventContext;
-import javax.naming.event.NamingListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,9 +34,10 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventContext#removeNamingListener(NamingListener)
-     * public abstract void javax.naming.event.EventContext.removeNamingListener(javax.naming.event.NamingListener)
-     * throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.event.EventContext#removeNamingListener(javax.naming.event.NamingListener) public abstract
+     * void javax.naming.event.EventContext.removeNamingListener(javax.naming.event.NamingListener) throws
+     * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventContext#targetMustExist() public abstract
-     * boolean javax.naming.event.EventContext.targetMustExist() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.event.EventContext#targetMustExist()
+     * public abstract boolean javax.naming.event.EventContext.targetMustExist() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +81,8 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EventContext#addNamingListener(String, int, NamingListener) public abstract void
+     * {@link javax.naming.event.EventContext#addNamingListener(String, int, javax.naming.event.NamingListener) public
+     * abstract void
      * javax.naming.event.EventContext.addNamingListener(java.lang.String,int,javax.naming.event.NamingListener) throws
      * javax.naming.NamingException}.
      *
@@ -106,7 +106,8 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EventContext#addNamingListener(Name, int, NamingListener) public abstract void
+     * {@link javax.naming.event.EventContext#addNamingListener(javax.naming.Name, int, javax.naming.event.NamingListener)
+     * public abstract void
      * javax.naming.event.EventContext.addNamingListener(javax.naming.Name,int,javax.naming.event.NamingListener) throws
      * javax.naming.NamingException}.
      *

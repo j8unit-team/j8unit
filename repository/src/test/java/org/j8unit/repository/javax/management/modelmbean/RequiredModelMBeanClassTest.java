@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.modelmbean;
 
-import javax.management.modelmbean.ModelMBeanInfo;
 import javax.management.modelmbean.RequiredModelMBean;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.management.modelmbean.RequiredModelMBeanC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RequiredModelMBean#RequiredModelMBean() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.modelmbean.RequiredModelMBean#RequiredModelMBean() public
      * javax.management.modelmbean.RequiredModelMBean() throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
@@ -45,8 +45,8 @@ implements org.j8unit.repository.javax.management.modelmbean.RequiredModelMBeanC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RequiredModelMBean#RequiredModelMBean(ModelMBeanInfo) public
-     * javax.management.modelmbean.RequiredModelMBean(javax.management.modelmbean.ModelMBeanInfo) throws
+     * {@link javax.management.modelmbean.RequiredModelMBean#RequiredModelMBean(javax.management.modelmbean.ModelMBeanInfo)
+     * public javax.management.modelmbean.RequiredModelMBean(javax.management.modelmbean.ModelMBeanInfo) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +63,7 @@ implements org.j8unit.repository.javax.management.modelmbean.RequiredModelMBeanC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RequiredModelMBean sut = null; // = new RequiredModelMBean(ModelMBeanInfo);
+        final RequiredModelMBean sut = null; // = new RequiredModelMBean(javax.management.modelmbean.ModelMBeanInfo);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.RequiredModelMBean]

@@ -39,21 +39,6 @@ implements FactoryBasedJ8UnitTest<MetalComboBoxUI>, org.j8unit.repository.javax.
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI]
 
     @RunWith(J8Unit4.class)
-    public static class MetalPropertyChangeListenerTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests<MetalPropertyChangeListener> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
-
-        @Override
-        public MetalPropertyChangeListener createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class MetalComboBoxLayoutManagerTest
     implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests<MetalComboBoxLayoutManager> {
 
@@ -80,6 +65,21 @@ implements FactoryBasedJ8UnitTest<MetalComboBoxUI>, org.j8unit.repository.javax.
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class MetalPropertyChangeListenerTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests<MetalPropertyChangeListener> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
+
+        @Override
+        public MetalPropertyChangeListener createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
 
     }
 

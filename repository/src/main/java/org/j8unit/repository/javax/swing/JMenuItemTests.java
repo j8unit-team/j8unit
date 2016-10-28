@@ -1,17 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-import javax.swing.ButtonModel;
 import javax.swing.JMenuItem;
-import javax.swing.KeyStroke;
-import javax.swing.MenuElement;
-import javax.swing.MenuSelectionManager;
-import javax.swing.event.MenuDragMouseEvent;
-import javax.swing.event.MenuDragMouseListener;
-import javax.swing.event.MenuKeyEvent;
-import javax.swing.event.MenuKeyListener;
-import javax.swing.plaf.MenuItemUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -46,7 +35,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#getAccelerator() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getAccelerator() public
      * javax.swing.KeyStroke javax.swing.JMenuItem.getAccelerator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +57,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#getSubElements() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getSubElements() public
      * javax.swing.MenuElement[] javax.swing.JMenuItem.getSubElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,8 +80,9 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#addMenuKeyListener(MenuKeyListener) public
-     * void javax.swing.JMenuItem.addMenuKeyListener(javax.swing.event.MenuKeyListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuItem#addMenuKeyListener(javax.swing.event.MenuKeyListener) public void
+     * javax.swing.JMenuItem.addMenuKeyListener(javax.swing.event.MenuKeyListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -113,8 +103,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#setEnabled(boolean) public void
-     * javax.swing.JMenuItem.setEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#setEnabled(boolean) public
+     * void javax.swing.JMenuItem.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,52 +126,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#removeMenuKeyListener(MenuKeyListener)
-     * public void javax.swing.JMenuItem.removeMenuKeyListener(javax.swing.event.MenuKeyListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeMenuKeyListener_MenuKeyListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#menuSelectionChanged(boolean) public void
-     * javax.swing.JMenuItem.menuSelectionChanged(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_menuSelectionChanged_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#setUI(MenuItemUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuItem#setUI(javax.swing.plaf.MenuItemUI) public void
      * javax.swing.JMenuItem.setUI(javax.swing.plaf.MenuItemUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -204,7 +150,53 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMenuItem#processMenuDragMouseEvent(MenuDragMouseEvent) public void
+     * {@link javax.swing.JMenuItem#removeMenuKeyListener(javax.swing.event.MenuKeyListener) public void
+     * javax.swing.JMenuItem.removeMenuKeyListener(javax.swing.event.MenuKeyListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeMenuKeyListener_MenuKeyListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#menuSelectionChanged(boolean)
+     * public void javax.swing.JMenuItem.menuSelectionChanged(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_menuSelectionChanged_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuItem#processMenuDragMouseEvent(javax.swing.event.MenuDragMouseEvent) public void
      * javax.swing.JMenuItem.processMenuDragMouseEvent(javax.swing.event.MenuDragMouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -226,7 +218,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#setModel(ButtonModel) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuItem#setModel(javax.swing.ButtonModel) public void
      * javax.swing.JMenuItem.setModel(javax.swing.ButtonModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -249,8 +242,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#getComponent() public java.awt.Component
-     * javax.swing.JMenuItem.getComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getComponent() public
+     * java.awt.Component javax.swing.JMenuItem.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -273,7 +266,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMenuItem#processMouseEvent(MouseEvent, MenuElement[], MenuSelectionManager) public void
+     * {@link javax.swing.JMenuItem#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public void
      * javax.swing.JMenuItem.processMouseEvent(java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
      *
@@ -297,7 +291,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#isArmed() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#isArmed() public boolean
      * javax.swing.JMenuItem.isArmed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -319,8 +313,9 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#processMenuKeyEvent(MenuKeyEvent) public
-     * void javax.swing.JMenuItem.processMenuKeyEvent(javax.swing.event.MenuKeyEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuItem#processMenuKeyEvent(javax.swing.event.MenuKeyEvent) public void
+     * javax.swing.JMenuItem.processMenuKeyEvent(javax.swing.event.MenuKeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -341,7 +336,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#setArmed(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#setArmed(boolean) public void
      * javax.swing.JMenuItem.setArmed(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -364,7 +359,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMenuItem#processKeyEvent(KeyEvent, MenuElement[], MenuSelectionManager) public void
+     * {@link javax.swing.JMenuItem#processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public void
      * javax.swing.JMenuItem.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
      *
@@ -389,7 +385,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMenuItem#removeMenuDragMouseListener(MenuDragMouseListener) public void
+     * {@link javax.swing.JMenuItem#removeMenuDragMouseListener(javax.swing.event.MenuDragMouseListener) public void
      * javax.swing.JMenuItem.removeMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -411,7 +407,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JMenuItem.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -434,7 +430,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#setAccelerator(KeyStroke) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuItem#setAccelerator(javax.swing.KeyStroke) public void
      * javax.swing.JMenuItem.setAccelerator(javax.swing.KeyStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -456,8 +453,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#getMenuDragMouseListeners() public
-     * javax.swing.event.MenuDragMouseListener[] javax.swing.JMenuItem.getMenuDragMouseListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getMenuDragMouseListeners()
+     * public javax.swing.event.MenuDragMouseListener[] javax.swing.JMenuItem.getMenuDragMouseListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -478,29 +475,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#getMenuKeyListeners() public
-     * javax.swing.event.MenuKeyListener[] javax.swing.JMenuItem.getMenuKeyListeners()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenuKeyListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#updateUI() public void
      * javax.swing.JMenuItem.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -523,8 +498,30 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMenuItem#getUIClassID() public java.lang.String
-     * javax.swing.JMenuItem.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getMenuKeyListeners() public
+     * javax.swing.event.MenuKeyListener[] javax.swing.JMenuItem.getMenuKeyListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMenuKeyListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getUIClassID() public
+     * java.lang.String javax.swing.JMenuItem.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -547,7 +544,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMenuItem#addMenuDragMouseListener(MenuDragMouseListener) public void
+     * {@link javax.swing.JMenuItem#addMenuDragMouseListener(javax.swing.event.MenuDragMouseListener) public void
      * javax.swing.JMenuItem.addMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

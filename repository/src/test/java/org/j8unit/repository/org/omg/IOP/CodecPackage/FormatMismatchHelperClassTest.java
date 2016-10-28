@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.IOP.CodecPackage.FormatMismatch;
 import org.omg.IOP.CodecPackage.FormatMismatchHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,9 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FormatMismatchHelper#FormatMismatchHelper()
-     * public org.omg.IOP.CodecPackage.FormatMismatchHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#FormatMismatchHelper() public
+     * org.omg.IOP.CodecPackage.FormatMismatchHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +43,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperCl
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormatMismatchHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.IOP.CodecPackage.FormatMismatch
      * org.omg.IOP.CodecPackage.FormatMismatchHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
@@ -62,12 +60,14 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperCl
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link FormatMismatchHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.IOP.CodecPackage.FormatMismatchHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormatMismatchHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.IOP.CodecPackage.FormatMismatch org.omg.IOP.CodecPackage.FormatMismatchHelper.extract(org.omg.CORBA.Any)}
      * .
      *
@@ -83,12 +83,13 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperCl
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link FormatMismatchHelper#extract(Any)}
+        // write some test for {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormatMismatchHelper#insert(Any, FormatMismatch)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#insert(org.omg.CORBA.Any, org.omg.IOP.CodecPackage.FormatMismatch)
      * public static void
      * org.omg.IOP.CodecPackage.FormatMismatchHelper.insert(org.omg.CORBA.Any,org.omg.IOP.CodecPackage.FormatMismatch)}.
      *
@@ -104,13 +105,14 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperCl
     @Category(Draft.class)
     public void test_insert_Any_FormatMismatch()
     throws Exception {
-        // write some test for {@link FormatMismatchHelper#insert(Any, FormatMismatch)}
+        // write some test for {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#insert(org.omg.CORBA.Any,
+        // org.omg.IOP.CodecPackage.FormatMismatch)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormatMismatchHelper#id() public static
-     * java.lang.String org.omg.IOP.CodecPackage.FormatMismatchHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#id()
+     * public static java.lang.String org.omg.IOP.CodecPackage.FormatMismatchHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,13 +126,13 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperCl
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link FormatMismatchHelper#id()}
+        // write some test for {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormatMismatchHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.IOP.CodecPackage.FormatMismatchHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.IOP.CodecPackage.FormatMismatchHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,13 +146,14 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperCl
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link FormatMismatchHelper#type()}
+        // write some test for {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FormatMismatchHelper#write(OutputStream, FormatMismatch) public static void
+     * {@link org.omg.IOP.CodecPackage.FormatMismatchHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.IOP.CodecPackage.FormatMismatch)
+     * public static void
      * org.omg.IOP.CodecPackage.FormatMismatchHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.CodecPackage.FormatMismatch)}
      * .
      *
@@ -166,7 +169,9 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperCl
     @Category(Draft.class)
     public void test_write_OutputStream_FormatMismatch()
     throws Exception {
-        // write some test for {@link FormatMismatchHelper#write(OutputStream, FormatMismatch)}
+        // write some test for {@link
+        // org.omg.IOP.CodecPackage.FormatMismatchHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.IOP.CodecPackage.FormatMismatch)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecPackage.FormatMismatchHelper]

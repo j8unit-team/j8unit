@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.rmi.UnknownHostExceptionClassTests<Unknown
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownHostException#UnknownHostException(String) public java.rmi.UnknownHostException(java.lang.String)}.
+     * {@link java.rmi.UnknownHostException#UnknownHostException(String) public
+     * java.rmi.UnknownHostException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.java.rmi.UnknownHostExceptionClassTests<Unknown
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownHostException#UnknownHostException(String, Exception) public
+     * {@link java.rmi.UnknownHostException#UnknownHostException(String, Exception) public
      * java.rmi.UnknownHostException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

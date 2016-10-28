@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.JTextPane;
-import javax.swing.text.StyledDocument;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JTextPaneClassTests<JTextPane> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextPane#JTextPane() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextPane#JTextPane() public
      * javax.swing.JTextPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +42,8 @@ implements org.j8unit.repository.javax.swing.JTextPaneClassTests<JTextPane> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextPane#JTextPane(StyledDocument) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTextPane#JTextPane(javax.swing.text.StyledDocument) public
      * javax.swing.JTextPane(javax.swing.text.StyledDocument)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.javax.swing.JTextPaneClassTests<JTextPane> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTextPane sut = null; // = new JTextPane(StyledDocument);
+        final JTextPane sut = null; // = new JTextPane(javax.swing.text.StyledDocument);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTextPane]

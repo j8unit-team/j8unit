@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.UnresolvedPermission;
-import java.security.cert.Certificate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.security.UnresolvedPermissionClassTests<Un
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnresolvedPermission#UnresolvedPermission(String, String, String, Certificate[]) public
+     * {@link java.security.UnresolvedPermission#UnresolvedPermission(String, String, String, java.security.cert.Certificate[])
+     * public
      * java.security.UnresolvedPermission(java.lang.String,java.lang.String,java.lang.String,java.security.cert.Certificate[])}
      * .
      *
@@ -41,7 +41,8 @@ implements org.j8unit.repository.java.security.UnresolvedPermissionClassTests<Un
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UnresolvedPermission sut = null; // = new UnresolvedPermission(String, String, String, Certificate[]);
+        final UnresolvedPermission sut = null; // = new UnresolvedPermission(String, String, String,
+                                               // java.security.cert.Certificate[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.UnresolvedPermission]

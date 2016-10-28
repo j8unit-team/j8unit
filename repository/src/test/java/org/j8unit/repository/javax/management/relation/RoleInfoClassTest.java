@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.management.relation.RoleInfoClassTests<Ro
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RoleInfo#RoleInfo(RoleInfo) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.relation.RoleInfo#RoleInfo(javax.management.relation.RoleInfo) public
      * javax.management.relation.RoleInfo(javax.management.relation.RoleInfo) throws java.lang.IllegalArgumentException}
      * .
      *
@@ -39,12 +40,13 @@ implements org.j8unit.repository.javax.management.relation.RoleInfoClassTests<Ro
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RoleInfo sut = null; // = new RoleInfo(RoleInfo);
+        final RoleInfo sut = null; // = new RoleInfo(javax.management.relation.RoleInfo);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RoleInfo#RoleInfo(String, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.relation.RoleInfo#RoleInfo(String, String) public
      * javax.management.relation.RoleInfo(java.lang.String,java.lang.String) throws
      * java.lang.IllegalArgumentException,java.lang.ClassNotFoundException,javax.management.NotCompliantMBeanException}.
      *
@@ -68,7 +70,7 @@ implements org.j8unit.repository.javax.management.relation.RoleInfoClassTests<Ro
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RoleInfo#RoleInfo(String, String, boolean, boolean) public
+     * {@link javax.management.relation.RoleInfo#RoleInfo(String, String, boolean, boolean) public
      * javax.management.relation.RoleInfo(java.lang.String,java.lang.String,boolean,boolean) throws
      * java.lang.IllegalArgumentException,java.lang.ClassNotFoundException,javax.management.NotCompliantMBeanException}.
      *
@@ -92,7 +94,7 @@ implements org.j8unit.repository.javax.management.relation.RoleInfoClassTests<Ro
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RoleInfo#RoleInfo(String, String, boolean, boolean, int, int, String) public
+     * {@link javax.management.relation.RoleInfo#RoleInfo(String, String, boolean, boolean, int, int, String) public
      * javax.management.relation.RoleInfo(java.lang.String,java.lang.String,boolean,boolean,int,int,java.lang.String)
      * throws
      * java.lang.IllegalArgumentException,javax.management.relation.InvalidRoleInfoException,java.lang.ClassNotFoundException,javax.management.NotCompliantMBeanException}

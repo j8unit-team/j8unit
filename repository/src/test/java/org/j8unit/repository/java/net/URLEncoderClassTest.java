@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.net.URLEncoderClassTests<URLEncoder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLEncoder#encode(String) public static
+     * Test method for the hereby targeted method-under-test {@link java.net.URLEncoder#encode(String) public static
      * java.lang.String java.net.URLEncoder.encode(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.net.URLEncoderClassTests<URLEncoder> {
     @Category(Draft.class)
     public void test_encode_String()
     throws Exception {
-        // write some test for {@link URLEncoder#encode(String)}
+        // write some test for {@link java.net.URLEncoder#encode(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLEncoder#encode(String, String) public static
-     * java.lang.String java.net.URLEncoder.encode(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.net.URLEncoder#encode(String, String) public
+     * static java.lang.String java.net.URLEncoder.encode(java.lang.String,java.lang.String) throws
      * java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ implements org.j8unit.repository.java.net.URLEncoderClassTests<URLEncoder> {
     @Category(Draft.class)
     public void test_encode_String_String()
     throws Exception {
-        // write some test for {@link URLEncoder#encode(String, String)}
+        // write some test for {@link java.net.URLEncoder#encode(String, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLEncoder]

@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
-import java.util.Comparator;
 import java.util.concurrent.PriorityBlockingQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +23,7 @@ implements org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PriorityBlockingQueue#PriorityBlockingQueue(Collection) public
+     * {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue(java.util.Collection) public
      * java.util.concurrent.PriorityBlockingQueue(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,13 +40,13 @@ implements org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PriorityBlockingQueue sut = null; // = new PriorityBlockingQueue(Collection);
+        final PriorityBlockingQueue sut = null; // = new PriorityBlockingQueue(java.util.Collection);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PriorityBlockingQueue#PriorityBlockingQueue(int, Comparator) public
+     * {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue(int, java.util.Comparator) public
      * java.util.concurrent.PriorityBlockingQueue(int,java.util.Comparator<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,13 +63,14 @@ implements org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PriorityBlockingQueue sut = null; // = new PriorityBlockingQueue(int, Comparator);
+        final PriorityBlockingQueue sut = null; // = new PriorityBlockingQueue(int, java.util.Comparator);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PriorityBlockingQueue#PriorityBlockingQueue(int) public java.util.concurrent.PriorityBlockingQueue(int)}.
+     * {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue(int) public
+     * java.util.concurrent.PriorityBlockingQueue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -92,8 +91,9 @@ implements org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PriorityBlockingQueue#PriorityBlockingQueue()
-     * public java.util.concurrent.PriorityBlockingQueue()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue() public
+     * java.util.concurrent.PriorityBlockingQueue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

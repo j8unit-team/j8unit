@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import java.awt.Graphics;
-import java.awt.Shape;
-import javax.swing.text.View;
 import javax.swing.text.html.ParagraphView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.ParagraphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#getAttributes() public
-     * javax.swing.text.AttributeSet javax.swing.text.html.ParagraphView.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.ParagraphView#getAttributes()
+     * public javax.swing.text.AttributeSet javax.swing.text.html.ParagraphView.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +57,8 @@ extends org.j8unit.repository.javax.swing.text.ParagraphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#getMaximumSpan(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.ParagraphView#getMaximumSpan(int) public float
      * javax.swing.text.html.ParagraphView.getMaximumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +81,8 @@ extends org.j8unit.repository.javax.swing.text.ParagraphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#isVisible() public boolean
-     * javax.swing.text.html.ParagraphView.isVisible()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.ParagraphView#isVisible()
+     * public boolean javax.swing.text.html.ParagraphView.isVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,7 +104,8 @@ extends org.j8unit.repository.javax.swing.text.ParagraphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#setParent(View) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.ParagraphView#setParent(javax.swing.text.View) public void
      * javax.swing.text.html.ParagraphView.setParent(javax.swing.text.View)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +128,8 @@ extends org.j8unit.repository.javax.swing.text.ParagraphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.ParagraphView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.html.ParagraphView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,7 +152,8 @@ extends org.j8unit.repository.javax.swing.text.ParagraphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#getPreferredSpan(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.ParagraphView#getPreferredSpan(int) public float
      * javax.swing.text.html.ParagraphView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,7 +176,8 @@ extends org.j8unit.repository.javax.swing.text.ParagraphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ParagraphView#getMinimumSpan(int) public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.ParagraphView#getMinimumSpan(int) public float
      * javax.swing.text.html.ParagraphView.getMinimumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

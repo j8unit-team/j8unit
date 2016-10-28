@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#slice() public abstract java.nio.IntBuffer
-     * java.nio.IntBuffer.slice()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#slice() public abstract
+     * java.nio.IntBuffer java.nio.IntBuffer.slice()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#array() public final int[]
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#array() public final int[]
      * java.nio.IntBuffer.array()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#equals(Object) public boolean
      * java.nio.IntBuffer.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#get(int) public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#get(int) public abstract int
      * java.nio.IntBuffer.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#get() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#get() public abstract int
      * java.nio.IntBuffer.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#get(int[]) public java.nio.IntBuffer
-     * java.nio.IntBuffer.get(int[])}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#get(int[]) public
+     * java.nio.IntBuffer java.nio.IntBuffer.get(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +168,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#get(int[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#get(int[], int, int) public
      * java.nio.IntBuffer java.nio.IntBuffer.get(int[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +190,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#hashCode() public int
      * java.nio.IntBuffer.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,8 +213,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#isDirect() public abstract boolean
-     * java.nio.IntBuffer.isDirect()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#isDirect() public abstract
+     * boolean java.nio.IntBuffer.isDirect()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,8 +236,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#order() public abstract java.nio.ByteOrder
-     * java.nio.IntBuffer.order()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#order() public abstract
+     * java.nio.ByteOrder java.nio.IntBuffer.order()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,7 +258,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#arrayOffset() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#arrayOffset() public final int
      * java.nio.IntBuffer.arrayOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,8 +281,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#toString() public java.lang.String
-     * java.nio.IntBuffer.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#toString() public
+     * java.lang.String java.nio.IntBuffer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,7 +304,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#compact() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#compact() public abstract
      * java.nio.IntBuffer java.nio.IntBuffer.compact()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -326,7 +326,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#hasArray() public final boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#hasArray() public final boolean
      * java.nio.IntBuffer.hasArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,8 +349,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#asReadOnlyBuffer() public abstract
-     * java.nio.IntBuffer java.nio.IntBuffer.asReadOnlyBuffer()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#asReadOnlyBuffer() public
+     * abstract java.nio.IntBuffer java.nio.IntBuffer.asReadOnlyBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,7 +371,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#put(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#put(int) public abstract
      * java.nio.IntBuffer java.nio.IntBuffer.put(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -393,8 +393,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#put(IntBuffer) public java.nio.IntBuffer
-     * java.nio.IntBuffer.put(java.nio.IntBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#put(java.nio.IntBuffer) public
+     * java.nio.IntBuffer java.nio.IntBuffer.put(java.nio.IntBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -415,7 +415,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#put(int, int) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#put(int, int) public abstract
      * java.nio.IntBuffer java.nio.IntBuffer.put(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -437,7 +437,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#put(int[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#put(int[], int, int) public
      * java.nio.IntBuffer java.nio.IntBuffer.put(int[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -459,8 +459,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#put(int[]) public final java.nio.IntBuffer
-     * java.nio.IntBuffer.put(int[])}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#put(int[]) public final
+     * java.nio.IntBuffer java.nio.IntBuffer.put(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -481,7 +481,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#duplicate() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#duplicate() public abstract
      * java.nio.IntBuffer java.nio.IntBuffer.duplicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -503,8 +503,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, IntBuffer>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntBuffer#compareTo(IntBuffer) public int
-     * java.nio.IntBuffer.compareTo(java.nio.IntBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.IntBuffer#compareTo(java.nio.IntBuffer)
+     * public int java.nio.IntBuffer.compareTo(java.nio.IntBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

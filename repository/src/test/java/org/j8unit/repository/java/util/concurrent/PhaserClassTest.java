@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.util.concurrent.PhaserClassTests<Phaser> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Phaser#Phaser() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.concurrent.Phaser#Phaser() public
      * java.util.concurrent.Phaser()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.util.concurrent.PhaserClassTests<Phaser> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Phaser#Phaser(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.concurrent.Phaser#Phaser(int) public
      * java.util.concurrent.Phaser(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.PhaserClassTests<Phaser> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Phaser#Phaser(Phaser) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.Phaser#Phaser(java.util.concurrent.Phaser) public
      * java.util.concurrent.Phaser(java.util.concurrent.Phaser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,12 +82,13 @@ implements org.j8unit.repository.java.util.concurrent.PhaserClassTests<Phaser> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Phaser sut = null; // = new Phaser(Phaser);
+        final Phaser sut = null; // = new Phaser(java.util.concurrent.Phaser);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Phaser#Phaser(Phaser, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.Phaser#Phaser(java.util.concurrent.Phaser, int) public
      * java.util.concurrent.Phaser(java.util.concurrent.Phaser,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +105,7 @@ implements org.j8unit.repository.java.util.concurrent.PhaserClassTests<Phaser> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Phaser sut = null; // = new Phaser(Phaser, int);
+        final Phaser sut = null; // = new Phaser(java.util.concurrent.Phaser, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.Phaser]

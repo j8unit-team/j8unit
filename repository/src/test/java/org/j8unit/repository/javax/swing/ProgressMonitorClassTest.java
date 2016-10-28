@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
 import javax.swing.ProgressMonitor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.ProgressMonitorClassTests<ProgressM
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ProgressMonitor#ProgressMonitor(Component, Object, String, int, int) public
+     * {@link javax.swing.ProgressMonitor#ProgressMonitor(java.awt.Component, Object, String, int, int) public
      * javax.swing.ProgressMonitor(java.awt.Component,java.lang.Object,java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.swing.ProgressMonitorClassTests<ProgressM
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ProgressMonitor sut = null; // = new ProgressMonitor(Component, Object, String, int, int);
+        final ProgressMonitor sut = null; // = new ProgressMonitor(java.awt.Component, Object, String, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ProgressMonitor]

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.table;
 
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#fireTableDataChanged() public
-     * void javax.swing.table.AbstractTableModel.fireTableDataChanged()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#fireTableDataChanged() public void
+     * javax.swing.table.AbstractTableModel.fireTableDataChanged()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#fireTableRowsInserted(int, int)
-     * public void javax.swing.table.AbstractTableModel.fireTableRowsInserted(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#fireTableRowsInserted(int, int) public void
+     * javax.swing.table.AbstractTableModel.fireTableRowsInserted(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#getTableModelListeners() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#getTableModelListeners() public
      * javax.swing.event.TableModelListener[] javax.swing.table.AbstractTableModel.getTableModelListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +104,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#isCellEditable(int, int) public
-     * boolean javax.swing.table.AbstractTableModel.isCellEditable(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#isCellEditable(int, int) public boolean
+     * javax.swing.table.AbstractTableModel.isCellEditable(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +128,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#getColumnName(int) public
-     * java.lang.String javax.swing.table.AbstractTableModel.getColumnName(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#getColumnName(int) public java.lang.String
+     * javax.swing.table.AbstractTableModel.getColumnName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +152,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#getColumnClass(int) public
-     * java.lang.Class<?> javax.swing.table.AbstractTableModel.getColumnClass(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#getColumnClass(int) public java.lang.Class
+     * <?> javax.swing.table.AbstractTableModel.getColumnClass(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +176,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#setValueAt(Object, int, int)
-     * public void javax.swing.table.AbstractTableModel.setValueAt(java.lang.Object,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#setValueAt(Object, int, int) public void
+     * javax.swing.table.AbstractTableModel.setValueAt(java.lang.Object,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +200,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#fireTableCellUpdated(int, int)
-     * public void javax.swing.table.AbstractTableModel.fireTableCellUpdated(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#fireTableCellUpdated(int, int) public void
+     * javax.swing.table.AbstractTableModel.fireTableCellUpdated(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,8 +223,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#getListeners(Class) public
-     * <T> T[] javax.swing.table.AbstractTableModel.getListeners(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#getListeners(Class) public <T> T[]
+     * javax.swing.table.AbstractTableModel.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,8 +247,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractTableModel#removeTableModelListener(TableModelListener) public void
-     * javax.swing.table.AbstractTableModel.removeTableModelListener(javax.swing.event.TableModelListener)}.
+     * {@link javax.swing.table.AbstractTableModel#removeTableModelListener(javax.swing.event.TableModelListener) public
+     * void javax.swing.table.AbstractTableModel.removeTableModelListener(javax.swing.event.TableModelListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -264,8 +271,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractTableModel#addTableModelListener(TableModelListener) public void
-     * javax.swing.table.AbstractTableModel.addTableModelListener(javax.swing.event.TableModelListener)}.
+     * {@link javax.swing.table.AbstractTableModel#addTableModelListener(javax.swing.event.TableModelListener) public
+     * void javax.swing.table.AbstractTableModel.addTableModelListener(javax.swing.event.TableModelListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +294,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#fireTableStructureChanged()
-     * public void javax.swing.table.AbstractTableModel.fireTableStructureChanged()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#fireTableStructureChanged() public void
+     * javax.swing.table.AbstractTableModel.fireTableStructureChanged()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -309,8 +317,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#fireTableRowsUpdated(int, int)
-     * public void javax.swing.table.AbstractTableModel.fireTableRowsUpdated(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#fireTableRowsUpdated(int, int) public void
+     * javax.swing.table.AbstractTableModel.fireTableRowsUpdated(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -331,8 +340,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#fireTableRowsDeleted(int, int)
-     * public void javax.swing.table.AbstractTableModel.fireTableRowsDeleted(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#findColumn(String) public int
+     * javax.swing.table.AbstractTableModel.findColumn(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_findColumn_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#fireTableRowsDeleted(int, int) public void
+     * javax.swing.table.AbstractTableModel.fireTableRowsDeleted(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -353,8 +386,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#fireTableChanged(TableModelEvent)
-     * public void javax.swing.table.AbstractTableModel.fireTableChanged(javax.swing.event.TableModelEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.AbstractTableModel#fireTableChanged(javax.swing.event.TableModelEvent) public void
+     * javax.swing.table.AbstractTableModel.fireTableChanged(javax.swing.event.TableModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,28 +401,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_fireTableChanged_TableModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTableModel#findColumn(String) public int
-     * javax.swing.table.AbstractTableModel.findColumn(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_findColumn_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

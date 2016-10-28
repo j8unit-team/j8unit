@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLIsIndexElement#getForm() public abstract
-     * org.w3c.dom.html.HTMLFormElement org.w3c.dom.html.HTMLIsIndexElement.getForm()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLIsIndexElement#getForm() public
+     * abstract org.w3c.dom.html.HTMLFormElement org.w3c.dom.html.HTMLIsIndexElement.getForm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLIsIndexElement#setPrompt(String) public abstract
-     * void org.w3c.dom.html.HTMLIsIndexElement.setPrompt(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLIsIndexElement#setPrompt(String) public abstract void
+     * org.w3c.dom.html.HTMLIsIndexElement.setPrompt(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLIsIndexElement#getPrompt() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLIsIndexElement.getPrompt()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLIsIndexElement#getPrompt()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLIsIndexElement.getPrompt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

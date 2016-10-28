@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.xml.ws.soap.MTOMFeatureClassTests<MTOMFea
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MTOMFeature#MTOMFeature(boolean, int) public
-     * javax.xml.ws.soap.MTOMFeature(boolean,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.soap.MTOMFeature#MTOMFeature(boolean, int) public javax.xml.ws.soap.MTOMFeature(boolean,int)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +44,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.MTOMFeatureClassTests<MTOMFea
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MTOMFeature#MTOMFeature(int) public
-     * javax.xml.ws.soap.MTOMFeature(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.ws.soap.MTOMFeature#MTOMFeature(int)
+     * public javax.xml.ws.soap.MTOMFeature(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,8 +66,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.MTOMFeatureClassTests<MTOMFea
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MTOMFeature#MTOMFeature(boolean) public
-     * javax.xml.ws.soap.MTOMFeature(boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.soap.MTOMFeature#MTOMFeature(boolean) public javax.xml.ws.soap.MTOMFeature(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +88,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.MTOMFeatureClassTests<MTOMFea
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MTOMFeature#MTOMFeature() public
-     * javax.xml.ws.soap.MTOMFeature()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.ws.soap.MTOMFeature#MTOMFeature()
+     * public javax.xml.ws.soap.MTOMFeature()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

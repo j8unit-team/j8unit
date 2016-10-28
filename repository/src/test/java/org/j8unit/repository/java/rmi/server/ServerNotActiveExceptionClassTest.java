@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.rmi.server.ServerNotActiveExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServerNotActiveException#ServerNotActiveException() public java.rmi.server.ServerNotActiveException()}.
+     * {@link java.rmi.server.ServerNotActiveException#ServerNotActiveException() public
+     * java.rmi.server.ServerNotActiveException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.java.rmi.server.ServerNotActiveExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServerNotActiveException#ServerNotActiveException(String) public
+     * {@link java.rmi.server.ServerNotActiveException#ServerNotActiveException(String) public
      * java.rmi.server.ServerNotActiveException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

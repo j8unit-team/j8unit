@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.KeyboardFocusManagerClassTests<Keyboar
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KeyboardFocusManager#KeyboardFocusManager()
-     * public java.awt.KeyboardFocusManager()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.KeyboardFocusManager#KeyboardFocusManager() public java.awt.KeyboardFocusManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.awt.KeyboardFocusManagerClassTests<Keyboar
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyboardFocusManager#getCurrentKeyboardFocusManager() public static java.awt.KeyboardFocusManager
+     * {@link java.awt.KeyboardFocusManager#getCurrentKeyboardFocusManager() public static java.awt.KeyboardFocusManager
      * java.awt.KeyboardFocusManager.getCurrentKeyboardFocusManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,14 +58,14 @@ implements org.j8unit.repository.java.awt.KeyboardFocusManagerClassTests<Keyboar
     @Category(Draft.class)
     public void test_getCurrentKeyboardFocusManager()
     throws Exception {
-        // write some test for {@link KeyboardFocusManager#getCurrentKeyboardFocusManager()}
+        // write some test for {@link java.awt.KeyboardFocusManager#getCurrentKeyboardFocusManager()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyboardFocusManager#setCurrentKeyboardFocusManager(KeyboardFocusManager) public static void
-     * java.awt.KeyboardFocusManager.setCurrentKeyboardFocusManager(java.awt.KeyboardFocusManager) throws
+     * {@link java.awt.KeyboardFocusManager#setCurrentKeyboardFocusManager(java.awt.KeyboardFocusManager) public static
+     * void java.awt.KeyboardFocusManager.setCurrentKeyboardFocusManager(java.awt.KeyboardFocusManager) throws
      * java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,8 @@ implements org.j8unit.repository.java.awt.KeyboardFocusManagerClassTests<Keyboar
     @Category(Draft.class)
     public void test_setCurrentKeyboardFocusManager_KeyboardFocusManager()
     throws Exception {
-        // write some test for {@link KeyboardFocusManager#setCurrentKeyboardFocusManager(KeyboardFocusManager)}
+        // write some test for {@link
+        // java.awt.KeyboardFocusManager#setCurrentKeyboardFocusManager(java.awt.KeyboardFocusManager)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.KeyboardFocusManager]

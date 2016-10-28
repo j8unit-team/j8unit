@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.nio.ByteBuffer;
 import java.nio.channels.AsynchronousByteChannel;
-import java.nio.channels.CompletionHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousByteChannel#write(ByteBuffer, Object, CompletionHandler) public abstract <A> void
+     * {@link java.nio.channels.AsynchronousByteChannel#write(java.nio.ByteBuffer, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousByteChannel.write(java.nio.ByteBuffer,A,java.nio.channels.CompletionHandler<java.lang.Integer,
      * ? super A>)}.
      *
@@ -60,8 +59,9 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousByteChannel#write(ByteBuffer) public
-     * abstract java.util.concurrent.Future
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousByteChannel#write(java.nio.ByteBuffer) public abstract
+     * java.util.concurrent.Future
      * <java.lang.Integer> java.nio.channels.AsynchronousByteChannel.write(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +84,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousByteChannel#read(ByteBuffer, Object, CompletionHandler) public abstract <A> void
+     * {@link java.nio.channels.AsynchronousByteChannel#read(java.nio.ByteBuffer, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousByteChannel.read(java.nio.ByteBuffer,A,java.nio.channels.CompletionHandler<java.lang.Integer,
      * ? super A>)}.
      *
@@ -107,8 +108,9 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousByteChannel#read(ByteBuffer) public
-     * abstract java.util.concurrent.Future
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousByteChannel#read(java.nio.ByteBuffer) public abstract
+     * java.util.concurrent.Future
      * <java.lang.Integer> java.nio.channels.AsynchronousByteChannel.read(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

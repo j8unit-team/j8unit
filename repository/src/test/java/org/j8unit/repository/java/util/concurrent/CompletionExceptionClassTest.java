@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.concurrent.CompletionExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CompletionException#CompletionException(Throwable) public
+     * {@link java.util.concurrent.CompletionException#CompletionException(Throwable) public
      * java.util.concurrent.CompletionException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.concurrent.CompletionExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CompletionException#CompletionException(String, Throwable) public
+     * {@link java.util.concurrent.CompletionException#CompletionException(String, Throwable) public
      * java.util.concurrent.CompletionException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

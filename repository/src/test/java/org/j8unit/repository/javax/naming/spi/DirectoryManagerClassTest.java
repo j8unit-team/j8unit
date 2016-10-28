@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import java.util.Hashtable;
-import javax.naming.CannotProceedException;
-import javax.naming.Context;
-import javax.naming.Name;
-import javax.naming.directory.Attributes;
 import javax.naming.spi.DirectoryManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -27,8 +22,8 @@ implements org.j8unit.repository.javax.naming.spi.DirectoryManagerClassTests<Dir
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DirectoryManager#getObjectInstance(Object, Name, Context, Hashtable, Attributes) public static
-     * java.lang.Object
+     * {@link javax.naming.spi.DirectoryManager#getObjectInstance(Object, javax.naming.Name, javax.naming.Context, java.util.Hashtable, javax.naming.directory.Attributes)
+     * public static java.lang.Object
      * javax.naming.spi.DirectoryManager.getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable<?,
      * ?>,javax.naming.directory.Attributes) throws java.lang.Exception}.
      *
@@ -44,14 +39,15 @@ implements org.j8unit.repository.javax.naming.spi.DirectoryManagerClassTests<Dir
     @Category(Draft.class)
     public void test_getObjectInstance_Object_Name_Context_Hashtable_Attributes()
     throws Exception {
-        // write some test for {@link DirectoryManager#getObjectInstance(Object, Name, Context, Hashtable, Attributes)}
+        // write some test for {@link javax.naming.spi.DirectoryManager#getObjectInstance(Object, javax.naming.Name,
+        // javax.naming.Context, java.util.Hashtable, javax.naming.directory.Attributes)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DirectoryManager#getContinuationDirContext(CannotProceedException) public static
-     * javax.naming.directory.DirContext
+     * {@link javax.naming.spi.DirectoryManager#getContinuationDirContext(javax.naming.CannotProceedException) public
+     * static javax.naming.directory.DirContext
      * javax.naming.spi.DirectoryManager.getContinuationDirContext(javax.naming.CannotProceedException) throws
      * javax.naming.NamingException}.
      *
@@ -67,14 +63,15 @@ implements org.j8unit.repository.javax.naming.spi.DirectoryManagerClassTests<Dir
     @Category(Draft.class)
     public void test_getContinuationDirContext_CannotProceedException()
     throws Exception {
-        // write some test for {@link DirectoryManager#getContinuationDirContext(CannotProceedException)}
+        // write some test for {@link
+        // javax.naming.spi.DirectoryManager#getContinuationDirContext(javax.naming.CannotProceedException)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DirectoryManager#getStateToBind(Object, Name, Context, Hashtable, Attributes) public static
-     * javax.naming.spi.DirStateFactory$Result
+     * {@link javax.naming.spi.DirectoryManager#getStateToBind(Object, javax.naming.Name, javax.naming.Context, java.util.Hashtable, javax.naming.directory.Attributes)
+     * public static javax.naming.spi.DirStateFactory$Result
      * javax.naming.spi.DirectoryManager.getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable<?,
      * ?>,javax.naming.directory.Attributes) throws javax.naming.NamingException}.
      *
@@ -90,7 +87,8 @@ implements org.j8unit.repository.javax.naming.spi.DirectoryManagerClassTests<Dir
     @Category(Draft.class)
     public void test_getStateToBind_Object_Name_Context_Hashtable_Attributes()
     throws Exception {
-        // write some test for {@link DirectoryManager#getStateToBind(Object, Name, Context, Hashtable, Attributes)}
+        // write some test for {@link javax.naming.spi.DirectoryManager#getStateToBind(Object, javax.naming.Name,
+        // javax.naming.Context, java.util.Hashtable, javax.naming.directory.Attributes)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirectoryManager]

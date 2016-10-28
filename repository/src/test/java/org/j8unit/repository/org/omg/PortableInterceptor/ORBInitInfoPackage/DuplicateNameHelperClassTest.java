@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
 import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,9 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DuplicateNameHelper#DuplicateNameHelper()
-     * public org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#DuplicateNameHelper() public
+     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DuplicateNameHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,13 +59,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link DuplicateNameHelper#type()}
+        // write some test for {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DuplicateNameHelper#write(OutputStream, DuplicateName) public static void
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)
+     * public static void
      * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)}
      * .
      *
@@ -83,12 +82,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
     @Category(Draft.class)
     public void test_write_OutputStream_DuplicateName()
     throws Exception {
-        // write some test for {@link DuplicateNameHelper#write(OutputStream, DuplicateName)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DuplicateNameHelper#insert(Any, DuplicateName)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#insert(org.omg.CORBA.Any, org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)
      * public static void
      * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)}
      * .
@@ -105,13 +107,16 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
     @Category(Draft.class)
     public void test_insert_Any_DuplicateName()
     throws Exception {
-        // write some test for {@link DuplicateNameHelper#insert(Any, DuplicateName)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DuplicateNameHelper#id() public static
-     * java.lang.String org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#id() public static java.lang.String
+     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,13 +130,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link DuplicateNameHelper#id()}
+        // write some test for {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DuplicateNameHelper#read(InputStream) public static
-     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#read(org.omg.CORBA.portable.InputStream)
+     * public static org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName
      * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,13 +152,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link DuplicateNameHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DuplicateNameHelper#extract(Any) public static
-     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#extract(org.omg.CORBA.Any) public
+     * static org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName
      * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +175,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link DuplicateNameHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper]

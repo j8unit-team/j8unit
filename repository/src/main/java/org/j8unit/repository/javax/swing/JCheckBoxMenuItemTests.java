@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.swing.JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBoxMenuItem#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JCheckBoxMenuItem.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBoxMenuItem#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JCheckBoxMenuItem.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.javax.swing.JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBoxMenuItem#getUIClassID() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBoxMenuItem#getUIClassID() public
      * java.lang.String javax.swing.JCheckBoxMenuItem.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends org.j8unit.repository.javax.swing.JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBoxMenuItem#getSelectedObjects() public
-     * java.lang.Object[] javax.swing.JCheckBoxMenuItem.getSelectedObjects()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBoxMenuItem#getSelectedObjects()
+     * public java.lang.Object[] javax.swing.JCheckBoxMenuItem.getSelectedObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.javax.swing.JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBoxMenuItem#setState(boolean) public
-     * synchronized void javax.swing.JCheckBoxMenuItem.setState(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBoxMenuItem#setState(boolean)
+     * public synchronized void javax.swing.JCheckBoxMenuItem.setState(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends org.j8unit.repository.javax.swing.JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JCheckBoxMenuItem#getState() public boolean
-     * javax.swing.JCheckBoxMenuItem.getState()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JCheckBoxMenuItem#getState() public
+     * boolean javax.swing.JCheckBoxMenuItem.getState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

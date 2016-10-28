@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.tools;
 
-import java.io.File;
-import javax.tools.FileObject;
-import javax.tools.JavaFileManager.Location;
 import javax.tools.StandardJavaFileManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StandardJavaFileManager#isSameFile(FileObject, FileObject) public abstract boolean
-     * javax.tools.StandardJavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
+     * {@link javax.tools.StandardJavaFileManager#isSameFile(javax.tools.FileObject, javax.tools.FileObject) public
+     * abstract boolean javax.tools.StandardJavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,9 +59,9 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StandardJavaFileManager#getJavaFileObjectsFromFiles(Iterable) public abstract java.lang.Iterable<? extends
-     * javax.tools.JavaFileObject> javax.tools.StandardJavaFileManager.getJavaFileObjectsFromFiles(java.lang.Iterable<?
-     * extends java.io.File>)}.
+     * {@link javax.tools.StandardJavaFileManager#getJavaFileObjectsFromFiles(Iterable) public abstract
+     * java.lang.Iterable<? extends javax.tools.JavaFileObject>
+     * javax.tools.StandardJavaFileManager.getJavaFileObjectsFromFiles(java.lang.Iterable<? extends java.io.File>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +82,9 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardJavaFileManager#getLocation(Location) public
-     * abstract java.lang.Iterable<? extends java.io.File>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.StandardJavaFileManager#getLocation(javax.tools.JavaFileManager.Location) public abstract
+     * java.lang.Iterable<? extends java.io.File>
      * javax.tools.StandardJavaFileManager.getLocation(javax.tools.JavaFileManager$Location)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +107,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StandardJavaFileManager#setLocation(Location, Iterable) public abstract void
+     * {@link javax.tools.StandardJavaFileManager#setLocation(javax.tools.JavaFileManager.Location, Iterable) public
+     * abstract void
      * javax.tools.StandardJavaFileManager.setLocation(javax.tools.JavaFileManager$Location,java.lang.Iterable<? extends
      * java.io.File>) throws java.io.IOException}.
      *
@@ -132,8 +131,9 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardJavaFileManager#getJavaFileObjects(File...)
-     * public abstract java.lang.Iterable<? extends javax.tools.JavaFileObject>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.StandardJavaFileManager#getJavaFileObjects(java.io.File...) public abstract
+     * java.lang.Iterable<? extends javax.tools.JavaFileObject>
      * javax.tools.StandardJavaFileManager.getJavaFileObjects(java.io.File...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -156,8 +156,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StandardJavaFileManager#getJavaFileObjects(String...) public abstract java.lang.Iterable<? extends
-     * javax.tools.JavaFileObject> javax.tools.StandardJavaFileManager.getJavaFileObjects(java.lang.String...)}.
+     * {@link javax.tools.StandardJavaFileManager#getJavaFileObjects(String...) public abstract java.lang.Iterable<?
+     * extends javax.tools.JavaFileObject> javax.tools.StandardJavaFileManager.getJavaFileObjects(java.lang.String...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -179,8 +179,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StandardJavaFileManager#getJavaFileObjectsFromStrings(Iterable) public abstract java.lang.Iterable<?
-     * extends javax.tools.JavaFileObject>
+     * {@link javax.tools.StandardJavaFileManager#getJavaFileObjectsFromStrings(Iterable) public abstract
+     * java.lang.Iterable<? extends javax.tools.JavaFileObject>
      * javax.tools.StandardJavaFileManager.getJavaFileObjectsFromStrings(java.lang.Iterable<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

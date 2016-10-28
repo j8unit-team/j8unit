@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAParameterSpec#getG() public java.math.BigInteger
-     * java.security.spec.DSAParameterSpec.getG()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.DSAParameterSpec#getG() public
+     * java.math.BigInteger java.security.spec.DSAParameterSpec.getG()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAParameterSpec#getP() public java.math.BigInteger
-     * java.security.spec.DSAParameterSpec.getP()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.DSAParameterSpec#getP() public
+     * java.math.BigInteger java.security.spec.DSAParameterSpec.getP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAParameterSpec#getQ() public java.math.BigInteger
-     * java.security.spec.DSAParameterSpec.getQ()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.DSAParameterSpec#getQ() public
+     * java.math.BigInteger java.security.spec.DSAParameterSpec.getQ()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

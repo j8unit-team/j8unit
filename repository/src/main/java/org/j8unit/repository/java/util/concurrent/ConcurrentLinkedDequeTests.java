@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#push(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#push(Object) public void
      * java.util.concurrent.ConcurrentLinkedDeque.push(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +59,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#peek() public E
-     * java.util.concurrent.ConcurrentLinkedDeque.peek()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#peek()
+     * public E java.util.concurrent.ConcurrentLinkedDeque.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +82,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#peekFirst() public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#peekFirst() public E
      * java.util.concurrent.ConcurrentLinkedDeque.peekFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +106,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#peekLast() public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#peekLast() public E
      * java.util.concurrent.ConcurrentLinkedDeque.peekLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,8 +130,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#isEmpty() public boolean
-     * java.util.concurrent.ConcurrentLinkedDeque.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#isEmpty()
+     * public boolean java.util.concurrent.ConcurrentLinkedDeque.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +153,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#clear() public void
-     * java.util.concurrent.ConcurrentLinkedDeque.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#clear()
+     * public void java.util.concurrent.ConcurrentLinkedDeque.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +176,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#spliterator() public
-     * java.util.Spliterator<E> java.util.concurrent.ConcurrentLinkedDeque.spliterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#spliterator() public java.util.Spliterator
+     * <E> java.util.concurrent.ConcurrentLinkedDeque.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,7 +200,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#add(Object) public boolean
      * java.util.concurrent.ConcurrentLinkedDeque.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,7 +224,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#addFirst(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#addFirst(Object) public void
      * java.util.concurrent.ConcurrentLinkedDeque.addFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -243,8 +248,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#removeFirstOccurrence(Object)
-     * public boolean java.util.concurrent.ConcurrentLinkedDeque.removeFirstOccurrence(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#removeFirstOccurrence(Object) public boolean
+     * java.util.concurrent.ConcurrentLinkedDeque.removeFirstOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -266,7 +272,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#pollFirst() public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#pollFirst() public E
      * java.util.concurrent.ConcurrentLinkedDeque.pollFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,8 +296,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#size() public int
-     * java.util.concurrent.ConcurrentLinkedDeque.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#size()
+     * public int java.util.concurrent.ConcurrentLinkedDeque.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -312,8 +319,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#addAll(Collection) public
-     * boolean java.util.concurrent.ConcurrentLinkedDeque.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#addAll(java.util.Collection) public boolean
+     * java.util.concurrent.ConcurrentLinkedDeque.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -335,8 +343,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#contains(Object) public
-     * boolean java.util.concurrent.ConcurrentLinkedDeque.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#contains(Object) public boolean
+     * java.util.concurrent.ConcurrentLinkedDeque.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -358,8 +367,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#offerLast(Object) public
-     * boolean java.util.concurrent.ConcurrentLinkedDeque.offerLast(E)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#offerLast(Object) public boolean
+     * java.util.concurrent.ConcurrentLinkedDeque.offerLast(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -381,7 +391,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#remove(Object) public boolean
      * java.util.concurrent.ConcurrentLinkedDeque.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -404,8 +415,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#remove() public E
-     * java.util.concurrent.ConcurrentLinkedDeque.remove()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#remove()
+     * public E java.util.concurrent.ConcurrentLinkedDeque.remove()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -427,7 +438,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#removeLast() public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#removeLast() public E
      * java.util.concurrent.ConcurrentLinkedDeque.removeLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -450,7 +462,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#pollLast() public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#pollLast() public E
      * java.util.concurrent.ConcurrentLinkedDeque.pollLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -473,8 +486,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#getLast() public E
-     * java.util.concurrent.ConcurrentLinkedDeque.getLast()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#getLast()
+     * public E java.util.concurrent.ConcurrentLinkedDeque.getLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -496,8 +509,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#poll() public E
-     * java.util.concurrent.ConcurrentLinkedDeque.poll()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#poll()
+     * public E java.util.concurrent.ConcurrentLinkedDeque.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -519,8 +532,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#descendingIterator() public
-     * java.util.Iterator<E> java.util.concurrent.ConcurrentLinkedDeque.descendingIterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#descendingIterator() public java.util.Iterator
+     * <E> java.util.concurrent.ConcurrentLinkedDeque.descendingIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -542,8 +556,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#offerFirst(Object) public
-     * boolean java.util.concurrent.ConcurrentLinkedDeque.offerFirst(E)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#offerFirst(Object) public boolean
+     * java.util.concurrent.ConcurrentLinkedDeque.offerFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -565,8 +580,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#removeLastOccurrence(Object)
-     * public boolean java.util.concurrent.ConcurrentLinkedDeque.removeLastOccurrence(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#removeLastOccurrence(Object) public boolean
+     * java.util.concurrent.ConcurrentLinkedDeque.removeLastOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -588,8 +604,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#element() public E
-     * java.util.concurrent.ConcurrentLinkedDeque.element()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#element()
+     * public E java.util.concurrent.ConcurrentLinkedDeque.element()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -611,8 +627,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#toArray(Object[]) public
-     * <T> T[] java.util.concurrent.ConcurrentLinkedDeque.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#toArray(Object[]) public <T> T[]
+     * java.util.concurrent.ConcurrentLinkedDeque.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -634,8 +651,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#toArray() public
-     * java.lang.Object[] java.util.concurrent.ConcurrentLinkedDeque.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#toArray()
+     * public java.lang.Object[] java.util.concurrent.ConcurrentLinkedDeque.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -657,7 +674,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#getFirst() public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#getFirst() public E
      * java.util.concurrent.ConcurrentLinkedDeque.getFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -680,7 +698,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#removeFirst() public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#removeFirst() public E
      * java.util.concurrent.ConcurrentLinkedDeque.removeFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -703,8 +722,9 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#iterator() public
-     * java.util.Iterator<E> java.util.concurrent.ConcurrentLinkedDeque.iterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#iterator() public java.util.Iterator
+     * <E> java.util.concurrent.ConcurrentLinkedDeque.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -726,7 +746,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#offer(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#offer(Object) public boolean
      * java.util.concurrent.ConcurrentLinkedDeque.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -749,8 +770,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#pop() public E
-     * java.util.concurrent.ConcurrentLinkedDeque.pop()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#pop()
+     * public E java.util.concurrent.ConcurrentLinkedDeque.pop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -772,7 +793,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedDeque#addLast(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#addLast(Object) public void
      * java.util.concurrent.ConcurrentLinkedDeque.addLast(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

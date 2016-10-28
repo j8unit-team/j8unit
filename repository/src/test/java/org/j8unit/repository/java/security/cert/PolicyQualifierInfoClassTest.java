@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.security.cert.PolicyQualifierInfoClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PolicyQualifierInfo#PolicyQualifierInfo(byte[])
-     * public java.security.cert.PolicyQualifierInfo(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.PolicyQualifierInfo#PolicyQualifierInfo(byte[]) public
+     * java.security.cert.PolicyQualifierInfo(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

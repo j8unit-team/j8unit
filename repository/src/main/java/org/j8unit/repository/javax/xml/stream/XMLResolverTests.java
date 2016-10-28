@@ -36,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLResolver#resolveEntity(String, String, String, String) public abstract java.lang.Object
+     * {@link javax.xml.stream.XMLResolver#resolveEntity(String, String, String, String) public abstract
+     * java.lang.Object
      * javax.xml.stream.XMLResolver.resolveEntity(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws javax.xml.stream.XMLStreamException}.
      *

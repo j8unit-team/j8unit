@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.ViewportUIClassTests<ViewportU
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ViewportUI#ViewportUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.ViewportUI#ViewportUI() public
      * javax.swing.plaf.ViewportUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

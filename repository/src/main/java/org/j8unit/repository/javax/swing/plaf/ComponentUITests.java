@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
 import javax.swing.plaf.ComponentUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#getBaseline(JComponent, int, int) public
-     * int javax.swing.plaf.ComponentUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#getBaseline(javax.swing.JComponent, int, int) public int
+     * javax.swing.plaf.ComponentUI.getBaseline(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#contains(JComponent, int, int) public
-     * boolean javax.swing.plaf.ComponentUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.ComponentUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.ComponentUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.ComponentUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#getBaselineResizeBehavior(JComponent)
-     * public java.awt.Component$BaselineResizeBehavior
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#getBaselineResizeBehavior(javax.swing.JComponent) public
+     * java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.ComponentUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,9 +127,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
-     * javax.swing.plaf.ComponentUI.getAccessibleChild(javax.swing.JComponent,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible javax.swing.plaf.ComponentUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +150,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.ComponentUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.ComponentUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +173,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.ComponentUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +196,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.ComponentUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.ComponentUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,7 +219,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.ComponentUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,7 +242,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#paint(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.ComponentUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,7 +265,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#update(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#update(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.ComponentUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -280,8 +288,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentUI#getAccessibleChildrenCount(JComponent)
-     * public int javax.swing.plaf.ComponentUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.ComponentUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
+     * javax.swing.plaf.ComponentUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

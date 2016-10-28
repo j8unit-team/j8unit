@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_ProfileRGB#getTRC(int) public short[]
-     * java.awt.color.ICC_ProfileRGB.getTRC(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ProfileRGB#getTRC(int) public
+     * short[] java.awt.color.ICC_ProfileRGB.getTRC(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_ProfileRGB#getGamma(int) public float
-     * java.awt.color.ICC_ProfileRGB.getGamma(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ProfileRGB#getGamma(int) public
+     * float java.awt.color.ICC_ProfileRGB.getGamma(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_ProfileRGB#getMediaWhitePoint() public float[]
-     * java.awt.color.ICC_ProfileRGB.getMediaWhitePoint()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ProfileRGB#getMediaWhitePoint()
+     * public float[] java.awt.color.ICC_ProfileRGB.getMediaWhitePoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_ProfileRGB#getMatrix() public float[][]
-     * java.awt.color.ICC_ProfileRGB.getMatrix()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ProfileRGB#getMatrix() public
+     * float[][] java.awt.color.ICC_ProfileRGB.getMatrix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

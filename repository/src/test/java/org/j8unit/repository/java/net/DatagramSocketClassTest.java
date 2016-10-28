@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.DatagramSocket;
-import java.net.DatagramSocketImplFactory;
-import java.net.InetAddress;
-import java.net.SocketAddress;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +21,9 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DatagramSocket#DatagramSocket(int, InetAddress)
-     * public java.net.DatagramSocket(int,java.net.InetAddress) throws java.net.SocketException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.DatagramSocket#DatagramSocket(int, java.net.InetAddress) public
+     * java.net.DatagramSocket(int,java.net.InetAddress) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +39,14 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DatagramSocket sut = null; // = new DatagramSocket(int, InetAddress);
+        final DatagramSocket sut = null; // = new DatagramSocket(int, java.net.InetAddress);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DatagramSocket#DatagramSocket(SocketAddress)
-     * public java.net.DatagramSocket(java.net.SocketAddress) throws java.net.SocketException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.DatagramSocket#DatagramSocket(java.net.SocketAddress) public
+     * java.net.DatagramSocket(java.net.SocketAddress) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,12 +62,12 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DatagramSocket sut = null; // = new DatagramSocket(SocketAddress);
+        final DatagramSocket sut = null; // = new DatagramSocket(java.net.SocketAddress);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DatagramSocket#DatagramSocket() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.DatagramSocket#DatagramSocket() public
      * java.net.DatagramSocket() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,8 +88,8 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DatagramSocket#DatagramSocket(int) public
-     * java.net.DatagramSocket(int) throws java.net.SocketException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.DatagramSocket#DatagramSocket(int)
+     * public java.net.DatagramSocket(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -112,8 +111,8 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DatagramSocket#setDatagramSocketImplFactory(DatagramSocketImplFactory) public static synchronized void
-     * java.net.DatagramSocket.setDatagramSocketImplFactory(java.net.DatagramSocketImplFactory) throws
+     * {@link java.net.DatagramSocket#setDatagramSocketImplFactory(java.net.DatagramSocketImplFactory) public static
+     * synchronized void java.net.DatagramSocket.setDatagramSocketImplFactory(java.net.DatagramSocketImplFactory) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,7 +127,8 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
     @Category(Draft.class)
     public void test_setDatagramSocketImplFactory_DatagramSocketImplFactory()
     throws Exception {
-        // write some test for {@link DatagramSocket#setDatagramSocketImplFactory(DatagramSocketImplFactory)}
+        // write some test for {@link
+        // java.net.DatagramSocket#setDatagramSocketImplFactory(java.net.DatagramSocketImplFactory)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.DatagramSocket]

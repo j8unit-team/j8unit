@@ -1,11 +1,7 @@
 package org.j8unit.repository.java.text;
 
-import java.text.FieldPosition;
-import java.text.Format;
 import java.text.MessageFormat;
 import java.text.MessageFormat.Field;
-import java.text.ParsePosition;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +35,9 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#parseObject(String, ParsePosition)
-     * public java.lang.Object java.text.MessageFormat.parseObject(java.lang.String,java.text.ParsePosition)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.MessageFormat#parseObject(String, java.text.ParsePosition) public java.lang.Object
+     * java.text.MessageFormat.parseObject(java.lang.String,java.text.ParsePosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +59,7 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#parse(String) public
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#parse(String) public
      * java.lang.Object[] java.text.MessageFormat.parse(java.lang.String) throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +81,9 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#parse(String, ParsePosition) public
-     * java.lang.Object[] java.text.MessageFormat.parse(java.lang.String,java.text.ParsePosition)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.MessageFormat#parse(String, java.text.ParsePosition) public java.lang.Object[]
+     * java.text.MessageFormat.parse(java.lang.String,java.text.ParsePosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +104,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#getFormats() public java.text.Format[]
-     * java.text.MessageFormat.getFormats()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#getFormats() public
+     * java.text.Format[] java.text.MessageFormat.getFormats()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,7 +127,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MessageFormat#format(Object, StringBuffer, FieldPosition) public final java.lang.StringBuffer
+     * {@link java.text.MessageFormat#format(Object, StringBuffer, java.text.FieldPosition) public final
+     * java.lang.StringBuffer
      * java.text.MessageFormat.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,7 +152,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MessageFormat#format(Object[], StringBuffer, FieldPosition) public final java.lang.StringBuffer
+     * {@link java.text.MessageFormat#format(Object[], StringBuffer, java.text.FieldPosition) public final
+     * java.lang.StringBuffer
      * java.text.MessageFormat.format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,7 +175,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#setFormats(Format[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.MessageFormat#setFormats(java.text.Format[]) public void
      * java.text.MessageFormat.setFormats(java.text.Format[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -197,8 +198,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#toPattern() public java.lang.String
-     * java.text.MessageFormat.toPattern()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#toPattern() public
+     * java.lang.String java.text.MessageFormat.toPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,9 +220,9 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#formatToCharacterIterator(Object)
-     * public java.text.AttributedCharacterIterator java.text.MessageFormat.formatToCharacterIterator(java.lang.Object)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.MessageFormat#formatToCharacterIterator(Object) public java.text.AttributedCharacterIterator
+     * java.text.MessageFormat.formatToCharacterIterator(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,8 +244,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#getFormatsByArgumentIndex() public
-     * java.text.Format[] java.text.MessageFormat.getFormatsByArgumentIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#getFormatsByArgumentIndex()
+     * public java.text.Format[] java.text.MessageFormat.getFormatsByArgumentIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,8 +266,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#applyPattern(String) public void
-     * java.text.MessageFormat.applyPattern(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#applyPattern(String) public
+     * void java.text.MessageFormat.applyPattern(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +288,9 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#setFormatByArgumentIndex(int, Format)
-     * public void java.text.MessageFormat.setFormatByArgumentIndex(int,java.text.Format)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.MessageFormat#setFormatByArgumentIndex(int, java.text.Format) public void
+     * java.text.MessageFormat.setFormatByArgumentIndex(int,java.text.Format)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -309,8 +311,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#setLocale(Locale) public void
-     * java.text.MessageFormat.setLocale(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#setLocale(java.util.Locale)
+     * public void java.text.MessageFormat.setLocale(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -331,8 +333,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#getLocale() public java.util.Locale
-     * java.text.MessageFormat.getLocale()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#getLocale() public
+     * java.util.Locale java.text.MessageFormat.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -353,8 +355,9 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#setFormatsByArgumentIndex(Format[])
-     * public void java.text.MessageFormat.setFormatsByArgumentIndex(java.text.Format[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.MessageFormat#setFormatsByArgumentIndex(java.text.Format[]) public void
+     * java.text.MessageFormat.setFormatsByArgumentIndex(java.text.Format[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -375,8 +378,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#clone() public java.lang.Object
-     * java.text.MessageFormat.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#clone() public
+     * java.lang.Object java.text.MessageFormat.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -398,8 +401,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#equals(Object) public boolean
-     * java.text.MessageFormat.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#equals(Object) public
+     * boolean java.text.MessageFormat.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -421,7 +424,7 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.MessageFormat#hashCode() public int
      * java.text.MessageFormat.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -444,7 +447,8 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageFormat#setFormat(int, Format) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.MessageFormat#setFormat(int, java.text.Format) public void
      * java.text.MessageFormat.setFormat(int,java.text.Format)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

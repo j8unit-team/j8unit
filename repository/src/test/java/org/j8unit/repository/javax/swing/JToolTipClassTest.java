@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JToolTipClassTests<JToolTip> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JToolTip#JToolTip() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JToolTip#JToolTip() public
      * javax.swing.JToolTip()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

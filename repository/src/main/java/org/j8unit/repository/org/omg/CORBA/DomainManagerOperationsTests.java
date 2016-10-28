@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DomainManagerOperations#get_domain_policy(int)
-     * public abstract org.omg.CORBA.Policy org.omg.CORBA.DomainManagerOperations.get_domain_policy(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.DomainManagerOperations#get_domain_policy(int) public abstract org.omg.CORBA.Policy
+     * org.omg.CORBA.DomainManagerOperations.get_domain_policy(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileFormat#getResolution() public int
-     * javax.sound.midi.MidiFileFormat.getResolution()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiFileFormat#getResolution()
+     * public int javax.sound.midi.MidiFileFormat.getResolution()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileFormat#getMicrosecondLength() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.MidiFileFormat#getMicrosecondLength() public long
      * javax.sound.midi.MidiFileFormat.getMicrosecondLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileFormat#getByteLength() public int
-     * javax.sound.midi.MidiFileFormat.getByteLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiFileFormat#getByteLength()
+     * public int javax.sound.midi.MidiFileFormat.getByteLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileFormat#getProperty(String) public
-     * java.lang.Object javax.sound.midi.MidiFileFormat.getProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiFileFormat#getProperty(String)
+     * public java.lang.Object javax.sound.midi.MidiFileFormat.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,7 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileFormat#getType() public int
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiFileFormat#getType() public int
      * javax.sound.midi.MidiFileFormat.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileFormat#getDivisionType() public float
-     * javax.sound.midi.MidiFileFormat.getDivisionType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiFileFormat#getDivisionType()
+     * public float javax.sound.midi.MidiFileFormat.getDivisionType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +167,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiFileFormat#properties() public
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiFileFormat#properties() public
      * java.util.Map<java.lang.String, java.lang.Object> javax.sound.midi.MidiFileFormat.properties()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

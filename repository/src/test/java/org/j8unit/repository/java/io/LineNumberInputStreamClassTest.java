@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.InputStream;
 import java.io.LineNumberInputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.io.LineNumberInputStreamClassTests<LineNum
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LineNumberInputStream#LineNumberInputStream(InputStream) public
+     * {@link java.io.LineNumberInputStream#LineNumberInputStream(java.io.InputStream) public
      * java.io.LineNumberInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.io.LineNumberInputStreamClassTests<LineNum
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LineNumberInputStream sut = null; // = new LineNumberInputStream(InputStream);
+        final LineNumberInputStream sut = null; // = new LineNumberInputStream(java.io.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.LineNumberInputStream]

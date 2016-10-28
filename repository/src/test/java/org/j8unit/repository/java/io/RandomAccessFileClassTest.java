@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.File;
 import java.io.RandomAccessFile;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.io.RandomAccessFileClassTests<RandomAccess
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RandomAccessFile#RandomAccessFile(String, String) public
+     * {@link java.io.RandomAccessFile#RandomAccessFile(String, String) public
      * java.io.RandomAccessFile(java.lang.String,java.lang.String) throws java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +44,9 @@ implements org.j8unit.repository.java.io.RandomAccessFileClassTests<RandomAccess
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RandomAccessFile#RandomAccessFile(File, String)
-     * public java.io.RandomAccessFile(java.io.File,java.lang.String) throws java.io.FileNotFoundException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.RandomAccessFile#RandomAccessFile(java.io.File, String) public
+     * java.io.RandomAccessFile(java.io.File,java.lang.String) throws java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +62,7 @@ implements org.j8unit.repository.java.io.RandomAccessFileClassTests<RandomAccess
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RandomAccessFile sut = null; // = new RandomAccessFile(File, String);
+        final RandomAccessFile sut = null; // = new RandomAccessFile(java.io.File, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.RandomAccessFile]

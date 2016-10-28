@@ -1,13 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.event.ActionListener;
-import java.io.File;
-import javax.swing.JComponent;
 import javax.swing.JFileChooser;
-import javax.swing.filechooser.FileFilter;
-import javax.swing.filechooser.FileSystemView;
-import javax.swing.filechooser.FileView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,7 +34,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setSelectedFile(File) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setSelectedFile(java.io.File) public void
      * javax.swing.JFileChooser.setSelectedFile(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +57,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getDialogTitle() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getDialogTitle() public
      * java.lang.String javax.swing.JFileChooser.getDialogTitle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +79,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getDragEnabled() public boolean
-     * javax.swing.JFileChooser.getDragEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getDragEnabled() public
+     * boolean javax.swing.JFileChooser.getDragEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +101,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setFileSelectionMode(int) public void
-     * javax.swing.JFileChooser.setFileSelectionMode(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#setFileSelectionMode(int)
+     * public void javax.swing.JFileChooser.setFileSelectionMode(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +123,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getApproveButtonToolTipText() public
-     * java.lang.String javax.swing.JFileChooser.getApproveButtonToolTipText()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#getApproveButtonToolTipText() public java.lang.String
+     * javax.swing.JFileChooser.getApproveButtonToolTipText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +146,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#isDirectorySelectionEnabled() public
-     * boolean javax.swing.JFileChooser.isDirectorySelectionEnabled()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#isDirectorySelectionEnabled() public boolean
+     * javax.swing.JFileChooser.isDirectorySelectionEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,7 +169,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#showSaveDialog(Component) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#showSaveDialog(java.awt.Component) public int
      * javax.swing.JFileChooser.showSaveDialog(java.awt.Component) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,8 +192,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getName(File) public java.lang.String
-     * javax.swing.JFileChooser.getName(java.io.File)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getName(java.io.File)
+     * public java.lang.String javax.swing.JFileChooser.getName(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,7 +214,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getFileSystemView() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getFileSystemView() public
      * javax.swing.filechooser.FileSystemView javax.swing.JFileChooser.getFileSystemView()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -239,8 +236,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getApproveButtonMnemonic() public int
-     * javax.swing.JFileChooser.getApproveButtonMnemonic()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getApproveButtonMnemonic()
+     * public int javax.swing.JFileChooser.getApproveButtonMnemonic()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -261,7 +258,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#showOpenDialog(Component) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#showOpenDialog(java.awt.Component) public int
      * javax.swing.JFileChooser.showOpenDialog(java.awt.Component) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -283,7 +281,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getAccessory() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getAccessory() public
      * javax.swing.JComponent javax.swing.JFileChooser.getAccessory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -305,8 +303,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#addChoosableFileFilter(FileFilter)
-     * public void javax.swing.JFileChooser.addChoosableFileFilter(javax.swing.filechooser.FileFilter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#addChoosableFileFilter(javax.swing.filechooser.FileFilter) public void
+     * javax.swing.JFileChooser.addChoosableFileFilter(javax.swing.filechooser.FileFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,8 +326,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getTypeDescription(File) public
-     * java.lang.String javax.swing.JFileChooser.getTypeDescription(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#getTypeDescription(java.io.File) public java.lang.String
+     * javax.swing.JFileChooser.getTypeDescription(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -349,8 +349,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#approveSelection() public void
-     * javax.swing.JFileChooser.approveSelection()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#approveSelection() public
+     * void javax.swing.JFileChooser.approveSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,8 +371,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setDragEnabled(boolean) public void
-     * javax.swing.JFileChooser.setDragEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#setDragEnabled(boolean)
+     * public void javax.swing.JFileChooser.setDragEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -393,8 +393,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setApproveButtonText(String) public
-     * void javax.swing.JFileChooser.setApproveButtonText(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setApproveButtonText(String) public void
+     * javax.swing.JFileChooser.setApproveButtonText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -415,7 +416,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getUI() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getUI() public
      * javax.swing.plaf.FileChooserUI javax.swing.JFileChooser.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -437,8 +438,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setControlButtonsAreShown(boolean)
-     * public void javax.swing.JFileChooser.setControlButtonsAreShown(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setControlButtonsAreShown(boolean) public void
+     * javax.swing.JFileChooser.setControlButtonsAreShown(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -459,8 +461,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getCurrentDirectory() public
-     * java.io.File javax.swing.JFileChooser.getCurrentDirectory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getCurrentDirectory()
+     * public java.io.File javax.swing.JFileChooser.getCurrentDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -481,8 +483,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setFileHidingEnabled(boolean) public
-     * void javax.swing.JFileChooser.setFileHidingEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setFileHidingEnabled(boolean) public void
+     * javax.swing.JFileChooser.setFileHidingEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -503,8 +506,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#isMultiSelectionEnabled() public
-     * boolean javax.swing.JFileChooser.isMultiSelectionEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#isMultiSelectionEnabled()
+     * public boolean javax.swing.JFileChooser.isMultiSelectionEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -525,7 +528,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getFileView() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getFileView() public
      * javax.swing.filechooser.FileView javax.swing.JFileChooser.getFileView()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -547,8 +550,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getApproveButtonText() public
-     * java.lang.String javax.swing.JFileChooser.getApproveButtonText()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getApproveButtonText()
+     * public java.lang.String javax.swing.JFileChooser.getApproveButtonText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -569,8 +572,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setDialogTitle(String) public void
-     * javax.swing.JFileChooser.setDialogTitle(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#setDialogTitle(String)
+     * public void javax.swing.JFileChooser.setDialogTitle(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -591,8 +594,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#isFileHidingEnabled() public boolean
-     * javax.swing.JFileChooser.isFileHidingEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#isFileHidingEnabled()
+     * public boolean javax.swing.JFileChooser.isFileHidingEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -613,7 +616,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getDialogType() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getDialogType() public int
      * javax.swing.JFileChooser.getDialogType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -635,8 +638,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#accept(File) public boolean
-     * javax.swing.JFileChooser.accept(java.io.File)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#accept(java.io.File) public
+     * boolean javax.swing.JFileChooser.accept(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -657,7 +660,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getSelectedFiles() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getSelectedFiles() public
      * java.io.File[] javax.swing.JFileChooser.getSelectedFiles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -679,7 +682,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setCurrentDirectory(File) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setCurrentDirectory(java.io.File) public void
      * javax.swing.JFileChooser.setCurrentDirectory(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -701,8 +705,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#addActionListener(ActionListener)
-     * public void javax.swing.JFileChooser.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#addActionListener(java.awt.event.ActionListener) public void
+     * javax.swing.JFileChooser.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -723,8 +728,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getFileSelectionMode() public int
-     * javax.swing.JFileChooser.getFileSelectionMode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getFileSelectionMode()
+     * public int javax.swing.JFileChooser.getFileSelectionMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -745,8 +750,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getChoosableFileFilters() public
-     * javax.swing.filechooser.FileFilter[] javax.swing.JFileChooser.getChoosableFileFilters()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getChoosableFileFilters()
+     * public javax.swing.filechooser.FileFilter[] javax.swing.JFileChooser.getChoosableFileFilters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -767,8 +772,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getControlButtonsAreShown() public
-     * boolean javax.swing.JFileChooser.getControlButtonsAreShown()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getControlButtonsAreShown()
+     * public boolean javax.swing.JFileChooser.getControlButtonsAreShown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -789,8 +794,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#changeToParentDirectory() public void
-     * javax.swing.JFileChooser.changeToParentDirectory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#changeToParentDirectory()
+     * public void javax.swing.JFileChooser.changeToParentDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -811,7 +816,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#ensureFileIsVisible(File) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#ensureFileIsVisible(java.io.File) public void
      * javax.swing.JFileChooser.ensureFileIsVisible(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -833,7 +839,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getFileFilter() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getFileFilter() public
      * javax.swing.filechooser.FileFilter javax.swing.JFileChooser.getFileFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -855,8 +861,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#removeChoosableFileFilter(FileFilter)
-     * public boolean javax.swing.JFileChooser.removeChoosableFileFilter(javax.swing.filechooser.FileFilter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#removeChoosableFileFilter(javax.swing.filechooser.FileFilter) public boolean
+     * javax.swing.JFileChooser.removeChoosableFileFilter(javax.swing.filechooser.FileFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -877,8 +884,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#showDialog(Component, String) public
-     * int javax.swing.JFileChooser.showDialog(java.awt.Component,java.lang.String) throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#showDialog(java.awt.Component, String) public int
+     * javax.swing.JFileChooser.showDialog(java.awt.Component,java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -899,8 +907,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#removeActionListener(ActionListener)
-     * public void javax.swing.JFileChooser.removeActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#removeActionListener(java.awt.event.ActionListener) public void
+     * javax.swing.JFileChooser.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -921,8 +930,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getUIClassID() public java.lang.String
-     * javax.swing.JFileChooser.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getUIClassID() public
+     * java.lang.String javax.swing.JFileChooser.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -944,8 +953,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getAcceptAllFileFilter() public
-     * javax.swing.filechooser.FileFilter javax.swing.JFileChooser.getAcceptAllFileFilter()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getAcceptAllFileFilter()
+     * public javax.swing.filechooser.FileFilter javax.swing.JFileChooser.getAcceptAllFileFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -966,7 +975,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#updateUI() public void
      * javax.swing.JFileChooser.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -989,8 +998,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#resetChoosableFileFilters() public void
-     * javax.swing.JFileChooser.resetChoosableFileFilters()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#resetChoosableFileFilters()
+     * public void javax.swing.JFileChooser.resetChoosableFileFilters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1011,8 +1020,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getDescription(File) public
-     * java.lang.String javax.swing.JFileChooser.getDescription(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#getDescription(java.io.File) public java.lang.String
+     * javax.swing.JFileChooser.getDescription(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1033,8 +1043,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#rescanCurrentDirectory() public void
-     * javax.swing.JFileChooser.rescanCurrentDirectory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#rescanCurrentDirectory()
+     * public void javax.swing.JFileChooser.rescanCurrentDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1055,8 +1065,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#isAcceptAllFileFilterUsed() public
-     * boolean javax.swing.JFileChooser.isAcceptAllFileFilterUsed()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#isAcceptAllFileFilterUsed()
+     * public boolean javax.swing.JFileChooser.isAcceptAllFileFilterUsed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1077,8 +1087,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#isTraversable(File) public boolean
-     * javax.swing.JFileChooser.isTraversable(java.io.File)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#isTraversable(java.io.File)
+     * public boolean javax.swing.JFileChooser.isTraversable(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1099,7 +1109,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setSelectedFiles(File[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setSelectedFiles(java.io.File[]) public void
      * javax.swing.JFileChooser.setSelectedFiles(java.io.File[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1121,7 +1132,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getActionListeners() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getActionListeners() public
      * java.awt.event.ActionListener[] javax.swing.JFileChooser.getActionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1143,7 +1154,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setFileView(FileView) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setFileView(javax.swing.filechooser.FileView) public void
      * javax.swing.JFileChooser.setFileView(javax.swing.filechooser.FileView)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1165,8 +1177,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setDialogType(int) public void
-     * javax.swing.JFileChooser.setDialogType(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#setDialogType(int) public
+     * void javax.swing.JFileChooser.setDialogType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1187,8 +1199,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#isFileSelectionEnabled() public boolean
-     * javax.swing.JFileChooser.isFileSelectionEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#isFileSelectionEnabled()
+     * public boolean javax.swing.JFileChooser.isFileSelectionEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1209,8 +1221,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setApproveButtonToolTipText(String)
-     * public void javax.swing.JFileChooser.setApproveButtonToolTipText(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setApproveButtonToolTipText(String) public void
+     * javax.swing.JFileChooser.setApproveButtonToolTipText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1231,8 +1244,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#cancelSelection() public void
-     * javax.swing.JFileChooser.cancelSelection()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#cancelSelection() public
+     * void javax.swing.JFileChooser.cancelSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1253,8 +1266,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getSelectedFile() public java.io.File
-     * javax.swing.JFileChooser.getSelectedFile()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getSelectedFile() public
+     * java.io.File javax.swing.JFileChooser.getSelectedFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1275,8 +1288,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setAcceptAllFileFilterUsed(boolean)
-     * public void javax.swing.JFileChooser.setAcceptAllFileFilterUsed(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setAcceptAllFileFilterUsed(boolean) public void
+     * javax.swing.JFileChooser.setAcceptAllFileFilterUsed(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1297,8 +1311,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setMultiSelectionEnabled(boolean)
-     * public void javax.swing.JFileChooser.setMultiSelectionEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setMultiSelectionEnabled(boolean) public void
+     * javax.swing.JFileChooser.setMultiSelectionEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1319,8 +1334,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setFileSystemView(FileSystemView)
-     * public void javax.swing.JFileChooser.setFileSystemView(javax.swing.filechooser.FileSystemView)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setFileSystemView(javax.swing.filechooser.FileSystemView) public void
+     * javax.swing.JFileChooser.setFileSystemView(javax.swing.filechooser.FileSystemView)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1341,8 +1357,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getIcon(File) public javax.swing.Icon
-     * javax.swing.JFileChooser.getIcon(java.io.File)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getIcon(java.io.File)
+     * public javax.swing.Icon javax.swing.JFileChooser.getIcon(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1363,7 +1379,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setFileFilter(FileFilter) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setFileFilter(javax.swing.filechooser.FileFilter) public void
      * javax.swing.JFileChooser.setFileFilter(javax.swing.filechooser.FileFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1385,8 +1402,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JFileChooser.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFileChooser#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JFileChooser.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1408,30 +1425,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setApproveButtonMnemonic(int) public
-     * void javax.swing.JFileChooser.setApproveButtonMnemonic(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setApproveButtonMnemonic_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setApproveButtonMnemonic(char) public
-     * void javax.swing.JFileChooser.setApproveButtonMnemonic(char)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setApproveButtonMnemonic(char) public void
+     * javax.swing.JFileChooser.setApproveButtonMnemonic(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1452,7 +1448,31 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFileChooser#setAccessory(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setApproveButtonMnemonic(int) public void
+     * javax.swing.JFileChooser.setApproveButtonMnemonic(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setApproveButtonMnemonic_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFileChooser#setAccessory(javax.swing.JComponent) public void
      * javax.swing.JFileChooser.setAccessory(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

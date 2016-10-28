@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.sound.sampled;
 
-import java.io.InputStream;
-import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.TargetDataLine;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,8 +22,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioInputStreamClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AudioInputStream#AudioInputStream(InputStream, AudioFormat, long) public
-     * javax.sound.sampled.AudioInputStream(java.io.InputStream,javax.sound.sampled.AudioFormat,long)}.
+     * {@link javax.sound.sampled.AudioInputStream#AudioInputStream(java.io.InputStream, javax.sound.sampled.AudioFormat, long)
+     * public javax.sound.sampled.AudioInputStream(java.io.InputStream,javax.sound.sampled.AudioFormat,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,13 +39,14 @@ implements org.j8unit.repository.javax.sound.sampled.AudioInputStreamClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AudioInputStream sut = null; // = new AudioInputStream(InputStream, AudioFormat, long);
+        final AudioInputStream sut = null; // = new AudioInputStream(java.io.InputStream,
+                                           // javax.sound.sampled.AudioFormat, long);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AudioInputStream#AudioInputStream(TargetDataLine) public
+     * {@link javax.sound.sampled.AudioInputStream#AudioInputStream(javax.sound.sampled.TargetDataLine) public
      * javax.sound.sampled.AudioInputStream(javax.sound.sampled.TargetDataLine)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,7 +63,7 @@ implements org.j8unit.repository.javax.sound.sampled.AudioInputStreamClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AudioInputStream sut = null; // = new AudioInputStream(TargetDataLine);
+        final AudioInputStream sut = null; // = new AudioInputStream(javax.sound.sampled.TargetDataLine);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioInputStream]

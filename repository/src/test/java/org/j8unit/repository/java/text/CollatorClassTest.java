@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.text;
 
 import java.text.Collator;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.text.CollatorClassTests<Collator> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#getAvailableLocales() public static
-     * synchronized java.util.Locale[] java.text.Collator.getAvailableLocales()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#getAvailableLocales() public
+     * static synchronized java.util.Locale[] java.text.Collator.getAvailableLocales()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,13 +36,13 @@ implements org.j8unit.repository.java.text.CollatorClassTests<Collator> {
     @Category(Draft.class)
     public void test_getAvailableLocales()
     throws Exception {
-        // write some test for {@link Collator#getAvailableLocales()}
+        // write some test for {@link java.text.Collator#getAvailableLocales()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#getInstance() public static synchronized
-     * java.text.Collator java.text.Collator.getInstance()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#getInstance() public static
+     * synchronized java.text.Collator java.text.Collator.getInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +56,13 @@ implements org.j8unit.repository.java.text.CollatorClassTests<Collator> {
     @Category(Draft.class)
     public void test_getInstance()
     throws Exception {
-        // write some test for {@link Collator#getInstance()}
+        // write some test for {@link java.text.Collator#getInstance()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collator#getInstance(Locale) public static
-     * java.text.Collator java.text.Collator.getInstance(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.Collator#getInstance(java.util.Locale)
+     * public static java.text.Collator java.text.Collator.getInstance(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,7 +76,7 @@ implements org.j8unit.repository.java.text.CollatorClassTests<Collator> {
     @Category(Draft.class)
     public void test_getInstance_Locale()
     throws Exception {
-        // write some test for {@link Collator#getInstance(Locale)}
+        // write some test for {@link java.text.Collator#getInstance(java.util.Locale)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Collator]

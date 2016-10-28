@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.print.attribute;
 
 import javax.print.attribute.HashPrintServiceAttributeSet;
-import javax.print.attribute.PrintServiceAttribute;
-import javax.print.attribute.PrintServiceAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.javax.print.attribute.HashPrintServiceAttribute
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(PrintServiceAttributeSet) public
-     * javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet)}.
+     * {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet)
+     * public javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,14 +39,15 @@ implements org.j8unit.repository.javax.print.attribute.HashPrintServiceAttribute
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashPrintServiceAttributeSet sut = null; // = new HashPrintServiceAttributeSet(PrintServiceAttributeSet);
+        final HashPrintServiceAttributeSet sut = null; // = new
+                                                       // HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(PrintServiceAttribute[]) public
-     * javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute[])}.
+     * {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute[])
+     * public javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,14 +63,15 @@ implements org.j8unit.repository.javax.print.attribute.HashPrintServiceAttribute
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashPrintServiceAttributeSet sut = null; // = new HashPrintServiceAttributeSet(PrintServiceAttribute[]);
+        final HashPrintServiceAttributeSet sut = null; // = new
+                                                       // HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(PrintServiceAttribute) public
-     * javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute)}.
+     * {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute)
+     * public javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,13 +87,14 @@ implements org.j8unit.repository.javax.print.attribute.HashPrintServiceAttribute
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashPrintServiceAttributeSet sut = null; // = new HashPrintServiceAttributeSet(PrintServiceAttribute);
+        final HashPrintServiceAttributeSet sut = null; // = new
+                                                       // HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashPrintServiceAttributeSet#HashPrintServiceAttributeSet() public
+     * {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet() public
      * javax.print.attribute.HashPrintServiceAttributeSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

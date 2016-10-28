@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.text.spi;
 
 import java.text.spi.DateFormatProvider;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DateFormatProvider#getDateTimeInstance(int, int, Locale) public abstract java.text.DateFormat
-     * java.text.spi.DateFormatProvider.getDateTimeInstance(int,int,java.util.Locale)}.
+     * {@link java.text.spi.DateFormatProvider#getDateTimeInstance(int, int, java.util.Locale) public abstract
+     * java.text.DateFormat java.text.spi.DateFormatProvider.getDateTimeInstance(int,int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatProvider#getDateInstance(int, Locale)
-     * public abstract java.text.DateFormat java.text.spi.DateFormatProvider.getDateInstance(int,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.spi.DateFormatProvider#getDateInstance(int, java.util.Locale) public abstract
+     * java.text.DateFormat java.text.spi.DateFormatProvider.getDateInstance(int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatProvider#getTimeInstance(int, Locale)
-     * public abstract java.text.DateFormat java.text.spi.DateFormatProvider.getTimeInstance(int,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.spi.DateFormatProvider#getTimeInstance(int, java.util.Locale) public abstract
+     * java.text.DateFormat java.text.spi.DateFormatProvider.getTimeInstance(int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

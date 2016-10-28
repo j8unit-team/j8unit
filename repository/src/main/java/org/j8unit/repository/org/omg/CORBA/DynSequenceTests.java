@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.DynSequence;
 
 /**
@@ -35,7 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynSequence#set_elements(Any[]) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.DynSequence#set_elements(org.omg.CORBA.Any[]) public abstract void
      * org.omg.CORBA.DynSequence.set_elements(org.omg.CORBA.Any[]) throws org.omg.CORBA.DynAnyPackage.InvalidSeq}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynSequence#get_elements() public abstract
-     * org.omg.CORBA.Any[] org.omg.CORBA.DynSequence.get_elements()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynSequence#get_elements() public
+     * abstract org.omg.CORBA.Any[] org.omg.CORBA.DynSequence.get_elements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynSequence#length(int) public abstract void
-     * org.omg.CORBA.DynSequence.length(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynSequence#length(int) public
+     * abstract void org.omg.CORBA.DynSequence.length(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynSequence#length() public abstract int
-     * org.omg.CORBA.DynSequence.length()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.DynSequence#length() public abstract
+     * int org.omg.CORBA.DynSequence.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HyperlinkEvent#getURL() public java.net.URL
-     * javax.swing.event.HyperlinkEvent.getURL()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.HyperlinkEvent#getURL() public
+     * java.net.URL javax.swing.event.HyperlinkEvent.getURL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HyperlinkEvent#getEventType() public
-     * javax.swing.event.HyperlinkEvent$EventType javax.swing.event.HyperlinkEvent.getEventType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.HyperlinkEvent#getEventType()
+     * public javax.swing.event.HyperlinkEvent$EventType javax.swing.event.HyperlinkEvent.getEventType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HyperlinkEvent#getInputEvent() public
-     * java.awt.event.InputEvent javax.swing.event.HyperlinkEvent.getInputEvent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.HyperlinkEvent#getInputEvent()
+     * public java.awt.event.InputEvent javax.swing.event.HyperlinkEvent.getInputEvent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HyperlinkEvent#getDescription() public
-     * java.lang.String javax.swing.event.HyperlinkEvent.getDescription()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.HyperlinkEvent#getDescription()
+     * public java.lang.String javax.swing.event.HyperlinkEvent.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HyperlinkEvent#getSourceElement() public
-     * javax.swing.text.Element javax.swing.event.HyperlinkEvent.getSourceElement()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.HyperlinkEvent#getSourceElement()
+     * public javax.swing.text.Element javax.swing.event.HyperlinkEvent.getSourceElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +172,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link EventType#toString() public java.lang.String
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.event.HyperlinkEvent.EventType#toString() public java.lang.String
          * javax.swing.event.HyperlinkEvent$EventType.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

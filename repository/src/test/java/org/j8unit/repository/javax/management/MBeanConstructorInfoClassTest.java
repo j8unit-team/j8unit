@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management;
 
-import java.lang.reflect.Constructor;
-import javax.management.Descriptor;
 import javax.management.MBeanConstructorInfo;
-import javax.management.MBeanParameterInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanConstructorInfo#MBeanConstructorInfo(String, String, MBeanParameterInfo[], Descriptor) public
+     * {@link javax.management.MBeanConstructorInfo#MBeanConstructorInfo(String, String, javax.management.MBeanParameterInfo[], javax.management.Descriptor)
+     * public
      * javax.management.MBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor)}
      * .
      *
@@ -43,14 +41,15 @@ implements org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanConstructorInfo sut = null; // = new MBeanConstructorInfo(String, String, MBeanParameterInfo[],
-                                               // Descriptor);
+        final MBeanConstructorInfo sut = null; // = new MBeanConstructorInfo(String, String,
+                                               // javax.management.MBeanParameterInfo[], javax.management.Descriptor);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanConstructorInfo#MBeanConstructorInfo(String, String, MBeanParameterInfo[]) public
+     * {@link javax.management.MBeanConstructorInfo#MBeanConstructorInfo(String, String, javax.management.MBeanParameterInfo[])
+     * public
      * javax.management.MBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,13 +66,14 @@ implements org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanConstructorInfo sut = null; // = new MBeanConstructorInfo(String, String, MBeanParameterInfo[]);
+        final MBeanConstructorInfo sut = null; // = new MBeanConstructorInfo(String, String,
+                                               // javax.management.MBeanParameterInfo[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanConstructorInfo#MBeanConstructorInfo(String, Constructor) public
+     * {@link javax.management.MBeanConstructorInfo#MBeanConstructorInfo(String, java.lang.reflect.Constructor) public
      * javax.management.MBeanConstructorInfo(java.lang.String,java.lang.reflect.Constructor<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,7 +90,7 @@ implements org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanConstructorInfo sut = null; // = new MBeanConstructorInfo(String, Constructor);
+        final MBeanConstructorInfo sut = null; // = new MBeanConstructorInfo(String, java.lang.reflect.Constructor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanConstructorInfo]

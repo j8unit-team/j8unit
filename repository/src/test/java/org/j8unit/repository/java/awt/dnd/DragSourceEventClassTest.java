@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.dnd.DragSourceContext;
 import java.awt.dnd.DragSourceEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests<DragSour
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DragSourceEvent#DragSourceEvent(DragSourceContext) public
+     * {@link java.awt.dnd.DragSourceEvent#DragSourceEvent(java.awt.dnd.DragSourceContext) public
      * java.awt.dnd.DragSourceEvent(java.awt.dnd.DragSourceContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests<DragSour
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DragSourceEvent sut = null; // = new DragSourceEvent(DragSourceContext);
+        final DragSourceEvent sut = null; // = new DragSourceEvent(java.awt.dnd.DragSourceContext);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DragSourceEvent#DragSourceEvent(DragSourceContext, int, int) public
+     * {@link java.awt.dnd.DragSourceEvent#DragSourceEvent(java.awt.dnd.DragSourceContext, int, int) public
      * java.awt.dnd.DragSourceEvent(java.awt.dnd.DragSourceContext,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests<DragSour
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DragSourceEvent sut = null; // = new DragSourceEvent(DragSourceContext, int, int);
+        final DragSourceEvent sut = null; // = new DragSourceEvent(java.awt.dnd.DragSourceContext, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSourceEvent]

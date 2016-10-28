@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.invoke;
 
 import java.lang.invoke.ConstantCallSite;
-import java.lang.invoke.MethodHandle;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.lang.invoke.ConstantCallSiteClassTests<Con
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConstantCallSite#ConstantCallSite(MethodHandle)
-     * public java.lang.invoke.ConstantCallSite(java.lang.invoke.MethodHandle)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.lang.invoke.ConstantCallSite#ConstantCallSite(java.lang.invoke.MethodHandle) public
+     * java.lang.invoke.ConstantCallSite(java.lang.invoke.MethodHandle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,7 +39,7 @@ implements org.j8unit.repository.java.lang.invoke.ConstantCallSiteClassTests<Con
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConstantCallSite sut = null; // = new ConstantCallSite(MethodHandle);
+        final ConstantCallSite sut = null; // = new ConstantCallSite(java.lang.invoke.MethodHandle);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.ConstantCallSite]

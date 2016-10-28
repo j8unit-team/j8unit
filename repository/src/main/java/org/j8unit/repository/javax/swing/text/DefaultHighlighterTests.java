@@ -1,12 +1,7 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
 import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.DefaultHighlighter.DefaultHighlightPainter;
-import javax.swing.text.Highlighter.HighlightPainter;
-import javax.swing.text.JTextComponent;
-import javax.swing.text.View;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +35,8 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHighlighter#removeAllHighlights() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultHighlighter#removeAllHighlights() public void
      * javax.swing.text.DefaultHighlighter.removeAllHighlights()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +60,8 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultHighlighter#addHighlight(int, int, HighlightPainter) public java.lang.Object
+     * {@link javax.swing.text.DefaultHighlighter#addHighlight(int, int, javax.swing.text.Highlighter.HighlightPainter)
+     * public java.lang.Object
      * javax.swing.text.DefaultHighlighter.addHighlight(int,int,javax.swing.text.Highlighter$HighlightPainter) throws
      * javax.swing.text.BadLocationException}.
      *
@@ -88,8 +85,9 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHighlighter#deinstall(JTextComponent) public
-     * void javax.swing.text.DefaultHighlighter.deinstall(javax.swing.text.JTextComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultHighlighter#deinstall(javax.swing.text.JTextComponent) public void
+     * javax.swing.text.DefaultHighlighter.deinstall(javax.swing.text.JTextComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,7 +109,31 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHighlighter#paint(Graphics) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultHighlighter#getHighlights()
+     * public javax.swing.text.Highlighter$Highlight[] javax.swing.text.DefaultHighlighter.getHighlights()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getHighlights()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultHighlighter#paint(java.awt.Graphics) public void
      * javax.swing.text.DefaultHighlighter.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,31 +156,9 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHighlighter#getHighlights() public
-     * javax.swing.text.Highlighter$Highlight[] javax.swing.text.DefaultHighlighter.getHighlights()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getHighlights()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHighlighter#changeHighlight(Object, int, int)
-     * public void javax.swing.text.DefaultHighlighter.changeHighlight(java.lang.Object,int,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultHighlighter#changeHighlight(Object, int, int) public void
+     * javax.swing.text.DefaultHighlighter.changeHighlight(java.lang.Object,int,int) throws
      * javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -181,8 +181,9 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHighlighter#install(JTextComponent) public
-     * void javax.swing.text.DefaultHighlighter.install(javax.swing.text.JTextComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultHighlighter#install(javax.swing.text.JTextComponent) public void
+     * javax.swing.text.DefaultHighlighter.install(javax.swing.text.JTextComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -205,7 +206,7 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultHighlighter#setDrawsLayeredHighlights(boolean) public void
+     * {@link javax.swing.text.DefaultHighlighter#setDrawsLayeredHighlights(boolean) public void
      * javax.swing.text.DefaultHighlighter.setDrawsLayeredHighlights(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -227,8 +228,9 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHighlighter#getDrawsLayeredHighlights()
-     * public boolean javax.swing.text.DefaultHighlighter.getDrawsLayeredHighlights()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultHighlighter#getDrawsLayeredHighlights() public boolean
+     * javax.swing.text.DefaultHighlighter.getDrawsLayeredHighlights()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -250,7 +252,8 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultHighlighter#paintLayeredHighlights(Graphics, int, int, Shape, JTextComponent, View) public void
+     * {@link javax.swing.text.DefaultHighlighter#paintLayeredHighlights(java.awt.Graphics, int, int, java.awt.Shape, javax.swing.text.JTextComponent, javax.swing.text.View)
+     * public void
      * javax.swing.text.DefaultHighlighter.paintLayeredHighlights(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)}
      * .
      *
@@ -274,8 +277,9 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultHighlighter#removeHighlight(Object) public
-     * void javax.swing.text.DefaultHighlighter.removeHighlight(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultHighlighter#removeHighlight(Object) public void
+     * javax.swing.text.DefaultHighlighter.removeHighlight(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,8 +330,8 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link DefaultHighlightPainter#paintLayer(Graphics, int, int, Shape, JTextComponent, View) public
-         * java.awt.Shape
+         * {@link javax.swing.text.DefaultHighlighter.DefaultHighlightPainter#paintLayer(java.awt.Graphics, int, int, java.awt.Shape, javax.swing.text.JTextComponent, javax.swing.text.View)
+         * public java.awt.Shape
          * javax.swing.text.DefaultHighlighter$DefaultHighlightPainter.paintLayer(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)}
          * .
          *
@@ -352,7 +356,31 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link DefaultHighlightPainter#paint(Graphics, int, int, Shape, JTextComponent) public void
+         * {@link javax.swing.text.DefaultHighlighter.DefaultHighlightPainter#getColor() public java.awt.Color
+         * javax.swing.text.DefaultHighlighter$DefaultHighlightPainter.getColor()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getColor()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultHighlighter.DefaultHighlightPainter#paint(java.awt.Graphics, int, int, java.awt.Shape, javax.swing.text.JTextComponent)
+         * public void
          * javax.swing.text.DefaultHighlighter$DefaultHighlightPainter.paint(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent)}
          * .
          *
@@ -368,28 +396,6 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_paint_Graphics_int_int_Shape_JTextComponent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link DefaultHighlightPainter#getColor() public
-         * java.awt.Color javax.swing.text.DefaultHighlighter$DefaultHighlightPainter.getColor()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getColor()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

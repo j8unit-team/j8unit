@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanAttributeInfo#isIs() public abstract
-     * boolean javax.management.openmbean.OpenMBeanAttributeInfo.isIs()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfo#isIs() public abstract boolean
+     * javax.management.openmbean.OpenMBeanAttributeInfo.isIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanAttributeInfo#hashCode() public abstract
-     * int javax.management.openmbean.OpenMBeanAttributeInfo.hashCode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfo#hashCode() public abstract int
+     * javax.management.openmbean.OpenMBeanAttributeInfo.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanAttributeInfo#equals(Object) public
-     * abstract boolean javax.management.openmbean.OpenMBeanAttributeInfo.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfo#equals(Object) public abstract boolean
+     * javax.management.openmbean.OpenMBeanAttributeInfo.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +105,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanAttributeInfo#isWritable() public abstract
-     * boolean javax.management.openmbean.OpenMBeanAttributeInfo.isWritable()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfo#isWritable() public abstract boolean
+     * javax.management.openmbean.OpenMBeanAttributeInfo.isWritable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +128,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanAttributeInfo#isReadable() public abstract
-     * boolean javax.management.openmbean.OpenMBeanAttributeInfo.isReadable()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfo#isReadable() public abstract boolean
+     * javax.management.openmbean.OpenMBeanAttributeInfo.isReadable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +151,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanAttributeInfo#toString() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanAttributeInfo.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfo#toString() public abstract java.lang.String
+     * javax.management.openmbean.OpenMBeanAttributeInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.rmi.server.ExportExceptionClassTests<Expor
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ExportException#ExportException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.server.ExportException#ExportException(String) public
      * java.rmi.server.ExportException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +45,7 @@ implements org.j8unit.repository.java.rmi.server.ExportExceptionClassTests<Expor
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ExportException#ExportException(String, Exception) public
+     * {@link java.rmi.server.ExportException#ExportException(String, Exception) public
      * java.rmi.server.ExportException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#isValid() public abstract boolean
-     * javax.management.Descriptor.isValid() throws javax.management.RuntimeOperationsException}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Descriptor#isValid() public
+     * abstract boolean javax.management.Descriptor.isValid() throws javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#equals(Object) public abstract boolean
-     * javax.management.Descriptor.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Descriptor#equals(Object) public
+     * abstract boolean javax.management.Descriptor.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#getFieldValue(String) public abstract
-     * java.lang.Object javax.management.Descriptor.getFieldValue(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.management.Descriptor#getFieldValue(String)
+     * public abstract java.lang.Object javax.management.Descriptor.getFieldValue(java.lang.String) throws
      * javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#hashCode() public abstract int
-     * javax.management.Descriptor.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Descriptor#hashCode() public
+     * abstract int javax.management.Descriptor.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#getFields() public abstract
-     * java.lang.String[] javax.management.Descriptor.getFields()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Descriptor#getFields() public
+     * abstract java.lang.String[] javax.management.Descriptor.getFields()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#setField(String, Object) public abstract
-     * void javax.management.Descriptor.setField(java.lang.String,java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test {@link javax.management.Descriptor#setField(String, Object)
+     * public abstract void javax.management.Descriptor.setField(java.lang.String,java.lang.Object) throws
      * javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#removeField(String) public abstract void
-     * javax.management.Descriptor.removeField(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Descriptor#removeField(String)
+     * public abstract void javax.management.Descriptor.removeField(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#getFieldNames() public abstract
-     * java.lang.String[] javax.management.Descriptor.getFieldNames()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Descriptor#getFieldNames() public
+     * abstract java.lang.String[] javax.management.Descriptor.getFieldNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +212,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#clone() public abstract java.lang.Object
-     * javax.management.Descriptor.clone() throws javax.management.RuntimeOperationsException}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Descriptor#clone() public abstract
+     * java.lang.Object javax.management.Descriptor.clone() throws javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +234,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#getFieldValues(String...) public abstract
-     * java.lang.Object[] javax.management.Descriptor.getFieldValues(java.lang.String...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.Descriptor#getFieldValues(String...) public abstract java.lang.Object[]
+     * javax.management.Descriptor.getFieldValues(java.lang.String...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +257,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Descriptor#setFields(String[], Object[]) public
-     * abstract void javax.management.Descriptor.setFields(java.lang.String[],java.lang.Object[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.Descriptor#setFields(String[], Object[]) public abstract void
+     * javax.management.Descriptor.setFields(java.lang.String[],java.lang.Object[]) throws
      * javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

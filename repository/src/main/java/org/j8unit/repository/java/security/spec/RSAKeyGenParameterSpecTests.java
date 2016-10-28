@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAKeyGenParameterSpec#getKeysize() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAKeyGenParameterSpec#getKeysize() public int
      * java.security.spec.RSAKeyGenParameterSpec.getKeysize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAKeyGenParameterSpec#getPublicExponent() public
-     * java.math.BigInteger java.security.spec.RSAKeyGenParameterSpec.getPublicExponent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.RSAKeyGenParameterSpec#getPublicExponent() public java.math.BigInteger
+     * java.security.spec.RSAKeyGenParameterSpec.getPublicExponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

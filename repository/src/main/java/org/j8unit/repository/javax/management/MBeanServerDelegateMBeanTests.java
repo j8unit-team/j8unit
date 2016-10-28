@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegateMBean#getSpecificationVendor()
-     * public abstract java.lang.String javax.management.MBeanServerDelegateMBean.getSpecificationVendor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegateMBean#getSpecificationVendor() public abstract java.lang.String
+     * javax.management.MBeanServerDelegateMBean.getSpecificationVendor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegateMBean#getImplementationVersion()
-     * public abstract java.lang.String javax.management.MBeanServerDelegateMBean.getImplementationVersion()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegateMBean#getImplementationVersion() public abstract java.lang.String
+     * javax.management.MBeanServerDelegateMBean.getImplementationVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegateMBean#getMBeanServerId() public
-     * abstract java.lang.String javax.management.MBeanServerDelegateMBean.getMBeanServerId()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegateMBean#getMBeanServerId() public abstract java.lang.String
+     * javax.management.MBeanServerDelegateMBean.getMBeanServerId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegateMBean#getSpecificationVersion()
-     * public abstract java.lang.String javax.management.MBeanServerDelegateMBean.getSpecificationVersion()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegateMBean#getSpecificationVersion() public abstract java.lang.String
+     * javax.management.MBeanServerDelegateMBean.getSpecificationVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegateMBean#getSpecificationName()
-     * public abstract java.lang.String javax.management.MBeanServerDelegateMBean.getSpecificationName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegateMBean#getSpecificationName() public abstract java.lang.String
+     * javax.management.MBeanServerDelegateMBean.getSpecificationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +150,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegateMBean#getImplementationVendor()
-     * public abstract java.lang.String javax.management.MBeanServerDelegateMBean.getImplementationVendor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegateMBean#getImplementationVendor() public abstract java.lang.String
+     * javax.management.MBeanServerDelegateMBean.getImplementationVendor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +173,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegateMBean#getImplementationName()
-     * public abstract java.lang.String javax.management.MBeanServerDelegateMBean.getImplementationName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegateMBean#getImplementationName() public abstract java.lang.String
+     * javax.management.MBeanServerDelegateMBean.getImplementationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

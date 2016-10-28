@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.reflect.GenericSignatureFormatErrorCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GenericSignatureFormatError#GenericSignatureFormatError() public
+     * {@link java.lang.reflect.GenericSignatureFormatError#GenericSignatureFormatError() public
      * java.lang.reflect.GenericSignatureFormatError()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.lang.reflect.GenericSignatureFormatErrorCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GenericSignatureFormatError#GenericSignatureFormatError(String) public
+     * {@link java.lang.reflect.GenericSignatureFormatError#GenericSignatureFormatError(String) public
      * java.lang.reflect.GenericSignatureFormatError(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

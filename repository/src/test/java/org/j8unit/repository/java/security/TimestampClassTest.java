@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.Timestamp;
-import java.security.cert.CertPath;
-import java.util.Date;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.java.security.TimestampClassTests<Timestamp> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Timestamp#Timestamp(Date, CertPath) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.Timestamp#Timestamp(java.util.Date, java.security.cert.CertPath) public
      * java.security.Timestamp(java.util.Date,java.security.cert.CertPath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.security.TimestampClassTests<Timestamp> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Timestamp sut = null; // = new Timestamp(Date, CertPath);
+        final Timestamp sut = null; // = new Timestamp(java.util.Date, java.security.cert.CertPath);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Timestamp]

@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicLookAndFeel#BasicLookAndFeel() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicLookAndFeel#BasicLookAndFeel() public
      * javax.swing.plaf.basic.BasicLookAndFeel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

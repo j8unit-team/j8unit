@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind.util;
 
-import javax.xml.bind.ValidationEvent;
 import javax.xml.bind.util.ValidationEventCollector;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventCollector#getEvents() public
-     * javax.xml.bind.ValidationEvent[] javax.xml.bind.util.ValidationEventCollector.getEvents()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.util.ValidationEventCollector#getEvents() public javax.xml.bind.ValidationEvent[]
+     * javax.xml.bind.util.ValidationEventCollector.getEvents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ValidationEventCollector#handleEvent(ValidationEvent) public boolean
+     * {@link javax.xml.bind.util.ValidationEventCollector#handleEvent(javax.xml.bind.ValidationEvent) public boolean
      * javax.xml.bind.util.ValidationEventCollector.handleEvent(javax.xml.bind.ValidationEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +81,8 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventCollector#hasEvents() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.util.ValidationEventCollector#hasEvents() public boolean
      * javax.xml.bind.util.ValidationEventCollector.hasEvents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +104,8 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventCollector#reset() public void
-     * javax.xml.bind.util.ValidationEventCollector.reset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.util.ValidationEventCollector#reset()
+     * public void javax.xml.bind.util.ValidationEventCollector.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

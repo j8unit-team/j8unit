@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.monitor;
 
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
 import javax.management.monitor.Monitor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#start() public abstract void
-     * javax.management.monitor.Monitor.start()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#start() public
+     * abstract void javax.management.monitor.Monitor.start()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +58,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#setObservedAttribute(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#setObservedAttribute(String) public void
      * javax.management.monitor.Monitor.setObservedAttribute(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
      *
@@ -84,8 +83,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#isActive() public synchronized boolean
-     * javax.management.monitor.Monitor.isActive()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#isActive() public
+     * synchronized boolean javax.management.monitor.Monitor.isActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +106,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#getGranularityPeriod() public synchronized
-     * long javax.management.monitor.Monitor.getGranularityPeriod()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#getGranularityPeriod() public synchronized long
+     * javax.management.monitor.Monitor.getGranularityPeriod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +130,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#preDeregister() public void
-     * javax.management.monitor.Monitor.preDeregister() throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#preDeregister()
+     * public void javax.management.monitor.Monitor.preDeregister() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +153,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#postDeregister() public void
-     * javax.management.monitor.Monitor.postDeregister()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#postDeregister()
+     * public void javax.management.monitor.Monitor.postDeregister()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,8 +176,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#getObservedObject() public synchronized
-     * javax.management.ObjectName javax.management.monitor.Monitor.getObservedObject()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#getObservedObject()
+     * public synchronized javax.management.ObjectName javax.management.monitor.Monitor.getObservedObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,8 +199,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#removeObservedObject(ObjectName) public
-     * synchronized void javax.management.monitor.Monitor.removeObservedObject(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#removeObservedObject(javax.management.ObjectName) public synchronized
+     * void javax.management.monitor.Monitor.removeObservedObject(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,8 +223,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#containsObservedObject(ObjectName) public
-     * synchronized boolean javax.management.monitor.Monitor.containsObservedObject(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#containsObservedObject(javax.management.ObjectName) public synchronized
+     * boolean javax.management.monitor.Monitor.containsObservedObject(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,9 +247,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#setGranularityPeriod(long) public
-     * synchronized void javax.management.monitor.Monitor.setGranularityPeriod(long) throws
-     * java.lang.IllegalArgumentException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#setGranularityPeriod(long) public synchronized void
+     * javax.management.monitor.Monitor.setGranularityPeriod(long) throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,8 +271,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#getObservedObjects() public synchronized
-     * javax.management.ObjectName[] javax.management.monitor.Monitor.getObservedObjects()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#getObservedObjects() public synchronized javax.management.ObjectName[]
+     * javax.management.monitor.Monitor.getObservedObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -292,8 +295,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#setObservedObject(ObjectName) public
-     * synchronized void javax.management.monitor.Monitor.setObservedObject(javax.management.ObjectName) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#setObservedObject(javax.management.ObjectName) public synchronized void
+     * javax.management.monitor.Monitor.setObservedObject(javax.management.ObjectName) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -316,7 +320,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#postRegister(Boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#postRegister(Boolean) public void
      * javax.management.monitor.Monitor.postRegister(java.lang.Boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -339,8 +344,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#getObservedAttribute() public synchronized
-     * java.lang.String javax.management.monitor.Monitor.getObservedAttribute()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#getObservedAttribute() public synchronized java.lang.String
+     * javax.management.monitor.Monitor.getObservedAttribute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -362,8 +368,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#preRegister(MBeanServer, ObjectName) public
-     * javax.management.ObjectName
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#preRegister(javax.management.MBeanServer, javax.management.ObjectName)
+     * public javax.management.ObjectName
      * javax.management.monitor.Monitor.preRegister(javax.management.MBeanServer,javax.management.ObjectName) throws
      * java.lang.Exception}.
      *
@@ -387,8 +394,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#addObservedObject(ObjectName) public
-     * synchronized void javax.management.monitor.Monitor.addObservedObject(javax.management.ObjectName) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#addObservedObject(javax.management.ObjectName) public synchronized void
+     * javax.management.monitor.Monitor.addObservedObject(javax.management.ObjectName) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -411,8 +419,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Monitor#stop() public abstract void
-     * javax.management.monitor.Monitor.stop()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#stop() public
+     * abstract void javax.management.monitor.Monitor.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

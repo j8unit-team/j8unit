@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests.LocationTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardLocation#getName() public java.lang.String
-     * javax.tools.StandardLocation.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.StandardLocation#getName() public
+     * java.lang.String javax.tools.StandardLocation.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests.LocationTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardLocation#isOutputLocation() public boolean
-     * javax.tools.StandardLocation.isOutputLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.StandardLocation#isOutputLocation()
+     * public boolean javax.tools.StandardLocation.isOutputLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

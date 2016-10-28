@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.transform.stax;
 
-import javax.xml.stream.XMLEventReader;
-import javax.xml.stream.XMLStreamReader;
 import javax.xml.transform.stax.StAXSource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.xml.transform.stax.StAXSourceClassTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StAXSource#StAXSource(XMLEventReader) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stax.StAXSource#StAXSource(javax.xml.stream.XMLEventReader) public
      * javax.xml.transform.stax.StAXSource(javax.xml.stream.XMLEventReader) throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,13 @@ implements org.j8unit.repository.javax.xml.transform.stax.StAXSourceClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StAXSource sut = null; // = new StAXSource(XMLEventReader);
+        final StAXSource sut = null; // = new StAXSource(javax.xml.stream.XMLEventReader);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StAXSource#StAXSource(XMLStreamReader) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stax.StAXSource#StAXSource(javax.xml.stream.XMLStreamReader) public
      * javax.xml.transform.stax.StAXSource(javax.xml.stream.XMLStreamReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.javax.xml.transform.stax.StAXSourceClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StAXSource sut = null; // = new StAXSource(XMLStreamReader);
+        final StAXSource sut = null; // = new StAXSource(javax.xml.stream.XMLStreamReader);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.stax.StAXSource]

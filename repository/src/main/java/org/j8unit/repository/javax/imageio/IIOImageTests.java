@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.imageio;
 
-import java.awt.image.Raster;
-import java.awt.image.RenderedImage;
-import java.util.List;
 import javax.imageio.IIOImage;
-import javax.imageio.metadata.IIOMetadata;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#setMetadata(IIOMetadata) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.IIOImage#setMetadata(javax.imageio.metadata.IIOMetadata) public void
      * javax.imageio.IIOImage.setMetadata(javax.imageio.metadata.IIOMetadata)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +57,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#hasRaster() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOImage#hasRaster() public boolean
      * javax.imageio.IIOImage.hasRaster()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#getThumbnails() public java.util.List<?
-     * extends java.awt.image.BufferedImage> javax.imageio.IIOImage.getThumbnails()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOImage#getThumbnails() public
+     * java.util.List<? extends java.awt.image.BufferedImage> javax.imageio.IIOImage.getThumbnails()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#getMetadata() public
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOImage#getMetadata() public
      * javax.imageio.metadata.IIOMetadata javax.imageio.IIOImage.getMetadata()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#setRenderedImage(RenderedImage) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.IIOImage#setRenderedImage(java.awt.image.RenderedImage) public void
      * javax.imageio.IIOImage.setRenderedImage(java.awt.image.RenderedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#setThumbnails(List) public void
-     * javax.imageio.IIOImage.setThumbnails(java.util.List<? extends java.awt.image.BufferedImage>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOImage#setThumbnails(java.util.List)
+     * public void javax.imageio.IIOImage.setThumbnails(java.util.List<? extends java.awt.image.BufferedImage>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +168,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#getRenderedImage() public
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOImage#getRenderedImage() public
      * java.awt.image.RenderedImage javax.imageio.IIOImage.getRenderedImage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,7 +190,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#getThumbnail(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOImage#getThumbnail(int) public
      * java.awt.image.BufferedImage javax.imageio.IIOImage.getThumbnail(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,7 +212,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#getNumThumbnails() public int
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOImage#getNumThumbnails() public int
      * javax.imageio.IIOImage.getNumThumbnails()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +234,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#getRaster() public java.awt.image.Raster
-     * javax.imageio.IIOImage.getRaster()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.IIOImage#getRaster() public
+     * java.awt.image.Raster javax.imageio.IIOImage.getRaster()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,7 +256,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOImage#setRaster(Raster) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.IIOImage#setRaster(java.awt.image.Raster) public void
      * javax.imageio.IIOImage.setRaster(java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

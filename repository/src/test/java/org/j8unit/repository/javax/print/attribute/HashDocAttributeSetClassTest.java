@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.print.attribute;
 
-import javax.print.attribute.DocAttribute;
-import javax.print.attribute.DocAttributeSet;
 import javax.print.attribute.HashDocAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.javax.print.attribute.HashDocAttributeSetClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashDocAttributeSet#HashDocAttributeSet(DocAttributeSet) public
-     * javax.print.attribute.HashDocAttributeSet(javax.print.attribute.DocAttributeSet)}.
+     * {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet(javax.print.attribute.DocAttributeSet)
+     * public javax.print.attribute.HashDocAttributeSet(javax.print.attribute.DocAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +39,13 @@ implements org.j8unit.repository.javax.print.attribute.HashDocAttributeSetClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashDocAttributeSet sut = null; // = new HashDocAttributeSet(DocAttributeSet);
+        final HashDocAttributeSet sut = null; // = new HashDocAttributeSet(javax.print.attribute.DocAttributeSet);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashDocAttributeSet#HashDocAttributeSet(DocAttribute[]) public
+     * {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet(javax.print.attribute.DocAttribute[]) public
      * javax.print.attribute.HashDocAttributeSet(javax.print.attribute.DocAttribute[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +62,13 @@ implements org.j8unit.repository.javax.print.attribute.HashDocAttributeSetClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashDocAttributeSet sut = null; // = new HashDocAttributeSet(DocAttribute[]);
+        final HashDocAttributeSet sut = null; // = new HashDocAttributeSet(javax.print.attribute.DocAttribute[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashDocAttributeSet#HashDocAttributeSet(DocAttribute) public
+     * {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet(javax.print.attribute.DocAttribute) public
      * javax.print.attribute.HashDocAttributeSet(javax.print.attribute.DocAttribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,13 +85,14 @@ implements org.j8unit.repository.javax.print.attribute.HashDocAttributeSetClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashDocAttributeSet sut = null; // = new HashDocAttributeSet(DocAttribute);
+        final HashDocAttributeSet sut = null; // = new HashDocAttributeSet(javax.print.attribute.DocAttribute);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashDocAttributeSet#HashDocAttributeSet()
-     * public javax.print.attribute.HashDocAttributeSet()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet() public
+     * javax.print.attribute.HashDocAttributeSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

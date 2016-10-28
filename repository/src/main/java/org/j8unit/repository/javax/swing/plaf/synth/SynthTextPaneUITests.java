@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
-import javax.swing.plaf.synth.SynthContext;
 import javax.swing.plaf.synth.SynthTextPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +34,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthEditorPaneUITests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthTextPaneUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthTextPaneUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.synth.SynthTextPaneUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +59,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthEditorPaneUITests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthTextPaneUI#paintBorder(SynthContext, Graphics, int, int, int, int) public void
+     * {@link javax.swing.plaf.synth.SynthTextPaneUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public void
      * javax.swing.plaf.synth.SynthTextPaneUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *

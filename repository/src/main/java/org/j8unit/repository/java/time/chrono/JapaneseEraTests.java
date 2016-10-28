@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
 import java.time.chrono.JapaneseEra;
-import java.time.temporal.TemporalField;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +35,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JapaneseEra#getValue() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.JapaneseEra#getValue() public int
      * java.time.chrono.JapaneseEra.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JapaneseEra#range(TemporalField) public
-     * java.time.temporal.ValueRange java.time.chrono.JapaneseEra.range(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.JapaneseEra#range(java.time.temporal.TemporalField) public java.time.temporal.ValueRange
+     * java.time.chrono.JapaneseEra.range(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JapaneseEra#toString() public java.lang.String
-     * java.time.chrono.JapaneseEra.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.JapaneseEra#toString() public
+     * java.lang.String java.time.chrono.JapaneseEra.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

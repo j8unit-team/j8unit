@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentHashMap.KeySetView;
 import org.j8unit.repository.categories.Draft;
@@ -24,7 +23,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConcurrentHashMap#ConcurrentHashMap(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap(int) public
      * java.util.concurrent.ConcurrentHashMap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +46,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConcurrentHashMap#ConcurrentHashMap() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap() public
      * java.util.concurrent.ConcurrentHashMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +68,9 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConcurrentHashMap#ConcurrentHashMap(int, float)
-     * public java.util.concurrent.ConcurrentHashMap(int,float)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap(int, float) public
+     * java.util.concurrent.ConcurrentHashMap(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,7 +92,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConcurrentHashMap#ConcurrentHashMap(int, float, int) public
+     * {@link java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap(int, float, int) public
      * java.util.concurrent.ConcurrentHashMap(int,float,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,7 +114,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConcurrentHashMap#ConcurrentHashMap(Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap(java.util.Map) public
      * java.util.concurrent.ConcurrentHashMap(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,13 +132,13 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConcurrentHashMap sut = null; // = new ConcurrentHashMap(Map);
+        final ConcurrentHashMap sut = null; // = new ConcurrentHashMap(java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#newKeySet() public static
-     * <K> java.util.concurrent.ConcurrentHashMap.java.util.concurrent.ConcurrentHashMap$KeySetView<K,
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#newKeySet()
+     * public static <K> java.util.concurrent.ConcurrentHashMap.java.util.concurrent.ConcurrentHashMap$KeySetView<K,
      * java.lang.Boolean> java.util.concurrent.ConcurrentHashMap.newKeySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,12 +153,13 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
     @Category(Draft.class)
     public void test_newKeySet()
     throws Exception {
-        // write some test for {@link ConcurrentHashMap#newKeySet()}
+        // write some test for {@link java.util.concurrent.ConcurrentHashMap#newKeySet()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#newKeySet(int) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#newKeySet(int) public static
      * <K> java.util.concurrent.ConcurrentHashMap.java.util.concurrent.ConcurrentHashMap$KeySetView<K,
      * java.lang.Boolean> java.util.concurrent.ConcurrentHashMap.newKeySet(int)}.
      *
@@ -171,7 +175,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
     @Category(Draft.class)
     public void test_newKeySet_int()
     throws Exception {
-        // write some test for {@link ConcurrentHashMap#newKeySet(int)}
+        // write some test for {@link java.util.concurrent.ConcurrentHashMap#newKeySet(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentHashMap]

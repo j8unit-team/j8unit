@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Guard#checkGuard(Object) public abstract void
-     * java.security.Guard.checkGuard(java.lang.Object) throws java.lang.SecurityException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Guard#checkGuard(Object) public
+     * abstract void java.security.Guard.checkGuard(java.lang.Object) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

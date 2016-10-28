@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.DynamicAny.FieldNameHelper;
 
 @RunWith(J8Unit4.class)
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperClassTests<Fi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FieldNameHelper#FieldNameHelper() public
-     * org.omg.DynamicAny.FieldNameHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.FieldNameHelper#FieldNameHelper() public org.omg.DynamicAny.FieldNameHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +42,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperClassTests<Fi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldNameHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.DynamicAny.FieldNameHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.FieldNameHelper#type() public
+     * static synchronized org.omg.CORBA.TypeCode org.omg.DynamicAny.FieldNameHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,13 +57,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperClassTests<Fi
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link FieldNameHelper#type()}
+        // write some test for {@link org.omg.DynamicAny.FieldNameHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldNameHelper#write(OutputStream, String) public
-     * static void org.omg.DynamicAny.FieldNameHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.FieldNameHelper#write(org.omg.CORBA.portable.OutputStream, String) public static void
+     * org.omg.DynamicAny.FieldNameHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +78,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperClassTests<Fi
     @Category(Draft.class)
     public void test_write_OutputStream_String()
     throws Exception {
-        // write some test for {@link FieldNameHelper#write(OutputStream, String)}
+        // write some test for {@link org.omg.DynamicAny.FieldNameHelper#write(org.omg.CORBA.portable.OutputStream,
+        // String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldNameHelper#id() public static java.lang.String
-     * org.omg.DynamicAny.FieldNameHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.FieldNameHelper#id() public
+     * static java.lang.String org.omg.DynamicAny.FieldNameHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +99,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperClassTests<Fi
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link FieldNameHelper#id()}
+        // write some test for {@link org.omg.DynamicAny.FieldNameHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldNameHelper#insert(Any, String) public static
-     * void org.omg.DynamicAny.FieldNameHelper.insert(org.omg.CORBA.Any,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.FieldNameHelper#insert(org.omg.CORBA.Any, String) public static void
+     * org.omg.DynamicAny.FieldNameHelper.insert(org.omg.CORBA.Any,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +120,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperClassTests<Fi
     @Category(Draft.class)
     public void test_insert_Any_String()
     throws Exception {
-        // write some test for {@link FieldNameHelper#insert(Any, String)}
+        // write some test for {@link org.omg.DynamicAny.FieldNameHelper#insert(org.omg.CORBA.Any, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldNameHelper#read(InputStream) public static
-     * java.lang.String org.omg.DynamicAny.FieldNameHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.FieldNameHelper#read(org.omg.CORBA.portable.InputStream) public static java.lang.String
+     * org.omg.DynamicAny.FieldNameHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,13 +141,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperClassTests<Fi
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link FieldNameHelper#read(InputStream)}
+        // write some test for {@link org.omg.DynamicAny.FieldNameHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FieldNameHelper#extract(Any) public static
-     * java.lang.String org.omg.DynamicAny.FieldNameHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.FieldNameHelper#extract(org.omg.CORBA.Any) public static java.lang.String
+     * org.omg.DynamicAny.FieldNameHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,7 +162,7 @@ implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperClassTests<Fi
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link FieldNameHelper#extract(Any)}
+        // write some test for {@link org.omg.DynamicAny.FieldNameHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.FieldNameHelper]

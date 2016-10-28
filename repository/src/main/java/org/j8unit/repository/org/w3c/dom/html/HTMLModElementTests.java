@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLModElement#setDateTime(String) public abstract
-     * void org.w3c.dom.html.HTMLModElement.setDateTime(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLModElement#setDateTime(String)
+     * public abstract void org.w3c.dom.html.HTMLModElement.setDateTime(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLModElement#setCite(String) public abstract void
-     * org.w3c.dom.html.HTMLModElement.setCite(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLModElement#setCite(String)
+     * public abstract void org.w3c.dom.html.HTMLModElement.setCite(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLModElement#getCite() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLModElement.getCite()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLModElement#getCite() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLModElement.getCite()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLModElement#getDateTime() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLModElement.getDateTime()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLModElement#getDateTime() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLModElement.getDateTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

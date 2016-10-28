@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIORegistry#registerApplicationClasspathSpis()
-     * public void javax.imageio.spi.IIORegistry.registerApplicationClasspathSpis()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.IIORegistry#registerApplicationClasspathSpis() public void
+     * javax.imageio.spi.IIORegistry.registerApplicationClasspathSpis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeNode#getAllowsChildren() public abstract boolean
-     * javax.swing.tree.TreeNode.getAllowsChildren()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeNode#getAllowsChildren() public
+     * abstract boolean javax.swing.tree.TreeNode.getAllowsChildren()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeNode#getIndex(TreeNode) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.TreeNode#getIndex(javax.swing.tree.TreeNode) public abstract int
      * javax.swing.tree.TreeNode.getIndex(javax.swing.tree.TreeNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +80,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeNode#children() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeNode#children() public abstract
      * java.util.Enumeration javax.swing.tree.TreeNode.children()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeNode#getParent() public abstract
-     * javax.swing.tree.TreeNode javax.swing.tree.TreeNode.getParent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeNode#getParent() public
+     * abstract javax.swing.tree.TreeNode javax.swing.tree.TreeNode.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeNode#getChildCount() public abstract int
-     * javax.swing.tree.TreeNode.getChildCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeNode#getChildCount() public
+     * abstract int javax.swing.tree.TreeNode.getChildCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeNode#getChildAt(int) public abstract
-     * javax.swing.tree.TreeNode javax.swing.tree.TreeNode.getChildAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeNode#getChildAt(int) public
+     * abstract javax.swing.tree.TreeNode javax.swing.tree.TreeNode.getChildAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeNode#isLeaf() public abstract boolean
-     * javax.swing.tree.TreeNode.isLeaf()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeNode#isLeaf() public abstract
+     * boolean javax.swing.tree.TreeNode.isLeaf()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -3,7 +3,6 @@ package org.j8unit.repository.java.util;
 import java.util.AbstractMap;
 import java.util.AbstractMap.SimpleEntry;
 import java.util.AbstractMap.SimpleImmutableEntry;
-import java.util.Map.Entry;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -39,8 +38,9 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link SimpleEntry#SimpleEntry(Object, Object)
-         * public java.util.AbstractMap$SimpleEntry(K,V)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.util.AbstractMap.SimpleEntry#SimpleEntry(Object, Object) public
+         * java.util.AbstractMap$SimpleEntry(K,V)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -61,7 +61,8 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link SimpleEntry#SimpleEntry(Entry) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.util.AbstractMap.SimpleEntry#SimpleEntry(java.util.Map.Entry) public
          * java.util.AbstractMap$SimpleEntry(java.util.Map.java.util.Map$Entry<? extends K, ? extends V>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +79,7 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final SimpleEntry sut = null; // = new SimpleEntry(Entry);
+            final SimpleEntry sut = null; // = new SimpleEntry(java.util.Map.Entry);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractMap$SimpleEntry]
@@ -100,7 +101,7 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link SimpleImmutableEntry#SimpleImmutableEntry(Object, Object) public
+         * {@link java.util.AbstractMap.SimpleImmutableEntry#SimpleImmutableEntry(Object, Object) public
          * java.util.AbstractMap$SimpleImmutableEntry(K,V)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +124,7 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link SimpleImmutableEntry#SimpleImmutableEntry(Entry) public
+         * {@link java.util.AbstractMap.SimpleImmutableEntry#SimpleImmutableEntry(java.util.Map.Entry) public
          * java.util.AbstractMap$SimpleImmutableEntry(java.util.Map.java.util.Map$Entry<? extends K, ? extends V>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -140,7 +141,7 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final SimpleImmutableEntry sut = null; // = new SimpleImmutableEntry(Entry);
+            final SimpleImmutableEntry sut = null; // = new SimpleImmutableEntry(java.util.Map.Entry);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractMap$SimpleImmutableEntry]

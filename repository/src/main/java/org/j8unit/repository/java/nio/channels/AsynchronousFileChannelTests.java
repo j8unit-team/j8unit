@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.nio.ByteBuffer;
 import java.nio.channels.AsynchronousFileChannel;
-import java.nio.channels.CompletionHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#force(boolean) public
-     * abstract void java.nio.channels.AsynchronousFileChannel.force(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousFileChannel#force(boolean) public abstract void
+     * java.nio.channels.AsynchronousFileChannel.force(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#lock() public final
-     * java.util.concurrent.Future<java.nio.channels.FileLock> java.nio.channels.AsynchronousFileChannel.lock()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.AsynchronousFileChannel#lock()
+     * public final java.util.concurrent.Future
+     * <java.nio.channels.FileLock> java.nio.channels.AsynchronousFileChannel.lock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +81,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousFileChannel#lock(long, long, boolean, Object, CompletionHandler) public abstract <A> void
+     * {@link java.nio.channels.AsynchronousFileChannel#lock(long, long, boolean, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousFileChannel.lock(long,long,boolean,A,java.nio.channels.CompletionHandler<java.nio.channels.FileLock,
      * ? super A>)}.
      *
@@ -105,7 +106,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousFileChannel#lock(Object, CompletionHandler) public final <A> void
+     * {@link java.nio.channels.AsynchronousFileChannel#lock(Object, java.nio.channels.CompletionHandler) public final
+     * <A> void
      * java.nio.channels.AsynchronousFileChannel.lock(A,java.nio.channels.CompletionHandler<java.nio.channels.FileLock,
      * ? super A>)}.
      *
@@ -128,8 +130,9 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#lock(long, long, boolean)
-     * public abstract java.util.concurrent.Future
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousFileChannel#lock(long, long, boolean) public abstract
+     * java.util.concurrent.Future
      * <java.nio.channels.FileLock> java.nio.channels.AsynchronousFileChannel.lock(long,long,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,9 +154,10 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#tryLock(long, long, boolean)
-     * public abstract java.nio.channels.FileLock java.nio.channels.AsynchronousFileChannel.tryLock(long,long,boolean)
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousFileChannel#tryLock(long, long, boolean) public abstract
+     * java.nio.channels.FileLock java.nio.channels.AsynchronousFileChannel.tryLock(long,long,boolean) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +178,9 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#tryLock() public final
-     * java.nio.channels.FileLock java.nio.channels.AsynchronousFileChannel.tryLock() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.AsynchronousFileChannel#tryLock()
+     * public final java.nio.channels.FileLock java.nio.channels.AsynchronousFileChannel.tryLock() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,8 +201,9 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#write(ByteBuffer, long)
-     * public abstract java.util.concurrent.Future
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousFileChannel#write(java.nio.ByteBuffer, long) public abstract
+     * java.util.concurrent.Future
      * <java.lang.Integer> java.nio.channels.AsynchronousFileChannel.write(java.nio.ByteBuffer,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,7 +226,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousFileChannel#write(ByteBuffer, long, Object, CompletionHandler) public abstract <A> void
+     * {@link java.nio.channels.AsynchronousFileChannel#write(java.nio.ByteBuffer, long, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousFileChannel.write(java.nio.ByteBuffer,long,A,java.nio.channels.CompletionHandler<java.lang.Integer,
      * ? super A>)}.
      *
@@ -243,8 +250,9 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#read(ByteBuffer, long)
-     * public abstract java.util.concurrent.Future
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousFileChannel#read(java.nio.ByteBuffer, long) public abstract
+     * java.util.concurrent.Future
      * <java.lang.Integer> java.nio.channels.AsynchronousFileChannel.read(java.nio.ByteBuffer,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -267,7 +275,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousFileChannel#read(ByteBuffer, long, Object, CompletionHandler) public abstract <A> void
+     * {@link java.nio.channels.AsynchronousFileChannel#read(java.nio.ByteBuffer, long, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousFileChannel.read(java.nio.ByteBuffer,long,A,java.nio.channels.CompletionHandler<java.lang.Integer,
      * ? super A>)}.
      *
@@ -290,9 +299,10 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#truncate(long) public
-     * abstract java.nio.channels.AsynchronousFileChannel java.nio.channels.AsynchronousFileChannel.truncate(long)
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousFileChannel#truncate(long) public abstract
+     * java.nio.channels.AsynchronousFileChannel java.nio.channels.AsynchronousFileChannel.truncate(long) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -313,8 +323,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousFileChannel#size() public abstract long
-     * java.nio.channels.AsynchronousFileChannel.size() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.AsynchronousFileChannel#size()
+     * public abstract long java.nio.channels.AsynchronousFileChannel.size() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

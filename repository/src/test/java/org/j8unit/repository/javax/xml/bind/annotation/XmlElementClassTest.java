@@ -35,7 +35,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementClassTests<
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link DEFAULT#DEFAULT() public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.xml.bind.annotation.XmlElement.DEFAULT#DEFAULT() public
          * javax.xml.bind.annotation.XmlElement$DEFAULT()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.dnd.DragSourceContext;
 import java.awt.dnd.DragSourceDropEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceDropEventClassTests<Drag
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DragSourceDropEvent#DragSourceDropEvent(DragSourceContext) public
+     * {@link java.awt.dnd.DragSourceDropEvent#DragSourceDropEvent(java.awt.dnd.DragSourceContext) public
      * java.awt.dnd.DragSourceDropEvent(java.awt.dnd.DragSourceContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,14 +39,14 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceDropEventClassTests<Drag
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DragSourceDropEvent sut = null; // = new DragSourceDropEvent(DragSourceContext);
+        final DragSourceDropEvent sut = null; // = new DragSourceDropEvent(java.awt.dnd.DragSourceContext);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DragSourceDropEvent#DragSourceDropEvent(DragSourceContext, int, boolean, int, int) public
-     * java.awt.dnd.DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean,int,int)}.
+     * {@link java.awt.dnd.DragSourceDropEvent#DragSourceDropEvent(java.awt.dnd.DragSourceContext, int, boolean, int, int)
+     * public java.awt.dnd.DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,13 +62,14 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceDropEventClassTests<Drag
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DragSourceDropEvent sut = null; // = new DragSourceDropEvent(DragSourceContext, int, boolean, int, int);
+        final DragSourceDropEvent sut = null; // = new DragSourceDropEvent(java.awt.dnd.DragSourceContext, int, boolean,
+                                              // int, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DragSourceDropEvent#DragSourceDropEvent(DragSourceContext, int, boolean) public
+     * {@link java.awt.dnd.DragSourceDropEvent#DragSourceDropEvent(java.awt.dnd.DragSourceContext, int, boolean) public
      * java.awt.dnd.DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,7 +86,8 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceDropEventClassTests<Drag
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DragSourceDropEvent sut = null; // = new DragSourceDropEvent(DragSourceContext, int, boolean);
+        final DragSourceDropEvent sut = null; // = new DragSourceDropEvent(java.awt.dnd.DragSourceContext, int,
+                                              // boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSourceDropEvent]

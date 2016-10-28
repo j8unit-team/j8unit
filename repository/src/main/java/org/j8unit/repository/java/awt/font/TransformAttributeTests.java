@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformAttribute#equals(Object) public boolean
-     * java.awt.font.TransformAttribute.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TransformAttribute#equals(Object)
+     * public boolean java.awt.font.TransformAttribute.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformAttribute#hashCode() public int
-     * java.awt.font.TransformAttribute.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TransformAttribute#hashCode() public
+     * int java.awt.font.TransformAttribute.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformAttribute#isIdentity() public boolean
-     * java.awt.font.TransformAttribute.isIdentity()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TransformAttribute#isIdentity() public
+     * boolean java.awt.font.TransformAttribute.isIdentity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformAttribute#getTransform() public
-     * java.awt.geom.AffineTransform java.awt.font.TransformAttribute.getTransform()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TransformAttribute#getTransform()
+     * public java.awt.geom.AffineTransform java.awt.font.TransformAttribute.getTransform()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedType#getType() public abstract
-     * java.lang.reflect.Type java.lang.reflect.AnnotatedType.getType()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.AnnotatedType#getType() public
+     * abstract java.lang.reflect.Type java.lang.reflect.AnnotatedType.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#getVLink() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLBodyElement.getVLink()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#getVLink() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLBodyElement.getVLink()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#setALink(String) public abstract
-     * void org.w3c.dom.html.HTMLBodyElement.setALink(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#setALink(String)
+     * public abstract void org.w3c.dom.html.HTMLBodyElement.setALink(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,30 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#setText(String) public abstract void
-     * org.w3c.dom.html.HTMLBodyElement.setText(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setText_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#getBgColor() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLBodyElement.getBgColor()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#getBgColor() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLBodyElement.getBgColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +100,30 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#getALink() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLBodyElement.getALink()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#setText(String)
+     * public abstract void org.w3c.dom.html.HTMLBodyElement.setText(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setText_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#getALink() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLBodyElement.getALink()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#setBackground(String) public
-     * abstract void org.w3c.dom.html.HTMLBodyElement.setBackground(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLBodyElement#setBackground(String) public abstract void
+     * org.w3c.dom.html.HTMLBodyElement.setBackground(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +167,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#getBackground() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLBodyElement.getBackground()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#getBackground()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLBodyElement.getBackground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +189,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#getLink() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLBodyElement.getLink()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#getLink() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLBodyElement.getLink()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +211,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#setVLink(String) public abstract
-     * void org.w3c.dom.html.HTMLBodyElement.setVLink(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#setVLink(String)
+     * public abstract void org.w3c.dom.html.HTMLBodyElement.setVLink(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +233,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#setLink(String) public abstract void
-     * org.w3c.dom.html.HTMLBodyElement.setLink(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#setLink(String)
+     * public abstract void org.w3c.dom.html.HTMLBodyElement.setLink(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,8 +255,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#getText() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLBodyElement.getText()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#getText() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLBodyElement.getText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,8 +277,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLBodyElement#setBgColor(String) public abstract
-     * void org.w3c.dom.html.HTMLBodyElement.setBgColor(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#setBgColor(String)
+     * public abstract void org.w3c.dom.html.HTMLBodyElement.setBgColor(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

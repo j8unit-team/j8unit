@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.xml.transform;
 
-import java.io.PrintStream;
-import java.io.PrintWriter;
-import javax.xml.transform.SourceLocator;
 import javax.xml.transform.TransformerException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#getException() public
-     * java.lang.Throwable javax.xml.transform.TransformerException.getException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerException#getException() public java.lang.Throwable
+     * javax.xml.transform.TransformerException.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#printStackTrace(PrintStream)
-     * public void javax.xml.transform.TransformerException.printStackTrace(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerException#printStackTrace(java.io.PrintStream) public void
+     * javax.xml.transform.TransformerException.printStackTrace(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +81,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#printStackTrace() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerException#printStackTrace() public void
      * javax.xml.transform.TransformerException.printStackTrace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +105,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#printStackTrace(PrintWriter)
-     * public void javax.xml.transform.TransformerException.printStackTrace(java.io.PrintWriter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerException#printStackTrace(java.io.PrintWriter) public void
+     * javax.xml.transform.TransformerException.printStackTrace(java.io.PrintWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +129,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#getLocationAsString() public
-     * java.lang.String javax.xml.transform.TransformerException.getLocationAsString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerException#getLocationAsString() public java.lang.String
+     * javax.xml.transform.TransformerException.getLocationAsString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +152,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#getCause() public
-     * java.lang.Throwable javax.xml.transform.TransformerException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.TransformerException#getCause()
+     * public java.lang.Throwable javax.xml.transform.TransformerException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +175,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#setLocator(SourceLocator)
-     * public void javax.xml.transform.TransformerException.setLocator(javax.xml.transform.SourceLocator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerException#setLocator(javax.xml.transform.SourceLocator) public void
+     * javax.xml.transform.TransformerException.setLocator(javax.xml.transform.SourceLocator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +198,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#initCause(Throwable) public
-     * synchronized java.lang.Throwable javax.xml.transform.TransformerException.initCause(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerException#initCause(Throwable) public synchronized java.lang.Throwable
+     * javax.xml.transform.TransformerException.initCause(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,30 +222,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#getLocator() public
-     * javax.xml.transform.SourceLocator javax.xml.transform.TransformerException.getLocator()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformerException#getMessageAndLocation() public
-     * java.lang.String javax.xml.transform.TransformerException.getMessageAndLocation()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerException#getMessageAndLocation() public java.lang.String
+     * javax.xml.transform.TransformerException.getMessageAndLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,6 +237,29 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMessageAndLocation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.TransformerException#getLocator() public javax.xml.transform.SourceLocator
+     * javax.xml.transform.TransformerException.getLocator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

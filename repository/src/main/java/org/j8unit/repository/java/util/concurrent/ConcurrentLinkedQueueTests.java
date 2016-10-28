@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#peek() public E
-     * java.util.concurrent.ConcurrentLinkedQueue.peek()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedQueue#peek()
+     * public E java.util.concurrent.ConcurrentLinkedQueue.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#remove(Object) public boolean
      * java.util.concurrent.ConcurrentLinkedQueue.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#poll() public E
-     * java.util.concurrent.ConcurrentLinkedQueue.poll()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedQueue#poll()
+     * public E java.util.concurrent.ConcurrentLinkedQueue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#toArray(Object[]) public
-     * <T> T[] java.util.concurrent.ConcurrentLinkedQueue.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#toArray(Object[]) public <T> T[]
+     * java.util.concurrent.ConcurrentLinkedQueue.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +128,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#toArray() public
-     * java.lang.Object[] java.util.concurrent.ConcurrentLinkedQueue.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedQueue#toArray()
+     * public java.lang.Object[] java.util.concurrent.ConcurrentLinkedQueue.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +151,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#isEmpty() public boolean
-     * java.util.concurrent.ConcurrentLinkedQueue.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedQueue#isEmpty()
+     * public boolean java.util.concurrent.ConcurrentLinkedQueue.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +174,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#addAll(Collection) public
-     * boolean java.util.concurrent.ConcurrentLinkedQueue.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#addAll(java.util.Collection) public boolean
+     * java.util.concurrent.ConcurrentLinkedQueue.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,8 +198,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#spliterator() public
-     * java.util.Spliterator<E> java.util.concurrent.ConcurrentLinkedQueue.spliterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#spliterator() public java.util.Spliterator
+     * <E> java.util.concurrent.ConcurrentLinkedQueue.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,8 +222,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#size() public int
-     * java.util.concurrent.ConcurrentLinkedQueue.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedQueue#size()
+     * public int java.util.concurrent.ConcurrentLinkedQueue.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,8 +245,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#iterator() public
-     * java.util.Iterator<E> java.util.concurrent.ConcurrentLinkedQueue.iterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#iterator() public java.util.Iterator
+     * <E> java.util.concurrent.ConcurrentLinkedQueue.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,8 +269,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#contains(Object) public
-     * boolean java.util.concurrent.ConcurrentLinkedQueue.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#contains(Object) public boolean
+     * java.util.concurrent.ConcurrentLinkedQueue.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -288,7 +293,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#offer(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#offer(Object) public boolean
      * java.util.concurrent.ConcurrentLinkedQueue.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -311,7 +317,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentLinkedQueue#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#add(Object) public boolean
      * java.util.concurrent.ConcurrentLinkedQueue.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

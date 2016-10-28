@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.text.LayoutQueueClassTests<LayoutQu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LayoutQueue#LayoutQueue() public
-     * javax.swing.text.LayoutQueue()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.LayoutQueue#LayoutQueue()
+     * public javax.swing.text.LayoutQueue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.javax.swing.text.LayoutQueueClassTests<LayoutQu
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutQueue#getDefaultQueue() public static
-     * javax.swing.text.LayoutQueue javax.swing.text.LayoutQueue.getDefaultQueue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.LayoutQueue#getDefaultQueue()
+     * public static javax.swing.text.LayoutQueue javax.swing.text.LayoutQueue.getDefaultQueue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +57,14 @@ implements org.j8unit.repository.javax.swing.text.LayoutQueueClassTests<LayoutQu
     @Category(Draft.class)
     public void test_getDefaultQueue()
     throws Exception {
-        // write some test for {@link LayoutQueue#getDefaultQueue()}
+        // write some test for {@link javax.swing.text.LayoutQueue#getDefaultQueue()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutQueue#setDefaultQueue(LayoutQueue) public
-     * static void javax.swing.text.LayoutQueue.setDefaultQueue(javax.swing.text.LayoutQueue)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.LayoutQueue#setDefaultQueue(javax.swing.text.LayoutQueue) public static void
+     * javax.swing.text.LayoutQueue.setDefaultQueue(javax.swing.text.LayoutQueue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,7 +78,7 @@ implements org.j8unit.repository.javax.swing.text.LayoutQueueClassTests<LayoutQu
     @Category(Draft.class)
     public void test_setDefaultQueue_LayoutQueue()
     throws Exception {
-        // write some test for {@link LayoutQueue#setDefaultQueue(LayoutQueue)}
+        // write some test for {@link javax.swing.text.LayoutQueue#setDefaultQueue(javax.swing.text.LayoutQueue)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.LayoutQueue]

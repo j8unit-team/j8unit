@@ -34,8 +34,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessingInstruction#setData(String) public
-     * abstract void org.w3c.dom.ProcessingInstruction.setData(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ProcessingInstruction#setData(String)
+     * public abstract void org.w3c.dom.ProcessingInstruction.setData(java.lang.String) throws org.w3c.dom.DOMException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessingInstruction#getTarget() public abstract
-     * java.lang.String org.w3c.dom.ProcessingInstruction.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ProcessingInstruction#getTarget() public
+     * abstract java.lang.String org.w3c.dom.ProcessingInstruction.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessingInstruction#getData() public abstract
-     * java.lang.String org.w3c.dom.ProcessingInstruction.getData()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ProcessingInstruction#getData() public
+     * abstract java.lang.String org.w3c.dom.ProcessingInstruction.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

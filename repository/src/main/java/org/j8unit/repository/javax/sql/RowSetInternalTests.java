@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.sql;
 
 import javax.sql.RowSetInternal;
-import javax.sql.RowSetMetaData;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetInternal#getOriginal() public abstract
-     * java.sql.ResultSet javax.sql.RowSetInternal.getOriginal() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.RowSetInternal#getOriginal() public
+     * abstract java.sql.ResultSet javax.sql.RowSetInternal.getOriginal() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetInternal#getOriginalRow() public abstract
-     * java.sql.ResultSet javax.sql.RowSetInternal.getOriginalRow() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.RowSetInternal#getOriginalRow() public
+     * abstract java.sql.ResultSet javax.sql.RowSetInternal.getOriginalRow() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetInternal#getParams() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.sql.RowSetInternal#getParams() public abstract
      * java.lang.Object[] javax.sql.RowSetInternal.getParams() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetInternal#setMetaData(RowSetMetaData) public
-     * abstract void javax.sql.RowSetInternal.setMetaData(javax.sql.RowSetMetaData) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.RowSetInternal#setMetaData(javax.sql.RowSetMetaData) public abstract void
+     * javax.sql.RowSetInternal.setMetaData(javax.sql.RowSetMetaData) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetInternal#getConnection() public abstract
-     * java.sql.Connection javax.sql.RowSetInternal.getConnection() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.RowSetInternal#getConnection() public
+     * abstract java.sql.Connection javax.sql.RowSetInternal.getConnection() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

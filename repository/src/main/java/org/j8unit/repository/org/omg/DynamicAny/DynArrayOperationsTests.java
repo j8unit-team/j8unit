@@ -5,8 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
-import org.omg.DynamicAny.DynAny;
 import org.omg.DynamicAny.DynArrayOperations;
 
 /**
@@ -36,8 +34,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynArrayOperations#set_elements(Any[]) public
-     * abstract void org.omg.DynamicAny.DynArrayOperations.set_elements(org.omg.CORBA.Any[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynArrayOperations#set_elements(org.omg.CORBA.Any[]) public abstract void
+     * org.omg.DynamicAny.DynArrayOperations.set_elements(org.omg.CORBA.Any[]) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynArrayOperations#get_elements() public abstract
-     * org.omg.CORBA.Any[] org.omg.DynamicAny.DynArrayOperations.get_elements()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynArrayOperations#get_elements()
+     * public abstract org.omg.CORBA.Any[] org.omg.DynamicAny.DynArrayOperations.get_elements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,9 +80,10 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynArrayOperations#set_elements_as_dyn_any(DynAny[])
-     * public abstract void org.omg.DynamicAny.DynArrayOperations.set_elements_as_dyn_any(org.omg.DynamicAny.DynAny[])
-     * throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynArrayOperations#set_elements_as_dyn_any(org.omg.DynamicAny.DynAny[]) public abstract
+     * void org.omg.DynamicAny.DynArrayOperations.set_elements_as_dyn_any(org.omg.DynamicAny.DynAny[]) throws
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynArrayOperations#get_elements_as_dyn_any() public
-     * abstract org.omg.DynamicAny.DynAny[] org.omg.DynamicAny.DynArrayOperations.get_elements_as_dyn_any()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynArrayOperations#get_elements_as_dyn_any() public abstract
+     * org.omg.DynamicAny.DynAny[] org.omg.DynamicAny.DynArrayOperations.get_elements_as_dyn_any()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

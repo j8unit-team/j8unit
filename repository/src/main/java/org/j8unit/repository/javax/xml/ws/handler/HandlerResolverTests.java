@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.xml.ws.handler;
 
 import javax.xml.ws.handler.HandlerResolver;
-import javax.xml.ws.handler.PortInfo;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerResolver#getHandlerChain(PortInfo) public
-     * abstract java.util.List<javax.xml.ws.handler.Handler>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.handler.HandlerResolver#getHandlerChain(javax.xml.ws.handler.PortInfo) public abstract
+     * java.util.List<javax.xml.ws.handler.Handler>
      * javax.xml.ws.handler.HandlerResolver.getHandlerChain(javax.xml.ws.handler.PortInfo)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#resetPeakThreadCount() public abstract
-     * void java.lang.management.ThreadMXBean.resetPeakThreadCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#resetPeakThreadCount() public abstract void
+     * java.lang.management.ThreadMXBean.resetPeakThreadCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#dumpAllThreads(boolean, boolean) public
-     * abstract java.lang.management.ThreadInfo[] java.lang.management.ThreadMXBean.dumpAllThreads(boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#dumpAllThreads(boolean, boolean) public abstract
+     * java.lang.management.ThreadInfo[] java.lang.management.ThreadMXBean.dumpAllThreads(boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getCurrentThreadCpuTime() public
-     * abstract long java.lang.management.ThreadMXBean.getCurrentThreadCpuTime()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getCurrentThreadCpuTime() public abstract long
+     * java.lang.management.ThreadMXBean.getCurrentThreadCpuTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +103,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getAllThreadIds() public abstract
-     * long[] java.lang.management.ThreadMXBean.getAllThreadIds()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadMXBean#getAllThreadIds()
+     * public abstract long[] java.lang.management.ThreadMXBean.getAllThreadIds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +126,7 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ThreadMXBean#setThreadContentionMonitoringEnabled(boolean) public abstract void
+     * {@link java.lang.management.ThreadMXBean#setThreadContentionMonitoringEnabled(boolean) public abstract void
      * java.lang.management.ThreadMXBean.setThreadContentionMonitoringEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +148,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getPeakThreadCount() public abstract
-     * int java.lang.management.ThreadMXBean.getPeakThreadCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getPeakThreadCount() public abstract int
+     * java.lang.management.ThreadMXBean.getPeakThreadCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +171,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#isSynchronizerUsageSupported() public
-     * abstract boolean java.lang.management.ThreadMXBean.isSynchronizerUsageSupported()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#isSynchronizerUsageSupported() public abstract boolean
+     * java.lang.management.ThreadMXBean.isSynchronizerUsageSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +194,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getThreadCpuTime(long) public abstract
-     * long java.lang.management.ThreadMXBean.getThreadCpuTime(long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getThreadCpuTime(long) public abstract long
+     * java.lang.management.ThreadMXBean.getThreadCpuTime(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +217,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getDaemonThreadCount() public abstract
-     * int java.lang.management.ThreadMXBean.getDaemonThreadCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getDaemonThreadCount() public abstract int
+     * java.lang.management.ThreadMXBean.getDaemonThreadCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +240,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#isThreadCpuTimeEnabled() public
-     * abstract boolean java.lang.management.ThreadMXBean.isThreadCpuTimeEnabled()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#isThreadCpuTimeEnabled() public abstract boolean
+     * java.lang.management.ThreadMXBean.isThreadCpuTimeEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +263,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getThreadUserTime(long) public abstract
-     * long java.lang.management.ThreadMXBean.getThreadUserTime(long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getThreadUserTime(long) public abstract long
+     * java.lang.management.ThreadMXBean.getThreadUserTime(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +286,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#findDeadlockedThreads() public abstract
-     * long[] java.lang.management.ThreadMXBean.findDeadlockedThreads()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#findDeadlockedThreads() public abstract long[]
+     * java.lang.management.ThreadMXBean.findDeadlockedThreads()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,8 +309,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#findMonitorDeadlockedThreads() public
-     * abstract long[] java.lang.management.ThreadMXBean.findMonitorDeadlockedThreads()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#findMonitorDeadlockedThreads() public abstract long[]
+     * java.lang.management.ThreadMXBean.findMonitorDeadlockedThreads()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,8 +332,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getThreadCount() public abstract int
-     * java.lang.management.ThreadMXBean.getThreadCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ThreadMXBean#getThreadCount()
+     * public abstract int java.lang.management.ThreadMXBean.getThreadCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -343,8 +354,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#isObjectMonitorUsageSupported() public
-     * abstract boolean java.lang.management.ThreadMXBean.isObjectMonitorUsageSupported()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#isObjectMonitorUsageSupported() public abstract boolean
+     * java.lang.management.ThreadMXBean.isObjectMonitorUsageSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -365,8 +377,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#isThreadContentionMonitoringEnabled()
-     * public abstract boolean java.lang.management.ThreadMXBean.isThreadContentionMonitoringEnabled()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#isThreadContentionMonitoringEnabled() public abstract boolean
+     * java.lang.management.ThreadMXBean.isThreadContentionMonitoringEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -387,8 +400,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#setThreadCpuTimeEnabled(boolean) public
-     * abstract void java.lang.management.ThreadMXBean.setThreadCpuTimeEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#setThreadCpuTimeEnabled(boolean) public abstract void
+     * java.lang.management.ThreadMXBean.setThreadCpuTimeEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,8 +423,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getCurrentThreadUserTime() public
-     * abstract long java.lang.management.ThreadMXBean.getCurrentThreadUserTime()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getCurrentThreadUserTime() public abstract long
+     * java.lang.management.ThreadMXBean.getCurrentThreadUserTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,8 +446,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#isThreadContentionMonitoringSupported()
-     * public abstract boolean java.lang.management.ThreadMXBean.isThreadContentionMonitoringSupported()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#isThreadContentionMonitoringSupported() public abstract boolean
+     * java.lang.management.ThreadMXBean.isThreadContentionMonitoringSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -453,8 +469,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#isCurrentThreadCpuTimeSupported()
-     * public abstract boolean java.lang.management.ThreadMXBean.isCurrentThreadCpuTimeSupported()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#isCurrentThreadCpuTimeSupported() public abstract boolean
+     * java.lang.management.ThreadMXBean.isCurrentThreadCpuTimeSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -475,8 +492,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getTotalStartedThreadCount() public
-     * abstract long java.lang.management.ThreadMXBean.getTotalStartedThreadCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getTotalStartedThreadCount() public abstract long
+     * java.lang.management.ThreadMXBean.getTotalStartedThreadCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -497,8 +515,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#isThreadCpuTimeSupported() public
-     * abstract boolean java.lang.management.ThreadMXBean.isThreadCpuTimeSupported()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#isThreadCpuTimeSupported() public abstract boolean
+     * java.lang.management.ThreadMXBean.isThreadCpuTimeSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -519,8 +538,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getThreadInfo(long) public abstract
-     * java.lang.management.ThreadInfo java.lang.management.ThreadMXBean.getThreadInfo(long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getThreadInfo(long) public abstract java.lang.management.ThreadInfo
+     * java.lang.management.ThreadMXBean.getThreadInfo(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -541,9 +561,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getThreadInfo(long[], boolean, boolean)
-     * public abstract java.lang.management.ThreadInfo[]
-     * java.lang.management.ThreadMXBean.getThreadInfo(long[],boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getThreadInfo(long[], boolean, boolean) public abstract
+     * java.lang.management.ThreadInfo[] java.lang.management.ThreadMXBean.getThreadInfo(long[],boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -564,8 +584,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getThreadInfo(long[], int) public
-     * abstract java.lang.management.ThreadInfo[] java.lang.management.ThreadMXBean.getThreadInfo(long[],int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getThreadInfo(long[], int) public abstract
+     * java.lang.management.ThreadInfo[] java.lang.management.ThreadMXBean.getThreadInfo(long[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -586,8 +607,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getThreadInfo(long, int) public
-     * abstract java.lang.management.ThreadInfo java.lang.management.ThreadMXBean.getThreadInfo(long,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getThreadInfo(long, int) public abstract java.lang.management.ThreadInfo
+     * java.lang.management.ThreadMXBean.getThreadInfo(long,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -608,8 +630,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadMXBean#getThreadInfo(long[]) public abstract
-     * java.lang.management.ThreadInfo[] java.lang.management.ThreadMXBean.getThreadInfo(long[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ThreadMXBean#getThreadInfo(long[]) public abstract java.lang.management.ThreadInfo[]
+     * java.lang.management.ThreadMXBean.getThreadInfo(long[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

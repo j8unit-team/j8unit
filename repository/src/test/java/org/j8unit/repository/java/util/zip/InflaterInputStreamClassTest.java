@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.io.InputStream;
-import java.util.zip.Inflater;
 import java.util.zip.InflaterInputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<Inf
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InflaterInputStream#InflaterInputStream(InputStream, Inflater) public
+     * {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream, java.util.zip.Inflater) public
      * java.util.zip.InflaterInputStream(java.io.InputStream,java.util.zip.Inflater)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,14 +39,14 @@ implements org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<Inf
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InflaterInputStream sut = null; // = new InflaterInputStream(InputStream, Inflater);
+        final InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream, java.util.zip.Inflater);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InflaterInputStream#InflaterInputStream(InputStream, Inflater, int) public
-     * java.util.zip.InflaterInputStream(java.io.InputStream,java.util.zip.Inflater,int)}.
+     * {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream, java.util.zip.Inflater, int)
+     * public java.util.zip.InflaterInputStream(java.io.InputStream,java.util.zip.Inflater,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,13 +62,14 @@ implements org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<Inf
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InflaterInputStream sut = null; // = new InflaterInputStream(InputStream, Inflater, int);
+        final InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream, java.util.zip.Inflater,
+                                              // int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InflaterInputStream#InflaterInputStream(InputStream) public
+     * {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream) public
      * java.util.zip.InflaterInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,7 +86,7 @@ implements org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<Inf
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InflaterInputStream sut = null; // = new InflaterInputStream(InputStream);
+        final InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.InflaterInputStream]

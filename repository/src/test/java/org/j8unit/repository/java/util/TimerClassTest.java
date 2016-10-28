@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.TimerClassTests<Timer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Timer#Timer(String) public
-     * java.util.Timer(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Timer#Timer(String, boolean) public
+     * java.util.Timer(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -34,16 +34,16 @@ implements org.j8unit.repository.java.util.TimerClassTests<Timer> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_Timer_String()
+    public void create_Timer_String_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Timer sut = null; // = new Timer(String);
+        final Timer sut = null; // = new Timer(String, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Timer#Timer(boolean) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Timer#Timer(boolean) public
      * java.util.Timer(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,7 +65,8 @@ implements org.j8unit.repository.java.util.TimerClassTests<Timer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Timer#Timer() public java.util.Timer()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Timer#Timer() public
+     * java.util.Timer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +86,8 @@ implements org.j8unit.repository.java.util.TimerClassTests<Timer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Timer#Timer(String, boolean) public
-     * java.util.Timer(java.lang.String,boolean)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Timer#Timer(String) public
+     * java.util.Timer(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,11 +99,11 @@ implements org.j8unit.repository.java.util.TimerClassTests<Timer> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_Timer_String_boolean()
+    public void create_Timer_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Timer sut = null; // = new Timer(String, boolean);
+        final Timer sut = null; // = new Timer(String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Timer]

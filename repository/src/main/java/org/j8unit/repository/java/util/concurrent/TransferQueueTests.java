@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TransferQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransferQueue#hasWaitingConsumer() public abstract
-     * boolean java.util.concurrent.TransferQueue.hasWaitingConsumer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.TransferQueue#hasWaitingConsumer() public abstract boolean
+     * java.util.concurrent.TransferQueue.hasWaitingConsumer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransferQueue#getWaitingConsumerCount() public
-     * abstract int java.util.concurrent.TransferQueue.getWaitingConsumerCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.TransferQueue#getWaitingConsumerCount() public abstract int
+     * java.util.concurrent.TransferQueue.getWaitingConsumerCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,9 +80,10 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransferQueue#tryTransfer(Object, long, TimeUnit)
-     * public abstract boolean java.util.concurrent.TransferQueue.tryTransfer(E,long,java.util.concurrent.TimeUnit)
-     * throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.TransferQueue#tryTransfer(Object, long, java.util.concurrent.TimeUnit) public
+     * abstract boolean java.util.concurrent.TransferQueue.tryTransfer(E,long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,9 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransferQueue#tryTransfer(Object) public abstract
-     * boolean java.util.concurrent.TransferQueue.tryTransfer(E)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.TransferQueue#tryTransfer(Object) public abstract boolean
+     * java.util.concurrent.TransferQueue.tryTransfer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +127,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransferQueue#transfer(Object) public abstract void
-     * java.util.concurrent.TransferQueue.transfer(E) throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.TransferQueue#transfer(Object)
+     * public abstract void java.util.concurrent.TransferQueue.transfer(E) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

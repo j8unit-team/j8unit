@@ -23,8 +23,9 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ReentrantReadWriteLock#ReentrantReadWriteLock()
-     * public java.util.concurrent.locks.ReentrantReadWriteLock()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#ReentrantReadWriteLock() public
+     * java.util.concurrent.locks.ReentrantReadWriteLock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +46,7 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ReentrantReadWriteLock#ReentrantReadWriteLock(boolean) public
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#ReentrantReadWriteLock(boolean) public
      * java.util.concurrent.locks.ReentrantReadWriteLock(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

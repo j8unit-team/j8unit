@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataFlavor#DataFlavor() public
-     * java.awt.datatransfer.DataFlavor()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.datatransfer.DataFlavor#DataFlavor()
+     * public java.awt.datatransfer.DataFlavor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataFlavor#DataFlavor(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.datatransfer.DataFlavor#DataFlavor(String) public
      * java.awt.datatransfer.DataFlavor(java.lang.String) throws java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +65,8 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataFlavor#DataFlavor(Class, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.datatransfer.DataFlavor#DataFlavor(Class, String) public
      * java.awt.datatransfer.DataFlavor(java.lang.Class<?>,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,7 +88,8 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataFlavor#DataFlavor(String, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.datatransfer.DataFlavor#DataFlavor(String, String) public
      * java.awt.datatransfer.DataFlavor(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +112,7 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataFlavor#DataFlavor(String, String, ClassLoader) public
+     * {@link java.awt.datatransfer.DataFlavor#DataFlavor(String, String, ClassLoader) public
      * java.awt.datatransfer.DataFlavor(java.lang.String,java.lang.String,java.lang.ClassLoader) throws
      * java.lang.ClassNotFoundException}.
      *
@@ -132,8 +135,9 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getTextPlainUnicodeFlavor() public static
-     * final java.awt.datatransfer.DataFlavor java.awt.datatransfer.DataFlavor.getTextPlainUnicodeFlavor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#getTextPlainUnicodeFlavor() public static final
+     * java.awt.datatransfer.DataFlavor java.awt.datatransfer.DataFlavor.getTextPlainUnicodeFlavor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,13 +151,14 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
     @Category(Draft.class)
     public void test_getTextPlainUnicodeFlavor()
     throws Exception {
-        // write some test for {@link DataFlavor#getTextPlainUnicodeFlavor()}
+        // write some test for {@link java.awt.datatransfer.DataFlavor#getTextPlainUnicodeFlavor()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#selectBestTextFlavor(DataFlavor[]) public
-     * static final java.awt.datatransfer.DataFlavor
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#selectBestTextFlavor(java.awt.datatransfer.DataFlavor[]) public static
+     * final java.awt.datatransfer.DataFlavor
      * java.awt.datatransfer.DataFlavor.selectBestTextFlavor(java.awt.datatransfer.DataFlavor[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +173,8 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
     @Category(Draft.class)
     public void test_selectBestTextFlavor_DataFlavorArray()
     throws Exception {
-        // write some test for {@link DataFlavor#selectBestTextFlavor(DataFlavor[])}
+        // write some test for {@link
+        // java.awt.datatransfer.DataFlavor#selectBestTextFlavor(java.awt.datatransfer.DataFlavor[])}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.DataFlavor]

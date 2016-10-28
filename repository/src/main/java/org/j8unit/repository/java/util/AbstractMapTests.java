@@ -3,7 +3,6 @@ package org.j8unit.repository.java.util;
 import java.util.AbstractMap;
 import java.util.AbstractMap.SimpleEntry;
 import java.util.AbstractMap.SimpleImmutableEntry;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +36,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#hashCode() public int
      * java.util.AbstractMap.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +59,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#putAll(Map) public void
-     * java.util.AbstractMap.putAll(java.util.Map<? extends K, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#putAll(java.util.Map) public
+     * void java.util.AbstractMap.putAll(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +82,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#equals(Object) public boolean
      * java.util.AbstractMap.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +105,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#get(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#get(Object) public V
      * java.util.AbstractMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +128,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#size() public int
      * java.util.AbstractMap.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +151,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#toString() public java.lang.String
-     * java.util.AbstractMap.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#toString() public
+     * java.lang.String java.util.AbstractMap.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,7 +174,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#keySet() public java.util.Set
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#keySet() public java.util.Set
      * <K> java.util.AbstractMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,8 +197,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#containsKey(Object) public boolean
-     * java.util.AbstractMap.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#containsKey(Object) public
+     * boolean java.util.AbstractMap.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,8 +220,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#values() public java.util.Collection
-     * <V> java.util.AbstractMap.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#values() public
+     * java.util.Collection<V> java.util.AbstractMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,7 +243,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#entrySet() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#entrySet() public abstract
      * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.AbstractMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -267,7 +266,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#isEmpty() public boolean
      * java.util.AbstractMap.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -290,7 +289,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#clear() public void
      * java.util.AbstractMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -313,8 +312,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#containsValue(Object) public boolean
-     * java.util.AbstractMap.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#containsValue(Object) public
+     * boolean java.util.AbstractMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -336,7 +335,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#put(Object, Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#put(Object, Object) public V
      * java.util.AbstractMap.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -359,7 +358,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractMap#remove(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap#remove(Object) public V
      * java.util.AbstractMap.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -410,7 +409,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleEntry#setValue(Object) public V
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.AbstractMap.SimpleEntry#setValue(Object) public V
          * java.util.AbstractMap$SimpleEntry.setValue(V)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -433,8 +433,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleEntry#equals(Object) public boolean
-         * java.util.AbstractMap$SimpleEntry.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap.SimpleEntry#equals(Object)
+         * public boolean java.util.AbstractMap$SimpleEntry.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -456,8 +456,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleEntry#hashCode() public int
-         * java.util.AbstractMap$SimpleEntry.hashCode()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap.SimpleEntry#hashCode()
+         * public int java.util.AbstractMap$SimpleEntry.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -479,8 +479,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleEntry#getKey() public K
-         * java.util.AbstractMap$SimpleEntry.getKey()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap.SimpleEntry#getKey()
+         * public K java.util.AbstractMap$SimpleEntry.getKey()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -502,8 +502,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleEntry#getValue() public V
-         * java.util.AbstractMap$SimpleEntry.getValue()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap.SimpleEntry#getValue()
+         * public V java.util.AbstractMap$SimpleEntry.getValue()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -525,8 +525,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleEntry#toString() public java.lang.String
-         * java.util.AbstractMap$SimpleEntry.toString()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.AbstractMap.SimpleEntry#toString()
+         * public java.lang.String java.util.AbstractMap$SimpleEntry.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -578,8 +578,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleImmutableEntry#toString() public
-         * java.lang.String java.util.AbstractMap$SimpleImmutableEntry.toString()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.AbstractMap.SimpleImmutableEntry#toString() public java.lang.String
+         * java.util.AbstractMap$SimpleImmutableEntry.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -601,7 +602,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleImmutableEntry#hashCode() public int
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.AbstractMap.SimpleImmutableEntry#hashCode() public int
          * java.util.AbstractMap$SimpleImmutableEntry.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -624,7 +626,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleImmutableEntry#setValue(Object) public V
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.AbstractMap.SimpleImmutableEntry#setValue(Object) public V
          * java.util.AbstractMap$SimpleImmutableEntry.setValue(V)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -647,8 +650,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleImmutableEntry#equals(Object) public
-         * boolean java.util.AbstractMap$SimpleImmutableEntry.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.AbstractMap.SimpleImmutableEntry#equals(Object) public boolean
+         * java.util.AbstractMap$SimpleImmutableEntry.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -670,7 +674,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleImmutableEntry#getKey() public K
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.AbstractMap.SimpleImmutableEntry#getKey() public K
          * java.util.AbstractMap$SimpleImmutableEntry.getKey()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -693,7 +698,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SimpleImmutableEntry#getValue() public V
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.AbstractMap.SimpleImmutableEntry#getValue() public V
          * java.util.AbstractMap$SimpleImmutableEntry.getValue()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

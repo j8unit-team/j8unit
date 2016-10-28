@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.SplashScreen;
-import java.net.URL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SplashScreen#update() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.SplashScreen#update() public void
      * java.awt.SplashScreen.update() throws java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SplashScreen#isVisible() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.SplashScreen#isVisible() public boolean
      * java.awt.SplashScreen.isVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SplashScreen#createGraphics() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.SplashScreen#createGraphics() public
      * java.awt.Graphics2D java.awt.SplashScreen.createGraphics() throws java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SplashScreen#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.SplashScreen#close() public void
      * java.awt.SplashScreen.close() throws java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SplashScreen#getBounds() public java.awt.Rectangle
-     * java.awt.SplashScreen.getBounds() throws java.lang.IllegalStateException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SplashScreen#getBounds() public
+     * java.awt.Rectangle java.awt.SplashScreen.getBounds() throws java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +144,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SplashScreen#setImageURL(URL) public void
-     * java.awt.SplashScreen.setImageURL(java.net.URL) throws
+     * Test method for the hereby targeted method-under-test {@link java.awt.SplashScreen#setImageURL(java.net.URL)
+     * public void java.awt.SplashScreen.setImageURL(java.net.URL) throws
      * java.lang.NullPointerException,java.io.IOException,java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +167,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SplashScreen#getSize() public java.awt.Dimension
-     * java.awt.SplashScreen.getSize() throws java.lang.IllegalStateException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SplashScreen#getSize() public
+     * java.awt.Dimension java.awt.SplashScreen.getSize() throws java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +189,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SplashScreen#getImageURL() public java.net.URL
-     * java.awt.SplashScreen.getImageURL() throws java.lang.IllegalStateException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SplashScreen#getImageURL() public
+     * java.net.URL java.awt.SplashScreen.getImageURL() throws java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.math.BigInteger;
 import java.security.spec.RSAMultiPrimePrivateCrtKeySpec;
-import java.security.spec.RSAOtherPrimeInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.security.spec.RSAMultiPrimePrivateCrtKeySp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RSAMultiPrimePrivateCrtKeySpec#RSAMultiPrimePrivateCrtKeySpec(BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, RSAOtherPrimeInfo[])
+     * {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#RSAMultiPrimePrivateCrtKeySpec(java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.security.spec.RSAOtherPrimeInfo[])
      * public
      * java.security.spec.RSAMultiPrimePrivateCrtKeySpec(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.security.spec.RSAOtherPrimeInfo[])}
      * .
@@ -43,9 +41,12 @@ implements org.j8unit.repository.java.security.spec.RSAMultiPrimePrivateCrtKeySp
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RSAMultiPrimePrivateCrtKeySpec sut = null; // = new RSAMultiPrimePrivateCrtKeySpec(BigInteger, BigInteger,
-                                                         // BigInteger, BigInteger, BigInteger, BigInteger, BigInteger,
-                                                         // BigInteger, RSAOtherPrimeInfo[]);
+        final RSAMultiPrimePrivateCrtKeySpec sut = null; // = new RSAMultiPrimePrivateCrtKeySpec(java.math.BigInteger,
+                                                         // java.math.BigInteger, java.math.BigInteger,
+                                                         // java.math.BigInteger, java.math.BigInteger,
+                                                         // java.math.BigInteger, java.math.BigInteger,
+                                                         // java.math.BigInteger,
+                                                         // java.security.spec.RSAOtherPrimeInfo[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.RSAMultiPrimePrivateCrtKeySpec]

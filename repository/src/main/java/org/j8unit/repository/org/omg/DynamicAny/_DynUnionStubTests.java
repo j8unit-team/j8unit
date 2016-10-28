@@ -1,15 +1,10 @@
 package org.j8unit.repository.org.omg.DynamicAny;
 
-import java.io.Serializable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.TypeCode;
-import org.omg.DynamicAny.DynAny;
 import org.omg.DynamicAny._DynUnionStub;
 
 /**
@@ -39,8 +34,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_long(int) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_long(int) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#insert_long(int)
+     * public void org.omg.DynamicAny._DynUnionStub.insert_long(int) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +58,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_typecode(TypeCode) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_typecode(org.omg.CORBA.TypeCode) public void
      * org.omg.DynamicAny._DynUnionStub.insert_typecode(org.omg.CORBA.TypeCode) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -87,7 +83,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_dyn_any(DynAny) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_dyn_any(org.omg.DynamicAny.DynAny) public void
      * org.omg.DynamicAny._DynUnionStub.insert_dyn_any(org.omg.DynamicAny.DynAny) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -111,8 +108,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#to_any() public org.omg.CORBA.Any
-     * org.omg.DynamicAny._DynUnionStub.to_any()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#to_any() public
+     * org.omg.CORBA.Any org.omg.DynamicAny._DynUnionStub.to_any()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -134,8 +131,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_ulong(int) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_ulong(int) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#insert_ulong(int)
+     * public void org.omg.DynamicAny._DynUnionStub.insert_ulong(int) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -158,8 +155,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#discriminator_kind() public
-     * org.omg.CORBA.TCKind org.omg.DynamicAny._DynUnionStub.discriminator_kind()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#discriminator_kind() public org.omg.CORBA.TCKind
+     * org.omg.DynamicAny._DynUnionStub.discriminator_kind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,8 +179,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_ulonglong() public long
-     * org.omg.DynamicAny._DynUnionStub.get_ulonglong() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_ulonglong()
+     * public long org.omg.DynamicAny._DynUnionStub.get_ulonglong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -205,7 +203,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_longlong(long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_longlong(long) public void
      * org.omg.DynamicAny._DynUnionStub.insert_longlong(long) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -229,7 +228,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#set_to_default_member() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#set_to_default_member() public void
      * org.omg.DynamicAny._DynUnionStub.set_to_default_member() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -252,8 +252,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_short() public short
-     * org.omg.DynamicAny._DynUnionStub.get_short() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_short() public
+     * short org.omg.DynamicAny._DynUnionStub.get_short() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -276,8 +276,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_longlong() public long
-     * org.omg.DynamicAny._DynUnionStub.get_longlong() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_longlong()
+     * public long org.omg.DynamicAny._DynUnionStub.get_longlong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -300,7 +300,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_val(Serializable) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_val(java.io.Serializable) public void
      * org.omg.DynamicAny._DynUnionStub.insert_val(java.io.Serializable) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -324,8 +325,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_ushort() public short
-     * org.omg.DynamicAny._DynUnionStub.get_ushort() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_ushort() public
+     * short org.omg.DynamicAny._DynUnionStub.get_ushort() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -348,7 +349,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_reference(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_reference(org.omg.CORBA.Object) public void
      * org.omg.DynamicAny._DynUnionStub.insert_reference(org.omg.CORBA.Object) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -372,7 +374,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#from_any(Any) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#from_any(org.omg.CORBA.Any) public void
      * org.omg.DynamicAny._DynUnionStub.from_any(org.omg.CORBA.Any) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -396,8 +399,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#type() public org.omg.CORBA.TypeCode
-     * org.omg.DynamicAny._DynUnionStub.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#type() public
+     * org.omg.CORBA.TypeCode org.omg.DynamicAny._DynUnionStub.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -419,8 +422,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_dyn_any() public
-     * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.get_dyn_any() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_dyn_any()
+     * public org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.get_dyn_any() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -443,8 +446,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_any() public org.omg.CORBA.Any
-     * org.omg.DynamicAny._DynUnionStub.get_any() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_any() public
+     * org.omg.CORBA.Any org.omg.DynamicAny._DynUnionStub.get_any() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -467,8 +470,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_long() public int
-     * org.omg.DynamicAny._DynUnionStub.get_long() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_long() public
+     * int org.omg.DynamicAny._DynUnionStub.get_long() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -491,7 +494,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_ushort(short) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_ushort(short) public void
      * org.omg.DynamicAny._DynUnionStub.insert_ushort(short) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -515,8 +519,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_wstring() public java.lang.String
-     * org.omg.DynamicAny._DynUnionStub.get_wstring() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_wstring()
+     * public java.lang.String org.omg.DynamicAny._DynUnionStub.get_wstring() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -539,8 +543,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_val() public java.io.Serializable
-     * org.omg.DynamicAny._DynUnionStub.get_val() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_val() public
+     * java.io.Serializable org.omg.DynamicAny._DynUnionStub.get_val() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -563,8 +567,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_octet() public byte
-     * org.omg.DynamicAny._DynUnionStub.get_octet() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_octet() public
+     * byte org.omg.DynamicAny._DynUnionStub.get_octet() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -587,8 +591,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_ulong() public int
-     * org.omg.DynamicAny._DynUnionStub.get_ulong() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_ulong() public
+     * int org.omg.DynamicAny._DynUnionStub.get_ulong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -611,8 +615,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_double() public double
-     * org.omg.DynamicAny._DynUnionStub.get_double() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_double() public
+     * double org.omg.DynamicAny._DynUnionStub.get_double() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -635,7 +639,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_double(double) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_double(double) public void
      * org.omg.DynamicAny._DynUnionStub.insert_double(double) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -659,8 +664,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_float() public float
-     * org.omg.DynamicAny._DynUnionStub.get_float() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_float() public
+     * float org.omg.DynamicAny._DynUnionStub.get_float() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -683,8 +688,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_wchar() public char
-     * org.omg.DynamicAny._DynUnionStub.get_wchar() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_wchar() public
+     * char org.omg.DynamicAny._DynUnionStub.get_wchar() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -707,7 +712,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_wstring(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_wstring(String) public void
      * org.omg.DynamicAny._DynUnionStub.insert_wstring(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -731,8 +737,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_short(short) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_short(short) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#insert_short(short)
+     * public void org.omg.DynamicAny._DynUnionStub.insert_short(short) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -755,8 +761,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_reference() public
-     * org.omg.CORBA.Object org.omg.DynamicAny._DynUnionStub.get_reference() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_reference()
+     * public org.omg.CORBA.Object org.omg.DynamicAny._DynUnionStub.get_reference() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -779,8 +785,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#destroy() public void
-     * org.omg.DynamicAny._DynUnionStub.destroy()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#destroy() public
+     * void org.omg.DynamicAny._DynUnionStub.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -802,31 +808,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#_ids() public java.lang.String[]
-     * org.omg.DynamicAny._DynUnionStub._ids()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__ids()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_boolean() public boolean
-     * org.omg.DynamicAny._DynUnionStub.get_boolean() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_boolean()
+     * public boolean org.omg.DynamicAny._DynUnionStub.get_boolean() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -849,8 +832,31 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_char() public char
-     * org.omg.DynamicAny._DynUnionStub.get_char() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#_ids() public
+     * java.lang.String[] org.omg.DynamicAny._DynUnionStub._ids()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test__ids()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_char() public
+     * char org.omg.DynamicAny._DynUnionStub.get_char() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -873,8 +879,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_octet(byte) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_octet(byte) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#insert_octet(byte)
+     * public void org.omg.DynamicAny._DynUnionStub.insert_octet(byte) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -897,7 +903,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#has_no_active_member() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#has_no_active_member() public boolean
      * org.omg.DynamicAny._DynUnionStub.has_no_active_member()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -920,7 +927,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_string(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_string(String) public void
      * org.omg.DynamicAny._DynUnionStub.insert_string(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -944,7 +952,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#member() public
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#member() public
      * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.member() throws
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -968,8 +976,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#component_count() public int
-     * org.omg.DynamicAny._DynUnionStub.component_count()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#component_count()
+     * public int org.omg.DynamicAny._DynUnionStub.component_count()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -991,7 +999,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#copy() public
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#copy() public
      * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.copy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1014,8 +1022,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_string() public java.lang.String
-     * org.omg.DynamicAny._DynUnionStub.get_string() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_string() public
+     * java.lang.String org.omg.DynamicAny._DynUnionStub.get_string() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1038,8 +1046,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#next() public boolean
-     * org.omg.DynamicAny._DynUnionStub.next()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#next() public
+     * boolean org.omg.DynamicAny._DynUnionStub.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1061,7 +1069,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_boolean(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_boolean(boolean) public void
      * org.omg.DynamicAny._DynUnionStub.insert_boolean(boolean) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1085,8 +1094,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#seek(int) public boolean
-     * org.omg.DynamicAny._DynUnionStub.seek(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#seek(int) public
+     * boolean org.omg.DynamicAny._DynUnionStub.seek(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1108,8 +1117,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_char(char) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_char(char) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#insert_char(char)
+     * public void org.omg.DynamicAny._DynUnionStub.insert_char(char) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1132,8 +1141,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_wchar(char) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_wchar(char) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#insert_wchar(char)
+     * public void org.omg.DynamicAny._DynUnionStub.insert_wchar(char) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1156,8 +1165,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#rewind() public void
-     * org.omg.DynamicAny._DynUnionStub.rewind()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#rewind() public
+     * void org.omg.DynamicAny._DynUnionStub.rewind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1179,7 +1188,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#set_discriminator(DynAny) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#set_discriminator(org.omg.DynamicAny.DynAny) public void
      * org.omg.DynamicAny._DynUnionStub.set_discriminator(org.omg.DynamicAny.DynAny) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
@@ -1203,7 +1213,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#equal(DynAny) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#equal(org.omg.DynamicAny.DynAny) public boolean
      * org.omg.DynamicAny._DynUnionStub.equal(org.omg.DynamicAny.DynAny)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1226,8 +1237,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_float(float) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_float(float) throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#insert_float(float)
+     * public void org.omg.DynamicAny._DynUnionStub.insert_float(float) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1250,7 +1261,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_any(Any) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_any(org.omg.CORBA.Any) public void
      * org.omg.DynamicAny._DynUnionStub.insert_any(org.omg.CORBA.Any) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1274,7 +1286,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_ulonglong(long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_ulonglong(long) public void
      * org.omg.DynamicAny._DynUnionStub.insert_ulonglong(long) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1298,7 +1311,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#assign(DynAny) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#assign(org.omg.DynamicAny.DynAny) public void
      * org.omg.DynamicAny._DynUnionStub.assign(org.omg.DynamicAny.DynAny) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
@@ -1322,8 +1336,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#current_component() public
-     * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.current_component() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#current_component()
+     * public org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.current_component() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1346,8 +1360,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_typecode() public
-     * org.omg.CORBA.TypeCode org.omg.DynamicAny._DynUnionStub.get_typecode() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_typecode()
+     * public org.omg.CORBA.TypeCode org.omg.DynamicAny._DynUnionStub.get_typecode() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1370,8 +1384,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_discriminator() public
-     * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.get_discriminator()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_discriminator()
+     * public org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.get_discriminator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1393,8 +1407,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#member_kind() public
-     * org.omg.CORBA.TCKind org.omg.DynamicAny._DynUnionStub.member_kind() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#member_kind()
+     * public org.omg.CORBA.TCKind org.omg.DynamicAny._DynUnionStub.member_kind() throws
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1417,8 +1431,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#member_name() public java.lang.String
-     * org.omg.DynamicAny._DynUnionStub.member_name() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#member_name()
+     * public java.lang.String org.omg.DynamicAny._DynUnionStub.member_name() throws
+     * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1440,7 +1455,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#set_to_no_active_member() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#set_to_no_active_member() public void
      * org.omg.DynamicAny._DynUnionStub.set_to_no_active_member() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

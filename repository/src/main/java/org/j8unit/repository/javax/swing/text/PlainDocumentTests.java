@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.AttributeSet;
 import javax.swing.text.PlainDocument;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.javax.swing.text.AbstractDocumentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PlainDocument#insertString(int, String, AttributeSet) public void
+     * {@link javax.swing.text.PlainDocument#insertString(int, String, javax.swing.text.AttributeSet) public void
      * javax.swing.text.PlainDocument.insertString(int,java.lang.String,javax.swing.text.AttributeSet) throws
      * javax.swing.text.BadLocationException}.
      *
@@ -60,8 +59,9 @@ extends org.j8unit.repository.javax.swing.text.AbstractDocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlainDocument#getDefaultRootElement() public
-     * javax.swing.text.Element javax.swing.text.PlainDocument.getDefaultRootElement()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.PlainDocument#getDefaultRootElement() public javax.swing.text.Element
+     * javax.swing.text.PlainDocument.getDefaultRootElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +83,9 @@ extends org.j8unit.repository.javax.swing.text.AbstractDocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PlainDocument#getParagraphElement(int) public
-     * javax.swing.text.Element javax.swing.text.PlainDocument.getParagraphElement(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.PlainDocument#getParagraphElement(int) public javax.swing.text.Element
+     * javax.swing.text.PlainDocument.getParagraphElement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

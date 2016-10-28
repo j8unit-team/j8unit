@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.geom.Point2D;
-import java.awt.image.BufferedImage;
-import java.awt.image.ColorModel;
 import java.awt.image.LookupOp;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupOp#createCompatibleDestRaster(Raster) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.LookupOp#createCompatibleDestRaster(java.awt.image.Raster) public
      * java.awt.image.WritableRaster java.awt.image.LookupOp.createCompatibleDestRaster(java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +60,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LookupOp#createCompatibleDestImage(BufferedImage, ColorModel) public java.awt.image.BufferedImage
+     * {@link java.awt.image.LookupOp#createCompatibleDestImage(java.awt.image.BufferedImage, java.awt.image.ColorModel)
+     * public java.awt.image.BufferedImage
      * java.awt.image.LookupOp.createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,31 +84,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupOp#getBounds2D(BufferedImage) public final
-     * java.awt.geom.Rectangle2D java.awt.image.LookupOp.getBounds2D(java.awt.image.BufferedImage)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getBounds2D_BufferedImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupOp#getBounds2D(Raster) public final
-     * java.awt.geom.Rectangle2D java.awt.image.LookupOp.getBounds2D(java.awt.image.Raster)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.LookupOp#getBounds2D(java.awt.image.Raster) public final java.awt.geom.Rectangle2D
+     * java.awt.image.LookupOp.getBounds2D(java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +108,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupOp#getRenderingHints() public final
-     * java.awt.RenderingHints java.awt.image.LookupOp.getRenderingHints()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.LookupOp#getBounds2D(java.awt.image.BufferedImage) public final java.awt.geom.Rectangle2D
+     * java.awt.image.LookupOp.getBounds2D(java.awt.image.BufferedImage)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getBounds2D_BufferedImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.LookupOp#getRenderingHints() public
+     * final java.awt.RenderingHints java.awt.image.LookupOp.getRenderingHints()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,7 +155,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupOp#getTable() public final
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.LookupOp#getTable() public final
      * java.awt.image.LookupTable java.awt.image.LookupOp.getTable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -178,7 +177,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupOp#getPoint2D(Point2D, Point2D) public final
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.LookupOp#getPoint2D(java.awt.geom.Point2D, java.awt.geom.Point2D) public final
      * java.awt.geom.Point2D java.awt.image.LookupOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,8 +201,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupOp#filter(BufferedImage, BufferedImage) public
-     * final java.awt.image.BufferedImage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.LookupOp#filter(java.awt.image.BufferedImage, java.awt.image.BufferedImage) public final
+     * java.awt.image.BufferedImage
      * java.awt.image.LookupOp.filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -225,7 +226,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupOp#filter(Raster, WritableRaster) public final
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.LookupOp#filter(java.awt.image.Raster, java.awt.image.WritableRaster) public final
      * java.awt.image.WritableRaster
      * java.awt.image.LookupOp.filter(java.awt.image.Raster,java.awt.image.WritableRaster)}.
      *

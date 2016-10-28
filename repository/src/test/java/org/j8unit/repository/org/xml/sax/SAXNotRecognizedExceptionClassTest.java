@@ -22,7 +22,8 @@ implements org.j8unit.repository.org.xml.sax.SAXNotRecognizedExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SAXNotRecognizedException#SAXNotRecognizedException() public org.xml.sax.SAXNotRecognizedException()}.
+     * {@link org.xml.sax.SAXNotRecognizedException#SAXNotRecognizedException() public
+     * org.xml.sax.SAXNotRecognizedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.org.xml.sax.SAXNotRecognizedExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SAXNotRecognizedException#SAXNotRecognizedException(String) public
+     * {@link org.xml.sax.SAXNotRecognizedException#SAXNotRecognizedException(String) public
      * org.xml.sax.SAXNotRecognizedException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

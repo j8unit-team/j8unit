@@ -1,11 +1,5 @@
 package org.j8unit.repository.java.util.logging;
 
-import java.util.ResourceBundle;
-import java.util.function.Supplier;
-import java.util.logging.Filter;
-import java.util.logging.Handler;
-import java.util.logging.Level;
-import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#setFilter(Filter) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#setFilter(java.util.logging.Filter) public void
      * java.util.logging.Logger.setFilter(java.util.logging.Filter) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#removeHandler(Handler) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#removeHandler(java.util.logging.Handler) public void
      * java.util.logging.Logger.removeHandler(java.util.logging.Handler) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getHandlers() public
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getHandlers() public
      * java.util.logging.Handler[] java.util.logging.Logger.getHandlers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getUseParentHandlers() public boolean
-     * java.util.logging.Logger.getUseParentHandlers()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getUseParentHandlers()
+     * public boolean java.util.logging.Logger.getUseParentHandlers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,29 +124,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#finer(Supplier) public void
-     * java.util.logging.Logger.finer(java.util.function.Supplier<java.lang.String>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_finer_Supplier()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#finer(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#finer(String) public void
      * java.util.logging.Logger.finer(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +146,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#setLevel(Level) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#finer(java.util.function.Supplier) public void
+     * java.util.logging.Logger.finer(java.util.function.Supplier<java.lang.String>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_finer_Supplier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#setLevel(java.util.logging.Level) public void
      * java.util.logging.Logger.setLevel(java.util.logging.Level) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,7 +192,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#setResourceBundle(ResourceBundle) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#setResourceBundle(java.util.ResourceBundle) public void
      * java.util.logging.Logger.setResourceBundle(java.util.ResourceBundle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,7 +215,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#setUseParentHandlers(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#setUseParentHandlers(boolean) public void
      * java.util.logging.Logger.setUseParentHandlers(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,8 +238,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getName() public java.lang.String
-     * java.util.logging.Logger.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getName() public
+     * java.lang.String java.util.logging.Logger.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,7 +260,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#exiting(String, String, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#exiting(String, String, Object) public void
      * java.util.logging.Logger.exiting(java.lang.String,java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,8 +283,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#exiting(String, String) public void
-     * java.util.logging.Logger.exiting(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#exiting(String, String)
+     * public void java.util.logging.Logger.exiting(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,7 +305,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getResourceBundle() public
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getResourceBundle() public
      * java.util.ResourceBundle java.util.logging.Logger.getResourceBundle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -326,10 +327,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#logp(Level, String, String, String, Object)
-     * public void
-     * java.util.logging.Logger.logp(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.Object)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#logp(java.util.logging.Level, String, String, String) public void
+     * java.util.logging.Logger.logp(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -341,31 +341,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_logp_Level_String_String_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#logp(Level, String, String, Supplier) public
-     * void
-     * java.util.logging.Logger.logp(java.util.logging.Level,java.lang.String,java.lang.String,java.util.function.Supplier
-     * <java.lang.String>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_logp_Level_String_String_Supplier()
+    public default void test_logp_Level_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -375,7 +351,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Logger#logp(Level, String, String, String, Throwable) public void
+     * {@link java.util.logging.Logger#logp(java.util.logging.Level, String, String, String, Throwable) public void
      * java.util.logging.Logger.logp(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.Throwable)}
      * .
      *
@@ -398,8 +374,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#logp(Level, String, String, String, Object[])
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#logp(java.util.logging.Level, String, String, String, Object[]) public void
      * java.util.logging.Logger.logp(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.Object[])}
      * .
      *
@@ -423,7 +399,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Logger#logp(Level, String, String, Throwable, Supplier) public void
+     * {@link java.util.logging.Logger#logp(java.util.logging.Level, String, String, Throwable, java.util.function.Supplier)
+     * public void
      * java.util.logging.Logger.logp(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.Throwable,java.util.function.Supplier
      * <java.lang.String>)}.
      *
@@ -446,8 +423,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#logp(Level, String, String, String) public
-     * void java.util.logging.Logger.logp(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#logp(java.util.logging.Level, String, String, String, Object) public void
+     * java.util.logging.Logger.logp(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.Object)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -459,7 +438,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_logp_Level_String_String_String()
+    public default void test_logp_Level_String_String_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -468,7 +447,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#info(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#logp(java.util.logging.Level, String, String, java.util.function.Supplier) public
+     * void
+     * java.util.logging.Logger.logp(java.util.logging.Level,java.lang.String,java.lang.String,java.util.function.Supplier
+     * <java.lang.String>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_logp_Level_String_String_Supplier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#info(String) public void
      * java.util.logging.Logger.info(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -490,7 +494,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#info(Supplier) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#info(java.util.function.Supplier) public void
      * java.util.logging.Logger.info(java.util.function.Supplier<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -512,7 +517,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#warning(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#warning(String) public void
      * java.util.logging.Logger.warning(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -534,7 +539,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#warning(Supplier) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#warning(java.util.function.Supplier) public void
      * java.util.logging.Logger.warning(java.util.function.Supplier<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -556,7 +562,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#fine(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#fine(String) public void
      * java.util.logging.Logger.fine(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -578,7 +584,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#fine(Supplier) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#fine(java.util.function.Supplier) public void
      * java.util.logging.Logger.fine(java.util.function.Supplier<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -600,29 +607,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#finest(String) public void
-     * java.util.logging.Logger.finest(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_finest_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#finest(Supplier) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#finest(java.util.function.Supplier) public void
      * java.util.logging.Logger.finest(java.util.function.Supplier<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -644,7 +630,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#addHandler(Handler) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#finest(String) public void
+     * java.util.logging.Logger.finest(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_finest_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#addHandler(java.util.logging.Handler) public void
      * java.util.logging.Logger.addHandler(java.util.logging.Handler) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -666,7 +675,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#isLoggable(Level) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#isLoggable(java.util.logging.Level) public boolean
      * java.util.logging.Logger.isLoggable(java.util.logging.Level)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -688,8 +698,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getParent() public java.util.logging.Logger
-     * java.util.logging.Logger.getParent()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getParent() public
+     * java.util.logging.Logger java.util.logging.Logger.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -710,29 +720,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#config(Supplier) public void
-     * java.util.logging.Logger.config(java.util.function.Supplier<java.lang.String>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_config_Supplier()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#config(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#config(String) public void
      * java.util.logging.Logger.config(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -754,8 +742,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#severe(String) public void
-     * java.util.logging.Logger.severe(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#config(java.util.function.Supplier) public void
+     * java.util.logging.Logger.config(java.util.function.Supplier<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -767,7 +756,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_severe_String()
+    public default void test_config_Supplier()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -776,7 +765,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#severe(Supplier) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#severe(java.util.function.Supplier) public void
      * java.util.logging.Logger.severe(java.util.function.Supplier<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -798,8 +788,74 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#entering(String, String) public void
-     * java.util.logging.Logger.entering(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#severe(String) public void
+     * java.util.logging.Logger.severe(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_severe_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getLevel() public
+     * java.util.logging.Level java.util.logging.Logger.getLevel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLevel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getFilter() public
+     * java.util.logging.Filter java.util.logging.Logger.getFilter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFilter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#entering(String, String)
+     * public void java.util.logging.Logger.entering(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -820,7 +876,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#entering(String, String, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#entering(String, String, Object) public void
      * java.util.logging.Logger.entering(java.lang.String,java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -842,8 +899,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#entering(String, String, Object[]) public
-     * void java.util.logging.Logger.entering(java.lang.String,java.lang.String,java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#entering(String, String, Object[]) public void
+     * java.util.logging.Logger.entering(java.lang.String,java.lang.String,java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -864,51 +922,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getLevel() public java.util.logging.Level
-     * java.util.logging.Logger.getLevel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLevel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getFilter() public java.util.logging.Filter
-     * java.util.logging.Logger.getFilter()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFilter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#log(Level, Throwable, Supplier) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#log(java.util.logging.Level, Throwable, java.util.function.Supplier) public void
      * java.util.logging.Logger.log(java.util.logging.Level,java.lang.Throwable,java.util.function.Supplier
      * <java.lang.String>)}.
      *
@@ -931,7 +946,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#log(Level, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#log(java.util.logging.Level, String) public void
      * java.util.logging.Logger.log(java.util.logging.Level,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -953,7 +969,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#log(LogRecord) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#log(java.util.logging.LogRecord) public void
      * java.util.logging.Logger.log(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -975,7 +992,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#log(Level, Supplier) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#log(java.util.logging.Level, java.util.function.Supplier) public void
      * java.util.logging.Logger.log(java.util.logging.Level,java.util.function.Supplier<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -997,7 +1015,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#log(Level, String, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#log(java.util.logging.Level, String, Object) public void
      * java.util.logging.Logger.log(java.util.logging.Level,java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1019,7 +1038,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#log(Level, String, Object[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#log(java.util.logging.Level, String, Object[]) public void
      * java.util.logging.Logger.log(java.util.logging.Level,java.lang.String,java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1041,7 +1061,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#log(Level, String, Throwable) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#log(java.util.logging.Level, String, Throwable) public void
      * java.util.logging.Logger.log(java.util.logging.Level,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1063,8 +1084,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getResourceBundleName() public
-     * java.lang.String java.util.logging.Logger.getResourceBundleName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getResourceBundleName()
+     * public java.lang.String java.util.logging.Logger.getResourceBundleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1085,7 +1106,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#setParent(Logger) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#setParent(java.util.logging.Logger) public void
      * java.util.logging.Logger.setParent(java.util.logging.Logger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1107,8 +1129,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#throwing(String, String, Throwable) public
-     * void java.util.logging.Logger.throwing(java.lang.String,java.lang.String,java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#throwing(String, String, Throwable) public void
+     * java.util.logging.Logger.throwing(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1130,7 +1153,33 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Logger#logrb(Level, String, String, String, String, Throwable) public void
+     * {@link java.util.logging.Logger#logrb(java.util.logging.Level, String, String, java.util.ResourceBundle, String, Throwable)
+     * public void
+     * java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.util.ResourceBundle,java.lang.String,java.lang.Throwable)}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_logrb_Level_String_String_ResourceBundle_String_Throwable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Logger#logrb(java.util.logging.Level, String, String, String, String, Throwable) public
+     * void
      * java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Throwable)}
      * .
      *
@@ -1154,32 +1203,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Logger#logrb(Level, String, String, ResourceBundle, String, Throwable) public void
-     * java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.util.ResourceBundle,java.lang.String,java.lang.Throwable)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_logrb_Level_String_String_ResourceBundle_String_Throwable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#logrb(Level, String, String, String, String)
+     * {@link java.util.logging.Logger#logrb(java.util.logging.Level, String, String, java.util.ResourceBundle, String, Object...)
      * public void
-     * java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
+     * java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.util.ResourceBundle,java.lang.String,java.lang.Object...)}
      * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1192,7 +1218,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_logrb_Level_String_String_String_String()
+    public default void test_logrb_Level_String_String_ResourceBundle_String_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1202,7 +1228,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Logger#logrb(Level, String, String, String, String, Object) public void
+     * {@link java.util.logging.Logger#logrb(java.util.logging.Level, String, String, String, String, Object) public
+     * void
      * java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Object)}
      * .
      *
@@ -1226,7 +1253,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Logger#logrb(Level, String, String, String, String, Object[]) public void
+     * {@link java.util.logging.Logger#logrb(java.util.logging.Level, String, String, String, String, Object[]) public
+     * void
      * java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Object[])}
      * .
      *
@@ -1250,8 +1278,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Logger#logrb(Level, String, String, ResourceBundle, String, Object...) public void
-     * java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.util.ResourceBundle,java.lang.String,java.lang.Object...)}
+     * {@link java.util.logging.Logger#logrb(java.util.logging.Level, String, String, String, String) public void
+     * java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
      * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1264,7 +1292,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_logrb_Level_String_String_ResourceBundle_String_ObjectArray()
+    public default void test_logrb_Level_String_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

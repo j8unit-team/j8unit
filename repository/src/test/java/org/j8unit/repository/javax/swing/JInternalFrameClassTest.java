@@ -22,8 +22,54 @@ implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<JInternalF
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JInternalFrame#JInternalFrame(String) public
-     * javax.swing.JInternalFrame(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JInternalFrame#JInternalFrame(String, boolean, boolean, boolean) public
+     * javax.swing.JInternalFrame(java.lang.String,boolean,boolean,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JInternalFrame_String_boolean_boolean_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JInternalFrame sut = null; // = new JInternalFrame(String, boolean, boolean, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JInternalFrame#JInternalFrame(String, boolean) public
+     * javax.swing.JInternalFrame(java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JInternalFrame_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JInternalFrame sut = null; // = new JInternalFrame(String, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JInternalFrame#JInternalFrame(String) public javax.swing.JInternalFrame(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +90,29 @@ implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<JInternalF
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JInternalFrame#JInternalFrame()
+     * public javax.swing.JInternalFrame()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JInternalFrame()
+    throws Exception {
+        // create new instance
+        final JInternalFrame sut = new JInternalFrame();
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JInternalFrame#JInternalFrame(String, boolean, boolean, boolean, boolean) public
+     * {@link javax.swing.JInternalFrame#JInternalFrame(String, boolean, boolean, boolean, boolean) public
      * javax.swing.JInternalFrame(java.lang.String,boolean,boolean,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +135,7 @@ implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<JInternalF
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JInternalFrame#JInternalFrame(String, boolean, boolean) public
+     * {@link javax.swing.JInternalFrame#JInternalFrame(String, boolean, boolean) public
      * javax.swing.JInternalFrame(java.lang.String,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,72 +155,6 @@ implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<JInternalF
         final JInternalFrame sut = null; // = new JInternalFrame(String, boolean, boolean);
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link JInternalFrame#JInternalFrame(String, boolean, boolean, boolean) public
-     * javax.swing.JInternalFrame(java.lang.String,boolean,boolean,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JInternalFrame_String_boolean_boolean_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JInternalFrame sut = null; // = new JInternalFrame(String, boolean, boolean, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JInternalFrame#JInternalFrame(String, boolean)
-     * public javax.swing.JInternalFrame(java.lang.String,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JInternalFrame_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JInternalFrame sut = null; // = new JInternalFrame(String, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JInternalFrame#JInternalFrame() public
-     * javax.swing.JInternalFrame()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JInternalFrame()
-    throws Exception {
-        // create new instance
-        final JInternalFrame sut = new JInternalFrame();
-    }
-
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JInternalFrame]
 
     @RunWith(J8Unit4.class)
@@ -169,8 +170,9 @@ implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<JInternalF
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link JDesktopIcon#JDesktopIcon(JInternalFrame)
-         * public javax.swing.JInternalFrame$JDesktopIcon(javax.swing.JInternalFrame)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.JInternalFrame.JDesktopIcon#JDesktopIcon(javax.swing.JInternalFrame) public
+         * javax.swing.JInternalFrame$JDesktopIcon(javax.swing.JInternalFrame)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -186,7 +188,7 @@ implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<JInternalF
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final JDesktopIcon sut = null; // = new JDesktopIcon(JInternalFrame);
+            final JDesktopIcon sut = null; // = new JDesktopIcon(javax.swing.JInternalFrame);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JInternalFrame$JDesktopIcon]

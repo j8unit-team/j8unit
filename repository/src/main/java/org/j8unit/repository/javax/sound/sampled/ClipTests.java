@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.sound.sampled;
 
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.Clip;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clip#setFramePosition(int) public abstract void
-     * javax.sound.sampled.Clip.setFramePosition(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Clip#setFramePosition(int)
+     * public abstract void javax.sound.sampled.Clip.setFramePosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,8 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clip#loop(int) public abstract void
-     * javax.sound.sampled.Clip.loop(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Clip#loop(int) public abstract
+     * void javax.sound.sampled.Clip.loop(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +78,8 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clip#getMicrosecondLength() public abstract long
-     * javax.sound.sampled.Clip.getMicrosecondLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Clip#getMicrosecondLength()
+     * public abstract long javax.sound.sampled.Clip.getMicrosecondLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +100,8 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clip#setLoopPoints(int, int) public abstract void
-     * javax.sound.sampled.Clip.setLoopPoints(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Clip#setLoopPoints(int, int)
+     * public abstract void javax.sound.sampled.Clip.setLoopPoints(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +122,8 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clip#getFrameLength() public abstract int
-     * javax.sound.sampled.Clip.getFrameLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Clip#getFrameLength() public
+     * abstract int javax.sound.sampled.Clip.getFrameLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +144,8 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clip#open(AudioInputStream) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Clip#open(javax.sound.sampled.AudioInputStream) public abstract void
      * javax.sound.sampled.Clip.open(javax.sound.sampled.AudioInputStream) throws
      * javax.sound.sampled.LineUnavailableException,java.io.IOException}.
      *
@@ -169,8 +168,9 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clip#open(AudioFormat, byte[], int, int) public
-     * abstract void javax.sound.sampled.Clip.open(javax.sound.sampled.AudioFormat,byte[],int,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Clip#open(javax.sound.sampled.AudioFormat, byte[], int, int) public abstract void
+     * javax.sound.sampled.Clip.open(javax.sound.sampled.AudioFormat,byte[],int,int) throws
      * javax.sound.sampled.LineUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +192,9 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Clip#setMicrosecondPosition(long) public abstract
-     * void javax.sound.sampled.Clip.setMicrosecondPosition(long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Clip#setMicrosecondPosition(long) public abstract void
+     * javax.sound.sampled.Clip.setMicrosecondPosition(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

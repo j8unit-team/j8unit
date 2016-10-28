@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.management.AttributeClassTests<Attribute>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Attribute#Attribute(String, Object) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.Attribute#Attribute(String, Object) public
      * javax.management.Attribute(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

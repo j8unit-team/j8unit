@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.event.ListSelectionEventClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ListSelectionEvent#ListSelectionEvent(Object, int, int, boolean) public
+     * {@link javax.swing.event.ListSelectionEvent#ListSelectionEvent(Object, int, int, boolean) public
      * javax.swing.event.ListSelectionEvent(java.lang.Object,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

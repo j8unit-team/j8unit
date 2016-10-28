@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.applet;
 
 import java.applet.Applet;
-import java.applet.AppletStub;
-import java.awt.Dimension;
-import java.net.URL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#stop() public void java.applet.Applet.stop()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#stop() public void
+     * java.applet.Applet.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +56,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getAppletInfo() public java.lang.String
-     * java.applet.Applet.getAppletInfo()}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getAppletInfo() public
+     * java.lang.String java.applet.Applet.getAppletInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +78,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#isValidateRoot() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#isValidateRoot() public boolean
      * java.applet.Applet.isValidateRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +101,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getParameterInfo() public
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getParameterInfo() public
      * java.lang.String[][] java.applet.Applet.getParameterInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +123,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getImage(URL) public java.awt.Image
-     * java.applet.Applet.getImage(java.net.URL)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getImage(java.net.URL) public
+     * java.awt.Image java.applet.Applet.getImage(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +145,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getImage(URL, String) public java.awt.Image
-     * java.applet.Applet.getImage(java.net.URL,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getImage(java.net.URL, String)
+     * public java.awt.Image java.applet.Applet.getImage(java.net.URL,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +167,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getLocale() public java.util.Locale
-     * java.applet.Applet.getLocale()}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getLocale() public
+     * java.util.Locale java.applet.Applet.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +190,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getParameter(String) public java.lang.String
-     * java.applet.Applet.getParameter(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getParameter(String) public
+     * java.lang.String java.applet.Applet.getParameter(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +212,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getDocumentBase() public java.net.URL
-     * java.applet.Applet.getDocumentBase()}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getDocumentBase() public
+     * java.net.URL java.applet.Applet.getDocumentBase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +234,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#resize(Dimension) public void
-     * java.applet.Applet.resize(java.awt.Dimension)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#resize(java.awt.Dimension) public
+     * void java.applet.Applet.resize(java.awt.Dimension)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,7 +257,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#resize(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#resize(int, int) public void
      * java.applet.Applet.resize(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -283,8 +280,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#setStub(AppletStub) public final void
-     * java.applet.Applet.setStub(java.applet.AppletStub)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#setStub(java.applet.AppletStub)
+     * public final void java.applet.Applet.setStub(java.applet.AppletStub)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -305,8 +302,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#play(URL, String) public void
-     * java.applet.Applet.play(java.net.URL,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#play(java.net.URL, String) public
+     * void java.applet.Applet.play(java.net.URL,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,7 +324,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#play(URL) public void
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#play(java.net.URL) public void
      * java.applet.Applet.play(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,7 +346,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getAppletContext() public
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getAppletContext() public
      * java.applet.AppletContext java.applet.Applet.getAppletContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -371,7 +368,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getCodeBase() public java.net.URL
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getCodeBase() public java.net.URL
      * java.applet.Applet.getCodeBase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -393,8 +390,8 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#init() public void java.applet.Applet.init()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#init() public void
+     * java.applet.Applet.init()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -415,7 +412,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#isActive() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#isActive() public boolean
      * java.applet.Applet.isActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -437,8 +434,9 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getAudioClip(URL, String) public
-     * java.applet.AudioClip java.applet.Applet.getAudioClip(java.net.URL,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.applet.Applet#getAudioClip(java.net.URL, String) public java.applet.AudioClip
+     * java.applet.Applet.getAudioClip(java.net.URL,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -459,7 +457,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getAudioClip(URL) public
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getAudioClip(java.net.URL) public
      * java.applet.AudioClip java.applet.Applet.getAudioClip(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -481,7 +479,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.applet.Applet.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -504,7 +502,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#start() public void
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#start() public void
      * java.applet.Applet.start()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -526,7 +524,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#destroy() public void
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#destroy() public void
      * java.applet.Applet.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -548,7 +546,7 @@ extends org.j8unit.repository.java.awt.PanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Applet#showStatus(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.applet.Applet#showStatus(String) public void
      * java.applet.Applet.showStatus(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

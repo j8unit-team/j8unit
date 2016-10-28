@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.text.ChangedCharSetExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ChangedCharSetException#ChangedCharSetException(String, boolean) public
+     * {@link javax.swing.text.ChangedCharSetException#ChangedCharSetException(String, boolean) public
      * javax.swing.text.ChangedCharSetException(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

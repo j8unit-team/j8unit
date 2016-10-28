@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListDataEvent#toString() public java.lang.String
-     * javax.swing.event.ListDataEvent.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.ListDataEvent#toString() public
+     * java.lang.String javax.swing.event.ListDataEvent.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListDataEvent#getIndex1() public int
-     * javax.swing.event.ListDataEvent.getIndex1()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.ListDataEvent#getIndex1() public
+     * int javax.swing.event.ListDataEvent.getIndex1()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListDataEvent#getIndex0() public int
-     * javax.swing.event.ListDataEvent.getIndex0()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.ListDataEvent#getIndex0() public
+     * int javax.swing.event.ListDataEvent.getIndex0()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListDataEvent#getType() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.ListDataEvent#getType() public int
      * javax.swing.event.ListDataEvent.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

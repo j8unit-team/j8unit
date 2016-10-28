@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind.helpers;
 
-import javax.xml.bind.ValidationEvent;
 import javax.xml.bind.helpers.DefaultValidationEventHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultValidationEventHandler#handleEvent(ValidationEvent) public boolean
-     * javax.xml.bind.helpers.DefaultValidationEventHandler.handleEvent(javax.xml.bind.ValidationEvent)}.
+     * {@link javax.xml.bind.helpers.DefaultValidationEventHandler#handleEvent(javax.xml.bind.ValidationEvent) public
+     * boolean javax.xml.bind.helpers.DefaultValidationEventHandler.handleEvent(javax.xml.bind.ValidationEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

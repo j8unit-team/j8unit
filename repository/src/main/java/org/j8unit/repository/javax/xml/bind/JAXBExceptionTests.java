@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.bind;
 
-import java.io.PrintStream;
-import java.io.PrintWriter;
 import javax.xml.bind.JAXBException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBException#getCause() public java.lang.Throwable
-     * javax.xml.bind.JAXBException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBException#getCause() public
+     * java.lang.Throwable javax.xml.bind.JAXBException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBException#setLinkedException(Throwable) public
-     * void javax.xml.bind.JAXBException.setLinkedException(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.JAXBException#setLinkedException(Throwable) public void
+     * javax.xml.bind.JAXBException.setLinkedException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBException#toString() public java.lang.String
-     * javax.xml.bind.JAXBException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBException#toString() public
+     * java.lang.String javax.xml.bind.JAXBException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBException#getErrorCode() public java.lang.String
-     * javax.xml.bind.JAXBException.getErrorCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBException#getErrorCode() public
+     * java.lang.String javax.xml.bind.JAXBException.getErrorCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBException#printStackTrace(PrintWriter) public
-     * void javax.xml.bind.JAXBException.printStackTrace(java.io.PrintWriter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.JAXBException#printStackTrace(java.io.PrintWriter) public void
+     * javax.xml.bind.JAXBException.printStackTrace(java.io.PrintWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +149,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBException#printStackTrace(PrintStream) public
-     * void javax.xml.bind.JAXBException.printStackTrace(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.JAXBException#printStackTrace(java.io.PrintStream) public void
+     * javax.xml.bind.JAXBException.printStackTrace(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +173,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBException#printStackTrace() public void
-     * javax.xml.bind.JAXBException.printStackTrace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBException#printStackTrace()
+     * public void javax.xml.bind.JAXBException.printStackTrace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +196,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBException#getLinkedException() public
-     * java.lang.Throwable javax.xml.bind.JAXBException.getLinkedException()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBException#getLinkedException()
+     * public java.lang.Throwable javax.xml.bind.JAXBException.getLinkedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.lang.model.element;
 
 import javax.lang.model.element.AnnotationValue;
-import javax.lang.model.element.AnnotationValueVisitor;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValue#toString() public abstract
-     * java.lang.String javax.lang.model.element.AnnotationValue.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.AnnotationValue#toString()
+     * public abstract java.lang.String javax.lang.model.element.AnnotationValue.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AnnotationValue#accept(AnnotationValueVisitor, Object) public abstract <R,P> R
+     * {@link javax.lang.model.element.AnnotationValue#accept(javax.lang.model.element.AnnotationValueVisitor, Object)
+     * public abstract <R,P> R
      * javax.lang.model.element.AnnotationValue.accept(javax.lang.model.element.AnnotationValueVisitor<R, P>,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValue#getValue() public abstract
-     * java.lang.Object javax.lang.model.element.AnnotationValue.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.AnnotationValue#getValue()
+     * public abstract java.lang.Object javax.lang.model.element.AnnotationValue.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.InterruptedByTimeoutException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InterruptedByTimeoutException#InterruptedByTimeoutException() public
+     * {@link java.nio.channels.InterruptedByTimeoutException#InterruptedByTimeoutException() public
      * java.nio.channels.InterruptedByTimeoutException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

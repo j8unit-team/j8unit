@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.nio.channels.spi;
 
-import java.net.ProtocolFamily;
 import java.nio.channels.spi.SelectorProvider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,9 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SelectorProvider#openSocketChannel() public abstract
-     * java.nio.channels.SocketChannel java.nio.channels.spi.SelectorProvider.openSocketChannel() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.SelectorProvider#openSocketChannel() public abstract java.nio.channels.SocketChannel
+     * java.nio.channels.spi.SelectorProvider.openSocketChannel() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SelectorProvider#openPipe() public abstract
-     * java.nio.channels.Pipe java.nio.channels.spi.SelectorProvider.openPipe() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.spi.SelectorProvider#openPipe()
+     * public abstract java.nio.channels.Pipe java.nio.channels.spi.SelectorProvider.openPipe() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,9 +80,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SelectorProvider#openServerSocketChannel() public
-     * abstract java.nio.channels.ServerSocketChannel java.nio.channels.spi.SelectorProvider.openServerSocketChannel()
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.SelectorProvider#openServerSocketChannel() public abstract
+     * java.nio.channels.ServerSocketChannel java.nio.channels.spi.SelectorProvider.openServerSocketChannel() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SelectorProvider#openDatagramChannel() public
-     * abstract java.nio.channels.DatagramChannel java.nio.channels.spi.SelectorProvider.openDatagramChannel() throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.SelectorProvider#openDatagramChannel() public abstract
+     * java.nio.channels.DatagramChannel java.nio.channels.spi.SelectorProvider.openDatagramChannel() throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +128,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SelectorProvider#openDatagramChannel(ProtocolFamily)
-     * public abstract java.nio.channels.DatagramChannel
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.SelectorProvider#openDatagramChannel(java.net.ProtocolFamily) public abstract
+     * java.nio.channels.DatagramChannel
      * java.nio.channels.spi.SelectorProvider.openDatagramChannel(java.net.ProtocolFamily) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +152,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SelectorProvider#inheritedChannel() public
-     * java.nio.channels.Channel java.nio.channels.spi.SelectorProvider.inheritedChannel() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.SelectorProvider#inheritedChannel() public java.nio.channels.Channel
+     * java.nio.channels.spi.SelectorProvider.inheritedChannel() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,7 +175,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SelectorProvider#openSelector() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.SelectorProvider#openSelector() public abstract
      * java.nio.channels.spi.AbstractSelector java.nio.channels.spi.SelectorProvider.openSelector() throws
      * java.io.IOException}.
      *

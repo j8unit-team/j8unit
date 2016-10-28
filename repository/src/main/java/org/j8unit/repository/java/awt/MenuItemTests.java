@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.MenuItem;
-import java.awt.MenuShortcut;
-import java.awt.event.ActionListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#setEnabled(boolean) public synchronized
-     * void java.awt.MenuItem.setEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#setEnabled(boolean) public
+     * synchronized void java.awt.MenuItem.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#paramString() public java.lang.String
-     * java.awt.MenuItem.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#paramString() public
+     * java.lang.String java.awt.MenuItem.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +78,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#isEnabled() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#isEnabled() public boolean
      * java.awt.MenuItem.isEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +100,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#enable(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#enable(boolean) public void
      * java.awt.MenuItem.enable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +122,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#enable() public synchronized void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#enable() public synchronized void
      * java.awt.MenuItem.enable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +144,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#disable() public synchronized void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#disable() public synchronized void
      * java.awt.MenuItem.disable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +166,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#addNotify() public void
      * java.awt.MenuItem.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,8 +188,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#removeActionListener(ActionListener) public
-     * synchronized void java.awt.MenuItem.removeActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.MenuItem#removeActionListener(java.awt.event.ActionListener) public synchronized void
+     * java.awt.MenuItem.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +211,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#getActionCommand() public java.lang.String
-     * java.awt.MenuItem.getActionCommand()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#getActionCommand() public
+     * java.lang.String java.awt.MenuItem.getActionCommand()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +233,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#setLabel(String) public synchronized void
-     * java.awt.MenuItem.setLabel(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#setLabel(String) public
+     * synchronized void java.awt.MenuItem.setLabel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +255,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#getActionListeners() public synchronized
-     * java.awt.event.ActionListener[] java.awt.MenuItem.getActionListeners()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#getActionListeners() public
+     * synchronized java.awt.event.ActionListener[] java.awt.MenuItem.getActionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,7 +277,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#getLabel() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#getLabel() public java.lang.String
      * java.awt.MenuItem.getLabel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -300,7 +299,29 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#getListeners(Class) public <T> T[]
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#setShortcut(java.awt.MenuShortcut)
+     * public void java.awt.MenuItem.setShortcut(java.awt.MenuShortcut)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setShortcut_MenuShortcut()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#getListeners(Class) public <T> T[]
      * java.awt.MenuItem.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -322,30 +343,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#setShortcut(MenuShortcut) public void
-     * java.awt.MenuItem.setShortcut(java.awt.MenuShortcut)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setShortcut_MenuShortcut()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#addActionListener(ActionListener) public
-     * synchronized void java.awt.MenuItem.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.MenuItem#addActionListener(java.awt.event.ActionListener) public synchronized void
+     * java.awt.MenuItem.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -366,7 +366,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#deleteShortcut() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#deleteShortcut() public void
      * java.awt.MenuItem.deleteShortcut()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -388,8 +388,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#setActionCommand(String) public void
-     * java.awt.MenuItem.setActionCommand(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#setActionCommand(String) public
+     * void java.awt.MenuItem.setActionCommand(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -410,7 +410,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.MenuItem.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -433,8 +433,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuItem#getShortcut() public java.awt.MenuShortcut
-     * java.awt.MenuItem.getShortcut()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuItem#getShortcut() public
+     * java.awt.MenuShortcut java.awt.MenuItem.getShortcut()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

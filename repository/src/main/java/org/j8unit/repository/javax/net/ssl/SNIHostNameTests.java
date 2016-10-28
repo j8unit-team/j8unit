@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIHostName#getAsciiName() public java.lang.String
-     * javax.net.ssl.SNIHostName.getAsciiName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIHostName#getAsciiName() public
+     * java.lang.String javax.net.ssl.SNIHostName.getAsciiName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIHostName#equals(Object) public boolean
-     * javax.net.ssl.SNIHostName.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIHostName#equals(Object) public
+     * boolean javax.net.ssl.SNIHostName.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIHostName#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIHostName#hashCode() public int
      * javax.net.ssl.SNIHostName.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIHostName#toString() public java.lang.String
-     * javax.net.ssl.SNIHostName.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIHostName#toString() public
+     * java.lang.String javax.net.ssl.SNIHostName.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

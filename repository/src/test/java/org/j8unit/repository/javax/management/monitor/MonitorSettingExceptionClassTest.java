@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.monitor.MonitorSettingExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MonitorSettingException#MonitorSettingException() public
+     * {@link javax.management.monitor.MonitorSettingException#MonitorSettingException() public
      * javax.management.monitor.MonitorSettingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.monitor.MonitorSettingExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MonitorSettingException#MonitorSettingException(String) public
+     * {@link javax.management.monitor.MonitorSettingException#MonitorSettingException(String) public
      * javax.management.monitor.MonitorSettingException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

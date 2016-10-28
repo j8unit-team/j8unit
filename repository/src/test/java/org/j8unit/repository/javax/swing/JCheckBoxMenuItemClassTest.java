@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import javax.swing.Action;
-import javax.swing.Icon;
 import javax.swing.JCheckBoxMenuItem;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.javax.swing.JCheckBoxMenuItemClassTests<JCheckB
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBoxMenuItem#JCheckBoxMenuItem(Action)
-     * public javax.swing.JCheckBoxMenuItem(javax.swing.Action)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(javax.swing.Action) public
+     * javax.swing.JCheckBoxMenuItem(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,13 @@ implements org.j8unit.repository.javax.swing.JCheckBoxMenuItemClassTests<JCheckB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(Action);
+        final JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(javax.swing.Action);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JCheckBoxMenuItem#JCheckBoxMenuItem(String, Icon) public
+     * {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(String, javax.swing.Icon) public
      * javax.swing.JCheckBoxMenuItem(java.lang.String,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +62,13 @@ implements org.j8unit.repository.javax.swing.JCheckBoxMenuItemClassTests<JCheckB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(String, Icon);
+        final JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(String, javax.swing.Icon);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JCheckBoxMenuItem#JCheckBoxMenuItem(String, boolean) public
+     * {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(String, boolean) public
      * javax.swing.JCheckBoxMenuItem(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -92,7 +91,7 @@ implements org.j8unit.repository.javax.swing.JCheckBoxMenuItemClassTests<JCheckB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JCheckBoxMenuItem#JCheckBoxMenuItem(String, Icon, boolean) public
+     * {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(String, javax.swing.Icon, boolean) public
      * javax.swing.JCheckBoxMenuItem(java.lang.String,javax.swing.Icon,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,13 +108,13 @@ implements org.j8unit.repository.javax.swing.JCheckBoxMenuItemClassTests<JCheckB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(String, Icon, boolean);
+        final JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(String, javax.swing.Icon, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBoxMenuItem#JCheckBoxMenuItem() public
-     * javax.swing.JCheckBoxMenuItem()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem() public javax.swing.JCheckBoxMenuItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,8 +134,9 @@ implements org.j8unit.repository.javax.swing.JCheckBoxMenuItemClassTests<JCheckB
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBoxMenuItem#JCheckBoxMenuItem(Icon)
-     * public javax.swing.JCheckBoxMenuItem(javax.swing.Icon)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(javax.swing.Icon) public
+     * javax.swing.JCheckBoxMenuItem(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,13 +152,14 @@ implements org.j8unit.repository.javax.swing.JCheckBoxMenuItemClassTests<JCheckB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(Icon);
+        final JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(javax.swing.Icon);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBoxMenuItem#JCheckBoxMenuItem(String)
-     * public javax.swing.JCheckBoxMenuItem(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(String) public
+     * javax.swing.JCheckBoxMenuItem(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

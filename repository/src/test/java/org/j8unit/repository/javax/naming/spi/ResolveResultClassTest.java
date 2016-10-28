@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import javax.naming.Name;
 import javax.naming.spi.ResolveResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.naming.spi.ResolveResultClassTests<Resolv
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ResolveResult#ResolveResult(Object, Name)
-     * public javax.naming.spi.ResolveResult(java.lang.Object,javax.naming.Name)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.spi.ResolveResult#ResolveResult(Object, javax.naming.Name) public
+     * javax.naming.spi.ResolveResult(java.lang.Object,javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +39,14 @@ implements org.j8unit.repository.javax.naming.spi.ResolveResultClassTests<Resolv
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ResolveResult sut = null; // = new ResolveResult(Object, Name);
+        final ResolveResult sut = null; // = new ResolveResult(Object, javax.naming.Name);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ResolveResult#ResolveResult(Object, String)
-     * public javax.naming.spi.ResolveResult(java.lang.Object,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.spi.ResolveResult#ResolveResult(Object, String) public
+     * javax.naming.spi.ResolveResult(java.lang.Object,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import java.util.Map;
-import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.TabularDataSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#putAll(Map) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#putAll(java.util.Map) public void
      * javax.management.openmbean.TabularDataSupport.putAll(java.util.Map<?, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#putAll(CompositeData[]) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#putAll(javax.management.openmbean.CompositeData[]) public
      * void javax.management.openmbean.TabularDataSupport.putAll(javax.management.openmbean.CompositeData[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +83,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#equals(Object) public boolean
      * javax.management.openmbean.TabularDataSupport.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +107,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#get(Object) public
-     * java.lang.Object javax.management.openmbean.TabularDataSupport.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#get(Object) public java.lang.Object
+     * javax.management.openmbean.TabularDataSupport.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,7 +131,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#get(Object[]) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#get(Object[]) public
      * javax.management.openmbean.CompositeData javax.management.openmbean.TabularDataSupport.get(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,7 +155,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#hashCode() public int
      * javax.management.openmbean.TabularDataSupport.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,8 +179,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#size() public int
-     * javax.management.openmbean.TabularDataSupport.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.TabularDataSupport#size()
+     * public int javax.management.openmbean.TabularDataSupport.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,7 +202,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#calculateIndex(CompositeData)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#calculateIndex(javax.management.openmbean.CompositeData)
      * public java.lang.Object[]
      * javax.management.openmbean.TabularDataSupport.calculateIndex(javax.management.openmbean.CompositeData)}.
      *
@@ -222,7 +227,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#getTabularType() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#getTabularType() public
      * javax.management.openmbean.TabularType javax.management.openmbean.TabularDataSupport.getTabularType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -245,7 +251,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#keySet() public java.util.Set
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#keySet() public java.util.Set
      * <java.lang.Object> javax.management.openmbean.TabularDataSupport.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -268,8 +275,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#toString() public
-     * java.lang.String javax.management.openmbean.TabularDataSupport.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#toString() public java.lang.String
+     * javax.management.openmbean.TabularDataSupport.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -291,7 +299,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#clone() public java.lang.Object
      * javax.management.openmbean.TabularDataSupport.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -313,8 +322,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#values() public
-     * java.util.Collection<java.lang.Object> javax.management.openmbean.TabularDataSupport.values()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#values() public java.util.Collection
+     * <java.lang.Object> javax.management.openmbean.TabularDataSupport.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -336,8 +346,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#containsKey(Object[]) public
-     * boolean javax.management.openmbean.TabularDataSupport.containsKey(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#containsKey(Object[]) public boolean
+     * javax.management.openmbean.TabularDataSupport.containsKey(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -359,8 +370,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#containsKey(Object) public
-     * boolean javax.management.openmbean.TabularDataSupport.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#containsKey(Object) public boolean
+     * javax.management.openmbean.TabularDataSupport.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -382,7 +394,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#entrySet() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<java.lang.Object, java.lang.Object>>
      * javax.management.openmbean.TabularDataSupport.entrySet()}.
      *
@@ -406,7 +419,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#containsValue(CompositeData)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#containsValue(javax.management.openmbean.CompositeData)
      * public boolean
      * javax.management.openmbean.TabularDataSupport.containsValue(javax.management.openmbean.CompositeData)}.
      *
@@ -430,8 +444,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#containsValue(Object) public
-     * boolean javax.management.openmbean.TabularDataSupport.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#containsValue(Object) public boolean
+     * javax.management.openmbean.TabularDataSupport.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -453,8 +468,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#put(Object, Object) public
-     * java.lang.Object javax.management.openmbean.TabularDataSupport.put(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#put(Object, Object) public java.lang.Object
+     * javax.management.openmbean.TabularDataSupport.put(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -476,7 +492,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#put(CompositeData) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#put(javax.management.openmbean.CompositeData) public void
      * javax.management.openmbean.TabularDataSupport.put(javax.management.openmbean.CompositeData)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -499,7 +516,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#remove(Object[]) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#remove(Object[]) public
      * javax.management.openmbean.CompositeData
      * javax.management.openmbean.TabularDataSupport.remove(java.lang.Object[])}.
      *
@@ -523,8 +541,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#remove(Object) public
-     * java.lang.Object javax.management.openmbean.TabularDataSupport.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#remove(Object) public java.lang.Object
+     * javax.management.openmbean.TabularDataSupport.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -546,7 +565,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#isEmpty() public boolean
      * javax.management.openmbean.TabularDataSupport.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -569,7 +589,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TabularDataSupport#clear() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#clear() public void
      * javax.management.openmbean.TabularDataSupport.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

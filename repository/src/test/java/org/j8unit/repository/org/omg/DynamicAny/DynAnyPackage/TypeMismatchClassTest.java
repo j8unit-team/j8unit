@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TypeMismatch#TypeMismatch() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatch#TypeMismatch() public
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TypeMismatch#TypeMismatch(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatch#TypeMismatch(String) public
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

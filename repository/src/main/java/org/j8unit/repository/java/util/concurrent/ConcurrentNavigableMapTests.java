@@ -34,9 +34,9 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentNavigableMap#subMap(Object, Object) public
-     * abstract java.util.concurrent.ConcurrentNavigableMap<K, V>
-     * java.util.concurrent.ConcurrentNavigableMap.subMap(K,K)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentNavigableMap#subMap(Object, Object) public abstract
+     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentNavigableMap.subMap(K,K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +59,7 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentNavigableMap#subMap(Object, boolean, Object, boolean) public abstract
+     * {@link java.util.concurrent.ConcurrentNavigableMap#subMap(Object, boolean, Object, boolean) public abstract
      * java.util.concurrent.ConcurrentNavigableMap<K, V>
      * java.util.concurrent.ConcurrentNavigableMap.subMap(K,boolean,K,boolean)}.
      *
@@ -83,9 +83,9 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentNavigableMap#descendingMap() public
-     * abstract java.util.concurrent.ConcurrentNavigableMap<K, V>
-     * java.util.concurrent.ConcurrentNavigableMap.descendingMap()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentNavigableMap#descendingMap() public abstract
+     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentNavigableMap.descendingMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +107,9 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentNavigableMap#descendingKeySet() public
-     * abstract java.util.NavigableSet<K> java.util.concurrent.ConcurrentNavigableMap.descendingKeySet()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentNavigableMap#descendingKeySet() public abstract java.util.NavigableSet
+     * <K> java.util.concurrent.ConcurrentNavigableMap.descendingKeySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,9 +131,10 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentNavigableMap#tailMap(Object, boolean)
-     * public abstract java.util.concurrent.ConcurrentNavigableMap<K, V>
-     * java.util.concurrent.ConcurrentNavigableMap.tailMap(K,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentNavigableMap#tailMap(Object, boolean) public abstract
+     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentNavigableMap.tailMap(K,boolean)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,9 +156,9 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentNavigableMap#tailMap(Object) public
-     * abstract java.util.concurrent.ConcurrentNavigableMap<K, V>
-     * java.util.concurrent.ConcurrentNavigableMap.tailMap(K)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentNavigableMap#tailMap(Object) public abstract
+     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentNavigableMap.tailMap(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,8 +180,8 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentNavigableMap#keySet() public abstract
-     * java.util.NavigableSet<K> java.util.concurrent.ConcurrentNavigableMap.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentNavigableMap#keySet()
+     * public abstract java.util.NavigableSet<K> java.util.concurrent.ConcurrentNavigableMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,9 +203,9 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentNavigableMap#headMap(Object) public
-     * abstract java.util.concurrent.ConcurrentNavigableMap<K, V>
-     * java.util.concurrent.ConcurrentNavigableMap.headMap(K)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentNavigableMap#headMap(Object) public abstract
+     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentNavigableMap.headMap(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -225,9 +227,10 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentNavigableMap#headMap(Object, boolean)
-     * public abstract java.util.concurrent.ConcurrentNavigableMap<K, V>
-     * java.util.concurrent.ConcurrentNavigableMap.headMap(K,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentNavigableMap#headMap(Object, boolean) public abstract
+     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentNavigableMap.headMap(K,boolean)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -249,8 +252,9 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentNavigableMap#navigableKeySet() public
-     * abstract java.util.NavigableSet<K> java.util.concurrent.ConcurrentNavigableMap.navigableKeySet()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentNavigableMap#navigableKeySet() public abstract java.util.NavigableSet
+     * <K> java.util.concurrent.ConcurrentNavigableMap.navigableKeySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.cert.CRL;
 import java.security.cert.CRLSelector;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CRLSelector#match(CRL) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CRLSelector#match(java.security.cert.CRL) public abstract boolean
      * java.security.cert.CRLSelector.match(java.security.cert.CRL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CRLSelector#clone() public abstract java.lang.Object
-     * java.security.cert.CRLSelector.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CRLSelector#clone() public
+     * abstract java.lang.Object java.security.cert.CRLSelector.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

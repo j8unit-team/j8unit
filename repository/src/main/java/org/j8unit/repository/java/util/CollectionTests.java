@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.Collection;
-import java.util.function.Predicate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#containsAll(Collection) public abstract
-     * boolean java.util.Collection.containsAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Collection#containsAll(java.util.Collection) public abstract boolean
+     * java.util.Collection.containsAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#spliterator() public default
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#spliterator() public default
      * java.util.Spliterator<E> java.util.Collection.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#add(Object) public abstract boolean
-     * java.util.Collection.add(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#add(Object) public abstract
+     * boolean java.util.Collection.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,9 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#removeIf(Predicate) public default
-     * boolean java.util.Collection.removeIf(java.util.function.Predicate<? super E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Collection#removeIf(java.util.function.Predicate) public default boolean
+     * java.util.Collection.removeIf(java.util.function.Predicate<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#remove(Object) public abstract boolean
-     * java.util.Collection.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#remove(Object) public abstract
+     * boolean java.util.Collection.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +147,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#isEmpty() public abstract boolean
-     * java.util.Collection.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#isEmpty() public abstract
+     * boolean java.util.Collection.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +169,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#clear() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#clear() public abstract void
      * java.util.Collection.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,8 +191,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#equals(Object) public abstract boolean
-     * java.util.Collection.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#equals(Object) public abstract
+     * boolean java.util.Collection.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,7 +213,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#hashCode() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#hashCode() public abstract int
      * java.util.Collection.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -234,7 +235,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#stream() public default
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#stream() public default
      * java.util.stream.Stream<E> java.util.Collection.stream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -256,8 +257,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#addAll(Collection) public abstract
-     * boolean java.util.Collection.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#addAll(java.util.Collection)
+     * public abstract boolean java.util.Collection.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,7 +279,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#size() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#size() public abstract int
      * java.util.Collection.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -300,8 +301,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#removeAll(Collection) public abstract
-     * boolean java.util.Collection.removeAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#removeAll(java.util.Collection)
+     * public abstract boolean java.util.Collection.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -322,7 +323,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#iterator() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#iterator() public abstract
      * java.util.Iterator<E> java.util.Collection.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,8 +346,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#contains(Object) public abstract boolean
-     * java.util.Collection.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#contains(Object) public
+     * abstract boolean java.util.Collection.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,8 +368,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#retainAll(Collection) public abstract
-     * boolean java.util.Collection.retainAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#retainAll(java.util.Collection)
+     * public abstract boolean java.util.Collection.retainAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -389,7 +390,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#parallelStream() public default
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#parallelStream() public default
      * java.util.stream.Stream<E> java.util.Collection.parallelStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -411,7 +412,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#toArray() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#toArray() public abstract
      * java.lang.Object[] java.util.Collection.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -433,8 +434,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collection#toArray(Object[]) public abstract <T> T[]
-     * java.util.Collection.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Collection#toArray(Object[]) public
+     * abstract <T> T[] java.util.Collection.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.activation;
 
-import java.io.File;
 import javax.activation.FileDataSource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.activation.FileDataSourceClassTests<FileD
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileDataSource#FileDataSource(File) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.FileDataSource#FileDataSource(java.io.File) public
      * javax.activation.FileDataSource(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,12 +39,13 @@ implements org.j8unit.repository.javax.activation.FileDataSourceClassTests<FileD
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileDataSource sut = null; // = new FileDataSource(File);
+        final FileDataSource sut = null; // = new FileDataSource(java.io.File);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileDataSource#FileDataSource(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.FileDataSource#FileDataSource(String) public
      * javax.activation.FileDataSource(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

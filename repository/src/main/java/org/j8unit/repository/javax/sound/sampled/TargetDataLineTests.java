@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.sampled;
 
-import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.TargetDataLine;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TargetDataLine#read(byte[], int, int) public
-     * abstract int javax.sound.sampled.TargetDataLine.read(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.TargetDataLine#read(byte[], int, int) public abstract int
+     * javax.sound.sampled.TargetDataLine.read(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TargetDataLine#open(AudioFormat, int) public
-     * abstract void javax.sound.sampled.TargetDataLine.open(javax.sound.sampled.AudioFormat,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.TargetDataLine#open(javax.sound.sampled.AudioFormat, int) public abstract void
+     * javax.sound.sampled.TargetDataLine.open(javax.sound.sampled.AudioFormat,int) throws
      * javax.sound.sampled.LineUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +81,9 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TargetDataLine#open(AudioFormat) public abstract
-     * void javax.sound.sampled.TargetDataLine.open(javax.sound.sampled.AudioFormat) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.TargetDataLine#open(javax.sound.sampled.AudioFormat) public abstract void
+     * javax.sound.sampled.TargetDataLine.open(javax.sound.sampled.AudioFormat) throws
      * javax.sound.sampled.LineUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

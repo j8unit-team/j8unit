@@ -1,12 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Font;
-import java.awt.Image;
-import java.util.Dictionary;
-import javax.swing.BoundedRangeModel;
 import javax.swing.JSlider;
-import javax.swing.event.ChangeListener;
-import javax.swing.plaf.SliderUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,7 +35,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setValue(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setValue(int) public void
      * javax.swing.JSlider.setValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,8 +57,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setValueIsAdjusting(boolean) public void
-     * javax.swing.JSlider.setValueIsAdjusting(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setValueIsAdjusting(boolean)
+     * public void javax.swing.JSlider.setValueIsAdjusting(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,30 +79,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setUI(SliderUI) public void
-     * javax.swing.JSlider.setUI(javax.swing.plaf.SliderUI)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUI_SliderUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#removeChangeListener(ChangeListener) public
-     * void javax.swing.JSlider.removeChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JSlider#removeChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.JSlider.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,7 +102,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getPaintTicks() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setUI(javax.swing.plaf.SliderUI)
+     * public void javax.swing.JSlider.setUI(javax.swing.plaf.SliderUI)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUI_SliderUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getPaintTicks() public boolean
      * javax.swing.JSlider.getPaintTicks()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +146,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setMajorTickSpacing(int) public void
-     * javax.swing.JSlider.setMajorTickSpacing(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setMajorTickSpacing(int) public
+     * void javax.swing.JSlider.setMajorTickSpacing(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +168,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getUI() public javax.swing.plaf.SliderUI
-     * javax.swing.JSlider.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getUI() public
+     * javax.swing.plaf.SliderUI javax.swing.JSlider.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +190,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setSnapToTicks(boolean) public void
-     * javax.swing.JSlider.setSnapToTicks(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setSnapToTicks(boolean) public
+     * void javax.swing.JSlider.setSnapToTicks(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,7 +212,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getValue() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getValue() public int
      * javax.swing.JSlider.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -239,7 +234,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setMinimum(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setMinimum(int) public void
      * javax.swing.JSlider.setMinimum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,8 +256,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getValueIsAdjusting() public boolean
-     * javax.swing.JSlider.getValueIsAdjusting()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getValueIsAdjusting() public
+     * boolean javax.swing.JSlider.getValueIsAdjusting()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -283,8 +278,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setPaintTicks(boolean) public void
-     * javax.swing.JSlider.setPaintTicks(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setPaintTicks(boolean) public
+     * void javax.swing.JSlider.setPaintTicks(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -305,8 +300,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getLabelTable() public java.util.Dictionary
-     * javax.swing.JSlider.getLabelTable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getLabelTable() public
+     * java.util.Dictionary javax.swing.JSlider.getLabelTable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,7 +322,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setModel(BoundedRangeModel) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JSlider#setModel(javax.swing.BoundedRangeModel) public void
      * javax.swing.JSlider.setModel(javax.swing.BoundedRangeModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,7 +345,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getChangeListeners() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getChangeListeners() public
      * javax.swing.event.ChangeListener[] javax.swing.JSlider.getChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -371,7 +367,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getModel() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getModel() public
      * javax.swing.BoundedRangeModel javax.swing.JSlider.getModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -393,7 +389,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getPaintTrack() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getPaintTrack() public boolean
      * javax.swing.JSlider.getPaintTrack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -415,7 +411,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setOrientation(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setOrientation(int) public void
      * javax.swing.JSlider.setOrientation(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -437,7 +433,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getExtent() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getExtent() public int
      * javax.swing.JSlider.getExtent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -459,7 +455,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JSlider.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -482,7 +478,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getInverted() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getInverted() public boolean
      * javax.swing.JSlider.getInverted()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -504,7 +500,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#createStandardLabels(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#createStandardLabels(int, int)
+     * public java.util.Hashtable javax.swing.JSlider.createStandardLabels(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createStandardLabels_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#createStandardLabels(int) public
      * java.util.Hashtable javax.swing.JSlider.createStandardLabels(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -526,29 +544,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#createStandardLabels(int, int) public
-     * java.util.Hashtable javax.swing.JSlider.createStandardLabels(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createStandardLabels_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getPaintLabels() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getPaintLabels() public boolean
      * javax.swing.JSlider.getPaintLabels()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -570,7 +566,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getMinorTickSpacing() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getMinorTickSpacing() public int
      * javax.swing.JSlider.getMinorTickSpacing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -592,7 +588,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getOrientation() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getOrientation() public int
      * javax.swing.JSlider.getOrientation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -614,8 +610,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#imageUpdate(Image, int, int, int, int, int)
-     * public boolean javax.swing.JSlider.imageUpdate(java.awt.Image,int,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JSlider#imageUpdate(java.awt.Image, int, int, int, int, int) public boolean
+     * javax.swing.JSlider.imageUpdate(java.awt.Image,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -637,8 +634,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setMinorTickSpacing(int) public void
-     * javax.swing.JSlider.setMinorTickSpacing(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setMinorTickSpacing(int) public
+     * void javax.swing.JSlider.setMinorTickSpacing(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -659,30 +656,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setExtent(int) public void
-     * javax.swing.JSlider.setExtent(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setExtent_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setFont(Font) public void
-     * javax.swing.JSlider.setFont(java.awt.Font)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setFont(java.awt.Font) public
+     * void javax.swing.JSlider.setFont(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -704,7 +679,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getMinimum() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setExtent(int) public void
+     * javax.swing.JSlider.setExtent(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setExtent_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getMinimum() public int
      * javax.swing.JSlider.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -726,7 +723,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setMaximum(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setMaximum(int) public void
      * javax.swing.JSlider.setMaximum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -748,7 +745,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getSnapToTicks() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getSnapToTicks() public boolean
      * javax.swing.JSlider.getSnapToTicks()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -770,8 +767,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setPaintLabels(boolean) public void
-     * javax.swing.JSlider.setPaintLabels(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setPaintLabels(boolean) public
+     * void javax.swing.JSlider.setPaintLabels(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -792,7 +789,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getMajorTickSpacing() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getMajorTickSpacing() public int
      * javax.swing.JSlider.getMajorTickSpacing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -814,8 +811,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#addChangeListener(ChangeListener) public
-     * void javax.swing.JSlider.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JSlider#addChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.JSlider.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -836,7 +834,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setLabelTable(Dictionary) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JSlider#setLabelTable(java.util.Dictionary) public void
      * javax.swing.JSlider.setLabelTable(java.util.Dictionary)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -858,7 +857,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getMaximum() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getMaximum() public int
      * javax.swing.JSlider.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -880,8 +879,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#getUIClassID() public java.lang.String
-     * javax.swing.JSlider.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#getUIClassID() public
+     * java.lang.String javax.swing.JSlider.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -903,8 +902,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setPaintTrack(boolean) public void
-     * javax.swing.JSlider.setPaintTrack(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setPaintTrack(boolean) public
+     * void javax.swing.JSlider.setPaintTrack(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -925,7 +924,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#setInverted(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#setInverted(boolean) public void
      * javax.swing.JSlider.setInverted(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -947,7 +946,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JSlider#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSlider#updateUI() public void
      * javax.swing.JSlider.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,8 +21,9 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectAlready
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectAlreadyActive#ObjectAlreadyActive()
-     * public org.omg.PortableServer.POAPackage.ObjectAlreadyActive()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActive#ObjectAlreadyActive() public
+     * org.omg.PortableServer.POAPackage.ObjectAlreadyActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectAlready
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectAlreadyActive#ObjectAlreadyActive(String)
-     * public org.omg.PortableServer.POAPackage.ObjectAlreadyActive(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActive#ObjectAlreadyActive(String) public
+     * org.omg.PortableServer.POAPackage.ObjectAlreadyActive(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

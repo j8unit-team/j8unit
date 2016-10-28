@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryMXBean#getObjectPendingFinalizationCount()
-     * public abstract int java.lang.management.MemoryMXBean.getObjectPendingFinalizationCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MemoryMXBean#getObjectPendingFinalizationCount() public abstract int
+     * java.lang.management.MemoryMXBean.getObjectPendingFinalizationCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryMXBean#isVerbose() public abstract boolean
-     * java.lang.management.MemoryMXBean.isVerbose()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.MemoryMXBean#isVerbose() public
+     * abstract boolean java.lang.management.MemoryMXBean.isVerbose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryMXBean#getNonHeapMemoryUsage() public abstract
-     * java.lang.management.MemoryUsage java.lang.management.MemoryMXBean.getNonHeapMemoryUsage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MemoryMXBean#getNonHeapMemoryUsage() public abstract java.lang.management.MemoryUsage
+     * java.lang.management.MemoryMXBean.getNonHeapMemoryUsage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +102,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryMXBean#setVerbose(boolean) public abstract
-     * void java.lang.management.MemoryMXBean.setVerbose(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MemoryMXBean#setVerbose(boolean) public abstract void
+     * java.lang.management.MemoryMXBean.setVerbose(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +125,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryMXBean#gc() public abstract void
-     * java.lang.management.MemoryMXBean.gc()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.MemoryMXBean#gc() public
+     * abstract void java.lang.management.MemoryMXBean.gc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +147,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryMXBean#getHeapMemoryUsage() public abstract
-     * java.lang.management.MemoryUsage java.lang.management.MemoryMXBean.getHeapMemoryUsage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MemoryMXBean#getHeapMemoryUsage() public abstract java.lang.management.MemoryUsage
+     * java.lang.management.MemoryMXBean.getHeapMemoryUsage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

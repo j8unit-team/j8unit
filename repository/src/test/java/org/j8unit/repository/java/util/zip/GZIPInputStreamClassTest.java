@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.io.InputStream;
 import java.util.zip.GZIPInputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.util.zip.GZIPInputStreamClassTests<GZIPInp
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GZIPInputStream#GZIPInputStream(InputStream)
-     * public java.util.zip.GZIPInputStream(java.io.InputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.GZIPInputStream#GZIPInputStream(java.io.InputStream) public
+     * java.util.zip.GZIPInputStream(java.io.InputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +39,13 @@ implements org.j8unit.repository.java.util.zip.GZIPInputStreamClassTests<GZIPInp
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GZIPInputStream sut = null; // = new GZIPInputStream(InputStream);
+        final GZIPInputStream sut = null; // = new GZIPInputStream(java.io.InputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GZIPInputStream#GZIPInputStream(InputStream, int) public
+     * {@link java.util.zip.GZIPInputStream#GZIPInputStream(java.io.InputStream, int) public
      * java.util.zip.GZIPInputStream(java.io.InputStream,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.java.util.zip.GZIPInputStreamClassTests<GZIPInp
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GZIPInputStream sut = null; // = new GZIPInputStream(InputStream, int);
+        final GZIPInputStream sut = null; // = new GZIPInputStream(java.io.InputStream, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.GZIPInputStream]

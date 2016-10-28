@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.util.prefs;
 
-import java.io.OutputStream;
-import java.util.prefs.NodeChangeListener;
-import java.util.prefs.PreferenceChangeListener;
 import java.util.prefs.Preferences;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#putByteArray(String, byte[]) public
-     * abstract void java.util.prefs.Preferences.putByteArray(java.lang.String,byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#putByteArray(String, byte[]) public abstract void
+     * java.util.prefs.Preferences.putByteArray(java.lang.String,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#nodeExists(String) public abstract
-     * boolean java.util.prefs.Preferences.nodeExists(java.lang.String) throws java.util.prefs.BackingStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#nodeExists(String)
+     * public abstract boolean java.util.prefs.Preferences.nodeExists(java.lang.String) throws
+     * java.util.prefs.BackingStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Preferences#removePreferenceChangeListener(PreferenceChangeListener) public abstract void
+     * {@link java.util.prefs.Preferences#removePreferenceChangeListener(java.util.prefs.PreferenceChangeListener)
+     * public abstract void
      * java.util.prefs.Preferences.removePreferenceChangeListener(java.util.prefs.PreferenceChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +104,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#childrenNames() public abstract
-     * java.lang.String[] java.util.prefs.Preferences.childrenNames() throws java.util.prefs.BackingStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#childrenNames() public
+     * abstract java.lang.String[] java.util.prefs.Preferences.childrenNames() throws
+     * java.util.prefs.BackingStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +127,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#sync() public abstract void
-     * java.util.prefs.Preferences.sync() throws java.util.prefs.BackingStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#sync() public abstract
+     * void java.util.prefs.Preferences.sync() throws java.util.prefs.BackingStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +149,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#clear() public abstract void
-     * java.util.prefs.Preferences.clear() throws java.util.prefs.BackingStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#clear() public abstract
+     * void java.util.prefs.Preferences.clear() throws java.util.prefs.BackingStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +171,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#isUserNode() public abstract boolean
-     * java.util.prefs.Preferences.isUserNode()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#isUserNode() public
+     * abstract boolean java.util.prefs.Preferences.isUserNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +193,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#putInt(String, int) public abstract void
-     * java.util.prefs.Preferences.putInt(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#putInt(String, int)
+     * public abstract void java.util.prefs.Preferences.putInt(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +215,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#exportNode(OutputStream) public abstract
-     * void java.util.prefs.Preferences.exportNode(java.io.OutputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#exportNode(java.io.OutputStream) public abstract void
+     * java.util.prefs.Preferences.exportNode(java.io.OutputStream) throws
      * java.io.IOException,java.util.prefs.BackingStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,8 +240,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Preferences#addPreferenceChangeListener(PreferenceChangeListener) public abstract void
-     * java.util.prefs.Preferences.addPreferenceChangeListener(java.util.prefs.PreferenceChangeListener)}.
+     * {@link java.util.prefs.Preferences#addPreferenceChangeListener(java.util.prefs.PreferenceChangeListener) public
+     * abstract void java.util.prefs.Preferences.addPreferenceChangeListener(java.util.prefs.PreferenceChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,8 +262,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#toString() public abstract
-     * java.lang.String java.util.prefs.Preferences.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#toString() public
+     * abstract java.lang.String java.util.prefs.Preferences.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -283,8 +285,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#getByteArray(String, byte[]) public
-     * abstract byte[] java.util.prefs.Preferences.getByteArray(java.lang.String,byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#getByteArray(String, byte[]) public abstract byte[]
+     * java.util.prefs.Preferences.getByteArray(java.lang.String,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -306,7 +309,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Preferences#addNodeChangeListener(NodeChangeListener) public abstract void
+     * {@link java.util.prefs.Preferences#addNodeChangeListener(java.util.prefs.NodeChangeListener) public abstract void
      * java.util.prefs.Preferences.addNodeChangeListener(java.util.prefs.NodeChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -328,8 +331,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#name() public abstract java.lang.String
-     * java.util.prefs.Preferences.name()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#name() public abstract
+     * java.lang.String java.util.prefs.Preferences.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -351,8 +354,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Preferences#removeNodeChangeListener(NodeChangeListener) public abstract void
-     * java.util.prefs.Preferences.removeNodeChangeListener(java.util.prefs.NodeChangeListener)}.
+     * {@link java.util.prefs.Preferences#removeNodeChangeListener(java.util.prefs.NodeChangeListener) public abstract
+     * void java.util.prefs.Preferences.removeNodeChangeListener(java.util.prefs.NodeChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -373,8 +376,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#node(String) public abstract
-     * java.util.prefs.Preferences java.util.prefs.Preferences.node(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#node(String) public
+     * abstract java.util.prefs.Preferences java.util.prefs.Preferences.node(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -395,8 +398,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#putFloat(String, float) public abstract
-     * void java.util.prefs.Preferences.putFloat(java.lang.String,float)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#putFloat(String, float)
+     * public abstract void java.util.prefs.Preferences.putFloat(java.lang.String,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -417,8 +420,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#getInt(String, int) public abstract int
-     * java.util.prefs.Preferences.getInt(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#getInt(String, int)
+     * public abstract int java.util.prefs.Preferences.getInt(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -439,8 +442,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#getLong(String, long) public abstract
-     * long java.util.prefs.Preferences.getLong(java.lang.String,long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#getLong(String, long)
+     * public abstract long java.util.prefs.Preferences.getLong(java.lang.String,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -461,8 +464,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#put(String, String) public abstract void
-     * java.util.prefs.Preferences.put(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#put(String, String)
+     * public abstract void java.util.prefs.Preferences.put(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -483,8 +486,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#remove(String) public abstract void
-     * java.util.prefs.Preferences.remove(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#remove(String) public
+     * abstract void java.util.prefs.Preferences.remove(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -505,8 +508,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#exportSubtree(OutputStream) public
-     * abstract void java.util.prefs.Preferences.exportSubtree(java.io.OutputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#exportSubtree(java.io.OutputStream) public abstract void
+     * java.util.prefs.Preferences.exportSubtree(java.io.OutputStream) throws
      * java.io.IOException,java.util.prefs.BackingStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -528,8 +532,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#putLong(String, long) public abstract
-     * void java.util.prefs.Preferences.putLong(java.lang.String,long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#putLong(String, long)
+     * public abstract void java.util.prefs.Preferences.putLong(java.lang.String,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -550,8 +554,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#getFloat(String, float) public abstract
-     * float java.util.prefs.Preferences.getFloat(java.lang.String,float)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#getFloat(String, float)
+     * public abstract float java.util.prefs.Preferences.getFloat(java.lang.String,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -572,8 +576,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#putDouble(String, double) public
-     * abstract void java.util.prefs.Preferences.putDouble(java.lang.String,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#putDouble(String, double) public abstract void
+     * java.util.prefs.Preferences.putDouble(java.lang.String,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -594,8 +599,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#getDouble(String, double) public
-     * abstract double java.util.prefs.Preferences.getDouble(java.lang.String,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#getDouble(String, double) public abstract double
+     * java.util.prefs.Preferences.getDouble(java.lang.String,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -616,7 +622,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#keys() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#keys() public abstract
      * java.lang.String[] java.util.prefs.Preferences.keys() throws java.util.prefs.BackingStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -638,7 +644,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#parent() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#parent() public abstract
      * java.util.prefs.Preferences java.util.prefs.Preferences.parent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -660,8 +666,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#removeNode() public abstract void
-     * java.util.prefs.Preferences.removeNode() throws java.util.prefs.BackingStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#removeNode() public
+     * abstract void java.util.prefs.Preferences.removeNode() throws java.util.prefs.BackingStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -682,8 +688,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#putBoolean(String, boolean) public
-     * abstract void java.util.prefs.Preferences.putBoolean(java.lang.String,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#putBoolean(String, boolean) public abstract void
+     * java.util.prefs.Preferences.putBoolean(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -704,8 +711,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#getBoolean(String, boolean) public
-     * abstract boolean java.util.prefs.Preferences.getBoolean(java.lang.String,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#getBoolean(String, boolean) public abstract boolean
+     * java.util.prefs.Preferences.getBoolean(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -726,8 +734,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#absolutePath() public abstract
-     * java.lang.String java.util.prefs.Preferences.absolutePath()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#absolutePath() public
+     * abstract java.lang.String java.util.prefs.Preferences.absolutePath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -748,8 +756,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#get(String, String) public abstract
-     * java.lang.String java.util.prefs.Preferences.get(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#get(String, String)
+     * public abstract java.lang.String java.util.prefs.Preferences.get(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -770,8 +778,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#flush() public abstract void
-     * java.util.prefs.Preferences.flush() throws java.util.prefs.BackingStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#flush() public abstract
+     * void java.util.prefs.Preferences.flush() throws java.util.prefs.BackingStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

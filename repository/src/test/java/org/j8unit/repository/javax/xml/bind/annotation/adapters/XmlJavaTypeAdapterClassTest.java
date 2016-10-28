@@ -35,7 +35,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeA
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link DEFAULT#DEFAULT() public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT#DEFAULT() public
          * javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

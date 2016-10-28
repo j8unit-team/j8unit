@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.security.auth;
 
-import java.security.CodeSource;
 import javax.security.auth.Policy;
-import javax.security.auth.Subject;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#getPermissions(Subject, CodeSource) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.Policy#getPermissions(javax.security.auth.Subject, java.security.CodeSource) public
      * abstract java.security.PermissionCollection
      * javax.security.auth.Policy.getPermissions(javax.security.auth.Subject,java.security.CodeSource)}.
      *
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Policy#refresh() public abstract void
-     * javax.security.auth.Policy.refresh()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.Policy#refresh() public abstract
+     * void javax.security.auth.Policy.refresh()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

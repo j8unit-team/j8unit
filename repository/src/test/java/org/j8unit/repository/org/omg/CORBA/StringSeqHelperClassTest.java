@@ -7,10 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.StringSeqHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class StringSeqHelperClassTest
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperClassTests<StringS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringSeqHelper#StringSeqHelper() public
-     * org.omg.CORBA.StringSeqHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.StringSeqHelper#StringSeqHelper()
+     * public org.omg.CORBA.StringSeqHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +42,9 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperClassTests<StringS
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringSeqHelper#write(OutputStream, String[]) public
-     * static void org.omg.CORBA.StringSeqHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.StringSeqHelper#write(org.omg.CORBA.portable.OutputStream, String[]) public static void
+     * org.omg.CORBA.StringSeqHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,13 +58,14 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperClassTests<StringS
     @Category(Draft.class)
     public void test_write_OutputStream_StringArray()
     throws Exception {
-        // write some test for {@link StringSeqHelper#write(OutputStream, String[])}
+        // write some test for {@link org.omg.CORBA.StringSeqHelper#write(org.omg.CORBA.portable.OutputStream,
+        // String[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringSeqHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.StringSeqHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.StringSeqHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.StringSeqHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +79,13 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperClassTests<StringS
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link StringSeqHelper#type()}
+        // write some test for {@link org.omg.CORBA.StringSeqHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringSeqHelper#id() public static java.lang.String
-     * org.omg.CORBA.StringSeqHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.StringSeqHelper#id() public static
+     * java.lang.String org.omg.CORBA.StringSeqHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +99,14 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperClassTests<StringS
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link StringSeqHelper#id()}
+        // write some test for {@link org.omg.CORBA.StringSeqHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringSeqHelper#insert(Any, String[]) public static
-     * void org.omg.CORBA.StringSeqHelper.insert(org.omg.CORBA.Any,java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.StringSeqHelper#insert(org.omg.CORBA.Any, String[]) public static void
+     * org.omg.CORBA.StringSeqHelper.insert(org.omg.CORBA.Any,java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +120,14 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperClassTests<StringS
     @Category(Draft.class)
     public void test_insert_Any_StringArray()
     throws Exception {
-        // write some test for {@link StringSeqHelper#insert(Any, String[])}
+        // write some test for {@link org.omg.CORBA.StringSeqHelper#insert(org.omg.CORBA.Any, String[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringSeqHelper#read(InputStream) public static
-     * java.lang.String[] org.omg.CORBA.StringSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.StringSeqHelper#read(org.omg.CORBA.portable.InputStream) public static java.lang.String[]
+     * org.omg.CORBA.StringSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,13 +141,14 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperClassTests<StringS
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link StringSeqHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.StringSeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringSeqHelper#extract(Any) public static
-     * java.lang.String[] org.omg.CORBA.StringSeqHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.StringSeqHelper#extract(org.omg.CORBA.Any) public static java.lang.String[]
+     * org.omg.CORBA.StringSeqHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,7 +162,7 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperClassTests<StringS
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link StringSeqHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.StringSeqHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.StringSeqHelper]

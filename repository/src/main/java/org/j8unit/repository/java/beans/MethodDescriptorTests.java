@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodDescriptor#getMethod() public synchronized
-     * java.lang.reflect.Method java.beans.MethodDescriptor.getMethod()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.MethodDescriptor#getMethod() public
+     * synchronized java.lang.reflect.Method java.beans.MethodDescriptor.getMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodDescriptor#getParameterDescriptors() public
-     * java.beans.ParameterDescriptor[] java.beans.MethodDescriptor.getParameterDescriptors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.MethodDescriptor#getParameterDescriptors() public java.beans.ParameterDescriptor[]
+     * java.beans.MethodDescriptor.getParameterDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

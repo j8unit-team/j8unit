@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Paint;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +35,8 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Paint#createContext(ColorModel, Rectangle, Rectangle2D, AffineTransform, RenderingHints) public abstract
-     * java.awt.PaintContext
+     * {@link java.awt.Paint#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
+     * public abstract java.awt.PaintContext
      * java.awt.Paint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
      * .
      *

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowListener#windowClosing(WindowEvent) public
-     * abstract void java.awt.event.WindowListener.windowClosing(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowListener#windowClosing(java.awt.event.WindowEvent) public abstract void
+     * java.awt.event.WindowListener.windowClosing(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowListener#windowActivated(WindowEvent) public
-     * abstract void java.awt.event.WindowListener.windowActivated(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowListener#windowActivated(java.awt.event.WindowEvent) public abstract void
+     * java.awt.event.WindowListener.windowActivated(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowListener#windowDeiconified(WindowEvent) public
-     * abstract void java.awt.event.WindowListener.windowDeiconified(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowListener#windowDeiconified(java.awt.event.WindowEvent) public abstract void
+     * java.awt.event.WindowListener.windowDeiconified(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowListener#windowClosed(WindowEvent) public
-     * abstract void java.awt.event.WindowListener.windowClosed(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowListener#windowClosed(java.awt.event.WindowEvent) public abstract void
+     * java.awt.event.WindowListener.windowClosed(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +126,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowListener#windowDeactivated(WindowEvent) public
-     * abstract void java.awt.event.WindowListener.windowDeactivated(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowListener#windowDeactivated(java.awt.event.WindowEvent) public abstract void
+     * java.awt.event.WindowListener.windowDeactivated(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +149,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowListener#windowOpened(WindowEvent) public
-     * abstract void java.awt.event.WindowListener.windowOpened(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowListener#windowOpened(java.awt.event.WindowEvent) public abstract void
+     * java.awt.event.WindowListener.windowOpened(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +172,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowListener#windowIconified(WindowEvent) public
-     * abstract void java.awt.event.WindowListener.windowIconified(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowListener#windowIconified(java.awt.event.WindowEvent) public abstract void
+     * java.awt.event.WindowListener.windowIconified(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.RasterFormatExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RasterFormatException#RasterFormatException(String) public
+     * {@link java.awt.image.RasterFormatException#RasterFormatException(String) public
      * java.awt.image.RasterFormatException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

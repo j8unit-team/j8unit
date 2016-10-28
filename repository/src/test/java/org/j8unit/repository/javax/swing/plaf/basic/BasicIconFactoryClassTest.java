@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicIconFactory#BasicIconFactory() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicIconFactory#BasicIconFactory() public
      * javax.swing.plaf.basic.BasicIconFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +43,9 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicIconFactory#getMenuItemCheckIcon() public
-     * static javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getMenuItemCheckIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicIconFactory#getMenuItemCheckIcon() public static javax.swing.Icon
+     * javax.swing.plaf.basic.BasicIconFactory.getMenuItemCheckIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +59,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
     @Category(Draft.class)
     public void test_getMenuItemCheckIcon()
     throws Exception {
-        // write some test for {@link BasicIconFactory#getMenuItemCheckIcon()}
+        // write some test for {@link javax.swing.plaf.basic.BasicIconFactory#getMenuItemCheckIcon()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicIconFactory#getCheckBoxIcon() public static
-     * javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getCheckBoxIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicIconFactory#getCheckBoxIcon() public static javax.swing.Icon
+     * javax.swing.plaf.basic.BasicIconFactory.getCheckBoxIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,13 +80,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
     @Category(Draft.class)
     public void test_getCheckBoxIcon()
     throws Exception {
-        // write some test for {@link BasicIconFactory#getCheckBoxIcon()}
+        // write some test for {@link javax.swing.plaf.basic.BasicIconFactory#getCheckBoxIcon()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicIconFactory#getCheckBoxMenuItemIcon() public
-     * static javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getCheckBoxMenuItemIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicIconFactory#getCheckBoxMenuItemIcon() public static javax.swing.Icon
+     * javax.swing.plaf.basic.BasicIconFactory.getCheckBoxMenuItemIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -97,13 +101,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
     @Category(Draft.class)
     public void test_getCheckBoxMenuItemIcon()
     throws Exception {
-        // write some test for {@link BasicIconFactory#getCheckBoxMenuItemIcon()}
+        // write some test for {@link javax.swing.plaf.basic.BasicIconFactory#getCheckBoxMenuItemIcon()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicIconFactory#getRadioButtonIcon() public static
-     * javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getRadioButtonIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicIconFactory#getRadioButtonIcon() public static javax.swing.Icon
+     * javax.swing.plaf.basic.BasicIconFactory.getRadioButtonIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,13 +122,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
     @Category(Draft.class)
     public void test_getRadioButtonIcon()
     throws Exception {
-        // write some test for {@link BasicIconFactory#getRadioButtonIcon()}
+        // write some test for {@link javax.swing.plaf.basic.BasicIconFactory#getRadioButtonIcon()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicIconFactory#getMenuItemArrowIcon() public
-     * static javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getMenuItemArrowIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicIconFactory#getMenuItemArrowIcon() public static javax.swing.Icon
+     * javax.swing.plaf.basic.BasicIconFactory.getMenuItemArrowIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,13 +143,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
     @Category(Draft.class)
     public void test_getMenuItemArrowIcon()
     throws Exception {
-        // write some test for {@link BasicIconFactory#getMenuItemArrowIcon()}
+        // write some test for {@link javax.swing.plaf.basic.BasicIconFactory#getMenuItemArrowIcon()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicIconFactory#createEmptyFrameIcon() public
-     * static javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.createEmptyFrameIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicIconFactory#createEmptyFrameIcon() public static javax.swing.Icon
+     * javax.swing.plaf.basic.BasicIconFactory.createEmptyFrameIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,13 +164,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
     @Category(Draft.class)
     public void test_createEmptyFrameIcon()
     throws Exception {
-        // write some test for {@link BasicIconFactory#createEmptyFrameIcon()}
+        // write some test for {@link javax.swing.plaf.basic.BasicIconFactory#createEmptyFrameIcon()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicIconFactory#getRadioButtonMenuItemIcon() public
-     * static javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getRadioButtonMenuItemIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicIconFactory#getRadioButtonMenuItemIcon() public static javax.swing.Icon
+     * javax.swing.plaf.basic.BasicIconFactory.getRadioButtonMenuItemIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,13 +185,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
     @Category(Draft.class)
     public void test_getRadioButtonMenuItemIcon()
     throws Exception {
-        // write some test for {@link BasicIconFactory#getRadioButtonMenuItemIcon()}
+        // write some test for {@link javax.swing.plaf.basic.BasicIconFactory#getRadioButtonMenuItemIcon()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicIconFactory#getMenuArrowIcon() public static
-     * javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getMenuArrowIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicIconFactory#getMenuArrowIcon() public static javax.swing.Icon
+     * javax.swing.plaf.basic.BasicIconFactory.getMenuArrowIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,7 +206,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
     @Category(Draft.class)
     public void test_getMenuArrowIcon()
     throws Exception {
-        // write some test for {@link BasicIconFactory#getMenuArrowIcon()}
+        // write some test for {@link javax.swing.plaf.basic.BasicIconFactory#getMenuArrowIcon()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicIconFactory]

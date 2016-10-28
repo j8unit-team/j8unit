@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#read(CharBuffer) public int
-     * java.nio.CharBuffer.read(java.nio.CharBuffer) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#read(java.nio.CharBuffer) public
+     * int java.nio.CharBuffer.read(java.nio.CharBuffer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#hasArray() public final boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#hasArray() public final boolean
      * java.nio.CharBuffer.hasArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +81,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#length() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#length() public final int
      * java.nio.CharBuffer.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +104,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#duplicate() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#duplicate() public abstract
      * java.nio.CharBuffer java.nio.CharBuffer.duplicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#subSequence(int, int) public abstract
-     * java.nio.CharBuffer java.nio.CharBuffer.subSequence(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#subSequence(int, int) public
+     * abstract java.nio.CharBuffer java.nio.CharBuffer.subSequence(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +149,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#equals(Object) public boolean
      * java.nio.CharBuffer.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,8 +172,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#isDirect() public abstract boolean
-     * java.nio.CharBuffer.isDirect()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#isDirect() public abstract
+     * boolean java.nio.CharBuffer.isDirect()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +195,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#chars() public java.util.stream.IntStream
-     * java.nio.CharBuffer.chars()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#chars() public
+     * java.util.stream.IntStream java.nio.CharBuffer.chars()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,7 +218,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#charAt(int) public final char
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#charAt(int) public final char
      * java.nio.CharBuffer.charAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,8 +241,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#append(CharSequence, int, int) public
-     * java.nio.CharBuffer java.nio.CharBuffer.append(java.lang.CharSequence,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#append(CharSequence, int, int)
+     * public java.nio.CharBuffer java.nio.CharBuffer.append(java.lang.CharSequence,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -264,7 +264,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#append(CharSequence) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#append(CharSequence) public
      * java.nio.CharBuffer java.nio.CharBuffer.append(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -287,8 +287,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#append(char) public java.nio.CharBuffer
-     * java.nio.CharBuffer.append(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#append(char) public
+     * java.nio.CharBuffer java.nio.CharBuffer.append(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,8 +310,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#toString() public java.lang.String
-     * java.nio.CharBuffer.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#toString() public
+     * java.lang.String java.nio.CharBuffer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,7 +333,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#compact() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#compact() public abstract
      * java.nio.CharBuffer java.nio.CharBuffer.compact()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -355,51 +355,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#put(String) public final
-     * java.nio.CharBuffer java.nio.CharBuffer.put(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#asReadOnlyBuffer() public abstract
-     * java.nio.CharBuffer java.nio.CharBuffer.asReadOnlyBuffer()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_asReadOnlyBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#put(char[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#put(char[], int, int) public
      * java.nio.CharBuffer java.nio.CharBuffer.put(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -421,7 +377,51 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#put(String, int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#asReadOnlyBuffer() public
+     * abstract java.nio.CharBuffer java.nio.CharBuffer.asReadOnlyBuffer()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_asReadOnlyBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#put(String) public final
+     * java.nio.CharBuffer java.nio.CharBuffer.put(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#put(String, int, int) public
      * java.nio.CharBuffer java.nio.CharBuffer.put(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -443,7 +443,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#put(char[]) public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#put(char[]) public final
      * java.nio.CharBuffer java.nio.CharBuffer.put(char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -465,7 +465,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#put(CharBuffer) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#put(java.nio.CharBuffer) public
      * java.nio.CharBuffer java.nio.CharBuffer.put(java.nio.CharBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -487,7 +487,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#put(int, char) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#put(int, char) public abstract
      * java.nio.CharBuffer java.nio.CharBuffer.put(int,char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -509,7 +509,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#put(char) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#put(char) public abstract
      * java.nio.CharBuffer java.nio.CharBuffer.put(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -531,8 +531,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#compareTo(CharBuffer) public int
-     * java.nio.CharBuffer.compareTo(java.nio.CharBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#compareTo(java.nio.CharBuffer)
+     * public int java.nio.CharBuffer.compareTo(java.nio.CharBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -553,7 +553,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#slice() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#slice() public abstract
      * java.nio.CharBuffer java.nio.CharBuffer.slice()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -575,7 +575,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#array() public final char[]
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#array() public final char[]
      * java.nio.CharBuffer.array()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -598,8 +598,8 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#get(char[]) public java.nio.CharBuffer
-     * java.nio.CharBuffer.get(char[])}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#get(char[]) public
+     * java.nio.CharBuffer java.nio.CharBuffer.get(char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -620,7 +620,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#get(char[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#get(char[], int, int) public
      * java.nio.CharBuffer java.nio.CharBuffer.get(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -642,7 +642,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#get() public abstract char
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#get() public abstract char
      * java.nio.CharBuffer.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -664,7 +664,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#get(int) public abstract char
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#get(int) public abstract char
      * java.nio.CharBuffer.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -686,7 +686,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#hashCode() public int
      * java.nio.CharBuffer.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -709,7 +709,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#order() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#order() public abstract
      * java.nio.ByteOrder java.nio.CharBuffer.order()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -731,7 +731,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharBuffer#arrayOffset() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.CharBuffer#arrayOffset() public final int
      * java.nio.CharBuffer.arrayOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

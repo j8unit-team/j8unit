@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.geom;
 
 import java.awt.geom.FlatteningPathIterator;
-import java.awt.geom.PathIterator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.geom.FlatteningPathIteratorClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FlatteningPathIterator#FlatteningPathIterator(PathIterator, double) public
+     * {@link java.awt.geom.FlatteningPathIterator#FlatteningPathIterator(java.awt.geom.PathIterator, double) public
      * java.awt.geom.FlatteningPathIterator(java.awt.geom.PathIterator,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,14 +39,14 @@ implements org.j8unit.repository.java.awt.geom.FlatteningPathIteratorClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FlatteningPathIterator sut = null; // = new FlatteningPathIterator(PathIterator, double);
+        final FlatteningPathIterator sut = null; // = new FlatteningPathIterator(java.awt.geom.PathIterator, double);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FlatteningPathIterator#FlatteningPathIterator(PathIterator, double, int) public
-     * java.awt.geom.FlatteningPathIterator(java.awt.geom.PathIterator,double,int)}.
+     * {@link java.awt.geom.FlatteningPathIterator#FlatteningPathIterator(java.awt.geom.PathIterator, double, int)
+     * public java.awt.geom.FlatteningPathIterator(java.awt.geom.PathIterator,double,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +62,8 @@ implements org.j8unit.repository.java.awt.geom.FlatteningPathIteratorClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FlatteningPathIterator sut = null; // = new FlatteningPathIterator(PathIterator, double, int);
+        final FlatteningPathIterator sut = null; // = new FlatteningPathIterator(java.awt.geom.PathIterator, double,
+                                                 // int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.FlatteningPathIterator]

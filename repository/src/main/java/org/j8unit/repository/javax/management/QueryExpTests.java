@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
 import javax.management.QueryExp;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QueryExp#apply(ObjectName) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.QueryExp#apply(javax.management.ObjectName) public abstract boolean
      * javax.management.QueryExp.apply(javax.management.ObjectName) throws
      * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
      * .
@@ -60,8 +59,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QueryExp#setMBeanServer(MBeanServer) public abstract
-     * void javax.management.QueryExp.setMBeanServer(javax.management.MBeanServer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.QueryExp#setMBeanServer(javax.management.MBeanServer) public abstract void
+     * javax.management.QueryExp.setMBeanServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

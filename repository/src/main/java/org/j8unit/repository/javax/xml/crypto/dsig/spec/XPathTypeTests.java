@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathType#getFilter() public
-     * javax.xml.crypto.dsig.spec.XPathType$Filter javax.xml.crypto.dsig.spec.XPathType.getFilter()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.spec.XPathType#getFilter()
+     * public javax.xml.crypto.dsig.spec.XPathType$Filter javax.xml.crypto.dsig.spec.XPathType.getFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathType#getExpression() public java.lang.String
-     * javax.xml.crypto.dsig.spec.XPathType.getExpression()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.spec.XPathType#getExpression()
+     * public java.lang.String javax.xml.crypto.dsig.spec.XPathType.getExpression()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathType#getNamespaceMap() public java.util.Map
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.spec.XPathType#getNamespaceMap() public java.util.Map
      * javax.xml.crypto.dsig.spec.XPathType.getNamespaceMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,7 +129,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Filter#toString() public java.lang.String
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.crypto.dsig.spec.XPathType.Filter#toString() public java.lang.String
          * javax.xml.crypto.dsig.spec.XPathType$Filter.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

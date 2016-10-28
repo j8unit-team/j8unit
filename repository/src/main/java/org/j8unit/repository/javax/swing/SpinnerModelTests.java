@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.SpinnerModel;
-import javax.swing.event.ChangeListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerModel#getNextValue() public abstract
-     * java.lang.Object javax.swing.SpinnerModel.getNextValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerModel#getNextValue() public
+     * abstract java.lang.Object javax.swing.SpinnerModel.getNextValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerModel#addChangeListener(ChangeListener)
-     * public abstract void javax.swing.SpinnerModel.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SpinnerModel#addChangeListener(javax.swing.event.ChangeListener) public abstract void
+     * javax.swing.SpinnerModel.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,30 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerModel#getPreviousValue() public abstract
-     * java.lang.Object javax.swing.SpinnerModel.getPreviousValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPreviousValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerModel#removeChangeListener(ChangeListener)
-     * public abstract void javax.swing.SpinnerModel.removeChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SpinnerModel#removeChangeListener(javax.swing.event.ChangeListener) public abstract void
+     * javax.swing.SpinnerModel.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +103,29 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerModel#getValue() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerModel#getPreviousValue() public
+     * abstract java.lang.Object javax.swing.SpinnerModel.getPreviousValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreviousValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerModel#getValue() public abstract
      * java.lang.Object javax.swing.SpinnerModel.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +147,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerModel#setValue(Object) public abstract void
-     * javax.swing.SpinnerModel.setValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerModel#setValue(Object) public
+     * abstract void javax.swing.SpinnerModel.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
 import javax.swing.text.BoxView;
-import javax.swing.text.Element;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.BoxViewClassTests<BoxView> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BoxView#BoxView(Element, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.BoxView#BoxView(javax.swing.text.Element, int) public
      * javax.swing.text.BoxView(javax.swing.text.Element,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.BoxViewClassTests<BoxView> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BoxView sut = null; // = new BoxView(Element, int);
+        final BoxView sut = null; // = new BoxView(javax.swing.text.Element, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.BoxView]

@@ -235,8 +235,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Subset#toString() public final java.lang.String
-         * java.lang.Character$Subset.toString()}.
+         * Test method for the hereby targeted method-under-test {@link Character.Subset#toString() public final
+         * java.lang.String java.lang.Character$Subset.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -258,7 +258,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Subset#hashCode() public final int
+         * Test method for the hereby targeted method-under-test {@link Character.Subset#hashCode() public final int
          * java.lang.Character$Subset.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,8 +281,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Subset#equals(Object) public final boolean
-         * java.lang.Character$Subset.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link Character.Subset#equals(Object) public final
+         * boolean java.lang.Character$Subset.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

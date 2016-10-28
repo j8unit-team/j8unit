@@ -34,9 +34,9 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncResolver#setResolvedValue(int, Object) public
-     * abstract void javax.sql.rowset.spi.SyncResolver.setResolvedValue(int,java.lang.Object) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.spi.SyncResolver#setResolvedValue(int, Object) public abstract void
+     * javax.sql.rowset.spi.SyncResolver.setResolvedValue(int,java.lang.Object) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncResolver#setResolvedValue(String, Object) public
-     * abstract void javax.sql.rowset.spi.SyncResolver.setResolvedValue(java.lang.String,java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.spi.SyncResolver#setResolvedValue(String, Object) public abstract void
+     * javax.sql.rowset.spi.SyncResolver.setResolvedValue(java.lang.String,java.lang.Object) throws
      * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +81,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncResolver#previousConflict() public abstract
-     * boolean javax.sql.rowset.spi.SyncResolver.previousConflict() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.spi.SyncResolver#previousConflict()
+     * public abstract boolean javax.sql.rowset.spi.SyncResolver.previousConflict() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,9 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncResolver#getConflictValue(int) public abstract
-     * java.lang.Object javax.sql.rowset.spi.SyncResolver.getConflictValue(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.spi.SyncResolver#getConflictValue(int) public abstract java.lang.Object
+     * javax.sql.rowset.spi.SyncResolver.getConflictValue(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,9 +126,9 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncResolver#getConflictValue(String) public
-     * abstract java.lang.Object javax.sql.rowset.spi.SyncResolver.getConflictValue(java.lang.String) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.spi.SyncResolver#getConflictValue(String) public abstract java.lang.Object
+     * javax.sql.rowset.spi.SyncResolver.getConflictValue(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +149,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncResolver#nextConflict() public abstract boolean
-     * javax.sql.rowset.spi.SyncResolver.nextConflict() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.spi.SyncResolver#nextConflict()
+     * public abstract boolean javax.sql.rowset.spi.SyncResolver.nextConflict() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +171,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncResolver#getStatus() public abstract int
-     * javax.sql.rowset.spi.SyncResolver.getStatus()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.spi.SyncResolver#getStatus() public
+     * abstract int javax.sql.rowset.spi.SyncResolver.getStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.MBeanRegistration;
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanRegistration#preDeregister() public abstract
-     * void javax.management.MBeanRegistration.preDeregister() throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanRegistration#preDeregister()
+     * public abstract void javax.management.MBeanRegistration.preDeregister() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanRegistration#postDeregister() public abstract
-     * void javax.management.MBeanRegistration.postDeregister()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanRegistration#postDeregister()
+     * public abstract void javax.management.MBeanRegistration.postDeregister()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +79,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanRegistration#postRegister(Boolean) public
-     * abstract void javax.management.MBeanRegistration.postRegister(java.lang.Boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanRegistration#postRegister(Boolean) public abstract void
+     * javax.management.MBeanRegistration.postRegister(java.lang.Boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +103,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanRegistration#preRegister(MBeanServer, ObjectName) public abstract javax.management.ObjectName
+     * {@link javax.management.MBeanRegistration#preRegister(javax.management.MBeanServer, javax.management.ObjectName)
+     * public abstract javax.management.ObjectName
      * javax.management.MBeanRegistration.preRegister(javax.management.MBeanServer,javax.management.ObjectName) throws
      * java.lang.Exception}.
      *

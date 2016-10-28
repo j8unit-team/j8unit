@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth;
 
-import java.security.ProtectionDomain;
 import javax.security.auth.SubjectDomainCombiner;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.security.DomainCombinerTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SubjectDomainCombiner#combine(ProtectionDomain[], ProtectionDomain[]) public
-     * java.security.ProtectionDomain[]
+     * {@link javax.security.auth.SubjectDomainCombiner#combine(java.security.ProtectionDomain[], java.security.ProtectionDomain[])
+     * public java.security.ProtectionDomain[]
      * javax.security.auth.SubjectDomainCombiner.combine(java.security.ProtectionDomain[],java.security.ProtectionDomain[])}
      * .
      *
@@ -61,8 +60,9 @@ extends org.j8unit.repository.java.security.DomainCombinerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SubjectDomainCombiner#getSubject() public
-     * javax.security.auth.Subject javax.security.auth.SubjectDomainCombiner.getSubject()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.SubjectDomainCombiner#getSubject() public javax.security.auth.Subject
+     * javax.security.auth.SubjectDomainCombiner.getSubject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

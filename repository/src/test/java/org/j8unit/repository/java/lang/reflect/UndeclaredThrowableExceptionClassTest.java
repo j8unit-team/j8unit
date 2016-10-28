@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.reflect.UndeclaredThrowableExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UndeclaredThrowableException#UndeclaredThrowableException(Throwable) public
+     * {@link java.lang.reflect.UndeclaredThrowableException#UndeclaredThrowableException(Throwable) public
      * java.lang.reflect.UndeclaredThrowableException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.lang.reflect.UndeclaredThrowableExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UndeclaredThrowableException#UndeclaredThrowableException(Throwable, String) public
+     * {@link java.lang.reflect.UndeclaredThrowableException#UndeclaredThrowableException(Throwable, String) public
      * java.lang.reflect.UndeclaredThrowableException(java.lang.Throwable,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

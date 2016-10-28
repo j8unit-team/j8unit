@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.DynamicAny.DynAny;
 import org.omg.DynamicAny.NameDynAnyPair;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairClassTests<Nam
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NameDynAnyPair#NameDynAnyPair() public
-     * org.omg.DynamicAny.NameDynAnyPair()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.NameDynAnyPair#NameDynAnyPair() public org.omg.DynamicAny.NameDynAnyPair()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,9 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairClassTests<Nam
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NameDynAnyPair#NameDynAnyPair(String, DynAny)
-     * public org.omg.DynamicAny.NameDynAnyPair(java.lang.String,org.omg.DynamicAny.DynAny)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.NameDynAnyPair#NameDynAnyPair(String, org.omg.DynamicAny.DynAny) public
+     * org.omg.DynamicAny.NameDynAnyPair(java.lang.String,org.omg.DynamicAny.DynAny)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairClassTests<Nam
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NameDynAnyPair sut = null; // = new NameDynAnyPair(String, DynAny);
+        final NameDynAnyPair sut = null; // = new NameDynAnyPair(String, org.omg.DynamicAny.DynAny);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPair]

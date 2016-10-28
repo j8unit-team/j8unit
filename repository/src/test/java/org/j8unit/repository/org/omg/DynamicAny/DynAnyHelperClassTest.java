@@ -7,11 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.DynamicAny.DynAny;
 import org.omg.DynamicAny.DynAnyHelper;
 
 @RunWith(J8Unit4.class)
@@ -27,8 +22,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DynAnyHelper#DynAnyHelper() public
-     * org.omg.DynamicAny.DynAnyHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.DynamicAny.DynAnyHelper#DynAnyHelper()
+     * public org.omg.DynamicAny.DynAnyHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,7 +42,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynAnyHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +58,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link DynAnyHelper#read(InputStream)}
+        // write some test for {@link org.omg.DynamicAny.DynAnyHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynAnyHelper#extract(Any) public static
-     * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyHelper#extract(org.omg.CORBA.Any) public static org.omg.DynamicAny.DynAny
+     * org.omg.DynamicAny.DynAnyHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,14 +79,15 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link DynAnyHelper#extract(Any)}
+        // write some test for {@link org.omg.DynamicAny.DynAnyHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynAnyHelper#write(OutputStream, DynAny) public
-     * static void org.omg.DynamicAny.DynAnyHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynAny)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.DynamicAny.DynAny)
+     * public static void
+     * org.omg.DynamicAny.DynAnyHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynAny)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,13 +101,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
     @Category(Draft.class)
     public void test_write_OutputStream_DynAny()
     throws Exception {
-        // write some test for {@link DynAnyHelper#write(OutputStream, DynAny)}
+        // write some test for {@link org.omg.DynamicAny.DynAnyHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.DynamicAny.DynAny)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynAnyHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.DynamicAny.DynAnyHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynAnyHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.DynamicAny.DynAnyHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,12 +122,13 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link DynAnyHelper#type()}
+        // write some test for {@link org.omg.DynamicAny.DynAnyHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynAnyHelper#unchecked_narrow(Object) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyHelper#unchecked_narrow(org.omg.CORBA.Object) public static
      * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyHelper.unchecked_narrow(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -143,12 +143,13 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
     @Category(Draft.class)
     public void test_unchecked_narrow_Object()
     throws Exception {
-        // write some test for {@link DynAnyHelper#unchecked_narrow(Object)}
+        // write some test for {@link org.omg.DynamicAny.DynAnyHelper#unchecked_narrow(org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynAnyHelper#insert(Any, DynAny) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyHelper#insert(org.omg.CORBA.Any, org.omg.DynamicAny.DynAny) public static void
      * org.omg.DynamicAny.DynAnyHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAny)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -163,13 +164,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
     @Category(Draft.class)
     public void test_insert_Any_DynAny()
     throws Exception {
-        // write some test for {@link DynAnyHelper#insert(Any, DynAny)}
+        // write some test for {@link org.omg.DynamicAny.DynAnyHelper#insert(org.omg.CORBA.Any,
+        // org.omg.DynamicAny.DynAny)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynAnyHelper#id() public static java.lang.String
-     * org.omg.DynamicAny.DynAnyHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynAnyHelper#id() public static
+     * java.lang.String org.omg.DynamicAny.DynAnyHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -183,13 +185,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link DynAnyHelper#id()}
+        // write some test for {@link org.omg.DynamicAny.DynAnyHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynAnyHelper#narrow(Object) public static
-     * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyHelper.narrow(org.omg.CORBA.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyHelper#narrow(org.omg.CORBA.Object) public static org.omg.DynamicAny.DynAny
+     * org.omg.DynamicAny.DynAnyHelper.narrow(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -203,7 +206,7 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperClassTests<DynAn
     @Category(Draft.class)
     public void test_narrow_Object()
     throws Exception {
-        // write some test for {@link DynAnyHelper#narrow(Object)}
+        // write some test for {@link org.omg.DynamicAny.DynAnyHelper#narrow(org.omg.CORBA.Object)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyHelper]

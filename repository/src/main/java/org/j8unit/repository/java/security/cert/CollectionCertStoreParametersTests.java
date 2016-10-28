@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollectionCertStoreParameters#getCollection() public
-     * java.util.Collection<?> java.security.cert.CollectionCertStoreParameters.getCollection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CollectionCertStoreParameters#getCollection() public java.util.Collection
+     * <?> java.security.cert.CollectionCertStoreParameters.getCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollectionCertStoreParameters#clone() public
-     * java.lang.Object java.security.cert.CollectionCertStoreParameters.clone()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CollectionCertStoreParameters#clone() public java.lang.Object
+     * java.security.cert.CollectionCertStoreParameters.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollectionCertStoreParameters#toString() public
-     * java.lang.String java.security.cert.CollectionCertStoreParameters.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CollectionCertStoreParameters#toString() public java.lang.String
+     * java.security.cert.CollectionCertStoreParameters.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getSystemTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getSystemTextFont()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.DefaultMetalTheme#getSystemTextFont() public javax.swing.plaf.FontUIResource
+     * javax.swing.plaf.metal.DefaultMetalTheme.getSystemTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getWindowTitleFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getWindowTitleFont()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.DefaultMetalTheme#getWindowTitleFont() public javax.swing.plaf.FontUIResource
+     * javax.swing.plaf.metal.DefaultMetalTheme.getWindowTitleFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getMenuTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getMenuTextFont()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.DefaultMetalTheme#getMenuTextFont() public javax.swing.plaf.FontUIResource
+     * javax.swing.plaf.metal.DefaultMetalTheme.getMenuTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +106,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getSubTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getSubTextFont()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.DefaultMetalTheme#getSubTextFont() public javax.swing.plaf.FontUIResource
+     * javax.swing.plaf.metal.DefaultMetalTheme.getSubTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +130,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getControlTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getControlTextFont()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.DefaultMetalTheme#getControlTextFont() public javax.swing.plaf.FontUIResource
+     * javax.swing.plaf.metal.DefaultMetalTheme.getControlTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +154,8 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getName() public java.lang.String
-     * javax.swing.plaf.metal.DefaultMetalTheme.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.DefaultMetalTheme#getName()
+     * public java.lang.String javax.swing.plaf.metal.DefaultMetalTheme.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +177,9 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getUserTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getUserTextFont()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.DefaultMetalTheme#getUserTextFont() public javax.swing.plaf.FontUIResource
+     * javax.swing.plaf.metal.DefaultMetalTheme.getUserTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

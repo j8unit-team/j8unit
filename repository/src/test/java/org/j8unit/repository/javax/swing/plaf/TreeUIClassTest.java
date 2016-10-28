@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<TreeUI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeUI#TreeUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.TreeUI#TreeUI() public
      * javax.swing.plaf.TreeUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.xml.transform.stream;
 
-import java.io.File;
-import java.io.InputStream;
-import java.io.Reader;
 import javax.xml.transform.stream.StreamSource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +34,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamSource#setSystemId(File) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamSource#setSystemId(java.io.File) public void
      * javax.xml.transform.stream.StreamSource.setSystemId(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +57,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamSource#setSystemId(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamSource#setSystemId(String) public void
      * javax.xml.transform.stream.StreamSource.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +81,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamSource#setInputStream(InputStream) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamSource#setInputStream(java.io.InputStream) public void
      * javax.xml.transform.stream.StreamSource.setInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +104,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamSource#getReader() public java.io.Reader
-     * javax.xml.transform.stream.StreamSource.getReader()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.stream.StreamSource#getReader()
+     * public java.io.Reader javax.xml.transform.stream.StreamSource.getReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +126,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamSource#setReader(Reader) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamSource#setReader(java.io.Reader) public void
      * javax.xml.transform.stream.StreamSource.setReader(java.io.Reader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +149,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamSource#getSystemId() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamSource#getSystemId() public java.lang.String
      * javax.xml.transform.stream.StreamSource.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +173,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamSource#getPublicId() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamSource#getPublicId() public java.lang.String
      * javax.xml.transform.stream.StreamSource.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,8 +196,9 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamSource#getInputStream() public
-     * java.io.InputStream javax.xml.transform.stream.StreamSource.getInputStream()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamSource#getInputStream() public java.io.InputStream
+     * javax.xml.transform.stream.StreamSource.getInputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,7 +219,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamSource#setPublicId(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stream.StreamSource#setPublicId(String) public void
      * javax.xml.transform.stream.StreamSource.setPublicId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

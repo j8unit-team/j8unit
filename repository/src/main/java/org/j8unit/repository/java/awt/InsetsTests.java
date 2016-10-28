@@ -35,7 +35,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Insets#set(int, int, int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Insets#set(int, int, int, int) public void
      * java.awt.Insets.set(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Insets#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Insets#hashCode() public int
      * java.awt.Insets.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Insets#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Insets#equals(Object) public boolean
      * java.awt.Insets.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Insets#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Insets#toString() public java.lang.String
      * java.awt.Insets.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +126,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Insets#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.awt.Insets#clone() public java.lang.Object
      * java.awt.Insets.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

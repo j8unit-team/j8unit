@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.beans;
 
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.beans.PropertyChangeListener;
 import java.beans.PropertyEditor;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -38,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#getCustomEditor() public abstract
-     * java.awt.Component java.beans.PropertyEditor.getCustomEditor()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.PropertyEditor#getCustomEditor() public
+     * abstract java.awt.Component java.beans.PropertyEditor.getCustomEditor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#getJavaInitializationString() public
-     * abstract java.lang.String java.beans.PropertyEditor.getJavaInitializationString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.PropertyEditor#getJavaInitializationString() public abstract java.lang.String
+     * java.beans.PropertyEditor.getJavaInitializationString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +80,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#getValue() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.beans.PropertyEditor#getValue() public abstract
      * java.lang.Object java.beans.PropertyEditor.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#supportsCustomEditor() public
-     * abstract boolean java.beans.PropertyEditor.supportsCustomEditor()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.PropertyEditor#supportsCustomEditor()
+     * public abstract boolean java.beans.PropertyEditor.supportsCustomEditor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +124,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#paintValue(Graphics, Rectangle)
-     * public abstract void java.beans.PropertyEditor.paintValue(java.awt.Graphics,java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.PropertyEditor#paintValue(java.awt.Graphics, java.awt.Rectangle) public abstract void
+     * java.beans.PropertyEditor.paintValue(java.awt.Graphics,java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +147,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#setValue(Object) public abstract void
-     * java.beans.PropertyEditor.setValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.PropertyEditor#setValue(Object) public
+     * abstract void java.beans.PropertyEditor.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +169,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#getTags() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.beans.PropertyEditor#getTags() public abstract
      * java.lang.String[] java.beans.PropertyEditor.getTags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +191,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#setAsText(String) public abstract
-     * void java.beans.PropertyEditor.setAsText(java.lang.String) throws java.lang.IllegalArgumentException}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.PropertyEditor#setAsText(String) public
+     * abstract void java.beans.PropertyEditor.setAsText(java.lang.String) throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +213,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#getAsText() public abstract
-     * java.lang.String java.beans.PropertyEditor.getAsText()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.PropertyEditor#getAsText() public
+     * abstract java.lang.String java.beans.PropertyEditor.getAsText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +236,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PropertyEditor#removePropertyChangeListener(PropertyChangeListener) public abstract void
-     * java.beans.PropertyEditor.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * {@link java.beans.PropertyEditor#removePropertyChangeListener(java.beans.PropertyChangeListener) public abstract
+     * void java.beans.PropertyEditor.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,8 +259,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PropertyEditor#addPropertyChangeListener(PropertyChangeListener) public abstract void
-     * java.beans.PropertyEditor.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * {@link java.beans.PropertyEditor#addPropertyChangeListener(java.beans.PropertyChangeListener) public abstract
+     * void java.beans.PropertyEditor.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -282,8 +281,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyEditor#isPaintable() public abstract boolean
-     * java.beans.PropertyEditor.isPaintable()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.PropertyEditor#isPaintable() public
+     * abstract boolean java.beans.PropertyEditor.isPaintable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

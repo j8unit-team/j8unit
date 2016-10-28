@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeInfoProvider#isIdAttribute(int) public abstract
-     * boolean javax.xml.validation.TypeInfoProvider.isIdAttribute(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.TypeInfoProvider#isIdAttribute(int) public abstract boolean
+     * javax.xml.validation.TypeInfoProvider.isIdAttribute(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeInfoProvider#isSpecified(int) public abstract
-     * boolean javax.xml.validation.TypeInfoProvider.isSpecified(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.TypeInfoProvider#isSpecified(int) public abstract boolean
+     * javax.xml.validation.TypeInfoProvider.isSpecified(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeInfoProvider#getAttributeTypeInfo(int) public
-     * abstract org.w3c.dom.TypeInfo javax.xml.validation.TypeInfoProvider.getAttributeTypeInfo(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.TypeInfoProvider#getAttributeTypeInfo(int) public abstract org.w3c.dom.TypeInfo
+     * javax.xml.validation.TypeInfoProvider.getAttributeTypeInfo(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeInfoProvider#getElementTypeInfo() public
-     * abstract org.w3c.dom.TypeInfo javax.xml.validation.TypeInfoProvider.getElementTypeInfo()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.TypeInfoProvider#getElementTypeInfo() public abstract org.w3c.dom.TypeInfo
+     * javax.xml.validation.TypeInfoProvider.getElementTypeInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

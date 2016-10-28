@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.nio.channels.ClosedChannelExceptionClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ClosedChannelException#ClosedChannelException()
-     * public java.nio.channels.ClosedChannelException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.nio.channels.ClosedChannelException#ClosedChannelException() public
+     * java.nio.channels.ClosedChannelException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

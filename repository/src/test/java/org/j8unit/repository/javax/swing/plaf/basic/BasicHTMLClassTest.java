@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicHTML;
-import javax.swing.text.View;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests<Basi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicHTML#BasicHTML() public
-     * javax.swing.plaf.basic.BasicHTML()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.basic.BasicHTML#BasicHTML()
+     * public javax.swing.plaf.basic.BasicHTML()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +42,9 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests<Basi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicHTML#getHTMLBaseline(View, int, int) public
-     * static int javax.swing.plaf.basic.BasicHTML.getHTMLBaseline(javax.swing.text.View,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicHTML#getHTMLBaseline(javax.swing.text.View, int, int) public static int
+     * javax.swing.plaf.basic.BasicHTML.getHTMLBaseline(javax.swing.text.View,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,13 +58,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests<Basi
     @Category(Draft.class)
     public void test_getHTMLBaseline_View_int_int()
     throws Exception {
-        // write some test for {@link BasicHTML#getHTMLBaseline(View, int, int)}
+        // write some test for {@link javax.swing.plaf.basic.BasicHTML#getHTMLBaseline(javax.swing.text.View, int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicHTML#updateRenderer(JComponent, String) public
-     * static void javax.swing.plaf.basic.BasicHTML.updateRenderer(javax.swing.JComponent,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicHTML#updateRenderer(javax.swing.JComponent, String) public static void
+     * javax.swing.plaf.basic.BasicHTML.updateRenderer(javax.swing.JComponent,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,14 +79,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests<Basi
     @Category(Draft.class)
     public void test_updateRenderer_JComponent_String()
     throws Exception {
-        // write some test for {@link BasicHTML#updateRenderer(JComponent, String)}
+        // write some test for {@link javax.swing.plaf.basic.BasicHTML#updateRenderer(javax.swing.JComponent, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicHTML#createHTMLView(JComponent, String) public
-     * static javax.swing.text.View
-     * javax.swing.plaf.basic.BasicHTML.createHTMLView(javax.swing.JComponent,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicHTML#createHTMLView(javax.swing.JComponent, String) public static
+     * javax.swing.text.View javax.swing.plaf.basic.BasicHTML.createHTMLView(javax.swing.JComponent,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,12 +100,13 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests<Basi
     @Category(Draft.class)
     public void test_createHTMLView_JComponent_String()
     throws Exception {
-        // write some test for {@link BasicHTML#createHTMLView(JComponent, String)}
+        // write some test for {@link javax.swing.plaf.basic.BasicHTML#createHTMLView(javax.swing.JComponent, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicHTML#isHTMLString(String) public static boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicHTML#isHTMLString(String) public static boolean
      * javax.swing.plaf.basic.BasicHTML.isHTMLString(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -120,7 +121,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests<Basi
     @Category(Draft.class)
     public void test_isHTMLString_String()
     throws Exception {
-        // write some test for {@link BasicHTML#isHTMLString(String)}
+        // write some test for {@link javax.swing.plaf.basic.BasicHTML#isHTMLString(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicHTML]

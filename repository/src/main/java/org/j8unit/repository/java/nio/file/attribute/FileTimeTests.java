@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.nio.file.attribute;
 
 import java.nio.file.attribute.FileTime;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FileTime>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#to(TimeUnit) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.FileTime#to(java.util.concurrent.TimeUnit) public long
      * java.nio.file.attribute.FileTime.to(java.util.concurrent.TimeUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FileTime>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#compareTo(FileTime) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.FileTime#compareTo(java.nio.file.attribute.FileTime) public int
      * java.nio.file.attribute.FileTime.compareTo(java.nio.file.attribute.FileTime)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FileTime>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#toMillis() public long
-     * java.nio.file.attribute.FileTime.toMillis()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.FileTime#toMillis() public
+     * long java.nio.file.attribute.FileTime.toMillis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FileTime>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#toString() public java.lang.String
-     * java.nio.file.attribute.FileTime.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.FileTime#toString() public
+     * java.lang.String java.nio.file.attribute.FileTime.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FileTime>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#toInstant() public java.time.Instant
-     * java.nio.file.attribute.FileTime.toInstant()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.FileTime#toInstant() public
+     * java.time.Instant java.nio.file.attribute.FileTime.toInstant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +147,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FileTime>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#equals(Object) public boolean
-     * java.nio.file.attribute.FileTime.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.FileTime#equals(Object)
+     * public boolean java.nio.file.attribute.FileTime.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +170,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FileTime>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#hashCode() public int
-     * java.nio.file.attribute.FileTime.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.FileTime#hashCode() public
+     * int java.nio.file.attribute.FileTime.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

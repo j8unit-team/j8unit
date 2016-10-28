@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.sql;
 
 import java.sql.Driver;
-import java.util.Properties;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Driver#getParentLogger() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Driver#getParentLogger() public abstract
      * java.util.logging.Logger java.sql.Driver.getParentLogger() throws java.sql.SQLFeatureNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Driver#getMajorVersion() public abstract int
-     * java.sql.Driver.getMajorVersion()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Driver#getMajorVersion() public abstract
+     * int java.sql.Driver.getMajorVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Driver#connect(String, Properties) public abstract
-     * java.sql.Connection java.sql.Driver.connect(java.lang.String,java.util.Properties) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Driver#connect(String, java.util.Properties) public abstract java.sql.Connection
+     * java.sql.Driver.connect(java.lang.String,java.util.Properties) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,9 +102,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Driver#getPropertyInfo(String, Properties) public
-     * abstract java.sql.DriverPropertyInfo[] java.sql.Driver.getPropertyInfo(java.lang.String,java.util.Properties)
-     * throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Driver#getPropertyInfo(String, java.util.Properties) public abstract
+     * java.sql.DriverPropertyInfo[] java.sql.Driver.getPropertyInfo(java.lang.String,java.util.Properties) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +126,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Driver#acceptsURL(String) public abstract boolean
-     * java.sql.Driver.acceptsURL(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Driver#acceptsURL(String) public abstract
+     * boolean java.sql.Driver.acceptsURL(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Driver#jdbcCompliant() public abstract boolean
-     * java.sql.Driver.jdbcCompliant()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Driver#jdbcCompliant() public abstract
+     * boolean java.sql.Driver.jdbcCompliant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +170,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Driver#getMinorVersion() public abstract int
-     * java.sql.Driver.getMinorVersion()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Driver#getMinorVersion() public abstract
+     * int java.sql.Driver.getMinorVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -5,15 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.Attributes;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.DTDHandler;
-import org.xml.sax.EntityResolver;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.InputSource;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLFilterImpl;
 
 /**
@@ -45,8 +36,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#resolveEntity(String, String) public
-     * org.xml.sax.InputSource org.xml.sax.helpers.XMLFilterImpl.resolveEntity(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#resolveEntity(String, String) public org.xml.sax.InputSource
+     * org.xml.sax.helpers.XMLFilterImpl.resolveEntity(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,7 +61,32 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#parse(InputSource) public void
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.XMLFilterImpl#parse(String)
+     * public void org.xml.sax.helpers.XMLFilterImpl.parse(java.lang.String) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#parse(org.xml.sax.InputSource) public void
      * org.xml.sax.helpers.XMLFilterImpl.parse(org.xml.sax.InputSource) throws
      * org.xml.sax.SAXException,java.io.IOException}.
      *
@@ -93,31 +110,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#parse(String) public void
-     * org.xml.sax.helpers.XMLFilterImpl.parse(java.lang.String) throws org.xml.sax.SAXException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#getEntityResolver() public
-     * org.xml.sax.EntityResolver org.xml.sax.helpers.XMLFilterImpl.getEntityResolver()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#getEntityResolver() public org.xml.sax.EntityResolver
+     * org.xml.sax.helpers.XMLFilterImpl.getEntityResolver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -139,8 +134,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#endDocument() public void
-     * org.xml.sax.helpers.XMLFilterImpl.endDocument() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.XMLFilterImpl#endDocument()
+     * public void org.xml.sax.helpers.XMLFilterImpl.endDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,8 +157,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#startDocument() public void
-     * org.xml.sax.helpers.XMLFilterImpl.startDocument() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.XMLFilterImpl#startDocument()
+     * public void org.xml.sax.helpers.XMLFilterImpl.startDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -185,8 +180,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#getFeature(String) public boolean
-     * org.xml.sax.helpers.XMLFilterImpl.getFeature(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.XMLFilterImpl#getFeature(String)
+     * public boolean org.xml.sax.helpers.XMLFilterImpl.getFeature(java.lang.String) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -209,7 +204,7 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#getParent() public
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.XMLFilterImpl#getParent() public
      * org.xml.sax.XMLReader org.xml.sax.helpers.XMLFilterImpl.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -232,8 +227,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#getProperty(String) public
-     * java.lang.Object org.xml.sax.helpers.XMLFilterImpl.getProperty(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#getProperty(String) public java.lang.Object
+     * org.xml.sax.helpers.XMLFilterImpl.getProperty(java.lang.String) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -257,7 +253,7 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLFilterImpl#startElement(String, String, String, Attributes) public void
+     * {@link org.xml.sax.helpers.XMLFilterImpl#startElement(String, String, String, org.xml.sax.Attributes) public void
      * org.xml.sax.helpers.XMLFilterImpl.startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes)
      * throws org.xml.sax.SAXException}.
      *
@@ -281,9 +277,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#fatalError(SAXParseException) public
-     * void org.xml.sax.helpers.XMLFilterImpl.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#fatalError(org.xml.sax.SAXParseException) public void
+     * org.xml.sax.helpers.XMLFilterImpl.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -306,7 +302,7 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLFilterImpl#unparsedEntityDecl(String, String, String, String) public void
+     * {@link org.xml.sax.helpers.XMLFilterImpl#unparsedEntityDecl(String, String, String, String) public void
      * org.xml.sax.helpers.XMLFilterImpl.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws org.xml.sax.SAXException}.
      *
@@ -330,8 +326,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#processingInstruction(String, String)
-     * public void org.xml.sax.helpers.XMLFilterImpl.processingInstruction(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#processingInstruction(String, String) public void
+     * org.xml.sax.helpers.XMLFilterImpl.processingInstruction(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -354,8 +351,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#getDTDHandler() public
-     * org.xml.sax.DTDHandler org.xml.sax.helpers.XMLFilterImpl.getDTDHandler()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.XMLFilterImpl#getDTDHandler()
+     * public org.xml.sax.DTDHandler org.xml.sax.helpers.XMLFilterImpl.getDTDHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -377,7 +374,32 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#skippedEntity(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setErrorHandler(org.xml.sax.ErrorHandler) public void
+     * org.xml.sax.helpers.XMLFilterImpl.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setErrorHandler_ErrorHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#skippedEntity(String) public void
      * org.xml.sax.helpers.XMLFilterImpl.skippedEntity(java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -400,31 +422,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#setErrorHandler(ErrorHandler) public
-     * void org.xml.sax.helpers.XMLFilterImpl.setErrorHandler(org.xml.sax.ErrorHandler)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setErrorHandler_ErrorHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#setProperty(String, Object) public
-     * void org.xml.sax.helpers.XMLFilterImpl.setProperty(java.lang.String,java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setProperty(String, Object) public void
+     * org.xml.sax.helpers.XMLFilterImpl.setProperty(java.lang.String,java.lang.Object) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -447,7 +447,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#error(SAXParseException) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#error(org.xml.sax.SAXParseException) public void
      * org.xml.sax.helpers.XMLFilterImpl.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -470,9 +471,10 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#notationDecl(String, String, String)
-     * public void org.xml.sax.helpers.XMLFilterImpl.notationDecl(java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#notationDecl(String, String, String) public void
+     * org.xml.sax.helpers.XMLFilterImpl.notationDecl(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -494,8 +496,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#setEntityResolver(EntityResolver)
-     * public void org.xml.sax.helpers.XMLFilterImpl.setEntityResolver(org.xml.sax.EntityResolver)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setEntityResolver(org.xml.sax.EntityResolver) public void
+     * org.xml.sax.helpers.XMLFilterImpl.setEntityResolver(org.xml.sax.EntityResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -517,7 +520,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#endPrefixMapping(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#endPrefixMapping(String) public void
      * org.xml.sax.helpers.XMLFilterImpl.endPrefixMapping(java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -540,7 +544,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#setDTDHandler(DTDHandler) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setDTDHandler(org.xml.sax.DTDHandler) public void
      * org.xml.sax.helpers.XMLFilterImpl.setDTDHandler(org.xml.sax.DTDHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -563,7 +568,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#warning(SAXParseException) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#warning(org.xml.sax.SAXParseException) public void
      * org.xml.sax.helpers.XMLFilterImpl.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -586,8 +592,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#setDocumentLocator(Locator) public
-     * void org.xml.sax.helpers.XMLFilterImpl.setDocumentLocator(org.xml.sax.Locator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setDocumentLocator(org.xml.sax.Locator) public void
+     * org.xml.sax.helpers.XMLFilterImpl.setDocumentLocator(org.xml.sax.Locator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -609,7 +616,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#setParent(XMLReader) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setParent(org.xml.sax.XMLReader) public void
      * org.xml.sax.helpers.XMLFilterImpl.setParent(org.xml.sax.XMLReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -632,9 +640,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#ignorableWhitespace(char[], int, int)
-     * public void org.xml.sax.helpers.XMLFilterImpl.ignorableWhitespace(char[],int,int) throws
-     * org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#ignorableWhitespace(char[], int, int) public void
+     * org.xml.sax.helpers.XMLFilterImpl.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -656,8 +664,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#characters(char[], int, int) public
-     * void org.xml.sax.helpers.XMLFilterImpl.characters(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#characters(char[], int, int) public void
+     * org.xml.sax.helpers.XMLFilterImpl.characters(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -679,8 +688,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#getErrorHandler() public
-     * org.xml.sax.ErrorHandler org.xml.sax.helpers.XMLFilterImpl.getErrorHandler()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.XMLFilterImpl#getErrorHandler()
+     * public org.xml.sax.ErrorHandler org.xml.sax.helpers.XMLFilterImpl.getErrorHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -702,8 +711,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#startPrefixMapping(String, String)
-     * public void org.xml.sax.helpers.XMLFilterImpl.startPrefixMapping(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#startPrefixMapping(String, String) public void
+     * org.xml.sax.helpers.XMLFilterImpl.startPrefixMapping(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -726,9 +736,10 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#endElement(String, String, String)
-     * public void org.xml.sax.helpers.XMLFilterImpl.endElement(java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#endElement(String, String, String) public void
+     * org.xml.sax.helpers.XMLFilterImpl.endElement(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -750,8 +761,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#setContentHandler(ContentHandler)
-     * public void org.xml.sax.helpers.XMLFilterImpl.setContentHandler(org.xml.sax.ContentHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setContentHandler(org.xml.sax.ContentHandler) public void
+     * org.xml.sax.helpers.XMLFilterImpl.setContentHandler(org.xml.sax.ContentHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -773,8 +785,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#setFeature(String, boolean) public
-     * void org.xml.sax.helpers.XMLFilterImpl.setFeature(java.lang.String,boolean) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setFeature(String, boolean) public void
+     * org.xml.sax.helpers.XMLFilterImpl.setFeature(java.lang.String,boolean) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -797,8 +810,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilterImpl#getContentHandler() public
-     * org.xml.sax.ContentHandler org.xml.sax.helpers.XMLFilterImpl.getContentHandler()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#getContentHandler() public org.xml.sax.ContentHandler
+     * org.xml.sax.helpers.XMLFilterImpl.getContentHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

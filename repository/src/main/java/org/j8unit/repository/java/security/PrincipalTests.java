@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.Principal;
-import javax.security.auth.Subject;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Principal#getName() public abstract java.lang.String
-     * java.security.Principal.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Principal#getName() public abstract
+     * java.lang.String java.security.Principal.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Principal#equals(Object) public abstract boolean
-     * java.security.Principal.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Principal#equals(Object) public
+     * abstract boolean java.security.Principal.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Principal#hashCode() public abstract int
-     * java.security.Principal.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Principal#hashCode() public abstract
+     * int java.security.Principal.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +101,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Principal#toString() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.security.Principal#toString() public abstract
      * java.lang.String java.security.Principal.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Principal#implies(Subject) public default boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Principal#implies(javax.security.auth.Subject) public default boolean
      * java.security.Principal.implies(javax.security.auth.Subject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

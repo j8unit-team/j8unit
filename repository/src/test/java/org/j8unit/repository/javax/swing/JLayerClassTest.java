@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
 import javax.swing.JLayer;
-import javax.swing.plaf.LayerUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.swing.JLayerClassTests<JLayer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JLayer#JLayer(Component, LayerUI) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JLayer#JLayer(java.awt.Component, javax.swing.plaf.LayerUI) public
      * javax.swing.JLayer(V,javax.swing.plaf.LayerUI<V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +40,13 @@ implements org.j8unit.repository.javax.swing.JLayerClassTests<JLayer> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JLayer sut = null; // = new JLayer(Component, LayerUI);
+        final JLayer sut = null; // = new JLayer(java.awt.Component, javax.swing.plaf.LayerUI);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JLayer#JLayer(Component) public
-     * javax.swing.JLayer(V)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JLayer#JLayer(java.awt.Component)
+     * public javax.swing.JLayer(V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,12 +62,13 @@ implements org.j8unit.repository.javax.swing.JLayerClassTests<JLayer> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JLayer sut = null; // = new JLayer(Component);
+        final JLayer sut = null; // = new JLayer(java.awt.Component);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JLayer#JLayer() public javax.swing.JLayer()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JLayer#JLayer() public
+     * javax.swing.JLayer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

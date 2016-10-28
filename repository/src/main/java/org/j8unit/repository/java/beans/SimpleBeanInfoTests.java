@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getPropertyDescriptors() public
-     * java.beans.PropertyDescriptor[] java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.SimpleBeanInfo#getPropertyDescriptors()
+     * public java.beans.PropertyDescriptor[] java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getEventSetDescriptors() public
-     * java.beans.EventSetDescriptor[] java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.SimpleBeanInfo#getEventSetDescriptors()
+     * public java.beans.EventSetDescriptor[] java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getDefaultEventIndex() public int
-     * java.beans.SimpleBeanInfo.getDefaultEventIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.SimpleBeanInfo#getDefaultEventIndex()
+     * public int java.beans.SimpleBeanInfo.getDefaultEventIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getBeanDescriptor() public
+     * Test method for the hereby targeted method-under-test {@link java.beans.SimpleBeanInfo#getBeanDescriptor() public
      * java.beans.BeanDescriptor java.beans.SimpleBeanInfo.getBeanDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#loadImage(String) public
+     * Test method for the hereby targeted method-under-test {@link java.beans.SimpleBeanInfo#loadImage(String) public
      * java.awt.Image java.beans.SimpleBeanInfo.loadImage(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getIcon(int) public java.awt.Image
-     * java.beans.SimpleBeanInfo.getIcon(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.SimpleBeanInfo#getIcon(int) public
+     * java.awt.Image java.beans.SimpleBeanInfo.getIcon(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +171,8 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getMethodDescriptors() public
-     * java.beans.MethodDescriptor[] java.beans.SimpleBeanInfo.getMethodDescriptors()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.SimpleBeanInfo#getMethodDescriptors()
+     * public java.beans.MethodDescriptor[] java.beans.SimpleBeanInfo.getMethodDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,8 +194,8 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getAdditionalBeanInfo() public
-     * java.beans.BeanInfo[] java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.SimpleBeanInfo#getAdditionalBeanInfo()
+     * public java.beans.BeanInfo[] java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,8 +217,8 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getDefaultPropertyIndex() public int
-     * java.beans.SimpleBeanInfo.getDefaultPropertyIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.SimpleBeanInfo#getDefaultPropertyIndex()
+     * public int java.beans.SimpleBeanInfo.getDefaultPropertyIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.AlreadyConnectedExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AlreadyConnectedException#AlreadyConnectedException() public
+     * {@link java.nio.channels.AlreadyConnectedException#AlreadyConnectedException() public
      * java.nio.channels.AlreadyConnectedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
 import java.time.chrono.Era;
-import java.time.format.TextStyle;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQuery;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +34,9 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Era#range(TemporalField) public default
-     * java.time.temporal.ValueRange java.time.chrono.Era.range(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Era#range(java.time.temporal.TemporalField) public default java.time.temporal.ValueRange
+     * java.time.chrono.Era.range(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +58,9 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Era#adjustInto(Temporal) public default
-     * java.time.temporal.Temporal java.time.chrono.Era.adjustInto(java.time.temporal.Temporal)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Era#adjustInto(java.time.temporal.Temporal) public default java.time.temporal.Temporal
+     * java.time.chrono.Era.adjustInto(java.time.temporal.Temporal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +82,9 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Era#isSupported(TemporalField) public default
-     * boolean java.time.chrono.Era.isSupported(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Era#isSupported(java.time.temporal.TemporalField) public default boolean
+     * java.time.chrono.Era.isSupported(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +106,8 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Era#getDisplayName(TextStyle, Locale) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Era#getDisplayName(java.time.format.TextStyle, java.util.Locale) public default
      * java.lang.String java.time.chrono.Era.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,7 +129,8 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Era#query(TemporalQuery) public default <R> R
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Era#query(java.time.temporal.TemporalQuery) public default <R> R
      * java.time.chrono.Era.query(java.time.temporal.TemporalQuery<R>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,7 +153,8 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Era#get(TemporalField) public default int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Era#get(java.time.temporal.TemporalField) public default int
      * java.time.chrono.Era.get(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,7 +177,7 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Era#getValue() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.Era#getValue() public abstract int
      * java.time.chrono.Era.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +199,8 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Era#getLong(TemporalField) public default long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Era#getLong(java.time.temporal.TemporalField) public default long
      * java.time.chrono.Era.getLong(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

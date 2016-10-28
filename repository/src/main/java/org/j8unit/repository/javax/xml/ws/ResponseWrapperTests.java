@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseWrapper#className() public abstract
-     * java.lang.String javax.xml.ws.ResponseWrapper.className()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.ResponseWrapper#className() public
+     * abstract java.lang.String javax.xml.ws.ResponseWrapper.className()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseWrapper#partName() public abstract
-     * java.lang.String javax.xml.ws.ResponseWrapper.partName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.ResponseWrapper#partName() public
+     * abstract java.lang.String javax.xml.ws.ResponseWrapper.partName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseWrapper#localName() public abstract
-     * java.lang.String javax.xml.ws.ResponseWrapper.localName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.ResponseWrapper#localName() public
+     * abstract java.lang.String javax.xml.ws.ResponseWrapper.localName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseWrapper#targetNamespace() public abstract
-     * java.lang.String javax.xml.ws.ResponseWrapper.targetNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.ResponseWrapper#targetNamespace()
+     * public abstract java.lang.String javax.xml.ws.ResponseWrapper.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

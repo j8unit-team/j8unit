@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.DigestInputStream;
-import java.security.MessageDigest;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestInputStream#toString() public java.lang.String
-     * java.security.DigestInputStream.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.DigestInputStream#toString() public
+     * java.lang.String java.security.DigestInputStream.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestInputStream#on(boolean) public void
-     * java.security.DigestInputStream.on(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.DigestInputStream#on(boolean) public
+     * void java.security.DigestInputStream.on(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestInputStream#getMessageDigest() public
-     * java.security.MessageDigest java.security.DigestInputStream.getMessageDigest()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.DigestInputStream#getMessageDigest()
+     * public java.security.MessageDigest java.security.DigestInputStream.getMessageDigest()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +101,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestInputStream#read(byte[], int, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.DigestInputStream#read(byte[], int, int) public int
      * java.security.DigestInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestInputStream#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.DigestInputStream#read() public int
      * java.security.DigestInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +148,9 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DigestInputStream#setMessageDigest(MessageDigest)
-     * public void java.security.DigestInputStream.setMessageDigest(java.security.MessageDigest)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.DigestInputStream#setMessageDigest(java.security.MessageDigest) public void
+     * java.security.DigestInputStream.setMessageDigest(java.security.MessageDigest)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

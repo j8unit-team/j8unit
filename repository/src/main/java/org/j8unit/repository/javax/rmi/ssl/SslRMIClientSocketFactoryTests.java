@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SslRMIClientSocketFactory#hashCode() public int
-     * javax.rmi.ssl.SslRMIClientSocketFactory.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.ssl.SslRMIClientSocketFactory#hashCode()
+     * public int javax.rmi.ssl.SslRMIClientSocketFactory.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SslRMIClientSocketFactory#equals(Object) public
-     * boolean javax.rmi.ssl.SslRMIClientSocketFactory.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.ssl.SslRMIClientSocketFactory#equals(Object) public boolean
+     * javax.rmi.ssl.SslRMIClientSocketFactory.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,9 +82,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SslRMIClientSocketFactory#createSocket(String, int)
-     * public java.net.Socket javax.rmi.ssl.SslRMIClientSocketFactory.createSocket(java.lang.String,int) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.ssl.SslRMIClientSocketFactory#createSocket(String, int) public java.net.Socket
+     * javax.rmi.ssl.SslRMIClientSocketFactory.createSocket(java.lang.String,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

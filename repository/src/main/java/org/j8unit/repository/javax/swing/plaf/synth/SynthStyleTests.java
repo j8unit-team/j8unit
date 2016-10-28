@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Insets;
-import javax.swing.plaf.synth.ColorType;
-import javax.swing.plaf.synth.SynthContext;
 import javax.swing.plaf.synth.SynthStyle;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#getInt(SynthContext, Object, int) public
-     * int javax.swing.plaf.synth.SynthStyle.getInt(javax.swing.plaf.synth.SynthContext,java.lang.Object,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#getInt(javax.swing.plaf.synth.SynthContext, Object, int) public int
+     * javax.swing.plaf.synth.SynthStyle.getInt(javax.swing.plaf.synth.SynthContext,java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#isOpaque(SynthContext) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#isOpaque(javax.swing.plaf.synth.SynthContext) public boolean
      * javax.swing.plaf.synth.SynthStyle.isOpaque(javax.swing.plaf.synth.SynthContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#installDefaults(SynthContext) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#installDefaults(javax.swing.plaf.synth.SynthContext) public void
      * javax.swing.plaf.synth.SynthStyle.installDefaults(javax.swing.plaf.synth.SynthContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#get(SynthContext, Object) public
-     * java.lang.Object javax.swing.plaf.synth.SynthStyle.get(javax.swing.plaf.synth.SynthContext,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#get(javax.swing.plaf.synth.SynthContext, Object) public java.lang.Object
+     * javax.swing.plaf.synth.SynthStyle.get(javax.swing.plaf.synth.SynthContext,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +126,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#getColor(SynthContext, ColorType) public
-     * java.awt.Color
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#getColor(javax.swing.plaf.synth.SynthContext, javax.swing.plaf.synth.ColorType)
+     * public java.awt.Color
      * javax.swing.plaf.synth.SynthStyle.getColor(javax.swing.plaf.synth.SynthContext,javax.swing.plaf.synth.ColorType)}
      * .
      *
@@ -149,7 +151,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#getInsets(SynthContext, Insets) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#getInsets(javax.swing.plaf.synth.SynthContext, java.awt.Insets) public
      * java.awt.Insets javax.swing.plaf.synth.SynthStyle.getInsets(javax.swing.plaf.synth.SynthContext,java.awt.Insets)}
      * .
      *
@@ -172,8 +175,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#getString(SynthContext, Object, String)
-     * public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#getString(javax.swing.plaf.synth.SynthContext, Object, String) public
+     * java.lang.String
      * javax.swing.plaf.synth.SynthStyle.getString(javax.swing.plaf.synth.SynthContext,java.lang.Object,java.lang.String)}
      * .
      *
@@ -196,8 +200,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#getFont(SynthContext) public
-     * java.awt.Font javax.swing.plaf.synth.SynthStyle.getFont(javax.swing.plaf.synth.SynthContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#getFont(javax.swing.plaf.synth.SynthContext) public java.awt.Font
+     * javax.swing.plaf.synth.SynthStyle.getFont(javax.swing.plaf.synth.SynthContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,8 +223,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#getBoolean(SynthContext, Object, boolean)
-     * public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#getBoolean(javax.swing.plaf.synth.SynthContext, Object, boolean) public
+     * boolean
      * javax.swing.plaf.synth.SynthStyle.getBoolean(javax.swing.plaf.synth.SynthContext,java.lang.Object,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,29 +247,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#uninstallDefaults(SynthContext) public
-     * void javax.swing.plaf.synth.SynthStyle.uninstallDefaults(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_uninstallDefaults_SynthContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#getPainter(SynthContext) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#getPainter(javax.swing.plaf.synth.SynthContext) public
      * javax.swing.plaf.synth.SynthPainter
      * javax.swing.plaf.synth.SynthStyle.getPainter(javax.swing.plaf.synth.SynthContext)}.
      *
@@ -286,7 +271,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#getGraphicsUtils(SynthContext) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#uninstallDefaults(javax.swing.plaf.synth.SynthContext) public void
+     * javax.swing.plaf.synth.SynthStyle.uninstallDefaults(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_uninstallDefaults_SynthContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#getGraphicsUtils(javax.swing.plaf.synth.SynthContext) public
      * javax.swing.plaf.synth.SynthGraphicsUtils
      * javax.swing.plaf.synth.SynthStyle.getGraphicsUtils(javax.swing.plaf.synth.SynthContext)}.
      *
@@ -309,7 +318,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyle#getIcon(SynthContext, Object) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyle#getIcon(javax.swing.plaf.synth.SynthContext, Object) public
      * javax.swing.Icon javax.swing.plaf.synth.SynthStyle.getIcon(javax.swing.plaf.synth.SynthContext,java.lang.Object)}
      * .
      *

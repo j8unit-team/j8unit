@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAPrivateCrtKey#getPrimeP() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAPrivateCrtKey.getPrimeP()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.interfaces.RSAPrivateCrtKey#getPrimeP() public abstract java.math.BigInteger
+     * java.security.interfaces.RSAPrivateCrtKey.getPrimeP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAPrivateCrtKey#getPublicExponent() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAPrivateCrtKey.getPublicExponent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.interfaces.RSAPrivateCrtKey#getPublicExponent() public abstract java.math.BigInteger
+     * java.security.interfaces.RSAPrivateCrtKey.getPublicExponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAPrivateCrtKey#getCrtCoefficient() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAPrivateCrtKey.getCrtCoefficient()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.interfaces.RSAPrivateCrtKey#getCrtCoefficient() public abstract java.math.BigInteger
+     * java.security.interfaces.RSAPrivateCrtKey.getCrtCoefficient()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +103,9 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAPrivateCrtKey#getPrimeExponentP() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAPrivateCrtKey.getPrimeExponentP()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.interfaces.RSAPrivateCrtKey#getPrimeExponentP() public abstract java.math.BigInteger
+     * java.security.interfaces.RSAPrivateCrtKey.getPrimeExponentP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +126,9 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAPrivateCrtKey#getPrimeExponentQ() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAPrivateCrtKey.getPrimeExponentQ()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.interfaces.RSAPrivateCrtKey#getPrimeExponentQ() public abstract java.math.BigInteger
+     * java.security.interfaces.RSAPrivateCrtKey.getPrimeExponentQ()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +149,9 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RSAPrivateCrtKey#getPrimeQ() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAPrivateCrtKey.getPrimeQ()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.interfaces.RSAPrivateCrtKey#getPrimeQ() public abstract java.math.BigInteger
+     * java.security.interfaces.RSAPrivateCrtKey.getPrimeQ()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

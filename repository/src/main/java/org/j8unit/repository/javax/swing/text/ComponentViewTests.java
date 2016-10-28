@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
 import javax.swing.text.ComponentView;
-import javax.swing.text.Position.Bias;
-import javax.swing.text.View;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentView#getAlignment(int) public float
-     * javax.swing.text.ComponentView.getAlignment(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ComponentView#getAlignment(int)
+     * public float javax.swing.text.ComponentView.getAlignment(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +58,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentView#viewToModel(float, float, Shape, Bias[]) public int
+     * {@link javax.swing.text.ComponentView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.text.ComponentView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +82,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentView#getMinimumSpan(int) public float
-     * javax.swing.text.ComponentView.getMinimumSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ComponentView#getMinimumSpan(int)
+     * public float javax.swing.text.ComponentView.getMinimumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +105,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentView#modelToView(int, Shape, Bias) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.ComponentView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.ComponentView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
      * throws javax.swing.text.BadLocationException}.
      *
@@ -132,8 +130,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentView#getPreferredSpan(int) public float
-     * javax.swing.text.ComponentView.getPreferredSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ComponentView#getPreferredSpan(int)
+     * public float javax.swing.text.ComponentView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,7 +153,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.ComponentView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.ComponentView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -178,8 +177,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentView#getMaximumSpan(int) public float
-     * javax.swing.text.ComponentView.getMaximumSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ComponentView#getMaximumSpan(int)
+     * public float javax.swing.text.ComponentView.getMaximumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,8 +200,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentView#getComponent() public final
-     * java.awt.Component javax.swing.text.ComponentView.getComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ComponentView#getComponent() public
+     * final java.awt.Component javax.swing.text.ComponentView.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,7 +222,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentView#setParent(View) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.ComponentView#setParent(javax.swing.text.View) public void
      * javax.swing.text.ComponentView.setParent(javax.swing.text.View)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

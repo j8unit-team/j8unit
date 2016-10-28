@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.RowSorter;
 import javax.swing.event.RowSorterEvent;
 import javax.swing.event.RowSorterEvent.Type;
 import org.j8unit.repository.categories.Draft;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RowSorterEvent#RowSorterEvent(RowSorter) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.event.RowSorterEvent#RowSorterEvent(javax.swing.RowSorter) public
      * javax.swing.event.RowSorterEvent(javax.swing.RowSorter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,14 +40,14 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowS
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RowSorterEvent sut = null; // = new RowSorterEvent(RowSorter);
+        final RowSorterEvent sut = null; // = new RowSorterEvent(javax.swing.RowSorter);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RowSorterEvent#RowSorterEvent(RowSorter, Type, int[]) public
-     * javax.swing.event.RowSorterEvent(javax.swing.RowSorter,javax.swing.event.RowSorterEvent$Type,int[])}.
+     * {@link javax.swing.event.RowSorterEvent#RowSorterEvent(javax.swing.RowSorter, javax.swing.event.RowSorterEvent.Type, int[])
+     * public javax.swing.event.RowSorterEvent(javax.swing.RowSorter,javax.swing.event.RowSorterEvent$Type,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +63,8 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowS
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RowSorterEvent sut = null; // = new RowSorterEvent(RowSorter, Type, int[]);
+        final RowSorterEvent sut = null; // = new RowSorterEvent(javax.swing.RowSorter,
+                                         // javax.swing.event.RowSorterEvent.Type, int[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.RowSorterEvent]
@@ -81,8 +82,8 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowS
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#values() public static
-         * javax.swing.event.RowSorterEvent$Type[] javax.swing.event.RowSorterEvent$Type.values()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.event.RowSorterEvent.Type#values()
+         * public static javax.swing.event.RowSorterEvent$Type[] javax.swing.event.RowSorterEvent$Type.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -96,12 +97,13 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowS
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Type#values()}
+            // write some test for {@link javax.swing.event.RowSorterEvent.Type#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.event.RowSorterEvent.Type#valueOf(String) public static
          * javax.swing.event.RowSorterEvent$Type javax.swing.event.RowSorterEvent$Type.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -116,7 +118,7 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowS
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Type#valueOf(String)}
+            // write some test for {@link javax.swing.event.RowSorterEvent.Type#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.RowSorterEvent$Type]

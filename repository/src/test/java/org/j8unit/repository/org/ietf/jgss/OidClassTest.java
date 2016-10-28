@@ -1,6 +1,5 @@
 package org.j8unit.repository.org.ietf.jgss;
 
-import java.io.InputStream;
 import org.ietf.jgss.Oid;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.org.ietf.jgss.OidClassTests<Oid> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Oid#Oid(byte[]) public
+     * Test method for the hereby targeted constructor-under-test {@link org.ietf.jgss.Oid#Oid(byte[]) public
      * org.ietf.jgss.Oid(byte[]) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +43,8 @@ implements org.j8unit.repository.org.ietf.jgss.OidClassTests<Oid> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Oid#Oid(InputStream) public
-     * org.ietf.jgss.Oid(java.io.InputStream) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted constructor-under-test {@link org.ietf.jgss.Oid#Oid(java.io.InputStream)
+     * public org.ietf.jgss.Oid(java.io.InputStream) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,12 +60,12 @@ implements org.j8unit.repository.org.ietf.jgss.OidClassTests<Oid> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Oid sut = null; // = new Oid(InputStream);
+        final Oid sut = null; // = new Oid(java.io.InputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Oid#Oid(String) public
+     * Test method for the hereby targeted constructor-under-test {@link org.ietf.jgss.Oid#Oid(String) public
      * org.ietf.jgss.Oid(java.lang.String) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

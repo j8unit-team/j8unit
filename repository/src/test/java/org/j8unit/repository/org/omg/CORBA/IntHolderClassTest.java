@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.IntHolderClassTests<IntHolder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IntHolder#IntHolder() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.IntHolder#IntHolder() public
      * org.omg.CORBA.IntHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.org.omg.CORBA.IntHolderClassTests<IntHolder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IntHolder#IntHolder(int) public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.IntHolder#IntHolder(int) public
      * org.omg.CORBA.IntHolder(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

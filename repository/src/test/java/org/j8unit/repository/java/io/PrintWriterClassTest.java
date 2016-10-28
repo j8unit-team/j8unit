@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.io;
 
-import java.io.File;
-import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.io.Writer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +21,9 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintWriter#PrintWriter(OutputStream, boolean)
-     * public java.io.PrintWriter(java.io.OutputStream,boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PrintWriter#PrintWriter(java.io.OutputStream, boolean) public
+     * java.io.PrintWriter(java.io.OutputStream,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,12 +39,12 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintWriter sut = null; // = new PrintWriter(OutputStream, boolean);
+        final PrintWriter sut = null; // = new PrintWriter(java.io.OutputStream, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintWriter#PrintWriter(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PrintWriter#PrintWriter(String) public
      * java.io.PrintWriter(java.lang.String) throws java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +66,8 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintWriter#PrintWriter(File) public
-     * java.io.PrintWriter(java.io.File) throws java.io.FileNotFoundException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PrintWriter#PrintWriter(java.io.File)
+     * public java.io.PrintWriter(java.io.File) throws java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,12 +83,13 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintWriter sut = null; // = new PrintWriter(File);
+        final PrintWriter sut = null; // = new PrintWriter(java.io.File);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintWriter#PrintWriter(File, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PrintWriter#PrintWriter(java.io.File, String) public
      * java.io.PrintWriter(java.io.File,java.lang.String) throws
      * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
      *
@@ -108,13 +107,13 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintWriter sut = null; // = new PrintWriter(File, String);
+        final PrintWriter sut = null; // = new PrintWriter(java.io.File, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintWriter#PrintWriter(String, String) public
-     * java.io.PrintWriter(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PrintWriter#PrintWriter(String, String)
+     * public java.io.PrintWriter(java.lang.String,java.lang.String) throws
      * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -136,8 +135,8 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintWriter#PrintWriter(Writer) public
-     * java.io.PrintWriter(java.io.Writer)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PrintWriter#PrintWriter(java.io.Writer)
+     * public java.io.PrintWriter(java.io.Writer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,13 +152,13 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintWriter sut = null; // = new PrintWriter(Writer);
+        final PrintWriter sut = null; // = new PrintWriter(java.io.Writer);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintWriter#PrintWriter(OutputStream) public
-     * java.io.PrintWriter(java.io.OutputStream)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PrintWriter#PrintWriter(java.io.OutputStream) public java.io.PrintWriter(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,12 +174,13 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintWriter sut = null; // = new PrintWriter(OutputStream);
+        final PrintWriter sut = null; // = new PrintWriter(java.io.OutputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintWriter#PrintWriter(Writer, boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PrintWriter#PrintWriter(java.io.Writer, boolean) public
      * java.io.PrintWriter(java.io.Writer,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -197,7 +197,7 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintWriter sut = null; // = new PrintWriter(Writer, boolean);
+        final PrintWriter sut = null; // = new PrintWriter(java.io.Writer, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PrintWriter]

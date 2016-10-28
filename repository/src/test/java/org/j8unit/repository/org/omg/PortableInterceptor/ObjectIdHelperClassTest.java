@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.PortableInterceptor.ObjectIdHelper;
 
 @RunWith(J8Unit4.class)
@@ -25,7 +22,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectIdHelperClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectIdHelper#ObjectIdHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ObjectIdHelper#ObjectIdHelper() public
      * org.omg.PortableInterceptor.ObjectIdHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectIdHelperClass
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectIdHelper#read(InputStream) public static
-     * byte[] org.omg.PortableInterceptor.ObjectIdHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectIdHelper#read(org.omg.CORBA.portable.InputStream) public static byte[]
+     * org.omg.PortableInterceptor.ObjectIdHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,12 +59,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectIdHelperClass
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ObjectIdHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ObjectIdHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectIdHelper#extract(Any) public static byte[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectIdHelper#extract(org.omg.CORBA.Any) public static byte[]
      * org.omg.PortableInterceptor.ObjectIdHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,12 +81,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectIdHelperClass
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ObjectIdHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableInterceptor.ObjectIdHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectIdHelper#write(OutputStream, byte[]) public
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectIdHelper#write(org.omg.CORBA.portable.OutputStream, byte[]) public
      * static void org.omg.PortableInterceptor.ObjectIdHelper.write(org.omg.CORBA.portable.OutputStream,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,13 +102,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectIdHelperClass
     @Category(Draft.class)
     public void test_write_OutputStream_byteArray()
     throws Exception {
-        // write some test for {@link ObjectIdHelper#write(OutputStream, byte[])}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ObjectIdHelper#write(org.omg.CORBA.portable.OutputStream, byte[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectIdHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ObjectIdHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableInterceptor.ObjectIdHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ObjectIdHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +123,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectIdHelperClass
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ObjectIdHelper#type()}
+        // write some test for {@link org.omg.PortableInterceptor.ObjectIdHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectIdHelper#insert(Any, byte[]) public static
-     * void org.omg.PortableInterceptor.ObjectIdHelper.insert(org.omg.CORBA.Any,byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectIdHelper#insert(org.omg.CORBA.Any, byte[]) public static void
+     * org.omg.PortableInterceptor.ObjectIdHelper.insert(org.omg.CORBA.Any,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,13 +144,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectIdHelperClass
     @Category(Draft.class)
     public void test_insert_Any_byteArray()
     throws Exception {
-        // write some test for {@link ObjectIdHelper#insert(Any, byte[])}
+        // write some test for {@link org.omg.PortableInterceptor.ObjectIdHelper#insert(org.omg.CORBA.Any, byte[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectIdHelper#id() public static java.lang.String
-     * org.omg.PortableInterceptor.ObjectIdHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableInterceptor.ObjectIdHelper#id()
+     * public static java.lang.String org.omg.PortableInterceptor.ObjectIdHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,7 +164,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectIdHelperClass
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ObjectIdHelper#id()}
+        // write some test for {@link org.omg.PortableInterceptor.ObjectIdHelper#id()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectIdHelper]

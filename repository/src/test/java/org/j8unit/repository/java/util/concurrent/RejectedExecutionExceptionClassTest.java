@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.concurrent.RejectedExecutionException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RejectedExecutionException#RejectedExecutionException(Throwable) public
+     * {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException(Throwable) public
      * java.util.concurrent.RejectedExecutionException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.concurrent.RejectedExecutionException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RejectedExecutionException#RejectedExecutionException(String, Throwable) public
+     * {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException(String, Throwable) public
      * java.util.concurrent.RejectedExecutionException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.util.concurrent.RejectedExecutionException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RejectedExecutionException#RejectedExecutionException(String) public
+     * {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException(String) public
      * java.util.concurrent.RejectedExecutionException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.java.util.concurrent.RejectedExecutionException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RejectedExecutionException#RejectedExecutionException() public
+     * {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException() public
      * java.util.concurrent.RejectedExecutionException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

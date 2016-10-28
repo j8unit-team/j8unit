@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextFieldPeer#setEchoChar(char) public abstract void
-     * java.awt.peer.TextFieldPeer.setEchoChar(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.TextFieldPeer#setEchoChar(char) public
+     * abstract void java.awt.peer.TextFieldPeer.setEchoChar(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextFieldPeer#getPreferredSize(int) public abstract
-     * java.awt.Dimension java.awt.peer.TextFieldPeer.getPreferredSize(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.TextFieldPeer#getPreferredSize(int)
+     * public abstract java.awt.Dimension java.awt.peer.TextFieldPeer.getPreferredSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextFieldPeer#getMinimumSize(int) public abstract
-     * java.awt.Dimension java.awt.peer.TextFieldPeer.getMinimumSize(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.TextFieldPeer#getMinimumSize(int)
+     * public abstract java.awt.Dimension java.awt.peer.TextFieldPeer.getMinimumSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

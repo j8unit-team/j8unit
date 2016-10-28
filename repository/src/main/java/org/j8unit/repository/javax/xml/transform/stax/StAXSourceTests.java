@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StAXSource#setSystemId(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stax.StAXSource#setSystemId(String) public void
      * javax.xml.transform.stax.StAXSource.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StAXSource#getSystemId() public java.lang.String
-     * javax.xml.transform.stax.StAXSource.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.stax.StAXSource#getSystemId()
+     * public java.lang.String javax.xml.transform.stax.StAXSource.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StAXSource#getXMLStreamReader() public
-     * javax.xml.stream.XMLStreamReader javax.xml.transform.stax.StAXSource.getXMLStreamReader()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stax.StAXSource#getXMLStreamReader() public javax.xml.stream.XMLStreamReader
+     * javax.xml.transform.stax.StAXSource.getXMLStreamReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,9 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StAXSource#getXMLEventReader() public
-     * javax.xml.stream.XMLEventReader javax.xml.transform.stax.StAXSource.getXMLEventReader()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.stax.StAXSource#getXMLEventReader() public javax.xml.stream.XMLEventReader
+     * javax.xml.transform.stax.StAXSource.getXMLEventReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

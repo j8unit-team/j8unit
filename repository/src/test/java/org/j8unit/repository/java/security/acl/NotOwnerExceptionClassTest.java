@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.security.acl.NotOwnerExceptionClassTests<N
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NotOwnerException#NotOwnerException() public
-     * java.security.acl.NotOwnerException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.acl.NotOwnerException#NotOwnerException() public java.security.acl.NotOwnerException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

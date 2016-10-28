@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.table;
 
-import javax.swing.table.TableCellEditor;
-import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TableColumn#TableColumn(int, int, TableCellRenderer, TableCellEditor) public
+     * {@link javax.swing.table.TableColumn#TableColumn(int, int, javax.swing.table.TableCellRenderer, javax.swing.table.TableCellEditor)
+     * public
      * javax.swing.table.TableColumn(int,int,javax.swing.table.TableCellRenderer,javax.swing.table.TableCellEditor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +40,14 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TableColumn sut = null; // = new TableColumn(int, int, TableCellRenderer, TableCellEditor);
+        final TableColumn sut = null; // = new TableColumn(int, int, javax.swing.table.TableCellRenderer,
+                                      // javax.swing.table.TableCellEditor);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TableColumn#TableColumn(int, int) public
-     * javax.swing.table.TableColumn(int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.table.TableColumn#TableColumn(int, int) public javax.swing.table.TableColumn(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -68,8 +68,8 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TableColumn#TableColumn(int) public
-     * javax.swing.table.TableColumn(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.table.TableColumn#TableColumn(int)
+     * public javax.swing.table.TableColumn(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,8 +90,8 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TableColumn#TableColumn() public
-     * javax.swing.table.TableColumn()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.table.TableColumn#TableColumn()
+     * public javax.swing.table.TableColumn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

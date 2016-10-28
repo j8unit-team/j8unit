@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.io;
 
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetEncoder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,8 +22,8 @@ implements org.j8unit.repository.java.io.OutputStreamWriterClassTests<OutputStre
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OutputStreamWriter#OutputStreamWriter(OutputStream, CharsetEncoder) public
-     * java.io.OutputStreamWriter(java.io.OutputStream,java.nio.charset.CharsetEncoder)}.
+     * {@link java.io.OutputStreamWriter#OutputStreamWriter(java.io.OutputStream, java.nio.charset.CharsetEncoder)
+     * public java.io.OutputStreamWriter(java.io.OutputStream,java.nio.charset.CharsetEncoder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,13 +39,14 @@ implements org.j8unit.repository.java.io.OutputStreamWriterClassTests<OutputStre
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OutputStreamWriter sut = null; // = new OutputStreamWriter(OutputStream, CharsetEncoder);
+        final OutputStreamWriter sut = null; // = new OutputStreamWriter(java.io.OutputStream,
+                                             // java.nio.charset.CharsetEncoder);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OutputStreamWriter#OutputStreamWriter(OutputStream, Charset) public
+     * {@link java.io.OutputStreamWriter#OutputStreamWriter(java.io.OutputStream, java.nio.charset.Charset) public
      * java.io.OutputStreamWriter(java.io.OutputStream,java.nio.charset.Charset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,13 +63,14 @@ implements org.j8unit.repository.java.io.OutputStreamWriterClassTests<OutputStre
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OutputStreamWriter sut = null; // = new OutputStreamWriter(OutputStream, Charset);
+        final OutputStreamWriter sut = null; // = new OutputStreamWriter(java.io.OutputStream,
+                                             // java.nio.charset.Charset);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OutputStreamWriter#OutputStreamWriter(OutputStream) public
+     * {@link java.io.OutputStreamWriter#OutputStreamWriter(java.io.OutputStream) public
      * java.io.OutputStreamWriter(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,13 +87,13 @@ implements org.j8unit.repository.java.io.OutputStreamWriterClassTests<OutputStre
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OutputStreamWriter sut = null; // = new OutputStreamWriter(OutputStream);
+        final OutputStreamWriter sut = null; // = new OutputStreamWriter(java.io.OutputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OutputStreamWriter#OutputStreamWriter(OutputStream, String) public
+     * {@link java.io.OutputStreamWriter#OutputStreamWriter(java.io.OutputStream, String) public
      * java.io.OutputStreamWriter(java.io.OutputStream,java.lang.String) throws java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,7 +110,7 @@ implements org.j8unit.repository.java.io.OutputStreamWriterClassTests<OutputStre
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OutputStreamWriter sut = null; // = new OutputStreamWriter(OutputStream, String);
+        final OutputStreamWriter sut = null; // = new OutputStreamWriter(java.io.OutputStream, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.OutputStreamWriter]

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.Rectangle;
 import java.awt.image.RenderedImage;
-import java.awt.image.WritableRaster;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getColorModel() public abstract
-     * java.awt.image.ColorModel java.awt.image.RenderedImage.getColorModel()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getColorModel() public
+     * abstract java.awt.image.ColorModel java.awt.image.RenderedImage.getColorModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getProperty(String) public abstract
-     * java.lang.Object java.awt.image.RenderedImage.getProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getProperty(String)
+     * public abstract java.lang.Object java.awt.image.RenderedImage.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getTileWidth() public abstract int
-     * java.awt.image.RenderedImage.getTileWidth()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getTileWidth() public
+     * abstract int java.awt.image.RenderedImage.getTileWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getTile(int, int) public abstract
-     * java.awt.image.Raster java.awt.image.RenderedImage.getTile(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getTile(int, int)
+     * public abstract java.awt.image.Raster java.awt.image.RenderedImage.getTile(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getMinTileY() public abstract int
-     * java.awt.image.RenderedImage.getMinTileY()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getMinTileY() public
+     * abstract int java.awt.image.RenderedImage.getMinTileY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getTileHeight() public abstract int
-     * java.awt.image.RenderedImage.getTileHeight()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getTileHeight() public
+     * abstract int java.awt.image.RenderedImage.getTileHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getMinTileX() public abstract int
-     * java.awt.image.RenderedImage.getMinTileX()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getMinTileX() public
+     * abstract int java.awt.image.RenderedImage.getMinTileX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +189,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#copyData(WritableRaster) public
-     * abstract java.awt.image.WritableRaster java.awt.image.RenderedImage.copyData(java.awt.image.WritableRaster)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.RenderedImage#copyData(java.awt.image.WritableRaster) public abstract
+     * java.awt.image.WritableRaster java.awt.image.RenderedImage.copyData(java.awt.image.WritableRaster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +212,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getTileGridXOffset() public abstract
-     * int java.awt.image.RenderedImage.getTileGridXOffset()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getTileGridXOffset()
+     * public abstract int java.awt.image.RenderedImage.getTileGridXOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +234,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getSources() public abstract
-     * java.util.Vector<java.awt.image.RenderedImage> java.awt.image.RenderedImage.getSources()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getSources() public
+     * abstract java.util.Vector<java.awt.image.RenderedImage> java.awt.image.RenderedImage.getSources()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,8 +256,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getWidth() public abstract int
-     * java.awt.image.RenderedImage.getWidth()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getWidth() public
+     * abstract int java.awt.image.RenderedImage.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,8 +278,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getNumYTiles() public abstract int
-     * java.awt.image.RenderedImage.getNumYTiles()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getNumYTiles() public
+     * abstract int java.awt.image.RenderedImage.getNumYTiles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,8 +300,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getHeight() public abstract int
-     * java.awt.image.RenderedImage.getHeight()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getHeight() public
+     * abstract int java.awt.image.RenderedImage.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -323,8 +322,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getSampleModel() public abstract
-     * java.awt.image.SampleModel java.awt.image.RenderedImage.getSampleModel()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getSampleModel() public
+     * abstract java.awt.image.SampleModel java.awt.image.RenderedImage.getSampleModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -345,8 +344,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getTileGridYOffset() public abstract
-     * int java.awt.image.RenderedImage.getTileGridYOffset()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getTileGridYOffset()
+     * public abstract int java.awt.image.RenderedImage.getTileGridYOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,8 +366,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getMinY() public abstract int
-     * java.awt.image.RenderedImage.getMinY()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getMinY() public
+     * abstract int java.awt.image.RenderedImage.getMinY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -389,8 +388,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getMinX() public abstract int
-     * java.awt.image.RenderedImage.getMinX()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getMinX() public
+     * abstract int java.awt.image.RenderedImage.getMinX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -411,30 +410,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getData() public abstract
-     * java.awt.image.Raster java.awt.image.RenderedImage.getData()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getData(Rectangle) public abstract
-     * java.awt.image.Raster java.awt.image.RenderedImage.getData(java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.RenderedImage#getData(java.awt.Rectangle) public abstract java.awt.image.Raster
+     * java.awt.image.RenderedImage.getData(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -455,8 +433,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getNumXTiles() public abstract int
-     * java.awt.image.RenderedImage.getNumXTiles()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getData() public
+     * abstract java.awt.image.Raster java.awt.image.RenderedImage.getData()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getNumXTiles() public
+     * abstract int java.awt.image.RenderedImage.getNumXTiles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -477,8 +477,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RenderedImage#getPropertyNames() public abstract
-     * java.lang.String[] java.awt.image.RenderedImage.getPropertyNames()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RenderedImage#getPropertyNames()
+     * public abstract java.lang.String[] java.awt.image.RenderedImage.getPropertyNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

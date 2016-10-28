@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#setSrc(String) public abstract void
-     * org.w3c.dom.html.HTMLFrameElement.setSrc(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#setSrc(String)
+     * public abstract void org.w3c.dom.html.HTMLFrameElement.setSrc(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#setName(String) public abstract
-     * void org.w3c.dom.html.HTMLFrameElement.setName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#setName(String)
+     * public abstract void org.w3c.dom.html.HTMLFrameElement.setName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#getName() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFrameElement.getName()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#getName() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLFrameElement.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#getSrc() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFrameElement.getSrc()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#getSrc() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLFrameElement.getSrc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#setLongDesc(String) public abstract
-     * void org.w3c.dom.html.HTMLFrameElement.setLongDesc(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLFrameElement#setLongDesc(String) public abstract void
+     * org.w3c.dom.html.HTMLFrameElement.setLongDesc(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#getNoResize() public abstract
-     * boolean org.w3c.dom.html.HTMLFrameElement.getNoResize()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#getNoResize()
+     * public abstract boolean org.w3c.dom.html.HTMLFrameElement.getNoResize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +167,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#getMarginHeight() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFrameElement.getMarginHeight()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#getMarginHeight()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLFrameElement.getMarginHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +189,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#getContentDocument() public
-     * abstract org.w3c.dom.Document org.w3c.dom.html.HTMLFrameElement.getContentDocument()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLFrameElement#getContentDocument() public abstract org.w3c.dom.Document
+     * org.w3c.dom.html.HTMLFrameElement.getContentDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +212,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#getScrolling() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFrameElement.getScrolling()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#getScrolling()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLFrameElement.getScrolling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +234,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#setNoResize(boolean) public
-     * abstract void org.w3c.dom.html.HTMLFrameElement.setNoResize(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLFrameElement#setNoResize(boolean) public abstract void
+     * org.w3c.dom.html.HTMLFrameElement.setNoResize(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,8 +257,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#getLongDesc() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFrameElement.getLongDesc()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#getLongDesc()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLFrameElement.getLongDesc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,8 +279,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#setFrameBorder(String) public
-     * abstract void org.w3c.dom.html.HTMLFrameElement.setFrameBorder(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLFrameElement#setFrameBorder(String) public abstract void
+     * org.w3c.dom.html.HTMLFrameElement.setFrameBorder(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,8 +302,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#setMarginWidth(String) public
-     * abstract void org.w3c.dom.html.HTMLFrameElement.setMarginWidth(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLFrameElement#setMarginWidth(String) public abstract void
+     * org.w3c.dom.html.HTMLFrameElement.setMarginWidth(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -320,8 +325,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#getMarginWidth() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFrameElement.getMarginWidth()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#getMarginWidth()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLFrameElement.getMarginWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -342,8 +347,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#setScrolling(String) public
-     * abstract void org.w3c.dom.html.HTMLFrameElement.setScrolling(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLFrameElement#setScrolling(String) public abstract void
+     * org.w3c.dom.html.HTMLFrameElement.setScrolling(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -364,8 +370,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#setMarginHeight(String) public
-     * abstract void org.w3c.dom.html.HTMLFrameElement.setMarginHeight(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLFrameElement#setMarginHeight(String) public abstract void
+     * org.w3c.dom.html.HTMLFrameElement.setMarginHeight(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -386,8 +393,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLFrameElement#getFrameBorder() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLFrameElement.getFrameBorder()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLFrameElement#getFrameBorder()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLFrameElement.getFrameBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

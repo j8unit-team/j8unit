@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableInterceptor.ObjectReferenceFactory;
 import org.omg.PortableInterceptor.ObjectReferenceFactoryHelper;
 
 @RunWith(J8Unit4.class)
@@ -27,7 +23,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectReferenceFactoryHelper#ObjectReferenceFactoryHelper() public
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#ObjectReferenceFactoryHelper() public
      * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceFactoryHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +59,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ObjectReferenceFactoryHelper#type()}
+        // write some test for {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ObjectReferenceFactoryHelper#write(OutputStream, ObjectReferenceFactory) public static void
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableInterceptor.ObjectReferenceFactory)
+     * public static void
      * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.ObjectReferenceFactory)}
      * .
      *
@@ -84,13 +82,16 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     @Category(Draft.class)
     public void test_write_OutputStream_ObjectReferenceFactory()
     throws Exception {
-        // write some test for {@link ObjectReferenceFactoryHelper#write(OutputStream, ObjectReferenceFactory)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableInterceptor.ObjectReferenceFactory)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceFactoryHelper#id() public static
-     * java.lang.String org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#id() public static java.lang.String
+     * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,13 +105,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ObjectReferenceFactoryHelper#id()}
+        // write some test for {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#id()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ObjectReferenceFactoryHelper#insert(Any, ObjectReferenceFactory) public static void
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#insert(org.omg.CORBA.Any, org.omg.PortableInterceptor.ObjectReferenceFactory)
+     * public static void
      * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.ObjectReferenceFactory)}
      * .
      *
@@ -126,13 +128,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     @Category(Draft.class)
     public void test_insert_Any_ObjectReferenceFactory()
     throws Exception {
-        // write some test for {@link ObjectReferenceFactoryHelper#insert(Any, ObjectReferenceFactory)}
+        // write some test for {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableInterceptor.ObjectReferenceFactory)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceFactoryHelper#read(InputStream)
-     * public static org.omg.PortableInterceptor.ObjectReferenceFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.PortableInterceptor.ObjectReferenceFactory
      * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,13 +151,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ObjectReferenceFactoryHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectReferenceFactoryHelper#extract(Any) public
-     * static org.omg.PortableInterceptor.ObjectReferenceFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.PortableInterceptor.ObjectReferenceFactory
      * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +174,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ObjectReferenceFactoryHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactoryHelper]

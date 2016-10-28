@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Wrapper#isWrapperFor(Class) public abstract boolean
-     * java.sql.Wrapper.isWrapperFor(java.lang.Class<?>) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Wrapper#isWrapperFor(Class) public abstract
+     * boolean java.sql.Wrapper.isWrapperFor(java.lang.Class<?>) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Wrapper#unwrap(Class) public abstract <T> T
+     * Test method for the hereby targeted method-under-test {@link java.sql.Wrapper#unwrap(Class) public abstract <T> T
      * java.sql.Wrapper.unwrap(java.lang.Class<T>) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

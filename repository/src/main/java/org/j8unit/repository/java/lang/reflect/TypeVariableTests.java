@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVariable#getName() public abstract
-     * java.lang.String java.lang.reflect.TypeVariable.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.TypeVariable#getName() public
+     * abstract java.lang.String java.lang.reflect.TypeVariable.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVariable#getAnnotatedBounds() public abstract
-     * java.lang.reflect.AnnotatedType[] java.lang.reflect.TypeVariable.getAnnotatedBounds()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.TypeVariable#getAnnotatedBounds()
+     * public abstract java.lang.reflect.AnnotatedType[] java.lang.reflect.TypeVariable.getAnnotatedBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVariable#getGenericDeclaration() public abstract
-     * D java.lang.reflect.TypeVariable.getGenericDeclaration()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.TypeVariable#getGenericDeclaration() public abstract D
+     * java.lang.reflect.TypeVariable.getGenericDeclaration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVariable#getBounds() public abstract
-     * java.lang.reflect.Type[] java.lang.reflect.TypeVariable.getBounds()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.TypeVariable#getBounds() public
+     * abstract java.lang.reflect.Type[] java.lang.reflect.TypeVariable.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

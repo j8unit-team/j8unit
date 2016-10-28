@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.invoke;
 
 import java.lang.invoke.MethodType;
-import java.util.List;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#hasWrappers() public boolean
-     * java.lang.invoke.MethodType.hasWrappers()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#hasWrappers() public
+     * boolean java.lang.invoke.MethodType.hasWrappers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#hasPrimitives() public boolean
-     * java.lang.invoke.MethodType.hasPrimitives()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#hasPrimitives() public
+     * boolean java.lang.invoke.MethodType.hasPrimitives()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#equals(Object) public boolean
-     * java.lang.invoke.MethodType.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#equals(Object) public
+     * boolean java.lang.invoke.MethodType.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +101,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#hashCode() public int
      * java.lang.invoke.MethodType.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#parameterArray() public java.lang.Class
-     * <?>[] java.lang.invoke.MethodType.parameterArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#parameterArray() public
+     * java.lang.Class<?>[] java.lang.invoke.MethodType.parameterArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +146,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#toString() public java.lang.String
-     * java.lang.invoke.MethodType.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#toString() public
+     * java.lang.String java.lang.invoke.MethodType.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +169,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#parameterList() public
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#parameterList() public
      * java.util.List<java.lang.Class<?>> java.lang.invoke.MethodType.parameterList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +191,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#appendParameterTypes(Class...) public
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.appendParameterTypes(java.lang.Class<?>...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodType#appendParameterTypes(Class...) public java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.appendParameterTypes(java.lang.Class<?>...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,9 +214,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#appendParameterTypes(List) public
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.appendParameterTypes(java.util.List<java.lang.Class<?>>)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodType#appendParameterTypes(java.util.List) public java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.appendParameterTypes(java.util.List<java.lang.Class<?>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +237,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#returnType() public java.lang.Class
-     * <?> java.lang.invoke.MethodType.returnType()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#returnType() public
+     * java.lang.Class<?> java.lang.invoke.MethodType.returnType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +259,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#wrap() public java.lang.invoke.MethodType
-     * java.lang.invoke.MethodType.wrap()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#wrap() public
+     * java.lang.invoke.MethodType java.lang.invoke.MethodType.wrap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,7 +281,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#erase() public
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#erase() public
      * java.lang.invoke.MethodType java.lang.invoke.MethodType.erase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -303,8 +303,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#toMethodDescriptorString() public
-     * java.lang.String java.lang.invoke.MethodType.toMethodDescriptorString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodType#toMethodDescriptorString() public java.lang.String
+     * java.lang.invoke.MethodType.toMethodDescriptorString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,8 +326,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#parameterType(int) public java.lang.Class
-     * <?> java.lang.invoke.MethodType.parameterType(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#parameterType(int)
+     * public java.lang.Class<?> java.lang.invoke.MethodType.parameterType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,8 +348,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#parameterCount() public int
-     * java.lang.invoke.MethodType.parameterCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#parameterCount() public
+     * int java.lang.invoke.MethodType.parameterCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,8 +370,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#changeReturnType(Class) public
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.changeReturnType(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#changeReturnType(Class)
+     * public java.lang.invoke.MethodType java.lang.invoke.MethodType.changeReturnType(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -391,8 +392,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#dropParameterTypes(int, int) public
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.dropParameterTypes(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodType#dropParameterTypes(int, int) public java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.dropParameterTypes(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -413,8 +415,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#insertParameterTypes(int, Class...)
-     * public java.lang.invoke.MethodType java.lang.invoke.MethodType.insertParameterTypes(int,java.lang.Class<?>...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodType#insertParameterTypes(int, Class...) public java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.insertParameterTypes(int,java.lang.Class<?>...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -435,9 +438,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#insertParameterTypes(int, List) public
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.insertParameterTypes(int,java.util.List<java.lang.Class
-     * <?>>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodType#insertParameterTypes(int, java.util.List) public java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.insertParameterTypes(int,java.util.List<java.lang.Class<?>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -458,7 +461,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#unwrap() public
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#unwrap() public
      * java.lang.invoke.MethodType java.lang.invoke.MethodType.unwrap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -480,8 +483,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#changeParameterType(int, Class) public
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.changeParameterType(int,java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodType#changeParameterType(int, Class) public java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.changeParameterType(int,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -502,7 +506,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodType#generic() public
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#generic() public
      * java.lang.invoke.MethodType java.lang.invoke.MethodType.generic()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

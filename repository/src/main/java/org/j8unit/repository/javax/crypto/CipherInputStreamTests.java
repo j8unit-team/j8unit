@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherInputStream#read(byte[], int, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.CipherInputStream#read(byte[], int, int) public int
      * javax.crypto.CipherInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherInputStream#read(byte[]) public int
-     * javax.crypto.CipherInputStream.read(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherInputStream#read(byte[]) public
+     * int javax.crypto.CipherInputStream.read(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +81,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherInputStream#read() public int
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherInputStream#read() public int
      * javax.crypto.CipherInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +104,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherInputStream#markSupported() public boolean
-     * javax.crypto.CipherInputStream.markSupported()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherInputStream#markSupported()
+     * public boolean javax.crypto.CipherInputStream.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +127,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherInputStream#available() public int
-     * javax.crypto.CipherInputStream.available() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherInputStream#available() public
+     * int javax.crypto.CipherInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +150,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherInputStream#skip(long) public long
-     * javax.crypto.CipherInputStream.skip(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherInputStream#skip(long) public
+     * long javax.crypto.CipherInputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +173,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherInputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherInputStream#close() public void
      * javax.crypto.CipherInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

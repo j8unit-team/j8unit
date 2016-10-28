@@ -34,8 +34,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLUListElement#setCompact(boolean) public abstract
-     * void org.w3c.dom.html.HTMLUListElement.setCompact(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLUListElement#setCompact(boolean) public abstract void
+     * org.w3c.dom.html.HTMLUListElement.setCompact(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLUListElement#getType() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLUListElement.getType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLUListElement#getType() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLUListElement.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLUListElement#setType(String) public abstract
-     * void org.w3c.dom.html.HTMLUListElement.setType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLUListElement#setType(String)
+     * public abstract void org.w3c.dom.html.HTMLUListElement.setType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLUListElement#getCompact() public abstract
-     * boolean org.w3c.dom.html.HTMLUListElement.getCompact()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLUListElement#getCompact()
+     * public abstract boolean org.w3c.dom.html.HTMLUListElement.getCompact()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

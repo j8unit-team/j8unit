@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.spi;
 
-import java.util.Locale;
 import java.util.spi.CalendarNameProvider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CalendarNameProvider#getDisplayName(String, int, int, int, Locale) public abstract java.lang.String
+     * {@link java.util.spi.CalendarNameProvider#getDisplayName(String, int, int, int, java.util.Locale) public abstract
+     * java.lang.String
      * java.util.spi.CalendarNameProvider.getDisplayName(java.lang.String,int,int,int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +59,7 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CalendarNameProvider#getDisplayNames(String, int, int, Locale) public abstract
+     * {@link java.util.spi.CalendarNameProvider#getDisplayNames(String, int, int, java.util.Locale) public abstract
      * java.util.Map<java.lang.String, java.lang.Integer>
      * java.util.spi.CalendarNameProvider.getDisplayNames(java.lang.String,int,int,java.util.Locale)}.
      *

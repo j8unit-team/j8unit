@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyOperations#destroy() public abstract void
-     * org.omg.CORBA.PolicyOperations.destroy()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.PolicyOperations#destroy() public
+     * abstract void org.omg.CORBA.PolicyOperations.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyOperations#copy() public abstract
-     * org.omg.CORBA.Policy org.omg.CORBA.PolicyOperations.copy()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.PolicyOperations#copy() public
+     * abstract org.omg.CORBA.Policy org.omg.CORBA.PolicyOperations.copy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyOperations#policy_type() public abstract int
-     * org.omg.CORBA.PolicyOperations.policy_type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.PolicyOperations#policy_type() public
+     * abstract int org.omg.CORBA.PolicyOperations.policy_type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

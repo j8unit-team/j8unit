@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Image;
-import java.net.URL;
 import javax.swing.ImageIcon;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageIcon#ImageIcon(URL) public
-     * javax.swing.ImageIcon(java.net.URL)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ImageIcon#ImageIcon(java.net.URL)
+     * public javax.swing.ImageIcon(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,12 +38,13 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageIcon sut = null; // = new ImageIcon(URL);
+        final ImageIcon sut = null; // = new ImageIcon(java.net.URL);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageIcon#ImageIcon(Image, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.ImageIcon#ImageIcon(java.awt.Image, String) public
      * javax.swing.ImageIcon(java.awt.Image,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +61,13 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageIcon sut = null; // = new ImageIcon(Image, String);
+        final ImageIcon sut = null; // = new ImageIcon(java.awt.Image, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageIcon#ImageIcon(Image) public
-     * javax.swing.ImageIcon(java.awt.Image)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ImageIcon#ImageIcon(java.awt.Image)
+     * public javax.swing.ImageIcon(java.awt.Image)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,13 +83,13 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageIcon sut = null; // = new ImageIcon(Image);
+        final ImageIcon sut = null; // = new ImageIcon(java.awt.Image);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageIcon#ImageIcon(byte[], String) public
-     * javax.swing.ImageIcon(byte[],java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ImageIcon#ImageIcon(byte[], String)
+     * public javax.swing.ImageIcon(byte[],java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,7 +110,7 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageIcon#ImageIcon() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ImageIcon#ImageIcon() public
      * javax.swing.ImageIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,7 +131,7 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageIcon#ImageIcon(byte[]) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ImageIcon#ImageIcon(byte[]) public
      * javax.swing.ImageIcon(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +153,8 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageIcon#ImageIcon(String, String) public
-     * javax.swing.ImageIcon(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ImageIcon#ImageIcon(String, String)
+     * public javax.swing.ImageIcon(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,7 +175,7 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageIcon#ImageIcon(String) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ImageIcon#ImageIcon(String) public
      * javax.swing.ImageIcon(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +197,8 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageIcon#ImageIcon(URL, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.ImageIcon#ImageIcon(java.net.URL, String) public
      * javax.swing.ImageIcon(java.net.URL,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,7 +215,7 @@ implements org.j8unit.repository.javax.swing.ImageIconClassTests<ImageIcon> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageIcon sut = null; // = new ImageIcon(URL, String);
+        final ImageIcon sut = null; // = new ImageIcon(java.net.URL, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ImageIcon]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.sampled;
 
-import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineListener#update(LineEvent) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.LineListener#update(javax.sound.sampled.LineEvent) public abstract void
      * javax.sound.sampled.LineListener.update(javax.sound.sampled.LineEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

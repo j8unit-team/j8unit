@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset;
 
-import java.sql.Savepoint;
 import javax.sql.rowset.JdbcRowSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JdbcRowSet#commit() public abstract void
-     * javax.sql.rowset.JdbcRowSet.commit() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JdbcRowSet#commit() public abstract
+     * void javax.sql.rowset.JdbcRowSet.commit() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JdbcRowSet#getRowSetWarnings() public abstract
-     * javax.sql.rowset.RowSetWarning javax.sql.rowset.JdbcRowSet.getRowSetWarnings() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JdbcRowSet#getRowSetWarnings()
+     * public abstract javax.sql.rowset.RowSetWarning javax.sql.rowset.JdbcRowSet.getRowSetWarnings() throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JdbcRowSet#rollback(Savepoint) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.JdbcRowSet#rollback(java.sql.Savepoint) public abstract void
      * javax.sql.rowset.JdbcRowSet.rollback(java.sql.Savepoint) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +102,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JdbcRowSet#rollback() public abstract void
-     * javax.sql.rowset.JdbcRowSet.rollback() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JdbcRowSet#rollback() public
+     * abstract void javax.sql.rowset.JdbcRowSet.rollback() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JdbcRowSet#setShowDeleted(boolean) public abstract
-     * void javax.sql.rowset.JdbcRowSet.setShowDeleted(boolean) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JdbcRowSet#setShowDeleted(boolean)
+     * public abstract void javax.sql.rowset.JdbcRowSet.setShowDeleted(boolean) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JdbcRowSet#getShowDeleted() public abstract boolean
-     * javax.sql.rowset.JdbcRowSet.getShowDeleted() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JdbcRowSet#getShowDeleted() public
+     * abstract boolean javax.sql.rowset.JdbcRowSet.getShowDeleted() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JdbcRowSet#setAutoCommit(boolean) public abstract
-     * void javax.sql.rowset.JdbcRowSet.setAutoCommit(boolean) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JdbcRowSet#setAutoCommit(boolean)
+     * public abstract void javax.sql.rowset.JdbcRowSet.setAutoCommit(boolean) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +190,8 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JdbcRowSet#getAutoCommit() public abstract boolean
-     * javax.sql.rowset.JdbcRowSet.getAutoCommit() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JdbcRowSet#getAutoCommit() public
+     * abstract boolean javax.sql.rowset.JdbcRowSet.getAutoCommit() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

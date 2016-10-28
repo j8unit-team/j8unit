@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.rmi.UnexpectedExceptionClassTests<Unexpect
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UnexpectedException#UnexpectedException(String)
-     * public java.rmi.UnexpectedException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.UnexpectedException#UnexpectedException(String) public
+     * java.rmi.UnexpectedException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.java.rmi.UnexpectedExceptionClassTests<Unexpect
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnexpectedException#UnexpectedException(String, Exception) public
+     * {@link java.rmi.UnexpectedException#UnexpectedException(String, Exception) public
      * java.rmi.UnexpectedException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.stream;
 
-import javax.xml.stream.Location;
 import javax.xml.stream.XMLReporter;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLReporter#report(String, String, Object, Location)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLReporter#report(String, String, Object, javax.xml.stream.Location) public abstract
+     * void
      * javax.xml.stream.XMLReporter.report(java.lang.String,java.lang.String,java.lang.Object,javax.xml.stream.Location)
      * throws javax.xml.stream.XMLStreamException}.
      *

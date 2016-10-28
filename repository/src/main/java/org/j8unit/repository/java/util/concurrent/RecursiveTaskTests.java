@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RecursiveTask#getRawResult() public final V
-     * java.util.concurrent.RecursiveTask.getRawResult()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.RecursiveTask#getRawResult()
+     * public final V java.util.concurrent.RecursiveTask.getRawResult()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

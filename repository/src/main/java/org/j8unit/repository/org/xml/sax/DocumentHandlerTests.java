@@ -6,9 +6,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.AttributeList;
 import org.xml.sax.DocumentHandler;
-import org.xml.sax.Locator;
 
 /**
  * <p>
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentHandler#setDocumentLocator(Locator) public
-     * abstract void org.xml.sax.DocumentHandler.setDocumentLocator(org.xml.sax.Locator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.DocumentHandler#setDocumentLocator(org.xml.sax.Locator) public abstract void
+     * org.xml.sax.DocumentHandler.setDocumentLocator(org.xml.sax.Locator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +59,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocumentHandler#ignorableWhitespace(char[], int, int) public abstract void
+     * {@link org.xml.sax.DocumentHandler#ignorableWhitespace(char[], int, int) public abstract void
      * org.xml.sax.DocumentHandler.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentHandler#endDocument() public abstract void
-     * org.xml.sax.DocumentHandler.endDocument() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.DocumentHandler#endDocument() public
+     * abstract void org.xml.sax.DocumentHandler.endDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentHandler#startDocument() public abstract void
-     * org.xml.sax.DocumentHandler.startDocument() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.DocumentHandler#startDocument() public
+     * abstract void org.xml.sax.DocumentHandler.startDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +126,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocumentHandler#processingInstruction(String, String) public abstract void
+     * {@link org.xml.sax.DocumentHandler#processingInstruction(String, String) public abstract void
      * org.xml.sax.DocumentHandler.processingInstruction(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
@@ -150,8 +149,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentHandler#characters(char[], int, int) public
-     * abstract void org.xml.sax.DocumentHandler.characters(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.DocumentHandler#characters(char[], int, int) public abstract void
+     * org.xml.sax.DocumentHandler.characters(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +172,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentHandler#endElement(String) public abstract
-     * void org.xml.sax.DocumentHandler.endElement(java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.DocumentHandler#endElement(String)
+     * public abstract void org.xml.sax.DocumentHandler.endElement(java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,8 +194,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentHandler#startElement(String, AttributeList)
-     * public abstract void org.xml.sax.DocumentHandler.startElement(java.lang.String,org.xml.sax.AttributeList) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.DocumentHandler#startElement(String, org.xml.sax.AttributeList) public abstract void
+     * org.xml.sax.DocumentHandler.startElement(java.lang.String,org.xml.sax.AttributeList) throws
      * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

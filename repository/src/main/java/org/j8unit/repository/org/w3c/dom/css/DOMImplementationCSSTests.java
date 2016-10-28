@@ -35,7 +35,8 @@ extends org.j8unit.repository.org.w3c.dom.DOMImplementationTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DOMImplementationCSS#createCSSStyleSheet(String, String) public abstract org.w3c.dom.css.CSSStyleSheet
+     * {@link org.w3c.dom.css.DOMImplementationCSS#createCSSStyleSheet(String, String) public abstract
+     * org.w3c.dom.css.CSSStyleSheet
      * org.w3c.dom.css.DOMImplementationCSS.createCSSStyleSheet(java.lang.String,java.lang.String) throws
      * org.w3c.dom.DOMException}.
      *

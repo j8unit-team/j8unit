@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.spi;
 
-import java.io.File;
 import javax.imageio.spi.ImageInputStreamSpi;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageInputStreamSpi#createInputStreamInstance(Object, boolean, File) public abstract
-     * javax.imageio.stream.ImageInputStream
+     * {@link javax.imageio.spi.ImageInputStreamSpi#createInputStreamInstance(Object, boolean, java.io.File) public
+     * abstract javax.imageio.stream.ImageInputStream
      * javax.imageio.spi.ImageInputStreamSpi.createInputStreamInstance(java.lang.Object,boolean,java.io.File) throws
      * java.io.IOException}.
      *
@@ -61,7 +60,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageInputStreamSpi#createInputStreamInstance(Object) public javax.imageio.stream.ImageInputStream
+     * {@link javax.imageio.spi.ImageInputStreamSpi#createInputStreamInstance(Object) public
+     * javax.imageio.stream.ImageInputStream
      * javax.imageio.spi.ImageInputStreamSpi.createInputStreamInstance(java.lang.Object) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +83,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageInputStreamSpi#needsCacheFile() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageInputStreamSpi#needsCacheFile() public boolean
      * javax.imageio.spi.ImageInputStreamSpi.needsCacheFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +106,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageInputStreamSpi#canUseCacheFile() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageInputStreamSpi#canUseCacheFile() public boolean
      * javax.imageio.spi.ImageInputStreamSpi.canUseCacheFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +129,9 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageInputStreamSpi#getInputClass() public
-     * java.lang.Class<?> javax.imageio.spi.ImageInputStreamSpi.getInputClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageInputStreamSpi#getInputClass() public java.lang.Class
+     * <?> javax.imageio.spi.ImageInputStreamSpi.getInputClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

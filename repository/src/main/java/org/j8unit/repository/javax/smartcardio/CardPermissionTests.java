@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.smartcardio;
 
-import java.security.Permission;
 import javax.smartcardio.CardPermission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardPermission#hashCode() public int
-     * javax.smartcardio.CardPermission.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardPermission#hashCode() public
+     * int javax.smartcardio.CardPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardPermission#equals(Object) public boolean
-     * javax.smartcardio.CardPermission.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardPermission#equals(Object)
+     * public boolean javax.smartcardio.CardPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardPermission#getActions() public java.lang.String
-     * javax.smartcardio.CardPermission.getActions()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardPermission#getActions() public
+     * java.lang.String javax.smartcardio.CardPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +103,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CardPermission#implies(Permission) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.smartcardio.CardPermission#implies(java.security.Permission) public boolean
      * javax.smartcardio.CardPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.directory.AttributeModificationExc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributeModificationException#AttributeModificationException(String) public
+     * {@link javax.naming.directory.AttributeModificationException#AttributeModificationException(String) public
      * javax.naming.directory.AttributeModificationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.naming.directory.AttributeModificationExc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributeModificationException#AttributeModificationException() public
+     * {@link javax.naming.directory.AttributeModificationException#AttributeModificationException() public
      * javax.naming.directory.AttributeModificationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

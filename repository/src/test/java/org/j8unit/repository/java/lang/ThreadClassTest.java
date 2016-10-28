@@ -218,7 +218,7 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Thread#setDefaultUncaughtExceptionHandler(UncaughtExceptionHandler) public static void
+     * {@link Thread#setDefaultUncaughtExceptionHandler(Thread.UncaughtExceptionHandler) public static void
      * java.lang.Thread.setDefaultUncaughtExceptionHandler(java.lang.Thread$UncaughtExceptionHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,7 +233,7 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
     @Category(Draft.class)
     public void test_setDefaultUncaughtExceptionHandler_UncaughtExceptionHandler()
     throws Exception {
-        // write some test for {@link Thread#setDefaultUncaughtExceptionHandler(UncaughtExceptionHandler)}
+        // write some test for {@link Thread#setDefaultUncaughtExceptionHandler(Thread.UncaughtExceptionHandler)}
     }
 
     /**
@@ -451,7 +451,7 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link State#values() public static
+         * Test method for the hereby targeted method-under-test {@link Thread.State#values() public static
          * java.lang.Thread$State[] java.lang.Thread$State.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -466,12 +466,12 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link State#values()}
+            // write some test for {@link Thread.State#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link State#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test {@link Thread.State#valueOf(String) public static
          * java.lang.Thread$State java.lang.Thread$State.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -486,7 +486,7 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link State#valueOf(String)}
+            // write some test for {@link Thread.State#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread$State]

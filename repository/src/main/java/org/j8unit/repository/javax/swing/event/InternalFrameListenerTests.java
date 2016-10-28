@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.event.InternalFrameEvent;
 import javax.swing.event.InternalFrameListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InternalFrameListener#internalFrameIconified(InternalFrameEvent) public abstract void
+     * {@link javax.swing.event.InternalFrameListener#internalFrameIconified(javax.swing.event.InternalFrameEvent)
+     * public abstract void
      * javax.swing.event.InternalFrameListener.internalFrameIconified(javax.swing.event.InternalFrameEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +59,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InternalFrameListener#internalFrameDeiconified(InternalFrameEvent) public abstract void
+     * {@link javax.swing.event.InternalFrameListener#internalFrameDeiconified(javax.swing.event.InternalFrameEvent)
+     * public abstract void
      * javax.swing.event.InternalFrameListener.internalFrameDeiconified(javax.swing.event.InternalFrameEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +83,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InternalFrameListener#internalFrameClosing(InternalFrameEvent) public abstract void
-     * javax.swing.event.InternalFrameListener.internalFrameClosing(javax.swing.event.InternalFrameEvent)}.
+     * {@link javax.swing.event.InternalFrameListener#internalFrameClosing(javax.swing.event.InternalFrameEvent) public
+     * abstract void javax.swing.event.InternalFrameListener.internalFrameClosing(javax.swing.event.InternalFrameEvent)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +107,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InternalFrameListener#internalFrameOpened(InternalFrameEvent) public abstract void
-     * javax.swing.event.InternalFrameListener.internalFrameOpened(javax.swing.event.InternalFrameEvent)}.
+     * {@link javax.swing.event.InternalFrameListener#internalFrameOpened(javax.swing.event.InternalFrameEvent) public
+     * abstract void javax.swing.event.InternalFrameListener.internalFrameOpened(javax.swing.event.InternalFrameEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +130,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InternalFrameListener#internalFrameActivated(InternalFrameEvent) public abstract void
+     * {@link javax.swing.event.InternalFrameListener#internalFrameActivated(javax.swing.event.InternalFrameEvent)
+     * public abstract void
      * javax.swing.event.InternalFrameListener.internalFrameActivated(javax.swing.event.InternalFrameEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,7 +154,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InternalFrameListener#internalFrameDeactivated(InternalFrameEvent) public abstract void
+     * {@link javax.swing.event.InternalFrameListener#internalFrameDeactivated(javax.swing.event.InternalFrameEvent)
+     * public abstract void
      * javax.swing.event.InternalFrameListener.internalFrameDeactivated(javax.swing.event.InternalFrameEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +178,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InternalFrameListener#internalFrameClosed(InternalFrameEvent) public abstract void
-     * javax.swing.event.InternalFrameListener.internalFrameClosed(javax.swing.event.InternalFrameEvent)}.
+     * {@link javax.swing.event.InternalFrameListener#internalFrameClosed(javax.swing.event.InternalFrameEvent) public
+     * abstract void javax.swing.event.InternalFrameListener.internalFrameClosed(javax.swing.event.InternalFrameEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

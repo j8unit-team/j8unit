@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.sql.ClientInfoStatusClassTests<ClientInfoS
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClientInfoStatus#valueOf(String) public static
-     * java.sql.ClientInfoStatus java.sql.ClientInfoStatus.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ClientInfoStatus#valueOf(String) public
+     * static java.sql.ClientInfoStatus java.sql.ClientInfoStatus.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.sql.ClientInfoStatusClassTests<ClientInfoS
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link ClientInfoStatus#valueOf(String)}
+        // write some test for {@link java.sql.ClientInfoStatus#valueOf(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClientInfoStatus#values() public static
+     * Test method for the hereby targeted method-under-test {@link java.sql.ClientInfoStatus#values() public static
      * java.sql.ClientInfoStatus[] java.sql.ClientInfoStatus.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.sql.ClientInfoStatusClassTests<ClientInfoS
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link ClientInfoStatus#values()}
+        // write some test for {@link java.sql.ClientInfoStatus#values()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.ClientInfoStatus]

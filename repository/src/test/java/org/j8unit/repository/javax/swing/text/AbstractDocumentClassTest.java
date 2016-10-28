@@ -9,8 +9,6 @@ import javax.swing.text.AbstractDocument.Content;
 import javax.swing.text.AbstractDocument.DefaultDocumentEvent;
 import javax.swing.text.AbstractDocument.ElementEdit;
 import javax.swing.text.AbstractDocument.LeafElement;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.Element;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -32,21 +30,22 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<Abs
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument]
 
     @RunWith(J8Unit4.class)
-    public static class DefaultDocumentEventClassTest
-    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.DefaultDocumentEventClassTests<DefaultDocumentEvent> {
+    public static class LeafElementClassTest
+    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.LeafElementClassTests<LeafElement> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$DefaultDocumentEvent]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$LeafElement]
 
         @Override
-        public Class<DefaultDocumentEvent> createNewSUT() {
-            return DefaultDocumentEvent.class;
+        public Class<LeafElement> createNewSUT() {
+            return LeafElement.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link DefaultDocumentEvent#DefaultDocumentEvent(AbstractDocument, int, int, EventType) public
-         * javax.swing.text.AbstractDocument$DefaultDocumentEvent(javax.swing.text.AbstractDocument,int,int,javax.swing.event.DocumentEvent$EventType)}
+         * {@link javax.swing.text.AbstractDocument.LeafElement#LeafElement(javax.swing.text.AbstractDocument, javax.swing.text.Element, javax.swing.text.AttributeSet, int, int)
+         * public
+         * javax.swing.text.AbstractDocument$LeafElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)}
          * .
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,53 +58,45 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<Abs
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_DefaultDocumentEvent_AbstractDocument_int_int_EventType()
+        public void create_LeafElement_AbstractDocument_Element_AttributeSet_int_int()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final DefaultDocumentEvent sut = null; // = new DefaultDocumentEvent(AbstractDocument, int, int, EventType);
+            final LeafElement sut = null; // = new LeafElement(javax.swing.text.AbstractDocument,
+                                          // javax.swing.text.Element, javax.swing.text.AttributeSet, int, int);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$DefaultDocumentEvent]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$LeafElement]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class ElementEditClassTest
-    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.ElementEditClassTests<ElementEdit> {
+    public static class AttributeContextClassTest
+    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeContextClassTests<AttributeContext> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$ElementEdit]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$AttributeContext]
 
         @Override
-        public Class<ElementEdit> createNewSUT() {
-            return ElementEdit.class;
+        public Class<AttributeContext> createNewSUT() {
+            return AttributeContext.class;
         }
 
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link ElementEdit#ElementEdit(Element, int, Element[], Element[]) public
-         * javax.swing.text.AbstractDocument$ElementEdit(javax.swing.text.Element,int,javax.swing.text.Element[],javax.swing.text.Element[])}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ElementEdit_Element_int_ElementArray_ElementArray()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ElementEdit sut = null; // = new ElementEdit(Element, int, Element[], Element[]);
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$AttributeContext]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ContentClassTest
+    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.ContentClassTests<Content> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$Content]
+
+        @Override
+        public Class<Content> createNewSUT() {
+            return Content.class;
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$ElementEdit]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$Content]
 
     }
 
@@ -123,7 +114,8 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<Abs
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link BranchElement#BranchElement(AbstractDocument, Element, AttributeSet) public
+         * {@link javax.swing.text.AbstractDocument.BranchElement#BranchElement(javax.swing.text.AbstractDocument, javax.swing.text.Element, javax.swing.text.AttributeSet)
+         * public
          * javax.swing.text.AbstractDocument$BranchElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)}
          * .
          *
@@ -141,10 +133,52 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<Abs
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final BranchElement sut = null; // = new BranchElement(AbstractDocument, Element, AttributeSet);
+            final BranchElement sut = null; // = new BranchElement(javax.swing.text.AbstractDocument,
+                                            // javax.swing.text.Element, javax.swing.text.AttributeSet);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$BranchElement]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ElementEditClassTest
+    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.ElementEditClassTests<ElementEdit> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$ElementEdit]
+
+        @Override
+        public Class<ElementEdit> createNewSUT() {
+            return ElementEdit.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.AbstractDocument.ElementEdit#ElementEdit(javax.swing.text.Element, int, javax.swing.text.Element[], javax.swing.text.Element[])
+         * public
+         * javax.swing.text.AbstractDocument$ElementEdit(javax.swing.text.Element,int,javax.swing.text.Element[],javax.swing.text.Element[])}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ElementEdit_Element_int_ElementArray_ElementArray()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ElementEdit sut = null; // = new ElementEdit(javax.swing.text.Element, int,
+                                          // javax.swing.text.Element[], javax.swing.text.Element[]);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$ElementEdit]
 
     }
 
@@ -162,7 +196,8 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<Abs
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link AbstractElement#AbstractElement(AbstractDocument, Element, AttributeSet) public
+         * {@link javax.swing.text.AbstractDocument.AbstractElement#AbstractElement(javax.swing.text.AbstractDocument, javax.swing.text.Element, javax.swing.text.AttributeSet)
+         * public
          * javax.swing.text.AbstractDocument$AbstractElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)}
          * .
          *
@@ -186,36 +221,22 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<Abs
     }
 
     @RunWith(J8Unit4.class)
-    public static class AttributeContextClassTest
-    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeContextClassTests<AttributeContext> {
+    public static class DefaultDocumentEventClassTest
+    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.DefaultDocumentEventClassTests<DefaultDocumentEvent> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$AttributeContext]
-
-        @Override
-        public Class<AttributeContext> createNewSUT() {
-            return AttributeContext.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$AttributeContext]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class LeafElementClassTest
-    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.LeafElementClassTests<LeafElement> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$LeafElement]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$DefaultDocumentEvent]
 
         @Override
-        public Class<LeafElement> createNewSUT() {
-            return LeafElement.class;
+        public Class<DefaultDocumentEvent> createNewSUT() {
+            return DefaultDocumentEvent.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link LeafElement#LeafElement(AbstractDocument, Element, AttributeSet, int, int) public
-         * javax.swing.text.AbstractDocument$LeafElement(javax.swing.text.AbstractDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)}
+         * {@link javax.swing.text.AbstractDocument.DefaultDocumentEvent#DefaultDocumentEvent(javax.swing.text.AbstractDocument, int, int, javax.swing.event.DocumentEvent.EventType)
+         * public
+         * javax.swing.text.AbstractDocument$DefaultDocumentEvent(javax.swing.text.AbstractDocument,int,int,javax.swing.event.DocumentEvent$EventType)}
          * .
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -228,29 +249,15 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<Abs
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_LeafElement_AbstractDocument_Element_AttributeSet_int_int()
+        public void create_DefaultDocumentEvent_AbstractDocument_int_int_EventType()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final LeafElement sut = null; // = new LeafElement(AbstractDocument, Element, AttributeSet, int, int);
+            final DefaultDocumentEvent sut = null; // = new DefaultDocumentEvent(javax.swing.text.AbstractDocument, int,
+                                                   // int, javax.swing.event.DocumentEvent.EventType);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$LeafElement]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ContentClassTest
-    implements org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.ContentClassTests<Content> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$Content]
-
-        @Override
-        public Class<Content> createNewSUT() {
-            return Content.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$Content]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractDocument$DefaultDocumentEvent]
 
     }
 

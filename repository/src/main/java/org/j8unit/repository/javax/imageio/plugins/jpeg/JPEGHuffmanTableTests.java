@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGHuffmanTable#getValues() public short[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGHuffmanTable#getValues() public short[]
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable.getValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGHuffmanTable#getLengths() public short[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGHuffmanTable#getLengths() public short[]
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable.getLengths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGHuffmanTable#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGHuffmanTable#toString() public java.lang.String
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

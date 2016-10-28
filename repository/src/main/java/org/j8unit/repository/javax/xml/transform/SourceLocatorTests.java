@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SourceLocator#getSystemId() public abstract
-     * java.lang.String javax.xml.transform.SourceLocator.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.SourceLocator#getSystemId()
+     * public abstract java.lang.String javax.xml.transform.SourceLocator.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SourceLocator#getLineNumber() public abstract int
-     * javax.xml.transform.SourceLocator.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.SourceLocator#getLineNumber()
+     * public abstract int javax.xml.transform.SourceLocator.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SourceLocator#getColumnNumber() public abstract int
-     * javax.xml.transform.SourceLocator.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.SourceLocator#getColumnNumber()
+     * public abstract int javax.xml.transform.SourceLocator.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SourceLocator#getPublicId() public abstract
-     * java.lang.String javax.xml.transform.SourceLocator.getPublicId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.SourceLocator#getPublicId()
+     * public abstract java.lang.String javax.xml.transform.SourceLocator.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

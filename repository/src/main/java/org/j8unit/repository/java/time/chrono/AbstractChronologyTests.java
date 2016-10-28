@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
 import java.time.chrono.AbstractChronology;
-import java.time.chrono.Chronology;
-import java.time.format.ResolverStyle;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractChronology#toString() public
-     * java.lang.String java.time.chrono.AbstractChronology.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.AbstractChronology#toString()
+     * public java.lang.String java.time.chrono.AbstractChronology.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +57,8 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractChronology#compareTo(Chronology) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.AbstractChronology#compareTo(java.time.chrono.Chronology) public int
      * java.time.chrono.AbstractChronology.compareTo(java.time.chrono.Chronology)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +81,8 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractChronology#hashCode() public int
-     * java.time.chrono.AbstractChronology.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.AbstractChronology#hashCode()
+     * public int java.time.chrono.AbstractChronology.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +104,8 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractChronology#equals(Object) public boolean
-     * java.time.chrono.AbstractChronology.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.AbstractChronology#equals(Object)
+     * public boolean java.time.chrono.AbstractChronology.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +127,9 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractChronology#resolveDate(Map, ResolverStyle)
-     * public java.time.chrono.ChronoLocalDate
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.AbstractChronology#resolveDate(java.util.Map, java.time.format.ResolverStyle) public
+     * java.time.chrono.ChronoLocalDate
      * java.time.chrono.AbstractChronology.resolveDate(java.util.Map<java.time.temporal.TemporalField,
      * java.lang.Long>,java.time.format.ResolverStyle)}.
      *

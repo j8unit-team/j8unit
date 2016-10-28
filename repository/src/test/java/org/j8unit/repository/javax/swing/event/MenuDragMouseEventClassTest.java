@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import java.awt.Component;
-import javax.swing.MenuElement;
-import javax.swing.MenuSelectionManager;
 import javax.swing.event.MenuDragMouseEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +22,7 @@ implements org.j8unit.repository.javax.swing.event.MenuDragMouseEventClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MenuDragMouseEvent#MenuDragMouseEvent(Component, int, long, int, int, int, int, boolean, MenuElement[], MenuSelectionManager)
+     * {@link javax.swing.event.MenuDragMouseEvent#MenuDragMouseEvent(java.awt.Component, int, long, int, int, int, int, boolean, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public
      * javax.swing.event.MenuDragMouseEvent(java.awt.Component,int,long,int,int,int,int,boolean,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
@@ -44,14 +41,15 @@ implements org.j8unit.repository.javax.swing.event.MenuDragMouseEventClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MenuDragMouseEvent sut = null; // = new MenuDragMouseEvent(Component, int, long, int, int, int, int,
-                                             // boolean, MenuElement[], MenuSelectionManager);
+        final MenuDragMouseEvent sut = null; // = new MenuDragMouseEvent(java.awt.Component, int, long, int, int, int,
+                                             // int, boolean, javax.swing.MenuElement[],
+                                             // javax.swing.MenuSelectionManager);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MenuDragMouseEvent#MenuDragMouseEvent(Component, int, long, int, int, int, int, int, int, boolean, MenuElement[], MenuSelectionManager)
+     * {@link javax.swing.event.MenuDragMouseEvent#MenuDragMouseEvent(java.awt.Component, int, long, int, int, int, int, int, int, boolean, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public
      * javax.swing.event.MenuDragMouseEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
@@ -70,8 +68,9 @@ implements org.j8unit.repository.javax.swing.event.MenuDragMouseEventClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MenuDragMouseEvent sut = null; // = new MenuDragMouseEvent(Component, int, long, int, int, int, int, int,
-                                             // int, boolean, MenuElement[], MenuSelectionManager);
+        final MenuDragMouseEvent sut = null; // = new MenuDragMouseEvent(java.awt.Component, int, long, int, int, int,
+                                             // int, int, int, boolean, javax.swing.MenuElement[],
+                                             // javax.swing.MenuSelectionManager);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.MenuDragMouseEvent]

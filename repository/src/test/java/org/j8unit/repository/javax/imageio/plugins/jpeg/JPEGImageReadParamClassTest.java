@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageReadParamCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JPEGImageReadParam#JPEGImageReadParam() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#JPEGImageReadParam() public
      * javax.imageio.plugins.jpeg.JPEGImageReadParam()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

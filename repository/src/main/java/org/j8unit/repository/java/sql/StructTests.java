@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.sql;
 
 import java.sql.Struct;
-import java.util.Map;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,9 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Struct#getAttributes(Map) public abstract
-     * java.lang.Object[] java.sql.Struct.getAttributes(java.util.Map<java.lang.String, java.lang.Class<?>>) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Struct#getAttributes(java.util.Map) public
+     * abstract java.lang.Object[] java.sql.Struct.getAttributes(java.util.Map<java.lang.String, java.lang.Class<?>>)
+     * throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Struct#getAttributes() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Struct#getAttributes() public abstract
      * java.lang.Object[] java.sql.Struct.getAttributes() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Struct#getSQLTypeName() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Struct#getSQLTypeName() public abstract
      * java.lang.String java.sql.Struct.getSQLTypeName() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

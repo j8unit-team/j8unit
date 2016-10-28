@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
-import javax.swing.JMenu;
 import javax.swing.plaf.basic.BasicMenuUI;
 import javax.swing.plaf.basic.BasicMenuUI.ChangeHandler;
 import org.j8unit.repository.categories.Draft;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<Ba
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicMenuUI#BasicMenuUI() public
-     * javax.swing.plaf.basic.BasicMenuUI()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicMenuUI#BasicMenuUI() public javax.swing.plaf.basic.BasicMenuUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +43,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<Ba
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicMenuUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicMenuUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicMenuUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<Ba
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link BasicMenuUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.basic.BasicMenuUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI]
@@ -79,7 +78,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<Ba
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link ChangeHandler#ChangeHandler(BasicMenuUI, JMenu, BasicMenuUI) public
+         * {@link javax.swing.plaf.basic.BasicMenuUI.ChangeHandler#ChangeHandler(javax.swing.plaf.basic.BasicMenuUI, javax.swing.JMenu, javax.swing.plaf.basic.BasicMenuUI)
+         * public
          * javax.swing.plaf.basic.BasicMenuUI$ChangeHandler(javax.swing.plaf.basic.BasicMenuUI,javax.swing.JMenu,javax.swing.plaf.basic.BasicMenuUI)}
          * .
          *
@@ -97,7 +97,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<Ba
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final ChangeHandler sut = null; // = new ChangeHandler(BasicMenuUI, JMenu, BasicMenuUI);
+            final ChangeHandler sut = null; // = new ChangeHandler(javax.swing.plaf.basic.BasicMenuUI,
+                                            // javax.swing.JMenu, javax.swing.plaf.basic.BasicMenuUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI$ChangeHandler]

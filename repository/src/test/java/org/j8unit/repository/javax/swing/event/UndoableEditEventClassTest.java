@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.event;
 
 import javax.swing.event.UndoableEditEvent;
-import javax.swing.undo.UndoableEdit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.event.UndoableEditEventClassTests<U
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UndoableEditEvent#UndoableEditEvent(Object, UndoableEdit) public
+     * {@link javax.swing.event.UndoableEditEvent#UndoableEditEvent(Object, javax.swing.undo.UndoableEdit) public
      * javax.swing.event.UndoableEditEvent(java.lang.Object,javax.swing.undo.UndoableEdit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.swing.event.UndoableEditEventClassTests<U
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UndoableEditEvent sut = null; // = new UndoableEditEvent(Object, UndoableEdit);
+        final UndoableEditEvent sut = null; // = new UndoableEditEvent(Object, javax.swing.undo.UndoableEdit);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.UndoableEditEvent]

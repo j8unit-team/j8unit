@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import java.awt.Component;
-import javax.swing.MenuElement;
-import javax.swing.MenuSelectionManager;
 import javax.swing.event.MenuKeyEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +22,7 @@ implements org.j8unit.repository.javax.swing.event.MenuKeyEventClassTests<MenuKe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MenuKeyEvent#MenuKeyEvent(Component, int, long, int, int, char, MenuElement[], MenuSelectionManager)
+     * {@link javax.swing.event.MenuKeyEvent#MenuKeyEvent(java.awt.Component, int, long, int, int, char, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public
      * javax.swing.event.MenuKeyEvent(java.awt.Component,int,long,int,int,char,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
@@ -44,8 +41,8 @@ implements org.j8unit.repository.javax.swing.event.MenuKeyEventClassTests<MenuKe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MenuKeyEvent sut = null; // = new MenuKeyEvent(Component, int, long, int, int, char, MenuElement[],
-                                       // MenuSelectionManager);
+        final MenuKeyEvent sut = null; // = new MenuKeyEvent(java.awt.Component, int, long, int, int, char,
+                                       // javax.swing.MenuElement[], javax.swing.MenuSelectionManager);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.MenuKeyEvent]

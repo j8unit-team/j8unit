@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.text.BadLocationExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BadLocationException#BadLocationException(String, int) public
+     * {@link javax.swing.text.BadLocationException#BadLocationException(String, int) public
      * javax.swing.text.BadLocationException(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

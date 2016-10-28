@@ -1,7 +1,5 @@
 package org.j8unit.repository.org.xml.sax;
 
-import java.io.InputStream;
-import java.io.Reader;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.org.xml.sax.InputSourceClassTests<InputSource> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InputSource#InputSource(Reader) public
-     * org.xml.sax.InputSource(java.io.Reader)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.InputSource#InputSource(java.io.Reader) public org.xml.sax.InputSource(java.io.Reader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,12 +38,13 @@ implements org.j8unit.repository.org.xml.sax.InputSourceClassTests<InputSource> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputSource sut = null; // = new InputSource(Reader);
+        final InputSource sut = null; // = new InputSource(java.io.Reader);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InputSource#InputSource(InputStream) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.InputSource#InputSource(java.io.InputStream) public
      * org.xml.sax.InputSource(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +61,13 @@ implements org.j8unit.repository.org.xml.sax.InputSourceClassTests<InputSource> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputSource sut = null; // = new InputSource(InputStream);
+        final InputSource sut = null; // = new InputSource(java.io.InputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InputSource#InputSource(String) public
-     * org.xml.sax.InputSource(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.xml.sax.InputSource#InputSource(String)
+     * public org.xml.sax.InputSource(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,7 +88,7 @@ implements org.j8unit.repository.org.xml.sax.InputSourceClassTests<InputSource> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InputSource#InputSource() public
+     * Test method for the hereby targeted constructor-under-test {@link org.xml.sax.InputSource#InputSource() public
      * org.xml.sax.InputSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.AlgorithmParameterGenerator;
-import java.security.Provider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.security.AlgorithmParameterGeneratorClassT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AlgorithmParameterGenerator#getInstance(String, Provider) public static
+     * {@link java.security.AlgorithmParameterGenerator#getInstance(String, java.security.Provider) public static
      * java.security.AlgorithmParameterGenerator
      * java.security.AlgorithmParameterGenerator.getInstance(java.lang.String,java.security.Provider) throws
      * java.security.NoSuchAlgorithmException}.
@@ -40,13 +39,14 @@ implements org.j8unit.repository.java.security.AlgorithmParameterGeneratorClassT
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link AlgorithmParameterGenerator#getInstance(String, Provider)}
+        // write some test for {@link java.security.AlgorithmParameterGenerator#getInstance(String,
+        // java.security.Provider)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AlgorithmParameterGenerator#getInstance(String, String) public static
+     * {@link java.security.AlgorithmParameterGenerator#getInstance(String, String) public static
      * java.security.AlgorithmParameterGenerator
      * java.security.AlgorithmParameterGenerator.getInstance(java.lang.String,java.lang.String) throws
      * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
@@ -63,15 +63,15 @@ implements org.j8unit.repository.java.security.AlgorithmParameterGeneratorClassT
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link AlgorithmParameterGenerator#getInstance(String, String)}
+        // write some test for {@link java.security.AlgorithmParameterGenerator#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameterGenerator#getInstance(String)
-     * public static java.security.AlgorithmParameterGenerator
-     * java.security.AlgorithmParameterGenerator.getInstance(java.lang.String) throws
-     * java.security.NoSuchAlgorithmException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AlgorithmParameterGenerator#getInstance(String) public static
+     * java.security.AlgorithmParameterGenerator java.security.AlgorithmParameterGenerator.getInstance(java.lang.String)
+     * throws java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +85,7 @@ implements org.j8unit.repository.java.security.AlgorithmParameterGeneratorClassT
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link AlgorithmParameterGenerator#getInstance(String)}
+        // write some test for {@link java.security.AlgorithmParameterGenerator#getInstance(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AlgorithmParameterGenerator]

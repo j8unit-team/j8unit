@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustAnchor#getCAPublicKey() public final
-     * java.security.PublicKey java.security.cert.TrustAnchor.getCAPublicKey()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.TrustAnchor#getCAPublicKey()
+     * public final java.security.PublicKey java.security.cert.TrustAnchor.getCAPublicKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustAnchor#getCA() public final
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.TrustAnchor#getCA() public final
      * javax.security.auth.x500.X500Principal java.security.cert.TrustAnchor.getCA()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustAnchor#getNameConstraints() public final byte[]
-     * java.security.cert.TrustAnchor.getNameConstraints()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.TrustAnchor#getNameConstraints()
+     * public final byte[] java.security.cert.TrustAnchor.getNameConstraints()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustAnchor#toString() public java.lang.String
-     * java.security.cert.TrustAnchor.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.TrustAnchor#toString() public
+     * java.lang.String java.security.cert.TrustAnchor.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustAnchor#getTrustedCert() public final
-     * java.security.cert.X509Certificate java.security.cert.TrustAnchor.getTrustedCert()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.TrustAnchor#getTrustedCert()
+     * public final java.security.cert.X509Certificate java.security.cert.TrustAnchor.getTrustedCert()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustAnchor#getCAName() public final
-     * java.lang.String java.security.cert.TrustAnchor.getCAName()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.TrustAnchor#getCAName() public
+     * final java.lang.String java.security.cert.TrustAnchor.getCAName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

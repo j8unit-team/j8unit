@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalSplitPaneUI#createDefaultDivider() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalSplitPaneUI#createDefaultDivider() public
      * javax.swing.plaf.basic.BasicSplitPaneDivider javax.swing.plaf.metal.MetalSplitPaneUI.createDefaultDivider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

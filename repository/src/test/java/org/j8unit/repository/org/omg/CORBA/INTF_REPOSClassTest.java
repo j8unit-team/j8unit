@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.INTF_REPOS;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.INTF_REPOSClassTests<INTF_REPOS> 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link INTF_REPOS#INTF_REPOS(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.INTF_REPOS#INTF_REPOS(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.INTF_REPOS(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,14 @@ implements org.j8unit.repository.org.omg.CORBA.INTF_REPOSClassTests<INTF_REPOS> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final INTF_REPOS sut = null; // = new INTF_REPOS(String, int, CompletionStatus);
+        final INTF_REPOS sut = null; // = new INTF_REPOS(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INTF_REPOS#INTF_REPOS(int, CompletionStatus)
-     * public org.omg.CORBA.INTF_REPOS(int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.INTF_REPOS#INTF_REPOS(int, org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.INTF_REPOS(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +62,13 @@ implements org.j8unit.repository.org.omg.CORBA.INTF_REPOSClassTests<INTF_REPOS> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final INTF_REPOS sut = null; // = new INTF_REPOS(int, CompletionStatus);
+        final INTF_REPOS sut = null; // = new INTF_REPOS(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INTF_REPOS#INTF_REPOS(String) public
-     * org.omg.CORBA.INTF_REPOS(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.INTF_REPOS#INTF_REPOS(String)
+     * public org.omg.CORBA.INTF_REPOS(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,7 +89,7 @@ implements org.j8unit.repository.org.omg.CORBA.INTF_REPOSClassTests<INTF_REPOS> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INTF_REPOS#INTF_REPOS() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.INTF_REPOS#INTF_REPOS() public
      * org.omg.CORBA.INTF_REPOS()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

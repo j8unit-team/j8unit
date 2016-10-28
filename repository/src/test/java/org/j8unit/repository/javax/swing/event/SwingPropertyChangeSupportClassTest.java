@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.event.SwingPropertyChangeSupportCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SwingPropertyChangeSupport#SwingPropertyChangeSupport(Object) public
+     * {@link javax.swing.event.SwingPropertyChangeSupport#SwingPropertyChangeSupport(Object) public
      * javax.swing.event.SwingPropertyChangeSupport(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.swing.event.SwingPropertyChangeSupportCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SwingPropertyChangeSupport#SwingPropertyChangeSupport(Object, boolean) public
+     * {@link javax.swing.event.SwingPropertyChangeSupport#SwingPropertyChangeSupport(Object, boolean) public
      * javax.swing.event.SwingPropertyChangeSupport(java.lang.Object,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

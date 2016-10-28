@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.lang.invoke;
 
-import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
 import java.lang.invoke.VolatileCallSite;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.java.lang.invoke.VolatileCallSiteClassTests<Vol
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link VolatileCallSite#VolatileCallSite(MethodType)
-     * public java.lang.invoke.VolatileCallSite(java.lang.invoke.MethodType)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.lang.invoke.VolatileCallSite#VolatileCallSite(java.lang.invoke.MethodType) public
+     * java.lang.invoke.VolatileCallSite(java.lang.invoke.MethodType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,14 @@ implements org.j8unit.repository.java.lang.invoke.VolatileCallSiteClassTests<Vol
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final VolatileCallSite sut = null; // = new VolatileCallSite(MethodType);
+        final VolatileCallSite sut = null; // = new VolatileCallSite(java.lang.invoke.MethodType);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link VolatileCallSite#VolatileCallSite(MethodHandle)
-     * public java.lang.invoke.VolatileCallSite(java.lang.invoke.MethodHandle)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.lang.invoke.VolatileCallSite#VolatileCallSite(java.lang.invoke.MethodHandle) public
+     * java.lang.invoke.VolatileCallSite(java.lang.invoke.MethodHandle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +62,7 @@ implements org.j8unit.repository.java.lang.invoke.VolatileCallSiteClassTests<Vol
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final VolatileCallSite sut = null; // = new VolatileCallSite(MethodHandle);
+        final VolatileCallSite sut = null; // = new VolatileCallSite(java.lang.invoke.MethodHandle);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.VolatileCallSite]

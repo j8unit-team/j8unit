@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#ready() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#ready() public boolean
      * java.io.PushbackReader.ready() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#markSupported() public boolean
-     * java.io.PushbackReader.markSupported()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#markSupported() public
+     * boolean java.io.PushbackReader.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#unread(char[], int, int) public void
-     * java.io.PushbackReader.unread(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#unread(char[], int, int)
+     * public void java.io.PushbackReader.unread(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#unread(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#unread(int) public void
      * java.io.PushbackReader.unread(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#unread(char[]) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#unread(char[]) public void
      * java.io.PushbackReader.unread(char[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#read(char[], int, int) public int
-     * java.io.PushbackReader.read(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#read(char[], int, int) public
+     * int java.io.PushbackReader.read(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +169,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#read() public int
      * java.io.PushbackReader.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,7 +192,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#mark(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#mark(int) public void
      * java.io.PushbackReader.mark(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,7 +215,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#close() public void
      * java.io.PushbackReader.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,7 +238,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#skip(long) public long
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#skip(long) public long
      * java.io.PushbackReader.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,7 +261,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PushbackReader#reset() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PushbackReader#reset() public void
      * java.io.PushbackReader.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

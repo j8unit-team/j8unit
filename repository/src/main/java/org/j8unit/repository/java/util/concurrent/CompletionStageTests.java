@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.CompletionStage;
-import java.util.concurrent.Executor;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.Function;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -41,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#thenCombine(CompletionStage, BiFunction) public abstract
-     * <U,V> java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#thenCombine(java.util.concurrent.CompletionStage, java.util.function.BiFunction)
+     * public abstract <U,V> java.util.concurrent.CompletionStage
      * <V> java.util.concurrent.CompletionStage.thenCombine(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>)}.
      *
@@ -65,8 +60,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#toCompletableFuture() public
-     * abstract java.util.concurrent.CompletableFuture<T> java.util.concurrent.CompletionStage.toCompletableFuture()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#toCompletableFuture() public abstract
+     * java.util.concurrent.CompletableFuture<T> java.util.concurrent.CompletionStage.toCompletableFuture()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,7 +83,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenApplyAsync(Function, Executor)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function, java.util.concurrent.Executor)
      * public abstract <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.thenApplyAsync(java.util.function.Function<? super T, ? extends
      * U>,java.util.concurrent.Executor)}.
@@ -111,8 +108,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenApplyAsync(Function) public
-     * abstract <U> java.util.concurrent.CompletionStage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function) public abstract
+     * <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.thenApplyAsync(java.util.function.Function<? super T, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,8 +132,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenAcceptAsync(Consumer) public
-     * abstract java.util.concurrent.CompletionStage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenAcceptAsync(java.util.function.Consumer) public abstract
+     * java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptAsync(java.util.function.Consumer<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -157,7 +156,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenAcceptAsync(Consumer, Executor)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenAcceptAsync(java.util.function.Consumer, java.util.concurrent.Executor)
      * public abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptAsync(java.util.function.Consumer<? super
      * T>,java.util.concurrent.Executor)}.
@@ -181,8 +181,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#whenCompleteAsync(BiConsumer) public
-     * abstract java.util.concurrent.CompletionStage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#whenCompleteAsync(java.util.function.BiConsumer) public abstract
+     * java.util.concurrent.CompletionStage
      * <T> java.util.concurrent.CompletionStage.whenCompleteAsync(java.util.function.BiConsumer<? super T, ? super
      * java.lang.Throwable>)}.
      *
@@ -206,8 +207,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#whenCompleteAsync(BiConsumer, Executor) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#whenCompleteAsync(java.util.function.BiConsumer, java.util.concurrent.Executor)
+     * public abstract java.util.concurrent.CompletionStage
      * <T> java.util.concurrent.CompletionStage.whenCompleteAsync(java.util.function.BiConsumer<? super T, ? super
      * java.lang.Throwable>,java.util.concurrent.Executor)}.
      *
@@ -230,7 +231,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenRun(Runnable) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenRun(Runnable) public abstract
      * java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.thenRun(java.lang.Runnable)}.
      *
@@ -253,7 +255,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenAccept(Consumer) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenAccept(java.util.function.Consumer) public abstract
      * java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.thenAccept(java.util.function.Consumer<? super T>)}.
      *
@@ -276,8 +279,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#handleAsync(BiFunction) public
-     * abstract <U> java.util.concurrent.CompletionStage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction) public abstract
+     * <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.handleAsync(java.util.function.BiFunction<? super T,
      * java.lang.Throwable, ? extends U>)}.
      *
@@ -300,7 +304,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#handleAsync(BiFunction, Executor)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction, java.util.concurrent.Executor)
      * public abstract <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.handleAsync(java.util.function.BiFunction<? super T,
      * java.lang.Throwable, ? extends U>,java.util.concurrent.Executor)}.
@@ -324,7 +329,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#handle(BiFunction) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#handle(java.util.function.BiFunction) public abstract
      * <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.handle(java.util.function.BiFunction<? super T, java.lang.Throwable, ?
      * extends U>)}.
@@ -348,8 +354,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#exceptionally(Function) public
-     * abstract java.util.concurrent.CompletionStage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#exceptionally(java.util.function.Function) public abstract
+     * java.util.concurrent.CompletionStage
      * <T> java.util.concurrent.CompletionStage.exceptionally(java.util.function.Function<java.lang.Throwable, ? extends
      * T>)}.
      *
@@ -373,8 +380,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#runAfterBoth(CompletionStage, Runnable) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#runAfterBoth(java.util.concurrent.CompletionStage, Runnable) public
+     * abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterBoth(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable)}.
      *
@@ -397,8 +404,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#whenComplete(BiConsumer) public
-     * abstract java.util.concurrent.CompletionStage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#whenComplete(java.util.function.BiConsumer) public abstract
+     * java.util.concurrent.CompletionStage
      * <T> java.util.concurrent.CompletionStage.whenComplete(java.util.function.BiConsumer<? super T, ? super
      * java.lang.Throwable>)}.
      *
@@ -422,8 +430,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#thenCombineAsync(CompletionStage, BiFunction) public abstract
-     * <U,V> java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage, java.util.function.BiFunction)
+     * public abstract <U,V> java.util.concurrent.CompletionStage
      * <V> java.util.concurrent.CompletionStage.thenCombineAsync(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>)}.
      *
@@ -447,8 +455,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#thenCombineAsync(CompletionStage, BiFunction, Executor) public abstract
-     * <U,V> java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage, java.util.function.BiFunction, java.util.concurrent.Executor)
+     * public abstract <U,V> java.util.concurrent.CompletionStage
      * <V> java.util.concurrent.CompletionStage.thenCombineAsync(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>,java.util.concurrent.Executor)}.
      *
@@ -472,8 +480,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#thenAcceptBothAsync(CompletionStage, BiConsumer, Executor) public abstract
-     * <U> java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer, java.util.concurrent.Executor)
+     * public abstract <U> java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptBothAsync(java.util.concurrent.CompletionStage<?
      * extends U>,java.util.function.BiConsumer<? super T, ? super U>,java.util.concurrent.Executor)}.
      *
@@ -497,8 +505,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#thenAcceptBothAsync(CompletionStage, BiConsumer) public abstract
-     * <U> java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer)
+     * public abstract <U> java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptBothAsync(java.util.concurrent.CompletionStage<?
      * extends U>,java.util.function.BiConsumer<? super T, ? super U>)}.
      *
@@ -521,8 +529,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenCompose(Function) public
-     * abstract <U> java.util.concurrent.CompletionStage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenCompose(java.util.function.Function) public abstract
+     * <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.thenCompose(java.util.function.Function<? super T, ? extends
      * java.util.concurrent.CompletionStage<U>>)}.
      *
@@ -546,8 +555,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#acceptEither(CompletionStage, Consumer) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#acceptEither(java.util.concurrent.CompletionStage, java.util.function.Consumer)
+     * public abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.acceptEither(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Consumer<? super T>)}.
      *
@@ -571,8 +580,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#runAfterEitherAsync(CompletionStage, Runnable, Executor) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage, Runnable, java.util.concurrent.Executor)
+     * public abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterEitherAsync(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable,java.util.concurrent.Executor)}.
      *
@@ -596,8 +605,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#runAfterEitherAsync(CompletionStage, Runnable) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage, Runnable)
+     * public abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterEitherAsync(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable)}.
      *
@@ -621,8 +630,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#acceptEitherAsync(CompletionStage, Consumer, Executor) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Consumer, java.util.concurrent.Executor)
+     * public abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.acceptEitherAsync(java.util.concurrent.CompletionStage<?
      * extends T>,java.util.function.Consumer<? super T>,java.util.concurrent.Executor)}.
      *
@@ -646,8 +655,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#acceptEitherAsync(CompletionStage, Consumer) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Consumer)
+     * public abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.acceptEitherAsync(java.util.concurrent.CompletionStage<?
      * extends T>,java.util.function.Consumer<? super T>)}.
      *
@@ -671,8 +680,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#applyToEitherAsync(CompletionStage, Function, Executor) public abstract
-     * <U> java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Function, java.util.concurrent.Executor)
+     * public abstract <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.applyToEitherAsync(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Function<? super T, U>,java.util.concurrent.Executor)}.
      *
@@ -696,8 +705,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#applyToEitherAsync(CompletionStage, Function) public abstract
-     * <U> java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Function)
+     * public abstract <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.applyToEitherAsync(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Function<? super T, U>)}.
      *
@@ -721,8 +730,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#thenAcceptBoth(CompletionStage, BiConsumer) public abstract
-     * <U> java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#thenAcceptBoth(java.util.concurrent.CompletionStage, java.util.function.BiConsumer)
+     * public abstract <U> java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptBoth(java.util.concurrent.CompletionStage<?
      * extends U>,java.util.function.BiConsumer<? super T, ? super U>)}.
      *
@@ -745,7 +754,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenComposeAsync(Function, Executor)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function, java.util.concurrent.Executor)
      * public abstract <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.thenComposeAsync(java.util.function.Function<? super T, ? extends
      * java.util.concurrent.CompletionStage<U>>,java.util.concurrent.Executor)}.
@@ -769,8 +779,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenComposeAsync(Function) public
-     * abstract <U> java.util.concurrent.CompletionStage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function) public abstract
+     * <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.thenComposeAsync(java.util.function.Function<? super T, ? extends
      * java.util.concurrent.CompletionStage<U>>)}.
      *
@@ -793,7 +804,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenApply(Function) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenApply(java.util.function.Function) public abstract
      * <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.thenApply(java.util.function.Function<? super T, ? extends U>)}.
      *
@@ -817,8 +829,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#runAfterEither(CompletionStage, Runnable) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#runAfterEither(java.util.concurrent.CompletionStage, Runnable) public
+     * abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterEither(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable)}.
      *
@@ -842,8 +854,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#applyToEither(CompletionStage, Function) public abstract
-     * <U> java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#applyToEither(java.util.concurrent.CompletionStage, java.util.function.Function)
+     * public abstract <U> java.util.concurrent.CompletionStage
      * <U> java.util.concurrent.CompletionStage.applyToEither(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Function<? super T, U>)}.
      *
@@ -866,8 +878,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenRunAsync(Runnable, Executor)
-     * public abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenRunAsync(Runnable, java.util.concurrent.Executor) public abstract
+     * java.util.concurrent.CompletionStage<java.lang.Void>
      * java.util.concurrent.CompletionStage.thenRunAsync(java.lang.Runnable,java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -889,8 +902,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionStage#thenRunAsync(Runnable) public
-     * abstract java.util.concurrent.CompletionStage
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenRunAsync(Runnable) public abstract
+     * java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.thenRunAsync(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -913,8 +927,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#runAfterBothAsync(CompletionStage, Runnable) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage, Runnable)
+     * public abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterBothAsync(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable)}.
      *
@@ -938,8 +952,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletionStage#runAfterBothAsync(CompletionStage, Runnable, Executor) public abstract
-     * java.util.concurrent.CompletionStage
+     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage, Runnable, java.util.concurrent.Executor)
+     * public abstract java.util.concurrent.CompletionStage
      * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterBothAsync(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable,java.util.concurrent.Executor)}.
      *

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.Image;
 import java.awt.image.ImageObserver;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,7 +36,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageObserver#imageUpdate(Image, int, int, int, int, int) public abstract boolean
+     * {@link java.awt.image.ImageObserver#imageUpdate(java.awt.Image, int, int, int, int, int) public abstract boolean
      * java.awt.image.ImageObserver.imageUpdate(java.awt.Image,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

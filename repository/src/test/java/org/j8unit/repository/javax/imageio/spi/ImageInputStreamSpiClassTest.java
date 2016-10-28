@@ -23,7 +23,7 @@ implements org.j8unit.repository.javax.imageio.spi.ImageInputStreamSpiClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImageInputStreamSpi#ImageInputStreamSpi(String, String, Class) public
+     * {@link javax.imageio.spi.ImageInputStreamSpi#ImageInputStreamSpi(String, String, Class) public
      * javax.imageio.spi.ImageInputStreamSpi(java.lang.String,java.lang.String,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

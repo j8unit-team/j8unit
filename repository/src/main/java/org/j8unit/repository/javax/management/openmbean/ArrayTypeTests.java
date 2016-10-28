@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#toString() public java.lang.String
-     * javax.management.openmbean.ArrayType.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#toString()
+     * public java.lang.String javax.management.openmbean.ArrayType.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#getDimension() public int
-     * javax.management.openmbean.ArrayType.getDimension()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#getDimension()
+     * public int javax.management.openmbean.ArrayType.getDimension()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#isValue(Object) public boolean
-     * javax.management.openmbean.ArrayType.isValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#isValue(Object)
+     * public boolean javax.management.openmbean.ArrayType.isValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#getElementOpenType() public
-     * javax.management.openmbean.OpenType<?> javax.management.openmbean.ArrayType.getElementOpenType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.ArrayType#getElementOpenType() public javax.management.openmbean.OpenType
+     * <?> javax.management.openmbean.ArrayType.getElementOpenType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#equals(Object) public boolean
-     * javax.management.openmbean.ArrayType.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#equals(Object)
+     * public boolean javax.management.openmbean.ArrayType.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#hashCode() public int
-     * javax.management.openmbean.ArrayType.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#hashCode()
+     * public int javax.management.openmbean.ArrayType.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +171,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#isPrimitiveArray() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.ArrayType#isPrimitiveArray() public boolean
      * javax.management.openmbean.ArrayType.isPrimitiveArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

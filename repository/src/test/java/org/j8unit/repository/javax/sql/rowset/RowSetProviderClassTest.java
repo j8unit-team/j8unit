@@ -21,9 +21,10 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetProviderClassTests<RowSe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetProvider#newFactory(String, ClassLoader)
-     * public static javax.sql.rowset.RowSetFactory
-     * javax.sql.rowset.RowSetProvider.newFactory(java.lang.String,java.lang.ClassLoader) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.RowSetProvider#newFactory(String, ClassLoader) public static
+     * javax.sql.rowset.RowSetFactory javax.sql.rowset.RowSetProvider.newFactory(java.lang.String,java.lang.ClassLoader)
+     * throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,13 +38,13 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetProviderClassTests<RowSe
     @Category(Draft.class)
     public void test_newFactory_String_ClassLoader()
     throws Exception {
-        // write some test for {@link RowSetProvider#newFactory(String, ClassLoader)}
+        // write some test for {@link javax.sql.rowset.RowSetProvider#newFactory(String, ClassLoader)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetProvider#newFactory() public static
-     * javax.sql.rowset.RowSetFactory javax.sql.rowset.RowSetProvider.newFactory() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetProvider#newFactory() public
+     * static javax.sql.rowset.RowSetFactory javax.sql.rowset.RowSetProvider.newFactory() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +58,7 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetProviderClassTests<RowSe
     @Category(Draft.class)
     public void test_newFactory()
     throws Exception {
-        // write some test for {@link RowSetProvider#newFactory()}
+        // write some test for {@link javax.sql.rowset.RowSetProvider#newFactory()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.RowSetProvider]

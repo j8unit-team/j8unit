@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Choice;
-import java.awt.event.ItemListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +35,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#getListeners(Class) public <T> T[]
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#getListeners(Class) public <T> T[]
      * java.awt.Choice.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#add(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#add(String) public void
      * java.awt.Choice.add(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,29 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#select(int) public synchronized void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#select(String) public synchronized
+     * void java.awt.Choice.select(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_select_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#select(int) public synchronized void
      * java.awt.Choice.select(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,29 +124,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#select(String) public synchronized void
-     * java.awt.Choice.select(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_select_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#getItemCount() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#getItemCount() public int
      * java.awt.Choice.getItemCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +146,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#countItems() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#countItems() public int
      * java.awt.Choice.countItems()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +168,8 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#getSelectedObjects() public synchronized
-     * java.lang.Object[] java.awt.Choice.getSelectedObjects()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#getSelectedObjects() public
+     * synchronized java.lang.Object[] java.awt.Choice.getSelectedObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +191,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#getItem(int) public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#getItem(int) public java.lang.String
      * java.awt.Choice.getItem(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,7 +213,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#insert(String, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#insert(String, int) public void
      * java.awt.Choice.insert(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +235,9 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#removeItemListener(ItemListener) public
-     * synchronized void java.awt.Choice.removeItemListener(java.awt.event.ItemListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Choice#removeItemListener(java.awt.event.ItemListener) public synchronized void
+     * java.awt.Choice.removeItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,7 +259,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.Choice.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,7 +282,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#remove(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#remove(String) public void
      * java.awt.Choice.remove(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,7 +304,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#remove(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#remove(int) public void
      * java.awt.Choice.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -326,7 +326,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#addItem(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#addItem(String) public void
      * java.awt.Choice.addItem(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -348,7 +348,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#removeAll() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#removeAll() public void
      * java.awt.Choice.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -370,7 +370,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#addNotify() public void
      * java.awt.Choice.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -393,7 +393,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#getSelectedIndex() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#getSelectedIndex() public int
      * java.awt.Choice.getSelectedIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -415,8 +415,9 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#addItemListener(ItemListener) public
-     * synchronized void java.awt.Choice.addItemListener(java.awt.event.ItemListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Choice#addItemListener(java.awt.event.ItemListener) public synchronized void
+     * java.awt.Choice.addItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -438,8 +439,8 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#getItemListeners() public synchronized
-     * java.awt.event.ItemListener[] java.awt.Choice.getItemListeners()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#getItemListeners() public
+     * synchronized java.awt.event.ItemListener[] java.awt.Choice.getItemListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -460,8 +461,8 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Choice#getSelectedItem() public synchronized
-     * java.lang.String java.awt.Choice.getSelectedItem()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Choice#getSelectedItem() public
+     * synchronized java.lang.String java.awt.Choice.getSelectedItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

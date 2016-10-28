@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSException#toString() public java.lang.String
-     * org.ietf.jgss.GSSException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSException#toString() public
+     * java.lang.String org.ietf.jgss.GSSException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSException#getMessage() public java.lang.String
-     * org.ietf.jgss.GSSException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSException#getMessage() public
+     * java.lang.String org.ietf.jgss.GSSException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSException#getMajor() public int
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSException#getMajor() public int
      * org.ietf.jgss.GSSException.getMajor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSException#setMinor(int, String) public void
-     * org.ietf.jgss.GSSException.setMinor(int,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSException#setMinor(int, String)
+     * public void org.ietf.jgss.GSSException.setMinor(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSException#getMinorString() public
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSException#getMinorString() public
      * java.lang.String org.ietf.jgss.GSSException.getMinorString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSException#getMinor() public int
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSException#getMinor() public int
      * org.ietf.jgss.GSSException.getMinor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +168,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSException#getMajorString() public
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSException#getMajorString() public
      * java.lang.String org.ietf.jgss.GSSException.getMajorString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.AbstractSequentialList;
-import java.util.Collection;
-import java.util.Deque;
 import java.util.LinkedList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#indexOf(Object) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#indexOf(Object) public int
      * java.util.LinkedList.indexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +58,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#removeLastOccurrence(Object) public
-     * boolean java.util.LinkedList.removeLastOccurrence(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#removeLastOccurrence(Object)
+     * public boolean java.util.LinkedList.removeLastOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +81,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#element() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#element() public E
      * java.util.LinkedList.element()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +104,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#toArray() public java.lang.Object[]
-     * java.util.LinkedList.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#toArray() public
+     * java.lang.Object[] java.util.LinkedList.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +127,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#toArray(Object[]) public <T> T[]
-     * java.util.LinkedList.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#toArray(Object[]) public
+     * <T> T[] java.util.LinkedList.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,7 +150,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#getFirst() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#getFirst() public E
      * java.util.LinkedList.getFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,7 +173,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#removeFirst() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#removeFirst() public E
      * java.util.LinkedList.removeFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,7 +196,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#get(int) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#get(int) public E
      * java.util.LinkedList.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -222,7 +219,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#offer(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#offer(Object) public boolean
      * java.util.LinkedList.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -245,7 +242,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#pop() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#pop() public E
      * java.util.LinkedList.pop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -268,7 +265,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#addLast(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#addLast(Object) public void
      * java.util.LinkedList.addLast(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -291,7 +288,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#removeLast() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#removeLast() public E
      * java.util.LinkedList.removeLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -314,7 +311,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#pollLast() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#pollLast() public E
      * java.util.LinkedList.pollLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -337,7 +334,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#getLast() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#getLast() public E
      * java.util.LinkedList.getLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -360,7 +357,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#remove(int) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#remove(int) public E
      * java.util.LinkedList.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -383,7 +380,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#remove() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#remove() public E
      * java.util.LinkedList.remove()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -406,7 +403,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#remove(Object) public boolean
      * java.util.LinkedList.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -429,7 +426,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#descendingIterator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#descendingIterator() public
      * java.util.Iterator<E> java.util.LinkedList.descendingIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -452,8 +449,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#offerFirst(Object) public boolean
-     * java.util.LinkedList.offerFirst(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#offerFirst(Object) public
+     * boolean java.util.LinkedList.offerFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -475,7 +472,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#poll() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#poll() public E
      * java.util.LinkedList.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -498,7 +495,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#addFirst(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#addFirst(Object) public void
      * java.util.LinkedList.addFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -521,7 +518,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#clone() public java.lang.Object
      * java.util.LinkedList.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -543,7 +540,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#listIterator(int) public
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#listIterator(int) public
      * java.util.ListIterator<E> java.util.LinkedList.listIterator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -566,8 +563,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#removeFirstOccurrence(Object) public
-     * boolean java.util.LinkedList.removeFirstOccurrence(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#removeFirstOccurrence(Object)
+     * public boolean java.util.LinkedList.removeFirstOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -589,7 +586,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#pollFirst() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#pollFirst() public E
      * java.util.LinkedList.pollFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -612,7 +609,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#size() public int
      * java.util.LinkedList.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -635,8 +632,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#addAll(Collection) public boolean
-     * java.util.LinkedList.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#addAll(java.util.Collection)
+     * public boolean java.util.LinkedList.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -658,7 +655,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#addAll(int, Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.LinkedList#addAll(int, java.util.Collection) public boolean
      * java.util.LinkedList.addAll(int,java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -681,8 +679,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#offerLast(Object) public boolean
-     * java.util.LinkedList.offerLast(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#offerLast(Object) public
+     * boolean java.util.LinkedList.offerLast(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -704,7 +702,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#lastIndexOf(Object) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#lastIndexOf(Object) public int
      * java.util.LinkedList.lastIndexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -727,7 +725,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#contains(Object) public boolean
      * java.util.LinkedList.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -750,7 +748,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#push(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#push(Object) public void
      * java.util.LinkedList.push(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -773,7 +771,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#peek() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#peek() public E
      * java.util.LinkedList.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -796,7 +794,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#clear() public void
      * java.util.LinkedList.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -819,7 +817,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#peekFirst() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#peekFirst() public E
      * java.util.LinkedList.peekFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -842,7 +840,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#peekLast() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#peekLast() public E
      * java.util.LinkedList.peekLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -865,7 +863,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#spliterator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#spliterator() public
      * java.util.Spliterator<E> java.util.LinkedList.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -888,7 +886,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#add(int, Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#add(int, Object) public void
      * java.util.LinkedList.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -911,7 +909,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#add(Object) public boolean
      * java.util.LinkedList.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -934,7 +932,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedList#set(int, Object) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedList#set(int, Object) public E
      * java.util.LinkedList.set(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -961,8 +959,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Deque#iterator() interface java.util.Deque}</li>
-     * <li>{@link AbstractSequentialList#iterator() class java.util.AbstractSequentialList}</li>
+     * <li>{@link java.util.Deque#iterator() interface java.util.Deque}</li>
+     * <li>{@link java.util.AbstractSequentialList#iterator() class java.util.AbstractSequentialList}</li>
      * </ul>
      *
      * <p>

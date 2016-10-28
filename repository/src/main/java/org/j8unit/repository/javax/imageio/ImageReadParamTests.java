@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.imageio;
 
-import java.awt.Dimension;
-import java.awt.image.BufferedImage;
 import javax.imageio.ImageReadParam;
-import javax.imageio.ImageTypeSpecifier;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#getSourceMinProgressivePass() public
-     * int javax.imageio.ImageReadParam.getSourceMinProgressivePass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageReadParam#getSourceMinProgressivePass() public int
+     * javax.imageio.ImageReadParam.getSourceMinProgressivePass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#getSourceMaxProgressivePass() public
-     * int javax.imageio.ImageReadParam.getSourceMaxProgressivePass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageReadParam#getSourceMaxProgressivePass() public int
+     * javax.imageio.ImageReadParam.getSourceMaxProgressivePass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,7 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#getDestination() public
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReadParam#getDestination() public
      * java.awt.image.BufferedImage javax.imageio.ImageReadParam.getDestination()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +102,8 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#getDestinationBands() public int[]
-     * javax.imageio.ImageReadParam.getDestinationBands()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReadParam#getDestinationBands()
+     * public int[] javax.imageio.ImageReadParam.getDestinationBands()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +124,9 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#setSourceProgressivePasses(int, int)
-     * public void javax.imageio.ImageReadParam.setSourceProgressivePasses(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageReadParam#setSourceProgressivePasses(int, int) public void
+     * javax.imageio.ImageReadParam.setSourceProgressivePasses(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,9 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#getSourceNumProgressivePasses()
-     * public int javax.imageio.ImageReadParam.getSourceNumProgressivePasses()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageReadParam#getSourceNumProgressivePasses() public int
+     * javax.imageio.ImageReadParam.getSourceNumProgressivePasses()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +170,9 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#setSourceRenderSize(Dimension) public
-     * void javax.imageio.ImageReadParam.setSourceRenderSize(java.awt.Dimension) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageReadParam#setSourceRenderSize(java.awt.Dimension) public void
+     * javax.imageio.ImageReadParam.setSourceRenderSize(java.awt.Dimension) throws
      * java.lang.UnsupportedOperationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +194,8 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#getSourceRenderSize() public
-     * java.awt.Dimension javax.imageio.ImageReadParam.getSourceRenderSize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReadParam#getSourceRenderSize()
+     * public java.awt.Dimension javax.imageio.ImageReadParam.getSourceRenderSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +216,9 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#setDestination(BufferedImage) public
-     * void javax.imageio.ImageReadParam.setDestination(java.awt.image.BufferedImage)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageReadParam#setDestination(java.awt.image.BufferedImage) public void
+     * javax.imageio.ImageReadParam.setDestination(java.awt.image.BufferedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,7 +240,7 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageReadParam#setDestinationType(ImageTypeSpecifier) public void
+     * {@link javax.imageio.ImageReadParam#setDestinationType(javax.imageio.ImageTypeSpecifier) public void
      * javax.imageio.ImageReadParam.setDestinationType(javax.imageio.ImageTypeSpecifier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,8 +263,9 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#setDestinationBands(int[]) public
-     * void javax.imageio.ImageReadParam.setDestinationBands(int[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageReadParam#setDestinationBands(int[]) public void
+     * javax.imageio.ImageReadParam.setDestinationBands(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -282,8 +286,9 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReadParam#canSetSourceRenderSize() public
-     * boolean javax.imageio.ImageReadParam.canSetSourceRenderSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageReadParam#canSetSourceRenderSize() public boolean
+     * javax.imageio.ImageReadParam.canSetSourceRenderSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

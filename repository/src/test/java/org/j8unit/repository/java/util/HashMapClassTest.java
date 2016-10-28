@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.HashMap;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.util.HashMapClassTests<HashMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashMap#HashMap(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.HashMap#HashMap(int) public
      * java.util.HashMap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +44,8 @@ implements org.j8unit.repository.java.util.HashMapClassTests<HashMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashMap#HashMap() public java.util.HashMap()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.HashMap#HashMap() public
+     * java.util.HashMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,7 +65,7 @@ implements org.j8unit.repository.java.util.HashMapClassTests<HashMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashMap#HashMap(Map) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.HashMap#HashMap(java.util.Map) public
      * java.util.HashMap(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,12 +82,12 @@ implements org.j8unit.repository.java.util.HashMapClassTests<HashMap> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashMap sut = null; // = new HashMap(Map);
+        final HashMap sut = null; // = new HashMap(java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HashMap#HashMap(int, float) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.HashMap#HashMap(int, float) public
      * java.util.HashMap(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

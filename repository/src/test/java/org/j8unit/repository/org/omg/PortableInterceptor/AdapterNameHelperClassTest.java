@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.PortableInterceptor.AdapterNameHelper;
 
 @RunWith(J8Unit4.class)
@@ -25,7 +22,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AdapterNameHelper#AdapterNameHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.AdapterNameHelper#AdapterNameHelper() public
      * org.omg.PortableInterceptor.AdapterNameHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperCl
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterNameHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.AdapterNameHelper#read(org.omg.CORBA.portable.InputStream) public static
      * java.lang.String[] org.omg.PortableInterceptor.AdapterNameHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,13 +59,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperCl
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link AdapterNameHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.AdapterNameHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterNameHelper#extract(Any) public static
-     * java.lang.String[] org.omg.PortableInterceptor.AdapterNameHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.AdapterNameHelper#extract(org.omg.CORBA.Any) public static java.lang.String[]
+     * org.omg.PortableInterceptor.AdapterNameHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +81,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperCl
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link AdapterNameHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableInterceptor.AdapterNameHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterNameHelper#id() public static
-     * java.lang.String org.omg.PortableInterceptor.AdapterNameHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableInterceptor.AdapterNameHelper#id()
+     * public static java.lang.String org.omg.PortableInterceptor.AdapterNameHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +101,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperCl
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link AdapterNameHelper#id()}
+        // write some test for {@link org.omg.PortableInterceptor.AdapterNameHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterNameHelper#insert(Any, String[]) public
-     * static void org.omg.PortableInterceptor.AdapterNameHelper.insert(org.omg.CORBA.Any,java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.AdapterNameHelper#insert(org.omg.CORBA.Any, String[]) public static void
+     * org.omg.PortableInterceptor.AdapterNameHelper.insert(org.omg.CORBA.Any,java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +122,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperCl
     @Category(Draft.class)
     public void test_insert_Any_StringArray()
     throws Exception {
-        // write some test for {@link AdapterNameHelper#insert(Any, String[])}
+        // write some test for {@link org.omg.PortableInterceptor.AdapterNameHelper#insert(org.omg.CORBA.Any, String[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterNameHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.AdapterNameHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableInterceptor.AdapterNameHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.PortableInterceptor.AdapterNameHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,13 +142,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperCl
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link AdapterNameHelper#type()}
+        // write some test for {@link org.omg.PortableInterceptor.AdapterNameHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterNameHelper#write(OutputStream, String[])
-     * public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.AdapterNameHelper#write(org.omg.CORBA.portable.OutputStream, String[]) public
+     * static void
      * org.omg.PortableInterceptor.AdapterNameHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -161,7 +164,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperCl
     @Category(Draft.class)
     public void test_write_OutputStream_StringArray()
     throws Exception {
-        // write some test for {@link AdapterNameHelper#write(OutputStream, String[])}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.AdapterNameHelper#write(org.omg.CORBA.portable.OutputStream, String[])}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.AdapterNameHelper]

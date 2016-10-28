@@ -6,9 +6,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 import org.w3c.dom.traversal.DocumentTraversal;
-import org.w3c.dom.traversal.NodeFilter;
 
 /**
  * <p>
@@ -38,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocumentTraversal#createTreeWalker(Node, int, NodeFilter, boolean) public abstract
-     * org.w3c.dom.traversal.TreeWalker
+     * {@link org.w3c.dom.traversal.DocumentTraversal#createTreeWalker(org.w3c.dom.Node, int, org.w3c.dom.traversal.NodeFilter, boolean)
+     * public abstract org.w3c.dom.traversal.TreeWalker
      * org.w3c.dom.traversal.DocumentTraversal.createTreeWalker(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)
      * throws org.w3c.dom.DOMException}.
      *
@@ -63,8 +61,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocumentTraversal#createNodeIterator(Node, int, NodeFilter, boolean) public abstract
-     * org.w3c.dom.traversal.NodeIterator
+     * {@link org.w3c.dom.traversal.DocumentTraversal#createNodeIterator(org.w3c.dom.Node, int, org.w3c.dom.traversal.NodeFilter, boolean)
+     * public abstract org.w3c.dom.traversal.NodeIterator
      * org.w3c.dom.traversal.DocumentTraversal.createNodeIterator(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)
      * throws org.w3c.dom.DOMException}.
      *

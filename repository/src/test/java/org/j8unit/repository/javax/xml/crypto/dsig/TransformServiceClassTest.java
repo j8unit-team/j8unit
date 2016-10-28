@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig;
 
-import java.security.Provider;
 import javax.xml.crypto.dsig.TransformService;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.TransformServiceClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformService#getInstance(String, String, String)
-     * public static javax.xml.crypto.dsig.TransformService
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.TransformService#getInstance(String, String, String) public static
+     * javax.xml.crypto.dsig.TransformService
      * javax.xml.crypto.dsig.TransformService.getInstance(java.lang.String,java.lang.String,java.lang.String) throws
      * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      *
@@ -39,13 +39,13 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.TransformServiceClassTest
     @Category(Draft.class)
     public void test_getInstance_String_String_String()
     throws Exception {
-        // write some test for {@link TransformService#getInstance(String, String, String)}
+        // write some test for {@link javax.xml.crypto.dsig.TransformService#getInstance(String, String, String)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TransformService#getInstance(String, String, Provider) public static
+     * {@link javax.xml.crypto.dsig.TransformService#getInstance(String, String, java.security.Provider) public static
      * javax.xml.crypto.dsig.TransformService
      * javax.xml.crypto.dsig.TransformService.getInstance(java.lang.String,java.lang.String,java.security.Provider)
      * throws java.security.NoSuchAlgorithmException}.
@@ -62,13 +62,15 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.TransformServiceClassTest
     @Category(Draft.class)
     public void test_getInstance_String_String_Provider()
     throws Exception {
-        // write some test for {@link TransformService#getInstance(String, String, Provider)}
+        // write some test for {@link javax.xml.crypto.dsig.TransformService#getInstance(String, String,
+        // java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransformService#getInstance(String, String) public
-     * static javax.xml.crypto.dsig.TransformService
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.TransformService#getInstance(String, String) public static
+     * javax.xml.crypto.dsig.TransformService
      * javax.xml.crypto.dsig.TransformService.getInstance(java.lang.String,java.lang.String) throws
      * java.security.NoSuchAlgorithmException}.
      *
@@ -84,7 +86,7 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.TransformServiceClassTest
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link TransformService#getInstance(String, String)}
+        // write some test for {@link javax.xml.crypto.dsig.TransformService#getInstance(String, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.TransformService]

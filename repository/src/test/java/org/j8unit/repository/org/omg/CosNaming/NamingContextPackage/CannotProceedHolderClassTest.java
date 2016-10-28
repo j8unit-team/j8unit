@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NamingContextPackage.CannotProceed;
 import org.omg.CosNaming.NamingContextPackage.CannotProceedHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CannotProceedHolder#CannotProceedHolder()
-     * public org.omg.CosNaming.NamingContextPackage.CannotProceedHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHolder#CannotProceedHolder() public
+     * org.omg.CosNaming.NamingContextPackage.CannotProceedHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CannotProceedHolder#CannotProceedHolder(CannotProceed) public
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHolder#CannotProceedHolder(org.omg.CosNaming.NamingContextPackage.CannotProceed)
+     * public
      * org.omg.CosNaming.NamingContextPackage.CannotProceedHolder(org.omg.CosNaming.NamingContextPackage.CannotProceed)}
      * .
      *
@@ -62,7 +63,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CannotProceedHolder sut = null; // = new CannotProceedHolder(CannotProceed);
+        final CannotProceedHolder sut = null; // = new
+                                              // CannotProceedHolder(org.omg.CosNaming.NamingContextPackage.CannotProceed);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceedHolder]

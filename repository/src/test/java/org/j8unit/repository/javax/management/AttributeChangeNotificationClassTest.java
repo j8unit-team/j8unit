@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.AttributeChangeNotificationCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributeChangeNotification#AttributeChangeNotification(Object, long, long, String, String, String, Object, Object)
+     * {@link javax.management.AttributeChangeNotification#AttributeChangeNotification(Object, long, long, String, String, String, Object, Object)
      * public
      * javax.management.AttributeChangeNotification(java.lang.Object,long,long,java.lang.String,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)}
      * .

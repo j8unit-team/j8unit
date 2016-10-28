@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.io.OutputStream;
 import java.rmi.server.RemoteServer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,7 @@ implements org.j8unit.repository.java.rmi.server.RemoteServerClassTests<RemoteSe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteServer#getLog() public static
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteServer#getLog() public static
      * java.io.PrintStream java.rmi.server.RemoteServer.getLog()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,12 +36,13 @@ implements org.j8unit.repository.java.rmi.server.RemoteServerClassTests<RemoteSe
     @Category(Draft.class)
     public void test_getLog()
     throws Exception {
-        // write some test for {@link RemoteServer#getLog()}
+        // write some test for {@link java.rmi.server.RemoteServer#getLog()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteServer#setLog(OutputStream) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RemoteServer#setLog(java.io.OutputStream) public static void
      * java.rmi.server.RemoteServer.setLog(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,13 +57,14 @@ implements org.j8unit.repository.java.rmi.server.RemoteServerClassTests<RemoteSe
     @Category(Draft.class)
     public void test_setLog_OutputStream()
     throws Exception {
-        // write some test for {@link RemoteServer#setLog(OutputStream)}
+        // write some test for {@link java.rmi.server.RemoteServer#setLog(java.io.OutputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteServer#getClientHost() public static
-     * java.lang.String java.rmi.server.RemoteServer.getClientHost() throws java.rmi.server.ServerNotActiveException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteServer#getClientHost() public
+     * static java.lang.String java.rmi.server.RemoteServer.getClientHost() throws
+     * java.rmi.server.ServerNotActiveException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,7 +78,7 @@ implements org.j8unit.repository.java.rmi.server.RemoteServerClassTests<RemoteSe
     @Category(Draft.class)
     public void test_getClientHost()
     throws Exception {
-        // write some test for {@link RemoteServer#getClientHost()}
+        // write some test for {@link java.rmi.server.RemoteServer#getClientHost()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RemoteServer]

@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.print.event.PrintEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobEvent#getPrintJob() public
+     * Test method for the hereby targeted method-under-test {@link javax.print.event.PrintJobEvent#getPrintJob() public
      * javax.print.DocPrintJob javax.print.event.PrintJobEvent.getPrintJob()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.print.event.PrintEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJobEvent#getPrintEventType() public int
-     * javax.print.event.PrintJobEvent.getPrintEventType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.event.PrintJobEvent#getPrintEventType()
+     * public int javax.print.event.PrintJobEvent.getPrintEventType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

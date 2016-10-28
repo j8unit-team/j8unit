@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLClassLoader#findResource(String) public
+     * Test method for the hereby targeted method-under-test {@link java.net.URLClassLoader#findResource(String) public
      * java.net.URL java.net.URLClassLoader.findResource(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLClassLoader#getResourceAsStream(String) public
-     * java.io.InputStream java.net.URLClassLoader.getResourceAsStream(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URLClassLoader#getResourceAsStream(String)
+     * public java.io.InputStream java.net.URLClassLoader.getResourceAsStream(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLClassLoader#findResources(String) public
+     * Test method for the hereby targeted method-under-test {@link java.net.URLClassLoader#findResources(String) public
      * java.util.Enumeration<java.net.URL> java.net.URLClassLoader.findResources(java.lang.String) throws
      * java.io.IOException}.
      *
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLClassLoader#getURLs() public java.net.URL[]
-     * java.net.URLClassLoader.getURLs()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URLClassLoader#getURLs() public
+     * java.net.URL[] java.net.URLClassLoader.getURLs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URLClassLoader#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.net.URLClassLoader#close() public void
      * java.net.URLClassLoader.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

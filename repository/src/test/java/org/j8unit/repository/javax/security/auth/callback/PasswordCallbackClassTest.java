@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.callback.PasswordCallbackCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PasswordCallback#PasswordCallback(String, boolean) public
+     * {@link javax.security.auth.callback.PasswordCallback#PasswordCallback(String, boolean) public
      * javax.security.auth.callback.PasswordCallback(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

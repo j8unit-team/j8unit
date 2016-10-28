@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.text.spi;
 
 import java.text.spi.BreakIteratorProvider;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIteratorProvider#getLineInstance(Locale) public
-     * abstract java.text.BreakIterator java.text.spi.BreakIteratorProvider.getLineInstance(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.spi.BreakIteratorProvider#getLineInstance(java.util.Locale) public abstract
+     * java.text.BreakIterator java.text.spi.BreakIteratorProvider.getLineInstance(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,9 +57,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIteratorProvider#getCharacterInstance(Locale)
-     * public abstract java.text.BreakIterator
-     * java.text.spi.BreakIteratorProvider.getCharacterInstance(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.spi.BreakIteratorProvider#getCharacterInstance(java.util.Locale) public abstract
+     * java.text.BreakIterator java.text.spi.BreakIteratorProvider.getCharacterInstance(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIteratorProvider#getWordInstance(Locale) public
-     * abstract java.text.BreakIterator java.text.spi.BreakIteratorProvider.getWordInstance(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.spi.BreakIteratorProvider#getWordInstance(java.util.Locale) public abstract
+     * java.text.BreakIterator java.text.spi.BreakIteratorProvider.getWordInstance(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,9 +103,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BreakIteratorProvider#getSentenceInstance(Locale)
-     * public abstract java.text.BreakIterator
-     * java.text.spi.BreakIteratorProvider.getSentenceInstance(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.spi.BreakIteratorProvider#getSentenceInstance(java.util.Locale) public abstract
+     * java.text.BreakIterator java.text.spi.BreakIteratorProvider.getSentenceInstance(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

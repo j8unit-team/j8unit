@@ -7,7 +7,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Element;
 
 /**
  * <p>
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceContext#getUserPrincipal() public abstract
-     * java.security.Principal javax.xml.ws.WebServiceContext.getUserPrincipal()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceContext#getUserPrincipal()
+     * public abstract java.security.Principal javax.xml.ws.WebServiceContext.getUserPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceContext#isUserInRole(String) public
-     * abstract boolean javax.xml.ws.WebServiceContext.isUserInRole(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceContext#isUserInRole(String)
+     * public abstract boolean javax.xml.ws.WebServiceContext.isUserInRole(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceContext#getMessageContext() public
-     * abstract javax.xml.ws.handler.MessageContext javax.xml.ws.WebServiceContext.getMessageContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceContext#getMessageContext()
+     * public abstract javax.xml.ws.handler.MessageContext javax.xml.ws.WebServiceContext.getMessageContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,9 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceContext#getEndpointReference(Element...)
-     * public abstract javax.xml.ws.EndpointReference
-     * javax.xml.ws.WebServiceContext.getEndpointReference(org.w3c.dom.Element...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.WebServiceContext#getEndpointReference(org.w3c.dom.Element...) public abstract
+     * javax.xml.ws.EndpointReference javax.xml.ws.WebServiceContext.getEndpointReference(org.w3c.dom.Element...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +125,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link WebServiceContext#getEndpointReference(Class, Element...) public abstract <T> T
+     * {@link javax.xml.ws.WebServiceContext#getEndpointReference(Class, org.w3c.dom.Element...) public abstract <T> T
      * javax.xml.ws.WebServiceContext.getEndpointReference(java.lang.Class<T>,org.w3c.dom.Element...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

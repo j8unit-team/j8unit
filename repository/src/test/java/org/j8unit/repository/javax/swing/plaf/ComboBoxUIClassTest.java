@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<ComboBoxU
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ComboBoxUI#ComboBoxUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.ComboBoxUI#ComboBoxUI() public
      * javax.swing.plaf.ComboBoxUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.PublicKey;
-import java.security.cert.CertPath;
 import java.security.cert.PKIXCertPathBuilderResult;
-import java.security.cert.PolicyNode;
-import java.security.cert.TrustAnchor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -26,7 +22,8 @@ implements org.j8unit.repository.java.security.cert.PKIXCertPathBuilderResultCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PKIXCertPathBuilderResult#PKIXCertPathBuilderResult(CertPath, TrustAnchor, PolicyNode, PublicKey) public
+     * {@link java.security.cert.PKIXCertPathBuilderResult#PKIXCertPathBuilderResult(java.security.cert.CertPath, java.security.cert.TrustAnchor, java.security.cert.PolicyNode, java.security.PublicKey)
+     * public
      * java.security.cert.PKIXCertPathBuilderResult(java.security.cert.CertPath,java.security.cert.TrustAnchor,java.security.cert.PolicyNode,java.security.PublicKey)}
      * .
      *
@@ -44,8 +41,9 @@ implements org.j8unit.repository.java.security.cert.PKIXCertPathBuilderResultCla
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PKIXCertPathBuilderResult sut = null; // = new PKIXCertPathBuilderResult(CertPath, TrustAnchor,
-                                                    // PolicyNode, PublicKey);
+        final PKIXCertPathBuilderResult sut = null; // = new PKIXCertPathBuilderResult(java.security.cert.CertPath,
+                                                    // java.security.cert.TrustAnchor, java.security.cert.PolicyNode,
+                                                    // java.security.PublicKey);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXCertPathBuilderResult]

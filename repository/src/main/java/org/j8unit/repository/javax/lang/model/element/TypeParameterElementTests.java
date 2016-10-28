@@ -34,9 +34,9 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeParameterElement#getBounds() public abstract
-     * java.util.List<? extends javax.lang.model.type.TypeMirror>
-     * javax.lang.model.element.TypeParameterElement.getBounds()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.TypeParameterElement#getBounds() public abstract java.util.List<? extends
+     * javax.lang.model.type.TypeMirror> javax.lang.model.element.TypeParameterElement.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeParameterElement#getEnclosingElement() public
-     * abstract javax.lang.model.element.Element javax.lang.model.element.TypeParameterElement.getEnclosingElement()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.TypeParameterElement#getEnclosingElement() public abstract
+     * javax.lang.model.element.Element javax.lang.model.element.TypeParameterElement.getEnclosingElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeParameterElement#getGenericElement() public
-     * abstract javax.lang.model.element.Element javax.lang.model.element.TypeParameterElement.getGenericElement()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.TypeParameterElement#getGenericElement() public abstract
+     * javax.lang.model.element.Element javax.lang.model.element.TypeParameterElement.getGenericElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

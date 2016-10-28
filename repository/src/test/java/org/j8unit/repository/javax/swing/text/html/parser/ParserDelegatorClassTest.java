@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.ParserDelegatorCla
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParserDelegator#ParserDelegator() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.parser.ParserDelegator#ParserDelegator() public
      * javax.swing.text.html.parser.ParserDelegator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

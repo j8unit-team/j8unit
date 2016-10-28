@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.stream;
 
-import java.util.function.Supplier;
-import java.util.function.UnaryOperator;
 import java.util.stream.Stream;
 import java.util.stream.Stream.Builder;
 import org.j8unit.repository.categories.Draft;
@@ -25,7 +23,7 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stream#of(Object...) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#of(Object...) public static
      * <T> java.util.stream.Stream<T> java.util.stream.Stream.of(T...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +38,12 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
     @Category(Draft.class)
     public void test_of_ObjectArray()
     throws Exception {
-        // write some test for {@link Stream#of(Object...)}
+        // write some test for {@link java.util.stream.Stream#of(Object...)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stream#of(Object) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#of(Object) public static
      * <T> java.util.stream.Stream<T> java.util.stream.Stream.of(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,12 +58,13 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
     @Category(Draft.class)
     public void test_of_Object()
     throws Exception {
-        // write some test for {@link Stream#of(Object)}
+        // write some test for {@link java.util.stream.Stream#of(Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stream#concat(Stream, Stream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Stream#concat(java.util.stream.Stream, java.util.stream.Stream) public static
      * <T> java.util.stream.Stream<T> java.util.stream.Stream.concat(java.util.stream.Stream<? extends
      * T>,java.util.stream.Stream<? extends T>)}.
      *
@@ -81,12 +80,12 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
     @Category(Draft.class)
     public void test_concat_Stream_Stream()
     throws Exception {
-        // write some test for {@link Stream#concat(Stream, Stream)}
+        // write some test for {@link java.util.stream.Stream#concat(java.util.stream.Stream, java.util.stream.Stream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stream#builder() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#builder() public static
      * <T> java.util.stream.Stream.java.util.stream.Stream$Builder<T> java.util.stream.Stream.builder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,12 +100,12 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
     @Category(Draft.class)
     public void test_builder()
     throws Exception {
-        // write some test for {@link Stream#builder()}
+        // write some test for {@link java.util.stream.Stream#builder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stream#empty() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#empty() public static
      * <T> java.util.stream.Stream<T> java.util.stream.Stream.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,12 +120,13 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
     @Category(Draft.class)
     public void test_empty()
     throws Exception {
-        // write some test for {@link Stream#empty()}
+        // write some test for {@link java.util.stream.Stream#empty()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stream#iterate(Object, UnaryOperator) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Stream#iterate(Object, java.util.function.UnaryOperator) public static
      * <T> java.util.stream.Stream<T> java.util.stream.Stream.iterate(T,java.util.function.UnaryOperator<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -141,13 +141,14 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
     @Category(Draft.class)
     public void test_iterate_Object_UnaryOperator()
     throws Exception {
-        // write some test for {@link Stream#iterate(Object, UnaryOperator)}
+        // write some test for {@link java.util.stream.Stream#iterate(Object, java.util.function.UnaryOperator)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Stream#generate(Supplier) public static
-     * <T> java.util.stream.Stream<T> java.util.stream.Stream.generate(java.util.function.Supplier<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Stream#generate(java.util.function.Supplier) public static <T> java.util.stream.Stream
+     * <T> java.util.stream.Stream.generate(java.util.function.Supplier<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -161,7 +162,7 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
     @Category(Draft.class)
     public void test_generate_Supplier()
     throws Exception {
-        // write some test for {@link Stream#generate(Supplier)}
+        // write some test for {@link java.util.stream.Stream#generate(java.util.function.Supplier)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Stream]

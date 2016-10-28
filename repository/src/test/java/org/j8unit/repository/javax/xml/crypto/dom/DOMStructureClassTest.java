@@ -7,7 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.w3c.dom.Node;
 
 @RunWith(J8Unit4.class)
 public class DOMStructureClassTest
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.xml.crypto.dom.DOMStructureClassTests<DOM
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DOMStructure#DOMStructure(Node) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.dom.DOMStructure#DOMStructure(org.w3c.dom.Node) public
      * javax.xml.crypto.dom.DOMStructure(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.xml.crypto.dom.DOMStructureClassTests<DOM
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DOMStructure sut = null; // = new DOMStructure(Node);
+        final DOMStructure sut = null; // = new DOMStructure(org.w3c.dom.Node);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dom.DOMStructure]

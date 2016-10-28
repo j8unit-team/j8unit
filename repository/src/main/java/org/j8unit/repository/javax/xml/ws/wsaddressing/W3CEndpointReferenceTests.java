@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.ws.wsaddressing;
 
-import javax.xml.transform.Result;
 import javax.xml.ws.wsaddressing.W3CEndpointReference;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.javax.xml.ws.EndpointReferenceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link W3CEndpointReference#writeTo(Result) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.wsaddressing.W3CEndpointReference#writeTo(javax.xml.transform.Result) public void
      * javax.xml.ws.wsaddressing.W3CEndpointReference.writeTo(javax.xml.transform.Result)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

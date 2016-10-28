@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import javax.naming.Name;
 import javax.naming.spi.Resolver;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Resolver#resolveToClass(String, Class) public
-     * abstract javax.naming.spi.ResolveResult
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.spi.Resolver#resolveToClass(String, Class) public abstract javax.naming.spi.ResolveResult
      * javax.naming.spi.Resolver.resolveToClass(java.lang.String,java.lang.Class<? extends javax.naming.Context>) throws
      * javax.naming.NamingException}.
      *
@@ -60,7 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Resolver#resolveToClass(Name, Class) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.spi.Resolver#resolveToClass(javax.naming.Name, Class) public abstract
      * javax.naming.spi.ResolveResult javax.naming.spi.Resolver.resolveToClass(javax.naming.Name,java.lang.Class<?
      * extends javax.naming.Context>) throws javax.naming.NamingException}.
      *

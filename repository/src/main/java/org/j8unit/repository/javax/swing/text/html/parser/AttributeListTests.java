@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#getNext() public
-     * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.AttributeList.getNext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.AttributeList#getNext()
+     * public javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.AttributeList.getNext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.AttributeList#toString() public java.lang.String
      * javax.swing.text.html.parser.AttributeList.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#getName() public java.lang.String
-     * javax.swing.text.html.parser.AttributeList.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.AttributeList#getName()
+     * public java.lang.String javax.swing.text.html.parser.AttributeList.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#getValue() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.AttributeList#getValue() public java.lang.String
      * javax.swing.text.html.parser.AttributeList.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +126,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#getModifier() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.AttributeList#getModifier() public int
      * javax.swing.text.html.parser.AttributeList.getModifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +149,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#getType() public int
-     * javax.swing.text.html.parser.AttributeList.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.AttributeList#getType()
+     * public int javax.swing.text.html.parser.AttributeList.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +171,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeList#getValues() public
-     * java.util.Enumeration<?> javax.swing.text.html.parser.AttributeList.getValues()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.AttributeList#getValues() public java.util.Enumeration
+     * <?> javax.swing.text.html.parser.AttributeList.getValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

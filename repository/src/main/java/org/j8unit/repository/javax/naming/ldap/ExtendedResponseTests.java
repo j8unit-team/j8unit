@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ExtendedResponse#getID() public abstract
-     * java.lang.String javax.naming.ldap.ExtendedResponse.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.ExtendedResponse#getID() public
+     * abstract java.lang.String javax.naming.ldap.ExtendedResponse.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ExtendedResponse#getEncodedValue() public abstract
-     * byte[] javax.naming.ldap.ExtendedResponse.getEncodedValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.ExtendedResponse#getEncodedValue()
+     * public abstract byte[] javax.naming.ldap.ExtendedResponse.getEncodedValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

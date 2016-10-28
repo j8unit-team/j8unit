@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.naming.RefAddrTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BinaryRefAddr#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.BinaryRefAddr#hashCode() public int
      * javax.naming.BinaryRefAddr.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.naming.RefAddrTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BinaryRefAddr#getContent() public java.lang.Object
-     * javax.naming.BinaryRefAddr.getContent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.BinaryRefAddr#getContent() public
+     * java.lang.Object javax.naming.BinaryRefAddr.getContent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.javax.naming.RefAddrTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BinaryRefAddr#equals(Object) public boolean
-     * javax.naming.BinaryRefAddr.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.BinaryRefAddr#equals(Object) public
+     * boolean javax.naming.BinaryRefAddr.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.javax.naming.RefAddrTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BinaryRefAddr#toString() public java.lang.String
-     * javax.naming.BinaryRefAddr.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.BinaryRefAddr#toString() public
+     * java.lang.String javax.naming.BinaryRefAddr.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

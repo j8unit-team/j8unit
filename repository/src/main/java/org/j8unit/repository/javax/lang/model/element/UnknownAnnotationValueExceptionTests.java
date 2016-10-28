@@ -35,7 +35,7 @@ extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UnknownAnnotationValueException#getUnknownAnnotationValue() public
+     * {@link javax.lang.model.element.UnknownAnnotationValueException#getUnknownAnnotationValue() public
      * javax.lang.model.element.AnnotationValue
      * javax.lang.model.element.UnknownAnnotationValueException.getUnknownAnnotationValue()}.
      *
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownAnnotationValueException#getArgument() public
-     * java.lang.Object javax.lang.model.element.UnknownAnnotationValueException.getArgument()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.UnknownAnnotationValueException#getArgument() public java.lang.Object
+     * javax.lang.model.element.UnknownAnnotationValueException.getArgument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

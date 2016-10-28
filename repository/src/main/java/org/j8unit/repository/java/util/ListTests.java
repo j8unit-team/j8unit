@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Collection;
-import java.util.Comparator;
 import java.util.List;
-import java.util.function.UnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#contains(Object) public abstract boolean
-     * java.util.List.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#contains(Object) public abstract
+     * boolean java.util.List.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#lastIndexOf(Object) public abstract int
-     * java.util.List.lastIndexOf(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#lastIndexOf(Object) public abstract
+     * int java.util.List.lastIndexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#equals(Object) public abstract boolean
-     * java.util.List.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#equals(Object) public abstract
+     * boolean java.util.List.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +102,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#size() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.util.List#size() public abstract int
      * java.util.List.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,8 +125,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#addAll(int, Collection) public abstract boolean
-     * java.util.List.addAll(int,java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#addAll(int, java.util.Collection)
+     * public abstract boolean java.util.List.addAll(int,java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +147,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#addAll(Collection) public abstract boolean
-     * java.util.List.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#addAll(java.util.Collection) public
+     * abstract boolean java.util.List.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,7 +170,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#listIterator() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.List#listIterator() public abstract
      * java.util.ListIterator<E> java.util.List.listIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,7 +192,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#listIterator(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.List#listIterator(int) public abstract
      * java.util.ListIterator<E> java.util.List.listIterator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -217,8 +214,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#retainAll(Collection) public abstract boolean
-     * java.util.List.retainAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#retainAll(java.util.Collection)
+     * public abstract boolean java.util.List.retainAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,7 +237,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#subList(int, int) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.List#subList(int, int) public abstract
      * java.util.List<E> java.util.List.subList(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,7 +259,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#set(int, Object) public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.List#set(int, Object) public abstract E
      * java.util.List.set(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -284,7 +281,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#add(int, Object) public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.util.List#add(int, Object) public abstract void
      * java.util.List.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -306,7 +303,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#add(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.List#add(Object) public abstract boolean
      * java.util.List.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -329,8 +326,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#containsAll(Collection) public abstract boolean
-     * java.util.List.containsAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#containsAll(java.util.Collection)
+     * public abstract boolean java.util.List.containsAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -352,7 +349,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#spliterator() public default
+     * Test method for the hereby targeted method-under-test {@link java.util.List#spliterator() public default
      * java.util.Spliterator<E> java.util.List.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -375,8 +372,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#sort(Comparator) public default void
-     * java.util.List.sort(java.util.Comparator<? super E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#sort(java.util.Comparator) public
+     * default void java.util.List.sort(java.util.Comparator<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -397,7 +394,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#isEmpty() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.List#isEmpty() public abstract boolean
      * java.util.List.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -420,7 +417,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#clear() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.util.List#clear() public abstract void
      * java.util.List.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -443,8 +440,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#removeAll(Collection) public abstract boolean
-     * java.util.List.removeAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#removeAll(java.util.Collection)
+     * public abstract boolean java.util.List.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -466,8 +463,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#iterator() public abstract java.util.Iterator
-     * <E> java.util.List.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#iterator() public abstract
+     * java.util.Iterator<E> java.util.List.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -489,7 +486,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#hashCode() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.util.List#hashCode() public abstract int
      * java.util.List.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -512,7 +509,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#get(int) public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.List#get(int) public abstract E
      * java.util.List.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -534,8 +531,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#toArray(Object[]) public abstract <T> T[]
-     * java.util.List.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#toArray(Object[]) public abstract
+     * <T> T[] java.util.List.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -557,8 +554,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#toArray() public abstract java.lang.Object[]
-     * java.util.List.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#toArray() public abstract
+     * java.lang.Object[] java.util.List.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -580,7 +577,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#indexOf(Object) public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.util.List#indexOf(Object) public abstract int
      * java.util.List.indexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -602,8 +599,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#remove(Object) public abstract boolean
-     * java.util.List.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.List#remove(Object) public abstract
+     * boolean java.util.List.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -625,7 +622,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#remove(int) public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.List#remove(int) public abstract E
      * java.util.List.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -647,7 +644,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link List#replaceAll(UnaryOperator) public default void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.List#replaceAll(java.util.function.UnaryOperator) public default void
      * java.util.List.replaceAll(java.util.function.UnaryOperator<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

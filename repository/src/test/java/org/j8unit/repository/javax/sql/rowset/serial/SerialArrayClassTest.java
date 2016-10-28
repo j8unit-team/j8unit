@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.sql.Array;
-import java.util.Map;
 import javax.sql.rowset.serial.SerialArray;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialArrayClassTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialArray#SerialArray(Array, Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialArray#SerialArray(java.sql.Array, java.util.Map) public
      * javax.sql.rowset.serial.SerialArray(java.sql.Array,java.util.Map<java.lang.String, java.lang.Class<?>>) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
@@ -41,12 +40,13 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialArrayClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SerialArray sut = null; // = new SerialArray(Array, Map);
+        final SerialArray sut = null; // = new SerialArray(java.sql.Array, java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialArray#SerialArray(Array) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialArray#SerialArray(java.sql.Array) public
      * javax.sql.rowset.serial.SerialArray(java.sql.Array) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
@@ -64,7 +64,7 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialArrayClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SerialArray sut = null; // = new SerialArray(Array);
+        final SerialArray sut = null; // = new SerialArray(java.sql.Array);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialArray]

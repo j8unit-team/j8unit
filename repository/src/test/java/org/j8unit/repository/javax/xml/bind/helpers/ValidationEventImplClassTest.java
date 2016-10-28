@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind.helpers;
 
-import javax.xml.bind.ValidationEventLocator;
 import javax.xml.bind.helpers.ValidationEventImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ValidationEventImpl#ValidationEventImpl(int, String, ValidationEventLocator) public
-     * javax.xml.bind.helpers.ValidationEventImpl(int,java.lang.String,javax.xml.bind.ValidationEventLocator)}.
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#ValidationEventImpl(int, String, javax.xml.bind.ValidationEventLocator)
+     * public javax.xml.bind.helpers.ValidationEventImpl(int,java.lang.String,javax.xml.bind.ValidationEventLocator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,15 @@ implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ValidationEventImpl sut = null; // = new ValidationEventImpl(int, String, ValidationEventLocator);
+        final ValidationEventImpl sut = null; // = new ValidationEventImpl(int, String,
+                                              // javax.xml.bind.ValidationEventLocator);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ValidationEventImpl#ValidationEventImpl(int, String, ValidationEventLocator, Throwable) public
+     * {@link javax.xml.bind.helpers.ValidationEventImpl#ValidationEventImpl(int, String, javax.xml.bind.ValidationEventLocator, Throwable)
+     * public
      * javax.xml.bind.helpers.ValidationEventImpl(int,java.lang.String,javax.xml.bind.ValidationEventLocator,java.lang.Throwable)}
      * .
      *
@@ -64,8 +65,8 @@ implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ValidationEventImpl sut = null; // = new ValidationEventImpl(int, String, ValidationEventLocator,
-                                              // Throwable);
+        final ValidationEventImpl sut = null; // = new ValidationEventImpl(int, String,
+                                              // javax.xml.bind.ValidationEventLocator, Throwable);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.ValidationEventImpl]

@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.IDLTypeTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _IDLTypeStub#type() public org.omg.CORBA.TypeCode
-     * org.omg.CORBA._IDLTypeStub.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA._IDLTypeStub#type() public
+     * org.omg.CORBA.TypeCode org.omg.CORBA._IDLTypeStub.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.org.omg.CORBA.IDLTypeTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _IDLTypeStub#def_kind() public
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA._IDLTypeStub#def_kind() public
      * org.omg.CORBA.DefinitionKind org.omg.CORBA._IDLTypeStub.def_kind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.org.omg.CORBA.IDLTypeTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _IDLTypeStub#destroy() public void
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA._IDLTypeStub#destroy() public void
      * org.omg.CORBA._IDLTypeStub.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ extends org.j8unit.repository.org.omg.CORBA.IDLTypeTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _IDLTypeStub#_ids() public java.lang.String[]
-     * org.omg.CORBA._IDLTypeStub._ids()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA._IDLTypeStub#_ids() public
+     * java.lang.String[] org.omg.CORBA._IDLTypeStub._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

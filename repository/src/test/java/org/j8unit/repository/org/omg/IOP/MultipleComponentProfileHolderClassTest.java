@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.MultipleComponentProfileHolder;
-import org.omg.IOP.TaggedComponent;
 
 @RunWith(J8Unit4.class)
 public class MultipleComponentProfileHolderClassTest
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MultipleComponentProfileHolder#MultipleComponentProfileHolder() public
+     * {@link org.omg.IOP.MultipleComponentProfileHolder#MultipleComponentProfileHolder() public
      * org.omg.IOP.MultipleComponentProfileHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +44,8 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MultipleComponentProfileHolder#MultipleComponentProfileHolder(TaggedComponent[]) public
-     * org.omg.IOP.MultipleComponentProfileHolder(org.omg.IOP.TaggedComponent[])}.
+     * {@link org.omg.IOP.MultipleComponentProfileHolder#MultipleComponentProfileHolder(org.omg.IOP.TaggedComponent[])
+     * public org.omg.IOP.MultipleComponentProfileHolder(org.omg.IOP.TaggedComponent[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +61,8 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MultipleComponentProfileHolder sut = null; // = new MultipleComponentProfileHolder(TaggedComponent[]);
+        final MultipleComponentProfileHolder sut = null; // = new
+                                                         // MultipleComponentProfileHolder(org.omg.IOP.TaggedComponent[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.MultipleComponentProfileHolder]

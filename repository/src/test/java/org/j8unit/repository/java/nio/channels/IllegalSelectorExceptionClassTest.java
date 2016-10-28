@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.nio.channels.IllegalSelectorExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalSelectorException#IllegalSelectorException() public java.nio.channels.IllegalSelectorException()}.
+     * {@link java.nio.channels.IllegalSelectorException#IllegalSelectorException() public
+     * java.nio.channels.IllegalSelectorException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

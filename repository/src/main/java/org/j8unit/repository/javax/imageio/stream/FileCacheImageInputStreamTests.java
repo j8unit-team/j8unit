@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageInputStream#isCachedMemory() public
-     * boolean javax.imageio.stream.FileCacheImageInputStream.isCachedMemory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageInputStream#isCachedMemory() public boolean
+     * javax.imageio.stream.FileCacheImageInputStream.isCachedMemory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageInputStream#isCachedFile() public
-     * boolean javax.imageio.stream.FileCacheImageInputStream.isCachedFile()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageInputStream#isCachedFile() public boolean
+     * javax.imageio.stream.FileCacheImageInputStream.isCachedFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageInputStream#read(byte[], int, int)
-     * public int javax.imageio.stream.FileCacheImageInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageInputStream#read(byte[], int, int) public int
+     * javax.imageio.stream.FileCacheImageInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +106,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageInputStream#read() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageInputStream#read() public int
      * javax.imageio.stream.FileCacheImageInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +130,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageInputStream#close() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageInputStream#close() public void
      * javax.imageio.stream.FileCacheImageInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +154,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageInputStream#isCached() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageInputStream#isCached() public boolean
      * javax.imageio.stream.FileCacheImageInputStream.isCached()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

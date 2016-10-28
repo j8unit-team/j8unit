@@ -7,7 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.w3c.dom.Node;
-import org.w3c.dom.UserDataHandler;
 
 /**
  * <p>
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#hasAttributes() public abstract boolean
-     * org.w3c.dom.Node.hasAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#hasAttributes() public abstract
+     * boolean org.w3c.dom.Node.hasAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#normalize() public abstract void
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#normalize() public abstract void
      * org.w3c.dom.Node.normalize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#isSameNode(Node) public abstract boolean
-     * org.w3c.dom.Node.isSameNode(org.w3c.dom.Node)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#isSameNode(org.w3c.dom.Node) public
+     * abstract boolean org.w3c.dom.Node.isSameNode(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getBaseURI() public abstract java.lang.String
-     * org.w3c.dom.Node.getBaseURI()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getBaseURI() public abstract
+     * java.lang.String org.w3c.dom.Node.getBaseURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +123,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getFirstChild() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getFirstChild() public abstract
      * org.w3c.dom.Node org.w3c.dom.Node.getFirstChild()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +145,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getNodeType() public abstract short
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getNodeType() public abstract short
      * org.w3c.dom.Node.getNodeType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#lookupPrefix(String) public abstract
-     * java.lang.String org.w3c.dom.Node.lookupPrefix(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#lookupPrefix(String) public
+     * abstract java.lang.String org.w3c.dom.Node.lookupPrefix(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +189,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#lookupNamespaceURI(String) public abstract
-     * java.lang.String org.w3c.dom.Node.lookupNamespaceURI(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#lookupNamespaceURI(String) public
+     * abstract java.lang.String org.w3c.dom.Node.lookupNamespaceURI(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +211,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#hasChildNodes() public abstract boolean
-     * org.w3c.dom.Node.hasChildNodes()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#hasChildNodes() public abstract
+     * boolean org.w3c.dom.Node.hasChildNodes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,7 +233,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getNextSibling() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getNextSibling() public abstract
      * org.w3c.dom.Node org.w3c.dom.Node.getNextSibling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -256,9 +255,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#insertBefore(Node, Node) public abstract
-     * org.w3c.dom.Node org.w3c.dom.Node.insertBefore(org.w3c.dom.Node,org.w3c.dom.Node) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Node#insertBefore(org.w3c.dom.Node, org.w3c.dom.Node) public abstract org.w3c.dom.Node
+     * org.w3c.dom.Node.insertBefore(org.w3c.dom.Node,org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,7 +278,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#cloneNode(boolean) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#cloneNode(boolean) public abstract
      * org.w3c.dom.Node org.w3c.dom.Node.cloneNode(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -301,7 +300,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getOwnerDocument() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getOwnerDocument() public abstract
      * org.w3c.dom.Document org.w3c.dom.Node.getOwnerDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -323,8 +322,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#removeChild(Node) public abstract
-     * org.w3c.dom.Node org.w3c.dom.Node.removeChild(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#removeChild(org.w3c.dom.Node)
+     * public abstract org.w3c.dom.Node org.w3c.dom.Node.removeChild(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -345,8 +344,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#setPrefix(String) public abstract void
-     * org.w3c.dom.Node.setPrefix(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#setPrefix(String) public abstract
+     * void org.w3c.dom.Node.setPrefix(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,8 +366,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#isEqualNode(Node) public abstract boolean
-     * org.w3c.dom.Node.isEqualNode(org.w3c.dom.Node)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#isEqualNode(org.w3c.dom.Node)
+     * public abstract boolean org.w3c.dom.Node.isEqualNode(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -389,8 +388,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getLocalName() public abstract java.lang.String
-     * org.w3c.dom.Node.getLocalName()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getLocalName() public abstract
+     * java.lang.String org.w3c.dom.Node.getLocalName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -411,8 +410,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#setNodeValue(String) public abstract void
-     * org.w3c.dom.Node.setNodeValue(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#setNodeValue(String) public
+     * abstract void org.w3c.dom.Node.setNodeValue(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -433,8 +432,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getNodeValue() public abstract java.lang.String
-     * org.w3c.dom.Node.getNodeValue() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getNodeValue() public abstract
+     * java.lang.String org.w3c.dom.Node.getNodeValue() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -455,7 +454,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getChildNodes() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getChildNodes() public abstract
      * org.w3c.dom.NodeList org.w3c.dom.Node.getChildNodes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -477,8 +476,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#setUserData(String, Object, UserDataHandler)
-     * public abstract java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Node#setUserData(String, Object, org.w3c.dom.UserDataHandler) public abstract java.lang.Object
      * org.w3c.dom.Node.setUserData(java.lang.String,java.lang.Object,org.w3c.dom.UserDataHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -500,7 +499,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getUserData(String) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getUserData(String) public abstract
      * java.lang.Object org.w3c.dom.Node.getUserData(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -522,7 +521,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getNamespaceURI() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getNamespaceURI() public abstract
      * java.lang.String org.w3c.dom.Node.getNamespaceURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -544,8 +543,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#isDefaultNamespace(String) public abstract
-     * boolean org.w3c.dom.Node.isDefaultNamespace(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#isDefaultNamespace(String) public
+     * abstract boolean org.w3c.dom.Node.isDefaultNamespace(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -566,9 +565,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#replaceChild(Node, Node) public abstract
-     * org.w3c.dom.Node org.w3c.dom.Node.replaceChild(org.w3c.dom.Node,org.w3c.dom.Node) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Node#replaceChild(org.w3c.dom.Node, org.w3c.dom.Node) public abstract org.w3c.dom.Node
+     * org.w3c.dom.Node.replaceChild(org.w3c.dom.Node,org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -589,8 +588,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getPrefix() public abstract java.lang.String
-     * org.w3c.dom.Node.getPrefix()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getPrefix() public abstract
+     * java.lang.String org.w3c.dom.Node.getPrefix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -611,7 +610,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getAttributes() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getAttributes() public abstract
      * org.w3c.dom.NamedNodeMap org.w3c.dom.Node.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -633,8 +632,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getPreviousSibling() public abstract
-     * org.w3c.dom.Node org.w3c.dom.Node.getPreviousSibling()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getPreviousSibling() public
+     * abstract org.w3c.dom.Node org.w3c.dom.Node.getPreviousSibling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -655,8 +654,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#appendChild(Node) public abstract
-     * org.w3c.dom.Node org.w3c.dom.Node.appendChild(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#appendChild(org.w3c.dom.Node)
+     * public abstract org.w3c.dom.Node org.w3c.dom.Node.appendChild(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -677,8 +676,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getFeature(String, String) public abstract
-     * java.lang.Object org.w3c.dom.Node.getFeature(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getFeature(String, String) public
+     * abstract java.lang.Object org.w3c.dom.Node.getFeature(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -699,8 +698,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getLastChild() public abstract org.w3c.dom.Node
-     * org.w3c.dom.Node.getLastChild()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getLastChild() public abstract
+     * org.w3c.dom.Node org.w3c.dom.Node.getLastChild()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -721,8 +720,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#compareDocumentPosition(Node) public abstract
-     * short org.w3c.dom.Node.compareDocumentPosition(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Node#compareDocumentPosition(org.w3c.dom.Node) public abstract short
+     * org.w3c.dom.Node.compareDocumentPosition(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -743,7 +743,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getTextContent() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getTextContent() public abstract
      * java.lang.String org.w3c.dom.Node.getTextContent() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -765,8 +765,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getNodeName() public abstract java.lang.String
-     * org.w3c.dom.Node.getNodeName()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getNodeName() public abstract
+     * java.lang.String org.w3c.dom.Node.getNodeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -787,8 +787,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#isSupported(String, String) public abstract
-     * boolean org.w3c.dom.Node.isSupported(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#isSupported(String, String) public
+     * abstract boolean org.w3c.dom.Node.isSupported(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -809,7 +809,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#getParentNode() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#getParentNode() public abstract
      * org.w3c.dom.Node org.w3c.dom.Node.getParentNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -831,8 +831,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Node#setTextContent(String) public abstract void
-     * org.w3c.dom.Node.setTextContent(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Node#setTextContent(String) public
+     * abstract void org.w3c.dom.Node.setTextContent(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

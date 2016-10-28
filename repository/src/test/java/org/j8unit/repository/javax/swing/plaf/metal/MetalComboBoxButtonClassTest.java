@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import javax.swing.CellRendererPane;
-import javax.swing.Icon;
-import javax.swing.JComboBox;
-import javax.swing.JList;
 import javax.swing.plaf.metal.MetalComboBoxButton;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -26,7 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxButtonClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MetalComboBoxButton#MetalComboBoxButton(JComboBox, Icon, CellRendererPane, JList) public
+     * {@link javax.swing.plaf.metal.MetalComboBoxButton#MetalComboBoxButton(javax.swing.JComboBox, javax.swing.Icon, javax.swing.CellRendererPane, javax.swing.JList)
+     * public
      * javax.swing.plaf.metal.MetalComboBoxButton(javax.swing.JComboBox,javax.swing.Icon,javax.swing.CellRendererPane,javax.swing.JList)}
      * .
      *
@@ -44,13 +41,15 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxButtonClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MetalComboBoxButton sut = null; // = new MetalComboBoxButton(JComboBox, Icon, CellRendererPane, JList);
+        final MetalComboBoxButton sut = null; // = new MetalComboBoxButton(javax.swing.JComboBox, javax.swing.Icon,
+                                              // javax.swing.CellRendererPane, javax.swing.JList);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MetalComboBoxButton#MetalComboBoxButton(JComboBox, Icon, boolean, CellRendererPane, JList) public
+     * {@link javax.swing.plaf.metal.MetalComboBoxButton#MetalComboBoxButton(javax.swing.JComboBox, javax.swing.Icon, boolean, javax.swing.CellRendererPane, javax.swing.JList)
+     * public
      * javax.swing.plaf.metal.MetalComboBoxButton(javax.swing.JComboBox,javax.swing.Icon,boolean,javax.swing.CellRendererPane,javax.swing.JList)}
      * .
      *
@@ -68,8 +67,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxButtonClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MetalComboBoxButton sut = null; // = new MetalComboBoxButton(JComboBox, Icon, boolean, CellRendererPane,
-                                              // JList);
+        final MetalComboBoxButton sut = null; // = new MetalComboBoxButton(javax.swing.JComboBox, javax.swing.Icon,
+                                              // boolean, javax.swing.CellRendererPane, javax.swing.JList);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxButton]

@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util.logging;
 
-import java.beans.PropertyChangeListener;
-import java.io.InputStream;
 import java.util.logging.LogManager;
-import java.util.logging.Logger;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#getProperty(String) public
-     * java.lang.String java.util.logging.LogManager.getProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogManager#getProperty(String)
+     * public java.lang.String java.util.logging.LogManager.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#getLoggerNames() public
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogManager#getLoggerNames() public
      * java.util.Enumeration<java.lang.String> java.util.logging.LogManager.getLoggerNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#addLogger(Logger) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LogManager#addLogger(java.util.logging.Logger) public boolean
      * java.util.logging.LogManager.addLogger(java.util.logging.Logger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#checkAccess() public void
-     * java.util.logging.LogManager.checkAccess() throws java.lang.SecurityException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogManager#checkAccess() public
+     * void java.util.logging.LogManager.checkAccess() throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +124,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LogManager#removePropertyChangeListener(PropertyChangeListener) public void
+     * {@link java.util.logging.LogManager#removePropertyChangeListener(java.beans.PropertyChangeListener) public void
      * java.util.logging.LogManager.removePropertyChangeListener(java.beans.PropertyChangeListener) throws
      * java.lang.SecurityException}.
      *
@@ -150,7 +148,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LogManager#addPropertyChangeListener(PropertyChangeListener) public void
+     * {@link java.util.logging.LogManager#addPropertyChangeListener(java.beans.PropertyChangeListener) public void
      * java.util.logging.LogManager.addPropertyChangeListener(java.beans.PropertyChangeListener) throws
      * java.lang.SecurityException}.
      *
@@ -173,8 +171,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#readConfiguration(InputStream) public
-     * void java.util.logging.LogManager.readConfiguration(java.io.InputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LogManager#readConfiguration(java.io.InputStream) public void
+     * java.util.logging.LogManager.readConfiguration(java.io.InputStream) throws
      * java.io.IOException,java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -196,8 +195,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#readConfiguration() public void
-     * java.util.logging.LogManager.readConfiguration() throws java.io.IOException,java.lang.SecurityException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogManager#readConfiguration()
+     * public void java.util.logging.LogManager.readConfiguration() throws
+     * java.io.IOException,java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,8 +218,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#getLogger(String) public
-     * java.util.logging.Logger java.util.logging.LogManager.getLogger(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogManager#getLogger(String)
+     * public java.util.logging.Logger java.util.logging.LogManager.getLogger(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,7 +240,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogManager#reset() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogManager#reset() public void
      * java.util.logging.LogManager.reset() throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

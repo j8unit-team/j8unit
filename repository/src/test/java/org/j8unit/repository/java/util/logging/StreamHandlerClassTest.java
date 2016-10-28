@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.logging;
 
-import java.io.OutputStream;
-import java.util.logging.Formatter;
 import java.util.logging.StreamHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.util.logging.StreamHandlerClassTests<Strea
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StreamHandler#StreamHandler(OutputStream, Formatter) public
+     * {@link java.util.logging.StreamHandler#StreamHandler(java.io.OutputStream, java.util.logging.Formatter) public
      * java.util.logging.StreamHandler(java.io.OutputStream,java.util.logging.Formatter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,13 @@ implements org.j8unit.repository.java.util.logging.StreamHandlerClassTests<Strea
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamHandler sut = null; // = new StreamHandler(OutputStream, Formatter);
+        final StreamHandler sut = null; // = new StreamHandler(java.io.OutputStream, java.util.logging.Formatter);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamHandler#StreamHandler() public
-     * java.util.logging.StreamHandler()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.logging.StreamHandler#StreamHandler()
+     * public java.util.logging.StreamHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

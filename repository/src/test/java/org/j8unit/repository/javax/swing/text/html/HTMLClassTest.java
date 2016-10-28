@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import javax.swing.text.AttributeSet;
 import javax.swing.text.html.HTML;
 import javax.swing.text.html.HTML.Attribute;
 import javax.swing.text.html.HTML.Tag;
@@ -25,7 +24,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HTML#HTML() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.html.HTML#HTML() public
      * javax.swing.text.html.HTML()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,8 +45,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTML#getAllAttributeKeys() public static
-     * javax.swing.text.html.HTML$Attribute[] javax.swing.text.html.HTML.getAllAttributeKeys()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.HTML#getAllAttributeKeys()
+     * public static javax.swing.text.html.HTML$Attribute[] javax.swing.text.html.HTML.getAllAttributeKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,13 +60,13 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
     @Category(Draft.class)
     public void test_getAllAttributeKeys()
     throws Exception {
-        // write some test for {@link HTML#getAllAttributeKeys()}
+        // write some test for {@link javax.swing.text.html.HTML#getAllAttributeKeys()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTML#getTag(String) public static
-     * javax.swing.text.html.HTML$Tag javax.swing.text.html.HTML.getTag(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.HTML#getTag(String) public
+     * static javax.swing.text.html.HTML$Tag javax.swing.text.html.HTML.getTag(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,13 +80,13 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
     @Category(Draft.class)
     public void test_getTag_String()
     throws Exception {
-        // write some test for {@link HTML#getTag(String)}
+        // write some test for {@link javax.swing.text.html.HTML#getTag(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTML#getAllTags() public static
-     * javax.swing.text.html.HTML$Tag[] javax.swing.text.html.HTML.getAllTags()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.HTML#getAllTags() public
+     * static javax.swing.text.html.HTML$Tag[] javax.swing.text.html.HTML.getAllTags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,13 +100,14 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
     @Category(Draft.class)
     public void test_getAllTags()
     throws Exception {
-        // write some test for {@link HTML#getAllTags()}
+        // write some test for {@link javax.swing.text.html.HTML#getAllTags()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link HTML#getIntegerAttributeValue(AttributeSet, Attribute, int) public static int
+     * {@link javax.swing.text.html.HTML#getIntegerAttributeValue(javax.swing.text.AttributeSet, javax.swing.text.html.HTML.Attribute, int)
+     * public static int
      * javax.swing.text.html.HTML.getIntegerAttributeValue(javax.swing.text.AttributeSet,javax.swing.text.html.HTML$Attribute,int)}
      * .
      *
@@ -123,13 +123,14 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
     @Category(Draft.class)
     public void test_getIntegerAttributeValue_AttributeSet_Attribute_int()
     throws Exception {
-        // write some test for {@link HTML#getIntegerAttributeValue(AttributeSet, Attribute, int)}
+        // write some test for {@link javax.swing.text.html.HTML#getIntegerAttributeValue(javax.swing.text.AttributeSet,
+        // javax.swing.text.html.HTML.Attribute, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTML#getAttributeKey(String) public static
-     * javax.swing.text.html.HTML$Attribute javax.swing.text.html.HTML.getAttributeKey(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.HTML#getAttributeKey(String)
+     * public static javax.swing.text.html.HTML$Attribute javax.swing.text.html.HTML.getAttributeKey(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -143,7 +144,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
     @Category(Draft.class)
     public void test_getAttributeKey_String()
     throws Exception {
-        // write some test for {@link HTML#getAttributeKey(String)}
+        // write some test for {@link javax.swing.text.html.HTML#getAttributeKey(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML]
@@ -161,7 +162,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link UnknownTag#UnknownTag(String) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.html.HTML.UnknownTag#UnknownTag(String) public
          * javax.swing.text.html.HTML$UnknownTag(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -186,21 +188,6 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
     }
 
     @RunWith(J8Unit4.class)
-    public static class AttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests<Attribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
-
-        @Override
-        public Class<Attribute> createNewSUT() {
-            return Attribute.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class TagClassTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.TagClassTests<Tag> {
 
@@ -213,7 +200,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Tag#Tag() public
+         * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.html.HTML.Tag#Tag() public
          * javax.swing.text.html.HTML$Tag()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,6 +220,21 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Tag]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class AttributeClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests<Attribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
+
+        @Override
+        public Class<Attribute> createNewSUT() {
+            return Attribute.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
 
     }
 

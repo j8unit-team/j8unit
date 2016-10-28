@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Graphics;
-import java.beans.PropertyChangeEvent;
-import javax.swing.JComponent;
-import javax.swing.plaf.synth.SynthContext;
 import javax.swing.plaf.synth.SynthProgressBarUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +35,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthProgressBarUI#getBaseline(JComponent, int, int)
-     * public int javax.swing.plaf.synth.SynthProgressBarUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthProgressBarUI#getBaseline(javax.swing.JComponent, int, int) public int
+     * javax.swing.plaf.synth.SynthProgressBarUI.getBaseline(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +60,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthProgressBarUI#paintBorder(SynthContext, Graphics, int, int, int, int) public void
+     * {@link javax.swing.plaf.synth.SynthProgressBarUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public void
      * javax.swing.plaf.synth.SynthProgressBarUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *
@@ -87,8 +85,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthProgressBarUI#getPreferredSize(JComponent)
-     * public java.awt.Dimension javax.swing.plaf.synth.SynthProgressBarUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthProgressBarUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.synth.SynthProgressBarUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,7 +110,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthProgressBarUI#propertyChange(PropertyChangeEvent) public void
+     * {@link javax.swing.plaf.synth.SynthProgressBarUI#propertyChange(java.beans.PropertyChangeEvent) public void
      * javax.swing.plaf.synth.SynthProgressBarUI.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,8 +133,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthProgressBarUI#paint(Graphics, JComponent)
-     * public void javax.swing.plaf.synth.SynthProgressBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthProgressBarUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthProgressBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,8 +157,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthProgressBarUI#update(Graphics, JComponent)
-     * public void javax.swing.plaf.synth.SynthProgressBarUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthProgressBarUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthProgressBarUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,7 +181,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthProgressBarUI#getContext(JComponent) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthProgressBarUI#getContext(javax.swing.JComponent) public
      * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthProgressBarUI.getContext(javax.swing.JComponent)}
      * .
      *

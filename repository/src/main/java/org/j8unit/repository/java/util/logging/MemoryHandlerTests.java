@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.logging;
 
-import java.util.logging.Level;
-import java.util.logging.LogRecord;
 import java.util.logging.MemoryHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,7 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryHandler#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.MemoryHandler#close() public void
      * java.util.logging.MemoryHandler.close() throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +57,8 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryHandler#getPushLevel() public
-     * java.util.logging.Level java.util.logging.MemoryHandler.getPushLevel()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.MemoryHandler#getPushLevel()
+     * public java.util.logging.Level java.util.logging.MemoryHandler.getPushLevel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +79,8 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryHandler#push() public synchronized void
-     * java.util.logging.MemoryHandler.push()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.MemoryHandler#push() public
+     * synchronized void java.util.logging.MemoryHandler.push()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +101,7 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryHandler#flush() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.MemoryHandler#flush() public void
      * java.util.logging.MemoryHandler.flush()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,9 +124,9 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryHandler#setPushLevel(Level) public
-     * synchronized void java.util.logging.MemoryHandler.setPushLevel(java.util.logging.Level) throws
-     * java.lang.SecurityException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.MemoryHandler#setPushLevel(java.util.logging.Level) public synchronized void
+     * java.util.logging.MemoryHandler.setPushLevel(java.util.logging.Level) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +147,9 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryHandler#publish(LogRecord) public synchronized
-     * void java.util.logging.MemoryHandler.publish(java.util.logging.LogRecord)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.MemoryHandler#publish(java.util.logging.LogRecord) public synchronized void
+     * java.util.logging.MemoryHandler.publish(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +171,8 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryHandler#isLoggable(LogRecord) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.MemoryHandler#isLoggable(java.util.logging.LogRecord) public boolean
      * java.util.logging.MemoryHandler.isLoggable(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

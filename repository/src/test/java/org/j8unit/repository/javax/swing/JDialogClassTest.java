@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Dialog;
-import java.awt.Dialog.ModalityType;
-import java.awt.Frame;
-import java.awt.GraphicsConfiguration;
-import java.awt.Window;
 import javax.swing.JDialog;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -26,52 +21,8 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Frame, String) public
-     * javax.swing.JDialog(java.awt.Frame,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JDialog_Frame_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Frame, String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Window) public
-     * javax.swing.JDialog(java.awt.Window)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JDialog_Window()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Window);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JDialog#JDialog(Dialog, String, boolean, GraphicsConfiguration) public
+     * {@link javax.swing.JDialog#JDialog(java.awt.Dialog, String, boolean, java.awt.GraphicsConfiguration) public
      * javax.swing.JDialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,12 +39,58 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Dialog, String, boolean, GraphicsConfiguration);
+        final JDialog sut = null; // = new JDialog(java.awt.Dialog, String, boolean, java.awt.GraphicsConfiguration);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Dialog, String, boolean) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JDialog#JDialog(java.awt.Window)
+     * public javax.swing.JDialog(java.awt.Window)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JDialog_Window()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JDialog sut = null; // = new JDialog(java.awt.Window);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JDialog#JDialog(java.awt.Frame, String, boolean, java.awt.GraphicsConfiguration) public
+     * javax.swing.JDialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JDialog_Frame_String_boolean_GraphicsConfiguration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JDialog sut = null; // = new JDialog(java.awt.Frame, String, boolean, java.awt.GraphicsConfiguration);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JDialog#JDialog(java.awt.Dialog, String, boolean) public
      * javax.swing.JDialog(java.awt.Dialog,java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,12 +107,13 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Dialog, String, boolean);
+        final JDialog sut = null; // = new JDialog(java.awt.Dialog, String, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Dialog, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JDialog#JDialog(java.awt.Dialog, String) public
      * javax.swing.JDialog(java.awt.Dialog,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,13 +130,36 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Dialog, String);
+        final JDialog sut = null; // = new JDialog(java.awt.Dialog, String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JDialog#JDialog(java.awt.Dialog)
+     * public javax.swing.JDialog(java.awt.Dialog)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JDialog_Dialog()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JDialog sut = null; // = new JDialog(java.awt.Dialog);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JDialog#JDialog(Window, String, ModalityType, GraphicsConfiguration) public
+     * {@link javax.swing.JDialog#JDialog(java.awt.Window, String, java.awt.Dialog.ModalityType, java.awt.GraphicsConfiguration)
+     * public
      * javax.swing.JDialog(java.awt.Window,java.lang.String,java.awt.Dialog$ModalityType,java.awt.GraphicsConfiguration)}
      * .
      *
@@ -156,80 +177,15 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Window, String, ModalityType, GraphicsConfiguration);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Dialog) public
-     * javax.swing.JDialog(java.awt.Dialog)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JDialog_Dialog()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Dialog);
+        final JDialog sut = null; // = new JDialog(java.awt.Window, String, java.awt.Dialog.ModalityType,
+                                  // java.awt.GraphicsConfiguration);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JDialog#JDialog(Frame, String, boolean, GraphicsConfiguration) public
-     * javax.swing.JDialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JDialog_Frame_String_boolean_GraphicsConfiguration()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Frame, String, boolean, GraphicsConfiguration);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Dialog, boolean) public
-     * javax.swing.JDialog(java.awt.Dialog,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JDialog_Dialog_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Dialog, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Window, String, ModalityType)
-     * public javax.swing.JDialog(java.awt.Window,java.lang.String,java.awt.Dialog$ModalityType)}.
+     * {@link javax.swing.JDialog#JDialog(java.awt.Window, String, java.awt.Dialog.ModalityType) public
+     * javax.swing.JDialog(java.awt.Window,java.lang.String,java.awt.Dialog$ModalityType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,12 +201,13 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Window, String, ModalityType);
+        final JDialog sut = null; // = new JDialog(java.awt.Window, String, java.awt.Dialog.ModalityType);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Window, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JDialog#JDialog(java.awt.Window, String) public
      * javax.swing.JDialog(java.awt.Window,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -267,12 +224,36 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Window, String);
+        final JDialog sut = null; // = new JDialog(java.awt.Window, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Window, ModalityType) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JDialog#JDialog(java.awt.Frame, String, boolean) public
+     * javax.swing.JDialog(java.awt.Frame,java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JDialog_Frame_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JDialog sut = null; // = new JDialog(java.awt.Frame, String, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JDialog#JDialog(java.awt.Window, java.awt.Dialog.ModalityType) public
      * javax.swing.JDialog(java.awt.Window,java.awt.Dialog$ModalityType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,13 +270,103 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Window, ModalityType);
+        final JDialog sut = null; // = new JDialog(java.awt.Window, java.awt.Dialog.ModalityType);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog() public javax.swing.JDialog()}
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JDialog#JDialog(java.awt.Frame, String) public
+     * javax.swing.JDialog(java.awt.Frame,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JDialog_Frame_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JDialog sut = null; // = new JDialog(java.awt.Frame, String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JDialog#JDialog(java.awt.Dialog, boolean) public javax.swing.JDialog(java.awt.Dialog,boolean)}
      * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JDialog_Dialog_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JDialog sut = null; // = new JDialog(java.awt.Dialog, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JDialog#JDialog(java.awt.Frame, boolean) public javax.swing.JDialog(java.awt.Frame,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JDialog_Frame_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JDialog sut = null; // = new JDialog(java.awt.Frame, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JDialog#JDialog(java.awt.Frame)
+     * public javax.swing.JDialog(java.awt.Frame)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JDialog_Frame()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JDialog sut = null; // = new JDialog(java.awt.Frame);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JDialog#JDialog() public
+     * javax.swing.JDialog()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -315,74 +386,9 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Frame, boolean) public
-     * javax.swing.JDialog(java.awt.Frame,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JDialog_Frame_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Frame, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Frame, String, boolean) public
-     * javax.swing.JDialog(java.awt.Frame,java.lang.String,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JDialog_Frame_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Frame, String, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDialog#JDialog(Frame) public
-     * javax.swing.JDialog(java.awt.Frame)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JDialog_Frame()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JDialog sut = null; // = new JDialog(Frame);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JDialog#setDefaultLookAndFeelDecorated(boolean)
-     * public static void javax.swing.JDialog.setDefaultLookAndFeelDecorated(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JDialog#setDefaultLookAndFeelDecorated(boolean) public static void
+     * javax.swing.JDialog.setDefaultLookAndFeelDecorated(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -396,13 +402,13 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
     @Category(Draft.class)
     public void test_setDefaultLookAndFeelDecorated_boolean()
     throws Exception {
-        // write some test for {@link JDialog#setDefaultLookAndFeelDecorated(boolean)}
+        // write some test for {@link javax.swing.JDialog#setDefaultLookAndFeelDecorated(boolean)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JDialog#isDefaultLookAndFeelDecorated() public
-     * static boolean javax.swing.JDialog.isDefaultLookAndFeelDecorated()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDialog#isDefaultLookAndFeelDecorated()
+     * public static boolean javax.swing.JDialog.isDefaultLookAndFeelDecorated()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -416,7 +422,7 @@ implements org.j8unit.repository.javax.swing.JDialogClassTests<JDialog> {
     @Category(Draft.class)
     public void test_isDefaultLookAndFeelDecorated()
     throws Exception {
-        // write some test for {@link JDialog#isDefaultLookAndFeelDecorated()}
+        // write some test for {@link javax.swing.JDialog#isDefaultLookAndFeelDecorated()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JDialog]

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PatternSyntaxException#getIndex() public int
-     * java.util.regex.PatternSyntaxException.getIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.PatternSyntaxException#getIndex()
+     * public int java.util.regex.PatternSyntaxException.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PatternSyntaxException#getMessage() public
-     * java.lang.String java.util.regex.PatternSyntaxException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.PatternSyntaxException#getMessage()
+     * public java.lang.String java.util.regex.PatternSyntaxException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PatternSyntaxException#getDescription() public
-     * java.lang.String java.util.regex.PatternSyntaxException.getDescription()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.regex.PatternSyntaxException#getDescription() public java.lang.String
+     * java.util.regex.PatternSyntaxException.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PatternSyntaxException#getPattern() public
-     * java.lang.String java.util.regex.PatternSyntaxException.getPattern()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.PatternSyntaxException#getPattern()
+     * public java.lang.String java.util.regex.PatternSyntaxException.getPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

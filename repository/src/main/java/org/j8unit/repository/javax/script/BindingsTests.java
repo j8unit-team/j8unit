@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.script;
 
-import java.util.Map;
 import javax.script.Bindings;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bindings#containsKey(Object) public abstract boolean
-     * javax.script.Bindings.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.Bindings#containsKey(Object) public
+     * abstract boolean javax.script.Bindings.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bindings#putAll(Map) public abstract void
-     * javax.script.Bindings.putAll(java.util.Map<? extends java.lang.String, ?>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.Bindings#putAll(java.util.Map) public
+     * abstract void javax.script.Bindings.putAll(java.util.Map<? extends java.lang.String, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bindings#get(Object) public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.script.Bindings#get(Object) public abstract
      * java.lang.Object javax.script.Bindings.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bindings#put(String, Object) public abstract
-     * java.lang.Object javax.script.Bindings.put(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.Bindings#put(String, Object) public
+     * abstract java.lang.Object javax.script.Bindings.put(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +125,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Bindings#remove(Object) public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.script.Bindings#remove(Object) public abstract
      * java.lang.Object javax.script.Bindings.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

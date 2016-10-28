@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.Iterator;
-import java.util.function.Consumer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Iterator#next() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Iterator#next() public abstract E
      * java.util.Iterator.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Iterator#remove() public default void
+     * Test method for the hereby targeted method-under-test {@link java.util.Iterator#remove() public default void
      * java.util.Iterator.remove()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Iterator#hasNext() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Iterator#hasNext() public abstract boolean
      * java.util.Iterator.hasNext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Iterator#forEachRemaining(Consumer) public default
-     * void java.util.Iterator.forEachRemaining(java.util.function.Consumer<? super E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Iterator#forEachRemaining(java.util.function.Consumer) public default void
+     * java.util.Iterator.forEachRemaining(java.util.function.Consumer<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

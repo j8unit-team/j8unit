@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.Component;
-import java.awt.Container;
 import java.awt.event.HierarchyEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.awt.event.HierarchyEventClassTests<Hierarc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HierarchyEvent#HierarchyEvent(Component, int, Component, Container) public
-     * java.awt.event.HierarchyEvent(java.awt.Component,int,java.awt.Component,java.awt.Container)}.
+     * {@link java.awt.event.HierarchyEvent#HierarchyEvent(java.awt.Component, int, java.awt.Component, java.awt.Container)
+     * public java.awt.event.HierarchyEvent(java.awt.Component,int,java.awt.Component,java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,14 +39,15 @@ implements org.j8unit.repository.java.awt.event.HierarchyEventClassTests<Hierarc
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HierarchyEvent sut = null; // = new HierarchyEvent(Component, int, Component, Container);
+        final HierarchyEvent sut = null; // = new HierarchyEvent(java.awt.Component, int, java.awt.Component,
+                                         // java.awt.Container);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HierarchyEvent#HierarchyEvent(Component, int, Component, Container, long) public
-     * java.awt.event.HierarchyEvent(java.awt.Component,int,java.awt.Component,java.awt.Container,long)}.
+     * {@link java.awt.event.HierarchyEvent#HierarchyEvent(java.awt.Component, int, java.awt.Component, java.awt.Container, long)
+     * public java.awt.event.HierarchyEvent(java.awt.Component,int,java.awt.Component,java.awt.Container,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +63,8 @@ implements org.j8unit.repository.java.awt.event.HierarchyEventClassTests<Hierarc
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HierarchyEvent sut = null; // = new HierarchyEvent(Component, int, Component, Container, long);
+        final HierarchyEvent sut = null; // = new HierarchyEvent(java.awt.Component, int, java.awt.Component,
+                                         // java.awt.Container, long);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.HierarchyEvent]

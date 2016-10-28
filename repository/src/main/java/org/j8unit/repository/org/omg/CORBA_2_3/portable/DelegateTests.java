@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Object;
 import org.omg.CORBA_2_3.portable.Delegate;
 
 /**
@@ -35,8 +34,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.DelegateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Delegate#get_codebase(Object) public
-     * java.lang.String org.omg.CORBA_2_3.portable.Delegate.get_codebase(org.omg.CORBA.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA_2_3.portable.Delegate#get_codebase(org.omg.CORBA.Object) public java.lang.String
+     * org.omg.CORBA_2_3.portable.Delegate.get_codebase(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

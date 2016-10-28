@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.GradientPaint;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +34,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GradientPaint#getPoint2() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.GradientPaint#getPoint2() public
      * java.awt.geom.Point2D java.awt.GradientPaint.getPoint2()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +57,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GradientPaint#createContext(ColorModel, Rectangle, Rectangle2D, AffineTransform, RenderingHints) public
-     * java.awt.PaintContext
+     * {@link java.awt.GradientPaint#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
+     * public java.awt.PaintContext
      * java.awt.GradientPaint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
      * .
      *
@@ -87,7 +82,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GradientPaint#getTransparency() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.GradientPaint#getTransparency() public int
      * java.awt.GradientPaint.getTransparency()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,8 +105,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GradientPaint#getColor1() public java.awt.Color
-     * java.awt.GradientPaint.getColor1()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GradientPaint#getColor1() public
+     * java.awt.Color java.awt.GradientPaint.getColor1()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,8 +127,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GradientPaint#getColor2() public java.awt.Color
-     * java.awt.GradientPaint.getColor2()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GradientPaint#getColor2() public
+     * java.awt.Color java.awt.GradientPaint.getColor2()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,7 +149,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GradientPaint#getPoint1() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.GradientPaint#getPoint1() public
      * java.awt.geom.Point2D java.awt.GradientPaint.getPoint1()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,7 +171,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GradientPaint#isCyclic() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.GradientPaint#isCyclic() public boolean
      * java.awt.GradientPaint.isCyclic()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

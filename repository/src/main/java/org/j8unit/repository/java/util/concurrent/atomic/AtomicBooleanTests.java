@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicBoolean#lazySet(boolean) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicBoolean#lazySet(boolean) public final void
      * java.util.concurrent.atomic.AtomicBoolean.lazySet(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicBoolean#getAndSet(boolean) public final
-     * boolean java.util.concurrent.atomic.AtomicBoolean.getAndSet(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicBoolean#getAndSet(boolean) public final boolean
+     * java.util.concurrent.atomic.AtomicBoolean.getAndSet(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicBoolean#toString() public java.lang.String
-     * java.util.concurrent.atomic.AtomicBoolean.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicBoolean#toString()
+     * public java.lang.String java.util.concurrent.atomic.AtomicBoolean.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +103,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicBoolean#set(boolean) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicBoolean#set(boolean) public final void
      * java.util.concurrent.atomic.AtomicBoolean.set(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +126,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicBoolean#weakCompareAndSet(boolean, boolean)
-     * public boolean java.util.concurrent.atomic.AtomicBoolean.weakCompareAndSet(boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicBoolean#weakCompareAndSet(boolean, boolean) public boolean
+     * java.util.concurrent.atomic.AtomicBoolean.weakCompareAndSet(boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +149,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicBoolean#compareAndSet(boolean, boolean) public
-     * final boolean java.util.concurrent.atomic.AtomicBoolean.compareAndSet(boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicBoolean#compareAndSet(boolean, boolean) public final boolean
+     * java.util.concurrent.atomic.AtomicBoolean.compareAndSet(boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +172,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicBoolean#get() public final boolean
-     * java.util.concurrent.atomic.AtomicBoolean.get()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicBoolean#get()
+     * public final boolean java.util.concurrent.atomic.AtomicBoolean.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

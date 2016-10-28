@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.MenuItem;
-import java.awt.MenuShortcut;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.awt.MenuItemClassTests<MenuItem> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MenuItem#MenuItem(String, MenuShortcut) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.MenuItem#MenuItem(String, java.awt.MenuShortcut) public
      * java.awt.MenuItem(java.lang.String,java.awt.MenuShortcut) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,12 +39,12 @@ implements org.j8unit.repository.java.awt.MenuItemClassTests<MenuItem> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MenuItem sut = null; // = new MenuItem(String, MenuShortcut);
+        final MenuItem sut = null; // = new MenuItem(String, java.awt.MenuShortcut);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MenuItem#MenuItem(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.MenuItem#MenuItem(String) public
      * java.awt.MenuItem(java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,8 +66,8 @@ implements org.j8unit.repository.java.awt.MenuItemClassTests<MenuItem> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MenuItem#MenuItem() public java.awt.MenuItem()
-     * throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.MenuItem#MenuItem() public
+     * java.awt.MenuItem() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

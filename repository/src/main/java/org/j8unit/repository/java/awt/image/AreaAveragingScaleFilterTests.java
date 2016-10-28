@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.AreaAveragingScaleFilter;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.awt.image.ReplicateScaleFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AreaAveragingScaleFilter#setHints(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.AreaAveragingScaleFilter#setHints(int) public void
      * java.awt.image.AreaAveragingScaleFilter.setHints(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +59,8 @@ extends org.j8unit.repository.java.awt.image.ReplicateScaleFilterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AreaAveragingScaleFilter#setPixels(int, int, int, int, ColorModel, byte[], int, int) public void
+     * {@link java.awt.image.AreaAveragingScaleFilter#setPixels(int, int, int, int, java.awt.image.ColorModel, byte[], int, int)
+     * public void
      * java.awt.image.AreaAveragingScaleFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +84,8 @@ extends org.j8unit.repository.java.awt.image.ReplicateScaleFilterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AreaAveragingScaleFilter#setPixels(int, int, int, int, ColorModel, int[], int, int) public void
+     * {@link java.awt.image.AreaAveragingScaleFilter#setPixels(int, int, int, int, java.awt.image.ColorModel, int[], int, int)
+     * public void
      * java.awt.image.AreaAveragingScaleFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

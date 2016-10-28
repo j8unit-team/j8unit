@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseAPDU#getSW() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ResponseAPDU#getSW() public int
      * javax.smartcardio.ResponseAPDU.getSW()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseAPDU#getNr() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ResponseAPDU#getNr() public int
      * javax.smartcardio.ResponseAPDU.getNr()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseAPDU#getSW2() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ResponseAPDU#getSW2() public int
      * javax.smartcardio.ResponseAPDU.getSW2()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseAPDU#equals(Object) public boolean
-     * javax.smartcardio.ResponseAPDU.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ResponseAPDU#equals(Object) public
+     * boolean javax.smartcardio.ResponseAPDU.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseAPDU#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ResponseAPDU#hashCode() public int
      * javax.smartcardio.ResponseAPDU.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseAPDU#toString() public java.lang.String
-     * javax.smartcardio.ResponseAPDU.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ResponseAPDU#toString() public
+     * java.lang.String javax.smartcardio.ResponseAPDU.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +169,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseAPDU#getSW1() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ResponseAPDU#getSW1() public int
      * javax.smartcardio.ResponseAPDU.getSW1()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +191,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseAPDU#getData() public byte[]
-     * javax.smartcardio.ResponseAPDU.getData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ResponseAPDU#getData() public
+     * byte[] javax.smartcardio.ResponseAPDU.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +213,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseAPDU#getBytes() public byte[]
-     * javax.smartcardio.ResponseAPDU.getBytes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.ResponseAPDU#getBytes() public
+     * byte[] javax.smartcardio.ResponseAPDU.getBytes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

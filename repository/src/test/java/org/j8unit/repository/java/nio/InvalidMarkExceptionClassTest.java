@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.nio.InvalidMarkExceptionClassTests<Invalid
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidMarkException#InvalidMarkException()
-     * public java.nio.InvalidMarkException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.nio.InvalidMarkException#InvalidMarkException() public java.nio.InvalidMarkException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

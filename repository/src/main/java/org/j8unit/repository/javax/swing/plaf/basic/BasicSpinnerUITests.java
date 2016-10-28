@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicSpinnerUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.SpinnerUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSpinnerUI#getBaseline(JComponent, int, int)
-     * public int javax.swing.plaf.basic.BasicSpinnerUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSpinnerUI#getBaseline(javax.swing.JComponent, int, int) public int
+     * javax.swing.plaf.basic.BasicSpinnerUI.getBaseline(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.SpinnerUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSpinnerUI#getBaselineResizeBehavior(JComponent)
-     * public java.awt.Component$BaselineResizeBehavior
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSpinnerUI#getBaselineResizeBehavior(javax.swing.JComponent) public
+     * java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.basic.BasicSpinnerUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +83,8 @@ extends org.j8unit.repository.javax.swing.plaf.SpinnerUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSpinnerUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSpinnerUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicSpinnerUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +107,8 @@ extends org.j8unit.repository.javax.swing.plaf.SpinnerUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSpinnerUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSpinnerUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicSpinnerUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

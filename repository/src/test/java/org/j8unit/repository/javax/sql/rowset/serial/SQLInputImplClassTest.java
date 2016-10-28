@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.util.Map;
 import javax.sql.rowset.serial.SQLInputImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SQLInputImplClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SQLInputImpl#SQLInputImpl(Object[], Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SQLInputImpl#SQLInputImpl(Object[], java.util.Map) public
      * javax.sql.rowset.serial.SQLInputImpl(java.lang.Object[],java.util.Map<java.lang.String, java.lang.Class<?>>)
      * throws java.sql.SQLException}.
      *
@@ -40,7 +40,7 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SQLInputImplClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SQLInputImpl sut = null; // = new SQLInputImpl(Object[], Map);
+        final SQLInputImpl sut = null; // = new SQLInputImpl(Object[], java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SQLInputImpl]

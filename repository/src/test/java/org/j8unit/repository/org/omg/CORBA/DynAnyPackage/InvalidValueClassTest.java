@@ -21,8 +21,9 @@ implements org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidValueClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidValue#InvalidValue() public
-     * org.omg.CORBA.DynAnyPackage.InvalidValue()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.DynAnyPackage.InvalidValue#InvalidValue() public org.omg.CORBA.DynAnyPackage.InvalidValue()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidValueClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidValue#InvalidValue(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.DynAnyPackage.InvalidValue#InvalidValue(String) public
      * org.omg.CORBA.DynAnyPackage.InvalidValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Action#input() public abstract java.lang.String
-     * javax.xml.ws.Action.input()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Action#input() public abstract
+     * java.lang.String javax.xml.ws.Action.input()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Action#output() public abstract java.lang.String
-     * javax.xml.ws.Action.output()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Action#output() public abstract
+     * java.lang.String javax.xml.ws.Action.output()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Action#fault() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Action#fault() public abstract
      * javax.xml.ws.FaultAction[] javax.xml.ws.Action.fault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

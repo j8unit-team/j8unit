@@ -7,10 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.OctetSeqHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class OctetSeqHelperClassTest
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeq
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OctetSeqHelper#OctetSeqHelper() public
-     * org.omg.CORBA.OctetSeqHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.OctetSeqHelper#OctetSeqHelper()
+     * public org.omg.CORBA.OctetSeqHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeq
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OctetSeqHelper#id() public static java.lang.String
-     * org.omg.CORBA.OctetSeqHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.OctetSeqHelper#id() public static
+     * java.lang.String org.omg.CORBA.OctetSeqHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,13 +57,14 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeq
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link OctetSeqHelper#id()}
+        // write some test for {@link org.omg.CORBA.OctetSeqHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OctetSeqHelper#insert(Any, byte[]) public static
-     * void org.omg.CORBA.OctetSeqHelper.insert(org.omg.CORBA.Any,byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.OctetSeqHelper#insert(org.omg.CORBA.Any, byte[]) public static void
+     * org.omg.CORBA.OctetSeqHelper.insert(org.omg.CORBA.Any,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +78,14 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeq
     @Category(Draft.class)
     public void test_insert_Any_byteArray()
     throws Exception {
-        // write some test for {@link OctetSeqHelper#insert(Any, byte[])}
+        // write some test for {@link org.omg.CORBA.OctetSeqHelper#insert(org.omg.CORBA.Any, byte[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OctetSeqHelper#write(OutputStream, byte[]) public
-     * static void org.omg.CORBA.OctetSeqHelper.write(org.omg.CORBA.portable.OutputStream,byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.OctetSeqHelper#write(org.omg.CORBA.portable.OutputStream, byte[]) public static void
+     * org.omg.CORBA.OctetSeqHelper.write(org.omg.CORBA.portable.OutputStream,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +99,13 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeq
     @Category(Draft.class)
     public void test_write_OutputStream_byteArray()
     throws Exception {
-        // write some test for {@link OctetSeqHelper#write(OutputStream, byte[])}
+        // write some test for {@link org.omg.CORBA.OctetSeqHelper#write(org.omg.CORBA.portable.OutputStream, byte[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OctetSeqHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.OctetSeqHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.OctetSeqHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.OctetSeqHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +119,14 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeq
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link OctetSeqHelper#type()}
+        // write some test for {@link org.omg.CORBA.OctetSeqHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OctetSeqHelper#read(InputStream) public static
-     * byte[] org.omg.CORBA.OctetSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.OctetSeqHelper#read(org.omg.CORBA.portable.InputStream) public static byte[]
+     * org.omg.CORBA.OctetSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,12 +140,13 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeq
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link OctetSeqHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.OctetSeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OctetSeqHelper#extract(Any) public static byte[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.OctetSeqHelper#extract(org.omg.CORBA.Any) public static byte[]
      * org.omg.CORBA.OctetSeqHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +161,7 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeq
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link OctetSeqHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.OctetSeqHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.OctetSeqHelper]

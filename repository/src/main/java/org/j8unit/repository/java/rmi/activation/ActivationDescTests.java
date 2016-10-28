@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDesc#getRestartMode() public boolean
-     * java.rmi.activation.ActivationDesc.getRestartMode()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationDesc#getRestartMode()
+     * public boolean java.rmi.activation.ActivationDesc.getRestartMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDesc#hashCode() public int
-     * java.rmi.activation.ActivationDesc.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationDesc#hashCode() public
+     * int java.rmi.activation.ActivationDesc.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDesc#equals(Object) public boolean
-     * java.rmi.activation.ActivationDesc.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationDesc#equals(Object)
+     * public boolean java.rmi.activation.ActivationDesc.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDesc#getLocation() public java.lang.String
-     * java.rmi.activation.ActivationDesc.getLocation()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationDesc#getLocation()
+     * public java.lang.String java.rmi.activation.ActivationDesc.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDesc#getGroupID() public
-     * java.rmi.activation.ActivationGroupID java.rmi.activation.ActivationDesc.getGroupID()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationDesc#getGroupID()
+     * public java.rmi.activation.ActivationGroupID java.rmi.activation.ActivationDesc.getGroupID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDesc#getData() public
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationDesc#getData() public
      * java.rmi.MarshalledObject<?> java.rmi.activation.ActivationDesc.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDesc#getClassName() public
-     * java.lang.String java.rmi.activation.ActivationDesc.getClassName()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.activation.ActivationDesc#getClassName()
+     * public java.lang.String java.rmi.activation.ActivationDesc.getClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

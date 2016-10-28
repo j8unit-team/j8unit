@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio;
 
-import java.util.Locale;
 import javax.imageio.ImageWriteParam;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.imageio.ImageWriteParamClassTests<ImageWr
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageWriteParam#ImageWriteParam(Locale) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.ImageWriteParam#ImageWriteParam(java.util.Locale) public
      * javax.imageio.ImageWriteParam(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.imageio.ImageWriteParamClassTests<ImageWr
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageWriteParam sut = null; // = new ImageWriteParam(Locale);
+        final ImageWriteParam sut = null; // = new ImageWriteParam(java.util.Locale);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.ImageWriteParam]

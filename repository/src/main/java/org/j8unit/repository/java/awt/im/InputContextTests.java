@@ -1,10 +1,7 @@
 package org.j8unit.repository.java.awt.im;
 
-import java.awt.AWTEvent;
-import java.awt.Component;
 import java.awt.im.InputContext;
 import java.lang.Character.Subset;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +35,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#setCharacterSubsets(Subset[]) public
-     * void java.awt.im.InputContext.setCharacterSubsets(java.lang.Character$Subset[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputContext#setCharacterSubsets(Subset[]) public void
+     * java.awt.im.InputContext.setCharacterSubsets(java.lang.Character$Subset[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#isCompositionEnabled() public boolean
-     * java.awt.im.InputContext.isCompositionEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.InputContext#isCompositionEnabled()
+     * public boolean java.awt.im.InputContext.isCompositionEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#dispatchEvent(AWTEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputContext#dispatchEvent(java.awt.AWTEvent) public void
      * java.awt.im.InputContext.dispatchEvent(java.awt.AWTEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#setCompositionEnabled(boolean) public
-     * void java.awt.im.InputContext.setCompositionEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputContext#setCompositionEnabled(boolean) public void
+     * java.awt.im.InputContext.setCompositionEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#endComposition() public void
-     * java.awt.im.InputContext.endComposition()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.InputContext#endComposition() public
+     * void java.awt.im.InputContext.endComposition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +148,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#getInputMethodControlObject() public
-     * java.lang.Object java.awt.im.InputContext.getInputMethodControlObject()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputContext#getInputMethodControlObject() public java.lang.Object
+     * java.awt.im.InputContext.getInputMethodControlObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +171,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#dispose() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.InputContext#dispose() public void
      * java.awt.im.InputContext.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +193,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#selectInputMethod(Locale) public
-     * boolean java.awt.im.InputContext.selectInputMethod(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputContext#selectInputMethod(java.util.Locale) public boolean
+     * java.awt.im.InputContext.selectInputMethod(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,7 +216,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#reconvert() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.InputContext#reconvert() public void
      * java.awt.im.InputContext.reconvert()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,7 +238,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#removeNotify(Component) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputContext#removeNotify(java.awt.Component) public void
      * java.awt.im.InputContext.removeNotify(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +261,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#getLocale() public java.util.Locale
-     * java.awt.im.InputContext.getLocale()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.InputContext#getLocale() public
+     * java.util.Locale java.awt.im.InputContext.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

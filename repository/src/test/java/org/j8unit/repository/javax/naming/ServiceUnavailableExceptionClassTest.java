@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.ServiceUnavailableExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServiceUnavailableException#ServiceUnavailableException(String) public
+     * {@link javax.naming.ServiceUnavailableException#ServiceUnavailableException(String) public
      * javax.naming.ServiceUnavailableException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.naming.ServiceUnavailableExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServiceUnavailableException#ServiceUnavailableException() public
+     * {@link javax.naming.ServiceUnavailableException#ServiceUnavailableException() public
      * javax.naming.ServiceUnavailableException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

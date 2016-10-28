@@ -35,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialDatalink#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialDatalink#equals(Object) public boolean
      * javax.sql.rowset.serial.SerialDatalink.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +59,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialDatalink#hashCode() public int
-     * javax.sql.rowset.serial.SerialDatalink.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialDatalink#hashCode()
+     * public int javax.sql.rowset.serial.SerialDatalink.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialDatalink#getDatalink() public java.net.URL
-     * javax.sql.rowset.serial.SerialDatalink.getDatalink() throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialDatalink#getDatalink()
+     * public java.net.URL javax.sql.rowset.serial.SerialDatalink.getDatalink() throws
+     * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +105,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialDatalink#clone() public java.lang.Object
-     * javax.sql.rowset.serial.SerialDatalink.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialDatalink#clone()
+     * public java.lang.Object javax.sql.rowset.serial.SerialDatalink.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,7 +35,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTe
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link GLOBAL#GLOBAL() public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.xml.bind.annotation.XmlElementDecl.GLOBAL#GLOBAL() public
          * javax.xml.bind.annotation.XmlElementDecl$GLOBAL()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

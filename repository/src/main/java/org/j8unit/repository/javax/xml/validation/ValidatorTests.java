@@ -1,15 +1,11 @@
 package org.j8unit.repository.javax.xml.validation;
 
-import javax.xml.transform.Result;
-import javax.xml.transform.Source;
 import javax.xml.validation.Validator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.ls.LSResourceResolver;
-import org.xml.sax.ErrorHandler;
 
 /**
  * <p>
@@ -38,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#setResourceResolver(LSResourceResolver)
-     * public abstract void javax.xml.validation.Validator.setResourceResolver(org.w3c.dom.ls.LSResourceResolver)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.Validator#setResourceResolver(org.w3c.dom.ls.LSResourceResolver) public abstract void
+     * javax.xml.validation.Validator.setResourceResolver(org.w3c.dom.ls.LSResourceResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#getResourceResolver() public abstract
-     * org.w3c.dom.ls.LSResourceResolver javax.xml.validation.Validator.getResourceResolver()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.validation.Validator#getResourceResolver()
+     * public abstract org.w3c.dom.ls.LSResourceResolver javax.xml.validation.Validator.getResourceResolver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#reset() public abstract void
-     * javax.xml.validation.Validator.reset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.validation.Validator#reset() public
+     * abstract void javax.xml.validation.Validator.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#getFeature(String) public boolean
-     * javax.xml.validation.Validator.getFeature(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.validation.Validator#getFeature(String)
+     * public boolean javax.xml.validation.Validator.getFeature(java.lang.String) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,9 +124,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#validate(Source, Result) public abstract
-     * void javax.xml.validation.Validator.validate(javax.xml.transform.Source,javax.xml.transform.Result) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.Validator#validate(javax.xml.transform.Source, javax.xml.transform.Result) public
+     * abstract void javax.xml.validation.Validator.validate(javax.xml.transform.Source,javax.xml.transform.Result)
+     * throws org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,7 +148,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#validate(Source) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.Validator#validate(javax.xml.transform.Source) public void
      * javax.xml.validation.Validator.validate(javax.xml.transform.Source) throws
      * org.xml.sax.SAXException,java.io.IOException}.
      *
@@ -173,8 +172,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#getErrorHandler() public abstract
-     * org.xml.sax.ErrorHandler javax.xml.validation.Validator.getErrorHandler()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.validation.Validator#getErrorHandler()
+     * public abstract org.xml.sax.ErrorHandler javax.xml.validation.Validator.getErrorHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +194,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#getProperty(String) public
-     * java.lang.Object javax.xml.validation.Validator.getProperty(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.validation.Validator#getProperty(String)
+     * public java.lang.Object javax.xml.validation.Validator.getProperty(java.lang.String) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -218,8 +217,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#setErrorHandler(ErrorHandler) public
-     * abstract void javax.xml.validation.Validator.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.Validator#setErrorHandler(org.xml.sax.ErrorHandler) public abstract void
+     * javax.xml.validation.Validator.setErrorHandler(org.xml.sax.ErrorHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,7 +240,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#setProperty(String, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.Validator#setProperty(String, Object) public void
      * javax.xml.validation.Validator.setProperty(java.lang.String,java.lang.Object) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
@@ -263,7 +264,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Validator#setFeature(String, boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.Validator#setFeature(String, boolean) public void
      * javax.xml.validation.Validator.setFeature(java.lang.String,boolean) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *

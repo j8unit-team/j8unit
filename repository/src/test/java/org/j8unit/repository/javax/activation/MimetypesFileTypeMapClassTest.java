@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.activation;
 
-import java.io.InputStream;
 import javax.activation.MimetypesFileTypeMap;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.activation.MimetypesFileTypeMapClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MimetypesFileTypeMap#MimetypesFileTypeMap(InputStream) public
+     * {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap(java.io.InputStream) public
      * javax.activation.MimetypesFileTypeMap(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.javax.activation.MimetypesFileTypeMapClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MimetypesFileTypeMap sut = null; // = new MimetypesFileTypeMap(InputStream);
+        final MimetypesFileTypeMap sut = null; // = new MimetypesFileTypeMap(java.io.InputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MimetypesFileTypeMap#MimetypesFileTypeMap(String) public
+     * {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap(String) public
      * javax.activation.MimetypesFileTypeMap(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +67,9 @@ implements org.j8unit.repository.javax.activation.MimetypesFileTypeMapClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MimetypesFileTypeMap#MimetypesFileTypeMap()
-     * public javax.activation.MimetypesFileTypeMap()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap() public
+     * javax.activation.MimetypesFileTypeMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Checkbox;
-import java.awt.CheckboxGroup;
-import java.awt.event.ItemListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#addNotify() public void
      * java.awt.Checkbox.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +58,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#getLabel() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#getLabel() public java.lang.String
      * java.awt.Checkbox.getLabel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +80,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#getState() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#getState() public boolean
      * java.awt.Checkbox.getState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +102,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#getListeners(Class) public <T> T[]
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#getListeners(Class) public <T> T[]
      * java.awt.Checkbox.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +125,8 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#getItemListeners() public synchronized
-     * java.awt.event.ItemListener[] java.awt.Checkbox.getItemListeners()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#getItemListeners() public
+     * synchronized java.awt.event.ItemListener[] java.awt.Checkbox.getItemListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +147,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.Checkbox.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +170,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#getCheckboxGroup() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#getCheckboxGroup() public
      * java.awt.CheckboxGroup java.awt.Checkbox.getCheckboxGroup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,7 +192,8 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#setCheckboxGroup(CheckboxGroup) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Checkbox#setCheckboxGroup(java.awt.CheckboxGroup) public void
      * java.awt.Checkbox.setCheckboxGroup(java.awt.CheckboxGroup)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,8 +215,9 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#removeItemListener(ItemListener) public
-     * synchronized void java.awt.Checkbox.removeItemListener(java.awt.event.ItemListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Checkbox#removeItemListener(java.awt.event.ItemListener) public synchronized void
+     * java.awt.Checkbox.removeItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,7 +239,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#getSelectedObjects() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#getSelectedObjects() public
      * java.lang.Object[] java.awt.Checkbox.getSelectedObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,8 +262,9 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#addItemListener(ItemListener) public
-     * synchronized void java.awt.Checkbox.addItemListener(java.awt.event.ItemListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Checkbox#addItemListener(java.awt.event.ItemListener) public synchronized void
+     * java.awt.Checkbox.addItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -285,7 +286,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#setLabel(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#setLabel(String) public void
      * java.awt.Checkbox.setLabel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -307,7 +308,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Checkbox#setState(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Checkbox#setState(boolean) public void
      * java.awt.Checkbox.setState(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

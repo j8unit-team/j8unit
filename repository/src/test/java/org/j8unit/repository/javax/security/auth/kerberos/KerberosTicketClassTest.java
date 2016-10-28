@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.security.auth.kerberos;
 
-import java.net.InetAddress;
-import java.util.Date;
-import javax.security.auth.kerberos.KerberosPrincipal;
 import javax.security.auth.kerberos.KerberosTicket;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosTicketClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KerberosTicket#KerberosTicket(byte[], KerberosPrincipal, KerberosPrincipal, byte[], int, boolean[], Date, Date, Date, Date, InetAddress[])
+     * {@link javax.security.auth.kerberos.KerberosTicket#KerberosTicket(byte[], javax.security.auth.kerberos.KerberosPrincipal, javax.security.auth.kerberos.KerberosPrincipal, byte[], int, boolean[], java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.net.InetAddress[])
      * public
      * javax.security.auth.kerberos.KerberosTicket(byte[],javax.security.auth.kerberos.KerberosPrincipal,javax.security.auth.kerberos.KerberosPrincipal,byte[],int,boolean[],java.util.Date,java.util.Date,java.util.Date,java.util.Date,java.net.InetAddress[])}
      * .
@@ -44,8 +41,10 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosTicketClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final KerberosTicket sut = null; // = new KerberosTicket(byte[], KerberosPrincipal, KerberosPrincipal, byte[],
-                                         // int, boolean[], Date, Date, Date, Date, InetAddress[]);
+        final KerberosTicket sut = null; // = new KerberosTicket(byte[], javax.security.auth.kerberos.KerberosPrincipal,
+                                         // javax.security.auth.kerberos.KerberosPrincipal, byte[], int, boolean[],
+                                         // java.util.Date, java.util.Date, java.util.Date, java.util.Date,
+                                         // java.net.InetAddress[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.kerberos.KerberosTicket]

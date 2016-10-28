@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.FilterOutputStream;
-import java.io.OutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.io.FilterOutputStreamClassTests<FilterOutp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FilterOutputStream#FilterOutputStream(OutputStream) public
+     * {@link java.io.FilterOutputStream#FilterOutputStream(java.io.OutputStream) public
      * java.io.FilterOutputStream(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.io.FilterOutputStreamClassTests<FilterOutp
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FilterOutputStream sut = null; // = new FilterOutputStream(OutputStream);
+        final FilterOutputStream sut = null; // = new FilterOutputStream(java.io.OutputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FilterOutputStream]

@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.util.zip.InflaterClassTests<Inflater> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Inflater#Inflater(boolean) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.Inflater#Inflater(boolean) public
      * java.util.zip.Inflater(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.util.zip.InflaterClassTests<Inflater> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Inflater#Inflater() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.Inflater#Inflater() public
      * java.util.zip.Inflater()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

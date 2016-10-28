@@ -2,7 +2,6 @@ package org.j8unit.repository.java.net;
 
 import java.net.Proxy;
 import java.net.Proxy.Type;
-import java.net.SocketAddress;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.net.ProxyClassTests<Proxy> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Proxy#Proxy(Type, SocketAddress) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.Proxy#Proxy(java.net.Proxy.Type, java.net.SocketAddress) public
      * java.net.Proxy(java.net.Proxy$Type,java.net.SocketAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +40,7 @@ implements org.j8unit.repository.java.net.ProxyClassTests<Proxy> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Proxy sut = null; // = new Proxy(Type, SocketAddress);
+        final Proxy sut = null; // = new Proxy(java.net.Proxy.Type, java.net.SocketAddress);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Proxy]
@@ -58,8 +58,8 @@ implements org.j8unit.repository.java.net.ProxyClassTests<Proxy> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#valueOf(String) public static
-         * java.net.Proxy$Type java.net.Proxy$Type.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link java.net.Proxy.Type#valueOf(String) public
+         * static java.net.Proxy$Type java.net.Proxy$Type.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -73,12 +73,12 @@ implements org.j8unit.repository.java.net.ProxyClassTests<Proxy> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Type#valueOf(String)}
+            // write some test for {@link java.net.Proxy.Type#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#values() public static
+         * Test method for the hereby targeted method-under-test {@link java.net.Proxy.Type#values() public static
          * java.net.Proxy$Type[] java.net.Proxy$Type.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -93,7 +93,7 @@ implements org.j8unit.repository.java.net.ProxyClassTests<Proxy> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Type#values()}
+            // write some test for {@link java.net.Proxy.Type#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Proxy$Type]

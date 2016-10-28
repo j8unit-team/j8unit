@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.imageio.stream;
 
-import java.io.File;
-import java.io.RandomAccessFile;
 import javax.imageio.stream.FileImageOutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.imageio.stream.FileImageOutputStreamClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FileImageOutputStream#FileImageOutputStream(File) public
+     * {@link javax.imageio.stream.FileImageOutputStream#FileImageOutputStream(java.io.File) public
      * javax.imageio.stream.FileImageOutputStream(java.io.File) throws
      * java.io.FileNotFoundException,java.io.IOException}.
      *
@@ -42,13 +40,13 @@ implements org.j8unit.repository.javax.imageio.stream.FileImageOutputStreamClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileImageOutputStream sut = null; // = new FileImageOutputStream(File);
+        final FileImageOutputStream sut = null; // = new FileImageOutputStream(java.io.File);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FileImageOutputStream#FileImageOutputStream(RandomAccessFile) public
+     * {@link javax.imageio.stream.FileImageOutputStream#FileImageOutputStream(java.io.RandomAccessFile) public
      * javax.imageio.stream.FileImageOutputStream(java.io.RandomAccessFile)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,7 +63,7 @@ implements org.j8unit.repository.javax.imageio.stream.FileImageOutputStreamClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileImageOutputStream sut = null; // = new FileImageOutputStream(RandomAccessFile);
+        final FileImageOutputStream sut = null; // = new FileImageOutputStream(java.io.RandomAccessFile);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.FileImageOutputStream]

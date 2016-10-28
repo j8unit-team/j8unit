@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.event.ListDataEvent;
 import javax.swing.event.ListDataListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListDataListener#intervalRemoved(ListDataEvent)
-     * public abstract void javax.swing.event.ListDataListener.intervalRemoved(javax.swing.event.ListDataEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.ListDataListener#intervalRemoved(javax.swing.event.ListDataEvent) public abstract void
+     * javax.swing.event.ListDataListener.intervalRemoved(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListDataListener#intervalAdded(ListDataEvent) public
-     * abstract void javax.swing.event.ListDataListener.intervalAdded(javax.swing.event.ListDataEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.ListDataListener#intervalAdded(javax.swing.event.ListDataEvent) public abstract void
+     * javax.swing.event.ListDataListener.intervalAdded(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListDataListener#contentsChanged(ListDataEvent)
-     * public abstract void javax.swing.event.ListDataListener.contentsChanged(javax.swing.event.ListDataEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.ListDataListener#contentsChanged(javax.swing.event.ListDataEvent) public abstract void
+     * javax.swing.event.ListDataListener.contentsChanged(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

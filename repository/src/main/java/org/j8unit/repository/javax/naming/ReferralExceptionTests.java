@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming;
 
-import java.util.Hashtable;
 import javax.naming.ReferralException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,9 +34,10 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReferralException#getReferralContext(Hashtable)
-     * public abstract javax.naming.Context javax.naming.ReferralException.getReferralContext(java.util.Hashtable<?, ?>)
-     * throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ReferralException#getReferralContext(java.util.Hashtable) public abstract
+     * javax.naming.Context javax.naming.ReferralException.getReferralContext(java.util.Hashtable<?, ?>) throws
+     * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReferralException#getReferralContext() public
-     * abstract javax.naming.Context javax.naming.ReferralException.getReferralContext() throws
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ReferralException#getReferralContext()
+     * public abstract javax.naming.Context javax.naming.ReferralException.getReferralContext() throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +81,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReferralException#skipReferral() public abstract
-     * boolean javax.naming.ReferralException.skipReferral()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ReferralException#skipReferral() public
+     * abstract boolean javax.naming.ReferralException.skipReferral()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReferralException#retryReferral() public abstract
-     * void javax.naming.ReferralException.retryReferral()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ReferralException#retryReferral()
+     * public abstract void javax.naming.ReferralException.retryReferral()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReferralException#getReferralInfo() public abstract
-     * java.lang.Object javax.naming.ReferralException.getReferralInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ReferralException#getReferralInfo()
+     * public abstract java.lang.Object javax.naming.ReferralException.getReferralInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

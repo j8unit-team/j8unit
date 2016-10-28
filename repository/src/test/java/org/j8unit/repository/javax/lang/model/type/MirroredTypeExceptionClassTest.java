@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.lang.model.type;
 
 import javax.lang.model.type.MirroredTypeException;
-import javax.lang.model.type.TypeMirror;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.lang.model.type.MirroredTypeExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MirroredTypeException#MirroredTypeException(TypeMirror) public
+     * {@link javax.lang.model.type.MirroredTypeException#MirroredTypeException(javax.lang.model.type.TypeMirror) public
      * javax.lang.model.type.MirroredTypeException(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.lang.model.type.MirroredTypeExceptionClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MirroredTypeException sut = null; // = new MirroredTypeException(TypeMirror);
+        final MirroredTypeException sut = null; // = new MirroredTypeException(javax.lang.model.type.TypeMirror);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.MirroredTypeException]

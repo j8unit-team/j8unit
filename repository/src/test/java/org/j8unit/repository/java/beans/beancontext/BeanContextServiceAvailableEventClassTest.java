@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.beans.beancontext;
 
 import java.beans.beancontext.BeanContextServiceAvailableEvent;
-import java.beans.beancontext.BeanContextServices;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceAvaila
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BeanContextServiceAvailableEvent#BeanContextServiceAvailableEvent(BeanContextServices, Class) public
+     * {@link java.beans.beancontext.BeanContextServiceAvailableEvent#BeanContextServiceAvailableEvent(java.beans.beancontext.BeanContextServices, Class)
+     * public
      * java.beans.beancontext.BeanContextServiceAvailableEvent(java.beans.beancontext.BeanContextServices,java.lang.Class)}
      * .
      *
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceAvaila
         // create new instance
         @SuppressWarnings("unused")
         final BeanContextServiceAvailableEvent sut = null; // = new
-                                                           // BeanContextServiceAvailableEvent(BeanContextServices,
+                                                           // BeanContextServiceAvailableEvent(java.beans.beancontext.BeanContextServices,
                                                            // Class);
     }
 

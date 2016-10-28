@@ -1,17 +1,12 @@
 package org.j8unit.repository.javax.xml.xpath;
 
-import javax.xml.namespace.NamespaceContext;
-import javax.xml.namespace.QName;
 import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathFunctionResolver;
-import javax.xml.xpath.XPathVariableResolver;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.InputSource;
 
 /**
  * <p>
@@ -40,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#setNamespaceContext(NamespaceContext) public
-     * abstract void javax.xml.xpath.XPath.setNamespaceContext(javax.xml.namespace.NamespaceContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPath#setNamespaceContext(javax.xml.namespace.NamespaceContext) public abstract void
+     * javax.xml.xpath.XPath.setNamespaceContext(javax.xml.namespace.NamespaceContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#compile(String) public abstract
-     * javax.xml.xpath.XPathExpression javax.xml.xpath.XPath.compile(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPath#compile(String) public
+     * abstract javax.xml.xpath.XPathExpression javax.xml.xpath.XPath.compile(java.lang.String) throws
      * javax.xml.xpath.XPathExpressionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#getXPathVariableResolver() public abstract
-     * javax.xml.xpath.XPathVariableResolver javax.xml.xpath.XPath.getXPathVariableResolver()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPath#getXPathVariableResolver()
+     * public abstract javax.xml.xpath.XPathVariableResolver javax.xml.xpath.XPath.getXPathVariableResolver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +104,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XPath#setXPathVariableResolver(XPathVariableResolver) public abstract void
+     * {@link javax.xml.xpath.XPath#setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver) public abstract void
      * javax.xml.xpath.XPath.setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,8 +126,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#getNamespaceContext() public abstract
-     * javax.xml.namespace.NamespaceContext javax.xml.xpath.XPath.getNamespaceContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPath#getNamespaceContext() public
+     * abstract javax.xml.namespace.NamespaceContext javax.xml.xpath.XPath.getNamespaceContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +148,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#evaluate(String, InputSource, QName) public
-     * abstract java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPath#evaluate(String, org.xml.sax.InputSource, javax.xml.namespace.QName) public abstract
+     * java.lang.Object
      * javax.xml.xpath.XPath.evaluate(java.lang.String,org.xml.sax.InputSource,javax.xml.namespace.QName) throws
      * javax.xml.xpath.XPathExpressionException}.
      *
@@ -176,8 +173,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#evaluate(String, Object) public abstract
-     * java.lang.String javax.xml.xpath.XPath.evaluate(java.lang.String,java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPath#evaluate(String, Object)
+     * public abstract java.lang.String javax.xml.xpath.XPath.evaluate(java.lang.String,java.lang.Object) throws
      * javax.xml.xpath.XPathExpressionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,8 +196,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#evaluate(String, Object, QName) public
-     * abstract java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPath#evaluate(String, Object, javax.xml.namespace.QName) public abstract java.lang.Object
      * javax.xml.xpath.XPath.evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName) throws
      * javax.xml.xpath.XPathExpressionException}.
      *
@@ -223,8 +220,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#evaluate(String, InputSource) public abstract
-     * java.lang.String javax.xml.xpath.XPath.evaluate(java.lang.String,org.xml.sax.InputSource) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPath#evaluate(String, org.xml.sax.InputSource) public abstract java.lang.String
+     * javax.xml.xpath.XPath.evaluate(java.lang.String,org.xml.sax.InputSource) throws
      * javax.xml.xpath.XPathExpressionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -247,7 +245,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XPath#setXPathFunctionResolver(XPathFunctionResolver) public abstract void
+     * {@link javax.xml.xpath.XPath#setXPathFunctionResolver(javax.xml.xpath.XPathFunctionResolver) public abstract void
      * javax.xml.xpath.XPath.setXPathFunctionResolver(javax.xml.xpath.XPathFunctionResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -269,7 +267,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#reset() public abstract void
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPath#reset() public abstract void
      * javax.xml.xpath.XPath.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -291,8 +289,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPath#getXPathFunctionResolver() public abstract
-     * javax.xml.xpath.XPathFunctionResolver javax.xml.xpath.XPath.getXPathFunctionResolver()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPath#getXPathFunctionResolver()
+     * public abstract javax.xml.xpath.XPathFunctionResolver javax.xml.xpath.XPath.getXPathFunctionResolver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

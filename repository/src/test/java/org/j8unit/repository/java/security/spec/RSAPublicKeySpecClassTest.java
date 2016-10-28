@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.math.BigInteger;
 import java.security.spec.RSAPublicKeySpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.security.spec.RSAPublicKeySpecClassTests<R
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RSAPublicKeySpec#RSAPublicKeySpec(BigInteger, BigInteger) public
+     * {@link java.security.spec.RSAPublicKeySpec#RSAPublicKeySpec(java.math.BigInteger, java.math.BigInteger) public
      * java.security.spec.RSAPublicKeySpec(java.math.BigInteger,java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.security.spec.RSAPublicKeySpecClassTests<R
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RSAPublicKeySpec sut = null; // = new RSAPublicKeySpec(BigInteger, BigInteger);
+        final RSAPublicKeySpec sut = null; // = new RSAPublicKeySpec(java.math.BigInteger, java.math.BigInteger);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.RSAPublicKeySpec]

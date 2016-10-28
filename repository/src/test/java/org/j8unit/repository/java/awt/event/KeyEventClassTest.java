@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.Component;
 import java.awt.event.KeyEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.event.KeyEventClassTests<KeyEvent> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyEvent#KeyEvent(Component, int, long, int, int) public
+     * {@link java.awt.event.KeyEvent#KeyEvent(java.awt.Component, int, long, int, int) public
      * java.awt.event.KeyEvent(java.awt.Component,int,long,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.awt.event.KeyEventClassTests<KeyEvent> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final KeyEvent sut = null; // = new KeyEvent(Component, int, long, int, int);
+        final KeyEvent sut = null; // = new KeyEvent(java.awt.Component, int, long, int, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyEvent#KeyEvent(Component, int, long, int, int, char, int) public
+     * {@link java.awt.event.KeyEvent#KeyEvent(java.awt.Component, int, long, int, int, char, int) public
      * java.awt.event.KeyEvent(java.awt.Component,int,long,int,int,char,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +62,13 @@ implements org.j8unit.repository.java.awt.event.KeyEventClassTests<KeyEvent> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final KeyEvent sut = null; // = new KeyEvent(Component, int, long, int, int, char, int);
+        final KeyEvent sut = null; // = new KeyEvent(java.awt.Component, int, long, int, int, char, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyEvent#KeyEvent(Component, int, long, int, int, char) public
+     * {@link java.awt.event.KeyEvent#KeyEvent(java.awt.Component, int, long, int, int, char) public
      * java.awt.event.KeyEvent(java.awt.Component,int,long,int,int,char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,13 +85,14 @@ implements org.j8unit.repository.java.awt.event.KeyEventClassTests<KeyEvent> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final KeyEvent sut = null; // = new KeyEvent(Component, int, long, int, int, char);
+        final KeyEvent sut = null; // = new KeyEvent(java.awt.Component, int, long, int, int, char);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyEvent#getExtendedKeyCodeForChar(int) public
-     * static int java.awt.event.KeyEvent.getExtendedKeyCodeForChar(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.KeyEvent#getExtendedKeyCodeForChar(int) public static int
+     * java.awt.event.KeyEvent.getExtendedKeyCodeForChar(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,13 +106,13 @@ implements org.j8unit.repository.java.awt.event.KeyEventClassTests<KeyEvent> {
     @Category(Draft.class)
     public void test_getExtendedKeyCodeForChar_int()
     throws Exception {
-        // write some test for {@link KeyEvent#getExtendedKeyCodeForChar(int)}
+        // write some test for {@link java.awt.event.KeyEvent#getExtendedKeyCodeForChar(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyEvent#getKeyText(int) public static
-     * java.lang.String java.awt.event.KeyEvent.getKeyText(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.KeyEvent#getKeyText(int) public
+     * static java.lang.String java.awt.event.KeyEvent.getKeyText(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,13 +126,13 @@ implements org.j8unit.repository.java.awt.event.KeyEventClassTests<KeyEvent> {
     @Category(Draft.class)
     public void test_getKeyText_int()
     throws Exception {
-        // write some test for {@link KeyEvent#getKeyText(int)}
+        // write some test for {@link java.awt.event.KeyEvent#getKeyText(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyEvent#getKeyModifiersText(int) public static
-     * java.lang.String java.awt.event.KeyEvent.getKeyModifiersText(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.KeyEvent#getKeyModifiersText(int)
+     * public static java.lang.String java.awt.event.KeyEvent.getKeyModifiersText(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ implements org.j8unit.repository.java.awt.event.KeyEventClassTests<KeyEvent> {
     @Category(Draft.class)
     public void test_getKeyModifiersText_int()
     throws Exception {
-        // write some test for {@link KeyEvent#getKeyModifiersText(int)}
+        // write some test for {@link java.awt.event.KeyEvent#getKeyModifiersText(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.KeyEvent]

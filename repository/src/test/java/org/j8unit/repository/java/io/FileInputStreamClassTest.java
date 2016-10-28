@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.File;
-import java.io.FileDescriptor;
 import java.io.FileInputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.java.io.FileInputStreamClassTests<FileInputStre
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileInputStream#FileInputStream(FileDescriptor)
-     * public java.io.FileInputStream(java.io.FileDescriptor)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.FileInputStream#FileInputStream(java.io.FileDescriptor) public
+     * java.io.FileInputStream(java.io.FileDescriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,14 @@ implements org.j8unit.repository.java.io.FileInputStreamClassTests<FileInputStre
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileInputStream sut = null; // = new FileInputStream(FileDescriptor);
+        final FileInputStream sut = null; // = new FileInputStream(java.io.FileDescriptor);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileInputStream#FileInputStream(File) public
-     * java.io.FileInputStream(java.io.File) throws java.io.FileNotFoundException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.FileInputStream#FileInputStream(java.io.File) public java.io.FileInputStream(java.io.File) throws
+     * java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +62,13 @@ implements org.j8unit.repository.java.io.FileInputStreamClassTests<FileInputStre
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileInputStream sut = null; // = new FileInputStream(File);
+        final FileInputStream sut = null; // = new FileInputStream(java.io.File);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FileInputStream#FileInputStream(String) public
-     * java.io.FileInputStream(java.lang.String) throws java.io.FileNotFoundException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.io.FileInputStream#FileInputStream(String)
+     * public java.io.FileInputStream(java.lang.String) throws java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

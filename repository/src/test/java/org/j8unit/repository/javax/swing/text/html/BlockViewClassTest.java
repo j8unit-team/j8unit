@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import javax.swing.text.Element;
 import javax.swing.text.html.BlockView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.BlockViewClassTests<Block
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BlockView#BlockView(Element, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.BlockView#BlockView(javax.swing.text.Element, int) public
      * javax.swing.text.html.BlockView(javax.swing.text.Element,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.html.BlockViewClassTests<Block
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BlockView sut = null; // = new BlockView(Element, int);
+        final BlockView sut = null; // = new BlockView(javax.swing.text.Element, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.BlockView]

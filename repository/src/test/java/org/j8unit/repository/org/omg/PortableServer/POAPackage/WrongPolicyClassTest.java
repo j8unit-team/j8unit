@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongPolicyCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WrongPolicy#WrongPolicy() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.WrongPolicy#WrongPolicy() public
      * org.omg.PortableServer.POAPackage.WrongPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongPolicyCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WrongPolicy#WrongPolicy(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.WrongPolicy#WrongPolicy(String) public
      * org.omg.PortableServer.POAPackage.WrongPolicy(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

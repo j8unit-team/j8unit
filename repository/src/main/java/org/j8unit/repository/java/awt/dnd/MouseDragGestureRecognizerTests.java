@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.dnd;
 
 import java.awt.dnd.MouseDragGestureRecognizer;
-import java.awt.event.MouseEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,9 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseDragGestureRecognizer#mouseMoved(MouseEvent)
-     * public void java.awt.dnd.MouseDragGestureRecognizer.mouseMoved(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.MouseDragGestureRecognizer#mouseMoved(java.awt.event.MouseEvent) public void
+     * java.awt.dnd.MouseDragGestureRecognizer.mouseMoved(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +59,9 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseDragGestureRecognizer#mousePressed(MouseEvent)
-     * public void java.awt.dnd.MouseDragGestureRecognizer.mousePressed(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.MouseDragGestureRecognizer#mousePressed(java.awt.event.MouseEvent) public void
+     * java.awt.dnd.MouseDragGestureRecognizer.mousePressed(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +83,9 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseDragGestureRecognizer#mouseReleased(MouseEvent)
-     * public void java.awt.dnd.MouseDragGestureRecognizer.mouseReleased(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.MouseDragGestureRecognizer#mouseReleased(java.awt.event.MouseEvent) public void
+     * java.awt.dnd.MouseDragGestureRecognizer.mouseReleased(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +107,9 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseDragGestureRecognizer#mouseEntered(MouseEvent)
-     * public void java.awt.dnd.MouseDragGestureRecognizer.mouseEntered(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.MouseDragGestureRecognizer#mouseEntered(java.awt.event.MouseEvent) public void
+     * java.awt.dnd.MouseDragGestureRecognizer.mouseEntered(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +131,9 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseDragGestureRecognizer#mouseExited(MouseEvent)
-     * public void java.awt.dnd.MouseDragGestureRecognizer.mouseExited(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.MouseDragGestureRecognizer#mouseExited(java.awt.event.MouseEvent) public void
+     * java.awt.dnd.MouseDragGestureRecognizer.mouseExited(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +155,9 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseDragGestureRecognizer#mouseDragged(MouseEvent)
-     * public void java.awt.dnd.MouseDragGestureRecognizer.mouseDragged(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.MouseDragGestureRecognizer#mouseDragged(java.awt.event.MouseEvent) public void
+     * java.awt.dnd.MouseDragGestureRecognizer.mouseDragged(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +179,9 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseDragGestureRecognizer#mouseClicked(MouseEvent)
-     * public void java.awt.dnd.MouseDragGestureRecognizer.mouseClicked(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.MouseDragGestureRecognizer#mouseClicked(java.awt.event.MouseEvent) public void
+     * java.awt.dnd.MouseDragGestureRecognizer.mouseClicked(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

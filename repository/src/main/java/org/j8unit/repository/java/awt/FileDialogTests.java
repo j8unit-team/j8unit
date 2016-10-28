@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.FileDialog;
-import java.io.FilenameFilter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#setMultipleMode(boolean) public void
-     * java.awt.FileDialog.setMultipleMode(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#setMultipleMode(boolean) public
+     * void java.awt.FileDialog.setMultipleMode(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#setFilenameFilter(FilenameFilter) public
-     * synchronized void java.awt.FileDialog.setFilenameFilter(java.io.FilenameFilter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.FileDialog#setFilenameFilter(java.io.FilenameFilter) public synchronized void
+     * java.awt.FileDialog.setFilenameFilter(java.io.FilenameFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#isMultipleMode() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#isMultipleMode() public boolean
      * java.awt.FileDialog.isMultipleMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#addNotify() public void
      * java.awt.FileDialog.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#setFile(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#setFile(String) public void
      * java.awt.FileDialog.setFile(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#getMode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#getMode() public int
      * java.awt.FileDialog.getMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +168,7 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#setDirectory(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#setDirectory(String) public void
      * java.awt.FileDialog.setDirectory(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +190,7 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#getFilenameFilter() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#getFilenameFilter() public
      * java.io.FilenameFilter java.awt.FileDialog.getFilenameFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +212,8 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#getDirectory() public java.lang.String
-     * java.awt.FileDialog.getDirectory()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#getDirectory() public
+     * java.lang.String java.awt.FileDialog.getDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,7 +234,7 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#setMode(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#setMode(int) public void
      * java.awt.FileDialog.setMode(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -256,7 +256,7 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#getFiles() public java.io.File[]
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#getFiles() public java.io.File[]
      * java.awt.FileDialog.getFiles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -278,8 +278,8 @@ extends org.j8unit.repository.java.awt.DialogTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileDialog#getFile() public java.lang.String
-     * java.awt.FileDialog.getFile()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.FileDialog#getFile() public
+     * java.lang.String java.awt.FileDialog.getFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

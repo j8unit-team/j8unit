@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.ConcurrentModificationExceptionTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectoryIteratorException#getCause() public
-     * java.io.IOException java.nio.file.DirectoryIteratorException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.DirectoryIteratorException#getCause()
+     * public java.io.IOException java.nio.file.DirectoryIteratorException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

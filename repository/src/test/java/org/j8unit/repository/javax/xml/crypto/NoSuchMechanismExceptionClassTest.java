@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.crypto.NoSuchMechanismExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchMechanismException#NoSuchMechanismException(Throwable) public
+     * {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException(Throwable) public
      * javax.xml.crypto.NoSuchMechanismException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.crypto.NoSuchMechanismExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchMechanismException#NoSuchMechanismException(String, Throwable) public
+     * {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException(String, Throwable) public
      * javax.xml.crypto.NoSuchMechanismException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.xml.crypto.NoSuchMechanismExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchMechanismException#NoSuchMechanismException(String) public
+     * {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException(String) public
      * javax.xml.crypto.NoSuchMechanismException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,8 @@ implements org.j8unit.repository.javax.xml.crypto.NoSuchMechanismExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchMechanismException#NoSuchMechanismException() public javax.xml.crypto.NoSuchMechanismException()}.
+     * {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException() public
+     * javax.xml.crypto.NoSuchMechanismException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

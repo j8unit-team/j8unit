@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PaintContext#dispose() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.awt.PaintContext#dispose() public abstract void
      * java.awt.PaintContext.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PaintContext#getRaster(int, int, int, int) public
-     * abstract java.awt.image.Raster java.awt.PaintContext.getRaster(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PaintContext#getRaster(int, int, int, int)
+     * public abstract java.awt.image.Raster java.awt.PaintContext.getRaster(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PaintContext#getColorModel() public abstract
-     * java.awt.image.ColorModel java.awt.PaintContext.getColorModel()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PaintContext#getColorModel() public
+     * abstract java.awt.image.ColorModel java.awt.PaintContext.getColorModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

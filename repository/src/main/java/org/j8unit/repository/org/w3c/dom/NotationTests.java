@@ -34,7 +34,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notation#getPublicId() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Notation#getPublicId() public abstract
      * java.lang.String org.w3c.dom.Notation.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Notation#getSystemId() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Notation#getSystemId() public abstract
      * java.lang.String org.w3c.dom.Notation.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.Event;
 import java.awt.peer.PopupMenuPeer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.peer.MenuPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PopupMenuPeer#show(Event) public abstract void
-     * java.awt.peer.PopupMenuPeer.show(java.awt.Event)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.PopupMenuPeer#show(java.awt.Event)
+     * public abstract void java.awt.peer.PopupMenuPeer.show(java.awt.Event)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

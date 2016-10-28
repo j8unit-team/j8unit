@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.nio.charset;
 
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
 import java.nio.charset.CharsetEncoder;
-import java.nio.charset.CodingErrorAction;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#malformedInputAction() public
-     * java.nio.charset.CodingErrorAction java.nio.charset.CharsetEncoder.malformedInputAction()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.CharsetEncoder#malformedInputAction() public java.nio.charset.CodingErrorAction
+     * java.nio.charset.CharsetEncoder.malformedInputAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#flush(ByteBuffer) public final
-     * java.nio.charset.CoderResult java.nio.charset.CharsetEncoder.flush(java.nio.ByteBuffer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.CharsetEncoder#flush(java.nio.ByteBuffer) public final java.nio.charset.CoderResult
+     * java.nio.charset.CharsetEncoder.flush(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#canEncode(char) public boolean
-     * java.nio.charset.CharsetEncoder.canEncode(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CharsetEncoder#canEncode(char)
+     * public boolean java.nio.charset.CharsetEncoder.canEncode(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#canEncode(CharSequence) public
-     * boolean java.nio.charset.CharsetEncoder.canEncode(java.lang.CharSequence)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.CharsetEncoder#canEncode(CharSequence) public boolean
+     * java.nio.charset.CharsetEncoder.canEncode(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#unmappableCharacterAction() public
-     * java.nio.charset.CodingErrorAction java.nio.charset.CharsetEncoder.unmappableCharacterAction()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.CharsetEncoder#unmappableCharacterAction() public java.nio.charset.CodingErrorAction
+     * java.nio.charset.CharsetEncoder.unmappableCharacterAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#replacement() public final byte[]
-     * java.nio.charset.CharsetEncoder.replacement()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CharsetEncoder#replacement() public
+     * final byte[] java.nio.charset.CharsetEncoder.replacement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +170,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#replaceWith(byte[]) public final
-     * java.nio.charset.CharsetEncoder java.nio.charset.CharsetEncoder.replaceWith(byte[])}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CharsetEncoder#replaceWith(byte[])
+     * public final java.nio.charset.CharsetEncoder java.nio.charset.CharsetEncoder.replaceWith(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,7 +192,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#reset() public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CharsetEncoder#reset() public final
      * java.nio.charset.CharsetEncoder java.nio.charset.CharsetEncoder.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,8 +214,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#averageBytesPerChar() public final
-     * float java.nio.charset.CharsetEncoder.averageBytesPerChar()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.CharsetEncoder#averageBytesPerChar() public final float
+     * java.nio.charset.CharsetEncoder.averageBytesPerChar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +237,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#onMalformedInput(CodingErrorAction)
-     * public final java.nio.charset.CharsetEncoder
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.CharsetEncoder#onMalformedInput(java.nio.charset.CodingErrorAction) public final
+     * java.nio.charset.CharsetEncoder
      * java.nio.charset.CharsetEncoder.onMalformedInput(java.nio.charset.CodingErrorAction)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,7 +262,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CharsetEncoder#onUnmappableCharacter(CodingErrorAction) public final java.nio.charset.CharsetEncoder
+     * {@link java.nio.charset.CharsetEncoder#onUnmappableCharacter(java.nio.charset.CodingErrorAction) public final
+     * java.nio.charset.CharsetEncoder
      * java.nio.charset.CharsetEncoder.onUnmappableCharacter(java.nio.charset.CodingErrorAction)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,8 +285,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#charset() public final
-     * java.nio.charset.Charset java.nio.charset.CharsetEncoder.charset()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CharsetEncoder#charset() public
+     * final java.nio.charset.Charset java.nio.charset.CharsetEncoder.charset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,7 +308,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CharsetEncoder#encode(CharBuffer, ByteBuffer, boolean) public final java.nio.charset.CoderResult
+     * {@link java.nio.charset.CharsetEncoder#encode(java.nio.CharBuffer, java.nio.ByteBuffer, boolean) public final
+     * java.nio.charset.CoderResult
      * java.nio.charset.CharsetEncoder.encode(java.nio.CharBuffer,java.nio.ByteBuffer,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -326,9 +331,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#encode(CharBuffer) public final
-     * java.nio.ByteBuffer java.nio.charset.CharsetEncoder.encode(java.nio.CharBuffer) throws
-     * java.nio.charset.CharacterCodingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.CharsetEncoder#encode(java.nio.CharBuffer) public final java.nio.ByteBuffer
+     * java.nio.charset.CharsetEncoder.encode(java.nio.CharBuffer) throws java.nio.charset.CharacterCodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -349,8 +354,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#isLegalReplacement(byte[]) public
-     * boolean java.nio.charset.CharsetEncoder.isLegalReplacement(byte[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.CharsetEncoder#isLegalReplacement(byte[]) public boolean
+     * java.nio.charset.CharsetEncoder.isLegalReplacement(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,8 +377,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CharsetEncoder#maxBytesPerChar() public final float
-     * java.nio.charset.CharsetEncoder.maxBytesPerChar()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.charset.CharsetEncoder#maxBytesPerChar()
+     * public final float java.nio.charset.CharsetEncoder.maxBytesPerChar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

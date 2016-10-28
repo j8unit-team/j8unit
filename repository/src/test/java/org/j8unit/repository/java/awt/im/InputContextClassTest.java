@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.im.InputContextClassTests<InputContext
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputContext#getInstance() public static
+     * Test method for the hereby targeted method-under-test {@link java.awt.im.InputContext#getInstance() public static
      * java.awt.im.InputContext java.awt.im.InputContext.getInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,7 +36,7 @@ implements org.j8unit.repository.java.awt.im.InputContextClassTests<InputContext
     @Category(Draft.class)
     public void test_getInstance()
     throws Exception {
-        // write some test for {@link InputContext#getInstance()}
+        // write some test for {@link java.awt.im.InputContext#getInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.im.InputContext]

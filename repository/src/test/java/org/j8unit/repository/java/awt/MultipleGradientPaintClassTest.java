@@ -36,7 +36,8 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ColorSpaceType#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.MultipleGradientPaint.ColorSpaceType#values() public static
          * java.awt.MultipleGradientPaint$ColorSpaceType[] java.awt.MultipleGradientPaint$ColorSpaceType.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -51,12 +52,13 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link ColorSpaceType#values()}
+            // write some test for {@link java.awt.MultipleGradientPaint.ColorSpaceType#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ColorSpaceType#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.MultipleGradientPaint.ColorSpaceType#valueOf(String) public static
          * java.awt.MultipleGradientPaint$ColorSpaceType
          * java.awt.MultipleGradientPaint$ColorSpaceType.valueOf(java.lang.String)}.
          *
@@ -72,7 +74,7 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link ColorSpaceType#valueOf(String)}
+            // write some test for {@link java.awt.MultipleGradientPaint.ColorSpaceType#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MultipleGradientPaint$ColorSpaceType]
@@ -92,7 +94,8 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link CycleMethod#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.MultipleGradientPaint.CycleMethod#values() public static
          * java.awt.MultipleGradientPaint$CycleMethod[] java.awt.MultipleGradientPaint$CycleMethod.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,12 +110,13 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link CycleMethod#values()}
+            // write some test for {@link java.awt.MultipleGradientPaint.CycleMethod#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link CycleMethod#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.MultipleGradientPaint.CycleMethod#valueOf(String) public static
          * java.awt.MultipleGradientPaint$CycleMethod
          * java.awt.MultipleGradientPaint$CycleMethod.valueOf(java.lang.String)}.
          *
@@ -128,7 +132,7 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link CycleMethod#valueOf(String)}
+            // write some test for {@link java.awt.MultipleGradientPaint.CycleMethod#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MultipleGradientPaint$CycleMethod]

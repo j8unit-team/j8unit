@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParamElement#getType() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLParamElement.getType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLParamElement#getType() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLParamElement.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParamElement#setValueType(String) public
-     * abstract void org.w3c.dom.html.HTMLParamElement.setValueType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLParamElement#setValueType(String) public abstract void
+     * org.w3c.dom.html.HTMLParamElement.setValueType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParamElement#setValue(String) public abstract
-     * void org.w3c.dom.html.HTMLParamElement.setValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLParamElement#setValue(String)
+     * public abstract void org.w3c.dom.html.HTMLParamElement.setValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParamElement#getValue() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLParamElement.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLParamElement#getValue() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLParamElement.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParamElement#setName(String) public abstract
-     * void org.w3c.dom.html.HTMLParamElement.setName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLParamElement#setName(String)
+     * public abstract void org.w3c.dom.html.HTMLParamElement.setName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParamElement#getName() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLParamElement.getName()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLParamElement#getName() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLParamElement.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +167,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParamElement#getValueType() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLParamElement.getValueType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLParamElement#getValueType()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLParamElement.getValueType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +189,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParamElement#setType(String) public abstract
-     * void org.w3c.dom.html.HTMLParamElement.setType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLParamElement#setType(String)
+     * public abstract void org.w3c.dom.html.HTMLParamElement.setType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

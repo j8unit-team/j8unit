@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSigner#toString() public java.lang.String
-     * java.security.CodeSigner.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSigner#toString() public
+     * java.lang.String java.security.CodeSigner.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSigner#equals(Object) public boolean
-     * java.security.CodeSigner.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSigner#equals(Object) public
+     * boolean java.security.CodeSigner.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSigner#getTimestamp() public
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSigner#getTimestamp() public
      * java.security.Timestamp java.security.CodeSigner.getTimestamp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSigner#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSigner#hashCode() public int
      * java.security.CodeSigner.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSigner#getSignerCertPath() public
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSigner#getSignerCertPath() public
      * java.security.cert.CertPath java.security.CodeSigner.getSignerCertPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

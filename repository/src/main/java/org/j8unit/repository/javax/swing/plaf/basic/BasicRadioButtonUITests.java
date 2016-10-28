@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicRadioButtonUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToggleButtonUITests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicRadioButtonUI#getPreferredSize(JComponent)
-     * public java.awt.Dimension javax.swing.plaf.basic.BasicRadioButtonUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicRadioButtonUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicRadioButtonUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToggleButtonUITests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicRadioButtonUI#getDefaultIcon() public
-     * javax.swing.Icon javax.swing.plaf.basic.BasicRadioButtonUI.getDefaultIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicRadioButtonUI#getDefaultIcon() public javax.swing.Icon
+     * javax.swing.plaf.basic.BasicRadioButtonUI.getDefaultIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,9 +81,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToggleButtonUITests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicRadioButtonUI#paint(Graphics, JComponent)
-     * public synchronized void
-     * javax.swing.plaf.basic.BasicRadioButtonUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicRadioButtonUI#paint(java.awt.Graphics, javax.swing.JComponent) public
+     * synchronized void javax.swing.plaf.basic.BasicRadioButtonUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

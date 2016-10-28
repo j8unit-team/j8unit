@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.naming.ldap;
 
-import javax.naming.ldap.Control;
-import javax.naming.ldap.ExtendedRequest;
 import javax.naming.ldap.LdapContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapContext#setRequestControls(Control[]) public
-     * abstract void javax.naming.ldap.LdapContext.setRequestControls(javax.naming.ldap.Control[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapContext#setRequestControls(javax.naming.ldap.Control[]) public abstract void
+     * javax.naming.ldap.LdapContext.setRequestControls(javax.naming.ldap.Control[]) throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapContext#newInstance(Control[]) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapContext#newInstance(javax.naming.ldap.Control[]) public abstract
      * javax.naming.ldap.LdapContext javax.naming.ldap.LdapContext.newInstance(javax.naming.ldap.Control[]) throws
      * javax.naming.NamingException}.
      *
@@ -82,8 +82,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapContext#extendedOperation(ExtendedRequest)
-     * public abstract javax.naming.ldap.ExtendedResponse
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapContext#extendedOperation(javax.naming.ldap.ExtendedRequest) public abstract
+     * javax.naming.ldap.ExtendedResponse
      * javax.naming.ldap.LdapContext.extendedOperation(javax.naming.ldap.ExtendedRequest) throws
      * javax.naming.NamingException}.
      *
@@ -106,8 +107,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapContext#getResponseControls() public abstract
-     * javax.naming.ldap.Control[] javax.naming.ldap.LdapContext.getResponseControls() throws
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapContext#getResponseControls()
+     * public abstract javax.naming.ldap.Control[] javax.naming.ldap.LdapContext.getResponseControls() throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,8 +130,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapContext#getRequestControls() public abstract
-     * javax.naming.ldap.Control[] javax.naming.ldap.LdapContext.getRequestControls() throws
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapContext#getRequestControls()
+     * public abstract javax.naming.ldap.Control[] javax.naming.ldap.LdapContext.getRequestControls() throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +153,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapContext#getConnectControls() public abstract
-     * javax.naming.ldap.Control[] javax.naming.ldap.LdapContext.getConnectControls() throws
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapContext#getConnectControls()
+     * public abstract javax.naming.ldap.Control[] javax.naming.ldap.LdapContext.getConnectControls() throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,8 +176,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LdapContext#reconnect(Control[]) public abstract
-     * void javax.naming.ldap.LdapContext.reconnect(javax.naming.ldap.Control[]) throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.LdapContext#reconnect(javax.naming.ldap.Control[]) public abstract void
+     * javax.naming.ldap.LdapContext.reconnect(javax.naming.ldap.Control[]) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

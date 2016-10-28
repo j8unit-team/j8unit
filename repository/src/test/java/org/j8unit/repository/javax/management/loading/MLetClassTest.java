@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.loading;
 
-import java.net.URL;
-import java.net.URLStreamHandlerFactory;
 import javax.management.loading.MLet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MLet#MLet(URL[], ClassLoader, URLStreamHandlerFactory) public
+     * {@link javax.management.loading.MLet#MLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory) public
      * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,12 +39,13 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MLet sut = null; // = new MLet(URL[], ClassLoader, URLStreamHandlerFactory);
+        final MLet sut = null; // = new MLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MLet#MLet(URL[], boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.loading.MLet#MLet(java.net.URL[], boolean) public
      * javax.management.loading.MLet(java.net.URL[],boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,12 +62,13 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MLet sut = null; // = new MLet(URL[], boolean);
+        final MLet sut = null; // = new MLet(java.net.URL[], boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MLet#MLet(URL[], ClassLoader, boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.loading.MLet#MLet(java.net.URL[], ClassLoader, boolean) public
      * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,13 +85,14 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MLet sut = null; // = new MLet(URL[], ClassLoader, boolean);
+        final MLet sut = null; // = new MLet(java.net.URL[], ClassLoader, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MLet#MLet(URL[], ClassLoader, URLStreamHandlerFactory, boolean) public
+     * {@link javax.management.loading.MLet#MLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory, boolean)
+     * public
      * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,12 +109,12 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MLet sut = null; // = new MLet(URL[], ClassLoader, URLStreamHandlerFactory, boolean);
+        final MLet sut = null; // = new MLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MLet#MLet() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.management.loading.MLet#MLet() public
      * javax.management.loading.MLet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,8 +135,8 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MLet#MLet(URL[]) public
-     * javax.management.loading.MLet(java.net.URL[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.loading.MLet#MLet(java.net.URL[]) public javax.management.loading.MLet(java.net.URL[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,12 +152,13 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MLet sut = null; // = new MLet(URL[]);
+        final MLet sut = null; // = new MLet(java.net.URL[]);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MLet#MLet(URL[], ClassLoader) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.loading.MLet#MLet(java.net.URL[], ClassLoader) public
      * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,7 +175,7 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MLet sut = null; // = new MLet(URL[], ClassLoader);
+        final MLet sut = null; // = new MLet(java.net.URL[], ClassLoader);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.MLet]

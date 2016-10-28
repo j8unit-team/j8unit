@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.bind.util;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Unmarshaller;
 import javax.xml.bind.util.JAXBResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.xml.bind.util.JAXBResultClassTests<JAXBRe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBResult#JAXBResult(JAXBContext) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.util.JAXBResult#JAXBResult(javax.xml.bind.JAXBContext) public
      * javax.xml.bind.util.JAXBResult(javax.xml.bind.JAXBContext) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,13 @@ implements org.j8unit.repository.javax.xml.bind.util.JAXBResultClassTests<JAXBRe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JAXBResult sut = null; // = new JAXBResult(JAXBContext);
+        final JAXBResult sut = null; // = new JAXBResult(javax.xml.bind.JAXBContext);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBResult#JAXBResult(Unmarshaller) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.util.JAXBResult#JAXBResult(javax.xml.bind.Unmarshaller) public
      * javax.xml.bind.util.JAXBResult(javax.xml.bind.Unmarshaller) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.javax.xml.bind.util.JAXBResultClassTests<JAXBRe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JAXBResult sut = null; // = new JAXBResult(Unmarshaller);
+        final JAXBResult sut = null; // = new JAXBResult(javax.xml.bind.Unmarshaller);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.util.JAXBResult]

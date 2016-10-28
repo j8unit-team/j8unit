@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarURLConnection#getJarFile() public abstract
-     * java.util.jar.JarFile java.net.JarURLConnection.getJarFile() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.JarURLConnection#getJarFile() public
+     * abstract java.util.jar.JarFile java.net.JarURLConnection.getJarFile() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarURLConnection#getCertificates() public
+     * Test method for the hereby targeted method-under-test {@link java.net.JarURLConnection#getCertificates() public
      * java.security.cert.Certificate[] java.net.JarURLConnection.getCertificates() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarURLConnection#getMainAttributes() public
+     * Test method for the hereby targeted method-under-test {@link java.net.JarURLConnection#getMainAttributes() public
      * java.util.jar.Attributes java.net.JarURLConnection.getMainAttributes() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarURLConnection#getJarEntry() public
+     * Test method for the hereby targeted method-under-test {@link java.net.JarURLConnection#getJarEntry() public
      * java.util.jar.JarEntry java.net.JarURLConnection.getJarEntry() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarURLConnection#getManifest() public
+     * Test method for the hereby targeted method-under-test {@link java.net.JarURLConnection#getManifest() public
      * java.util.jar.Manifest java.net.JarURLConnection.getManifest() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarURLConnection#getEntryName() public
+     * Test method for the hereby targeted method-under-test {@link java.net.JarURLConnection#getEntryName() public
      * java.lang.String java.net.JarURLConnection.getEntryName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,8 +166,8 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarURLConnection#getJarFileURL() public java.net.URL
-     * java.net.JarURLConnection.getJarFileURL()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.JarURLConnection#getJarFileURL() public
+     * java.net.URL java.net.JarURLConnection.getJarFileURL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,7 +188,7 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarURLConnection#getAttributes() public
+     * Test method for the hereby targeted method-under-test {@link java.net.JarURLConnection#getAttributes() public
      * java.util.jar.Attributes java.net.JarURLConnection.getAttributes() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

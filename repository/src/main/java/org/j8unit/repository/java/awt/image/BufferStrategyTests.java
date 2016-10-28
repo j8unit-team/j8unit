@@ -34,30 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferStrategy#show() public abstract void
-     * java.awt.image.BufferStrategy.show()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_show()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferStrategy#getDrawGraphics() public abstract
-     * java.awt.Graphics java.awt.image.BufferStrategy.getDrawGraphics()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferStrategy#getDrawGraphics()
+     * public abstract java.awt.Graphics java.awt.image.BufferStrategy.getDrawGraphics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +56,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferStrategy#getCapabilities() public abstract
-     * java.awt.BufferCapabilities java.awt.image.BufferStrategy.getCapabilities()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferStrategy#show() public abstract
+     * void java.awt.image.BufferStrategy.show()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_show()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferStrategy#getCapabilities()
+     * public abstract java.awt.BufferCapabilities java.awt.image.BufferStrategy.getCapabilities()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferStrategy#dispose() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferStrategy#dispose() public void
      * java.awt.image.BufferStrategy.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferStrategy#contentsRestored() public abstract
-     * boolean java.awt.image.BufferStrategy.contentsRestored()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferStrategy#contentsRestored()
+     * public abstract boolean java.awt.image.BufferStrategy.contentsRestored()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferStrategy#contentsLost() public abstract
-     * boolean java.awt.image.BufferStrategy.contentsLost()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferStrategy#contentsLost() public
+     * abstract boolean java.awt.image.BufferStrategy.contentsLost()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

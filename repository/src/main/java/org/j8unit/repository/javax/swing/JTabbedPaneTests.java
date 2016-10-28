@@ -1,13 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.event.MouseEvent;
-import javax.swing.Icon;
 import javax.swing.JTabbedPane;
-import javax.swing.SingleSelectionModel;
-import javax.swing.event.ChangeListener;
-import javax.swing.plaf.TabbedPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -42,7 +35,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setForegroundAt(int, Color) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setForegroundAt(int, java.awt.Color) public void
      * javax.swing.JTabbedPane.setForegroundAt(int,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,8 +58,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getTabComponentAt(int) public
-     * java.awt.Component javax.swing.JTabbedPane.getTabComponentAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getTabComponentAt(int)
+     * public java.awt.Component javax.swing.JTabbedPane.getTabComponentAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,7 +80,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getToolTipTextAt(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getToolTipTextAt(int) public
      * java.lang.String javax.swing.JTabbedPane.getToolTipTextAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,8 +102,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#isEnabledAt(int) public boolean
-     * javax.swing.JTabbedPane.isEnabledAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#isEnabledAt(int) public
+     * boolean javax.swing.JTabbedPane.isEnabledAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +124,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getSelectedComponent() public
-     * java.awt.Component javax.swing.JTabbedPane.getSelectedComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getSelectedComponent()
+     * public java.awt.Component javax.swing.JTabbedPane.getSelectedComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,7 +146,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#removeTabAt(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#removeTabAt(int) public void
      * javax.swing.JTabbedPane.removeTabAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +168,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#indexOfTabComponent(Component) public
-     * int javax.swing.JTabbedPane.indexOfTabComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#indexOfTabComponent(java.awt.Component) public int
+     * javax.swing.JTabbedPane.indexOfTabComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,8 +191,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setTabLayoutPolicy(int) public void
-     * javax.swing.JTabbedPane.setTabLayoutPolicy(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#setTabLayoutPolicy(int)
+     * public void javax.swing.JTabbedPane.setTabLayoutPolicy(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,7 +213,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getTabPlacement() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getTabPlacement() public int
      * javax.swing.JTabbedPane.getTabPlacement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,7 +235,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getTabCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getTabCount() public int
      * javax.swing.JTabbedPane.getTabCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,8 +257,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#remove(Component) public void
-     * javax.swing.JTabbedPane.remove(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#remove(java.awt.Component)
+     * public void javax.swing.JTabbedPane.remove(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -285,7 +280,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#remove(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#remove(int) public void
      * javax.swing.JTabbedPane.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -308,8 +303,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getUIClassID() public java.lang.String
-     * javax.swing.JTabbedPane.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getUIClassID() public
+     * java.lang.String javax.swing.JTabbedPane.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -331,7 +326,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#updateUI() public void
      * javax.swing.JTabbedPane.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -354,7 +349,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getComponentAt(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getComponentAt(int) public
      * java.awt.Component javax.swing.JTabbedPane.getComponentAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -376,8 +371,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getDisabledIconAt(int) public
-     * javax.swing.Icon javax.swing.JTabbedPane.getDisabledIconAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getDisabledIconAt(int)
+     * public javax.swing.Icon javax.swing.JTabbedPane.getDisabledIconAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -398,7 +393,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setDisabledIconAt(int, Icon) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setDisabledIconAt(int, javax.swing.Icon) public void
      * javax.swing.JTabbedPane.setDisabledIconAt(int,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -420,7 +416,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setUI(TabbedPaneUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#removeChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.JTabbedPane.removeChangeListener(javax.swing.event.ChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeChangeListener_ChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setUI(javax.swing.plaf.TabbedPaneUI) public void
      * javax.swing.JTabbedPane.setUI(javax.swing.plaf.TabbedPaneUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -442,30 +462,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#removeChangeListener(ChangeListener)
-     * public void javax.swing.JTabbedPane.removeChangeListener(javax.swing.event.ChangeListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getMnemonicAt(int) public int
-     * javax.swing.JTabbedPane.getMnemonicAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getMnemonicAt(int) public
+     * int javax.swing.JTabbedPane.getMnemonicAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -486,8 +484,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getToolTipText(MouseEvent) public
-     * java.lang.String javax.swing.JTabbedPane.getToolTipText(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#getToolTipText(java.awt.event.MouseEvent) public java.lang.String
+     * javax.swing.JTabbedPane.getToolTipText(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -509,30 +508,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setSelectedIndex(int) public void
-     * javax.swing.JTabbedPane.setSelectedIndex(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectedIndex_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setDisplayedMnemonicIndexAt(int, int)
-     * public void javax.swing.JTabbedPane.setDisplayedMnemonicIndexAt(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setDisplayedMnemonicIndexAt(int, int) public void
+     * javax.swing.JTabbedPane.setDisplayedMnemonicIndexAt(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -553,7 +531,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getBoundsAt(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getBoundsAt(int) public
      * java.awt.Rectangle javax.swing.JTabbedPane.getBoundsAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -575,8 +553,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setTabComponentAt(int, Component) public
-     * void javax.swing.JTabbedPane.setTabComponentAt(int,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#setSelectedIndex(int) public
+     * void javax.swing.JTabbedPane.setSelectedIndex(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectedIndex_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setTabComponentAt(int, java.awt.Component) public void
+     * javax.swing.JTabbedPane.setTabComponentAt(int,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -597,8 +598,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#indexAtLocation(int, int) public int
-     * javax.swing.JTabbedPane.indexAtLocation(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#indexAtLocation(int, int)
+     * public int javax.swing.JTabbedPane.indexAtLocation(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -619,8 +620,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JTabbedPane.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JTabbedPane.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -642,8 +643,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getIconAt(int) public javax.swing.Icon
-     * javax.swing.JTabbedPane.getIconAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getIconAt(int) public
+     * javax.swing.Icon javax.swing.JTabbedPane.getIconAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -664,8 +665,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getTitleAt(int) public java.lang.String
-     * javax.swing.JTabbedPane.getTitleAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getTitleAt(int) public
+     * java.lang.String javax.swing.JTabbedPane.getTitleAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -686,7 +687,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#removeAll() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#removeAll() public void
      * javax.swing.JTabbedPane.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -709,7 +710,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setBackgroundAt(int, Color) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setBackgroundAt(int, java.awt.Color) public void
      * javax.swing.JTabbedPane.setBackgroundAt(int,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -731,8 +733,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setTabPlacement(int) public void
-     * javax.swing.JTabbedPane.setTabPlacement(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#setTabPlacement(int) public
+     * void javax.swing.JTabbedPane.setTabPlacement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -753,52 +755,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#addTab(String, Component) public void
-     * javax.swing.JTabbedPane.addTab(java.lang.String,java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addTab_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#addTab(String, Icon, Component) public
-     * void javax.swing.JTabbedPane.addTab(java.lang.String,javax.swing.Icon,java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addTab_String_Icon_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#addTab(String, Icon, Component, String)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#addTab(String, javax.swing.Icon, java.awt.Component, String) public void
      * javax.swing.JTabbedPane.addTab(java.lang.String,javax.swing.Icon,java.awt.Component,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -820,8 +778,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setMnemonicAt(int, int) public void
-     * javax.swing.JTabbedPane.setMnemonicAt(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#addTab(String, javax.swing.Icon, java.awt.Component) public void
+     * javax.swing.JTabbedPane.addTab(java.lang.String,javax.swing.Icon,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -833,7 +792,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setMnemonicAt_int_int()
+    public default void test_addTab_String_Icon_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -842,8 +801,32 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#addChangeListener(ChangeListener) public
-     * void javax.swing.JTabbedPane.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#addTab(String, java.awt.Component) public void
+     * javax.swing.JTabbedPane.addTab(java.lang.String,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addTab_String_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#addChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.JTabbedPane.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -864,8 +847,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getDisplayedMnemonicIndexAt(int) public
-     * int javax.swing.JTabbedPane.getDisplayedMnemonicIndexAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#setMnemonicAt(int, int)
+     * public void javax.swing.JTabbedPane.setMnemonicAt(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMnemonicAt_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#getDisplayedMnemonicIndexAt(int) public int
+     * javax.swing.JTabbedPane.getDisplayedMnemonicIndexAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -887,7 +893,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JTabbedPane#insertTab(String, Icon, Component, String, int) public void
+     * {@link javax.swing.JTabbedPane#insertTab(String, javax.swing.Icon, java.awt.Component, String, int) public void
      * javax.swing.JTabbedPane.insertTab(java.lang.String,javax.swing.Icon,java.awt.Component,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -909,7 +915,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getForegroundAt(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getForegroundAt(int) public
      * java.awt.Color javax.swing.JTabbedPane.getForegroundAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -931,8 +937,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setEnabledAt(int, boolean) public void
-     * javax.swing.JTabbedPane.setEnabledAt(int,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#setEnabledAt(int, boolean)
+     * public void javax.swing.JTabbedPane.setEnabledAt(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -953,7 +959,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getTabRunCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getTabRunCount() public int
      * javax.swing.JTabbedPane.getTabRunCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -975,7 +981,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getUI() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getUI() public
      * javax.swing.plaf.TabbedPaneUI javax.swing.JTabbedPane.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -997,7 +1003,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getBackgroundAt(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getBackgroundAt(int) public
      * java.awt.Color javax.swing.JTabbedPane.getBackgroundAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1019,8 +1025,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setTitleAt(int, String) public void
-     * javax.swing.JTabbedPane.setTitleAt(int,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#setTitleAt(int, String)
+     * public void javax.swing.JTabbedPane.setTitleAt(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1041,8 +1047,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setComponentAt(int, Component) public
-     * void javax.swing.JTabbedPane.setComponentAt(int,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setComponentAt(int, java.awt.Component) public void
+     * javax.swing.JTabbedPane.setComponentAt(int,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1063,8 +1070,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getSelectedIndex() public int
-     * javax.swing.JTabbedPane.getSelectedIndex()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getSelectedIndex() public
+     * int javax.swing.JTabbedPane.getSelectedIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1085,7 +1092,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#indexOfComponent(Component) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setModel(javax.swing.SingleSelectionModel) public void
+     * javax.swing.JTabbedPane.setModel(javax.swing.SingleSelectionModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setModel_SingleSelectionModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#indexOfComponent(java.awt.Component) public int
      * javax.swing.JTabbedPane.indexOfComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1107,29 +1138,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setModel(SingleSelectionModel) public
-     * void javax.swing.JTabbedPane.setModel(javax.swing.SingleSelectionModel)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setModel_SingleSelectionModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getChangeListeners() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getChangeListeners() public
      * javax.swing.event.ChangeListener[] javax.swing.JTabbedPane.getChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1151,7 +1160,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getModel() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getModel() public
      * javax.swing.SingleSelectionModel javax.swing.JTabbedPane.getModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1173,8 +1182,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#add(Component) public java.awt.Component
-     * javax.swing.JTabbedPane.add(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#add(java.awt.Component)
+     * public java.awt.Component javax.swing.JTabbedPane.add(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1196,8 +1205,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#add(String, Component) public
-     * java.awt.Component javax.swing.JTabbedPane.add(java.lang.String,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#add(String, java.awt.Component) public java.awt.Component
+     * javax.swing.JTabbedPane.add(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1219,8 +1229,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#add(Component, int) public
-     * java.awt.Component javax.swing.JTabbedPane.add(java.awt.Component,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#add(java.awt.Component, int)
+     * public java.awt.Component javax.swing.JTabbedPane.add(java.awt.Component,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1242,7 +1252,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#add(Component, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#add(java.awt.Component, Object) public void
      * javax.swing.JTabbedPane.add(java.awt.Component,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1265,7 +1276,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#add(Component, Object, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#add(java.awt.Component, Object, int) public void
      * javax.swing.JTabbedPane.add(java.awt.Component,java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1288,7 +1300,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setIconAt(int, Icon) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setIconAt(int, javax.swing.Icon) public void
      * javax.swing.JTabbedPane.setIconAt(int,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1310,8 +1323,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setSelectedComponent(Component) public
-     * void javax.swing.JTabbedPane.setSelectedComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setSelectedComponent(java.awt.Component) public void
+     * javax.swing.JTabbedPane.setSelectedComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1332,8 +1346,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#getTabLayoutPolicy() public int
-     * javax.swing.JTabbedPane.getTabLayoutPolicy()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getTabLayoutPolicy() public
+     * int javax.swing.JTabbedPane.getTabLayoutPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1354,8 +1368,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#indexOfTab(String) public int
-     * javax.swing.JTabbedPane.indexOfTab(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#indexOfTab(String) public
+     * int javax.swing.JTabbedPane.indexOfTab(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1376,8 +1390,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#indexOfTab(Icon) public int
-     * javax.swing.JTabbedPane.indexOfTab(javax.swing.Icon)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#indexOfTab(javax.swing.Icon)
+     * public int javax.swing.JTabbedPane.indexOfTab(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1398,8 +1412,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTabbedPane#setToolTipTextAt(int, String) public
-     * void javax.swing.JTabbedPane.setToolTipTextAt(int,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#setToolTipTextAt(int, String) public void
+     * javax.swing.JTabbedPane.setToolTipTextAt(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

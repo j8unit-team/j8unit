@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Container;
 import javax.swing.OverlayLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.OverlayLayoutClassTests<OverlayLayo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OverlayLayout#OverlayLayout(Container) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.OverlayLayout#OverlayLayout(java.awt.Container) public
      * javax.swing.OverlayLayout(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.OverlayLayoutClassTests<OverlayLayo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OverlayLayout sut = null; // = new OverlayLayout(Container);
+        final OverlayLayout sut = null; // = new OverlayLayout(java.awt.Container);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.OverlayLayout]

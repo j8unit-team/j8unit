@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.ProxySelectorClassTests<ProxySelector>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProxySelector#ProxySelector() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.ProxySelector#ProxySelector() public
      * java.net.ProxySelector()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.net.ProxySelectorClassTests<ProxySelector>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProxySelector#getDefault() public static
+     * Test method for the hereby targeted method-under-test {@link java.net.ProxySelector#getDefault() public static
      * java.net.ProxySelector java.net.ProxySelector.getDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,13 +57,14 @@ implements org.j8unit.repository.java.net.ProxySelectorClassTests<ProxySelector>
     @Category(Draft.class)
     public void test_getDefault()
     throws Exception {
-        // write some test for {@link ProxySelector#getDefault()}
+        // write some test for {@link java.net.ProxySelector#getDefault()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProxySelector#setDefault(ProxySelector) public
-     * static void java.net.ProxySelector.setDefault(java.net.ProxySelector)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.ProxySelector#setDefault(java.net.ProxySelector) public static void
+     * java.net.ProxySelector.setDefault(java.net.ProxySelector)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,7 +78,7 @@ implements org.j8unit.repository.java.net.ProxySelectorClassTests<ProxySelector>
     @Category(Draft.class)
     public void test_setDefault_ProxySelector()
     throws Exception {
-        // write some test for {@link ProxySelector#setDefault(ProxySelector)}
+        // write some test for {@link java.net.ProxySelector#setDefault(java.net.ProxySelector)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ProxySelector]

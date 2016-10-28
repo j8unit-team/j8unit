@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeException#getUnsupportedAttributes() public
-     * abstract java.lang.Class[] javax.print.AttributeException.getUnsupportedAttributes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.AttributeException#getUnsupportedAttributes() public abstract java.lang.Class[]
+     * javax.print.AttributeException.getUnsupportedAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeException#getUnsupportedValues() public
-     * abstract javax.print.attribute.Attribute[] javax.print.AttributeException.getUnsupportedValues()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.AttributeException#getUnsupportedValues() public abstract javax.print.attribute.Attribute[]
+     * javax.print.AttributeException.getUnsupportedValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.MalformedObjectNameExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MalformedObjectNameException#MalformedObjectNameException() public
+     * {@link javax.management.MalformedObjectNameException#MalformedObjectNameException() public
      * javax.management.MalformedObjectNameException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.MalformedObjectNameExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MalformedObjectNameException#MalformedObjectNameException(String) public
+     * {@link javax.management.MalformedObjectNameException#MalformedObjectNameException(String) public
      * javax.management.MalformedObjectNameException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.CheckboxMenuItem;
-import java.awt.event.ItemListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#getItemListeners() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.CheckboxMenuItem#getItemListeners() public
      * synchronized java.awt.event.ItemListener[] java.awt.CheckboxMenuItem.getItemListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext java.awt.CheckboxMenuItem.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.CheckboxMenuItem#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext java.awt.CheckboxMenuItem.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,9 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#removeItemListener(ItemListener)
-     * public synchronized void java.awt.CheckboxMenuItem.removeItemListener(java.awt.event.ItemListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.CheckboxMenuItem#removeItemListener(java.awt.event.ItemListener) public synchronized void
+     * java.awt.CheckboxMenuItem.removeItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#getSelectedObjects() public
-     * synchronized java.lang.Object[] java.awt.CheckboxMenuItem.getSelectedObjects()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.CheckboxMenuItem#getSelectedObjects()
+     * public synchronized java.lang.Object[] java.awt.CheckboxMenuItem.getSelectedObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,9 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#addItemListener(ItemListener)
-     * public synchronized void java.awt.CheckboxMenuItem.addItemListener(java.awt.event.ItemListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.CheckboxMenuItem#addItemListener(java.awt.event.ItemListener) public synchronized void
+     * java.awt.CheckboxMenuItem.addItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +150,7 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#setState(boolean) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.CheckboxMenuItem#setState(boolean) public
      * synchronized void java.awt.CheckboxMenuItem.setState(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +172,7 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.CheckboxMenuItem#addNotify() public void
      * java.awt.CheckboxMenuItem.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,7 +195,7 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#getState() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.CheckboxMenuItem#getState() public boolean
      * java.awt.CheckboxMenuItem.getState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,8 +217,8 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#getListeners(Class) public <T> T[]
-     * java.awt.CheckboxMenuItem.getListeners(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.CheckboxMenuItem#getListeners(Class) public
+     * <T> T[] java.awt.CheckboxMenuItem.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,7 +240,7 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CheckboxMenuItem#paramString() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.CheckboxMenuItem#paramString() public
      * java.lang.String java.awt.CheckboxMenuItem.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

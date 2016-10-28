@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util;
 
-import java.util.AbstractCollection;
 import java.util.AbstractList;
-import java.util.Collection;
-import java.util.List;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#clear() public void
      * java.util.AbstractList.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +57,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#remove(int) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#remove(int) public E
      * java.util.AbstractList.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +80,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#add(Object) public boolean
      * java.util.AbstractList.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +103,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#add(int, Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#add(int, Object) public void
      * java.util.AbstractList.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +126,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#set(int, Object) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#set(int, Object) public E
      * java.util.AbstractList.set(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +149,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#subList(int, int) public java.util.List
-     * <E> java.util.AbstractList.subList(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#subList(int, int) public
+     * java.util.List<E> java.util.AbstractList.subList(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,7 +172,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#listIterator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#listIterator() public
      * java.util.ListIterator<E> java.util.AbstractList.listIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +195,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#listIterator(int) public
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#listIterator(int) public
      * java.util.ListIterator<E> java.util.AbstractList.listIterator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -221,7 +218,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#indexOf(Object) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#indexOf(Object) public int
      * java.util.AbstractList.indexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,8 +241,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#lastIndexOf(Object) public int
-     * java.util.AbstractList.lastIndexOf(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#lastIndexOf(Object) public
+     * int java.util.AbstractList.lastIndexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +264,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#iterator() public java.util.Iterator
-     * <E> java.util.AbstractList.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#iterator() public
+     * java.util.Iterator<E> java.util.AbstractList.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -290,7 +287,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#addAll(int, Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.AbstractList#addAll(int, java.util.Collection) public boolean
      * java.util.AbstractList.addAll(int,java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -313,7 +311,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#equals(Object) public boolean
      * java.util.AbstractList.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -336,7 +334,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#get(int) public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#get(int) public abstract E
      * java.util.AbstractList.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -359,7 +357,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractList#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractList#hashCode() public int
      * java.util.AbstractList.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -386,8 +384,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#removeAll(Collection) interface java.util.List}</li>
-     * <li>{@link AbstractCollection#removeAll(Collection) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#removeAll(java.util.Collection) interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#removeAll(java.util.Collection) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -414,8 +412,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#contains(Object) interface java.util.List}</li>
-     * <li>{@link AbstractCollection#contains(Object) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#contains(Object) interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#contains(Object) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -442,8 +440,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#size() interface java.util.List}</li>
-     * <li>{@link AbstractCollection#size() class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#size() interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#size() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -470,8 +468,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#addAll(Collection) interface java.util.List}</li>
-     * <li>{@link AbstractCollection#addAll(Collection) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#addAll(java.util.Collection) interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#addAll(java.util.Collection) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -498,8 +496,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#toArray(Object[]) interface java.util.List}</li>
-     * <li>{@link AbstractCollection#toArray(Object[]) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#toArray(Object[]) interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#toArray(Object[]) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -526,8 +524,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#toArray() interface java.util.List}</li>
-     * <li>{@link AbstractCollection#toArray() class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#toArray() interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#toArray() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -554,8 +552,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#retainAll(Collection) interface java.util.List}</li>
-     * <li>{@link AbstractCollection#retainAll(Collection) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#retainAll(java.util.Collection) interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#retainAll(java.util.Collection) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -582,8 +580,9 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#containsAll(Collection) interface java.util.List}</li>
-     * <li>{@link AbstractCollection#containsAll(Collection) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#containsAll(java.util.Collection) interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#containsAll(java.util.Collection) class java.util.AbstractCollection}
+     * </li>
      * </ul>
      *
      * <p>
@@ -610,8 +609,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#isEmpty() interface java.util.List}</li>
-     * <li>{@link AbstractCollection#isEmpty() class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#isEmpty() interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#isEmpty() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -638,8 +637,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link List#remove(Object) interface java.util.List}</li>
-     * <li>{@link AbstractCollection#remove(Object) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.List#remove(Object) interface java.util.List}</li>
+     * <li>{@link java.util.AbstractCollection#remove(Object) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>

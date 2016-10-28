@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.ConcurrentSkipListMap;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +35,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#lastEntry() public
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.concurrent.ConcurrentSkipListMap.lastEntry()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#lastEntry() public java.util.Map.java.util.Map$Entry<K, V>
+     * java.util.concurrent.ConcurrentSkipListMap.lastEntry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,9 +60,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentSkipListMap#computeIfPresent(Object, BiFunction) public V
-     * java.util.concurrent.ConcurrentSkipListMap.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super V,
-     * ? extends V>)}.
+     * {@link java.util.concurrent.ConcurrentSkipListMap#computeIfPresent(Object, java.util.function.BiFunction) public
+     * V java.util.concurrent.ConcurrentSkipListMap.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super
+     * V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,8 +84,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#comparator() public
-     * java.util.Comparator<? super K> java.util.concurrent.ConcurrentSkipListMap.comparator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#comparator() public java.util.Comparator<? super K>
+     * java.util.concurrent.ConcurrentSkipListMap.comparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,7 +108,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#firstKey() public K
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#firstKey() public K
      * java.util.concurrent.ConcurrentSkipListMap.firstKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,7 +132,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#equals(Object) public boolean
      * java.util.concurrent.ConcurrentSkipListMap.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +156,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#size() public int
-     * java.util.concurrent.ConcurrentSkipListMap.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentSkipListMap#size()
+     * public int java.util.concurrent.ConcurrentSkipListMap.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,7 +179,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#headMap(Object) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#headMap(Object) public
      * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentSkipListMap.headMap(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,9 +203,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#headMap(Object, boolean)
-     * public java.util.concurrent.ConcurrentNavigableMap<K, V>
-     * java.util.concurrent.ConcurrentSkipListMap.headMap(K,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#headMap(Object, boolean) public
+     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentSkipListMap.headMap(K,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -225,8 +227,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#clone() public
-     * java.util.concurrent.ConcurrentSkipListMap<K, V> java.util.concurrent.ConcurrentSkipListMap.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentSkipListMap#clone()
+     * public java.util.concurrent.ConcurrentSkipListMap<K, V> java.util.concurrent.ConcurrentSkipListMap.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,7 +249,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#lowerKey(Object) public K
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#lowerKey(Object) public K
      * java.util.concurrent.ConcurrentSkipListMap.lowerKey(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -270,7 +273,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#tailMap(Object) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#tailMap(Object) public
      * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentSkipListMap.tailMap(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -293,9 +297,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#tailMap(Object, boolean)
-     * public java.util.concurrent.ConcurrentNavigableMap<K, V>
-     * java.util.concurrent.ConcurrentSkipListMap.tailMap(K,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#tailMap(Object, boolean) public
+     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentSkipListMap.tailMap(K,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -317,8 +321,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#putIfAbsent(Object, Object)
-     * public V java.util.concurrent.ConcurrentSkipListMap.putIfAbsent(K,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#putIfAbsent(Object, Object) public V
+     * java.util.concurrent.ConcurrentSkipListMap.putIfAbsent(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -340,7 +345,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#floorKey(Object) public K
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#floorKey(Object) public K
      * java.util.concurrent.ConcurrentSkipListMap.floorKey(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -363,8 +369,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#floorEntry(Object) public
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.concurrent.ConcurrentSkipListMap.floorEntry(K)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#floorEntry(Object) public java.util.Map.java.util.Map$Entry<K,
+     * V> java.util.concurrent.ConcurrentSkipListMap.floorEntry(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -386,8 +393,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#forEach(BiConsumer) public
-     * void java.util.concurrent.ConcurrentSkipListMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#forEach(java.util.function.BiConsumer) public void
+     * java.util.concurrent.ConcurrentSkipListMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,8 +417,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#containsKey(Object) public
-     * boolean java.util.concurrent.ConcurrentSkipListMap.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#containsKey(Object) public boolean
+     * java.util.concurrent.ConcurrentSkipListMap.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -433,7 +442,31 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentSkipListMap#subMap(Object, boolean, Object, boolean) public
+     * {@link java.util.concurrent.ConcurrentSkipListMap#subMap(Object, Object) public
+     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentSkipListMap.subMap(K,K)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_subMap_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#subMap(Object, boolean, Object, boolean) public
      * java.util.concurrent.ConcurrentNavigableMap<K, V>
      * java.util.concurrent.ConcurrentSkipListMap.subMap(K,boolean,K,boolean)}.
      *
@@ -457,30 +490,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#subMap(Object, Object) public
-     * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentSkipListMap.subMap(K,K)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_subMap_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#entrySet() public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.concurrent.ConcurrentSkipListMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -503,8 +514,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#isEmpty() public boolean
-     * java.util.concurrent.ConcurrentSkipListMap.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentSkipListMap#isEmpty()
+     * public boolean java.util.concurrent.ConcurrentSkipListMap.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -526,8 +537,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#clear() public void
-     * java.util.concurrent.ConcurrentSkipListMap.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentSkipListMap#clear()
+     * public void java.util.concurrent.ConcurrentSkipListMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -549,8 +560,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#pollLastEntry() public
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.concurrent.ConcurrentSkipListMap.pollLastEntry()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#pollLastEntry() public java.util.Map.java.util.Map$Entry<K, V>
+     * java.util.concurrent.ConcurrentSkipListMap.pollLastEntry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -572,7 +584,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#ceilingKey(Object) public K
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#ceilingKey(Object) public K
      * java.util.concurrent.ConcurrentSkipListMap.ceilingKey(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -595,9 +608,10 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#compute(Object, BiFunction)
-     * public V java.util.concurrent.ConcurrentSkipListMap.compute(K,java.util.function.BiFunction<? super K, ? super V,
-     * ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#compute(Object, java.util.function.BiFunction) public V
+     * java.util.concurrent.ConcurrentSkipListMap.compute(K,java.util.function.BiFunction<? super K, ? super V, ?
+     * extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -619,8 +633,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#pollFirstEntry() public
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.concurrent.ConcurrentSkipListMap.pollFirstEntry()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#pollFirstEntry() public java.util.Map.java.util.Map$Entry<K, V>
+     * java.util.concurrent.ConcurrentSkipListMap.pollFirstEntry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -642,7 +657,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#higherKey(Object) public K
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#higherKey(Object) public K
      * java.util.concurrent.ConcurrentSkipListMap.higherKey(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -666,7 +682,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentSkipListMap#merge(Object, Object, BiFunction) public V
+     * {@link java.util.concurrent.ConcurrentSkipListMap#merge(Object, Object, java.util.function.BiFunction) public V
      * java.util.concurrent.ConcurrentSkipListMap.merge(K,V,java.util.function.BiFunction<? super V, ? super V, ?
      * extends V>)}.
      *
@@ -690,7 +706,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#get(Object) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#get(Object) public V
      * java.util.concurrent.ConcurrentSkipListMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -713,8 +730,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#firstEntry() public
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.concurrent.ConcurrentSkipListMap.firstEntry()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#firstEntry() public java.util.Map.java.util.Map$Entry<K, V>
+     * java.util.concurrent.ConcurrentSkipListMap.firstEntry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -736,8 +754,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#lastKey() public K
-     * java.util.concurrent.ConcurrentSkipListMap.lastKey()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentSkipListMap#lastKey()
+     * public K java.util.concurrent.ConcurrentSkipListMap.lastKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -759,8 +777,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#keySet() public
-     * java.util.NavigableSet<K> java.util.concurrent.ConcurrentSkipListMap.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentSkipListMap#keySet()
+     * public java.util.NavigableSet<K> java.util.concurrent.ConcurrentSkipListMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -782,7 +800,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#ceilingEntry(Object) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#ceilingEntry(Object) public
      * java.util.Map.java.util.Map$Entry<K, V> java.util.concurrent.ConcurrentSkipListMap.ceilingEntry(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -805,8 +824,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#getOrDefault(Object, Object)
-     * public V java.util.concurrent.ConcurrentSkipListMap.getOrDefault(java.lang.Object,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#getOrDefault(Object, Object) public V
+     * java.util.concurrent.ConcurrentSkipListMap.getOrDefault(java.lang.Object,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -828,8 +848,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#lowerEntry(Object) public
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.concurrent.ConcurrentSkipListMap.lowerEntry(K)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#lowerEntry(Object) public java.util.Map.java.util.Map$Entry<K,
+     * V> java.util.concurrent.ConcurrentSkipListMap.lowerEntry(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -851,8 +872,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#descendingKeySet() public
-     * java.util.NavigableSet<K> java.util.concurrent.ConcurrentSkipListMap.descendingKeySet()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#descendingKeySet() public java.util.NavigableSet
+     * <K> java.util.concurrent.ConcurrentSkipListMap.descendingKeySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -874,7 +896,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#descendingMap() public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#descendingMap() public
      * java.util.concurrent.ConcurrentNavigableMap<K, V> java.util.concurrent.ConcurrentSkipListMap.descendingMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -898,7 +921,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentSkipListMap#computeIfAbsent(Object, Function) public V
+     * {@link java.util.concurrent.ConcurrentSkipListMap#computeIfAbsent(Object, java.util.function.Function) public V
      * java.util.concurrent.ConcurrentSkipListMap.computeIfAbsent(K,java.util.function.Function<? super K, ? extends
      * V>)}.
      *
@@ -922,8 +945,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#values() public
-     * java.util.Collection<V> java.util.concurrent.ConcurrentSkipListMap.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentSkipListMap#values()
+     * public java.util.Collection<V> java.util.concurrent.ConcurrentSkipListMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -945,8 +968,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#navigableKeySet() public
-     * java.util.NavigableSet<K> java.util.concurrent.ConcurrentSkipListMap.navigableKeySet()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#navigableKeySet() public java.util.NavigableSet
+     * <K> java.util.concurrent.ConcurrentSkipListMap.navigableKeySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -968,8 +992,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#higherEntry(Object) public
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.concurrent.ConcurrentSkipListMap.higherEntry(K)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#higherEntry(Object) public java.util.Map.java.util.Map$Entry<K,
+     * V> java.util.concurrent.ConcurrentSkipListMap.higherEntry(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -992,7 +1017,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentSkipListMap#replace(Object, Object, Object) public boolean
+     * {@link java.util.concurrent.ConcurrentSkipListMap#replace(Object, Object, Object) public boolean
      * java.util.concurrent.ConcurrentSkipListMap.replace(K,V,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1015,8 +1040,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#replace(Object, Object) public
-     * V java.util.concurrent.ConcurrentSkipListMap.replace(K,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#replace(Object, Object) public V
+     * java.util.concurrent.ConcurrentSkipListMap.replace(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1038,8 +1064,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#containsValue(Object) public
-     * boolean java.util.concurrent.ConcurrentSkipListMap.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#containsValue(Object) public boolean
+     * java.util.concurrent.ConcurrentSkipListMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1061,7 +1088,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#put(Object, Object) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#put(Object, Object) public V
      * java.util.concurrent.ConcurrentSkipListMap.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1084,8 +1112,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#remove(Object, Object) public
-     * boolean java.util.concurrent.ConcurrentSkipListMap.remove(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#remove(Object, Object) public boolean
+     * java.util.concurrent.ConcurrentSkipListMap.remove(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1107,7 +1136,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#remove(Object) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#remove(Object) public V
      * java.util.concurrent.ConcurrentSkipListMap.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1130,8 +1160,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentSkipListMap#replaceAll(BiFunction) public
-     * void java.util.concurrent.ConcurrentSkipListMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ?
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#replaceAll(java.util.function.BiFunction) public void
+     * java.util.concurrent.ConcurrentSkipListMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ?
      * extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleBundleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelation#getTarget() public
-     * java.lang.Object[] javax.accessibility.AccessibleRelation.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleRelation#getTarget()
+     * public java.lang.Object[] javax.accessibility.AccessibleRelation.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleBundleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelation#getKey() public java.lang.String
-     * javax.accessibility.AccessibleRelation.getKey()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleRelation#getKey()
+     * public java.lang.String javax.accessibility.AccessibleRelation.getKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleBundleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelation#setTarget(Object[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleRelation#setTarget(Object[]) public void
      * javax.accessibility.AccessibleRelation.setTarget(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +101,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleBundleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleRelation#setTarget(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleRelation#setTarget(Object) public void
      * javax.accessibility.AccessibleRelation.setTarget(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

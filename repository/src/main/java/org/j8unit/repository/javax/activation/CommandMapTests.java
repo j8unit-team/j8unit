@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.activation;
 
 import javax.activation.CommandMap;
-import javax.activation.DataSource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandMap#getPreferredCommands(String, DataSource)
-     * public javax.activation.CommandInfo[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.CommandMap#getPreferredCommands(String, javax.activation.DataSource) public
+     * javax.activation.CommandInfo[]
      * javax.activation.CommandMap.getPreferredCommands(java.lang.String,javax.activation.DataSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandMap#getPreferredCommands(String) public
-     * abstract javax.activation.CommandInfo[] javax.activation.CommandMap.getPreferredCommands(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.CommandMap#getPreferredCommands(String) public abstract javax.activation.CommandInfo[]
+     * javax.activation.CommandMap.getPreferredCommands(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandMap#getCommand(String, String) public
-     * abstract javax.activation.CommandInfo javax.activation.CommandMap.getCommand(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.CommandMap#getCommand(String, String) public abstract javax.activation.CommandInfo
+     * javax.activation.CommandMap.getCommand(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandMap#getCommand(String, String, DataSource)
-     * public javax.activation.CommandInfo
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.CommandMap#getCommand(String, String, javax.activation.DataSource) public
+     * javax.activation.CommandInfo
      * javax.activation.CommandMap.getCommand(java.lang.String,java.lang.String,javax.activation.DataSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,9 +128,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandMap#createDataContentHandler(String) public
-     * abstract javax.activation.DataContentHandler
-     * javax.activation.CommandMap.createDataContentHandler(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.CommandMap#createDataContentHandler(String) public abstract
+     * javax.activation.DataContentHandler javax.activation.CommandMap.createDataContentHandler(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +152,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CommandMap#createDataContentHandler(String, DataSource) public javax.activation.DataContentHandler
+     * {@link javax.activation.CommandMap#createDataContentHandler(String, javax.activation.DataSource) public
+     * javax.activation.DataContentHandler
      * javax.activation.CommandMap.createDataContentHandler(java.lang.String,javax.activation.DataSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +175,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandMap#getMimeTypes() public java.lang.String[]
-     * javax.activation.CommandMap.getMimeTypes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.CommandMap#getMimeTypes() public
+     * java.lang.String[] javax.activation.CommandMap.getMimeTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,7 +197,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandMap#getAllCommands(String, DataSource) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.CommandMap#getAllCommands(String, javax.activation.DataSource) public
      * javax.activation.CommandInfo[]
      * javax.activation.CommandMap.getAllCommands(java.lang.String,javax.activation.DataSource)}.
      *
@@ -216,8 +221,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandMap#getAllCommands(String) public abstract
-     * javax.activation.CommandInfo[] javax.activation.CommandMap.getAllCommands(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.CommandMap#getAllCommands(String)
+     * public abstract javax.activation.CommandInfo[] javax.activation.CommandMap.getAllCommands(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

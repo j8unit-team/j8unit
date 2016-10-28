@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicLookAndFeel#initialize() public void
-     * javax.swing.plaf.basic.BasicLookAndFeel.initialize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicLookAndFeel#initialize()
+     * public void javax.swing.plaf.basic.BasicLookAndFeel.initialize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicLookAndFeel#getDefaults() public
-     * javax.swing.UIDefaults javax.swing.plaf.basic.BasicLookAndFeel.getDefaults()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicLookAndFeel#getDefaults() public javax.swing.UIDefaults
+     * javax.swing.plaf.basic.BasicLookAndFeel.getDefaults()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +81,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicLookAndFeel#uninitialize() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicLookAndFeel#uninitialize() public void
      * javax.swing.plaf.basic.BasicLookAndFeel.uninitialize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

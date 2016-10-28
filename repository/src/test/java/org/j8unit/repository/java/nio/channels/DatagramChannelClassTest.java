@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.net.ProtocolFamily;
 import java.nio.channels.DatagramChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.nio.channels.DatagramChannelClassTests<Dat
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#open(ProtocolFamily) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#open(java.net.ProtocolFamily) public static
      * java.nio.channels.DatagramChannel java.nio.channels.DatagramChannel.open(java.net.ProtocolFamily) throws
      * java.io.IOException}.
      *
@@ -38,13 +38,13 @@ implements org.j8unit.repository.java.nio.channels.DatagramChannelClassTests<Dat
     @Category(Draft.class)
     public void test_open_ProtocolFamily()
     throws Exception {
-        // write some test for {@link DatagramChannel#open(ProtocolFamily)}
+        // write some test for {@link java.nio.channels.DatagramChannel#open(java.net.ProtocolFamily)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#open() public static
-     * java.nio.channels.DatagramChannel java.nio.channels.DatagramChannel.open() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.DatagramChannel#open() public
+     * static java.nio.channels.DatagramChannel java.nio.channels.DatagramChannel.open() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ implements org.j8unit.repository.java.nio.channels.DatagramChannelClassTests<Dat
     @Category(Draft.class)
     public void test_open()
     throws Exception {
-        // write some test for {@link DatagramChannel#open()}
+        // write some test for {@link java.nio.channels.DatagramChannel#open()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.DatagramChannel]

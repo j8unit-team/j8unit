@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.util.List;
 import javax.swing.SpinnerListModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#getList() public java.util.List
-     * <?> javax.swing.SpinnerListModel.getList()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerListModel#getList() public
+     * java.util.List<?> javax.swing.SpinnerListModel.getList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#setValue(Object) public void
-     * javax.swing.SpinnerListModel.setValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerListModel#setValue(Object) public
+     * void javax.swing.SpinnerListModel.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#getPreviousValue() public
-     * java.lang.Object javax.swing.SpinnerListModel.getPreviousValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerListModel#getPreviousValue()
+     * public java.lang.Object javax.swing.SpinnerListModel.getPreviousValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#getValue() public java.lang.Object
-     * javax.swing.SpinnerListModel.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerListModel#getValue() public
+     * java.lang.Object javax.swing.SpinnerListModel.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#setList(List) public void
-     * javax.swing.SpinnerListModel.setList(java.util.List<?>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerListModel#setList(java.util.List)
+     * public void javax.swing.SpinnerListModel.setList(java.util.List<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +147,7 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#getNextValue() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerListModel#getNextValue() public
      * java.lang.Object javax.swing.SpinnerListModel.getNextValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

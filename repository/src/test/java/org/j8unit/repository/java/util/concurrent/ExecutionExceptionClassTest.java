@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.concurrent.ExecutionExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ExecutionException#ExecutionException(Throwable) public
+     * {@link java.util.concurrent.ExecutionException#ExecutionException(Throwable) public
      * java.util.concurrent.ExecutionException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.concurrent.ExecutionExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ExecutionException#ExecutionException(String, Throwable) public
+     * {@link java.util.concurrent.ExecutionException#ExecutionException(String, Throwable) public
      * java.util.concurrent.ExecutionException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

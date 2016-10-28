@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.io.OutputStream;
-import javax.crypto.Cipher;
 import javax.crypto.CipherOutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.crypto.CipherOutputStreamClassTests<Ciphe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CipherOutputStream#CipherOutputStream(OutputStream, Cipher) public
+     * {@link javax.crypto.CipherOutputStream#CipherOutputStream(java.io.OutputStream, javax.crypto.Cipher) public
      * javax.crypto.CipherOutputStream(java.io.OutputStream,javax.crypto.Cipher)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +39,7 @@ implements org.j8unit.repository.javax.crypto.CipherOutputStreamClassTests<Ciphe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CipherOutputStream sut = null; // = new CipherOutputStream(OutputStream, Cipher);
+        final CipherOutputStream sut = null; // = new CipherOutputStream(java.io.OutputStream, javax.crypto.Cipher);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.CipherOutputStream]

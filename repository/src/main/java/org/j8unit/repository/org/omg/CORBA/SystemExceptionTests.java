@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemException#toString() public java.lang.String
-     * org.omg.CORBA.SystemException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.SystemException#toString() public
+     * java.lang.String org.omg.CORBA.SystemException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

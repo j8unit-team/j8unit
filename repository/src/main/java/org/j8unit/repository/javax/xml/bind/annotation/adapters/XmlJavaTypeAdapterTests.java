@@ -35,9 +35,9 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlJavaTypeAdapter#value() public abstract
-     * java.lang.Class<? extends javax.xml.bind.annotation.adapters.XmlAdapter>
-     * javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.value()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter#value() public abstract java.lang.Class<? extends
+     * javax.xml.bind.annotation.adapters.XmlAdapter> javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlJavaTypeAdapter#type() public abstract
-     * java.lang.Class javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter#type() public abstract java.lang.Class
+     * javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

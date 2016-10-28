@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Spring#setValue(int) public abstract void
-     * javax.swing.Spring.setValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Spring#setValue(int) public abstract
+     * void javax.swing.Spring.setValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Spring#getValue() public abstract int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Spring#getValue() public abstract int
      * javax.swing.Spring.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Spring#getMinimumValue() public abstract int
-     * javax.swing.Spring.getMinimumValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Spring#getMinimumValue() public abstract
+     * int javax.swing.Spring.getMinimumValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Spring#getPreferredValue() public abstract int
-     * javax.swing.Spring.getPreferredValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Spring#getPreferredValue() public
+     * abstract int javax.swing.Spring.getPreferredValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Spring#getMaximumValue() public abstract int
-     * javax.swing.Spring.getMaximumValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Spring#getMaximumValue() public abstract
+     * int javax.swing.Spring.getMaximumValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

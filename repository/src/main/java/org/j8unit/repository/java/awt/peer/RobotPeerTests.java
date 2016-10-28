@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.Rectangle;
 import java.awt.peer.RobotPeer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RobotPeer#mouseRelease(int) public abstract void
-     * java.awt.peer.RobotPeer.mouseRelease(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.RobotPeer#mouseRelease(int) public
+     * abstract void java.awt.peer.RobotPeer.mouseRelease(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RobotPeer#dispose() public abstract void
-     * java.awt.peer.RobotPeer.dispose()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.RobotPeer#dispose() public abstract
+     * void java.awt.peer.RobotPeer.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RobotPeer#mouseWheel(int) public abstract void
-     * java.awt.peer.RobotPeer.mouseWheel(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.RobotPeer#mouseWheel(int) public
+     * abstract void java.awt.peer.RobotPeer.mouseWheel(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RobotPeer#getRGBPixels(Rectangle) public abstract
-     * int[] java.awt.peer.RobotPeer.getRGBPixels(java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.RobotPeer#getRGBPixels(java.awt.Rectangle) public abstract int[]
+     * java.awt.peer.RobotPeer.getRGBPixels(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RobotPeer#getRGBPixel(int, int) public abstract int
-     * java.awt.peer.RobotPeer.getRGBPixel(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.RobotPeer#getRGBPixel(int, int) public
+     * abstract int java.awt.peer.RobotPeer.getRGBPixel(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RobotPeer#keyPress(int) public abstract void
-     * java.awt.peer.RobotPeer.keyPress(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.RobotPeer#keyPress(int) public
+     * abstract void java.awt.peer.RobotPeer.keyPress(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RobotPeer#mousePress(int) public abstract void
-     * java.awt.peer.RobotPeer.mousePress(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.RobotPeer#mousePress(int) public
+     * abstract void java.awt.peer.RobotPeer.mousePress(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RobotPeer#keyRelease(int) public abstract void
-     * java.awt.peer.RobotPeer.keyRelease(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.RobotPeer#keyRelease(int) public
+     * abstract void java.awt.peer.RobotPeer.keyRelease(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +212,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RobotPeer#mouseMove(int, int) public abstract void
-     * java.awt.peer.RobotPeer.mouseMove(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.RobotPeer#mouseMove(int, int) public
+     * abstract void java.awt.peer.RobotPeer.mouseMove(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

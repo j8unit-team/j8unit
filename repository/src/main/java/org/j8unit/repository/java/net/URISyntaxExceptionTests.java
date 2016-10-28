@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URISyntaxException#getReason() public
+     * Test method for the hereby targeted method-under-test {@link java.net.URISyntaxException#getReason() public
      * java.lang.String java.net.URISyntaxException.getReason()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URISyntaxException#getIndex() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.URISyntaxException#getIndex() public int
      * java.net.URISyntaxException.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URISyntaxException#getInput() public
+     * Test method for the hereby targeted method-under-test {@link java.net.URISyntaxException#getInput() public
      * java.lang.String java.net.URISyntaxException.getInput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URISyntaxException#getMessage() public
+     * Test method for the hereby targeted method-under-test {@link java.net.URISyntaxException#getMessage() public
      * java.lang.String java.net.URISyntaxException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

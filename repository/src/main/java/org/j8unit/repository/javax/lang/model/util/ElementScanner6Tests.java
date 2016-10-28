@@ -1,11 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.element.Element;
-import javax.lang.model.element.ExecutableElement;
-import javax.lang.model.element.PackageElement;
-import javax.lang.model.element.TypeElement;
-import javax.lang.model.element.TypeParameterElement;
-import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.ElementScanner6;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -41,31 +35,8 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6Tests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementScanner6#visitVariable(VariableElement, Object) public R
-     * javax.lang.model.util.ElementScanner6.visitVariable(javax.lang.model.element.VariableElement,P)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_visitVariable_VariableElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link ElementScanner6#visitTypeParameter(TypeParameterElement, Object) public R
+     * {@link javax.lang.model.util.ElementScanner6#visitTypeParameter(javax.lang.model.element.TypeParameterElement, Object)
+     * public R
      * javax.lang.model.util.ElementScanner6.visitTypeParameter(javax.lang.model.element.TypeParameterElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +59,33 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6Tests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementScanner6#scan(Iterable, Object) public final
-     * R javax.lang.model.util.ElementScanner6.scan(java.lang.Iterable<? extends javax.lang.model.element.Element>,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.ElementScanner6#visitVariable(javax.lang.model.element.VariableElement, Object)
+     * public R javax.lang.model.util.ElementScanner6.visitVariable(javax.lang.model.element.VariableElement,P)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_visitVariable_VariableElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.ElementScanner6#scan(Iterable, Object) public final R
+     * javax.lang.model.util.ElementScanner6.scan(java.lang.Iterable<? extends javax.lang.model.element.Element>,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,7 +106,8 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6Tests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementScanner6#scan(Element) public final R
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.ElementScanner6#scan(javax.lang.model.element.Element) public final R
      * javax.lang.model.util.ElementScanner6.scan(javax.lang.model.element.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,7 +129,8 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6Tests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementScanner6#scan(Element, Object) public R
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.ElementScanner6#scan(javax.lang.model.element.Element, Object) public R
      * javax.lang.model.util.ElementScanner6.scan(javax.lang.model.element.Element,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +152,9 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6Tests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementScanner6#visitPackage(PackageElement, Object)
-     * public R javax.lang.model.util.ElementScanner6.visitPackage(javax.lang.model.element.PackageElement,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.ElementScanner6#visitPackage(javax.lang.model.element.PackageElement, Object) public
+     * R javax.lang.model.util.ElementScanner6.visitPackage(javax.lang.model.element.PackageElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,8 +177,8 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6Tests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementScanner6#visitExecutable(ExecutableElement, Object) public R
-     * javax.lang.model.util.ElementScanner6.visitExecutable(javax.lang.model.element.ExecutableElement,P)}.
+     * {@link javax.lang.model.util.ElementScanner6#visitExecutable(javax.lang.model.element.ExecutableElement, Object)
+     * public R javax.lang.model.util.ElementScanner6.visitExecutable(javax.lang.model.element.ExecutableElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,8 +200,9 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6Tests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementScanner6#visitType(TypeElement, Object)
-     * public R javax.lang.model.util.ElementScanner6.visitType(javax.lang.model.element.TypeElement,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.ElementScanner6#visitType(javax.lang.model.element.TypeElement, Object) public R
+     * javax.lang.model.util.ElementScanner6.visitType(javax.lang.model.element.TypeElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

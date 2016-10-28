@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.file.ClosedWatchServiceExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ClosedWatchServiceException#ClosedWatchServiceException() public
+     * {@link java.nio.file.ClosedWatchServiceException#ClosedWatchServiceException() public
      * java.nio.file.ClosedWatchServiceException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

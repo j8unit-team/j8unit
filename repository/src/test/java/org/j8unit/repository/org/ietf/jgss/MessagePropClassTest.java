@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.ietf.jgss.MessagePropClassTests<MessageProp
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MessageProp#MessageProp(boolean) public
-     * org.ietf.jgss.MessageProp(boolean)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.ietf.jgss.MessageProp#MessageProp(boolean)
+     * public org.ietf.jgss.MessageProp(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,8 @@ implements org.j8unit.repository.org.ietf.jgss.MessagePropClassTests<MessageProp
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MessageProp#MessageProp(int, boolean) public
-     * org.ietf.jgss.MessageProp(int,boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.ietf.jgss.MessageProp#MessageProp(int, boolean) public org.ietf.jgss.MessageProp(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

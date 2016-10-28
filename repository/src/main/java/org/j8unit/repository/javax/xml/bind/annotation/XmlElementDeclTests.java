@@ -35,8 +35,9 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#substitutionHeadNamespace() public
-     * abstract java.lang.String javax.xml.bind.annotation.XmlElementDecl.substitutionHeadNamespace()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.XmlElementDecl#substitutionHeadNamespace() public abstract java.lang.String
+     * javax.xml.bind.annotation.XmlElementDecl.substitutionHeadNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#namespace() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.namespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElementDecl#namespace()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlElementDecl.namespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#name() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElementDecl#name()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlElementDecl.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,9 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#substitutionHeadName() public
-     * abstract java.lang.String javax.xml.bind.annotation.XmlElementDecl.substitutionHeadName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.XmlElementDecl#substitutionHeadName() public abstract java.lang.String
+     * javax.xml.bind.annotation.XmlElementDecl.substitutionHeadName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +125,9 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#defaultValue() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.defaultValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.XmlElementDecl#defaultValue() public abstract java.lang.String
+     * javax.xml.bind.annotation.XmlElementDecl.defaultValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +148,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#scope() public abstract
-     * java.lang.Class javax.xml.bind.annotation.XmlElementDecl.scope()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElementDecl#scope()
+     * public abstract java.lang.Class javax.xml.bind.annotation.XmlElementDecl.scope()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

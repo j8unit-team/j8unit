@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicTableHeaderUI;
 import javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler;
 import org.j8unit.repository.categories.Draft;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicTableHeaderUI#BasicTableHeaderUI() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicTableHeaderUI#BasicTableHeaderUI() public
      * javax.swing.plaf.basic.BasicTableHeaderUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTableHeaderUI#createUI(JComponent) public
-     * static javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicTableHeaderUI.createUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTableHeaderUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicTableHeaderUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +60,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassT
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link BasicTableHeaderUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.basic.BasicTableHeaderUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI]
@@ -78,7 +79,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassT
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link MouseInputHandler#MouseInputHandler(BasicTableHeaderUI) public
+         * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#MouseInputHandler(javax.swing.plaf.basic.BasicTableHeaderUI)
+         * public
          * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler(javax.swing.plaf.basic.BasicTableHeaderUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -95,7 +97,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassT
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final MouseInputHandler sut = null; // = new MouseInputHandler(BasicTableHeaderUI);
+            final MouseInputHandler sut = null; // = new MouseInputHandler(javax.swing.plaf.basic.BasicTableHeaderUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler]

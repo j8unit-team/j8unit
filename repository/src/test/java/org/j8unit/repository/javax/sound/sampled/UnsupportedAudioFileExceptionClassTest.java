@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.sound.sampled.UnsupportedAudioFileExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedAudioFileException#UnsupportedAudioFileException() public
+     * {@link javax.sound.sampled.UnsupportedAudioFileException#UnsupportedAudioFileException() public
      * javax.sound.sampled.UnsupportedAudioFileException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.sound.sampled.UnsupportedAudioFileExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedAudioFileException#UnsupportedAudioFileException(String) public
+     * {@link javax.sound.sampled.UnsupportedAudioFileException#UnsupportedAudioFileException(String) public
      * javax.sound.sampled.UnsupportedAudioFileException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.nio.file.ProviderNotFoundExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ProviderNotFoundException#ProviderNotFoundException() public java.nio.file.ProviderNotFoundException()}.
+     * {@link java.nio.file.ProviderNotFoundException#ProviderNotFoundException() public
+     * java.nio.file.ProviderNotFoundException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.java.nio.file.ProviderNotFoundExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ProviderNotFoundException#ProviderNotFoundException(String) public
+     * {@link java.nio.file.ProviderNotFoundException#ProviderNotFoundException(String) public
      * java.nio.file.ProviderNotFoundException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

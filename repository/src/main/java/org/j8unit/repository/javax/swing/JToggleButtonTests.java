@@ -35,7 +35,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToggleButton#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToggleButton#updateUI() public void
      * javax.swing.JToggleButton.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToggleButton#getUIClassID() public java.lang.String
-     * javax.swing.JToggleButton.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToggleButton#getUIClassID() public
+     * java.lang.String javax.swing.JToggleButton.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToggleButton#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JToggleButton.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToggleButton#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JToggleButton.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,7 +131,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ToggleButtonModel#isSelected() public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JToggleButton.ToggleButtonModel#isSelected() public boolean
          * javax.swing.JToggleButton$ToggleButtonModel.isSelected()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +155,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ToggleButtonModel#setPressed(boolean) public
-         * void javax.swing.JToggleButton$ToggleButtonModel.setPressed(boolean)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JToggleButton.ToggleButtonModel#setPressed(boolean) public void
+         * javax.swing.JToggleButton$ToggleButtonModel.setPressed(boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -177,8 +179,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ToggleButtonModel#setSelected(boolean) public
-         * void javax.swing.JToggleButton$ToggleButtonModel.setSelected(boolean)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JToggleButton.ToggleButtonModel#setSelected(boolean) public void
+         * javax.swing.JToggleButton$ToggleButtonModel.setSelected(boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

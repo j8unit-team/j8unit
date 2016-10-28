@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getLastAccessedTime() public abstract
-     * long javax.net.ssl.SSLSession.getLastAccessedTime()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getLastAccessedTime()
+     * public abstract long javax.net.ssl.SSLSession.getLastAccessedTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getValue(String) public abstract
-     * java.lang.Object javax.net.ssl.SSLSession.getValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getValue(String) public
+     * abstract java.lang.Object javax.net.ssl.SSLSession.getValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getPeerHost() public abstract
-     * java.lang.String javax.net.ssl.SSLSession.getPeerHost()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getPeerHost() public
+     * abstract java.lang.String javax.net.ssl.SSLSession.getPeerHost()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getPeerCertificateChain() public abstract
-     * javax.security.cert.X509Certificate[] javax.net.ssl.SSLSession.getPeerCertificateChain() throws
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getPeerCertificateChain()
+     * public abstract javax.security.cert.X509Certificate[] javax.net.ssl.SSLSession.getPeerCertificateChain() throws
      * javax.net.ssl.SSLPeerUnverifiedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#removeValue(String) public abstract void
-     * javax.net.ssl.SSLSession.removeValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#removeValue(String) public
+     * abstract void javax.net.ssl.SSLSession.removeValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#putValue(String, Object) public abstract
-     * void javax.net.ssl.SSLSession.putValue(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#putValue(String, Object)
+     * public abstract void javax.net.ssl.SSLSession.putValue(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getCreationTime() public abstract long
-     * javax.net.ssl.SSLSession.getCreationTime()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getCreationTime() public
+     * abstract long javax.net.ssl.SSLSession.getCreationTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getValueNames() public abstract
-     * java.lang.String[] javax.net.ssl.SSLSession.getValueNames()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getValueNames() public
+     * abstract java.lang.String[] javax.net.ssl.SSLSession.getValueNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +212,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getSessionContext() public abstract
-     * javax.net.ssl.SSLSessionContext javax.net.ssl.SSLSession.getSessionContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getSessionContext() public
+     * abstract javax.net.ssl.SSLSessionContext javax.net.ssl.SSLSession.getSessionContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +234,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getPeerPrincipal() public abstract
-     * java.security.Principal javax.net.ssl.SSLSession.getPeerPrincipal() throws
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getPeerPrincipal() public
+     * abstract java.security.Principal javax.net.ssl.SSLSession.getPeerPrincipal() throws
      * javax.net.ssl.SSLPeerUnverifiedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -257,8 +257,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getPeerCertificates() public abstract
-     * java.security.cert.Certificate[] javax.net.ssl.SSLSession.getPeerCertificates() throws
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getPeerCertificates()
+     * public abstract java.security.cert.Certificate[] javax.net.ssl.SSLSession.getPeerCertificates() throws
      * javax.net.ssl.SSLPeerUnverifiedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -280,8 +280,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getPacketBufferSize() public abstract int
-     * javax.net.ssl.SSLSession.getPacketBufferSize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getPacketBufferSize()
+     * public abstract int javax.net.ssl.SSLSession.getPacketBufferSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,8 +302,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getPeerPort() public abstract int
-     * javax.net.ssl.SSLSession.getPeerPort()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getPeerPort() public
+     * abstract int javax.net.ssl.SSLSession.getPeerPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +324,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getCipherSuite() public abstract
-     * java.lang.String javax.net.ssl.SSLSession.getCipherSuite()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getCipherSuite() public
+     * abstract java.lang.String javax.net.ssl.SSLSession.getCipherSuite()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,8 +346,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#isValid() public abstract boolean
-     * javax.net.ssl.SSLSession.isValid()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#isValid() public abstract
+     * boolean javax.net.ssl.SSLSession.isValid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -368,8 +368,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getLocalPrincipal() public abstract
-     * java.security.Principal javax.net.ssl.SSLSession.getLocalPrincipal()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getLocalPrincipal() public
+     * abstract java.security.Principal javax.net.ssl.SSLSession.getLocalPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -390,8 +390,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#invalidate() public abstract void
-     * javax.net.ssl.SSLSession.invalidate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#invalidate() public
+     * abstract void javax.net.ssl.SSLSession.invalidate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -412,8 +412,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getLocalCertificates() public abstract
-     * java.security.cert.Certificate[] javax.net.ssl.SSLSession.getLocalCertificates()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getLocalCertificates()
+     * public abstract java.security.cert.Certificate[] javax.net.ssl.SSLSession.getLocalCertificates()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -434,8 +434,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getProtocol() public abstract
-     * java.lang.String javax.net.ssl.SSLSession.getProtocol()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getProtocol() public
+     * abstract java.lang.String javax.net.ssl.SSLSession.getProtocol()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -456,8 +456,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getId() public abstract byte[]
-     * javax.net.ssl.SSLSession.getId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getId() public abstract
+     * byte[] javax.net.ssl.SSLSession.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -478,8 +478,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SSLSession#getApplicationBufferSize() public
-     * abstract int javax.net.ssl.SSLSession.getApplicationBufferSize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSession#getApplicationBufferSize()
+     * public abstract int javax.net.ssl.SSLSession.getApplicationBufferSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

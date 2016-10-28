@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterOutputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterOutputStream#close() public void
      * java.io.FilterOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterOutputStream#write(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterOutputStream#write(int) public void
      * java.io.FilterOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterOutputStream#write(byte[]) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterOutputStream#write(byte[]) public void
      * java.io.FilterOutputStream.write(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterOutputStream#write(byte[], int, int) public
-     * void java.io.FilterOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterOutputStream#write(byte[], int, int)
+     * public void java.io.FilterOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterOutputStream#flush() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterOutputStream#flush() public void
      * java.io.FilterOutputStream.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

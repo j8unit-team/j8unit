@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuShortcut#toString() public java.lang.String
-     * java.awt.MenuShortcut.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuShortcut#toString() public
+     * java.lang.String java.awt.MenuShortcut.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuShortcut#usesShiftModifier() public boolean
-     * java.awt.MenuShortcut.usesShiftModifier()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuShortcut#usesShiftModifier() public
+     * boolean java.awt.MenuShortcut.usesShiftModifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuShortcut#getKey() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuShortcut#getKey() public int
      * java.awt.MenuShortcut.getKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuShortcut#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuShortcut#equals(Object) public boolean
      * java.awt.MenuShortcut.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuShortcut#equals(MenuShortcut) public boolean
-     * java.awt.MenuShortcut.equals(java.awt.MenuShortcut)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuShortcut#equals(java.awt.MenuShortcut)
+     * public boolean java.awt.MenuShortcut.equals(java.awt.MenuShortcut)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuShortcut#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuShortcut#hashCode() public int
      * java.awt.MenuShortcut.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.annotation.processing.FilerExceptionClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FilerException#FilerException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.annotation.processing.FilerException#FilerException(String) public
      * javax.annotation.processing.FilerException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

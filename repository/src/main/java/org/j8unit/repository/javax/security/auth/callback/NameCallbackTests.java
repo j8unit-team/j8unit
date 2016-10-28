@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameCallback#getName() public java.lang.String
-     * javax.security.auth.callback.NameCallback.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.callback.NameCallback#getName()
+     * public java.lang.String javax.security.auth.callback.NameCallback.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameCallback#setName(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.NameCallback#setName(String) public void
      * javax.security.auth.callback.NameCallback.setName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameCallback#getPrompt() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.NameCallback#getPrompt() public java.lang.String
      * javax.security.auth.callback.NameCallback.getPrompt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +103,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameCallback#getDefaultName() public
-     * java.lang.String javax.security.auth.callback.NameCallback.getDefaultName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.NameCallback#getDefaultName() public java.lang.String
+     * javax.security.auth.callback.NameCallback.getDefaultName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

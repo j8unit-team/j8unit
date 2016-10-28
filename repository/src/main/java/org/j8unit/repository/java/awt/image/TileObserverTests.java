@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.TileObserver;
-import java.awt.image.WritableRenderedImage;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TileObserver#tileUpdate(WritableRenderedImage, int, int, boolean) public abstract void
-     * java.awt.image.TileObserver.tileUpdate(java.awt.image.WritableRenderedImage,int,int,boolean)}.
+     * {@link java.awt.image.TileObserver#tileUpdate(java.awt.image.WritableRenderedImage, int, int, boolean) public
+     * abstract void java.awt.image.TileObserver.tileUpdate(java.awt.image.WritableRenderedImage,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

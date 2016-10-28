@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.time.temporal;
 
-import java.time.temporal.Temporal;
 import java.time.temporal.TemporalAmount;
-import java.time.temporal.TemporalUnit;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TemporalAmount#addTo(Temporal) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.temporal.TemporalAmount#addTo(java.time.temporal.Temporal) public abstract
      * java.time.temporal.Temporal java.time.temporal.TemporalAmount.addTo(java.time.temporal.Temporal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TemporalAmount#getUnits() public abstract
-     * java.util.List<java.time.temporal.TemporalUnit> java.time.temporal.TemporalAmount.getUnits()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.TemporalAmount#getUnits() public
+     * abstract java.util.List<java.time.temporal.TemporalUnit> java.time.temporal.TemporalAmount.getUnits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TemporalAmount#get(TemporalUnit) public abstract
-     * long java.time.temporal.TemporalAmount.get(java.time.temporal.TemporalUnit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.temporal.TemporalAmount#get(java.time.temporal.TemporalUnit) public abstract long
+     * java.time.temporal.TemporalAmount.get(java.time.temporal.TemporalUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,9 +103,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TemporalAmount#subtractFrom(Temporal) public
-     * abstract java.time.temporal.Temporal java.time.temporal.TemporalAmount.subtractFrom(java.time.temporal.Temporal)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.temporal.TemporalAmount#subtractFrom(java.time.temporal.Temporal) public abstract
+     * java.time.temporal.Temporal java.time.temporal.TemporalAmount.subtractFrom(java.time.temporal.Temporal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

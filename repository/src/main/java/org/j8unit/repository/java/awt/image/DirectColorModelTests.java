@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.DirectColorModel;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getGreenMask() public final int
-     * java.awt.image.DirectColorModel.getGreenMask()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getGreenMask()
+     * public final int java.awt.image.DirectColorModel.getGreenMask()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getAlpha(int) public final int
-     * java.awt.image.DirectColorModel.getAlpha(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getAlpha(int) public
+     * final int java.awt.image.DirectColorModel.getAlpha(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +79,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getAlpha(Object) public int
-     * java.awt.image.DirectColorModel.getAlpha(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getAlpha(Object)
+     * public int java.awt.image.DirectColorModel.getAlpha(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +103,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DirectColorModel#createCompatibleWritableRaster(int, int) public final java.awt.image.WritableRaster
-     * java.awt.image.DirectColorModel.createCompatibleWritableRaster(int,int)}.
+     * {@link java.awt.image.DirectColorModel#createCompatibleWritableRaster(int, int) public final
+     * java.awt.image.WritableRaster java.awt.image.DirectColorModel.createCompatibleWritableRaster(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +126,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getBlue(int) public final int
-     * java.awt.image.DirectColorModel.getBlue(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getBlue(int) public
+     * final int java.awt.image.DirectColorModel.getBlue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +149,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getBlue(Object) public int
-     * java.awt.image.DirectColorModel.getBlue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getBlue(Object)
+     * public int java.awt.image.DirectColorModel.getBlue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,9 +172,9 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#coerceData(WritableRaster, boolean)
-     * public final java.awt.image.ColorModel
-     * java.awt.image.DirectColorModel.coerceData(java.awt.image.WritableRaster,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.DirectColorModel#coerceData(java.awt.image.WritableRaster, boolean) public final
+     * java.awt.image.ColorModel java.awt.image.DirectColorModel.coerceData(java.awt.image.WritableRaster,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,8 +196,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getRedMask() public final int
-     * java.awt.image.DirectColorModel.getRedMask()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getRedMask() public
+     * final int java.awt.image.DirectColorModel.getRedMask()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,8 +218,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getBlueMask() public final int
-     * java.awt.image.DirectColorModel.getBlueMask()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getBlueMask() public
+     * final int java.awt.image.DirectColorModel.getBlueMask()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,76 +240,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getDataElement(int[], int) public
-     * int java.awt.image.DirectColorModel.getDataElement(int[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDataElement_intArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getAlphaMask() public final int
-     * java.awt.image.DirectColorModel.getAlphaMask()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAlphaMask()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getRed(int) public final int
-     * java.awt.image.DirectColorModel.getRed(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getRed_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getRed(Object) public int
-     * java.awt.image.DirectColorModel.getRed(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getRed(Object)
+     * public int java.awt.image.DirectColorModel.getRed(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,8 +263,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getGreen(int) public final int
-     * java.awt.image.DirectColorModel.getGreen(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getRed(int) public
+     * final int java.awt.image.DirectColorModel.getRed(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,7 +277,7 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getGreen_int()
+    public default void test_getRed_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -356,8 +286,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getGreen(Object) public int
-     * java.awt.image.DirectColorModel.getGreen(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getGreen(Object)
+     * public int java.awt.image.DirectColorModel.getGreen(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -379,8 +309,77 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getRGB(int) public final int
-     * java.awt.image.DirectColorModel.getRGB(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getGreen(int) public
+     * final int java.awt.image.DirectColorModel.getGreen(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getGreen_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getAlphaMask()
+     * public final int java.awt.image.DirectColorModel.getAlphaMask()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAlphaMask()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.DirectColorModel#getDataElement(int[], int) public int
+     * java.awt.image.DirectColorModel.getDataElement(int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDataElement_intArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getRGB(int) public
+     * final int java.awt.image.DirectColorModel.getRGB(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -402,8 +401,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getRGB(Object) public int
-     * java.awt.image.DirectColorModel.getRGB(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#getRGB(Object)
+     * public int java.awt.image.DirectColorModel.getRGB(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -425,8 +424,9 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#isCompatibleRaster(Raster) public
-     * boolean java.awt.image.DirectColorModel.isCompatibleRaster(java.awt.image.Raster)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.DirectColorModel#isCompatibleRaster(java.awt.image.Raster) public boolean
+     * java.awt.image.DirectColorModel.isCompatibleRaster(java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -448,8 +448,8 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#toString() public java.lang.String
-     * java.awt.image.DirectColorModel.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DirectColorModel#toString() public
+     * java.lang.String java.awt.image.DirectColorModel.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -471,8 +471,9 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getDataElements(int[], int, Object)
-     * public java.lang.Object java.awt.image.DirectColorModel.getDataElements(int[],int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.DirectColorModel#getDataElements(int[], int, Object) public java.lang.Object
+     * java.awt.image.DirectColorModel.getDataElements(int[],int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -494,8 +495,9 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getDataElements(int, Object) public
-     * java.lang.Object java.awt.image.DirectColorModel.getDataElements(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.DirectColorModel#getDataElements(int, Object) public java.lang.Object
+     * java.awt.image.DirectColorModel.getDataElements(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -517,31 +519,9 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getComponents(int, int[], int)
-     * public final int[] java.awt.image.DirectColorModel.getComponents(int,int[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponents_int_intArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DirectColorModel#getComponents(Object, int[], int)
-     * public final int[] java.awt.image.DirectColorModel.getComponents(java.lang.Object,int[],int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.DirectColorModel#getComponents(Object, int[], int) public final int[]
+     * java.awt.image.DirectColorModel.getComponents(java.lang.Object,int[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -555,6 +535,30 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getComponents_Object_intArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.DirectColorModel#getComponents(int, int[], int) public final int[]
+     * java.awt.image.DirectColorModel.getComponents(int,int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponents_int_intArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

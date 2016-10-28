@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.JTextField;
-import javax.swing.text.Document;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextField#JTextField(Document, String, int)
-     * public javax.swing.JTextField(javax.swing.text.Document,java.lang.String,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTextField#JTextField(javax.swing.text.Document, String, int) public
+     * javax.swing.JTextField(javax.swing.text.Document,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +39,13 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTextField sut = null; // = new JTextField(Document, String, int);
+        final JTextField sut = null; // = new JTextField(javax.swing.text.Document, String, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextField#JTextField(String, int) public
-     * javax.swing.JTextField(java.lang.String,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextField#JTextField(String, int)
+     * public javax.swing.JTextField(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,7 +66,7 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextField#JTextField(int) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextField#JTextField(int) public
      * javax.swing.JTextField(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +88,8 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextField#JTextField(String) public
-     * javax.swing.JTextField(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextField#JTextField(String)
+     * public javax.swing.JTextField(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,7 +110,7 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTextField#JTextField() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextField#JTextField() public
      * javax.swing.JTextField()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

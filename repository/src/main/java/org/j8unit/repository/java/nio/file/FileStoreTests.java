@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#supportsFileAttributeView(Class) public
-     * abstract boolean java.nio.file.FileStore.supportsFileAttributeView(java.lang.Class<? extends
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.FileStore#supportsFileAttributeView(Class) public abstract boolean
+     * java.nio.file.FileStore.supportsFileAttributeView(java.lang.Class<? extends
      * java.nio.file.attribute.FileAttributeView>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#supportsFileAttributeView(String) public
-     * abstract boolean java.nio.file.FileStore.supportsFileAttributeView(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.FileStore#supportsFileAttributeView(String) public abstract boolean
+     * java.nio.file.FileStore.supportsFileAttributeView(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#getAttribute(String) public abstract
-     * java.lang.Object java.nio.file.FileStore.getAttribute(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileStore#getAttribute(String) public
+     * abstract java.lang.Object java.nio.file.FileStore.getAttribute(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#isReadOnly() public abstract boolean
-     * java.nio.file.FileStore.isReadOnly()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileStore#isReadOnly() public abstract
+     * boolean java.nio.file.FileStore.isReadOnly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#getUsableSpace() public abstract long
-     * java.nio.file.FileStore.getUsableSpace() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileStore#getUsableSpace() public
+     * abstract long java.nio.file.FileStore.getUsableSpace() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#getTotalSpace() public abstract long
-     * java.nio.file.FileStore.getTotalSpace() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileStore#getTotalSpace() public
+     * abstract long java.nio.file.FileStore.getTotalSpace() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +169,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#getUnallocatedSpace() public abstract long
-     * java.nio.file.FileStore.getUnallocatedSpace() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileStore#getUnallocatedSpace() public
+     * abstract long java.nio.file.FileStore.getUnallocatedSpace() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +191,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#type() public abstract java.lang.String
-     * java.nio.file.FileStore.type()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileStore#type() public abstract
+     * java.lang.String java.nio.file.FileStore.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +213,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#getFileStoreAttributeView(Class) public
-     * abstract <V> V java.nio.file.FileStore.getFileStoreAttributeView(java.lang.Class<V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.FileStore#getFileStoreAttributeView(Class) public abstract <V> V
+     * java.nio.file.FileStore.getFileStoreAttributeView(java.lang.Class<V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +236,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileStore#name() public abstract java.lang.String
-     * java.nio.file.FileStore.name()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.FileStore#name() public abstract
+     * java.lang.String java.nio.file.FileStore.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

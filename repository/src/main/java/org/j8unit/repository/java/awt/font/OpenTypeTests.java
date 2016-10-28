@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getFontTableSize(int) public abstract int
-     * java.awt.font.OpenType.getFontTableSize(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.OpenType#getFontTableSize(int) public
+     * abstract int java.awt.font.OpenType.getFontTableSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getFontTableSize(String) public abstract
-     * int java.awt.font.OpenType.getFontTableSize(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.OpenType#getFontTableSize(String)
+     * public abstract int java.awt.font.OpenType.getFontTableSize(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getFontTable(int) public abstract byte[]
-     * java.awt.font.OpenType.getFontTable(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.OpenType#getFontTable(int) public
+     * abstract byte[] java.awt.font.OpenType.getFontTable(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getFontTable(String) public abstract byte[]
-     * java.awt.font.OpenType.getFontTable(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.OpenType#getFontTable(String) public
+     * abstract byte[] java.awt.font.OpenType.getFontTable(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getFontTable(int, int, int) public abstract
-     * byte[] java.awt.font.OpenType.getFontTable(int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.OpenType#getFontTable(int, int, int)
+     * public abstract byte[] java.awt.font.OpenType.getFontTable(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getFontTable(String, int, int) public
-     * abstract byte[] java.awt.font.OpenType.getFontTable(java.lang.String,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.OpenType#getFontTable(String, int, int) public abstract byte[]
+     * java.awt.font.OpenType.getFontTable(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenType#getVersion() public abstract int
-     * java.awt.font.OpenType.getVersion()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.OpenType#getVersion() public abstract
+     * int java.awt.font.OpenType.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

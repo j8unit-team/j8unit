@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.beans.PropertyEditorSupportClassTests<Prop
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PropertyEditorSupport#PropertyEditorSupport()
-     * public java.beans.PropertyEditorSupport()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.PropertyEditorSupport#PropertyEditorSupport() public java.beans.PropertyEditorSupport()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.beans.PropertyEditorSupportClassTests<Prop
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyEditorSupport#PropertyEditorSupport(Object) public
+     * {@link java.beans.PropertyEditorSupport#PropertyEditorSupport(Object) public
      * java.beans.PropertyEditorSupport(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

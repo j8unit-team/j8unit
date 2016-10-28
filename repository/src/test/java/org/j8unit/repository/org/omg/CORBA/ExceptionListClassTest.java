@@ -22,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.ExceptionListClassTests<Exception
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ExceptionList#ExceptionList() public
-     * org.omg.CORBA.ExceptionList()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ExceptionList#ExceptionList()
+     * public org.omg.CORBA.ExceptionList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

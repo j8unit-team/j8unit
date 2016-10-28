@@ -5,8 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.IOP.IORHolder;
 
 /**
@@ -36,7 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORHolder#_read(InputStream) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.IORHolder#_read(org.omg.CORBA.portable.InputStream) public void
      * org.omg.IOP.IORHolder._read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORHolder#_write(OutputStream) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.IORHolder#_write(org.omg.CORBA.portable.OutputStream) public void
      * org.omg.IOP.IORHolder._write(org.omg.CORBA.portable.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORHolder#_type() public org.omg.CORBA.TypeCode
-     * org.omg.IOP.IORHolder._type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.IORHolder#_type() public
+     * org.omg.CORBA.TypeCode org.omg.IOP.IORHolder._type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

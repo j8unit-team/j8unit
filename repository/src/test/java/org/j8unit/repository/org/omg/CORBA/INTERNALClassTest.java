@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.INTERNAL;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.INTERNALClassTests<INTERNAL> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link INTERNAL#INTERNAL(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.INTERNAL#INTERNAL(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.INTERNAL(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.INTERNALClassTests<INTERNAL> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final INTERNAL sut = null; // = new INTERNAL(String, int, CompletionStatus);
+        final INTERNAL sut = null; // = new INTERNAL(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INTERNAL#INTERNAL(int, CompletionStatus) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.INTERNAL#INTERNAL(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.INTERNAL(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +62,12 @@ implements org.j8unit.repository.org.omg.CORBA.INTERNALClassTests<INTERNAL> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final INTERNAL sut = null; // = new INTERNAL(int, CompletionStatus);
+        final INTERNAL sut = null; // = new INTERNAL(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INTERNAL#INTERNAL(String) public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.INTERNAL#INTERNAL(String) public
      * org.omg.CORBA.INTERNAL(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +89,7 @@ implements org.j8unit.repository.org.omg.CORBA.INTERNALClassTests<INTERNAL> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INTERNAL#INTERNAL() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.INTERNAL#INTERNAL() public
      * org.omg.CORBA.INTERNAL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

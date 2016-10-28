@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Graphics;
-import java.beans.PropertyChangeEvent;
-import javax.swing.JComponent;
-import javax.swing.plaf.synth.SynthContext;
 import javax.swing.plaf.synth.SynthLabelUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthLabelUI#propertyChange(PropertyChangeEvent)
-     * public void javax.swing.plaf.synth.SynthLabelUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthLabelUI#propertyChange(java.beans.PropertyChangeEvent) public void
+     * javax.swing.plaf.synth.SynthLabelUI.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +58,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthLabelUI#paint(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthLabelUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.synth.SynthLabelUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +82,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthLabelUI#update(Graphics, JComponent) public
-     * void javax.swing.plaf.synth.SynthLabelUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthLabelUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthLabelUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +106,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthLabelUI#getContext(JComponent) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthLabelUI#getContext(javax.swing.JComponent) public
      * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthLabelUI.getContext(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,8 +130,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthLabelUI#getBaseline(JComponent, int, int)
-     * public int javax.swing.plaf.synth.SynthLabelUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthLabelUI#getBaseline(javax.swing.JComponent, int, int) public int
+     * javax.swing.plaf.synth.SynthLabelUI.getBaseline(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,7 +155,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthLabelUI#paintBorder(SynthContext, Graphics, int, int, int, int) public void
+     * {@link javax.swing.plaf.synth.SynthLabelUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public void
      * javax.swing.plaf.synth.SynthLabelUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *
@@ -178,8 +180,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthLabelUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.synth.SynthLabelUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthLabelUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.synth.SynthLabelUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,8 +204,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthLabelUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.synth.SynthLabelUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthLabelUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.synth.SynthLabelUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,8 +228,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthLabelUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.synth.SynthLabelUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthLabelUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.synth.SynthLabelUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

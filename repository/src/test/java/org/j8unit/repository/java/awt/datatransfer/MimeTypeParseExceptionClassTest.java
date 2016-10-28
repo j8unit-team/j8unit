@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.awt.datatransfer.MimeTypeParseExceptionCla
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MimeTypeParseException#MimeTypeParseException()
-     * public java.awt.datatransfer.MimeTypeParseException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.datatransfer.MimeTypeParseException#MimeTypeParseException() public
+     * java.awt.datatransfer.MimeTypeParseException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.java.awt.datatransfer.MimeTypeParseExceptionCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MimeTypeParseException#MimeTypeParseException(String) public
+     * {@link java.awt.datatransfer.MimeTypeParseException#MimeTypeParseException(String) public
      * java.awt.datatransfer.MimeTypeParseException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

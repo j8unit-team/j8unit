@@ -2,7 +2,6 @@ package org.j8unit.repository.javax.xml.bind;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBElement.GlobalScope;
-import javax.xml.namespace.QName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +24,7 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<JAXBElemen
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JAXBElement#JAXBElement(QName, Class, Class, Object) public
+     * {@link javax.xml.bind.JAXBElement#JAXBElement(javax.xml.namespace.QName, Class, Class, Object) public
      * javax.xml.bind.JAXBElement(javax.xml.namespace.QName,java.lang.Class<T>,java.lang.Class,T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,13 +41,14 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<JAXBElemen
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JAXBElement sut = null; // = new JAXBElement(QName, Class, Class, Object);
+        final JAXBElement sut = null; // = new JAXBElement(javax.xml.namespace.QName, Class, Class, Object);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBElement#JAXBElement(QName, Class, Object)
-     * public javax.xml.bind.JAXBElement(javax.xml.namespace.QName,java.lang.Class<T>,T)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.JAXBElement#JAXBElement(javax.xml.namespace.QName, Class, Object) public
+     * javax.xml.bind.JAXBElement(javax.xml.namespace.QName,java.lang.Class<T>,T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +64,7 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<JAXBElemen
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JAXBElement sut = null; // = new JAXBElement(QName, Class, Object);
+        final JAXBElement sut = null; // = new JAXBElement(javax.xml.namespace.QName, Class, Object);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBElement]
@@ -82,8 +82,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<JAXBElemen
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link GlobalScope#GlobalScope() public
-         * javax.xml.bind.JAXBElement$GlobalScope()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.xml.bind.JAXBElement.GlobalScope#GlobalScope() public javax.xml.bind.JAXBElement$GlobalScope()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

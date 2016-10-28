@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidActivityException#InvalidActivityException(String, Throwable) public
+     * {@link javax.activity.InvalidActivityException#InvalidActivityException(String, Throwable) public
      * javax.activity.InvalidActivityException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidActivityException#InvalidActivityException(Throwable) public
+     * {@link javax.activity.InvalidActivityException#InvalidActivityException(Throwable) public
      * javax.activity.InvalidActivityException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidActivityException#InvalidActivityException(String) public
+     * {@link javax.activity.InvalidActivityException#InvalidActivityException(String) public
      * javax.activity.InvalidActivityException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,8 @@ implements org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidActivityException#InvalidActivityException() public javax.activity.InvalidActivityException()}.
+     * {@link javax.activity.InvalidActivityException#InvalidActivityException() public
+     * javax.activity.InvalidActivityException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

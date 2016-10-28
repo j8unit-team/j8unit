@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Completion#getValue() public abstract
-     * java.lang.String javax.annotation.processing.Completion.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.processing.Completion#getValue()
+     * public abstract java.lang.String javax.annotation.processing.Completion.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Completion#getMessage() public abstract
-     * java.lang.String javax.annotation.processing.Completion.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.processing.Completion#getMessage()
+     * public abstract java.lang.String javax.annotation.processing.Completion.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

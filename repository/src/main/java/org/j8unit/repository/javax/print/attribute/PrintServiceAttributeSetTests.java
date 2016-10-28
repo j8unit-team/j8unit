@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.print.attribute;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.AttributeSet;
 import javax.print.attribute.PrintServiceAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.print.attribute.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintServiceAttributeSet#addAll(AttributeSet) public
-     * abstract boolean javax.print.attribute.PrintServiceAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.PrintServiceAttributeSet#addAll(javax.print.attribute.AttributeSet) public abstract
+     * boolean javax.print.attribute.PrintServiceAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends org.j8unit.repository.javax.print.attribute.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintServiceAttributeSet#add(Attribute) public
-     * abstract boolean javax.print.attribute.PrintServiceAttributeSet.add(javax.print.attribute.Attribute)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.PrintServiceAttributeSet#add(javax.print.attribute.Attribute) public abstract
+     * boolean javax.print.attribute.PrintServiceAttributeSet.add(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

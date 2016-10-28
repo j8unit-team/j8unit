@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshalExceptionClassTests<Unm
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmarshalException#UnmarshalException(String, String, Throwable) public
+     * {@link javax.xml.bind.UnmarshalException#UnmarshalException(String, String, Throwable) public
      * javax.xml.bind.UnmarshalException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshalExceptionClassTests<Unm
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmarshalException#UnmarshalException(String, Throwable) public
+     * {@link javax.xml.bind.UnmarshalException#UnmarshalException(String, Throwable) public
      * javax.xml.bind.UnmarshalException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshalExceptionClassTests<Unm
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmarshalException#UnmarshalException(Throwable) public
+     * {@link javax.xml.bind.UnmarshalException#UnmarshalException(Throwable) public
      * javax.xml.bind.UnmarshalException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshalExceptionClassTests<Unm
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmarshalException#UnmarshalException(String, String) public
+     * {@link javax.xml.bind.UnmarshalException#UnmarshalException(String, String) public
      * javax.xml.bind.UnmarshalException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -113,8 +113,9 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshalExceptionClassTests<Unm
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UnmarshalException#UnmarshalException(String)
-     * public javax.xml.bind.UnmarshalException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.UnmarshalException#UnmarshalException(String) public
+     * javax.xml.bind.UnmarshalException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

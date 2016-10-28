@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.attribute;
 
-import javax.print.attribute.Attribute;
 import javax.print.attribute.AttributeSet;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#add(Attribute) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSet#add(javax.print.attribute.Attribute) public abstract boolean
      * javax.print.attribute.AttributeSet.add(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#containsKey(Class) public abstract
-     * boolean javax.print.attribute.AttributeSet.containsKey(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSet#containsKey(Class) public abstract boolean
+     * javax.print.attribute.AttributeSet.containsKey(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#hashCode() public abstract int
-     * javax.print.attribute.AttributeSet.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.AttributeSet#hashCode() public
+     * abstract int javax.print.attribute.AttributeSet.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#equals(Object) public abstract boolean
-     * javax.print.attribute.AttributeSet.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.AttributeSet#equals(Object)
+     * public abstract boolean javax.print.attribute.AttributeSet.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#get(Class) public abstract
-     * javax.print.attribute.Attribute javax.print.attribute.AttributeSet.get(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.AttributeSet#get(Class) public
+     * abstract javax.print.attribute.Attribute javax.print.attribute.AttributeSet.get(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +147,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#size() public abstract int
-     * javax.print.attribute.AttributeSet.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.AttributeSet#size() public
+     * abstract int javax.print.attribute.AttributeSet.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +169,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#addAll(AttributeSet) public abstract
-     * boolean javax.print.attribute.AttributeSet.addAll(javax.print.attribute.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSet#addAll(javax.print.attribute.AttributeSet) public abstract boolean
+     * javax.print.attribute.AttributeSet.addAll(javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +192,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#toArray() public abstract
-     * javax.print.attribute.Attribute[] javax.print.attribute.AttributeSet.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.AttributeSet#toArray() public
+     * abstract javax.print.attribute.Attribute[] javax.print.attribute.AttributeSet.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +214,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#isEmpty() public abstract boolean
-     * javax.print.attribute.AttributeSet.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.AttributeSet#isEmpty() public
+     * abstract boolean javax.print.attribute.AttributeSet.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +236,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#clear() public abstract void
-     * javax.print.attribute.AttributeSet.clear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.AttributeSet#clear() public
+     * abstract void javax.print.attribute.AttributeSet.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +258,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#containsValue(Attribute) public
-     * abstract boolean javax.print.attribute.AttributeSet.containsValue(javax.print.attribute.Attribute)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSet#containsValue(javax.print.attribute.Attribute) public abstract boolean
+     * javax.print.attribute.AttributeSet.containsValue(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +281,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#remove(Attribute) public abstract
-     * boolean javax.print.attribute.AttributeSet.remove(javax.print.attribute.Attribute)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSet#remove(javax.print.attribute.Attribute) public abstract boolean
+     * javax.print.attribute.AttributeSet.remove(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,8 +304,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#remove(Class) public abstract boolean
-     * javax.print.attribute.AttributeSet.remove(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.AttributeSet#remove(Class)
+     * public abstract boolean javax.print.attribute.AttributeSet.remove(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

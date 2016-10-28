@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.OBJ_ADAPTER;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.OBJ_ADAPTERClassTests<OBJ_ADAPTER
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OBJ_ADAPTER#OBJ_ADAPTER(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.OBJ_ADAPTER#OBJ_ADAPTER(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.OBJ_ADAPTER(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,14 @@ implements org.j8unit.repository.org.omg.CORBA.OBJ_ADAPTERClassTests<OBJ_ADAPTER
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OBJ_ADAPTER sut = null; // = new OBJ_ADAPTER(String, int, CompletionStatus);
+        final OBJ_ADAPTER sut = null; // = new OBJ_ADAPTER(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OBJ_ADAPTER#OBJ_ADAPTER(int, CompletionStatus)
-     * public org.omg.CORBA.OBJ_ADAPTER(int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.OBJ_ADAPTER#OBJ_ADAPTER(int, org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.OBJ_ADAPTER(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +62,13 @@ implements org.j8unit.repository.org.omg.CORBA.OBJ_ADAPTERClassTests<OBJ_ADAPTER
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OBJ_ADAPTER sut = null; // = new OBJ_ADAPTER(int, CompletionStatus);
+        final OBJ_ADAPTER sut = null; // = new OBJ_ADAPTER(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OBJ_ADAPTER#OBJ_ADAPTER(String) public
-     * org.omg.CORBA.OBJ_ADAPTER(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.OBJ_ADAPTER#OBJ_ADAPTER(String)
+     * public org.omg.CORBA.OBJ_ADAPTER(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,7 +89,7 @@ implements org.j8unit.repository.org.omg.CORBA.OBJ_ADAPTERClassTests<OBJ_ADAPTER
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OBJ_ADAPTER#OBJ_ADAPTER() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.OBJ_ADAPTER#OBJ_ADAPTER() public
      * org.omg.CORBA.OBJ_ADAPTER()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

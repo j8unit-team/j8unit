@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql;
 
-import javax.sql.RowSetEvent;
 import javax.sql.RowSetListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetListener#cursorMoved(RowSetEvent) public
-     * abstract void javax.sql.RowSetListener.cursorMoved(javax.sql.RowSetEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.RowSetListener#cursorMoved(javax.sql.RowSetEvent) public abstract void
+     * javax.sql.RowSetListener.cursorMoved(javax.sql.RowSetEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetListener#rowSetChanged(RowSetEvent) public
-     * abstract void javax.sql.RowSetListener.rowSetChanged(javax.sql.RowSetEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.RowSetListener#rowSetChanged(javax.sql.RowSetEvent) public abstract void
+     * javax.sql.RowSetListener.rowSetChanged(javax.sql.RowSetEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowSetListener#rowChanged(RowSetEvent) public
-     * abstract void javax.sql.RowSetListener.rowChanged(javax.sql.RowSetEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.RowSetListener#rowChanged(javax.sql.RowSetEvent) public abstract void
+     * javax.sql.RowSetListener.rowChanged(javax.sql.RowSetEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

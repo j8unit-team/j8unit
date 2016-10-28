@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.AbstractButton;
 import javax.swing.plaf.basic.BasicButtonListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicButtonListenerClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BasicButtonListener#BasicButtonListener(AbstractButton) public
+     * {@link javax.swing.plaf.basic.BasicButtonListener#BasicButtonListener(javax.swing.AbstractButton) public
      * javax.swing.plaf.basic.BasicButtonListener(javax.swing.AbstractButton)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicButtonListenerClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BasicButtonListener sut = null; // = new BasicButtonListener(AbstractButton);
+        final BasicButtonListener sut = null; // = new BasicButtonListener(javax.swing.AbstractButton);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicButtonListener]

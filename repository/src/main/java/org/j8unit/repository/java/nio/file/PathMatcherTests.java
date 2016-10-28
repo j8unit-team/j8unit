@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.nio.file;
 
-import java.nio.file.Path;
 import java.nio.file.PathMatcher;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PathMatcher#matches(Path) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.PathMatcher#matches(java.nio.file.Path) public abstract boolean
      * java.nio.file.PathMatcher.matches(java.nio.file.Path)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

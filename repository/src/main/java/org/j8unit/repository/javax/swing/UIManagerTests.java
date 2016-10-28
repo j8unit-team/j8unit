@@ -62,8 +62,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link LookAndFeelInfo#getClassName() public
-         * java.lang.String javax.swing.UIManager$LookAndFeelInfo.getClassName()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.UIManager.LookAndFeelInfo#getClassName() public java.lang.String
+         * javax.swing.UIManager$LookAndFeelInfo.getClassName()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -84,8 +85,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link LookAndFeelInfo#toString() public
-         * java.lang.String javax.swing.UIManager$LookAndFeelInfo.toString()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.UIManager.LookAndFeelInfo#toString()
+         * public java.lang.String javax.swing.UIManager$LookAndFeelInfo.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -107,8 +108,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link LookAndFeelInfo#getName() public
-         * java.lang.String javax.swing.UIManager$LookAndFeelInfo.getName()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.UIManager.LookAndFeelInfo#getName()
+         * public java.lang.String javax.swing.UIManager$LookAndFeelInfo.getName()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

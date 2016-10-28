@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getOffset() public abstract
-     * int javax.xml.bind.ValidationEventLocator.getOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.ValidationEventLocator#getOffset()
+     * public abstract int javax.xml.bind.ValidationEventLocator.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getLineNumber() public
-     * abstract int javax.xml.bind.ValidationEventLocator.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.ValidationEventLocator#getLineNumber() public abstract int
+     * javax.xml.bind.ValidationEventLocator.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getURL() public abstract
-     * java.net.URL javax.xml.bind.ValidationEventLocator.getURL()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.ValidationEventLocator#getURL()
+     * public abstract java.net.URL javax.xml.bind.ValidationEventLocator.getURL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getObject() public abstract
-     * java.lang.Object javax.xml.bind.ValidationEventLocator.getObject()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.ValidationEventLocator#getObject()
+     * public abstract java.lang.Object javax.xml.bind.ValidationEventLocator.getObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getColumnNumber() public
-     * abstract int javax.xml.bind.ValidationEventLocator.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.ValidationEventLocator#getColumnNumber() public abstract int
+     * javax.xml.bind.ValidationEventLocator.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +147,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getNode() public abstract
-     * org.w3c.dom.Node javax.xml.bind.ValidationEventLocator.getNode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.ValidationEventLocator#getNode()
+     * public abstract org.w3c.dom.Node javax.xml.bind.ValidationEventLocator.getNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

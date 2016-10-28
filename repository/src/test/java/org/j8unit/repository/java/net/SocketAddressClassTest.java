@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.SocketAddressClassTests<SocketAddress>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SocketAddress#SocketAddress() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.SocketAddress#SocketAddress() public
      * java.net.SocketAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

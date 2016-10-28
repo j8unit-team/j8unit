@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.lang.reflect.Method;
 import java.rmi.server.RemoteObjectInvocationHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RemoteObjectInvocationHandler#invoke(Object, Method, Object[]) public java.lang.Object
+     * {@link java.rmi.server.RemoteObjectInvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public
+     * java.lang.Object
      * java.rmi.server.RemoteObjectInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])
      * throws java.lang.Throwable}.
      *

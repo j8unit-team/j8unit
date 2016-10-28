@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeySelectorException#KeySelectorException(Throwable) public
+     * {@link javax.xml.crypto.KeySelectorException#KeySelectorException(Throwable) public
      * javax.xml.crypto.KeySelectorException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeySelectorException#KeySelectorException(String, Throwable) public
+     * {@link javax.xml.crypto.KeySelectorException#KeySelectorException(String, Throwable) public
      * javax.xml.crypto.KeySelectorException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeySelectorException#KeySelectorException(String) public
+     * {@link javax.xml.crypto.KeySelectorException#KeySelectorException(String) public
      * javax.xml.crypto.KeySelectorException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,8 +90,9 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorExceptionClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KeySelectorException#KeySelectorException()
-     * public javax.xml.crypto.KeySelectorException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.KeySelectorException#KeySelectorException() public
+     * javax.xml.crypto.KeySelectorException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

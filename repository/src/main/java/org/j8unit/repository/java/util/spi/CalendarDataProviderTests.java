@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.spi;
 
-import java.util.Locale;
 import java.util.spi.CalendarDataProvider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CalendarDataProvider#getMinimalDaysInFirstWeek(Locale) public abstract int
+     * {@link java.util.spi.CalendarDataProvider#getMinimalDaysInFirstWeek(java.util.Locale) public abstract int
      * java.util.spi.CalendarDataProvider.getMinimalDaysInFirstWeek(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CalendarDataProvider#getFirstDayOfWeek(Locale)
-     * public abstract int java.util.spi.CalendarDataProvider.getFirstDayOfWeek(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.spi.CalendarDataProvider#getFirstDayOfWeek(java.util.Locale) public abstract int
+     * java.util.spi.CalendarDataProvider.getFirstDayOfWeek(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

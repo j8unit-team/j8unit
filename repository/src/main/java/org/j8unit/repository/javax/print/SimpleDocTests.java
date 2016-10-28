@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.print.DocTests<SUT>, org.j8unit.repository.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDoc#getReaderForText() public java.io.Reader
-     * javax.print.SimpleDoc.getReaderForText() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.SimpleDoc#getReaderForText() public
+     * java.io.Reader javax.print.SimpleDoc.getReaderForText() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.javax.print.DocTests<SUT>, org.j8unit.repository.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDoc#getDocFlavor() public
+     * Test method for the hereby targeted method-under-test {@link javax.print.SimpleDoc#getDocFlavor() public
      * javax.print.DocFlavor javax.print.SimpleDoc.getDocFlavor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.javax.print.DocTests<SUT>, org.j8unit.repository.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDoc#getStreamForBytes() public
+     * Test method for the hereby targeted method-under-test {@link javax.print.SimpleDoc#getStreamForBytes() public
      * java.io.InputStream javax.print.SimpleDoc.getStreamForBytes() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,7 @@ extends org.j8unit.repository.javax.print.DocTests<SUT>, org.j8unit.repository.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDoc#getAttributes() public
+     * Test method for the hereby targeted method-under-test {@link javax.print.SimpleDoc#getAttributes() public
      * javax.print.attribute.DocAttributeSet javax.print.SimpleDoc.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,8 @@ extends org.j8unit.repository.javax.print.DocTests<SUT>, org.j8unit.repository.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleDoc#getPrintData() public java.lang.Object
-     * javax.print.SimpleDoc.getPrintData() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.SimpleDoc#getPrintData() public
+     * java.lang.Object javax.print.SimpleDoc.getPrintData() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

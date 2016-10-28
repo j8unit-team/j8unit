@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.cert.CertificateParsingException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateParsingException#CertificateParsingException() public
+     * {@link javax.security.cert.CertificateParsingException#CertificateParsingException() public
      * javax.security.cert.CertificateParsingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.security.cert.CertificateParsingException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateParsingException#CertificateParsingException(String) public
+     * {@link javax.security.cert.CertificateParsingException#CertificateParsingException(String) public
      * javax.security.cert.CertificateParsingException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

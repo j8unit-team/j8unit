@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.rmi.CORBA;
 
-import java.io.Serializable;
 import javax.rmi.CORBA.ValueHandler;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -8,9 +7,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.SendingContext.RunTime;
 
 /**
  * <p>
@@ -39,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueHandler#isCustomMarshaled(Class) public
-     * abstract boolean javax.rmi.CORBA.ValueHandler.isCustomMarshaled(java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.ValueHandler#isCustomMarshaled(Class) public abstract boolean
+     * javax.rmi.CORBA.ValueHandler.isCustomMarshaled(java.lang.Class)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueHandler#getRMIRepositoryID(Class) public
-     * abstract java.lang.String javax.rmi.CORBA.ValueHandler.getRMIRepositoryID(java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.ValueHandler#getRMIRepositoryID(Class) public abstract java.lang.String
+     * javax.rmi.CORBA.ValueHandler.getRMIRepositoryID(java.lang.Class)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,9 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueHandler#writeValue(OutputStream, Serializable)
-     * public abstract void
-     * javax.rmi.CORBA.ValueHandler.writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.ValueHandler#writeValue(org.omg.CORBA.portable.OutputStream, java.io.Serializable) public
+     * abstract void javax.rmi.CORBA.ValueHandler.writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueHandler#writeReplace(Serializable) public
-     * abstract java.io.Serializable javax.rmi.CORBA.ValueHandler.writeReplace(java.io.Serializable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.ValueHandler#writeReplace(java.io.Serializable) public abstract java.io.Serializable
+     * javax.rmi.CORBA.ValueHandler.writeReplace(java.io.Serializable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueHandler#getRunTimeCodeBase() public abstract
-     * org.omg.SendingContext.RunTime javax.rmi.CORBA.ValueHandler.getRunTimeCodeBase()}.
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.ValueHandler#getRunTimeCodeBase()
+     * public abstract org.omg.SendingContext.RunTime javax.rmi.CORBA.ValueHandler.getRunTimeCodeBase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,7 +150,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ValueHandler#readValue(InputStream, int, Class, String, RunTime) public abstract java.io.Serializable
+     * {@link javax.rmi.CORBA.ValueHandler#readValue(org.omg.CORBA.portable.InputStream, int, Class, String, org.omg.SendingContext.RunTime)
+     * public abstract java.io.Serializable
      * javax.rmi.CORBA.ValueHandler.readValue(org.omg.CORBA.portable.InputStream,int,java.lang.Class,java.lang.String,org.omg.SendingContext.RunTime)}
      * .
      *

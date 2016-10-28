@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.print.attribute;
 
 import javax.print.attribute.HashPrintJobAttributeSet;
-import javax.print.attribute.PrintJobAttribute;
-import javax.print.attribute.PrintJobAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.javax.print.attribute.HashPrintJobAttributeSetC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashPrintJobAttributeSet#HashPrintJobAttributeSet(PrintJobAttributeSet) public
-     * javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet)}.
+     * {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet)
+     * public javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,14 +39,15 @@ implements org.j8unit.repository.javax.print.attribute.HashPrintJobAttributeSetC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashPrintJobAttributeSet sut = null; // = new HashPrintJobAttributeSet(PrintJobAttributeSet);
+        final HashPrintJobAttributeSet sut = null; // = new
+                                                   // HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashPrintJobAttributeSet#HashPrintJobAttributeSet(PrintJobAttribute[]) public
-     * javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute[])}.
+     * {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute[])
+     * public javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,14 +63,15 @@ implements org.j8unit.repository.javax.print.attribute.HashPrintJobAttributeSetC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashPrintJobAttributeSet sut = null; // = new HashPrintJobAttributeSet(PrintJobAttribute[]);
+        final HashPrintJobAttributeSet sut = null; // = new
+                                                   // HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashPrintJobAttributeSet#HashPrintJobAttributeSet(PrintJobAttribute) public
-     * javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute)}.
+     * {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute)
+     * public javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,13 +87,14 @@ implements org.j8unit.repository.javax.print.attribute.HashPrintJobAttributeSetC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HashPrintJobAttributeSet sut = null; // = new HashPrintJobAttributeSet(PrintJobAttribute);
+        final HashPrintJobAttributeSet sut = null; // = new
+                                                   // HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HashPrintJobAttributeSet#HashPrintJobAttributeSet() public
+     * {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet() public
      * javax.print.attribute.HashPrintJobAttributeSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

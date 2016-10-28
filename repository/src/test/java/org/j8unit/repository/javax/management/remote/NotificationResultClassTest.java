@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management.remote;
 
 import javax.management.remote.NotificationResult;
-import javax.management.remote.TargetedNotification;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.management.remote.NotificationResultClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NotificationResult#NotificationResult(long, long, TargetedNotification[]) public
-     * javax.management.remote.NotificationResult(long,long,javax.management.remote.TargetedNotification[])}.
+     * {@link javax.management.remote.NotificationResult#NotificationResult(long, long, javax.management.remote.TargetedNotification[])
+     * public javax.management.remote.NotificationResult(long,long,javax.management.remote.TargetedNotification[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.javax.management.remote.NotificationResultClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NotificationResult sut = null; // = new NotificationResult(long, long, TargetedNotification[]);
+        final NotificationResult sut = null; // = new NotificationResult(long, long,
+                                             // javax.management.remote.TargetedNotification[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.NotificationResult]

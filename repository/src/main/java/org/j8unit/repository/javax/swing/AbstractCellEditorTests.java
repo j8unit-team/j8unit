@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.util.EventObject;
 import javax.swing.AbstractCellEditor;
-import javax.swing.event.CellEditorListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCellEditor#shouldSelectCell(EventObject)
-     * public boolean javax.swing.AbstractCellEditor.shouldSelectCell(java.util.EventObject)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.AbstractCellEditor#shouldSelectCell(java.util.EventObject) public boolean
+     * javax.swing.AbstractCellEditor.shouldSelectCell(java.util.EventObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCellEditor#isCellEditable(EventObject)
-     * public boolean javax.swing.AbstractCellEditor.isCellEditable(java.util.EventObject)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.AbstractCellEditor#isCellEditable(java.util.EventObject) public boolean
+     * javax.swing.AbstractCellEditor.isCellEditable(java.util.EventObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +83,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCellEditor#cancelCellEditing() public void
-     * javax.swing.AbstractCellEditor.cancelCellEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractCellEditor#cancelCellEditing()
+     * public void javax.swing.AbstractCellEditor.cancelCellEditing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +107,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractCellEditor#removeCellEditorListener(CellEditorListener) public void
+     * {@link javax.swing.AbstractCellEditor#removeCellEditorListener(javax.swing.event.CellEditorListener) public void
      * javax.swing.AbstractCellEditor.removeCellEditorListener(javax.swing.event.CellEditorListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,7 +131,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractCellEditor#addCellEditorListener(CellEditorListener) public void
+     * {@link javax.swing.AbstractCellEditor#addCellEditorListener(javax.swing.event.CellEditorListener) public void
      * javax.swing.AbstractCellEditor.addCellEditorListener(javax.swing.event.CellEditorListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +154,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCellEditor#stopCellEditing() public boolean
-     * javax.swing.AbstractCellEditor.stopCellEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractCellEditor#stopCellEditing()
+     * public boolean javax.swing.AbstractCellEditor.stopCellEditing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +177,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractCellEditor#getCellEditorListeners() public
-     * javax.swing.event.CellEditorListener[] javax.swing.AbstractCellEditor.getCellEditorListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.AbstractCellEditor#getCellEditorListeners() public javax.swing.event.CellEditorListener[]
+     * javax.swing.AbstractCellEditor.getCellEditorListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

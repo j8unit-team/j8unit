@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.concurrent.atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.IntBinaryOperator;
-import java.util.function.IntUnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#compareAndSet(int, int) public final
-     * boolean java.util.concurrent.atomic.AtomicInteger.compareAndSet(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#compareAndSet(int, int) public final boolean
+     * java.util.concurrent.atomic.AtomicInteger.compareAndSet(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#get() public final int
-     * java.util.concurrent.atomic.AtomicInteger.get()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicInteger#get()
+     * public final int java.util.concurrent.atomic.AtomicInteger.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#getAndDecrement() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#getAndDecrement() public final int
      * java.util.concurrent.atomic.AtomicInteger.getAndDecrement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicInteger#accumulateAndGet(int, IntBinaryOperator) public final int
+     * {@link java.util.concurrent.atomic.AtomicInteger#accumulateAndGet(int, java.util.function.IntBinaryOperator)
+     * public final int
      * java.util.concurrent.atomic.AtomicInteger.accumulateAndGet(int,java.util.function.IntBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +127,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicInteger#getAndAccumulate(int, IntBinaryOperator) public final int
+     * {@link java.util.concurrent.atomic.AtomicInteger#getAndAccumulate(int, java.util.function.IntBinaryOperator)
+     * public final int
      * java.util.concurrent.atomic.AtomicInteger.getAndAccumulate(int,java.util.function.IntBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +150,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#getAndAdd(int) public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#getAndAdd(int) public final int
      * java.util.concurrent.atomic.AtomicInteger.getAndAdd(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,7 +173,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#lazySet(int) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#lazySet(int) public final void
      * java.util.concurrent.atomic.AtomicInteger.lazySet(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +196,9 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#getAndUpdate(IntUnaryOperator) public
-     * final int java.util.concurrent.atomic.AtomicInteger.getAndUpdate(java.util.function.IntUnaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#getAndUpdate(java.util.function.IntUnaryOperator) public final
+     * int java.util.concurrent.atomic.AtomicInteger.getAndUpdate(java.util.function.IntUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,7 +219,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#getAndSet(int) public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#getAndSet(int) public final int
      * java.util.concurrent.atomic.AtomicInteger.getAndSet(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,7 +242,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#addAndGet(int) public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#addAndGet(int) public final int
      * java.util.concurrent.atomic.AtomicInteger.addAndGet(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +265,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#toString() public java.lang.String
-     * java.util.concurrent.atomic.AtomicInteger.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicInteger#toString()
+     * public java.lang.String java.util.concurrent.atomic.AtomicInteger.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +288,9 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#weakCompareAndSet(int, int) public
-     * final boolean java.util.concurrent.atomic.AtomicInteger.weakCompareAndSet(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#weakCompareAndSet(int, int) public final boolean
+     * java.util.concurrent.atomic.AtomicInteger.weakCompareAndSet(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,8 +311,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#intValue() public int
-     * java.util.concurrent.atomic.AtomicInteger.intValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicInteger#intValue()
+     * public int java.util.concurrent.atomic.AtomicInteger.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,7 +334,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#getAndIncrement() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#getAndIncrement() public final int
      * java.util.concurrent.atomic.AtomicInteger.getAndIncrement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -348,7 +357,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#incrementAndGet() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#incrementAndGet() public final int
      * java.util.concurrent.atomic.AtomicInteger.incrementAndGet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -370,8 +380,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#set(int) public final void
-     * java.util.concurrent.atomic.AtomicInteger.set(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicInteger#set(int)
+     * public final void java.util.concurrent.atomic.AtomicInteger.set(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -392,7 +402,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#longValue() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#longValue() public long
      * java.util.concurrent.atomic.AtomicInteger.longValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -415,7 +426,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#floatValue() public float
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#floatValue() public float
      * java.util.concurrent.atomic.AtomicInteger.floatValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -438,7 +450,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#doubleValue() public double
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#doubleValue() public double
      * java.util.concurrent.atomic.AtomicInteger.doubleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -461,7 +474,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#decrementAndGet() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#decrementAndGet() public final int
      * java.util.concurrent.atomic.AtomicInteger.decrementAndGet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -483,8 +497,9 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicInteger#updateAndGet(IntUnaryOperator) public
-     * final int java.util.concurrent.atomic.AtomicInteger.updateAndGet(java.util.function.IntUnaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#updateAndGet(java.util.function.IntUnaryOperator) public final
+     * int java.util.concurrent.atomic.AtomicInteger.updateAndGet(java.util.function.IntUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.AttributeChangeNotificationFil
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AttributeChangeNotificationFilter#AttributeChangeNotificationFilter() public
+     * {@link javax.management.AttributeChangeNotificationFilter#AttributeChangeNotificationFilter() public
      * javax.management.AttributeChangeNotificationFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

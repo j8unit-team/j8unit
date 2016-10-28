@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.xpath;
 
-import javax.xml.namespace.QName;
 import javax.xml.xpath.XPathExpression;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -8,7 +7,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.InputSource;
 
 /**
  * <p>
@@ -37,9 +35,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathExpression#evaluate(Object, QName) public
-     * abstract java.lang.Object javax.xml.xpath.XPathExpression.evaluate(java.lang.Object,javax.xml.namespace.QName)
-     * throws javax.xml.xpath.XPathExpressionException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPathExpression#evaluate(Object, javax.xml.namespace.QName) public abstract
+     * java.lang.Object javax.xml.xpath.XPathExpression.evaluate(java.lang.Object,javax.xml.namespace.QName) throws
+     * javax.xml.xpath.XPathExpressionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathExpression#evaluate(Object) public abstract
-     * java.lang.String javax.xml.xpath.XPathExpression.evaluate(java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.xpath.XPathExpression#evaluate(Object)
+     * public abstract java.lang.String javax.xml.xpath.XPathExpression.evaluate(java.lang.Object) throws
      * javax.xml.xpath.XPathExpressionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +82,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathExpression#evaluate(InputSource, QName) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPathExpression#evaluate(org.xml.sax.InputSource, javax.xml.namespace.QName) public
      * abstract java.lang.Object
      * javax.xml.xpath.XPathExpression.evaluate(org.xml.sax.InputSource,javax.xml.namespace.QName) throws
      * javax.xml.xpath.XPathExpressionException}.
@@ -107,8 +107,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XPathExpression#evaluate(InputSource) public
-     * abstract java.lang.String javax.xml.xpath.XPathExpression.evaluate(org.xml.sax.InputSource) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.xpath.XPathExpression#evaluate(org.xml.sax.InputSource) public abstract java.lang.String
+     * javax.xml.xpath.XPathExpression.evaluate(org.xml.sax.InputSource) throws
      * javax.xml.xpath.XPathExpressionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

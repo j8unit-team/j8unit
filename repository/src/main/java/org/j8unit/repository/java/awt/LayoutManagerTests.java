@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Component;
-import java.awt.Container;
 import java.awt.LayoutManager;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager#layoutContainer(Container) public
-     * abstract void java.awt.LayoutManager.layoutContainer(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager#layoutContainer(java.awt.Container) public abstract void
+     * java.awt.LayoutManager.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager#addLayoutComponent(String, Component)
-     * public abstract void java.awt.LayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager#addLayoutComponent(String, java.awt.Component) public abstract void
+     * java.awt.LayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager#minimumLayoutSize(Container) public
-     * abstract java.awt.Dimension java.awt.LayoutManager.minimumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager#minimumLayoutSize(java.awt.Container) public abstract java.awt.Dimension
+     * java.awt.LayoutManager.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager#preferredLayoutSize(Container) public
-     * abstract java.awt.Dimension java.awt.LayoutManager.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager#preferredLayoutSize(java.awt.Container) public abstract java.awt.Dimension
+     * java.awt.LayoutManager.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager#removeLayoutComponent(Component)
-     * public abstract void java.awt.LayoutManager.removeLayoutComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager#removeLayoutComponent(java.awt.Component) public abstract void
+     * java.awt.LayoutManager.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

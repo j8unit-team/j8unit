@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JAXBException#JAXBException(String, String, Throwable) public
+     * {@link javax.xml.bind.JAXBException#JAXBException(String, String, Throwable) public
      * javax.xml.bind.JAXBException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBException#JAXBException(String, Throwable)
-     * public javax.xml.bind.JAXBException(java.lang.String,java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.JAXBException#JAXBException(String, Throwable) public
+     * javax.xml.bind.JAXBException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,7 +67,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBException#JAXBException(Throwable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.JAXBException#JAXBException(Throwable) public
      * javax.xml.bind.JAXBException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +90,9 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBException#JAXBException(String, String)
-     * public javax.xml.bind.JAXBException(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.JAXBException#JAXBException(String, String) public
+     * javax.xml.bind.JAXBException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,8 +113,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBException#JAXBException(String) public
-     * javax.xml.bind.JAXBException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.JAXBException#JAXBException(String) public javax.xml.bind.JAXBException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

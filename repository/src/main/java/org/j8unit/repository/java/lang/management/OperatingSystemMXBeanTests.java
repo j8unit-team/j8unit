@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OperatingSystemMXBean#getAvailableProcessors()
-     * public abstract int java.lang.management.OperatingSystemMXBean.getAvailableProcessors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.OperatingSystemMXBean#getAvailableProcessors() public abstract int
+     * java.lang.management.OperatingSystemMXBean.getAvailableProcessors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OperatingSystemMXBean#getName() public abstract
-     * java.lang.String java.lang.management.OperatingSystemMXBean.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.OperatingSystemMXBean#getName()
+     * public abstract java.lang.String java.lang.management.OperatingSystemMXBean.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OperatingSystemMXBean#getSystemLoadAverage() public
-     * abstract double java.lang.management.OperatingSystemMXBean.getSystemLoadAverage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.OperatingSystemMXBean#getSystemLoadAverage() public abstract double
+     * java.lang.management.OperatingSystemMXBean.getSystemLoadAverage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +102,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OperatingSystemMXBean#getArch() public abstract
-     * java.lang.String java.lang.management.OperatingSystemMXBean.getArch()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.OperatingSystemMXBean#getArch()
+     * public abstract java.lang.String java.lang.management.OperatingSystemMXBean.getArch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +124,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OperatingSystemMXBean#getVersion() public abstract
-     * java.lang.String java.lang.management.OperatingSystemMXBean.getVersion()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.OperatingSystemMXBean#getVersion() public abstract java.lang.String
+     * java.lang.management.OperatingSystemMXBean.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

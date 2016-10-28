@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceDragEvent#getGestureModifiersEx() public
-     * int java.awt.dnd.DragSourceDragEvent.getGestureModifiersEx()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceDragEvent#getGestureModifiersEx() public int
+     * java.awt.dnd.DragSourceDragEvent.getGestureModifiersEx()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceDragEvent#getDropAction() public int
-     * java.awt.dnd.DragSourceDragEvent.getDropAction()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceDragEvent#getDropAction()
+     * public int java.awt.dnd.DragSourceDragEvent.getDropAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceDragEvent#getTargetActions() public int
-     * java.awt.dnd.DragSourceDragEvent.getTargetActions()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceDragEvent#getTargetActions()
+     * public int java.awt.dnd.DragSourceDragEvent.getTargetActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceDragEvent#getUserAction() public int
-     * java.awt.dnd.DragSourceDragEvent.getUserAction()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceDragEvent#getUserAction()
+     * public int java.awt.dnd.DragSourceDragEvent.getUserAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,7 +123,8 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceDragEvent#getGestureModifiers() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceDragEvent#getGestureModifiers() public int
      * java.awt.dnd.DragSourceDragEvent.getGestureModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

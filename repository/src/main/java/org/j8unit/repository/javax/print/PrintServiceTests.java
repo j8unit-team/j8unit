@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.print;
 
-import javax.print.DocFlavor;
 import javax.print.PrintService;
-import javax.print.attribute.Attribute;
-import javax.print.attribute.AttributeSet;
-import javax.print.event.PrintServiceAttributeListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintService#getSupportedAttributeValues(Class, DocFlavor, AttributeSet) public abstract java.lang.Object
-     * javax.print.PrintService.getSupportedAttributeValues(java.lang.Class<? extends
+     * {@link javax.print.PrintService#getSupportedAttributeValues(Class, javax.print.DocFlavor, javax.print.attribute.AttributeSet)
+     * public abstract java.lang.Object javax.print.PrintService.getSupportedAttributeValues(java.lang.Class<? extends
      * javax.print.attribute.Attribute>,javax.print.DocFlavor,javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#getAttributes() public abstract
-     * javax.print.attribute.PrintServiceAttributeSet javax.print.PrintService.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#getAttributes() public
+     * abstract javax.print.attribute.PrintServiceAttributeSet javax.print.PrintService.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +81,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#getName() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#getName() public abstract
      * java.lang.String javax.print.PrintService.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#getServiceUIFactory() public abstract
-     * javax.print.ServiceUIFactory javax.print.PrintService.getServiceUIFactory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#getServiceUIFactory()
+     * public abstract javax.print.ServiceUIFactory javax.print.PrintService.getServiceUIFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +125,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#isAttributeCategorySupported(Class)
-     * public abstract boolean javax.print.PrintService.isAttributeCategorySupported(java.lang.Class<? extends
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.PrintService#isAttributeCategorySupported(Class) public abstract boolean
+     * javax.print.PrintService.isAttributeCategorySupported(java.lang.Class<? extends
      * javax.print.attribute.Attribute>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,7 +150,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintService#isAttributeValueSupported(Attribute, DocFlavor, AttributeSet) public abstract boolean
+     * {@link javax.print.PrintService#isAttributeValueSupported(javax.print.attribute.Attribute, javax.print.DocFlavor, javax.print.attribute.AttributeSet)
+     * public abstract boolean
      * javax.print.PrintService.isAttributeValueSupported(javax.print.attribute.Attribute,javax.print.DocFlavor,javax.print.attribute.AttributeSet)}
      * .
      *
@@ -177,7 +175,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintService#addPrintServiceAttributeListener(PrintServiceAttributeListener) public abstract void
+     * {@link javax.print.PrintService#addPrintServiceAttributeListener(javax.print.event.PrintServiceAttributeListener)
+     * public abstract void
      * javax.print.PrintService.addPrintServiceAttributeListener(javax.print.event.PrintServiceAttributeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,8 +198,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#getSupportedDocFlavors() public
-     * abstract javax.print.DocFlavor[] javax.print.PrintService.getSupportedDocFlavors()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#getSupportedDocFlavors()
+     * public abstract javax.print.DocFlavor[] javax.print.PrintService.getSupportedDocFlavors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,9 +220,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#getDefaultAttributeValue(Class) public
-     * abstract java.lang.Object javax.print.PrintService.getDefaultAttributeValue(java.lang.Class<? extends
-     * javax.print.attribute.Attribute>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.PrintService#getDefaultAttributeValue(Class) public abstract java.lang.Object
+     * javax.print.PrintService.getDefaultAttributeValue(java.lang.Class<? extends javax.print.attribute.Attribute>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,8 +244,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintService#getUnsupportedAttributes(DocFlavor, AttributeSet) public abstract
-     * javax.print.attribute.AttributeSet
+     * {@link javax.print.PrintService#getUnsupportedAttributes(javax.print.DocFlavor, javax.print.attribute.AttributeSet)
+     * public abstract javax.print.attribute.AttributeSet
      * javax.print.PrintService.getUnsupportedAttributes(javax.print.DocFlavor,javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -268,8 +267,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#getAttribute(Class) public abstract
-     * <T> T javax.print.PrintService.getAttribute(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#getAttribute(Class) public
+     * abstract <T> T javax.print.PrintService.getAttribute(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -290,8 +289,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#getSupportedAttributeCategories()
-     * public abstract java.lang.Class<?>[] javax.print.PrintService.getSupportedAttributeCategories()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.PrintService#getSupportedAttributeCategories() public abstract java.lang.Class<?>[]
+     * javax.print.PrintService.getSupportedAttributeCategories()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -312,8 +312,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#createPrintJob() public abstract
-     * javax.print.DocPrintJob javax.print.PrintService.createPrintJob()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#createPrintJob() public
+     * abstract javax.print.DocPrintJob javax.print.PrintService.createPrintJob()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -334,8 +334,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#equals(Object) public abstract boolean
-     * javax.print.PrintService.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#equals(Object) public
+     * abstract boolean javax.print.PrintService.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -357,7 +357,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintService#removePrintServiceAttributeListener(PrintServiceAttributeListener) public abstract void
+     * {@link javax.print.PrintService#removePrintServiceAttributeListener(javax.print.event.PrintServiceAttributeListener)
+     * public abstract void
      * javax.print.PrintService.removePrintServiceAttributeListener(javax.print.event.PrintServiceAttributeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -379,8 +380,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#isDocFlavorSupported(DocFlavor) public
-     * abstract boolean javax.print.PrintService.isDocFlavorSupported(javax.print.DocFlavor)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.PrintService#isDocFlavorSupported(javax.print.DocFlavor) public abstract boolean
+     * javax.print.PrintService.isDocFlavorSupported(javax.print.DocFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -401,8 +403,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintService#hashCode() public abstract int
-     * javax.print.PrintService.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#hashCode() public abstract
+     * int javax.print.PrintService.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

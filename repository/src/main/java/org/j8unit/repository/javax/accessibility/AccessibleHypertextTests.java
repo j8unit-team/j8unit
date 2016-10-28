@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHypertext#getLinkCount() public abstract
-     * int javax.accessibility.AccessibleHypertext.getLinkCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleHypertext#getLinkCount() public abstract int
+     * javax.accessibility.AccessibleHypertext.getLinkCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHypertext#getLink(int) public abstract
-     * javax.accessibility.AccessibleHyperlink javax.accessibility.AccessibleHypertext.getLink(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleHypertext#getLink(int)
+     * public abstract javax.accessibility.AccessibleHyperlink javax.accessibility.AccessibleHypertext.getLink(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHypertext#getLinkIndex(int) public
-     * abstract int javax.accessibility.AccessibleHypertext.getLinkIndex(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleHypertext#getLinkIndex(int) public abstract int
+     * javax.accessibility.AccessibleHypertext.getLinkIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

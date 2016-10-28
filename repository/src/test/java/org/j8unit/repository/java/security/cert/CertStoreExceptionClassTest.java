@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.cert.CertStoreExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertStoreException#CertStoreException(String, Throwable) public
+     * {@link java.security.cert.CertStoreException#CertStoreException(String, Throwable) public
      * java.security.cert.CertStoreException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.cert.CertStoreExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertStoreException#CertStoreException(Throwable) public
+     * {@link java.security.cert.CertStoreException#CertStoreException(Throwable) public
      * java.security.cert.CertStoreException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,9 @@ implements org.j8unit.repository.java.security.cert.CertStoreExceptionClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CertStoreException#CertStoreException(String)
-     * public java.security.cert.CertStoreException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.CertStoreException#CertStoreException(String) public
+     * java.security.cert.CertStoreException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +90,9 @@ implements org.j8unit.repository.java.security.cert.CertStoreExceptionClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CertStoreException#CertStoreException() public
-     * java.security.cert.CertStoreException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.CertStoreException#CertStoreException() public java.security.cert.CertStoreException()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

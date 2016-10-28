@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.IOP.EncodingClassTests<Encoding> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Encoding#Encoding() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.IOP.Encoding#Encoding() public
      * org.omg.IOP.Encoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.IOP.EncodingClassTests<Encoding> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Encoding#Encoding(short, byte, byte) public
-     * org.omg.IOP.Encoding(short,byte,byte)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.Encoding#Encoding(short, byte, byte) public org.omg.IOP.Encoding(short,byte,byte)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.kerberos.DelegationPermissi
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DelegationPermission#DelegationPermission(String) public
+     * {@link javax.security.auth.kerberos.DelegationPermission#DelegationPermission(String) public
      * javax.security.auth.kerberos.DelegationPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.security.auth.kerberos.DelegationPermissi
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DelegationPermission#DelegationPermission(String, String) public
+     * {@link javax.security.auth.kerberos.DelegationPermission#DelegationPermission(String, String) public
      * javax.security.auth.kerberos.DelegationPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

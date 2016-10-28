@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#removeLast() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#removeLast() public abstract E
      * java.util.Deque.removeLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#pollLast() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#pollLast() public abstract E
      * java.util.Deque.pollLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#getLast() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#getLast() public abstract E
      * java.util.Deque.getLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#remove(Object) public abstract boolean
-     * java.util.Deque.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#remove(Object) public abstract
+     * boolean java.util.Deque.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#remove() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#remove() public abstract E
      * java.util.Deque.remove()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#descendingIterator() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#descendingIterator() public abstract
      * java.util.Iterator<E> java.util.Deque.descendingIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#offerFirst(Object) public abstract boolean
-     * java.util.Deque.offerFirst(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#offerFirst(Object) public abstract
+     * boolean java.util.Deque.offerFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,7 +190,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#poll() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#poll() public abstract E
      * java.util.Deque.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,8 +213,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#removeLastOccurrence(Object) public abstract
-     * boolean java.util.Deque.removeLastOccurrence(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#removeLastOccurrence(Object) public
+     * abstract boolean java.util.Deque.removeLastOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,7 +235,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#element() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#element() public abstract E
      * java.util.Deque.element()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,7 +258,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#getFirst() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#getFirst() public abstract E
      * java.util.Deque.getFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -280,7 +280,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#removeFirst() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#removeFirst() public abstract E
      * java.util.Deque.removeFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -302,8 +302,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#offer(Object) public abstract boolean
-     * java.util.Deque.offer(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#offer(Object) public abstract
+     * boolean java.util.Deque.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,8 +325,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#pop() public abstract E java.util.Deque.pop()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#pop() public abstract E
+     * java.util.Deque.pop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,7 +347,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#addLast(Object) public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#addLast(Object) public abstract void
      * java.util.Deque.addLast(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -369,8 +369,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#iterator() public abstract java.util.Iterator
-     * <E> java.util.Deque.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#iterator() public abstract
+     * java.util.Iterator<E> java.util.Deque.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -392,7 +392,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#push(Object) public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#push(Object) public abstract void
      * java.util.Deque.push(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -414,7 +414,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#peek() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#peek() public abstract E
      * java.util.Deque.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -437,7 +437,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#peekFirst() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#peekFirst() public abstract E
      * java.util.Deque.peekFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -459,7 +459,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#peekLast() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#peekLast() public abstract E
      * java.util.Deque.peekLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -481,7 +481,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#add(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#add(Object) public abstract boolean
      * java.util.Deque.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -504,8 +504,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#addFirst(Object) public abstract void
-     * java.util.Deque.addFirst(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#addFirst(Object) public abstract
+     * void java.util.Deque.addFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -526,8 +526,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#removeFirstOccurrence(Object) public abstract
-     * boolean java.util.Deque.removeFirstOccurrence(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#removeFirstOccurrence(Object) public
+     * abstract boolean java.util.Deque.removeFirstOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -548,7 +548,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#pollFirst() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#pollFirst() public abstract E
      * java.util.Deque.pollFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -570,7 +570,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#size() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#size() public abstract int
      * java.util.Deque.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -593,8 +593,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#offerLast(Object) public abstract boolean
-     * java.util.Deque.offerLast(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#offerLast(Object) public abstract
+     * boolean java.util.Deque.offerLast(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -615,8 +615,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deque#contains(Object) public abstract boolean
-     * java.util.Deque.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Deque#contains(Object) public abstract
+     * boolean java.util.Deque.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

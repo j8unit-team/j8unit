@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.InputMapUIResourceClassTests<I
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InputMapUIResource#InputMapUIResource() public
-     * javax.swing.plaf.InputMapUIResource()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.InputMapUIResource#InputMapUIResource() public javax.swing.plaf.InputMapUIResource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

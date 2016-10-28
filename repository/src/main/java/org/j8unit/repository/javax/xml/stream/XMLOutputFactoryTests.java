@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.xml.stream;
 
-import java.io.OutputStream;
-import java.io.Writer;
 import javax.xml.stream.XMLOutputFactory;
-import javax.xml.transform.Result;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,9 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#getProperty(String) public abstract
-     * java.lang.Object javax.xml.stream.XMLOutputFactory.getProperty(java.lang.String) throws
-     * java.lang.IllegalArgumentException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#getProperty(String) public abstract java.lang.Object
+     * javax.xml.stream.XMLOutputFactory.getProperty(java.lang.String) throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLOutputFactory#createXMLStreamWriter(OutputStream, String) public abstract
+     * {@link javax.xml.stream.XMLOutputFactory#createXMLStreamWriter(java.io.OutputStream, String) public abstract
      * javax.xml.stream.XMLStreamWriter
      * javax.xml.stream.XMLOutputFactory.createXMLStreamWriter(java.io.OutputStream,java.lang.String) throws
      * javax.xml.stream.XMLStreamException}.
@@ -85,10 +82,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#createXMLStreamWriter(OutputStream)
-     * public abstract javax.xml.stream.XMLStreamWriter
-     * javax.xml.stream.XMLOutputFactory.createXMLStreamWriter(java.io.OutputStream) throws
-     * javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#createXMLStreamWriter(java.io.OutputStream) public abstract
+     * javax.xml.stream.XMLStreamWriter javax.xml.stream.XMLOutputFactory.createXMLStreamWriter(java.io.OutputStream)
+     * throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,8 +106,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#createXMLStreamWriter(Result)
-     * public abstract javax.xml.stream.XMLStreamWriter
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#createXMLStreamWriter(javax.xml.transform.Result) public abstract
+     * javax.xml.stream.XMLStreamWriter
      * javax.xml.stream.XMLOutputFactory.createXMLStreamWriter(javax.xml.transform.Result) throws
      * javax.xml.stream.XMLStreamException}.
      *
@@ -133,9 +131,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#createXMLStreamWriter(Writer)
-     * public abstract javax.xml.stream.XMLStreamWriter
-     * javax.xml.stream.XMLOutputFactory.createXMLStreamWriter(java.io.Writer) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#createXMLStreamWriter(java.io.Writer) public abstract
+     * javax.xml.stream.XMLStreamWriter javax.xml.stream.XMLOutputFactory.createXMLStreamWriter(java.io.Writer) throws
      * javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -157,8 +155,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#isPropertySupported(String) public
-     * abstract boolean javax.xml.stream.XMLOutputFactory.isPropertySupported(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#isPropertySupported(String) public abstract boolean
+     * javax.xml.stream.XMLOutputFactory.isPropertySupported(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -179,8 +178,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#setProperty(String, Object) public
-     * abstract void javax.xml.stream.XMLOutputFactory.setProperty(java.lang.String,java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#setProperty(String, Object) public abstract void
+     * javax.xml.stream.XMLOutputFactory.setProperty(java.lang.String,java.lang.Object) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -202,9 +202,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#createXMLEventWriter(Writer) public
-     * abstract javax.xml.stream.XMLEventWriter javax.xml.stream.XMLOutputFactory.createXMLEventWriter(java.io.Writer)
-     * throws javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#createXMLEventWriter(java.io.Writer) public abstract
+     * javax.xml.stream.XMLEventWriter javax.xml.stream.XMLOutputFactory.createXMLEventWriter(java.io.Writer) throws
+     * javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -225,8 +226,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#createXMLEventWriter(Result) public
-     * abstract javax.xml.stream.XMLEventWriter
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#createXMLEventWriter(javax.xml.transform.Result) public abstract
+     * javax.xml.stream.XMLEventWriter
      * javax.xml.stream.XMLOutputFactory.createXMLEventWriter(javax.xml.transform.Result) throws
      * javax.xml.stream.XMLStreamException}.
      *
@@ -249,10 +251,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLOutputFactory#createXMLEventWriter(OutputStream)
-     * public abstract javax.xml.stream.XMLEventWriter
-     * javax.xml.stream.XMLOutputFactory.createXMLEventWriter(java.io.OutputStream) throws
-     * javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLOutputFactory#createXMLEventWriter(java.io.OutputStream) public abstract
+     * javax.xml.stream.XMLEventWriter javax.xml.stream.XMLOutputFactory.createXMLEventWriter(java.io.OutputStream)
+     * throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -274,7 +276,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLOutputFactory#createXMLEventWriter(OutputStream, String) public abstract
+     * {@link javax.xml.stream.XMLOutputFactory#createXMLEventWriter(java.io.OutputStream, String) public abstract
      * javax.xml.stream.XMLEventWriter
      * javax.xml.stream.XMLOutputFactory.createXMLEventWriter(java.io.OutputStream,java.lang.String) throws
      * javax.xml.stream.XMLStreamException}.

@@ -35,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataSupport#containsValue(Object) public
-     * boolean javax.management.openmbean.CompositeDataSupport.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataSupport#containsValue(Object) public boolean
+     * javax.management.openmbean.CompositeDataSupport.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +59,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataSupport#toString() public
-     * java.lang.String javax.management.openmbean.CompositeDataSupport.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataSupport#toString() public java.lang.String
+     * javax.management.openmbean.CompositeDataSupport.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +83,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataSupport#containsKey(String) public
-     * boolean javax.management.openmbean.CompositeDataSupport.containsKey(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataSupport#containsKey(String) public boolean
+     * javax.management.openmbean.CompositeDataSupport.containsKey(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +107,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataSupport#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataSupport#hashCode() public int
      * javax.management.openmbean.CompositeDataSupport.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +131,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataSupport#values() public
-     * java.util.Collection<?> javax.management.openmbean.CompositeDataSupport.values()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataSupport#values() public java.util.Collection
+     * <?> javax.management.openmbean.CompositeDataSupport.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,7 +155,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataSupport#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataSupport#equals(Object) public boolean
      * javax.management.openmbean.CompositeDataSupport.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,8 +179,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataSupport#get(String) public
-     * java.lang.Object javax.management.openmbean.CompositeDataSupport.get(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataSupport#get(String) public java.lang.Object
+     * javax.management.openmbean.CompositeDataSupport.get(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,7 +203,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataSupport#getCompositeType() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataSupport#getCompositeType() public
      * javax.management.openmbean.CompositeType javax.management.openmbean.CompositeDataSupport.getCompositeType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -219,8 +227,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataSupport#getAll(String[]) public
-     * java.lang.Object[] javax.management.openmbean.CompositeDataSupport.getAll(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataSupport#getAll(String[]) public java.lang.Object[]
+     * javax.management.openmbean.CompositeDataSupport.getAll(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

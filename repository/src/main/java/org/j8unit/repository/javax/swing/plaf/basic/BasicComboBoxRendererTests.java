@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JList;
 import javax.swing.plaf.basic.BasicComboBoxRenderer;
 import javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource;
 import org.j8unit.repository.categories.Draft;
@@ -43,8 +42,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests, org.j8unit.repo
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicComboBoxRenderer#getListCellRendererComponent(JList, Object, int, boolean, boolean) public
-     * java.awt.Component
+     * {@link javax.swing.plaf.basic.BasicComboBoxRenderer#getListCellRendererComponent(javax.swing.JList, Object, int, boolean, boolean)
+     * public java.awt.Component
      * javax.swing.plaf.basic.BasicComboBoxRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)}
      * .
      *
@@ -68,8 +67,9 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxRenderer#getPreferredSize() public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicComboBoxRenderer.getPreferredSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxRenderer#getPreferredSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicComboBoxRenderer.getPreferredSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

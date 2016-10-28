@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.GraphicsConfiguration;
 import java.awt.peer.CanvasPeer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CanvasPeer#getAppropriateGraphicsConfiguration(GraphicsConfiguration) public abstract
-     * java.awt.GraphicsConfiguration
+     * {@link java.awt.peer.CanvasPeer#getAppropriateGraphicsConfiguration(java.awt.GraphicsConfiguration) public
+     * abstract java.awt.GraphicsConfiguration
      * java.awt.peer.CanvasPeer.getAppropriateGraphicsConfiguration(java.awt.GraphicsConfiguration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.Provider;
 import java.security.cert.CertPathValidator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getInstance(String, Provider)
-     * public static java.security.cert.CertPathValidator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidator#getInstance(String, java.security.Provider) public static
+     * java.security.cert.CertPathValidator
      * java.security.cert.CertPathValidator.getInstance(java.lang.String,java.security.Provider) throws
      * java.security.NoSuchAlgorithmException}.
      *
@@ -39,13 +39,14 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorClassTests<
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link CertPathValidator#getInstance(String, Provider)}
+        // write some test for {@link java.security.cert.CertPathValidator#getInstance(String, java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getInstance(String, String) public
-     * static java.security.cert.CertPathValidator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidator#getInstance(String, String) public static
+     * java.security.cert.CertPathValidator
      * java.security.cert.CertPathValidator.getInstance(java.lang.String,java.lang.String) throws
      * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      *
@@ -61,12 +62,13 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorClassTests<
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link CertPathValidator#getInstance(String, String)}
+        // write some test for {@link java.security.cert.CertPathValidator#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getInstance(String) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidator#getInstance(String) public static
      * java.security.cert.CertPathValidator java.security.cert.CertPathValidator.getInstance(java.lang.String) throws
      * java.security.NoSuchAlgorithmException}.
      *
@@ -82,13 +84,14 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorClassTests<
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link CertPathValidator#getInstance(String)}
+        // write some test for {@link java.security.cert.CertPathValidator#getInstance(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getDefaultType() public static
-     * final java.lang.String java.security.cert.CertPathValidator.getDefaultType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidator#getDefaultType() public static final java.lang.String
+     * java.security.cert.CertPathValidator.getDefaultType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +105,7 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorClassTests<
     @Category(Draft.class)
     public void test_getDefaultType()
     throws Exception {
-        // write some test for {@link CertPathValidator#getDefaultType()}
+        // write some test for {@link java.security.cert.CertPathValidator#getDefaultType()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidator]

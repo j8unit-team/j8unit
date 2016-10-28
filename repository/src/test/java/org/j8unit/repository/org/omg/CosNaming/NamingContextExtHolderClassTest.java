@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NamingContextExt;
 import org.omg.CosNaming.NamingContextExtHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtHolderClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NamingContextExtHolder#NamingContextExtHolder()
-     * public org.omg.CosNaming.NamingContextExtHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextExtHolder#NamingContextExtHolder() public
+     * org.omg.CosNaming.NamingContextExtHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtHolderClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NamingContextExtHolder#NamingContextExtHolder(NamingContextExt) public
+     * {@link org.omg.CosNaming.NamingContextExtHolder#NamingContextExtHolder(org.omg.CosNaming.NamingContextExt) public
      * org.omg.CosNaming.NamingContextExtHolder(org.omg.CosNaming.NamingContextExt)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtHolderClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NamingContextExtHolder sut = null; // = new NamingContextExtHolder(NamingContextExt);
+        final NamingContextExtHolder sut = null; // = new NamingContextExtHolder(org.omg.CosNaming.NamingContextExt);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtHolder]

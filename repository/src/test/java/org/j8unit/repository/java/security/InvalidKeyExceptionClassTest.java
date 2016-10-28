@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.InvalidKeyExceptionClassTests<Inv
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidKeyException#InvalidKeyException(Throwable) public
+     * {@link java.security.InvalidKeyException#InvalidKeyException(Throwable) public
      * java.security.InvalidKeyException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.InvalidKeyExceptionClassTests<Inv
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidKeyException#InvalidKeyException(String, Throwable) public
+     * {@link java.security.InvalidKeyException#InvalidKeyException(String, Throwable) public
      * java.security.InvalidKeyException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,9 @@ implements org.j8unit.repository.java.security.InvalidKeyExceptionClassTests<Inv
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidKeyException#InvalidKeyException(String)
-     * public java.security.InvalidKeyException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.InvalidKeyException#InvalidKeyException(String) public
+     * java.security.InvalidKeyException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +90,8 @@ implements org.j8unit.repository.java.security.InvalidKeyExceptionClassTests<Inv
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidKeyException#InvalidKeyException()
-     * public java.security.InvalidKeyException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.InvalidKeyException#InvalidKeyException() public java.security.InvalidKeyException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

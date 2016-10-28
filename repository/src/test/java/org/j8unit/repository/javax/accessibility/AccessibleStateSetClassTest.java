@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.accessibility;
 
-import javax.accessibility.AccessibleState;
 import javax.accessibility.AccessibleStateSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleStateSetClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AccessibleStateSet#AccessibleStateSet() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.accessibility.AccessibleStateSet#AccessibleStateSet() public
      * javax.accessibility.AccessibleStateSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.accessibility.AccessibleStateSetClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccessibleStateSet#AccessibleStateSet(AccessibleState[]) public
+     * {@link javax.accessibility.AccessibleStateSet#AccessibleStateSet(javax.accessibility.AccessibleState[]) public
      * javax.accessibility.AccessibleStateSet(javax.accessibility.AccessibleState[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,7 @@ implements org.j8unit.repository.javax.accessibility.AccessibleStateSetClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AccessibleStateSet sut = null; // = new AccessibleStateSet(AccessibleState[]);
+        final AccessibleStateSet sut = null; // = new AccessibleStateSet(javax.accessibility.AccessibleState[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleStateSet]

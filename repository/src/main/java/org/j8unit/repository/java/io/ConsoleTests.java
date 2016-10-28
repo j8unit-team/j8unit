@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Console#writer() public java.io.PrintWriter
+     * Test method for the hereby targeted method-under-test {@link java.io.Console#writer() public java.io.PrintWriter
      * java.io.Console.writer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Console#readPassword() public char[]
+     * Test method for the hereby targeted method-under-test {@link java.io.Console#readPassword() public char[]
      * java.io.Console.readPassword()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Console#readPassword(String, Object...) public
-     * char[] java.io.Console.readPassword(java.lang.String,java.lang.Object...)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.Console#readPassword(String, Object...)
+     * public char[] java.io.Console.readPassword(java.lang.String,java.lang.Object...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Console#format(String, Object...) public
+     * Test method for the hereby targeted method-under-test {@link java.io.Console#format(String, Object...) public
      * java.io.Console java.io.Console.format(java.lang.String,java.lang.Object...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Console#printf(String, Object...) public
+     * Test method for the hereby targeted method-under-test {@link java.io.Console#printf(String, Object...) public
      * java.io.Console java.io.Console.printf(java.lang.String,java.lang.Object...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Console#readLine(String, Object...) public
+     * Test method for the hereby targeted method-under-test {@link java.io.Console#readLine(String, Object...) public
      * java.lang.String java.io.Console.readLine(java.lang.String,java.lang.Object...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,7 +166,7 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Console#readLine() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.io.Console#readLine() public java.lang.String
      * java.io.Console.readLine()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,7 +188,7 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Console#reader() public java.io.Reader
+     * Test method for the hereby targeted method-under-test {@link java.io.Console#reader() public java.io.Reader
      * java.io.Console.reader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,8 +210,8 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Console#flush() public void java.io.Console.flush()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.io.Console#flush() public void
+     * java.io.Console.flush()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

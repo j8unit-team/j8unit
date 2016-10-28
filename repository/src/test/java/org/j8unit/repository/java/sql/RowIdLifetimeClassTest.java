@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.sql.RowIdLifetimeClassTests<RowIdLifetime>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowIdLifetime#values() public static
+     * Test method for the hereby targeted method-under-test {@link java.sql.RowIdLifetime#values() public static
      * java.sql.RowIdLifetime[] java.sql.RowIdLifetime.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.sql.RowIdLifetimeClassTests<RowIdLifetime>
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link RowIdLifetime#values()}
+        // write some test for {@link java.sql.RowIdLifetime#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowIdLifetime#valueOf(String) public static
+     * Test method for the hereby targeted method-under-test {@link java.sql.RowIdLifetime#valueOf(String) public static
      * java.sql.RowIdLifetime java.sql.RowIdLifetime.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.sql.RowIdLifetimeClassTests<RowIdLifetime>
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link RowIdLifetime#valueOf(String)}
+        // write some test for {@link java.sql.RowIdLifetime#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.RowIdLifetime]

@@ -1,13 +1,8 @@
 package org.j8unit.repository.java.awt.geom;
 
-import java.awt.Shape;
-import java.awt.geom.AffineTransform;
 import java.awt.geom.Path2D;
 import java.awt.geom.Path2D.Double;
 import java.awt.geom.Path2D.Float;
-import java.awt.geom.PathIterator;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,8 +36,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#getBounds() public final java.awt.Rectangle
-     * java.awt.geom.Path2D.getBounds()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#getBounds() public final
+     * java.awt.Rectangle java.awt.geom.Path2D.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,9 +59,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#createTransformedShape(AffineTransform)
-     * public final synchronized java.awt.Shape
-     * java.awt.geom.Path2D.createTransformedShape(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#createTransformedShape(java.awt.geom.AffineTransform) public final synchronized
+     * java.awt.Shape java.awt.geom.Path2D.createTransformedShape(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +82,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#setWindingRule(int) public final void
-     * java.awt.geom.Path2D.setWindingRule(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#setWindingRule(int) public
+     * final void java.awt.geom.Path2D.setWindingRule(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,8 +104,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#lineTo(double, double) public abstract void
-     * java.awt.geom.Path2D.lineTo(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#lineTo(double, double) public
+     * abstract void java.awt.geom.Path2D.lineTo(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,8 +126,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#getCurrentPoint() public final synchronized
-     * java.awt.geom.Point2D java.awt.geom.Path2D.getCurrentPoint()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#getCurrentPoint() public final
+     * synchronized java.awt.geom.Point2D java.awt.geom.Path2D.getCurrentPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,7 +149,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Path2D#curveTo(double, double, double, double, double, double) public abstract void
+     * {@link java.awt.geom.Path2D#curveTo(double, double, double, double, double, double) public abstract void
      * java.awt.geom.Path2D.curveTo(double,double,double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,8 +171,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#closePath() public final synchronized void
-     * java.awt.geom.Path2D.closePath()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#closePath() public final
+     * synchronized void java.awt.geom.Path2D.closePath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,8 +193,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#intersects(double, double, double, double)
-     * public final boolean java.awt.geom.Path2D.intersects(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#intersects(double, double, double, double) public final boolean
+     * java.awt.geom.Path2D.intersects(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,7 +217,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#intersects(Rectangle2D) public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#intersects(java.awt.geom.Rectangle2D) public final boolean
      * java.awt.geom.Path2D.intersects(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,8 +241,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#moveTo(double, double) public abstract void
-     * java.awt.geom.Path2D.moveTo(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#moveTo(double, double) public
+     * abstract void java.awt.geom.Path2D.moveTo(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -266,8 +263,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#append(PathIterator, boolean) public abstract
-     * void java.awt.geom.Path2D.append(java.awt.geom.PathIterator,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#append(java.awt.geom.PathIterator, boolean) public abstract void
+     * java.awt.geom.Path2D.append(java.awt.geom.PathIterator,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -288,8 +286,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#append(Shape, boolean) public final void
-     * java.awt.geom.Path2D.append(java.awt.Shape,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#append(java.awt.Shape, boolean)
+     * public final void java.awt.geom.Path2D.append(java.awt.Shape,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,8 +308,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#reset() public final synchronized void
-     * java.awt.geom.Path2D.reset()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#reset() public final
+     * synchronized void java.awt.geom.Path2D.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -332,8 +330,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#clone() public abstract java.lang.Object
-     * java.awt.geom.Path2D.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#clone() public abstract
+     * java.lang.Object java.awt.geom.Path2D.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -354,8 +352,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#getWindingRule() public final synchronized
-     * int java.awt.geom.Path2D.getWindingRule()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#getWindingRule() public final
+     * synchronized int java.awt.geom.Path2D.getWindingRule()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -376,9 +374,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#getPathIterator(AffineTransform, double)
-     * public final java.awt.geom.PathIterator
-     * java.awt.geom.Path2D.getPathIterator(java.awt.geom.AffineTransform,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#getPathIterator(java.awt.geom.AffineTransform, double) public final
+     * java.awt.geom.PathIterator java.awt.geom.Path2D.getPathIterator(java.awt.geom.AffineTransform,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -400,8 +398,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#quadTo(double, double, double, double) public
-     * abstract void java.awt.geom.Path2D.quadTo(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#quadTo(double, double, double, double) public abstract void
+     * java.awt.geom.Path2D.quadTo(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -422,8 +421,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#transform(AffineTransform) public abstract
-     * void java.awt.geom.Path2D.transform(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#transform(java.awt.geom.AffineTransform) public abstract void
+     * java.awt.geom.Path2D.transform(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -444,31 +444,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#contains(Point2D) public final boolean
-     * java.awt.geom.Path2D.contains(java.awt.geom.Point2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_contains_Point2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#contains(double, double) public final boolean
-     * java.awt.geom.Path2D.contains(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#contains(double, double) public
+     * final boolean java.awt.geom.Path2D.contains(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -490,7 +467,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#contains(Rectangle2D) public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#contains(java.awt.geom.Rectangle2D) public final boolean
      * java.awt.geom.Path2D.contains(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -513,8 +491,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#contains(double, double, double, double)
-     * public final boolean java.awt.geom.Path2D.contains(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#contains(double, double, double, double) public final boolean
+     * java.awt.geom.Path2D.contains(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -528,6 +507,29 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_contains_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#contains(java.awt.geom.Point2D)
+     * public final boolean java.awt.geom.Path2D.contains(java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_contains_Point2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -563,8 +565,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#moveTo(double, double) public final
-         * synchronized void java.awt.geom.Path2D$Double.moveTo(double,double)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Double#moveTo(double, double) public final synchronized void
+         * java.awt.geom.Path2D$Double.moveTo(double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -586,8 +589,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#append(PathIterator, boolean) public
-         * final void java.awt.geom.Path2D$Double.append(java.awt.geom.PathIterator,boolean)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Double#append(java.awt.geom.PathIterator, boolean) public final void
+         * java.awt.geom.Path2D$Double.append(java.awt.geom.PathIterator,boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -609,8 +613,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#lineTo(double, double) public final
-         * synchronized void java.awt.geom.Path2D$Double.lineTo(double,double)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Double#lineTo(double, double) public final synchronized void
+         * java.awt.geom.Path2D$Double.lineTo(double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -632,8 +637,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getBounds2D() public final synchronized
-         * java.awt.geom.Rectangle2D java.awt.geom.Path2D$Double.getBounds2D()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D.Double#getBounds2D() public
+         * final synchronized java.awt.geom.Rectangle2D java.awt.geom.Path2D$Double.getBounds2D()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -655,8 +660,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#clone() public final java.lang.Object
-         * java.awt.geom.Path2D$Double.clone()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D.Double#clone() public final
+         * java.lang.Object java.awt.geom.Path2D$Double.clone()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -678,8 +683,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getPathIterator(AffineTransform) public
-         * final java.awt.geom.PathIterator java.awt.geom.Path2D$Double.getPathIterator(java.awt.geom.AffineTransform)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Double#getPathIterator(java.awt.geom.AffineTransform) public final
+         * java.awt.geom.PathIterator java.awt.geom.Path2D$Double.getPathIterator(java.awt.geom.AffineTransform)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -702,8 +708,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Double#curveTo(double, double, double, double, double, double) public final synchronized void
-         * java.awt.geom.Path2D$Double.curveTo(double,double,double,double,double,double)}.
+         * {@link java.awt.geom.Path2D.Double#curveTo(double, double, double, double, double, double) public final
+         * synchronized void java.awt.geom.Path2D$Double.curveTo(double,double,double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -725,8 +731,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#quadTo(double, double, double, double)
-         * public final synchronized void java.awt.geom.Path2D$Double.quadTo(double,double,double,double)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Double#quadTo(double, double, double, double) public final synchronized void
+         * java.awt.geom.Path2D$Double.quadTo(double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -748,8 +755,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#transform(AffineTransform) public final
-         * void java.awt.geom.Path2D$Double.transform(java.awt.geom.AffineTransform)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Double#transform(java.awt.geom.AffineTransform) public final void
+         * java.awt.geom.Path2D$Double.transform(java.awt.geom.AffineTransform)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -800,8 +808,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#lineTo(float, float) public final
-         * synchronized void java.awt.geom.Path2D$Float.lineTo(float,float)}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D.Float#lineTo(float, float)
+         * public final synchronized void java.awt.geom.Path2D$Float.lineTo(float,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -822,8 +830,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#lineTo(double, double) public final
-         * synchronized void java.awt.geom.Path2D$Float.lineTo(double,double)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Float#lineTo(double, double) public final synchronized void
+         * java.awt.geom.Path2D$Float.lineTo(double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -845,8 +854,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getBounds2D() public final synchronized
-         * java.awt.geom.Rectangle2D java.awt.geom.Path2D$Float.getBounds2D()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D.Float#getBounds2D() public
+         * final synchronized java.awt.geom.Rectangle2D java.awt.geom.Path2D$Float.getBounds2D()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -868,8 +877,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#clone() public final java.lang.Object
-         * java.awt.geom.Path2D$Float.clone()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D.Float#clone() public final
+         * java.lang.Object java.awt.geom.Path2D$Float.clone()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -891,30 +900,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#moveTo(float, float) public final
-         * synchronized void java.awt.geom.Path2D$Float.moveTo(float,float)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_moveTo_float_float()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#moveTo(double, double) public final
-         * synchronized void java.awt.geom.Path2D$Float.moveTo(double,double)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Float#moveTo(double, double) public final synchronized void
+         * java.awt.geom.Path2D$Float.moveTo(double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -936,8 +924,31 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#append(PathIterator, boolean) public final
-         * void java.awt.geom.Path2D$Float.append(java.awt.geom.PathIterator,boolean)}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D.Float#moveTo(float, float)
+         * public final synchronized void java.awt.geom.Path2D$Float.moveTo(float,float)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_moveTo_float_float()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Float#append(java.awt.geom.PathIterator, boolean) public final void
+         * java.awt.geom.Path2D$Float.append(java.awt.geom.PathIterator,boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -959,8 +970,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#quadTo(double, double, double, double)
-         * public final synchronized void java.awt.geom.Path2D$Float.quadTo(double,double,double,double)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Float#quadTo(double, double, double, double) public final synchronized void
+         * java.awt.geom.Path2D$Float.quadTo(double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -982,8 +994,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#quadTo(float, float, float, float) public
-         * final synchronized void java.awt.geom.Path2D$Float.quadTo(float,float,float,float)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Float#quadTo(float, float, float, float) public final synchronized void
+         * java.awt.geom.Path2D$Float.quadTo(float,float,float,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1004,8 +1017,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#transform(AffineTransform) public final
-         * void java.awt.geom.Path2D$Float.transform(java.awt.geom.AffineTransform)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Float#transform(java.awt.geom.AffineTransform) public final void
+         * java.awt.geom.Path2D$Float.transform(java.awt.geom.AffineTransform)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1028,8 +1042,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Float#curveTo(float, float, float, float, float, float) public final synchronized void
-         * java.awt.geom.Path2D$Float.curveTo(float,float,float,float,float,float)}.
+         * {@link java.awt.geom.Path2D.Float#curveTo(float, float, float, float, float, float) public final synchronized
+         * void java.awt.geom.Path2D$Float.curveTo(float,float,float,float,float,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1051,8 +1065,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Float#curveTo(double, double, double, double, double, double) public final synchronized void
-         * java.awt.geom.Path2D$Float.curveTo(double,double,double,double,double,double)}.
+         * {@link java.awt.geom.Path2D.Float#curveTo(double, double, double, double, double, double) public final
+         * synchronized void java.awt.geom.Path2D$Float.curveTo(double,double,double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1074,8 +1088,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getPathIterator(AffineTransform) public
-         * final java.awt.geom.PathIterator java.awt.geom.Path2D$Float.getPathIterator(java.awt.geom.AffineTransform)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Float#getPathIterator(java.awt.geom.AffineTransform) public final
+         * java.awt.geom.PathIterator java.awt.geom.Path2D$Float.getPathIterator(java.awt.geom.AffineTransform)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

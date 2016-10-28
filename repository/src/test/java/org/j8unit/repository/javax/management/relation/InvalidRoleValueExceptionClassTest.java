@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.relation.InvalidRoleValueExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidRoleValueException#InvalidRoleValueException() public
+     * {@link javax.management.relation.InvalidRoleValueException#InvalidRoleValueException() public
      * javax.management.relation.InvalidRoleValueException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.relation.InvalidRoleValueExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidRoleValueException#InvalidRoleValueException(String) public
+     * {@link javax.management.relation.InvalidRoleValueException#InvalidRoleValueException(String) public
      * javax.management.relation.InvalidRoleValueException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

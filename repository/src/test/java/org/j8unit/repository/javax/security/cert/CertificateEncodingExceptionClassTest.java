@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.cert.CertificateEncodingExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateEncodingException#CertificateEncodingException() public
+     * {@link javax.security.cert.CertificateEncodingException#CertificateEncodingException() public
      * javax.security.cert.CertificateEncodingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.security.cert.CertificateEncodingExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateEncodingException#CertificateEncodingException(String) public
+     * {@link javax.security.cert.CertificateEncodingException#CertificateEncodingException(String) public
      * javax.security.cert.CertificateEncodingException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

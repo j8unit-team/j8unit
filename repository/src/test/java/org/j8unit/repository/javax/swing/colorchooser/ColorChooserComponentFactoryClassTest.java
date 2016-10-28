@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.swing.colorchooser.ColorChooserComponentF
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorChooserComponentFactory#getPreviewPanel()
-     * public static javax.swing.JComponent javax.swing.colorchooser.ColorChooserComponentFactory.getPreviewPanel()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.ColorChooserComponentFactory#getPreviewPanel() public static
+     * javax.swing.JComponent javax.swing.colorchooser.ColorChooserComponentFactory.getPreviewPanel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +37,13 @@ implements org.j8unit.repository.javax.swing.colorchooser.ColorChooserComponentF
     @Category(Draft.class)
     public void test_getPreviewPanel()
     throws Exception {
-        // write some test for {@link ColorChooserComponentFactory#getPreviewPanel()}
+        // write some test for {@link javax.swing.colorchooser.ColorChooserComponentFactory#getPreviewPanel()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ColorChooserComponentFactory#getDefaultChooserPanels() public static
+     * {@link javax.swing.colorchooser.ColorChooserComponentFactory#getDefaultChooserPanels() public static
      * javax.swing.colorchooser.AbstractColorChooserPanel[]
      * javax.swing.colorchooser.ColorChooserComponentFactory.getDefaultChooserPanels()}.
      *
@@ -58,7 +59,7 @@ implements org.j8unit.repository.javax.swing.colorchooser.ColorChooserComponentF
     @Category(Draft.class)
     public void test_getDefaultChooserPanels()
     throws Exception {
-        // write some test for {@link ColorChooserComponentFactory#getDefaultChooserPanels()}
+        // write some test for {@link javax.swing.colorchooser.ColorChooserComponentFactory#getDefaultChooserPanels()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.colorchooser.ColorChooserComponentFactory]

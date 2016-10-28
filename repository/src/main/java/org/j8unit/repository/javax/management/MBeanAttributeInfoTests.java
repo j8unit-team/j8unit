@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanAttributeInfo#clone() public java.lang.Object
-     * javax.management.MBeanAttributeInfo.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanAttributeInfo#clone() public
+     * java.lang.Object javax.management.MBeanAttributeInfo.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanAttributeInfo#toString() public
-     * java.lang.String javax.management.MBeanAttributeInfo.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanAttributeInfo#toString()
+     * public java.lang.String javax.management.MBeanAttributeInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanAttributeInfo#isReadable() public boolean
-     * javax.management.MBeanAttributeInfo.isReadable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanAttributeInfo#isReadable()
+     * public boolean javax.management.MBeanAttributeInfo.isReadable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanAttributeInfo#isWritable() public boolean
-     * javax.management.MBeanAttributeInfo.isWritable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanAttributeInfo#isWritable()
+     * public boolean javax.management.MBeanAttributeInfo.isWritable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanAttributeInfo#isIs() public boolean
-     * javax.management.MBeanAttributeInfo.isIs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanAttributeInfo#isIs() public
+     * boolean javax.management.MBeanAttributeInfo.isIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanAttributeInfo#getType() public java.lang.String
-     * javax.management.MBeanAttributeInfo.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanAttributeInfo#getType() public
+     * java.lang.String javax.management.MBeanAttributeInfo.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanAttributeInfo#equals(Object) public boolean
-     * javax.management.MBeanAttributeInfo.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanAttributeInfo#equals(Object)
+     * public boolean javax.management.MBeanAttributeInfo.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanAttributeInfo#hashCode() public int
-     * javax.management.MBeanAttributeInfo.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanAttributeInfo#hashCode()
+     * public int javax.management.MBeanAttributeInfo.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.accessibility;
 
 import javax.accessibility.AccessibleEditableText;
-import javax.swing.text.AttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleEditableText#setTextContents(String)
-     * public abstract void javax.accessibility.AccessibleEditableText.setTextContents(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleEditableText#setTextContents(String) public abstract void
+     * javax.accessibility.AccessibleEditableText.setTextContents(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleEditableText#selectText(int, int) public
-     * abstract void javax.accessibility.AccessibleEditableText.selectText(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleEditableText#selectText(int, int) public abstract void
+     * javax.accessibility.AccessibleEditableText.selectText(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleEditableText#replaceText(int, int, String)
-     * public abstract void javax.accessibility.AccessibleEditableText.replaceText(int,int,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleEditableText#replaceText(int, int, String) public abstract void
+     * javax.accessibility.AccessibleEditableText.replaceText(int,int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleEditableText#cut(int, int) public abstract
-     * void javax.accessibility.AccessibleEditableText.cut(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleEditableText#cut(int, int) public abstract void
+     * javax.accessibility.AccessibleEditableText.cut(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +126,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleEditableText#getTextRange(int, int) public
-     * abstract java.lang.String javax.accessibility.AccessibleEditableText.getTextRange(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleEditableText#getTextRange(int, int) public abstract java.lang.String
+     * javax.accessibility.AccessibleEditableText.getTextRange(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +149,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleEditableText#delete(int, int) public
-     * abstract void javax.accessibility.AccessibleEditableText.delete(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleEditableText#delete(int, int) public abstract void
+     * javax.accessibility.AccessibleEditableText.delete(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +172,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleEditableText#paste(int) public abstract
-     * void javax.accessibility.AccessibleEditableText.paste(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleEditableText#paste(int) public abstract void
+     * javax.accessibility.AccessibleEditableText.paste(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,7 +196,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AccessibleEditableText#insertTextAtIndex(int, String) public abstract void
+     * {@link javax.accessibility.AccessibleEditableText#insertTextAtIndex(int, String) public abstract void
      * javax.accessibility.AccessibleEditableText.insertTextAtIndex(int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,8 +219,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AccessibleEditableText#setAttributes(int, int, AttributeSet) public abstract void
-     * javax.accessibility.AccessibleEditableText.setAttributes(int,int,javax.swing.text.AttributeSet)}.
+     * {@link javax.accessibility.AccessibleEditableText#setAttributes(int, int, javax.swing.text.AttributeSet) public
+     * abstract void javax.accessibility.AccessibleEditableText.setAttributes(int,int,javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

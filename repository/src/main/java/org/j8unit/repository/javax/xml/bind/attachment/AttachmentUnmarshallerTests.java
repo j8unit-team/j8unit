@@ -35,7 +35,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttachmentUnmarshaller#getAttachmentAsByteArray(String) public abstract byte[]
+     * {@link javax.xml.bind.attachment.AttachmentUnmarshaller#getAttachmentAsByteArray(String) public abstract byte[]
      * javax.xml.bind.attachment.AttachmentUnmarshaller.getAttachmentAsByteArray(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttachmentUnmarshaller#getAttachmentAsDataHandler(String) public abstract javax.activation.DataHandler
+     * {@link javax.xml.bind.attachment.AttachmentUnmarshaller#getAttachmentAsDataHandler(String) public abstract
+     * javax.activation.DataHandler
      * javax.xml.bind.attachment.AttachmentUnmarshaller.getAttachmentAsDataHandler(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentUnmarshaller#isXOPPackage() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.attachment.AttachmentUnmarshaller#isXOPPackage() public boolean
      * javax.xml.bind.attachment.AttachmentUnmarshaller.isXOPPackage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

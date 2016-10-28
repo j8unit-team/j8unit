@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Principal#name() public byte[]
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Principal#name() public byte[]
      * org.omg.CORBA.Principal.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Principal#name(byte[]) public void
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Principal#name(byte[]) public void
      * org.omg.CORBA.Principal.name(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

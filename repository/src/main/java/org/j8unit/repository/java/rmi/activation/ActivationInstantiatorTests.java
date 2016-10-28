@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.rmi.activation;
 
-import java.rmi.activation.ActivationDesc;
-import java.rmi.activation.ActivationID;
 import java.rmi.activation.ActivationInstantiator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ActivationInstantiator#newInstance(ActivationID, ActivationDesc) public abstract
-     * java.rmi.MarshalledObject<? extends java.rmi.Remote>
+     * {@link java.rmi.activation.ActivationInstantiator#newInstance(java.rmi.activation.ActivationID, java.rmi.activation.ActivationDesc)
+     * public abstract java.rmi.MarshalledObject<? extends java.rmi.Remote>
      * java.rmi.activation.ActivationInstantiator.newInstance(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
      * throws java.rmi.activation.ActivationException,java.rmi.RemoteException}.
      *

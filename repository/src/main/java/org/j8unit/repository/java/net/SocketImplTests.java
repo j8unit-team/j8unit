@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.net.SocketOptionsTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketImpl#toString() public java.lang.String
-     * java.net.SocketImpl.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.SocketImpl#toString() public
+     * java.lang.String java.net.SocketImpl.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

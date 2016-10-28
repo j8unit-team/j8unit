@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
-import javax.swing.JTree;
 import javax.swing.plaf.multi.MultiTreeUI;
-import javax.swing.tree.TreePath;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getRowForPath(JTree, TreePath) public
-     * int javax.swing.plaf.multi.MultiTreeUI.getRowForPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getRowForPath(javax.swing.JTree, javax.swing.tree.TreePath) public int
+     * javax.swing.plaf.multi.MultiTreeUI.getRowForPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getAccessibleChildrenCount(JComponent)
-     * public int javax.swing.plaf.multi.MultiTreeUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
+     * javax.swing.plaf.multi.MultiTreeUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +82,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiTreeUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,7 +107,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiTreeUI#getClosestPathForLocation(JTree, int, int) public javax.swing.tree.TreePath
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getClosestPathForLocation(javax.swing.JTree, int, int) public
+     * javax.swing.tree.TreePath
      * javax.swing.plaf.multi.MultiTreeUI.getClosestPathForLocation(javax.swing.JTree,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +131,9 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTreeUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiTreeUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,9 +155,10 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
-     * javax.swing.plaf.multi.MultiTreeUI.getAccessibleChild(javax.swing.JComponent,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible javax.swing.plaf.multi.MultiTreeUI.getAccessibleChild(javax.swing.JComponent,int)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,7 +180,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#stopEditing(JTree) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#stopEditing(javax.swing.JTree) public boolean
      * javax.swing.plaf.multi.MultiTreeUI.stopEditing(javax.swing.JTree)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,8 +204,9 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTreeUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiTreeUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,7 +228,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiTreeUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -247,8 +252,9 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#contains(JComponent, int, int) public
-     * boolean javax.swing.plaf.multi.MultiTreeUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiTreeUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,8 +276,9 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getPathForRow(JTree, int) public
-     * javax.swing.tree.TreePath javax.swing.plaf.multi.MultiTreeUI.getPathForRow(javax.swing.JTree,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getPathForRow(javax.swing.JTree, int) public javax.swing.tree.TreePath
+     * javax.swing.plaf.multi.MultiTreeUI.getPathForRow(javax.swing.JTree,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,7 +300,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#paint(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiTreeUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -316,7 +324,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#update(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#update(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiTreeUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -339,8 +348,9 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getEditingPath(JTree) public
-     * javax.swing.tree.TreePath javax.swing.plaf.multi.MultiTreeUI.getEditingPath(javax.swing.JTree)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getEditingPath(javax.swing.JTree) public javax.swing.tree.TreePath
+     * javax.swing.plaf.multi.MultiTreeUI.getEditingPath(javax.swing.JTree)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -362,7 +372,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#cancelEditing(JTree) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#cancelEditing(javax.swing.JTree) public void
      * javax.swing.plaf.multi.MultiTreeUI.cancelEditing(javax.swing.JTree)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -385,7 +396,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#isEditing(JTree) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#isEditing(javax.swing.JTree) public boolean
      * javax.swing.plaf.multi.MultiTreeUI.isEditing(javax.swing.JTree)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -408,8 +420,9 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTreeUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiTreeUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,30 +444,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getRowCount(JTree) public int
-     * javax.swing.plaf.multi.MultiTreeUI.getRowCount(javax.swing.JTree)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowCount_JTree()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getPathBounds(JTree, TreePath) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getPathBounds(javax.swing.JTree, javax.swing.tree.TreePath) public
      * java.awt.Rectangle javax.swing.plaf.multi.MultiTreeUI.getPathBounds(javax.swing.JTree,javax.swing.tree.TreePath)}
      * .
      *
@@ -478,8 +469,33 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#startEditingAtPath(JTree, TreePath)
-     * public void javax.swing.plaf.multi.MultiTreeUI.startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#getRowCount(javax.swing.JTree) public int
+     * javax.swing.plaf.multi.MultiTreeUI.getRowCount(javax.swing.JTree)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowCount_JTree()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTreeUI#startEditingAtPath(javax.swing.JTree, javax.swing.tree.TreePath) public
+     * void javax.swing.plaf.multi.MultiTreeUI.startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -501,7 +517,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTreeUI#getUIs() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiTreeUI#getUIs() public
      * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiTreeUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

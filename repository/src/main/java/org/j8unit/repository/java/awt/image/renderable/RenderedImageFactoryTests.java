@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt.image.renderable;
 
-import java.awt.RenderingHints;
-import java.awt.image.renderable.ParameterBlock;
 import java.awt.image.renderable.RenderedImageFactory;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -38,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RenderedImageFactory#create(ParameterBlock, RenderingHints) public abstract java.awt.image.RenderedImage
+     * {@link java.awt.image.renderable.RenderedImageFactory#create(java.awt.image.renderable.ParameterBlock, java.awt.RenderingHints)
+     * public abstract java.awt.image.RenderedImage
      * java.awt.image.renderable.RenderedImageFactory.create(java.awt.image.renderable.ParameterBlock,java.awt.RenderingHints)}
      * .
      *

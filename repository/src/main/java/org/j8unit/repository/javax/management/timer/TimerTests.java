@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.management.timer;
 
-import java.util.Date;
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
 import javax.management.timer.Timer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getFixedRate(Integer) public synchronized
-     * java.lang.Boolean javax.management.timer.Timer.getFixedRate(java.lang.Integer)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#getFixedRate(Integer)
+     * public synchronized java.lang.Boolean javax.management.timer.Timer.getFixedRate(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +58,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#postDeregister() public void
-     * javax.management.timer.Timer.postDeregister()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#postDeregister() public
+     * void javax.management.timer.Timer.postDeregister()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +81,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getNotificationMessage(Integer) public
-     * synchronized java.lang.String javax.management.timer.Timer.getNotificationMessage(java.lang.Integer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#getNotificationMessage(Integer) public synchronized java.lang.String
+     * javax.management.timer.Timer.getNotificationMessage(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +105,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getPeriod(Integer) public synchronized
-     * java.lang.Long javax.management.timer.Timer.getPeriod(java.lang.Integer)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#getPeriod(Integer)
+     * public synchronized java.lang.Long javax.management.timer.Timer.getPeriod(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +128,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#isActive() public boolean
-     * javax.management.timer.Timer.isActive()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#isActive() public
+     * boolean javax.management.timer.Timer.isActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +151,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getNotificationInfo() public synchronized
-     * javax.management.MBeanNotificationInfo[] javax.management.timer.Timer.getNotificationInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#getNotificationInfo()
+     * public synchronized javax.management.MBeanNotificationInfo[] javax.management.timer.Timer.getNotificationInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,8 +174,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getNotificationUserData(Integer) public
-     * synchronized java.lang.Object javax.management.timer.Timer.getNotificationUserData(java.lang.Integer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#getNotificationUserData(Integer) public synchronized java.lang.Object
+     * javax.management.timer.Timer.getNotificationUserData(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,7 +198,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getSendPastNotifications() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#getSendPastNotifications() public boolean
      * javax.management.timer.Timer.getSendPastNotifications()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -222,58 +222,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#addNotification(String, String, Object, Date)
-     * public synchronized java.lang.Integer
-     * javax.management.timer.Timer.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date)
-     * throws java.lang.IllegalArgumentException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addNotification_String_String_Object_Date()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Timer#addNotification(String, String, Object, Date, long) public synchronized java.lang.Integer
-     * javax.management.timer.Timer.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long)
-     * throws java.lang.IllegalArgumentException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addNotification_String_String_Object_Date_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link Timer#addNotification(String, String, Object, Date, long, long) public synchronized java.lang.Integer
+     * {@link javax.management.timer.Timer#addNotification(String, String, Object, java.util.Date, long, long) public
+     * synchronized java.lang.Integer
      * javax.management.timer.Timer.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long,long)
      * throws java.lang.IllegalArgumentException}.
      *
@@ -298,8 +249,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Timer#addNotification(String, String, Object, Date, long, long, boolean) public synchronized
-     * java.lang.Integer
+     * {@link javax.management.timer.Timer#addNotification(String, String, Object, java.util.Date, long, long, boolean)
+     * public synchronized java.lang.Integer
      * javax.management.timer.Timer.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long,long,boolean)
      * throws java.lang.IllegalArgumentException}.
      *
@@ -323,8 +274,61 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getNotificationIDs(String) public synchronized
-     * java.util.Vector<java.lang.Integer> javax.management.timer.Timer.getNotificationIDs(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#addNotification(String, String, Object, java.util.Date) public synchronized
+     * java.lang.Integer
+     * javax.management.timer.Timer.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date)
+     * throws java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addNotification_String_String_Object_Date()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#addNotification(String, String, Object, java.util.Date, long) public
+     * synchronized java.lang.Integer
+     * javax.management.timer.Timer.addNotification(java.lang.String,java.lang.String,java.lang.Object,java.util.Date,long)
+     * throws java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addNotification_String_String_Object_Date_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#getNotificationIDs(String) public synchronized java.util.Vector
+     * <java.lang.Integer> javax.management.timer.Timer.getNotificationIDs(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,8 +350,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#removeNotifications(String) public
-     * synchronized void javax.management.timer.Timer.removeNotifications(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#removeNotifications(String) public synchronized void
+     * javax.management.timer.Timer.removeNotifications(java.lang.String) throws
      * javax.management.InstanceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -370,8 +375,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getNotificationType(Integer) public
-     * synchronized java.lang.String javax.management.timer.Timer.getNotificationType(java.lang.Integer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#getNotificationType(Integer) public synchronized java.lang.String
+     * javax.management.timer.Timer.getNotificationType(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -393,7 +399,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#preRegister(MBeanServer, ObjectName) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#preRegister(javax.management.MBeanServer, javax.management.ObjectName) public
      * javax.management.ObjectName
      * javax.management.timer.Timer.preRegister(javax.management.MBeanServer,javax.management.ObjectName) throws
      * java.lang.Exception}.
@@ -418,8 +425,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getNbNotifications() public synchronized int
-     * javax.management.timer.Timer.getNbNotifications()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#getNbNotifications()
+     * public synchronized int javax.management.timer.Timer.getNbNotifications()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -441,8 +448,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getDate(Integer) public synchronized
-     * java.util.Date javax.management.timer.Timer.getDate(java.lang.Integer)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#getDate(Integer) public
+     * synchronized java.util.Date javax.management.timer.Timer.getDate(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -464,8 +471,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#preDeregister() public void
-     * javax.management.timer.Timer.preDeregister() throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#preDeregister() public
+     * void javax.management.timer.Timer.preDeregister() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -487,8 +494,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#removeNotification(Integer) public
-     * synchronized void javax.management.timer.Timer.removeNotification(java.lang.Integer) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#removeNotification(Integer) public synchronized void
+     * javax.management.timer.Timer.removeNotification(java.lang.Integer) throws
      * javax.management.InstanceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -511,7 +519,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#setSendPastNotifications(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#setSendPastNotifications(boolean) public void
      * javax.management.timer.Timer.setSendPastNotifications(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -534,8 +543,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getAllNotificationIDs() public synchronized
-     * java.util.Vector<java.lang.Integer> javax.management.timer.Timer.getAllNotificationIDs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#getAllNotificationIDs()
+     * public synchronized java.util.Vector<java.lang.Integer> javax.management.timer.Timer.getAllNotificationIDs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -557,8 +566,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#start() public synchronized void
-     * javax.management.timer.Timer.start()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#start() public
+     * synchronized void javax.management.timer.Timer.start()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -580,8 +589,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#isEmpty() public synchronized boolean
-     * javax.management.timer.Timer.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#isEmpty() public
+     * synchronized boolean javax.management.timer.Timer.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -603,8 +612,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#getNbOccurences(Integer) public synchronized
-     * java.lang.Long javax.management.timer.Timer.getNbOccurences(java.lang.Integer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#getNbOccurences(Integer) public synchronized java.lang.Long
+     * javax.management.timer.Timer.getNbOccurences(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -626,8 +636,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#stop() public synchronized void
-     * javax.management.timer.Timer.stop()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#stop() public
+     * synchronized void javax.management.timer.Timer.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -649,8 +659,9 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#removeAllNotifications() public synchronized
-     * void javax.management.timer.Timer.removeAllNotifications()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.Timer#removeAllNotifications() public synchronized void
+     * javax.management.timer.Timer.removeAllNotifications()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -672,8 +683,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#postRegister(Boolean) public void
-     * javax.management.timer.Timer.postRegister(java.lang.Boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.timer.Timer#postRegister(Boolean)
+     * public void javax.management.timer.Timer.postRegister(java.lang.Boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.IOP.ServiceContext;
 import org.omg.PortableInterceptor.ClientRequestInfoOperations;
 
 /**
@@ -36,8 +35,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClientRequestInfoOperations#received_exception()
-     * public abstract org.omg.CORBA.Any org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception() public abstract
+     * org.omg.CORBA.Any org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClientRequestInfoOperations#target() public abstract
-     * org.omg.CORBA.Object org.omg.PortableInterceptor.ClientRequestInfoOperations.target()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#target() public abstract org.omg.CORBA.Object
+     * org.omg.PortableInterceptor.ClientRequestInfoOperations.target()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,9 +81,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClientRequestInfoOperations#received_exception_id()
-     * public abstract java.lang.String org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception_id()}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception_id() public abstract
+     * java.lang.String org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +105,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClientRequestInfoOperations#get_effective_components(int) public abstract org.omg.IOP.TaggedComponent[]
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#get_effective_components(int) public abstract
+     * org.omg.IOP.TaggedComponent[]
      * org.omg.PortableInterceptor.ClientRequestInfoOperations.get_effective_components(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,9 +128,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClientRequestInfoOperations#effective_profile()
-     * public abstract org.omg.IOP.TaggedProfile
-     * org.omg.PortableInterceptor.ClientRequestInfoOperations.effective_profile()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#effective_profile() public abstract
+     * org.omg.IOP.TaggedProfile org.omg.PortableInterceptor.ClientRequestInfoOperations.effective_profile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +152,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClientRequestInfoOperations#get_effective_component(int) public abstract org.omg.IOP.TaggedComponent
-     * org.omg.PortableInterceptor.ClientRequestInfoOperations.get_effective_component(int)}.
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#get_effective_component(int) public abstract
+     * org.omg.IOP.TaggedComponent org.omg.PortableInterceptor.ClientRequestInfoOperations.get_effective_component(int)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,7 +176,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClientRequestInfoOperations#add_request_service_context(ServiceContext, boolean) public abstract void
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#add_request_service_context(org.omg.IOP.ServiceContext, boolean)
+     * public abstract void
      * org.omg.PortableInterceptor.ClientRequestInfoOperations.add_request_service_context(org.omg.IOP.ServiceContext,boolean)}
      * .
      *
@@ -196,9 +200,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClientRequestInfoOperations#get_request_policy(int)
-     * public abstract org.omg.CORBA.Policy
-     * org.omg.PortableInterceptor.ClientRequestInfoOperations.get_request_policy(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#get_request_policy(int) public abstract
+     * org.omg.CORBA.Policy org.omg.PortableInterceptor.ClientRequestInfoOperations.get_request_policy(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,8 +223,9 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClientRequestInfoOperations#effective_target()
-     * public abstract org.omg.CORBA.Object org.omg.PortableInterceptor.ClientRequestInfoOperations.effective_target()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#effective_target() public abstract
+     * org.omg.CORBA.Object org.omg.PortableInterceptor.ClientRequestInfoOperations.effective_target()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

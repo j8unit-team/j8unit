@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.monitor;
 
-import javax.management.ObjectName;
 import javax.management.monitor.CounterMonitorMBean;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getDifferenceMode() public
-     * abstract boolean javax.management.monitor.CounterMonitorMBean.getDifferenceMode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getDifferenceMode() public abstract boolean
+     * javax.management.monitor.CounterMonitorMBean.getDifferenceMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#setThreshold(Number) public
-     * abstract void javax.management.monitor.CounterMonitorMBean.setThreshold(java.lang.Number) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#setThreshold(Number) public abstract void
+     * javax.management.monitor.CounterMonitorMBean.setThreshold(java.lang.Number) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +81,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#setInitThreshold(Number) public
-     * abstract void javax.management.monitor.CounterMonitorMBean.setInitThreshold(java.lang.Number) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#setInitThreshold(Number) public abstract void
+     * javax.management.monitor.CounterMonitorMBean.setInitThreshold(java.lang.Number) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +105,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getOffset() public abstract
-     * java.lang.Number javax.management.monitor.CounterMonitorMBean.getOffset()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getOffset() public abstract java.lang.Number
+     * javax.management.monitor.CounterMonitorMBean.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +128,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getNotify() public abstract
-     * boolean javax.management.monitor.CounterMonitorMBean.getNotify()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getNotify() public abstract boolean
+     * javax.management.monitor.CounterMonitorMBean.getNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,9 +151,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getDerivedGauge(ObjectName)
-     * public abstract java.lang.Number
-     * javax.management.monitor.CounterMonitorMBean.getDerivedGauge(javax.management.ObjectName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getDerivedGauge(javax.management.ObjectName) public abstract
+     * java.lang.Number javax.management.monitor.CounterMonitorMBean.getDerivedGauge(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +174,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getDerivedGauge() public
-     * abstract java.lang.Number javax.management.monitor.CounterMonitorMBean.getDerivedGauge()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getDerivedGauge() public abstract java.lang.Number
+     * javax.management.monitor.CounterMonitorMBean.getDerivedGauge()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +197,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getInitThreshold() public
-     * abstract java.lang.Number javax.management.monitor.CounterMonitorMBean.getInitThreshold()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getInitThreshold() public abstract java.lang.Number
+     * javax.management.monitor.CounterMonitorMBean.getInitThreshold()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +220,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getThreshold() public abstract
-     * java.lang.Number javax.management.monitor.CounterMonitorMBean.getThreshold()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getThreshold() public abstract java.lang.Number
+     * javax.management.monitor.CounterMonitorMBean.getThreshold()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,9 +243,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getThreshold(ObjectName) public
-     * abstract java.lang.Number javax.management.monitor.CounterMonitorMBean.getThreshold(javax.management.ObjectName)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getThreshold(javax.management.ObjectName) public abstract
+     * java.lang.Number javax.management.monitor.CounterMonitorMBean.getThreshold(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +266,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#setNotify(boolean) public
-     * abstract void javax.management.monitor.CounterMonitorMBean.setNotify(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#setNotify(boolean) public abstract void
+     * javax.management.monitor.CounterMonitorMBean.setNotify(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +289,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getModulus() public abstract
-     * java.lang.Number javax.management.monitor.CounterMonitorMBean.getModulus()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getModulus() public abstract java.lang.Number
+     * javax.management.monitor.CounterMonitorMBean.getModulus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,8 +312,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#setOffset(Number) public
-     * abstract void javax.management.monitor.CounterMonitorMBean.setOffset(java.lang.Number) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#setOffset(Number) public abstract void
+     * javax.management.monitor.CounterMonitorMBean.setOffset(java.lang.Number) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -327,8 +337,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CounterMonitorMBean#getDerivedGaugeTimeStamp(ObjectName) public abstract long
-     * javax.management.monitor.CounterMonitorMBean.getDerivedGaugeTimeStamp(javax.management.ObjectName)}.
+     * {@link javax.management.monitor.CounterMonitorMBean#getDerivedGaugeTimeStamp(javax.management.ObjectName) public
+     * abstract long javax.management.monitor.CounterMonitorMBean.getDerivedGaugeTimeStamp(javax.management.ObjectName)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -349,8 +360,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#getDerivedGaugeTimeStamp()
-     * public abstract long javax.management.monitor.CounterMonitorMBean.getDerivedGaugeTimeStamp()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getDerivedGaugeTimeStamp() public abstract long
+     * javax.management.monitor.CounterMonitorMBean.getDerivedGaugeTimeStamp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,8 +383,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#setModulus(Number) public
-     * abstract void javax.management.monitor.CounterMonitorMBean.setModulus(java.lang.Number) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#setModulus(Number) public abstract void
+     * javax.management.monitor.CounterMonitorMBean.setModulus(java.lang.Number) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -394,8 +407,9 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CounterMonitorMBean#setDifferenceMode(boolean)
-     * public abstract void javax.management.monitor.CounterMonitorMBean.setDifferenceMode(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#setDifferenceMode(boolean) public abstract void
+     * javax.management.monitor.CounterMonitorMBean.setDifferenceMode(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

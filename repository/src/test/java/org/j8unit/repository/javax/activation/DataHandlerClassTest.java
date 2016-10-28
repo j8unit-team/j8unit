@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.activation;
 
-import java.net.URL;
-import javax.activation.DataContentHandlerFactory;
 import javax.activation.DataHandler;
-import javax.activation.DataSource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +21,8 @@ implements org.j8unit.repository.javax.activation.DataHandlerClassTests<DataHand
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataHandler#DataHandler(URL) public
-     * javax.activation.DataHandler(java.net.URL)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.DataHandler#DataHandler(java.net.URL) public javax.activation.DataHandler(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,12 +38,13 @@ implements org.j8unit.repository.javax.activation.DataHandlerClassTests<DataHand
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DataHandler sut = null; // = new DataHandler(URL);
+        final DataHandler sut = null; // = new DataHandler(java.net.URL);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataHandler#DataHandler(Object, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.DataHandler#DataHandler(Object, String) public
      * javax.activation.DataHandler(java.lang.Object,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +66,8 @@ implements org.j8unit.repository.javax.activation.DataHandlerClassTests<DataHand
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataHandler#DataHandler(DataSource) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.DataHandler#DataHandler(javax.activation.DataSource) public
      * javax.activation.DataHandler(javax.activation.DataSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,13 +84,14 @@ implements org.j8unit.repository.javax.activation.DataHandlerClassTests<DataHand
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DataHandler sut = null; // = new DataHandler(DataSource);
+        final DataHandler sut = null; // = new DataHandler(javax.activation.DataSource);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DataHandler#setDataContentHandlerFactory(DataContentHandlerFactory) public static synchronized void
+     * {@link javax.activation.DataHandler#setDataContentHandlerFactory(javax.activation.DataContentHandlerFactory)
+     * public static synchronized void
      * javax.activation.DataHandler.setDataContentHandlerFactory(javax.activation.DataContentHandlerFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +106,8 @@ implements org.j8unit.repository.javax.activation.DataHandlerClassTests<DataHand
     @Category(Draft.class)
     public void test_setDataContentHandlerFactory_DataContentHandlerFactory()
     throws Exception {
-        // write some test for {@link DataHandler#setDataContentHandlerFactory(DataContentHandlerFactory)}
+        // write some test for {@link
+        // javax.activation.DataHandler#setDataContentHandlerFactory(javax.activation.DataContentHandlerFactory)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.DataHandler]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.EventClassTests<Event> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Event#Event(Object, long, int, int, int, int, int) public
+     * {@link java.awt.Event#Event(Object, long, int, int, int, int, int) public
      * java.awt.Event(java.lang.Object,long,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.awt.EventClassTests<Event> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Event#Event(Object, long, int, int, int, int, int, Object) public
+     * {@link java.awt.Event#Event(Object, long, int, int, int, int, int, Object) public
      * java.awt.Event(java.lang.Object,long,int,int,int,int,int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,8 @@ implements org.j8unit.repository.java.awt.EventClassTests<Event> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Event#Event(Object, int, Object) public
-     * java.awt.Event(java.lang.Object,int,java.lang.Object)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Event#Event(Object, int, Object)
+     * public java.awt.Event(java.lang.Object,int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

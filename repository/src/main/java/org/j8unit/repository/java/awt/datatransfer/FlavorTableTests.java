@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
-import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.FlavorTable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlavorTable#getNativesForFlavor(DataFlavor) public
-     * abstract java.util.List
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.FlavorTable#getNativesForFlavor(java.awt.datatransfer.DataFlavor) public abstract
+     * java.util.List
      * <java.lang.String> java.awt.datatransfer.FlavorTable.getNativesForFlavor(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlavorTable#getFlavorsForNative(String) public
-     * abstract java.util.List
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.FlavorTable#getFlavorsForNative(String) public abstract java.util.List
      * <java.awt.datatransfer.DataFlavor> java.awt.datatransfer.FlavorTable.getFlavorsForNative(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

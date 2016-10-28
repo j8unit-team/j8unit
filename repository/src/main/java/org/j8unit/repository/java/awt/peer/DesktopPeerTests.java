@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.peer;
 
-import java.awt.Desktop.Action;
 import java.awt.peer.DesktopPeer;
-import java.io.File;
-import java.net.URI;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DesktopPeer#mail(URI) public abstract void
-     * java.awt.peer.DesktopPeer.mail(java.net.URI) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.DesktopPeer#mail(java.net.URI) public
+     * abstract void java.awt.peer.DesktopPeer.mail(java.net.URI) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DesktopPeer#edit(File) public abstract void
-     * java.awt.peer.DesktopPeer.edit(java.io.File) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.DesktopPeer#edit(java.io.File) public
+     * abstract void java.awt.peer.DesktopPeer.edit(java.io.File) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DesktopPeer#print(File) public abstract void
-     * java.awt.peer.DesktopPeer.print(java.io.File) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.DesktopPeer#print(java.io.File) public
+     * abstract void java.awt.peer.DesktopPeer.print(java.io.File) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DesktopPeer#open(File) public abstract void
-     * java.awt.peer.DesktopPeer.open(java.io.File) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.DesktopPeer#open(java.io.File) public
+     * abstract void java.awt.peer.DesktopPeer.open(java.io.File) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DesktopPeer#browse(URI) public abstract void
-     * java.awt.peer.DesktopPeer.browse(java.net.URI) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.DesktopPeer#browse(java.net.URI)
+     * public abstract void java.awt.peer.DesktopPeer.browse(java.net.URI) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +145,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DesktopPeer#isSupported(Action) public abstract
-     * boolean java.awt.peer.DesktopPeer.isSupported(java.awt.Desktop$Action)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.peer.DesktopPeer#isSupported(java.awt.Desktop.Action) public abstract boolean
+     * java.awt.peer.DesktopPeer.isSupported(java.awt.Desktop$Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

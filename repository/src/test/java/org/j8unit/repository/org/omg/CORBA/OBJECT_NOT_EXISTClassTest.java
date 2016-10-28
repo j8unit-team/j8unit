@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.OBJECT_NOT_EXIST;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTClassTests<OBJECT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OBJECT_NOT_EXIST#OBJECT_NOT_EXIST(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.OBJECT_NOT_EXIST#OBJECT_NOT_EXIST(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.OBJECT_NOT_EXIST(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTClassTests<OBJECT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OBJECT_NOT_EXIST sut = null; // = new OBJECT_NOT_EXIST(String, int, CompletionStatus);
+        final OBJECT_NOT_EXIST sut = null; // = new OBJECT_NOT_EXIST(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OBJECT_NOT_EXIST#OBJECT_NOT_EXIST(int, CompletionStatus) public
+     * {@link org.omg.CORBA.OBJECT_NOT_EXIST#OBJECT_NOT_EXIST(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.OBJECT_NOT_EXIST(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +62,14 @@ implements org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTClassTests<OBJECT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OBJECT_NOT_EXIST sut = null; // = new OBJECT_NOT_EXIST(int, CompletionStatus);
+        final OBJECT_NOT_EXIST sut = null; // = new OBJECT_NOT_EXIST(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OBJECT_NOT_EXIST#OBJECT_NOT_EXIST(String)
-     * public org.omg.CORBA.OBJECT_NOT_EXIST(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.OBJECT_NOT_EXIST#OBJECT_NOT_EXIST(String) public
+     * org.omg.CORBA.OBJECT_NOT_EXIST(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,8 +90,8 @@ implements org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTClassTests<OBJECT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OBJECT_NOT_EXIST#OBJECT_NOT_EXIST() public
-     * org.omg.CORBA.OBJECT_NOT_EXIST()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.OBJECT_NOT_EXIST#OBJECT_NOT_EXIST() public org.omg.CORBA.OBJECT_NOT_EXIST()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

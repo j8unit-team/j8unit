@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.beancontext.BeanContextServices;
 import java.beans.beancontext.BeanContextServicesSupport;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +23,7 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServicesSuppo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BeanContextServicesSupport#BeanContextServicesSupport() public
+     * {@link java.beans.beancontext.BeanContextServicesSupport#BeanContextServicesSupport() public
      * java.beans.beancontext.BeanContextServicesSupport()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,8 +45,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServicesSuppo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BeanContextServicesSupport#BeanContextServicesSupport(BeanContextServices) public
-     * java.beans.beancontext.BeanContextServicesSupport(java.beans.beancontext.BeanContextServices)}.
+     * {@link java.beans.beancontext.BeanContextServicesSupport#BeanContextServicesSupport(java.beans.beancontext.BeanContextServices)
+     * public java.beans.beancontext.BeanContextServicesSupport(java.beans.beancontext.BeanContextServices)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,13 +62,15 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServicesSuppo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BeanContextServicesSupport sut = null; // = new BeanContextServicesSupport(BeanContextServices);
+        final BeanContextServicesSupport sut = null; // = new
+                                                     // BeanContextServicesSupport(java.beans.beancontext.BeanContextServices);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BeanContextServicesSupport#BeanContextServicesSupport(BeanContextServices, Locale) public
+     * {@link java.beans.beancontext.BeanContextServicesSupport#BeanContextServicesSupport(java.beans.beancontext.BeanContextServices, java.util.Locale)
+     * public
      * java.beans.beancontext.BeanContextServicesSupport(java.beans.beancontext.BeanContextServices,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,13 +87,16 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServicesSuppo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BeanContextServicesSupport sut = null; // = new BeanContextServicesSupport(BeanContextServices, Locale);
+        final BeanContextServicesSupport sut = null; // = new
+                                                     // BeanContextServicesSupport(java.beans.beancontext.BeanContextServices,
+                                                     // java.util.Locale);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BeanContextServicesSupport#BeanContextServicesSupport(BeanContextServices, Locale, boolean) public
+     * {@link java.beans.beancontext.BeanContextServicesSupport#BeanContextServicesSupport(java.beans.beancontext.BeanContextServices, java.util.Locale, boolean)
+     * public
      * java.beans.beancontext.BeanContextServicesSupport(java.beans.beancontext.BeanContextServices,java.util.Locale,boolean)}
      * .
      *
@@ -111,14 +114,15 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServicesSuppo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BeanContextServicesSupport sut = null; // = new BeanContextServicesSupport(BeanContextServices, Locale,
-                                                     // boolean);
+        final BeanContextServicesSupport sut = null; // = new
+                                                     // BeanContextServicesSupport(java.beans.beancontext.BeanContextServices,
+                                                     // java.util.Locale, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BeanContextServicesSupport#BeanContextServicesSupport(BeanContextServices, Locale, boolean, boolean)
+     * {@link java.beans.beancontext.BeanContextServicesSupport#BeanContextServicesSupport(java.beans.beancontext.BeanContextServices, java.util.Locale, boolean, boolean)
      * public
      * java.beans.beancontext.BeanContextServicesSupport(java.beans.beancontext.BeanContextServices,java.util.Locale,boolean,boolean)}
      * .
@@ -137,8 +141,9 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServicesSuppo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BeanContextServicesSupport sut = null; // = new BeanContextServicesSupport(BeanContextServices, Locale,
-                                                     // boolean, boolean);
+        final BeanContextServicesSupport sut = null; // = new
+                                                     // BeanContextServicesSupport(java.beans.beancontext.BeanContextServices,
+                                                     // java.util.Locale, boolean, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServicesSupport]

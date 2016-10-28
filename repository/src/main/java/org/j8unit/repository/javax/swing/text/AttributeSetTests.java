@@ -39,8 +39,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#containsAttribute(Object, Object)
-     * public abstract boolean javax.swing.text.AttributeSet.containsAttribute(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AttributeSet#containsAttribute(Object, Object) public abstract boolean
+     * javax.swing.text.AttributeSet.containsAttribute(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +62,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#copyAttributes() public abstract
-     * javax.swing.text.AttributeSet javax.swing.text.AttributeSet.copyAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AttributeSet#copyAttributes()
+     * public abstract javax.swing.text.AttributeSet javax.swing.text.AttributeSet.copyAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +84,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#getAttributeCount() public abstract int
-     * javax.swing.text.AttributeSet.getAttributeCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AttributeSet#getAttributeCount()
+     * public abstract int javax.swing.text.AttributeSet.getAttributeCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +106,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#getAttributeNames() public abstract
-     * java.util.Enumeration<?> javax.swing.text.AttributeSet.getAttributeNames()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AttributeSet#getAttributeNames()
+     * public abstract java.util.Enumeration<?> javax.swing.text.AttributeSet.getAttributeNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +128,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#containsAttributes(AttributeSet) public
-     * abstract boolean javax.swing.text.AttributeSet.containsAttributes(javax.swing.text.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AttributeSet#containsAttributes(javax.swing.text.AttributeSet) public abstract boolean
+     * javax.swing.text.AttributeSet.containsAttributes(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +151,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#isEqual(AttributeSet) public abstract
-     * boolean javax.swing.text.AttributeSet.isEqual(javax.swing.text.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AttributeSet#isEqual(javax.swing.text.AttributeSet) public abstract boolean
+     * javax.swing.text.AttributeSet.isEqual(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +174,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#isDefined(Object) public abstract
-     * boolean javax.swing.text.AttributeSet.isDefined(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AttributeSet#isDefined(Object)
+     * public abstract boolean javax.swing.text.AttributeSet.isDefined(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +196,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#getResolveParent() public abstract
-     * javax.swing.text.AttributeSet javax.swing.text.AttributeSet.getResolveParent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AttributeSet#getResolveParent()
+     * public abstract javax.swing.text.AttributeSet javax.swing.text.AttributeSet.getResolveParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +218,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeSet#getAttribute(Object) public abstract
-     * java.lang.Object javax.swing.text.AttributeSet.getAttribute(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AttributeSet#getAttribute(Object)
+     * public abstract java.lang.Object javax.swing.text.AttributeSet.getAttribute(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,35 +239,6 @@ extends RepositoryTests<SUT> {
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet]
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link CharacterAttribute public abstract static interface javax.swing.text.AttributeSet$CharacterAttribute}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface CharacterAttributeTests<SUT extends CharacterAttribute>
-    extends RepositoryTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
-
-    }
 
     /**
      * <p>
@@ -292,6 +266,35 @@ extends RepositoryTests<SUT> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link FontAttribute public abstract static interface javax.swing.text.AttributeSet$FontAttribute}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.FontAttributeClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface FontAttributeTests<SUT extends FontAttribute>
+    extends RepositoryTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
 
     }
 
@@ -328,13 +331,13 @@ extends RepositoryTests<SUT> {
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link FontAttribute public abstract static interface javax.swing.text.AttributeSet$FontAttribute}.
+     * {@link CharacterAttribute public abstract static interface javax.swing.text.AttributeSet$CharacterAttribute}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.FontAttributeClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests}).
      * </p>
      *
      * @param SUT
@@ -344,12 +347,12 @@ extends RepositoryTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FontAttributeTests<SUT extends FontAttribute>
+    public static abstract interface CharacterAttributeTests<SUT extends CharacterAttribute>
     extends RepositoryTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
 
     }
 

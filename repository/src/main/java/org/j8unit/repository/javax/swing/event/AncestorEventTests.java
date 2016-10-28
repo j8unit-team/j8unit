@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AncestorEvent#getComponent() public
-     * javax.swing.JComponent javax.swing.event.AncestorEvent.getComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.AncestorEvent#getComponent()
+     * public javax.swing.JComponent javax.swing.event.AncestorEvent.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AncestorEvent#getAncestorParent() public
-     * java.awt.Container javax.swing.event.AncestorEvent.getAncestorParent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.AncestorEvent#getAncestorParent()
+     * public java.awt.Container javax.swing.event.AncestorEvent.getAncestorParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AncestorEvent#getAncestor() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.AncestorEvent#getAncestor() public
      * java.awt.Container javax.swing.event.AncestorEvent.getAncestor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

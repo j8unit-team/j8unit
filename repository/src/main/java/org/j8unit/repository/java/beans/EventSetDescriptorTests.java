@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#getListenerType() public
-     * java.lang.Class<?> java.beans.EventSetDescriptor.getListenerType()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventSetDescriptor#getListenerType()
+     * public java.lang.Class<?> java.beans.EventSetDescriptor.getListenerType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#getListenerMethods() public
-     * synchronized java.lang.reflect.Method[] java.beans.EventSetDescriptor.getListenerMethods()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventSetDescriptor#getListenerMethods()
+     * public synchronized java.lang.reflect.Method[] java.beans.EventSetDescriptor.getListenerMethods()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,9 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#getRemoveListenerMethod() public
-     * synchronized java.lang.reflect.Method java.beans.EventSetDescriptor.getRemoveListenerMethod()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.EventSetDescriptor#getRemoveListenerMethod() public synchronized java.lang.reflect.Method
+     * java.beans.EventSetDescriptor.getRemoveListenerMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#isInDefaultEventSet() public
-     * boolean java.beans.EventSetDescriptor.isInDefaultEventSet()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventSetDescriptor#isInDefaultEventSet()
+     * public boolean java.beans.EventSetDescriptor.isInDefaultEventSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#setUnicast(boolean) public void
-     * java.beans.EventSetDescriptor.setUnicast(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventSetDescriptor#setUnicast(boolean)
+     * public void java.beans.EventSetDescriptor.setUnicast(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#getAddListenerMethod() public
-     * synchronized java.lang.reflect.Method java.beans.EventSetDescriptor.getAddListenerMethod()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventSetDescriptor#getAddListenerMethod()
+     * public synchronized java.lang.reflect.Method java.beans.EventSetDescriptor.getAddListenerMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +167,9 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#setInDefaultEventSet(boolean)
-     * public void java.beans.EventSetDescriptor.setInDefaultEventSet(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.EventSetDescriptor#setInDefaultEventSet(boolean) public void
+     * java.beans.EventSetDescriptor.setInDefaultEventSet(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +190,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#isUnicast() public boolean
-     * java.beans.EventSetDescriptor.isUnicast()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventSetDescriptor#isUnicast() public
+     * boolean java.beans.EventSetDescriptor.isUnicast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +212,9 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#getListenerMethodDescriptors()
-     * public synchronized java.beans.MethodDescriptor[] java.beans.EventSetDescriptor.getListenerMethodDescriptors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.EventSetDescriptor#getListenerMethodDescriptors() public synchronized
+     * java.beans.MethodDescriptor[] java.beans.EventSetDescriptor.getListenerMethodDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +235,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventSetDescriptor#getGetListenerMethod() public
-     * synchronized java.lang.reflect.Method java.beans.EventSetDescriptor.getGetListenerMethod()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.EventSetDescriptor#getGetListenerMethod()
+     * public synchronized java.lang.reflect.Method java.beans.EventSetDescriptor.getGetListenerMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

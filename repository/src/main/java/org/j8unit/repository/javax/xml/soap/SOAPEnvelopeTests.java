@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPEnvelope#createName(String, String, String)
-     * public abstract javax.xml.soap.Name
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPEnvelope#createName(String, String, String) public abstract javax.xml.soap.Name
      * javax.xml.soap.SOAPEnvelope.createName(java.lang.String,java.lang.String,java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
@@ -58,9 +58,9 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPEnvelope#createName(String) public abstract
-     * javax.xml.soap.Name javax.xml.soap.SOAPEnvelope.createName(java.lang.String) throws javax.xml.soap.SOAPException}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPEnvelope#createName(String)
+     * public abstract javax.xml.soap.Name javax.xml.soap.SOAPEnvelope.createName(java.lang.String) throws
+     * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPEnvelope#getHeader() public abstract
-     * javax.xml.soap.SOAPHeader javax.xml.soap.SOAPEnvelope.getHeader() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPEnvelope#getHeader() public
+     * abstract javax.xml.soap.SOAPHeader javax.xml.soap.SOAPEnvelope.getHeader() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPEnvelope#getBody() public abstract
-     * javax.xml.soap.SOAPBody javax.xml.soap.SOAPEnvelope.getBody() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPEnvelope#getBody() public
+     * abstract javax.xml.soap.SOAPBody javax.xml.soap.SOAPEnvelope.getBody() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPEnvelope#addBody() public abstract
-     * javax.xml.soap.SOAPBody javax.xml.soap.SOAPEnvelope.addBody() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPEnvelope#addBody() public
+     * abstract javax.xml.soap.SOAPBody javax.xml.soap.SOAPEnvelope.addBody() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPEnvelope#addHeader() public abstract
-     * javax.xml.soap.SOAPHeader javax.xml.soap.SOAPEnvelope.addHeader() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPEnvelope#addHeader() public
+     * abstract javax.xml.soap.SOAPHeader javax.xml.soap.SOAPEnvelope.addHeader() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

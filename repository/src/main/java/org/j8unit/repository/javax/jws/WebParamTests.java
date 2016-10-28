@@ -35,7 +35,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebParam#mode() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebParam#mode() public abstract
      * javax.jws.WebParam$Mode javax.jws.WebParam.mode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebParam#targetNamespace() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebParam#targetNamespace() public abstract
      * java.lang.String javax.jws.WebParam.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebParam#header() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebParam#header() public abstract boolean
      * javax.jws.WebParam.header()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebParam#name() public abstract java.lang.String
-     * javax.jws.WebParam.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebParam#name() public abstract
+     * java.lang.String javax.jws.WebParam.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebParam#partName() public abstract java.lang.String
-     * javax.jws.WebParam.partName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebParam#partName() public abstract
+     * java.lang.String javax.jws.WebParam.partName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

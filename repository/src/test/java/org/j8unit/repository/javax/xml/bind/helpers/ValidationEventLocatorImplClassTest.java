@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.w3c.dom.Node;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXParseException;
 
 @RunWith(J8Unit4.class)
 public class ValidationEventLocatorImplClassTest
@@ -25,7 +22,7 @@ implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorIm
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ValidationEventLocatorImpl#ValidationEventLocatorImpl(Object) public
+     * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(Object) public
      * javax.xml.bind.helpers.ValidationEventLocatorImpl(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -48,7 +45,7 @@ implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorIm
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ValidationEventLocatorImpl#ValidationEventLocatorImpl(Node) public
+     * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.w3c.dom.Node) public
      * javax.xml.bind.helpers.ValidationEventLocatorImpl(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,14 +62,14 @@ implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorIm
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ValidationEventLocatorImpl sut = null; // = new ValidationEventLocatorImpl(Node);
+        final ValidationEventLocatorImpl sut = null; // = new ValidationEventLocatorImpl(org.w3c.dom.Node);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ValidationEventLocatorImpl#ValidationEventLocatorImpl(SAXParseException) public
-     * javax.xml.bind.helpers.ValidationEventLocatorImpl(org.xml.sax.SAXParseException)}.
+     * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.xml.sax.SAXParseException)
+     * public javax.xml.bind.helpers.ValidationEventLocatorImpl(org.xml.sax.SAXParseException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,13 +85,13 @@ implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorIm
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ValidationEventLocatorImpl sut = null; // = new ValidationEventLocatorImpl(SAXParseException);
+        final ValidationEventLocatorImpl sut = null; // = new ValidationEventLocatorImpl(org.xml.sax.SAXParseException);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ValidationEventLocatorImpl#ValidationEventLocatorImpl(Locator) public
+     * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.xml.sax.Locator) public
      * javax.xml.bind.helpers.ValidationEventLocatorImpl(org.xml.sax.Locator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,13 +108,13 @@ implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorIm
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ValidationEventLocatorImpl sut = null; // = new ValidationEventLocatorImpl(Locator);
+        final ValidationEventLocatorImpl sut = null; // = new ValidationEventLocatorImpl(org.xml.sax.Locator);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ValidationEventLocatorImpl#ValidationEventLocatorImpl() public
+     * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl() public
      * javax.xml.bind.helpers.ValidationEventLocatorImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

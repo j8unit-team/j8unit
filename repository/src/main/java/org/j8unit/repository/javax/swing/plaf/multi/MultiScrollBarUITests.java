@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
 import javax.swing.plaf.multi.MultiScrollBarUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiScrollBarUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiScrollBarUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,8 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiScrollBarUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,9 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiScrollBarUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiScrollBarUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +106,9 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiScrollBarUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiScrollBarUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +130,9 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiScrollBarUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +155,8 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#getUIs() public
-     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiScrollBarUI.getUIs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiScrollBarUI#getUIs()
+     * public javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiScrollBarUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +177,9 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#contains(JComponent, int, int)
-     * public boolean javax.swing.plaf.multi.MultiScrollBarUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiScrollBarUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,7 +202,7 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiScrollBarUI#getAccessibleChildrenCount(JComponent) public int
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiScrollBarUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -221,7 +225,8 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiScrollBarUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,8 +249,9 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiScrollBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiScrollBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +273,9 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiScrollBarUI#update(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiScrollBarUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiScrollBarUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

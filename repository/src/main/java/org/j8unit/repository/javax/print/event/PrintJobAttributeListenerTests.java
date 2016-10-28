@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.event;
 
-import javax.print.event.PrintJobAttributeEvent;
 import javax.print.event.PrintJobAttributeListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrintJobAttributeListener#attributeUpdate(PrintJobAttributeEvent) public abstract void
+     * {@link javax.print.event.PrintJobAttributeListener#attributeUpdate(javax.print.event.PrintJobAttributeEvent)
+     * public abstract void
      * javax.print.event.PrintJobAttributeListener.attributeUpdate(javax.print.event.PrintJobAttributeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

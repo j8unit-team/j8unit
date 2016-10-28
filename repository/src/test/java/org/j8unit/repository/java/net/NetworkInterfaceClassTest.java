@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.net;
 
-import java.net.InetAddress;
 import java.net.NetworkInterface;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.net.NetworkInterfaceClassTests<NetworkInte
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getByName(String) public static
-     * java.net.NetworkInterface java.net.NetworkInterface.getByName(java.lang.String) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getByName(String) public
+     * static java.net.NetworkInterface java.net.NetworkInterface.getByName(java.lang.String) throws
+     * java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,14 +37,14 @@ implements org.j8unit.repository.java.net.NetworkInterfaceClassTests<NetworkInte
     @Category(Draft.class)
     public void test_getByName_String()
     throws Exception {
-        // write some test for {@link NetworkInterface#getByName(String)}
+        // write some test for {@link java.net.NetworkInterface#getByName(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getNetworkInterfaces() public
-     * static java.util.Enumeration<java.net.NetworkInterface> java.net.NetworkInterface.getNetworkInterfaces() throws
-     * java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getNetworkInterfaces()
+     * public static java.util.Enumeration<java.net.NetworkInterface> java.net.NetworkInterface.getNetworkInterfaces()
+     * throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,14 +58,14 @@ implements org.j8unit.repository.java.net.NetworkInterfaceClassTests<NetworkInte
     @Category(Draft.class)
     public void test_getNetworkInterfaces()
     throws Exception {
-        // write some test for {@link NetworkInterface#getNetworkInterfaces()}
+        // write some test for {@link java.net.NetworkInterface#getNetworkInterfaces()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getByInetAddress(InetAddress)
-     * public static java.net.NetworkInterface java.net.NetworkInterface.getByInetAddress(java.net.InetAddress) throws
-     * java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.NetworkInterface#getByInetAddress(java.net.InetAddress) public static java.net.NetworkInterface
+     * java.net.NetworkInterface.getByInetAddress(java.net.InetAddress) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,13 +79,13 @@ implements org.j8unit.repository.java.net.NetworkInterfaceClassTests<NetworkInte
     @Category(Draft.class)
     public void test_getByInetAddress_InetAddress()
     throws Exception {
-        // write some test for {@link NetworkInterface#getByInetAddress(InetAddress)}
+        // write some test for {@link java.net.NetworkInterface#getByInetAddress(java.net.InetAddress)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getByIndex(int) public static
-     * java.net.NetworkInterface java.net.NetworkInterface.getByIndex(int) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getByIndex(int) public
+     * static java.net.NetworkInterface java.net.NetworkInterface.getByIndex(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -99,7 +99,7 @@ implements org.j8unit.repository.java.net.NetworkInterfaceClassTests<NetworkInte
     @Category(Draft.class)
     public void test_getByIndex_int()
     throws Exception {
-        // write some test for {@link NetworkInterface#getByIndex(int)}
+        // write some test for {@link java.net.NetworkInterface#getByIndex(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.NetworkInterface]

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXException#getException() public
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.SAXException#getException() public
      * java.lang.Exception org.xml.sax.SAXException.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXException#getCause() public java.lang.Throwable
-     * org.xml.sax.SAXException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.SAXException#getCause() public
+     * java.lang.Throwable org.xml.sax.SAXException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXException#toString() public java.lang.String
-     * org.xml.sax.SAXException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.SAXException#toString() public
+     * java.lang.String org.xml.sax.SAXException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXException#getMessage() public java.lang.String
-     * org.xml.sax.SAXException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.SAXException#getMessage() public
+     * java.lang.String org.xml.sax.SAXException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

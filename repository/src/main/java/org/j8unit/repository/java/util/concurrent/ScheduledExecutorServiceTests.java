@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.concurrent.Callable;
 import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,8 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledExecutorService#scheduleAtFixedRate(Runnable, long, long, TimeUnit) public abstract
-     * java.util.concurrent.ScheduledFuture<?>
+     * {@link java.util.concurrent.ScheduledExecutorService#scheduleAtFixedRate(Runnable, long, long, java.util.concurrent.TimeUnit)
+     * public abstract java.util.concurrent.ScheduledFuture<?>
      * java.util.concurrent.ScheduledExecutorService.scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
      * .
      *
@@ -62,8 +60,8 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledExecutorService#schedule(Callable, long, TimeUnit) public abstract
-     * <V> java.util.concurrent.ScheduledFuture
+     * {@link java.util.concurrent.ScheduledExecutorService#schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+     * public abstract <V> java.util.concurrent.ScheduledFuture
      * <V> java.util.concurrent.ScheduledExecutorService.schedule(java.util.concurrent.Callable
      * <V>,long,java.util.concurrent.TimeUnit)}.
      *
@@ -87,8 +85,8 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledExecutorService#schedule(Runnable, long, TimeUnit) public abstract
-     * java.util.concurrent.ScheduledFuture<?>
+     * {@link java.util.concurrent.ScheduledExecutorService#schedule(Runnable, long, java.util.concurrent.TimeUnit)
+     * public abstract java.util.concurrent.ScheduledFuture<?>
      * java.util.concurrent.ScheduledExecutorService.schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,8 +109,8 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledExecutorService#scheduleWithFixedDelay(Runnable, long, long, TimeUnit) public abstract
-     * java.util.concurrent.ScheduledFuture<?>
+     * {@link java.util.concurrent.ScheduledExecutorService#scheduleWithFixedDelay(Runnable, long, long, java.util.concurrent.TimeUnit)
+     * public abstract java.util.concurrent.ScheduledFuture<?>
      * java.util.concurrent.ScheduledExecutorService.scheduleWithFixedDelay(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
      * .
      *

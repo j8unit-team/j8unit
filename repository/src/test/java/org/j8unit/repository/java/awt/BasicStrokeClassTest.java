@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.BasicStrokeClassTests<BasicStroke> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicStroke#BasicStroke() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.BasicStroke#BasicStroke() public
      * java.awt.BasicStroke()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.awt.BasicStrokeClassTests<BasicStroke> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicStroke#BasicStroke(float) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.BasicStroke#BasicStroke(float) public
      * java.awt.BasicStroke(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,8 +64,8 @@ implements org.j8unit.repository.java.awt.BasicStrokeClassTests<BasicStroke> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicStroke#BasicStroke(float, int, int) public
-     * java.awt.BasicStroke(float,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.BasicStroke#BasicStroke(float, int, int) public java.awt.BasicStroke(float,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,8 +86,9 @@ implements org.j8unit.repository.java.awt.BasicStrokeClassTests<BasicStroke> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicStroke#BasicStroke(float, int, int, float)
-     * public java.awt.BasicStroke(float,int,int,float)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.BasicStroke#BasicStroke(float, int, int, float) public java.awt.BasicStroke(float,int,int,float)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,7 +110,7 @@ implements org.j8unit.repository.java.awt.BasicStrokeClassTests<BasicStroke> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BasicStroke#BasicStroke(float, int, int, float, float[], float) public
+     * {@link java.awt.BasicStroke#BasicStroke(float, int, int, float, float[], float) public
      * java.awt.BasicStroke(float,int,int,float,float[],float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

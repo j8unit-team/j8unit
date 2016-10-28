@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Color;
 import java.awt.TextComponent;
-import java.awt.event.TextListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getTextListeners() public synchronized
-     * java.awt.event.TextListener[] java.awt.TextComponent.getTextListeners()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getTextListeners() public
+     * synchronized java.awt.event.TextListener[] java.awt.TextComponent.getTextListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getSelectedText() public synchronized
-     * java.lang.String java.awt.TextComponent.getSelectedText()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getSelectedText() public
+     * synchronized java.lang.String java.awt.TextComponent.getSelectedText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,30 +78,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getListeners(Class) public <T> T[]
-     * java.awt.TextComponent.getListeners(java.lang.Class<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getListeners_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getSelectionStart() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getSelectionStart() public
      * synchronized int java.awt.TextComponent.getSelectionStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +100,31 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#select(int, int) public synchronized
-     * void java.awt.TextComponent.select(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getListeners(Class) public
+     * <T> T[] java.awt.TextComponent.getListeners(java.lang.Class<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getListeners_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#select(int, int) public
+     * synchronized void java.awt.TextComponent.select(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +145,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getText() public synchronized
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getText() public synchronized
      * java.lang.String java.awt.TextComponent.getText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +167,29 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getCaretPosition() public
+     * synchronized int java.awt.TextComponent.getCaretPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCaretPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.TextComponent.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +212,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#setBackground(Color) public void
-     * java.awt.TextComponent.setBackground(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#setBackground(java.awt.Color)
+     * public void java.awt.TextComponent.setBackground(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,30 +235,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getCaretPosition() public synchronized
-     * int java.awt.TextComponent.getCaretPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCaretPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getInputMethodRequests() public
-     * java.awt.im.InputMethodRequests java.awt.TextComponent.getInputMethodRequests()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getInputMethodRequests()
+     * public java.awt.im.InputMethodRequests java.awt.TextComponent.getInputMethodRequests()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,7 +258,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#setSelectionEnd(int) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#setSelectionEnd(int) public
      * synchronized void java.awt.TextComponent.setSelectionEnd(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,7 +280,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#setEditable(boolean) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#setEditable(boolean) public
      * synchronized void java.awt.TextComponent.setEditable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,8 +302,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#selectAll() public synchronized void
-     * java.awt.TextComponent.selectAll()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#selectAll() public
+     * synchronized void java.awt.TextComponent.selectAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,7 +324,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#addNotify() public void
      * java.awt.TextComponent.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,8 +347,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#removeTextListener(TextListener)
-     * public synchronized void java.awt.TextComponent.removeTextListener(java.awt.event.TextListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.TextComponent#removeTextListener(java.awt.event.TextListener) public synchronized void
+     * java.awt.TextComponent.removeTextListener(java.awt.event.TextListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,7 +370,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#isEditable() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#isEditable() public boolean
      * java.awt.TextComponent.isEditable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -393,8 +392,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#enableInputMethods(boolean) public
-     * void java.awt.TextComponent.enableInputMethods(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#enableInputMethods(boolean)
+     * public void java.awt.TextComponent.enableInputMethods(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -416,7 +415,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#removeNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#removeNotify() public void
      * java.awt.TextComponent.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -439,7 +438,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#setCaretPosition(int) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#setCaretPosition(int) public
      * synchronized void java.awt.TextComponent.setCaretPosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -461,7 +460,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#setSelectionStart(int) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#setSelectionStart(int) public
      * synchronized void java.awt.TextComponent.setSelectionStart(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -483,8 +482,31 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getBackground() public java.awt.Color
-     * java.awt.TextComponent.getBackground()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.TextComponent#addTextListener(java.awt.event.TextListener) public synchronized void
+     * java.awt.TextComponent.addTextListener(java.awt.event.TextListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addTextListener_TextListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getBackground() public
+     * java.awt.Color java.awt.TextComponent.getBackground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -506,30 +528,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#addTextListener(TextListener) public
-     * synchronized void java.awt.TextComponent.addTextListener(java.awt.event.TextListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addTextListener_TextListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#getSelectionEnd() public synchronized
-     * int java.awt.TextComponent.getSelectionEnd()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#getSelectionEnd() public
+     * synchronized int java.awt.TextComponent.getSelectionEnd()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -550,8 +550,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextComponent#setText(String) public synchronized
-     * void java.awt.TextComponent.setText(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.TextComponent#setText(String) public
+     * synchronized void java.awt.TextComponent.setText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

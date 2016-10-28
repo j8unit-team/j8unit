@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.StringHolderClassTests<StringHold
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringHolder#StringHolder() public
-     * org.omg.CORBA.StringHolder()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.StringHolder#StringHolder()
+     * public org.omg.CORBA.StringHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.StringHolderClassTests<StringHold
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringHolder#StringHolder(String) public
-     * org.omg.CORBA.StringHolder(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.StringHolder#StringHolder(String)
+     * public org.omg.CORBA.StringHolder(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

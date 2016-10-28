@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectionNotification#getConnectionId() public
-     * java.lang.String javax.management.remote.JMXConnectionNotification.getConnectionId()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectionNotification#getConnectionId() public java.lang.String
+     * javax.management.remote.JMXConnectionNotification.getConnectionId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

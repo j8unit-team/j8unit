@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.event;
 
 import javax.swing.event.TreeSelectionEvent;
-import javax.swing.tree.TreePath;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.swing.event.TreeSelectionEventClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TreeSelectionEvent#TreeSelectionEvent(Object, TreePath[], boolean[], TreePath, TreePath) public
+     * {@link javax.swing.event.TreeSelectionEvent#TreeSelectionEvent(Object, javax.swing.tree.TreePath[], boolean[], javax.swing.tree.TreePath, javax.swing.tree.TreePath)
+     * public
      * javax.swing.event.TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath[],boolean[],javax.swing.tree.TreePath,javax.swing.tree.TreePath)}
      * .
      *
@@ -41,14 +41,15 @@ implements org.j8unit.repository.javax.swing.event.TreeSelectionEventClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeSelectionEvent sut = null; // = new TreeSelectionEvent(Object, TreePath[], boolean[], TreePath,
-                                             // TreePath);
+        final TreeSelectionEvent sut = null; // = new TreeSelectionEvent(Object, javax.swing.tree.TreePath[], boolean[],
+                                             // javax.swing.tree.TreePath, javax.swing.tree.TreePath);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TreeSelectionEvent#TreeSelectionEvent(Object, TreePath, boolean, TreePath, TreePath) public
+     * {@link javax.swing.event.TreeSelectionEvent#TreeSelectionEvent(Object, javax.swing.tree.TreePath, boolean, javax.swing.tree.TreePath, javax.swing.tree.TreePath)
+     * public
      * javax.swing.event.TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath,boolean,javax.swing.tree.TreePath,javax.swing.tree.TreePath)}
      * .
      *
@@ -66,7 +67,8 @@ implements org.j8unit.repository.javax.swing.event.TreeSelectionEventClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeSelectionEvent sut = null; // = new TreeSelectionEvent(Object, TreePath, boolean, TreePath, TreePath);
+        final TreeSelectionEvent sut = null; // = new TreeSelectionEvent(Object, javax.swing.tree.TreePath, boolean,
+                                             // javax.swing.tree.TreePath, javax.swing.tree.TreePath);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TreeSelectionEvent]

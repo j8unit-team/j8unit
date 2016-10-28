@@ -35,9 +35,9 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobStateReasons#getCategory() public final
-     * java.lang.Class<? extends javax.print.attribute.Attribute>
-     * javax.print.attribute.standard.JobStateReasons.getCategory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.JobStateReasons#getCategory() public final java.lang.Class<? extends
+     * javax.print.attribute.Attribute> javax.print.attribute.standard.JobStateReasons.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +59,9 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobStateReasons#add(JobStateReason) public boolean
-     * javax.print.attribute.standard.JobStateReasons.add(javax.print.attribute.standard.JobStateReason)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.JobStateReasons#add(javax.print.attribute.standard.JobStateReason) public
+     * boolean javax.print.attribute.standard.JobStateReasons.add(javax.print.attribute.standard.JobStateReason)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,9 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobStateReasons#getName() public final
-     * java.lang.String javax.print.attribute.standard.JobStateReasons.getName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.JobStateReasons#getName() public final java.lang.String
+     * javax.print.attribute.standard.JobStateReasons.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

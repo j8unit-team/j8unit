@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.nio.file.spi.FileSystemProviderClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemProvider#installedProviders() public
-     * static java.util.List
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.spi.FileSystemProvider#installedProviders() public static java.util.List
      * <java.nio.file.spi.FileSystemProvider> java.nio.file.spi.FileSystemProvider.installedProviders()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +37,7 @@ implements org.j8unit.repository.java.nio.file.spi.FileSystemProviderClassTests<
     @Category(Draft.class)
     public void test_installedProviders()
     throws Exception {
-        // write some test for {@link FileSystemProvider#installedProviders()}
+        // write some test for {@link java.nio.file.spi.FileSystemProvider#installedProviders()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.spi.FileSystemProvider]

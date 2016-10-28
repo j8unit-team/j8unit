@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.tree;
 
-import javax.swing.event.TreeExpansionEvent;
 import javax.swing.tree.ExpandVetoException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.tree.ExpandVetoExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ExpandVetoException#ExpandVetoException(TreeExpansionEvent) public
+     * {@link javax.swing.tree.ExpandVetoException#ExpandVetoException(javax.swing.event.TreeExpansionEvent) public
      * javax.swing.tree.ExpandVetoException(javax.swing.event.TreeExpansionEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,14 +39,14 @@ implements org.j8unit.repository.javax.swing.tree.ExpandVetoExceptionClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ExpandVetoException sut = null; // = new ExpandVetoException(TreeExpansionEvent);
+        final ExpandVetoException sut = null; // = new ExpandVetoException(javax.swing.event.TreeExpansionEvent);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ExpandVetoException#ExpandVetoException(TreeExpansionEvent, String) public
-     * javax.swing.tree.ExpandVetoException(javax.swing.event.TreeExpansionEvent,java.lang.String)}.
+     * {@link javax.swing.tree.ExpandVetoException#ExpandVetoException(javax.swing.event.TreeExpansionEvent, String)
+     * public javax.swing.tree.ExpandVetoException(javax.swing.event.TreeExpansionEvent,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +62,8 @@ implements org.j8unit.repository.javax.swing.tree.ExpandVetoExceptionClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ExpandVetoException sut = null; // = new ExpandVetoException(TreeExpansionEvent, String);
+        final ExpandVetoException sut = null; // = new ExpandVetoException(javax.swing.event.TreeExpansionEvent,
+                                              // String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.ExpandVetoException]

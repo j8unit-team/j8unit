@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.naming.ldap;
 
-import java.util.Hashtable;
-import javax.naming.ldap.Control;
 import javax.naming.ldap.InitialLdapContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.javax.naming.ldap.InitialLdapContextClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InitialLdapContext#InitialLdapContext() public
-     * javax.naming.ldap.InitialLdapContext() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.ldap.InitialLdapContext#InitialLdapContext() public javax.naming.ldap.InitialLdapContext()
+     * throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +44,8 @@ implements org.j8unit.repository.javax.naming.ldap.InitialLdapContextClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InitialLdapContext#InitialLdapContext(Hashtable, Control[]) public
-     * javax.naming.ldap.InitialLdapContext(java.util.Hashtable<?, ?>,javax.naming.ldap.Control[]) throws
+     * {@link javax.naming.ldap.InitialLdapContext#InitialLdapContext(java.util.Hashtable, javax.naming.ldap.Control[])
+     * public javax.naming.ldap.InitialLdapContext(java.util.Hashtable<?, ?>,javax.naming.ldap.Control[]) throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,8 @@ implements org.j8unit.repository.javax.naming.ldap.InitialLdapContextClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InitialLdapContext sut = null; // = new InitialLdapContext(Hashtable, Control[]);
+        final InitialLdapContext sut = null; // = new InitialLdapContext(java.util.Hashtable,
+                                             // javax.naming.ldap.Control[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.InitialLdapContext]

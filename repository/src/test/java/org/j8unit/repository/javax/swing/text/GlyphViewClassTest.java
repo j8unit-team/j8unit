@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
 import static org.junit.Assert.fail;
-import javax.swing.text.Element;
 import javax.swing.text.GlyphView;
 import javax.swing.text.GlyphView.GlyphPainter;
 import org.j8unit.repository.categories.Draft;
@@ -24,7 +23,8 @@ implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests<GlyphView>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GlyphView#GlyphView(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.GlyphView#GlyphView(javax.swing.text.Element) public
      * javax.swing.text.GlyphView(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +41,7 @@ implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests<GlyphView>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GlyphView sut = null; // = new GlyphView(Element);
+        final GlyphView sut = null; // = new GlyphView(javax.swing.text.Element);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.GlyphView]
@@ -59,7 +59,8 @@ implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests<GlyphView>
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link GlyphPainter#GlyphPainter() public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.GlyphView.GlyphPainter#GlyphPainter() public
          * javax.swing.text.GlyphView$GlyphPainter()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

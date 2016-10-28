@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Point;
 import java.awt.Polygon;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +34,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#intersects(double, double, double, double)
-     * public boolean java.awt.Polygon.intersects(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Polygon#intersects(double, double, double, double) public boolean
+     * java.awt.Polygon.intersects(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +58,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#intersects(Rectangle2D) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Polygon#intersects(java.awt.geom.Rectangle2D) public boolean
      * java.awt.Polygon.intersects(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +82,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#invalidate() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#invalidate() public void
      * java.awt.Polygon.invalidate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +104,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#getBoundingBox() public java.awt.Rectangle
-     * java.awt.Polygon.getBoundingBox()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#getBoundingBox() public
+     * java.awt.Rectangle java.awt.Polygon.getBoundingBox()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +126,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#inside(int, int) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#inside(int, int) public boolean
      * java.awt.Polygon.inside(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,7 +148,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#addPoint(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#addPoint(int, int) public void
      * java.awt.Polygon.addPoint(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +170,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#translate(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#translate(int, int) public void
      * java.awt.Polygon.translate(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,8 +192,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#getBounds() public java.awt.Rectangle
-     * java.awt.Polygon.getBounds()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#getBounds() public
+     * java.awt.Rectangle java.awt.Polygon.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,8 +215,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#contains(Rectangle2D) public boolean
-     * java.awt.Polygon.contains(java.awt.geom.Rectangle2D)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#contains(java.awt.geom.Rectangle2D)
+     * public boolean java.awt.Polygon.contains(java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,8 +238,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#contains(double, double, double, double)
-     * public boolean java.awt.Polygon.contains(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Polygon#contains(double, double, double, double) public boolean
+     * java.awt.Polygon.contains(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,8 +262,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#contains(Point2D) public boolean
-     * java.awt.Polygon.contains(java.awt.geom.Point2D)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#contains(java.awt.geom.Point2D)
+     * public boolean java.awt.Polygon.contains(java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -286,8 +285,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#contains(Point) public boolean
-     * java.awt.Polygon.contains(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#contains(java.awt.Point) public
+     * boolean java.awt.Polygon.contains(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -308,8 +307,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#contains(double, double) public boolean
-     * java.awt.Polygon.contains(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#contains(double, double) public
+     * boolean java.awt.Polygon.contains(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -331,7 +330,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#contains(int, int) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#contains(int, int) public boolean
      * java.awt.Polygon.contains(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -353,8 +352,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#getPathIterator(AffineTransform) public
-     * java.awt.geom.PathIterator java.awt.Polygon.getPathIterator(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Polygon#getPathIterator(java.awt.geom.AffineTransform) public java.awt.geom.PathIterator
+     * java.awt.Polygon.getPathIterator(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -376,8 +376,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#getPathIterator(AffineTransform, double)
-     * public java.awt.geom.PathIterator java.awt.Polygon.getPathIterator(java.awt.geom.AffineTransform,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Polygon#getPathIterator(java.awt.geom.AffineTransform, double) public java.awt.geom.PathIterator
+     * java.awt.Polygon.getPathIterator(java.awt.geom.AffineTransform,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -399,7 +400,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#reset() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#reset() public void
      * java.awt.Polygon.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -421,7 +422,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Polygon#getBounds2D() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Polygon#getBounds2D() public
      * java.awt.geom.Rectangle2D java.awt.Polygon.getBounds2D()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

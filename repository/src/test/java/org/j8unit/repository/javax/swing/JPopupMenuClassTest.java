@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<JPopupMenu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JPopupMenu#JPopupMenu(String) public
-     * javax.swing.JPopupMenu(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JPopupMenu#JPopupMenu(String)
+     * public javax.swing.JPopupMenu(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<JPopupMenu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JPopupMenu#JPopupMenu() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JPopupMenu#JPopupMenu() public
      * javax.swing.JPopupMenu()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +65,9 @@ implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<JPopupMenu> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPopupMenu#getDefaultLightWeightPopupEnabled()
-     * public static boolean javax.swing.JPopupMenu.getDefaultLightWeightPopupEnabled()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JPopupMenu#getDefaultLightWeightPopupEnabled() public static boolean
+     * javax.swing.JPopupMenu.getDefaultLightWeightPopupEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +81,13 @@ implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<JPopupMenu> {
     @Category(Draft.class)
     public void test_getDefaultLightWeightPopupEnabled()
     throws Exception {
-        // write some test for {@link JPopupMenu#getDefaultLightWeightPopupEnabled()}
+        // write some test for {@link javax.swing.JPopupMenu#getDefaultLightWeightPopupEnabled()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JPopupMenu#setDefaultLightWeightPopupEnabled(boolean) public static void
+     * {@link javax.swing.JPopupMenu#setDefaultLightWeightPopupEnabled(boolean) public static void
      * javax.swing.JPopupMenu.setDefaultLightWeightPopupEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +102,7 @@ implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<JPopupMenu> {
     @Category(Draft.class)
     public void test_setDefaultLightWeightPopupEnabled_boolean()
     throws Exception {
-        // write some test for {@link JPopupMenu#setDefaultLightWeightPopupEnabled(boolean)}
+        // write some test for {@link javax.swing.JPopupMenu#setDefaultLightWeightPopupEnabled(boolean)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JPopupMenu]
@@ -119,8 +120,8 @@ implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<JPopupMenu> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Separator#Separator() public
-         * javax.swing.JPopupMenu$Separator()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.JPopupMenu.Separator#Separator() public javax.swing.JPopupMenu$Separator()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

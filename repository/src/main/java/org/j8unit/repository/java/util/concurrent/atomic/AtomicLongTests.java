@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.concurrent.atomic;
 
 import java.util.concurrent.atomic.AtomicLong;
-import java.util.function.LongBinaryOperator;
-import java.util.function.LongUnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#compareAndSet(long, long) public final
-     * boolean java.util.concurrent.atomic.AtomicLong.compareAndSet(long,long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#compareAndSet(long, long) public final boolean
+     * java.util.concurrent.atomic.AtomicLong.compareAndSet(long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#get() public final long
-     * java.util.concurrent.atomic.AtomicLong.get()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLong#get() public
+     * final long java.util.concurrent.atomic.AtomicLong.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#getAndAdd(long) public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#getAndAdd(long) public final long
      * java.util.concurrent.atomic.AtomicLong.getAndAdd(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#lazySet(long) public final void
-     * java.util.concurrent.atomic.AtomicLong.lazySet(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLong#lazySet(long)
+     * public final void java.util.concurrent.atomic.AtomicLong.lazySet(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,9 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#getAndUpdate(LongUnaryOperator) public
-     * final long java.util.concurrent.atomic.AtomicLong.getAndUpdate(java.util.function.LongUnaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#getAndUpdate(java.util.function.LongUnaryOperator) public final
+     * long java.util.concurrent.atomic.AtomicLong.getAndUpdate(java.util.function.LongUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +147,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#getAndSet(long) public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#getAndSet(long) public final long
      * java.util.concurrent.atomic.AtomicLong.getAndSet(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +170,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#addAndGet(long) public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#addAndGet(long) public final long
      * java.util.concurrent.atomic.AtomicLong.addAndGet(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,8 +193,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#toString() public java.lang.String
-     * java.util.concurrent.atomic.AtomicLong.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLong#toString()
+     * public java.lang.String java.util.concurrent.atomic.AtomicLong.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,7 +216,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#getAndDecrement() public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#getAndDecrement() public final long
      * java.util.concurrent.atomic.AtomicLong.getAndDecrement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,7 +240,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicLong#accumulateAndGet(long, LongBinaryOperator) public final long
+     * {@link java.util.concurrent.atomic.AtomicLong#accumulateAndGet(long, java.util.function.LongBinaryOperator)
+     * public final long
      * java.util.concurrent.atomic.AtomicLong.accumulateAndGet(long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,7 +264,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicLong#getAndAccumulate(long, LongBinaryOperator) public final long
+     * {@link java.util.concurrent.atomic.AtomicLong#getAndAccumulate(long, java.util.function.LongBinaryOperator)
+     * public final long
      * java.util.concurrent.atomic.AtomicLong.getAndAccumulate(long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,7 +287,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#getAndIncrement() public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#getAndIncrement() public final long
      * java.util.concurrent.atomic.AtomicLong.getAndIncrement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -303,7 +310,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#incrementAndGet() public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#incrementAndGet() public final long
      * java.util.concurrent.atomic.AtomicLong.incrementAndGet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -325,8 +333,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#set(long) public final void
-     * java.util.concurrent.atomic.AtomicLong.set(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLong#set(long)
+     * public final void java.util.concurrent.atomic.AtomicLong.set(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,8 +355,9 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#weakCompareAndSet(long, long) public
-     * final boolean java.util.concurrent.atomic.AtomicLong.weakCompareAndSet(long,long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#weakCompareAndSet(long, long) public final boolean
+     * java.util.concurrent.atomic.AtomicLong.weakCompareAndSet(long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,8 +378,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#intValue() public int
-     * java.util.concurrent.atomic.AtomicLong.intValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLong#intValue()
+     * public int java.util.concurrent.atomic.AtomicLong.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -392,8 +401,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#floatValue() public float
-     * java.util.concurrent.atomic.AtomicLong.floatValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLong#floatValue()
+     * public float java.util.concurrent.atomic.AtomicLong.floatValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -415,8 +424,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#doubleValue() public double
-     * java.util.concurrent.atomic.AtomicLong.doubleValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLong#doubleValue()
+     * public double java.util.concurrent.atomic.AtomicLong.doubleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -438,7 +447,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#decrementAndGet() public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#decrementAndGet() public final long
      * java.util.concurrent.atomic.AtomicLong.decrementAndGet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -460,8 +470,9 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#updateAndGet(LongUnaryOperator) public
-     * final long java.util.concurrent.atomic.AtomicLong.updateAndGet(java.util.function.LongUnaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#updateAndGet(java.util.function.LongUnaryOperator) public final
+     * long java.util.concurrent.atomic.AtomicLong.updateAndGet(java.util.function.LongUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -482,8 +493,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLong#longValue() public long
-     * java.util.concurrent.atomic.AtomicLong.longValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLong#longValue()
+     * public long java.util.concurrent.atomic.AtomicLong.longValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

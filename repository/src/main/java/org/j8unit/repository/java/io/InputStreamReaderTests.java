@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStreamReader#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStreamReader#close() public void
      * java.io.InputStreamReader.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStreamReader#ready() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStreamReader#ready() public boolean
      * java.io.InputStreamReader.ready() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStreamReader#getEncoding() public
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStreamReader#getEncoding() public
      * java.lang.String java.io.InputStreamReader.getEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStreamReader#read(char[], int, int) public int
-     * java.io.InputStreamReader.read(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStreamReader#read(char[], int, int)
+     * public int java.io.InputStreamReader.read(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputStreamReader#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.InputStreamReader#read() public int
      * java.io.InputStreamReader.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

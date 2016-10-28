@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.relation;
 
-import java.util.Collection;
-import javax.management.relation.RoleUnresolved;
 import javax.management.relation.RoleUnresolvedList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#asList() public java.util.List
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#asList() public java.util.List
      * <javax.management.relation.RoleUnresolved> javax.management.relation.RoleUnresolvedList.asList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#addAll(int, RoleUnresolvedList)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#addAll(int, javax.management.relation.RoleUnresolvedList)
      * public boolean
      * javax.management.relation.RoleUnresolvedList.addAll(int,javax.management.relation.RoleUnresolvedList) throws
      * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
@@ -82,7 +82,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#addAll(RoleUnresolvedList) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#addAll(javax.management.relation.RoleUnresolvedList) public
      * boolean javax.management.relation.RoleUnresolvedList.addAll(javax.management.relation.RoleUnresolvedList) throws
      * java.lang.IndexOutOfBoundsException}.
      *
@@ -105,8 +106,9 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#addAll(int, Collection) public
-     * boolean javax.management.relation.RoleUnresolvedList.addAll(int,java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#addAll(int, java.util.Collection) public boolean
+     * javax.management.relation.RoleUnresolvedList.addAll(int,java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +130,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#addAll(Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#addAll(java.util.Collection) public boolean
      * javax.management.relation.RoleUnresolvedList.addAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,7 +154,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#set(int, RoleUnresolved) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#set(int, javax.management.relation.RoleUnresolved) public
      * void javax.management.relation.RoleUnresolvedList.set(int,javax.management.relation.RoleUnresolved) throws
      * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
      *
@@ -174,8 +178,9 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#set(int, Object) public
-     * java.lang.Object javax.management.relation.RoleUnresolvedList.set(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#set(int, Object) public java.lang.Object
+     * javax.management.relation.RoleUnresolvedList.set(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,7 +202,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#add(RoleUnresolved) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#add(javax.management.relation.RoleUnresolved) public void
      * javax.management.relation.RoleUnresolvedList.add(javax.management.relation.RoleUnresolved) throws
      * java.lang.IllegalArgumentException}.
      *
@@ -220,7 +226,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#add(int, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#add(int, Object) public void
      * javax.management.relation.RoleUnresolvedList.add(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -243,7 +250,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#add(Object) public boolean
      * javax.management.relation.RoleUnresolvedList.add(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -266,7 +274,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolvedList#add(int, RoleUnresolved) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolvedList#add(int, javax.management.relation.RoleUnresolved) public
      * void javax.management.relation.RoleUnresolvedList.add(int,javax.management.relation.RoleUnresolved) throws
      * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
      *

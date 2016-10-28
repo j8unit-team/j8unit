@@ -35,7 +35,7 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashSet#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.HashSet#add(Object) public boolean
      * java.util.HashSet.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashSet#iterator() public java.util.Iterator
-     * <E> java.util.HashSet.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashSet#iterator() public
+     * java.util.Iterator<E> java.util.HashSet.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +81,7 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashSet#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.HashSet#contains(Object) public boolean
      * java.util.HashSet.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +104,8 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashSet#size() public int java.util.HashSet.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashSet#size() public int
+     * java.util.HashSet.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +127,8 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashSet#spliterator() public java.util.Spliterator
-     * <E> java.util.HashSet.spliterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.HashSet#spliterator() public
+     * java.util.Spliterator<E> java.util.HashSet.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +150,7 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashSet#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.HashSet#isEmpty() public boolean
      * java.util.HashSet.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +173,7 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashSet#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.HashSet#clear() public void
      * java.util.HashSet.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,7 +196,7 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashSet#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.util.HashSet#clone() public java.lang.Object
      * java.util.HashSet.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -217,7 +218,7 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashSet#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.HashSet#remove(Object) public boolean
      * java.util.HashSet.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

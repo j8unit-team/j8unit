@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import javax.swing.Action;
-import javax.swing.Icon;
 import javax.swing.JButton;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.swing.JButtonClassTests<JButton> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JButton#JButton(String, Icon) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JButton#JButton(String, javax.swing.Icon) public
      * javax.swing.JButton(java.lang.String,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.javax.swing.JButtonClassTests<JButton> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JButton sut = null; // = new JButton(String, Icon);
+        final JButton sut = null; // = new JButton(String, javax.swing.Icon);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JButton#JButton(Action) public
-     * javax.swing.JButton(javax.swing.Action)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JButton#JButton(javax.swing.Action)
+     * public javax.swing.JButton(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,12 +61,12 @@ implements org.j8unit.repository.javax.swing.JButtonClassTests<JButton> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JButton sut = null; // = new JButton(Action);
+        final JButton sut = null; // = new JButton(javax.swing.Action);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JButton#JButton(String) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JButton#JButton(String) public
      * javax.swing.JButton(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,8 +88,8 @@ implements org.j8unit.repository.javax.swing.JButtonClassTests<JButton> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JButton#JButton(Icon) public
-     * javax.swing.JButton(javax.swing.Icon)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JButton#JButton(javax.swing.Icon)
+     * public javax.swing.JButton(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,13 +105,13 @@ implements org.j8unit.repository.javax.swing.JButtonClassTests<JButton> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JButton sut = null; // = new JButton(Icon);
+        final JButton sut = null; // = new JButton(javax.swing.Icon);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JButton#JButton() public javax.swing.JButton()}
-     * .
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JButton#JButton() public
+     * javax.swing.JButton()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

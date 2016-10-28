@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#isValid() public boolean
-     * javax.management.ImmutableDescriptor.isValid()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#isValid()
+     * public boolean javax.management.ImmutableDescriptor.isValid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#equals(Object) public boolean
-     * javax.management.ImmutableDescriptor.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#equals(Object)
+     * public boolean javax.management.ImmutableDescriptor.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#getFieldValue(String) public
-     * final java.lang.Object javax.management.ImmutableDescriptor.getFieldValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ImmutableDescriptor#getFieldValue(String) public final java.lang.Object
+     * javax.management.ImmutableDescriptor.getFieldValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#hashCode() public int
-     * javax.management.ImmutableDescriptor.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#hashCode()
+     * public int javax.management.ImmutableDescriptor.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +127,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#getFields() public final
-     * java.lang.String[] javax.management.ImmutableDescriptor.getFields()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#getFields()
+     * public final java.lang.String[] javax.management.ImmutableDescriptor.getFields()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +150,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#setField(String, Object) public
-     * final void javax.management.ImmutableDescriptor.setField(java.lang.String,java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ImmutableDescriptor#setField(String, Object) public final void
+     * javax.management.ImmutableDescriptor.setField(java.lang.String,java.lang.Object) throws
      * javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,8 +175,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#removeField(String) public final
-     * void javax.management.ImmutableDescriptor.removeField(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ImmutableDescriptor#removeField(String) public final void
+     * javax.management.ImmutableDescriptor.removeField(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,8 +199,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#getFieldNames() public final
-     * java.lang.String[] javax.management.ImmutableDescriptor.getFieldNames()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#getFieldNames()
+     * public final java.lang.String[] javax.management.ImmutableDescriptor.getFieldNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,7 +222,7 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#clone() public
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#clone() public
      * javax.management.Descriptor javax.management.ImmutableDescriptor.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -242,8 +245,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#getFieldValues(String...) public
-     * final java.lang.Object[] javax.management.ImmutableDescriptor.getFieldValues(java.lang.String...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ImmutableDescriptor#getFieldValues(String...) public final java.lang.Object[]
+     * javax.management.ImmutableDescriptor.getFieldValues(java.lang.String...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,8 +269,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#setFields(String[], Object[])
-     * public final void javax.management.ImmutableDescriptor.setFields(java.lang.String[],java.lang.Object[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ImmutableDescriptor#setFields(String[], Object[]) public final void
+     * javax.management.ImmutableDescriptor.setFields(java.lang.String[],java.lang.Object[]) throws
      * javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,8 +294,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImmutableDescriptor#toString() public
-     * java.lang.String javax.management.ImmutableDescriptor.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#toString()
+     * public java.lang.String javax.management.ImmutableDescriptor.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

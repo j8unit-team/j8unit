@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#getPrincipal() public final
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosKey#getPrincipal() public final
      * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KerberosKey.getPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +57,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#getKeyType() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosKey#getKeyType() public final int
      * javax.security.auth.kerberos.KerberosKey.getKeyType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +80,9 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#getAlgorithm() public final
-     * java.lang.String javax.security.auth.kerberos.KerberosKey.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosKey#getAlgorithm() public final java.lang.String
+     * javax.security.auth.kerberos.KerberosKey.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +104,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#isDestroyed() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosKey#isDestroyed() public boolean
      * javax.security.auth.kerberos.KerberosKey.isDestroyed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +128,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosKey#equals(Object) public boolean
      * javax.security.auth.kerberos.KerberosKey.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +152,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#getEncoded() public final byte[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosKey#getEncoded() public final byte[]
      * javax.security.auth.kerberos.KerberosKey.getEncoded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +176,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#hashCode() public int
-     * javax.security.auth.kerberos.KerberosKey.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KerberosKey#hashCode()
+     * public int javax.security.auth.kerberos.KerberosKey.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,7 +199,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#getVersionNumber() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosKey#getVersionNumber() public final int
      * javax.security.auth.kerberos.KerberosKey.getVersionNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +222,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#getFormat() public final
-     * java.lang.String javax.security.auth.kerberos.KerberosKey.getFormat()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KerberosKey#getFormat()
+     * public final java.lang.String javax.security.auth.kerberos.KerberosKey.getFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,8 +245,8 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#toString() public java.lang.String
-     * javax.security.auth.kerberos.KerberosKey.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KerberosKey#toString()
+     * public java.lang.String javax.security.auth.kerberos.KerberosKey.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -261,8 +268,9 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosKey#destroy() public void
-     * javax.security.auth.kerberos.KerberosKey.destroy() throws javax.security.auth.DestroyFailedException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KerberosKey#destroy()
+     * public void javax.security.auth.kerberos.KerberosKey.destroy() throws javax.security.auth.DestroyFailedException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

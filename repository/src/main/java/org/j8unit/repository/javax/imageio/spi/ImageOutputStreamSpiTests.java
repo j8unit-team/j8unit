@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.spi;
 
-import java.io.File;
 import javax.imageio.spi.ImageOutputStreamSpi;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,29 +34,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageOutputStreamSpi#getOutputClass() public
-     * java.lang.Class<?> javax.imageio.spi.ImageOutputStreamSpi.getOutputClass()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageOutputStreamSpi#needsCacheFile() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageOutputStreamSpi#needsCacheFile() public boolean
      * javax.imageio.spi.ImageOutputStreamSpi.needsCacheFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +57,32 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageOutputStreamSpi#canUseCacheFile() public
-     * boolean javax.imageio.spi.ImageOutputStreamSpi.canUseCacheFile()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageOutputStreamSpi#getOutputClass() public java.lang.Class
+     * <?> javax.imageio.spi.ImageOutputStreamSpi.getOutputClass()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputClass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageOutputStreamSpi#canUseCacheFile() public boolean
+     * javax.imageio.spi.ImageOutputStreamSpi.canUseCacheFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageOutputStreamSpi#createOutputStreamInstance(Object, boolean, File) public abstract
-     * javax.imageio.stream.ImageOutputStream
+     * {@link javax.imageio.spi.ImageOutputStreamSpi#createOutputStreamInstance(Object, boolean, java.io.File) public
+     * abstract javax.imageio.stream.ImageOutputStream
      * javax.imageio.spi.ImageOutputStreamSpi.createOutputStreamInstance(java.lang.Object,boolean,java.io.File) throws
      * java.io.IOException}.
      *
@@ -127,7 +129,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageOutputStreamSpi#createOutputStreamInstance(Object) public javax.imageio.stream.ImageOutputStream
+     * {@link javax.imageio.spi.ImageOutputStreamSpi#createOutputStreamInstance(Object) public
+     * javax.imageio.stream.ImageOutputStream
      * javax.imageio.spi.ImageOutputStreamSpi.createOutputStreamInstance(java.lang.Object) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

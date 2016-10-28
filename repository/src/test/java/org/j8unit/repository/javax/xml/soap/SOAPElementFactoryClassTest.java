@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPElementFactoryClassTests<SOA
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPElementFactory#newInstance() public static
-     * javax.xml.soap.SOAPElementFactory javax.xml.soap.SOAPElementFactory.newInstance() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPElementFactory#newInstance()
+     * public static javax.xml.soap.SOAPElementFactory javax.xml.soap.SOAPElementFactory.newInstance() throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +37,7 @@ implements org.j8unit.repository.javax.xml.soap.SOAPElementFactoryClassTests<SOA
     @Category(Draft.class)
     public void test_newInstance()
     throws Exception {
-        // write some test for {@link SOAPElementFactory#newInstance()}
+        // write some test for {@link javax.xml.soap.SOAPElementFactory#newInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPElementFactory]

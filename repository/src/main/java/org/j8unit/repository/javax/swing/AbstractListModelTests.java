@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.AbstractListModel;
-import javax.swing.event.ListDataListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +36,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractListModel#addListDataListener(ListDataListener) public void
+     * {@link javax.swing.AbstractListModel#addListDataListener(javax.swing.event.ListDataListener) public void
      * javax.swing.AbstractListModel.addListDataListener(javax.swing.event.ListDataListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +59,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractListModel#getListeners(Class) public <T> T[]
-     * javax.swing.AbstractListModel.getListeners(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractListModel#getListeners(Class)
+     * public <T> T[] javax.swing.AbstractListModel.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractListModel#getListDataListeners() public
-     * javax.swing.event.ListDataListener[] javax.swing.AbstractListModel.getListDataListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractListModel#getListDataListeners()
+     * public javax.swing.event.ListDataListener[] javax.swing.AbstractListModel.getListDataListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +104,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractListModel#removeListDataListener(ListDataListener) public void
+     * {@link javax.swing.AbstractListModel#removeListDataListener(javax.swing.event.ListDataListener) public void
      * javax.swing.AbstractListModel.removeListDataListener(javax.swing.event.ListDataListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

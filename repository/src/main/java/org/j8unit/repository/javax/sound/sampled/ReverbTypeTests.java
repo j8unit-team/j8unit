@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReverbType#getEarlyReflectionIntensity() public
-     * final float javax.sound.sampled.ReverbType.getEarlyReflectionIntensity()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.ReverbType#getEarlyReflectionIntensity() public final float
+     * javax.sound.sampled.ReverbType.getEarlyReflectionIntensity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReverbType#toString() public final java.lang.String
-     * javax.sound.sampled.ReverbType.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.ReverbType#toString() public
+     * final java.lang.String javax.sound.sampled.ReverbType.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReverbType#getLateReflectionDelay() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.ReverbType#getLateReflectionDelay() public final int
      * javax.sound.sampled.ReverbType.getLateReflectionDelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReverbType#getDecayTime() public final int
-     * javax.sound.sampled.ReverbType.getDecayTime()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.ReverbType#getDecayTime() public
+     * final int javax.sound.sampled.ReverbType.getDecayTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +125,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReverbType#getEarlyReflectionDelay() public final
-     * int javax.sound.sampled.ReverbType.getEarlyReflectionDelay()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.ReverbType#getEarlyReflectionDelay() public final int
+     * javax.sound.sampled.ReverbType.getEarlyReflectionDelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +148,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReverbType#getName() public java.lang.String
-     * javax.sound.sampled.ReverbType.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.ReverbType#getName() public
+     * java.lang.String javax.sound.sampled.ReverbType.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +170,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReverbType#equals(Object) public final boolean
-     * javax.sound.sampled.ReverbType.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.ReverbType#equals(Object) public
+     * final boolean javax.sound.sampled.ReverbType.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +193,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReverbType#getLateReflectionIntensity() public final
-     * float javax.sound.sampled.ReverbType.getLateReflectionIntensity()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.ReverbType#getLateReflectionIntensity() public final float
+     * javax.sound.sampled.ReverbType.getLateReflectionIntensity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +216,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReverbType#hashCode() public final int
-     * javax.sound.sampled.ReverbType.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.ReverbType#hashCode() public
+     * final int javax.sound.sampled.ReverbType.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

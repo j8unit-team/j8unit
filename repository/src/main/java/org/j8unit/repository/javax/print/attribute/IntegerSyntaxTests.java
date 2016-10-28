@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntegerSyntax#hashCode() public int
-     * javax.print.attribute.IntegerSyntax.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.IntegerSyntax#hashCode()
+     * public int javax.print.attribute.IntegerSyntax.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntegerSyntax#equals(Object) public boolean
-     * javax.print.attribute.IntegerSyntax.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.IntegerSyntax#equals(Object)
+     * public boolean javax.print.attribute.IntegerSyntax.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntegerSyntax#getValue() public int
-     * javax.print.attribute.IntegerSyntax.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.IntegerSyntax#getValue()
+     * public int javax.print.attribute.IntegerSyntax.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntegerSyntax#toString() public java.lang.String
-     * javax.print.attribute.IntegerSyntax.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.IntegerSyntax#toString()
+     * public java.lang.String javax.print.attribute.IntegerSyntax.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

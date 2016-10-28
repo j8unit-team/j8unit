@@ -5,8 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableServer.POA;
-import org.omg.PortableServer.Servant;
 import org.omg.PortableServer._ServantActivatorStub;
 
 /**
@@ -36,7 +34,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorTests<SUT>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _ServantActivatorStub#incarnate(byte[], POA) public
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer._ServantActivatorStub#incarnate(byte[], org.omg.PortableServer.POA) public
      * org.omg.PortableServer.Servant
      * org.omg.PortableServer._ServantActivatorStub.incarnate(byte[],org.omg.PortableServer.POA) throws
      * org.omg.PortableServer.ForwardRequest}.
@@ -62,7 +61,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorTests<SUT>,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link _ServantActivatorStub#etherealize(byte[], POA, Servant, boolean, boolean) public void
+     * {@link org.omg.PortableServer._ServantActivatorStub#etherealize(byte[], org.omg.PortableServer.POA, org.omg.PortableServer.Servant, boolean, boolean)
+     * public void
      * org.omg.PortableServer._ServantActivatorStub.etherealize(byte[],org.omg.PortableServer.POA,org.omg.PortableServer.Servant,boolean,boolean)}
      * .
      *
@@ -86,8 +86,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorTests<SUT>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _ServantActivatorStub#_ids() public
-     * java.lang.String[] org.omg.PortableServer._ServantActivatorStub._ids()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer._ServantActivatorStub#_ids()
+     * public java.lang.String[] org.omg.PortableServer._ServantActivatorStub._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

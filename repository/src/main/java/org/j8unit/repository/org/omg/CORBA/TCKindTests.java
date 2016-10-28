@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TCKind#value() public int
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.TCKind#value() public int
      * org.omg.CORBA.TCKind.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

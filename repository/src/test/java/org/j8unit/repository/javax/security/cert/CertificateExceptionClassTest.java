@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.security.cert.CertificateExceptionClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CertificateException#CertificateException()
-     * public javax.security.cert.CertificateException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.cert.CertificateException#CertificateException() public
+     * javax.security.cert.CertificateException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.security.cert.CertificateExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateException#CertificateException(String) public
+     * {@link javax.security.cert.CertificateException#CertificateException(String) public
      * javax.security.cert.CertificateException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

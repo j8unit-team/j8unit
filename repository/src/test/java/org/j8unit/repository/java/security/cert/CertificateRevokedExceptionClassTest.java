@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.cert.CRLReason;
 import java.security.cert.CertificateRevokedException;
-import java.util.Date;
-import java.util.Map;
-import javax.security.auth.x500.X500Principal;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -26,7 +22,8 @@ implements org.j8unit.repository.java.security.cert.CertificateRevokedExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateRevokedException#CertificateRevokedException(Date, CRLReason, X500Principal, Map) public
+     * {@link java.security.cert.CertificateRevokedException#CertificateRevokedException(java.util.Date, java.security.cert.CRLReason, javax.security.auth.x500.X500Principal, java.util.Map)
+     * public
      * java.security.cert.CertificateRevokedException(java.util.Date,java.security.cert.CRLReason,javax.security.auth.x500.X500Principal,java.util.Map<java.lang.String,
      * java.security.cert.Extension>)}.
      *
@@ -44,8 +41,9 @@ implements org.j8unit.repository.java.security.cert.CertificateRevokedExceptionC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CertificateRevokedException sut = null; // = new CertificateRevokedException(Date, CRLReason,
-                                                      // X500Principal, Map);
+        final CertificateRevokedException sut = null; // = new CertificateRevokedException(java.util.Date,
+                                                      // java.security.cert.CRLReason,
+                                                      // javax.security.auth.x500.X500Principal, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertificateRevokedException]

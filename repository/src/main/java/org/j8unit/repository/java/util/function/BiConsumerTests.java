@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BiConsumer#andThen(BiConsumer) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.BiConsumer#andThen(java.util.function.BiConsumer) public default
      * java.util.function.BiConsumer<T, U> java.util.function.BiConsumer.andThen(java.util.function.BiConsumer<? super
      * T, ? super U>)}.
      *
@@ -58,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BiConsumer#accept(Object, Object) public abstract
-     * void java.util.function.BiConsumer.accept(T,U)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.BiConsumer#accept(Object, Object)
+     * public abstract void java.util.function.BiConsumer.accept(T,U)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

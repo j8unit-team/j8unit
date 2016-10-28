@@ -7,9 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.IOP.ProfileIdHelper;
 
 @RunWith(J8Unit4.class)
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileId
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProfileIdHelper#ProfileIdHelper() public
-     * org.omg.IOP.ProfileIdHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.IOP.ProfileIdHelper#ProfileIdHelper()
+     * public org.omg.IOP.ProfileIdHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +42,8 @@ implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileId
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProfileIdHelper#id() public static java.lang.String
-     * org.omg.IOP.ProfileIdHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.ProfileIdHelper#id() public static
+     * java.lang.String org.omg.IOP.ProfileIdHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,12 +57,13 @@ implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileId
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ProfileIdHelper#id()}
+        // write some test for {@link org.omg.IOP.ProfileIdHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProfileIdHelper#insert(Any, int) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ProfileIdHelper#insert(org.omg.CORBA.Any, int) public static void
      * org.omg.IOP.ProfileIdHelper.insert(org.omg.CORBA.Any,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,13 +78,14 @@ implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileId
     @Category(Draft.class)
     public void test_insert_Any_int()
     throws Exception {
-        // write some test for {@link ProfileIdHelper#insert(Any, int)}
+        // write some test for {@link org.omg.IOP.ProfileIdHelper#insert(org.omg.CORBA.Any, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProfileIdHelper#write(OutputStream, int) public
-     * static void org.omg.IOP.ProfileIdHelper.write(org.omg.CORBA.portable.OutputStream,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ProfileIdHelper#write(org.omg.CORBA.portable.OutputStream, int) public static void
+     * org.omg.IOP.ProfileIdHelper.write(org.omg.CORBA.portable.OutputStream,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +99,13 @@ implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileId
     @Category(Draft.class)
     public void test_write_OutputStream_int()
     throws Exception {
-        // write some test for {@link ProfileIdHelper#write(OutputStream, int)}
+        // write some test for {@link org.omg.IOP.ProfileIdHelper#write(org.omg.CORBA.portable.OutputStream, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProfileIdHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.IOP.ProfileIdHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.ProfileIdHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.IOP.ProfileIdHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,12 +119,13 @@ implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileId
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ProfileIdHelper#type()}
+        // write some test for {@link org.omg.IOP.ProfileIdHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProfileIdHelper#read(InputStream) public static int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ProfileIdHelper#read(org.omg.CORBA.portable.InputStream) public static int
      * org.omg.IOP.ProfileIdHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -140,12 +140,13 @@ implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileId
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ProfileIdHelper#read(InputStream)}
+        // write some test for {@link org.omg.IOP.ProfileIdHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProfileIdHelper#extract(Any) public static int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.ProfileIdHelper#extract(org.omg.CORBA.Any) public static int
      * org.omg.IOP.ProfileIdHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +161,7 @@ implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileId
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ProfileIdHelper#extract(Any)}
+        // write some test for {@link org.omg.IOP.ProfileIdHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ProfileIdHelper]

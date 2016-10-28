@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.nio.channels.spi.SelectorProviderClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SelectorProvider#provider() public static
-     * java.nio.channels.spi.SelectorProvider java.nio.channels.spi.SelectorProvider.provider()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.spi.SelectorProvider#provider()
+     * public static java.nio.channels.spi.SelectorProvider java.nio.channels.spi.SelectorProvider.provider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +36,7 @@ implements org.j8unit.repository.java.nio.channels.spi.SelectorProviderClassTest
     @Category(Draft.class)
     public void test_provider()
     throws Exception {
-        // write some test for {@link SelectorProvider#provider()}
+        // write some test for {@link java.nio.channels.spi.SelectorProvider#provider()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.spi.SelectorProvider]

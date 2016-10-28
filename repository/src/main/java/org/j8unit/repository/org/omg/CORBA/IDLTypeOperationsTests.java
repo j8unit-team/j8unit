@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.IRObjectOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IDLTypeOperations#type() public abstract
-     * org.omg.CORBA.TypeCode org.omg.CORBA.IDLTypeOperations.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.IDLTypeOperations#type() public
+     * abstract org.omg.CORBA.TypeCode org.omg.CORBA.IDLTypeOperations.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

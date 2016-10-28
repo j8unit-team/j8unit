@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth.callback;
 
-import java.util.Locale;
 import javax.security.auth.callback.LanguageCallback;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LanguageCallback#getLocale() public java.util.Locale
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.LanguageCallback#getLocale() public java.util.Locale
      * javax.security.auth.callback.LanguageCallback.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LanguageCallback#setLocale(Locale) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.LanguageCallback#setLocale(java.util.Locale) public void
      * javax.security.auth.callback.LanguageCallback.setLocale(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

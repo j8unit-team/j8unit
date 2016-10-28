@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.JFormattedTextField;
 import javax.swing.text.MaskFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#setValidCharacters(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MaskFormatter#setValidCharacters(String) public void
      * javax.swing.text.MaskFormatter.setValidCharacters(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#valueToString(Object) public
-     * java.lang.String javax.swing.text.MaskFormatter.valueToString(java.lang.Object) throws java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#valueToString(Object)
+     * public java.lang.String javax.swing.text.MaskFormatter.valueToString(java.lang.Object) throws
+     * java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#getInvalidCharacters() public
-     * java.lang.String javax.swing.text.MaskFormatter.getInvalidCharacters()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MaskFormatter#getInvalidCharacters() public java.lang.String
+     * javax.swing.text.MaskFormatter.getInvalidCharacters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#setInvalidCharacters(String) public
-     * void javax.swing.text.MaskFormatter.setInvalidCharacters(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MaskFormatter#setInvalidCharacters(String) public void
+     * javax.swing.text.MaskFormatter.setInvalidCharacters(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +127,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#getValidCharacters() public
-     * java.lang.String javax.swing.text.MaskFormatter.getValidCharacters()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#getValidCharacters()
+     * public java.lang.String javax.swing.text.MaskFormatter.getValidCharacters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +149,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#setMask(String) public void
-     * javax.swing.text.MaskFormatter.setMask(java.lang.String) throws java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#setMask(String)
+     * public void javax.swing.text.MaskFormatter.setMask(java.lang.String) throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +171,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#getPlaceholder() public
-     * java.lang.String javax.swing.text.MaskFormatter.getPlaceholder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#getPlaceholder()
+     * public java.lang.String javax.swing.text.MaskFormatter.getPlaceholder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,30 +193,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#getMask() public java.lang.String
-     * javax.swing.text.MaskFormatter.getMask()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMask()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#getValueContainsLiteralCharacters()
-     * public boolean javax.swing.text.MaskFormatter.getValueContainsLiteralCharacters()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MaskFormatter#getValueContainsLiteralCharacters() public boolean
+     * javax.swing.text.MaskFormatter.getValueContainsLiteralCharacters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +216,31 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#setPlaceholderCharacter(char) public
-     * void javax.swing.text.MaskFormatter.setPlaceholderCharacter(char)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#getMask() public
+     * java.lang.String javax.swing.text.MaskFormatter.getMask()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMask()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MaskFormatter#setPlaceholderCharacter(char) public void
+     * javax.swing.text.MaskFormatter.setPlaceholderCharacter(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,7 +261,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#getPlaceholderCharacter() public char
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MaskFormatter#getPlaceholderCharacter() public char
      * javax.swing.text.MaskFormatter.getPlaceholderCharacter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -279,7 +285,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MaskFormatter#setValueContainsLiteralCharacters(boolean) public void
+     * {@link javax.swing.text.MaskFormatter#setValueContainsLiteralCharacters(boolean) public void
      * javax.swing.text.MaskFormatter.setValueContainsLiteralCharacters(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -301,30 +307,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#install(JFormattedTextField) public
-     * void javax.swing.text.MaskFormatter.install(javax.swing.JFormattedTextField)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_install_JFormattedTextField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#setPlaceholder(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MaskFormatter#setPlaceholder(String) public void
      * javax.swing.text.MaskFormatter.setPlaceholder(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -346,8 +330,33 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MaskFormatter#stringToValue(String) public
-     * java.lang.Object javax.swing.text.MaskFormatter.stringToValue(java.lang.String) throws java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MaskFormatter#install(javax.swing.JFormattedTextField) public void
+     * javax.swing.text.MaskFormatter.install(javax.swing.JFormattedTextField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_install_JFormattedTextField()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#stringToValue(String)
+     * public java.lang.Object javax.swing.text.MaskFormatter.stringToValue(java.lang.String) throws
+     * java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

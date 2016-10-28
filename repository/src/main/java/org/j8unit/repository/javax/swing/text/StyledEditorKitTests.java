@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.event.ActionEvent;
-import javax.swing.JEditorPane;
 import javax.swing.text.StyledEditorKit;
 import javax.swing.text.StyledEditorKit.AlignmentAction;
 import javax.swing.text.StyledEditorKit.BoldAction;
@@ -44,8 +42,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StyledEditorKit#getViewFactory() public
-     * javax.swing.text.ViewFactory javax.swing.text.StyledEditorKit.getViewFactory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StyledEditorKit#getViewFactory()
+     * public javax.swing.text.ViewFactory javax.swing.text.StyledEditorKit.getViewFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,8 +65,32 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StyledEditorKit#createDefaultDocument() public
-     * javax.swing.text.Document javax.swing.text.StyledEditorKit.createDefaultDocument()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledEditorKit#getCharacterAttributeRun() public javax.swing.text.Element
+     * javax.swing.text.StyledEditorKit.getCharacterAttributeRun()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharacterAttributeRun()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledEditorKit#createDefaultDocument() public javax.swing.text.Document
+     * javax.swing.text.StyledEditorKit.createDefaultDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,29 +112,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StyledEditorKit#getCharacterAttributeRun() public
-     * javax.swing.text.Element javax.swing.text.StyledEditorKit.getCharacterAttributeRun()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCharacterAttributeRun()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StyledEditorKit#install(JEditorPane) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledEditorKit#install(javax.swing.JEditorPane) public void
      * javax.swing.text.StyledEditorKit.install(javax.swing.JEditorPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,8 +136,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StyledEditorKit#clone() public java.lang.Object
-     * javax.swing.text.StyledEditorKit.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StyledEditorKit#clone() public
+     * java.lang.Object javax.swing.text.StyledEditorKit.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,7 +159,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StyledEditorKit#deinstall(JEditorPane) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledEditorKit#deinstall(javax.swing.JEditorPane) public void
      * javax.swing.text.StyledEditorKit.deinstall(javax.swing.JEditorPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -181,7 +183,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StyledEditorKit#getActions() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StyledEditorKit#getActions() public
      * javax.swing.Action[] javax.swing.text.StyledEditorKit.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -204,8 +206,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StyledEditorKit#getInputAttributes() public
-     * javax.swing.text.MutableAttributeSet javax.swing.text.StyledEditorKit.getInputAttributes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledEditorKit#getInputAttributes() public javax.swing.text.MutableAttributeSet
+     * javax.swing.text.StyledEditorKit.getInputAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -229,14 +232,14 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BoldAction
-     * public static class javax.swing.text.StyledEditorKit$BoldAction}.
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link UnderlineAction public static class javax.swing.text.StyledEditorKit$UnderlineAction}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.BoldActionClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.UnderlineActionClassTests}).
      * </p>
      *
      * @param SUT
@@ -246,15 +249,16 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BoldActionTests<SUT extends BoldAction>
+    public static abstract interface UnderlineActionTests<SUT extends UnderlineAction>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link BoldAction#actionPerformed(ActionEvent) public
-         * void javax.swing.text.StyledEditorKit$BoldAction.actionPerformed(java.awt.event.ActionEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyledEditorKit.UnderlineAction#actionPerformed(java.awt.event.ActionEvent) public
+         * void javax.swing.text.StyledEditorKit$UnderlineAction.actionPerformed(java.awt.event.ActionEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -274,7 +278,113 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ForegroundAction public static class javax.swing.text.StyledEditorKit$ForegroundAction}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.ForegroundActionClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ForegroundActionTests<SUT extends ForegroundAction>
+    extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyledEditorKit.ForegroundAction#actionPerformed(java.awt.event.ActionEvent) public
+         * void javax.swing.text.StyledEditorKit$ForegroundAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link AlignmentAction public static class javax.swing.text.StyledEditorKit$AlignmentAction}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.AlignmentActionClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface AlignmentActionTests<SUT extends AlignmentAction>
+    extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyledEditorKit.AlignmentAction#actionPerformed(java.awt.event.ActionEvent) public
+         * void javax.swing.text.StyledEditorKit$AlignmentAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
 
     }
 
@@ -305,8 +415,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link FontFamilyAction#actionPerformed(ActionEvent)
-         * public void javax.swing.text.StyledEditorKit$FontFamilyAction.actionPerformed(java.awt.event.ActionEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyledEditorKit.FontFamilyAction#actionPerformed(java.awt.event.ActionEvent) public
+         * void javax.swing.text.StyledEditorKit$FontFamilyAction.actionPerformed(java.awt.event.ActionEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -357,8 +468,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link FontSizeAction#actionPerformed(ActionEvent)
-         * public void javax.swing.text.StyledEditorKit$FontSizeAction.actionPerformed(java.awt.event.ActionEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyledEditorKit.FontSizeAction#actionPerformed(java.awt.event.ActionEvent) public
+         * void javax.swing.text.StyledEditorKit$FontSizeAction.actionPerformed(java.awt.event.ActionEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -379,6 +491,59 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
         }
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$FontSizeAction]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BoldAction
+     * public static class javax.swing.text.StyledEditorKit$BoldAction}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.BoldActionClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface BoldActionTests<SUT extends BoldAction>
+    extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyledEditorKit.BoldAction#actionPerformed(java.awt.event.ActionEvent) public void
+         * javax.swing.text.StyledEditorKit$BoldAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
 
     }
 
@@ -409,8 +574,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ItalicAction#actionPerformed(ActionEvent) public
-         * void javax.swing.text.StyledEditorKit$ItalicAction.actionPerformed(java.awt.event.ActionEvent)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyledEditorKit.ItalicAction#actionPerformed(java.awt.event.ActionEvent) public void
+         * javax.swing.text.StyledEditorKit$ItalicAction.actionPerformed(java.awt.event.ActionEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -431,110 +597,6 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
         }
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ItalicAction]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link AlignmentAction public static class javax.swing.text.StyledEditorKit$AlignmentAction}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.AlignmentActionClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface AlignmentActionTests<SUT extends AlignmentAction>
-    extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link AlignmentAction#actionPerformed(ActionEvent)
-         * public void javax.swing.text.StyledEditorKit$AlignmentAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link UnderlineAction public static class javax.swing.text.StyledEditorKit$UnderlineAction}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.UnderlineActionClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface UnderlineActionTests<SUT extends UnderlineAction>
-    extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link UnderlineAction#actionPerformed(ActionEvent)
-         * public void javax.swing.text.StyledEditorKit$UnderlineAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
 
     }
 
@@ -564,58 +626,6 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitTests<SUT> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$StyledTextAction]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$StyledTextAction]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ForegroundAction public static class javax.swing.text.StyledEditorKit$ForegroundAction}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.ForegroundActionClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ForegroundActionTests<SUT extends ForegroundAction>
-    extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link ForegroundAction#actionPerformed(ActionEvent)
-         * public void javax.swing.text.StyledEditorKit$ForegroundAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
 
     }
 

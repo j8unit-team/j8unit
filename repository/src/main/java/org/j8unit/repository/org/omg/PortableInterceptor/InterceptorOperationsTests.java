@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InterceptorOperations#destroy() public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.InterceptorOperations#destroy() public abstract void
      * org.omg.PortableInterceptor.InterceptorOperations.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InterceptorOperations#name() public abstract
-     * java.lang.String org.omg.PortableInterceptor.InterceptorOperations.name()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.InterceptorOperations#name() public abstract java.lang.String
+     * org.omg.PortableInterceptor.InterceptorOperations.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

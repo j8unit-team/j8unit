@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiMessage#clone() public abstract java.lang.Object
-     * javax.sound.midi.MidiMessage.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiMessage#clone() public abstract
+     * java.lang.Object javax.sound.midi.MidiMessage.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiMessage#getMessage() public byte[]
-     * javax.sound.midi.MidiMessage.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiMessage#getMessage() public
+     * byte[] javax.sound.midi.MidiMessage.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiMessage#getLength() public int
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiMessage#getLength() public int
      * javax.sound.midi.MidiMessage.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiMessage#getStatus() public int
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiMessage#getStatus() public int
      * javax.sound.midi.MidiMessage.getStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

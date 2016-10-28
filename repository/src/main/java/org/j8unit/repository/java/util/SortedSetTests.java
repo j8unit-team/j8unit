@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedSet#last() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#last() public abstract E
      * java.util.SortedSet.last()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedSet#headSet(Object) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#headSet(Object) public abstract
      * java.util.SortedSet<E> java.util.SortedSet.headSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedSet#spliterator() public default
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#spliterator() public default
      * java.util.Spliterator<E> java.util.SortedSet.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedSet#tailSet(Object) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#tailSet(Object) public abstract
      * java.util.SortedSet<E> java.util.SortedSet.tailSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedSet#comparator() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#comparator() public abstract
      * java.util.Comparator<? super E> java.util.SortedSet.comparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedSet#first() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#first() public abstract E
      * java.util.SortedSet.first()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedSet#subSet(Object, Object) public abstract
-     * java.util.SortedSet<E> java.util.SortedSet.subSet(E,E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#subSet(Object, Object) public
+     * abstract java.util.SortedSet<E> java.util.SortedSet.subSet(E,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

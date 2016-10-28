@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.net.SocketAddress;
-import java.net.SocketOption;
 import java.nio.channels.NetworkChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkChannel#getOption(SocketOption) public
-     * abstract <T> T java.nio.channels.NetworkChannel.getOption(java.net.SocketOption<T>) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.NetworkChannel#getOption(java.net.SocketOption) public abstract <T> T
+     * java.nio.channels.NetworkChannel.getOption(java.net.SocketOption<T>) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkChannel#getLocalAddress() public abstract
-     * java.net.SocketAddress java.nio.channels.NetworkChannel.getLocalAddress() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.NetworkChannel#getLocalAddress()
+     * public abstract java.net.SocketAddress java.nio.channels.NetworkChannel.getLocalAddress() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,9 +80,10 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkChannel#setOption(SocketOption, Object)
-     * public abstract <T> java.nio.channels.NetworkChannel
-     * java.nio.channels.NetworkChannel.setOption(java.net.SocketOption<T>,T) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.NetworkChannel#setOption(java.net.SocketOption, Object) public abstract
+     * <T> java.nio.channels.NetworkChannel java.nio.channels.NetworkChannel.setOption(java.net.SocketOption<T>,T)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,8 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkChannel#supportedOptions() public abstract
-     * java.util.Set<java.net.SocketOption<?>> java.nio.channels.NetworkChannel.supportedOptions()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.NetworkChannel#supportedOptions()
+     * public abstract java.util.Set<java.net.SocketOption<?>> java.nio.channels.NetworkChannel.supportedOptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +126,8 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkChannel#bind(SocketAddress) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.NetworkChannel#bind(java.net.SocketAddress) public abstract
      * java.nio.channels.NetworkChannel java.nio.channels.NetworkChannel.bind(java.net.SocketAddress) throws
      * java.io.IOException}.
      *

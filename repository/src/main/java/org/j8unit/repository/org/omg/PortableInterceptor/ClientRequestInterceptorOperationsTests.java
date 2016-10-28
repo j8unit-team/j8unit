@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableInterceptor.ClientRequestInfo;
 import org.omg.PortableInterceptor.ClientRequestInterceptorOperations;
 
 /**
@@ -37,7 +36,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClientRequestInterceptorOperations#send_request(ClientRequestInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.ClientRequestInterceptorOperations#send_request(org.omg.PortableInterceptor.ClientRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ClientRequestInterceptorOperations.send_request(org.omg.PortableInterceptor.ClientRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      *
@@ -61,7 +61,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClientRequestInterceptorOperations#receive_other(ClientRequestInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.ClientRequestInterceptorOperations#receive_other(org.omg.PortableInterceptor.ClientRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ClientRequestInterceptorOperations.receive_other(org.omg.PortableInterceptor.ClientRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      *
@@ -85,7 +86,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClientRequestInterceptorOperations#send_poll(ClientRequestInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.ClientRequestInterceptorOperations#send_poll(org.omg.PortableInterceptor.ClientRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ClientRequestInterceptorOperations.send_poll(org.omg.PortableInterceptor.ClientRequestInfo)}
      * .
      *
@@ -109,7 +111,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClientRequestInterceptorOperations#receive_reply(ClientRequestInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.ClientRequestInterceptorOperations#receive_reply(org.omg.PortableInterceptor.ClientRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ClientRequestInterceptorOperations.receive_reply(org.omg.PortableInterceptor.ClientRequestInfo)}
      * .
      *
@@ -133,7 +136,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClientRequestInterceptorOperations#receive_exception(ClientRequestInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.ClientRequestInterceptorOperations#receive_exception(org.omg.PortableInterceptor.ClientRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ClientRequestInterceptorOperations.receive_exception(org.omg.PortableInterceptor.ClientRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      *

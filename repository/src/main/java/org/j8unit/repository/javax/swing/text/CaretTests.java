@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Point;
-import javax.swing.event.ChangeListener;
 import javax.swing.text.Caret;
-import javax.swing.text.JTextComponent;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#paint(Graphics) public abstract void
-     * javax.swing.text.Caret.paint(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#paint(java.awt.Graphics)
+     * public abstract void javax.swing.text.Caret.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#isVisible() public abstract boolean
-     * javax.swing.text.Caret.isVisible()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#isVisible() public abstract
+     * boolean javax.swing.text.Caret.isVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#getBlinkRate() public abstract int
-     * javax.swing.text.Caret.getBlinkRate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#getBlinkRate() public
+     * abstract int javax.swing.text.Caret.getBlinkRate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#addChangeListener(ChangeListener) public
-     * abstract void javax.swing.text.Caret.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Caret#addChangeListener(javax.swing.event.ChangeListener) public abstract void
+     * javax.swing.text.Caret.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +124,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#getMark() public abstract int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#getMark() public abstract int
      * javax.swing.text.Caret.getMark()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#setVisible(boolean) public abstract void
-     * javax.swing.text.Caret.setVisible(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#setVisible(boolean) public
+     * abstract void javax.swing.text.Caret.setVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#setDot(int) public abstract void
-     * javax.swing.text.Caret.setDot(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#setDot(int) public abstract
+     * void javax.swing.text.Caret.setDot(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#moveDot(int) public abstract void
-     * javax.swing.text.Caret.moveDot(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#moveDot(int) public abstract
+     * void javax.swing.text.Caret.moveDot(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,7 +212,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#getDot() public abstract int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#getDot() public abstract int
      * javax.swing.text.Caret.getDot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,7 +234,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#deinstall(JTextComponent) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Caret#deinstall(javax.swing.text.JTextComponent) public abstract void
      * javax.swing.text.Caret.deinstall(javax.swing.text.JTextComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,8 +257,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#setBlinkRate(int) public abstract void
-     * javax.swing.text.Caret.setBlinkRate(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#setBlinkRate(int) public
+     * abstract void javax.swing.text.Caret.setBlinkRate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +279,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#isSelectionVisible() public abstract boolean
-     * javax.swing.text.Caret.isSelectionVisible()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#isSelectionVisible() public
+     * abstract boolean javax.swing.text.Caret.isSelectionVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,8 +301,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#setMagicCaretPosition(Point) public abstract
-     * void javax.swing.text.Caret.setMagicCaretPosition(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Caret#setMagicCaretPosition(java.awt.Point) public abstract void
+     * javax.swing.text.Caret.setMagicCaretPosition(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,8 +324,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#getMagicCaretPosition() public abstract
-     * java.awt.Point javax.swing.text.Caret.getMagicCaretPosition()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#getMagicCaretPosition()
+     * public abstract java.awt.Point javax.swing.text.Caret.getMagicCaretPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,8 +346,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#removeChangeListener(ChangeListener) public
-     * abstract void javax.swing.text.Caret.removeChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Caret#removeChangeListener(javax.swing.event.ChangeListener) public abstract void
+     * javax.swing.text.Caret.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,8 +369,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#setSelectionVisible(boolean) public abstract
-     * void javax.swing.text.Caret.setSelectionVisible(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Caret#setSelectionVisible(boolean)
+     * public abstract void javax.swing.text.Caret.setSelectionVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -391,7 +391,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Caret#install(JTextComponent) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Caret#install(javax.swing.text.JTextComponent) public abstract void
      * javax.swing.text.Caret.install(javax.swing.text.JTextComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

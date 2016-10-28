@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementRef#type() public abstract java.lang.Class
-     * javax.xml.bind.annotation.XmlElementRef.type()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElementRef#type()
+     * public abstract java.lang.Class javax.xml.bind.annotation.XmlElementRef.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementRef#required() public abstract boolean
-     * javax.xml.bind.annotation.XmlElementRef.required()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElementRef#required()
+     * public abstract boolean javax.xml.bind.annotation.XmlElementRef.required()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementRef#namespace() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementRef.namespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElementRef#namespace()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlElementRef.namespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlElementRef#name() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementRef.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlElementRef#name()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlElementRef.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

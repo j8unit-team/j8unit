@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.beans;
 
 import java.beans.IndexedPropertyDescriptor;
-import java.lang.reflect.Method;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.beans.IndexedPropertyDescriptorClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexedPropertyDescriptor#IndexedPropertyDescriptor(String, Class) public
+     * {@link java.beans.IndexedPropertyDescriptor#IndexedPropertyDescriptor(String, Class) public
      * java.beans.IndexedPropertyDescriptor(java.lang.String,java.lang.Class<?>) throws
      * java.beans.IntrospectionException}.
      *
@@ -47,8 +46,8 @@ implements org.j8unit.repository.java.beans.IndexedPropertyDescriptorClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexedPropertyDescriptor#IndexedPropertyDescriptor(String, Class, String, String, String, String) public
-     * java.beans.IndexedPropertyDescriptor(java.lang.String,java.lang.Class
+     * {@link java.beans.IndexedPropertyDescriptor#IndexedPropertyDescriptor(String, Class, String, String, String, String)
+     * public java.beans.IndexedPropertyDescriptor(java.lang.String,java.lang.Class
      * <?>,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws
      * java.beans.IntrospectionException}.
      *
@@ -73,7 +72,8 @@ implements org.j8unit.repository.java.beans.IndexedPropertyDescriptorClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IndexedPropertyDescriptor#IndexedPropertyDescriptor(String, Method, Method, Method, Method) public
+     * {@link java.beans.IndexedPropertyDescriptor#IndexedPropertyDescriptor(String, java.lang.reflect.Method, java.lang.reflect.Method, java.lang.reflect.Method, java.lang.reflect.Method)
+     * public
      * java.beans.IndexedPropertyDescriptor(java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method,java.lang.reflect.Method,java.lang.reflect.Method)
      * throws java.beans.IntrospectionException}.
      *
@@ -91,8 +91,9 @@ implements org.j8unit.repository.java.beans.IndexedPropertyDescriptorClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IndexedPropertyDescriptor sut = null; // = new IndexedPropertyDescriptor(String, Method, Method, Method,
-                                                    // Method);
+        final IndexedPropertyDescriptor sut = null; // = new IndexedPropertyDescriptor(String, java.lang.reflect.Method,
+                                                    // java.lang.reflect.Method, java.lang.reflect.Method,
+                                                    // java.lang.reflect.Method);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.IndexedPropertyDescriptor]

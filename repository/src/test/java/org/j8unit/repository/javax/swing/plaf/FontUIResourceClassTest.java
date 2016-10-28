@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import java.awt.Font;
 import javax.swing.plaf.FontUIResource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.swing.plaf.FontUIResourceClassTests<FontU
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FontUIResource#FontUIResource(String, int, int)
-     * public javax.swing.plaf.FontUIResource(java.lang.String,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.FontUIResource#FontUIResource(String, int, int) public
+     * javax.swing.plaf.FontUIResource(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,8 @@ implements org.j8unit.repository.javax.swing.plaf.FontUIResourceClassTests<FontU
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FontUIResource#FontUIResource(Font) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.FontUIResource#FontUIResource(java.awt.Font) public
      * javax.swing.plaf.FontUIResource(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +62,7 @@ implements org.j8unit.repository.javax.swing.plaf.FontUIResourceClassTests<FontU
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FontUIResource sut = null; // = new FontUIResource(Font);
+        final FontUIResource sut = null; // = new FontUIResource(java.awt.Font);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.FontUIResource]

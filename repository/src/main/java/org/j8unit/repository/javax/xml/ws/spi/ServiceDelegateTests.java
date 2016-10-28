@@ -1,12 +1,5 @@
 package org.j8unit.repository.javax.xml.ws.spi;
 
-import java.util.concurrent.Executor;
-import javax.xml.bind.JAXBContext;
-import javax.xml.namespace.QName;
-import javax.xml.ws.EndpointReference;
-import javax.xml.ws.Service.Mode;
-import javax.xml.ws.WebServiceFeature;
-import javax.xml.ws.handler.HandlerResolver;
 import javax.xml.ws.spi.ServiceDelegate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -41,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#getWSDLDocumentLocation() public
-     * abstract java.net.URL javax.xml.ws.spi.ServiceDelegate.getWSDLDocumentLocation()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#getWSDLDocumentLocation() public abstract java.net.URL
+     * javax.xml.ws.spi.ServiceDelegate.getWSDLDocumentLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#getPort(QName, Class) public
-     * abstract <T> T javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.namespace.QName,java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#getPort(javax.xml.namespace.QName, Class) public abstract <T> T
+     * javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.namespace.QName,java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceDelegate#getPort(QName, Class, WebServiceFeature...) public abstract <T> T
-     * javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.namespace.QName,java.lang.Class
+     * {@link javax.xml.ws.spi.ServiceDelegate#getPort(javax.xml.namespace.QName, Class, javax.xml.ws.WebServiceFeature...)
+     * public abstract <T> T javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.namespace.QName,java.lang.Class
      * <T>,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,9 +104,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#getPort(Class, WebServiceFeature...)
-     * public abstract <T> T javax.xml.ws.spi.ServiceDelegate.getPort(java.lang.Class
-     * <T>,javax.xml.ws.WebServiceFeature...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#getPort(Class, javax.xml.ws.WebServiceFeature...) public abstract <T> T
+     * javax.xml.ws.spi.ServiceDelegate.getPort(java.lang.Class<T>,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,8 +127,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#getPort(Class) public abstract <T> T
-     * javax.xml.ws.spi.ServiceDelegate.getPort(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.ServiceDelegate#getPort(Class)
+     * public abstract <T> T javax.xml.ws.spi.ServiceDelegate.getPort(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,8 +150,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceDelegate#getPort(EndpointReference, Class, WebServiceFeature...) public abstract <T> T
-     * javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.ws.EndpointReference,java.lang.Class
+     * {@link javax.xml.ws.spi.ServiceDelegate#getPort(javax.xml.ws.EndpointReference, Class, javax.xml.ws.WebServiceFeature...)
+     * public abstract <T> T javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.ws.EndpointReference,java.lang.Class
      * <T>,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -178,8 +173,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#getHandlerResolver() public abstract
-     * javax.xml.ws.handler.HandlerResolver javax.xml.ws.spi.ServiceDelegate.getHandlerResolver()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#getHandlerResolver() public abstract javax.xml.ws.handler.HandlerResolver
+     * javax.xml.ws.spi.ServiceDelegate.getHandlerResolver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +196,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#addPort(QName, String, String)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#addPort(javax.xml.namespace.QName, String, String) public abstract void
      * javax.xml.ws.spi.ServiceDelegate.addPort(javax.xml.namespace.QName,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -223,8 +219,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#setHandlerResolver(HandlerResolver)
-     * public abstract void javax.xml.ws.spi.ServiceDelegate.setHandlerResolver(javax.xml.ws.handler.HandlerResolver)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#setHandlerResolver(javax.xml.ws.handler.HandlerResolver) public abstract
+     * void javax.xml.ws.spi.ServiceDelegate.setHandlerResolver(javax.xml.ws.handler.HandlerResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,8 +242,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#getServiceName() public abstract
-     * javax.xml.namespace.QName javax.xml.ws.spi.ServiceDelegate.getServiceName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.ServiceDelegate#getServiceName()
+     * public abstract javax.xml.namespace.QName javax.xml.ws.spi.ServiceDelegate.getServiceName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +264,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#getExecutor() public abstract
-     * java.util.concurrent.Executor javax.xml.ws.spi.ServiceDelegate.getExecutor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.ServiceDelegate#getExecutor()
+     * public abstract java.util.concurrent.Executor javax.xml.ws.spi.ServiceDelegate.getExecutor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,8 +286,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#setExecutor(Executor) public
-     * abstract void javax.xml.ws.spi.ServiceDelegate.setExecutor(java.util.concurrent.Executor)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#setExecutor(java.util.concurrent.Executor) public abstract void
+     * javax.xml.ws.spi.ServiceDelegate.setExecutor(java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -311,8 +309,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#getPorts() public abstract
-     * java.util.Iterator<javax.xml.namespace.QName> javax.xml.ws.spi.ServiceDelegate.getPorts()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.ServiceDelegate#getPorts() public
+     * abstract java.util.Iterator<javax.xml.namespace.QName> javax.xml.ws.spi.ServiceDelegate.getPorts()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,7 +331,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceDelegate#createDispatch(QName, Class, Mode)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, Class, javax.xml.ws.Service.Mode)
      * public abstract <T> javax.xml.ws.Dispatch
      * <T> javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,java.lang.Class
      * <T>,javax.xml.ws.Service$Mode)}.
@@ -358,8 +357,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceDelegate#createDispatch(QName, Class, Mode, WebServiceFeature...) public abstract
-     * <T> javax.xml.ws.Dispatch
+     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, Class, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public abstract <T> javax.xml.ws.Dispatch
      * <T> javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,java.lang.Class
      * <T>,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
      *
@@ -383,8 +382,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceDelegate#createDispatch(EndpointReference, Class, Mode, WebServiceFeature...) public abstract
-     * <T> javax.xml.ws.Dispatch
+     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.ws.EndpointReference, Class, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public abstract <T> javax.xml.ws.Dispatch
      * <T> javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.ws.EndpointReference,java.lang.Class
      * <T>,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
      *
@@ -408,8 +407,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceDelegate#createDispatch(QName, JAXBContext, Mode) public abstract javax.xml.ws.Dispatch
-     * <java.lang.Object>
+     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode)
+     * public abstract javax.xml.ws.Dispatch<java.lang.Object>
      * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode)}
      * .
      *
@@ -433,8 +432,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceDelegate#createDispatch(EndpointReference, JAXBContext, Mode, WebServiceFeature...) public abstract
-     * javax.xml.ws.Dispatch<java.lang.Object>
+     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.ws.EndpointReference, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public abstract javax.xml.ws.Dispatch<java.lang.Object>
      * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.ws.EndpointReference,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}
      * .
      *
@@ -458,8 +457,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceDelegate#createDispatch(QName, JAXBContext, Mode, WebServiceFeature...) public abstract
-     * javax.xml.ws.Dispatch<java.lang.Object>
+     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public abstract javax.xml.ws.Dispatch<java.lang.Object>
      * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}
      * .
      *

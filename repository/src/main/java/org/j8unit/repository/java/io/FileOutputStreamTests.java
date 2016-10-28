@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileOutputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FileOutputStream#close() public void
      * java.io.FileOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileOutputStream#write(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FileOutputStream#write(int) public void
      * java.io.FileOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileOutputStream#write(byte[], int, int) public void
-     * java.io.FileOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FileOutputStream#write(byte[], int, int)
+     * public void java.io.FileOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileOutputStream#write(byte[]) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FileOutputStream#write(byte[]) public void
      * java.io.FileOutputStream.write(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileOutputStream#getFD() public final
+     * Test method for the hereby targeted method-under-test {@link java.io.FileOutputStream#getFD() public final
      * java.io.FileDescriptor java.io.FileOutputStream.getFD() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +148,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileOutputStream#getChannel() public
+     * Test method for the hereby targeted method-under-test {@link java.io.FileOutputStream#getChannel() public
      * java.nio.channels.FileChannel java.io.FileOutputStream.getChannel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

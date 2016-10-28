@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.io.InputStream;
-import java.nio.charset.Charset;
 import java.util.zip.ZipInputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.util.zip.ZipInputStreamClassTests<ZipInput
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ZipInputStream#ZipInputStream(InputStream, Charset) public
+     * {@link java.util.zip.ZipInputStream#ZipInputStream(java.io.InputStream, java.nio.charset.Charset) public
      * java.util.zip.ZipInputStream(java.io.InputStream,java.nio.charset.Charset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,14 @@ implements org.j8unit.repository.java.util.zip.ZipInputStreamClassTests<ZipInput
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ZipInputStream sut = null; // = new ZipInputStream(InputStream, Charset);
+        final ZipInputStream sut = null; // = new ZipInputStream(java.io.InputStream, java.nio.charset.Charset);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipInputStream#ZipInputStream(InputStream)
-     * public java.util.zip.ZipInputStream(java.io.InputStream)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.ZipInputStream#ZipInputStream(java.io.InputStream) public
+     * java.util.zip.ZipInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.util.zip.ZipInputStreamClassTests<ZipInput
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ZipInputStream sut = null; // = new ZipInputStream(InputStream);
+        final ZipInputStream sut = null; // = new ZipInputStream(java.io.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.ZipInputStream]

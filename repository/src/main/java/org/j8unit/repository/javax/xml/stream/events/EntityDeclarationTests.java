@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityDeclaration#getReplacementText() public
-     * abstract java.lang.String javax.xml.stream.events.EntityDeclaration.getReplacementText()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.EntityDeclaration#getReplacementText() public abstract java.lang.String
+     * javax.xml.stream.events.EntityDeclaration.getReplacementText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityDeclaration#getSystemId() public abstract
-     * java.lang.String javax.xml.stream.events.EntityDeclaration.getSystemId()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.EntityDeclaration#getSystemId() public abstract java.lang.String
+     * javax.xml.stream.events.EntityDeclaration.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityDeclaration#getName() public abstract
-     * java.lang.String javax.xml.stream.events.EntityDeclaration.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.EntityDeclaration#getName()
+     * public abstract java.lang.String javax.xml.stream.events.EntityDeclaration.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +102,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityDeclaration#getBaseURI() public abstract
-     * java.lang.String javax.xml.stream.events.EntityDeclaration.getBaseURI()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.EntityDeclaration#getBaseURI() public abstract java.lang.String
+     * javax.xml.stream.events.EntityDeclaration.getBaseURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +125,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityDeclaration#getPublicId() public abstract
-     * java.lang.String javax.xml.stream.events.EntityDeclaration.getPublicId()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.EntityDeclaration#getPublicId() public abstract java.lang.String
+     * javax.xml.stream.events.EntityDeclaration.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +148,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityDeclaration#getNotationName() public abstract
-     * java.lang.String javax.xml.stream.events.EntityDeclaration.getNotationName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.EntityDeclaration#getNotationName() public abstract java.lang.String
+     * javax.xml.stream.events.EntityDeclaration.getNotationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

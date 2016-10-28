@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.BasicPermission;
-import java.security.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPermission#newPermissionCollection() public
-     * java.security.PermissionCollection java.security.BasicPermission.newPermissionCollection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.BasicPermission#newPermissionCollection() public java.security.PermissionCollection
+     * java.security.BasicPermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPermission#equals(Object) public boolean
-     * java.security.BasicPermission.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.BasicPermission#equals(Object) public
+     * boolean java.security.BasicPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +81,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.BasicPermission#hashCode() public int
      * java.security.BasicPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +104,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPermission#getActions() public java.lang.String
-     * java.security.BasicPermission.getActions()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.BasicPermission#getActions() public
+     * java.lang.String java.security.BasicPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +127,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPermission#implies(Permission) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.BasicPermission#implies(java.security.Permission) public boolean
      * java.security.BasicPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

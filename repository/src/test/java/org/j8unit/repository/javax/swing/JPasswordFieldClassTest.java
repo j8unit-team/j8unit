@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.JPasswordField;
-import javax.swing.text.Document;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JPasswordField#JPasswordField(Document, String, int) public
+     * {@link javax.swing.JPasswordField#JPasswordField(javax.swing.text.Document, String, int) public
      * javax.swing.JPasswordField(javax.swing.text.Document,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,14 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JPasswordField sut = null; // = new JPasswordField(Document, String, int);
+        final JPasswordField sut = null; // = new JPasswordField(javax.swing.text.Document, String, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JPasswordField#JPasswordField(String, int)
-     * public javax.swing.JPasswordField(java.lang.String,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JPasswordField#JPasswordField(String, int) public
+     * javax.swing.JPasswordField(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,8 +67,8 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JPasswordField#JPasswordField(int) public
-     * javax.swing.JPasswordField(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JPasswordField#JPasswordField(int)
+     * public javax.swing.JPasswordField(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +89,8 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JPasswordField#JPasswordField(String) public
-     * javax.swing.JPasswordField(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JPasswordField#JPasswordField(String) public javax.swing.JPasswordField(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +111,8 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JPasswordField#JPasswordField() public
-     * javax.swing.JPasswordField()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JPasswordField#JPasswordField()
+     * public javax.swing.JPasswordField()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.time.chrono.HijrahEraClassTests<HijrahEra>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahEra#values() public static
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahEra#values() public static
      * java.time.chrono.HijrahEra[] java.time.chrono.HijrahEra.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.time.chrono.HijrahEraClassTests<HijrahEra>
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link HijrahEra#values()}
+        // write some test for {@link java.time.chrono.HijrahEra#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahEra#of(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahEra#of(int) public static
      * java.time.chrono.HijrahEra java.time.chrono.HijrahEra.of(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,13 +56,13 @@ implements org.j8unit.repository.java.time.chrono.HijrahEraClassTests<HijrahEra>
     @Category(Draft.class)
     public void test_of_int()
     throws Exception {
-        // write some test for {@link HijrahEra#of(int)}
+        // write some test for {@link java.time.chrono.HijrahEra#of(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HijrahEra#valueOf(String) public static
-     * java.time.chrono.HijrahEra java.time.chrono.HijrahEra.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahEra#valueOf(String) public
+     * static java.time.chrono.HijrahEra java.time.chrono.HijrahEra.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,7 +76,7 @@ implements org.j8unit.repository.java.time.chrono.HijrahEraClassTests<HijrahEra>
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link HijrahEra#valueOf(String)}
+        // write some test for {@link java.time.chrono.HijrahEra#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.HijrahEra]

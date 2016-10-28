@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import static org.junit.Assert.fail;
-import java.util.Date;
 import javax.swing.RowFilter;
 import javax.swing.RowFilter.ComparisonType;
 import javax.swing.RowFilter.Entry;
@@ -27,7 +26,7 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RowFilter#RowFilter() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.RowFilter#RowFilter() public
      * javax.swing.RowFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,8 +46,9 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowFilter#dateFilter(ComparisonType, Date, int...)
-     * public static <M,I> javax.swing.RowFilter<M, I>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RowFilter#dateFilter(javax.swing.RowFilter.ComparisonType, java.util.Date, int...) public
+     * static <M,I> javax.swing.RowFilter<M, I>
      * javax.swing.RowFilter.dateFilter(javax.swing.RowFilter$ComparisonType,java.util.Date,int...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +63,14 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
     @Category(Draft.class)
     public void test_dateFilter_ComparisonType_Date_intArray()
     throws Exception {
-        // write some test for {@link RowFilter#dateFilter(ComparisonType, Date, int...)}
+        // write some test for {@link javax.swing.RowFilter#dateFilter(javax.swing.RowFilter.ComparisonType,
+        // java.util.Date, int...)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowFilter#orFilter(Iterable) public static
-     * <M,I> javax.swing.RowFilter<M, I> javax.swing.RowFilter.orFilter(java.lang.Iterable<? extends
+     * Test method for the hereby targeted method-under-test {@link javax.swing.RowFilter#orFilter(Iterable) public
+     * static <M,I> javax.swing.RowFilter<M, I> javax.swing.RowFilter.orFilter(java.lang.Iterable<? extends
      * javax.swing.RowFilter<? super M, ? super I>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,13 +85,14 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
     @Category(Draft.class)
     public void test_orFilter_Iterable()
     throws Exception {
-        // write some test for {@link RowFilter#orFilter(Iterable)}
+        // write some test for {@link javax.swing.RowFilter#orFilter(Iterable)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RowFilter#numberFilter(ComparisonType, Number, int...) public static <M,I> javax.swing.RowFilter<M, I>
+     * {@link javax.swing.RowFilter#numberFilter(javax.swing.RowFilter.ComparisonType, Number, int...) public static
+     * <M,I> javax.swing.RowFilter<M, I>
      * javax.swing.RowFilter.numberFilter(javax.swing.RowFilter$ComparisonType,java.lang.Number,int...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,13 +107,14 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
     @Category(Draft.class)
     public void test_numberFilter_ComparisonType_Number_intArray()
     throws Exception {
-        // write some test for {@link RowFilter#numberFilter(ComparisonType, Number, int...)}
+        // write some test for {@link javax.swing.RowFilter#numberFilter(javax.swing.RowFilter.ComparisonType, Number,
+        // int...)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowFilter#andFilter(Iterable) public static
-     * <M,I> javax.swing.RowFilter<M, I> javax.swing.RowFilter.andFilter(java.lang.Iterable<? extends
+     * Test method for the hereby targeted method-under-test {@link javax.swing.RowFilter#andFilter(Iterable) public
+     * static <M,I> javax.swing.RowFilter<M, I> javax.swing.RowFilter.andFilter(java.lang.Iterable<? extends
      * javax.swing.RowFilter<? super M, ? super I>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,13 +129,14 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
     @Category(Draft.class)
     public void test_andFilter_Iterable()
     throws Exception {
-        // write some test for {@link RowFilter#andFilter(Iterable)}
+        // write some test for {@link javax.swing.RowFilter#andFilter(Iterable)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowFilter#notFilter(RowFilter) public static
-     * <M,I> javax.swing.RowFilter<M, I> javax.swing.RowFilter.notFilter(javax.swing.RowFilter<M, I>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RowFilter#notFilter(javax.swing.RowFilter) public static <M,I> javax.swing.RowFilter<M, I>
+     * javax.swing.RowFilter.notFilter(javax.swing.RowFilter<M, I>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,13 +150,13 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
     @Category(Draft.class)
     public void test_notFilter_RowFilter()
     throws Exception {
-        // write some test for {@link RowFilter#notFilter(RowFilter)}
+        // write some test for {@link javax.swing.RowFilter#notFilter(javax.swing.RowFilter)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowFilter#regexFilter(String, int...) public static
-     * <M,I> javax.swing.RowFilter<M, I> javax.swing.RowFilter.regexFilter(java.lang.String,int...)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.RowFilter#regexFilter(String, int...)
+     * public static <M,I> javax.swing.RowFilter<M, I> javax.swing.RowFilter.regexFilter(java.lang.String,int...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +170,7 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
     @Category(Draft.class)
     public void test_regexFilter_String_intArray()
     throws Exception {
-        // write some test for {@link RowFilter#regexFilter(String, int...)}
+        // write some test for {@link javax.swing.RowFilter#regexFilter(String, int...)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowFilter]
@@ -185,7 +189,7 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Entry#Entry() public
+         * Test method for the hereby targeted constructor-under-test {@link javax.swing.RowFilter.Entry#Entry() public
          * javax.swing.RowFilter$Entry()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,7 +224,8 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ComparisonType#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.RowFilter.ComparisonType#valueOf(String) public static
          * javax.swing.RowFilter$ComparisonType javax.swing.RowFilter$ComparisonType.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -235,13 +240,13 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link ComparisonType#valueOf(String)}
+            // write some test for {@link javax.swing.RowFilter.ComparisonType#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ComparisonType#values() public static
-         * javax.swing.RowFilter$ComparisonType[] javax.swing.RowFilter$ComparisonType.values()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.RowFilter.ComparisonType#values()
+         * public static javax.swing.RowFilter$ComparisonType[] javax.swing.RowFilter$ComparisonType.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -255,7 +260,7 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link ComparisonType#values()}
+            // write some test for {@link javax.swing.RowFilter.ComparisonType#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowFilter$ComparisonType]

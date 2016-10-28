@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.time.chrono.ThaiBuddhistEraClassTests<Thai
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThaiBuddhistEra#valueOf(String) public static
-     * java.time.chrono.ThaiBuddhistEra java.time.chrono.ThaiBuddhistEra.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ThaiBuddhistEra#valueOf(String)
+     * public static java.time.chrono.ThaiBuddhistEra java.time.chrono.ThaiBuddhistEra.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.time.chrono.ThaiBuddhistEraClassTests<Thai
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link ThaiBuddhistEra#valueOf(String)}
+        // write some test for {@link java.time.chrono.ThaiBuddhistEra#valueOf(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThaiBuddhistEra#values() public static
-     * java.time.chrono.ThaiBuddhistEra[] java.time.chrono.ThaiBuddhistEra.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ThaiBuddhistEra#values() public
+     * static java.time.chrono.ThaiBuddhistEra[] java.time.chrono.ThaiBuddhistEra.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,13 +56,13 @@ implements org.j8unit.repository.java.time.chrono.ThaiBuddhistEraClassTests<Thai
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link ThaiBuddhistEra#values()}
+        // write some test for {@link java.time.chrono.ThaiBuddhistEra#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThaiBuddhistEra#of(int) public static
-     * java.time.chrono.ThaiBuddhistEra java.time.chrono.ThaiBuddhistEra.of(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ThaiBuddhistEra#of(int) public
+     * static java.time.chrono.ThaiBuddhistEra java.time.chrono.ThaiBuddhistEra.of(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,7 +76,7 @@ implements org.j8unit.repository.java.time.chrono.ThaiBuddhistEraClassTests<Thai
     @Category(Draft.class)
     public void test_of_int()
     throws Exception {
-        // write some test for {@link ThaiBuddhistEra#of(int)}
+        // write some test for {@link java.time.chrono.ThaiBuddhistEra#of(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ThaiBuddhistEra]

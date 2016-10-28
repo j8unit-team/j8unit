@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAPrivateKeySpec#getG() public java.math.BigInteger
-     * java.security.spec.DSAPrivateKeySpec.getG()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.DSAPrivateKeySpec#getG() public
+     * java.math.BigInteger java.security.spec.DSAPrivateKeySpec.getG()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAPrivateKeySpec#getX() public java.math.BigInteger
-     * java.security.spec.DSAPrivateKeySpec.getX()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.DSAPrivateKeySpec#getX() public
+     * java.math.BigInteger java.security.spec.DSAPrivateKeySpec.getX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAPrivateKeySpec#getP() public java.math.BigInteger
-     * java.security.spec.DSAPrivateKeySpec.getP()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.DSAPrivateKeySpec#getP() public
+     * java.math.BigInteger java.security.spec.DSAPrivateKeySpec.getP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAPrivateKeySpec#getQ() public java.math.BigInteger
-     * java.security.spec.DSAPrivateKeySpec.getQ()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.DSAPrivateKeySpec#getQ() public
+     * java.math.BigInteger java.security.spec.DSAPrivateKeySpec.getQ()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

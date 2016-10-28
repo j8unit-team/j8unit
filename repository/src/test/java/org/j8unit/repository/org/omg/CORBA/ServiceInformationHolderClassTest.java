@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.ServiceInformation;
 import org.omg.CORBA.ServiceInformationHolder;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceInformationHolderClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServiceInformationHolder#ServiceInformationHolder() public org.omg.CORBA.ServiceInformationHolder()}.
+     * {@link org.omg.CORBA.ServiceInformationHolder#ServiceInformationHolder() public
+     * org.omg.CORBA.ServiceInformationHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceInformationHolderClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServiceInformationHolder#ServiceInformationHolder(ServiceInformation) public
+     * {@link org.omg.CORBA.ServiceInformationHolder#ServiceInformationHolder(org.omg.CORBA.ServiceInformation) public
      * org.omg.CORBA.ServiceInformationHolder(org.omg.CORBA.ServiceInformation)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,7 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceInformationHolderClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ServiceInformationHolder sut = null; // = new ServiceInformationHolder(ServiceInformation);
+        final ServiceInformationHolder sut = null; // = new ServiceInformationHolder(org.omg.CORBA.ServiceInformation);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ServiceInformationHolder]

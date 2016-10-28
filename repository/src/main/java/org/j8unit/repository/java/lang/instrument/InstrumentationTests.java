@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.lang.instrument;
 
-import java.lang.instrument.ClassDefinition;
-import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
-import java.util.jar.JarFile;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Instrumentation#appendToBootstrapClassLoaderSearch(JarFile) public abstract void
-     * java.lang.instrument.Instrumentation.appendToBootstrapClassLoaderSearch(java.util.jar.JarFile)}.
+     * {@link java.lang.instrument.Instrumentation#appendToBootstrapClassLoaderSearch(java.util.jar.JarFile) public
+     * abstract void java.lang.instrument.Instrumentation.appendToBootstrapClassLoaderSearch(java.util.jar.JarFile)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#getInitiatedClasses(ClassLoader)
-     * public abstract java.lang.Class[]
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#getInitiatedClasses(ClassLoader) public abstract java.lang.Class[]
      * java.lang.instrument.Instrumentation.getInitiatedClasses(java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#retransformClasses(Class...) public
-     * abstract void java.lang.instrument.Instrumentation.retransformClasses(java.lang.Class<?>...) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#retransformClasses(Class...) public abstract void
+     * java.lang.instrument.Instrumentation.retransformClasses(java.lang.Class<?>...) throws
      * java.lang.instrument.UnmodifiableClassException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +105,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#isRedefineClassesSupported() public
-     * abstract boolean java.lang.instrument.Instrumentation.isRedefineClassesSupported()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#isRedefineClassesSupported() public abstract boolean
+     * java.lang.instrument.Instrumentation.isRedefineClassesSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +128,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#getObjectSize(Object) public
-     * abstract long java.lang.instrument.Instrumentation.getObjectSize(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#getObjectSize(Object) public abstract long
+     * java.lang.instrument.Instrumentation.getObjectSize(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +151,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#isNativeMethodPrefixSupported()
-     * public abstract boolean java.lang.instrument.Instrumentation.isNativeMethodPrefixSupported()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#isNativeMethodPrefixSupported() public abstract boolean
+     * java.lang.instrument.Instrumentation.isNativeMethodPrefixSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +174,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#getAllLoadedClasses() public
-     * abstract java.lang.Class[] java.lang.instrument.Instrumentation.getAllLoadedClasses()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#getAllLoadedClasses() public abstract java.lang.Class[]
+     * java.lang.instrument.Instrumentation.getAllLoadedClasses()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,7 +198,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Instrumentation#removeTransformer(ClassFileTransformer) public abstract boolean
+     * {@link java.lang.instrument.Instrumentation#removeTransformer(java.lang.instrument.ClassFileTransformer) public
+     * abstract boolean
      * java.lang.instrument.Instrumentation.removeTransformer(java.lang.instrument.ClassFileTransformer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -218,8 +221,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#isRetransformClassesSupported()
-     * public abstract boolean java.lang.instrument.Instrumentation.isRetransformClassesSupported()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#isRetransformClassesSupported() public abstract boolean
+     * java.lang.instrument.Instrumentation.isRetransformClassesSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -241,8 +245,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Instrumentation#appendToSystemClassLoaderSearch(JarFile) public abstract void
-     * java.lang.instrument.Instrumentation.appendToSystemClassLoaderSearch(java.util.jar.JarFile)}.
+     * {@link java.lang.instrument.Instrumentation#appendToSystemClassLoaderSearch(java.util.jar.JarFile) public
+     * abstract void java.lang.instrument.Instrumentation.appendToSystemClassLoaderSearch(java.util.jar.JarFile)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,10 +267,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#redefineClasses(ClassDefinition...)
-     * public abstract void
-     * java.lang.instrument.Instrumentation.redefineClasses(java.lang.instrument.ClassDefinition...) throws
-     * java.lang.ClassNotFoundException,java.lang.instrument.UnmodifiableClassException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#redefineClasses(java.lang.instrument.ClassDefinition...) public
+     * abstract void java.lang.instrument.Instrumentation.redefineClasses(java.lang.instrument.ClassDefinition...)
+     * throws java.lang.ClassNotFoundException,java.lang.instrument.UnmodifiableClassException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +291,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#isModifiableClass(Class) public
-     * abstract boolean java.lang.instrument.Instrumentation.isModifiableClass(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#isModifiableClass(Class) public abstract boolean
+     * java.lang.instrument.Instrumentation.isModifiableClass(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -309,9 +314,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Instrumentation#addTransformer(ClassFileTransformer)
-     * public abstract void
-     * java.lang.instrument.Instrumentation.addTransformer(java.lang.instrument.ClassFileTransformer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.instrument.Instrumentation#addTransformer(java.lang.instrument.ClassFileTransformer) public
+     * abstract void java.lang.instrument.Instrumentation.addTransformer(java.lang.instrument.ClassFileTransformer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,7 +338,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Instrumentation#addTransformer(ClassFileTransformer, boolean) public abstract void
+     * {@link java.lang.instrument.Instrumentation#addTransformer(java.lang.instrument.ClassFileTransformer, boolean)
+     * public abstract void
      * java.lang.instrument.Instrumentation.addTransformer(java.lang.instrument.ClassFileTransformer,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -356,7 +362,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Instrumentation#setNativeMethodPrefix(ClassFileTransformer, String) public abstract void
+     * {@link java.lang.instrument.Instrumentation#setNativeMethodPrefix(java.lang.instrument.ClassFileTransformer, String)
+     * public abstract void
      * java.lang.instrument.Instrumentation.setNativeMethodPrefix(java.lang.instrument.ClassFileTransformer,java.lang.String)}
      * .
      *

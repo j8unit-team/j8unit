@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.math.BigInteger;
 import java.security.spec.ECParameterSpec;
-import java.security.spec.ECPoint;
-import java.security.spec.EllipticCurve;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.java.security.spec.ECParameterSpecClassTests<EC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ECParameterSpec#ECParameterSpec(EllipticCurve, ECPoint, BigInteger, int) public
+     * {@link java.security.spec.ECParameterSpec#ECParameterSpec(java.security.spec.EllipticCurve, java.security.spec.ECPoint, java.math.BigInteger, int)
+     * public
      * java.security.spec.ECParameterSpec(java.security.spec.EllipticCurve,java.security.spec.ECPoint,java.math.BigInteger,int)}
      * .
      *
@@ -43,7 +41,8 @@ implements org.j8unit.repository.java.security.spec.ECParameterSpecClassTests<EC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ECParameterSpec sut = null; // = new ECParameterSpec(EllipticCurve, ECPoint, BigInteger, int);
+        final ECParameterSpec sut = null; // = new ECParameterSpec(java.security.spec.EllipticCurve,
+                                          // java.security.spec.ECPoint, java.math.BigInteger, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECParameterSpec]

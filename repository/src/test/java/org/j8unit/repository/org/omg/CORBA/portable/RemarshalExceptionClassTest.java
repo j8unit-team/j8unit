@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.RemarshalExceptionClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RemarshalException#RemarshalException() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.portable.RemarshalException#RemarshalException() public
      * org.omg.CORBA.portable.RemarshalException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

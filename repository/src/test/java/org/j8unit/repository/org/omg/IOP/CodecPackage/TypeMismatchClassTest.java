@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.TypeMismatchClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TypeMismatch#TypeMismatch() public
-     * org.omg.IOP.CodecPackage.TypeMismatch()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.CodecPackage.TypeMismatch#TypeMismatch() public org.omg.IOP.CodecPackage.TypeMismatch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.TypeMismatchClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TypeMismatch#TypeMismatch(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.CodecPackage.TypeMismatch#TypeMismatch(String) public
      * org.omg.IOP.CodecPackage.TypeMismatch(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

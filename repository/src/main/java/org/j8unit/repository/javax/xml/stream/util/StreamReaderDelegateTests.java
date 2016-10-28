@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.stream.util;
 
-import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.util.StreamReaderDelegate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getAttributeType(int) public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getAttributeType(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeType(int) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getAttributeType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#next() public int
-     * javax.xml.stream.util.StreamReaderDelegate.next() throws javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#next()
+     * public int javax.xml.stream.util.StreamReaderDelegate.next() throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getPIData() public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getPIData()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getPIData() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getPIData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +105,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#hasName() public boolean
-     * javax.xml.stream.util.StreamReaderDelegate.hasName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#hasName()
+     * public boolean javax.xml.stream.util.StreamReaderDelegate.hasName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +128,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getLocation() public
-     * javax.xml.stream.Location javax.xml.stream.util.StreamReaderDelegate.getLocation()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getLocation() public javax.xml.stream.Location
+     * javax.xml.stream.util.StreamReaderDelegate.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,31 +152,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getAttributeValue(int) public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getAttributeValue(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributeValue_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StreamReaderDelegate#getAttributeValue(String, String) public java.lang.String
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeValue(String, String) public java.lang.String
      * javax.xml.stream.util.StreamReaderDelegate.getAttributeValue(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -197,8 +176,32 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getName() public
-     * javax.xml.namespace.QName javax.xml.stream.util.StreamReaderDelegate.getName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeValue(int) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getAttributeValue(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributeValue_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#getName()
+     * public javax.xml.namespace.QName javax.xml.stream.util.StreamReaderDelegate.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,7 +223,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getNamespaceCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getNamespaceCount() public int
      * javax.xml.stream.util.StreamReaderDelegate.getNamespaceCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -243,7 +247,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#isWhiteSpace() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#isWhiteSpace() public boolean
      * javax.xml.stream.util.StreamReaderDelegate.isWhiteSpace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -266,8 +271,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getEncoding() public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getEncoding()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getEncoding() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,31 +295,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getTextCharacters() public
-     * char[] javax.xml.stream.util.StreamReaderDelegate.getTextCharacters()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getTextCharacters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StreamReaderDelegate#getTextCharacters(int, char[], int, int) public int
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getTextCharacters(int, char[], int, int) public int
      * javax.xml.stream.util.StreamReaderDelegate.getTextCharacters(int,char[],int,int) throws
      * javax.xml.stream.XMLStreamException}.
      *
@@ -337,7 +320,32 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#isCharacters() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getTextCharacters() public char[]
+     * javax.xml.stream.util.StreamReaderDelegate.getTextCharacters()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getTextCharacters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#isCharacters() public boolean
      * javax.xml.stream.util.StreamReaderDelegate.isCharacters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -360,9 +368,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getElementText() public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getElementText() throws
-     * javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getElementText() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getElementText() throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -384,7 +392,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getTextStart() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getTextStart() public int
      * javax.xml.stream.util.StreamReaderDelegate.getTextStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -407,8 +416,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getNamespacePrefix(int) public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getNamespacePrefix(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getNamespacePrefix(int) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getNamespacePrefix(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -430,7 +440,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#isStandalone() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#isStandalone() public boolean
      * javax.xml.stream.util.StreamReaderDelegate.isStandalone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -453,8 +464,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#setParent(XMLStreamReader)
-     * public void javax.xml.stream.util.StreamReaderDelegate.setParent(javax.xml.stream.XMLStreamReader)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#setParent(javax.xml.stream.XMLStreamReader) public void
+     * javax.xml.stream.util.StreamReaderDelegate.setParent(javax.xml.stream.XMLStreamReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -475,8 +487,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#close() public void
-     * javax.xml.stream.util.StreamReaderDelegate.close() throws javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#close()
+     * public void javax.xml.stream.util.StreamReaderDelegate.close() throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -498,8 +510,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getAttributePrefix(int) public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getAttributePrefix(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributePrefix(int) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getAttributePrefix(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -521,8 +534,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getVersion() public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getVersion()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getVersion() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -544,8 +558,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getParent() public
-     * javax.xml.stream.XMLStreamReader javax.xml.stream.util.StreamReaderDelegate.getParent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getParent() public javax.xml.stream.XMLStreamReader
+     * javax.xml.stream.util.StreamReaderDelegate.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -566,8 +581,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getPrefix() public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getPrefix()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getPrefix() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getPrefix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -589,8 +605,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getProperty(String) public
-     * java.lang.Object javax.xml.stream.util.StreamReaderDelegate.getProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getProperty(String) public java.lang.Object
+     * javax.xml.stream.util.StreamReaderDelegate.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -612,8 +629,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getText() public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getText()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#getText()
+     * public java.lang.String javax.xml.stream.util.StreamReaderDelegate.getText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -635,8 +652,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getPITarget() public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getPITarget()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getPITarget() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getPITarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -658,8 +676,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#isAttributeSpecified(int)
-     * public boolean javax.xml.stream.util.StreamReaderDelegate.isAttributeSpecified(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#isAttributeSpecified(int) public boolean
+     * javax.xml.stream.util.StreamReaderDelegate.isAttributeSpecified(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -681,8 +700,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#require(int, String, String)
-     * public void javax.xml.stream.util.StreamReaderDelegate.require(int,java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#require(int, String, String) public void
+     * javax.xml.stream.util.StreamReaderDelegate.require(int,java.lang.String,java.lang.String) throws
      * javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -705,8 +725,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#hasNext() public boolean
-     * javax.xml.stream.util.StreamReaderDelegate.hasNext() throws javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#hasNext()
+     * public boolean javax.xml.stream.util.StreamReaderDelegate.hasNext() throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -728,7 +748,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getAttributeCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeCount() public int
      * javax.xml.stream.util.StreamReaderDelegate.getAttributeCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -751,8 +772,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getAttributeName(int) public
-     * javax.xml.namespace.QName javax.xml.stream.util.StreamReaderDelegate.getAttributeName(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeName(int) public javax.xml.namespace.QName
+     * javax.xml.stream.util.StreamReaderDelegate.getAttributeName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -774,8 +796,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#hasText() public boolean
-     * javax.xml.stream.util.StreamReaderDelegate.hasText()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#hasText()
+     * public boolean javax.xml.stream.util.StreamReaderDelegate.hasText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -797,8 +819,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#nextTag() public int
-     * javax.xml.stream.util.StreamReaderDelegate.nextTag() throws javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#nextTag()
+     * public int javax.xml.stream.util.StreamReaderDelegate.nextTag() throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -820,8 +842,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getCharacterEncodingScheme()
-     * public java.lang.String javax.xml.stream.util.StreamReaderDelegate.getCharacterEncodingScheme()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getCharacterEncodingScheme() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getCharacterEncodingScheme()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -843,7 +866,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getEventType() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getEventType() public int
      * javax.xml.stream.util.StreamReaderDelegate.getEventType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -866,7 +890,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getTextLength() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getTextLength() public int
      * javax.xml.stream.util.StreamReaderDelegate.getTextLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -889,8 +914,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getLocalName() public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getLocalName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getLocalName() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getLocalName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -912,7 +938,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#isEndElement() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#isEndElement() public boolean
      * javax.xml.stream.util.StreamReaderDelegate.isEndElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -935,76 +962,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getNamespaceURI(String) public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getNamespaceURI(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceURI_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getNamespaceURI() public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getNamespaceURI()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceURI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getNamespaceURI(int) public
-     * java.lang.String javax.xml.stream.util.StreamReaderDelegate.getNamespaceURI(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceURI_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#isStartElement() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#isStartElement() public boolean
      * javax.xml.stream.util.StreamReaderDelegate.isStartElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1027,7 +986,80 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#standaloneSet() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getNamespaceURI(String) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getNamespaceURI(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceURI_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getNamespaceURI(int) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getNamespaceURI(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceURI_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getNamespaceURI() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getNamespaceURI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceURI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#standaloneSet() public boolean
      * javax.xml.stream.util.StreamReaderDelegate.standaloneSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1050,7 +1082,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getNamespaceContext() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getNamespaceContext() public
      * javax.xml.namespace.NamespaceContext javax.xml.stream.util.StreamReaderDelegate.getNamespaceContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1073,8 +1106,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getAttributeLocalName(int)
-     * public java.lang.String javax.xml.stream.util.StreamReaderDelegate.getAttributeLocalName(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeLocalName(int) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getAttributeLocalName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1096,8 +1130,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamReaderDelegate#getAttributeNamespace(int)
-     * public java.lang.String javax.xml.stream.util.StreamReaderDelegate.getAttributeNamespace(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeNamespace(int) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getAttributeNamespace(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

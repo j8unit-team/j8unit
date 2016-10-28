@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import javax.swing.Action;
-import javax.swing.Icon;
 import javax.swing.JRadioButtonMenuItem;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests<JRad
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JRadioButtonMenuItem#JRadioButtonMenuItem(String, Icon) public
+     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(String, javax.swing.Icon) public
      * javax.swing.JRadioButtonMenuItem(java.lang.String,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,13 @@ implements org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests<JRad
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(String, Icon);
+        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(String, javax.swing.Icon);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JRadioButtonMenuItem#JRadioButtonMenuItem(String, boolean) public
+     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(String, boolean) public
      * javax.swing.JRadioButtonMenuItem(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,7 +68,7 @@ implements org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests<JRad
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JRadioButtonMenuItem#JRadioButtonMenuItem(Icon, boolean) public
+     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(javax.swing.Icon, boolean) public
      * javax.swing.JRadioButtonMenuItem(javax.swing.Icon,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,13 +85,13 @@ implements org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests<JRad
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(Icon, boolean);
+        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(javax.swing.Icon, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JRadioButtonMenuItem#JRadioButtonMenuItem(String, Icon, boolean) public
+     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(String, javax.swing.Icon, boolean) public
      * javax.swing.JRadioButtonMenuItem(java.lang.String,javax.swing.Icon,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,13 +108,13 @@ implements org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests<JRad
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(String, Icon, boolean);
+        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(String, javax.swing.Icon, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JRadioButtonMenuItem#JRadioButtonMenuItem()
-     * public javax.swing.JRadioButtonMenuItem()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem() public javax.swing.JRadioButtonMenuItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,8 +134,9 @@ implements org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests<JRad
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JRadioButtonMenuItem#JRadioButtonMenuItem(Icon)
-     * public javax.swing.JRadioButtonMenuItem(javax.swing.Icon)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(javax.swing.Icon) public
+     * javax.swing.JRadioButtonMenuItem(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,13 +152,13 @@ implements org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests<JRad
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(Icon);
+        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(javax.swing.Icon);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JRadioButtonMenuItem#JRadioButtonMenuItem(String) public
+     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(String) public
      * javax.swing.JRadioButtonMenuItem(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,7 +181,7 @@ implements org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests<JRad
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JRadioButtonMenuItem#JRadioButtonMenuItem(Action) public
+     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(javax.swing.Action) public
      * javax.swing.JRadioButtonMenuItem(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,7 +198,7 @@ implements org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests<JRad
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(Action);
+        final JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(javax.swing.Action);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JRadioButtonMenuItem]

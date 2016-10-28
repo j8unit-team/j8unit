@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicReference#AtomicReference(Object) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicReference#AtomicReference(Object) public
      * java.util.concurrent.atomic.AtomicReference(V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +45,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicReference#AtomicReference() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicReference#AtomicReference() public
      * java.util.concurrent.atomic.AtomicReference()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

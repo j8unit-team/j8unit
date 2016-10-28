@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth.callback;
 
-import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.CallbackHandler;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CallbackHandler#handle(Callback[]) public abstract
-     * void javax.security.auth.callback.CallbackHandler.handle(javax.security.auth.callback.Callback[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.callback.CallbackHandler#handle(javax.security.auth.callback.Callback[]) public
+     * abstract void javax.security.auth.callback.CallbackHandler.handle(javax.security.auth.callback.Callback[]) throws
      * java.io.IOException,javax.security.auth.callback.UnsupportedCallbackException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

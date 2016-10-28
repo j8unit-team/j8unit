@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.nio.file.attribute;
 
 import java.nio.file.attribute.AclFileAttributeView;
-import java.util.List;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclFileAttributeView#name() public abstract
-     * java.lang.String java.nio.file.attribute.AclFileAttributeView.name()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclFileAttributeView#name()
+     * public abstract java.lang.String java.nio.file.attribute.AclFileAttributeView.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclFileAttributeView#setAcl(List) public abstract
-     * void java.nio.file.attribute.AclFileAttributeView.setAcl(java.util.List<java.nio.file.attribute.AclEntry>) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.AclFileAttributeView#setAcl(java.util.List) public abstract void
+     * java.nio.file.attribute.AclFileAttributeView.setAcl(java.util.List<java.nio.file.attribute.AclEntry>) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +81,9 @@ extends org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclFileAttributeView#getAcl() public abstract
-     * java.util.List<java.nio.file.attribute.AclEntry> java.nio.file.attribute.AclFileAttributeView.getAcl() throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.AclFileAttributeView#getAcl() public abstract java.util.List
+     * <java.nio.file.attribute.AclEntry> java.nio.file.attribute.AclFileAttributeView.getAcl() throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

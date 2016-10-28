@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SliderUI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SliderUI#SliderUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.SliderUI#SliderUI() public
      * javax.swing.plaf.SliderUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.print.attribute;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.AttributeSet;
 import javax.print.attribute.HashAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#containsValue(Attribute) public
-     * boolean javax.print.attribute.HashAttributeSet.containsValue(javax.print.attribute.Attribute)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#containsValue(javax.print.attribute.Attribute) public boolean
+     * javax.print.attribute.HashAttributeSet.containsValue(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#remove(Class) public boolean
-     * javax.print.attribute.HashAttributeSet.remove(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#remove(Class)
+     * public boolean javax.print.attribute.HashAttributeSet.remove(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +82,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#remove(Attribute) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#remove(javax.print.attribute.Attribute) public boolean
      * javax.print.attribute.HashAttributeSet.remove(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +106,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#toArray() public
-     * javax.print.attribute.Attribute[] javax.print.attribute.HashAttributeSet.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#toArray()
+     * public javax.print.attribute.Attribute[] javax.print.attribute.HashAttributeSet.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +129,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#isEmpty() public boolean
-     * javax.print.attribute.HashAttributeSet.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#isEmpty()
+     * public boolean javax.print.attribute.HashAttributeSet.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +152,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#clear() public void
-     * javax.print.attribute.HashAttributeSet.clear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#clear()
+     * public void javax.print.attribute.HashAttributeSet.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,8 +175,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#size() public int
-     * javax.print.attribute.HashAttributeSet.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#size() public
+     * int javax.print.attribute.HashAttributeSet.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,7 +198,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#addAll(AttributeSet) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#addAll(javax.print.attribute.AttributeSet) public boolean
      * javax.print.attribute.HashAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -221,7 +222,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#containsKey(Class) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#containsKey(Class) public boolean
      * javax.print.attribute.HashAttributeSet.containsKey(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,8 +246,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#hashCode() public int
-     * javax.print.attribute.HashAttributeSet.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#hashCode()
+     * public int javax.print.attribute.HashAttributeSet.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,7 +269,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#equals(Object) public boolean
      * javax.print.attribute.HashAttributeSet.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -290,8 +293,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#get(Class) public
-     * javax.print.attribute.Attribute javax.print.attribute.HashAttributeSet.get(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#get(Class)
+     * public javax.print.attribute.Attribute javax.print.attribute.HashAttributeSet.get(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -313,7 +316,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HashAttributeSet#add(Attribute) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#add(javax.print.attribute.Attribute) public boolean
      * javax.print.attribute.HashAttributeSet.add(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

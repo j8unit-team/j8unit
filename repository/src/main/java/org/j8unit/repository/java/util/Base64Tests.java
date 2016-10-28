@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.nio.ByteBuffer;
 import java.util.Base64;
 import java.util.Base64.Decoder;
 import java.util.Base64.Encoder;
@@ -66,8 +63,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Decoder#decode(String) public byte[]
-         * java.util.Base64$Decoder.decode(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Decoder#decode(String) public
+         * byte[] java.util.Base64$Decoder.decode(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -88,8 +85,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Decoder#decode(byte[], byte[]) public int
-         * java.util.Base64$Decoder.decode(byte[],byte[])}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Decoder#decode(byte[], byte[])
+         * public int java.util.Base64$Decoder.decode(byte[],byte[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -110,8 +107,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Decoder#decode(ByteBuffer) public
-         * java.nio.ByteBuffer java.util.Base64$Decoder.decode(java.nio.ByteBuffer)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Base64.Decoder#decode(java.nio.ByteBuffer) public java.nio.ByteBuffer
+         * java.util.Base64$Decoder.decode(java.nio.ByteBuffer)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -132,8 +130,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Decoder#decode(byte[]) public byte[]
-         * java.util.Base64$Decoder.decode(byte[])}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Decoder#decode(byte[]) public
+         * byte[] java.util.Base64$Decoder.decode(byte[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -154,8 +152,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Decoder#wrap(InputStream) public
-         * java.io.InputStream java.util.Base64$Decoder.wrap(java.io.InputStream)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Base64.Decoder#wrap(java.io.InputStream) public java.io.InputStream
+         * java.util.Base64$Decoder.wrap(java.io.InputStream)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -205,8 +204,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Encoder#encodeToString(byte[]) public
-         * java.lang.String java.util.Base64$Encoder.encodeToString(byte[])}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Encoder#encodeToString(byte[])
+         * public java.lang.String java.util.Base64$Encoder.encodeToString(byte[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -227,8 +226,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Encoder#wrap(OutputStream) public
-         * java.io.OutputStream java.util.Base64$Encoder.wrap(java.io.OutputStream)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Base64.Encoder#wrap(java.io.OutputStream) public java.io.OutputStream
+         * java.util.Base64$Encoder.wrap(java.io.OutputStream)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -249,8 +249,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Encoder#encode(byte[], byte[]) public int
-         * java.util.Base64$Encoder.encode(byte[],byte[])}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Encoder#encode(byte[], byte[])
+         * public int java.util.Base64$Encoder.encode(byte[],byte[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -271,8 +271,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Encoder#encode(ByteBuffer) public
-         * java.nio.ByteBuffer java.util.Base64$Encoder.encode(java.nio.ByteBuffer)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Base64.Encoder#encode(java.nio.ByteBuffer) public java.nio.ByteBuffer
+         * java.util.Base64$Encoder.encode(java.nio.ByteBuffer)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -293,8 +294,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Encoder#encode(byte[]) public byte[]
-         * java.util.Base64$Encoder.encode(byte[])}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Encoder#encode(byte[]) public
+         * byte[] java.util.Base64$Encoder.encode(byte[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -315,7 +316,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Encoder#withoutPadding() public
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Encoder#withoutPadding() public
          * java.util.Base64$Encoder java.util.Base64$Encoder.withoutPadding()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

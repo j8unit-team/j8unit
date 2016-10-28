@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.openmbean.InvalidOpenTypeExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidOpenTypeException#InvalidOpenTypeException() public
+     * {@link javax.management.openmbean.InvalidOpenTypeException#InvalidOpenTypeException() public
      * javax.management.openmbean.InvalidOpenTypeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.openmbean.InvalidOpenTypeExcep
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidOpenTypeException#InvalidOpenTypeException(String) public
+     * {@link javax.management.openmbean.InvalidOpenTypeException#InvalidOpenTypeException(String) public
      * javax.management.openmbean.InvalidOpenTypeException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

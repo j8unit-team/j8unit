@@ -34,9 +34,9 @@ extends org.j8unit.repository.org.w3c.dom.DOMImplementationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLDOMImplementation#createHTMLDocument(String)
-     * public abstract org.w3c.dom.html.HTMLDocument
-     * org.w3c.dom.html.HTMLDOMImplementation.createHTMLDocument(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLDOMImplementation#createHTMLDocument(String) public abstract
+     * org.w3c.dom.html.HTMLDocument org.w3c.dom.html.HTMLDOMImplementation.createHTMLDocument(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

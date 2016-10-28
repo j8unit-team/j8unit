@@ -1,7 +1,6 @@
 package org.j8unit.repository.org.ietf.jgss;
 
 import org.ietf.jgss.GSSName;
-import org.ietf.jgss.Oid;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSName#isMN() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSName#isMN() public abstract boolean
      * org.ietf.jgss.GSSName.isMN()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSName#toString() public abstract java.lang.String
-     * org.ietf.jgss.GSSName.toString()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSName#toString() public abstract
+     * java.lang.String org.ietf.jgss.GSSName.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSName#canonicalize(Oid) public abstract
-     * org.ietf.jgss.GSSName org.ietf.jgss.GSSName.canonicalize(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSName#canonicalize(org.ietf.jgss.Oid) public abstract org.ietf.jgss.GSSName
+     * org.ietf.jgss.GSSName.canonicalize(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSName#export() public abstract byte[]
-     * org.ietf.jgss.GSSName.export() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSName#export() public abstract
+     * byte[] org.ietf.jgss.GSSName.export() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSName#isAnonymous() public abstract boolean
-     * org.ietf.jgss.GSSName.isAnonymous()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSName#isAnonymous() public abstract
+     * boolean org.ietf.jgss.GSSName.isAnonymous()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSName#hashCode() public abstract int
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSName#hashCode() public abstract int
      * org.ietf.jgss.GSSName.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSName#equals(Object) public abstract boolean
-     * org.ietf.jgss.GSSName.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSName#equals(Object) public abstract
+     * boolean org.ietf.jgss.GSSName.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSName#equals(GSSName) public abstract boolean
-     * org.ietf.jgss.GSSName.equals(org.ietf.jgss.GSSName) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSName#equals(org.ietf.jgss.GSSName)
+     * public abstract boolean org.ietf.jgss.GSSName.equals(org.ietf.jgss.GSSName) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +212,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSName#getStringNameType() public abstract
-     * org.ietf.jgss.Oid org.ietf.jgss.GSSName.getStringNameType() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSName#getStringNameType() public
+     * abstract org.ietf.jgss.Oid org.ietf.jgss.GSSName.getStringNameType() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

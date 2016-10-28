@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
-import java.util.Locale;
 import javax.print.attribute.standard.PrinterMakeAndModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterMakeAndMo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrinterMakeAndModel#PrinterMakeAndModel(String, Locale) public
+     * {@link javax.print.attribute.standard.PrinterMakeAndModel#PrinterMakeAndModel(String, java.util.Locale) public
      * javax.print.attribute.standard.PrinterMakeAndModel(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterMakeAndMo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrinterMakeAndModel sut = null; // = new PrinterMakeAndModel(String, Locale);
+        final PrinterMakeAndModel sut = null; // = new PrinterMakeAndModel(String, java.util.Locale);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterMakeAndModel]

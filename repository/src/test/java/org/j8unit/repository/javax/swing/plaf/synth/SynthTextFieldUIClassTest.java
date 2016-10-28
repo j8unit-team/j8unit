@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.synth.SynthTextFieldUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthTextFieldUIClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SynthTextFieldUI#SynthTextFieldUI() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.synth.SynthTextFieldUI#SynthTextFieldUI() public
      * javax.swing.plaf.synth.SynthTextFieldUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthTextFieldUIClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthTextFieldUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthTextFieldUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.synth.SynthTextFieldUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +59,7 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthTextFieldUIClassTes
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link SynthTextFieldUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.synth.SynthTextFieldUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthTextFieldUI]

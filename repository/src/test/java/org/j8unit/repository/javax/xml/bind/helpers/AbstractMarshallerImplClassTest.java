@@ -22,8 +22,9 @@ implements org.j8unit.repository.javax.xml.bind.helpers.AbstractMarshallerImplCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AbstractMarshallerImpl#AbstractMarshallerImpl()
-     * public javax.xml.bind.helpers.AbstractMarshallerImpl()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#AbstractMarshallerImpl() public
+     * javax.xml.bind.helpers.AbstractMarshallerImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

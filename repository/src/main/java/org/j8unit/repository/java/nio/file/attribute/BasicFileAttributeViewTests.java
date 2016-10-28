@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.nio.file.attribute;
 
 import java.nio.file.attribute.BasicFileAttributeView;
-import java.nio.file.attribute.FileTime;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,9 +34,10 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributeView#readAttributes() public
-     * abstract java.nio.file.attribute.BasicFileAttributes
-     * java.nio.file.attribute.BasicFileAttributeView.readAttributes() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributeView#readAttributes() public abstract
+     * java.nio.file.attribute.BasicFileAttributes java.nio.file.attribute.BasicFileAttributeView.readAttributes()
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +59,8 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicFileAttributeView#setTimes(FileTime, FileTime, FileTime) public abstract void
+     * {@link java.nio.file.attribute.BasicFileAttributeView#setTimes(java.nio.file.attribute.FileTime, java.nio.file.attribute.FileTime, java.nio.file.attribute.FileTime)
+     * public abstract void
      * java.nio.file.attribute.BasicFileAttributeView.setTimes(java.nio.file.attribute.FileTime,java.nio.file.attribute.FileTime,java.nio.file.attribute.FileTime)
      * throws java.io.IOException}.
      *
@@ -82,8 +83,9 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributeView#name() public abstract
-     * java.lang.String java.nio.file.attribute.BasicFileAttributeView.name()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributeView#name() public abstract java.lang.String
+     * java.nio.file.attribute.BasicFileAttributeView.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

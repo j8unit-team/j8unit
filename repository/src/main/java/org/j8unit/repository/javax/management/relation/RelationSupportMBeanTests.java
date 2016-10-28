@@ -35,8 +35,8 @@ extends org.j8unit.repository.javax.management.relation.RelationTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RelationSupportMBean#setRelationServiceManagementFlag(Boolean) public abstract void
-     * javax.management.relation.RelationSupportMBean.setRelationServiceManagementFlag(java.lang.Boolean) throws
+     * {@link javax.management.relation.RelationSupportMBean#setRelationServiceManagementFlag(Boolean) public abstract
+     * void javax.management.relation.RelationSupportMBean.setRelationServiceManagementFlag(java.lang.Boolean) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.management.relation.RelationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RelationSupportMBean#isInRelationService() public
-     * abstract java.lang.Boolean javax.management.relation.RelationSupportMBean.isInRelationService()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupportMBean#isInRelationService() public abstract java.lang.Boolean
+     * javax.management.relation.RelationSupportMBean.isInRelationService()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.net.ServerSocketFactoryClassTests<ServerS
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocketFactory#getDefault() public static
-     * javax.net.ServerSocketFactory javax.net.ServerSocketFactory.getDefault()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ServerSocketFactory#getDefault() public
+     * static javax.net.ServerSocketFactory javax.net.ServerSocketFactory.getDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +36,7 @@ implements org.j8unit.repository.javax.net.ServerSocketFactoryClassTests<ServerS
     @Category(Draft.class)
     public void test_getDefault()
     throws Exception {
-        // write some test for {@link ServerSocketFactory#getDefault()}
+        // write some test for {@link javax.net.ServerSocketFactory#getDefault()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ServerSocketFactory]

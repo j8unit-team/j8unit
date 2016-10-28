@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.security;
 
-import java.io.Serializable;
-import java.security.PrivateKey;
-import java.security.Signature;
 import java.security.SignedObject;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,8 +22,8 @@ implements org.j8unit.repository.java.security.SignedObjectClassTests<SignedObje
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SignedObject#SignedObject(Serializable, PrivateKey, Signature) public
-     * java.security.SignedObject(java.io.Serializable,java.security.PrivateKey,java.security.Signature) throws
+     * {@link java.security.SignedObject#SignedObject(java.io.Serializable, java.security.PrivateKey, java.security.Signature)
+     * public java.security.SignedObject(java.io.Serializable,java.security.PrivateKey,java.security.Signature) throws
      * java.io.IOException,java.security.InvalidKeyException,java.security.SignatureException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +40,8 @@ implements org.j8unit.repository.java.security.SignedObjectClassTests<SignedObje
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SignedObject sut = null; // = new SignedObject(Serializable, PrivateKey, Signature);
+        final SignedObject sut = null; // = new SignedObject(java.io.Serializable, java.security.PrivateKey,
+                                       // java.security.Signature);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.SignedObject]

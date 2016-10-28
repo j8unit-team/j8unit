@@ -35,7 +35,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#addFirst(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#addFirst(Object) public void
      * java.util.ArrayDeque.addFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#clone() public java.util.ArrayDeque
-     * <E> java.util.ArrayDeque.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#clone() public
+     * java.util.ArrayDeque<E> java.util.ArrayDeque.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#removeFirstOccurrence(Object) public
-     * boolean java.util.ArrayDeque.removeFirstOccurrence(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#removeFirstOccurrence(Object)
+     * public boolean java.util.ArrayDeque.removeFirstOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +103,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#pollFirst() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#pollFirst() public E
      * java.util.ArrayDeque.pollFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +126,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#size() public int
      * java.util.ArrayDeque.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +149,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#offerLast(Object) public boolean
-     * java.util.ArrayDeque.offerLast(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#offerLast(Object) public
+     * boolean java.util.ArrayDeque.offerLast(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +172,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#contains(Object) public boolean
      * java.util.ArrayDeque.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,7 +195,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#push(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#push(Object) public void
      * java.util.ArrayDeque.push(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -218,7 +218,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#peek() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#peek() public E
      * java.util.ArrayDeque.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,7 +241,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#isEmpty() public boolean
      * java.util.ArrayDeque.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,7 +264,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#clear() public void
      * java.util.ArrayDeque.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -287,7 +287,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#peekFirst() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#peekFirst() public E
      * java.util.ArrayDeque.peekFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -310,7 +310,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#peekLast() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#peekLast() public E
      * java.util.ArrayDeque.peekLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -333,7 +333,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#spliterator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#spliterator() public
      * java.util.Spliterator<E> java.util.ArrayDeque.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -356,7 +356,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#add(Object) public boolean
      * java.util.ArrayDeque.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -379,8 +379,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#removeLastOccurrence(Object) public
-     * boolean java.util.ArrayDeque.removeLastOccurrence(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#removeLastOccurrence(Object)
+     * public boolean java.util.ArrayDeque.removeLastOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -402,7 +402,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#element() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#element() public E
      * java.util.ArrayDeque.element()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -425,8 +425,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#toArray() public java.lang.Object[]
-     * java.util.ArrayDeque.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#toArray() public
+     * java.lang.Object[] java.util.ArrayDeque.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -448,8 +448,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#toArray(Object[]) public <T> T[]
-     * java.util.ArrayDeque.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#toArray(Object[]) public
+     * <T> T[] java.util.ArrayDeque.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -471,7 +471,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#getFirst() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#getFirst() public E
      * java.util.ArrayDeque.getFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -494,7 +494,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#removeFirst() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#removeFirst() public E
      * java.util.ArrayDeque.removeFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -517,7 +517,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#offer(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#offer(Object) public boolean
      * java.util.ArrayDeque.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -540,7 +540,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#pop() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#pop() public E
      * java.util.ArrayDeque.pop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -563,7 +563,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#addLast(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#addLast(Object) public void
      * java.util.ArrayDeque.addLast(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -586,8 +586,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#iterator() public java.util.Iterator
-     * <E> java.util.ArrayDeque.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#iterator() public
+     * java.util.Iterator<E> java.util.ArrayDeque.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -609,7 +609,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#removeLast() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#removeLast() public E
      * java.util.ArrayDeque.removeLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -632,7 +632,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#pollLast() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#pollLast() public E
      * java.util.ArrayDeque.pollLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -655,7 +655,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#getLast() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#getLast() public E
      * java.util.ArrayDeque.getLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -678,7 +678,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#remove() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#remove() public E
      * java.util.ArrayDeque.remove()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -701,7 +701,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#remove(Object) public boolean
      * java.util.ArrayDeque.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -724,7 +724,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#descendingIterator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#descendingIterator() public
      * java.util.Iterator<E> java.util.ArrayDeque.descendingIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -747,8 +747,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#offerFirst(Object) public boolean
-     * java.util.ArrayDeque.offerFirst(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#offerFirst(Object) public
+     * boolean java.util.ArrayDeque.offerFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -770,7 +770,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayDeque#poll() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayDeque#poll() public E
      * java.util.ArrayDeque.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

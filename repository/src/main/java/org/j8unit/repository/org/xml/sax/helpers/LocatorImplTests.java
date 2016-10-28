@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocatorImpl#setColumnNumber(int) public void
-     * org.xml.sax.helpers.LocatorImpl.setColumnNumber(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#setColumnNumber(int)
+     * public void org.xml.sax.helpers.LocatorImpl.setColumnNumber(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocatorImpl#setSystemId(String) public void
-     * org.xml.sax.helpers.LocatorImpl.setSystemId(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#setSystemId(String)
+     * public void org.xml.sax.helpers.LocatorImpl.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocatorImpl#getLineNumber() public int
-     * org.xml.sax.helpers.LocatorImpl.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#getLineNumber()
+     * public int org.xml.sax.helpers.LocatorImpl.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocatorImpl#getSystemId() public java.lang.String
-     * org.xml.sax.helpers.LocatorImpl.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#getSystemId() public
+     * java.lang.String org.xml.sax.helpers.LocatorImpl.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocatorImpl#getPublicId() public java.lang.String
-     * org.xml.sax.helpers.LocatorImpl.getPublicId()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#getPublicId() public
+     * java.lang.String org.xml.sax.helpers.LocatorImpl.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocatorImpl#getColumnNumber() public int
-     * org.xml.sax.helpers.LocatorImpl.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#getColumnNumber()
+     * public int org.xml.sax.helpers.LocatorImpl.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocatorImpl#setLineNumber(int) public void
-     * org.xml.sax.helpers.LocatorImpl.setLineNumber(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#setLineNumber(int)
+     * public void org.xml.sax.helpers.LocatorImpl.setLineNumber(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +192,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocatorImpl#setPublicId(String) public void
-     * org.xml.sax.helpers.LocatorImpl.setPublicId(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#setPublicId(String)
+     * public void org.xml.sax.helpers.LocatorImpl.setPublicId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

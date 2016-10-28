@@ -22,8 +22,9 @@ implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Normalizer#isNormalized(CharSequence, Form) public
-     * static boolean java.text.Normalizer.isNormalized(java.lang.CharSequence,java.text.Normalizer$Form)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.Normalizer#isNormalized(CharSequence, java.text.Normalizer.Form) public static boolean
+     * java.text.Normalizer.isNormalized(java.lang.CharSequence,java.text.Normalizer$Form)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,13 +38,14 @@ implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
     @Category(Draft.class)
     public void test_isNormalized_CharSequence_Form()
     throws Exception {
-        // write some test for {@link Normalizer#isNormalized(CharSequence, Form)}
+        // write some test for {@link java.text.Normalizer#isNormalized(CharSequence, java.text.Normalizer.Form)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Normalizer#normalize(CharSequence, Form) public
-     * static java.lang.String java.text.Normalizer.normalize(java.lang.CharSequence,java.text.Normalizer$Form)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.Normalizer#normalize(CharSequence, java.text.Normalizer.Form) public static java.lang.String
+     * java.text.Normalizer.normalize(java.lang.CharSequence,java.text.Normalizer$Form)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +59,7 @@ implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
     @Category(Draft.class)
     public void test_normalize_CharSequence_Form()
     throws Exception {
-        // write some test for {@link Normalizer#normalize(CharSequence, Form)}
+        // write some test for {@link java.text.Normalizer#normalize(CharSequence, java.text.Normalizer.Form)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Normalizer]
@@ -75,7 +77,7 @@ implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Form#values() public static
+         * Test method for the hereby targeted method-under-test {@link java.text.Normalizer.Form#values() public static
          * java.text.Normalizer$Form[] java.text.Normalizer$Form.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,13 +92,13 @@ implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Form#values()}
+            // write some test for {@link java.text.Normalizer.Form#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Form#valueOf(String) public static
-         * java.text.Normalizer$Form java.text.Normalizer$Form.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link java.text.Normalizer.Form#valueOf(String) public
+         * static java.text.Normalizer$Form java.text.Normalizer$Form.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -110,7 +112,7 @@ implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Form#valueOf(String)}
+            // write some test for {@link java.text.Normalizer.Form#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Normalizer$Form]

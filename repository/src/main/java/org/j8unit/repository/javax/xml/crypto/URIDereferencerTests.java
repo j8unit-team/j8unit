@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.xml.crypto;
 
 import javax.xml.crypto.URIDereferencer;
-import javax.xml.crypto.URIReference;
-import javax.xml.crypto.XMLCryptoContext;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link URIDereferencer#dereference(URIReference, XMLCryptoContext) public abstract javax.xml.crypto.Data
+     * {@link javax.xml.crypto.URIDereferencer#dereference(javax.xml.crypto.URIReference, javax.xml.crypto.XMLCryptoContext)
+     * public abstract javax.xml.crypto.Data
      * javax.xml.crypto.URIDereferencer.dereference(javax.xml.crypto.URIReference,javax.xml.crypto.XMLCryptoContext)
      * throws javax.xml.crypto.URIReferenceException}.
      *

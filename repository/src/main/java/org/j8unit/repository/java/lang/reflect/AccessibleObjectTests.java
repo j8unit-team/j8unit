@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleObject#isAccessible() public boolean
-     * java.lang.reflect.AccessibleObject.isAccessible()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.AccessibleObject#isAccessible()
+     * public boolean java.lang.reflect.AccessibleObject.isAccessible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleObject#isAnnotationPresent(Class) public
-     * boolean java.lang.reflect.AccessibleObject.isAnnotationPresent(java.lang.Class<? extends
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AccessibleObject#isAnnotationPresent(Class) public boolean
+     * java.lang.reflect.AccessibleObject.isAnnotationPresent(java.lang.Class<? extends
      * java.lang.annotation.Annotation>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +81,9 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleObject#getDeclaredAnnotationsByType(Class)
-     * public <T> T[] java.lang.reflect.AccessibleObject.getDeclaredAnnotationsByType(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AccessibleObject#getDeclaredAnnotationsByType(Class) public <T> T[]
+     * java.lang.reflect.AccessibleObject.getDeclaredAnnotationsByType(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +105,8 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleObject#getAnnotation(Class) public <T> T
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AccessibleObject#getAnnotation(Class) public <T> T
      * java.lang.reflect.AccessibleObject.getAnnotation(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +129,8 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleObject#setAccessible(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AccessibleObject#setAccessible(boolean) public void
      * java.lang.reflect.AccessibleObject.setAccessible(boolean) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +152,9 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleObject#getAnnotationsByType(Class) public
-     * <T> T[] java.lang.reflect.AccessibleObject.getAnnotationsByType(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AccessibleObject#getAnnotationsByType(Class) public <T> T[]
+     * java.lang.reflect.AccessibleObject.getAnnotationsByType(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +176,9 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleObject#getDeclaredAnnotation(Class) public
-     * <T> T java.lang.reflect.AccessibleObject.getDeclaredAnnotation(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AccessibleObject#getDeclaredAnnotation(Class) public <T> T
+     * java.lang.reflect.AccessibleObject.getDeclaredAnnotation(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,8 +200,9 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleObject#getDeclaredAnnotations() public
-     * java.lang.annotation.Annotation[] java.lang.reflect.AccessibleObject.getDeclaredAnnotations()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AccessibleObject#getDeclaredAnnotations() public java.lang.annotation.Annotation[]
+     * java.lang.reflect.AccessibleObject.getDeclaredAnnotations()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,8 +224,8 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleObject#getAnnotations() public
-     * java.lang.annotation.Annotation[] java.lang.reflect.AccessibleObject.getAnnotations()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.AccessibleObject#getAnnotations()
+     * public java.lang.annotation.Annotation[] java.lang.reflect.AccessibleObject.getAnnotations()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

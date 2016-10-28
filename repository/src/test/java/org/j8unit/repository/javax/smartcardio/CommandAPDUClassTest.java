@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.smartcardio;
 
-import java.nio.ByteBuffer;
 import javax.smartcardio.CommandAPDU;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CommandAPDU#CommandAPDU(int, int, int, int, int) public
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(int, int, int, int, int) public
      * javax.smartcardio.CommandAPDU(int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,7 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CommandAPDU#CommandAPDU(int, int, int, int, byte[]) public
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(int, int, int, int, byte[]) public
      * javax.smartcardio.CommandAPDU(int,int,int,int,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,7 +68,7 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CommandAPDU#CommandAPDU(int, int, int, int, byte[], int, int) public
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(int, int, int, int, byte[], int, int) public
      * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -92,7 +91,7 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CommandAPDU#CommandAPDU(int, int, int, int, byte[], int) public
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(int, int, int, int, byte[], int) public
      * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -115,7 +114,7 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CommandAPDU#CommandAPDU(int, int, int, int, byte[], int, int, int) public
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(int, int, int, int, byte[], int, int, int) public
      * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -137,8 +136,9 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CommandAPDU#CommandAPDU(byte[], int, int)
-     * public javax.smartcardio.CommandAPDU(byte[],int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(byte[], int, int) public
+     * javax.smartcardio.CommandAPDU(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -159,8 +159,8 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CommandAPDU#CommandAPDU(byte[]) public
-     * javax.smartcardio.CommandAPDU(byte[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(byte[]) public javax.smartcardio.CommandAPDU(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,7 +181,8 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CommandAPDU#CommandAPDU(ByteBuffer) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(java.nio.ByteBuffer) public
      * javax.smartcardio.CommandAPDU(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,13 +199,14 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CommandAPDU sut = null; // = new CommandAPDU(ByteBuffer);
+        final CommandAPDU sut = null; // = new CommandAPDU(java.nio.ByteBuffer);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CommandAPDU#CommandAPDU(int, int, int, int)
-     * public javax.smartcardio.CommandAPDU(int,int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(int, int, int, int) public
+     * javax.smartcardio.CommandAPDU(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

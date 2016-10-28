@@ -7,10 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.ULongSeqHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class ULongSeqHelperClassTest
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.ULongSeqHelperClassTests<ULongSeq
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ULongSeqHelper#ULongSeqHelper() public
-     * org.omg.CORBA.ULongSeqHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ULongSeqHelper#ULongSeqHelper()
+     * public org.omg.CORBA.ULongSeqHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.ULongSeqHelperClassTests<ULongSeq
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ULongSeqHelper#read(InputStream) public static int[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ULongSeqHelper#read(org.omg.CORBA.portable.InputStream) public static int[]
      * org.omg.CORBA.ULongSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,12 +58,13 @@ implements org.j8unit.repository.org.omg.CORBA.ULongSeqHelperClassTests<ULongSeq
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ULongSeqHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.ULongSeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ULongSeqHelper#extract(Any) public static int[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ULongSeqHelper#extract(org.omg.CORBA.Any) public static int[]
      * org.omg.CORBA.ULongSeqHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,13 +79,13 @@ implements org.j8unit.repository.org.omg.CORBA.ULongSeqHelperClassTests<ULongSeq
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ULongSeqHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.ULongSeqHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ULongSeqHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.ULongSeqHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ULongSeqHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.ULongSeqHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +99,14 @@ implements org.j8unit.repository.org.omg.CORBA.ULongSeqHelperClassTests<ULongSeq
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ULongSeqHelper#type()}
+        // write some test for {@link org.omg.CORBA.ULongSeqHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ULongSeqHelper#write(OutputStream, int[]) public
-     * static void org.omg.CORBA.ULongSeqHelper.write(org.omg.CORBA.portable.OutputStream,int[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ULongSeqHelper#write(org.omg.CORBA.portable.OutputStream, int[]) public static void
+     * org.omg.CORBA.ULongSeqHelper.write(org.omg.CORBA.portable.OutputStream,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +120,13 @@ implements org.j8unit.repository.org.omg.CORBA.ULongSeqHelperClassTests<ULongSeq
     @Category(Draft.class)
     public void test_write_OutputStream_intArray()
     throws Exception {
-        // write some test for {@link ULongSeqHelper#write(OutputStream, int[])}
+        // write some test for {@link org.omg.CORBA.ULongSeqHelper#write(org.omg.CORBA.portable.OutputStream, int[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ULongSeqHelper#id() public static java.lang.String
-     * org.omg.CORBA.ULongSeqHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ULongSeqHelper#id() public static
+     * java.lang.String org.omg.CORBA.ULongSeqHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,12 +140,13 @@ implements org.j8unit.repository.org.omg.CORBA.ULongSeqHelperClassTests<ULongSeq
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ULongSeqHelper#id()}
+        // write some test for {@link org.omg.CORBA.ULongSeqHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ULongSeqHelper#insert(Any, int[]) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ULongSeqHelper#insert(org.omg.CORBA.Any, int[]) public static void
      * org.omg.CORBA.ULongSeqHelper.insert(org.omg.CORBA.Any,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +161,7 @@ implements org.j8unit.repository.org.omg.CORBA.ULongSeqHelperClassTests<ULongSeq
     @Category(Draft.class)
     public void test_insert_Any_intArray()
     throws Exception {
-        // write some test for {@link ULongSeqHelper#insert(Any, int[])}
+        // write some test for {@link org.omg.CORBA.ULongSeqHelper#insert(org.omg.CORBA.Any, int[])}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ULongSeqHelper]

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.CursorClassTests<Cursor> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Cursor#Cursor(int) public java.awt.Cursor(int)}
-     * .
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Cursor#Cursor(int) public
+     * java.awt.Cursor(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.awt.CursorClassTests<Cursor> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Cursor#getDefaultCursor() public static
+     * Test method for the hereby targeted method-under-test {@link java.awt.Cursor#getDefaultCursor() public static
      * java.awt.Cursor java.awt.Cursor.getDefaultCursor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,13 +58,13 @@ implements org.j8unit.repository.java.awt.CursorClassTests<Cursor> {
     @Category(Draft.class)
     public void test_getDefaultCursor()
     throws Exception {
-        // write some test for {@link Cursor#getDefaultCursor()}
+        // write some test for {@link java.awt.Cursor#getDefaultCursor()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Cursor#getPredefinedCursor(int) public static
-     * java.awt.Cursor java.awt.Cursor.getPredefinedCursor(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Cursor#getPredefinedCursor(int) public
+     * static java.awt.Cursor java.awt.Cursor.getPredefinedCursor(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,13 +78,13 @@ implements org.j8unit.repository.java.awt.CursorClassTests<Cursor> {
     @Category(Draft.class)
     public void test_getPredefinedCursor_int()
     throws Exception {
-        // write some test for {@link Cursor#getPredefinedCursor(int)}
+        // write some test for {@link java.awt.Cursor#getPredefinedCursor(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Cursor#getSystemCustomCursor(String) public static
-     * java.awt.Cursor java.awt.Cursor.getSystemCustomCursor(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.awt.Cursor#getSystemCustomCursor(String) public
+     * static java.awt.Cursor java.awt.Cursor.getSystemCustomCursor(java.lang.String) throws
      * java.awt.AWTException,java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,7 +99,7 @@ implements org.j8unit.repository.java.awt.CursorClassTests<Cursor> {
     @Category(Draft.class)
     public void test_getSystemCustomCursor_String()
     throws Exception {
-        // write some test for {@link Cursor#getSystemCustomCursor(String)}
+        // write some test for {@link java.awt.Cursor#getSystemCustomCursor(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Cursor]

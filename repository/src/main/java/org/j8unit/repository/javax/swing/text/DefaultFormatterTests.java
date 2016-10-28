@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.JFormattedTextField;
 import javax.swing.text.DefaultFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#setCommitsOnValidEdit(boolean)
-     * public void javax.swing.text.DefaultFormatter.setCommitsOnValidEdit(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatter#setCommitsOnValidEdit(boolean) public void
+     * javax.swing.text.DefaultFormatter.setCommitsOnValidEdit(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#setAllowsInvalid(boolean) public
-     * void javax.swing.text.DefaultFormatter.setAllowsInvalid(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatter#setAllowsInvalid(boolean) public void
+     * javax.swing.text.DefaultFormatter.setAllowsInvalid(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#getCommitsOnValidEdit() public
-     * boolean javax.swing.text.DefaultFormatter.getCommitsOnValidEdit()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatter#getCommitsOnValidEdit() public boolean
+     * javax.swing.text.DefaultFormatter.getCommitsOnValidEdit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +103,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#setValueClass(Class) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatter#setValueClass(Class) public void
      * javax.swing.text.DefaultFormatter.setValueClass(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +126,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#clone() public java.lang.Object
-     * javax.swing.text.DefaultFormatter.clone() throws java.lang.CloneNotSupportedException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultFormatter#clone() public
+     * java.lang.Object javax.swing.text.DefaultFormatter.clone() throws java.lang.CloneNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +148,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#getAllowsInvalid() public boolean
-     * javax.swing.text.DefaultFormatter.getAllowsInvalid()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultFormatter#getAllowsInvalid()
+     * public boolean javax.swing.text.DefaultFormatter.getAllowsInvalid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +170,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#setOverwriteMode(boolean) public
-     * void javax.swing.text.DefaultFormatter.setOverwriteMode(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatter#setOverwriteMode(boolean) public void
+     * javax.swing.text.DefaultFormatter.setOverwriteMode(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,9 +193,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#valueToString(Object) public
-     * java.lang.String javax.swing.text.DefaultFormatter.valueToString(java.lang.Object) throws
-     * java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatter#valueToString(Object) public java.lang.String
+     * javax.swing.text.DefaultFormatter.valueToString(java.lang.Object) throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +217,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#getOverwriteMode() public boolean
-     * javax.swing.text.DefaultFormatter.getOverwriteMode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultFormatter#getOverwriteMode()
+     * public boolean javax.swing.text.DefaultFormatter.getOverwriteMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +239,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#getValueClass() public
-     * java.lang.Class<?> javax.swing.text.DefaultFormatter.getValueClass()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultFormatter#getValueClass()
+     * public java.lang.Class<?> javax.swing.text.DefaultFormatter.getValueClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,8 +261,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#install(JFormattedTextField) public
-     * void javax.swing.text.DefaultFormatter.install(javax.swing.JFormattedTextField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatter#install(javax.swing.JFormattedTextField) public void
+     * javax.swing.text.DefaultFormatter.install(javax.swing.JFormattedTextField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,9 +285,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFormatter#stringToValue(String) public
-     * java.lang.Object javax.swing.text.DefaultFormatter.stringToValue(java.lang.String) throws
-     * java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultFormatter#stringToValue(String) public java.lang.Object
+     * javax.swing.text.DefaultFormatter.stringToValue(java.lang.String) throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

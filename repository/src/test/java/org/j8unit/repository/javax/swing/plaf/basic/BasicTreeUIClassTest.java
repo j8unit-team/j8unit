@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Component;
-import java.awt.event.MouseEvent;
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicTreeUI;
 import javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler;
 import javax.swing.plaf.basic.BasicTreeUI.ComponentHandler;
@@ -42,8 +39,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicTreeUI#BasicTreeUI() public
-     * javax.swing.plaf.basic.BasicTreeUI()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicTreeUI#BasicTreeUI() public javax.swing.plaf.basic.BasicTreeUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +60,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTreeUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTreeUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicTreeUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +76,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link BasicTreeUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.basic.BasicTreeUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI]
@@ -96,7 +94,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link MouseHandler#MouseHandler(BasicTreeUI)
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTreeUI.MouseHandler#MouseHandler(javax.swing.plaf.basic.BasicTreeUI)
          * public javax.swing.plaf.basic.BasicTreeUI$MouseHandler(javax.swing.plaf.basic.BasicTreeUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -113,7 +112,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final MouseHandler sut = null; // = new MouseHandler(BasicTreeUI);
+            final MouseHandler sut = null; // = new MouseHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$MouseHandler]
@@ -134,8 +133,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link NodeDimensionsHandler#NodeDimensionsHandler(BasicTreeUI) public
-         * javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         * {@link javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler#NodeDimensionsHandler(javax.swing.plaf.basic.BasicTreeUI)
+         * public javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler(javax.swing.plaf.basic.BasicTreeUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -151,7 +150,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final NodeDimensionsHandler sut = null; // = new NodeDimensionsHandler(BasicTreeUI);
+            final NodeDimensionsHandler sut = null; // = new NodeDimensionsHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler]
@@ -159,21 +158,21 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
     }
 
     @RunWith(J8Unit4.class)
-    public static class TreeHomeActionClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeHomeActionClassTests<TreeHomeAction> {
+    public static class PropertyChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler]
 
         @Override
-        public Class<TreeHomeAction> createNewSUT() {
-            return TreeHomeAction.class;
+        public Class<PropertyChangeHandler> createNewSUT() {
+            return PropertyChangeHandler.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TreeHomeAction#TreeHomeAction(BasicTreeUI, int, String) public
-         * javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}.
+         * {@link javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)
+         * public javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -185,14 +184,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_TreeHomeAction_BasicTreeUI_int_String()
+        public void create_PropertyChangeHandler_BasicTreeUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TreeHomeAction sut = null; // = new TreeHomeAction(BasicTreeUI, int, String);
+            final PropertyChangeHandler sut = null; // = new PropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler]
 
     }
 
@@ -210,8 +209,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TreeExpansionHandler#TreeExpansionHandler(BasicTreeUI) public
-         * javax.swing.plaf.basic.BasicTreeUI$TreeExpansionHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler#TreeExpansionHandler(javax.swing.plaf.basic.BasicTreeUI)
+         * public javax.swing.plaf.basic.BasicTreeUI$TreeExpansionHandler(javax.swing.plaf.basic.BasicTreeUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -227,7 +226,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TreeExpansionHandler sut = null; // = new TreeExpansionHandler(BasicTreeUI);
+            final TreeExpansionHandler sut = null; // = new TreeExpansionHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeExpansionHandler]
@@ -235,96 +234,22 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
     }
 
     @RunWith(J8Unit4.class)
-    public static class ComponentHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.ComponentHandlerClassTests<ComponentHandler> {
+    public static class TreeTraverseActionClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeTraverseActionClassTests<TreeTraverseAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$ComponentHandler]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeTraverseAction]
 
         @Override
-        public Class<ComponentHandler> createNewSUT() {
-            return ComponentHandler.class;
+        public Class<TreeTraverseAction> createNewSUT() {
+            return TreeTraverseAction.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link ComponentHandler#ComponentHandler(BasicTreeUI) public
-         * javax.swing.plaf.basic.BasicTreeUI$ComponentHandler(javax.swing.plaf.basic.BasicTreeUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ComponentHandler_BasicTreeUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ComponentHandler sut = null; // = new ComponentHandler(BasicTreeUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$ComponentHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class FocusHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.FocusHandlerClassTests<FocusHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$FocusHandler]
-
-        @Override
-        public Class<FocusHandler> createNewSUT() {
-            return FocusHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test {@link FocusHandler#FocusHandler(BasicTreeUI)
-         * public javax.swing.plaf.basic.BasicTreeUI$FocusHandler(javax.swing.plaf.basic.BasicTreeUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_FocusHandler_BasicTreeUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final FocusHandler sut = null; // = new FocusHandler(BasicTreeUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$FocusHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class MouseInputHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.MouseInputHandlerClassTests<MouseInputHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler]
-
-        @Override
-        public Class<MouseInputHandler> createNewSUT() {
-            return MouseInputHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link MouseInputHandler#MouseInputHandler(BasicTreeUI, Component, Component, MouseEvent) public
-         * javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler(javax.swing.plaf.basic.BasicTreeUI,java.awt.Component,java.awt.Component,java.awt.event.MouseEvent)}
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction#TreeTraverseAction(javax.swing.plaf.basic.BasicTreeUI, int, String)
+         * public
+         * javax.swing.plaf.basic.BasicTreeUI$TreeTraverseAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}
          * .
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -337,91 +262,15 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_MouseInputHandler_BasicTreeUI_Component_Component_MouseEvent()
+        public void create_TreeTraverseAction_BasicTreeUI_int_String()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final MouseInputHandler sut = null; // = new MouseInputHandler(BasicTreeUI, Component, Component,
-                                                // MouseEvent);
+            final TreeTraverseAction sut = null; // = new TreeTraverseAction(javax.swing.plaf.basic.BasicTreeUI, int,
+                                                 // String);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreePageActionClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreePageActionClassTests<TreePageAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreePageAction]
-
-        @Override
-        public Class<TreePageAction> createNewSUT() {
-            return TreePageAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link TreePageAction#TreePageAction(BasicTreeUI, int, String) public
-         * javax.swing.plaf.basic.BasicTreeUI$TreePageAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TreePageAction_BasicTreeUI_int_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final TreePageAction sut = null; // = new TreePageAction(BasicTreeUI, int, String);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreePageAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeSelectionHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeSelectionHandlerClassTests<TreeSelectionHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeSelectionHandler]
-
-        @Override
-        public Class<TreeSelectionHandler> createNewSUT() {
-            return TreeSelectionHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link TreeSelectionHandler#TreeSelectionHandler(BasicTreeUI) public
-         * javax.swing.plaf.basic.BasicTreeUI$TreeSelectionHandler(javax.swing.plaf.basic.BasicTreeUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TreeSelectionHandler_BasicTreeUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final TreeSelectionHandler sut = null; // = new TreeSelectionHandler(BasicTreeUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeSelectionHandler]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeTraverseAction]
 
     }
 
@@ -440,7 +289,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link SelectionModelPropertyChangeHandler#SelectionModelPropertyChangeHandler(BasicTreeUI) public
+         * {@link javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler#SelectionModelPropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)
+         * public
          * javax.swing.plaf.basic.BasicTreeUI$SelectionModelPropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -458,10 +308,89 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
             // create new instance
             @SuppressWarnings("unused")
             final SelectionModelPropertyChangeHandler sut = null; // = new
-                                                                  // SelectionModelPropertyChangeHandler(BasicTreeUI);
+                                                                  // SelectionModelPropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$SelectionModelPropertyChangeHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class MouseInputHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.MouseInputHandlerClassTests<MouseInputHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler]
+
+        @Override
+        public Class<MouseInputHandler> createNewSUT() {
+            return MouseInputHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler#MouseInputHandler(javax.swing.plaf.basic.BasicTreeUI, java.awt.Component, java.awt.Component, java.awt.event.MouseEvent)
+         * public
+         * javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler(javax.swing.plaf.basic.BasicTreeUI,java.awt.Component,java.awt.Component,java.awt.event.MouseEvent)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_MouseInputHandler_BasicTreeUI_Component_Component_MouseEvent()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final MouseInputHandler sut = null; // = new MouseInputHandler(javax.swing.plaf.basic.BasicTreeUI,
+                                                // java.awt.Component, java.awt.Component, java.awt.event.MouseEvent);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CellEditorHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.CellEditorHandlerClassTests<CellEditorHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler]
+
+        @Override
+        public Class<CellEditorHandler> createNewSUT() {
+            return CellEditorHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler#CellEditorHandler(javax.swing.plaf.basic.BasicTreeUI)
+         * public javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_CellEditorHandler_BasicTreeUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final CellEditorHandler sut = null; // = new CellEditorHandler(javax.swing.plaf.basic.BasicTreeUI);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler]
 
     }
 
@@ -478,7 +407,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link KeyHandler#KeyHandler(BasicTreeUI) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTreeUI.KeyHandler#KeyHandler(javax.swing.plaf.basic.BasicTreeUI) public
          * javax.swing.plaf.basic.BasicTreeUI$KeyHandler(javax.swing.plaf.basic.BasicTreeUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -495,7 +425,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final KeyHandler sut = null; // = new KeyHandler(BasicTreeUI);
+            final KeyHandler sut = null; // = new KeyHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$KeyHandler]
@@ -516,8 +446,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TreeModelHandler#TreeModelHandler(BasicTreeUI) public
-         * javax.swing.plaf.basic.BasicTreeUI$TreeModelHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler#TreeModelHandler(javax.swing.plaf.basic.BasicTreeUI)
+         * public javax.swing.plaf.basic.BasicTreeUI$TreeModelHandler(javax.swing.plaf.basic.BasicTreeUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -533,10 +463,49 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TreeModelHandler sut = null; // = new TreeModelHandler(BasicTreeUI);
+            final TreeModelHandler sut = null; // = new TreeModelHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeModelHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreeHomeActionClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeHomeActionClassTests<TreeHomeAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction]
+
+        @Override
+        public Class<TreeHomeAction> createNewSUT() {
+            return TreeHomeAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction#TreeHomeAction(javax.swing.plaf.basic.BasicTreeUI, int, String)
+         * public
+         * javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TreeHomeAction_BasicTreeUI_int_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final TreeHomeAction sut = null; // = new TreeHomeAction(javax.swing.plaf.basic.BasicTreeUI, int, String);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction]
 
     }
 
@@ -554,7 +523,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TreeToggleAction#TreeToggleAction(BasicTreeUI, String) public
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction#TreeToggleAction(javax.swing.plaf.basic.BasicTreeUI, String)
+         * public
          * javax.swing.plaf.basic.BasicTreeUI$TreeToggleAction(javax.swing.plaf.basic.BasicTreeUI,java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -571,7 +541,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TreeToggleAction sut = null; // = new TreeToggleAction(BasicTreeUI, String);
+            final TreeToggleAction sut = null; // = new TreeToggleAction(javax.swing.plaf.basic.BasicTreeUI, String);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeToggleAction]
@@ -579,22 +549,21 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
     }
 
     @RunWith(J8Unit4.class)
-    public static class TreeTraverseActionClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeTraverseActionClassTests<TreeTraverseAction> {
+    public static class ComponentHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.ComponentHandlerClassTests<ComponentHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeTraverseAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$ComponentHandler]
 
         @Override
-        public Class<TreeTraverseAction> createNewSUT() {
-            return TreeTraverseAction.class;
+        public Class<ComponentHandler> createNewSUT() {
+            return ComponentHandler.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TreeTraverseAction#TreeTraverseAction(BasicTreeUI, int, String) public
-         * javax.swing.plaf.basic.BasicTreeUI$TreeTraverseAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}
-         * .
+         * {@link javax.swing.plaf.basic.BasicTreeUI.ComponentHandler#ComponentHandler(javax.swing.plaf.basic.BasicTreeUI)
+         * public javax.swing.plaf.basic.BasicTreeUI$ComponentHandler(javax.swing.plaf.basic.BasicTreeUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -606,33 +575,33 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_TreeTraverseAction_BasicTreeUI_int_String()
+        public void create_ComponentHandler_BasicTreeUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TreeTraverseAction sut = null; // = new TreeTraverseAction(BasicTreeUI, int, String);
+            final ComponentHandler sut = null; // = new ComponentHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeTraverseAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$ComponentHandler]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+    public static class FocusHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.FocusHandlerClassTests<FocusHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$FocusHandler]
 
         @Override
-        public Class<PropertyChangeHandler> createNewSUT() {
-            return PropertyChangeHandler.class;
+        public Class<FocusHandler> createNewSUT() {
+            return FocusHandler.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link PropertyChangeHandler#PropertyChangeHandler(BasicTreeUI) public
-         * javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         * {@link javax.swing.plaf.basic.BasicTreeUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicTreeUI)
+         * public javax.swing.plaf.basic.BasicTreeUI$FocusHandler(javax.swing.plaf.basic.BasicTreeUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -644,91 +613,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_PropertyChangeHandler_BasicTreeUI()
+        public void create_FocusHandler_BasicTreeUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PropertyChangeHandler sut = null; // = new PropertyChangeHandler(BasicTreeUI);
+            final FocusHandler sut = null; // = new FocusHandler(javax.swing.plaf.basic.BasicTreeUI);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class CellEditorHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.CellEditorHandlerClassTests<CellEditorHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler]
-
-        @Override
-        public Class<CellEditorHandler> createNewSUT() {
-            return CellEditorHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link CellEditorHandler#CellEditorHandler(BasicTreeUI) public
-         * javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler(javax.swing.plaf.basic.BasicTreeUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_CellEditorHandler_BasicTreeUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final CellEditorHandler sut = null; // = new CellEditorHandler(BasicTreeUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeIncrementActionClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeIncrementActionClassTests<TreeIncrementAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction]
-
-        @Override
-        public Class<TreeIncrementAction> createNewSUT() {
-            return TreeIncrementAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link TreeIncrementAction#TreeIncrementAction(BasicTreeUI, int, String) public
-         * javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TreeIncrementAction_BasicTreeUI_int_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final TreeIncrementAction sut = null; // = new TreeIncrementAction(BasicTreeUI, int, String);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$FocusHandler]
 
     }
 
@@ -746,7 +638,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TreeCancelEditingAction#TreeCancelEditingAction(BasicTreeUI, String) public
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction#TreeCancelEditingAction(javax.swing.plaf.basic.BasicTreeUI, String)
+         * public
          * javax.swing.plaf.basic.BasicTreeUI$TreeCancelEditingAction(javax.swing.plaf.basic.BasicTreeUI,java.lang.String)}
          * .
          *
@@ -764,10 +657,130 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<Ba
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TreeCancelEditingAction sut = null; // = new TreeCancelEditingAction(BasicTreeUI, String);
+            final TreeCancelEditingAction sut = null; // = new
+                                                      // TreeCancelEditingAction(javax.swing.plaf.basic.BasicTreeUI,
+                                                      // String);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeCancelEditingAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreeSelectionHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeSelectionHandlerClassTests<TreeSelectionHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeSelectionHandler]
+
+        @Override
+        public Class<TreeSelectionHandler> createNewSUT() {
+            return TreeSelectionHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler#TreeSelectionHandler(javax.swing.plaf.basic.BasicTreeUI)
+         * public javax.swing.plaf.basic.BasicTreeUI$TreeSelectionHandler(javax.swing.plaf.basic.BasicTreeUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TreeSelectionHandler_BasicTreeUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final TreeSelectionHandler sut = null; // = new TreeSelectionHandler(javax.swing.plaf.basic.BasicTreeUI);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeSelectionHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreeIncrementActionClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeIncrementActionClassTests<TreeIncrementAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction]
+
+        @Override
+        public Class<TreeIncrementAction> createNewSUT() {
+            return TreeIncrementAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction#TreeIncrementAction(javax.swing.plaf.basic.BasicTreeUI, int, String)
+         * public
+         * javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TreeIncrementAction_BasicTreeUI_int_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final TreeIncrementAction sut = null; // = new TreeIncrementAction(javax.swing.plaf.basic.BasicTreeUI, int,
+                                                  // String);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TreePageActionClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreePageActionClassTests<TreePageAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreePageAction]
+
+        @Override
+        public Class<TreePageAction> createNewSUT() {
+            return TreePageAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTreeUI.TreePageAction#TreePageAction(javax.swing.plaf.basic.BasicTreeUI, int, String)
+         * public
+         * javax.swing.plaf.basic.BasicTreeUI$TreePageAction(javax.swing.plaf.basic.BasicTreeUI,int,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TreePageAction_BasicTreeUI_int_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final TreePageAction sut = null; // = new TreePageAction(javax.swing.plaf.basic.BasicTreeUI, int, String);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTreeUI$TreePageAction]
 
     }
 

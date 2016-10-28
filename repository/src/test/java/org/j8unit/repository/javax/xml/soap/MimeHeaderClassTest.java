@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.xml.soap.MimeHeaderClassTests<MimeHeader>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MimeHeader#MimeHeader(String, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.soap.MimeHeader#MimeHeader(String, String) public
      * javax.xml.soap.MimeHeader(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

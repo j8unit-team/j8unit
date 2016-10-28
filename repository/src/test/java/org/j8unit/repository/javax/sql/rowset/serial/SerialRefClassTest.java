@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.sql.Ref;
 import javax.sql.rowset.serial.SerialRef;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialRefClassTests<Ser
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SerialRef#SerialRef(Ref) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.serial.SerialRef#SerialRef(java.sql.Ref) public
      * javax.sql.rowset.serial.SerialRef(java.sql.Ref) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
@@ -40,7 +40,7 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialRefClassTests<Ser
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SerialRef sut = null; // = new SerialRef(Ref);
+        final SerialRef sut = null; // = new SerialRef(java.sql.Ref);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialRef]

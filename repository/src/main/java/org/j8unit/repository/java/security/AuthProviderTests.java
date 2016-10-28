@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.AuthProvider;
-import javax.security.auth.Subject;
-import javax.security.auth.callback.CallbackHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.security.ProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AuthProvider#logout() public abstract void
-     * java.security.AuthProvider.logout() throws javax.security.auth.login.LoginException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AuthProvider#logout() public abstract
+     * void java.security.AuthProvider.logout() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,9 @@ extends org.j8unit.repository.java.security.ProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AuthProvider#login(Subject, CallbackHandler) public
-     * abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AuthProvider#login(javax.security.auth.Subject, javax.security.auth.callback.CallbackHandler)
+     * public abstract void
      * java.security.AuthProvider.login(javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler) throws
      * javax.security.auth.login.LoginException}.
      *
@@ -82,9 +81,9 @@ extends org.j8unit.repository.java.security.ProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AuthProvider#setCallbackHandler(CallbackHandler)
-     * public abstract void java.security.AuthProvider.setCallbackHandler(javax.security.auth.callback.CallbackHandler)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AuthProvider#setCallbackHandler(javax.security.auth.callback.CallbackHandler) public
+     * abstract void java.security.AuthProvider.setCallbackHandler(javax.security.auth.callback.CallbackHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

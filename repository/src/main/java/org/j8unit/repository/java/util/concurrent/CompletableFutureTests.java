@@ -2,13 +2,6 @@ package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletableFuture.AsynchronousCompletionTask;
-import java.util.concurrent.CompletionStage;
-import java.util.concurrent.Executor;
-import java.util.concurrent.TimeUnit;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.Function;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -44,7 +37,33 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenRunAsync(Runnable) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenRunAsync(Runnable, java.util.concurrent.Executor) public
+     * java.util.concurrent.CompletableFuture<java.lang.Void>
+     * java.util.concurrent.CompletableFuture.thenRunAsync(java.lang.Runnable,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_thenRunAsync_Runnable_Executor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenRunAsync(Runnable) public
      * java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.thenRunAsync(java.lang.Runnable)}.
      *
@@ -68,31 +87,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenRunAsync(Runnable, Executor)
-     * public java.util.concurrent.CompletableFuture<java.lang.Void>
-     * java.util.concurrent.CompletableFuture.thenRunAsync(java.lang.Runnable,java.util.concurrent.Executor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_thenRunAsync_Runnable_Executor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenComposeAsync(Function) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenComposeAsync(java.util.function.Function) public
      * <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.thenComposeAsync(java.util.function.Function<? super T, ? extends
      * java.util.concurrent.CompletionStage<U>>)}.
@@ -118,7 +114,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#thenComposeAsync(Function, Executor) public <U> java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#thenComposeAsync(java.util.function.Function, java.util.concurrent.Executor)
+     * public <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.thenComposeAsync(java.util.function.Function<? super T, ? extends
      * java.util.concurrent.CompletionStage<U>>,java.util.concurrent.Executor)}.
      *
@@ -143,7 +140,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#runAfterEither(CompletionStage, Runnable) public java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#runAfterEither(java.util.concurrent.CompletionStage, Runnable)
+     * public java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.runAfterEither(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable)}.
      *
@@ -168,7 +166,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#acceptEither(CompletionStage, Consumer) public java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#acceptEither(java.util.concurrent.CompletionStage, java.util.function.Consumer)
+     * public java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.acceptEither(java.util.concurrent.CompletionStage<?
      * extends T>,java.util.function.Consumer<? super T>)}.
      *
@@ -192,31 +191,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#get() public T
-     * java.util.concurrent.CompletableFuture.get() throws
-     * java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_get()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#get(long, TimeUnit) public T
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#get(long, java.util.concurrent.TimeUnit) public T
      * java.util.concurrent.CompletableFuture.get(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException,java.util.concurrent.ExecutionException,java.util.concurrent.TimeoutException}.
      *
@@ -240,9 +216,33 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CompletableFuture#get() public
+     * T java.util.concurrent.CompletableFuture.get() throws
+     * java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#applyToEitherAsync(CompletionStage, Function, Executor) public
-     * <U> java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#applyToEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Function, java.util.concurrent.Executor)
+     * public <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.applyToEitherAsync(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Function<? super T, U>,java.util.concurrent.Executor)}.
      *
@@ -267,8 +267,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#applyToEitherAsync(CompletionStage, Function) public
-     * <U> java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#applyToEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Function)
+     * public <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.applyToEitherAsync(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Function<? super T, U>)}.
      *
@@ -293,34 +293,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#runAfterEitherAsync(CompletionStage, Runnable) public
-     * java.util.concurrent.CompletableFuture
-     * <java.lang.Void> java.util.concurrent.CompletableFuture.runAfterEitherAsync(java.util.concurrent.CompletionStage
-     * <?>,java.lang.Runnable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_runAfterEitherAsync_CompletionStage_Runnable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#runAfterEitherAsync(CompletionStage, Runnable, Executor) public
-     * java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#runAfterEitherAsync(java.util.concurrent.CompletionStage, Runnable, java.util.concurrent.Executor)
+     * public java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.runAfterEitherAsync(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable,java.util.concurrent.Executor)}.
      *
@@ -345,8 +319,34 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#acceptEitherAsync(CompletionStage, Consumer, Executor) public
-     * java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#runAfterEitherAsync(java.util.concurrent.CompletionStage, Runnable)
+     * public java.util.concurrent.CompletableFuture
+     * <java.lang.Void> java.util.concurrent.CompletableFuture.runAfterEitherAsync(java.util.concurrent.CompletionStage
+     * <?>,java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_runAfterEitherAsync_CompletionStage_Runnable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#acceptEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Consumer, java.util.concurrent.Executor)
+     * public java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.acceptEitherAsync(java.util.concurrent.CompletionStage<?
      * extends T>,java.util.function.Consumer<? super T>,java.util.concurrent.Executor)}.
      *
@@ -371,8 +371,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#acceptEitherAsync(CompletionStage, Consumer) public
-     * java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#acceptEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Consumer)
+     * public java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.acceptEitherAsync(java.util.concurrent.CompletionStage<?
      * extends T>,java.util.function.Consumer<? super T>)}.
      *
@@ -396,32 +396,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#handleAsync(BiFunction) public
-     * <U> java.util.concurrent.CompletableFuture
-     * <U> java.util.concurrent.CompletableFuture.handleAsync(java.util.function.BiFunction<? super T,
-     * java.lang.Throwable, ? extends U>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_handleAsync_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#handleAsync(BiFunction, Executor)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#handleAsync(java.util.function.BiFunction, java.util.concurrent.Executor)
      * public <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.handleAsync(java.util.function.BiFunction<? super T,
      * java.lang.Throwable, ? extends U>,java.util.concurrent.Executor)}.
@@ -447,7 +423,34 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#runAfterBoth(CompletionStage, Runnable) public java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#handleAsync(java.util.function.BiFunction) public
+     * <U> java.util.concurrent.CompletableFuture
+     * <U> java.util.concurrent.CompletableFuture.handleAsync(java.util.function.BiFunction<? super T,
+     * java.lang.Throwable, ? extends U>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_handleAsync_BiFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#runAfterBoth(java.util.concurrent.CompletionStage, Runnable) public
+     * java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.runAfterBoth(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable)}.
      *
@@ -471,7 +474,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#whenComplete(BiConsumer) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#whenComplete(java.util.function.BiConsumer) public
      * java.util.concurrent.CompletableFuture
      * <T> java.util.concurrent.CompletableFuture.whenComplete(java.util.function.BiConsumer<? super T, ? super
      * java.lang.Throwable>)}.
@@ -497,8 +501,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#thenAcceptBothAsync(CompletionStage, BiConsumer) public
-     * <U> java.util.concurrent.CompletableFuture<java.lang.Void>
+     * {@link java.util.concurrent.CompletableFuture#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer)
+     * public <U> java.util.concurrent.CompletableFuture<java.lang.Void>
      * java.util.concurrent.CompletableFuture.thenAcceptBothAsync(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiConsumer<? super T, ? super U>)}.
      *
@@ -523,8 +527,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#thenAcceptBothAsync(CompletionStage, BiConsumer, Executor) public
-     * <U> java.util.concurrent.CompletableFuture<java.lang.Void>
+     * {@link java.util.concurrent.CompletableFuture#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer, java.util.concurrent.Executor)
+     * public <U> java.util.concurrent.CompletableFuture<java.lang.Void>
      * java.util.concurrent.CompletableFuture.thenAcceptBothAsync(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiConsumer<? super T, ? super U>,java.util.concurrent.Executor)}.
      *
@@ -548,8 +552,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#completeExceptionally(Throwable)
-     * public boolean java.util.concurrent.CompletableFuture.completeExceptionally(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#completeExceptionally(Throwable) public boolean
+     * java.util.concurrent.CompletableFuture.completeExceptionally(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -570,8 +575,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#isDone() public boolean
-     * java.util.concurrent.CompletableFuture.isDone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CompletableFuture#isDone()
+     * public boolean java.util.concurrent.CompletableFuture.isDone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -593,8 +598,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#isCancelled() public boolean
-     * java.util.concurrent.CompletableFuture.isCancelled()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CompletableFuture#isCancelled()
+     * public boolean java.util.concurrent.CompletableFuture.isCancelled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -616,7 +621,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenAccept(Consumer) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenAccept(java.util.function.Consumer) public
      * java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.thenAccept(java.util.function.Consumer<? super T>)}.
      *
@@ -640,8 +646,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#toString() public java.lang.String
-     * java.util.concurrent.CompletableFuture.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CompletableFuture#toString()
+     * public java.lang.String java.util.concurrent.CompletableFuture.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -663,7 +669,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#complete(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#complete(Object) public boolean
      * java.util.concurrent.CompletableFuture.complete(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -686,8 +693,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#thenCombine(CompletionStage, BiFunction) public
-     * <U,V> java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#thenCombine(java.util.concurrent.CompletionStage, java.util.function.BiFunction)
+     * public <U,V> java.util.concurrent.CompletableFuture
      * <V> java.util.concurrent.CompletableFuture.thenCombine(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>)}.
      *
@@ -712,8 +719,34 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#runAfterBothAsync(CompletionStage, Runnable, Executor) public
-     * java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#runAfterBothAsync(java.util.concurrent.CompletionStage, Runnable)
+     * public java.util.concurrent.CompletableFuture
+     * <java.lang.Void> java.util.concurrent.CompletableFuture.runAfterBothAsync(java.util.concurrent.CompletionStage
+     * <?>,java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_runAfterBothAsync_CompletionStage_Runnable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#runAfterBothAsync(java.util.concurrent.CompletionStage, Runnable, java.util.concurrent.Executor)
+     * public java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.runAfterBothAsync(java.util.concurrent.CompletionStage
      * <?>,java.lang.Runnable,java.util.concurrent.Executor)}.
      *
@@ -738,32 +771,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#runAfterBothAsync(CompletionStage, Runnable) public
-     * java.util.concurrent.CompletableFuture
-     * <java.lang.Void> java.util.concurrent.CompletableFuture.runAfterBothAsync(java.util.concurrent.CompletionStage
-     * <?>,java.lang.Runnable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_runAfterBothAsync_CompletionStage_Runnable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#obtrudeValue(Object) public void
+     * {@link java.util.concurrent.CompletableFuture#obtrudeValue(Object) public void
      * java.util.concurrent.CompletableFuture.obtrudeValue(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -785,7 +793,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#cancel(boolean) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#cancel(boolean) public boolean
      * java.util.concurrent.CompletableFuture.cancel(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -809,8 +818,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#thenAcceptBoth(CompletionStage, BiConsumer) public
-     * <U> java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#thenAcceptBoth(java.util.concurrent.CompletionStage, java.util.function.BiConsumer)
+     * public <U> java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.thenAcceptBoth(java.util.concurrent.CompletionStage<?
      * extends U>,java.util.function.BiConsumer<? super T, ? super U>)}.
      *
@@ -834,8 +843,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#join() public T
-     * java.util.concurrent.CompletableFuture.join()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CompletableFuture#join() public
+     * T java.util.concurrent.CompletableFuture.join()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -856,7 +865,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenApply(Function) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenApply(java.util.function.Function) public
      * <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.thenApply(java.util.function.Function<? super T, ? extends U>)}.
      *
@@ -880,8 +890,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#isCompletedExceptionally() public
-     * boolean java.util.concurrent.CompletableFuture.isCompletedExceptionally()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#isCompletedExceptionally() public boolean
+     * java.util.concurrent.CompletableFuture.isCompletedExceptionally()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -903,8 +914,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#applyToEither(CompletionStage, Function) public
-     * <U> java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#applyToEither(java.util.concurrent.CompletionStage, java.util.function.Function)
+     * public <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.applyToEither(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Function<? super T, U>)}.
      *
@@ -928,8 +939,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#obtrudeException(Throwable) public
-     * void java.util.concurrent.CompletableFuture.obtrudeException(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#obtrudeException(Throwable) public void
+     * java.util.concurrent.CompletableFuture.obtrudeException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -950,7 +962,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#handle(BiFunction) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#handle(java.util.function.BiFunction) public
      * <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.handle(java.util.function.BiFunction<? super T, java.lang.Throwable, ?
      * extends U>)}.
@@ -975,7 +988,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#getNow(Object) public T
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#getNow(Object) public T
      * java.util.concurrent.CompletableFuture.getNow(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -997,7 +1011,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#exceptionally(Function) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#exceptionally(java.util.function.Function) public
      * java.util.concurrent.CompletableFuture
      * <T> java.util.concurrent.CompletableFuture.exceptionally(java.util.function.Function<java.lang.Throwable, ?
      * extends T>)}.
@@ -1023,8 +1038,34 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#thenCombineAsync(CompletionStage, BiFunction, Executor) public
-     * <U,V> java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#thenCombineAsync(java.util.concurrent.CompletionStage, java.util.function.BiFunction)
+     * public <U,V> java.util.concurrent.CompletableFuture
+     * <V> java.util.concurrent.CompletableFuture.thenCombineAsync(java.util.concurrent.CompletionStage<? extends
+     * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_thenCombineAsync_CompletionStage_BiFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenCombineAsync(java.util.concurrent.CompletionStage, java.util.function.BiFunction, java.util.concurrent.Executor)
+     * public <U,V> java.util.concurrent.CompletableFuture
      * <V> java.util.concurrent.CompletableFuture.thenCombineAsync(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>,java.util.concurrent.Executor)}.
      *
@@ -1049,32 +1090,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#thenCombineAsync(CompletionStage, BiFunction) public
-     * <U,V> java.util.concurrent.CompletableFuture
-     * <V> java.util.concurrent.CompletableFuture.thenCombineAsync(java.util.concurrent.CompletionStage<? extends
-     * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_thenCombineAsync_CompletionStage_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenCompose(Function) public
+     * {@link java.util.concurrent.CompletableFuture#thenCompose(java.util.function.Function) public
      * <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.thenCompose(java.util.function.Function<? super T, ? extends
      * java.util.concurrent.CompletionStage<U>>)}.
@@ -1099,8 +1115,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenRun(Runnable) public
-     * java.util.concurrent.CompletableFuture
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenRun(Runnable) public java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.thenRun(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1123,7 +1139,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#getNumberOfDependents() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#getNumberOfDependents() public int
      * java.util.concurrent.CompletableFuture.getNumberOfDependents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1145,8 +1162,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#toCompletableFuture() public
-     * java.util.concurrent.CompletableFuture<T> java.util.concurrent.CompletableFuture.toCompletableFuture()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#toCompletableFuture() public java.util.concurrent.CompletableFuture
+     * <T> java.util.concurrent.CompletableFuture.toCompletableFuture()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1168,7 +1186,33 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenApplyAsync(Function, Executor)
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenApplyAsync(java.util.function.Function) public
+     * <U> java.util.concurrent.CompletableFuture
+     * <U> java.util.concurrent.CompletableFuture.thenApplyAsync(java.util.function.Function<? super T, ? extends U>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_thenApplyAsync_Function()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenApplyAsync(java.util.function.Function, java.util.concurrent.Executor)
      * public <U> java.util.concurrent.CompletableFuture
      * <U> java.util.concurrent.CompletableFuture.thenApplyAsync(java.util.function.Function<? super T, ? extends
      * U>,java.util.concurrent.Executor)}.
@@ -1193,31 +1237,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenApplyAsync(Function) public
-     * <U> java.util.concurrent.CompletableFuture
-     * <U> java.util.concurrent.CompletableFuture.thenApplyAsync(java.util.function.Function<? super T, ? extends U>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_thenApplyAsync_Function()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#thenAcceptAsync(Consumer) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#thenAcceptAsync(java.util.function.Consumer) public
      * java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.thenAcceptAsync(java.util.function.Consumer<? super T>)}.
      *
@@ -1242,7 +1263,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#thenAcceptAsync(Consumer, Executor) public java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#thenAcceptAsync(java.util.function.Consumer, java.util.concurrent.Executor)
+     * public java.util.concurrent.CompletableFuture
      * <java.lang.Void> java.util.concurrent.CompletableFuture.thenAcceptAsync(java.util.function.Consumer<? super
      * T>,java.util.concurrent.Executor)}.
      *
@@ -1266,8 +1288,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletableFuture#whenCompleteAsync(BiConsumer)
-     * public java.util.concurrent.CompletableFuture
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#whenCompleteAsync(java.util.function.BiConsumer) public
+     * java.util.concurrent.CompletableFuture
      * <T> java.util.concurrent.CompletableFuture.whenCompleteAsync(java.util.function.BiConsumer<? super T, ? super
      * java.lang.Throwable>)}.
      *
@@ -1292,7 +1315,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompletableFuture#whenCompleteAsync(BiConsumer, Executor) public java.util.concurrent.CompletableFuture
+     * {@link java.util.concurrent.CompletableFuture#whenCompleteAsync(java.util.function.BiConsumer, java.util.concurrent.Executor)
+     * public java.util.concurrent.CompletableFuture
      * <T> java.util.concurrent.CompletableFuture.whenCompleteAsync(java.util.function.BiConsumer<? super T, ? super
      * java.lang.Throwable>,java.util.concurrent.Executor)}.
      *

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.event.ContainerEvent;
 import java.awt.event.ContainerListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContainerListener#componentRemoved(ContainerEvent)
-     * public abstract void java.awt.event.ContainerListener.componentRemoved(java.awt.event.ContainerEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.ContainerListener#componentRemoved(java.awt.event.ContainerEvent) public abstract void
+     * java.awt.event.ContainerListener.componentRemoved(java.awt.event.ContainerEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContainerListener#componentAdded(ContainerEvent)
-     * public abstract void java.awt.event.ContainerListener.componentAdded(java.awt.event.ContainerEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.ContainerListener#componentAdded(java.awt.event.ContainerEvent) public abstract void
+     * java.awt.event.ContainerListener.componentAdded(java.awt.event.ContainerEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

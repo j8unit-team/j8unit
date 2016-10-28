@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.lang.model.type;
 
 import javax.lang.model.type.TypeMirror;
-import javax.lang.model.type.TypeVisitor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMirror#hashCode() public abstract int
-     * javax.lang.model.type.TypeMirror.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.type.TypeMirror#hashCode() public
+     * abstract int javax.lang.model.type.TypeMirror.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMirror#equals(Object) public abstract boolean
-     * javax.lang.model.type.TypeMirror.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.type.TypeMirror#equals(Object)
+     * public abstract boolean javax.lang.model.type.TypeMirror.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMirror#toString() public abstract
-     * java.lang.String javax.lang.model.type.TypeMirror.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.type.TypeMirror#toString() public
+     * abstract java.lang.String javax.lang.model.type.TypeMirror.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +100,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMirror#getKind() public abstract
-     * javax.lang.model.type.TypeKind javax.lang.model.type.TypeMirror.getKind()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.type.TypeMirror#getKind() public
+     * abstract javax.lang.model.type.TypeKind javax.lang.model.type.TypeMirror.getKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +122,9 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMirror#accept(TypeVisitor, Object) public
-     * abstract <R,P> R javax.lang.model.type.TypeMirror.accept(javax.lang.model.type.TypeVisitor<R, P>,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeMirror#accept(javax.lang.model.type.TypeVisitor, Object) public abstract <R,P> R
+     * javax.lang.model.type.TypeMirror.accept(javax.lang.model.type.TypeVisitor<R, P>,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

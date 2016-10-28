@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.naming.NamingExceptionClassTests<NamingEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NamingException#NamingException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.NamingException#NamingException(String) public
      * javax.naming.NamingException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +44,8 @@ implements org.j8unit.repository.javax.naming.NamingExceptionClassTests<NamingEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NamingException#NamingException() public
-     * javax.naming.NamingException()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.naming.NamingException#NamingException()
+     * public javax.naming.NamingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

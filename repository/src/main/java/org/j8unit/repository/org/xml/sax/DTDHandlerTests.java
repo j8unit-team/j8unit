@@ -35,9 +35,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DTDHandler#notationDecl(String, String, String)
-     * public abstract void org.xml.sax.DTDHandler.notationDecl(java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.DTDHandler#notationDecl(String, String, String) public abstract void
+     * org.xml.sax.DTDHandler.notationDecl(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +60,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DTDHandler#unparsedEntityDecl(String, String, String, String) public abstract void
+     * {@link org.xml.sax.DTDHandler#unparsedEntityDecl(String, String, String, String) public abstract void
      * org.xml.sax.DTDHandler.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws org.xml.sax.SAXException}.
      *

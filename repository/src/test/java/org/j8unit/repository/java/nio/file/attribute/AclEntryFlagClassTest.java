@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryFlagClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntryFlag#valueOf(String) public static
-     * java.nio.file.attribute.AclEntryFlag java.nio.file.attribute.AclEntryFlag.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntryFlag#valueOf(String)
+     * public static java.nio.file.attribute.AclEntryFlag
+     * java.nio.file.attribute.AclEntryFlag.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +37,13 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryFlagClassTests<
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link AclEntryFlag#valueOf(String)}
+        // write some test for {@link java.nio.file.attribute.AclEntryFlag#valueOf(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntryFlag#values() public static
-     * java.nio.file.attribute.AclEntryFlag[] java.nio.file.attribute.AclEntryFlag.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntryFlag#values() public
+     * static java.nio.file.attribute.AclEntryFlag[] java.nio.file.attribute.AclEntryFlag.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,7 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryFlagClassTests<
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link AclEntryFlag#values()}
+        // write some test for {@link java.nio.file.attribute.AclEntryFlag#values()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AclEntryFlag]

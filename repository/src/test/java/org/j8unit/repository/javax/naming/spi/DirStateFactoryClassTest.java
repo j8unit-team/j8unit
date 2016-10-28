@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import javax.naming.directory.Attributes;
 import javax.naming.spi.DirStateFactory;
 import javax.naming.spi.DirStateFactory.Result;
 import org.j8unit.repository.categories.Draft;
@@ -36,7 +35,8 @@ implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests<DirS
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Result#Result(Object, Attributes) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.naming.spi.DirStateFactory.Result#Result(Object, javax.naming.directory.Attributes) public
          * javax.naming.spi.DirStateFactory$Result(java.lang.Object,javax.naming.directory.Attributes)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -53,7 +53,7 @@ implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests<DirS
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Result sut = null; // = new Result(Object, Attributes);
+            final Result sut = null; // = new Result(Object, javax.naming.directory.Attributes);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirStateFactory$Result]

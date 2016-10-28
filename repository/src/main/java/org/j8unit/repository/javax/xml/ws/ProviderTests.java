@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#invoke(Object) public abstract T
-     * javax.xml.ws.Provider.invoke(T)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Provider#invoke(Object) public abstract
+     * T javax.xml.ws.Provider.invoke(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

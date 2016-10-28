@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.AlgorithmParameterGenerator;
-import java.security.SecureRandom;
-import java.security.spec.AlgorithmParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AlgorithmParameterGenerator#init(AlgorithmParameterSpec, SecureRandom) public final void
+     * {@link java.security.AlgorithmParameterGenerator#init(java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom)
+     * public final void
      * java.security.AlgorithmParameterGenerator.init(java.security.spec.AlgorithmParameterSpec,java.security.SecureRandom)
      * throws java.security.InvalidAlgorithmParameterException}.
      *
@@ -61,8 +60,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AlgorithmParameterGenerator#init(AlgorithmParameterSpec) public final void
-     * java.security.AlgorithmParameterGenerator.init(java.security.spec.AlgorithmParameterSpec) throws
+     * {@link java.security.AlgorithmParameterGenerator#init(java.security.spec.AlgorithmParameterSpec) public final
+     * void java.security.AlgorithmParameterGenerator.init(java.security.spec.AlgorithmParameterSpec) throws
      * java.security.InvalidAlgorithmParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,30 +83,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameterGenerator#init(int) public final
-     * void java.security.AlgorithmParameterGenerator.init(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_init_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameterGenerator#init(int, SecureRandom)
-     * public final void java.security.AlgorithmParameterGenerator.init(int,java.security.SecureRandom)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AlgorithmParameterGenerator#init(int, java.security.SecureRandom) public final void
+     * java.security.AlgorithmParameterGenerator.init(int,java.security.SecureRandom)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +106,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameterGenerator#getAlgorithm() public
-     * final java.lang.String java.security.AlgorithmParameterGenerator.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AlgorithmParameterGenerator#init(int)
+     * public final void java.security.AlgorithmParameterGenerator.init(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_init_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AlgorithmParameterGenerator#getAlgorithm() public final java.lang.String
+     * java.security.AlgorithmParameterGenerator.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +151,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameterGenerator#getProvider() public
-     * final java.security.Provider java.security.AlgorithmParameterGenerator.getProvider()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AlgorithmParameterGenerator#getProvider() public final java.security.Provider
+     * java.security.AlgorithmParameterGenerator.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +174,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameterGenerator#generateParameters()
-     * public final java.security.AlgorithmParameters java.security.AlgorithmParameterGenerator.generateParameters()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AlgorithmParameterGenerator#generateParameters() public final
+     * java.security.AlgorithmParameters java.security.AlgorithmParameterGenerator.generateParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

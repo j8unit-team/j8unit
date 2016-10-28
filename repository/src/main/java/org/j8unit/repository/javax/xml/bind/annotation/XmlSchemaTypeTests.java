@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlSchemaType#namespace() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlSchemaType.namespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlSchemaType#namespace()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlSchemaType.namespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlSchemaType#name() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlSchemaType.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlSchemaType#name()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlSchemaType.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlSchemaType#type() public abstract java.lang.Class
-     * javax.xml.bind.annotation.XmlSchemaType.type()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlSchemaType#type()
+     * public abstract java.lang.Class javax.xml.bind.annotation.XmlSchemaType.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

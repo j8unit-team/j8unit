@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.BufferCapabilities;
 import java.awt.Canvas;
-import java.awt.Graphics;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Canvas#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Canvas#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.Canvas.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +57,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Canvas#getBufferStrategy() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Canvas#getBufferStrategy() public
      * java.awt.image.BufferStrategy java.awt.Canvas.getBufferStrategy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +79,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Canvas#paint(Graphics) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Canvas#paint(java.awt.Graphics) public void
      * java.awt.Canvas.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +102,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Canvas#update(Graphics) public void
-     * java.awt.Canvas.update(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Canvas#update(java.awt.Graphics) public
+     * void java.awt.Canvas.update(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +125,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Canvas#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Canvas#addNotify() public void
      * java.awt.Canvas.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +148,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Canvas#createBufferStrategy(int) public void
-     * java.awt.Canvas.createBufferStrategy(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Canvas#createBufferStrategy(int) public
+     * void java.awt.Canvas.createBufferStrategy(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +170,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Canvas#createBufferStrategy(int, BufferCapabilities)
-     * public void java.awt.Canvas.createBufferStrategy(int,java.awt.BufferCapabilities) throws java.awt.AWTException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Canvas#createBufferStrategy(int, java.awt.BufferCapabilities) public void
+     * java.awt.Canvas.createBufferStrategy(int,java.awt.BufferCapabilities) throws java.awt.AWTException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

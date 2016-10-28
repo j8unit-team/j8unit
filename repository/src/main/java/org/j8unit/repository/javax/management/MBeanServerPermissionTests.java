@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import java.security.Permission;
 import javax.management.MBeanServerPermission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerPermission#newPermissionCollection()
-     * public java.security.PermissionCollection javax.management.MBeanServerPermission.newPermissionCollection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerPermission#newPermissionCollection() public java.security.PermissionCollection
+     * javax.management.MBeanServerPermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,8 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerPermission#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerPermission#equals(Object) public boolean
      * javax.management.MBeanServerPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +82,8 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerPermission#hashCode() public int
-     * javax.management.MBeanServerPermission.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanServerPermission#hashCode()
+     * public int javax.management.MBeanServerPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +105,9 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerPermission#implies(Permission) public
-     * boolean javax.management.MBeanServerPermission.implies(java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerPermission#implies(java.security.Permission) public boolean
+     * javax.management.MBeanServerPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

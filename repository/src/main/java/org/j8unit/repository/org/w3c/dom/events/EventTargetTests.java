@@ -6,8 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.events.Event;
-import org.w3c.dom.events.EventListener;
 import org.w3c.dom.events.EventTarget;
 
 /**
@@ -38,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EventTarget#removeEventListener(String, EventListener, boolean) public abstract void
+     * {@link org.w3c.dom.events.EventTarget#removeEventListener(String, org.w3c.dom.events.EventListener, boolean)
+     * public abstract void
      * org.w3c.dom.events.EventTarget.removeEventListener(java.lang.String,org.w3c.dom.events.EventListener,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,9 +59,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventTarget#dispatchEvent(Event) public abstract
-     * boolean org.w3c.dom.events.EventTarget.dispatchEvent(org.w3c.dom.events.Event) throws
-     * org.w3c.dom.events.EventException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.events.EventTarget#dispatchEvent(org.w3c.dom.events.Event) public abstract boolean
+     * org.w3c.dom.events.EventTarget.dispatchEvent(org.w3c.dom.events.Event) throws org.w3c.dom.events.EventException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +83,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EventTarget#addEventListener(String, EventListener, boolean) public abstract void
+     * {@link org.w3c.dom.events.EventTarget#addEventListener(String, org.w3c.dom.events.EventListener, boolean) public
+     * abstract void
      * org.w3c.dom.events.EventTarget.addEventListener(java.lang.String,org.w3c.dom.events.EventListener,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

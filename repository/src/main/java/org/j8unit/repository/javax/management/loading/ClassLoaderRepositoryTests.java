@@ -36,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClassLoaderRepository#loadClassBefore(ClassLoader, String) public abstract java.lang.Class
+     * {@link javax.management.loading.ClassLoaderRepository#loadClassBefore(ClassLoader, String) public abstract
+     * java.lang.Class
      * <?> javax.management.loading.ClassLoaderRepository.loadClassBefore(java.lang.ClassLoader,java.lang.String) throws
      * java.lang.ClassNotFoundException}.
      *
@@ -59,8 +60,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClassLoaderRepository#loadClass(String) public
-     * abstract java.lang.Class<?> javax.management.loading.ClassLoaderRepository.loadClass(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.ClassLoaderRepository#loadClass(String) public abstract java.lang.Class
+     * <?> javax.management.loading.ClassLoaderRepository.loadClass(java.lang.String) throws
      * java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +85,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClassLoaderRepository#loadClassWithout(ClassLoader, String) public abstract java.lang.Class
+     * {@link javax.management.loading.ClassLoaderRepository#loadClassWithout(ClassLoader, String) public abstract
+     * java.lang.Class
      * <?> javax.management.loading.ClassLoaderRepository.loadClassWithout(java.lang.ClassLoader,java.lang.String)
      * throws java.lang.ClassNotFoundException}.
      *

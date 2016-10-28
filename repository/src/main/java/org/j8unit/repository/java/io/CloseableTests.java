@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Closeable#close() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.io.Closeable#close() public abstract void
      * java.io.Closeable.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

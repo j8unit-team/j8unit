@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLSessionBindingEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.net.ssl.SSLSessionBindingEventClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SSLSessionBindingEvent#SSLSessionBindingEvent(SSLSession, String) public
+     * {@link javax.net.ssl.SSLSessionBindingEvent#SSLSessionBindingEvent(javax.net.ssl.SSLSession, String) public
      * javax.net.ssl.SSLSessionBindingEvent(javax.net.ssl.SSLSession,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.net.ssl.SSLSessionBindingEventClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SSLSessionBindingEvent sut = null; // = new SSLSessionBindingEvent(SSLSession, String);
+        final SSLSessionBindingEvent sut = null; // = new SSLSessionBindingEvent(javax.net.ssl.SSLSession, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLSessionBindingEvent]

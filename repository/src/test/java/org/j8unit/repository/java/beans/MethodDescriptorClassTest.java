@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.beans;
 
 import java.beans.MethodDescriptor;
-import java.beans.ParameterDescriptor;
-import java.lang.reflect.Method;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.java.beans.MethodDescriptorClassTests<MethodDes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MethodDescriptor#MethodDescriptor(Method)
-     * public java.beans.MethodDescriptor(java.lang.reflect.Method)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.MethodDescriptor#MethodDescriptor(java.lang.reflect.Method) public
+     * java.beans.MethodDescriptor(java.lang.reflect.Method)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,14 +39,14 @@ implements org.j8unit.repository.java.beans.MethodDescriptorClassTests<MethodDes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MethodDescriptor sut = null; // = new MethodDescriptor(Method);
+        final MethodDescriptor sut = null; // = new MethodDescriptor(java.lang.reflect.Method);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MethodDescriptor#MethodDescriptor(Method, ParameterDescriptor[]) public
-     * java.beans.MethodDescriptor(java.lang.reflect.Method,java.beans.ParameterDescriptor[])}.
+     * {@link java.beans.MethodDescriptor#MethodDescriptor(java.lang.reflect.Method, java.beans.ParameterDescriptor[])
+     * public java.beans.MethodDescriptor(java.lang.reflect.Method,java.beans.ParameterDescriptor[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +62,8 @@ implements org.j8unit.repository.java.beans.MethodDescriptorClassTests<MethodDes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MethodDescriptor sut = null; // = new MethodDescriptor(Method, ParameterDescriptor[]);
+        final MethodDescriptor sut = null; // = new MethodDescriptor(java.lang.reflect.Method,
+                                           // java.beans.ParameterDescriptor[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.MethodDescriptor]

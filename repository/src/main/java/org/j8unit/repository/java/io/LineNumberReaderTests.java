@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberReader#skip(long) public long
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberReader#skip(long) public long
      * java.io.LineNumberReader.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberReader#setLineNumber(int) public void
-     * java.io.LineNumberReader.setLineNumber(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberReader#setLineNumber(int) public
+     * void java.io.LineNumberReader.setLineNumber(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberReader#reset() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberReader#reset() public void
      * java.io.LineNumberReader.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberReader#mark(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberReader#mark(int) public void
      * java.io.LineNumberReader.mark(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +125,8 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberReader#readLine() public java.lang.String
-     * java.io.LineNumberReader.readLine() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberReader#readLine() public
+     * java.lang.String java.io.LineNumberReader.readLine() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberReader#read(char[], int, int) public int
-     * java.io.LineNumberReader.read(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberReader#read(char[], int, int)
+     * public int java.io.LineNumberReader.read(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,7 +171,7 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberReader#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberReader#read() public int
      * java.io.LineNumberReader.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,7 +194,7 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineNumberReader#getLineNumber() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.LineNumberReader#getLineNumber() public int
      * java.io.LineNumberReader.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

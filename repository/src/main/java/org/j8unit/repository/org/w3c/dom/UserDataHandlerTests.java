@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 import org.w3c.dom.UserDataHandler;
 
 /**
@@ -37,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UserDataHandler#handle(short, String, Object, Node, Node) public abstract void
+     * {@link org.w3c.dom.UserDataHandler#handle(short, String, Object, org.w3c.dom.Node, org.w3c.dom.Node) public
+     * abstract void
      * org.w3c.dom.UserDataHandler.handle(short,java.lang.String,java.lang.Object,org.w3c.dom.Node,org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

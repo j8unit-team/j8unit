@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Button;
-import java.awt.event.ActionListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Button#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.Button.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#getActionCommand() public java.lang.String
-     * java.awt.Button.getActionCommand()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Button#getActionCommand() public
+     * java.lang.String java.awt.Button.getActionCommand()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#setLabel(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Button#setLabel(String) public void
      * java.awt.Button.setLabel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +101,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#setActionCommand(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Button#setActionCommand(String) public void
      * java.awt.Button.setActionCommand(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +123,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#getActionListeners() public synchronized
-     * java.awt.event.ActionListener[] java.awt.Button.getActionListeners()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Button#getActionListeners() public
+     * synchronized java.awt.event.ActionListener[] java.awt.Button.getActionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +145,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#addActionListener(ActionListener) public
-     * synchronized void java.awt.Button.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Button#addActionListener(java.awt.event.ActionListener) public synchronized void
+     * java.awt.Button.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +168,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Button#addNotify() public void
      * java.awt.Button.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +191,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#removeActionListener(ActionListener) public
-     * synchronized void java.awt.Button.removeActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Button#removeActionListener(java.awt.event.ActionListener) public synchronized void
+     * java.awt.Button.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,7 +214,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#getLabel() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Button#getLabel() public java.lang.String
      * java.awt.Button.getLabel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -235,7 +236,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Button#getListeners(Class) public <T> T[]
+     * Test method for the hereby targeted method-under-test {@link java.awt.Button#getListeners(Class) public <T> T[]
      * java.awt.Button.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

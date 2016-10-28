@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.EnumMap;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +35,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#entrySet() public
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.EnumMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#values() public java.util.Collection
-     * <V> java.util.EnumMap.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#values() public
+     * java.util.Collection<V> java.util.EnumMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +81,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#containsKey(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#containsKey(Object) public boolean
      * java.util.EnumMap.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +104,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#containsValue(Object) public boolean
-     * java.util.EnumMap.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#containsValue(Object) public
+     * boolean java.util.EnumMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +127,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#put(Enum, Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#put(Enum, Object) public V
      * java.util.EnumMap.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,7 +149,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#remove(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#remove(Object) public V
      * java.util.EnumMap.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,7 +172,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#clear() public void
      * java.util.EnumMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -196,7 +195,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#size() public int java.util.EnumMap.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#size() public int
+     * java.util.EnumMap.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,7 +218,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#putAll(Map) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#putAll(java.util.Map) public void
      * java.util.EnumMap.putAll(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,7 +241,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#equals(Object) public boolean
      * java.util.EnumMap.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,7 +264,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#get(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#get(Object) public V
      * java.util.EnumMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -287,7 +287,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#hashCode() public int
      * java.util.EnumMap.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -310,7 +310,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#keySet() public java.util.Set
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#keySet() public java.util.Set
      * <K> java.util.EnumMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -333,8 +333,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumMap#clone() public java.util.EnumMap<K, V>
-     * java.util.EnumMap.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumMap#clone() public
+     * java.util.EnumMap<K, V> java.util.EnumMap.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

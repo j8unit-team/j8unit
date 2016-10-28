@@ -65,7 +65,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractSpliterator#characteristics() public int
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractSpliterator#characteristics() public int
          * java.util.Spliterators$AbstractSpliterator.characteristics()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +89,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractSpliterator#trySplit() public
-         * java.util.Spliterator<T> java.util.Spliterators$AbstractSpliterator.trySplit()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractSpliterator#trySplit() public java.util.Spliterator
+         * <T> java.util.Spliterators$AbstractSpliterator.trySplit()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -111,7 +113,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractSpliterator#estimateSize() public long
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractSpliterator#estimateSize() public long
          * java.util.Spliterators$AbstractSpliterator.estimateSize()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -163,8 +166,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractDoubleSpliterator#estimateSize() public
-         * long java.util.Spliterators$AbstractDoubleSpliterator.estimateSize()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractDoubleSpliterator#estimateSize() public long
+         * java.util.Spliterators$AbstractDoubleSpliterator.estimateSize()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -186,8 +190,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractDoubleSpliterator#trySplit() public
-         * java.util.Spliterator$OfDouble java.util.Spliterators$AbstractDoubleSpliterator.trySplit()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractDoubleSpliterator#trySplit() public java.util.Spliterator$OfDouble
+         * java.util.Spliterators$AbstractDoubleSpliterator.trySplit()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -209,8 +214,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractDoubleSpliterator#characteristics()
-         * public int java.util.Spliterators$AbstractDoubleSpliterator.characteristics()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractDoubleSpliterator#characteristics() public int
+         * java.util.Spliterators$AbstractDoubleSpliterator.characteristics()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -261,8 +267,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractLongSpliterator#characteristics() public
-         * int java.util.Spliterators$AbstractLongSpliterator.characteristics()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractLongSpliterator#characteristics() public int
+         * java.util.Spliterators$AbstractLongSpliterator.characteristics()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -284,8 +291,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractLongSpliterator#trySplit() public
-         * java.util.Spliterator$OfLong java.util.Spliterators$AbstractLongSpliterator.trySplit()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractLongSpliterator#trySplit() public java.util.Spliterator$OfLong
+         * java.util.Spliterators$AbstractLongSpliterator.trySplit()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -307,8 +315,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractLongSpliterator#estimateSize() public
-         * long java.util.Spliterators$AbstractLongSpliterator.estimateSize()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractLongSpliterator#estimateSize() public long
+         * java.util.Spliterators$AbstractLongSpliterator.estimateSize()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -359,8 +368,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractIntSpliterator#characteristics() public
-         * int java.util.Spliterators$AbstractIntSpliterator.characteristics()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractIntSpliterator#characteristics() public int
+         * java.util.Spliterators$AbstractIntSpliterator.characteristics()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -382,8 +392,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractIntSpliterator#trySplit() public
-         * java.util.Spliterator$OfInt java.util.Spliterators$AbstractIntSpliterator.trySplit()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractIntSpliterator#trySplit() public java.util.Spliterator$OfInt
+         * java.util.Spliterators$AbstractIntSpliterator.trySplit()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -405,8 +416,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractIntSpliterator#estimateSize() public
-         * long java.util.Spliterators$AbstractIntSpliterator.estimateSize()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterators.AbstractIntSpliterator#estimateSize() public long
+         * java.util.Spliterators$AbstractIntSpliterator.estimateSize()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

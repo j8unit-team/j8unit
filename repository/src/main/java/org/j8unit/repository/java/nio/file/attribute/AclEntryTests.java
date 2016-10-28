@@ -2,11 +2,6 @@ package org.j8unit.repository.java.nio.file.attribute;
 
 import java.nio.file.attribute.AclEntry;
 import java.nio.file.attribute.AclEntry.Builder;
-import java.nio.file.attribute.AclEntryFlag;
-import java.nio.file.attribute.AclEntryPermission;
-import java.nio.file.attribute.AclEntryType;
-import java.nio.file.attribute.UserPrincipal;
-import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#toString() public java.lang.String
-     * java.nio.file.attribute.AclEntry.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntry#toString() public
+     * java.lang.String java.nio.file.attribute.AclEntry.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#flags() public java.util.Set
-     * <java.nio.file.attribute.AclEntryFlag> java.nio.file.attribute.AclEntry.flags()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntry#flags() public
+     * java.util.Set<java.nio.file.attribute.AclEntryFlag> java.nio.file.attribute.AclEntry.flags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#type() public
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntry#type() public
      * java.nio.file.attribute.AclEntryType java.nio.file.attribute.AclEntry.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#principal() public
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntry#principal() public
      * java.nio.file.attribute.UserPrincipal java.nio.file.attribute.AclEntry.principal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,8 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#permissions() public java.util.Set
-     * <java.nio.file.attribute.AclEntryPermission> java.nio.file.attribute.AclEntry.permissions()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntry#permissions()
+     * public java.util.Set<java.nio.file.attribute.AclEntryPermission> java.nio.file.attribute.AclEntry.permissions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#hashCode() public int
-     * java.nio.file.attribute.AclEntry.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntry#hashCode() public
+     * int java.nio.file.attribute.AclEntry.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +169,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#equals(Object) public boolean
-     * java.nio.file.attribute.AclEntry.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntry#equals(Object)
+     * public boolean java.nio.file.attribute.AclEntry.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,7 +219,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setFlags(Set) public
+         * Test method for the hereby targeted method-under-test
+         * {@link java.nio.file.attribute.AclEntry.Builder#setFlags(java.util.Set) public
          * java.nio.file.attribute.AclEntry$Builder java.nio.file.attribute.AclEntry$Builder.setFlags(java.util.Set
          * <java.nio.file.attribute.AclEntryFlag>)}.
          *
@@ -247,7 +243,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setFlags(AclEntryFlag...) public
+         * Test method for the hereby targeted method-under-test
+         * {@link java.nio.file.attribute.AclEntry.Builder#setFlags(java.nio.file.attribute.AclEntryFlag...) public
          * java.nio.file.attribute.AclEntry$Builder
          * java.nio.file.attribute.AclEntry$Builder.setFlags(java.nio.file.attribute.AclEntryFlag...)}.
          *
@@ -270,7 +267,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setType(AclEntryType) public
+         * Test method for the hereby targeted method-under-test
+         * {@link java.nio.file.attribute.AclEntry.Builder#setType(java.nio.file.attribute.AclEntryType) public
          * java.nio.file.attribute.AclEntry$Builder
          * java.nio.file.attribute.AclEntry$Builder.setType(java.nio.file.attribute.AclEntryType)}.
          *
@@ -293,7 +291,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setPermissions(AclEntryPermission...)
+         * Test method for the hereby targeted method-under-test
+         * {@link java.nio.file.attribute.AclEntry.Builder#setPermissions(java.nio.file.attribute.AclEntryPermission...)
          * public java.nio.file.attribute.AclEntry$Builder
          * java.nio.file.attribute.AclEntry$Builder.setPermissions(java.nio.file.attribute.AclEntryPermission...)}.
          *
@@ -316,7 +315,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setPermissions(Set) public
+         * Test method for the hereby targeted method-under-test
+         * {@link java.nio.file.attribute.AclEntry.Builder#setPermissions(java.util.Set) public
          * java.nio.file.attribute.AclEntry$Builder
          * java.nio.file.attribute.AclEntry$Builder.setPermissions(java.util.Set
          * <java.nio.file.attribute.AclEntryPermission>)}.
@@ -340,7 +340,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#setPrincipal(UserPrincipal) public
+         * Test method for the hereby targeted method-under-test
+         * {@link java.nio.file.attribute.AclEntry.Builder#setPrincipal(java.nio.file.attribute.UserPrincipal) public
          * java.nio.file.attribute.AclEntry$Builder
          * java.nio.file.attribute.AclEntry$Builder.setPrincipal(java.nio.file.attribute.UserPrincipal)}.
          *
@@ -363,8 +364,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#build() public
-         * java.nio.file.attribute.AclEntry java.nio.file.attribute.AclEntry$Builder.build()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntry.Builder#build()
+         * public java.nio.file.attribute.AclEntry java.nio.file.attribute.AclEntry$Builder.build()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

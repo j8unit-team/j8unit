@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.IdentityHashMap;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.util.IdentityHashMapClassTests<IdentityHas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IdentityHashMap#IdentityHashMap() public
-     * java.util.IdentityHashMap()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.IdentityHashMap#IdentityHashMap()
+     * public java.util.IdentityHashMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +43,9 @@ implements org.j8unit.repository.java.util.IdentityHashMapClassTests<IdentityHas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IdentityHashMap#IdentityHashMap(Map) public
-     * java.util.IdentityHashMap(java.util.Map<? extends K, ? extends V>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.IdentityHashMap#IdentityHashMap(java.util.Map) public java.util.IdentityHashMap(java.util.Map<?
+     * extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,13 +61,13 @@ implements org.j8unit.repository.java.util.IdentityHashMapClassTests<IdentityHas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IdentityHashMap sut = null; // = new IdentityHashMap(Map);
+        final IdentityHashMap sut = null; // = new IdentityHashMap(java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IdentityHashMap#IdentityHashMap(int) public
-     * java.util.IdentityHashMap(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.IdentityHashMap#IdentityHashMap(int)
+     * public java.util.IdentityHashMap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

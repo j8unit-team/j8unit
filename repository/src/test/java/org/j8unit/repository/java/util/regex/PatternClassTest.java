@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.util.regex.PatternClassTests<Pattern> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#matches(String, CharSequence) public static
-     * boolean java.util.regex.Pattern.matches(java.lang.String,java.lang.CharSequence)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.regex.Pattern#matches(String, CharSequence) public static boolean
+     * java.util.regex.Pattern.matches(java.lang.String,java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +37,13 @@ implements org.j8unit.repository.java.util.regex.PatternClassTests<Pattern> {
     @Category(Draft.class)
     public void test_matches_String_CharSequence()
     throws Exception {
-        // write some test for {@link Pattern#matches(String, CharSequence)}
+        // write some test for {@link java.util.regex.Pattern#matches(String, CharSequence)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#quote(String) public static java.lang.String
-     * java.util.regex.Pattern.quote(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#quote(String) public static
+     * java.lang.String java.util.regex.Pattern.quote(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,13 +57,13 @@ implements org.j8unit.repository.java.util.regex.PatternClassTests<Pattern> {
     @Category(Draft.class)
     public void test_quote_String()
     throws Exception {
-        // write some test for {@link Pattern#quote(String)}
+        // write some test for {@link java.util.regex.Pattern#quote(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#compile(String) public static
-     * java.util.regex.Pattern java.util.regex.Pattern.compile(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#compile(String) public
+     * static java.util.regex.Pattern java.util.regex.Pattern.compile(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,13 +77,13 @@ implements org.j8unit.repository.java.util.regex.PatternClassTests<Pattern> {
     @Category(Draft.class)
     public void test_compile_String()
     throws Exception {
-        // write some test for {@link Pattern#compile(String)}
+        // write some test for {@link java.util.regex.Pattern#compile(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#compile(String, int) public static
-     * java.util.regex.Pattern java.util.regex.Pattern.compile(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#compile(String, int) public
+     * static java.util.regex.Pattern java.util.regex.Pattern.compile(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -96,7 +97,7 @@ implements org.j8unit.repository.java.util.regex.PatternClassTests<Pattern> {
     @Category(Draft.class)
     public void test_compile_String_int()
     throws Exception {
-        // write some test for {@link Pattern#compile(String, int)}
+        // write some test for {@link java.util.regex.Pattern#compile(String, int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.regex.Pattern]

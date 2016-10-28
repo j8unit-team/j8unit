@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.file.DirectoryNotEmptyExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DirectoryNotEmptyException#DirectoryNotEmptyException(String) public
+     * {@link java.nio.file.DirectoryNotEmptyException#DirectoryNotEmptyException(String) public
      * java.nio.file.DirectoryNotEmptyException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

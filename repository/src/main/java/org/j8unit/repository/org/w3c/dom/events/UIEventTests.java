@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.w3c.dom.events.UIEvent;
-import org.w3c.dom.views.AbstractView;
 
 /**
  * <p>
@@ -35,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UIEvent#getDetail() public abstract int
-     * org.w3c.dom.events.UIEvent.getDetail()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.UIEvent#getDetail() public
+     * abstract int org.w3c.dom.events.UIEvent.getDetail()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UIEvent#initUIEvent(String, boolean, boolean, AbstractView, int) public abstract void
+     * {@link org.w3c.dom.events.UIEvent#initUIEvent(String, boolean, boolean, org.w3c.dom.views.AbstractView, int)
+     * public abstract void
      * org.w3c.dom.events.UIEvent.initUIEvent(java.lang.String,boolean,boolean,org.w3c.dom.views.AbstractView,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UIEvent#getView() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.UIEvent#getView() public abstract
      * org.w3c.dom.views.AbstractView org.w3c.dom.events.UIEvent.getView()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

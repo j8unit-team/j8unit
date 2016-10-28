@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.math.BigInteger;
 import java.security.spec.ECPoint;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.security.spec.ECPointClassTests<ECPoint> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ECPoint#ECPoint(BigInteger, BigInteger) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.spec.ECPoint#ECPoint(java.math.BigInteger, java.math.BigInteger) public
      * java.security.spec.ECPoint(java.math.BigInteger,java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.java.security.spec.ECPointClassTests<ECPoint> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ECPoint sut = null; // = new ECPoint(BigInteger, BigInteger);
+        final ECPoint sut = null; // = new ECPoint(java.math.BigInteger, java.math.BigInteger);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECPoint]

@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorCompletionService;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +23,8 @@ implements org.j8unit.repository.java.util.concurrent.ExecutorCompletionServiceC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ExecutorCompletionService#ExecutorCompletionService(Executor, BlockingQueue) public
+     * {@link java.util.concurrent.ExecutorCompletionService#ExecutorCompletionService(java.util.concurrent.Executor, java.util.concurrent.BlockingQueue)
+     * public
      * java.util.concurrent.ExecutorCompletionService(java.util.concurrent.Executor,java.util.concurrent.BlockingQueue<java.util.concurrent.Future
      * <V>>)}.
      *
@@ -43,14 +42,15 @@ implements org.j8unit.repository.java.util.concurrent.ExecutorCompletionServiceC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ExecutorCompletionService sut = null; // = new ExecutorCompletionService(Executor, BlockingQueue);
+        final ExecutorCompletionService sut = null; // = new ExecutorCompletionService(java.util.concurrent.Executor,
+                                                    // java.util.concurrent.BlockingQueue);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ExecutorCompletionService#ExecutorCompletionService(Executor) public
-     * java.util.concurrent.ExecutorCompletionService(java.util.concurrent.Executor)}.
+     * {@link java.util.concurrent.ExecutorCompletionService#ExecutorCompletionService(java.util.concurrent.Executor)
+     * public java.util.concurrent.ExecutorCompletionService(java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,7 +66,7 @@ implements org.j8unit.repository.java.util.concurrent.ExecutorCompletionServiceC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ExecutorCompletionService sut = null; // = new ExecutorCompletionService(Executor);
+        final ExecutorCompletionService sut = null; // = new ExecutorCompletionService(java.util.concurrent.Executor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ExecutorCompletionService]

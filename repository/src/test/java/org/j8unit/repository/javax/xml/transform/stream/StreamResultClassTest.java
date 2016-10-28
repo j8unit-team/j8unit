@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.xml.transform.stream;
 
-import java.io.File;
-import java.io.OutputStream;
-import java.io.Writer;
 import javax.xml.transform.stream.StreamResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +21,8 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamResultClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamResult#StreamResult(File) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamResult#StreamResult(java.io.File) public
      * javax.xml.transform.stream.StreamResult(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,12 +39,13 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamResultClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamResult sut = null; // = new StreamResult(File);
+        final StreamResult sut = null; // = new StreamResult(java.io.File);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamResult#StreamResult(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamResult#StreamResult(String) public
      * javax.xml.transform.stream.StreamResult(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +67,8 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamResultClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamResult#StreamResult(Writer) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamResult#StreamResult(java.io.Writer) public
      * javax.xml.transform.stream.StreamResult(java.io.Writer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,12 +85,13 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamResultClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamResult sut = null; // = new StreamResult(Writer);
+        final StreamResult sut = null; // = new StreamResult(java.io.Writer);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamResult#StreamResult(OutputStream) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamResult#StreamResult(java.io.OutputStream) public
      * javax.xml.transform.stream.StreamResult(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,13 +108,13 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamResultClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamResult sut = null; // = new StreamResult(OutputStream);
+        final StreamResult sut = null; // = new StreamResult(java.io.OutputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamResult#StreamResult() public
-     * javax.xml.transform.stream.StreamResult()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamResult#StreamResult() public javax.xml.transform.stream.StreamResult()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

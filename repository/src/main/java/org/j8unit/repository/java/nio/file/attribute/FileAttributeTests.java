@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileAttribute#name() public abstract
-     * java.lang.String java.nio.file.attribute.FileAttribute.name()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.FileAttribute#name() public
+     * abstract java.lang.String java.nio.file.attribute.FileAttribute.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileAttribute#value() public abstract T
-     * java.nio.file.attribute.FileAttribute.value()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.FileAttribute#value() public
+     * abstract T java.nio.file.attribute.FileAttribute.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

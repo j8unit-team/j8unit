@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CacheRequest#getBody() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.net.CacheRequest#getBody() public abstract
      * java.io.OutputStream java.net.CacheRequest.getBody() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CacheRequest#abort() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.net.CacheRequest#abort() public abstract void
      * java.net.CacheRequest.abort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

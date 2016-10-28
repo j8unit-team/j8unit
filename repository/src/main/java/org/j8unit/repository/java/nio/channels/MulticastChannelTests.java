@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.net.InetAddress;
-import java.net.NetworkInterface;
 import java.nio.channels.MulticastChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MulticastChannel#join(InetAddress, NetworkInterface, InetAddress) public abstract
-     * java.nio.channels.MembershipKey
+     * {@link java.nio.channels.MulticastChannel#join(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)
+     * public abstract java.nio.channels.MembershipKey
      * java.nio.channels.MulticastChannel.join(java.net.InetAddress,java.net.NetworkInterface,java.net.InetAddress)
      * throws java.io.IOException}.
      *
@@ -61,8 +59,9 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastChannel#join(InetAddress, NetworkInterface)
-     * public abstract java.nio.channels.MembershipKey
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.MulticastChannel#join(java.net.InetAddress, java.net.NetworkInterface) public abstract
+     * java.nio.channels.MembershipKey
      * java.nio.channels.MulticastChannel.join(java.net.InetAddress,java.net.NetworkInterface) throws
      * java.io.IOException}.
      *
@@ -85,8 +84,8 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MulticastChannel#close() public abstract void
-     * java.nio.channels.MulticastChannel.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.MulticastChannel#close() public
+     * abstract void java.nio.channels.MulticastChannel.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

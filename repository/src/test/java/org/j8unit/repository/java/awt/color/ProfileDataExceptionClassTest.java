@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.color.ProfileDataExceptionClassTests<P
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ProfileDataException#ProfileDataException(String) public
+     * {@link java.awt.color.ProfileDataException#ProfileDataException(String) public
      * java.awt.color.ProfileDataException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

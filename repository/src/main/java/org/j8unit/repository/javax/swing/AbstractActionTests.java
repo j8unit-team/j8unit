@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.beans.PropertyChangeListener;
 import javax.swing.AbstractAction;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractAction#isEnabled() public boolean
-     * javax.swing.AbstractAction.isEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractAction#isEnabled() public
+     * boolean javax.swing.AbstractAction.isEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractAction#setEnabled(boolean) public void
-     * javax.swing.AbstractAction.setEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractAction#setEnabled(boolean)
+     * public void javax.swing.AbstractAction.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +81,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractAction#getValue(String) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractAction#getValue(String) public
      * java.lang.Object javax.swing.AbstractAction.getValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +104,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractAction#getPropertyChangeListeners() public
-     * synchronized java.beans.PropertyChangeListener[] javax.swing.AbstractAction.getPropertyChangeListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.AbstractAction#getPropertyChangeListeners() public synchronized
+     * java.beans.PropertyChangeListener[] javax.swing.AbstractAction.getPropertyChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +128,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractAction#removePropertyChangeListener(PropertyChangeListener) public synchronized void
-     * javax.swing.AbstractAction.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * {@link javax.swing.AbstractAction#removePropertyChangeListener(java.beans.PropertyChangeListener) public
+     * synchronized void javax.swing.AbstractAction.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +152,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractAction#addPropertyChangeListener(PropertyChangeListener) public synchronized void
-     * javax.swing.AbstractAction.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * {@link javax.swing.AbstractAction#addPropertyChangeListener(java.beans.PropertyChangeListener) public
+     * synchronized void javax.swing.AbstractAction.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,8 +175,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractAction#putValue(String, Object) public void
-     * javax.swing.AbstractAction.putValue(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractAction#putValue(String, Object)
+     * public void javax.swing.AbstractAction.putValue(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,8 +198,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractAction#getKeys() public java.lang.Object[]
-     * javax.swing.AbstractAction.getKeys()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.AbstractAction#getKeys() public
+     * java.lang.Object[] javax.swing.AbstractAction.getKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

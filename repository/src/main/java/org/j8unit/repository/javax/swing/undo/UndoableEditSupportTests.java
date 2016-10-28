@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.undo;
 
-import javax.swing.event.UndoableEditListener;
-import javax.swing.undo.UndoableEdit;
 import javax.swing.undo.UndoableEditSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UndoableEditSupport#removeUndoableEditListener(UndoableEditListener) public synchronized void
+     * {@link javax.swing.undo.UndoableEditSupport#removeUndoableEditListener(javax.swing.event.UndoableEditListener)
+     * public synchronized void
      * javax.swing.undo.UndoableEditSupport.removeUndoableEditListener(javax.swing.event.UndoableEditListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UndoableEditSupport#addUndoableEditListener(UndoableEditListener) public synchronized void
+     * {@link javax.swing.undo.UndoableEditSupport#addUndoableEditListener(javax.swing.event.UndoableEditListener)
+     * public synchronized void
      * javax.swing.undo.UndoableEditSupport.addUndoableEditListener(javax.swing.event.UndoableEditListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,9 +82,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEditSupport#getUndoableEditListeners()
-     * public synchronized javax.swing.event.UndoableEditListener[]
-     * javax.swing.undo.UndoableEditSupport.getUndoableEditListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoableEditSupport#getUndoableEditListeners() public synchronized
+     * javax.swing.event.UndoableEditListener[] javax.swing.undo.UndoableEditSupport.getUndoableEditListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +105,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEditSupport#toString() public
-     * java.lang.String javax.swing.undo.UndoableEditSupport.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEditSupport#toString()
+     * public java.lang.String javax.swing.undo.UndoableEditSupport.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +128,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEditSupport#beginUpdate() public
-     * synchronized void javax.swing.undo.UndoableEditSupport.beginUpdate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEditSupport#beginUpdate()
+     * public synchronized void javax.swing.undo.UndoableEditSupport.beginUpdate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +150,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEditSupport#endUpdate() public synchronized
-     * void javax.swing.undo.UndoableEditSupport.endUpdate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoableEditSupport#endUpdate()
+     * public synchronized void javax.swing.undo.UndoableEditSupport.endUpdate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +172,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEditSupport#getUpdateLevel() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoableEditSupport#getUpdateLevel() public int
      * javax.swing.undo.UndoableEditSupport.getUpdateLevel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,8 +195,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoableEditSupport#postEdit(UndoableEdit) public
-     * synchronized void javax.swing.undo.UndoableEditSupport.postEdit(javax.swing.undo.UndoableEdit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoableEditSupport#postEdit(javax.swing.undo.UndoableEdit) public synchronized void
+     * javax.swing.undo.UndoableEditSupport.postEdit(javax.swing.undo.UndoableEdit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

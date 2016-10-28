@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.spi;
 
-import java.util.Locale;
 import java.util.spi.TimeZoneNameProvider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TimeZoneNameProvider#getGenericDisplayName(String, int, Locale) public java.lang.String
-     * java.util.spi.TimeZoneNameProvider.getGenericDisplayName(java.lang.String,int,java.util.Locale)}.
+     * {@link java.util.spi.TimeZoneNameProvider#getGenericDisplayName(String, int, java.util.Locale) public
+     * java.lang.String java.util.spi.TimeZoneNameProvider.getGenericDisplayName(java.lang.String,int,java.util.Locale)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +59,8 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TimeZoneNameProvider#getDisplayName(String, boolean, int, Locale) public abstract java.lang.String
+     * {@link java.util.spi.TimeZoneNameProvider#getDisplayName(String, boolean, int, java.util.Locale) public abstract
+     * java.lang.String
      * java.util.spi.TimeZoneNameProvider.getDisplayName(java.lang.String,boolean,int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

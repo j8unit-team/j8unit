@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.event.ContainerAdapterClassTests<Conta
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ContainerAdapter#ContainerAdapter() public
-     * java.awt.event.ContainerAdapter()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.event.ContainerAdapter#ContainerAdapter() public java.awt.event.ContainerAdapter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

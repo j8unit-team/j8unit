@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security;
 
-import java.security.Guard;
 import java.security.GuardedObject;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.security.GuardedObjectClassTests<GuardedOb
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GuardedObject#GuardedObject(Object, Guard)
-     * public java.security.GuardedObject(java.lang.Object,java.security.Guard)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.GuardedObject#GuardedObject(Object, java.security.Guard) public
+     * java.security.GuardedObject(java.lang.Object,java.security.Guard)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,7 +39,7 @@ implements org.j8unit.repository.java.security.GuardedObjectClassTests<GuardedOb
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GuardedObject sut = null; // = new GuardedObject(Object, Guard);
+        final GuardedObject sut = null; // = new GuardedObject(Object, java.security.Guard);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.GuardedObject]

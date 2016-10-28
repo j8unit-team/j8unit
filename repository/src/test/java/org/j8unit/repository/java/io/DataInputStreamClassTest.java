@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.io;
 
-import java.io.DataInput;
 import java.io.DataInputStream;
-import java.io.InputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.java.io.DataInputStreamClassTests<DataInputStre
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataInputStream#DataInputStream(InputStream)
-     * public java.io.DataInputStream(java.io.InputStream)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.DataInputStream#DataInputStream(java.io.InputStream) public
+     * java.io.DataInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,14 @@ implements org.j8unit.repository.java.io.DataInputStreamClassTests<DataInputStre
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DataInputStream sut = null; // = new DataInputStream(InputStream);
+        final DataInputStream sut = null; // = new DataInputStream(java.io.InputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInputStream#readUTF(DataInput) public static
-     * final java.lang.String java.io.DataInputStream.readUTF(java.io.DataInput) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInputStream#readUTF(java.io.DataInput)
+     * public static final java.lang.String java.io.DataInputStream.readUTF(java.io.DataInput) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +60,7 @@ implements org.j8unit.repository.java.io.DataInputStreamClassTests<DataInputStre
     @Category(Draft.class)
     public void test_readUTF_DataInput()
     throws Exception {
-        // write some test for {@link DataInputStream#readUTF(DataInput)}
+        // write some test for {@link java.io.DataInputStream#readUTF(java.io.DataInput)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.DataInputStream]

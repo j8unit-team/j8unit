@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.swing.text.AbstractWriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLWriter#write() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.HTMLWriter#write() public void
      * javax.swing.text.html.HTMLWriter.write() throws java.io.IOException,javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

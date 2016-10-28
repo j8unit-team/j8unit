@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.xml.bind.annotation;
 
-import javax.xml.bind.ValidationEventHandler;
 import javax.xml.bind.annotation.W3CDomHandler;
-import javax.xml.parsers.DocumentBuilder;
 import javax.xml.transform.dom.DOMResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +37,8 @@ extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests<SUT, Ele
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link W3CDomHandler#marshal(Element, ValidationEventHandler) public javax.xml.transform.Source
+     * {@link javax.xml.bind.annotation.W3CDomHandler#marshal(org.w3c.dom.Element, javax.xml.bind.ValidationEventHandler)
+     * public javax.xml.transform.Source
      * javax.xml.bind.annotation.W3CDomHandler.marshal(org.w3c.dom.Element,javax.xml.bind.ValidationEventHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,8 @@ extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests<SUT, Ele
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link W3CDomHandler#getElement(DOMResult) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.W3CDomHandler#getElement(javax.xml.transform.dom.DOMResult) public
      * org.w3c.dom.Element javax.xml.bind.annotation.W3CDomHandler.getElement(javax.xml.transform.dom.DOMResult)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +83,8 @@ extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests<SUT, Ele
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link W3CDomHandler#getBuilder() public
-     * javax.xml.parsers.DocumentBuilder javax.xml.bind.annotation.W3CDomHandler.getBuilder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.W3CDomHandler#getBuilder()
+     * public javax.xml.parsers.DocumentBuilder javax.xml.bind.annotation.W3CDomHandler.getBuilder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +105,9 @@ extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests<SUT, Ele
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link W3CDomHandler#setBuilder(DocumentBuilder) public
-     * void javax.xml.bind.annotation.W3CDomHandler.setBuilder(javax.xml.parsers.DocumentBuilder)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.W3CDomHandler#setBuilder(javax.xml.parsers.DocumentBuilder) public void
+     * javax.xml.bind.annotation.W3CDomHandler.setBuilder(javax.xml.parsers.DocumentBuilder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +129,8 @@ extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests<SUT, Ele
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link W3CDomHandler#createUnmarshaller(ValidationEventHandler) public javax.xml.transform.dom.DOMResult
+     * {@link javax.xml.bind.annotation.W3CDomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
+     * javax.xml.transform.dom.DOMResult
      * javax.xml.bind.annotation.W3CDomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

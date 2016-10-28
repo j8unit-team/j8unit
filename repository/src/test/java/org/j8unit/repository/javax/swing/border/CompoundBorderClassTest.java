@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import javax.swing.border.Border;
 import javax.swing.border.CompoundBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.swing.border.CompoundBorderClassTests<Com
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CompoundBorder#CompoundBorder() public
-     * javax.swing.border.CompoundBorder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.CompoundBorder#CompoundBorder() public javax.swing.border.CompoundBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +42,8 @@ implements org.j8unit.repository.javax.swing.border.CompoundBorderClassTests<Com
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CompoundBorder#CompoundBorder(Border, Border)
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.CompoundBorder#CompoundBorder(javax.swing.border.Border, javax.swing.border.Border)
      * public javax.swing.border.CompoundBorder(javax.swing.border.Border,javax.swing.border.Border)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.javax.swing.border.CompoundBorderClassTests<Com
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CompoundBorder sut = null; // = new CompoundBorder(Border, Border);
+        final CompoundBorder sut = null; // = new CompoundBorder(javax.swing.border.Border, javax.swing.border.Border);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.CompoundBorder]

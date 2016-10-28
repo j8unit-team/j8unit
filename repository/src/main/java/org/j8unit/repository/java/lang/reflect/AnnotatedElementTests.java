@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedElement#getDeclaredAnnotations() public
-     * abstract java.lang.annotation.Annotation[] java.lang.reflect.AnnotatedElement.getDeclaredAnnotations()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AnnotatedElement#getDeclaredAnnotations() public abstract
+     * java.lang.annotation.Annotation[] java.lang.reflect.AnnotatedElement.getDeclaredAnnotations()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedElement#getAnnotations() public abstract
-     * java.lang.annotation.Annotation[] java.lang.reflect.AnnotatedElement.getAnnotations()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.AnnotatedElement#getAnnotations()
+     * public abstract java.lang.annotation.Annotation[] java.lang.reflect.AnnotatedElement.getAnnotations()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedElement#getDeclaredAnnotation(Class) public
-     * default <T> T java.lang.reflect.AnnotatedElement.getDeclaredAnnotation(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AnnotatedElement#getDeclaredAnnotation(Class) public default <T> T
+     * java.lang.reflect.AnnotatedElement.getDeclaredAnnotation(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedElement#isAnnotationPresent(Class) public
-     * default boolean java.lang.reflect.AnnotatedElement.isAnnotationPresent(java.lang.Class<? extends
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AnnotatedElement#isAnnotationPresent(Class) public default boolean
+     * java.lang.reflect.AnnotatedElement.isAnnotationPresent(java.lang.Class<? extends
      * java.lang.annotation.Annotation>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedElement#getDeclaredAnnotationsByType(Class)
-     * public default <T> T[] java.lang.reflect.AnnotatedElement.getDeclaredAnnotationsByType(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AnnotatedElement#getDeclaredAnnotationsByType(Class) public default <T> T[]
+     * java.lang.reflect.AnnotatedElement.getDeclaredAnnotationsByType(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +150,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedElement#getAnnotation(Class) public
-     * abstract <T> T java.lang.reflect.AnnotatedElement.getAnnotation(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AnnotatedElement#getAnnotation(Class) public abstract <T> T
+     * java.lang.reflect.AnnotatedElement.getAnnotation(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +173,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedElement#getAnnotationsByType(Class) public
-     * default <T> T[] java.lang.reflect.AnnotatedElement.getAnnotationsByType(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AnnotatedElement#getAnnotationsByType(Class) public default <T> T[]
+     * java.lang.reflect.AnnotatedElement.getAnnotationsByType(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

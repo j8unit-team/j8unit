@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import java.util.Hashtable;
-import javax.naming.Context;
-import javax.naming.Name;
-import javax.naming.directory.Attributes;
 import javax.naming.spi.DirObjectFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +35,8 @@ extends org.j8unit.repository.javax.naming.spi.ObjectFactoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DirObjectFactory#getObjectInstance(Object, Name, Context, Hashtable, Attributes) public abstract
-     * java.lang.Object
+     * {@link javax.naming.spi.DirObjectFactory#getObjectInstance(Object, javax.naming.Name, javax.naming.Context, java.util.Hashtable, javax.naming.directory.Attributes)
+     * public abstract java.lang.Object
      * javax.naming.spi.DirObjectFactory.getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable<?,
      * ?>,javax.naming.directory.Attributes) throws java.lang.Exception}.
      *

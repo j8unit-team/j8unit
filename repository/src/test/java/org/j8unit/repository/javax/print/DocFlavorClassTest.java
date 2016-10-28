@@ -28,8 +28,8 @@ implements org.j8unit.repository.javax.print.DocFlavorClassTests<DocFlavor> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DocFlavor#DocFlavor(String, String) public
-     * javax.print.DocFlavor(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.print.DocFlavor#DocFlavor(String, String)
+     * public javax.print.DocFlavor(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -51,20 +51,21 @@ implements org.j8unit.repository.javax.print.DocFlavorClassTests<DocFlavor> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor]
 
     @RunWith(J8Unit4.class)
-    public static class INPUT_STREAMClassTest
-    implements org.j8unit.repository.javax.print.DocFlavorClassTests.INPUT_STREAMClassTests<INPUT_STREAM> {
+    public static class SERVICE_FORMATTEDClassTest
+    implements org.j8unit.repository.javax.print.DocFlavorClassTests.SERVICE_FORMATTEDClassTests<SERVICE_FORMATTED> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$INPUT_STREAM]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$SERVICE_FORMATTED]
 
         @Override
-        public Class<INPUT_STREAM> createNewSUT() {
-            return INPUT_STREAM.class;
+        public Class<SERVICE_FORMATTED> createNewSUT() {
+            return SERVICE_FORMATTED.class;
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link INPUT_STREAM#INPUT_STREAM(String) public
-         * javax.print.DocFlavor$INPUT_STREAM(java.lang.String)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.print.DocFlavor.SERVICE_FORMATTED#SERVICE_FORMATTED(String) public
+         * javax.print.DocFlavor$SERVICE_FORMATTED(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -76,88 +77,14 @@ implements org.j8unit.repository.javax.print.DocFlavorClassTests<DocFlavor> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_INPUT_STREAM_String()
+        public void create_SERVICE_FORMATTED_String()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final INPUT_STREAM sut = null; // = new INPUT_STREAM(String);
+            final SERVICE_FORMATTED sut = null; // = new SERVICE_FORMATTED(String);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$INPUT_STREAM]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class READERClassTest
-    implements org.j8unit.repository.javax.print.DocFlavorClassTests.READERClassTests<READER> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$READER]
-
-        @Override
-        public Class<READER> createNewSUT() {
-            return READER.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test {@link READER#READER(String) public
-         * javax.print.DocFlavor$READER(java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_READER_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final READER sut = null; // = new READER(String);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$READER]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class URLClassTest
-    implements org.j8unit.repository.javax.print.DocFlavorClassTests.URLClassTests<URL> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$URL]
-
-        @Override
-        public Class<URL> createNewSUT() {
-            return URL.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test {@link URL#URL(String) public
-         * javax.print.DocFlavor$URL(java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_URL_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final URL sut = null; // = new URL(String);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$URL]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$SERVICE_FORMATTED]
 
     }
 
@@ -174,7 +101,8 @@ implements org.j8unit.repository.javax.print.DocFlavorClassTests<DocFlavor> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link CHAR_ARRAY#CHAR_ARRAY(String) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.print.DocFlavor.CHAR_ARRAY#CHAR_ARRAY(String) public
          * javax.print.DocFlavor$CHAR_ARRAY(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,20 +127,20 @@ implements org.j8unit.repository.javax.print.DocFlavorClassTests<DocFlavor> {
     }
 
     @RunWith(J8Unit4.class)
-    public static class SERVICE_FORMATTEDClassTest
-    implements org.j8unit.repository.javax.print.DocFlavorClassTests.SERVICE_FORMATTEDClassTests<SERVICE_FORMATTED> {
+    public static class READERClassTest
+    implements org.j8unit.repository.javax.print.DocFlavorClassTests.READERClassTests<READER> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$SERVICE_FORMATTED]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$READER]
 
         @Override
-        public Class<SERVICE_FORMATTED> createNewSUT() {
-            return SERVICE_FORMATTED.class;
+        public Class<READER> createNewSUT() {
+            return READER.class;
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link SERVICE_FORMATTED#SERVICE_FORMATTED(String)
-         * public javax.print.DocFlavor$SERVICE_FORMATTED(java.lang.String)}.
+         * Test method for the hereby targeted constructor-under-test {@link javax.print.DocFlavor.READER#READER(String)
+         * public javax.print.DocFlavor$READER(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -224,14 +152,14 @@ implements org.j8unit.repository.javax.print.DocFlavorClassTests<DocFlavor> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_SERVICE_FORMATTED_String()
+        public void create_READER_String()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final SERVICE_FORMATTED sut = null; // = new SERVICE_FORMATTED(String);
+            final READER sut = null; // = new READER(String);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$SERVICE_FORMATTED]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$READER]
 
     }
 
@@ -248,7 +176,8 @@ implements org.j8unit.repository.javax.print.DocFlavorClassTests<DocFlavor> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link BYTE_ARRAY#BYTE_ARRAY(String) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.print.DocFlavor.BYTE_ARRAY#BYTE_ARRAY(String) public
          * javax.print.DocFlavor$BYTE_ARRAY(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -273,6 +202,81 @@ implements org.j8unit.repository.javax.print.DocFlavorClassTests<DocFlavor> {
     }
 
     @RunWith(J8Unit4.class)
+    public static class URLClassTest
+    implements org.j8unit.repository.javax.print.DocFlavorClassTests.URLClassTests<URL> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$URL]
+
+        @Override
+        public Class<URL> createNewSUT() {
+            return URL.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link javax.print.DocFlavor.URL#URL(String)
+         * public javax.print.DocFlavor$URL(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_URL_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final URL sut = null; // = new URL(String);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$URL]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class INPUT_STREAMClassTest
+    implements org.j8unit.repository.javax.print.DocFlavorClassTests.INPUT_STREAMClassTests<INPUT_STREAM> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$INPUT_STREAM]
+
+        @Override
+        public Class<INPUT_STREAM> createNewSUT() {
+            return INPUT_STREAM.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.print.DocFlavor.INPUT_STREAM#INPUT_STREAM(String) public
+         * javax.print.DocFlavor$INPUT_STREAM(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_INPUT_STREAM_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final INPUT_STREAM sut = null; // = new INPUT_STREAM(String);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$INPUT_STREAM]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class STRINGClassTest
     implements org.j8unit.repository.javax.print.DocFlavorClassTests.STRINGClassTests<STRING> {
 
@@ -285,8 +289,8 @@ implements org.j8unit.repository.javax.print.DocFlavorClassTests<DocFlavor> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link STRING#STRING(String) public
-         * javax.print.DocFlavor$STRING(java.lang.String)}.
+         * Test method for the hereby targeted constructor-under-test {@link javax.print.DocFlavor.STRING#STRING(String)
+         * public javax.print.DocFlavor$STRING(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

@@ -2,7 +2,6 @@ package org.j8unit.repository.javax.tools;
 
 import javax.tools.ForwardingJavaFileObject;
 import javax.tools.JavaFileObject;
-import javax.tools.JavaFileObject.Kind;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +36,8 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ForwardingJavaFileObject#isNameCompatible(String, Kind) public boolean
-     * javax.tools.ForwardingJavaFileObject.isNameCompatible(java.lang.String,javax.tools.JavaFileObject$Kind)}.
+     * {@link javax.tools.ForwardingJavaFileObject#isNameCompatible(String, javax.tools.JavaFileObject.Kind) public
+     * boolean javax.tools.ForwardingJavaFileObject.isNameCompatible(java.lang.String,javax.tools.JavaFileObject$Kind)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,8 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardingJavaFileObject#getKind() public
-     * javax.tools.JavaFileObject$Kind javax.tools.ForwardingJavaFileObject.getKind()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingJavaFileObject#getKind()
+     * public javax.tools.JavaFileObject$Kind javax.tools.ForwardingJavaFileObject.getKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +82,9 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardingJavaFileObject#getNestingKind() public
-     * javax.lang.model.element.NestingKind javax.tools.ForwardingJavaFileObject.getNestingKind()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.ForwardingJavaFileObject#getNestingKind() public javax.lang.model.element.NestingKind
+     * javax.tools.ForwardingJavaFileObject.getNestingKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +106,9 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ForwardingJavaFileObject#getAccessLevel() public
-     * javax.lang.model.element.Modifier javax.tools.ForwardingJavaFileObject.getAccessLevel()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.ForwardingJavaFileObject#getAccessLevel() public javax.lang.model.element.Modifier
+     * javax.tools.ForwardingJavaFileObject.getAccessLevel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

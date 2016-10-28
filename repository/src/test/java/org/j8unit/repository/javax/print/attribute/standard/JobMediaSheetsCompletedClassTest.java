@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobMediaSheetsCo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JobMediaSheetsCompleted#JobMediaSheetsCompleted(int) public
+     * {@link javax.print.attribute.standard.JobMediaSheetsCompleted#JobMediaSheetsCompleted(int) public
      * javax.print.attribute.standard.JobMediaSheetsCompleted(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

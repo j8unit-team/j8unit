@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.swing.ListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxModel#getSelectedItem() public abstract
-     * java.lang.Object javax.swing.ComboBoxModel.getSelectedItem()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ComboBoxModel#getSelectedItem() public
+     * abstract java.lang.Object javax.swing.ComboBoxModel.getSelectedItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.swing.ListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxModel#setSelectedItem(Object) public
-     * abstract void javax.swing.ComboBoxModel.setSelectedItem(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ComboBoxModel#setSelectedItem(Object)
+     * public abstract void javax.swing.ComboBoxModel.setSelectedItem(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

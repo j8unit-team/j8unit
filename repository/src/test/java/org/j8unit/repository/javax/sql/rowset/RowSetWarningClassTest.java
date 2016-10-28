@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetWarningClassTests<RowSet
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RowSetWarning#RowSetWarning(String, String, int) public
+     * {@link javax.sql.rowset.RowSetWarning#RowSetWarning(String, String, int) public
      * javax.sql.rowset.RowSetWarning(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetWarningClassTests<RowSet
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RowSetWarning#RowSetWarning(String, String)
-     * public javax.sql.rowset.RowSetWarning(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.RowSetWarning#RowSetWarning(String, String) public
+     * javax.sql.rowset.RowSetWarning(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,8 +67,8 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetWarningClassTests<RowSet
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RowSetWarning#RowSetWarning() public
-     * javax.sql.rowset.RowSetWarning()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.sql.rowset.RowSetWarning#RowSetWarning()
+     * public javax.sql.rowset.RowSetWarning()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,7 +88,8 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetWarningClassTests<RowSet
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RowSetWarning#RowSetWarning(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.rowset.RowSetWarning#RowSetWarning(String) public
      * javax.sql.rowset.RowSetWarning(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

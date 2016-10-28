@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.rmi.RMISecurityManagerClassTests<RMISecuri
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RMISecurityManager#RMISecurityManager() public
-     * java.rmi.RMISecurityManager()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.RMISecurityManager#RMISecurityManager() public java.rmi.RMISecurityManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

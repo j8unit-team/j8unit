@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import java.io.File;
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
-import javax.swing.JList;
-import javax.swing.event.ListSelectionEvent;
 import javax.swing.plaf.metal.MetalFileChooserUI;
 import javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer;
 import org.j8unit.repository.categories.Draft;
@@ -40,8 +35,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#uninstallUI(JComponent) public
-     * void javax.swing.plaf.metal.MetalFileChooserUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.metal.MetalFileChooserUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +60,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MetalFileChooserUI#ensureFileIsVisible(JFileChooser, File) public void
-     * javax.swing.plaf.metal.MetalFileChooserUI.ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)}.
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#ensureFileIsVisible(javax.swing.JFileChooser, java.io.File)
+     * public void javax.swing.plaf.metal.MetalFileChooserUI.ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +84,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#getFileName() public
-     * java.lang.String javax.swing.plaf.metal.MetalFileChooserUI.getFileName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#getFileName() public java.lang.String
+     * javax.swing.plaf.metal.MetalFileChooserUI.getFileName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,8 +108,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#installComponents(JFileChooser)
-     * public void javax.swing.plaf.metal.MetalFileChooserUI.installComponents(javax.swing.JFileChooser)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#installComponents(javax.swing.JFileChooser) public void
+     * javax.swing.plaf.metal.MetalFileChooserUI.installComponents(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,7 +132,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#setFileName(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#setFileName(String) public void
      * javax.swing.plaf.metal.MetalFileChooserUI.setFileName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -156,8 +156,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.metal.MetalFileChooserUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.metal.MetalFileChooserUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -179,8 +180,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#getPreferredSize(JComponent)
-     * public java.awt.Dimension javax.swing.plaf.metal.MetalFileChooserUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.metal.MetalFileChooserUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -202,7 +204,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.metal.MetalFileChooserUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -226,7 +229,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MetalFileChooserUI#createPropertyChangeListener(JFileChooser) public java.beans.PropertyChangeListener
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#createPropertyChangeListener(javax.swing.JFileChooser) public
+     * java.beans.PropertyChangeListener
      * javax.swing.plaf.metal.MetalFileChooserUI.createPropertyChangeListener(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -249,8 +253,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#setDirectoryName(String) public
-     * void javax.swing.plaf.metal.MetalFileChooserUI.setDirectoryName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#setDirectoryName(String) public void
+     * javax.swing.plaf.metal.MetalFileChooserUI.setDirectoryName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -273,7 +278,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MetalFileChooserUI#createListSelectionListener(JFileChooser) public
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#createListSelectionListener(javax.swing.JFileChooser) public
      * javax.swing.event.ListSelectionListener
      * javax.swing.plaf.metal.MetalFileChooserUI.createListSelectionListener(javax.swing.JFileChooser)}.
      *
@@ -297,8 +302,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#uninstallComponents(JFileChooser)
-     * public void javax.swing.plaf.metal.MetalFileChooserUI.uninstallComponents(javax.swing.JFileChooser)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#uninstallComponents(javax.swing.JFileChooser) public void
+     * javax.swing.plaf.metal.MetalFileChooserUI.uninstallComponents(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,7 +327,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MetalFileChooserUI#rescanCurrentDirectory(JFileChooser) public void
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#rescanCurrentDirectory(javax.swing.JFileChooser) public void
      * javax.swing.plaf.metal.MetalFileChooserUI.rescanCurrentDirectory(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -344,8 +350,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#getDirectoryName() public
-     * java.lang.String javax.swing.plaf.metal.MetalFileChooserUI.getDirectoryName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#getDirectoryName() public java.lang.String
+     * javax.swing.plaf.metal.MetalFileChooserUI.getDirectoryName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,30 +374,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#valueChanged(ListSelectionEvent)
-     * public void javax.swing.plaf.metal.MetalFileChooserUI.valueChanged(javax.swing.event.ListSelectionEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueChanged_ListSelectionEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalFileChooserUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.metal.MetalFileChooserUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.metal.MetalFileChooserUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -404,6 +390,29 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
     @Test
     @Category(Draft.class)
     public default void test_getMaximumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#valueChanged(javax.swing.event.ListSelectionEvent) public void
+     * javax.swing.plaf.metal.MetalFileChooserUI.valueChanged(javax.swing.event.ListSelectionEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueChanged_ListSelectionEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -442,8 +451,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link FilterComboBoxRenderer#getListCellRendererComponent(JList, Object, int, boolean, boolean) public
-         * java.awt.Component
+         * {@link javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer#getListCellRendererComponent(javax.swing.JList, Object, int, boolean, boolean)
+         * public java.awt.Component
          * javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)}
          * .
          *

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.event;
 
 import javax.swing.event.TableColumnModelEvent;
-import javax.swing.table.TableColumnModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.swing.event.TableColumnModelEventClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TableColumnModelEvent#TableColumnModelEvent(TableColumnModel, int, int) public
-     * javax.swing.event.TableColumnModelEvent(javax.swing.table.TableColumnModel,int,int)}.
+     * {@link javax.swing.event.TableColumnModelEvent#TableColumnModelEvent(javax.swing.table.TableColumnModel, int, int)
+     * public javax.swing.event.TableColumnModelEvent(javax.swing.table.TableColumnModel,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.javax.swing.event.TableColumnModelEventClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TableColumnModelEvent sut = null; // = new TableColumnModelEvent(TableColumnModel, int, int);
+        final TableColumnModelEvent sut = null; // = new TableColumnModelEvent(javax.swing.table.TableColumnModel, int,
+                                                // int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TableColumnModelEvent]

@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import javax.management.Descriptor;
-import javax.management.MBeanNotificationInfo;
-import javax.management.openmbean.OpenMBeanAttributeInfo;
-import javax.management.openmbean.OpenMBeanConstructorInfo;
 import javax.management.openmbean.OpenMBeanInfoSupport;
-import javax.management.openmbean.OpenMBeanOperationInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -27,7 +22,7 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoSupport
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanInfoSupport#OpenMBeanInfoSupport(String, String, OpenMBeanAttributeInfo[], OpenMBeanConstructorInfo[], OpenMBeanOperationInfo[], MBeanNotificationInfo[])
+     * {@link javax.management.openmbean.OpenMBeanInfoSupport#OpenMBeanInfoSupport(String, String, javax.management.openmbean.OpenMBeanAttributeInfo[], javax.management.openmbean.OpenMBeanConstructorInfo[], javax.management.openmbean.OpenMBeanOperationInfo[], javax.management.MBeanNotificationInfo[])
      * public
      * javax.management.openmbean.OpenMBeanInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanAttributeInfo[],javax.management.openmbean.OpenMBeanConstructorInfo[],javax.management.openmbean.OpenMBeanOperationInfo[],javax.management.MBeanNotificationInfo[])}
      * .
@@ -46,15 +41,17 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoSupport
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanInfoSupport sut = null; // = new OpenMBeanInfoSupport(String, String, OpenMBeanAttributeInfo[],
-                                               // OpenMBeanConstructorInfo[], OpenMBeanOperationInfo[],
-                                               // MBeanNotificationInfo[]);
+        final OpenMBeanInfoSupport sut = null; // = new OpenMBeanInfoSupport(String, String,
+                                               // javax.management.openmbean.OpenMBeanAttributeInfo[],
+                                               // javax.management.openmbean.OpenMBeanConstructorInfo[],
+                                               // javax.management.openmbean.OpenMBeanOperationInfo[],
+                                               // javax.management.MBeanNotificationInfo[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanInfoSupport#OpenMBeanInfoSupport(String, String, OpenMBeanAttributeInfo[], OpenMBeanConstructorInfo[], OpenMBeanOperationInfo[], MBeanNotificationInfo[], Descriptor)
+     * {@link javax.management.openmbean.OpenMBeanInfoSupport#OpenMBeanInfoSupport(String, String, javax.management.openmbean.OpenMBeanAttributeInfo[], javax.management.openmbean.OpenMBeanConstructorInfo[], javax.management.openmbean.OpenMBeanOperationInfo[], javax.management.MBeanNotificationInfo[], javax.management.Descriptor)
      * public
      * javax.management.openmbean.OpenMBeanInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanAttributeInfo[],javax.management.openmbean.OpenMBeanConstructorInfo[],javax.management.openmbean.OpenMBeanOperationInfo[],javax.management.MBeanNotificationInfo[],javax.management.Descriptor)}
      * .
@@ -73,9 +70,12 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoSupport
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanInfoSupport sut = null; // = new OpenMBeanInfoSupport(String, String, OpenMBeanAttributeInfo[],
-                                               // OpenMBeanConstructorInfo[], OpenMBeanOperationInfo[],
-                                               // MBeanNotificationInfo[], Descriptor);
+        final OpenMBeanInfoSupport sut = null; // = new OpenMBeanInfoSupport(String, String,
+                                               // javax.management.openmbean.OpenMBeanAttributeInfo[],
+                                               // javax.management.openmbean.OpenMBeanConstructorInfo[],
+                                               // javax.management.openmbean.OpenMBeanOperationInfo[],
+                                               // javax.management.MBeanNotificationInfo[],
+                                               // javax.management.Descriptor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanInfoSupport]

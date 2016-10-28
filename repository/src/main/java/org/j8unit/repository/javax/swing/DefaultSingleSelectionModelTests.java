@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.DefaultSingleSelectionModel;
-import javax.swing.event.ChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +36,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultSingleSelectionModel#removeChangeListener(ChangeListener) public void
+     * {@link javax.swing.DefaultSingleSelectionModel#removeChangeListener(javax.swing.event.ChangeListener) public void
      * javax.swing.DefaultSingleSelectionModel.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +59,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultSingleSelectionModel#getChangeListeners()
-     * public javax.swing.event.ChangeListener[] javax.swing.DefaultSingleSelectionModel.getChangeListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultSingleSelectionModel#getChangeListeners() public javax.swing.event.ChangeListener[]
+     * javax.swing.DefaultSingleSelectionModel.getChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultSingleSelectionModel#getListeners(Class)
-     * public <T> T[] javax.swing.DefaultSingleSelectionModel.getListeners(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultSingleSelectionModel#getListeners(Class) public <T> T[]
+     * javax.swing.DefaultSingleSelectionModel.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +105,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultSingleSelectionModel#clearSelection() public
-     * void javax.swing.DefaultSingleSelectionModel.clearSelection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultSingleSelectionModel#clearSelection() public void
+     * javax.swing.DefaultSingleSelectionModel.clearSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +129,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultSingleSelectionModel#setSelectedIndex(int)
-     * public void javax.swing.DefaultSingleSelectionModel.setSelectedIndex(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultSingleSelectionModel#setSelectedIndex(int) public void
+     * javax.swing.DefaultSingleSelectionModel.setSelectedIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +153,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultSingleSelectionModel#isSelected() public
-     * boolean javax.swing.DefaultSingleSelectionModel.isSelected()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultSingleSelectionModel#isSelected()
+     * public boolean javax.swing.DefaultSingleSelectionModel.isSelected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +176,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultSingleSelectionModel#getSelectedIndex()
-     * public int javax.swing.DefaultSingleSelectionModel.getSelectedIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultSingleSelectionModel#getSelectedIndex() public int
+     * javax.swing.DefaultSingleSelectionModel.getSelectedIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,7 +201,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultSingleSelectionModel#addChangeListener(ChangeListener) public void
+     * {@link javax.swing.DefaultSingleSelectionModel#addChangeListener(javax.swing.event.ChangeListener) public void
      * javax.swing.DefaultSingleSelectionModel.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.text.rtf.RTFEditorKitClassTests<RTF
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RTFEditorKit#RTFEditorKit() public
-     * javax.swing.text.rtf.RTFEditorKit()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.rtf.RTFEditorKit#RTFEditorKit() public javax.swing.text.rtf.RTFEditorKit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

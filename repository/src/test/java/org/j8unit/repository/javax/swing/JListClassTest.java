@@ -1,9 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
-import java.util.Vector;
 import javax.swing.JList;
 import javax.swing.JList.DropLocation;
-import javax.swing.ListModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +23,8 @@ implements org.j8unit.repository.javax.swing.JListClassTests<JList> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JList#JList() public javax.swing.JList()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JList#JList() public
+     * javax.swing.JList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +44,8 @@ implements org.j8unit.repository.javax.swing.JListClassTests<JList> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JList#JList(Vector) public
-     * javax.swing.JList(java.util.Vector<? extends E>)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JList#JList(java.util.Vector)
+     * public javax.swing.JList(java.util.Vector<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,12 +61,12 @@ implements org.j8unit.repository.javax.swing.JListClassTests<JList> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JList sut = null; // = new JList(Vector);
+        final JList sut = null; // = new JList(java.util.Vector);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JList#JList(Object[]) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JList#JList(Object[]) public
      * javax.swing.JList(E[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,8 +88,8 @@ implements org.j8unit.repository.javax.swing.JListClassTests<JList> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JList#JList(ListModel) public
-     * javax.swing.JList(javax.swing.ListModel<E>)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JList#JList(javax.swing.ListModel)
+     * public javax.swing.JList(javax.swing.ListModel<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,7 +105,7 @@ implements org.j8unit.repository.javax.swing.JListClassTests<JList> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JList sut = null; // = new JList(ListModel);
+        final JList sut = null; // = new JList(javax.swing.ListModel);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JList]

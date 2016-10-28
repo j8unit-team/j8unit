@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig.spec;
 
-import java.util.Map;
 import javax.xml.crypto.dsig.spec.XPathType;
 import javax.xml.crypto.dsig.spec.XPathType.Filter;
 import org.j8unit.repository.categories.Draft;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XPathType#XPathType(String, Filter) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.dsig.spec.XPathType#XPathType(String, javax.xml.crypto.dsig.spec.XPathType.Filter) public
      * javax.xml.crypto.dsig.spec.XPathType(java.lang.String,javax.xml.crypto.dsig.spec.XPathType$Filter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +40,14 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XPathType sut = null; // = new XPathType(String, Filter);
+        final XPathType sut = null; // = new XPathType(String, javax.xml.crypto.dsig.spec.XPathType.Filter);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XPathType#XPathType(String, Filter, Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.dsig.spec.XPathType#XPathType(String, javax.xml.crypto.dsig.spec.XPathType.Filter, java.util.Map)
+     * public
      * javax.xml.crypto.dsig.spec.XPathType(java.lang.String,javax.xml.crypto.dsig.spec.XPathType$Filter,java.util.Map)}
      * .
      *
@@ -63,7 +65,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XPathType sut = null; // = new XPathType(String, Filter, Map);
+        final XPathType sut = null; // = new XPathType(String, javax.xml.crypto.dsig.spec.XPathType.Filter,
+                                    // java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathType]

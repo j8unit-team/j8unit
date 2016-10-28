@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.ServerRuntimeExceptionClassTests<Serve
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServerRuntimeException#ServerRuntimeException(String, Exception) public
+     * {@link java.rmi.ServerRuntimeException#ServerRuntimeException(String, Exception) public
      * java.rmi.ServerRuntimeException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

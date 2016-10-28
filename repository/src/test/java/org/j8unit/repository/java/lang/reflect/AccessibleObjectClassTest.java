@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.lang.reflect.AccessibleObjectClassTests<Ac
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AccessibleObject#setAccessible(AccessibleObject[], boolean) public static void
-     * java.lang.reflect.AccessibleObject.setAccessible(java.lang.reflect.AccessibleObject[],boolean) throws
+     * {@link java.lang.reflect.AccessibleObject#setAccessible(java.lang.reflect.AccessibleObject[], boolean) public
+     * static void java.lang.reflect.AccessibleObject.setAccessible(java.lang.reflect.AccessibleObject[],boolean) throws
      * java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,7 +38,8 @@ implements org.j8unit.repository.java.lang.reflect.AccessibleObjectClassTests<Ac
     @Category(Draft.class)
     public void test_setAccessible_AccessibleObjectArray_boolean()
     throws Exception {
-        // write some test for {@link AccessibleObject#setAccessible(AccessibleObject[], boolean)}
+        // write some test for {@link
+        // java.lang.reflect.AccessibleObject#setAccessible(java.lang.reflect.AccessibleObject[], boolean)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.AccessibleObject]

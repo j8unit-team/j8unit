@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.directory.BasicAttributesClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BasicAttributes#BasicAttributes(String, Object, boolean) public
+     * {@link javax.naming.directory.BasicAttributes#BasicAttributes(String, Object, boolean) public
      * javax.naming.directory.BasicAttributes(java.lang.String,java.lang.Object,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.javax.naming.directory.BasicAttributesClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicAttributes#BasicAttributes(String, Object)
-     * public javax.naming.directory.BasicAttributes(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.directory.BasicAttributes#BasicAttributes(String, Object) public
+     * javax.naming.directory.BasicAttributes(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,7 +67,8 @@ implements org.j8unit.repository.javax.naming.directory.BasicAttributesClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicAttributes#BasicAttributes(boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.directory.BasicAttributes#BasicAttributes(boolean) public
      * javax.naming.directory.BasicAttributes(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +90,8 @@ implements org.j8unit.repository.javax.naming.directory.BasicAttributesClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicAttributes#BasicAttributes() public
-     * javax.naming.directory.BasicAttributes()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.directory.BasicAttributes#BasicAttributes() public javax.naming.directory.BasicAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

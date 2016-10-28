@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.sql.DataTruncationClassTests<DataTruncatio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataTruncation#DataTruncation(int, boolean, boolean, int, int) public
+     * {@link java.sql.DataTruncation#DataTruncation(int, boolean, boolean, int, int) public
      * java.sql.DataTruncation(int,boolean,boolean,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.sql.DataTruncationClassTests<DataTruncatio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataTruncation#DataTruncation(int, boolean, boolean, int, int, Throwable) public
+     * {@link java.sql.DataTruncation#DataTruncation(int, boolean, boolean, int, int, Throwable) public
      * java.sql.DataTruncation(int,boolean,boolean,int,int,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

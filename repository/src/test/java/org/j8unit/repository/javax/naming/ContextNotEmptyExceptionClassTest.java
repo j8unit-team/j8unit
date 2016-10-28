@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.ContextNotEmptyExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ContextNotEmptyException#ContextNotEmptyException(String) public
+     * {@link javax.naming.ContextNotEmptyException#ContextNotEmptyException(String) public
      * javax.naming.ContextNotEmptyException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,8 @@ implements org.j8unit.repository.javax.naming.ContextNotEmptyExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ContextNotEmptyException#ContextNotEmptyException() public javax.naming.ContextNotEmptyException()}.
+     * {@link javax.naming.ContextNotEmptyException#ContextNotEmptyException() public
+     * javax.naming.ContextNotEmptyException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

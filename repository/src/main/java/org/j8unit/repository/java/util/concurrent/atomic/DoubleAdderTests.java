@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAdder#sum() public double
-     * java.util.concurrent.atomic.DoubleAdder.sum()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.DoubleAdder#sum() public
+     * double java.util.concurrent.atomic.DoubleAdder.sum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAdder#toString() public java.lang.String
-     * java.util.concurrent.atomic.DoubleAdder.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.DoubleAdder#toString()
+     * public java.lang.String java.util.concurrent.atomic.DoubleAdder.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAdder#doubleValue() public double
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAdder#doubleValue() public double
      * java.util.concurrent.atomic.DoubleAdder.doubleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +103,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAdder#reset() public void
-     * java.util.concurrent.atomic.DoubleAdder.reset()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.DoubleAdder#reset()
+     * public void java.util.concurrent.atomic.DoubleAdder.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAdder#floatValue() public float
-     * java.util.concurrent.atomic.DoubleAdder.floatValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.DoubleAdder#floatValue()
+     * public float java.util.concurrent.atomic.DoubleAdder.floatValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAdder#longValue() public long
-     * java.util.concurrent.atomic.DoubleAdder.longValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.DoubleAdder#longValue()
+     * public long java.util.concurrent.atomic.DoubleAdder.longValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +171,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAdder#sumThenReset() public double
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.DoubleAdder#sumThenReset() public double
      * java.util.concurrent.atomic.DoubleAdder.sumThenReset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +194,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAdder#add(double) public void
-     * java.util.concurrent.atomic.DoubleAdder.add(double)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.DoubleAdder#add(double)
+     * public void java.util.concurrent.atomic.DoubleAdder.add(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +216,8 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleAdder#intValue() public int
-     * java.util.concurrent.atomic.DoubleAdder.intValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.DoubleAdder#intValue()
+     * public int java.util.concurrent.atomic.DoubleAdder.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.security.spec.ECParameterSpec;
-import java.security.spec.ECPoint;
 import java.security.spec.ECPublicKeySpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.security.spec.ECPublicKeySpecClassTests<EC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ECPublicKeySpec#ECPublicKeySpec(ECPoint, ECParameterSpec) public
-     * java.security.spec.ECPublicKeySpec(java.security.spec.ECPoint,java.security.spec.ECParameterSpec)}.
+     * {@link java.security.spec.ECPublicKeySpec#ECPublicKeySpec(java.security.spec.ECPoint, java.security.spec.ECParameterSpec)
+     * public java.security.spec.ECPublicKeySpec(java.security.spec.ECPoint,java.security.spec.ECParameterSpec)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +39,8 @@ implements org.j8unit.repository.java.security.spec.ECPublicKeySpecClassTests<EC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ECPublicKeySpec sut = null; // = new ECPublicKeySpec(ECPoint, ECParameterSpec);
+        final ECPublicKeySpec sut = null; // = new ECPublicKeySpec(java.security.spec.ECPoint,
+                                          // java.security.spec.ECParameterSpec);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECPublicKeySpec]

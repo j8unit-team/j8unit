@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.OptionalLong;
-import java.util.function.LongConsumer;
-import java.util.function.LongSupplier;
-import java.util.function.Supplier;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#getAsLong() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#getAsLong() public long
      * java.util.OptionalLong.getAsLong()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#orElseGet(LongSupplier) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalLong#orElseGet(java.util.function.LongSupplier) public long
      * java.util.OptionalLong.orElseGet(java.util.function.LongSupplier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#ifPresent(LongConsumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalLong#ifPresent(java.util.function.LongConsumer) public void
      * java.util.OptionalLong.ifPresent(java.util.function.LongConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#equals(Object) public boolean
      * java.util.OptionalLong.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +125,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#hashCode() public int
      * java.util.OptionalLong.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +148,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#isPresent() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#isPresent() public boolean
      * java.util.OptionalLong.isPresent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +170,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#toString() public java.lang.String
-     * java.util.OptionalLong.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#toString() public
+     * java.lang.String java.util.OptionalLong.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,7 +193,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#orElse(long) public long
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#orElse(long) public long
      * java.util.OptionalLong.orElse(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,7 +215,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#orElseThrow(Supplier) public <X> long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalLong#orElseThrow(java.util.function.Supplier) public <X> long
      * java.util.OptionalLong.orElseThrow(java.util.function.Supplier<X>) throws X}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

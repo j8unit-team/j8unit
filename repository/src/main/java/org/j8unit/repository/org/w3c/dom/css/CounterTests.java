@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Counter#getIdentifier() public abstract
-     * java.lang.String org.w3c.dom.css.Counter.getIdentifier()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.Counter#getIdentifier() public
+     * abstract java.lang.String org.w3c.dom.css.Counter.getIdentifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Counter#getListStyle() public abstract
-     * java.lang.String org.w3c.dom.css.Counter.getListStyle()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.Counter#getListStyle() public
+     * abstract java.lang.String org.w3c.dom.css.Counter.getListStyle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Counter#getSeparator() public abstract
-     * java.lang.String org.w3c.dom.css.Counter.getSeparator()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.Counter#getSeparator() public
+     * abstract java.lang.String org.w3c.dom.css.Counter.getSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

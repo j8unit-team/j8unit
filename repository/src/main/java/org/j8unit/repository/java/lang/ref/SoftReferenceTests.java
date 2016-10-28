@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ref.ReferenceTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SoftReference#get() public T
+     * Test method for the hereby targeted method-under-test {@link java.lang.ref.SoftReference#get() public T
      * java.lang.ref.SoftReference.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

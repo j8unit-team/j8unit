@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#relativize(URI) public java.net.URI
-     * java.net.URI.relativize(java.net.URI)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#relativize(java.net.URI) public
+     * java.net.URI java.net.URI.relativize(java.net.URI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getPath() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getPath() public java.lang.String
      * java.net.URI.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getHost() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getHost() public java.lang.String
      * java.net.URI.getHost()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getQuery() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getQuery() public java.lang.String
      * java.net.URI.getQuery()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#normalize() public java.net.URI
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#normalize() public java.net.URI
      * java.net.URI.normalize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#hashCode() public int java.net.URI.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#hashCode() public int
+     * java.net.URI.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +168,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#compareTo(URI) public int
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#compareTo(java.net.URI) public int
      * java.net.URI.compareTo(java.net.URI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +190,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getRawAuthority() public java.lang.String
-     * java.net.URI.getRawAuthority()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getRawAuthority() public
+     * java.lang.String java.net.URI.getRawAuthority()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +212,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#toASCIIString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#toASCIIString() public java.lang.String
      * java.net.URI.toASCIIString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,7 +234,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#isOpaque() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#isOpaque() public boolean
      * java.net.URI.isOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,7 +256,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#resolve(String) public java.net.URI
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#resolve(String) public java.net.URI
      * java.net.URI.resolve(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,8 +278,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#resolve(URI) public java.net.URI
-     * java.net.URI.resolve(java.net.URI)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#resolve(java.net.URI) public
+     * java.net.URI java.net.URI.resolve(java.net.URI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,7 +300,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getRawPath() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getRawPath() public java.lang.String
      * java.net.URI.getRawPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -321,7 +322,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getFragment() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getFragment() public java.lang.String
      * java.net.URI.getFragment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -343,7 +344,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#toString() public java.lang.String
      * java.net.URI.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -366,7 +367,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#isAbsolute() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#isAbsolute() public boolean
      * java.net.URI.isAbsolute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -388,8 +389,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getSchemeSpecificPart() public java.lang.String
-     * java.net.URI.getSchemeSpecificPart()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getSchemeSpecificPart() public
+     * java.lang.String java.net.URI.getSchemeSpecificPart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -410,7 +411,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getUserInfo() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getUserInfo() public java.lang.String
      * java.net.URI.getUserInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -432,7 +433,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getPort() public int java.net.URI.getPort()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getPort() public int
+     * java.net.URI.getPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -453,7 +455,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#equals(Object) public boolean
      * java.net.URI.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -476,8 +478,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#parseServerAuthority() public java.net.URI
-     * java.net.URI.parseServerAuthority() throws java.net.URISyntaxException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#parseServerAuthority() public
+     * java.net.URI java.net.URI.parseServerAuthority() throws java.net.URISyntaxException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -498,8 +500,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getRawUserInfo() public java.lang.String
-     * java.net.URI.getRawUserInfo()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getRawUserInfo() public
+     * java.lang.String java.net.URI.getRawUserInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -520,7 +522,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getRawSchemeSpecificPart() public
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getRawSchemeSpecificPart() public
      * java.lang.String java.net.URI.getRawSchemeSpecificPart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -542,7 +544,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getRawQuery() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getRawQuery() public java.lang.String
      * java.net.URI.getRawQuery()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -564,8 +566,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getRawFragment() public java.lang.String
-     * java.net.URI.getRawFragment()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getRawFragment() public
+     * java.lang.String java.net.URI.getRawFragment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -586,7 +588,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getAuthority() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getAuthority() public java.lang.String
      * java.net.URI.getAuthority()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -608,7 +610,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#getScheme() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#getScheme() public java.lang.String
      * java.net.URI.getScheme()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -630,8 +632,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URI#toURL() public java.net.URL java.net.URI.toURL()
-     * throws java.net.MalformedURLException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URI#toURL() public java.net.URL
+     * java.net.URI.toURL() throws java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.time.zone;
 
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
 import java.time.zone.ZoneOffsetTransition;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionClassTests<Z
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ZoneOffsetTransition#of(LocalDateTime, ZoneOffset, ZoneOffset) public static
-     * java.time.zone.ZoneOffsetTransition
+     * {@link java.time.zone.ZoneOffsetTransition#of(java.time.LocalDateTime, java.time.ZoneOffset, java.time.ZoneOffset)
+     * public static java.time.zone.ZoneOffsetTransition
      * java.time.zone.ZoneOffsetTransition.of(java.time.LocalDateTime,java.time.ZoneOffset,java.time.ZoneOffset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +38,8 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionClassTests<Z
     @Category(Draft.class)
     public void test_of_LocalDateTime_ZoneOffset_ZoneOffset()
     throws Exception {
-        // write some test for {@link ZoneOffsetTransition#of(LocalDateTime, ZoneOffset, ZoneOffset)}
+        // write some test for {@link java.time.zone.ZoneOffsetTransition#of(java.time.LocalDateTime,
+        // java.time.ZoneOffset, java.time.ZoneOffset)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneOffsetTransition]

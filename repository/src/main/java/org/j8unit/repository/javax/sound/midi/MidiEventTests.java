@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiEvent#setTick(long) public void
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiEvent#setTick(long) public void
      * javax.sound.midi.MidiEvent.setTick(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiEvent#getMessage() public
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiEvent#getMessage() public
      * javax.sound.midi.MidiMessage javax.sound.midi.MidiEvent.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MidiEvent#getTick() public long
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiEvent#getTick() public long
      * javax.sound.midi.MidiEvent.getTick()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

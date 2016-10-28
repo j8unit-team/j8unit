@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.reflect.MalformedParameterizedTypeExc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MalformedParameterizedTypeException#MalformedParameterizedTypeException() public
+     * {@link java.lang.reflect.MalformedParameterizedTypeException#MalformedParameterizedTypeException() public
      * java.lang.reflect.MalformedParameterizedTypeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

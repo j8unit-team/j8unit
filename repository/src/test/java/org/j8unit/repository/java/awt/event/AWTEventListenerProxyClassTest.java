@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.event.AWTEventListener;
 import java.awt.event.AWTEventListenerProxy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.event.AWTEventListenerProxyClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AWTEventListenerProxy#AWTEventListenerProxy(long, AWTEventListener) public
+     * {@link java.awt.event.AWTEventListenerProxy#AWTEventListenerProxy(long, java.awt.event.AWTEventListener) public
      * java.awt.event.AWTEventListenerProxy(long,java.awt.event.AWTEventListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.awt.event.AWTEventListenerProxyClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AWTEventListenerProxy sut = null; // = new AWTEventListenerProxy(long, AWTEventListener);
+        final AWTEventListenerProxy sut = null; // = new AWTEventListenerProxy(long, java.awt.event.AWTEventListener);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.AWTEventListenerProxy]

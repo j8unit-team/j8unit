@@ -1,14 +1,11 @@
 package org.j8unit.repository.javax.xml.soap;
 
-import javax.xml.namespace.QName;
-import javax.xml.soap.Name;
 import javax.xml.soap.SOAPFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Element;
 
 /**
  * <p>
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createName(String) public abstract
-     * javax.xml.soap.Name javax.xml.soap.SOAPFactory.createName(java.lang.String) throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPFactory#createName(String) public
+     * abstract javax.xml.soap.Name javax.xml.soap.SOAPFactory.createName(java.lang.String) throws
+     * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createName(String, String, String)
-     * public abstract javax.xml.soap.Name
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPFactory#createName(String, String, String) public abstract javax.xml.soap.Name
      * javax.xml.soap.SOAPFactory.createName(java.lang.String,java.lang.String,java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
@@ -83,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createFault() public abstract
-     * javax.xml.soap.SOAPFault javax.xml.soap.SOAPFactory.createFault() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPFactory#createFault() public
+     * abstract javax.xml.soap.SOAPFault javax.xml.soap.SOAPFactory.createFault() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,10 +103,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createFault(String, QName) public
-     * abstract javax.xml.soap.SOAPFault
-     * javax.xml.soap.SOAPFactory.createFault(java.lang.String,javax.xml.namespace.QName) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPFactory#createFault(String, javax.xml.namespace.QName) public abstract
+     * javax.xml.soap.SOAPFault javax.xml.soap.SOAPFactory.createFault(java.lang.String,javax.xml.namespace.QName)
+     * throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,9 +127,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createElement(QName) public
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPFactory.createElement(javax.xml.namespace.QName) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPFactory#createElement(javax.xml.namespace.QName) public javax.xml.soap.SOAPElement
+     * javax.xml.soap.SOAPFactory.createElement(javax.xml.namespace.QName) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +150,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createElement(String) public abstract
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPFactory.createElement(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPFactory#createElement(String)
+     * public abstract javax.xml.soap.SOAPElement javax.xml.soap.SOAPFactory.createElement(java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,8 +173,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createElement(String, String, String)
-     * public abstract javax.xml.soap.SOAPElement
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPFactory#createElement(String, String, String) public abstract
+     * javax.xml.soap.SOAPElement
      * javax.xml.soap.SOAPFactory.createElement(java.lang.String,java.lang.String,java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
@@ -199,9 +198,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createElement(Name) public abstract
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPFactory.createElement(javax.xml.soap.Name) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPFactory#createElement(javax.xml.soap.Name) public abstract javax.xml.soap.SOAPElement
+     * javax.xml.soap.SOAPFactory.createElement(javax.xml.soap.Name) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,9 +221,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createElement(Element) public
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPFactory.createElement(org.w3c.dom.Element) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPFactory#createElement(org.w3c.dom.Element) public javax.xml.soap.SOAPElement
+     * javax.xml.soap.SOAPFactory.createElement(org.w3c.dom.Element) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,8 +244,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFactory#createDetail() public abstract
-     * javax.xml.soap.Detail javax.xml.soap.SOAPFactory.createDetail() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPFactory#createDetail() public
+     * abstract javax.xml.soap.Detail javax.xml.soap.SOAPFactory.createDetail() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

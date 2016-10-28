@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.nio.channels.SelectorClassTests<Selector> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Selector#open() public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Selector#open() public static
      * java.nio.channels.Selector java.nio.channels.Selector.open() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,7 +36,7 @@ implements org.j8unit.repository.java.nio.channels.SelectorClassTests<Selector> 
     @Category(Draft.class)
     public void test_open()
     throws Exception {
-        // write some test for {@link Selector#open()}
+        // write some test for {@link java.nio.channels.Selector#open()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Selector]

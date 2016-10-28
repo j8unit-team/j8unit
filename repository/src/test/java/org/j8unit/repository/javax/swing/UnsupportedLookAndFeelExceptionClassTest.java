@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.UnsupportedLookAndFeelExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedLookAndFeelException#UnsupportedLookAndFeelException(String) public
+     * {@link javax.swing.UnsupportedLookAndFeelException#UnsupportedLookAndFeelException(String) public
      * javax.swing.UnsupportedLookAndFeelException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

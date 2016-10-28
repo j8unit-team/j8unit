@@ -1,11 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.io.ObjectOutput;
-import java.lang.reflect.Method;
-import java.rmi.Remote;
-import java.rmi.server.Operation;
-import java.rmi.server.RemoteCall;
-import java.rmi.server.RemoteObject;
 import java.rmi.server.RemoteRef;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,8 +34,9 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteRef#remoteEquals(RemoteRef) public abstract
-     * boolean java.rmi.server.RemoteRef.remoteEquals(java.rmi.server.RemoteRef)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RemoteRef#remoteEquals(java.rmi.server.RemoteRef) public abstract boolean
+     * java.rmi.server.RemoteRef.remoteEquals(java.rmi.server.RemoteRef)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +57,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteRef#remoteHashCode() public abstract int
-     * java.rmi.server.RemoteRef.remoteHashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteRef#remoteHashCode() public
+     * abstract int java.rmi.server.RemoteRef.remoteHashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +80,31 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RemoteRef#newCall(RemoteObject, Operation[], int, long) public abstract java.rmi.server.RemoteCall
+     * {@link java.rmi.server.RemoteRef#done(java.rmi.server.RemoteCall) public abstract void
+     * java.rmi.server.RemoteRef.done(java.rmi.server.RemoteCall) throws java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_done_RemoteCall()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RemoteRef#newCall(java.rmi.server.RemoteObject, java.rmi.server.Operation[], int, long)
+     * public abstract java.rmi.server.RemoteCall
      * java.rmi.server.RemoteRef.newCall(java.rmi.server.RemoteObject,java.rmi.server.Operation[],int,long) throws
      * java.rmi.RemoteException}.
      *
@@ -108,8 +127,9 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteRef#getRefClass(ObjectOutput) public abstract
-     * java.lang.String java.rmi.server.RemoteRef.getRefClass(java.io.ObjectOutput)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RemoteRef#getRefClass(java.io.ObjectOutput) public abstract java.lang.String
+     * java.rmi.server.RemoteRef.getRefClass(java.io.ObjectOutput)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +150,9 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteRef#done(RemoteCall) public abstract void
-     * java.rmi.server.RemoteRef.done(java.rmi.server.RemoteCall) throws java.rmi.RemoteException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RemoteRef#invoke(java.rmi.server.RemoteCall) public abstract void
+     * java.rmi.server.RemoteRef.invoke(java.rmi.server.RemoteCall) throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -143,7 +164,7 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_done_RemoteCall()
+    public default void test_invoke_RemoteCall()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,8 +173,9 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteRef#invoke(Remote, Method, Object[], long)
-     * public abstract java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RemoteRef#invoke(java.rmi.Remote, java.lang.reflect.Method, Object[], long) public
+     * abstract java.lang.Object
      * java.rmi.server.RemoteRef.invoke(java.rmi.Remote,java.lang.reflect.Method,java.lang.Object[],long) throws
      * java.lang.Exception}.
      *
@@ -176,30 +198,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteRef#invoke(RemoteCall) public abstract void
-     * java.rmi.server.RemoteRef.invoke(java.rmi.server.RemoteCall) throws java.lang.Exception}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invoke_RemoteCall()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteRef#remoteToString() public abstract
-     * java.lang.String java.rmi.server.RemoteRef.remoteToString()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteRef#remoteToString() public
+     * abstract java.lang.String java.rmi.server.RemoteRef.remoteToString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

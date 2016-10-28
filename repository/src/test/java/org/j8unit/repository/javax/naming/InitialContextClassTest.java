@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.naming;
 
-import java.util.Hashtable;
 import javax.naming.InitialContext;
-import javax.naming.Name;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.naming.InitialContextClassTests<InitialCo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InitialContext#InitialContext(Hashtable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.InitialContext#InitialContext(java.util.Hashtable) public
      * javax.naming.InitialContext(java.util.Hashtable<?, ?>) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.javax.naming.InitialContextClassTests<InitialCo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InitialContext sut = null; // = new InitialContext(Hashtable);
+        final InitialContext sut = null; // = new InitialContext(java.util.Hashtable);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InitialContext#InitialContext() public
-     * javax.naming.InitialContext() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.naming.InitialContext#InitialContext()
+     * public javax.naming.InitialContext() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,7 +65,8 @@ implements org.j8unit.repository.javax.naming.InitialContextClassTests<InitialCo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialContext#doLookup(Name) public static <T> T
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.InitialContext#doLookup(javax.naming.Name) public static <T> T
      * javax.naming.InitialContext.doLookup(javax.naming.Name) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,13 +81,13 @@ implements org.j8unit.repository.javax.naming.InitialContextClassTests<InitialCo
     @Category(Draft.class)
     public void test_doLookup_Name()
     throws Exception {
-        // write some test for {@link InitialContext#doLookup(Name)}
+        // write some test for {@link javax.naming.InitialContext#doLookup(javax.naming.Name)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialContext#doLookup(String) public static <T> T
-     * javax.naming.InitialContext.doLookup(java.lang.String) throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#doLookup(String) public
+     * static <T> T javax.naming.InitialContext.doLookup(java.lang.String) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ implements org.j8unit.repository.javax.naming.InitialContextClassTests<InitialCo
     @Category(Draft.class)
     public void test_doLookup_String()
     throws Exception {
-        // write some test for {@link InitialContext#doLookup(String)}
+        // write some test for {@link javax.naming.InitialContext#doLookup(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.InitialContext]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.RemoteExceptionClassTests<RemoteExcept
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RemoteException#RemoteException(String, Throwable) public
+     * {@link java.rmi.RemoteException#RemoteException(String, Throwable) public
      * java.rmi.RemoteException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,8 @@ implements org.j8unit.repository.java.rmi.RemoteExceptionClassTests<RemoteExcept
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RemoteException#RemoteException(String) public
-     * java.rmi.RemoteException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.RemoteException#RemoteException(String) public java.rmi.RemoteException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,8 +66,8 @@ implements org.j8unit.repository.java.rmi.RemoteExceptionClassTests<RemoteExcept
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RemoteException#RemoteException() public
-     * java.rmi.RemoteException()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.rmi.RemoteException#RemoteException()
+     * public java.rmi.RemoteException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

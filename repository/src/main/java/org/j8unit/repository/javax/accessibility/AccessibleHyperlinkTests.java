@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHyperlink#doAccessibleAction(int) public
-     * abstract boolean javax.accessibility.AccessibleHyperlink.doAccessibleAction(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleHyperlink#doAccessibleAction(int) public abstract boolean
+     * javax.accessibility.AccessibleHyperlink.doAccessibleAction(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHyperlink#getEndIndex() public abstract
-     * int javax.accessibility.AccessibleHyperlink.getEndIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleHyperlink#getEndIndex() public abstract int
+     * javax.accessibility.AccessibleHyperlink.getEndIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHyperlink#getAccessibleActionObject(int)
-     * public abstract java.lang.Object javax.accessibility.AccessibleHyperlink.getAccessibleActionObject(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionObject(int) public abstract java.lang.Object
+     * javax.accessibility.AccessibleHyperlink.getAccessibleActionObject(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHyperlink#isValid() public abstract
-     * boolean javax.accessibility.AccessibleHyperlink.isValid()}.
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleHyperlink#isValid()
+     * public abstract boolean javax.accessibility.AccessibleHyperlink.isValid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +127,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AccessibleHyperlink#getAccessibleActionDescription(int) public abstract java.lang.String
-     * javax.accessibility.AccessibleHyperlink.getAccessibleActionDescription(int)}.
+     * {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionDescription(int) public abstract
+     * java.lang.String javax.accessibility.AccessibleHyperlink.getAccessibleActionDescription(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +150,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHyperlink#getStartIndex() public abstract
-     * int javax.accessibility.AccessibleHyperlink.getStartIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleHyperlink#getStartIndex() public abstract int
+     * javax.accessibility.AccessibleHyperlink.getStartIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +173,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHyperlink#getAccessibleActionCount()
-     * public abstract int javax.accessibility.AccessibleHyperlink.getAccessibleActionCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionCount() public abstract int
+     * javax.accessibility.AccessibleHyperlink.getAccessibleActionCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +197,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleHyperlink#getAccessibleActionAnchor(int)
-     * public abstract java.lang.Object javax.accessibility.AccessibleHyperlink.getAccessibleActionAnchor(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionAnchor(int) public abstract java.lang.Object
+     * javax.accessibility.AccessibleHyperlink.getAccessibleActionAnchor(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

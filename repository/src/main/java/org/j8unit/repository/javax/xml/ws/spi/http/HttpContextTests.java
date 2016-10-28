@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.xml.ws.spi.http;
 
 import javax.xml.ws.spi.http.HttpContext;
-import javax.xml.ws.spi.http.HttpHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpContext#getPath() public abstract
-     * java.lang.String javax.xml.ws.spi.http.HttpContext.getPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpContext#getPath() public
+     * abstract java.lang.String javax.xml.ws.spi.http.HttpContext.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpContext#getAttributeNames() public abstract
-     * java.util.Set<java.lang.String> javax.xml.ws.spi.http.HttpContext.getAttributeNames()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpContext#getAttributeNames() public abstract java.util.Set
+     * <java.lang.String> javax.xml.ws.spi.http.HttpContext.getAttributeNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpContext#setHandler(HttpHandler) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpContext#setHandler(javax.xml.ws.spi.http.HttpHandler) public void
      * javax.xml.ws.spi.http.HttpContext.setHandler(javax.xml.ws.spi.http.HttpHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +102,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HttpContext#getAttribute(String) public abstract
-     * java.lang.Object javax.xml.ws.spi.http.HttpContext.getAttribute(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpContext#getAttribute(String) public abstract java.lang.Object
+     * javax.xml.ws.spi.http.HttpContext.getAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

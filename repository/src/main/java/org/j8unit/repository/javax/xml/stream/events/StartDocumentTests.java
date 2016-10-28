@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartDocument#isStandalone() public abstract boolean
-     * javax.xml.stream.events.StartDocument.isStandalone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.StartDocument#isStandalone()
+     * public abstract boolean javax.xml.stream.events.StartDocument.isStandalone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartDocument#getVersion() public abstract
-     * java.lang.String javax.xml.stream.events.StartDocument.getVersion()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.StartDocument#getVersion()
+     * public abstract java.lang.String javax.xml.stream.events.StartDocument.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartDocument#encodingSet() public abstract boolean
-     * javax.xml.stream.events.StartDocument.encodingSet()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.StartDocument#encodingSet()
+     * public abstract boolean javax.xml.stream.events.StartDocument.encodingSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartDocument#getCharacterEncodingScheme() public
-     * abstract java.lang.String javax.xml.stream.events.StartDocument.getCharacterEncodingScheme()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.StartDocument#getCharacterEncodingScheme() public abstract java.lang.String
+     * javax.xml.stream.events.StartDocument.getCharacterEncodingScheme()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartDocument#getSystemId() public abstract
-     * java.lang.String javax.xml.stream.events.StartDocument.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.StartDocument#getSystemId()
+     * public abstract java.lang.String javax.xml.stream.events.StartDocument.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StartDocument#standaloneSet() public abstract
-     * boolean javax.xml.stream.events.StartDocument.standaloneSet()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.StartDocument#standaloneSet() public abstract boolean
+     * javax.xml.stream.events.StartDocument.standaloneSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

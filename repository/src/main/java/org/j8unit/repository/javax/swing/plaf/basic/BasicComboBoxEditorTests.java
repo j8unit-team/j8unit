@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
 import javax.swing.plaf.basic.BasicComboBoxEditor;
 import javax.swing.plaf.basic.BasicComboBoxEditor.UIResource;
 import org.j8unit.repository.categories.Draft;
@@ -38,8 +36,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#getItem() public
-     * java.lang.Object javax.swing.plaf.basic.BasicComboBoxEditor.getItem()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicComboBoxEditor#getItem()
+     * public java.lang.Object javax.swing.plaf.basic.BasicComboBoxEditor.getItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +59,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#getEditorComponent() public
-     * java.awt.Component javax.swing.plaf.basic.BasicComboBoxEditor.getEditorComponent()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#getEditorComponent() public java.awt.Component
+     * javax.swing.plaf.basic.BasicComboBoxEditor.getEditorComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +83,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#setItem(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#setItem(Object) public void
      * javax.swing.plaf.basic.BasicComboBoxEditor.setItem(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +107,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#focusLost(FocusEvent) public
-     * void javax.swing.plaf.basic.BasicComboBoxEditor.focusLost(java.awt.event.FocusEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#focusLost(java.awt.event.FocusEvent) public void
+     * javax.swing.plaf.basic.BasicComboBoxEditor.focusLost(java.awt.event.FocusEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,7 +131,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#selectAll() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#selectAll() public void
      * javax.swing.plaf.basic.BasicComboBoxEditor.selectAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,8 +155,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#focusGained(FocusEvent) public
-     * void javax.swing.plaf.basic.BasicComboBoxEditor.focusGained(java.awt.event.FocusEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#focusGained(java.awt.event.FocusEvent) public void
+     * javax.swing.plaf.basic.BasicComboBoxEditor.focusGained(java.awt.event.FocusEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,7 +180,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicComboBoxEditor#removeActionListener(ActionListener) public void
+     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#removeActionListener(java.awt.event.ActionListener) public void
      * javax.swing.plaf.basic.BasicComboBoxEditor.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,7 +204,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicComboBoxEditor#addActionListener(ActionListener) public void
+     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#addActionListener(java.awt.event.ActionListener) public void
      * javax.swing.plaf.basic.BasicComboBoxEditor.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

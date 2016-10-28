@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.rmi.dgc;
 
 import java.rmi.dgc.DGC;
-import java.rmi.dgc.Lease;
-import java.rmi.dgc.VMID;
-import java.rmi.server.ObjID;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,8 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DGC#dirty(ObjID[], long, Lease) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.dgc.DGC#dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease) public abstract
      * java.rmi.dgc.Lease java.rmi.dgc.DGC.dirty(java.rmi.server.ObjID[],long,java.rmi.dgc.Lease) throws
      * java.rmi.RemoteException}.
      *
@@ -60,9 +58,9 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DGC#clean(ObjID[], long, VMID, boolean) public
-     * abstract void java.rmi.dgc.DGC.clean(java.rmi.server.ObjID[],long,java.rmi.dgc.VMID,boolean) throws
-     * java.rmi.RemoteException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.dgc.DGC#clean(java.rmi.server.ObjID[], long, java.rmi.dgc.VMID, boolean) public abstract void
+     * java.rmi.dgc.DGC.clean(java.rmi.server.ObjID[],long,java.rmi.dgc.VMID,boolean) throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

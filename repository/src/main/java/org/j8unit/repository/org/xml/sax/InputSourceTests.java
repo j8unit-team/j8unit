@@ -1,7 +1,5 @@
 package org.j8unit.repository.org.xml.sax;
 
-import java.io.InputStream;
-import java.io.Reader;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#getByteStream() public
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.InputSource#getByteStream() public
      * java.io.InputStream org.xml.sax.InputSource.getByteStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#getEncoding() public java.lang.String
-     * org.xml.sax.InputSource.getEncoding()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.InputSource#getEncoding() public
+     * java.lang.String org.xml.sax.InputSource.getEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,29 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#getSystemId() public java.lang.String
-     * org.xml.sax.InputSource.getSystemId()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSystemId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#setCharacterStream(Reader) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.InputSource#setCharacterStream(java.io.Reader) public void
      * org.xml.sax.InputSource.setCharacterStream(java.io.Reader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +101,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#setEncoding(String) public void
-     * org.xml.sax.InputSource.setEncoding(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.InputSource#getSystemId() public
+     * java.lang.String org.xml.sax.InputSource.getSystemId()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSystemId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.InputSource#setEncoding(String) public
+     * void org.xml.sax.InputSource.setEncoding(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#setSystemId(String) public void
-     * org.xml.sax.InputSource.setSystemId(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.InputSource#setSystemId(String) public
+     * void org.xml.sax.InputSource.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +167,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#setByteStream(InputStream) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.InputSource#setByteStream(java.io.InputStream) public void
      * org.xml.sax.InputSource.setByteStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#setPublicId(String) public void
-     * org.xml.sax.InputSource.setPublicId(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.InputSource#setPublicId(String) public
+     * void org.xml.sax.InputSource.setPublicId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,7 +212,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#getCharacterStream() public
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.InputSource#getCharacterStream() public
      * java.io.Reader org.xml.sax.InputSource.getCharacterStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -234,8 +234,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputSource#getPublicId() public java.lang.String
-     * org.xml.sax.InputSource.getPublicId()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.InputSource#getPublicId() public
+     * java.lang.String org.xml.sax.InputSource.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

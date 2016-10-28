@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.font.TextHitInfoClassTests<TextHitInfo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextHitInfo#afterOffset(int) public static
-     * java.awt.font.TextHitInfo java.awt.font.TextHitInfo.afterOffset(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TextHitInfo#afterOffset(int) public
+     * static java.awt.font.TextHitInfo java.awt.font.TextHitInfo.afterOffset(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.awt.font.TextHitInfoClassTests<TextHitInfo
     @Category(Draft.class)
     public void test_afterOffset_int()
     throws Exception {
-        // write some test for {@link TextHitInfo#afterOffset(int)}
+        // write some test for {@link java.awt.font.TextHitInfo#afterOffset(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextHitInfo#leading(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TextHitInfo#leading(int) public static
      * java.awt.font.TextHitInfo java.awt.font.TextHitInfo.leading(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,13 +56,13 @@ implements org.j8unit.repository.java.awt.font.TextHitInfoClassTests<TextHitInfo
     @Category(Draft.class)
     public void test_leading_int()
     throws Exception {
-        // write some test for {@link TextHitInfo#leading(int)}
+        // write some test for {@link java.awt.font.TextHitInfo#leading(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextHitInfo#beforeOffset(int) public static
-     * java.awt.font.TextHitInfo java.awt.font.TextHitInfo.beforeOffset(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TextHitInfo#beforeOffset(int) public
+     * static java.awt.font.TextHitInfo java.awt.font.TextHitInfo.beforeOffset(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,13 +76,13 @@ implements org.j8unit.repository.java.awt.font.TextHitInfoClassTests<TextHitInfo
     @Category(Draft.class)
     public void test_beforeOffset_int()
     throws Exception {
-        // write some test for {@link TextHitInfo#beforeOffset(int)}
+        // write some test for {@link java.awt.font.TextHitInfo#beforeOffset(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextHitInfo#trailing(int) public static
-     * java.awt.font.TextHitInfo java.awt.font.TextHitInfo.trailing(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TextHitInfo#trailing(int) public
+     * static java.awt.font.TextHitInfo java.awt.font.TextHitInfo.trailing(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -96,7 +96,7 @@ implements org.j8unit.repository.java.awt.font.TextHitInfoClassTests<TextHitInfo
     @Category(Draft.class)
     public void test_trailing_int()
     throws Exception {
-        // write some test for {@link TextHitInfo#trailing(int)}
+        // write some test for {@link java.awt.font.TextHitInfo#trailing(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextHitInfo]

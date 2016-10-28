@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.PipedReader;
 import java.io.PipedWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedWriter#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedWriter#close() public void
      * java.io.PipedWriter.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedWriter#write(char[], int, int) public void
-     * java.io.PipedWriter.write(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedWriter#write(char[], int, int) public
+     * void java.io.PipedWriter.write(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedWriter#write(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedWriter#write(int) public void
      * java.io.PipedWriter.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedWriter#connect(PipedReader) public synchronized
-     * void java.io.PipedWriter.connect(java.io.PipedReader) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedWriter#connect(java.io.PipedReader)
+     * public synchronized void java.io.PipedWriter.connect(java.io.PipedReader) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +125,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedWriter#flush() public synchronized void
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedWriter#flush() public synchronized void
      * java.io.PipedWriter.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

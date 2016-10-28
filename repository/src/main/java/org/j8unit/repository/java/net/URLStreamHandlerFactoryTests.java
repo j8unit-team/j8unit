@@ -36,7 +36,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link URLStreamHandlerFactory#createURLStreamHandler(String) public abstract java.net.URLStreamHandler
+     * {@link java.net.URLStreamHandlerFactory#createURLStreamHandler(String) public abstract java.net.URLStreamHandler
      * java.net.URLStreamHandlerFactory.createURLStreamHandler(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

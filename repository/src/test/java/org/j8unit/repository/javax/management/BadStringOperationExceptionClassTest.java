@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.BadStringOperationExceptionCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BadStringOperationException#BadStringOperationException(String) public
+     * {@link javax.management.BadStringOperationException#BadStringOperationException(String) public
      * javax.management.BadStringOperationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

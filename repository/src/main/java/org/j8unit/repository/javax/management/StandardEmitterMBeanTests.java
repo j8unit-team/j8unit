@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Notification;
-import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
 import javax.management.StandardEmitterMBean;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,8 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StandardEmitterMBean#addNotificationListener(NotificationListener, NotificationFilter, Object) public void
+     * {@link javax.management.StandardEmitterMBean#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
+     * public void
      * javax.management.StandardEmitterMBean.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}
      * .
      *
@@ -62,8 +60,9 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardEmitterMBean#sendNotification(Notification)
-     * public void javax.management.StandardEmitterMBean.sendNotification(javax.management.Notification)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StandardEmitterMBean#sendNotification(javax.management.Notification) public void
+     * javax.management.StandardEmitterMBean.sendNotification(javax.management.Notification)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +84,8 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StandardEmitterMBean#removeNotificationListener(NotificationListener) public void
+     * {@link javax.management.StandardEmitterMBean#removeNotificationListener(javax.management.NotificationListener)
+     * public void
      * javax.management.StandardEmitterMBean.removeNotificationListener(javax.management.NotificationListener) throws
      * javax.management.ListenerNotFoundException}.
      *
@@ -110,8 +110,8 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StandardEmitterMBean#removeNotificationListener(NotificationListener, NotificationFilter, Object) public
-     * void
+     * {@link javax.management.StandardEmitterMBean#removeNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
+     * public void
      * javax.management.StandardEmitterMBean.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
      * throws javax.management.ListenerNotFoundException}.
      *
@@ -135,7 +135,8 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardEmitterMBean#getNotificationInfo() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StandardEmitterMBean#getNotificationInfo() public
      * javax.management.MBeanNotificationInfo[] javax.management.StandardEmitterMBean.getNotificationInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

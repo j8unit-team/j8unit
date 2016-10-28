@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.relation;
 
-import java.util.List;
 import javax.management.relation.RoleUnresolved;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolved#setProblemType(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolved#setProblemType(int) public void
      * javax.management.relation.RoleUnresolved.setProblemType(int) throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolved#getRoleName() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolved#getRoleName() public java.lang.String
      * javax.management.relation.RoleUnresolved.getRoleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolved#toString() public java.lang.String
-     * javax.management.relation.RoleUnresolved.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleUnresolved#toString()
+     * public java.lang.String javax.management.relation.RoleUnresolved.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +103,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolved#getProblemType() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolved#getProblemType() public int
      * javax.management.relation.RoleUnresolved.getProblemType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +126,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolved#setRoleValue(List) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolved#setRoleValue(java.util.List) public void
      * javax.management.relation.RoleUnresolved.setRoleValue(java.util.List<javax.management.ObjectName>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +149,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolved#setRoleName(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolved#setRoleName(String) public void
      * javax.management.relation.RoleUnresolved.setRoleName(java.lang.String) throws java.lang.IllegalArgumentException}
      * .
      *
@@ -169,7 +173,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolved#getRoleValue() public java.util.List
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleUnresolved#getRoleValue() public java.util.List
      * <javax.management.ObjectName> javax.management.relation.RoleUnresolved.getRoleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +196,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoleUnresolved#clone() public java.lang.Object
-     * javax.management.relation.RoleUnresolved.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleUnresolved#clone()
+     * public java.lang.Object javax.management.relation.RoleUnresolved.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

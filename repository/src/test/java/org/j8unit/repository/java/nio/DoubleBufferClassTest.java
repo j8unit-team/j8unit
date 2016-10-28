@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.nio.DoubleBufferClassTests<DoubleBuffer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#allocate(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#allocate(int) public static
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.allocate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.nio.DoubleBufferClassTests<DoubleBuffer> {
     @Category(Draft.class)
     public void test_allocate_int()
     throws Exception {
-        // write some test for {@link DoubleBuffer#allocate(int)}
+        // write some test for {@link java.nio.DoubleBuffer#allocate(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#wrap(double[], int, int) public static
-     * java.nio.DoubleBuffer java.nio.DoubleBuffer.wrap(double[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#wrap(double[], int, int)
+     * public static java.nio.DoubleBuffer java.nio.DoubleBuffer.wrap(double[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,12 +56,12 @@ implements org.j8unit.repository.java.nio.DoubleBufferClassTests<DoubleBuffer> {
     @Category(Draft.class)
     public void test_wrap_doubleArray_int_int()
     throws Exception {
-        // write some test for {@link DoubleBuffer#wrap(double[], int, int)}
+        // write some test for {@link java.nio.DoubleBuffer#wrap(double[], int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#wrap(double[]) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#wrap(double[]) public static
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.wrap(double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -76,7 +76,7 @@ implements org.j8unit.repository.java.nio.DoubleBufferClassTests<DoubleBuffer> {
     @Category(Draft.class)
     public void test_wrap_doubleArray()
     throws Exception {
-        // write some test for {@link DoubleBuffer#wrap(double[])}
+        // write some test for {@link java.nio.DoubleBuffer#wrap(double[])}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.DoubleBuffer]

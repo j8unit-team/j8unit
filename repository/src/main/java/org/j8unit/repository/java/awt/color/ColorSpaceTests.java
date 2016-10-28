@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#getNumComponents() public int
-     * java.awt.color.ColorSpace.getNumComponents()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#getNumComponents() public
+     * int java.awt.color.ColorSpace.getNumComponents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#getType() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#getType() public int
      * java.awt.color.ColorSpace.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#toRGB(float[]) public abstract float[]
-     * java.awt.color.ColorSpace.toRGB(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#toRGB(float[]) public
+     * abstract float[] java.awt.color.ColorSpace.toRGB(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#fromCIEXYZ(float[]) public abstract
-     * float[] java.awt.color.ColorSpace.fromCIEXYZ(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#fromCIEXYZ(float[]) public
+     * abstract float[] java.awt.color.ColorSpace.fromCIEXYZ(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#getMaxValue(int) public float
-     * java.awt.color.ColorSpace.getMaxValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#getMaxValue(int) public
+     * float java.awt.color.ColorSpace.getMaxValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#fromRGB(float[]) public abstract float[]
-     * java.awt.color.ColorSpace.fromRGB(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#fromRGB(float[]) public
+     * abstract float[] java.awt.color.ColorSpace.fromRGB(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,29 +166,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#toCIEXYZ(float[]) public abstract float[]
-     * java.awt.color.ColorSpace.toCIEXYZ(float[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toCIEXYZ_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#isCS_sRGB() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#isCS_sRGB() public boolean
      * java.awt.color.ColorSpace.isCS_sRGB()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,8 +188,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#getName(int) public java.lang.String
-     * java.awt.color.ColorSpace.getName(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#toCIEXYZ(float[]) public
+     * abstract float[] java.awt.color.ColorSpace.toCIEXYZ(float[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toCIEXYZ_floatArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#getName(int) public
+     * java.lang.String java.awt.color.ColorSpace.getName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +232,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSpace#getMinValue(int) public float
-     * java.awt.color.ColorSpace.getMinValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ColorSpace#getMinValue(int) public
+     * float java.awt.color.ColorSpace.getMinValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

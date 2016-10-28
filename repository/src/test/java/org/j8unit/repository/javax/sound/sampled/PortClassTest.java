@@ -35,7 +35,8 @@ implements org.j8unit.repository.javax.sound.sampled.PortClassTests<Port> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Info#Info(Class, String, boolean) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.sound.sampled.Port.Info#Info(Class, String, boolean) public
          * javax.sound.sampled.Port$Info(java.lang.Class<?>,java.lang.String,boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

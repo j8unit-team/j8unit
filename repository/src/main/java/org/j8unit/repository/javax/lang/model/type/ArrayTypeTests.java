@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayType#getComponentType() public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.type.ArrayType.getComponentType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.type.ArrayType#getComponentType()
+     * public abstract javax.lang.model.type.TypeMirror javax.lang.model.type.ArrayType.getComponentType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

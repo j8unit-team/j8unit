@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.security.auth.login;
 
-import javax.security.auth.Subject;
-import javax.security.auth.callback.CallbackHandler;
-import javax.security.auth.login.Configuration;
 import javax.security.auth.login.LoginContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +21,9 @@ implements org.j8unit.repository.javax.security.auth.login.LoginContextClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LoginContext#LoginContext(String, Subject)
-     * public javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject) throws
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.login.LoginContext#LoginContext(String, javax.security.auth.Subject) public
+     * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject) throws
      * javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,13 +40,14 @@ implements org.j8unit.repository.javax.security.auth.login.LoginContextClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LoginContext sut = null; // = new LoginContext(String, Subject);
+        final LoginContext sut = null; // = new LoginContext(String, javax.security.auth.Subject);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LoginContext#LoginContext(String, Subject, CallbackHandler, Configuration) public
+     * {@link javax.security.auth.login.LoginContext#LoginContext(String, javax.security.auth.Subject, javax.security.auth.callback.CallbackHandler, javax.security.auth.login.Configuration)
+     * public
      * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler,javax.security.auth.login.Configuration)
      * throws javax.security.auth.login.LoginException}.
      *
@@ -66,13 +65,16 @@ implements org.j8unit.repository.javax.security.auth.login.LoginContextClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LoginContext sut = null; // = new LoginContext(String, Subject, CallbackHandler, Configuration);
+        final LoginContext sut = null; // = new LoginContext(String, javax.security.auth.Subject,
+                                       // javax.security.auth.callback.CallbackHandler,
+                                       // javax.security.auth.login.Configuration);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LoginContext#LoginContext(String, Subject, CallbackHandler) public
+     * {@link javax.security.auth.login.LoginContext#LoginContext(String, javax.security.auth.Subject, javax.security.auth.callback.CallbackHandler)
+     * public
      * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler)
      * throws javax.security.auth.login.LoginException}.
      *
@@ -90,12 +92,14 @@ implements org.j8unit.repository.javax.security.auth.login.LoginContextClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LoginContext sut = null; // = new LoginContext(String, Subject, CallbackHandler);
+        final LoginContext sut = null; // = new LoginContext(String, javax.security.auth.Subject,
+                                       // javax.security.auth.callback.CallbackHandler);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LoginContext#LoginContext(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.login.LoginContext#LoginContext(String) public
      * javax.security.auth.login.LoginContext(java.lang.String) throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -118,9 +122,9 @@ implements org.j8unit.repository.javax.security.auth.login.LoginContextClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LoginContext#LoginContext(String, CallbackHandler) public
-     * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.callback.CallbackHandler) throws
-     * javax.security.auth.login.LoginException}.
+     * {@link javax.security.auth.login.LoginContext#LoginContext(String, javax.security.auth.callback.CallbackHandler)
+     * public javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.callback.CallbackHandler)
+     * throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,7 +140,7 @@ implements org.j8unit.repository.javax.security.auth.login.LoginContextClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LoginContext sut = null; // = new LoginContext(String, CallbackHandler);
+        final LoginContext sut = null; // = new LoginContext(String, javax.security.auth.callback.CallbackHandler);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.LoginContext]

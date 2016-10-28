@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.CosNaming.NameComponent;
 import org.omg.CosNaming.NameHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelp
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NameHelper#NameHelper() public
-     * org.omg.CosNaming.NameHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CosNaming.NameHelper#NameHelper()
+     * public org.omg.CosNaming.NameHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +42,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameHelper#insert(Any, NameComponent[]) public
-     * static void org.omg.CosNaming.NameHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NameComponent[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NameHelper#insert(org.omg.CORBA.Any, org.omg.CosNaming.NameComponent[]) public static
+     * void org.omg.CosNaming.NameHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NameComponent[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,13 +58,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelp
     @Category(Draft.class)
     public void test_insert_Any_NameComponentArray()
     throws Exception {
-        // write some test for {@link NameHelper#insert(Any, NameComponent[])}
+        // write some test for {@link org.omg.CosNaming.NameHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CosNaming.NameComponent[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameHelper#id() public static java.lang.String
-     * org.omg.CosNaming.NameHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming.NameHelper#id() public static
+     * java.lang.String org.omg.CosNaming.NameHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,13 +79,13 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelp
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link NameHelper#id()}
+        // write some test for {@link org.omg.CosNaming.NameHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CosNaming.NameHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming.NameHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CosNaming.NameHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,12 +99,13 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelp
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link NameHelper#type()}
+        // write some test for {@link org.omg.CosNaming.NameHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameHelper#write(OutputStream, NameComponent[])
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NameHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CosNaming.NameComponent[])
      * public static void
      * org.omg.CosNaming.NameHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NameComponent[])}.
      *
@@ -122,12 +121,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelp
     @Category(Draft.class)
     public void test_write_OutputStream_NameComponentArray()
     throws Exception {
-        // write some test for {@link NameHelper#write(OutputStream, NameComponent[])}
+        // write some test for {@link org.omg.CosNaming.NameHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CosNaming.NameComponent[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NameHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.CosNaming.NameComponent[] org.omg.CosNaming.NameHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -142,13 +143,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelp
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link NameHelper#read(InputStream)}
+        // write some test for {@link org.omg.CosNaming.NameHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameHelper#extract(Any) public static
-     * org.omg.CosNaming.NameComponent[] org.omg.CosNaming.NameHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NameHelper#extract(org.omg.CORBA.Any) public static org.omg.CosNaming.NameComponent[]
+     * org.omg.CosNaming.NameHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,7 +164,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelp
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link NameHelper#extract(Any)}
+        // write some test for {@link org.omg.CosNaming.NameHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NameHelper]

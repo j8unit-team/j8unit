@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Collection;
 import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#isEmpty() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#isEmpty() public abstract boolean
      * java.util.Set.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#clear() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#clear() public abstract void
      * java.util.Set.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#remove(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#remove(Object) public abstract boolean
      * java.util.Set.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +103,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#add(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#add(Object) public abstract boolean
      * java.util.Set.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,7 +126,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#spliterator() public default
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#spliterator() public default
      * java.util.Spliterator<E> java.util.Set.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +149,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#containsAll(Collection) public abstract boolean
-     * java.util.Set.containsAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#containsAll(java.util.Collection)
+     * public abstract boolean java.util.Set.containsAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +172,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#toArray(Object[]) public abstract <T> T[]
-     * java.util.Set.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#toArray(Object[]) public abstract
+     * <T> T[] java.util.Set.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,8 +195,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#toArray() public abstract java.lang.Object[]
-     * java.util.Set.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#toArray() public abstract
+     * java.lang.Object[] java.util.Set.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,8 +218,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#retainAll(Collection) public abstract boolean
-     * java.util.Set.retainAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#retainAll(java.util.Collection) public
+     * abstract boolean java.util.Set.retainAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,8 +241,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#removeAll(Collection) public abstract boolean
-     * java.util.Set.removeAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#removeAll(java.util.Collection) public
+     * abstract boolean java.util.Set.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,8 +264,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#iterator() public abstract java.util.Iterator
-     * <E> java.util.Set.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#iterator() public abstract
+     * java.util.Iterator<E> java.util.Set.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -288,8 +287,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#contains(Object) public abstract boolean
-     * java.util.Set.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#contains(Object) public abstract
+     * boolean java.util.Set.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -311,8 +310,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#addAll(Collection) public abstract boolean
-     * java.util.Set.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#addAll(java.util.Collection) public
+     * abstract boolean java.util.Set.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -334,8 +333,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#size() public abstract int java.util.Set.size()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#size() public abstract int
+     * java.util.Set.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -357,7 +356,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#equals(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#equals(Object) public abstract boolean
      * java.util.Set.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -380,7 +379,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Set#hashCode() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.util.Set#hashCode() public abstract int
      * java.util.Set.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.time.temporal;
 
-import java.time.DayOfWeek;
 import java.time.temporal.WeekFields;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.java.time.temporal.WeekFieldsClassTests<WeekFie
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#of(DayOfWeek, int) public static
-     * java.time.temporal.WeekFields java.time.temporal.WeekFields.of(java.time.DayOfWeek,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.temporal.WeekFields#of(java.time.DayOfWeek, int) public static java.time.temporal.WeekFields
+     * java.time.temporal.WeekFields.of(java.time.DayOfWeek,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,13 +37,13 @@ implements org.j8unit.repository.java.time.temporal.WeekFieldsClassTests<WeekFie
     @Category(Draft.class)
     public void test_of_DayOfWeek_int()
     throws Exception {
-        // write some test for {@link WeekFields#of(DayOfWeek, int)}
+        // write some test for {@link java.time.temporal.WeekFields#of(java.time.DayOfWeek, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#of(Locale) public static
-     * java.time.temporal.WeekFields java.time.temporal.WeekFields.of(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#of(java.util.Locale)
+     * public static java.time.temporal.WeekFields java.time.temporal.WeekFields.of(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,7 @@ implements org.j8unit.repository.java.time.temporal.WeekFieldsClassTests<WeekFie
     @Category(Draft.class)
     public void test_of_Locale()
     throws Exception {
-        // write some test for {@link WeekFields#of(Locale)}
+        // write some test for {@link java.time.temporal.WeekFields#of(java.util.Locale)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.WeekFields]

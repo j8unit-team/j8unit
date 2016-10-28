@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAGenParameterSpec#getPrimePLength() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.DSAGenParameterSpec#getPrimePLength() public int
      * java.security.spec.DSAGenParameterSpec.getPrimePLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +57,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAGenParameterSpec#getSubprimeQLength() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.DSAGenParameterSpec#getSubprimeQLength() public int
      * java.security.spec.DSAGenParameterSpec.getSubprimeQLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +80,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DSAGenParameterSpec#getSeedLength() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.spec.DSAGenParameterSpec#getSeedLength() public int
      * java.security.spec.DSAGenParameterSpec.getSeedLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

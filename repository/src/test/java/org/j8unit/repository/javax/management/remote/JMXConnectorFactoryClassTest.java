@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.remote;
 
-import java.util.Map;
 import javax.management.remote.JMXConnectorFactory;
-import javax.management.remote.JMXServiceURL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorFactoryClas
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectorFactory#connect(JMXServiceURL) public
-     * static javax.management.remote.JMXConnector
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorFactory#connect(javax.management.remote.JMXServiceURL) public static
+     * javax.management.remote.JMXConnector
      * javax.management.remote.JMXConnectorFactory.connect(javax.management.remote.JMXServiceURL) throws
      * java.io.IOException}.
      *
@@ -40,12 +39,14 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorFactoryClas
     @Category(Draft.class)
     public void test_connect_JMXServiceURL()
     throws Exception {
-        // write some test for {@link JMXConnectorFactory#connect(JMXServiceURL)}
+        // write some test for {@link
+        // javax.management.remote.JMXConnectorFactory#connect(javax.management.remote.JMXServiceURL)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXConnectorFactory#connect(JMXServiceURL, Map)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorFactory#connect(javax.management.remote.JMXServiceURL, java.util.Map)
      * public static javax.management.remote.JMXConnector
      * javax.management.remote.JMXConnectorFactory.connect(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
      * ?>) throws java.io.IOException}.
@@ -62,13 +63,15 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorFactoryClas
     @Category(Draft.class)
     public void test_connect_JMXServiceURL_Map()
     throws Exception {
-        // write some test for {@link JMXConnectorFactory#connect(JMXServiceURL, Map)}
+        // write some test for {@link
+        // javax.management.remote.JMXConnectorFactory#connect(javax.management.remote.JMXServiceURL, java.util.Map)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMXConnectorFactory#newJMXConnector(JMXServiceURL, Map) public static javax.management.remote.JMXConnector
+     * {@link javax.management.remote.JMXConnectorFactory#newJMXConnector(javax.management.remote.JMXServiceURL, java.util.Map)
+     * public static javax.management.remote.JMXConnector
      * javax.management.remote.JMXConnectorFactory.newJMXConnector(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
      * ?>) throws java.io.IOException}.
      *
@@ -84,7 +87,9 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorFactoryClas
     @Category(Draft.class)
     public void test_newJMXConnector_JMXServiceURL_Map()
     throws Exception {
-        // write some test for {@link JMXConnectorFactory#newJMXConnector(JMXServiceURL, Map)}
+        // write some test for {@link
+        // javax.management.remote.JMXConnectorFactory#newJMXConnector(javax.management.remote.JMXServiceURL,
+        // java.util.Map)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorFactory]

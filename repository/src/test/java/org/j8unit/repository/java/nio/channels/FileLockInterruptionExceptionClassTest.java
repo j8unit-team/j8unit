@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.FileLockInterruptionException
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FileLockInterruptionException#FileLockInterruptionException() public
+     * {@link java.nio.channels.FileLockInterruptionException#FileLockInterruptionException() public
      * java.nio.channels.FileLockInterruptionException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

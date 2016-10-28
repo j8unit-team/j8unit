@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.net.ssl.ExtendedSSLSessionClassTests<Exte
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ExtendedSSLSession#ExtendedSSLSession() public
-     * javax.net.ssl.ExtendedSSLSession()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.net.ssl.ExtendedSSLSession#ExtendedSSLSession() public javax.net.ssl.ExtendedSSLSession()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

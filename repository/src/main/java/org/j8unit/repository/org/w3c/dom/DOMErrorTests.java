@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMError#getRelatedData() public abstract
-     * java.lang.Object org.w3c.dom.DOMError.getRelatedData()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMError#getRelatedData() public
+     * abstract java.lang.Object org.w3c.dom.DOMError.getRelatedData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMError#getMessage() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMError#getMessage() public abstract
      * java.lang.String org.w3c.dom.DOMError.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMError#getRelatedException() public abstract
-     * java.lang.Object org.w3c.dom.DOMError.getRelatedException()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMError#getRelatedException() public
+     * abstract java.lang.Object org.w3c.dom.DOMError.getRelatedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMError#getLocation() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMError#getLocation() public abstract
      * org.w3c.dom.DOMLocator org.w3c.dom.DOMError.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMError#getType() public abstract java.lang.String
-     * org.w3c.dom.DOMError.getType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMError#getType() public abstract
+     * java.lang.String org.w3c.dom.DOMError.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMError#getSeverity() public abstract short
-     * org.w3c.dom.DOMError.getSeverity()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMError#getSeverity() public abstract
+     * short org.w3c.dom.DOMError.getSeverity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

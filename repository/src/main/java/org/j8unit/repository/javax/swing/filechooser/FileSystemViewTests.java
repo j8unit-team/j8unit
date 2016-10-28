@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.filechooser;
 
-import java.io.File;
 import javax.swing.filechooser.FileSystemView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#getSystemIcon(File) public
-     * javax.swing.Icon javax.swing.filechooser.FileSystemView.getSystemIcon(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#getSystemIcon(java.io.File) public javax.swing.Icon
+     * javax.swing.filechooser.FileSystemView.getSystemIcon(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#isHiddenFile(File) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#isHiddenFile(java.io.File) public boolean
      * javax.swing.filechooser.FileSystemView.isHiddenFile(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#isFloppyDrive(File) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#isFloppyDrive(java.io.File) public boolean
      * javax.swing.filechooser.FileSystemView.isFloppyDrive(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#isComputerNode(File) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#isComputerNode(java.io.File) public boolean
      * javax.swing.filechooser.FileSystemView.isComputerNode(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +126,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#getHomeDirectory() public
-     * java.io.File javax.swing.filechooser.FileSystemView.getHomeDirectory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#getHomeDirectory() public java.io.File
+     * javax.swing.filechooser.FileSystemView.getHomeDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +149,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#getParentDirectory(File) public
-     * java.io.File javax.swing.filechooser.FileSystemView.getParentDirectory(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#getParentDirectory(java.io.File) public java.io.File
+     * javax.swing.filechooser.FileSystemView.getParentDirectory(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +172,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#isDrive(File) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#isDrive(java.io.File) public boolean
      * javax.swing.filechooser.FileSystemView.isDrive(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +195,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#getSystemTypeDescription(File) public
-     * java.lang.String javax.swing.filechooser.FileSystemView.getSystemTypeDescription(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#getSystemTypeDescription(java.io.File) public java.lang.String
+     * javax.swing.filechooser.FileSystemView.getSystemTypeDescription(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +218,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#isParent(File, File) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#isParent(java.io.File, java.io.File) public boolean
      * javax.swing.filechooser.FileSystemView.isParent(java.io.File,java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,8 +241,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#getRoots() public java.io.File[]
-     * javax.swing.filechooser.FileSystemView.getRoots()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.filechooser.FileSystemView#getRoots()
+     * public java.io.File[] javax.swing.filechooser.FileSystemView.getRoots()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +263,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#createNewFolder(File) public abstract
-     * java.io.File javax.swing.filechooser.FileSystemView.createNewFolder(java.io.File) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#createNewFolder(java.io.File) public abstract java.io.File
+     * javax.swing.filechooser.FileSystemView.createNewFolder(java.io.File) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,7 +286,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#isFileSystem(File) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#isFileSystem(java.io.File) public boolean
      * javax.swing.filechooser.FileSystemView.isFileSystem(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -299,8 +309,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#isTraversable(File) public
-     * java.lang.Boolean javax.swing.filechooser.FileSystemView.isTraversable(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#isTraversable(java.io.File) public java.lang.Boolean
+     * javax.swing.filechooser.FileSystemView.isTraversable(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,7 +332,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#isFileSystemRoot(File) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#isFileSystemRoot(java.io.File) public boolean
      * javax.swing.filechooser.FileSystemView.isFileSystemRoot(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -343,8 +355,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#getSystemDisplayName(File) public
-     * java.lang.String javax.swing.filechooser.FileSystemView.getSystemDisplayName(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#getSystemDisplayName(java.io.File) public java.lang.String
+     * javax.swing.filechooser.FileSystemView.getSystemDisplayName(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -365,8 +378,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#getChild(File, String) public
-     * java.io.File javax.swing.filechooser.FileSystemView.getChild(java.io.File,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#getChild(java.io.File, String) public java.io.File
+     * javax.swing.filechooser.FileSystemView.getChild(java.io.File,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -387,7 +401,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#isRoot(File) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#isRoot(java.io.File) public boolean
      * javax.swing.filechooser.FileSystemView.isRoot(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -409,8 +424,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#createFileObject(File, String) public
-     * java.io.File javax.swing.filechooser.FileSystemView.createFileObject(java.io.File,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#createFileObject(java.io.File, String) public java.io.File
+     * javax.swing.filechooser.FileSystemView.createFileObject(java.io.File,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,8 +447,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#createFileObject(String) public
-     * java.io.File javax.swing.filechooser.FileSystemView.createFileObject(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#createFileObject(String) public java.io.File
+     * javax.swing.filechooser.FileSystemView.createFileObject(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -453,8 +470,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#getDefaultDirectory() public
-     * java.io.File javax.swing.filechooser.FileSystemView.getDefaultDirectory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#getDefaultDirectory() public java.io.File
+     * javax.swing.filechooser.FileSystemView.getDefaultDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -475,8 +493,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileSystemView#getFiles(File, boolean) public
-     * java.io.File[] javax.swing.filechooser.FileSystemView.getFiles(java.io.File,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#getFiles(java.io.File, boolean) public java.io.File[]
+     * javax.swing.filechooser.FileSystemView.getFiles(java.io.File,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

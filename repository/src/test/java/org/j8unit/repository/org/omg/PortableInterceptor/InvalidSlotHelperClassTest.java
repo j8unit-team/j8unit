@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableInterceptor.InvalidSlot;
 import org.omg.PortableInterceptor.InvalidSlotHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,7 +22,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotHelperCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidSlotHelper#InvalidSlotHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.InvalidSlotHelper#InvalidSlotHelper() public
      * org.omg.PortableInterceptor.InvalidSlotHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotHelperCl
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidSlotHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.InvalidSlotHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.PortableInterceptor.InvalidSlot
      * org.omg.PortableInterceptor.InvalidSlotHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
@@ -62,12 +60,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotHelperCl
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link InvalidSlotHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.InvalidSlotHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidSlotHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.InvalidSlotHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.PortableInterceptor.InvalidSlot org.omg.PortableInterceptor.InvalidSlotHelper.extract(org.omg.CORBA.Any)}
      * .
      *
@@ -83,13 +83,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotHelperCl
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link InvalidSlotHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableInterceptor.InvalidSlotHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidSlotHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.InvalidSlotHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableInterceptor.InvalidSlotHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.PortableInterceptor.InvalidSlotHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,12 +103,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotHelperCl
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link InvalidSlotHelper#type()}
+        // write some test for {@link org.omg.PortableInterceptor.InvalidSlotHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidSlotHelper#write(OutputStream, InvalidSlot)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.InvalidSlotHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableInterceptor.InvalidSlot)
      * public static void
      * org.omg.PortableInterceptor.InvalidSlotHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.InvalidSlot)}
      * .
@@ -125,13 +126,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotHelperCl
     @Category(Draft.class)
     public void test_write_OutputStream_InvalidSlot()
     throws Exception {
-        // write some test for {@link InvalidSlotHelper#write(OutputStream, InvalidSlot)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.InvalidSlotHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableInterceptor.InvalidSlot)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidSlotHelper#id() public static
-     * java.lang.String org.omg.PortableInterceptor.InvalidSlotHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableInterceptor.InvalidSlotHelper#id()
+     * public static java.lang.String org.omg.PortableInterceptor.InvalidSlotHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,13 +148,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotHelperCl
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link InvalidSlotHelper#id()}
+        // write some test for {@link org.omg.PortableInterceptor.InvalidSlotHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidSlotHelper#insert(Any, InvalidSlot) public
-     * static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.InvalidSlotHelper#insert(org.omg.CORBA.Any, org.omg.PortableInterceptor.InvalidSlot)
+     * public static void
      * org.omg.PortableInterceptor.InvalidSlotHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.InvalidSlot)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,7 +170,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotHelperCl
     @Category(Draft.class)
     public void test_insert_Any_InvalidSlot()
     throws Exception {
-        // write some test for {@link InvalidSlotHelper#insert(Any, InvalidSlot)}
+        // write some test for {@link org.omg.PortableInterceptor.InvalidSlotHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableInterceptor.InvalidSlot)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.InvalidSlotHelper]

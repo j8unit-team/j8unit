@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.math.BigInteger;
 import java.security.spec.DSAPrivateKeySpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.security.spec.DSAPrivateKeySpecClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DSAPrivateKeySpec#DSAPrivateKeySpec(BigInteger, BigInteger, BigInteger, BigInteger) public
+     * {@link java.security.spec.DSAPrivateKeySpec#DSAPrivateKeySpec(java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger)
+     * public
      * java.security.spec.DSAPrivateKeySpec(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)}
      * .
      *
@@ -41,7 +41,8 @@ implements org.j8unit.repository.java.security.spec.DSAPrivateKeySpecClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DSAPrivateKeySpec sut = null; // = new DSAPrivateKeySpec(BigInteger, BigInteger, BigInteger, BigInteger);
+        final DSAPrivateKeySpec sut = null; // = new DSAPrivateKeySpec(java.math.BigInteger, java.math.BigInteger,
+                                            // java.math.BigInteger, java.math.BigInteger);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.DSAPrivateKeySpec]

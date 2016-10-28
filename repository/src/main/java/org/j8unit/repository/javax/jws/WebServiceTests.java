@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebService#wsdlLocation() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebService#wsdlLocation() public abstract
      * java.lang.String javax.jws.WebService.wsdlLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebService#targetNamespace() public abstract
-     * java.lang.String javax.jws.WebService.targetNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebService#targetNamespace() public
+     * abstract java.lang.String javax.jws.WebService.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebService#name() public abstract java.lang.String
-     * javax.jws.WebService.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebService#name() public abstract
+     * java.lang.String javax.jws.WebService.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebService#portName() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebService#portName() public abstract
      * java.lang.String javax.jws.WebService.portName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebService#endpointInterface() public abstract
-     * java.lang.String javax.jws.WebService.endpointInterface()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebService#endpointInterface() public
+     * abstract java.lang.String javax.jws.WebService.endpointInterface()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebService#serviceName() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebService#serviceName() public abstract
      * java.lang.String javax.jws.WebService.serviceName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

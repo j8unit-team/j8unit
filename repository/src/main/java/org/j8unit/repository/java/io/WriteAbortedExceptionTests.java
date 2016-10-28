@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.ObjectStreamExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WriteAbortedException#getCause() public
+     * Test method for the hereby targeted method-under-test {@link java.io.WriteAbortedException#getCause() public
      * java.lang.Throwable java.io.WriteAbortedException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.ObjectStreamExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WriteAbortedException#getMessage() public
+     * Test method for the hereby targeted method-under-test {@link java.io.WriteAbortedException#getMessage() public
      * java.lang.String java.io.WriteAbortedException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

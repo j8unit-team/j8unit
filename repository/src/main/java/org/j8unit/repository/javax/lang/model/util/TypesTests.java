@@ -1,12 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.element.Element;
-import javax.lang.model.element.TypeElement;
-import javax.lang.model.type.DeclaredType;
-import javax.lang.model.type.ExecutableType;
-import javax.lang.model.type.PrimitiveType;
-import javax.lang.model.type.TypeKind;
-import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Types;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -42,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#isSubsignature(ExecutableType, ExecutableType)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#isSubsignature(javax.lang.model.type.ExecutableType, javax.lang.model.type.ExecutableType)
      * public abstract boolean
      * javax.lang.model.util.Types.isSubsignature(javax.lang.model.type.ExecutableType,javax.lang.model.type.ExecutableType)}
      * .
@@ -66,8 +60,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#getNullType() public abstract
-     * javax.lang.model.type.NullType javax.lang.model.util.Types.getNullType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.util.Types#getNullType() public
+     * abstract javax.lang.model.type.NullType javax.lang.model.util.Types.getNullType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,7 +82,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#capture(TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#capture(javax.lang.model.type.TypeMirror) public abstract
      * javax.lang.model.type.TypeMirror javax.lang.model.util.Types.capture(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,8 +105,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#getWildcardType(TypeMirror, TypeMirror) public
-     * abstract javax.lang.model.type.WildcardType
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#getWildcardType(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
+     * public abstract javax.lang.model.type.WildcardType
      * javax.lang.model.util.Types.getWildcardType(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,7 +129,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#getNoType(TypeKind) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#getNoType(javax.lang.model.type.TypeKind) public abstract
      * javax.lang.model.type.NoType javax.lang.model.util.Types.getNoType(javax.lang.model.type.TypeKind)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,7 +152,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#getArrayType(TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#getArrayType(javax.lang.model.type.TypeMirror) public abstract
      * javax.lang.model.type.ArrayType javax.lang.model.util.Types.getArrayType(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +175,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#isAssignable(TypeMirror, TypeMirror) public
-     * abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#isAssignable(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
+     * public abstract boolean
      * javax.lang.model.util.Types.isAssignable(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -200,7 +199,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#erasure(TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#erasure(javax.lang.model.type.TypeMirror) public abstract
      * javax.lang.model.type.TypeMirror javax.lang.model.util.Types.erasure(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -222,7 +222,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#unboxedType(TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#unboxedType(javax.lang.model.type.TypeMirror) public abstract
      * javax.lang.model.type.PrimitiveType javax.lang.model.util.Types.unboxedType(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,7 +245,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#boxedClass(PrimitiveType) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#boxedClass(javax.lang.model.type.PrimitiveType) public abstract
      * javax.lang.model.element.TypeElement javax.lang.model.util.Types.boxedClass(javax.lang.model.type.PrimitiveType)}
      * .
      *
@@ -267,7 +269,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#getDeclaredType(TypeElement, TypeMirror...)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#getDeclaredType(javax.lang.model.element.TypeElement, javax.lang.model.type.TypeMirror...)
      * public abstract javax.lang.model.type.DeclaredType
      * javax.lang.model.util.Types.getDeclaredType(javax.lang.model.element.TypeElement,javax.lang.model.type.TypeMirror...)}
      * .
@@ -292,8 +295,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Types#getDeclaredType(DeclaredType, TypeElement, TypeMirror...) public abstract
-     * javax.lang.model.type.DeclaredType
+     * {@link javax.lang.model.util.Types#getDeclaredType(javax.lang.model.type.DeclaredType, javax.lang.model.element.TypeElement, javax.lang.model.type.TypeMirror...)
+     * public abstract javax.lang.model.type.DeclaredType
      * javax.lang.model.util.Types.getDeclaredType(javax.lang.model.type.DeclaredType,javax.lang.model.element.TypeElement,javax.lang.model.type.TypeMirror...)}
      * .
      *
@@ -316,8 +319,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#isSameType(TypeMirror, TypeMirror) public
-     * abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#isSameType(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
+     * public abstract boolean
      * javax.lang.model.util.Types.isSameType(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -339,7 +343,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#asElement(TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#asElement(javax.lang.model.type.TypeMirror) public abstract
      * javax.lang.model.element.Element javax.lang.model.util.Types.asElement(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -361,8 +366,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#asMemberOf(DeclaredType, Element) public
-     * abstract javax.lang.model.type.TypeMirror
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#asMemberOf(javax.lang.model.type.DeclaredType, javax.lang.model.element.Element)
+     * public abstract javax.lang.model.type.TypeMirror
      * javax.lang.model.util.Types.asMemberOf(javax.lang.model.type.DeclaredType,javax.lang.model.element.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -384,7 +390,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#getPrimitiveType(TypeKind) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#getPrimitiveType(javax.lang.model.type.TypeKind) public abstract
      * javax.lang.model.type.PrimitiveType javax.lang.model.util.Types.getPrimitiveType(javax.lang.model.type.TypeKind)}
      * .
      *
@@ -407,8 +414,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#isSubtype(TypeMirror, TypeMirror) public
-     * abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#isSubtype(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
+     * public abstract boolean
      * javax.lang.model.util.Types.isSubtype(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -430,7 +438,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#directSupertypes(TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#directSupertypes(javax.lang.model.type.TypeMirror) public abstract
      * java.util.List<? extends javax.lang.model.type.TypeMirror>
      * javax.lang.model.util.Types.directSupertypes(javax.lang.model.type.TypeMirror)}.
      *
@@ -453,8 +462,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Types#contains(TypeMirror, TypeMirror) public
-     * abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Types#contains(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
+     * public abstract boolean
      * javax.lang.model.util.Types.contains(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

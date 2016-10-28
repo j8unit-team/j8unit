@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Date;
 import java.util.Timer;
-import java.util.TimerTask;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#purge() public int java.util.Timer.purge()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Timer#purge() public int
+     * java.util.Timer.purge()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,52 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#cancel() public void java.util.Timer.cancel()}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_cancel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#scheduleAtFixedRate(TimerTask, Date, long)
-     * public void java.util.Timer.scheduleAtFixedRate(java.util.TimerTask,java.util.Date,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_scheduleAtFixedRate_TimerTask_Date_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#scheduleAtFixedRate(TimerTask, long, long)
-     * public void java.util.Timer.scheduleAtFixedRate(java.util.TimerTask,long,long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Timer#scheduleAtFixedRate(java.util.TimerTask, long, long) public void
+     * java.util.Timer.scheduleAtFixedRate(java.util.TimerTask,long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#schedule(TimerTask, long, long) public void
-     * java.util.Timer.schedule(java.util.TimerTask,long,long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Timer#scheduleAtFixedRate(java.util.TimerTask, java.util.Date, long) public void
+     * java.util.Timer.scheduleAtFixedRate(java.util.TimerTask,java.util.Date,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,7 +93,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_schedule_TimerTask_long_long()
+    public default void test_scheduleAtFixedRate_TimerTask_Date_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,7 +102,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#schedule(TimerTask, Date, long) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.Timer#cancel() public void
+     * java.util.Timer.cancel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_cancel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Timer#schedule(java.util.TimerTask, java.util.Date, long) public void
      * java.util.Timer.schedule(java.util.TimerTask,java.util.Date,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +147,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#schedule(TimerTask, Date) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Timer#schedule(java.util.TimerTask, long, long) public void
+     * java.util.Timer.schedule(java.util.TimerTask,long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_schedule_TimerTask_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Timer#schedule(java.util.TimerTask, java.util.Date) public void
      * java.util.Timer.schedule(java.util.TimerTask,java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +193,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timer#schedule(TimerTask, long) public void
-     * java.util.Timer.schedule(java.util.TimerTask,long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Timer#schedule(java.util.TimerTask, long)
+     * public void java.util.Timer.schedule(java.util.TimerTask,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DesignMode#setDesignTime(boolean) public abstract
-     * void java.beans.DesignMode.setDesignTime(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.DesignMode#setDesignTime(boolean) public
+     * abstract void java.beans.DesignMode.setDesignTime(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DesignMode#isDesignTime() public abstract boolean
-     * java.beans.DesignMode.isDesignTime()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.DesignMode#isDesignTime() public abstract
+     * boolean java.beans.DesignMode.isDesignTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

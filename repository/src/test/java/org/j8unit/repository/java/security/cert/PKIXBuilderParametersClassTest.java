@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.KeyStore;
-import java.security.cert.CertSelector;
 import java.security.cert.PKIXBuilderParameters;
-import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,8 +22,8 @@ implements org.j8unit.repository.java.security.cert.PKIXBuilderParametersClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PKIXBuilderParameters#PKIXBuilderParameters(Set, CertSelector) public
-     * java.security.cert.PKIXBuilderParameters(java.util.Set
+     * {@link java.security.cert.PKIXBuilderParameters#PKIXBuilderParameters(java.util.Set, java.security.cert.CertSelector)
+     * public java.security.cert.PKIXBuilderParameters(java.util.Set
      * <java.security.cert.TrustAnchor>,java.security.cert.CertSelector) throws
      * java.security.InvalidAlgorithmParameterException}.
      *
@@ -44,14 +41,15 @@ implements org.j8unit.repository.java.security.cert.PKIXBuilderParametersClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PKIXBuilderParameters sut = null; // = new PKIXBuilderParameters(Set, CertSelector);
+        final PKIXBuilderParameters sut = null; // = new PKIXBuilderParameters(java.util.Set,
+                                                // java.security.cert.CertSelector);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PKIXBuilderParameters#PKIXBuilderParameters(KeyStore, CertSelector) public
-     * java.security.cert.PKIXBuilderParameters(java.security.KeyStore,java.security.cert.CertSelector) throws
+     * {@link java.security.cert.PKIXBuilderParameters#PKIXBuilderParameters(java.security.KeyStore, java.security.cert.CertSelector)
+     * public java.security.cert.PKIXBuilderParameters(java.security.KeyStore,java.security.cert.CertSelector) throws
      * java.security.KeyStoreException,java.security.InvalidAlgorithmParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +66,8 @@ implements org.j8unit.repository.java.security.cert.PKIXBuilderParametersClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PKIXBuilderParameters sut = null; // = new PKIXBuilderParameters(KeyStore, CertSelector);
+        final PKIXBuilderParameters sut = null; // = new PKIXBuilderParameters(java.security.KeyStore,
+                                                // java.security.cert.CertSelector);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXBuilderParameters]

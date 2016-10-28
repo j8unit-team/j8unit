@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import javax.swing.text.Element;
 import javax.swing.text.html.ImageView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.ImageViewClassTests<Image
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageView#ImageView(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.ImageView#ImageView(javax.swing.text.Element) public
      * javax.swing.text.html.ImageView(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.html.ImageViewClassTests<Image
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageView sut = null; // = new ImageView(Element);
+        final ImageView sut = null; // = new ImageView(javax.swing.text.Element);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.ImageView]

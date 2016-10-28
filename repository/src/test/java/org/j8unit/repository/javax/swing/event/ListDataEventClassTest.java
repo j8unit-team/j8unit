@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.event.ListDataEventClassTests<ListD
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ListDataEvent#ListDataEvent(Object, int, int, int) public
+     * {@link javax.swing.event.ListDataEvent#ListDataEvent(Object, int, int, int) public
      * javax.swing.event.ListDataEvent(java.lang.Object,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

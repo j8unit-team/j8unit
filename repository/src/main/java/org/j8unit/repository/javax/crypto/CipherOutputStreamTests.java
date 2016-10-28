@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherOutputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherOutputStream#close() public void
      * javax.crypto.CipherOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherOutputStream#write(int) public void
-     * javax.crypto.CipherOutputStream.write(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherOutputStream#write(int) public
+     * void javax.crypto.CipherOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherOutputStream#write(byte[], int, int) public
-     * void javax.crypto.CipherOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.CipherOutputStream#write(byte[], int, int) public void
+     * javax.crypto.CipherOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherOutputStream#write(byte[]) public void
-     * javax.crypto.CipherOutputStream.write(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherOutputStream#write(byte[]) public
+     * void javax.crypto.CipherOutputStream.write(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +127,7 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CipherOutputStream#flush() public void
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.CipherOutputStream#flush() public void
      * javax.crypto.CipherOutputStream.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

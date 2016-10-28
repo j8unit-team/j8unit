@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
-import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.SystemFlavorMap;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemFlavorMap#getNativesForFlavor(DataFlavor)
-     * public synchronized java.util.List
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.SystemFlavorMap#getNativesForFlavor(java.awt.datatransfer.DataFlavor) public
+     * synchronized java.util.List
      * <java.lang.String> java.awt.datatransfer.SystemFlavorMap.getNativesForFlavor(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,8 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SystemFlavorMap#setNativesForFlavor(DataFlavor, String[]) public synchronized void
+     * {@link java.awt.datatransfer.SystemFlavorMap#setNativesForFlavor(java.awt.datatransfer.DataFlavor, String[])
+     * public synchronized void
      * java.awt.datatransfer.SystemFlavorMap.setNativesForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +83,9 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemFlavorMap#getNativesForFlavors(DataFlavor[])
-     * public synchronized java.util.Map<java.awt.datatransfer.DataFlavor, java.lang.String>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.SystemFlavorMap#getNativesForFlavors(java.awt.datatransfer.DataFlavor[]) public
+     * synchronized java.util.Map<java.awt.datatransfer.DataFlavor, java.lang.String>
      * java.awt.datatransfer.SystemFlavorMap.getNativesForFlavors(java.awt.datatransfer.DataFlavor[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,7 +109,8 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SystemFlavorMap#addFlavorForUnencodedNative(String, DataFlavor) public synchronized void
+     * {@link java.awt.datatransfer.SystemFlavorMap#addFlavorForUnencodedNative(String, java.awt.datatransfer.DataFlavor)
+     * public synchronized void
      * java.awt.datatransfer.SystemFlavorMap.addFlavorForUnencodedNative(java.lang.String,java.awt.datatransfer.DataFlavor)}
      * .
      *
@@ -130,8 +133,8 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemFlavorMap#getFlavorsForNative(String) public
-     * synchronized java.util.List
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.SystemFlavorMap#getFlavorsForNative(String) public synchronized java.util.List
      * <java.awt.datatransfer.DataFlavor> java.awt.datatransfer.SystemFlavorMap.getFlavorsForNative(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,7 +158,8 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SystemFlavorMap#setFlavorsForNative(String, DataFlavor[]) public synchronized void
+     * {@link java.awt.datatransfer.SystemFlavorMap#setFlavorsForNative(String, java.awt.datatransfer.DataFlavor[])
+     * public synchronized void
      * java.awt.datatransfer.SystemFlavorMap.setFlavorsForNative(java.lang.String,java.awt.datatransfer.DataFlavor[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +181,9 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SystemFlavorMap#getFlavorsForNatives(String[])
-     * public synchronized java.util.Map<java.lang.String, java.awt.datatransfer.DataFlavor>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.SystemFlavorMap#getFlavorsForNatives(String[]) public synchronized
+     * java.util.Map<java.lang.String, java.awt.datatransfer.DataFlavor>
      * java.awt.datatransfer.SystemFlavorMap.getFlavorsForNatives(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -202,7 +207,8 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SystemFlavorMap#addUnencodedNativeForFlavor(DataFlavor, String) public synchronized void
+     * {@link java.awt.datatransfer.SystemFlavorMap#addUnencodedNativeForFlavor(java.awt.datatransfer.DataFlavor, String)
+     * public synchronized void
      * java.awt.datatransfer.SystemFlavorMap.addUnencodedNativeForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String)}
      * .
      *

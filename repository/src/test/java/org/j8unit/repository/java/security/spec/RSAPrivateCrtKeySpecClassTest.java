@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.math.BigInteger;
 import java.security.spec.RSAPrivateCrtKeySpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.security.spec.RSAPrivateCrtKeySpecClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RSAPrivateCrtKeySpec#RSAPrivateCrtKeySpec(BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, BigInteger)
+     * {@link java.security.spec.RSAPrivateCrtKeySpec#RSAPrivateCrtKeySpec(java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger)
      * public
      * java.security.spec.RSAPrivateCrtKeySpec(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)}
      * .
@@ -42,8 +41,9 @@ implements org.j8unit.repository.java.security.spec.RSAPrivateCrtKeySpecClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RSAPrivateCrtKeySpec sut = null; // = new RSAPrivateCrtKeySpec(BigInteger, BigInteger, BigInteger,
-                                               // BigInteger, BigInteger, BigInteger, BigInteger, BigInteger);
+        final RSAPrivateCrtKeySpec sut = null; // = new RSAPrivateCrtKeySpec(java.math.BigInteger, java.math.BigInteger,
+                                               // java.math.BigInteger, java.math.BigInteger, java.math.BigInteger,
+                                               // java.math.BigInteger, java.math.BigInteger, java.math.BigInteger);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.RSAPrivateCrtKeySpec]

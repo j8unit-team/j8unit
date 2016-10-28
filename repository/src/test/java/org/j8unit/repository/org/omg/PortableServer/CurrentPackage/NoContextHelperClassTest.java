@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableServer.CurrentPackage.NoContext;
 import org.omg.PortableServer.CurrentPackage.NoContextHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,7 +22,8 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NoContextHelper#NoContextHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#NoContextHelper() public
      * org.omg.PortableServer.CurrentPackage.NoContextHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NoContextHelper#read(InputStream) public static
-     * org.omg.PortableServer.CurrentPackage.NoContext
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.PortableServer.CurrentPackage.NoContext
      * org.omg.PortableServer.CurrentPackage.NoContextHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +60,14 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link NoContextHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableServer.CurrentPackage.NoContextHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NoContextHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.PortableServer.CurrentPackage.NoContext
      * org.omg.PortableServer.CurrentPackage.NoContextHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -83,12 +83,13 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link NoContextHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NoContextHelper#id() public static java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#id() public static java.lang.String
      * org.omg.PortableServer.CurrentPackage.NoContextHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,13 +104,14 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link NoContextHelper#id()}
+        // write some test for {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NoContextHelper#insert(Any, NoContext) public static
-     * void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#insert(org.omg.CORBA.Any, org.omg.PortableServer.CurrentPackage.NoContext)
+     * public static void
      * org.omg.PortableServer.CurrentPackage.NoContextHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.CurrentPackage.NoContext)}
      * .
      *
@@ -125,12 +127,14 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
     @Category(Draft.class)
     public void test_insert_Any_NoContext()
     throws Exception {
-        // write some test for {@link NoContextHelper#insert(Any, NoContext)}
+        // write some test for {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableServer.CurrentPackage.NoContext)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NoContextHelper#type() public static synchronized
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#type() public static synchronized
      * org.omg.CORBA.TypeCode org.omg.PortableServer.CurrentPackage.NoContextHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,12 +149,13 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link NoContextHelper#type()}
+        // write some test for {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NoContextHelper#write(OutputStream, NoContext)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.CurrentPackage.NoContextHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableServer.CurrentPackage.NoContext)
      * public static void
      * org.omg.PortableServer.CurrentPackage.NoContextHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.CurrentPackage.NoContext)}
      * .
@@ -167,7 +172,9 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContext
     @Category(Draft.class)
     public void test_write_OutputStream_NoContext()
     throws Exception {
-        // write some test for {@link NoContextHelper#write(OutputStream, NoContext)}
+        // write some test for {@link
+        // org.omg.PortableServer.CurrentPackage.NoContextHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableServer.CurrentPackage.NoContext)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.CurrentPackage.NoContextHelper]

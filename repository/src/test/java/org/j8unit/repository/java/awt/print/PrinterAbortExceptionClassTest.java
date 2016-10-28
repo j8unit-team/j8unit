@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.awt.print.PrinterAbortExceptionClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrinterAbortException#PrinterAbortException()
-     * public java.awt.print.PrinterAbortException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.print.PrinterAbortException#PrinterAbortException() public
+     * java.awt.print.PrinterAbortException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.java.awt.print.PrinterAbortExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrinterAbortException#PrinterAbortException(String) public
+     * {@link java.awt.print.PrinterAbortException#PrinterAbortException(String) public
      * java.awt.print.PrinterAbortException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

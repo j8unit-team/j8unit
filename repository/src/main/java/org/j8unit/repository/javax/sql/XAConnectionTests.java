@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.sql.PooledConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XAConnection#getXAResource() public abstract
-     * javax.transaction.xa.XAResource javax.sql.XAConnection.getXAResource() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.XAConnection#getXAResource() public
+     * abstract javax.transaction.xa.XAResource javax.sql.XAConnection.getXAResource() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

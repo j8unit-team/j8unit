@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#getYear() public int java.sql.Time.getYear()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#getYear() public int
+     * java.sql.Time.getYear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#setMonth(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#setMonth(int) public void
      * java.sql.Time.setMonth(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +80,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#toInstant() public java.time.Instant
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#toInstant() public java.time.Instant
      * java.sql.Time.toInstant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +103,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#setYear(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#setYear(int) public void
      * java.sql.Time.setYear(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +126,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#getDay() public int java.sql.Time.getDay()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#getDay() public int
+     * java.sql.Time.getDay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +149,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#setTime(long) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#setTime(long) public void
      * java.sql.Time.setTime(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +172,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#toLocalTime() public java.time.LocalTime
-     * java.sql.Time.toLocalTime()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#toLocalTime() public
+     * java.time.LocalTime java.sql.Time.toLocalTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +194,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#setDate(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#setDate(int) public void
      * java.sql.Time.setDate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,7 +217,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#getDate() public int java.sql.Time.getDate()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#getDate() public int
+     * java.sql.Time.getDate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,7 +240,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#toString() public java.lang.String
      * java.sql.Time.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,8 +263,8 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Time#getMonth() public int java.sql.Time.getMonth()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.sql.Time#getMonth() public int
+     * java.sql.Time.getMonth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityReference#getDeclaration() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.EntityReference#getDeclaration() public abstract
      * javax.xml.stream.events.EntityDeclaration javax.xml.stream.events.EntityReference.getDeclaration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityReference#getName() public abstract
-     * java.lang.String javax.xml.stream.events.EntityReference.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.EntityReference#getName()
+     * public abstract java.lang.String javax.xml.stream.events.EntityReference.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

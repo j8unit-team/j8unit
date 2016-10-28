@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.rmi.activation;
 
-import java.rmi.activation.ActivationDesc;
 import java.rmi.activation.ActivationGroup_Stub;
-import java.rmi.activation.ActivationID;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ActivationGroup_Stub#newInstance(ActivationID, ActivationDesc) public java.rmi.MarshalledObject
+     * {@link java.rmi.activation.ActivationGroup_Stub#newInstance(java.rmi.activation.ActivationID, java.rmi.activation.ActivationDesc)
+     * public java.rmi.MarshalledObject
      * java.rmi.activation.ActivationGroup_Stub.newInstance(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
      * throws java.rmi.RemoteException,java.rmi.activation.ActivationException}.
      *

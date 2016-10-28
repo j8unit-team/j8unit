@@ -23,8 +23,9 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#distance(double, double, double, double)
-     * public static double java.awt.geom.Point2D.distance(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Point2D#distance(double, double, double, double) public static double
+     * java.awt.geom.Point2D.distance(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,13 +39,14 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
     @Category(Draft.class)
     public void test_distance_double_double_double_double()
     throws Exception {
-        // write some test for {@link Point2D#distance(double, double, double, double)}
+        // write some test for {@link java.awt.geom.Point2D#distance(double, double, double, double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Point2D#distanceSq(double, double, double, double)
-     * public static double java.awt.geom.Point2D.distanceSq(double,double,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Point2D#distanceSq(double, double, double, double) public static double
+     * java.awt.geom.Point2D.distanceSq(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +60,7 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
     @Category(Draft.class)
     public void test_distanceSq_double_double_double_double()
     throws Exception {
-        // write some test for {@link Point2D#distanceSq(double, double, double, double)}
+        // write some test for {@link java.awt.geom.Point2D#distanceSq(double, double, double, double)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Point2D]
@@ -76,8 +78,8 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double() public
-         * java.awt.geom.Point2D$Double()}.
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Point2D.Double#Double()
+         * public java.awt.geom.Point2D$Double()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -97,7 +99,8 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double(double, double) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.Point2D.Double#Double(double, double) public
          * java.awt.geom.Point2D$Double(double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,7 +137,7 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float() public
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Point2D.Float#Float() public
          * java.awt.geom.Point2D$Float()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +158,8 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float(float, float) public
-         * java.awt.geom.Point2D$Float(float,float)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.Point2D.Float#Float(float, float) public java.awt.geom.Point2D$Float(float,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

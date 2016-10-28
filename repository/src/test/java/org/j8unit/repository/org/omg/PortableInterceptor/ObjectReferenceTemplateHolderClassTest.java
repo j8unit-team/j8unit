@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.PortableInterceptor.ObjectReferenceTemplate;
 import org.omg.PortableInterceptor.ObjectReferenceTemplateHolder;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectReferenceTemplateHolder#ObjectReferenceTemplateHolder() public
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHolder#ObjectReferenceTemplateHolder() public
      * org.omg.PortableInterceptor.ObjectReferenceTemplateHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +44,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectReferenceTemplateHolder#ObjectReferenceTemplateHolder(ObjectReferenceTemplate) public
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateHolder#ObjectReferenceTemplateHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate)
+     * public
      * org.omg.PortableInterceptor.ObjectReferenceTemplateHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ObjectReferenceTemplateHolder sut = null; // = new ObjectReferenceTemplateHolder(ObjectReferenceTemplate);
+        final ObjectReferenceTemplateHolder sut = null; // = new
+                                                        // ObjectReferenceTemplateHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplateHolder]

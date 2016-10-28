@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import java.io.Writer;
-import javax.lang.model.element.AnnotationMirror;
-import javax.lang.model.element.Element;
-import javax.lang.model.element.ExecutableElement;
-import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -41,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Elements#overrides(ExecutableElement, ExecutableElement, TypeElement) public abstract boolean
+     * {@link javax.lang.model.util.Elements#overrides(javax.lang.model.element.ExecutableElement, javax.lang.model.element.ExecutableElement, javax.lang.model.element.TypeElement)
+     * public abstract boolean
      * javax.lang.model.util.Elements.overrides(javax.lang.model.element.ExecutableElement,javax.lang.model.element.ExecutableElement,javax.lang.model.element.TypeElement)}
      * .
      *
@@ -64,8 +60,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#getAllAnnotationMirrors(Element) public
-     * abstract java.util.List<? extends javax.lang.model.element.AnnotationMirror>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#getAllAnnotationMirrors(javax.lang.model.element.Element) public abstract
+     * java.util.List<? extends javax.lang.model.element.AnnotationMirror>
      * javax.lang.model.util.Elements.getAllAnnotationMirrors(javax.lang.model.element.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +85,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Elements#getElementValuesWithDefaults(AnnotationMirror) public abstract java.util.Map<? extends
-     * javax.lang.model.element.ExecutableElement, ? extends javax.lang.model.element.AnnotationValue>
+     * {@link javax.lang.model.util.Elements#getElementValuesWithDefaults(javax.lang.model.element.AnnotationMirror)
+     * public abstract java.util.Map<? extends javax.lang.model.element.ExecutableElement, ? extends
+     * javax.lang.model.element.AnnotationValue>
      * javax.lang.model.util.Elements.getElementValuesWithDefaults(javax.lang.model.element.AnnotationMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,8 +109,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#getConstantExpression(Object) public
-     * abstract java.lang.String javax.lang.model.util.Elements.getConstantExpression(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#getConstantExpression(Object) public abstract java.lang.String
+     * javax.lang.model.util.Elements.getConstantExpression(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,7 +132,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#getBinaryName(TypeElement) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#getBinaryName(javax.lang.model.element.TypeElement) public abstract
      * javax.lang.model.element.Name javax.lang.model.util.Elements.getBinaryName(javax.lang.model.element.TypeElement)}
      * .
      *
@@ -156,8 +156,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#isFunctionalInterface(TypeElement) public
-     * abstract boolean javax.lang.model.util.Elements.isFunctionalInterface(javax.lang.model.element.TypeElement)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#isFunctionalInterface(javax.lang.model.element.TypeElement) public abstract
+     * boolean javax.lang.model.util.Elements.isFunctionalInterface(javax.lang.model.element.TypeElement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,7 +179,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#printElements(Writer, Element...) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#printElements(java.io.Writer, javax.lang.model.element.Element...) public
      * abstract void javax.lang.model.util.Elements.printElements(java.io.Writer,javax.lang.model.element.Element...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -200,8 +202,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#getName(CharSequence) public abstract
-     * javax.lang.model.element.Name javax.lang.model.util.Elements.getName(java.lang.CharSequence)}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.util.Elements#getName(CharSequence)
+     * public abstract javax.lang.model.element.Name javax.lang.model.util.Elements.getName(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,8 +224,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#isDeprecated(Element) public abstract
-     * boolean javax.lang.model.util.Elements.isDeprecated(javax.lang.model.element.Element)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#isDeprecated(javax.lang.model.element.Element) public abstract boolean
+     * javax.lang.model.util.Elements.isDeprecated(javax.lang.model.element.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,9 +247,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#getTypeElement(CharSequence) public
-     * abstract javax.lang.model.element.TypeElement
-     * javax.lang.model.util.Elements.getTypeElement(java.lang.CharSequence)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#getTypeElement(CharSequence) public abstract
+     * javax.lang.model.element.TypeElement javax.lang.model.util.Elements.getTypeElement(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +270,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#hides(Element, Element) public abstract
-     * boolean javax.lang.model.util.Elements.hides(javax.lang.model.element.Element,javax.lang.model.element.Element)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#hides(javax.lang.model.element.Element, javax.lang.model.element.Element)
+     * public abstract boolean
+     * javax.lang.model.util.Elements.hides(javax.lang.model.element.Element,javax.lang.model.element.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,7 +294,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#getAllMembers(TypeElement) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#getAllMembers(javax.lang.model.element.TypeElement) public abstract
      * java.util.List<? extends javax.lang.model.element.Element>
      * javax.lang.model.util.Elements.getAllMembers(javax.lang.model.element.TypeElement)}.
      *
@@ -312,7 +318,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#getPackageOf(Element) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#getPackageOf(javax.lang.model.element.Element) public abstract
      * javax.lang.model.element.PackageElement
      * javax.lang.model.util.Elements.getPackageOf(javax.lang.model.element.Element)}.
      *
@@ -335,9 +342,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#getPackageElement(CharSequence) public
-     * abstract javax.lang.model.element.PackageElement
-     * javax.lang.model.util.Elements.getPackageElement(java.lang.CharSequence)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#getPackageElement(CharSequence) public abstract
+     * javax.lang.model.element.PackageElement javax.lang.model.util.Elements.getPackageElement(java.lang.CharSequence)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -358,7 +366,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Elements#getDocComment(Element) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#getDocComment(javax.lang.model.element.Element) public abstract
      * java.lang.String javax.lang.model.util.Elements.getDocComment(javax.lang.model.element.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

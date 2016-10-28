@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.security.Permission;
 import java.util.PropertyPermission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyPermission#implies(Permission) public
-     * boolean java.util.PropertyPermission.implies(java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.PropertyPermission#implies(java.security.Permission) public boolean
+     * java.util.PropertyPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyPermission#getActions() public
+     * Test method for the hereby targeted method-under-test {@link java.util.PropertyPermission#getActions() public
      * java.lang.String java.util.PropertyPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyPermission#equals(Object) public boolean
-     * java.util.PropertyPermission.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.PropertyPermission#equals(Object) public
+     * boolean java.util.PropertyPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyPermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.PropertyPermission#hashCode() public int
      * java.util.PropertyPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +127,9 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PropertyPermission#newPermissionCollection() public
-     * java.security.PermissionCollection java.util.PropertyPermission.newPermissionCollection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.PropertyPermission#newPermissionCollection() public java.security.PermissionCollection
+     * java.util.PropertyPermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

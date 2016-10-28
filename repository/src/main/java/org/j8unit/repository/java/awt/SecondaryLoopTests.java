@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecondaryLoop#exit() public abstract boolean
-     * java.awt.SecondaryLoop.exit()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SecondaryLoop#exit() public abstract
+     * boolean java.awt.SecondaryLoop.exit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecondaryLoop#enter() public abstract boolean
-     * java.awt.SecondaryLoop.enter()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SecondaryLoop#enter() public abstract
+     * boolean java.awt.SecondaryLoop.enter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

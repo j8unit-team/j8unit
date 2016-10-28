@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.management.relation.RelationServiceNotReg
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RelationServiceNotRegisteredException#RelationServiceNotRegisteredException() public
-     * javax.management.relation.RelationServiceNotRegisteredException()}.
+     * {@link javax.management.relation.RelationServiceNotRegisteredException#RelationServiceNotRegisteredException()
+     * public javax.management.relation.RelationServiceNotRegisteredException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +44,8 @@ implements org.j8unit.repository.javax.management.relation.RelationServiceNotReg
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RelationServiceNotRegisteredException#RelationServiceNotRegisteredException(String) public
-     * javax.management.relation.RelationServiceNotRegisteredException(java.lang.String)}.
+     * {@link javax.management.relation.RelationServiceNotRegisteredException#RelationServiceNotRegisteredException(String)
+     * public javax.management.relation.RelationServiceNotRegisteredException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

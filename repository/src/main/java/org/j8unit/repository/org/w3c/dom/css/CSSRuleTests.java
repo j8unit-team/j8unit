@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSRule#getParentStyleSheet() public abstract
-     * org.w3c.dom.css.CSSStyleSheet org.w3c.dom.css.CSSRule.getParentStyleSheet()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSRule#getParentStyleSheet() public
+     * abstract org.w3c.dom.css.CSSStyleSheet org.w3c.dom.css.CSSRule.getParentStyleSheet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSRule#setCssText(String) public abstract void
-     * org.w3c.dom.css.CSSRule.setCssText(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSRule#setCssText(String) public
+     * abstract void org.w3c.dom.css.CSSRule.setCssText(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSRule#getParentRule() public abstract
-     * org.w3c.dom.css.CSSRule org.w3c.dom.css.CSSRule.getParentRule()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSRule#getParentRule() public
+     * abstract org.w3c.dom.css.CSSRule org.w3c.dom.css.CSSRule.getParentRule()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSRule#getCssText() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSRule#getCssText() public abstract
      * java.lang.String org.w3c.dom.css.CSSRule.getCssText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSRule#getType() public abstract short
-     * org.w3c.dom.css.CSSRule.getType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSRule#getType() public abstract
+     * short org.w3c.dom.css.CSSRule.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

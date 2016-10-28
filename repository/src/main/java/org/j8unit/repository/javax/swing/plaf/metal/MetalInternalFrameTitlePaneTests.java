@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import java.awt.Graphics;
 import javax.swing.plaf.metal.MetalInternalFrameTitlePane;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePane
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalInternalFrameTitlePane#setPalette(boolean)
-     * public void javax.swing.plaf.metal.MetalInternalFrameTitlePane.setPalette(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#setPalette(boolean) public void
+     * javax.swing.plaf.metal.MetalInternalFrameTitlePane.setPalette(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePane
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalInternalFrameTitlePane#paintComponent(Graphics)
-     * public void javax.swing.plaf.metal.MetalInternalFrameTitlePane.paintComponent(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#paintComponent(java.awt.Graphics) public void
+     * javax.swing.plaf.metal.MetalInternalFrameTitlePane.paintComponent(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +81,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePane
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalInternalFrameTitlePane#addNotify() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#addNotify() public void
      * javax.swing.plaf.metal.MetalInternalFrameTitlePane.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +105,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePane
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalInternalFrameTitlePane#paintPalette(Graphics)
-     * public void javax.swing.plaf.metal.MetalInternalFrameTitlePane.paintPalette(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#paintPalette(java.awt.Graphics) public void
+     * javax.swing.plaf.metal.MetalInternalFrameTitlePane.paintPalette(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

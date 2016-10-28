@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UncheckedIOException#getCause() public
+     * Test method for the hereby targeted method-under-test {@link java.io.UncheckedIOException#getCause() public
      * java.io.IOException java.io.UncheckedIOException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

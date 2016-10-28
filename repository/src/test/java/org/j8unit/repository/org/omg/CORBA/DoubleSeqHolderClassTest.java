@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.DoubleSeqHolderClassTests<DoubleS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DoubleSeqHolder#DoubleSeqHolder() public
-     * org.omg.CORBA.DoubleSeqHolder()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.DoubleSeqHolder#DoubleSeqHolder()
+     * public org.omg.CORBA.DoubleSeqHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.DoubleSeqHolderClassTests<DoubleS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DoubleSeqHolder#DoubleSeqHolder(double[])
-     * public org.omg.CORBA.DoubleSeqHolder(double[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.DoubleSeqHolder#DoubleSeqHolder(double[]) public org.omg.CORBA.DoubleSeqHolder(double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.invoke;
 
 import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandle;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CallSite#getTarget() public abstract
-     * java.lang.invoke.MethodHandle java.lang.invoke.CallSite.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.CallSite#getTarget() public
+     * abstract java.lang.invoke.MethodHandle java.lang.invoke.CallSite.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CallSite#dynamicInvoker() public abstract
-     * java.lang.invoke.MethodHandle java.lang.invoke.CallSite.dynamicInvoker()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.CallSite#dynamicInvoker() public
+     * abstract java.lang.invoke.MethodHandle java.lang.invoke.CallSite.dynamicInvoker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CallSite#type() public java.lang.invoke.MethodType
-     * java.lang.invoke.CallSite.type()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.CallSite#type() public
+     * java.lang.invoke.MethodType java.lang.invoke.CallSite.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +100,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CallSite#setTarget(MethodHandle) public abstract
-     * void java.lang.invoke.CallSite.setTarget(java.lang.invoke.MethodHandle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.CallSite#setTarget(java.lang.invoke.MethodHandle) public abstract void
+     * java.lang.invoke.CallSite.setTarget(java.lang.invoke.MethodHandle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.NumberOfInterven
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NumberOfInterveningJobs#NumberOfInterveningJobs(int) public
+     * {@link javax.print.attribute.standard.NumberOfInterveningJobs#NumberOfInterveningJobs(int) public
      * javax.print.attribute.standard.NumberOfInterveningJobs(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

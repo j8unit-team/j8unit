@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.directory;
 
-import javax.naming.directory.Attributes;
 import javax.naming.directory.SearchResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.naming.directory.SearchResultClassTests<S
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SearchResult#SearchResult(String, String, Object, Attributes, boolean) public
+     * {@link javax.naming.directory.SearchResult#SearchResult(String, String, Object, javax.naming.directory.Attributes, boolean)
+     * public
      * javax.naming.directory.SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes,boolean)}
      * .
      *
@@ -41,13 +41,15 @@ implements org.j8unit.repository.javax.naming.directory.SearchResultClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SearchResult sut = null; // = new SearchResult(String, String, Object, Attributes, boolean);
+        final SearchResult sut = null; // = new SearchResult(String, String, Object, javax.naming.directory.Attributes,
+                                       // boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SearchResult#SearchResult(String, String, Object, Attributes) public
+     * {@link javax.naming.directory.SearchResult#SearchResult(String, String, Object, javax.naming.directory.Attributes)
+     * public
      * javax.naming.directory.SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes)}
      * .
      *
@@ -65,13 +67,14 @@ implements org.j8unit.repository.javax.naming.directory.SearchResultClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SearchResult sut = null; // = new SearchResult(String, String, Object, Attributes);
+        final SearchResult sut = null; // = new SearchResult(String, String, Object, javax.naming.directory.Attributes);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SearchResult#SearchResult(String, Object, Attributes, boolean) public
+     * {@link javax.naming.directory.SearchResult#SearchResult(String, Object, javax.naming.directory.Attributes, boolean)
+     * public
      * javax.naming.directory.SearchResult(java.lang.String,java.lang.Object,javax.naming.directory.Attributes,boolean)}
      * .
      *
@@ -89,13 +92,14 @@ implements org.j8unit.repository.javax.naming.directory.SearchResultClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SearchResult sut = null; // = new SearchResult(String, Object, Attributes, boolean);
+        final SearchResult sut = null; // = new SearchResult(String, Object, javax.naming.directory.Attributes,
+                                       // boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SearchResult#SearchResult(String, Object, Attributes) public
+     * {@link javax.naming.directory.SearchResult#SearchResult(String, Object, javax.naming.directory.Attributes) public
      * javax.naming.directory.SearchResult(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,7 +116,7 @@ implements org.j8unit.repository.javax.naming.directory.SearchResultClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SearchResult sut = null; // = new SearchResult(String, Object, Attributes);
+        final SearchResult sut = null; // = new SearchResult(String, Object, javax.naming.directory.Attributes);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.SearchResult]

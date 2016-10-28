@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.nio.ByteBufferClassTests<ByteBuffer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteBuffer#wrap(byte[], int, int) public static
-     * java.nio.ByteBuffer java.nio.ByteBuffer.wrap(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#wrap(byte[], int, int) public
+     * static java.nio.ByteBuffer java.nio.ByteBuffer.wrap(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.nio.ByteBufferClassTests<ByteBuffer> {
     @Category(Draft.class)
     public void test_wrap_byteArray_int_int()
     throws Exception {
-        // write some test for {@link ByteBuffer#wrap(byte[], int, int)}
+        // write some test for {@link java.nio.ByteBuffer#wrap(byte[], int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteBuffer#wrap(byte[]) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#wrap(byte[]) public static
      * java.nio.ByteBuffer java.nio.ByteBuffer.wrap(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,12 +56,12 @@ implements org.j8unit.repository.java.nio.ByteBufferClassTests<ByteBuffer> {
     @Category(Draft.class)
     public void test_wrap_byteArray()
     throws Exception {
-        // write some test for {@link ByteBuffer#wrap(byte[])}
+        // write some test for {@link java.nio.ByteBuffer#wrap(byte[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteBuffer#allocate(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#allocate(int) public static
      * java.nio.ByteBuffer java.nio.ByteBuffer.allocate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -76,13 +76,13 @@ implements org.j8unit.repository.java.nio.ByteBufferClassTests<ByteBuffer> {
     @Category(Draft.class)
     public void test_allocate_int()
     throws Exception {
-        // write some test for {@link ByteBuffer#allocate(int)}
+        // write some test for {@link java.nio.ByteBuffer#allocate(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteBuffer#allocateDirect(int) public static
-     * java.nio.ByteBuffer java.nio.ByteBuffer.allocateDirect(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#allocateDirect(int) public
+     * static java.nio.ByteBuffer java.nio.ByteBuffer.allocateDirect(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -96,7 +96,7 @@ implements org.j8unit.repository.java.nio.ByteBufferClassTests<ByteBuffer> {
     @Category(Draft.class)
     public void test_allocateDirect_int()
     throws Exception {
-        // write some test for {@link ByteBuffer#allocateDirect(int)}
+        // write some test for {@link java.nio.ByteBuffer#allocateDirect(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.ByteBuffer]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.filechooser;
 
-import java.io.File;
 import javax.swing.filechooser.FileView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileView#isTraversable(File) public
-     * java.lang.Boolean javax.swing.filechooser.FileView.isTraversable(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileView#isTraversable(java.io.File) public java.lang.Boolean
+     * javax.swing.filechooser.FileView.isTraversable(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileView#getName(File) public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileView#getName(java.io.File) public java.lang.String
      * javax.swing.filechooser.FileView.getName(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileView#getTypeDescription(File) public
-     * java.lang.String javax.swing.filechooser.FileView.getTypeDescription(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileView#getTypeDescription(java.io.File) public java.lang.String
+     * javax.swing.filechooser.FileView.getTypeDescription(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileView#getDescription(File) public
-     * java.lang.String javax.swing.filechooser.FileView.getDescription(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileView#getDescription(java.io.File) public java.lang.String
+     * javax.swing.filechooser.FileView.getDescription(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileView#getIcon(File) public javax.swing.Icon
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileView#getIcon(java.io.File) public javax.swing.Icon
      * javax.swing.filechooser.FileView.getIcon(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

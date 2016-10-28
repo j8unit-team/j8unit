@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.net.ssl.SSLParametersClassTests<SSLParame
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SSLParameters#SSLParameters(String[], String[])
-     * public javax.net.ssl.SSLParameters(java.lang.String[],java.lang.String[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.net.ssl.SSLParameters#SSLParameters(String[], String[]) public
+     * javax.net.ssl.SSLParameters(java.lang.String[],java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLParametersClassTests<SSLParame
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SSLParameters#SSLParameters(String[]) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.net.ssl.SSLParameters#SSLParameters(String[]) public
      * javax.net.ssl.SSLParameters(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +67,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLParametersClassTests<SSLParame
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SSLParameters#SSLParameters() public
-     * javax.net.ssl.SSLParameters()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.net.ssl.SSLParameters#SSLParameters()
+     * public javax.net.ssl.SSLParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

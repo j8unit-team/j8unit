@@ -6,9 +6,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.Attributes;
 import org.xml.sax.ContentHandler;
-import org.xml.sax.Locator;
 
 /**
  * <p>
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#setDocumentLocator(Locator) public
-     * abstract void org.xml.sax.ContentHandler.setDocumentLocator(org.xml.sax.Locator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ContentHandler#setDocumentLocator(org.xml.sax.Locator) public abstract void
+     * org.xml.sax.ContentHandler.setDocumentLocator(org.xml.sax.Locator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#processingInstruction(String, String)
-     * public abstract void org.xml.sax.ContentHandler.processingInstruction(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ContentHandler#processingInstruction(String, String) public abstract void
+     * org.xml.sax.ContentHandler.processingInstruction(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,9 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#ignorableWhitespace(char[], int, int)
-     * public abstract void org.xml.sax.ContentHandler.ignorableWhitespace(char[],int,int) throws
-     * org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ContentHandler#ignorableWhitespace(char[], int, int) public abstract void
+     * org.xml.sax.ContentHandler.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +105,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#endDocument() public abstract void
-     * org.xml.sax.ContentHandler.endDocument() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ContentHandler#endDocument() public
+     * abstract void org.xml.sax.ContentHandler.endDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#startDocument() public abstract void
-     * org.xml.sax.ContentHandler.startDocument() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ContentHandler#startDocument() public
+     * abstract void org.xml.sax.ContentHandler.startDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,9 +149,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#startPrefixMapping(String, String)
-     * public abstract void org.xml.sax.ContentHandler.startPrefixMapping(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ContentHandler#startPrefixMapping(String, String) public abstract void
+     * org.xml.sax.ContentHandler.startPrefixMapping(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,9 +173,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#endElement(String, String, String)
-     * public abstract void org.xml.sax.ContentHandler.endElement(java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ContentHandler#endElement(String, String, String) public abstract void
+     * org.xml.sax.ContentHandler.endElement(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +197,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#characters(char[], int, int) public
-     * abstract void org.xml.sax.ContentHandler.characters(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ContentHandler#characters(char[], int, int) public abstract void
+     * org.xml.sax.ContentHandler.characters(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,8 +220,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#skippedEntity(String) public abstract
-     * void org.xml.sax.ContentHandler.skippedEntity(java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ContentHandler#skippedEntity(String)
+     * public abstract void org.xml.sax.ContentHandler.skippedEntity(java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,7 +243,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContentHandler#startElement(String, String, String, Attributes) public abstract void
+     * {@link org.xml.sax.ContentHandler#startElement(String, String, String, org.xml.sax.Attributes) public abstract
+     * void
      * org.xml.sax.ContentHandler.startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes)
      * throws org.xml.sax.SAXException}.
      *
@@ -263,8 +267,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#endPrefixMapping(String) public
-     * abstract void org.xml.sax.ContentHandler.endPrefixMapping(java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ContentHandler#endPrefixMapping(String)
+     * public abstract void org.xml.sax.ContentHandler.endPrefixMapping(java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

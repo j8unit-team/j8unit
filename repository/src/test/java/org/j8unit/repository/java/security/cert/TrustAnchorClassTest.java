@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.PublicKey;
 import java.security.cert.TrustAnchor;
-import java.security.cert.X509Certificate;
-import javax.security.auth.x500.X500Principal;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,7 @@ implements org.j8unit.repository.java.security.cert.TrustAnchorClassTests<TrustA
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TrustAnchor#TrustAnchor(String, PublicKey, byte[]) public
+     * {@link java.security.cert.TrustAnchor#TrustAnchor(String, java.security.PublicKey, byte[]) public
      * java.security.cert.TrustAnchor(java.lang.String,java.security.PublicKey,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,14 +39,14 @@ implements org.j8unit.repository.java.security.cert.TrustAnchorClassTests<TrustA
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TrustAnchor sut = null; // = new TrustAnchor(String, PublicKey, byte[]);
+        final TrustAnchor sut = null; // = new TrustAnchor(String, java.security.PublicKey, byte[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TrustAnchor#TrustAnchor(X500Principal, PublicKey, byte[]) public
-     * java.security.cert.TrustAnchor(javax.security.auth.x500.X500Principal,java.security.PublicKey,byte[])}.
+     * {@link java.security.cert.TrustAnchor#TrustAnchor(javax.security.auth.x500.X500Principal, java.security.PublicKey, byte[])
+     * public java.security.cert.TrustAnchor(javax.security.auth.x500.X500Principal,java.security.PublicKey,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,13 +62,14 @@ implements org.j8unit.repository.java.security.cert.TrustAnchorClassTests<TrustA
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TrustAnchor sut = null; // = new TrustAnchor(X500Principal, PublicKey, byte[]);
+        final TrustAnchor sut = null; // = new TrustAnchor(javax.security.auth.x500.X500Principal,
+                                      // java.security.PublicKey, byte[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TrustAnchor#TrustAnchor(X509Certificate, byte[]) public
+     * {@link java.security.cert.TrustAnchor#TrustAnchor(java.security.cert.X509Certificate, byte[]) public
      * java.security.cert.TrustAnchor(java.security.cert.X509Certificate,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,7 +86,7 @@ implements org.j8unit.repository.java.security.cert.TrustAnchorClassTests<TrustA
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TrustAnchor sut = null; // = new TrustAnchor(X509Certificate, byte[]);
+        final TrustAnchor sut = null; // = new TrustAnchor(java.security.cert.X509Certificate, byte[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.TrustAnchor]

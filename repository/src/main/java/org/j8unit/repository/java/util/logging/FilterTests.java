@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.logging;
 
 import java.util.logging.Filter;
-import java.util.logging.LogRecord;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Filter#isLoggable(LogRecord) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Filter#isLoggable(java.util.logging.LogRecord) public abstract boolean
      * java.util.logging.Filter.isLoggable(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

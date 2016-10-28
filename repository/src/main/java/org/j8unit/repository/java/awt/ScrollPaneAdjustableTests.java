@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.ScrollPaneAdjustable;
-import java.awt.event.AdjustmentListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#getAdjustmentListeners() public
-     * synchronized java.awt.event.AdjustmentListener[] java.awt.ScrollPaneAdjustable.getAdjustmentListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.ScrollPaneAdjustable#getAdjustmentListeners() public synchronized
+     * java.awt.event.AdjustmentListener[] java.awt.ScrollPaneAdjustable.getAdjustmentListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#getMinimum() public int
-     * java.awt.ScrollPaneAdjustable.getMinimum()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#getMinimum() public
+     * int java.awt.ScrollPaneAdjustable.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#setBlockIncrement(int) public
-     * synchronized void java.awt.ScrollPaneAdjustable.setBlockIncrement(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#setBlockIncrement(int)
+     * public synchronized void java.awt.ScrollPaneAdjustable.setBlockIncrement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +104,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#toString() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#toString() public
      * java.lang.String java.awt.ScrollPaneAdjustable.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +127,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#getValueIsAdjusting() public
-     * boolean java.awt.ScrollPaneAdjustable.getValueIsAdjusting()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#getValueIsAdjusting()
+     * public boolean java.awt.ScrollPaneAdjustable.getValueIsAdjusting()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +149,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#setMinimum(int) public void
-     * java.awt.ScrollPaneAdjustable.setMinimum(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#setMinimum(int) public
+     * void java.awt.ScrollPaneAdjustable.setMinimum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +172,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#setVisibleAmount(int) public
-     * void java.awt.ScrollPaneAdjustable.setVisibleAmount(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#setVisibleAmount(int)
+     * public void java.awt.ScrollPaneAdjustable.setVisibleAmount(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +195,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#getUnitIncrement() public int
-     * java.awt.ScrollPaneAdjustable.getUnitIncrement()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#getUnitIncrement()
+     * public int java.awt.ScrollPaneAdjustable.getUnitIncrement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,7 +218,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#paramString() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#paramString() public
      * java.lang.String java.awt.ScrollPaneAdjustable.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,7 +240,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#getValue() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#getValue() public int
      * java.awt.ScrollPaneAdjustable.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -263,8 +263,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#getBlockIncrement() public int
-     * java.awt.ScrollPaneAdjustable.getBlockIncrement()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#getBlockIncrement()
+     * public int java.awt.ScrollPaneAdjustable.getBlockIncrement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -286,8 +286,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#setUnitIncrement(int) public
-     * synchronized void java.awt.ScrollPaneAdjustable.setUnitIncrement(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#setUnitIncrement(int)
+     * public synchronized void java.awt.ScrollPaneAdjustable.setUnitIncrement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -309,8 +309,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#getOrientation() public int
-     * java.awt.ScrollPaneAdjustable.getOrientation()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#getOrientation()
+     * public int java.awt.ScrollPaneAdjustable.getOrientation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,8 +333,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScrollPaneAdjustable#removeAdjustmentListener(AdjustmentListener) public synchronized void
-     * java.awt.ScrollPaneAdjustable.removeAdjustmentListener(java.awt.event.AdjustmentListener)}.
+     * {@link java.awt.ScrollPaneAdjustable#removeAdjustmentListener(java.awt.event.AdjustmentListener) public
+     * synchronized void java.awt.ScrollPaneAdjustable.removeAdjustmentListener(java.awt.event.AdjustmentListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -356,8 +356,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#setValueIsAdjusting(boolean)
-     * public void java.awt.ScrollPaneAdjustable.setValueIsAdjusting(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.ScrollPaneAdjustable#setValueIsAdjusting(boolean) public void
+     * java.awt.ScrollPaneAdjustable.setValueIsAdjusting(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -378,8 +379,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#getVisibleAmount() public int
-     * java.awt.ScrollPaneAdjustable.getVisibleAmount()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#getVisibleAmount()
+     * public int java.awt.ScrollPaneAdjustable.getVisibleAmount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -401,8 +402,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#setValue(int) public void
-     * java.awt.ScrollPaneAdjustable.setValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#setValue(int) public
+     * void java.awt.ScrollPaneAdjustable.setValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -425,8 +426,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScrollPaneAdjustable#addAdjustmentListener(AdjustmentListener) public synchronized void
-     * java.awt.ScrollPaneAdjustable.addAdjustmentListener(java.awt.event.AdjustmentListener)}.
+     * {@link java.awt.ScrollPaneAdjustable#addAdjustmentListener(java.awt.event.AdjustmentListener) public synchronized
+     * void java.awt.ScrollPaneAdjustable.addAdjustmentListener(java.awt.event.AdjustmentListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -448,8 +449,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#getMaximum() public int
-     * java.awt.ScrollPaneAdjustable.getMaximum()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#getMaximum() public
+     * int java.awt.ScrollPaneAdjustable.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -471,8 +472,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScrollPaneAdjustable#setMaximum(int) public void
-     * java.awt.ScrollPaneAdjustable.setMaximum(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPaneAdjustable#setMaximum(int) public
+     * void java.awt.ScrollPaneAdjustable.setMaximum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

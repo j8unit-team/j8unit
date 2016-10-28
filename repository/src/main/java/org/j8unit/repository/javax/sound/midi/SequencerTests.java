@@ -1,12 +1,7 @@
 package org.j8unit.repository.javax.sound.midi;
 
-import java.io.InputStream;
-import javax.sound.midi.ControllerEventListener;
-import javax.sound.midi.MetaEventListener;
-import javax.sound.midi.Sequence;
 import javax.sound.midi.Sequencer;
 import javax.sound.midi.Sequencer.SyncMode;
-import javax.sound.midi.Track;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +35,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setLoopEndPoint(long) public abstract void
-     * javax.sound.midi.Sequencer.setLoopEndPoint(long)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setLoopEndPoint(long)
+     * public abstract void javax.sound.midi.Sequencer.setLoopEndPoint(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +57,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#addMetaEventListener(MetaEventListener)
-     * public abstract boolean javax.sound.midi.Sequencer.addMetaEventListener(javax.sound.midi.MetaEventListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#addMetaEventListener(javax.sound.midi.MetaEventListener) public abstract
+     * boolean javax.sound.midi.Sequencer.addMetaEventListener(javax.sound.midi.MetaEventListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +81,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Sequencer#addControllerEventListener(ControllerEventListener, int[]) public abstract int[]
+     * {@link javax.sound.midi.Sequencer#addControllerEventListener(javax.sound.midi.ControllerEventListener, int[])
+     * public abstract int[]
      * javax.sound.midi.Sequencer.addControllerEventListener(javax.sound.midi.ControllerEventListener,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +104,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setTempoInBPM(float) public abstract void
-     * javax.sound.midi.Sequencer.setTempoInBPM(float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setTempoInBPM(float)
+     * public abstract void javax.sound.midi.Sequencer.setTempoInBPM(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +126,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setMasterSyncMode(SyncMode) public
-     * abstract void javax.sound.midi.Sequencer.setMasterSyncMode(javax.sound.midi.Sequencer$SyncMode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#setMasterSyncMode(javax.sound.midi.Sequencer.SyncMode) public abstract void
+     * javax.sound.midi.Sequencer.setMasterSyncMode(javax.sound.midi.Sequencer$SyncMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +149,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setTempoFactor(float) public abstract void
-     * javax.sound.midi.Sequencer.setTempoFactor(float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setTempoFactor(float)
+     * public abstract void javax.sound.midi.Sequencer.setTempoFactor(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,7 +171,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setSequence(Sequence) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#setSequence(javax.sound.midi.Sequence) public abstract void
      * javax.sound.midi.Sequencer.setSequence(javax.sound.midi.Sequence) throws
      * javax.sound.midi.InvalidMidiDataException}.
      *
@@ -196,8 +195,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setSequence(InputStream) public abstract
-     * void javax.sound.midi.Sequencer.setSequence(java.io.InputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#setSequence(java.io.InputStream) public abstract void
+     * javax.sound.midi.Sequencer.setSequence(java.io.InputStream) throws
      * java.io.IOException,javax.sound.midi.InvalidMidiDataException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -219,8 +219,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getMicrosecondLength() public abstract
-     * long javax.sound.midi.Sequencer.getMicrosecondLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getMicrosecondLength()
+     * public abstract long javax.sound.midi.Sequencer.getMicrosecondLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -241,8 +241,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getTickLength() public abstract long
-     * javax.sound.midi.Sequencer.getTickLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getTickLength() public
+     * abstract long javax.sound.midi.Sequencer.getTickLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,8 +263,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getLoopStartPoint() public abstract long
-     * javax.sound.midi.Sequencer.getLoopStartPoint()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getLoopStartPoint()
+     * public abstract long javax.sound.midi.Sequencer.getLoopStartPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -285,8 +285,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setTrackSolo(int, boolean) public abstract
-     * void javax.sound.midi.Sequencer.setTrackSolo(int,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#setTrackSolo(int, boolean) public abstract void
+     * javax.sound.midi.Sequencer.setTrackSolo(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -307,8 +308,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getMicrosecondPosition() public abstract
-     * long javax.sound.midi.Sequencer.getMicrosecondPosition()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getMicrosecondPosition()
+     * public abstract long javax.sound.midi.Sequencer.getMicrosecondPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -330,8 +331,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#isRunning() public abstract boolean
-     * javax.sound.midi.Sequencer.isRunning()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#isRunning() public
+     * abstract boolean javax.sound.midi.Sequencer.isRunning()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -352,8 +353,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getSlaveSyncModes() public abstract
-     * javax.sound.midi.Sequencer$SyncMode[] javax.sound.midi.Sequencer.getSlaveSyncModes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getSlaveSyncModes()
+     * public abstract javax.sound.midi.Sequencer$SyncMode[] javax.sound.midi.Sequencer.getSlaveSyncModes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -374,8 +375,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setTempoInMPQ(float) public abstract void
-     * javax.sound.midi.Sequencer.setTempoInMPQ(float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setTempoInMPQ(float)
+     * public abstract void javax.sound.midi.Sequencer.setTempoInMPQ(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -396,8 +397,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getTempoInBPM() public abstract float
-     * javax.sound.midi.Sequencer.getTempoInBPM()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getTempoInBPM() public
+     * abstract float javax.sound.midi.Sequencer.getTempoInBPM()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -418,8 +419,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setLoopCount(int) public abstract void
-     * javax.sound.midi.Sequencer.setLoopCount(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setLoopCount(int) public
+     * abstract void javax.sound.midi.Sequencer.setLoopCount(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -440,8 +441,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getSlaveSyncMode() public abstract
-     * javax.sound.midi.Sequencer$SyncMode javax.sound.midi.Sequencer.getSlaveSyncMode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getSlaveSyncMode() public
+     * abstract javax.sound.midi.Sequencer$SyncMode javax.sound.midi.Sequencer.getSlaveSyncMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -462,8 +463,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getMasterSyncModes() public abstract
-     * javax.sound.midi.Sequencer$SyncMode[] javax.sound.midi.Sequencer.getMasterSyncModes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getMasterSyncModes()
+     * public abstract javax.sound.midi.Sequencer$SyncMode[] javax.sound.midi.Sequencer.getMasterSyncModes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -484,8 +485,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getLoopCount() public abstract int
-     * javax.sound.midi.Sequencer.getLoopCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getLoopCount() public
+     * abstract int javax.sound.midi.Sequencer.getLoopCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -506,8 +507,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#isRecording() public abstract boolean
-     * javax.sound.midi.Sequencer.isRecording()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#isRecording() public
+     * abstract boolean javax.sound.midi.Sequencer.isRecording()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -528,8 +529,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setTickPosition(long) public abstract void
-     * javax.sound.midi.Sequencer.setTickPosition(long)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setTickPosition(long)
+     * public abstract void javax.sound.midi.Sequencer.setTickPosition(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -550,8 +551,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#stopRecording() public abstract void
-     * javax.sound.midi.Sequencer.stopRecording()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#stopRecording() public
+     * abstract void javax.sound.midi.Sequencer.stopRecording()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -572,8 +573,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getLoopEndPoint() public abstract long
-     * javax.sound.midi.Sequencer.getLoopEndPoint()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getLoopEndPoint() public
+     * abstract long javax.sound.midi.Sequencer.getLoopEndPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -594,8 +595,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getTrackMute(int) public abstract boolean
-     * javax.sound.midi.Sequencer.getTrackMute(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getTrackMute(int) public
+     * abstract boolean javax.sound.midi.Sequencer.getTrackMute(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -616,8 +617,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getTempoInMPQ() public abstract float
-     * javax.sound.midi.Sequencer.getTempoInMPQ()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getTempoInMPQ() public
+     * abstract float javax.sound.midi.Sequencer.getTempoInMPQ()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -639,7 +640,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Sequencer#removeControllerEventListener(ControllerEventListener, int[]) public abstract int[]
+     * {@link javax.sound.midi.Sequencer#removeControllerEventListener(javax.sound.midi.ControllerEventListener, int[])
+     * public abstract int[]
      * javax.sound.midi.Sequencer.removeControllerEventListener(javax.sound.midi.ControllerEventListener,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -661,8 +663,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#recordEnable(Track, int) public abstract
-     * void javax.sound.midi.Sequencer.recordEnable(javax.sound.midi.Track,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#recordEnable(javax.sound.midi.Track, int) public abstract void
+     * javax.sound.midi.Sequencer.recordEnable(javax.sound.midi.Track,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -683,8 +686,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setLoopStartPoint(long) public abstract
-     * void javax.sound.midi.Sequencer.setLoopStartPoint(long)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setLoopStartPoint(long)
+     * public abstract void javax.sound.midi.Sequencer.setLoopStartPoint(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -705,8 +708,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#removeMetaEventListener(MetaEventListener)
-     * public abstract void javax.sound.midi.Sequencer.removeMetaEventListener(javax.sound.midi.MetaEventListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#removeMetaEventListener(javax.sound.midi.MetaEventListener) public abstract
+     * void javax.sound.midi.Sequencer.removeMetaEventListener(javax.sound.midi.MetaEventListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -727,7 +731,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#recordDisable(Track) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#recordDisable(javax.sound.midi.Track) public abstract void
      * javax.sound.midi.Sequencer.recordDisable(javax.sound.midi.Track)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -749,8 +754,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#start() public abstract void
-     * javax.sound.midi.Sequencer.start()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#start() public abstract
+     * void javax.sound.midi.Sequencer.start()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -771,8 +776,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#stop() public abstract void
-     * javax.sound.midi.Sequencer.stop()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#stop() public abstract
+     * void javax.sound.midi.Sequencer.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -793,8 +798,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#startRecording() public abstract void
-     * javax.sound.midi.Sequencer.startRecording()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#startRecording() public
+     * abstract void javax.sound.midi.Sequencer.startRecording()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -815,8 +820,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setSlaveSyncMode(SyncMode) public abstract
-     * void javax.sound.midi.Sequencer.setSlaveSyncMode(javax.sound.midi.Sequencer$SyncMode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#setSlaveSyncMode(javax.sound.midi.Sequencer.SyncMode) public abstract void
+     * javax.sound.midi.Sequencer.setSlaveSyncMode(javax.sound.midi.Sequencer$SyncMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -837,8 +843,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getTickPosition() public abstract long
-     * javax.sound.midi.Sequencer.getTickPosition()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getTickPosition() public
+     * abstract long javax.sound.midi.Sequencer.getTickPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -859,8 +865,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getTempoFactor() public abstract float
-     * javax.sound.midi.Sequencer.getTempoFactor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getTempoFactor() public
+     * abstract float javax.sound.midi.Sequencer.getTempoFactor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -881,8 +887,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getSequence() public abstract
-     * javax.sound.midi.Sequence javax.sound.midi.Sequencer.getSequence()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getSequence() public
+     * abstract javax.sound.midi.Sequence javax.sound.midi.Sequencer.getSequence()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -903,8 +909,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setTrackMute(int, boolean) public abstract
-     * void javax.sound.midi.Sequencer.setTrackMute(int,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#setTrackMute(int, boolean) public abstract void
+     * javax.sound.midi.Sequencer.setTrackMute(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -925,8 +932,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getTrackSolo(int) public abstract boolean
-     * javax.sound.midi.Sequencer.getTrackSolo(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getTrackSolo(int) public
+     * abstract boolean javax.sound.midi.Sequencer.getTrackSolo(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -947,8 +954,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#getMasterSyncMode() public abstract
-     * javax.sound.midi.Sequencer$SyncMode javax.sound.midi.Sequencer.getMasterSyncMode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getMasterSyncMode()
+     * public abstract javax.sound.midi.Sequencer$SyncMode javax.sound.midi.Sequencer.getMasterSyncMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -969,8 +976,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Sequencer#setMicrosecondPosition(long) public
-     * abstract void javax.sound.midi.Sequencer.setMicrosecondPosition(long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#setMicrosecondPosition(long) public abstract void
+     * javax.sound.midi.Sequencer.setMicrosecondPosition(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1018,8 +1026,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SyncMode#hashCode() public final int
-         * javax.sound.midi.Sequencer$SyncMode.hashCode()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer.SyncMode#hashCode()
+         * public final int javax.sound.midi.Sequencer$SyncMode.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1041,7 +1049,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SyncMode#equals(Object) public final boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.midi.Sequencer.SyncMode#equals(Object) public final boolean
          * javax.sound.midi.Sequencer$SyncMode.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1064,8 +1073,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SyncMode#toString() public final
-         * java.lang.String javax.sound.midi.Sequencer$SyncMode.toString()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer.SyncMode#toString()
+         * public final java.lang.String javax.sound.midi.Sequencer$SyncMode.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

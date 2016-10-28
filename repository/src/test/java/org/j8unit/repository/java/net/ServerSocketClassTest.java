@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.net;
 
-import java.net.InetAddress;
 import java.net.ServerSocket;
-import java.net.SocketImplFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServerSocket#ServerSocket(int, int, InetAddress) public
+     * {@link java.net.ServerSocket#ServerSocket(int, int, java.net.InetAddress) public
      * java.net.ServerSocket(int,int,java.net.InetAddress) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,13 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ServerSocket sut = null; // = new ServerSocket(int, int, InetAddress);
+        final ServerSocket sut = null; // = new ServerSocket(int, int, java.net.InetAddress);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServerSocket#ServerSocket(int, int) public
-     * java.net.ServerSocket(int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.ServerSocket#ServerSocket(int, int)
+     * public java.net.ServerSocket(int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -68,7 +66,7 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServerSocket#ServerSocket(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.ServerSocket#ServerSocket(int) public
      * java.net.ServerSocket(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,7 +88,7 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServerSocket#ServerSocket() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.ServerSocket#ServerSocket() public
      * java.net.ServerSocket() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,9 +109,9 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServerSocket#setSocketFactory(SocketImplFactory)
-     * public static synchronized void java.net.ServerSocket.setSocketFactory(java.net.SocketImplFactory) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.ServerSocket#setSocketFactory(java.net.SocketImplFactory) public static synchronized void
+     * java.net.ServerSocket.setSocketFactory(java.net.SocketImplFactory) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +125,7 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
     @Category(Draft.class)
     public void test_setSocketFactory_SocketImplFactory()
     throws Exception {
-        // write some test for {@link ServerSocket#setSocketFactory(SocketImplFactory)}
+        // write some test for {@link java.net.ServerSocket#setSocketFactory(java.net.SocketImplFactory)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ServerSocket]

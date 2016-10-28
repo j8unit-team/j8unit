@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.xml.stream;
 
 import javax.xml.stream.EventFilter;
-import javax.xml.stream.events.XMLEvent;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventFilter#accept(XMLEvent) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.EventFilter#accept(javax.xml.stream.events.XMLEvent) public abstract boolean
      * javax.xml.stream.EventFilter.accept(javax.xml.stream.events.XMLEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

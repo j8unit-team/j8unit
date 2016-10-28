@@ -5,10 +5,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.AttributeList;
 import org.xml.sax.HandlerBase;
-import org.xml.sax.Locator;
-import org.xml.sax.SAXParseException;
 
 /**
  * <p>
@@ -39,9 +36,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#resolveEntity(String, String) public
-     * org.xml.sax.InputSource org.xml.sax.HandlerBase.resolveEntity(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.HandlerBase#resolveEntity(String, String) public org.xml.sax.InputSource
+     * org.xml.sax.HandlerBase.resolveEntity(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,8 +60,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#notationDecl(String, String, String)
-     * public void org.xml.sax.HandlerBase.notationDecl(java.lang.String,java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.HandlerBase#notationDecl(String, String, String) public void
+     * org.xml.sax.HandlerBase.notationDecl(java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,7 +84,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#endDocument() public void
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.HandlerBase#endDocument() public void
      * org.xml.sax.HandlerBase.endDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +107,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#startDocument() public void
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.HandlerBase#startDocument() public void
      * org.xml.sax.HandlerBase.startDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,7 +130,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#error(SAXParseException) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.HandlerBase#error(org.xml.sax.SAXParseException) public void
      * org.xml.sax.HandlerBase.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +154,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#fatalError(SAXParseException) public
-     * void org.xml.sax.HandlerBase.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.HandlerBase#fatalError(org.xml.sax.SAXParseException) public void
+     * org.xml.sax.HandlerBase.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,9 +178,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#startElement(String, AttributeList)
-     * public void org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws
-     * org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.HandlerBase#startElement(String, org.xml.sax.AttributeList) public void
+     * org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws org.xml.sax.SAXException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -202,7 +203,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#setDocumentLocator(Locator) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.HandlerBase#setDocumentLocator(org.xml.sax.Locator) public void
      * org.xml.sax.HandlerBase.setDocumentLocator(org.xml.sax.Locator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -225,7 +227,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#warning(SAXParseException) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.HandlerBase#warning(org.xml.sax.SAXParseException) public void
      * org.xml.sax.HandlerBase.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -249,7 +252,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link HandlerBase#unparsedEntityDecl(String, String, String, String) public void
+     * {@link org.xml.sax.HandlerBase#unparsedEntityDecl(String, String, String, String) public void
      * org.xml.sax.HandlerBase.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -272,9 +275,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#processingInstruction(String, String)
-     * public void org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.HandlerBase#processingInstruction(String, String) public void
+     * org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -296,8 +300,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#ignorableWhitespace(char[], int, int)
-     * public void org.xml.sax.HandlerBase.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.HandlerBase#ignorableWhitespace(char[], int, int) public void
+     * org.xml.sax.HandlerBase.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -319,8 +324,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#endElement(String) public void
-     * org.xml.sax.HandlerBase.endElement(java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.HandlerBase#endElement(String) public
+     * void org.xml.sax.HandlerBase.endElement(java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -342,8 +347,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerBase#characters(char[], int, int) public void
-     * org.xml.sax.HandlerBase.characters(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.HandlerBase#characters(char[], int, int)
+     * public void org.xml.sax.HandlerBase.characters(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

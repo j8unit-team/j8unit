@@ -1,22 +1,7 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
-import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentHashMap.KeySetView;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.DoubleBinaryOperator;
-import java.util.function.Function;
-import java.util.function.IntBinaryOperator;
-import java.util.function.LongBinaryOperator;
-import java.util.function.ToDoubleBiFunction;
-import java.util.function.ToDoubleFunction;
-import java.util.function.ToIntBiFunction;
-import java.util.function.ToIntFunction;
-import java.util.function.ToLongBiFunction;
-import java.util.function.ToLongFunction;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -51,9 +36,10 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#reduceValues(long, BiFunction)
-     * public V java.util.concurrent.ConcurrentHashMap.reduceValues(long,java.util.function.BiFunction<? super V, ?
-     * super V, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceValues(long, java.util.function.BiFunction) public V
+     * java.util.concurrent.ConcurrentHashMap.reduceValues(long,java.util.function.BiFunction<? super V, ? super V, ?
+     * extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -75,9 +61,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceValues(long, Function, BiFunction) public <U> U
-     * java.util.concurrent.ConcurrentHashMap.reduceValues(long,java.util.function.Function<? super V, ? extends
-     * U>,java.util.function.BiFunction<? super U, ? super U, ? extends U>)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceValues(long, java.util.function.Function, java.util.function.BiFunction)
+     * public <U> U java.util.concurrent.ConcurrentHashMap.reduceValues(long,java.util.function.Function<? super V, ?
+     * extends U>,java.util.function.BiFunction<? super U, ? super U, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,7 +84,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#mappingCount() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#mappingCount() public long
      * java.util.concurrent.ConcurrentHashMap.mappingCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,9 +108,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduce(long, BiFunction, BiFunction) public <U> U
-     * java.util.concurrent.ConcurrentHashMap.reduce(long,java.util.function.BiFunction<? super K, ? super V, ? extends
-     * U>,java.util.function.BiFunction<? super U, ? super U, ? extends U>)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#reduce(long, java.util.function.BiFunction, java.util.function.BiFunction)
+     * public <U> U java.util.concurrent.ConcurrentHashMap.reduce(long,java.util.function.BiFunction<? super K, ? super
+     * V, ? extends U>,java.util.function.BiFunction<? super U, ? super U, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +131,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#entrySet() public
-     * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.concurrent.ConcurrentHashMap.entrySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#entrySet()
+     * public java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.concurrent.ConcurrentHashMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +154,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#containsKey(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#containsKey(Object) public boolean
      * java.util.concurrent.ConcurrentHashMap.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,7 +179,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceValuesToDouble(long, ToDoubleFunction, double, DoubleBinaryOperator) public double
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceValuesToDouble(long, java.util.function.ToDoubleFunction, double, java.util.function.DoubleBinaryOperator)
+     * public double
      * java.util.concurrent.ConcurrentHashMap.reduceValuesToDouble(long,java.util.function.ToDoubleFunction<? super
      * V>,double,java.util.function.DoubleBinaryOperator)}.
      *
@@ -214,7 +203,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#contains(Object) public boolean
      * java.util.concurrent.ConcurrentHashMap.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,7 +227,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceEntriesToLong(long, ToLongFunction, long, LongBinaryOperator) public long
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceEntriesToLong(long, java.util.function.ToLongFunction, long, java.util.function.LongBinaryOperator)
+     * public long
      * java.util.concurrent.ConcurrentHashMap.reduceEntriesToLong(long,java.util.function.ToLongFunction<java.util.Map.java.util.Map$Entry<K,
      * V>>,long,java.util.function.LongBinaryOperator)}.
      *
@@ -260,8 +251,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#reduceEntries(long, BiFunction)
-     * public java.util.Map.java.util.Map$Entry<K, V>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceEntries(long, java.util.function.BiFunction) public
+     * java.util.Map.java.util.Map$Entry<K, V>
      * java.util.concurrent.ConcurrentHashMap.reduceEntries(long,java.util.function.BiFunction<java.util.Map.java.util.Map$Entry<K,
      * V>, java.util.Map.java.util.Map$Entry<K, V>, ? extends java.util.Map.java.util.Map$Entry<K, V>>)}.
      *
@@ -285,7 +277,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceEntries(long, Function, BiFunction) public <U> U
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceEntries(long, java.util.function.Function, java.util.function.BiFunction)
+     * public <U> U
      * java.util.concurrent.ConcurrentHashMap.reduceEntries(long,java.util.function.Function<java.util.Map.java.util.Map$Entry<K,
      * V>, ? extends U>,java.util.function.BiFunction<? super U, ? super U, ? extends U>)}.
      *
@@ -308,8 +301,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#size() public int
-     * java.util.concurrent.ConcurrentHashMap.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#size() public
+     * int java.util.concurrent.ConcurrentHashMap.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -331,8 +324,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#replace(Object, Object, Object)
-     * public boolean java.util.concurrent.ConcurrentHashMap.replace(K,V,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#replace(Object, Object, Object) public boolean
+     * java.util.concurrent.ConcurrentHashMap.replace(K,V,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -354,7 +348,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#replace(Object, Object) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#replace(Object, Object) public V
      * java.util.concurrent.ConcurrentHashMap.replace(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -377,8 +372,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#containsValue(Object) public
-     * boolean java.util.concurrent.ConcurrentHashMap.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#containsValue(Object) public boolean
+     * java.util.concurrent.ConcurrentHashMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -400,7 +396,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#put(Object, Object) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#put(Object, Object) public V
      * java.util.concurrent.ConcurrentHashMap.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -423,8 +420,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#getOrDefault(Object, Object)
-     * public V java.util.concurrent.ConcurrentHashMap.getOrDefault(java.lang.Object,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#getOrDefault(Object, Object) public V
+     * java.util.concurrent.ConcurrentHashMap.getOrDefault(java.lang.Object,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -447,9 +445,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceToInt(long, ToIntBiFunction, int, IntBinaryOperator) public int
-     * java.util.concurrent.ConcurrentHashMap.reduceToInt(long,java.util.function.ToIntBiFunction<? super K, ? super
-     * V>,int,java.util.function.IntBinaryOperator)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceToInt(long, java.util.function.ToIntBiFunction, int, java.util.function.IntBinaryOperator)
+     * public int java.util.concurrent.ConcurrentHashMap.reduceToInt(long,java.util.function.ToIntBiFunction<? super K,
+     * ? super V>,int,java.util.function.IntBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -470,9 +468,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#searchKeys(long, Function) public
-     * <U> U java.util.concurrent.ConcurrentHashMap.searchKeys(long,java.util.function.Function<? super K, ? extends
-     * U>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#searchKeys(long, java.util.function.Function) public <U> U
+     * java.util.concurrent.ConcurrentHashMap.searchKeys(long,java.util.function.Function<? super K, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -493,8 +491,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#compute(Object, BiFunction) public
-     * V java.util.concurrent.ConcurrentHashMap.compute(K,java.util.function.BiFunction<? super K, ? super V, ? extends
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#compute(Object, java.util.function.BiFunction) public V
+     * java.util.concurrent.ConcurrentHashMap.compute(K,java.util.function.BiFunction<? super K, ? super V, ? extends
      * V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -518,7 +517,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceEntriesToInt(long, ToIntFunction, int, IntBinaryOperator) public int
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceEntriesToInt(long, java.util.function.ToIntFunction, int, java.util.function.IntBinaryOperator)
+     * public int
      * java.util.concurrent.ConcurrentHashMap.reduceEntriesToInt(long,java.util.function.ToIntFunction<java.util.Map.java.util.Map$Entry<K,
      * V>>,int,java.util.function.IntBinaryOperator)}.
      *
@@ -541,9 +541,10 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#merge(Object, Object, BiFunction)
-     * public V java.util.concurrent.ConcurrentHashMap.merge(K,V,java.util.function.BiFunction<? super V, ? super V, ?
-     * extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#merge(Object, Object, java.util.function.BiFunction) public V
+     * java.util.concurrent.ConcurrentHashMap.merge(K,V,java.util.function.BiFunction<? super V, ? super V, ? extends
+     * V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -565,8 +566,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#isEmpty() public boolean
-     * java.util.concurrent.ConcurrentHashMap.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#isEmpty()
+     * public boolean java.util.concurrent.ConcurrentHashMap.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -588,8 +589,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#clear() public void
-     * java.util.concurrent.ConcurrentHashMap.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#clear()
+     * public void java.util.concurrent.ConcurrentHashMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -612,9 +613,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceToDouble(long, ToDoubleBiFunction, double, DoubleBinaryOperator) public double
-     * java.util.concurrent.ConcurrentHashMap.reduceToDouble(long,java.util.function.ToDoubleBiFunction<? super K, ?
-     * super V>,double,java.util.function.DoubleBinaryOperator)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceToDouble(long, java.util.function.ToDoubleBiFunction, double, java.util.function.DoubleBinaryOperator)
+     * public double java.util.concurrent.ConcurrentHashMap.reduceToDouble(long,java.util.function.ToDoubleBiFunction<?
+     * super K, ? super V>,double,java.util.function.DoubleBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -635,7 +636,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#forEach(BiConsumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#forEach(java.util.function.BiConsumer) public void
      * java.util.concurrent.ConcurrentHashMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -659,9 +661,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#forEach(long, BiFunction, Consumer) public <U> void
-     * java.util.concurrent.ConcurrentHashMap.forEach(long,java.util.function.BiFunction<? super K, ? super V, ? extends
-     * U>,java.util.function.Consumer<? super U>)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#forEach(long, java.util.function.BiFunction, java.util.function.Consumer)
+     * public <U> void java.util.concurrent.ConcurrentHashMap.forEach(long,java.util.function.BiFunction<? super K, ?
+     * super V, ? extends U>,java.util.function.Consumer<? super U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -682,8 +684,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#forEach(long, BiConsumer) public
-     * void java.util.concurrent.ConcurrentHashMap.forEach(long,java.util.function.BiConsumer<? super K, ? super V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#forEach(long, java.util.function.BiConsumer) public void
+     * java.util.concurrent.ConcurrentHashMap.forEach(long,java.util.function.BiConsumer<? super K, ? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -705,8 +708,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceEntriesToDouble(long, ToDoubleFunction, double, DoubleBinaryOperator) public
-     * double
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceEntriesToDouble(long, java.util.function.ToDoubleFunction, double, java.util.function.DoubleBinaryOperator)
+     * public double
      * java.util.concurrent.ConcurrentHashMap.reduceEntriesToDouble(long,java.util.function.ToDoubleFunction<java.util.Map.java.util.Map$Entry<K,
      * V>>,double,java.util.function.DoubleBinaryOperator)}.
      *
@@ -730,9 +733,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceValuesToLong(long, ToLongFunction, long, LongBinaryOperator) public long
-     * java.util.concurrent.ConcurrentHashMap.reduceValuesToLong(long,java.util.function.ToLongFunction<? super
-     * V>,long,java.util.function.LongBinaryOperator)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceValuesToLong(long, java.util.function.ToLongFunction, long, java.util.function.LongBinaryOperator)
+     * public long java.util.concurrent.ConcurrentHashMap.reduceValuesToLong(long,java.util.function.ToLongFunction<?
+     * super V>,long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -753,8 +756,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#forEachKey(long, Consumer) public
-     * void java.util.concurrent.ConcurrentHashMap.forEachKey(long,java.util.function.Consumer<? super K>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#forEachKey(long, java.util.function.Consumer) public void
+     * java.util.concurrent.ConcurrentHashMap.forEachKey(long,java.util.function.Consumer<? super K>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -776,9 +780,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#forEachKey(long, Function, Consumer) public <U> void
-     * java.util.concurrent.ConcurrentHashMap.forEachKey(long,java.util.function.Function<? super K, ? extends
-     * U>,java.util.function.Consumer<? super U>)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#forEachKey(long, java.util.function.Function, java.util.function.Consumer)
+     * public <U> void java.util.concurrent.ConcurrentHashMap.forEachKey(long,java.util.function.Function<? super K, ?
+     * extends U>,java.util.function.Consumer<? super U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -799,8 +803,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#toString() public java.lang.String
-     * java.util.concurrent.ConcurrentHashMap.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#toString()
+     * public java.lang.String java.util.concurrent.ConcurrentHashMap.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -822,8 +826,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#putIfAbsent(Object, Object) public
-     * V java.util.concurrent.ConcurrentHashMap.putIfAbsent(K,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#putIfAbsent(Object, Object) public V
+     * java.util.concurrent.ConcurrentHashMap.putIfAbsent(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -845,9 +850,10 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#reduceKeys(long, BiFunction)
-     * public K java.util.concurrent.ConcurrentHashMap.reduceKeys(long,java.util.function.BiFunction<? super K, ? super
-     * K, ? extends K>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceKeys(long, java.util.function.BiFunction) public K
+     * java.util.concurrent.ConcurrentHashMap.reduceKeys(long,java.util.function.BiFunction<? super K, ? super K, ?
+     * extends K>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -869,9 +875,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceKeys(long, Function, BiFunction) public <U> U
-     * java.util.concurrent.ConcurrentHashMap.reduceKeys(long,java.util.function.Function<? super K, ? extends
-     * U>,java.util.function.BiFunction<? super U, ? super U, ? extends U>)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceKeys(long, java.util.function.Function, java.util.function.BiFunction)
+     * public <U> U java.util.concurrent.ConcurrentHashMap.reduceKeys(long,java.util.function.Function<? super K, ?
+     * extends U>,java.util.function.BiFunction<? super U, ? super U, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -893,8 +899,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceValuesToInt(long, ToIntFunction, int, IntBinaryOperator) public int
-     * java.util.concurrent.ConcurrentHashMap.reduceValuesToInt(long,java.util.function.ToIntFunction<? super
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceValuesToInt(long, java.util.function.ToIntFunction, int, java.util.function.IntBinaryOperator)
+     * public int java.util.concurrent.ConcurrentHashMap.reduceValuesToInt(long,java.util.function.ToIntFunction<? super
      * V>,int,java.util.function.IntBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -917,9 +923,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#forEachValue(long, Function, Consumer) public <U> void
-     * java.util.concurrent.ConcurrentHashMap.forEachValue(long,java.util.function.Function<? super V, ? extends
-     * U>,java.util.function.Consumer<? super U>)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#forEachValue(long, java.util.function.Function, java.util.function.Consumer)
+     * public <U> void java.util.concurrent.ConcurrentHashMap.forEachValue(long,java.util.function.Function<? super V, ?
+     * extends U>,java.util.function.Consumer<? super U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -940,8 +946,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#forEachValue(long, Consumer)
-     * public void java.util.concurrent.ConcurrentHashMap.forEachValue(long,java.util.function.Consumer<? super V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#forEachValue(long, java.util.function.Consumer) public void
+     * java.util.concurrent.ConcurrentHashMap.forEachValue(long,java.util.function.Consumer<? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -963,7 +970,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#computeIfPresent(Object, BiFunction) public V
+     * {@link java.util.concurrent.ConcurrentHashMap#computeIfPresent(Object, java.util.function.BiFunction) public V
      * java.util.concurrent.ConcurrentHashMap.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super V, ?
      * extends V>)}.
      *
@@ -987,8 +994,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#elements() public
-     * java.util.Enumeration<V> java.util.concurrent.ConcurrentHashMap.elements()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#elements()
+     * public java.util.Enumeration<V> java.util.concurrent.ConcurrentHashMap.elements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1009,7 +1016,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#equals(Object) public boolean
      * java.util.concurrent.ConcurrentHashMap.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1032,7 +1040,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#replaceAll(BiFunction) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#replaceAll(java.util.function.BiFunction) public void
      * java.util.concurrent.ConcurrentHashMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends
      * V>)}.
      *
@@ -1056,8 +1065,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#remove(Object, Object) public
-     * boolean java.util.concurrent.ConcurrentHashMap.remove(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#remove(Object, Object) public boolean
+     * java.util.concurrent.ConcurrentHashMap.remove(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1079,7 +1089,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#remove(Object) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#remove(Object) public V
      * java.util.concurrent.ConcurrentHashMap.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1103,7 +1114,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#forEachEntry(long, Function, Consumer) public <U> void
+     * {@link java.util.concurrent.ConcurrentHashMap#forEachEntry(long, java.util.function.Function, java.util.function.Consumer)
+     * public <U> void
      * java.util.concurrent.ConcurrentHashMap.forEachEntry(long,java.util.function.Function<java.util.Map.java.util.Map$Entry<K,
      * V>, ? extends U>,java.util.function.Consumer<? super U>)}.
      *
@@ -1126,8 +1138,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#forEachEntry(long, Consumer)
-     * public void java.util.concurrent.ConcurrentHashMap.forEachEntry(long,java.util.function.Consumer<? super
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#forEachEntry(long, java.util.function.Consumer) public void
+     * java.util.concurrent.ConcurrentHashMap.forEachEntry(long,java.util.function.Consumer<? super
      * java.util.Map.java.util.Map$Entry<K, V>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1149,7 +1162,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#keys() public
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#keys() public
      * java.util.Enumeration<K> java.util.concurrent.ConcurrentHashMap.keys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1172,7 +1185,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceKeysToDouble(long, ToDoubleFunction, double, DoubleBinaryOperator) public double
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceKeysToDouble(long, java.util.function.ToDoubleFunction, double, java.util.function.DoubleBinaryOperator)
+     * public double
      * java.util.concurrent.ConcurrentHashMap.reduceKeysToDouble(long,java.util.function.ToDoubleFunction<? super
      * K>,double,java.util.function.DoubleBinaryOperator)}.
      *
@@ -1195,9 +1209,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#computeIfAbsent(Object, Function)
-     * public V java.util.concurrent.ConcurrentHashMap.computeIfAbsent(K,java.util.function.Function<? super K, ?
-     * extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#computeIfAbsent(Object, java.util.function.Function) public V
+     * java.util.concurrent.ConcurrentHashMap.computeIfAbsent(K,java.util.function.Function<? super K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1219,8 +1233,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#values() public
-     * java.util.Collection<V> java.util.concurrent.ConcurrentHashMap.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#values()
+     * public java.util.Collection<V> java.util.concurrent.ConcurrentHashMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1242,8 +1256,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#keySet() public
-     * java.util.concurrent.ConcurrentHashMap.java.util.concurrent.ConcurrentHashMap$KeySetView<K, V>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#keySet()
+     * public java.util.concurrent.ConcurrentHashMap.java.util.concurrent.ConcurrentHashMap$KeySetView<K, V>
      * java.util.concurrent.ConcurrentHashMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1266,7 +1280,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#keySet(Object) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#keySet(Object) public
      * java.util.concurrent.ConcurrentHashMap.java.util.concurrent.ConcurrentHashMap$KeySetView<K, V>
      * java.util.concurrent.ConcurrentHashMap.keySet(V)}.
      *
@@ -1290,9 +1305,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceKeysToLong(long, ToLongFunction, long, LongBinaryOperator) public long
-     * java.util.concurrent.ConcurrentHashMap.reduceKeysToLong(long,java.util.function.ToLongFunction<? super
-     * K>,long,java.util.function.LongBinaryOperator)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceKeysToLong(long, java.util.function.ToLongFunction, long, java.util.function.LongBinaryOperator)
+     * public long java.util.concurrent.ConcurrentHashMap.reduceKeysToLong(long,java.util.function.ToLongFunction<?
+     * super K>,long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1314,8 +1329,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceKeysToInt(long, ToIntFunction, int, IntBinaryOperator) public int
-     * java.util.concurrent.ConcurrentHashMap.reduceKeysToInt(long,java.util.function.ToIntFunction<? super
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceKeysToInt(long, java.util.function.ToIntFunction, int, java.util.function.IntBinaryOperator)
+     * public int java.util.concurrent.ConcurrentHashMap.reduceKeysToInt(long,java.util.function.ToIntFunction<? super
      * K>,int,java.util.function.IntBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1337,8 +1352,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#searchEntries(long, Function)
-     * public <U> U
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#searchEntries(long, java.util.function.Function) public <U> U
      * java.util.concurrent.ConcurrentHashMap.searchEntries(long,java.util.function.Function<java.util.Map.java.util.Map$Entry<K,
      * V>, ? extends U>)}.
      *
@@ -1361,9 +1376,10 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#search(long, BiFunction) public
-     * <U> U java.util.concurrent.ConcurrentHashMap.search(long,java.util.function.BiFunction<? super K, ? super V, ?
-     * extends U>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#search(long, java.util.function.BiFunction) public <U> U
+     * java.util.concurrent.ConcurrentHashMap.search(long,java.util.function.BiFunction<? super K, ? super V, ? extends
+     * U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1385,9 +1401,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ConcurrentHashMap#reduceToLong(long, ToLongBiFunction, long, LongBinaryOperator) public long
-     * java.util.concurrent.ConcurrentHashMap.reduceToLong(long,java.util.function.ToLongBiFunction<? super K, ? super
-     * V>,long,java.util.function.LongBinaryOperator)}.
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceToLong(long, java.util.function.ToLongBiFunction, long, java.util.function.LongBinaryOperator)
+     * public long java.util.concurrent.ConcurrentHashMap.reduceToLong(long,java.util.function.ToLongBiFunction<? super
+     * K, ? super V>,long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1408,9 +1424,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#searchValues(long, Function)
-     * public <U> U java.util.concurrent.ConcurrentHashMap.searchValues(long,java.util.function.Function<? super V, ?
-     * extends U>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#searchValues(long, java.util.function.Function) public <U> U
+     * java.util.concurrent.ConcurrentHashMap.searchValues(long,java.util.function.Function<? super V, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1431,8 +1447,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#hashCode() public int
-     * java.util.concurrent.ConcurrentHashMap.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#hashCode()
+     * public int java.util.concurrent.ConcurrentHashMap.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1454,7 +1470,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#putAll(Map) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#putAll(java.util.Map) public void
      * java.util.concurrent.ConcurrentHashMap.putAll(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1477,8 +1494,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentHashMap#get(Object) public V
-     * java.util.concurrent.ConcurrentHashMap.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentHashMap#get(Object)
+     * public V java.util.concurrent.ConcurrentHashMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1528,7 +1545,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#addAll(Collection) public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#addAll(java.util.Collection) public boolean
          * java.util.concurrent.ConcurrentHashMap$KeySetView.addAll(java.util.Collection<? extends K>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1551,8 +1569,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#spliterator() public
-         * java.util.Spliterator<K> java.util.concurrent.ConcurrentHashMap$KeySetView.spliterator()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#spliterator() public java.util.Spliterator
+         * <K> java.util.concurrent.ConcurrentHashMap$KeySetView.spliterator()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1574,7 +1593,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#equals(Object) public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#equals(Object) public boolean
          * java.util.concurrent.ConcurrentHashMap$KeySetView.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1597,7 +1617,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#forEach(Consumer) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#forEach(java.util.function.Consumer) public void
          * java.util.concurrent.ConcurrentHashMap$KeySetView.forEach(java.util.function.Consumer<? super K>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1620,7 +1641,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#hashCode() public int
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#hashCode() public int
          * java.util.concurrent.ConcurrentHashMap$KeySetView.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1643,7 +1665,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#add(Object) public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#add(Object) public boolean
          * java.util.concurrent.ConcurrentHashMap$KeySetView.add(K)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1666,7 +1689,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#iterator() public java.util.Iterator
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#iterator() public java.util.Iterator
          * <K> java.util.concurrent.ConcurrentHashMap$KeySetView.iterator()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1689,7 +1713,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#contains(Object) public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#contains(Object) public boolean
          * java.util.concurrent.ConcurrentHashMap$KeySetView.contains(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1712,7 +1737,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#remove(Object) public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#remove(Object) public boolean
          * java.util.concurrent.ConcurrentHashMap$KeySetView.remove(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1735,7 +1761,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link KeySetView#getMappedValue() public V
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#getMappedValue() public V
          * java.util.concurrent.ConcurrentHashMap$KeySetView.getMappedValue()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests<ScrollPa
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ScrollPaneLayout#ScrollPaneLayout() public
-     * javax.swing.ScrollPaneLayout()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ScrollPaneLayout#ScrollPaneLayout()
+     * public javax.swing.ScrollPaneLayout()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ implements org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests<ScrollPa
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link UIResource#UIResource() public
-         * javax.swing.ScrollPaneLayout$UIResource()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.ScrollPaneLayout.UIResource#UIResource() public javax.swing.ScrollPaneLayout$UIResource()}
+         * .
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.sound.midi;
 
 import javax.sound.midi.MidiEvent;
-import javax.sound.midi.MidiMessage;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.sound.midi.MidiEventClassTests<MidiEvent>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MidiEvent#MidiEvent(MidiMessage, long) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.midi.MidiEvent#MidiEvent(javax.sound.midi.MidiMessage, long) public
      * javax.sound.midi.MidiEvent(javax.sound.midi.MidiMessage,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.sound.midi.MidiEventClassTests<MidiEvent>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MidiEvent sut = null; // = new MidiEvent(MidiMessage, long);
+        final MidiEvent sut = null; // = new MidiEvent(javax.sound.midi.MidiMessage, long);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiEvent]

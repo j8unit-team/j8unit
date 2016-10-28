@@ -7,11 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 import org.omg.IOP.MultipleComponentProfileHelper;
-import org.omg.IOP.TaggedComponent;
 
 @RunWith(J8Unit4.class)
 public class MultipleComponentProfileHelperClassTest
@@ -27,7 +23,7 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MultipleComponentProfileHelper#MultipleComponentProfileHelper() public
+     * {@link org.omg.IOP.MultipleComponentProfileHelper#MultipleComponentProfileHelper() public
      * org.omg.IOP.MultipleComponentProfileHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,8 +43,8 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClass
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultipleComponentProfileHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.IOP.MultipleComponentProfileHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.MultipleComponentProfileHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.IOP.MultipleComponentProfileHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +58,14 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClass
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link MultipleComponentProfileHelper#type()}
+        // write some test for {@link org.omg.IOP.MultipleComponentProfileHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultipleComponentProfileHelper#write(OutputStream, TaggedComponent[]) public static void
+     * {@link org.omg.IOP.MultipleComponentProfileHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.IOP.TaggedComponent[])
+     * public static void
      * org.omg.IOP.MultipleComponentProfileHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedComponent[])}
      * .
      *
@@ -84,13 +81,15 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClass
     @Category(Draft.class)
     public void test_write_OutputStream_TaggedComponentArray()
     throws Exception {
-        // write some test for {@link MultipleComponentProfileHelper#write(OutputStream, TaggedComponent[])}
+        // write some test for {@link
+        // org.omg.IOP.MultipleComponentProfileHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.IOP.TaggedComponent[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultipleComponentProfileHelper#id() public static
-     * java.lang.String org.omg.IOP.MultipleComponentProfileHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.MultipleComponentProfileHelper#id()
+     * public static java.lang.String org.omg.IOP.MultipleComponentProfileHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,14 +103,14 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClass
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link MultipleComponentProfileHelper#id()}
+        // write some test for {@link org.omg.IOP.MultipleComponentProfileHelper#id()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultipleComponentProfileHelper#insert(Any, TaggedComponent[]) public static void
-     * org.omg.IOP.MultipleComponentProfileHelper.insert(org.omg.CORBA.Any,org.omg.IOP.TaggedComponent[])}.
+     * {@link org.omg.IOP.MultipleComponentProfileHelper#insert(org.omg.CORBA.Any, org.omg.IOP.TaggedComponent[]) public
+     * static void org.omg.IOP.MultipleComponentProfileHelper.insert(org.omg.CORBA.Any,org.omg.IOP.TaggedComponent[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,13 +124,15 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClass
     @Category(Draft.class)
     public void test_insert_Any_TaggedComponentArray()
     throws Exception {
-        // write some test for {@link MultipleComponentProfileHelper#insert(Any, TaggedComponent[])}
+        // write some test for {@link org.omg.IOP.MultipleComponentProfileHelper#insert(org.omg.CORBA.Any,
+        // org.omg.IOP.TaggedComponent[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultipleComponentProfileHelper#read(InputStream)
-     * public static org.omg.IOP.TaggedComponent[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.MultipleComponentProfileHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.IOP.TaggedComponent[]
      * org.omg.IOP.MultipleComponentProfileHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,13 +147,15 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClass
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link MultipleComponentProfileHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.IOP.MultipleComponentProfileHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultipleComponentProfileHelper#extract(Any) public
-     * static org.omg.IOP.TaggedComponent[] org.omg.IOP.MultipleComponentProfileHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.MultipleComponentProfileHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.IOP.TaggedComponent[] org.omg.IOP.MultipleComponentProfileHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +169,7 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClass
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link MultipleComponentProfileHelper#extract(Any)}
+        // write some test for {@link org.omg.IOP.MultipleComponentProfileHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.MultipleComponentProfileHelper]

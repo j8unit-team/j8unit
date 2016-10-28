@@ -6,8 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.ParameterMode;
 import org.omg.Dynamic.Parameter;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +21,7 @@ implements org.j8unit.repository.org.omg.Dynamic.ParameterClassTests<Parameter> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Parameter#Parameter() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.Dynamic.Parameter#Parameter() public
      * org.omg.Dynamic.Parameter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +42,8 @@ implements org.j8unit.repository.org.omg.Dynamic.ParameterClassTests<Parameter> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Parameter#Parameter(Any, ParameterMode) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.Dynamic.Parameter#Parameter(org.omg.CORBA.Any, org.omg.CORBA.ParameterMode) public
      * org.omg.Dynamic.Parameter(org.omg.CORBA.Any,org.omg.CORBA.ParameterMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.org.omg.Dynamic.ParameterClassTests<Parameter> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Parameter sut = null; // = new Parameter(Any, ParameterMode);
+        final Parameter sut = null; // = new Parameter(org.omg.CORBA.Any, org.omg.CORBA.ParameterMode);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.Dynamic.Parameter]

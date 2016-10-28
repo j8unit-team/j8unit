@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPConnectionClassTests<SOAPCon
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SOAPConnection#SOAPConnection() public
-     * javax.xml.soap.SOAPConnection()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.soap.SOAPConnection#SOAPConnection()
+     * public javax.xml.soap.SOAPConnection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

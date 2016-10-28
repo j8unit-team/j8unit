@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentListener#removeUpdate(DocumentEvent) public
-     * abstract void javax.swing.event.DocumentListener.removeUpdate(javax.swing.event.DocumentEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.DocumentListener#removeUpdate(javax.swing.event.DocumentEvent) public abstract void
+     * javax.swing.event.DocumentListener.removeUpdate(javax.swing.event.DocumentEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentListener#insertUpdate(DocumentEvent) public
-     * abstract void javax.swing.event.DocumentListener.insertUpdate(javax.swing.event.DocumentEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.DocumentListener#insertUpdate(javax.swing.event.DocumentEvent) public abstract void
+     * javax.swing.event.DocumentListener.insertUpdate(javax.swing.event.DocumentEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentListener#changedUpdate(DocumentEvent) public
-     * abstract void javax.swing.event.DocumentListener.changedUpdate(javax.swing.event.DocumentEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.DocumentListener#changedUpdate(javax.swing.event.DocumentEvent) public abstract void
+     * javax.swing.event.DocumentListener.changedUpdate(javax.swing.event.DocumentEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

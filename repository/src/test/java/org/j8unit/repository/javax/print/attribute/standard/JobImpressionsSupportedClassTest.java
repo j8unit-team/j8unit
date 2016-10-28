@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobImpressionsSu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JobImpressionsSupported#JobImpressionsSupported(int, int) public
+     * {@link javax.print.attribute.standard.JobImpressionsSupported#JobImpressionsSupported(int, int) public
      * javax.print.attribute.standard.JobImpressionsSupported(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

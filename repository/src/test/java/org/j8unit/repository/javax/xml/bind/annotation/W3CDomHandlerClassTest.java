@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.xml.bind.annotation;
 
 import javax.xml.bind.annotation.W3CDomHandler;
-import javax.xml.parsers.DocumentBuilder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link W3CDomHandler#W3CDomHandler() public
-     * javax.xml.bind.annotation.W3CDomHandler()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.annotation.W3CDomHandler#W3CDomHandler() public javax.xml.bind.annotation.W3CDomHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,9 @@ implements org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link W3CDomHandler#W3CDomHandler(DocumentBuilder)
-     * public javax.xml.bind.annotation.W3CDomHandler(javax.xml.parsers.DocumentBuilder)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.annotation.W3CDomHandler#W3CDomHandler(javax.xml.parsers.DocumentBuilder) public
+     * javax.xml.bind.annotation.W3CDomHandler(javax.xml.parsers.DocumentBuilder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +60,7 @@ implements org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final W3CDomHandler sut = null; // = new W3CDomHandler(DocumentBuilder);
+        final W3CDomHandler sut = null; // = new W3CDomHandler(javax.xml.parsers.DocumentBuilder);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.W3CDomHandler]

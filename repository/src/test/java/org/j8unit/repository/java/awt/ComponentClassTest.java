@@ -35,8 +35,9 @@ implements org.j8unit.repository.java.awt.ComponentClassTests<Component> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link BaselineResizeBehavior#valueOf(String) public
-         * static java.awt.Component$BaselineResizeBehavior
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.Component.BaselineResizeBehavior#valueOf(String) public static
+         * java.awt.Component$BaselineResizeBehavior
          * java.awt.Component$BaselineResizeBehavior.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -51,12 +52,13 @@ implements org.j8unit.repository.java.awt.ComponentClassTests<Component> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link BaselineResizeBehavior#valueOf(String)}
+            // write some test for {@link java.awt.Component.BaselineResizeBehavior#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link BaselineResizeBehavior#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.Component.BaselineResizeBehavior#values() public static
          * java.awt.Component$BaselineResizeBehavior[] java.awt.Component$BaselineResizeBehavior.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,7 +73,7 @@ implements org.j8unit.repository.java.awt.ComponentClassTests<Component> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link BaselineResizeBehavior#values()}
+            // write some test for {@link java.awt.Component.BaselineResizeBehavior#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Component$BaselineResizeBehavior]

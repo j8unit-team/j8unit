@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +35,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#remove(int) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#remove(int) public E
      * java.util.ArrayList.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +58,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#remove(Object) public boolean
      * java.util.ArrayList.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,7 +81,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#replaceAll(UnaryOperator) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.ArrayList#replaceAll(java.util.function.UnaryOperator) public void
      * java.util.ArrayList.replaceAll(java.util.function.UnaryOperator<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,7 +105,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#indexOf(Object) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#indexOf(Object) public int
      * java.util.ArrayList.indexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,8 +128,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#toArray() public java.lang.Object[]
-     * java.util.ArrayList.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#toArray() public
+     * java.lang.Object[] java.util.ArrayList.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,7 +151,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#toArray(Object[]) public <T> T[]
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#toArray(Object[]) public <T> T[]
      * java.util.ArrayList.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -178,7 +174,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#get(int) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#get(int) public E
      * java.util.ArrayList.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,8 +197,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#removeAll(Collection) public boolean
-     * java.util.ArrayList.removeAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#removeAll(java.util.Collection)
+     * public boolean java.util.ArrayList.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,8 +220,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#iterator() public java.util.Iterator
-     * <E> java.util.ArrayList.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#iterator() public
+     * java.util.Iterator<E> java.util.ArrayList.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,7 +243,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#removeIf(Predicate) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.ArrayList#removeIf(java.util.function.Predicate) public boolean
      * java.util.ArrayList.removeIf(java.util.function.Predicate<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -270,8 +267,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#sort(Comparator) public void
-     * java.util.ArrayList.sort(java.util.Comparator<? super E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#sort(java.util.Comparator)
+     * public void java.util.ArrayList.sort(java.util.Comparator<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,7 +290,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#isEmpty() public boolean
      * java.util.ArrayList.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -316,7 +313,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#clear() public void
      * java.util.ArrayList.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -339,7 +336,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#forEach(Consumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.ArrayList#forEach(java.util.function.Consumer) public void
      * java.util.ArrayList.forEach(java.util.function.Consumer<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -362,8 +360,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#spliterator() public java.util.Spliterator
-     * <E> java.util.ArrayList.spliterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#spliterator() public
+     * java.util.Spliterator<E> java.util.ArrayList.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -385,7 +383,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#trimToSize() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#trimToSize() public void
      * java.util.ArrayList.trimToSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -407,7 +405,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#set(int, Object) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#set(int, Object) public E
      * java.util.ArrayList.set(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -430,8 +428,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#subList(int, int) public java.util.List
-     * <E> java.util.ArrayList.subList(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#subList(int, int) public
+     * java.util.List<E> java.util.ArrayList.subList(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -453,7 +451,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#add(int, Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#add(int, Object) public void
      * java.util.ArrayList.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -476,7 +474,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#add(Object) public boolean
      * java.util.ArrayList.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -499,8 +497,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#retainAll(Collection) public boolean
-     * java.util.ArrayList.retainAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#retainAll(java.util.Collection)
+     * public boolean java.util.ArrayList.retainAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -522,7 +520,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#ensureCapacity(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#ensureCapacity(int) public void
      * java.util.ArrayList.ensureCapacity(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -544,7 +542,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#listIterator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#listIterator() public
      * java.util.ListIterator<E> java.util.ArrayList.listIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -567,7 +565,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#listIterator(int) public
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#listIterator(int) public
      * java.util.ListIterator<E> java.util.ArrayList.listIterator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -590,7 +588,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#clone() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#clone() public java.lang.Object
      * java.util.ArrayList.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -612,8 +610,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#addAll(Collection) public boolean
-     * java.util.ArrayList.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#addAll(java.util.Collection)
+     * public boolean java.util.ArrayList.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -635,7 +633,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#addAll(int, Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.ArrayList#addAll(int, java.util.Collection) public boolean
      * java.util.ArrayList.addAll(int,java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -658,7 +657,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#size() public int
      * java.util.ArrayList.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -681,7 +680,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#contains(Object) public boolean
      * java.util.ArrayList.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -704,7 +703,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ArrayList#lastIndexOf(Object) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.ArrayList#lastIndexOf(Object) public int
      * java.util.ArrayList.lastIndexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

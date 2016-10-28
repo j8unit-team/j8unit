@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NamingContext;
 import org.omg.CosNaming.NamingContextHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextHolderClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NamingContextHolder#NamingContextHolder()
-     * public org.omg.CosNaming.NamingContextHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextHolder#NamingContextHolder() public
+     * org.omg.CosNaming.NamingContextHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextHolderClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NamingContextHolder#NamingContextHolder(NamingContext) public
+     * {@link org.omg.CosNaming.NamingContextHolder#NamingContextHolder(org.omg.CosNaming.NamingContext) public
      * org.omg.CosNaming.NamingContextHolder(org.omg.CosNaming.NamingContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextHolderClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NamingContextHolder sut = null; // = new NamingContextHolder(NamingContext);
+        final NamingContextHolder sut = null; // = new NamingContextHolder(org.omg.CosNaming.NamingContext);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextHolder]

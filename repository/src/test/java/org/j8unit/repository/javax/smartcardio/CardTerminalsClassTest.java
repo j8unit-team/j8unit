@@ -35,8 +35,8 @@ implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests<CardT
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link State#values() public static
-         * javax.smartcardio.CardTerminals$State[] javax.smartcardio.CardTerminals$State.values()}.
+         * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CardTerminals.State#values()
+         * public static javax.smartcardio.CardTerminals$State[] javax.smartcardio.CardTerminals$State.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -50,12 +50,13 @@ implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests<CardT
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link State#values()}
+            // write some test for {@link javax.smartcardio.CardTerminals.State#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link State#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.smartcardio.CardTerminals.State#valueOf(String) public static
          * javax.smartcardio.CardTerminals$State javax.smartcardio.CardTerminals$State.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,7 +71,7 @@ implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests<CardT
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link State#valueOf(String)}
+            // write some test for {@link javax.smartcardio.CardTerminals.State#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardTerminals$State]

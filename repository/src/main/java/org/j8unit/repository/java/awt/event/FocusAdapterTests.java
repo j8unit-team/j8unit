@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.event;
 
 import java.awt.event.FocusAdapter;
-import java.awt.event.FocusEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FocusAdapter#focusGained(FocusEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.FocusAdapter#focusGained(java.awt.event.FocusEvent) public void
      * java.awt.event.FocusAdapter.focusGained(java.awt.event.FocusEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,8 @@ extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FocusAdapter#focusLost(FocusEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.FocusAdapter#focusLost(java.awt.event.FocusEvent) public void
      * java.awt.event.FocusAdapter.focusLost(java.awt.event.FocusEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

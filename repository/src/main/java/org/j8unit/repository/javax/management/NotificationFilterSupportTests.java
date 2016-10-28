@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Notification;
 import javax.management.NotificationFilterSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationFilterSupport#enableType(String) public
-     * synchronized void javax.management.NotificationFilterSupport.enableType(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.NotificationFilterSupport#enableType(String) public synchronized void
+     * javax.management.NotificationFilterSupport.enableType(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationFilterSupport#disableAllTypes() public
-     * synchronized void javax.management.NotificationFilterSupport.disableAllTypes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.NotificationFilterSupport#disableAllTypes() public synchronized void
+     * javax.management.NotificationFilterSupport.disableAllTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +82,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NotificationFilterSupport#isNotificationEnabled(Notification) public synchronized boolean
+     * {@link javax.management.NotificationFilterSupport#isNotificationEnabled(javax.management.Notification) public
+     * synchronized boolean
      * javax.management.NotificationFilterSupport.isNotificationEnabled(javax.management.Notification)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +106,9 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationFilterSupport#getEnabledTypes() public
-     * synchronized java.util.Vector<java.lang.String> javax.management.NotificationFilterSupport.getEnabledTypes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.NotificationFilterSupport#getEnabledTypes() public synchronized java.util.Vector
+     * <java.lang.String> javax.management.NotificationFilterSupport.getEnabledTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +129,9 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationFilterSupport#disableType(String) public
-     * synchronized void javax.management.NotificationFilterSupport.disableType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.NotificationFilterSupport#disableType(String) public synchronized void
+     * javax.management.NotificationFilterSupport.disableType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

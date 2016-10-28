@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.ServerRequest;
 import org.omg.PortableServer.DynamicImplementation;
 
 /**
@@ -35,8 +34,9 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynamicImplementation#invoke(ServerRequest) public
-     * abstract void org.omg.PortableServer.DynamicImplementation.invoke(org.omg.CORBA.ServerRequest)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.DynamicImplementation#invoke(org.omg.CORBA.ServerRequest) public abstract void
+     * org.omg.PortableServer.DynamicImplementation.invoke(org.omg.CORBA.ServerRequest)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

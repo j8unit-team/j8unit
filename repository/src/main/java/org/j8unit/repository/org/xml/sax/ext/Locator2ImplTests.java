@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2Tests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator2Impl#setEncoding(String) public void
-     * org.xml.sax.ext.Locator2Impl.setEncoding(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Locator2Impl#setEncoding(String)
+     * public void org.xml.sax.ext.Locator2Impl.setEncoding(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2Tests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator2Impl#getEncoding() public java.lang.String
-     * org.xml.sax.ext.Locator2Impl.getEncoding()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Locator2Impl#getEncoding() public
+     * java.lang.String org.xml.sax.ext.Locator2Impl.getEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,30 +79,8 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2Tests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator2Impl#setXMLVersion(String) public void
-     * org.xml.sax.ext.Locator2Impl.setXMLVersion(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setXMLVersion_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Locator2Impl#getXMLVersion() public java.lang.String
-     * org.xml.sax.ext.Locator2Impl.getXMLVersion()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Locator2Impl#getXMLVersion() public
+     * java.lang.String org.xml.sax.ext.Locator2Impl.getXMLVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -116,6 +94,28 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2Tests<SUT>, org.j8unit.rep
     @Test
     @Category(Draft.class)
     public default void test_getXMLVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Locator2Impl#setXMLVersion(String)
+     * public void org.xml.sax.ext.Locator2Impl.setXMLVersion(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setXMLVersion_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

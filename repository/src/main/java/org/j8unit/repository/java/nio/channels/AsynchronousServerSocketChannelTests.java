@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.net.SocketAddress;
-import java.net.SocketOption;
 import java.nio.channels.AsynchronousServerSocketChannel;
-import java.nio.channels.CompletionHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +36,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousServerSocketChannel#setOption(SocketOption, Object) public abstract
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#setOption(java.net.SocketOption, Object) public abstract
      * <T> java.nio.channels.AsynchronousServerSocketChannel
      * java.nio.channels.AsynchronousServerSocketChannel.setOption(java.net.SocketOption<T>,T) throws
      * java.io.IOException}.
@@ -64,8 +61,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousServerSocketChannel#bind(SocketAddress)
-     * public final java.nio.channels.AsynchronousServerSocketChannel
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress) public final
+     * java.nio.channels.AsynchronousServerSocketChannel
      * java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +87,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousServerSocketChannel#bind(SocketAddress, int) public abstract
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress, int) public abstract
      * java.nio.channels.AsynchronousServerSocketChannel
      * java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress,int) throws java.io.IOException}.
      *
@@ -112,9 +110,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousServerSocketChannel#provider() public
-     * final java.nio.channels.spi.AsynchronousChannelProvider
-     * java.nio.channels.AsynchronousServerSocketChannel.provider()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#provider() public final
+     * java.nio.channels.spi.AsynchronousChannelProvider java.nio.channels.AsynchronousServerSocketChannel.provider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,9 +133,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousServerSocketChannel#getLocalAddress()
-     * public abstract java.net.SocketAddress java.nio.channels.AsynchronousServerSocketChannel.getLocalAddress() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#getLocalAddress() public abstract java.net.SocketAddress
+     * java.nio.channels.AsynchronousServerSocketChannel.getLocalAddress() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,7 +158,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousServerSocketChannel#accept(Object, CompletionHandler) public abstract <A> void
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#accept(Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousServerSocketChannel.accept(A,java.nio.channels.CompletionHandler<java.nio.channels.AsynchronousSocketChannel,
      * ? super A>)}.
      *
@@ -183,8 +182,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousServerSocketChannel#accept() public
-     * abstract java.util.concurrent.Future
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#accept() public abstract java.util.concurrent.Future
      * <java.nio.channels.AsynchronousSocketChannel> java.nio.channels.AsynchronousServerSocketChannel.accept()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

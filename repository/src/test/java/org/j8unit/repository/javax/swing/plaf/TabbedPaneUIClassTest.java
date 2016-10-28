@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.TabbedPaneUIClassTests<TabbedP
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TabbedPaneUI#TabbedPaneUI() public
-     * javax.swing.plaf.TabbedPaneUI()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.TabbedPaneUI#TabbedPaneUI()
+     * public javax.swing.plaf.TabbedPaneUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

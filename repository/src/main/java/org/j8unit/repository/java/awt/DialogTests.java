@@ -1,10 +1,8 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Color;
 import java.awt.Dialog;
 import java.awt.Dialog.ModalExclusionType;
 import java.awt.Dialog.ModalityType;
-import java.awt.Shape;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +36,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#setOpacity(float) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setOpacity(float) public void
      * java.awt.Dialog.setOpacity(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +59,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#getModalityType() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#getModalityType() public
      * java.awt.Dialog$ModalityType java.awt.Dialog.getModalityType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +81,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#isModal() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#isModal() public boolean
      * java.awt.Dialog.isModal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,29 +103,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#setUndecorated(boolean) public void
-     * java.awt.Dialog.setUndecorated(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUndecorated_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#addNotify() public void
      * java.awt.Dialog.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,7 +126,29 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#setModal(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setUndecorated(boolean) public void
+     * java.awt.Dialog.setUndecorated(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUndecorated_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setModal(boolean) public void
      * java.awt.Dialog.setModal(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +170,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#isUndecorated() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#isUndecorated() public boolean
      * java.awt.Dialog.isUndecorated()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,7 +192,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#getTitle() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#getTitle() public java.lang.String
      * java.awt.Dialog.getTitle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,7 +214,8 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#hide() public void java.awt.Dialog.hide()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#hide() public void
+     * java.awt.Dialog.hide()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,7 +237,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.Dialog.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,8 +260,8 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#setBackground(Color) public void
-     * java.awt.Dialog.setBackground(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setBackground(java.awt.Color) public
+     * void java.awt.Dialog.setBackground(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -284,7 +283,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#toBack() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#toBack() public void
      * java.awt.Dialog.toBack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -307,7 +306,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#setShape(Shape) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setShape(java.awt.Shape) public void
      * java.awt.Dialog.setShape(java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -330,7 +329,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#setTitle(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setTitle(String) public void
      * java.awt.Dialog.setTitle(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -352,7 +351,8 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#show() public void java.awt.Dialog.show()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#show() public void
+     * java.awt.Dialog.show()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -374,7 +374,8 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#setModalityType(ModalityType) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Dialog#setModalityType(java.awt.Dialog.ModalityType) public void
      * java.awt.Dialog.setModalityType(java.awt.Dialog$ModalityType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -396,7 +397,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#isResizable() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#isResizable() public boolean
      * java.awt.Dialog.isResizable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -418,7 +419,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#setResizable(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setResizable(boolean) public void
      * java.awt.Dialog.setResizable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -440,7 +441,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dialog#setVisible(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setVisible(boolean) public void
      * java.awt.Dialog.setVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

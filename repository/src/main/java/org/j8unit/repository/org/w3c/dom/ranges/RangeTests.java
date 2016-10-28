@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 import org.w3c.dom.ranges.Range;
 
 /**
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#getEndContainer() public abstract
-     * org.w3c.dom.Node org.w3c.dom.ranges.Range.getEndContainer() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#getEndContainer() public
+     * abstract org.w3c.dom.Node org.w3c.dom.ranges.Range.getEndContainer() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#setStartAfter(Node) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#setStartAfter(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setStartAfter(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
      *
@@ -81,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#getStartContainer() public abstract
-     * org.w3c.dom.Node org.w3c.dom.ranges.Range.getStartContainer() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#getStartContainer() public
+     * abstract org.w3c.dom.Node org.w3c.dom.ranges.Range.getStartContainer() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#cloneContents() public abstract
-     * org.w3c.dom.DocumentFragment org.w3c.dom.ranges.Range.cloneContents() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#cloneContents() public
+     * abstract org.w3c.dom.DocumentFragment org.w3c.dom.ranges.Range.cloneContents() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +125,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#setEndBefore(Node) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#setEndBefore(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setEndBefore(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
      *
@@ -148,7 +149,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#insertNode(Node) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#insertNode(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.insertNode(org.w3c.dom.Node) throws
      * org.w3c.dom.DOMException,org.w3c.dom.ranges.RangeException}.
      *
@@ -171,8 +173,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#extractContents() public abstract
-     * org.w3c.dom.DocumentFragment org.w3c.dom.ranges.Range.extractContents() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#extractContents() public
+     * abstract org.w3c.dom.DocumentFragment org.w3c.dom.ranges.Range.extractContents() throws org.w3c.dom.DOMException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +196,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#getEndOffset() public abstract int
-     * org.w3c.dom.ranges.Range.getEndOffset() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#getEndOffset() public
+     * abstract int org.w3c.dom.ranges.Range.getEndOffset() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +218,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#cloneRange() public abstract
-     * org.w3c.dom.ranges.Range org.w3c.dom.ranges.Range.cloneRange() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#cloneRange() public
+     * abstract org.w3c.dom.ranges.Range org.w3c.dom.ranges.Range.cloneRange() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +240,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#getStartOffset() public abstract int
-     * org.w3c.dom.ranges.Range.getStartOffset() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#getStartOffset() public
+     * abstract int org.w3c.dom.ranges.Range.getStartOffset() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,7 +262,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#setEndAfter(Node) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#setEndAfter(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setEndAfter(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
      *
@@ -282,9 +286,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#compareBoundaryPoints(short, Range) public
-     * abstract short org.w3c.dom.ranges.Range.compareBoundaryPoints(short,org.w3c.dom.ranges.Range) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#compareBoundaryPoints(short, org.w3c.dom.ranges.Range) public abstract short
+     * org.w3c.dom.ranges.Range.compareBoundaryPoints(short,org.w3c.dom.ranges.Range) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -305,8 +309,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#getCollapsed() public abstract boolean
-     * org.w3c.dom.ranges.Range.getCollapsed() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#getCollapsed() public
+     * abstract boolean org.w3c.dom.ranges.Range.getCollapsed() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,8 +331,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#collapse(boolean) public abstract void
-     * org.w3c.dom.ranges.Range.collapse(boolean) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#collapse(boolean) public
+     * abstract void org.w3c.dom.ranges.Range.collapse(boolean) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -349,8 +353,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#detach() public abstract void
-     * org.w3c.dom.ranges.Range.detach() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#detach() public abstract
+     * void org.w3c.dom.ranges.Range.detach() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,7 +375,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#setEnd(Node, int) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#setEnd(org.w3c.dom.Node, int) public abstract void
      * org.w3c.dom.ranges.Range.setEnd(org.w3c.dom.Node,int) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
      *
@@ -394,7 +399,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#setStartBefore(Node) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#setStartBefore(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setStartBefore(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
      *
@@ -417,8 +423,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#toString() public abstract java.lang.String
-     * org.w3c.dom.ranges.Range.toString() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#toString() public abstract
+     * java.lang.String org.w3c.dom.ranges.Range.toString() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -439,8 +445,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#getCommonAncestorContainer() public abstract
-     * org.w3c.dom.Node org.w3c.dom.ranges.Range.getCommonAncestorContainer() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#getCommonAncestorContainer() public abstract org.w3c.dom.Node
+     * org.w3c.dom.ranges.Range.getCommonAncestorContainer() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -461,8 +468,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#deleteContents() public abstract void
-     * org.w3c.dom.ranges.Range.deleteContents() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#deleteContents() public
+     * abstract void org.w3c.dom.ranges.Range.deleteContents() throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -483,7 +490,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#selectNodeContents(Node) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#selectNodeContents(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.selectNodeContents(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
      *
@@ -506,7 +514,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#selectNode(Node) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#selectNode(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.selectNode(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
      *
@@ -529,7 +538,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#setStart(Node, int) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#setStart(org.w3c.dom.Node, int) public abstract void
      * org.w3c.dom.ranges.Range.setStart(org.w3c.dom.Node,int) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
      *
@@ -552,7 +562,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Range#surroundContents(Node) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#surroundContents(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.surroundContents(org.w3c.dom.Node) throws
      * org.w3c.dom.DOMException,org.w3c.dom.ranges.RangeException}.
      *

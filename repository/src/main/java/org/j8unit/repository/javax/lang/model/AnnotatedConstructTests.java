@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedConstruct#getAnnotationsByType(Class)
-     * public abstract <A> A[] javax.lang.model.AnnotatedConstruct.getAnnotationsByType(java.lang.Class<A>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.AnnotatedConstruct#getAnnotationsByType(Class) public abstract <A> A[]
+     * javax.lang.model.AnnotatedConstruct.getAnnotationsByType(java.lang.Class<A>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedConstruct#getAnnotation(Class) public
-     * abstract <A> A javax.lang.model.AnnotatedConstruct.getAnnotation(java.lang.Class<A>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.AnnotatedConstruct#getAnnotation(Class) public abstract <A> A
+     * javax.lang.model.AnnotatedConstruct.getAnnotation(java.lang.Class<A>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,9 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotatedConstruct#getAnnotationMirrors() public
-     * abstract java.util.List<? extends javax.lang.model.element.AnnotationMirror>
-     * javax.lang.model.AnnotatedConstruct.getAnnotationMirrors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.AnnotatedConstruct#getAnnotationMirrors() public abstract java.util.List<? extends
+     * javax.lang.model.element.AnnotationMirror> javax.lang.model.AnnotatedConstruct.getAnnotationMirrors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.text.DateFormat;
 import javax.swing.text.DateFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.swing.text.DateFormatterClassTests<DateFo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DateFormatter#DateFormatter() public
-     * javax.swing.text.DateFormatter()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.DateFormatter#DateFormatter()
+     * public javax.swing.text.DateFormatter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +42,8 @@ implements org.j8unit.repository.javax.swing.text.DateFormatterClassTests<DateFo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DateFormatter#DateFormatter(DateFormat) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.DateFormatter#DateFormatter(java.text.DateFormat) public
      * javax.swing.text.DateFormatter(java.text.DateFormat)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.javax.swing.text.DateFormatterClassTests<DateFo
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DateFormatter sut = null; // = new DateFormatter(DateFormat);
+        final DateFormatter sut = null; // = new DateFormatter(java.text.DateFormat);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DateFormatter]

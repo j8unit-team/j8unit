@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.KeyManagementExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyManagementException#KeyManagementException(Throwable) public
+     * {@link java.security.KeyManagementException#KeyManagementException(Throwable) public
      * java.security.KeyManagementException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.KeyManagementExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyManagementException#KeyManagementException(String, Throwable) public
+     * {@link java.security.KeyManagementException#KeyManagementException(String, Throwable) public
      * java.security.KeyManagementException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.security.KeyManagementExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KeyManagementException#KeyManagementException(String) public
+     * {@link java.security.KeyManagementException#KeyManagementException(String) public
      * java.security.KeyManagementException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,8 +90,9 @@ implements org.j8unit.repository.java.security.KeyManagementExceptionClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KeyManagementException#KeyManagementException()
-     * public java.security.KeyManagementException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.KeyManagementException#KeyManagementException() public
+     * java.security.KeyManagementException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

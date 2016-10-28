@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing.tree;
 
-import javax.swing.event.TreeModelListener;
 import javax.swing.tree.TreeModel;
-import javax.swing.tree.TreePath;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModel#getChild(Object, int) public abstract
-     * java.lang.Object javax.swing.tree.TreeModel.getChild(java.lang.Object,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeModel#getChild(Object, int)
+     * public abstract java.lang.Object javax.swing.tree.TreeModel.getChild(java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModel#valueForPathChanged(TreePath, Object)
-     * public abstract void javax.swing.tree.TreeModel.valueForPathChanged(javax.swing.tree.TreePath,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.TreeModel#valueForPathChanged(javax.swing.tree.TreePath, Object) public abstract void
+     * javax.swing.tree.TreeModel.valueForPathChanged(javax.swing.tree.TreePath,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModel#getIndexOfChild(Object, Object) public
-     * abstract int javax.swing.tree.TreeModel.getIndexOfChild(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.TreeModel#getIndexOfChild(Object, Object) public abstract int
+     * javax.swing.tree.TreeModel.getIndexOfChild(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModel#getChildCount(Object) public abstract int
-     * javax.swing.tree.TreeModel.getChildCount(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeModel#getChildCount(Object)
+     * public abstract int javax.swing.tree.TreeModel.getChildCount(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModel#removeTreeModelListener(TreeModelListener)
-     * public abstract void javax.swing.tree.TreeModel.removeTreeModelListener(javax.swing.event.TreeModelListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.TreeModel#removeTreeModelListener(javax.swing.event.TreeModelListener) public abstract
+     * void javax.swing.tree.TreeModel.removeTreeModelListener(javax.swing.event.TreeModelListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModel#isLeaf(Object) public abstract boolean
-     * javax.swing.tree.TreeModel.isLeaf(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeModel#isLeaf(Object) public
+     * abstract boolean javax.swing.tree.TreeModel.isLeaf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +170,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModel#getRoot() public abstract java.lang.Object
-     * javax.swing.tree.TreeModel.getRoot()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreeModel#getRoot() public abstract
+     * java.lang.Object javax.swing.tree.TreeModel.getRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +192,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreeModel#addTreeModelListener(TreeModelListener)
-     * public abstract void javax.swing.tree.TreeModel.addTreeModelListener(javax.swing.event.TreeModelListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.TreeModel#addTreeModelListener(javax.swing.event.TreeModelListener) public abstract void
+     * javax.swing.tree.TreeModel.addTreeModelListener(javax.swing.event.TreeModelListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

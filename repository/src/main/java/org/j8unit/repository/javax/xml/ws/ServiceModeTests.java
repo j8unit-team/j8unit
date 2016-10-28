@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceMode#value() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.ServiceMode#value() public abstract
      * javax.xml.ws.Service$Mode javax.xml.ws.ServiceMode.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

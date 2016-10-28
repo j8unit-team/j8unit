@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.MBeanTrustPermissionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanTrustPermission#MBeanTrustPermission(String) public
+     * {@link javax.management.MBeanTrustPermission#MBeanTrustPermission(String) public
      * javax.management.MBeanTrustPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.MBeanTrustPermissionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanTrustPermission#MBeanTrustPermission(String, String) public
+     * {@link javax.management.MBeanTrustPermission#MBeanTrustPermission(String, String) public
      * javax.management.MBeanTrustPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.LongHolderClassTests<LongHolder> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LongHolder#LongHolder() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.LongHolder#LongHolder() public
      * org.omg.CORBA.LongHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.LongHolderClassTests<LongHolder> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LongHolder#LongHolder(long) public
-     * org.omg.CORBA.LongHolder(long)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.LongHolder#LongHolder(long)
+     * public org.omg.CORBA.LongHolder(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

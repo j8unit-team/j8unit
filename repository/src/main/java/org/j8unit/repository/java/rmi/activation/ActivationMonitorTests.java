@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.rmi.activation;
 
-import java.rmi.MarshalledObject;
-import java.rmi.activation.ActivationGroupID;
-import java.rmi.activation.ActivationID;
 import java.rmi.activation.ActivationMonitor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,9 +35,9 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ActivationMonitor#inactiveGroup(ActivationGroupID, long) public abstract void
-     * java.rmi.activation.ActivationMonitor.inactiveGroup(java.rmi.activation.ActivationGroupID,long) throws
-     * java.rmi.activation.UnknownGroupException,java.rmi.RemoteException}.
+     * {@link java.rmi.activation.ActivationMonitor#inactiveGroup(java.rmi.activation.ActivationGroupID, long) public
+     * abstract void java.rmi.activation.ActivationMonitor.inactiveGroup(java.rmi.activation.ActivationGroupID,long)
+     * throws java.rmi.activation.UnknownGroupException,java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +59,8 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ActivationMonitor#activeObject(ActivationID, MarshalledObject) public abstract void
+     * {@link java.rmi.activation.ActivationMonitor#activeObject(java.rmi.activation.ActivationID, java.rmi.MarshalledObject)
+     * public abstract void
      * java.rmi.activation.ActivationMonitor.activeObject(java.rmi.activation.ActivationID,java.rmi.MarshalledObject<?
      * extends java.rmi.Remote>) throws java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
      *
@@ -85,9 +83,10 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationMonitor#inactiveObject(ActivationID)
-     * public abstract void java.rmi.activation.ActivationMonitor.inactiveObject(java.rmi.activation.ActivationID)
-     * throws java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.activation.ActivationMonitor#inactiveObject(java.rmi.activation.ActivationID) public abstract
+     * void java.rmi.activation.ActivationMonitor.inactiveObject(java.rmi.activation.ActivationID) throws
+     * java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

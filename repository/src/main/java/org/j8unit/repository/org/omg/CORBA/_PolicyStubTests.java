@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _PolicyStub#copy() public org.omg.CORBA.Policy
-     * org.omg.CORBA._PolicyStub.copy()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA._PolicyStub#copy() public
+     * org.omg.CORBA.Policy org.omg.CORBA._PolicyStub.copy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _PolicyStub#destroy() public void
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA._PolicyStub#destroy() public void
      * org.omg.CORBA._PolicyStub.destroy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _PolicyStub#_ids() public java.lang.String[]
-     * org.omg.CORBA._PolicyStub._ids()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA._PolicyStub#_ids() public
+     * java.lang.String[] org.omg.CORBA._PolicyStub._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +103,7 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _PolicyStub#policy_type() public int
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA._PolicyStub#policy_type() public int
      * org.omg.CORBA._PolicyStub.policy_type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

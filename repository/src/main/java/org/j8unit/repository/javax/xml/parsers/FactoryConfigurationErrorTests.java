@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FactoryConfigurationError#getCause() public
-     * java.lang.Throwable javax.xml.parsers.FactoryConfigurationError.getCause()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.FactoryConfigurationError#getCause() public java.lang.Throwable
+     * javax.xml.parsers.FactoryConfigurationError.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FactoryConfigurationError#getMessage() public
-     * java.lang.String javax.xml.parsers.FactoryConfigurationError.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.FactoryConfigurationError#getMessage() public java.lang.String
+     * javax.xml.parsers.FactoryConfigurationError.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,9 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FactoryConfigurationError#getException() public
-     * java.lang.Exception javax.xml.parsers.FactoryConfigurationError.getException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.FactoryConfigurationError#getException() public java.lang.Exception
+     * javax.xml.parsers.FactoryConfigurationError.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

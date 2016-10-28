@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.Provider;
 import java.security.cert.CertificateFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#getInstance(String, Provider)
-     * public static final java.security.cert.CertificateFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#getInstance(String, java.security.Provider) public static final
+     * java.security.cert.CertificateFactory
      * java.security.cert.CertificateFactory.getInstance(java.lang.String,java.security.Provider) throws
      * java.security.cert.CertificateException}.
      *
@@ -39,13 +39,14 @@ implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link CertificateFactory#getInstance(String, Provider)}
+        // write some test for {@link java.security.cert.CertificateFactory#getInstance(String, java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#getInstance(String, String)
-     * public static final java.security.cert.CertificateFactory
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#getInstance(String, String) public static final
+     * java.security.cert.CertificateFactory
      * java.security.cert.CertificateFactory.getInstance(java.lang.String,java.lang.String) throws
      * java.security.cert.CertificateException,java.security.NoSuchProviderException}.
      *
@@ -61,14 +62,15 @@ implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link CertificateFactory#getInstance(String, String)}
+        // write some test for {@link java.security.cert.CertificateFactory#getInstance(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertificateFactory#getInstance(String) public static
-     * final java.security.cert.CertificateFactory java.security.cert.CertificateFactory.getInstance(java.lang.String)
-     * throws java.security.cert.CertificateException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertificateFactory#getInstance(String) public static final
+     * java.security.cert.CertificateFactory java.security.cert.CertificateFactory.getInstance(java.lang.String) throws
+     * java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +84,7 @@ implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link CertificateFactory#getInstance(String)}
+        // write some test for {@link java.security.cert.CertificateFactory#getInstance(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertificateFactory]

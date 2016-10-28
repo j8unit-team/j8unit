@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.ToolTipUIClassTests<ToolTipUI>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ToolTipUI#ToolTipUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.ToolTipUI#ToolTipUI() public
      * javax.swing.plaf.ToolTipUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

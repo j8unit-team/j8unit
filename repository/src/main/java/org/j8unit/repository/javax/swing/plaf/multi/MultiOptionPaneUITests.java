@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
-import javax.swing.JOptionPane;
 import javax.swing.plaf.multi.MultiOptionPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiOptionPaneUI#containsCustomComponents(JOptionPane) public boolean
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#containsCustomComponents(javax.swing.JOptionPane) public boolean
      * javax.swing.plaf.multi.MultiOptionPaneUI.containsCustomComponents(javax.swing.JOptionPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#contains(JComponent, int, int)
-     * public boolean javax.swing.plaf.multi.MultiOptionPaneUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiOptionPaneUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +82,8 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#getUIs() public
-     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiOptionPaneUI.getUIs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiOptionPaneUI#getUIs()
+     * public javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiOptionPaneUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +104,9 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiOptionPaneUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiOptionPaneUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,7 +129,8 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiOptionPaneUI#getAccessibleChild(JComponent, int) public javax.accessibility.Accessible
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiOptionPaneUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,8 +153,9 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#getPreferredSize(JComponent)
-     * public java.awt.Dimension javax.swing.plaf.multi.MultiOptionPaneUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiOptionPaneUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,7 +177,8 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiOptionPaneUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,8 +201,9 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiOptionPaneUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiOptionPaneUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,8 +225,9 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#uninstallUI(JComponent) public
-     * void javax.swing.plaf.multi.MultiOptionPaneUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiOptionPaneUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,8 +249,9 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiOptionPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiOptionPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -268,8 +273,9 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#update(Graphics, JComponent)
-     * public void javax.swing.plaf.multi.MultiOptionPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiOptionPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -291,8 +297,9 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiOptionPaneUI#selectInitialValue(JOptionPane)
-     * public void javax.swing.plaf.multi.MultiOptionPaneUI.selectInitialValue(javax.swing.JOptionPane)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#selectInitialValue(javax.swing.JOptionPane) public void
+     * javax.swing.plaf.multi.MultiOptionPaneUI.selectInitialValue(javax.swing.JOptionPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -315,7 +322,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiOptionPaneUI#getAccessibleChildrenCount(JComponent) public int
+     * {@link javax.swing.plaf.multi.MultiOptionPaneUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiOptionPaneUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

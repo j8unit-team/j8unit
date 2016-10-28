@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BiPredicate#or(BiPredicate) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.BiPredicate#or(java.util.function.BiPredicate) public default
      * java.util.function.BiPredicate<T, U> java.util.function.BiPredicate.or(java.util.function.BiPredicate<? super T,
      * ? super U>)}.
      *
@@ -58,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BiPredicate#test(Object, Object) public abstract
-     * boolean java.util.function.BiPredicate.test(T,U)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.BiPredicate#test(Object, Object)
+     * public abstract boolean java.util.function.BiPredicate.test(T,U)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BiPredicate#negate() public default
-     * java.util.function.BiPredicate<T, U> java.util.function.BiPredicate.negate()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.BiPredicate#negate() public
+     * default java.util.function.BiPredicate<T, U> java.util.function.BiPredicate.negate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BiPredicate#and(BiPredicate) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.BiPredicate#and(java.util.function.BiPredicate) public default
      * java.util.function.BiPredicate<T, U> java.util.function.BiPredicate.and(java.util.function.BiPredicate<? super T,
      * ? super U>)}.
      *

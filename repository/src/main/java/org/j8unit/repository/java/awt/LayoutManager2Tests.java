@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Component;
-import java.awt.Container;
 import java.awt.LayoutManager2;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager2#getLayoutAlignmentY(Container) public
-     * abstract float java.awt.LayoutManager2.getLayoutAlignmentY(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager2#getLayoutAlignmentY(java.awt.Container) public abstract float
+     * java.awt.LayoutManager2.getLayoutAlignmentY(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager2#getLayoutAlignmentX(Container) public
-     * abstract float java.awt.LayoutManager2.getLayoutAlignmentX(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager2#getLayoutAlignmentX(java.awt.Container) public abstract float
+     * java.awt.LayoutManager2.getLayoutAlignmentX(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager2#invalidateLayout(Container) public
-     * abstract void java.awt.LayoutManager2.invalidateLayout(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager2#invalidateLayout(java.awt.Container) public abstract void
+     * java.awt.LayoutManager2.invalidateLayout(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,9 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager2#addLayoutComponent(Component, Object)
-     * public abstract void java.awt.LayoutManager2.addLayoutComponent(java.awt.Component,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager2#addLayoutComponent(java.awt.Component, Object) public abstract void
+     * java.awt.LayoutManager2.addLayoutComponent(java.awt.Component,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +126,9 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutManager2#maximumLayoutSize(Container) public
-     * abstract java.awt.Dimension java.awt.LayoutManager2.maximumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.LayoutManager2#maximumLayoutSize(java.awt.Container) public abstract java.awt.Dimension
+     * java.awt.LayoutManager2.maximumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

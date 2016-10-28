@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
 import java.util.concurrent.LinkedTransferQueue;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#add(Object) public boolean
-     * java.util.concurrent.LinkedTransferQueue.add(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#add(Object)
+     * public boolean java.util.concurrent.LinkedTransferQueue.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +59,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LinkedTransferQueue#tryTransfer(Object, long, TimeUnit) public boolean
-     * java.util.concurrent.LinkedTransferQueue.tryTransfer(E,long,java.util.concurrent.TimeUnit) throws
+     * {@link java.util.concurrent.LinkedTransferQueue#tryTransfer(Object, long, java.util.concurrent.TimeUnit) public
+     * boolean java.util.concurrent.LinkedTransferQueue.tryTransfer(E,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +83,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#tryTransfer(Object) public
-     * boolean java.util.concurrent.LinkedTransferQueue.tryTransfer(E)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#tryTransfer(Object) public boolean
+     * java.util.concurrent.LinkedTransferQueue.tryTransfer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +107,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#spliterator() public
-     * java.util.Spliterator<E> java.util.concurrent.LinkedTransferQueue.spliterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#spliterator() public java.util.Spliterator
+     * <E> java.util.concurrent.LinkedTransferQueue.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,7 +131,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#poll(long, TimeUnit) public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#poll(long, java.util.concurrent.TimeUnit) public E
      * java.util.concurrent.LinkedTransferQueue.poll(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
@@ -155,8 +156,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#poll() public E
-     * java.util.concurrent.LinkedTransferQueue.poll()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#poll()
+     * public E java.util.concurrent.LinkedTransferQueue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,8 +179,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#isEmpty() public boolean
-     * java.util.concurrent.LinkedTransferQueue.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#isEmpty()
+     * public boolean java.util.concurrent.LinkedTransferQueue.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,8 +202,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#hasWaitingConsumer() public
-     * boolean java.util.concurrent.LinkedTransferQueue.hasWaitingConsumer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#hasWaitingConsumer() public boolean
+     * java.util.concurrent.LinkedTransferQueue.hasWaitingConsumer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,8 +226,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#peek() public E
-     * java.util.concurrent.LinkedTransferQueue.peek()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#peek()
+     * public E java.util.concurrent.LinkedTransferQueue.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,8 +249,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#put(Object) public void
-     * java.util.concurrent.LinkedTransferQueue.put(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#put(Object)
+     * public void java.util.concurrent.LinkedTransferQueue.put(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,7 +272,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#remove(Object) public boolean
      * java.util.concurrent.LinkedTransferQueue.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -293,8 +296,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#drainTo(Collection, int) public
-     * int java.util.concurrent.LinkedTransferQueue.drainTo(java.util.Collection<? super E>,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#drainTo(java.util.Collection, int) public int
+     * java.util.concurrent.LinkedTransferQueue.drainTo(java.util.Collection<? super E>,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -316,7 +320,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#drainTo(Collection) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#drainTo(java.util.Collection) public int
      * java.util.concurrent.LinkedTransferQueue.drainTo(java.util.Collection<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -339,7 +344,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#transfer(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#transfer(Object) public void
      * java.util.concurrent.LinkedTransferQueue.transfer(E) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -362,8 +368,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#iterator() public
-     * java.util.Iterator<E> java.util.concurrent.LinkedTransferQueue.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#iterator()
+     * public java.util.Iterator<E> java.util.concurrent.LinkedTransferQueue.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -385,7 +391,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#contains(Object) public boolean
      * java.util.concurrent.LinkedTransferQueue.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -408,8 +415,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#take() public E
-     * java.util.concurrent.LinkedTransferQueue.take() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#take()
+     * public E java.util.concurrent.LinkedTransferQueue.take() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,7 +438,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#offer(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#offer(Object) public boolean
      * java.util.concurrent.LinkedTransferQueue.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -454,8 +462,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#offer(Object, long, TimeUnit)
-     * public boolean java.util.concurrent.LinkedTransferQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#offer(Object, long, java.util.concurrent.TimeUnit) public boolean
+     * java.util.concurrent.LinkedTransferQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -477,8 +486,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#size() public int
-     * java.util.concurrent.LinkedTransferQueue.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#size()
+     * public int java.util.concurrent.LinkedTransferQueue.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -500,8 +509,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#getWaitingConsumerCount() public
-     * int java.util.concurrent.LinkedTransferQueue.getWaitingConsumerCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#getWaitingConsumerCount() public int
+     * java.util.concurrent.LinkedTransferQueue.getWaitingConsumerCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -523,7 +533,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedTransferQueue#remainingCapacity() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#remainingCapacity() public int
      * java.util.concurrent.LinkedTransferQueue.remainingCapacity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

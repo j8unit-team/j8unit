@@ -1,14 +1,8 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Graphics;
-import java.awt.Point;
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicTextUI;
 import javax.swing.plaf.basic.BasicTextUI.BasicCaret;
 import javax.swing.plaf.basic.BasicTextUI.BasicHighlighter;
-import javax.swing.text.Element;
-import javax.swing.text.JTextComponent;
-import javax.swing.text.Position.Bias;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -43,7 +37,8 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicTextUI#getNextVisualPositionFrom(JTextComponent, int, Bias, int, Bias[]) public int
+     * {@link javax.swing.plaf.basic.BasicTextUI#getNextVisualPositionFrom(javax.swing.text.JTextComponent, int, javax.swing.text.Position.Bias, int, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.plaf.basic.BasicTextUI.getNextVisualPositionFrom(javax.swing.text.JTextComponent,int,javax.swing.text.Position$Bias,int,javax.swing.text.Position$Bias[])
      * throws javax.swing.text.BadLocationException}.
      *
@@ -67,7 +62,8 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicTextUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,8 +86,9 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#create(Element, int, int) public
-     * javax.swing.text.View javax.swing.plaf.basic.BasicTextUI.create(javax.swing.text.Element,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#create(javax.swing.text.Element, int, int) public javax.swing.text.View
+     * javax.swing.plaf.basic.BasicTextUI.create(javax.swing.text.Element,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -112,8 +109,9 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#create(Element) public
-     * javax.swing.text.View javax.swing.plaf.basic.BasicTextUI.create(javax.swing.text.Element)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#create(javax.swing.text.Element) public javax.swing.text.View
+     * javax.swing.plaf.basic.BasicTextUI.create(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,8 +133,9 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#getToolTipText(JTextComponent, Point)
-     * public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#getToolTipText(javax.swing.text.JTextComponent, java.awt.Point) public
+     * java.lang.String
      * javax.swing.plaf.basic.BasicTextUI.getToolTipText(javax.swing.text.JTextComponent,java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +159,32 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicTextUI#viewToModel(JTextComponent, Point, Bias[]) public int
+     * {@link javax.swing.plaf.basic.BasicTextUI#viewToModel(javax.swing.text.JTextComponent, java.awt.Point) public int
+     * javax.swing.plaf.basic.BasicTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_viewToModel_JTextComponent_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#viewToModel(javax.swing.text.JTextComponent, java.awt.Point, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.plaf.basic.BasicTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point,javax.swing.text.Position$Bias[])}
      * .
      *
@@ -184,31 +208,9 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#viewToModel(JTextComponent, Point)
-     * public int javax.swing.plaf.basic.BasicTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_viewToModel_JTextComponent_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicTextUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicTextUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -230,8 +232,9 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicTextUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicTextUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -253,7 +256,8 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#getRootView(JTextComponent) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#getRootView(javax.swing.text.JTextComponent) public
      * javax.swing.text.View javax.swing.plaf.basic.BasicTextUI.getRootView(javax.swing.text.JTextComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -276,7 +280,8 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicTextUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -299,8 +304,9 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#paint(Graphics, JComponent) public final
-     * void javax.swing.plaf.basic.BasicTextUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#paint(java.awt.Graphics, javax.swing.JComponent) public final void
+     * javax.swing.plaf.basic.BasicTextUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -322,7 +328,8 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#update(Graphics, JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#update(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicTextUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,7 +352,33 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#modelToView(JTextComponent, int, Bias)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#modelToView(javax.swing.text.JTextComponent, int) public
+     * java.awt.Rectangle javax.swing.plaf.basic.BasicTextUI.modelToView(javax.swing.text.JTextComponent,int) throws
+     * javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_modelToView_JTextComponent_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#modelToView(javax.swing.text.JTextComponent, int, javax.swing.text.Position.Bias)
      * public java.awt.Rectangle
      * javax.swing.plaf.basic.BasicTextUI.modelToView(javax.swing.text.JTextComponent,int,javax.swing.text.Position$Bias)
      * throws javax.swing.text.BadLocationException}.
@@ -370,31 +403,8 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#modelToView(JTextComponent, int) public
-     * java.awt.Rectangle javax.swing.plaf.basic.BasicTextUI.modelToView(javax.swing.text.JTextComponent,int) throws
-     * javax.swing.text.BadLocationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_modelToView_JTextComponent_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#getEditorKit(JTextComponent) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#getEditorKit(javax.swing.text.JTextComponent) public
      * javax.swing.text.EditorKit javax.swing.plaf.basic.BasicTextUI.getEditorKit(javax.swing.text.JTextComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -417,8 +427,9 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#damageRange(JTextComponent, int, int)
-     * public void javax.swing.plaf.basic.BasicTextUI.damageRange(javax.swing.text.JTextComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#damageRange(javax.swing.text.JTextComponent, int, int) public void
+     * javax.swing.plaf.basic.BasicTextUI.damageRange(javax.swing.text.JTextComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -441,7 +452,8 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicTextUI#damageRange(JTextComponent, int, int, Bias, Bias) public void
+     * {@link javax.swing.plaf.basic.BasicTextUI#damageRange(javax.swing.text.JTextComponent, int, int, javax.swing.text.Position.Bias, javax.swing.text.Position.Bias)
+     * public void
      * javax.swing.plaf.basic.BasicTextUI.damageRange(javax.swing.text.JTextComponent,int,int,javax.swing.text.Position$Bias,javax.swing.text.Position$Bias)}
      * .
      *
@@ -465,8 +477,9 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicTextUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicTextUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTextUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicTextUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

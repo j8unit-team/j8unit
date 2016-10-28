@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationSpiClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConfigurationSpi#ConfigurationSpi() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.login.ConfigurationSpi#ConfigurationSpi() public
      * javax.security.auth.login.ConfigurationSpi()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

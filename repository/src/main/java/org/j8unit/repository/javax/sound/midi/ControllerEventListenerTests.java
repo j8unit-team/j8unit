@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.sound.midi;
 
 import javax.sound.midi.ControllerEventListener;
-import javax.sound.midi.ShortMessage;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ControllerEventListener#controlChange(ShortMessage)
-     * public abstract void javax.sound.midi.ControllerEventListener.controlChange(javax.sound.midi.ShortMessage)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.ControllerEventListener#controlChange(javax.sound.midi.ShortMessage) public abstract void
+     * javax.sound.midi.ControllerEventListener.controlChange(javax.sound.midi.ShortMessage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.directory.InvalidAttributesExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidAttributesException#InvalidAttributesException(String) public
+     * {@link javax.naming.directory.InvalidAttributesException#InvalidAttributesException(String) public
      * javax.naming.directory.InvalidAttributesException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.naming.directory.InvalidAttributesExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidAttributesException#InvalidAttributesException() public
+     * {@link javax.naming.directory.InvalidAttributesException#InvalidAttributesException() public
      * javax.naming.directory.InvalidAttributesException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

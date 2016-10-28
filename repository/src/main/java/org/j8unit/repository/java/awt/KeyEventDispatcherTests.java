@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.KeyEventDispatcher;
-import java.awt.event.KeyEvent;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyEventDispatcher#dispatchKeyEvent(KeyEvent) public
-     * abstract boolean java.awt.KeyEventDispatcher.dispatchKeyEvent(java.awt.event.KeyEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.KeyEventDispatcher#dispatchKeyEvent(java.awt.event.KeyEvent) public abstract boolean
+     * java.awt.KeyEventDispatcher.dispatchKeyEvent(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

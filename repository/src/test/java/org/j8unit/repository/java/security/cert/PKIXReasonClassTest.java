@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.security.cert.PKIXReasonClassTests<PKIXRea
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKIXReason#values() public static
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.PKIXReason#values() public static
      * java.security.cert.PKIXReason[] java.security.cert.PKIXReason.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.security.cert.PKIXReasonClassTests<PKIXRea
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link PKIXReason#values()}
+        // write some test for {@link java.security.cert.PKIXReason#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKIXReason#valueOf(String) public static
-     * java.security.cert.PKIXReason java.security.cert.PKIXReason.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.PKIXReason#valueOf(String) public
+     * static java.security.cert.PKIXReason java.security.cert.PKIXReason.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.security.cert.PKIXReasonClassTests<PKIXRea
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link PKIXReason#valueOf(String)}
+        // write some test for {@link java.security.cert.PKIXReason#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXReason]

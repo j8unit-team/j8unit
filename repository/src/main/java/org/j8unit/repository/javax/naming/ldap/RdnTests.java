@@ -35,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rdn#size() public int javax.naming.ldap.Rdn.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#size() public int
+     * javax.naming.ldap.Rdn.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rdn#toAttributes() public
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#toAttributes() public
      * javax.naming.directory.Attributes javax.naming.ldap.Rdn.toAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +79,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rdn#getType() public java.lang.String
-     * javax.naming.ldap.Rdn.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#getType() public
+     * java.lang.String javax.naming.ldap.Rdn.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +101,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rdn#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#hashCode() public int
      * javax.naming.ldap.Rdn.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +124,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rdn#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#equals(Object) public boolean
      * javax.naming.ldap.Rdn.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +147,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rdn#getValue() public java.lang.Object
-     * javax.naming.ldap.Rdn.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#getValue() public
+     * java.lang.Object javax.naming.ldap.Rdn.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +169,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rdn#toString() public java.lang.String
-     * javax.naming.ldap.Rdn.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#toString() public
+     * java.lang.String javax.naming.ldap.Rdn.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,7 +192,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rdn#compareTo(Object) public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#compareTo(Object) public int
      * javax.naming.ldap.Rdn.compareTo(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

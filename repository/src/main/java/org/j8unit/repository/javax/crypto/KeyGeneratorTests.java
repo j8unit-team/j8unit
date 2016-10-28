@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.security.SecureRandom;
-import java.security.spec.AlgorithmParameterSpec;
 import javax.crypto.KeyGenerator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#getProvider() public final
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyGenerator#getProvider() public final
      * java.security.Provider javax.crypto.KeyGenerator.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#getAlgorithm() public final
-     * java.lang.String javax.crypto.KeyGenerator.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyGenerator#getAlgorithm() public
+     * final java.lang.String javax.crypto.KeyGenerator.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#generateKey() public final
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyGenerator#generateKey() public final
      * javax.crypto.SecretKey javax.crypto.KeyGenerator.generateKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#init(SecureRandom) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.KeyGenerator#init(java.security.SecureRandom) public final void
      * javax.crypto.KeyGenerator.init(java.security.SecureRandom)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +123,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#init(int, SecureRandom) public final
-     * void javax.crypto.KeyGenerator.init(int,java.security.SecureRandom)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.KeyGenerator#init(int, java.security.SecureRandom) public final void
+     * javax.crypto.KeyGenerator.init(int,java.security.SecureRandom)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#init(int) public final void
-     * javax.crypto.KeyGenerator.init(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyGenerator#init(int) public final
+     * void javax.crypto.KeyGenerator.init(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +169,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyGenerator#init(AlgorithmParameterSpec, SecureRandom) public final void
+     * {@link javax.crypto.KeyGenerator#init(java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom)
+     * public final void
      * javax.crypto.KeyGenerator.init(java.security.spec.AlgorithmParameterSpec,java.security.SecureRandom) throws
      * java.security.InvalidAlgorithmParameterException}.
      *
@@ -192,8 +193,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyGenerator#init(AlgorithmParameterSpec) public
-     * final void javax.crypto.KeyGenerator.init(java.security.spec.AlgorithmParameterSpec) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.KeyGenerator#init(java.security.spec.AlgorithmParameterSpec) public final void
+     * javax.crypto.KeyGenerator.init(java.security.spec.AlgorithmParameterSpec) throws
      * java.security.InvalidAlgorithmParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

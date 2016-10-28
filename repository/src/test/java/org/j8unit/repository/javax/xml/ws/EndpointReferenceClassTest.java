@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.ws;
 
-import javax.xml.transform.Source;
 import javax.xml.ws.EndpointReference;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.xml.ws.EndpointReferenceClassTests<Endpoi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EndpointReference#readFrom(Source) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.EndpointReference#readFrom(javax.xml.transform.Source) public static
      * javax.xml.ws.EndpointReference javax.xml.ws.EndpointReference.readFrom(javax.xml.transform.Source)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +37,7 @@ implements org.j8unit.repository.javax.xml.ws.EndpointReferenceClassTests<Endpoi
     @Category(Draft.class)
     public void test_readFrom_Source()
     throws Exception {
-        // write some test for {@link EndpointReference#readFrom(Source)}
+        // write some test for {@link javax.xml.ws.EndpointReference#readFrom(javax.xml.transform.Source)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.EndpointReference]

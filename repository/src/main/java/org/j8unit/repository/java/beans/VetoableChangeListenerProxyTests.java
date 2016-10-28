@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans;
 
-import java.beans.PropertyChangeEvent;
 import java.beans.VetoableChangeListener;
 import java.beans.VetoableChangeListenerProxy;
 import org.j8unit.repository.categories.Draft;
@@ -38,7 +37,7 @@ org.j8unit.repository.java.util.EventListenerProxyTests<SUT, VetoableChangeListe
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link VetoableChangeListenerProxy#vetoableChange(PropertyChangeEvent) public void
+     * {@link java.beans.VetoableChangeListenerProxy#vetoableChange(java.beans.PropertyChangeEvent) public void
      * java.beans.VetoableChangeListenerProxy.vetoableChange(java.beans.PropertyChangeEvent) throws
      * java.beans.PropertyVetoException}.
      *
@@ -62,8 +61,9 @@ org.j8unit.repository.java.util.EventListenerProxyTests<SUT, VetoableChangeListe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VetoableChangeListenerProxy#getPropertyName() public
-     * java.lang.String java.beans.VetoableChangeListenerProxy.getPropertyName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.VetoableChangeListenerProxy#getPropertyName() public java.lang.String
+     * java.beans.VetoableChangeListenerProxy.getPropertyName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

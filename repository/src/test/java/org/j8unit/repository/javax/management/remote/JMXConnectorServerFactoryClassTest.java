@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management.remote;
 
-import java.util.Map;
-import javax.management.MBeanServer;
 import javax.management.remote.JMXConnectorServerFactory;
-import javax.management.remote.JMXServiceURL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,8 +22,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorServerFacto
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMXConnectorServerFactory#newJMXConnectorServer(JMXServiceURL, Map, MBeanServer) public static
-     * javax.management.remote.JMXConnectorServer
+     * {@link javax.management.remote.JMXConnectorServerFactory#newJMXConnectorServer(javax.management.remote.JMXServiceURL, java.util.Map, javax.management.MBeanServer)
+     * public static javax.management.remote.JMXConnectorServer
      * javax.management.remote.JMXConnectorServerFactory.newJMXConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
      * ?>,javax.management.MBeanServer) throws java.io.IOException}.
      *
@@ -42,7 +39,9 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorServerFacto
     @Category(Draft.class)
     public void test_newJMXConnectorServer_JMXServiceURL_Map_MBeanServer()
     throws Exception {
-        // write some test for {@link JMXConnectorServerFactory#newJMXConnectorServer(JMXServiceURL, Map, MBeanServer)}
+        // write some test for {@link
+        // javax.management.remote.JMXConnectorServerFactory#newJMXConnectorServer(javax.management.remote.JMXServiceURL,
+        // java.util.Map, javax.management.MBeanServer)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorServerFactory]

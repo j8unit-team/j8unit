@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Component;
-import java.awt.Container;
 import java.awt.GridLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#getVgap() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#getVgap() public int
      * java.awt.GridLayout.getVgap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +57,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#setVgap(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#setVgap(int) public void
      * java.awt.GridLayout.setVgap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +79,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#setRows(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#setRows(int) public void
      * java.awt.GridLayout.setRows(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +101,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#minimumLayoutSize(Container) public
-     * java.awt.Dimension java.awt.GridLayout.minimumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.GridLayout.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +125,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#layoutContainer(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#layoutContainer(java.awt.Container) public void
      * java.awt.GridLayout.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +149,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#addLayoutComponent(String, Component)
-     * public void java.awt.GridLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#addLayoutComponent(String, java.awt.Component) public void
+     * java.awt.GridLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +173,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#toString() public java.lang.String
-     * java.awt.GridLayout.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#toString() public
+     * java.lang.String java.awt.GridLayout.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,7 +196,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#setHgap(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#setHgap(int) public void
      * java.awt.GridLayout.setHgap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -217,8 +218,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#preferredLayoutSize(Container) public
-     * java.awt.Dimension java.awt.GridLayout.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.GridLayout.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,7 +242,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#setColumns(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#setColumns(int) public void
      * java.awt.GridLayout.setColumns(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,8 +264,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#removeLayoutComponent(Component) public
-     * void java.awt.GridLayout.removeLayoutComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#removeLayoutComponent(java.awt.Component) public void
+     * java.awt.GridLayout.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -285,7 +288,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#getHgap() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#getHgap() public int
      * java.awt.GridLayout.getHgap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -307,7 +310,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#getRows() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#getRows() public int
      * java.awt.GridLayout.getRows()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -329,7 +332,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GridLayout#getColumns() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#getColumns() public int
      * java.awt.GridLayout.getColumns()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

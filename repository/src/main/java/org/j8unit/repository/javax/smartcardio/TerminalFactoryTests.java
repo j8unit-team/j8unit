@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TerminalFactory#terminals() public
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.TerminalFactory#terminals() public
      * javax.smartcardio.CardTerminals javax.smartcardio.TerminalFactory.terminals()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TerminalFactory#getProvider() public
-     * java.security.Provider javax.smartcardio.TerminalFactory.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.TerminalFactory#getProvider()
+     * public java.security.Provider javax.smartcardio.TerminalFactory.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TerminalFactory#toString() public java.lang.String
-     * javax.smartcardio.TerminalFactory.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.TerminalFactory#toString() public
+     * java.lang.String javax.smartcardio.TerminalFactory.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TerminalFactory#getType() public java.lang.String
-     * javax.smartcardio.TerminalFactory.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.TerminalFactory#getType() public
+     * java.lang.String javax.smartcardio.TerminalFactory.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

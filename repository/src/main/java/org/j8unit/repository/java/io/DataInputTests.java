@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readFloat() public abstract float
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readFloat() public abstract float
      * java.io.DataInput.readFloat() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readBoolean() public abstract boolean
-     * java.io.DataInput.readBoolean() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readBoolean() public abstract
+     * boolean java.io.DataInput.readBoolean() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readByte() public abstract byte
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readByte() public abstract byte
      * java.io.DataInput.readByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readInt() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readInt() public abstract int
      * java.io.DataInput.readInt() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readUnsignedByte() public abstract int
-     * java.io.DataInput.readUnsignedByte() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readUnsignedByte() public abstract
+     * int java.io.DataInput.readUnsignedByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readUnsignedShort() public abstract int
-     * java.io.DataInput.readUnsignedShort() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readUnsignedShort() public
+     * abstract int java.io.DataInput.readUnsignedShort() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +167,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readLong() public abstract long
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readLong() public abstract long
      * java.io.DataInput.readLong() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +189,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readUTF() public abstract java.lang.String
-     * java.io.DataInput.readUTF() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readUTF() public abstract
+     * java.lang.String java.io.DataInput.readUTF() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +211,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readShort() public abstract short
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readShort() public abstract short
      * java.io.DataInput.readShort() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,8 +233,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readDouble() public abstract double
-     * java.io.DataInput.readDouble() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readDouble() public abstract
+     * double java.io.DataInput.readDouble() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,7 +255,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readFully(byte[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readFully(byte[], int, int) public
      * abstract void java.io.DataInput.readFully(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,8 +277,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readFully(byte[]) public abstract void
-     * java.io.DataInput.readFully(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readFully(byte[]) public abstract
+     * void java.io.DataInput.readFully(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -299,7 +299,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readLine() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readLine() public abstract
      * java.lang.String java.io.DataInput.readLine() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -321,7 +321,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#readChar() public abstract char
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#readChar() public abstract char
      * java.io.DataInput.readChar() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -343,7 +343,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataInput#skipBytes(int) public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.io.DataInput#skipBytes(int) public abstract int
      * java.io.DataInput.skipBytes(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -2,7 +2,6 @@ package org.j8unit.repository.java.awt;
 
 import static org.junit.Assert.fail;
 import java.awt.AWTEvent;
-import java.awt.Event;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Assert;
@@ -24,7 +23,27 @@ implements org.j8unit.repository.java.awt.AWTEventClassTests<AWTEvent> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AWTEvent#AWTEvent(Object, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.AWTEvent#AWTEvent(java.awt.Event)
+     * public java.awt.AWTEvent(java.awt.Event)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("Cannot construct an abstract class!")
+    @Test
+    @Category(Draft.class)
+    public void create_AWTEvent_Event()
+    throws Exception {
+        fail("Cannot construct an abstract class!");
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.AWTEvent#AWTEvent(Object, int) public
      * java.awt.AWTEvent(java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,26 +57,6 @@ implements org.j8unit.repository.java.awt.AWTEventClassTests<AWTEvent> {
     @Test
     @Category(Draft.class)
     public void create_AWTEvent_Object_int()
-    throws Exception {
-        fail("Cannot construct an abstract class!");
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AWTEvent#AWTEvent(Event) public
-     * java.awt.AWTEvent(java.awt.Event)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("Cannot construct an abstract class!")
-    @Test
-    @Category(Draft.class)
-    public void create_AWTEvent_Event()
     throws Exception {
         Assert.fail("Cannot construct an abstract class!");
     }

@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.security.auth.login.LoginExceptionClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LoginException#LoginException() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.login.LoginException#LoginException() public
      * javax.security.auth.login.LoginException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.javax.security.auth.login.LoginExceptionClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LoginException#LoginException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.login.LoginException#LoginException(String) public
      * javax.security.auth.login.LoginException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

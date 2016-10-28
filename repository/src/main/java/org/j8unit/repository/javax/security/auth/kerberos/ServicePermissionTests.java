@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth.kerberos;
 
-import java.security.Permission;
 import javax.security.auth.kerberos.ServicePermission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServicePermission#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#equals(Object) public boolean
      * javax.security.auth.kerberos.ServicePermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServicePermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#hashCode() public int
      * javax.security.auth.kerberos.ServicePermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +82,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServicePermission#newPermissionCollection() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#newPermissionCollection() public
      * java.security.PermissionCollection javax.security.auth.kerberos.ServicePermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +106,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServicePermission#implies(Permission) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#implies(java.security.Permission) public boolean
      * javax.security.auth.kerberos.ServicePermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +130,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServicePermission#getActions() public
-     * java.lang.String javax.security.auth.kerberos.ServicePermission.getActions()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#getActions() public java.lang.String
+     * javax.security.auth.kerberos.ServicePermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

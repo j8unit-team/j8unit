@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.GridBagConstraints;
-import java.awt.Insets;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.awt.GridBagConstraintsClassTests<GridBagCo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GridBagConstraints#GridBagConstraints() public
-     * java.awt.GridBagConstraints()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.GridBagConstraints#GridBagConstraints() public java.awt.GridBagConstraints()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.java.awt.GridBagConstraintsClassTests<GridBagCo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GridBagConstraints#GridBagConstraints(int, int, int, int, double, double, int, int, Insets, int, int)
+     * {@link java.awt.GridBagConstraints#GridBagConstraints(int, int, int, int, double, double, int, int, java.awt.Insets, int, int)
      * public java.awt.GridBagConstraints(int,int,int,int,double,double,int,int,java.awt.Insets,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +61,7 @@ implements org.j8unit.repository.java.awt.GridBagConstraintsClassTests<GridBagCo
         // create new instance
         @SuppressWarnings("unused")
         final GridBagConstraints sut = null; // = new GridBagConstraints(int, int, int, int, double, double, int, int,
-                                             // Insets, int, int);
+                                             // java.awt.Insets, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GridBagConstraints]

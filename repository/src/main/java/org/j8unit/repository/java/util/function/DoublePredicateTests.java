@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoublePredicate#or(DoublePredicate) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.DoublePredicate#or(java.util.function.DoublePredicate) public default
      * java.util.function.DoublePredicate java.util.function.DoublePredicate.or(java.util.function.DoublePredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoublePredicate#negate() public default
-     * java.util.function.DoublePredicate java.util.function.DoublePredicate.negate()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.DoublePredicate#negate() public
+     * default java.util.function.DoublePredicate java.util.function.DoublePredicate.negate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoublePredicate#and(DoublePredicate) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.DoublePredicate#and(java.util.function.DoublePredicate) public default
      * java.util.function.DoublePredicate java.util.function.DoublePredicate.and(java.util.function.DoublePredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoublePredicate#test(double) public abstract boolean
-     * java.util.function.DoublePredicate.test(double)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.DoublePredicate#test(double)
+     * public abstract boolean java.util.function.DoublePredicate.test(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

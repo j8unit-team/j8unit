@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.event;
 
 import java.awt.event.HierarchyBoundsListener;
-import java.awt.event.HierarchyEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link HierarchyBoundsListener#ancestorResized(HierarchyEvent) public abstract void
+     * {@link java.awt.event.HierarchyBoundsListener#ancestorResized(java.awt.event.HierarchyEvent) public abstract void
      * java.awt.event.HierarchyBoundsListener.ancestorResized(java.awt.event.HierarchyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link HierarchyBoundsListener#ancestorMoved(HierarchyEvent) public abstract void
+     * {@link java.awt.event.HierarchyBoundsListener#ancestorMoved(java.awt.event.HierarchyEvent) public abstract void
      * java.awt.event.HierarchyBoundsListener.ancestorMoved(java.awt.event.HierarchyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

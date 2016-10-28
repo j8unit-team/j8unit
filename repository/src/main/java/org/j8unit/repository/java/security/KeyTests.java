@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Key#getEncoded() public abstract byte[]
-     * java.security.Key.getEncoded()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Key#getEncoded() public abstract
+     * byte[] java.security.Key.getEncoded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Key#getAlgorithm() public abstract java.lang.String
-     * java.security.Key.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Key#getAlgorithm() public abstract
+     * java.lang.String java.security.Key.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Key#getFormat() public abstract java.lang.String
-     * java.security.Key.getFormat()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Key#getFormat() public abstract
+     * java.lang.String java.security.Key.getFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

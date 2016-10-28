@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.plugins.jpeg;
 
-import java.util.Locale;
 import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageWriteParamC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JPEGImageWriteParam#JPEGImageWriteParam(Locale)
-     * public javax.imageio.plugins.jpeg.JPEGImageWriteParam(java.util.Locale)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#JPEGImageWriteParam(java.util.Locale) public
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageWriteParamC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JPEGImageWriteParam sut = null; // = new JPEGImageWriteParam(Locale);
+        final JPEGImageWriteParam sut = null; // = new JPEGImageWriteParam(java.util.Locale);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]

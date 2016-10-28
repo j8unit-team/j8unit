@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.activation;
 
-import java.awt.datatransfer.DataFlavor;
-import java.io.OutputStream;
 import javax.activation.DataContentHandler;
-import javax.activation.DataSource;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataContentHandler#getTransferDataFlavors() public
-     * abstract java.awt.datatransfer.DataFlavor[] javax.activation.DataContentHandler.getTransferDataFlavors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.DataContentHandler#getTransferDataFlavors() public abstract
+     * java.awt.datatransfer.DataFlavor[] javax.activation.DataContentHandler.getTransferDataFlavors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +59,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DataContentHandler#getTransferData(DataFlavor, DataSource) public abstract java.lang.Object
+     * {@link javax.activation.DataContentHandler#getTransferData(java.awt.datatransfer.DataFlavor, javax.activation.DataSource)
+     * public abstract java.lang.Object
      * javax.activation.DataContentHandler.getTransferData(java.awt.datatransfer.DataFlavor,javax.activation.DataSource)
      * throws java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
      *
@@ -85,7 +84,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DataContentHandler#writeTo(Object, String, OutputStream) public abstract void
+     * {@link javax.activation.DataContentHandler#writeTo(Object, String, java.io.OutputStream) public abstract void
      * javax.activation.DataContentHandler.writeTo(java.lang.Object,java.lang.String,java.io.OutputStream) throws
      * java.io.IOException}.
      *
@@ -108,8 +107,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataContentHandler#getContent(DataSource) public
-     * abstract java.lang.Object javax.activation.DataContentHandler.getContent(javax.activation.DataSource) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.DataContentHandler#getContent(javax.activation.DataSource) public abstract
+     * java.lang.Object javax.activation.DataContentHandler.getContent(javax.activation.DataSource) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

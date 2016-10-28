@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BMPImageWriteParam#setTopDown(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.bmp.BMPImageWriteParam#setTopDown(boolean) public void
      * javax.imageio.plugins.bmp.BMPImageWriteParam.setTopDown(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +57,8 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BMPImageWriteParam#isTopDown() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.bmp.BMPImageWriteParam#isTopDown() public boolean
      * javax.imageio.plugins.bmp.BMPImageWriteParam.isTopDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

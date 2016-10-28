@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.nio.charset.CharacterCodingExceptionTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MalformedInputException#getInputLength() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.MalformedInputException#getInputLength() public int
      * java.nio.charset.MalformedInputException.getInputLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.nio.charset.CharacterCodingExceptionTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MalformedInputException#getMessage() public
-     * java.lang.String java.nio.charset.MalformedInputException.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.charset.MalformedInputException#getMessage() public java.lang.String
+     * java.nio.charset.MalformedInputException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

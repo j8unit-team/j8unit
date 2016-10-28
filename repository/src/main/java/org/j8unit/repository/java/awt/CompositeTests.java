@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Composite;
-import java.awt.RenderingHints;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Composite#createContext(ColorModel, ColorModel, RenderingHints) public abstract java.awt.CompositeContext
+     * {@link java.awt.Composite#createContext(java.awt.image.ColorModel, java.awt.image.ColorModel, java.awt.RenderingHints)
+     * public abstract java.awt.CompositeContext
      * java.awt.Composite.createContext(java.awt.image.ColorModel,java.awt.image.ColorModel,java.awt.RenderingHints)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.activity.ActivityRequiredExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivityRequiredException#ActivityRequiredException(String, Throwable) public
+     * {@link javax.activity.ActivityRequiredException#ActivityRequiredException(String, Throwable) public
      * javax.activity.ActivityRequiredException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.activity.ActivityRequiredExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivityRequiredException#ActivityRequiredException(Throwable) public
+     * {@link javax.activity.ActivityRequiredException#ActivityRequiredException(Throwable) public
      * javax.activity.ActivityRequiredException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.activity.ActivityRequiredExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivityRequiredException#ActivityRequiredException(String) public
+     * {@link javax.activity.ActivityRequiredException#ActivityRequiredException(String) public
      * javax.activity.ActivityRequiredException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,8 @@ implements org.j8unit.repository.javax.activity.ActivityRequiredExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivityRequiredException#ActivityRequiredException() public javax.activity.ActivityRequiredException()}.
+     * {@link javax.activity.ActivityRequiredException#ActivityRequiredException() public
+     * javax.activity.ActivityRequiredException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

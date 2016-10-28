@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.transform.sax;
 
-import javax.xml.transform.Source;
-import javax.xml.transform.Templates;
 import javax.xml.transform.sax.SAXTransformerFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXTransformerFactory#newTransformerHandler(Source)
-     * public abstract javax.xml.transform.sax.TransformerHandler
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXTransformerFactory#newTransformerHandler(javax.xml.transform.Source) public
+     * abstract javax.xml.transform.sax.TransformerHandler
      * javax.xml.transform.sax.SAXTransformerFactory.newTransformerHandler(javax.xml.transform.Source) throws
      * javax.xml.transform.TransformerConfigurationException}.
      *
@@ -61,8 +60,8 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SAXTransformerFactory#newTransformerHandler(Templates) public abstract
-     * javax.xml.transform.sax.TransformerHandler
+     * {@link javax.xml.transform.sax.SAXTransformerFactory#newTransformerHandler(javax.xml.transform.Templates) public
+     * abstract javax.xml.transform.sax.TransformerHandler
      * javax.xml.transform.sax.SAXTransformerFactory.newTransformerHandler(javax.xml.transform.Templates) throws
      * javax.xml.transform.TransformerConfigurationException}.
      *
@@ -85,10 +84,10 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXTransformerFactory#newTransformerHandler() public
-     * abstract javax.xml.transform.sax.TransformerHandler
-     * javax.xml.transform.sax.SAXTransformerFactory.newTransformerHandler() throws
-     * javax.xml.transform.TransformerConfigurationException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXTransformerFactory#newTransformerHandler() public abstract
+     * javax.xml.transform.sax.TransformerHandler javax.xml.transform.sax.SAXTransformerFactory.newTransformerHandler()
+     * throws javax.xml.transform.TransformerConfigurationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,10 +108,10 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXTransformerFactory#newXMLFilter(Source) public
-     * abstract org.xml.sax.XMLFilter
-     * javax.xml.transform.sax.SAXTransformerFactory.newXMLFilter(javax.xml.transform.Source) throws
-     * javax.xml.transform.TransformerConfigurationException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXTransformerFactory#newXMLFilter(javax.xml.transform.Source) public abstract
+     * org.xml.sax.XMLFilter javax.xml.transform.sax.SAXTransformerFactory.newXMLFilter(javax.xml.transform.Source)
+     * throws javax.xml.transform.TransformerConfigurationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,10 +132,10 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXTransformerFactory#newXMLFilter(Templates) public
-     * abstract org.xml.sax.XMLFilter
-     * javax.xml.transform.sax.SAXTransformerFactory.newXMLFilter(javax.xml.transform.Templates) throws
-     * javax.xml.transform.TransformerConfigurationException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXTransformerFactory#newXMLFilter(javax.xml.transform.Templates) public abstract
+     * org.xml.sax.XMLFilter javax.xml.transform.sax.SAXTransformerFactory.newXMLFilter(javax.xml.transform.Templates)
+     * throws javax.xml.transform.TransformerConfigurationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,10 +156,10 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXTransformerFactory#newTemplatesHandler() public
-     * abstract javax.xml.transform.sax.TemplatesHandler
-     * javax.xml.transform.sax.SAXTransformerFactory.newTemplatesHandler() throws
-     * javax.xml.transform.TransformerConfigurationException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXTransformerFactory#newTemplatesHandler() public abstract
+     * javax.xml.transform.sax.TemplatesHandler javax.xml.transform.sax.SAXTransformerFactory.newTemplatesHandler()
+     * throws javax.xml.transform.TransformerConfigurationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

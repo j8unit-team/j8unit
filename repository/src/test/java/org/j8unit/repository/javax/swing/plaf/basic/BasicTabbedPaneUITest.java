@@ -41,6 +41,51 @@ implements FactoryBasedJ8UnitTest<BasicTabbedPaneUI>, org.j8unit.repository.java
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI]
 
     @RunWith(J8Unit4.class)
+    public static class TabbedPaneLayoutTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabbedPaneLayoutTests<TabbedPaneLayout> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
+
+        @Override
+        public TabbedPaneLayout createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTabbedPaneUI.TabbedPaneLayout], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class MouseHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.MouseHandlerTests<MouseHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
+        @Override
+        public MouseHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTabbedPaneUI.MouseHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+
+        @Override
+        public PropertyChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTabbedPaneUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class TabSelectionHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabSelectionHandlerTests<TabSelectionHandler> {
 
@@ -67,51 +112,6 @@ implements FactoryBasedJ8UnitTest<BasicTabbedPaneUI>, org.j8unit.repository.java
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TabbedPaneLayoutTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabbedPaneLayoutTests<TabbedPaneLayout> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
-
-        @Override
-        public TabbedPaneLayout createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTabbedPaneUI.TabbedPaneLayout], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
-
-        @Override
-        public PropertyChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTabbedPaneUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class MouseHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.MouseHandlerTests<MouseHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
-
-        @Override
-        public MouseHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTabbedPaneUI.MouseHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
 
     }
 

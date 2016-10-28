@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.io.File;
 import javax.swing.JFileChooser;
-import javax.swing.filechooser.FileSystemView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.swing.JFileChooserClassTests<JFileChooser
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JFileChooser#JFileChooser(String, FileSystemView) public
+     * {@link javax.swing.JFileChooser#JFileChooser(String, javax.swing.filechooser.FileSystemView) public
      * javax.swing.JFileChooser(java.lang.String,javax.swing.filechooser.FileSystemView)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,14 @@ implements org.j8unit.repository.javax.swing.JFileChooserClassTests<JFileChooser
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JFileChooser sut = null; // = new JFileChooser(String, FileSystemView);
+        final JFileChooser sut = null; // = new JFileChooser(String, javax.swing.filechooser.FileSystemView);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JFileChooser#JFileChooser(File, FileSystemView)
-     * public javax.swing.JFileChooser(java.io.File,javax.swing.filechooser.FileSystemView)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JFileChooser#JFileChooser(java.io.File, javax.swing.filechooser.FileSystemView) public
+     * javax.swing.JFileChooser(java.io.File,javax.swing.filechooser.FileSystemView)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,13 +62,14 @@ implements org.j8unit.repository.javax.swing.JFileChooserClassTests<JFileChooser
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JFileChooser sut = null; // = new JFileChooser(File, FileSystemView);
+        final JFileChooser sut = null; // = new JFileChooser(java.io.File, javax.swing.filechooser.FileSystemView);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JFileChooser#JFileChooser(FileSystemView)
-     * public javax.swing.JFileChooser(javax.swing.filechooser.FileSystemView)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JFileChooser#JFileChooser(javax.swing.filechooser.FileSystemView) public
+     * javax.swing.JFileChooser(javax.swing.filechooser.FileSystemView)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,12 +85,12 @@ implements org.j8unit.repository.javax.swing.JFileChooserClassTests<JFileChooser
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JFileChooser sut = null; // = new JFileChooser(FileSystemView);
+        final JFileChooser sut = null; // = new JFileChooser(javax.swing.filechooser.FileSystemView);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JFileChooser#JFileChooser() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JFileChooser#JFileChooser() public
      * javax.swing.JFileChooser()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,8 +111,8 @@ implements org.j8unit.repository.javax.swing.JFileChooserClassTests<JFileChooser
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JFileChooser#JFileChooser(String) public
-     * javax.swing.JFileChooser(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JFileChooser#JFileChooser(String)
+     * public javax.swing.JFileChooser(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +133,8 @@ implements org.j8unit.repository.javax.swing.JFileChooserClassTests<JFileChooser
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JFileChooser#JFileChooser(File) public
-     * javax.swing.JFileChooser(java.io.File)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JFileChooser#JFileChooser(java.io.File) public javax.swing.JFileChooser(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,7 +150,7 @@ implements org.j8unit.repository.javax.swing.JFileChooserClassTests<JFileChooser
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JFileChooser sut = null; // = new JFileChooser(File);
+        final JFileChooser sut = null; // = new JFileChooser(java.io.File);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFileChooser]

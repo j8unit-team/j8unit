@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetaMessage#getType() public int
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MetaMessage#getType() public int
      * javax.sound.midi.MetaMessage.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetaMessage#setMessage(int, byte[], int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.MetaMessage#setMessage(int, byte[], int) public void
      * javax.sound.midi.MetaMessage.setMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +79,7 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetaMessage#getData() public byte[]
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MetaMessage#getData() public byte[]
      * javax.sound.midi.MetaMessage.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +101,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetaMessage#clone() public java.lang.Object
-     * javax.sound.midi.MetaMessage.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MetaMessage#clone() public
+     * java.lang.Object javax.sound.midi.MetaMessage.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

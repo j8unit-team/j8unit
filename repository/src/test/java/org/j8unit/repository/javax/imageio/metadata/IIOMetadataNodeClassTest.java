@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataNodeClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IIOMetadataNode#IIOMetadataNode() public
-     * javax.imageio.metadata.IIOMetadataNode()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.metadata.IIOMetadataNode#IIOMetadataNode() public javax.imageio.metadata.IIOMetadataNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataNodeClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IIOMetadataNode#IIOMetadataNode(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.metadata.IIOMetadataNode#IIOMetadataNode(String) public
      * javax.imageio.metadata.IIOMetadataNode(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

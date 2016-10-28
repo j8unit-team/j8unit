@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Element;
 import org.w3c.dom.css.ViewCSS;
 
 /**
@@ -35,8 +34,9 @@ extends org.j8unit.repository.org.w3c.dom.views.AbstractViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ViewCSS#getComputedStyle(Element, String) public
-     * abstract org.w3c.dom.css.CSSStyleDeclaration
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.ViewCSS#getComputedStyle(org.w3c.dom.Element, String) public abstract
+     * org.w3c.dom.css.CSSStyleDeclaration
      * org.w3c.dom.css.ViewCSS.getComputedStyle(org.w3c.dom.Element,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

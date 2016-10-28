@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowId#toString() public abstract java.lang.String
-     * java.sql.RowId.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.RowId#toString() public abstract
+     * java.lang.String java.sql.RowId.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowId#getBytes() public abstract byte[]
+     * Test method for the hereby targeted method-under-test {@link java.sql.RowId#getBytes() public abstract byte[]
      * java.sql.RowId.getBytes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowId#hashCode() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.sql.RowId#hashCode() public abstract int
      * java.sql.RowId.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RowId#equals(Object) public abstract boolean
-     * java.sql.RowId.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.RowId#equals(Object) public abstract
+     * boolean java.sql.RowId.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

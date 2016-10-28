@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.util.Map;
 import javax.sql.rowset.serial.SerialStruct;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialStruct#clone() public java.lang.Object
-     * javax.sql.rowset.serial.SerialStruct.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialStruct#clone() public
+     * java.lang.Object javax.sql.rowset.serial.SerialStruct.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +57,10 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialStruct#getAttributes(Map) public
-     * java.lang.Object[] javax.sql.rowset.serial.SerialStruct.getAttributes(java.util.Map<java.lang.String,
-     * java.lang.Class<?>>) throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialStruct#getAttributes(java.util.Map) public java.lang.Object[]
+     * javax.sql.rowset.serial.SerialStruct.getAttributes(java.util.Map<java.lang.String, java.lang.Class<?>>) throws
+     * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialStruct#getAttributes() public
-     * java.lang.Object[] javax.sql.rowset.serial.SerialStruct.getAttributes() throws
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialStruct#getAttributes()
+     * public java.lang.Object[] javax.sql.rowset.serial.SerialStruct.getAttributes() throws
      * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +106,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialStruct#equals(Object) public boolean
-     * javax.sql.rowset.serial.SerialStruct.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialStruct#equals(Object)
+     * public boolean javax.sql.rowset.serial.SerialStruct.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +129,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialStruct#hashCode() public int
-     * javax.sql.rowset.serial.SerialStruct.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialStruct#hashCode()
+     * public int javax.sql.rowset.serial.SerialStruct.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,9 +152,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialStruct#getSQLTypeName() public
-     * java.lang.String javax.sql.rowset.serial.SerialStruct.getSQLTypeName() throws
-     * javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialStruct#getSQLTypeName() public java.lang.String
+     * javax.sql.rowset.serial.SerialStruct.getSQLTypeName() throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

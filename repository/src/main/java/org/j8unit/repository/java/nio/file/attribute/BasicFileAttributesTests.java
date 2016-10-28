@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributes#isOther() public abstract
-     * boolean java.nio.file.attribute.BasicFileAttributes.isOther()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributes#isOther() public abstract boolean
+     * java.nio.file.attribute.BasicFileAttributes.isOther()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributes#isDirectory() public abstract
-     * boolean java.nio.file.attribute.BasicFileAttributes.isDirectory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributes#isDirectory() public abstract boolean
+     * java.nio.file.attribute.BasicFileAttributes.isDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributes#isRegularFile() public abstract
-     * boolean java.nio.file.attribute.BasicFileAttributes.isRegularFile()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributes#isRegularFile() public abstract boolean
+     * java.nio.file.attribute.BasicFileAttributes.isRegularFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributes#fileKey() public abstract
-     * java.lang.Object java.nio.file.attribute.BasicFileAttributes.fileKey()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributes#fileKey() public abstract java.lang.Object
+     * java.nio.file.attribute.BasicFileAttributes.fileKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributes#creationTime() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributes#creationTime() public abstract
      * java.nio.file.attribute.FileTime java.nio.file.attribute.BasicFileAttributes.creationTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +150,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributes#size() public abstract long
-     * java.nio.file.attribute.BasicFileAttributes.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.BasicFileAttributes#size()
+     * public abstract long java.nio.file.attribute.BasicFileAttributes.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +172,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributes#isSymbolicLink() public abstract
-     * boolean java.nio.file.attribute.BasicFileAttributes.isSymbolicLink()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributes#isSymbolicLink() public abstract boolean
+     * java.nio.file.attribute.BasicFileAttributes.isSymbolicLink()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +195,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributes#lastModifiedTime() public
-     * abstract java.nio.file.attribute.FileTime java.nio.file.attribute.BasicFileAttributes.lastModifiedTime()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributes#lastModifiedTime() public abstract
+     * java.nio.file.attribute.FileTime java.nio.file.attribute.BasicFileAttributes.lastModifiedTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +218,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicFileAttributes#lastAccessTime() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.BasicFileAttributes#lastAccessTime() public abstract
      * java.nio.file.attribute.FileTime java.nio.file.attribute.BasicFileAttributes.lastAccessTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,13 +1,11 @@
 package org.j8unit.repository.javax.rmi.CORBA;
 
-import java.io.Serializable;
 import javax.rmi.CORBA.ValueHandlerMultiFormat;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.portable.OutputStream;
 
 /**
  * <p>
@@ -37,7 +35,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.ValueHandlerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ValueHandlerMultiFormat#writeValue(OutputStream, Serializable, byte) public abstract void
+     * {@link javax.rmi.CORBA.ValueHandlerMultiFormat#writeValue(org.omg.CORBA.portable.OutputStream, java.io.Serializable, byte)
+     * public abstract void
      * javax.rmi.CORBA.ValueHandlerMultiFormat.writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable,byte)}
      * .
      *
@@ -61,7 +60,7 @@ extends org.j8unit.repository.javax.rmi.CORBA.ValueHandlerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ValueHandlerMultiFormat#getMaximumStreamFormatVersion() public abstract byte
+     * {@link javax.rmi.CORBA.ValueHandlerMultiFormat#getMaximumStreamFormatVersion() public abstract byte
      * javax.rmi.CORBA.ValueHandlerMultiFormat.getMaximumStreamFormatVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

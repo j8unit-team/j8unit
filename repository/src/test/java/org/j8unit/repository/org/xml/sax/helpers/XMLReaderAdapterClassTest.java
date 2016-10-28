@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderAdapter;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.xml.sax.helpers.XMLReaderAdapterClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLReaderAdapter#XMLReaderAdapter() public
-     * org.xml.sax.helpers.XMLReaderAdapter() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.XMLReaderAdapter#XMLReaderAdapter() public org.xml.sax.helpers.XMLReaderAdapter()
+     * throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,9 @@ implements org.j8unit.repository.org.xml.sax.helpers.XMLReaderAdapterClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLReaderAdapter#XMLReaderAdapter(XMLReader)
-     * public org.xml.sax.helpers.XMLReaderAdapter(org.xml.sax.XMLReader)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.helpers.XMLReaderAdapter#XMLReaderAdapter(org.xml.sax.XMLReader) public
+     * org.xml.sax.helpers.XMLReaderAdapter(org.xml.sax.XMLReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +61,7 @@ implements org.j8unit.repository.org.xml.sax.helpers.XMLReaderAdapterClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XMLReaderAdapter sut = null; // = new XMLReaderAdapter(XMLReader);
+        final XMLReaderAdapter sut = null; // = new XMLReaderAdapter(org.xml.sax.XMLReader);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.XMLReaderAdapter]

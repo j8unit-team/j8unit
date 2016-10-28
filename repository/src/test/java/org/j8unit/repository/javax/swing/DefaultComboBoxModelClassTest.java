@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.util.Vector;
 import javax.swing.DefaultComboBoxModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +23,8 @@ implements org.j8unit.repository.javax.swing.DefaultComboBoxModelClassTests<Defa
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultComboBoxModel#DefaultComboBoxModel(Vector) public javax.swing.DefaultComboBoxModel(java.util.Vector
-     * <E>)}.
+     * {@link javax.swing.DefaultComboBoxModel#DefaultComboBoxModel(java.util.Vector) public
+     * javax.swing.DefaultComboBoxModel(java.util.Vector<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +40,14 @@ implements org.j8unit.repository.javax.swing.DefaultComboBoxModelClassTests<Defa
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultComboBoxModel sut = null; // = new DefaultComboBoxModel(Vector);
+        final DefaultComboBoxModel sut = null; // = new DefaultComboBoxModel(java.util.Vector);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultComboBoxModel#DefaultComboBoxModel(Object[]) public javax.swing.DefaultComboBoxModel(E[])}.
+     * {@link javax.swing.DefaultComboBoxModel#DefaultComboBoxModel(Object[]) public
+     * javax.swing.DefaultComboBoxModel(E[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -68,8 +68,8 @@ implements org.j8unit.repository.javax.swing.DefaultComboBoxModelClassTests<Defa
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DefaultComboBoxModel#DefaultComboBoxModel()
-     * public javax.swing.DefaultComboBoxModel()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.DefaultComboBoxModel#DefaultComboBoxModel() public javax.swing.DefaultComboBoxModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

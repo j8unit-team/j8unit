@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import javax.naming.Name;
 import javax.naming.spi.ResolveResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolveResult#getResolvedObj() public
-     * java.lang.Object javax.naming.spi.ResolveResult.getResolvedObj()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.spi.ResolveResult#getResolvedObj()
+     * public java.lang.Object javax.naming.spi.ResolveResult.getResolvedObj()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolveResult#appendRemainingComponent(String)
-     * public void javax.naming.spi.ResolveResult.appendRemainingComponent(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.spi.ResolveResult#appendRemainingComponent(String) public void
+     * javax.naming.spi.ResolveResult.appendRemainingComponent(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolveResult#setRemainingName(Name) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.spi.ResolveResult#setRemainingName(javax.naming.Name) public void
      * javax.naming.spi.ResolveResult.setRemainingName(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolveResult#getRemainingName() public
-     * javax.naming.Name javax.naming.spi.ResolveResult.getRemainingName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.spi.ResolveResult#getRemainingName()
+     * public javax.naming.Name javax.naming.spi.ResolveResult.getRemainingName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolveResult#setResolvedObj(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.spi.ResolveResult#setResolvedObj(Object) public void
      * javax.naming.spi.ResolveResult.setResolvedObj(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +147,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResolveResult#appendRemainingName(Name) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.spi.ResolveResult#appendRemainingName(javax.naming.Name) public void
      * javax.naming.spi.ResolveResult.appendRemainingName(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

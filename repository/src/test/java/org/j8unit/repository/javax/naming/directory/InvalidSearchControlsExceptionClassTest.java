@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.directory.InvalidSearchControlsExc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidSearchControlsException#InvalidSearchControlsException() public
+     * {@link javax.naming.directory.InvalidSearchControlsException#InvalidSearchControlsException() public
      * javax.naming.directory.InvalidSearchControlsException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.naming.directory.InvalidSearchControlsExc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidSearchControlsException#InvalidSearchControlsException(String) public
+     * {@link javax.naming.directory.InvalidSearchControlsException#InvalidSearchControlsException(String) public
      * javax.naming.directory.InvalidSearchControlsException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

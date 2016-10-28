@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Component;
-import java.awt.Graphics;
 import javax.swing.border.Border;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Border#isBorderOpaque() public abstract boolean
-     * javax.swing.border.Border.isBorderOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.Border#isBorderOpaque() public
+     * abstract boolean javax.swing.border.Border.isBorderOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Border#getBorderInsets(Component) public abstract
-     * java.awt.Insets javax.swing.border.Border.getBorderInsets(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.Border#getBorderInsets(java.awt.Component) public abstract java.awt.Insets
+     * javax.swing.border.Border.getBorderInsets(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Border#paintBorder(Component, Graphics, int, int, int, int) public abstract void
-     * javax.swing.border.Border.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * {@link javax.swing.border.Border#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int) public
+     * abstract void javax.swing.border.Border.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

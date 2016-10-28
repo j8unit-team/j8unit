@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.MouseInfoClassTests<MouseInfo> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseInfo#getNumberOfButtons() public static int
-     * java.awt.MouseInfo.getNumberOfButtons() throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.MouseInfo#getNumberOfButtons() public
+     * static int java.awt.MouseInfo.getNumberOfButtons() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.awt.MouseInfoClassTests<MouseInfo> {
     @Category(Draft.class)
     public void test_getNumberOfButtons()
     throws Exception {
-        // write some test for {@link MouseInfo#getNumberOfButtons()}
+        // write some test for {@link java.awt.MouseInfo#getNumberOfButtons()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseInfo#getPointerInfo() public static
+     * Test method for the hereby targeted method-under-test {@link java.awt.MouseInfo#getPointerInfo() public static
      * java.awt.PointerInfo java.awt.MouseInfo.getPointerInfo() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.awt.MouseInfoClassTests<MouseInfo> {
     @Category(Draft.class)
     public void test_getPointerInfo()
     throws Exception {
-        // write some test for {@link MouseInfo#getPointerInfo()}
+        // write some test for {@link java.awt.MouseInfo#getPointerInfo()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MouseInfo]

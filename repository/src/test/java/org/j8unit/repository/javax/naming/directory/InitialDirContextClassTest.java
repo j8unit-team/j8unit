@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.directory;
 
-import java.util.Hashtable;
 import javax.naming.directory.InitialDirContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.naming.directory.InitialDirContextClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InitialDirContext#InitialDirContext(Hashtable)
-     * public javax.naming.directory.InitialDirContext(java.util.Hashtable<?, ?>) throws javax.naming.NamingException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.directory.InitialDirContext#InitialDirContext(java.util.Hashtable) public
+     * javax.naming.directory.InitialDirContext(java.util.Hashtable<?, ?>) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,12 +39,13 @@ implements org.j8unit.repository.javax.naming.directory.InitialDirContextClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InitialDirContext sut = null; // = new InitialDirContext(Hashtable);
+        final InitialDirContext sut = null; // = new InitialDirContext(java.util.Hashtable);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InitialDirContext#InitialDirContext() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.directory.InitialDirContext#InitialDirContext() public
      * javax.naming.directory.InitialDirContext() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

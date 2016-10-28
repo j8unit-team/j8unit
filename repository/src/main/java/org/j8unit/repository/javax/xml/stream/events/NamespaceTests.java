@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.stream.events.AttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Namespace#getPrefix() public abstract
-     * java.lang.String javax.xml.stream.events.Namespace.getPrefix()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.Namespace#getPrefix() public
+     * abstract java.lang.String javax.xml.stream.events.Namespace.getPrefix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.xml.stream.events.AttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Namespace#getNamespaceURI() public abstract
-     * java.lang.String javax.xml.stream.events.Namespace.getNamespaceURI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.Namespace#getNamespaceURI()
+     * public abstract java.lang.String javax.xml.stream.events.Namespace.getNamespaceURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,9 @@ extends org.j8unit.repository.javax.xml.stream.events.AttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Namespace#isDefaultNamespaceDeclaration() public
-     * abstract boolean javax.xml.stream.events.Namespace.isDefaultNamespaceDeclaration()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.Namespace#isDefaultNamespaceDeclaration() public abstract boolean
+     * javax.xml.stream.events.Namespace.isDefaultNamespaceDeclaration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

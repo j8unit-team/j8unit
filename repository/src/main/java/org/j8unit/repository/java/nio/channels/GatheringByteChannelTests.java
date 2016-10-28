@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.nio.ByteBuffer;
 import java.nio.channels.GatheringByteChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.nio.channels.WritableByteChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GatheringByteChannel#write(ByteBuffer[]) public
-     * abstract long java.nio.channels.GatheringByteChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.GatheringByteChannel#write(java.nio.ByteBuffer[]) public abstract long
+     * java.nio.channels.GatheringByteChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,9 +57,9 @@ extends org.j8unit.repository.java.nio.channels.WritableByteChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GatheringByteChannel#write(ByteBuffer[], int, int)
-     * public abstract long java.nio.channels.GatheringByteChannel.write(java.nio.ByteBuffer[],int,int) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.GatheringByteChannel#write(java.nio.ByteBuffer[], int, int) public abstract long
+     * java.nio.channels.GatheringByteChannel.write(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

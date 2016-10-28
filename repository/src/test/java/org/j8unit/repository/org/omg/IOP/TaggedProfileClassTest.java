@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileClassTests<TaggedProfi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TaggedProfile#TaggedProfile() public
-     * org.omg.IOP.TaggedProfile()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.IOP.TaggedProfile#TaggedProfile()
+     * public org.omg.IOP.TaggedProfile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileClassTests<TaggedProfi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TaggedProfile#TaggedProfile(int, byte[]) public
-     * org.omg.IOP.TaggedProfile(int,byte[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.TaggedProfile#TaggedProfile(int, byte[]) public org.omg.IOP.TaggedProfile(int,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

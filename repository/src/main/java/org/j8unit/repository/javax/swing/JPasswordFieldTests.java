@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JPasswordField.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JPasswordField.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#getEchoChar() public char
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#getEchoChar() public char
      * javax.swing.JPasswordField.getEchoChar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#updateUI() public void
      * javax.swing.JPasswordField.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#setEchoChar(char) public void
-     * javax.swing.JPasswordField.setEchoChar(char)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#setEchoChar(char) public
+     * void javax.swing.JPasswordField.setEchoChar(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +124,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#copy() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#copy() public void
      * javax.swing.JPasswordField.copy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +147,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#getUIClassID() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#getUIClassID() public
      * java.lang.String javax.swing.JPasswordField.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +170,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#echoCharIsSet() public boolean
-     * javax.swing.JPasswordField.echoCharIsSet()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#echoCharIsSet() public
+     * boolean javax.swing.JPasswordField.echoCharIsSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +192,30 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#getText(int, int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#getText() public
+     * java.lang.String javax.swing.JPasswordField.getText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#getText(int, int) public
      * java.lang.String javax.swing.JPasswordField.getText(int,int) throws javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,30 +238,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#getText() public java.lang.String
-     * javax.swing.JPasswordField.getText()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#cut() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#cut() public void
      * javax.swing.JPasswordField.cut()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,8 +261,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPasswordField#getPassword() public char[]
-     * javax.swing.JPasswordField.getPassword()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JPasswordField#getPassword() public
+     * char[] javax.swing.JPasswordField.getPassword()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

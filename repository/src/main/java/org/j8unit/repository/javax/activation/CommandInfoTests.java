@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.activation;
 
 import javax.activation.CommandInfo;
-import javax.activation.DataHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandInfo#getCommandClass() public
-     * java.lang.String javax.activation.CommandInfo.getCommandClass()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.CommandInfo#getCommandClass()
+     * public java.lang.String javax.activation.CommandInfo.getCommandClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CommandInfo#getCommandObject(DataHandler, ClassLoader) public java.lang.Object
+     * {@link javax.activation.CommandInfo#getCommandObject(javax.activation.DataHandler, ClassLoader) public
+     * java.lang.Object
      * javax.activation.CommandInfo.getCommandObject(javax.activation.DataHandler,java.lang.ClassLoader) throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandInfo#getCommandName() public java.lang.String
-     * javax.activation.CommandInfo.getCommandName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.CommandInfo#getCommandName() public
+     * java.lang.String javax.activation.CommandInfo.getCommandName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

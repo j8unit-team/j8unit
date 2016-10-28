@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.ElementKindVisitor7;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.javax.lang.model.util.ElementKindVisitor6Tests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor7#visitVariableAsResourceVariable(VariableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor7#visitVariableAsResourceVariable(javax.lang.model.element.VariableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor7.visitVariableAsResourceVariable(javax.lang.model.element.VariableElement,P)}
      * .
      *

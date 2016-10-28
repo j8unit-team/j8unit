@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.LineNumberReader;
-import java.io.Reader;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.io.LineNumberReaderClassTests<LineNumberRe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LineNumberReader#LineNumberReader(Reader)
-     * public java.io.LineNumberReader(java.io.Reader)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.LineNumberReader#LineNumberReader(java.io.Reader) public java.io.LineNumberReader(java.io.Reader)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +39,14 @@ implements org.j8unit.repository.java.io.LineNumberReaderClassTests<LineNumberRe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LineNumberReader sut = null; // = new LineNumberReader(Reader);
+        final LineNumberReader sut = null; // = new LineNumberReader(java.io.Reader);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LineNumberReader#LineNumberReader(Reader, int)
-     * public java.io.LineNumberReader(java.io.Reader,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.LineNumberReader#LineNumberReader(java.io.Reader, int) public
+     * java.io.LineNumberReader(java.io.Reader,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +62,7 @@ implements org.j8unit.repository.java.io.LineNumberReaderClassTests<LineNumberRe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LineNumberReader sut = null; // = new LineNumberReader(Reader, int);
+        final LineNumberReader sut = null; // = new LineNumberReader(java.io.Reader, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.LineNumberReader]

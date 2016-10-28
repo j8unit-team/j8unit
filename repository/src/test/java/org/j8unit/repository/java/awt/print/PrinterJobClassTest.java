@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.print.PrinterJobClassTests<PrinterJob>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrinterJob#PrinterJob() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.print.PrinterJob#PrinterJob() public
      * java.awt.print.PrinterJob()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.java.awt.print.PrinterJobClassTests<PrinterJob>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrinterJob#lookupPrintServices() public static
-     * javax.print.PrintService[] java.awt.print.PrinterJob.lookupPrintServices()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.PrinterJob#lookupPrintServices()
+     * public static javax.print.PrintService[] java.awt.print.PrinterJob.lookupPrintServices()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +57,13 @@ implements org.j8unit.repository.java.awt.print.PrinterJobClassTests<PrinterJob>
     @Category(Draft.class)
     public void test_lookupPrintServices()
     throws Exception {
-        // write some test for {@link PrinterJob#lookupPrintServices()}
+        // write some test for {@link java.awt.print.PrinterJob#lookupPrintServices()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrinterJob#getPrinterJob() public static
-     * java.awt.print.PrinterJob java.awt.print.PrinterJob.getPrinterJob()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.print.PrinterJob#getPrinterJob() public
+     * static java.awt.print.PrinterJob java.awt.print.PrinterJob.getPrinterJob()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,14 +77,14 @@ implements org.j8unit.repository.java.awt.print.PrinterJobClassTests<PrinterJob>
     @Category(Draft.class)
     public void test_getPrinterJob()
     throws Exception {
-        // write some test for {@link PrinterJob#getPrinterJob()}
+        // write some test for {@link java.awt.print.PrinterJob#getPrinterJob()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrinterJob#lookupStreamPrintServices(String) public
-     * static javax.print.StreamPrintServiceFactory[]
-     * java.awt.print.PrinterJob.lookupStreamPrintServices(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.print.PrinterJob#lookupStreamPrintServices(String) public static
+     * javax.print.StreamPrintServiceFactory[] java.awt.print.PrinterJob.lookupStreamPrintServices(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,7 +98,7 @@ implements org.j8unit.repository.java.awt.print.PrinterJobClassTests<PrinterJob>
     @Category(Draft.class)
     public void test_lookupStreamPrintServices_String()
     throws Exception {
-        // write some test for {@link PrinterJob#lookupStreamPrintServices(String)}
+        // write some test for {@link java.awt.print.PrinterJob#lookupStreamPrintServices(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.PrinterJob]

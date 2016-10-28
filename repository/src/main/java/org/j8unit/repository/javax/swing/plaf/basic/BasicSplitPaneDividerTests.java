@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Graphics;
-import java.beans.PropertyChangeEvent;
-import javax.swing.border.Border;
 import javax.swing.plaf.basic.BasicSplitPaneDivider;
-import javax.swing.plaf.basic.BasicSplitPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +34,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#getDividerSize() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getDividerSize() public int
      * javax.swing.plaf.basic.BasicSplitPaneDivider.getDividerSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +58,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicSplitPaneDivider#setBasicSplitPaneUI(BasicSplitPaneUI) public void
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#setBasicSplitPaneUI(javax.swing.plaf.basic.BasicSplitPaneUI)
+     * public void
      * javax.swing.plaf.basic.BasicSplitPaneDivider.setBasicSplitPaneUI(javax.swing.plaf.basic.BasicSplitPaneUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +81,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#getBasicSplitPaneUI() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getBasicSplitPaneUI() public
      * javax.swing.plaf.basic.BasicSplitPaneUI javax.swing.plaf.basic.BasicSplitPaneDivider.getBasicSplitPaneUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +104,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#paint(Graphics) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#paint(java.awt.Graphics) public void
      * javax.swing.plaf.basic.BasicSplitPaneDivider.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,8 +128,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#getInsets() public
-     * java.awt.Insets javax.swing.plaf.basic.BasicSplitPaneDivider.getInsets()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getInsets() public java.awt.Insets
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.getInsets()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,7 +153,7 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicSplitPaneDivider#propertyChange(PropertyChangeEvent) public void
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#propertyChange(java.beans.PropertyChangeEvent) public void
      * javax.swing.plaf.basic.BasicSplitPaneDivider.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,8 +176,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#setDividerSize(int) public
-     * void javax.swing.plaf.basic.BasicSplitPaneDivider.setDividerSize(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#setDividerSize(int) public void
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.setDividerSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,8 +199,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#getPreferredSize() public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicSplitPaneDivider.getPreferredSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getPreferredSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.getPreferredSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,8 +223,9 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#getMinimumSize() public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicSplitPaneDivider.getMinimumSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getMinimumSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.getMinimumSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,7 +247,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#setBorder(Border) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#setBorder(javax.swing.border.Border) public void
      * javax.swing.plaf.basic.BasicSplitPaneDivider.setBorder(javax.swing.border.Border)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -265,29 +270,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#getBorder() public
-     * javax.swing.border.Border javax.swing.plaf.basic.BasicSplitPaneDivider.getBorder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicSplitPaneDivider#isMouseOver() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#isMouseOver() public boolean
      * javax.swing.plaf.basic.BasicSplitPaneDivider.isMouseOver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -301,6 +285,29 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     @Test
     @Category(Draft.class)
     public default void test_isMouseOver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getBorder() public javax.swing.border.Border
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.getBorder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBorder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

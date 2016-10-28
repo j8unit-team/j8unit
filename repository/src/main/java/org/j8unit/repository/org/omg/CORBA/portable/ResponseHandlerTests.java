@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseHandler#createExceptionReply() public
-     * abstract org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createExceptionReply()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ResponseHandler#createExceptionReply() public abstract
+     * org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createExceptionReply()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResponseHandler#createReply() public abstract
-     * org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createReply()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ResponseHandler#createReply()
+     * public abstract org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createReply()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

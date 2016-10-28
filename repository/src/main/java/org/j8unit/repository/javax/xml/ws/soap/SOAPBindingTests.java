@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.ws.soap;
 
-import java.util.Set;
 import javax.xml.ws.soap.SOAPBinding;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPBinding#getSOAPFactory() public abstract
-     * javax.xml.soap.SOAPFactory javax.xml.ws.soap.SOAPBinding.getSOAPFactory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.SOAPBinding#getSOAPFactory()
+     * public abstract javax.xml.soap.SOAPFactory javax.xml.ws.soap.SOAPBinding.getSOAPFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPBinding#getMessageFactory() public abstract
-     * javax.xml.soap.MessageFactory javax.xml.ws.soap.SOAPBinding.getMessageFactory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.SOAPBinding#getMessageFactory()
+     * public abstract javax.xml.soap.MessageFactory javax.xml.ws.soap.SOAPBinding.getMessageFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,9 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPBinding#setMTOMEnabled(boolean) public abstract
-     * void javax.xml.ws.soap.SOAPBinding.setMTOMEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.soap.SOAPBinding#setMTOMEnabled(boolean) public abstract void
+     * javax.xml.ws.soap.SOAPBinding.setMTOMEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPBinding#getRoles() public abstract java.util.Set
-     * <java.lang.String> javax.xml.ws.soap.SOAPBinding.getRoles()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.SOAPBinding#getRoles() public
+     * abstract java.util.Set<java.lang.String> javax.xml.ws.soap.SOAPBinding.getRoles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,8 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPBinding#setRoles(Set) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.soap.SOAPBinding#setRoles(java.util.Set) public abstract void
      * javax.xml.ws.soap.SOAPBinding.setRoles(java.util.Set<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +146,8 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPBinding#isMTOMEnabled() public abstract boolean
-     * javax.xml.ws.soap.SOAPBinding.isMTOMEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.SOAPBinding#isMTOMEnabled() public
+     * abstract boolean javax.xml.ws.soap.SOAPBinding.isMTOMEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

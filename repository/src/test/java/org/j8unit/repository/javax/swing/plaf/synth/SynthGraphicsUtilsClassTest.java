@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthGraphicsUtilsClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SynthGraphicsUtils#SynthGraphicsUtils() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.synth.SynthGraphicsUtils#SynthGraphicsUtils() public
      * javax.swing.plaf.synth.SynthGraphicsUtils()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

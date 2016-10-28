@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableServer.POAPackage.AdapterAlreadyExists;
 import org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper;
 
 @RunWith(J8Unit4.class)
@@ -27,7 +23,7 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AdapterAlreadyExistsHelper#AdapterAlreadyExistsHelper() public
+     * {@link org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#AdapterAlreadyExistsHelper() public
      * org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterAlreadyExistsHelper#id() public static
-     * java.lang.String org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#id() public static java.lang.String
+     * org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +59,14 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link AdapterAlreadyExistsHelper#id()}
+        // write some test for {@link org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#id()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AdapterAlreadyExistsHelper#insert(Any, AdapterAlreadyExists) public static void
+     * {@link org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#insert(org.omg.CORBA.Any, org.omg.PortableServer.POAPackage.AdapterAlreadyExists)
+     * public static void
      * org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POAPackage.AdapterAlreadyExists)}
      * .
      *
@@ -84,13 +82,16 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
     @Category(Draft.class)
     public void test_insert_Any_AdapterAlreadyExists()
     throws Exception {
-        // write some test for {@link AdapterAlreadyExistsHelper#insert(Any, AdapterAlreadyExists)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableServer.POAPackage.AdapterAlreadyExists)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterAlreadyExistsHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,13 +105,14 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link AdapterAlreadyExistsHelper#type()}
+        // write some test for {@link org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AdapterAlreadyExistsHelper#write(OutputStream, AdapterAlreadyExists) public static void
+     * {@link org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableServer.POAPackage.AdapterAlreadyExists)
+     * public static void
      * org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.POAPackage.AdapterAlreadyExists)}
      * .
      *
@@ -126,13 +128,16 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
     @Category(Draft.class)
     public void test_write_OutputStream_AdapterAlreadyExists()
     throws Exception {
-        // write some test for {@link AdapterAlreadyExistsHelper#write(OutputStream, AdapterAlreadyExists)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableServer.POAPackage.AdapterAlreadyExists)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterAlreadyExistsHelper#read(InputStream) public
-     * static org.omg.PortableServer.POAPackage.AdapterAlreadyExists
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#read(org.omg.CORBA.portable.InputStream)
+     * public static org.omg.PortableServer.POAPackage.AdapterAlreadyExists
      * org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,13 +152,15 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link AdapterAlreadyExistsHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AdapterAlreadyExistsHelper#extract(Any) public
-     * static org.omg.PortableServer.POAPackage.AdapterAlreadyExists
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.PortableServer.POAPackage.AdapterAlreadyExists
      * org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,7 +175,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link AdapterAlreadyExistsHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper]

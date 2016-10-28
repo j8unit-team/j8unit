@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyErrorClassTests<PolicyError
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PolicyError#PolicyError() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.PolicyError#PolicyError() public
      * org.omg.CORBA.PolicyError()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyErrorClassTests<PolicyError
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PolicyError#PolicyError(short) public
-     * org.omg.CORBA.PolicyError(short)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.PolicyError#PolicyError(short)
+     * public org.omg.CORBA.PolicyError(short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +64,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyErrorClassTests<PolicyError
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PolicyError#PolicyError(String, short) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.PolicyError#PolicyError(String, short) public
      * org.omg.CORBA.PolicyError(java.lang.String,short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

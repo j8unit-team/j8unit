@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.invoke;
 
 import java.lang.invoke.MethodHandleInfo;
-import java.lang.invoke.MethodType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandleInfoClassTests<Met
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MethodHandleInfo#toString(int, Class, String, MethodType) public static java.lang.String
-     * java.lang.invoke.MethodHandleInfo.toString(int,java.lang.Class<?>,java.lang.String,java.lang.invoke.MethodType)}.
+     * {@link java.lang.invoke.MethodHandleInfo#toString(int, Class, String, java.lang.invoke.MethodType) public static
+     * java.lang.String java.lang.invoke.MethodHandleInfo.toString(int,java.lang.Class
+     * <?>,java.lang.String,java.lang.invoke.MethodType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,13 +38,15 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandleInfoClassTests<Met
     @Category(Draft.class)
     public void test_toString_int_Class_String_MethodType()
     throws Exception {
-        // write some test for {@link MethodHandleInfo#toString(int, Class, String, MethodType)}
+        // write some test for {@link java.lang.invoke.MethodHandleInfo#toString(int, Class, String,
+        // java.lang.invoke.MethodType)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandleInfo#referenceKindToString(int) public
-     * static java.lang.String java.lang.invoke.MethodHandleInfo.referenceKindToString(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodHandleInfo#referenceKindToString(int) public static java.lang.String
+     * java.lang.invoke.MethodHandleInfo.referenceKindToString(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +60,7 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandleInfoClassTests<Met
     @Category(Draft.class)
     public void test_referenceKindToString_int()
     throws Exception {
-        // write some test for {@link MethodHandleInfo#referenceKindToString(int)}
+        // write some test for {@link java.lang.invoke.MethodHandleInfo#referenceKindToString(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandleInfo]

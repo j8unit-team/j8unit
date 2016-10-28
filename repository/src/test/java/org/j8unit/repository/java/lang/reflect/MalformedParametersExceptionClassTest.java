@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.reflect.MalformedParametersExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MalformedParametersException#MalformedParametersException() public
+     * {@link java.lang.reflect.MalformedParametersException#MalformedParametersException() public
      * java.lang.reflect.MalformedParametersException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.lang.reflect.MalformedParametersExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MalformedParametersException#MalformedParametersException(String) public
+     * {@link java.lang.reflect.MalformedParametersException#MalformedParametersException(String) public
      * java.lang.reflect.MalformedParametersException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

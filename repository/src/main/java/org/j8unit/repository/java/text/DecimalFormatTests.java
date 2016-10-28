@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.text;
 
-import java.math.RoundingMode;
 import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
-import java.text.FieldPosition;
-import java.text.ParsePosition;
-import java.util.Currency;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +35,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DecimalFormat#format(long, StringBuffer, FieldPosition) public java.lang.StringBuffer
+     * {@link java.text.DecimalFormat#format(long, StringBuffer, java.text.FieldPosition) public java.lang.StringBuffer
      * java.text.DecimalFormat.format(long,java.lang.StringBuffer,java.text.FieldPosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,31 +59,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DecimalFormat#format(double, StringBuffer, FieldPosition) public java.lang.StringBuffer
-     * java.text.DecimalFormat.format(double,java.lang.StringBuffer,java.text.FieldPosition)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_format_double_StringBuffer_FieldPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link DecimalFormat#format(Object, StringBuffer, FieldPosition) public final java.lang.StringBuffer
+     * {@link java.text.DecimalFormat#format(Object, StringBuffer, java.text.FieldPosition) public final
+     * java.lang.StringBuffer
      * java.text.DecimalFormat.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -111,8 +83,33 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setMinimumFractionDigits(int) public
-     * void java.text.DecimalFormat.setMinimumFractionDigits(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#format(double, StringBuffer, java.text.FieldPosition) public
+     * java.lang.StringBuffer java.text.DecimalFormat.format(double,java.lang.StringBuffer,java.text.FieldPosition)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_format_double_StringBuffer_FieldPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#setMinimumFractionDigits(int) public void
+     * java.text.DecimalFormat.setMinimumFractionDigits(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -134,8 +131,9 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#parse(String, ParsePosition) public
-     * java.lang.Number java.text.DecimalFormat.parse(java.lang.String,java.text.ParsePosition)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#parse(String, java.text.ParsePosition) public java.lang.Number
+     * java.text.DecimalFormat.parse(java.lang.String,java.text.ParsePosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,8 +155,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setMaximumIntegerDigits(int) public
-     * void java.text.DecimalFormat.setMaximumIntegerDigits(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setMaximumIntegerDigits(int)
+     * public void java.text.DecimalFormat.setMaximumIntegerDigits(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,8 +178,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getMaximumIntegerDigits() public int
-     * java.text.DecimalFormat.getMaximumIntegerDigits()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getMaximumIntegerDigits()
+     * public int java.text.DecimalFormat.getMaximumIntegerDigits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -203,7 +201,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getNegativeSuffix() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getNegativeSuffix() public
      * java.lang.String java.text.DecimalFormat.getNegativeSuffix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -225,7 +223,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getCurrency() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getCurrency() public
      * java.util.Currency java.text.DecimalFormat.getCurrency()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -248,8 +246,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setParseBigDecimal(boolean) public
-     * void java.text.DecimalFormat.setParseBigDecimal(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setParseBigDecimal(boolean)
+     * public void java.text.DecimalFormat.setParseBigDecimal(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,8 +268,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#toPattern() public java.lang.String
-     * java.text.DecimalFormat.toPattern()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#toPattern() public
+     * java.lang.String java.text.DecimalFormat.toPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,7 +291,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DecimalFormat#setDecimalFormatSymbols(DecimalFormatSymbols) public void
+     * {@link java.text.DecimalFormat#setDecimalFormatSymbols(java.text.DecimalFormatSymbols) public void
      * java.text.DecimalFormat.setDecimalFormatSymbols(java.text.DecimalFormatSymbols)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -315,7 +313,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getPositiveSuffix() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getPositiveSuffix() public
      * java.lang.String java.text.DecimalFormat.getPositiveSuffix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -337,8 +335,9 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#applyLocalizedPattern(String) public
-     * void java.text.DecimalFormat.applyLocalizedPattern(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#applyLocalizedPattern(String) public void
+     * java.text.DecimalFormat.applyLocalizedPattern(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -359,8 +358,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#clone() public java.lang.Object
-     * java.text.DecimalFormat.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#clone() public
+     * java.lang.Object java.text.DecimalFormat.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -382,8 +381,9 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setRoundingMode(RoundingMode) public
-     * void java.text.DecimalFormat.setRoundingMode(java.math.RoundingMode)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#setRoundingMode(java.math.RoundingMode) public void
+     * java.text.DecimalFormat.setRoundingMode(java.math.RoundingMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -405,8 +405,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getMinimumIntegerDigits() public int
-     * java.text.DecimalFormat.getMinimumIntegerDigits()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getMinimumIntegerDigits()
+     * public int java.text.DecimalFormat.getMinimumIntegerDigits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -428,8 +428,9 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#isDecimalSeparatorAlwaysShown() public
-     * boolean java.text.DecimalFormat.isDecimalSeparatorAlwaysShown()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#isDecimalSeparatorAlwaysShown() public boolean
+     * java.text.DecimalFormat.isDecimalSeparatorAlwaysShown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -450,8 +451,9 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setMaximumFractionDigits(int) public
-     * void java.text.DecimalFormat.setMaximumFractionDigits(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#setMaximumFractionDigits(int) public void
+     * java.text.DecimalFormat.setMaximumFractionDigits(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -473,7 +475,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getNegativePrefix() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getNegativePrefix() public
      * java.lang.String java.text.DecimalFormat.getNegativePrefix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -495,8 +497,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getMaximumFractionDigits() public int
-     * java.text.DecimalFormat.getMaximumFractionDigits()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getMaximumFractionDigits()
+     * public int java.text.DecimalFormat.getMaximumFractionDigits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -518,8 +520,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#equals(Object) public boolean
-     * java.text.DecimalFormat.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#equals(Object) public
+     * boolean java.text.DecimalFormat.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -541,8 +543,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setNegativePrefix(String) public void
-     * java.text.DecimalFormat.setNegativePrefix(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setNegativePrefix(String)
+     * public void java.text.DecimalFormat.setNegativePrefix(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -563,8 +565,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getMinimumFractionDigits() public int
-     * java.text.DecimalFormat.getMinimumFractionDigits()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getMinimumFractionDigits()
+     * public int java.text.DecimalFormat.getMinimumFractionDigits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -586,7 +588,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setCurrency(Currency) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#setCurrency(java.util.Currency) public void
      * java.text.DecimalFormat.setCurrency(java.util.Currency)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -609,8 +612,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setMultiplier(int) public void
-     * java.text.DecimalFormat.setMultiplier(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setMultiplier(int) public
+     * void java.text.DecimalFormat.setMultiplier(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -631,8 +634,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setNegativeSuffix(String) public void
-     * java.text.DecimalFormat.setNegativeSuffix(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setNegativeSuffix(String)
+     * public void java.text.DecimalFormat.setNegativeSuffix(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -653,31 +656,9 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setGroupingSize(int) public void
-     * java.text.DecimalFormat.setGroupingSize(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setGroupingSize_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#formatToCharacterIterator(Object)
-     * public java.text.AttributedCharacterIterator java.text.DecimalFormat.formatToCharacterIterator(java.lang.Object)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#formatToCharacterIterator(Object) public java.text.AttributedCharacterIterator
+     * java.text.DecimalFormat.formatToCharacterIterator(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -699,8 +680,30 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setGroupingUsed(boolean) public void
-     * java.text.DecimalFormat.setGroupingUsed(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setGroupingSize(int) public
+     * void java.text.DecimalFormat.setGroupingSize(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setGroupingSize_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setGroupingUsed(boolean)
+     * public void java.text.DecimalFormat.setGroupingUsed(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -722,7 +725,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getGroupingSize() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getGroupingSize() public int
      * java.text.DecimalFormat.getGroupingSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -744,7 +747,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getPositivePrefix() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getPositivePrefix() public
      * java.lang.String java.text.DecimalFormat.getPositivePrefix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -766,8 +769,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setPositivePrefix(String) public void
-     * java.text.DecimalFormat.setPositivePrefix(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setPositivePrefix(String)
+     * public void java.text.DecimalFormat.setPositivePrefix(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -788,7 +791,29 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getMultiplier() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#applyPattern(String) public
+     * void java.text.DecimalFormat.applyPattern(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_applyPattern_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getMultiplier() public int
      * java.text.DecimalFormat.getMultiplier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -810,30 +835,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#applyPattern(String) public void
-     * java.text.DecimalFormat.applyPattern(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_applyPattern_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setPositiveSuffix(String) public void
-     * java.text.DecimalFormat.setPositiveSuffix(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setPositiveSuffix(String)
+     * public void java.text.DecimalFormat.setPositiveSuffix(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -854,7 +857,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#toLocalizedPattern() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#toLocalizedPattern() public
      * java.lang.String java.text.DecimalFormat.toLocalizedPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -876,8 +879,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#setMinimumIntegerDigits(int) public
-     * void java.text.DecimalFormat.setMinimumIntegerDigits(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setMinimumIntegerDigits(int)
+     * public void java.text.DecimalFormat.setMinimumIntegerDigits(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -899,7 +902,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getRoundingMode() public
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getRoundingMode() public
      * java.math.RoundingMode java.text.DecimalFormat.getRoundingMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -922,8 +925,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#getDecimalFormatSymbols() public
-     * java.text.DecimalFormatSymbols java.text.DecimalFormat.getDecimalFormatSymbols()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getDecimalFormatSymbols()
+     * public java.text.DecimalFormatSymbols java.text.DecimalFormat.getDecimalFormatSymbols()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -944,7 +947,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#hashCode() public int
      * java.text.DecimalFormat.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -968,7 +971,7 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DecimalFormat#setDecimalSeparatorAlwaysShown(boolean) public void
+     * {@link java.text.DecimalFormat#setDecimalSeparatorAlwaysShown(boolean) public void
      * java.text.DecimalFormat.setDecimalSeparatorAlwaysShown(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -990,8 +993,8 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalFormat#isParseBigDecimal() public boolean
-     * java.text.DecimalFormat.isParseBigDecimal()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#isParseBigDecimal() public
+     * boolean java.text.DecimalFormat.isParseBigDecimal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.util.TooManyListenersExceptionClassTests<T
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TooManyListenersException#TooManyListenersException() public java.util.TooManyListenersException()}.
+     * {@link java.util.TooManyListenersException#TooManyListenersException() public
+     * java.util.TooManyListenersException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.java.util.TooManyListenersExceptionClassTests<T
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TooManyListenersException#TooManyListenersException(String) public
+     * {@link java.util.TooManyListenersException#TooManyListenersException(String) public
      * java.util.TooManyListenersException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

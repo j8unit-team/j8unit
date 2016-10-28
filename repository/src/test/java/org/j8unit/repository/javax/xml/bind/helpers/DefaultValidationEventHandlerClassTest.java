@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.bind.helpers.DefaultValidationEventHa
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultValidationEventHandler#DefaultValidationEventHandler() public
+     * {@link javax.xml.bind.helpers.DefaultValidationEventHandler#DefaultValidationEventHandler() public
      * javax.xml.bind.helpers.DefaultValidationEventHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

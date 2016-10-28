@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.print.attribute;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.AttributeSet;
-import javax.print.attribute.HashAttributeSet;
 import javax.print.attribute.HashPrintJobAttributeSet;
-import javax.print.attribute.PrintJobAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -42,8 +38,10 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests<SU
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link PrintJobAttributeSet#add(Attribute) interface javax.print.attribute.PrintJobAttributeSet}</li>
-     * <li>{@link HashAttributeSet#add(Attribute) class javax.print.attribute.HashAttributeSet}</li>
+     * <li>{@link javax.print.attribute.PrintJobAttributeSet#add(javax.print.attribute.Attribute) interface
+     * javax.print.attribute.PrintJobAttributeSet}</li>
+     * <li>{@link javax.print.attribute.HashAttributeSet#add(javax.print.attribute.Attribute) class
+     * javax.print.attribute.HashAttributeSet}</li>
      * </ul>
      *
      * <p>
@@ -70,8 +68,10 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests<SU
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link PrintJobAttributeSet#addAll(AttributeSet) interface javax.print.attribute.PrintJobAttributeSet}</li>
-     * <li>{@link HashAttributeSet#addAll(AttributeSet) class javax.print.attribute.HashAttributeSet}</li>
+     * <li>{@link javax.print.attribute.PrintJobAttributeSet#addAll(javax.print.attribute.AttributeSet) interface
+     * javax.print.attribute.PrintJobAttributeSet}</li>
+     * <li>{@link javax.print.attribute.HashAttributeSet#addAll(javax.print.attribute.AttributeSet) class
+     * javax.print.attribute.HashAttributeSet}</li>
      * </ul>
      *
      * <p>

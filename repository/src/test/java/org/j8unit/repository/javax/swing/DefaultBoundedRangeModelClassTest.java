@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.swing.DefaultBoundedRangeModelClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultBoundedRangeModel#DefaultBoundedRangeModel() public javax.swing.DefaultBoundedRangeModel()}.
+     * {@link javax.swing.DefaultBoundedRangeModel#DefaultBoundedRangeModel() public
+     * javax.swing.DefaultBoundedRangeModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.swing.DefaultBoundedRangeModelClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultBoundedRangeModel#DefaultBoundedRangeModel(int, int, int, int) public
+     * {@link javax.swing.DefaultBoundedRangeModel#DefaultBoundedRangeModel(int, int, int, int) public
      * javax.swing.DefaultBoundedRangeModel(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

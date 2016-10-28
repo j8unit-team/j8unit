@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.image.RGBImageFilterClassTests<RGBImag
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RGBImageFilter#RGBImageFilter() public
-     * java.awt.image.RGBImageFilter()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.image.RGBImageFilter#RGBImageFilter()
+     * public java.awt.image.RGBImageFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

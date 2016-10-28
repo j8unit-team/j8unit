@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.concurrent.Callable;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScheduledThreadPoolExecutor#execute(Runnable) public
-     * void java.util.concurrent.ScheduledThreadPoolExecutor.execute(java.lang.Runnable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#execute(Runnable) public void
+     * java.util.concurrent.ScheduledThreadPoolExecutor.execute(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +59,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#getExecuteExistingDelayedTasksAfterShutdownPolicy() public boolean
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#getExecuteExistingDelayedTasksAfterShutdownPolicy()
+     * public boolean
      * java.util.concurrent.ScheduledThreadPoolExecutor.getExecuteExistingDelayedTasksAfterShutdownPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +83,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#scheduleAtFixedRate(Runnable, long, long, TimeUnit) public
-     * java.util.concurrent.ScheduledFuture<?>
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#scheduleAtFixedRate(Runnable, long, long, java.util.concurrent.TimeUnit)
+     * public java.util.concurrent.ScheduledFuture<?>
      * java.util.concurrent.ScheduledThreadPoolExecutor.scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
      * .
      *
@@ -109,7 +109,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#getContinueExistingPeriodicTasksAfterShutdownPolicy() public boolean
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#getContinueExistingPeriodicTasksAfterShutdownPolicy()
+     * public boolean
      * java.util.concurrent.ScheduledThreadPoolExecutor.getContinueExistingPeriodicTasksAfterShutdownPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,8 +133,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#scheduleWithFixedDelay(Runnable, long, long, TimeUnit) public
-     * java.util.concurrent.ScheduledFuture<?>
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#scheduleWithFixedDelay(Runnable, long, long, java.util.concurrent.TimeUnit)
+     * public java.util.concurrent.ScheduledFuture<?>
      * java.util.concurrent.ScheduledThreadPoolExecutor.scheduleWithFixedDelay(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
      * .
      *
@@ -157,8 +158,9 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScheduledThreadPoolExecutor#submit(Runnable) public
-     * java.util.concurrent.Future<?> java.util.concurrent.ScheduledThreadPoolExecutor.submit(java.lang.Runnable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#submit(Runnable) public java.util.concurrent.Future
+     * <?> java.util.concurrent.ScheduledThreadPoolExecutor.submit(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,7 +182,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScheduledThreadPoolExecutor#submit(Callable) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#submit(java.util.concurrent.Callable) public
      * <T> java.util.concurrent.Future
      * <T> java.util.concurrent.ScheduledThreadPoolExecutor.submit(java.util.concurrent.Callable<T>)}.
      *
@@ -204,9 +207,10 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScheduledThreadPoolExecutor#submit(Runnable, Object)
-     * public <T> java.util.concurrent.Future
-     * <T> java.util.concurrent.ScheduledThreadPoolExecutor.submit(java.lang.Runnable,T)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#submit(Runnable, Object) public
+     * <T> java.util.concurrent.Future<T> java.util.concurrent.ScheduledThreadPoolExecutor.submit(java.lang.Runnable,T)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -228,8 +232,9 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScheduledThreadPoolExecutor#shutdownNow() public
-     * java.util.List<java.lang.Runnable> java.util.concurrent.ScheduledThreadPoolExecutor.shutdownNow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#shutdownNow() public java.util.List
+     * <java.lang.Runnable> java.util.concurrent.ScheduledThreadPoolExecutor.shutdownNow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -252,7 +257,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#setExecuteExistingDelayedTasksAfterShutdownPolicy(boolean) public void
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#setExecuteExistingDelayedTasksAfterShutdownPolicy(boolean)
+     * public void
      * java.util.concurrent.ScheduledThreadPoolExecutor.setExecuteExistingDelayedTasksAfterShutdownPolicy(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -275,7 +281,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#setContinueExistingPeriodicTasksAfterShutdownPolicy(boolean) public void
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#setContinueExistingPeriodicTasksAfterShutdownPolicy(boolean)
+     * public void
      * java.util.concurrent.ScheduledThreadPoolExecutor.setContinueExistingPeriodicTasksAfterShutdownPolicy(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -298,7 +305,7 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#getRemoveOnCancelPolicy() public boolean
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#getRemoveOnCancelPolicy() public boolean
      * java.util.concurrent.ScheduledThreadPoolExecutor.getRemoveOnCancelPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -320,7 +327,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScheduledThreadPoolExecutor#shutdown() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#shutdown() public void
      * java.util.concurrent.ScheduledThreadPoolExecutor.shutdown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -344,7 +352,7 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#setRemoveOnCancelPolicy(boolean) public void
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#setRemoveOnCancelPolicy(boolean) public void
      * java.util.concurrent.ScheduledThreadPoolExecutor.setRemoveOnCancelPolicy(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -367,8 +375,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#schedule(Callable, long, TimeUnit) public
-     * <V> java.util.concurrent.ScheduledFuture
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+     * public <V> java.util.concurrent.ScheduledFuture
      * <V> java.util.concurrent.ScheduledThreadPoolExecutor.schedule(java.util.concurrent.Callable
      * <V>,long,java.util.concurrent.TimeUnit)}.
      *
@@ -393,8 +401,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ScheduledThreadPoolExecutor#schedule(Runnable, long, TimeUnit) public java.util.concurrent.ScheduledFuture
-     * <?>
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#schedule(Runnable, long, java.util.concurrent.TimeUnit)
+     * public java.util.concurrent.ScheduledFuture<?>
      * java.util.concurrent.ScheduledThreadPoolExecutor.schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)}
      * .
      *
@@ -418,8 +426,8 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScheduledThreadPoolExecutor#getQueue() public
-     * java.util.concurrent.BlockingQueue
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#getQueue() public java.util.concurrent.BlockingQueue
      * <java.lang.Runnable> java.util.concurrent.ScheduledThreadPoolExecutor.getQueue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

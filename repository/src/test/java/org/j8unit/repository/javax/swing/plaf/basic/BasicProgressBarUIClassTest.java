@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicProgressBarUI;
 import javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler;
 import org.j8unit.repository.categories.Draft;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicProgressBarUI#BasicProgressBarUI() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#BasicProgressBarUI() public
      * javax.swing.plaf.basic.BasicProgressBarUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicProgressBarUI#createUI(JComponent) public
-     * static javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicProgressBarUI.createUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicProgressBarUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicProgressBarUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +60,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassT
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link BasicProgressBarUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.basic.BasicProgressBarUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI]
@@ -78,8 +79,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassT
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link ChangeHandler#ChangeHandler(BasicProgressBarUI) public
-         * javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler(javax.swing.plaf.basic.BasicProgressBarUI)}.
+         * {@link javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler#ChangeHandler(javax.swing.plaf.basic.BasicProgressBarUI)
+         * public javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler(javax.swing.plaf.basic.BasicProgressBarUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -95,7 +96,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassT
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final ChangeHandler sut = null; // = new ChangeHandler(BasicProgressBarUI);
+            final ChangeHandler sut = null; // = new ChangeHandler(javax.swing.plaf.basic.BasicProgressBarUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler]

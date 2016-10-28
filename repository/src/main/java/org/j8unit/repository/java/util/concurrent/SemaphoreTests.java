@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#release() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#release() public void
      * java.util.concurrent.Semaphore.release()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#release(int) public void
-     * java.util.concurrent.Semaphore.release(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#release(int) public
+     * void java.util.concurrent.Semaphore.release(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#availablePermits() public int
-     * java.util.concurrent.Semaphore.availablePermits()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#availablePermits()
+     * public int java.util.concurrent.Semaphore.availablePermits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +100,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#isFair() public boolean
-     * java.util.concurrent.Semaphore.isFair()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#isFair() public
+     * boolean java.util.concurrent.Semaphore.isFair()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +122,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#acquire(int) public void
-     * java.util.concurrent.Semaphore.acquire(int) throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#acquire(int) public
+     * void java.util.concurrent.Semaphore.acquire(int) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +144,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#acquire() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#acquire() public void
      * java.util.concurrent.Semaphore.acquire() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +166,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#getQueueLength() public final int
-     * java.util.concurrent.Semaphore.getQueueLength()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#getQueueLength()
+     * public final int java.util.concurrent.Semaphore.getQueueLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +188,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#drainPermits() public int
-     * java.util.concurrent.Semaphore.drainPermits()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#drainPermits() public
+     * int java.util.concurrent.Semaphore.drainPermits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +210,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#acquireUninterruptibly(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.Semaphore#acquireUninterruptibly(int) public void
      * java.util.concurrent.Semaphore.acquireUninterruptibly(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,7 +233,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#acquireUninterruptibly() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.Semaphore#acquireUninterruptibly() public void
      * java.util.concurrent.Semaphore.acquireUninterruptibly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,8 +256,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#hasQueuedThreads() public final boolean
-     * java.util.concurrent.Semaphore.hasQueuedThreads()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#hasQueuedThreads()
+     * public final boolean java.util.concurrent.Semaphore.hasQueuedThreads()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +278,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#toString() public java.lang.String
-     * java.util.concurrent.Semaphore.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#toString() public
+     * java.lang.String java.util.concurrent.Semaphore.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,8 +301,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#tryAcquire() public boolean
-     * java.util.concurrent.Semaphore.tryAcquire()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#tryAcquire() public
+     * boolean java.util.concurrent.Semaphore.tryAcquire()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -322,7 +323,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#tryAcquire(long, TimeUnit) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.Semaphore#tryAcquire(long, java.util.concurrent.TimeUnit) public boolean
      * java.util.concurrent.Semaphore.tryAcquire(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
@@ -345,8 +347,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#tryAcquire(int) public boolean
-     * java.util.concurrent.Semaphore.tryAcquire(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Semaphore#tryAcquire(int)
+     * public boolean java.util.concurrent.Semaphore.tryAcquire(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,8 +369,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Semaphore#tryAcquire(int, long, TimeUnit) public
-     * boolean java.util.concurrent.Semaphore.tryAcquire(int,long,java.util.concurrent.TimeUnit) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.Semaphore#tryAcquire(int, long, java.util.concurrent.TimeUnit) public boolean
+     * java.util.concurrent.Semaphore.tryAcquire(int,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

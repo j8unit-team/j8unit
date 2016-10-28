@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.print.event;
 
-import javax.print.PrintService;
-import javax.print.attribute.PrintServiceAttributeSet;
 import javax.print.event.PrintServiceAttributeEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.print.event.PrintServiceAttributeEventCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrintServiceAttributeEvent#PrintServiceAttributeEvent(PrintService, PrintServiceAttributeSet) public
+     * {@link javax.print.event.PrintServiceAttributeEvent#PrintServiceAttributeEvent(javax.print.PrintService, javax.print.attribute.PrintServiceAttributeSet)
+     * public
      * javax.print.event.PrintServiceAttributeEvent(javax.print.PrintService,javax.print.attribute.PrintServiceAttributeSet)}
      * .
      *
@@ -42,8 +41,8 @@ implements org.j8unit.repository.javax.print.event.PrintServiceAttributeEventCla
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintServiceAttributeEvent sut = null; // = new PrintServiceAttributeEvent(PrintService,
-                                                     // PrintServiceAttributeSet);
+        final PrintServiceAttributeEvent sut = null; // = new PrintServiceAttributeEvent(javax.print.PrintService,
+                                                     // javax.print.attribute.PrintServiceAttributeSet);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintServiceAttributeEvent]

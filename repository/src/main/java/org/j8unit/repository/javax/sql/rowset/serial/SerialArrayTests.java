@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.util.Map;
 import javax.sql.rowset.serial.SerialArray;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#equals(Object) public boolean
-     * javax.sql.rowset.serial.SerialArray.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialArray#equals(Object)
+     * public boolean javax.sql.rowset.serial.SerialArray.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,9 +58,10 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getResultSet(long, int, Map) public
-     * java.sql.ResultSet javax.sql.rowset.serial.SerialArray.getResultSet(long,int,java.util.Map<java.lang.String,
-     * java.lang.Class<?>>) throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialArray#getResultSet(long, int, java.util.Map) public java.sql.ResultSet
+     * javax.sql.rowset.serial.SerialArray.getResultSet(long,int,java.util.Map<java.lang.String, java.lang.Class<?>>)
+     * throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,32 +83,10 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getResultSet() public java.sql.ResultSet
-     * javax.sql.rowset.serial.SerialArray.getResultSet() throws javax.sql.rowset.serial.SerialException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getResultSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getResultSet(Map) public
-     * java.sql.ResultSet javax.sql.rowset.serial.SerialArray.getResultSet(java.util.Map<java.lang.String,
-     * java.lang.Class<?>>) throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialArray#getResultSet(java.util.Map) public java.sql.ResultSet
+     * javax.sql.rowset.serial.SerialArray.getResultSet(java.util.Map<java.lang.String, java.lang.Class<?>>) throws
+     * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,9 +108,33 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getResultSet(long, int) public
-     * java.sql.ResultSet javax.sql.rowset.serial.SerialArray.getResultSet(long,int) throws
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialArray#getResultSet()
+     * public java.sql.ResultSet javax.sql.rowset.serial.SerialArray.getResultSet() throws
      * javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getResultSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialArray#getResultSet(long, int) public java.sql.ResultSet
+     * javax.sql.rowset.serial.SerialArray.getResultSet(long,int) throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,8 +156,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#hashCode() public int
-     * javax.sql.rowset.serial.SerialArray.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialArray#hashCode()
+     * public int javax.sql.rowset.serial.SerialArray.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +179,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#free() public void
-     * javax.sql.rowset.serial.SerialArray.free() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialArray#free() public
+     * void javax.sql.rowset.serial.SerialArray.free() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +202,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getBaseType() public int
-     * javax.sql.rowset.serial.SerialArray.getBaseType() throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialArray#getBaseType()
+     * public int javax.sql.rowset.serial.SerialArray.getBaseType() throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,8 +225,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#clone() public java.lang.Object
-     * javax.sql.rowset.serial.SerialArray.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialArray#clone() public
+     * java.lang.Object javax.sql.rowset.serial.SerialArray.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,9 +247,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getBaseTypeName() public
-     * java.lang.String javax.sql.rowset.serial.SerialArray.getBaseTypeName() throws
-     * javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialArray#getBaseTypeName() public java.lang.String
+     * javax.sql.rowset.serial.SerialArray.getBaseTypeName() throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,31 +271,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getArray(long, int) public
-     * java.lang.Object javax.sql.rowset.serial.SerialArray.getArray(long,int) throws
-     * javax.sql.rowset.serial.SerialException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getArray_long_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getArray(Map) public java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialArray#getArray(java.util.Map) public java.lang.Object
      * javax.sql.rowset.serial.SerialArray.getArray(java.util.Map<java.lang.String, java.lang.Class<?>>) throws
      * javax.sql.rowset.serial.SerialException}.
      *
@@ -317,8 +296,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getArray() public java.lang.Object
-     * javax.sql.rowset.serial.SerialArray.getArray() throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialArray#getArray()
+     * public java.lang.Object javax.sql.rowset.serial.SerialArray.getArray() throws
+     * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -340,9 +320,34 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialArray#getArray(long, int, Map) public
-     * java.lang.Object javax.sql.rowset.serial.SerialArray.getArray(long,int,java.util.Map<java.lang.String,
-     * java.lang.Class<?>>) throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialArray#getArray(long, int) public java.lang.Object
+     * javax.sql.rowset.serial.SerialArray.getArray(long,int) throws javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getArray_long_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialArray#getArray(long, int, java.util.Map) public java.lang.Object
+     * javax.sql.rowset.serial.SerialArray.getArray(long,int,java.util.Map<java.lang.String, java.lang.Class<?>>) throws
+     * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

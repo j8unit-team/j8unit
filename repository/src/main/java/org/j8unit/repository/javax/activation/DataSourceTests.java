@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataSource#getContentType() public abstract
-     * java.lang.String javax.activation.DataSource.getContentType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.DataSource#getContentType() public
+     * abstract java.lang.String javax.activation.DataSource.getContentType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataSource#getOutputStream() public abstract
-     * java.io.OutputStream javax.activation.DataSource.getOutputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.DataSource#getOutputStream() public
+     * abstract java.io.OutputStream javax.activation.DataSource.getOutputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataSource#getInputStream() public abstract
-     * java.io.InputStream javax.activation.DataSource.getInputStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.DataSource#getInputStream() public
+     * abstract java.io.InputStream javax.activation.DataSource.getInputStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataSource#getName() public abstract
-     * java.lang.String javax.activation.DataSource.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.DataSource#getName() public
+     * abstract java.lang.String javax.activation.DataSource.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

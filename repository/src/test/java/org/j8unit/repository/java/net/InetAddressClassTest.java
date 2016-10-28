@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getAllByName(String) public static
-     * java.net.InetAddress[] java.net.InetAddress.getAllByName(java.lang.String) throws java.net.UnknownHostException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getAllByName(String) public
+     * static java.net.InetAddress[] java.net.InetAddress.getAllByName(java.lang.String) throws
+     * java.net.UnknownHostException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +37,12 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
     @Category(Draft.class)
     public void test_getAllByName_String()
     throws Exception {
-        // write some test for {@link InetAddress#getAllByName(String)}
+        // write some test for {@link java.net.InetAddress#getAllByName(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getByName(String) public static
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getByName(String) public static
      * java.net.InetAddress java.net.InetAddress.getByName(java.lang.String) throws java.net.UnknownHostException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,13 +57,13 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
     @Category(Draft.class)
     public void test_getByName_String()
     throws Exception {
-        // write some test for {@link InetAddress#getByName(String)}
+        // write some test for {@link java.net.InetAddress#getByName(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getByAddress(String, byte[]) public
-     * static java.net.InetAddress java.net.InetAddress.getByAddress(java.lang.String,byte[]) throws
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getByAddress(String, byte[])
+     * public static java.net.InetAddress java.net.InetAddress.getByAddress(java.lang.String,byte[]) throws
      * java.net.UnknownHostException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -77,13 +78,13 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
     @Category(Draft.class)
     public void test_getByAddress_String_byteArray()
     throws Exception {
-        // write some test for {@link InetAddress#getByAddress(String, byte[])}
+        // write some test for {@link java.net.InetAddress#getByAddress(String, byte[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getByAddress(byte[]) public static
-     * java.net.InetAddress java.net.InetAddress.getByAddress(byte[]) throws java.net.UnknownHostException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getByAddress(byte[]) public
+     * static java.net.InetAddress java.net.InetAddress.getByAddress(byte[]) throws java.net.UnknownHostException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -97,13 +98,13 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
     @Category(Draft.class)
     public void test_getByAddress_byteArray()
     throws Exception {
-        // write some test for {@link InetAddress#getByAddress(byte[])}
+        // write some test for {@link java.net.InetAddress#getByAddress(byte[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getLoopbackAddress() public static
-     * java.net.InetAddress java.net.InetAddress.getLoopbackAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getLoopbackAddress() public
+     * static java.net.InetAddress java.net.InetAddress.getLoopbackAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,12 +118,12 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
     @Category(Draft.class)
     public void test_getLoopbackAddress()
     throws Exception {
-        // write some test for {@link InetAddress#getLoopbackAddress()}
+        // write some test for {@link java.net.InetAddress#getLoopbackAddress()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getLocalHost() public static
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getLocalHost() public static
      * java.net.InetAddress java.net.InetAddress.getLocalHost() throws java.net.UnknownHostException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -137,7 +138,7 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
     @Category(Draft.class)
     public void test_getLocalHost()
     throws Exception {
-        // write some test for {@link InetAddress#getLocalHost()}
+        // write some test for {@link java.net.InetAddress#getLocalHost()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.InetAddress]

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.sql;
 
-import javax.sql.ConnectionEventListener;
 import javax.sql.PooledConnection;
-import javax.sql.StatementEventListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PooledConnection#close() public abstract void
-     * javax.sql.PooledConnection.close() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.PooledConnection#close() public abstract
+     * void javax.sql.PooledConnection.close() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PooledConnection#addConnectionEventListener(ConnectionEventListener) public abstract void
-     * javax.sql.PooledConnection.addConnectionEventListener(javax.sql.ConnectionEventListener)}.
+     * {@link javax.sql.PooledConnection#addConnectionEventListener(javax.sql.ConnectionEventListener) public abstract
+     * void javax.sql.PooledConnection.addConnectionEventListener(javax.sql.ConnectionEventListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +81,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PooledConnection#addStatementEventListener(StatementEventListener) public abstract void
-     * javax.sql.PooledConnection.addStatementEventListener(javax.sql.StatementEventListener)}.
+     * {@link javax.sql.PooledConnection#addStatementEventListener(javax.sql.StatementEventListener) public abstract
+     * void javax.sql.PooledConnection.addStatementEventListener(javax.sql.StatementEventListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +104,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PooledConnection#removeConnectionEventListener(ConnectionEventListener) public abstract void
-     * javax.sql.PooledConnection.removeConnectionEventListener(javax.sql.ConnectionEventListener)}.
+     * {@link javax.sql.PooledConnection#removeConnectionEventListener(javax.sql.ConnectionEventListener) public
+     * abstract void javax.sql.PooledConnection.removeConnectionEventListener(javax.sql.ConnectionEventListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +126,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PooledConnection#getConnection() public abstract
-     * java.sql.Connection javax.sql.PooledConnection.getConnection() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.PooledConnection#getConnection() public
+     * abstract java.sql.Connection javax.sql.PooledConnection.getConnection() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +149,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PooledConnection#removeStatementEventListener(StatementEventListener) public abstract void
-     * javax.sql.PooledConnection.removeStatementEventListener(javax.sql.StatementEventListener)}.
+     * {@link javax.sql.PooledConnection#removeStatementEventListener(javax.sql.StatementEventListener) public abstract
+     * void javax.sql.PooledConnection.removeStatementEventListener(javax.sql.StatementEventListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

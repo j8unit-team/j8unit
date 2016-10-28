@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Color;
-import java.awt.color.ColorSpace;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Color#Color(float, float, float, float) public
-     * java.awt.Color(float,float,float,float)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Color#Color(float, float, float, float) public java.awt.Color(float,float,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,8 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Color#Color(int) public java.awt.Color(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int) public
+     * java.awt.Color(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,7 +65,7 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Color#Color(int, boolean) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int, boolean) public
      * java.awt.Color(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,8 +87,8 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Color#Color(float, float, float) public
-     * java.awt.Color(float,float,float)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(float, float, float)
+     * public java.awt.Color(float,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,7 +109,7 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Color#Color(int, int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int, int, int) public
      * java.awt.Color(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,7 +131,8 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Color#Color(ColorSpace, float[], float) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Color#Color(java.awt.color.ColorSpace, float[], float) public
      * java.awt.Color(java.awt.color.ColorSpace,float[],float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,12 +149,12 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Color sut = null; // = new Color(ColorSpace, float[], float);
+        final Color sut = null; // = new Color(java.awt.color.ColorSpace, float[], float);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Color#Color(int, int, int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int, int, int, int) public
      * java.awt.Color(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,7 +176,7 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getColor(String, int) public static
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getColor(String, int) public static
      * java.awt.Color java.awt.Color.getColor(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,13 +191,13 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     @Category(Draft.class)
     public void test_getColor_String_int()
     throws Exception {
-        // write some test for {@link Color#getColor(String, int)}
+        // write some test for {@link java.awt.Color#getColor(String, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getColor(String, Color) public static
-     * java.awt.Color java.awt.Color.getColor(java.lang.String,java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getColor(String, java.awt.Color)
+     * public static java.awt.Color java.awt.Color.getColor(java.lang.String,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,13 +211,13 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     @Category(Draft.class)
     public void test_getColor_String_Color()
     throws Exception {
-        // write some test for {@link Color#getColor(String, Color)}
+        // write some test for {@link java.awt.Color#getColor(String, java.awt.Color)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getColor(String) public static java.awt.Color
-     * java.awt.Color.getColor(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getColor(String) public static
+     * java.awt.Color java.awt.Color.getColor(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -230,13 +231,13 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     @Category(Draft.class)
     public void test_getColor_String()
     throws Exception {
-        // write some test for {@link Color#getColor(String)}
+        // write some test for {@link java.awt.Color#getColor(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#HSBtoRGB(float, float, float) public static
-     * int java.awt.Color.HSBtoRGB(float,float,float)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#HSBtoRGB(float, float, float) public
+     * static int java.awt.Color.HSBtoRGB(float,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -250,13 +251,13 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     @Category(Draft.class)
     public void test_HSBtoRGB_float_float_float()
     throws Exception {
-        // write some test for {@link Color#HSBtoRGB(float, float, float)}
+        // write some test for {@link java.awt.Color#HSBtoRGB(float, float, float)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#decode(String) public static java.awt.Color
-     * java.awt.Color.decode(java.lang.String) throws java.lang.NumberFormatException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#decode(String) public static
+     * java.awt.Color java.awt.Color.decode(java.lang.String) throws java.lang.NumberFormatException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,13 +271,13 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     @Category(Draft.class)
     public void test_decode_String()
     throws Exception {
-        // write some test for {@link Color#decode(String)}
+        // write some test for {@link java.awt.Color#decode(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#RGBtoHSB(int, int, int, float[]) public static
-     * float[] java.awt.Color.RGBtoHSB(int,int,int,float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#RGBtoHSB(int, int, int, float[])
+     * public static float[] java.awt.Color.RGBtoHSB(int,int,int,float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -290,13 +291,13 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     @Category(Draft.class)
     public void test_RGBtoHSB_int_int_int_floatArray()
     throws Exception {
-        // write some test for {@link Color#RGBtoHSB(int, int, int, float[])}
+        // write some test for {@link java.awt.Color#RGBtoHSB(int, int, int, float[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getHSBColor(float, float, float) public static
-     * java.awt.Color java.awt.Color.getHSBColor(float,float,float)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getHSBColor(float, float, float)
+     * public static java.awt.Color java.awt.Color.getHSBColor(float,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,7 +311,7 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     @Category(Draft.class)
     public void test_getHSBColor_float_float_float()
     throws Exception {
-        // write some test for {@link Color#getHSBColor(float, float, float)}
+        // write some test for {@link java.awt.Color#getHSBColor(float, float, float)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Color]

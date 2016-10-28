@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.datatransfer.Transferable;
 import javax.swing.TransferHandler;
 import javax.swing.TransferHandler.DropLocation;
 import javax.swing.TransferHandler.TransferSupport;
@@ -25,8 +23,8 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TransferHandler#TransferHandler(String) public
-     * javax.swing.TransferHandler(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.TransferHandler#TransferHandler(String) public javax.swing.TransferHandler(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,8 +45,8 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransferHandler#getCutAction() public static
-     * javax.swing.Action javax.swing.TransferHandler.getCutAction()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.TransferHandler#getCutAction() public
+     * static javax.swing.Action javax.swing.TransferHandler.getCutAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +60,13 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
     @Category(Draft.class)
     public void test_getCutAction()
     throws Exception {
-        // write some test for {@link TransferHandler#getCutAction()}
+        // write some test for {@link javax.swing.TransferHandler#getCutAction()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransferHandler#getCopyAction() public static
-     * javax.swing.Action javax.swing.TransferHandler.getCopyAction()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.TransferHandler#getCopyAction() public
+     * static javax.swing.Action javax.swing.TransferHandler.getCopyAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,13 +80,13 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
     @Category(Draft.class)
     public void test_getCopyAction()
     throws Exception {
-        // write some test for {@link TransferHandler#getCopyAction()}
+        // write some test for {@link javax.swing.TransferHandler#getCopyAction()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TransferHandler#getPasteAction() public static
-     * javax.swing.Action javax.swing.TransferHandler.getPasteAction()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.TransferHandler#getPasteAction() public
+     * static javax.swing.Action javax.swing.TransferHandler.getPasteAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,25 +100,10 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
     @Category(Draft.class)
     public void test_getPasteAction()
     throws Exception {
-        // write some test for {@link TransferHandler#getPasteAction()}
+        // write some test for {@link javax.swing.TransferHandler#getPasteAction()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler]
-
-    @RunWith(J8Unit4.class)
-    public static class DropLocationClassTest
-    implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<DropLocation> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
-
-        @Override
-        public Class<DropLocation> createNewSUT() {
-            return DropLocation.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class TransferSupportClassTest
@@ -136,8 +119,8 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link TransferSupport#TransferSupport(Component, Transferable) public
-         * javax.swing.TransferHandler$TransferSupport(java.awt.Component,java.awt.datatransfer.Transferable)}.
+         * {@link javax.swing.TransferHandler.TransferSupport#TransferSupport(java.awt.Component, java.awt.datatransfer.Transferable)
+         * public javax.swing.TransferHandler$TransferSupport(java.awt.Component,java.awt.datatransfer.Transferable)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -153,10 +136,26 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TransferSupport sut = null; // = new TransferSupport(Component, Transferable);
+            final TransferSupport sut = null; // = new TransferSupport(java.awt.Component,
+                                              // java.awt.datatransfer.Transferable);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler$TransferSupport]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DropLocationClassTest
+    implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<DropLocation> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
+
+        @Override
+        public Class<DropLocation> createNewSUT() {
+            return DropLocation.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
 
     }
 

@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#isCachedMemory() public
-     * boolean javax.imageio.stream.FileCacheImageOutputStream.isCachedMemory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#isCachedMemory() public boolean
+     * javax.imageio.stream.FileCacheImageOutputStream.isCachedMemory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#isCachedFile() public
-     * boolean javax.imageio.stream.FileCacheImageOutputStream.isCachedFile()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#isCachedFile() public boolean
+     * javax.imageio.stream.FileCacheImageOutputStream.isCachedFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,9 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#flushBefore(long) public
-     * void javax.imageio.stream.FileCacheImageOutputStream.flushBefore(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#flushBefore(long) public void
+     * javax.imageio.stream.FileCacheImageOutputStream.flushBefore(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,30 +106,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#read(byte[], int, int)
-     * public int javax.imageio.stream.FileCacheImageOutputStream.read(byte[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_read_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#read() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#read() public int
      * javax.imageio.stream.FileCacheImageOutputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +130,32 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#seek(long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#read(byte[], int, int) public int
+     * javax.imageio.stream.FileCacheImageOutputStream.read(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_read_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#seek(long) public void
      * javax.imageio.stream.FileCacheImageOutputStream.seek(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +178,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#close() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#close() public void
      * javax.imageio.stream.FileCacheImageOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,7 +202,32 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#write(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#write(byte[], int, int) public void
+     * javax.imageio.stream.FileCacheImageOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_write_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#write(int) public void
      * javax.imageio.stream.FileCacheImageOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -218,30 +250,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#write(byte[], int, int)
-     * public void javax.imageio.stream.FileCacheImageOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#isCached() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#isCached() public boolean
      * javax.imageio.stream.FileCacheImageOutputStream.isCached()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,7 +274,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileCacheImageOutputStream#length() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#length() public long
      * javax.imageio.stream.FileCacheImageOutputStream.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.logging.LoggerClassTests<Logger> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getLogger(String) public static
-     * java.util.logging.Logger java.util.logging.Logger.getLogger(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getLogger(String) public
+     * static java.util.logging.Logger java.util.logging.Logger.getLogger(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.util.logging.LoggerClassTests<Logger> {
     @Category(Draft.class)
     public void test_getLogger_String()
     throws Exception {
-        // write some test for {@link Logger#getLogger(String)}
+        // write some test for {@link java.util.logging.Logger#getLogger(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getLogger(String, String) public static
-     * java.util.logging.Logger java.util.logging.Logger.getLogger(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getLogger(String, String)
+     * public static java.util.logging.Logger java.util.logging.Logger.getLogger(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,13 +56,13 @@ implements org.j8unit.repository.java.util.logging.LoggerClassTests<Logger> {
     @Category(Draft.class)
     public void test_getLogger_String_String()
     throws Exception {
-        // write some test for {@link Logger#getLogger(String, String)}
+        // write some test for {@link java.util.logging.Logger#getLogger(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getGlobal() public static final
-     * java.util.logging.Logger java.util.logging.Logger.getGlobal()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getGlobal() public static
+     * final java.util.logging.Logger java.util.logging.Logger.getGlobal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,13 +76,13 @@ implements org.j8unit.repository.java.util.logging.LoggerClassTests<Logger> {
     @Category(Draft.class)
     public void test_getGlobal()
     throws Exception {
-        // write some test for {@link Logger#getGlobal()}
+        // write some test for {@link java.util.logging.Logger#getGlobal()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getAnonymousLogger() public static
-     * java.util.logging.Logger java.util.logging.Logger.getAnonymousLogger()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getAnonymousLogger() public
+     * static java.util.logging.Logger java.util.logging.Logger.getAnonymousLogger()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -96,13 +96,13 @@ implements org.j8unit.repository.java.util.logging.LoggerClassTests<Logger> {
     @Category(Draft.class)
     public void test_getAnonymousLogger()
     throws Exception {
-        // write some test for {@link Logger#getAnonymousLogger()}
+        // write some test for {@link java.util.logging.Logger#getAnonymousLogger()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Logger#getAnonymousLogger(String) public static
-     * java.util.logging.Logger java.util.logging.Logger.getAnonymousLogger(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.Logger#getAnonymousLogger(String)
+     * public static java.util.logging.Logger java.util.logging.Logger.getAnonymousLogger(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -116,7 +116,7 @@ implements org.j8unit.repository.java.util.logging.LoggerClassTests<Logger> {
     @Category(Draft.class)
     public void test_getAnonymousLogger_String()
     throws Exception {
-        // write some test for {@link Logger#getAnonymousLogger(String)}
+        // write some test for {@link java.util.logging.Logger#getAnonymousLogger(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.Logger]

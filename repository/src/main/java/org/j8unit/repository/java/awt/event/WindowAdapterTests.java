@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.event;
 
 import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,9 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowIconified(WindowEvent) public
-     * void java.awt.event.WindowAdapter.windowIconified(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowIconified(java.awt.event.WindowEvent) public void
+     * java.awt.event.WindowAdapter.windowIconified(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +59,9 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowGainedFocus(WindowEvent) public
-     * void java.awt.event.WindowAdapter.windowGainedFocus(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowGainedFocus(java.awt.event.WindowEvent) public void
+     * java.awt.event.WindowAdapter.windowGainedFocus(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +83,9 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowStateChanged(WindowEvent) public
-     * void java.awt.event.WindowAdapter.windowStateChanged(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowStateChanged(java.awt.event.WindowEvent) public void
+     * java.awt.event.WindowAdapter.windowStateChanged(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +107,9 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowActivated(WindowEvent) public
-     * void java.awt.event.WindowAdapter.windowActivated(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowActivated(java.awt.event.WindowEvent) public void
+     * java.awt.event.WindowAdapter.windowActivated(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +131,8 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowClosing(WindowEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowClosing(java.awt.event.WindowEvent) public void
      * java.awt.event.WindowAdapter.windowClosing(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +155,9 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowDeiconified(WindowEvent) public
-     * void java.awt.event.WindowAdapter.windowDeiconified(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowDeiconified(java.awt.event.WindowEvent) public void
+     * java.awt.event.WindowAdapter.windowDeiconified(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +179,9 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowDeactivated(WindowEvent) public
-     * void java.awt.event.WindowAdapter.windowDeactivated(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowDeactivated(java.awt.event.WindowEvent) public void
+     * java.awt.event.WindowAdapter.windowDeactivated(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,8 +203,9 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowLostFocus(WindowEvent) public
-     * void java.awt.event.WindowAdapter.windowLostFocus(java.awt.event.WindowEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowLostFocus(java.awt.event.WindowEvent) public void
+     * java.awt.event.WindowAdapter.windowLostFocus(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,7 +227,8 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowClosed(WindowEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowClosed(java.awt.event.WindowEvent) public void
      * java.awt.event.WindowAdapter.windowClosed(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -243,7 +251,8 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WindowAdapter#windowOpened(WindowEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.WindowAdapter#windowOpened(java.awt.event.WindowEvent) public void
      * java.awt.event.WindowAdapter.windowOpened(java.awt.event.WindowEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

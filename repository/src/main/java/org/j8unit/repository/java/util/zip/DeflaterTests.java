@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#finished() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#finished() public boolean
      * java.util.zip.Deflater.finished()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#getTotalIn() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#getTotalIn() public int
      * java.util.zip.Deflater.getTotalIn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#setInput(byte[], int, int) public void
-     * java.util.zip.Deflater.setInput(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#setInput(byte[], int, int)
+     * public void java.util.zip.Deflater.setInput(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#setInput(byte[]) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#setInput(byte[]) public void
      * java.util.zip.Deflater.setInput(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#setLevel(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#setLevel(int) public void
      * java.util.zip.Deflater.setLevel(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#getAdler() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#getAdler() public int
      * java.util.zip.Deflater.getAdler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,7 +166,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#needsInput() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#needsInput() public boolean
      * java.util.zip.Deflater.needsInput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,7 +188,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#finish() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#finish() public void
      * java.util.zip.Deflater.finish()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,7 +210,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#end() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#end() public void
      * java.util.zip.Deflater.end()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -232,7 +232,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#reset() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#reset() public void
      * java.util.zip.Deflater.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -254,7 +254,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#getBytesRead() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#getBytesRead() public long
      * java.util.zip.Deflater.getBytesRead()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -276,7 +276,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#getBytesWritten() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#getBytesWritten() public long
      * java.util.zip.Deflater.getBytesWritten()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -298,29 +298,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#deflate(byte[], int, int) public int
-     * java.util.zip.Deflater.deflate(byte[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deflate_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#deflate(byte[], int, int, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.Deflater#deflate(byte[], int, int, int) public int
      * java.util.zip.Deflater.deflate(byte[],int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -342,7 +321,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#deflate(byte[]) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#deflate(byte[]) public int
      * java.util.zip.Deflater.deflate(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -364,7 +343,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#setDictionary(byte[], int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#deflate(byte[], int, int)
+     * public int java.util.zip.Deflater.deflate(byte[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deflate_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.Deflater#setDictionary(byte[], int, int) public void
      * java.util.zip.Deflater.setDictionary(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -386,8 +388,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#setDictionary(byte[]) public void
-     * java.util.zip.Deflater.setDictionary(byte[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#setDictionary(byte[]) public
+     * void java.util.zip.Deflater.setDictionary(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -408,7 +410,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#getTotalOut() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#getTotalOut() public int
      * java.util.zip.Deflater.getTotalOut()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -430,7 +432,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Deflater#setStrategy(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.Deflater#setStrategy(int) public void
      * java.util.zip.Deflater.setStrategy(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

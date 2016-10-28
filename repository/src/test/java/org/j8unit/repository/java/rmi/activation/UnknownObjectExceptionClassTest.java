@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.activation.UnknownObjectExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownObjectException#UnknownObjectException(String) public
+     * {@link java.rmi.activation.UnknownObjectException#UnknownObjectException(String) public
      * java.rmi.activation.UnknownObjectException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

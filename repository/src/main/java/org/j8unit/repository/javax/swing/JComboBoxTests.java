@@ -1,18 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ItemListener;
-import java.awt.event.KeyEvent;
-import javax.swing.Action;
-import javax.swing.ComboBoxEditor;
-import javax.swing.ComboBoxModel;
 import javax.swing.JComboBox;
 import javax.swing.JComboBox.KeySelectionManager;
-import javax.swing.ListCellRenderer;
-import javax.swing.event.ListDataEvent;
-import javax.swing.event.PopupMenuListener;
-import javax.swing.plaf.ComboBoxUI;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -49,8 +38,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getSelectedItem() public java.lang.Object
-     * javax.swing.JComboBox.getSelectedItem()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getSelectedItem() public
+     * java.lang.Object javax.swing.JComboBox.getSelectedItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -71,7 +60,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#showPopup() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#showPopup() public void
      * javax.swing.JComboBox.showPopup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -93,8 +82,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#isLightWeightPopupEnabled() public boolean
-     * javax.swing.JComboBox.isLightWeightPopupEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#isLightWeightPopupEnabled()
+     * public boolean javax.swing.JComboBox.isLightWeightPopupEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -115,7 +104,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#isEditable() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#isEditable() public boolean
      * javax.swing.JComboBox.isEditable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -137,8 +126,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#firePopupMenuWillBecomeVisible() public
-     * void javax.swing.JComboBox.firePopupMenuWillBecomeVisible()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#firePopupMenuWillBecomeVisible() public void
+     * javax.swing.JComboBox.firePopupMenuWillBecomeVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -159,8 +149,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#selectWithKeyChar(char) public boolean
-     * javax.swing.JComboBox.selectWithKeyChar(char)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#selectWithKeyChar(char) public
+     * boolean javax.swing.JComboBox.selectWithKeyChar(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,7 +171,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#processKeyEvent(KeyEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#processKeyEvent(java.awt.event.KeyEvent) public void
      * javax.swing.JComboBox.processKeyEvent(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -203,8 +194,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#removePopupMenuListener(PopupMenuListener)
-     * public void javax.swing.JComboBox.removePopupMenuListener(javax.swing.event.PopupMenuListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#removePopupMenuListener(javax.swing.event.PopupMenuListener) public void
+     * javax.swing.JComboBox.removePopupMenuListener(javax.swing.event.PopupMenuListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -225,7 +217,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getSelectedObjects() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getSelectedObjects() public
      * java.lang.Object[] javax.swing.JComboBox.getSelectedObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -248,8 +240,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#firePopupMenuCanceled() public void
-     * javax.swing.JComboBox.firePopupMenuCanceled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#firePopupMenuCanceled() public
+     * void javax.swing.JComboBox.firePopupMenuCanceled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,7 +262,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#hidePopup() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#hidePopup() public void
      * javax.swing.JComboBox.hidePopup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -292,8 +284,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getPrototypeDisplayValue() public E
-     * javax.swing.JComboBox.getPrototypeDisplayValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getPrototypeDisplayValue()
+     * public E javax.swing.JComboBox.getPrototypeDisplayValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -314,8 +306,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#isPopupVisible() public boolean
-     * javax.swing.JComboBox.isPopupVisible()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#isPopupVisible() public
+     * boolean javax.swing.JComboBox.isPopupVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -336,7 +328,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#intervalAdded(ListDataEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#intervalAdded(javax.swing.event.ListDataEvent) public void
      * javax.swing.JComboBox.intervalAdded(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -359,8 +352,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setLightWeightPopupEnabled(boolean) public
-     * void javax.swing.JComboBox.setLightWeightPopupEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setLightWeightPopupEnabled(boolean) public void
+     * javax.swing.JComboBox.setLightWeightPopupEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -381,7 +375,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#contentsChanged(ListDataEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#contentsChanged(javax.swing.event.ListDataEvent) public void
      * javax.swing.JComboBox.contentsChanged(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -404,8 +399,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setPrototypeDisplayValue(Object) public
-     * void javax.swing.JComboBox.setPrototypeDisplayValue(E)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setPrototypeDisplayValue(Object) public void
+     * javax.swing.JComboBox.setPrototypeDisplayValue(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -426,7 +422,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setModel(ComboBoxModel) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setModel(javax.swing.ComboBoxModel) public void
      * javax.swing.JComboBox.setModel(javax.swing.ComboBoxModel<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -448,7 +445,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getSelectedIndex() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getSelectedIndex() public int
      * javax.swing.JComboBox.getSelectedIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -471,7 +468,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JComboBox#setKeySelectionManager(KeySelectionManager) public void
+     * {@link javax.swing.JComboBox#setKeySelectionManager(javax.swing.JComboBox.KeySelectionManager) public void
      * javax.swing.JComboBox.setKeySelectionManager(javax.swing.JComboBox$KeySelectionManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -493,8 +490,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setPopupVisible(boolean) public void
-     * javax.swing.JComboBox.setPopupVisible(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setPopupVisible(boolean)
+     * public void javax.swing.JComboBox.setPopupVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -515,8 +512,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getActionCommand() public java.lang.String
-     * javax.swing.JComboBox.getActionCommand()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getActionCommand() public
+     * java.lang.String javax.swing.JComboBox.getActionCommand()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -537,8 +534,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#configureEditor(ComboBoxEditor, Object)
-     * public void javax.swing.JComboBox.configureEditor(javax.swing.ComboBoxEditor,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#configureEditor(javax.swing.ComboBoxEditor, Object) public void
+     * javax.swing.JComboBox.configureEditor(javax.swing.ComboBoxEditor,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -559,7 +557,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setEditor(ComboBoxEditor) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setEditor(javax.swing.ComboBoxEditor) public void
      * javax.swing.JComboBox.setEditor(javax.swing.ComboBoxEditor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -581,8 +580,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getUI() public javax.swing.plaf.ComboBoxUI
-     * javax.swing.JComboBox.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getUI() public
+     * javax.swing.plaf.ComboBoxUI javax.swing.JComboBox.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -603,8 +602,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setEnabled(boolean) public void
-     * javax.swing.JComboBox.setEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setEnabled(boolean) public
+     * void javax.swing.JComboBox.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -626,7 +625,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#removeAllItems() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#removeAllItems() public void
      * javax.swing.JComboBox.removeAllItems()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -648,8 +647,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#removeItemListener(ItemListener) public
-     * void javax.swing.JComboBox.removeItemListener(java.awt.event.ItemListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#removeItemListener(java.awt.event.ItemListener) public void
+     * javax.swing.JComboBox.removeItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -671,8 +671,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#addPopupMenuListener(PopupMenuListener)
-     * public void javax.swing.JComboBox.addPopupMenuListener(javax.swing.event.PopupMenuListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#addPopupMenuListener(javax.swing.event.PopupMenuListener) public void
+     * javax.swing.JComboBox.addPopupMenuListener(javax.swing.event.PopupMenuListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -693,8 +694,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#addActionListener(ActionListener) public
-     * void javax.swing.JComboBox.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#addActionListener(java.awt.event.ActionListener) public void
+     * javax.swing.JComboBox.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -715,8 +717,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setMaximumRowCount(int) public void
-     * javax.swing.JComboBox.setMaximumRowCount(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setMaximumRowCount(int) public
+     * void javax.swing.JComboBox.setMaximumRowCount(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -737,7 +739,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getModel() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getModel() public
      * javax.swing.ComboBoxModel<E> javax.swing.JComboBox.getModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -759,7 +761,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getItemListeners() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getItemListeners() public
      * java.awt.event.ItemListener[] javax.swing.JComboBox.getItemListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -781,7 +783,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#addItemListener(ItemListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#addItemListener(java.awt.event.ItemListener) public void
      * javax.swing.JComboBox.addItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -804,8 +807,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#removeActionListener(ActionListener)
-     * public void javax.swing.JComboBox.removeActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#removeActionListener(java.awt.event.ActionListener) public void
+     * javax.swing.JComboBox.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -826,7 +830,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setRenderer(ListCellRenderer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setRenderer(javax.swing.ListCellRenderer) public void
      * javax.swing.JComboBox.setRenderer(javax.swing.ListCellRenderer<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -848,7 +853,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getPopupMenuListeners() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getPopupMenuListeners() public
      * javax.swing.event.PopupMenuListener[] javax.swing.JComboBox.getPopupMenuListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -870,7 +875,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#addItem(Object) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#addItem(Object) public void
      * javax.swing.JComboBox.addItem(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -892,7 +897,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#actionPerformed(ActionEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#actionPerformed(java.awt.event.ActionEvent) public void
      * javax.swing.JComboBox.actionPerformed(java.awt.event.ActionEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -915,7 +921,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#updateUI() public void
      * javax.swing.JComboBox.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -938,8 +944,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getUIClassID() public java.lang.String
-     * javax.swing.JComboBox.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getUIClassID() public
+     * java.lang.String javax.swing.JComboBox.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -961,7 +967,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getItemAt(int) public E
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getItemAt(int) public E
      * javax.swing.JComboBox.getItemAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -983,7 +989,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getItemCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getItemCount() public int
      * javax.swing.JComboBox.getItemCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1005,7 +1011,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getEditor() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getEditor() public
      * javax.swing.ComboBoxEditor javax.swing.JComboBox.getEditor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1027,7 +1033,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#removeItemAt(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#removeItemAt(int) public void
      * javax.swing.JComboBox.removeItemAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1049,7 +1055,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#removeItem(Object) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#removeItem(Object) public void
      * javax.swing.JComboBox.removeItem(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1071,30 +1077,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getMaximumRowCount() public int
-     * javax.swing.JComboBox.getMaximumRowCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaximumRowCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setAction(Action) public void
-     * javax.swing.JComboBox.setAction(javax.swing.Action)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setAction(javax.swing.Action)
+     * public void javax.swing.JComboBox.setAction(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1115,7 +1099,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getActionListeners() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getMaximumRowCount() public
+     * int javax.swing.JComboBox.getMaximumRowCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaximumRowCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getActionListeners() public
      * java.awt.event.ActionListener[] javax.swing.JComboBox.getActionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1137,8 +1143,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setSelectedIndex(int) public void
-     * javax.swing.JComboBox.setSelectedIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setSelectedIndex(int) public
+     * void javax.swing.JComboBox.setSelectedIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1159,8 +1165,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getKeySelectionManager() public
-     * javax.swing.JComboBox$KeySelectionManager javax.swing.JComboBox.getKeySelectionManager()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getKeySelectionManager()
+     * public javax.swing.JComboBox$KeySelectionManager javax.swing.JComboBox.getKeySelectionManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1181,7 +1187,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#intervalRemoved(ListDataEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#intervalRemoved(javax.swing.event.ListDataEvent) public void
      * javax.swing.JComboBox.intervalRemoved(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1204,8 +1211,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#firePopupMenuWillBecomeInvisible() public
-     * void javax.swing.JComboBox.firePopupMenuWillBecomeInvisible()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#firePopupMenuWillBecomeInvisible() public void
+     * javax.swing.JComboBox.firePopupMenuWillBecomeInvisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1226,7 +1234,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setUI(ComboBoxUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setUI(javax.swing.plaf.ComboBoxUI) public void
      * javax.swing.JComboBox.setUI(javax.swing.plaf.ComboBoxUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1248,30 +1257,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setSelectedItem(Object) public void
-     * javax.swing.JComboBox.setSelectedItem(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectedItem_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setEditable(boolean) public void
-     * javax.swing.JComboBox.setEditable(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setEditable(boolean) public
+     * void javax.swing.JComboBox.setEditable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1292,7 +1279,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setSelectedItem(Object) public
+     * void javax.swing.JComboBox.setSelectedItem(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectedItem_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JComboBox.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1315,8 +1324,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#setActionCommand(String) public void
-     * javax.swing.JComboBox.setActionCommand(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setActionCommand(String)
+     * public void javax.swing.JComboBox.setActionCommand(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1337,8 +1346,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getAction() public javax.swing.Action
-     * javax.swing.JComboBox.getAction()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getAction() public
+     * javax.swing.Action javax.swing.JComboBox.getAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1359,7 +1368,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#getRenderer() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getRenderer() public
      * javax.swing.ListCellRenderer<? super E> javax.swing.JComboBox.getRenderer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1381,8 +1390,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JComboBox#insertItemAt(Object, int) public void
-     * javax.swing.JComboBox.insertItemAt(E,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#insertItemAt(Object, int)
+     * public void javax.swing.JComboBox.insertItemAt(E,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1431,8 +1440,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link KeySelectionManager#selectionForKey(char, ComboBoxModel) public abstract int
-         * javax.swing.JComboBox$KeySelectionManager.selectionForKey(char,javax.swing.ComboBoxModel)}.
+         * {@link javax.swing.JComboBox.KeySelectionManager#selectionForKey(char, javax.swing.ComboBoxModel) public
+         * abstract int javax.swing.JComboBox$KeySelectionManager.selectionForKey(char,javax.swing.ComboBoxModel)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

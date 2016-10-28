@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Dimension;
 import javax.swing.JToolBar;
 import javax.swing.JToolBar.Separator;
 import org.j8unit.repository.categories.Draft;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.swing.JToolBarClassTests<JToolBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JToolBar#JToolBar(String, int) public
-     * javax.swing.JToolBar(java.lang.String,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JToolBar#JToolBar(String, int)
+     * public javax.swing.JToolBar(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +44,7 @@ implements org.j8unit.repository.javax.swing.JToolBarClassTests<JToolBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JToolBar#JToolBar(String) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JToolBar#JToolBar(String) public
      * javax.swing.JToolBar(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,7 +66,7 @@ implements org.j8unit.repository.javax.swing.JToolBarClassTests<JToolBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JToolBar#JToolBar(int) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JToolBar#JToolBar(int) public
      * javax.swing.JToolBar(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +88,7 @@ implements org.j8unit.repository.javax.swing.JToolBarClassTests<JToolBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JToolBar#JToolBar() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JToolBar#JToolBar() public
      * javax.swing.JToolBar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +122,8 @@ implements org.j8unit.repository.javax.swing.JToolBarClassTests<JToolBar> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Separator#Separator() public
-         * javax.swing.JToolBar$Separator()}.
+         * Test method for the hereby targeted constructor-under-test {@link javax.swing.JToolBar.Separator#Separator()
+         * public javax.swing.JToolBar$Separator()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -144,7 +143,8 @@ implements org.j8unit.repository.javax.swing.JToolBarClassTests<JToolBar> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Separator#Separator(Dimension) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.JToolBar.Separator#Separator(java.awt.Dimension) public
          * javax.swing.JToolBar$Separator(java.awt.Dimension)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -161,7 +161,7 @@ implements org.j8unit.repository.javax.swing.JToolBarClassTests<JToolBar> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Separator sut = null; // = new Separator(Dimension);
+            final Separator sut = null; // = new Separator(java.awt.Dimension);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JToolBar$Separator]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth;
 
-import java.security.Permission;
 import javax.security.auth.PrivateCredentialPermission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrivateCredentialPermission#newPermissionCollection() public java.security.PermissionCollection
-     * javax.security.auth.PrivateCredentialPermission.newPermissionCollection()}.
+     * {@link javax.security.auth.PrivateCredentialPermission#newPermissionCollection() public
+     * java.security.PermissionCollection javax.security.auth.PrivateCredentialPermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrivateCredentialPermission#equals(Object) public
-     * boolean javax.security.auth.PrivateCredentialPermission.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.PrivateCredentialPermission#equals(Object) public boolean
+     * javax.security.auth.PrivateCredentialPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +82,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrivateCredentialPermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.PrivateCredentialPermission#hashCode() public int
      * javax.security.auth.PrivateCredentialPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +106,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrivateCredentialPermission#getCredentialClass()
-     * public java.lang.String javax.security.auth.PrivateCredentialPermission.getCredentialClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.PrivateCredentialPermission#getCredentialClass() public java.lang.String
+     * javax.security.auth.PrivateCredentialPermission.getCredentialClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +129,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrivateCredentialPermission#implies(Permission)
-     * public boolean javax.security.auth.PrivateCredentialPermission.implies(java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.PrivateCredentialPermission#implies(java.security.Permission) public boolean
+     * javax.security.auth.PrivateCredentialPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +153,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrivateCredentialPermission#getPrincipals() public
-     * java.lang.String[][] javax.security.auth.PrivateCredentialPermission.getPrincipals()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.PrivateCredentialPermission#getPrincipals() public java.lang.String[][]
+     * javax.security.auth.PrivateCredentialPermission.getPrincipals()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +176,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrivateCredentialPermission#getActions() public
-     * java.lang.String javax.security.auth.PrivateCredentialPermission.getActions()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.PrivateCredentialPermission#getActions() public java.lang.String
+     * javax.security.auth.PrivateCredentialPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

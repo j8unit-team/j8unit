@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.AlphaComposite;
-import java.awt.RenderingHints;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,7 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlphaComposite#getRule() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.AlphaComposite#getRule() public int
      * java.awt.AlphaComposite.getRule()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +56,7 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlphaComposite#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.AlphaComposite#hashCode() public int
      * java.awt.AlphaComposite.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +79,8 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlphaComposite#equals(Object) public boolean
-     * java.awt.AlphaComposite.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AlphaComposite#equals(Object) public
+     * boolean java.awt.AlphaComposite.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +102,7 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlphaComposite#derive(int) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.AlphaComposite#derive(int) public
      * java.awt.AlphaComposite java.awt.AlphaComposite.derive(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +124,7 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlphaComposite#derive(float) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.AlphaComposite#derive(float) public
      * java.awt.AlphaComposite java.awt.AlphaComposite.derive(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +146,7 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlphaComposite#getAlpha() public float
+     * Test method for the hereby targeted method-under-test {@link java.awt.AlphaComposite#getAlpha() public float
      * java.awt.AlphaComposite.getAlpha()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +169,8 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AlphaComposite#createContext(ColorModel, ColorModel, RenderingHints) public java.awt.CompositeContext
+     * {@link java.awt.AlphaComposite#createContext(java.awt.image.ColorModel, java.awt.image.ColorModel, java.awt.RenderingHints)
+     * public java.awt.CompositeContext
      * java.awt.AlphaComposite.createContext(java.awt.image.ColorModel,java.awt.image.ColorModel,java.awt.RenderingHints)}
      * .
      *

@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes2#isDeclared(String) public abstract
-     * boolean org.xml.sax.ext.Attributes2.isDeclared(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2#isDeclared(String)
+     * public abstract boolean org.xml.sax.ext.Attributes2.isDeclared(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes2#isDeclared(String, String) public
-     * abstract boolean org.xml.sax.ext.Attributes2.isDeclared(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ext.Attributes2#isDeclared(String, String) public abstract boolean
+     * org.xml.sax.ext.Attributes2.isDeclared(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes2#isDeclared(int) public abstract boolean
-     * org.xml.sax.ext.Attributes2.isDeclared(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2#isDeclared(int) public
+     * abstract boolean org.xml.sax.ext.Attributes2.isDeclared(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes2#isSpecified(int) public abstract boolean
-     * org.xml.sax.ext.Attributes2.isSpecified(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2#isSpecified(int) public
+     * abstract boolean org.xml.sax.ext.Attributes2.isSpecified(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes2#isSpecified(String) public abstract
-     * boolean org.xml.sax.ext.Attributes2.isSpecified(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2#isSpecified(String)
+     * public abstract boolean org.xml.sax.ext.Attributes2.isSpecified(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,9 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes2#isSpecified(String, String) public
-     * abstract boolean org.xml.sax.ext.Attributes2.isSpecified(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ext.Attributes2#isSpecified(String, String) public abstract boolean
+     * org.xml.sax.ext.Attributes2.isSpecified(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

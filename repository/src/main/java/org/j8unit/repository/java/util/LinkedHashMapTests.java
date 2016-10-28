@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.LinkedHashMap;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashMap#getOrDefault(Object, Object) public V
-     * java.util.LinkedHashMap.getOrDefault(java.lang.Object,V)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedHashMap#getOrDefault(Object, Object)
+     * public V java.util.LinkedHashMap.getOrDefault(java.lang.Object,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +57,7 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashMap#entrySet() public
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedHashMap#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.LinkedHashMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +80,8 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashMap#forEach(BiConsumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.LinkedHashMap#forEach(java.util.function.BiConsumer) public void
      * java.util.LinkedHashMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +104,8 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashMap#values() public java.util.Collection
-     * <V> java.util.LinkedHashMap.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedHashMap#values() public
+     * java.util.Collection<V> java.util.LinkedHashMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +127,7 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashMap#get(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedHashMap#get(Object) public V
      * java.util.LinkedHashMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,7 +150,7 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashMap#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedHashMap#clear() public void
      * java.util.LinkedHashMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +173,8 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashMap#keySet() public java.util.Set
-     * <K> java.util.LinkedHashMap.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedHashMap#keySet() public
+     * java.util.Set<K> java.util.LinkedHashMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,7 +196,8 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashMap#replaceAll(BiFunction) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.LinkedHashMap#replaceAll(java.util.function.BiFunction) public void
      * java.util.LinkedHashMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,8 +220,8 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinkedHashMap#containsValue(Object) public boolean
-     * java.util.LinkedHashMap.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.LinkedHashMap#containsValue(Object) public
+     * boolean java.util.LinkedHashMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

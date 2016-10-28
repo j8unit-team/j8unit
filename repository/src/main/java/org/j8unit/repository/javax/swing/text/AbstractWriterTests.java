@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractWriter#setLineSeparator(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AbstractWriter#setLineSeparator(String) public void
      * javax.swing.text.AbstractWriter.setLineSeparator(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractWriter#getLineSeparator() public
-     * java.lang.String javax.swing.text.AbstractWriter.getLineSeparator()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AbstractWriter#getLineSeparator()
+     * public java.lang.String javax.swing.text.AbstractWriter.getLineSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractWriter#getEndOffset() public int
-     * javax.swing.text.AbstractWriter.getEndOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AbstractWriter#getEndOffset()
+     * public int javax.swing.text.AbstractWriter.getEndOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractWriter#getStartOffset() public int
-     * javax.swing.text.AbstractWriter.getStartOffset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AbstractWriter#getStartOffset()
+     * public int javax.swing.text.AbstractWriter.getStartOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

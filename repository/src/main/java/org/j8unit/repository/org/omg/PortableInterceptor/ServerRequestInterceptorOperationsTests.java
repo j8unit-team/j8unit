@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableInterceptor.ServerRequestInfo;
 import org.omg.PortableInterceptor.ServerRequestInterceptorOperations;
 
 /**
@@ -37,7 +36,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServerRequestInterceptorOperations#receive_request(ServerRequestInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#receive_request(org.omg.PortableInterceptor.ServerRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.receive_request(org.omg.PortableInterceptor.ServerRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      *
@@ -61,7 +61,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServerRequestInterceptorOperations#send_other(ServerRequestInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#send_other(org.omg.PortableInterceptor.ServerRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.send_other(org.omg.PortableInterceptor.ServerRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      *
@@ -85,7 +86,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServerRequestInterceptorOperations#send_exception(ServerRequestInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#send_exception(org.omg.PortableInterceptor.ServerRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.send_exception(org.omg.PortableInterceptor.ServerRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      *
@@ -109,7 +111,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServerRequestInterceptorOperations#send_reply(ServerRequestInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#send_reply(org.omg.PortableInterceptor.ServerRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.send_reply(org.omg.PortableInterceptor.ServerRequestInfo)}
      * .
      *
@@ -133,8 +136,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServerRequestInterceptorOperations#receive_request_service_contexts(ServerRequestInfo) public abstract
-     * void
+     * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#receive_request_service_contexts(org.omg.PortableInterceptor.ServerRequestInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.receive_request_service_contexts(org.omg.PortableInterceptor.ServerRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      *

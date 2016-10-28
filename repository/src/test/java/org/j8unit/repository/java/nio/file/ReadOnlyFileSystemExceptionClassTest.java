@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.file.ReadOnlyFileSystemExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ReadOnlyFileSystemException#ReadOnlyFileSystemException() public
+     * {@link java.nio.file.ReadOnlyFileSystemException#ReadOnlyFileSystemException() public
      * java.nio.file.ReadOnlyFileSystemException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

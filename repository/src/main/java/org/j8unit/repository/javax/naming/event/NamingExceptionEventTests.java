@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.naming.event;
 
 import javax.naming.event.NamingExceptionEvent;
-import javax.naming.event.NamingListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingExceptionEvent#dispatch(NamingListener) public
-     * void javax.naming.event.NamingExceptionEvent.dispatch(javax.naming.event.NamingListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.event.NamingExceptionEvent#dispatch(javax.naming.event.NamingListener) public void
+     * javax.naming.event.NamingExceptionEvent.dispatch(javax.naming.event.NamingListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingExceptionEvent#getEventContext() public
-     * javax.naming.event.EventContext javax.naming.event.NamingExceptionEvent.getEventContext()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.event.NamingExceptionEvent#getEventContext() public javax.naming.event.EventContext
+     * javax.naming.event.NamingExceptionEvent.getEventContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingExceptionEvent#getException() public
-     * javax.naming.NamingException javax.naming.event.NamingExceptionEvent.getException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.event.NamingExceptionEvent#getException() public javax.naming.NamingException
+     * javax.naming.event.NamingExceptionEvent.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGQTable#toString() public java.lang.String
-     * javax.imageio.plugins.jpeg.JPEGQTable.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.plugins.jpeg.JPEGQTable#toString()
+     * public java.lang.String javax.imageio.plugins.jpeg.JPEGQTable.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGQTable#getScaledInstance(float, boolean) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGQTable#getScaledInstance(float, boolean) public
      * javax.imageio.plugins.jpeg.JPEGQTable javax.imageio.plugins.jpeg.JPEGQTable.getScaledInstance(float,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JPEGQTable#getTable() public int[]
-     * javax.imageio.plugins.jpeg.JPEGQTable.getTable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.plugins.jpeg.JPEGQTable#getTable()
+     * public int[] javax.imageio.plugins.jpeg.JPEGQTable.getTable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

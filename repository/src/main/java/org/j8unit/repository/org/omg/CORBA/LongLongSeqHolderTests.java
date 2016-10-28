@@ -6,8 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.LongLongSeqHolder;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 /**
  * <p>
@@ -36,7 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongLongSeqHolder#_read(InputStream) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.LongLongSeqHolder#_read(org.omg.CORBA.portable.InputStream) public void
      * org.omg.CORBA.LongLongSeqHolder._read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongLongSeqHolder#_write(OutputStream) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.LongLongSeqHolder#_write(org.omg.CORBA.portable.OutputStream) public void
      * org.omg.CORBA.LongLongSeqHolder._write(org.omg.CORBA.portable.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +82,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongLongSeqHolder#_type() public
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.LongLongSeqHolder#_type() public
      * org.omg.CORBA.TypeCode org.omg.CORBA.LongLongSeqHolder._type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

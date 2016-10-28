@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.function.IntUnaryOperatorClassTests<I
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntUnaryOperator#identity() public static
-     * java.util.function.IntUnaryOperator java.util.function.IntUnaryOperator.identity()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.IntUnaryOperator#identity()
+     * public static java.util.function.IntUnaryOperator java.util.function.IntUnaryOperator.identity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +36,7 @@ implements org.j8unit.repository.java.util.function.IntUnaryOperatorClassTests<I
     @Category(Draft.class)
     public void test_identity()
     throws Exception {
-        // write some test for {@link IntUnaryOperator#identity()}
+        // write some test for {@link java.util.function.IntUnaryOperator#identity()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.IntUnaryOperator]

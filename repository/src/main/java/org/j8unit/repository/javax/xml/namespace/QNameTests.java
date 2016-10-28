@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QName#getNamespaceURI() public java.lang.String
-     * javax.xml.namespace.QName.getNamespaceURI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.namespace.QName#getNamespaceURI() public
+     * java.lang.String javax.xml.namespace.QName.getNamespaceURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QName#toString() public java.lang.String
-     * javax.xml.namespace.QName.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.namespace.QName#toString() public
+     * java.lang.String javax.xml.namespace.QName.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QName#getLocalPart() public java.lang.String
-     * javax.xml.namespace.QName.getLocalPart()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.namespace.QName#getLocalPart() public
+     * java.lang.String javax.xml.namespace.QName.getLocalPart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QName#getPrefix() public java.lang.String
-     * javax.xml.namespace.QName.getPrefix()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.namespace.QName#getPrefix() public
+     * java.lang.String javax.xml.namespace.QName.getPrefix()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QName#equals(Object) public final boolean
-     * javax.xml.namespace.QName.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.namespace.QName#equals(Object) public
+     * final boolean javax.xml.namespace.QName.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link QName#hashCode() public final int
-     * javax.xml.namespace.QName.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.namespace.QName#hashCode() public final
+     * int javax.xml.namespace.QName.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

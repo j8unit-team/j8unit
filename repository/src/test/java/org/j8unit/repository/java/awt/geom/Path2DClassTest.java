@@ -1,13 +1,8 @@
 package org.j8unit.repository.java.awt.geom;
 
-import java.awt.Shape;
-import java.awt.geom.AffineTransform;
 import java.awt.geom.Path2D;
 import java.awt.geom.Path2D.Double;
 import java.awt.geom.Path2D.Float;
-import java.awt.geom.PathIterator;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -29,28 +24,8 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Path2D#intersects(PathIterator, double, double, double, double) public static boolean
-     * java.awt.geom.Path2D.intersects(java.awt.geom.PathIterator,double,double,double,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_intersects_PathIterator_double_double_double_double()
-    throws Exception {
-        // write some test for {@link Path2D#intersects(PathIterator, double, double, double, double)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#intersects(PathIterator, Rectangle2D) public
-     * static boolean java.awt.geom.Path2D.intersects(java.awt.geom.PathIterator,java.awt.geom.Rectangle2D)}.
+     * {@link java.awt.geom.Path2D#intersects(java.awt.geom.PathIterator, java.awt.geom.Rectangle2D) public static
+     * boolean java.awt.geom.Path2D.intersects(java.awt.geom.PathIterator,java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,54 +39,37 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
     @Category(Draft.class)
     public void test_intersects_PathIterator_Rectangle2D()
     throws Exception {
-        // write some test for {@link Path2D#intersects(PathIterator, Rectangle2D)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#contains(PathIterator, Rectangle2D) public
-     * static boolean java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,java.awt.geom.Rectangle2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_contains_PathIterator_Rectangle2D()
-    throws Exception {
-        // write some test for {@link Path2D#contains(PathIterator, Rectangle2D)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#contains(PathIterator, Point2D) public static
-     * boolean java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,java.awt.geom.Point2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_contains_PathIterator_Point2D()
-    throws Exception {
-        // write some test for {@link Path2D#contains(PathIterator, Point2D)}
+        // write some test for {@link java.awt.geom.Path2D#intersects(java.awt.geom.PathIterator,
+        // java.awt.geom.Rectangle2D)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Path2D#contains(PathIterator, double, double, double, double) public static boolean
-     * java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,double,double,double,double)}.
+     * {@link java.awt.geom.Path2D#intersects(java.awt.geom.PathIterator, double, double, double, double) public static
+     * boolean java.awt.geom.Path2D.intersects(java.awt.geom.PathIterator,double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_intersects_PathIterator_double_double_double_double()
+    throws Exception {
+        // write some test for {@link java.awt.geom.Path2D#intersects(java.awt.geom.PathIterator, double, double,
+        // double, double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, double, double, double, double) public static
+     * boolean java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,13 +83,37 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
     @Category(Draft.class)
     public void test_contains_PathIterator_double_double_double_double()
     throws Exception {
-        // write some test for {@link Path2D#contains(PathIterator, double, double, double, double)}
+        // write some test for {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, double, double, double,
+        // double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Path2D#contains(PathIterator, double, double) public
-     * static boolean java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, java.awt.geom.Rectangle2D) public static boolean
+     * java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,java.awt.geom.Rectangle2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_contains_PathIterator_Rectangle2D()
+    throws Exception {
+        // write some test for {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator,
+        // java.awt.geom.Rectangle2D)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, double, double) public static boolean
+     * java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +127,28 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
     @Category(Draft.class)
     public void test_contains_PathIterator_double_double()
     throws Exception {
-        // write some test for {@link Path2D#contains(PathIterator, double, double)}
+        // write some test for {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, double, double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, java.awt.geom.Point2D) public static boolean
+     * java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,java.awt.geom.Point2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_contains_PathIterator_Point2D()
+    throws Exception {
+        // write some test for {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, java.awt.geom.Point2D)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Path2D]
@@ -163,8 +166,9 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double(Shape, AffineTransform)
-         * public java.awt.geom.Path2D$Double(java.awt.Shape,java.awt.geom.AffineTransform)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.Path2D.Double#Double(java.awt.Shape, java.awt.geom.AffineTransform) public
+         * java.awt.geom.Path2D$Double(java.awt.Shape,java.awt.geom.AffineTransform)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -180,13 +184,14 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Double sut = null; // = new Double(Shape, AffineTransform);
+            final Double sut = null; // = new Double(java.awt.Shape, java.awt.geom.AffineTransform);
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double(Shape) public
-         * java.awt.geom.Path2D$Double(java.awt.Shape)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.Path2D.Double#Double(java.awt.Shape) public java.awt.geom.Path2D$Double(java.awt.Shape)}
+         * .
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -202,13 +207,13 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Double sut = null; // = new Double(Shape);
+            final Double sut = null; // = new Double(java.awt.Shape);
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double(int, int) public
-         * java.awt.geom.Path2D$Double(int,int)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.Path2D.Double#Double(int, int) public java.awt.geom.Path2D$Double(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -229,8 +234,8 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double(int) public
-         * java.awt.geom.Path2D$Double(int)}.
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Path2D.Double#Double(int)
+         * public java.awt.geom.Path2D$Double(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -251,7 +256,7 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double() public
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Path2D.Double#Double() public
          * java.awt.geom.Path2D$Double()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -287,7 +292,8 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float(Shape, AffineTransform) public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.Path2D.Float#Float(java.awt.Shape, java.awt.geom.AffineTransform) public
          * java.awt.geom.Path2D$Float(java.awt.Shape,java.awt.geom.AffineTransform)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,13 +310,13 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Float sut = null; // = new Float(Shape, AffineTransform);
+            final Float sut = null; // = new Float(java.awt.Shape, java.awt.geom.AffineTransform);
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float(Shape) public
-         * java.awt.geom.Path2D$Float(java.awt.Shape)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.Path2D.Float#Float(java.awt.Shape) public java.awt.geom.Path2D$Float(java.awt.Shape)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -326,13 +332,13 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Float sut = null; // = new Float(Shape);
+            final Float sut = null; // = new Float(java.awt.Shape);
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float(int, int) public
-         * java.awt.geom.Path2D$Float(int,int)}.
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Path2D.Float#Float(int, int)
+         * public java.awt.geom.Path2D$Float(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -353,8 +359,8 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float(int) public
-         * java.awt.geom.Path2D$Float(int)}.
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Path2D.Float#Float(int)
+         * public java.awt.geom.Path2D$Float(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -375,7 +381,7 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float() public
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Path2D.Float#Float() public
          * java.awt.geom.Path2D$Float()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

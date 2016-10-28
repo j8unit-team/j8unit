@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Color;
-import java.awt.Font;
-import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TitledBorder#TitledBorder(Border, String, int, int, Font, Color) public
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String, int, int, java.awt.Font, java.awt.Color)
+     * public
      * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}
      * .
      *
@@ -43,14 +41,15 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TitledBorder sut = null; // = new TitledBorder(Border, String, int, int, Font, Color);
+        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String, int, int, java.awt.Font,
+                                       // java.awt.Color);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TitledBorder#TitledBorder(Border, String, int, int, Font) public
-     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font)}.
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String, int, int, java.awt.Font)
+     * public javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,13 +65,14 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TitledBorder sut = null; // = new TitledBorder(Border, String, int, int, Font);
+        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String, int, int,
+                                       // java.awt.Font);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TitledBorder#TitledBorder(Border, String, int, int) public
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String, int, int) public
      * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,12 +89,13 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TitledBorder sut = null; // = new TitledBorder(Border, String, int, int);
+        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String, int, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TitledBorder#TitledBorder(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.TitledBorder#TitledBorder(String) public
      * javax.swing.border.TitledBorder(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -116,7 +117,8 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TitledBorder#TitledBorder(Border) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border) public
      * javax.swing.border.TitledBorder(javax.swing.border.Border)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,13 +135,14 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TitledBorder sut = null; // = new TitledBorder(Border);
+        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TitledBorder#TitledBorder(Border, String)
-     * public javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String) public
+     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,7 +158,7 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TitledBorder sut = null; // = new TitledBorder(Border, String);
+        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.TitledBorder]

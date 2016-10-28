@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslClient#evaluateChallenge(byte[]) public abstract
-     * byte[] javax.security.sasl.SaslClient.evaluateChallenge(byte[]) throws javax.security.sasl.SaslException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.SaslClient#evaluateChallenge(byte[]) public abstract byte[]
+     * javax.security.sasl.SaslClient.evaluateChallenge(byte[]) throws javax.security.sasl.SaslException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslClient#dispose() public abstract void
-     * javax.security.sasl.SaslClient.dispose() throws javax.security.sasl.SaslException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.sasl.SaslClient#dispose() public
+     * abstract void javax.security.sasl.SaslClient.dispose() throws javax.security.sasl.SaslException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslClient#hasInitialResponse() public abstract
-     * boolean javax.security.sasl.SaslClient.hasInitialResponse()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.sasl.SaslClient#hasInitialResponse()
+     * public abstract boolean javax.security.sasl.SaslClient.hasInitialResponse()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslClient#getMechanismName() public abstract
-     * java.lang.String javax.security.sasl.SaslClient.getMechanismName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.sasl.SaslClient#getMechanismName()
+     * public abstract java.lang.String javax.security.sasl.SaslClient.getMechanismName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslClient#isComplete() public abstract boolean
-     * javax.security.sasl.SaslClient.isComplete()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.sasl.SaslClient#isComplete() public
+     * abstract boolean javax.security.sasl.SaslClient.isComplete()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslClient#getNegotiatedProperty(String) public
-     * abstract java.lang.Object javax.security.sasl.SaslClient.getNegotiatedProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.SaslClient#getNegotiatedProperty(String) public abstract java.lang.Object
+     * javax.security.sasl.SaslClient.getNegotiatedProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +169,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslClient#unwrap(byte[], int, int) public abstract
-     * byte[] javax.security.sasl.SaslClient.unwrap(byte[],int,int) throws javax.security.sasl.SaslException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.SaslClient#unwrap(byte[], int, int) public abstract byte[]
+     * javax.security.sasl.SaslClient.unwrap(byte[],int,int) throws javax.security.sasl.SaslException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +192,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SaslClient#wrap(byte[], int, int) public abstract
-     * byte[] javax.security.sasl.SaslClient.wrap(byte[],int,int) throws javax.security.sasl.SaslException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.SaslClient#wrap(byte[], int, int) public abstract byte[]
+     * javax.security.sasl.SaslClient.wrap(byte[],int,int) throws javax.security.sasl.SaslException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

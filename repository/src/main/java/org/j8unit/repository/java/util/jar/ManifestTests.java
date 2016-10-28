@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.jar;
 
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.jar.Manifest;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Manifest#getAttributes(String) public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Manifest#getAttributes(String) public
      * java.util.jar.Attributes java.util.jar.Manifest.getAttributes(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +56,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Manifest#read(InputStream) public void
-     * java.util.jar.Manifest.read(java.io.InputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Manifest#read(java.io.InputStream)
+     * public void java.util.jar.Manifest.read(java.io.InputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +78,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Manifest#getEntries() public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Manifest#getEntries() public
      * java.util.Map<java.lang.String, java.util.jar.Attributes> java.util.jar.Manifest.getEntries()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +100,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Manifest#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Manifest#hashCode() public int
      * java.util.jar.Manifest.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +123,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Manifest#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Manifest#equals(Object) public boolean
      * java.util.jar.Manifest.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +146,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Manifest#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Manifest#clear() public void
      * java.util.jar.Manifest.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +168,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Manifest#clone() public java.lang.Object
-     * java.util.jar.Manifest.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Manifest#clone() public
+     * java.lang.Object java.util.jar.Manifest.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +190,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Manifest#getMainAttributes() public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Manifest#getMainAttributes() public
      * java.util.jar.Attributes java.util.jar.Manifest.getMainAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,8 +212,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Manifest#write(OutputStream) public void
-     * java.util.jar.Manifest.write(java.io.OutputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Manifest#write(java.io.OutputStream)
+     * public void java.util.jar.Manifest.write(java.io.OutputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

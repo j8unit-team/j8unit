@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.beans.beancontext;
 
 import java.beans.beancontext.BeanContext;
-import java.beans.beancontext.BeanContextChild;
-import java.beans.beancontext.BeanContextMembershipListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -43,8 +41,9 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContext#getResource(String, BeanContextChild)
-     * public abstract java.net.URL
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContext#getResource(String, java.beans.beancontext.BeanContextChild) public
+     * abstract java.net.URL
      * java.beans.beancontext.BeanContext.getResource(java.lang.String,java.beans.beancontext.BeanContextChild) throws
      * java.lang.IllegalArgumentException}.
      *
@@ -68,7 +67,8 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContext#addBeanContextMembershipListener(BeanContextMembershipListener) public abstract void
+     * {@link java.beans.beancontext.BeanContext#addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
+     * public abstract void
      * java.beans.beancontext.BeanContext.addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
      * .
      *
@@ -92,7 +92,8 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContext#getResourceAsStream(String, BeanContextChild) public abstract java.io.InputStream
+     * {@link java.beans.beancontext.BeanContext#getResourceAsStream(String, java.beans.beancontext.BeanContextChild)
+     * public abstract java.io.InputStream
      * java.beans.beancontext.BeanContext.getResourceAsStream(java.lang.String,java.beans.beancontext.BeanContextChild)
      * throws java.lang.IllegalArgumentException}.
      *
@@ -116,7 +117,8 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContext#removeBeanContextMembershipListener(BeanContextMembershipListener) public abstract void
+     * {@link java.beans.beancontext.BeanContext#removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
+     * public abstract void
      * java.beans.beancontext.BeanContext.removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
      * .
      *
@@ -139,8 +141,9 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContext#instantiateChild(String) public abstract
-     * java.lang.Object java.beans.beancontext.BeanContext.instantiateChild(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContext#instantiateChild(String) public abstract java.lang.Object
+     * java.beans.beancontext.BeanContext.instantiateChild(java.lang.String) throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

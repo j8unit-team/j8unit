@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Shape;
-import javax.swing.event.DocumentEvent;
 import javax.swing.text.LabelView;
-import javax.swing.text.ViewFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LabelView#getForeground() public java.awt.Color
-     * javax.swing.text.LabelView.getForeground()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.LabelView#getForeground() public
+     * java.awt.Color javax.swing.text.LabelView.getForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,8 @@ extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LabelView#isUnderline() public boolean
-     * javax.swing.text.LabelView.isUnderline()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.LabelView#isUnderline() public
+     * boolean javax.swing.text.LabelView.isUnderline()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +80,8 @@ extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LabelView#getFont() public java.awt.Font
-     * javax.swing.text.LabelView.getFont()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.LabelView#getFont() public
+     * java.awt.Font javax.swing.text.LabelView.getFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +103,8 @@ extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LabelView#isSuperscript() public boolean
-     * javax.swing.text.LabelView.isSuperscript()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.LabelView#isSuperscript() public
+     * boolean javax.swing.text.LabelView.isSuperscript()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +126,8 @@ extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LabelView#isStrikeThrough() public boolean
-     * javax.swing.text.LabelView.isStrikeThrough()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.LabelView#isStrikeThrough() public
+     * boolean javax.swing.text.LabelView.isStrikeThrough()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +149,8 @@ extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LabelView#isSubscript() public boolean
-     * javax.swing.text.LabelView.isSubscript()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.LabelView#isSubscript() public
+     * boolean javax.swing.text.LabelView.isSubscript()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,7 +173,8 @@ extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LabelView#changedUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.LabelView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.LabelView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -200,8 +198,8 @@ extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LabelView#getBackground() public java.awt.Color
-     * javax.swing.text.LabelView.getBackground()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.LabelView#getBackground() public
+     * java.awt.Color javax.swing.text.LabelView.getBackground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

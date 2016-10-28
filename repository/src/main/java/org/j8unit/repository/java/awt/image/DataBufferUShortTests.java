@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferUShort#getData() public short[]
-     * java.awt.image.DataBufferUShort.getData()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferUShort#getData() public
+     * short[] java.awt.image.DataBufferUShort.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferUShort#getData(int) public short[]
-     * java.awt.image.DataBufferUShort.getData(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferUShort#getData(int) public
+     * short[] java.awt.image.DataBufferUShort.getData(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferUShort#getBankData() public short[][]
-     * java.awt.image.DataBufferUShort.getBankData()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferUShort#getBankData() public
+     * short[][] java.awt.image.DataBufferUShort.getBankData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferUShort#setElem(int, int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.DataBufferUShort#setElem(int, int, int) public void
      * java.awt.image.DataBufferUShort.setElem(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +124,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferUShort#setElem(int, int) public void
-     * java.awt.image.DataBufferUShort.setElem(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferUShort#setElem(int, int)
+     * public void java.awt.image.DataBufferUShort.setElem(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +147,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferUShort#getElem(int) public int
-     * java.awt.image.DataBufferUShort.getElem(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferUShort#getElem(int) public
+     * int java.awt.image.DataBufferUShort.getElem(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +170,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataBufferUShort#getElem(int, int) public int
-     * java.awt.image.DataBufferUShort.getElem(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.DataBufferUShort#getElem(int, int)
+     * public int java.awt.image.DataBufferUShort.getElem(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

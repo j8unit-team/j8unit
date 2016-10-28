@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.xml.ws.ProtocolExceptionClassTests<Protoc
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProtocolException#ProtocolException(Throwable)
-     * public javax.xml.ws.ProtocolException(java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.ProtocolException#ProtocolException(Throwable) public
+     * javax.xml.ws.ProtocolException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.javax.xml.ws.ProtocolExceptionClassTests<Protoc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ProtocolException#ProtocolException(String, Throwable) public
+     * {@link javax.xml.ws.ProtocolException#ProtocolException(String, Throwable) public
      * javax.xml.ws.ProtocolException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,8 +67,9 @@ implements org.j8unit.repository.javax.xml.ws.ProtocolExceptionClassTests<Protoc
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProtocolException#ProtocolException(String)
-     * public javax.xml.ws.ProtocolException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.ProtocolException#ProtocolException(String) public
+     * javax.xml.ws.ProtocolException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,8 +90,8 @@ implements org.j8unit.repository.javax.xml.ws.ProtocolExceptionClassTests<Protoc
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProtocolException#ProtocolException() public
-     * javax.xml.ws.ProtocolException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.ProtocolException#ProtocolException() public javax.xml.ws.ProtocolException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

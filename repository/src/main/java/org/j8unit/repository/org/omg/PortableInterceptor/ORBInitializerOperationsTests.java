@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableInterceptor.ORBInitInfo;
 import org.omg.PortableInterceptor.ORBInitializerOperations;
 
 /**
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORBInitializerOperations#post_init(ORBInitInfo)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitializerOperations#post_init(org.omg.PortableInterceptor.ORBInitInfo)
      * public abstract void
      * org.omg.PortableInterceptor.ORBInitializerOperations.post_init(org.omg.PortableInterceptor.ORBInitInfo)}.
      *
@@ -59,7 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORBInitializerOperations#pre_init(ORBInitInfo)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitializerOperations#pre_init(org.omg.PortableInterceptor.ORBInitInfo)
      * public abstract void
      * org.omg.PortableInterceptor.ORBInitializerOperations.pre_init(org.omg.PortableInterceptor.ORBInitInfo)}.
      *

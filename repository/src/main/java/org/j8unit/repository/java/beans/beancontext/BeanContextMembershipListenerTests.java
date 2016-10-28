@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.beancontext.BeanContextMembershipEvent;
 import java.beans.beancontext.BeanContextMembershipListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextMembershipListener#childrenRemoved(BeanContextMembershipEvent) public abstract void
+     * {@link java.beans.beancontext.BeanContextMembershipListener#childrenRemoved(java.beans.beancontext.BeanContextMembershipEvent)
+     * public abstract void
      * java.beans.beancontext.BeanContextMembershipListener.childrenRemoved(java.beans.beancontext.BeanContextMembershipEvent)}
      * .
      *
@@ -60,7 +60,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextMembershipListener#childrenAdded(BeanContextMembershipEvent) public abstract void
+     * {@link java.beans.beancontext.BeanContextMembershipListener#childrenAdded(java.beans.beancontext.BeanContextMembershipEvent)
+     * public abstract void
      * java.beans.beancontext.BeanContextMembershipListener.childrenAdded(java.beans.beancontext.BeanContextMembershipEvent)}
      * .
      *

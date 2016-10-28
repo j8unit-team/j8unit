@@ -1,10 +1,7 @@
 package org.j8unit.repository.javax.swing.event;
 
-import java.awt.event.InputEvent;
-import java.net.URL;
 import javax.swing.event.HyperlinkEvent;
 import javax.swing.event.HyperlinkEvent.EventType;
-import javax.swing.text.Element;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -26,7 +23,8 @@ implements org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<Hype
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HyperlinkEvent#HyperlinkEvent(Object, EventType, URL, String, Element, InputEvent) public
+     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String, javax.swing.text.Element, java.awt.event.InputEvent)
+     * public
      * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent)}
      * .
      *
@@ -44,13 +42,15 @@ implements org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<Hype
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HyperlinkEvent sut = null; // = new HyperlinkEvent(Object, EventType, URL, String, Element, InputEvent);
+        final HyperlinkEvent sut = null; // = new HyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType,
+                                         // java.net.URL, String, javax.swing.text.Element, java.awt.event.InputEvent);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HyperlinkEvent#HyperlinkEvent(Object, EventType, URL, String, Element) public
+     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String, javax.swing.text.Element)
+     * public
      * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element)}
      * .
      *
@@ -68,13 +68,15 @@ implements org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<Hype
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HyperlinkEvent sut = null; // = new HyperlinkEvent(Object, EventType, URL, String, Element);
+        final HyperlinkEvent sut = null; // = new HyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType,
+                                         // java.net.URL, String, javax.swing.text.Element);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HyperlinkEvent#HyperlinkEvent(Object, EventType, URL, String) public
+     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String)
+     * public
      * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String)}
      * .
      *
@@ -92,13 +94,15 @@ implements org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<Hype
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HyperlinkEvent sut = null; // = new HyperlinkEvent(Object, EventType, URL, String);
+        final HyperlinkEvent sut = null; // = new HyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType,
+                                         // java.net.URL, String);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HyperlinkEvent#HyperlinkEvent(Object, EventType, URL) public
+     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL)
+     * public
      * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -115,7 +119,8 @@ implements org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<Hype
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HyperlinkEvent sut = null; // = new HyperlinkEvent(Object, EventType, URL);
+        final HyperlinkEvent sut = null; // = new HyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType,
+                                         // java.net.URL);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.HyperlinkEvent]

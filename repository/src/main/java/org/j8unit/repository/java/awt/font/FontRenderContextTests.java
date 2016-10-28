@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#equals(FontRenderContext) public
-     * boolean java.awt.font.FontRenderContext.equals(java.awt.font.FontRenderContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.FontRenderContext#equals(java.awt.font.FontRenderContext) public boolean
+     * java.awt.font.FontRenderContext.equals(java.awt.font.FontRenderContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#equals(Object) public boolean
-     * java.awt.font.FontRenderContext.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.FontRenderContext#equals(Object)
+     * public boolean java.awt.font.FontRenderContext.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#hashCode() public int
-     * java.awt.font.FontRenderContext.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.FontRenderContext#hashCode() public
+     * int java.awt.font.FontRenderContext.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,30 +103,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#isTransformed() public boolean
-     * java.awt.font.FontRenderContext.isTransformed()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isTransformed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#usesFractionalMetrics() public
-     * boolean java.awt.font.FontRenderContext.usesFractionalMetrics()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.FontRenderContext#usesFractionalMetrics() public boolean
+     * java.awt.font.FontRenderContext.usesFractionalMetrics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +126,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#getFractionalMetricsHint() public
-     * java.lang.Object java.awt.font.FontRenderContext.getFractionalMetricsHint()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.FontRenderContext#isTransformed()
+     * public boolean java.awt.font.FontRenderContext.isTransformed()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isTransformed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.FontRenderContext#getFractionalMetricsHint() public java.lang.Object
+     * java.awt.font.FontRenderContext.getFractionalMetricsHint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +171,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#getTransformType() public int
-     * java.awt.font.FontRenderContext.getTransformType()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.FontRenderContext#getTransformType()
+     * public int java.awt.font.FontRenderContext.getTransformType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +193,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#getAntiAliasingHint() public
-     * java.lang.Object java.awt.font.FontRenderContext.getAntiAliasingHint()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.FontRenderContext#getAntiAliasingHint() public java.lang.Object
+     * java.awt.font.FontRenderContext.getAntiAliasingHint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,30 +216,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#getTransform() public
-     * java.awt.geom.AffineTransform java.awt.font.FontRenderContext.getTransform()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransform()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link FontRenderContext#isAntiAliased() public boolean
-     * java.awt.font.FontRenderContext.isAntiAliased()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.FontRenderContext#isAntiAliased()
+     * public boolean java.awt.font.FontRenderContext.isAntiAliased()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -248,6 +230,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isAntiAliased()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.FontRenderContext#getTransform()
+     * public java.awt.geom.AffineTransform java.awt.font.FontRenderContext.getTransform()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransform()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

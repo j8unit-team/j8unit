@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import javax.management.Descriptor;
 import javax.management.openmbean.OpenMBeanOperationInfoSupport;
-import javax.management.openmbean.OpenMBeanParameterInfo;
-import javax.management.openmbean.OpenType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,7 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationIn
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanOperationInfoSupport#OpenMBeanOperationInfoSupport(String, String, OpenMBeanParameterInfo[], OpenType, int)
+     * {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#OpenMBeanOperationInfoSupport(String, String, javax.management.openmbean.OpenMBeanParameterInfo[], javax.management.openmbean.OpenType, int)
      * public
      * javax.management.openmbean.OpenMBeanOperationInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanParameterInfo[],javax.management.openmbean.OpenType
      * <?>,int)}.
@@ -45,13 +42,14 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationIn
         // create new instance
         @SuppressWarnings("unused")
         final OpenMBeanOperationInfoSupport sut = null; // = new OpenMBeanOperationInfoSupport(String, String,
-                                                        // OpenMBeanParameterInfo[], OpenType, int);
+                                                        // javax.management.openmbean.OpenMBeanParameterInfo[],
+                                                        // javax.management.openmbean.OpenType, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanOperationInfoSupport#OpenMBeanOperationInfoSupport(String, String, OpenMBeanParameterInfo[], OpenType, int, Descriptor)
+     * {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#OpenMBeanOperationInfoSupport(String, String, javax.management.openmbean.OpenMBeanParameterInfo[], javax.management.openmbean.OpenType, int, javax.management.Descriptor)
      * public
      * javax.management.openmbean.OpenMBeanOperationInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanParameterInfo[],javax.management.openmbean.OpenType
      * <?>,int,javax.management.Descriptor)}.
@@ -71,7 +69,9 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationIn
         // create new instance
         @SuppressWarnings("unused")
         final OpenMBeanOperationInfoSupport sut = null; // = new OpenMBeanOperationInfoSupport(String, String,
-                                                        // OpenMBeanParameterInfo[], OpenType, int, Descriptor);
+                                                        // javax.management.openmbean.OpenMBeanParameterInfo[],
+                                                        // javax.management.openmbean.OpenType, int,
+                                                        // javax.management.Descriptor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanOperationInfoSupport]

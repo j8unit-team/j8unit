@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.jar;
 
-import java.util.Map;
 import java.util.jar.Attributes;
 import java.util.jar.Attributes.Name;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +36,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#containsValue(Object) public boolean
-     * java.util.jar.Attributes.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#containsValue(Object)
+     * public boolean java.util.jar.Attributes.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +59,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#put(Object, Object) public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#put(Object, Object) public
      * java.lang.Object java.util.jar.Attributes.put(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +82,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#remove(Object) public java.lang.Object
-     * java.util.jar.Attributes.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#remove(Object) public
+     * java.lang.Object java.util.jar.Attributes.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,7 +105,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#isEmpty() public boolean
      * java.util.jar.Attributes.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +128,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#clear() public void
      * java.util.jar.Attributes.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,7 +151,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#entrySet() public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<java.lang.Object, java.lang.Object>>
      * java.util.jar.Attributes.entrySet()}.
      *
@@ -176,8 +175,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#values() public java.util.Collection
-     * <java.lang.Object> java.util.jar.Attributes.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#values() public
+     * java.util.Collection<java.lang.Object> java.util.jar.Attributes.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,8 +198,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#containsKey(Object) public boolean
-     * java.util.jar.Attributes.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#containsKey(Object) public
+     * boolean java.util.jar.Attributes.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,8 +221,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#keySet() public java.util.Set
-     * <java.lang.Object> java.util.jar.Attributes.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#keySet() public
+     * java.util.Set<java.lang.Object> java.util.jar.Attributes.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,8 +244,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#clone() public java.lang.Object
-     * java.util.jar.Attributes.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#clone() public
+     * java.lang.Object java.util.jar.Attributes.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +266,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#putValue(String, String) public
-     * java.lang.String java.util.jar.Attributes.putValue(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#putValue(String, String)
+     * public java.lang.String java.util.jar.Attributes.putValue(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,7 +288,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#size() public int
      * java.util.jar.Attributes.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,8 +311,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#putAll(Map) public void
-     * java.util.jar.Attributes.putAll(java.util.Map<?, ?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#putAll(java.util.Map)
+     * public void java.util.jar.Attributes.putAll(java.util.Map<?, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -335,8 +334,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#equals(Object) public boolean
-     * java.util.jar.Attributes.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#equals(Object) public
+     * boolean java.util.jar.Attributes.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -358,8 +357,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#get(Object) public java.lang.Object
-     * java.util.jar.Attributes.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#get(Object) public
+     * java.lang.Object java.util.jar.Attributes.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -381,7 +380,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#hashCode() public int
      * java.util.jar.Attributes.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -404,8 +403,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getValue(String) public java.lang.String
-     * java.util.jar.Attributes.getValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes#getValue(String) public
+     * java.lang.String java.util.jar.Attributes.getValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -426,7 +425,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attributes#getValue(Name) public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.jar.Attributes#getValue(java.util.jar.Attributes.Name) public java.lang.String
      * java.util.jar.Attributes.getValue(java.util.jar.Attributes$Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -475,8 +475,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Name#toString() public java.lang.String
-         * java.util.jar.Attributes$Name.toString()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes.Name#toString() public
+         * java.lang.String java.util.jar.Attributes$Name.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -498,8 +498,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Name#equals(Object) public boolean
-         * java.util.jar.Attributes$Name.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes.Name#equals(Object)
+         * public boolean java.util.jar.Attributes$Name.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -521,8 +521,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Name#hashCode() public int
-         * java.util.jar.Attributes$Name.hashCode()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.jar.Attributes.Name#hashCode() public
+         * int java.util.jar.Attributes$Name.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

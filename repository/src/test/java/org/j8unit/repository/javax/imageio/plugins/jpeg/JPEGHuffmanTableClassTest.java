@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGHuffmanTableClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JPEGHuffmanTable#JPEGHuffmanTable(short[], short[]) public
+     * {@link javax.imageio.plugins.jpeg.JPEGHuffmanTable#JPEGHuffmanTable(short[], short[]) public
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable(short[],short[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

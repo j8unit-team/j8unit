@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TypeConstraintException#TypeConstraintException(String, String, Throwable) public
+     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(String, String, Throwable) public
      * javax.xml.bind.TypeConstraintException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TypeConstraintException#TypeConstraintException(String, Throwable) public
+     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(String, Throwable) public
      * javax.xml.bind.TypeConstraintException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TypeConstraintException#TypeConstraintException(Throwable) public
+     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(Throwable) public
      * javax.xml.bind.TypeConstraintException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TypeConstraintException#TypeConstraintException(String, String) public
+     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(String, String) public
      * javax.xml.bind.TypeConstraintException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -114,7 +114,7 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TypeConstraintException#TypeConstraintException(String) public
+     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(String) public
      * javax.xml.bind.TypeConstraintException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

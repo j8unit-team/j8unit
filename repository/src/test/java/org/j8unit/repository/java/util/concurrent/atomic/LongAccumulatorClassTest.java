@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.concurrent.atomic;
 
 import java.util.concurrent.atomic.LongAccumulator;
-import java.util.function.LongBinaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.LongAccumulatorClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LongAccumulator#LongAccumulator(LongBinaryOperator, long) public
-     * java.util.concurrent.atomic.LongAccumulator(java.util.function.LongBinaryOperator,long)}.
+     * {@link java.util.concurrent.atomic.LongAccumulator#LongAccumulator(java.util.function.LongBinaryOperator, long)
+     * public java.util.concurrent.atomic.LongAccumulator(java.util.function.LongBinaryOperator,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.util.concurrent.atomic.LongAccumulatorClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LongAccumulator sut = null; // = new LongAccumulator(LongBinaryOperator, long);
+        final LongAccumulator sut = null; // = new LongAccumulator(java.util.function.LongBinaryOperator, long);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.LongAccumulator]

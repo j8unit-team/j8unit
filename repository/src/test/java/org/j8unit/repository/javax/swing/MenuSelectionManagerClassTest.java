@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.MenuSelectionManagerClassTests<Menu
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MenuSelectionManager#MenuSelectionManager()
-     * public javax.swing.MenuSelectionManager()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.MenuSelectionManager#MenuSelectionManager() public javax.swing.MenuSelectionManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.javax.swing.MenuSelectionManagerClassTests<Menu
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuSelectionManager#defaultManager() public static
-     * javax.swing.MenuSelectionManager javax.swing.MenuSelectionManager.defaultManager()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.MenuSelectionManager#defaultManager()
+     * public static javax.swing.MenuSelectionManager javax.swing.MenuSelectionManager.defaultManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ implements org.j8unit.repository.javax.swing.MenuSelectionManagerClassTests<Menu
     @Category(Draft.class)
     public void test_defaultManager()
     throws Exception {
-        // write some test for {@link MenuSelectionManager#defaultManager()}
+        // write some test for {@link javax.swing.MenuSelectionManager#defaultManager()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.MenuSelectionManager]

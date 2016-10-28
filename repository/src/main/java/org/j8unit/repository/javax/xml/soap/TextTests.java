@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Text#isComment() public abstract boolean
-     * javax.xml.soap.Text.isComment()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.Text#isComment() public abstract
+     * boolean javax.xml.soap.Text.isComment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

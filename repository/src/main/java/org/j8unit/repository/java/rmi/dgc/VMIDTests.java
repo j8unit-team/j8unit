@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VMID#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.rmi.dgc.VMID#toString() public java.lang.String
      * java.rmi.dgc.VMID.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VMID#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.rmi.dgc.VMID#equals(Object) public boolean
      * java.rmi.dgc.VMID.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VMID#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.rmi.dgc.VMID#hashCode() public int
      * java.rmi.dgc.VMID.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

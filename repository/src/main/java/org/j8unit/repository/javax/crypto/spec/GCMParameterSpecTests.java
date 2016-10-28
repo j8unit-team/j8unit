@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GCMParameterSpec#getIV() public byte[]
-     * javax.crypto.spec.GCMParameterSpec.getIV()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.GCMParameterSpec#getIV() public
+     * byte[] javax.crypto.spec.GCMParameterSpec.getIV()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GCMParameterSpec#getTLen() public int
-     * javax.crypto.spec.GCMParameterSpec.getTLen()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.GCMParameterSpec#getTLen() public
+     * int javax.crypto.spec.GCMParameterSpec.getTLen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

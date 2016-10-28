@@ -36,8 +36,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collector#accumulator() public abstract
-     * java.util.function.BiConsumer<A, T> java.util.stream.Collector.accumulator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Collector#accumulator() public
+     * abstract java.util.function.BiConsumer<A, T> java.util.stream.Collector.accumulator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collector#finisher() public abstract
-     * java.util.function.Function<A, R> java.util.stream.Collector.finisher()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Collector#finisher() public
+     * abstract java.util.function.Function<A, R> java.util.stream.Collector.finisher()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collector#combiner() public abstract
-     * java.util.function.BinaryOperator<A> java.util.stream.Collector.combiner()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Collector#combiner() public
+     * abstract java.util.function.BinaryOperator<A> java.util.stream.Collector.combiner()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collector#characteristics() public abstract
-     * java.util.Set<java.util.stream.Collector$Characteristics> java.util.stream.Collector.characteristics()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Collector#characteristics() public
+     * abstract java.util.Set<java.util.stream.Collector$Characteristics> java.util.stream.Collector.characteristics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Collector#supplier() public abstract
-     * java.util.function.Supplier<A> java.util.stream.Collector.supplier()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Collector#supplier() public
+     * abstract java.util.function.Supplier<A> java.util.stream.Collector.supplier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

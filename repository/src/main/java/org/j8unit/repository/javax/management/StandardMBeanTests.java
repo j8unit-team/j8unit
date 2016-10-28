@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Attribute;
-import javax.management.AttributeList;
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
 import javax.management.StandardMBean;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +35,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#preRegister(MBeanServer, ObjectName)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StandardMBean#getImplementationClass() public java.lang.Class
+     * <?> javax.management.StandardMBean.getImplementationClass()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImplementationClass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StandardMBean#preRegister(javax.management.MBeanServer, javax.management.ObjectName)
      * public javax.management.ObjectName
      * javax.management.StandardMBean.preRegister(javax.management.MBeanServer,javax.management.ObjectName) throws
      * java.lang.Exception}.
@@ -64,29 +84,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#getImplementationClass() public
-     * java.lang.Class<?> javax.management.StandardMBean.getImplementationClass()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImplementationClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#getMBeanInfo() public
+     * Test method for the hereby targeted method-under-test {@link javax.management.StandardMBean#getMBeanInfo() public
      * javax.management.MBeanInfo javax.management.StandardMBean.getMBeanInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,8 +107,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#postRegister(Boolean) public void
-     * javax.management.StandardMBean.postRegister(java.lang.Boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.StandardMBean#postRegister(Boolean)
+     * public void javax.management.StandardMBean.postRegister(java.lang.Boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,7 +130,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#setImplementation(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StandardMBean#setImplementation(Object) public void
      * javax.management.StandardMBean.setImplementation(java.lang.Object) throws
      * javax.management.NotCompliantMBeanException}.
      *
@@ -155,7 +154,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#setAttribute(Attribute) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StandardMBean#setAttribute(javax.management.Attribute) public void
      * javax.management.StandardMBean.setAttribute(javax.management.Attribute) throws
      * javax.management.AttributeNotFoundException,javax.management.InvalidAttributeValueException,javax.management.MBeanException,javax.management.ReflectionException}
      * .
@@ -180,8 +180,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#getAttribute(String) public
-     * java.lang.Object javax.management.StandardMBean.getAttribute(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.management.StandardMBean#getAttribute(String)
+     * public java.lang.Object javax.management.StandardMBean.getAttribute(java.lang.String) throws
      * javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException}
      * .
      *
@@ -205,8 +205,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#getMBeanInterface() public final
-     * java.lang.Class<?> javax.management.StandardMBean.getMBeanInterface()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.StandardMBean#getMBeanInterface()
+     * public final java.lang.Class<?> javax.management.StandardMBean.getMBeanInterface()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -227,8 +227,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#invoke(String, Object[], String[])
-     * public java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StandardMBean#invoke(String, Object[], String[]) public java.lang.Object
      * javax.management.StandardMBean.invoke(java.lang.String,java.lang.Object[],java.lang.String[]) throws
      * javax.management.MBeanException,javax.management.ReflectionException}.
      *
@@ -252,7 +252,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#setAttributes(AttributeList) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StandardMBean#setAttributes(javax.management.AttributeList) public
      * javax.management.AttributeList javax.management.StandardMBean.setAttributes(javax.management.AttributeList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -275,8 +276,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#getImplementation() public
-     * java.lang.Object javax.management.StandardMBean.getImplementation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.StandardMBean#getImplementation()
+     * public java.lang.Object javax.management.StandardMBean.getImplementation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -297,8 +298,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#getAttributes(String[]) public
-     * javax.management.AttributeList javax.management.StandardMBean.getAttributes(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.StandardMBean#getAttributes(String[]) public javax.management.AttributeList
+     * javax.management.StandardMBean.getAttributes(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -320,8 +322,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#preDeregister() public void
-     * javax.management.StandardMBean.preDeregister() throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.StandardMBean#preDeregister()
+     * public void javax.management.StandardMBean.preDeregister() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -343,8 +345,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardMBean#postDeregister() public void
-     * javax.management.StandardMBean.postDeregister()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.StandardMBean#postDeregister()
+     * public void javax.management.StandardMBean.postDeregister()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

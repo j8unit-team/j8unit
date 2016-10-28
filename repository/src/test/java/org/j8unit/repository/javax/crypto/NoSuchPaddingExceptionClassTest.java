@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.crypto.NoSuchPaddingExceptionClassTests<N
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NoSuchPaddingException#NoSuchPaddingException()
-     * public javax.crypto.NoSuchPaddingException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.NoSuchPaddingException#NoSuchPaddingException() public javax.crypto.NoSuchPaddingException()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.crypto.NoSuchPaddingExceptionClassTests<N
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchPaddingException#NoSuchPaddingException(String) public
+     * {@link javax.crypto.NoSuchPaddingException#NoSuchPaddingException(String) public
      * javax.crypto.NoSuchPaddingException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

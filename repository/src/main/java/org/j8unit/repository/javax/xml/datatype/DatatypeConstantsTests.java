@@ -62,7 +62,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Field#getId() public int
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.datatype.DatatypeConstants.Field#getId() public int
          * javax.xml.datatype.DatatypeConstants$Field.getId()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +85,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Field#toString() public java.lang.String
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.datatype.DatatypeConstants.Field#toString() public java.lang.String
          * javax.xml.datatype.DatatypeConstants$Field.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

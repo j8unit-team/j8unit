@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.lang.ref;
 
-import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.lang.ref.WeakReferenceClassTests<WeakRefer
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WeakReference#WeakReference(Object) public
-     * java.lang.ref.WeakReference(T)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.lang.ref.WeakReference#WeakReference(Object) public java.lang.ref.WeakReference(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +45,7 @@ implements org.j8unit.repository.java.lang.ref.WeakReferenceClassTests<WeakRefer
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link WeakReference#WeakReference(Object, ReferenceQueue) public
+     * {@link java.lang.ref.WeakReference#WeakReference(Object, java.lang.ref.ReferenceQueue) public
      * java.lang.ref.WeakReference(T,java.lang.ref.ReferenceQueue<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.lang.ref.WeakReferenceClassTests<WeakRefer
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final WeakReference sut = null; // = new WeakReference(Object, ReferenceQueue);
+        final WeakReference sut = null; // = new WeakReference(Object, java.lang.ref.ReferenceQueue);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ref.WeakReference]

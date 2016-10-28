@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
 import javax.swing.text.BoxView;
-import javax.swing.text.Position.Bias;
-import javax.swing.text.View;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#getMaximumSpan(int) public float
-     * javax.swing.text.BoxView.getMaximumSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getMaximumSpan(int) public
+     * float javax.swing.text.BoxView.getMaximumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +57,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#layoutChanged(int) public void
-     * javax.swing.text.BoxView.layoutChanged(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#layoutChanged(int) public
+     * void javax.swing.text.BoxView.layoutChanged(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +79,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#setSize(float, float) public void
-     * javax.swing.text.BoxView.setSize(float,float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#setSize(float, float)
+     * public void javax.swing.text.BoxView.setSize(float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,29 +102,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#getHeight() public int
-     * javax.swing.text.BoxView.getHeight()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#viewToModel(float, float, Shape, Bias[])
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.BoxView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
      * public int javax.swing.text.BoxView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +126,30 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#getResizeWeight(int) public int
-     * javax.swing.text.BoxView.getResizeWeight(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getHeight() public int
+     * javax.swing.text.BoxView.getHeight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getResizeWeight(int) public
+     * int javax.swing.text.BoxView.getResizeWeight(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,7 +171,7 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#setAxis(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#setAxis(int) public void
      * javax.swing.text.BoxView.setAxis(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -196,7 +193,7 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#getWidth() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getWidth() public int
      * javax.swing.text.BoxView.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -218,7 +215,7 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#getAxis() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getAxis() public int
      * javax.swing.text.BoxView.getAxis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,8 +237,9 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#getChildAllocation(int, Shape) public
-     * java.awt.Shape javax.swing.text.BoxView.getChildAllocation(int,java.awt.Shape)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.BoxView#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
+     * javax.swing.text.BoxView.getChildAllocation(int,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,7 +261,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.BoxView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.BoxView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -286,7 +285,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#replace(int, int, View[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.BoxView#replace(int, int, javax.swing.text.View[]) public void
      * javax.swing.text.BoxView.replace(int,int,javax.swing.text.View[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -309,8 +309,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#getPreferredSpan(int) public float
-     * javax.swing.text.BoxView.getPreferredSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getPreferredSpan(int)
+     * public float javax.swing.text.BoxView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -332,7 +332,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#modelToView(int, Shape, Bias) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.BoxView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.BoxView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias) throws
      * javax.swing.text.BadLocationException}.
      *
@@ -356,8 +357,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#getMinimumSpan(int) public float
-     * javax.swing.text.BoxView.getMinimumSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getMinimumSpan(int) public
+     * float javax.swing.text.BoxView.getMinimumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -379,8 +380,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#getAlignment(int) public float
-     * javax.swing.text.BoxView.getAlignment(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getAlignment(int) public
+     * float javax.swing.text.BoxView.getAlignment(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -402,8 +403,9 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxView#preferenceChanged(View, boolean, boolean)
-     * public void javax.swing.text.BoxView.preferenceChanged(javax.swing.text.View,boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.BoxView#preferenceChanged(javax.swing.text.View, boolean, boolean) public void
+     * javax.swing.text.BoxView.preferenceChanged(javax.swing.text.View,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,9 +35,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityResolver#resolveEntity(String, String) public
-     * abstract org.xml.sax.InputSource org.xml.sax.EntityResolver.resolveEntity(java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.EntityResolver#resolveEntity(String, String) public abstract org.xml.sax.InputSource
+     * org.xml.sax.EntityResolver.resolveEntity(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.geom;
 
-import java.awt.geom.AffineTransform;
 import java.awt.geom.RoundRectangle2D;
 import java.awt.geom.RoundRectangle2D.Double;
 import java.awt.geom.RoundRectangle2D.Float;
@@ -37,8 +36,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundRectangle2D#getArcWidth() public abstract
-     * double java.awt.geom.RoundRectangle2D.getArcWidth()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D#getArcWidth() public
+     * abstract double java.awt.geom.RoundRectangle2D.getArcWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundRectangle2D#equals(Object) public boolean
-     * java.awt.geom.RoundRectangle2D.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D#equals(Object) public
+     * boolean java.awt.geom.RoundRectangle2D.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +81,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundRectangle2D#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D#hashCode() public int
      * java.awt.geom.RoundRectangle2D.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +105,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RoundRectangle2D#setFrame(double, double, double, double) public void
+     * {@link java.awt.geom.RoundRectangle2D#setFrame(double, double, double, double) public void
      * java.awt.geom.RoundRectangle2D.setFrame(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,7 +129,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RoundRectangle2D#intersects(double, double, double, double) public boolean
+     * {@link java.awt.geom.RoundRectangle2D#intersects(double, double, double, double) public boolean
      * java.awt.geom.RoundRectangle2D.intersects(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,8 +152,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundRectangle2D#getArcHeight() public abstract
-     * double java.awt.geom.RoundRectangle2D.getArcHeight()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D#getArcHeight() public
+     * abstract double java.awt.geom.RoundRectangle2D.getArcHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,8 +174,9 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundRectangle2D#getPathIterator(AffineTransform)
-     * public java.awt.geom.PathIterator java.awt.geom.RoundRectangle2D.getPathIterator(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.RoundRectangle2D#getPathIterator(java.awt.geom.AffineTransform) public
+     * java.awt.geom.PathIterator java.awt.geom.RoundRectangle2D.getPathIterator(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,8 +198,9 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundRectangle2D#setRoundRect(RoundRectangle2D)
-     * public void java.awt.geom.RoundRectangle2D.setRoundRect(java.awt.geom.RoundRectangle2D)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.RoundRectangle2D#setRoundRect(java.awt.geom.RoundRectangle2D) public void
+     * java.awt.geom.RoundRectangle2D.setRoundRect(java.awt.geom.RoundRectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,8 +222,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RoundRectangle2D#setRoundRect(double, double, double, double, double, double) public abstract void
-     * java.awt.geom.RoundRectangle2D.setRoundRect(double,double,double,double,double,double)}.
+     * {@link java.awt.geom.RoundRectangle2D#setRoundRect(double, double, double, double, double, double) public
+     * abstract void java.awt.geom.RoundRectangle2D.setRoundRect(double,double,double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,8 +244,9 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RoundRectangle2D#contains(double, double) public
-     * boolean java.awt.geom.RoundRectangle2D.contains(double,double)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.RoundRectangle2D#contains(double, double) public boolean
+     * java.awt.geom.RoundRectangle2D.contains(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,7 +269,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RoundRectangle2D#contains(double, double, double, double) public boolean
+     * {@link java.awt.geom.RoundRectangle2D#contains(double, double, double, double) public boolean
      * java.awt.geom.RoundRectangle2D.contains(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -317,8 +319,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getWidth() public double
-         * java.awt.geom.RoundRectangle2D$Float.getWidth()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#getWidth()
+         * public double java.awt.geom.RoundRectangle2D$Float.getWidth()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -340,8 +342,9 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getBounds2D() public
-         * java.awt.geom.Rectangle2D java.awt.geom.RoundRectangle2D$Float.getBounds2D()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Float#getBounds2D() public java.awt.geom.Rectangle2D
+         * java.awt.geom.RoundRectangle2D$Float.getBounds2D()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -363,8 +366,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#isEmpty() public boolean
-         * java.awt.geom.RoundRectangle2D$Float.isEmpty()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#isEmpty()
+         * public boolean java.awt.geom.RoundRectangle2D$Float.isEmpty()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -386,7 +389,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getArcWidth() public double
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Float#getArcWidth() public double
          * java.awt.geom.RoundRectangle2D$Float.getArcWidth()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -409,7 +413,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getArcHeight() public double
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Float#getArcHeight() public double
          * java.awt.geom.RoundRectangle2D$Float.getArcHeight()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -432,8 +437,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getX() public double
-         * java.awt.geom.RoundRectangle2D$Float.getX()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#getX()
+         * public double java.awt.geom.RoundRectangle2D$Float.getX()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -455,8 +460,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getHeight() public double
-         * java.awt.geom.RoundRectangle2D$Float.getHeight()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#getHeight()
+         * public double java.awt.geom.RoundRectangle2D$Float.getHeight()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -479,8 +484,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Float#setRoundRect(double, double, double, double, double, double) public void
-         * java.awt.geom.RoundRectangle2D$Float.setRoundRect(double,double,double,double,double,double)}.
+         * {@link java.awt.geom.RoundRectangle2D.Float#setRoundRect(double, double, double, double, double, double)
+         * public void java.awt.geom.RoundRectangle2D$Float.setRoundRect(double,double,double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -502,7 +507,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#setRoundRect(RoundRectangle2D) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Float#setRoundRect(java.awt.geom.RoundRectangle2D) public void
          * java.awt.geom.RoundRectangle2D$Float.setRoundRect(java.awt.geom.RoundRectangle2D)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -526,8 +532,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Float#setRoundRect(float, float, float, float, float, float) public void
-         * java.awt.geom.RoundRectangle2D$Float.setRoundRect(float,float,float,float,float,float)}.
+         * {@link java.awt.geom.RoundRectangle2D.Float#setRoundRect(float, float, float, float, float, float) public
+         * void java.awt.geom.RoundRectangle2D$Float.setRoundRect(float,float,float,float,float,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -548,8 +554,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Float#getY() public double
-         * java.awt.geom.RoundRectangle2D$Float.getY()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#getY()
+         * public double java.awt.geom.RoundRectangle2D$Float.getY()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -600,7 +606,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getArcHeight() public double
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Double#getArcHeight() public double
          * java.awt.geom.RoundRectangle2D$Double.getArcHeight()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -623,7 +630,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getArcWidth() public double
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Double#getArcWidth() public double
          * java.awt.geom.RoundRectangle2D$Double.getArcWidth()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -647,8 +655,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Double#setRoundRect(double, double, double, double, double, double) public void
-         * java.awt.geom.RoundRectangle2D$Double.setRoundRect(double,double,double,double,double,double)}.
+         * {@link java.awt.geom.RoundRectangle2D.Double#setRoundRect(double, double, double, double, double, double)
+         * public void java.awt.geom.RoundRectangle2D$Double.setRoundRect(double,double,double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -670,8 +678,9 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#setRoundRect(RoundRectangle2D) public
-         * void java.awt.geom.RoundRectangle2D$Double.setRoundRect(java.awt.geom.RoundRectangle2D)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Double#setRoundRect(java.awt.geom.RoundRectangle2D) public void
+         * java.awt.geom.RoundRectangle2D$Double.setRoundRect(java.awt.geom.RoundRectangle2D)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -693,8 +702,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getY() public double
-         * java.awt.geom.RoundRectangle2D$Double.getY()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Double#getY()
+         * public double java.awt.geom.RoundRectangle2D$Double.getY()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -716,8 +725,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getX() public double
-         * java.awt.geom.RoundRectangle2D$Double.getX()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Double#getX()
+         * public double java.awt.geom.RoundRectangle2D$Double.getX()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -739,7 +748,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getHeight() public double
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Double#getHeight() public double
          * java.awt.geom.RoundRectangle2D$Double.getHeight()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -762,8 +772,9 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getBounds2D() public
-         * java.awt.geom.Rectangle2D java.awt.geom.RoundRectangle2D$Double.getBounds2D()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Double#getBounds2D() public java.awt.geom.Rectangle2D
+         * java.awt.geom.RoundRectangle2D$Double.getBounds2D()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -785,8 +796,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#isEmpty() public boolean
-         * java.awt.geom.RoundRectangle2D$Double.isEmpty()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Double#isEmpty()
+         * public boolean java.awt.geom.RoundRectangle2D$Double.isEmpty()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -808,8 +819,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Double#getWidth() public double
-         * java.awt.geom.RoundRectangle2D$Double.getWidth()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Double#getWidth()
+         * public double java.awt.geom.RoundRectangle2D$Double.getWidth()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

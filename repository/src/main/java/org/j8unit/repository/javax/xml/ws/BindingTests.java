@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.ws;
 
-import java.util.List;
 import javax.xml.ws.Binding;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binding#getBindingID() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Binding#getBindingID() public abstract
      * java.lang.String javax.xml.ws.Binding.getBindingID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binding#getHandlerChain() public abstract
-     * java.util.List<javax.xml.ws.handler.Handler> javax.xml.ws.Binding.getHandlerChain()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Binding#getHandlerChain() public
+     * abstract java.util.List<javax.xml.ws.handler.Handler> javax.xml.ws.Binding.getHandlerChain()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binding#setHandlerChain(List) public abstract void
-     * javax.xml.ws.Binding.setHandlerChain(java.util.List<javax.xml.ws.handler.Handler>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.Binding#setHandlerChain(java.util.List)
+     * public abstract void javax.xml.ws.Binding.setHandlerChain(java.util.List<javax.xml.ws.handler.Handler>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

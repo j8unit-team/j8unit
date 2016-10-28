@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Collection;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentLinkedQueueClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConcurrentLinkedQueue#ConcurrentLinkedQueue()
-     * public java.util.concurrent.ConcurrentLinkedQueue()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#ConcurrentLinkedQueue() public
+     * java.util.concurrent.ConcurrentLinkedQueue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentLinkedQueueClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConcurrentLinkedQueue#ConcurrentLinkedQueue(Collection) public
+     * {@link java.util.concurrent.ConcurrentLinkedQueue#ConcurrentLinkedQueue(java.util.Collection) public
      * java.util.concurrent.ConcurrentLinkedQueue(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentLinkedQueueClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConcurrentLinkedQueue sut = null; // = new ConcurrentLinkedQueue(Collection);
+        final ConcurrentLinkedQueue sut = null; // = new ConcurrentLinkedQueue(java.util.Collection);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentLinkedQueue]

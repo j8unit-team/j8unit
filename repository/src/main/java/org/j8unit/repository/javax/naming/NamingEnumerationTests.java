@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingEnumeration#hasMore() public abstract boolean
-     * javax.naming.NamingEnumeration.hasMore() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingEnumeration#hasMore() public
+     * abstract boolean javax.naming.NamingEnumeration.hasMore() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingEnumeration#close() public abstract void
-     * javax.naming.NamingEnumeration.close() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingEnumeration#close() public
+     * abstract void javax.naming.NamingEnumeration.close() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingEnumeration#next() public abstract T
-     * javax.naming.NamingEnumeration.next() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.NamingEnumeration#next() public
+     * abstract T javax.naming.NamingEnumeration.next() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

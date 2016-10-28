@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.security.spec.PKCS8EncodedKeySpecClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PKCS8EncodedKeySpec#PKCS8EncodedKeySpec(byte[])
-     * public java.security.spec.PKCS8EncodedKeySpec(byte[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.spec.PKCS8EncodedKeySpec#PKCS8EncodedKeySpec(byte[]) public
+     * java.security.spec.PKCS8EncodedKeySpec(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

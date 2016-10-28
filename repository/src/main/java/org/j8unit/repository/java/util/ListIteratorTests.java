@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListIterator#previous() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.ListIterator#previous() public abstract E
      * java.util.ListIterator.previous()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListIterator#next() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.ListIterator#next() public abstract E
      * java.util.ListIterator.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListIterator#add(Object) public abstract void
-     * java.util.ListIterator.add(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ListIterator#add(Object) public abstract
+     * void java.util.ListIterator.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListIterator#set(Object) public abstract void
-     * java.util.ListIterator.set(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ListIterator#set(Object) public abstract
+     * void java.util.ListIterator.set(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListIterator#previousIndex() public abstract int
-     * java.util.ListIterator.previousIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ListIterator#previousIndex() public
+     * abstract int java.util.ListIterator.previousIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListIterator#remove() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.util.ListIterator#remove() public abstract void
      * java.util.ListIterator.remove()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListIterator#hasPrevious() public abstract boolean
-     * java.util.ListIterator.hasPrevious()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ListIterator#hasPrevious() public abstract
+     * boolean java.util.ListIterator.hasPrevious()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListIterator#nextIndex() public abstract int
-     * java.util.ListIterator.nextIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ListIterator#nextIndex() public abstract
+     * int java.util.ListIterator.nextIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +212,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListIterator#hasNext() public abstract boolean
-     * java.util.ListIterator.hasNext()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ListIterator#hasNext() public abstract
+     * boolean java.util.ListIterator.hasNext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

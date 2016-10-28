@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.util.Map;
 import javax.sql.rowset.serial.SerialRef;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialRef#clone() public java.lang.Object
-     * javax.sql.rowset.serial.SerialRef.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialRef#clone() public
+     * java.lang.Object javax.sql.rowset.serial.SerialRef.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialRef#setObject(Object) public void
-     * javax.sql.rowset.serial.SerialRef.setObject(java.lang.Object) throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialRef#setObject(Object)
+     * public void javax.sql.rowset.serial.SerialRef.setObject(java.lang.Object) throws
+     * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialRef#getBaseTypeName() public java.lang.String
-     * javax.sql.rowset.serial.SerialRef.getBaseTypeName() throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialRef#getBaseTypeName()
+     * public java.lang.String javax.sql.rowset.serial.SerialRef.getBaseTypeName() throws
+     * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +105,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialRef#getObject() public java.lang.Object
-     * javax.sql.rowset.serial.SerialRef.getObject() throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialRef#getObject() public
+     * java.lang.Object javax.sql.rowset.serial.SerialRef.getObject() throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +128,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialRef#getObject(Map) public java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialRef#getObject(java.util.Map) public java.lang.Object
      * javax.sql.rowset.serial.SerialRef.getObject(java.util.Map<java.lang.String, java.lang.Class<?>>) throws
      * javax.sql.rowset.serial.SerialException}.
      *
@@ -151,8 +153,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialRef#equals(Object) public boolean
-     * javax.sql.rowset.serial.SerialRef.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialRef#equals(Object)
+     * public boolean javax.sql.rowset.serial.SerialRef.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +176,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialRef#hashCode() public int
-     * javax.sql.rowset.serial.SerialRef.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialRef#hashCode() public
+     * int javax.sql.rowset.serial.SerialRef.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.lang.invoke.SwitchPointClassTests<SwitchPo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SwitchPoint#SwitchPoint() public
-     * java.lang.invoke.SwitchPoint()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.lang.invoke.SwitchPoint#SwitchPoint()
+     * public java.lang.invoke.SwitchPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,9 @@ implements org.j8unit.repository.java.lang.invoke.SwitchPointClassTests<SwitchPo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SwitchPoint#invalidateAll(SwitchPoint[]) public
-     * static void java.lang.invoke.SwitchPoint.invalidateAll(java.lang.invoke.SwitchPoint[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.SwitchPoint#invalidateAll(java.lang.invoke.SwitchPoint[]) public static void
+     * java.lang.invoke.SwitchPoint.invalidateAll(java.lang.invoke.SwitchPoint[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +58,7 @@ implements org.j8unit.repository.java.lang.invoke.SwitchPointClassTests<SwitchPo
     @Category(Draft.class)
     public void test_invalidateAll_SwitchPointArray()
     throws Exception {
-        // write some test for {@link SwitchPoint#invalidateAll(SwitchPoint[])}
+        // write some test for {@link java.lang.invoke.SwitchPoint#invalidateAll(java.lang.invoke.SwitchPoint[])}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.SwitchPoint]

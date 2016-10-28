@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.beans;
 
-import java.applet.Applet;
 import java.beans.AppletInitializer;
-import java.beans.beancontext.BeanContext;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,9 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletInitializer#initialize(Applet, BeanContext)
-     * public abstract void
-     * java.beans.AppletInitializer.initialize(java.applet.Applet,java.beans.beancontext.BeanContext)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.AppletInitializer#initialize(java.applet.Applet, java.beans.beancontext.BeanContext) public
+     * abstract void java.beans.AppletInitializer.initialize(java.applet.Applet,java.beans.beancontext.BeanContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletInitializer#activate(Applet) public abstract
-     * void java.beans.AppletInitializer.activate(java.applet.Applet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.AppletInitializer#activate(java.applet.Applet) public abstract void
+     * java.beans.AppletInitializer.activate(java.applet.Applet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

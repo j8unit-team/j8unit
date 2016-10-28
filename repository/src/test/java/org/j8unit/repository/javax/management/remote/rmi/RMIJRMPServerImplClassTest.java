@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
-import java.rmi.server.RMIClientSocketFactory;
-import java.rmi.server.RMIServerSocketFactory;
-import java.util.Map;
 import javax.management.remote.rmi.RMIJRMPServerImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIJRMPServerImplCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RMIJRMPServerImpl#RMIJRMPServerImpl(int, RMIClientSocketFactory, RMIServerSocketFactory, Map) public
+     * {@link javax.management.remote.rmi.RMIJRMPServerImpl#RMIJRMPServerImpl(int, java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory, java.util.Map)
+     * public
      * javax.management.remote.rmi.RMIJRMPServerImpl(int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory,java.util.Map<java.lang.String,
      * ?>) throws java.io.IOException}.
      *
@@ -43,8 +41,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIJRMPServerImplCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RMIJRMPServerImpl sut = null; // = new RMIJRMPServerImpl(int, RMIClientSocketFactory,
-                                            // RMIServerSocketFactory, Map);
+        final RMIJRMPServerImpl sut = null; // = new RMIJRMPServerImpl(int, java.rmi.server.RMIClientSocketFactory,
+                                            // java.rmi.server.RMIServerSocketFactory, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIJRMPServerImpl]

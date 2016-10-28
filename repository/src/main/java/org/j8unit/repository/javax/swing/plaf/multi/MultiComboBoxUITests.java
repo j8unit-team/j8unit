@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
 import javax.swing.plaf.multi.MultiComboBoxUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiComboBoxUI#getAccessibleChildrenCount(JComponent) public int
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiComboBoxUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#setPopupVisible(JComboBox, boolean)
-     * public void javax.swing.plaf.multi.MultiComboBoxUI.setPopupVisible(javax.swing.JComboBox,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#setPopupVisible(javax.swing.JComboBox, boolean) public void
+     * javax.swing.plaf.multi.MultiComboBoxUI.setPopupVisible(javax.swing.JComboBox,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +82,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiComboBoxUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +106,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiComboBoxUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +131,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiComboBoxUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiComboBoxUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,7 +155,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiComboBoxUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +179,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiComboBoxUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiComboBoxUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +203,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#contains(JComponent, int, int)
-     * public boolean javax.swing.plaf.multi.MultiComboBoxUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiComboBoxUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,8 +227,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiComboBoxUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiComboBoxUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -246,8 +251,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#isFocusTraversable(JComboBox) public
-     * boolean javax.swing.plaf.multi.MultiComboBoxUI.isFocusTraversable(javax.swing.JComboBox)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#isFocusTraversable(javax.swing.JComboBox) public boolean
+     * javax.swing.plaf.multi.MultiComboBoxUI.isFocusTraversable(javax.swing.JComboBox)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,8 +275,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#update(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiComboBoxUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiComboBoxUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -292,8 +299,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#isPopupVisible(JComboBox) public
-     * boolean javax.swing.plaf.multi.MultiComboBoxUI.isPopupVisible(javax.swing.JComboBox)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#isPopupVisible(javax.swing.JComboBox) public boolean
+     * javax.swing.plaf.multi.MultiComboBoxUI.isPopupVisible(javax.swing.JComboBox)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -315,8 +323,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiComboBoxUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiComboBoxUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiComboBoxUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -338,8 +347,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiComboBoxUI#getUIs() public
-     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiComboBoxUI.getUIs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiComboBoxUI#getUIs()
+     * public javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiComboBoxUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

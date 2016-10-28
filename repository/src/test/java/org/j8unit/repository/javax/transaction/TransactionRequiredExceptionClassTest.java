@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.transaction.TransactionRequiredExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransactionRequiredException#TransactionRequiredException() public
+     * {@link javax.transaction.TransactionRequiredException#TransactionRequiredException() public
      * javax.transaction.TransactionRequiredException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.transaction.TransactionRequiredExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransactionRequiredException#TransactionRequiredException(String) public
+     * {@link javax.transaction.TransactionRequiredException#TransactionRequiredException(String) public
      * javax.transaction.TransactionRequiredException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

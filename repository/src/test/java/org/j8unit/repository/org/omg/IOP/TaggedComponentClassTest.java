@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedComponentClassTests<TaggedCom
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TaggedComponent#TaggedComponent() public
-     * org.omg.IOP.TaggedComponent()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.IOP.TaggedComponent#TaggedComponent()
+     * public org.omg.IOP.TaggedComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedComponentClassTests<TaggedCom
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TaggedComponent#TaggedComponent(int, byte[])
-     * public org.omg.IOP.TaggedComponent(int,byte[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.TaggedComponent#TaggedComponent(int, byte[]) public org.omg.IOP.TaggedComponent(int,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

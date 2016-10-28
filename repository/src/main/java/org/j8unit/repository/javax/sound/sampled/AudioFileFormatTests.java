@@ -35,7 +35,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileFormat#getType() public
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFileFormat#getType() public
      * javax.sound.sampled.AudioFileFormat$Type javax.sound.sampled.AudioFileFormat.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileFormat#getByteLength() public int
-     * javax.sound.sampled.AudioFileFormat.getByteLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFileFormat#getByteLength()
+     * public int javax.sound.sampled.AudioFileFormat.getByteLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileFormat#getProperty(String) public
-     * java.lang.Object javax.sound.sampled.AudioFileFormat.getProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.AudioFileFormat#getProperty(String) public java.lang.Object
+     * javax.sound.sampled.AudioFileFormat.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileFormat#properties() public
-     * java.util.Map<java.lang.String, java.lang.Object> javax.sound.sampled.AudioFileFormat.properties()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFileFormat#properties()
+     * public java.util.Map<java.lang.String, java.lang.Object> javax.sound.sampled.AudioFileFormat.properties()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileFormat#getFrameLength() public int
-     * javax.sound.sampled.AudioFileFormat.getFrameLength()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFileFormat#getFrameLength()
+     * public int javax.sound.sampled.AudioFileFormat.getFrameLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileFormat#getFormat() public
-     * javax.sound.sampled.AudioFormat javax.sound.sampled.AudioFileFormat.getFormat()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFileFormat#getFormat()
+     * public javax.sound.sampled.AudioFormat javax.sound.sampled.AudioFileFormat.getFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioFileFormat#toString() public java.lang.String
-     * javax.sound.sampled.AudioFileFormat.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFileFormat#toString()
+     * public java.lang.String javax.sound.sampled.AudioFileFormat.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,7 +218,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#toString() public final java.lang.String
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.AudioFileFormat.Type#toString() public final java.lang.String
          * javax.sound.sampled.AudioFileFormat$Type.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,7 +242,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#hashCode() public final int
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.AudioFileFormat.Type#hashCode() public final int
          * javax.sound.sampled.AudioFileFormat$Type.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -263,7 +266,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#equals(Object) public final boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.AudioFileFormat.Type#equals(Object) public final boolean
          * javax.sound.sampled.AudioFileFormat$Type.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -286,7 +290,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Type#getExtension() public java.lang.String
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.AudioFileFormat.Type#getExtension() public java.lang.String
          * javax.sound.sampled.AudioFileFormat$Type.getExtension()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.spi;
 
-import java.util.Locale;
 import java.util.spi.LocaleNameProvider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocaleNameProvider#getDisplayScript(String, Locale)
-     * public java.lang.String java.util.spi.LocaleNameProvider.getDisplayScript(java.lang.String,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.spi.LocaleNameProvider#getDisplayScript(String, java.util.Locale) public java.lang.String
+     * java.util.spi.LocaleNameProvider.getDisplayScript(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,9 +57,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocaleNameProvider#getDisplayCountry(String, Locale)
-     * public abstract java.lang.String
-     * java.util.spi.LocaleNameProvider.getDisplayCountry(java.lang.String,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.spi.LocaleNameProvider#getDisplayCountry(String, java.util.Locale) public abstract
+     * java.lang.String java.util.spi.LocaleNameProvider.getDisplayCountry(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LocaleNameProvider#getDisplayLanguage(String, Locale) public abstract java.lang.String
-     * java.util.spi.LocaleNameProvider.getDisplayLanguage(java.lang.String,java.util.Locale)}.
+     * {@link java.util.spi.LocaleNameProvider#getDisplayLanguage(String, java.util.Locale) public abstract
+     * java.lang.String java.util.spi.LocaleNameProvider.getDisplayLanguage(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,9 +103,9 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LocaleNameProvider#getDisplayVariant(String, Locale)
-     * public abstract java.lang.String
-     * java.util.spi.LocaleNameProvider.getDisplayVariant(java.lang.String,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.spi.LocaleNameProvider#getDisplayVariant(String, java.util.Locale) public abstract
+     * java.lang.String java.util.spi.LocaleNameProvider.getDisplayVariant(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

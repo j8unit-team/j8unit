@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialJavaObject#clone() public java.lang.Object
-     * javax.sql.rowset.serial.SerialJavaObject.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialJavaObject#clone()
+     * public java.lang.Object javax.sql.rowset.serial.SerialJavaObject.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialJavaObject#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialJavaObject#equals(Object) public boolean
      * javax.sql.rowset.serial.SerialJavaObject.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialJavaObject#hashCode() public int
-     * javax.sql.rowset.serial.SerialJavaObject.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialJavaObject#hashCode()
+     * public int javax.sql.rowset.serial.SerialJavaObject.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialJavaObject#getFields() public
-     * java.lang.reflect.Field[] javax.sql.rowset.serial.SerialJavaObject.getFields() throws
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialJavaObject#getFields()
+     * public java.lang.reflect.Field[] javax.sql.rowset.serial.SerialJavaObject.getFields() throws
      * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +127,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialJavaObject#getObject() public java.lang.Object
-     * javax.sql.rowset.serial.SerialJavaObject.getObject() throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialJavaObject#getObject()
+     * public java.lang.Object javax.sql.rowset.serial.SerialJavaObject.getObject() throws
+     * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.xml.bind;
 
 import javax.xml.bind.Binder;
-import javax.xml.bind.ValidationEventHandler;
-import javax.xml.validation.Schema;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#getEventHandler() public abstract
-     * javax.xml.bind.ValidationEventHandler javax.xml.bind.Binder.getEventHandler() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#getEventHandler() public
+     * abstract javax.xml.bind.ValidationEventHandler javax.xml.bind.Binder.getEventHandler() throws
      * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#getJAXBNode(Object) public abstract
-     * java.lang.Object javax.xml.bind.Binder.getJAXBNode(XmlNode)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#getJAXBNode(Object) public
+     * abstract java.lang.Object javax.xml.bind.Binder.getJAXBNode(XmlNode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#getProperty(String) public abstract
-     * java.lang.Object javax.xml.bind.Binder.getProperty(java.lang.String) throws javax.xml.bind.PropertyException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#getProperty(String) public
+     * abstract java.lang.Object javax.xml.bind.Binder.getProperty(java.lang.String) throws
+     * javax.xml.bind.PropertyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#getSchema() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#getSchema() public abstract
      * javax.xml.validation.Schema javax.xml.bind.Binder.getSchema()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#setSchema(Schema) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.Binder#setSchema(javax.xml.validation.Schema) public abstract void
      * javax.xml.bind.Binder.setSchema(javax.xml.validation.Schema)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,8 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#marshal(Object, Object) public abstract void
-     * javax.xml.bind.Binder.marshal(java.lang.Object,XmlNode) throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#marshal(Object, Object) public
+     * abstract void javax.xml.bind.Binder.marshal(java.lang.Object,XmlNode) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +169,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#setProperty(String, Object) public abstract
-     * void javax.xml.bind.Binder.setProperty(java.lang.String,java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#setProperty(String, Object)
+     * public abstract void javax.xml.bind.Binder.setProperty(java.lang.String,java.lang.Object) throws
      * javax.xml.bind.PropertyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,9 +192,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#unmarshal(Object, Class) public abstract
-     * <T> javax.xml.bind.JAXBElement<T> javax.xml.bind.Binder.unmarshal(XmlNode,java.lang.Class<T>) throws
-     * javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#unmarshal(Object, Class)
+     * public abstract <T> javax.xml.bind.JAXBElement<T> javax.xml.bind.Binder.unmarshal(XmlNode,java.lang.Class<T>)
+     * throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +215,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#unmarshal(Object) public abstract
-     * java.lang.Object javax.xml.bind.Binder.unmarshal(XmlNode) throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#unmarshal(Object) public
+     * abstract java.lang.Object javax.xml.bind.Binder.unmarshal(XmlNode) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +237,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#getXMLNode(Object) public abstract XmlNode
-     * javax.xml.bind.Binder.getXMLNode(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#getXMLNode(Object) public
+     * abstract XmlNode javax.xml.bind.Binder.getXMLNode(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +259,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#updateXML(Object) public abstract XmlNode
-     * javax.xml.bind.Binder.updateXML(java.lang.Object) throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#updateXML(Object) public
+     * abstract XmlNode javax.xml.bind.Binder.updateXML(java.lang.Object) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +281,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#updateXML(Object, Object) public abstract
-     * XmlNode javax.xml.bind.Binder.updateXML(java.lang.Object,XmlNode) throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#updateXML(Object, Object)
+     * public abstract XmlNode javax.xml.bind.Binder.updateXML(java.lang.Object,XmlNode) throws
+     * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,8 +304,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#updateJAXB(Object) public abstract
-     * java.lang.Object javax.xml.bind.Binder.updateJAXB(XmlNode) throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.Binder#updateJAXB(Object) public
+     * abstract java.lang.Object javax.xml.bind.Binder.updateJAXB(XmlNode) throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,9 +326,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Binder#setEventHandler(ValidationEventHandler)
-     * public abstract void javax.xml.bind.Binder.setEventHandler(javax.xml.bind.ValidationEventHandler) throws
-     * javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.Binder#setEventHandler(javax.xml.bind.ValidationEventHandler) public abstract void
+     * javax.xml.bind.Binder.setEventHandler(javax.xml.bind.ValidationEventHandler) throws javax.xml.bind.JAXBException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

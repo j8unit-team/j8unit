@@ -23,7 +23,7 @@ implements org.j8unit.repository.javax.xml.bind.helpers.AbstractUnmarshallerImpl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AbstractUnmarshallerImpl#AbstractUnmarshallerImpl() public
+     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#AbstractUnmarshallerImpl() public
      * javax.xml.bind.helpers.AbstractUnmarshallerImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

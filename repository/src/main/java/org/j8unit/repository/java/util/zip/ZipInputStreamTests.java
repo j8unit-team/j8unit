@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.zip.InflaterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipInputStream#read(byte[], int, int) public int
-     * java.util.zip.ZipInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipInputStream#read(byte[], int, int)
+     * public int java.util.zip.ZipInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.util.zip.InflaterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipInputStream#getNextEntry() public
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipInputStream#getNextEntry() public
      * java.util.zip.ZipEntry java.util.zip.ZipInputStream.getNextEntry() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.util.zip.InflaterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipInputStream#closeEntry() public void
-     * java.util.zip.ZipInputStream.closeEntry() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipInputStream#closeEntry() public
+     * void java.util.zip.ZipInputStream.closeEntry() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.util.zip.InflaterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipInputStream#skip(long) public long
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipInputStream#skip(long) public long
      * java.util.zip.ZipInputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.util.zip.InflaterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipInputStream#available() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipInputStream#available() public int
      * java.util.zip.ZipInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +147,7 @@ extends org.j8unit.repository.java.util.zip.InflaterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZipInputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.ZipInputStream#close() public void
      * java.util.zip.ZipInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

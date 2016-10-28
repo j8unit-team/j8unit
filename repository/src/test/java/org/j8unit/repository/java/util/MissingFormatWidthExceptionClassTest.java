@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.MissingFormatWidthExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MissingFormatWidthException#MissingFormatWidthException(String) public
+     * {@link java.util.MissingFormatWidthException#MissingFormatWidthException(String) public
      * java.util.MissingFormatWidthException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

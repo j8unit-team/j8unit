@@ -24,7 +24,7 @@ implements org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImageReaderWriterSpi#ImageReaderWriterSpi(String, String, String[], String[], String[], String, boolean, String, String, String[], String[], boolean, String, String, String[], String[])
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#ImageReaderWriterSpi(String, String, String[], String[], String[], String, boolean, String, String, String[], String[], boolean, String, String, String[], String[])
      * public
      * javax.imageio.spi.ImageReaderWriterSpi(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String[],java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],boolean,java.lang.String,java.lang.String,java.lang.String[],java.lang.String[])}
      * .
@@ -46,8 +46,9 @@ implements org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ImageReaderWriterSpi#ImageReaderWriterSpi()
-     * public javax.imageio.spi.ImageReaderWriterSpi()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#ImageReaderWriterSpi() public
+     * javax.imageio.spi.ImageReaderWriterSpi()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

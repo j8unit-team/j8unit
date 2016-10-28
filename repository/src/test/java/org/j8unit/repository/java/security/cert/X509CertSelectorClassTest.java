@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.security.cert.X509CertSelectorClassTests<X
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link X509CertSelector#X509CertSelector() public
-     * java.security.cert.X509CertSelector()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.X509CertSelector#X509CertSelector() public java.security.cert.X509CertSelector()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

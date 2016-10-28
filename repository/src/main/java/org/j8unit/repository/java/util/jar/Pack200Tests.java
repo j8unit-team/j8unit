@@ -1,12 +1,5 @@
 package org.j8unit.repository.java.util.jar;
 
-import java.beans.PropertyChangeListener;
-import java.io.File;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.jar.JarFile;
-import java.util.jar.JarInputStream;
-import java.util.jar.JarOutputStream;
 import java.util.jar.Pack200;
 import java.util.jar.Pack200.Packer;
 import java.util.jar.Pack200.Unpacker;
@@ -71,8 +64,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Unpacker#unpack(File, JarOutputStream) public
-         * abstract void java.util.jar.Pack200$Unpacker.unpack(java.io.File,java.util.jar.JarOutputStream) throws
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.jar.Pack200.Unpacker#unpack(java.io.File, java.util.jar.JarOutputStream) public abstract
+         * void java.util.jar.Pack200$Unpacker.unpack(java.io.File,java.util.jar.JarOutputStream) throws
          * java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,9 +88,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Unpacker#unpack(InputStream, JarOutputStream)
-         * public abstract void java.util.jar.Pack200$Unpacker.unpack(java.io.InputStream,java.util.jar.JarOutputStream)
-         * throws java.io.IOException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.jar.Pack200.Unpacker#unpack(java.io.InputStream, java.util.jar.JarOutputStream) public
+         * abstract void java.util.jar.Pack200$Unpacker.unpack(java.io.InputStream,java.util.jar.JarOutputStream) throws
+         * java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -117,8 +112,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Unpacker#properties() public abstract
-         * java.util.SortedMap<java.lang.String, java.lang.String> java.util.jar.Pack200$Unpacker.properties()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.jar.Pack200.Unpacker#properties()
+         * public abstract java.util.SortedMap<java.lang.String, java.lang.String>
+         * java.util.jar.Pack200$Unpacker.properties()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -140,8 +136,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Unpacker#removePropertyChangeListener(PropertyChangeListener) public default void
-         * java.util.jar.Pack200$Unpacker.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+         * {@link java.util.jar.Pack200.Unpacker#removePropertyChangeListener(java.beans.PropertyChangeListener) public
+         * default void java.util.jar.Pack200$Unpacker.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -163,8 +159,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Unpacker#addPropertyChangeListener(PropertyChangeListener) public default void
-         * java.util.jar.Pack200$Unpacker.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+         * {@link java.util.jar.Pack200.Unpacker#addPropertyChangeListener(java.beans.PropertyChangeListener) public
+         * default void java.util.jar.Pack200$Unpacker.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -214,8 +210,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Packer#pack(JarInputStream, OutputStream) public
-         * abstract void java.util.jar.Pack200$Packer.pack(java.util.jar.JarInputStream,java.io.OutputStream) throws
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.jar.Pack200.Packer#pack(java.util.jar.JarInputStream, java.io.OutputStream) public abstract
+         * void java.util.jar.Pack200$Packer.pack(java.util.jar.JarInputStream,java.io.OutputStream) throws
          * java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,9 +234,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Packer#pack(JarFile, OutputStream) public
-         * abstract void java.util.jar.Pack200$Packer.pack(java.util.jar.JarFile,java.io.OutputStream) throws
-         * java.io.IOException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.jar.Pack200.Packer#pack(java.util.jar.JarFile, java.io.OutputStream) public abstract void
+         * java.util.jar.Pack200$Packer.pack(java.util.jar.JarFile,java.io.OutputStream) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -261,8 +258,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Packer#removePropertyChangeListener(PropertyChangeListener) public default void
-         * java.util.jar.Pack200$Packer.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+         * {@link java.util.jar.Pack200.Packer#removePropertyChangeListener(java.beans.PropertyChangeListener) public
+         * default void java.util.jar.Pack200$Packer.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -284,8 +281,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link Packer#addPropertyChangeListener(PropertyChangeListener) public default void
-         * java.util.jar.Pack200$Packer.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+         * {@link java.util.jar.Pack200.Packer#addPropertyChangeListener(java.beans.PropertyChangeListener) public
+         * default void java.util.jar.Pack200$Packer.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -306,8 +303,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Packer#properties() public abstract
-         * java.util.SortedMap<java.lang.String, java.lang.String> java.util.jar.Pack200$Packer.properties()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.jar.Pack200.Packer#properties() public
+         * abstract java.util.SortedMap<java.lang.String, java.lang.String> java.util.jar.Pack200$Packer.properties()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

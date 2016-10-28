@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.JTabbedPaneClassTests<JTabbedPane> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTabbedPane#JTabbedPane(int, int) public
-     * javax.swing.JTabbedPane(int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTabbedPane#JTabbedPane(int, int)
+     * public javax.swing.JTabbedPane(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.javax.swing.JTabbedPaneClassTests<JTabbedPane> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTabbedPane#JTabbedPane(int) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTabbedPane#JTabbedPane(int) public
      * javax.swing.JTabbedPane(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,7 +65,7 @@ implements org.j8unit.repository.javax.swing.JTabbedPaneClassTests<JTabbedPane> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTabbedPane#JTabbedPane() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTabbedPane#JTabbedPane() public
      * javax.swing.JTabbedPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

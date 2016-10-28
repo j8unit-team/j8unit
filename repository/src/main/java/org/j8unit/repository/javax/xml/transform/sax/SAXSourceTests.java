@@ -6,8 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.InputSource;
-import org.xml.sax.XMLReader;
 
 /**
  * <p>
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXSource#getSystemId() public java.lang.String
-     * javax.xml.transform.sax.SAXSource.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.sax.SAXSource#getSystemId()
+     * public java.lang.String javax.xml.transform.sax.SAXSource.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +57,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXSource#setSystemId(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXSource#setSystemId(String) public void
      * javax.xml.transform.sax.SAXSource.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +81,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXSource#setInputSource(InputSource) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXSource#setInputSource(org.xml.sax.InputSource) public void
      * javax.xml.transform.sax.SAXSource.setInputSource(org.xml.sax.InputSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +104,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXSource#setXMLReader(XMLReader) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXSource#setXMLReader(org.xml.sax.XMLReader) public void
      * javax.xml.transform.sax.SAXSource.setXMLReader(org.xml.sax.XMLReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +127,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXSource#getXMLReader() public
-     * org.xml.sax.XMLReader javax.xml.transform.sax.SAXSource.getXMLReader()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.sax.SAXSource#getXMLReader()
+     * public org.xml.sax.XMLReader javax.xml.transform.sax.SAXSource.getXMLReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +149,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SAXSource#getInputSource() public
-     * org.xml.sax.InputSource javax.xml.transform.sax.SAXSource.getInputSource()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.sax.SAXSource#getInputSource()
+     * public org.xml.sax.InputSource javax.xml.transform.sax.SAXSource.getInputSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

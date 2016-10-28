@@ -1,10 +1,6 @@
 package org.j8unit.repository.org.ietf.jgss;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import org.ietf.jgss.ChannelBinding;
 import org.ietf.jgss.GSSContext;
-import org.ietf.jgss.MessageProp;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#isProtReady() public abstract boolean
-     * org.ietf.jgss.GSSContext.isProtReady()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#isProtReady() public
+     * abstract boolean org.ietf.jgss.GSSContext.isProtReady()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,30 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#export() public abstract byte[]
-     * org.ietf.jgss.GSSContext.export() throws org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_export()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getConfState() public abstract boolean
-     * org.ietf.jgss.GSSContext.getConfState()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getConfState() public
+     * abstract boolean org.ietf.jgss.GSSContext.getConfState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +79,31 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#initSecContext(byte[], int, int) public
-     * abstract byte[] org.ietf.jgss.GSSContext.initSecContext(byte[],int,int) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#export() public abstract
+     * byte[] org.ietf.jgss.GSSContext.export() throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_export()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#initSecContext(byte[], int, int) public abstract byte[]
+     * org.ietf.jgss.GSSContext.initSecContext(byte[],int,int) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +124,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#initSecContext(InputStream, OutputStream)
-     * public abstract int org.ietf.jgss.GSSContext.initSecContext(java.io.InputStream,java.io.OutputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#initSecContext(java.io.InputStream, java.io.OutputStream) public abstract int
+     * org.ietf.jgss.GSSContext.initSecContext(java.io.InputStream,java.io.OutputStream) throws
      * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +148,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getAnonymityState() public abstract
-     * boolean org.ietf.jgss.GSSContext.getAnonymityState()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getAnonymityState() public
+     * abstract boolean org.ietf.jgss.GSSContext.getAnonymityState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,7 +171,31 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GSSContext#getMIC(InputStream, OutputStream, MessageProp) public abstract void
+     * {@link org.ietf.jgss.GSSContext#getMIC(byte[], int, int, org.ietf.jgss.MessageProp) public abstract byte[]
+     * org.ietf.jgss.GSSContext.getMIC(byte[],int,int,org.ietf.jgss.MessageProp) throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMIC_byteArray_int_int_MessageProp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#getMIC(java.io.InputStream, java.io.OutputStream, org.ietf.jgss.MessageProp)
+     * public abstract void
      * org.ietf.jgss.GSSContext.getMIC(java.io.InputStream,java.io.OutputStream,org.ietf.jgss.MessageProp) throws
      * org.ietf.jgss.GSSException}.
      *
@@ -196,31 +218,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getMIC(byte[], int, int, MessageProp)
-     * public abstract byte[] org.ietf.jgss.GSSContext.getMIC(byte[],int,int,org.ietf.jgss.MessageProp) throws
-     * org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMIC_byteArray_int_int_MessageProp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#requestConf(boolean) public abstract void
-     * org.ietf.jgss.GSSContext.requestConf(boolean) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestConf(boolean) public
+     * abstract void org.ietf.jgss.GSSContext.requestConf(boolean) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -241,8 +240,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#requestAnonymity(boolean) public abstract
-     * void org.ietf.jgss.GSSContext.requestAnonymity(boolean) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestAnonymity(boolean)
+     * public abstract void org.ietf.jgss.GSSContext.requestAnonymity(boolean) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,9 +262,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#unwrap(byte[], int, int, MessageProp)
-     * public abstract byte[] org.ietf.jgss.GSSContext.unwrap(byte[],int,int,org.ietf.jgss.MessageProp) throws
-     * org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#unwrap(byte[], int, int, org.ietf.jgss.MessageProp) public abstract byte[]
+     * org.ietf.jgss.GSSContext.unwrap(byte[],int,int,org.ietf.jgss.MessageProp) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,7 +286,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GSSContext#unwrap(InputStream, OutputStream, MessageProp) public abstract void
+     * {@link org.ietf.jgss.GSSContext#unwrap(java.io.InputStream, java.io.OutputStream, org.ietf.jgss.MessageProp)
+     * public abstract void
      * org.ietf.jgss.GSSContext.unwrap(java.io.InputStream,java.io.OutputStream,org.ietf.jgss.MessageProp) throws
      * org.ietf.jgss.GSSException}.
      *
@@ -310,8 +310,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#requestCredDeleg(boolean) public abstract
-     * void org.ietf.jgss.GSSContext.requestCredDeleg(boolean) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestCredDeleg(boolean)
+     * public abstract void org.ietf.jgss.GSSContext.requestCredDeleg(boolean) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -332,8 +332,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getSequenceDetState() public abstract
-     * boolean org.ietf.jgss.GSSContext.getSequenceDetState()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getSequenceDetState()
+     * public abstract boolean org.ietf.jgss.GSSContext.getSequenceDetState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -354,8 +354,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getCredDelegState() public abstract
-     * boolean org.ietf.jgss.GSSContext.getCredDelegState()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getCredDelegState() public
+     * abstract boolean org.ietf.jgss.GSSContext.getCredDelegState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -376,8 +376,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getIntegState() public abstract boolean
-     * org.ietf.jgss.GSSContext.getIntegState()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getIntegState() public
+     * abstract boolean org.ietf.jgss.GSSContext.getIntegState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -399,7 +399,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GSSContext#acceptSecContext(InputStream, OutputStream) public abstract void
+     * {@link org.ietf.jgss.GSSContext#acceptSecContext(java.io.InputStream, java.io.OutputStream) public abstract void
      * org.ietf.jgss.GSSContext.acceptSecContext(java.io.InputStream,java.io.OutputStream) throws
      * org.ietf.jgss.GSSException}.
      *
@@ -422,8 +422,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#acceptSecContext(byte[], int, int) public
-     * abstract byte[] org.ietf.jgss.GSSContext.acceptSecContext(byte[],int,int) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#acceptSecContext(byte[], int, int) public abstract byte[]
+     * org.ietf.jgss.GSSContext.acceptSecContext(byte[],int,int) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -444,8 +445,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#isInitiator() public abstract boolean
-     * org.ietf.jgss.GSSContext.isInitiator() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#isInitiator() public
+     * abstract boolean org.ietf.jgss.GSSContext.isInitiator() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -466,8 +467,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getSrcName() public abstract
-     * org.ietf.jgss.GSSName org.ietf.jgss.GSSContext.getSrcName() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getSrcName() public
+     * abstract org.ietf.jgss.GSSName org.ietf.jgss.GSSContext.getSrcName() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -489,9 +490,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GSSContext#wrap(InputStream, OutputStream, MessageProp) public abstract void
-     * org.ietf.jgss.GSSContext.wrap(java.io.InputStream,java.io.OutputStream,org.ietf.jgss.MessageProp) throws
-     * org.ietf.jgss.GSSException}.
+     * {@link org.ietf.jgss.GSSContext#wrap(java.io.InputStream, java.io.OutputStream, org.ietf.jgss.MessageProp) public
+     * abstract void org.ietf.jgss.GSSContext.wrap(java.io.InputStream,java.io.OutputStream,org.ietf.jgss.MessageProp)
+     * throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -512,9 +513,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#wrap(byte[], int, int, MessageProp)
-     * public abstract byte[] org.ietf.jgss.GSSContext.wrap(byte[],int,int,org.ietf.jgss.MessageProp) throws
-     * org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#wrap(byte[], int, int, org.ietf.jgss.MessageProp) public abstract byte[]
+     * org.ietf.jgss.GSSContext.wrap(byte[],int,int,org.ietf.jgss.MessageProp) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -535,8 +536,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#dispose() public abstract void
-     * org.ietf.jgss.GSSContext.dispose() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#dispose() public abstract
+     * void org.ietf.jgss.GSSContext.dispose() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -557,8 +558,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#requestInteg(boolean) public abstract
-     * void org.ietf.jgss.GSSContext.requestInteg(boolean) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestInteg(boolean)
+     * public abstract void org.ietf.jgss.GSSContext.requestInteg(boolean) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -579,8 +580,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getReplayDetState() public abstract
-     * boolean org.ietf.jgss.GSSContext.getReplayDetState()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getReplayDetState() public
+     * abstract boolean org.ietf.jgss.GSSContext.getReplayDetState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -601,8 +602,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#requestMutualAuth(boolean) public
-     * abstract void org.ietf.jgss.GSSContext.requestMutualAuth(boolean) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestMutualAuth(boolean)
+     * public abstract void org.ietf.jgss.GSSContext.requestMutualAuth(boolean) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -623,8 +624,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getTargName() public abstract
-     * org.ietf.jgss.GSSName org.ietf.jgss.GSSContext.getTargName() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getTargName() public
+     * abstract org.ietf.jgss.GSSName org.ietf.jgss.GSSContext.getTargName() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -645,7 +646,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getMech() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getMech() public abstract
      * org.ietf.jgss.Oid org.ietf.jgss.GSSContext.getMech() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -667,9 +668,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#setChannelBinding(ChannelBinding) public
-     * abstract void org.ietf.jgss.GSSContext.setChannelBinding(org.ietf.jgss.ChannelBinding) throws
-     * org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#setChannelBinding(org.ietf.jgss.ChannelBinding) public abstract void
+     * org.ietf.jgss.GSSContext.setChannelBinding(org.ietf.jgss.ChannelBinding) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -690,9 +691,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getWrapSizeLimit(int, boolean, int)
-     * public abstract int org.ietf.jgss.GSSContext.getWrapSizeLimit(int,boolean,int) throws org.ietf.jgss.GSSException}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#getWrapSizeLimit(int, boolean, int) public abstract int
+     * org.ietf.jgss.GSSContext.getWrapSizeLimit(int,boolean,int) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -713,8 +714,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#isTransferable() public abstract boolean
-     * org.ietf.jgss.GSSContext.isTransferable() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#isTransferable() public
+     * abstract boolean org.ietf.jgss.GSSContext.isTransferable() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -735,8 +736,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#requestLifetime(int) public abstract void
-     * org.ietf.jgss.GSSContext.requestLifetime(int) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestLifetime(int) public
+     * abstract void org.ietf.jgss.GSSContext.requestLifetime(int) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -757,8 +758,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#requestSequenceDet(boolean) public
-     * abstract void org.ietf.jgss.GSSContext.requestSequenceDet(boolean) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestSequenceDet(boolean)
+     * public abstract void org.ietf.jgss.GSSContext.requestSequenceDet(boolean) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -779,8 +780,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getMutualAuthState() public abstract
-     * boolean org.ietf.jgss.GSSContext.getMutualAuthState()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getMutualAuthState() public
+     * abstract boolean org.ietf.jgss.GSSContext.getMutualAuthState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -802,7 +803,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GSSContext#verifyMIC(InputStream, InputStream, MessageProp) public abstract void
+     * {@link org.ietf.jgss.GSSContext#verifyMIC(java.io.InputStream, java.io.InputStream, org.ietf.jgss.MessageProp)
+     * public abstract void
      * org.ietf.jgss.GSSContext.verifyMIC(java.io.InputStream,java.io.InputStream,org.ietf.jgss.MessageProp) throws
      * org.ietf.jgss.GSSException}.
      *
@@ -826,8 +828,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GSSContext#verifyMIC(byte[], int, int, byte[], int, int, MessageProp) public abstract void
-     * org.ietf.jgss.GSSContext.verifyMIC(byte[],int,int,byte[],int,int,org.ietf.jgss.MessageProp) throws
+     * {@link org.ietf.jgss.GSSContext#verifyMIC(byte[], int, int, byte[], int, int, org.ietf.jgss.MessageProp) public
+     * abstract void org.ietf.jgss.GSSContext.verifyMIC(byte[],int,int,byte[],int,int,org.ietf.jgss.MessageProp) throws
      * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -849,8 +851,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getLifetime() public abstract int
-     * org.ietf.jgss.GSSContext.getLifetime()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getLifetime() public
+     * abstract int org.ietf.jgss.GSSContext.getLifetime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -871,8 +873,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#requestReplayDet(boolean) public abstract
-     * void org.ietf.jgss.GSSContext.requestReplayDet(boolean) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestReplayDet(boolean)
+     * public abstract void org.ietf.jgss.GSSContext.requestReplayDet(boolean) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -893,8 +895,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#isEstablished() public abstract boolean
-     * org.ietf.jgss.GSSContext.isEstablished()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#isEstablished() public
+     * abstract boolean org.ietf.jgss.GSSContext.isEstablished()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -915,8 +917,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSContext#getDelegCred() public abstract
-     * org.ietf.jgss.GSSCredential org.ietf.jgss.GSSContext.getDelegCred() throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getDelegCred() public
+     * abstract org.ietf.jgss.GSSCredential org.ietf.jgss.GSSContext.getDelegCred() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

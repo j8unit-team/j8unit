@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicInteger#AtomicInteger(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#AtomicInteger(int) public
      * java.util.concurrent.atomic.AtomicInteger(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +44,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicInteger#AtomicInteger() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicInteger#AtomicInteger() public
      * java.util.concurrent.atomic.AtomicInteger()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

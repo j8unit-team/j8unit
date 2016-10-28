@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.net.ssl;
 
 import javax.net.ssl.HostnameVerifier;
-import javax.net.ssl.SSLSession;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HostnameVerifier#verify(String, SSLSession) public
-     * abstract boolean javax.net.ssl.HostnameVerifier.verify(java.lang.String,javax.net.ssl.SSLSession)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.HostnameVerifier#verify(String, javax.net.ssl.SSLSession) public abstract boolean
+     * javax.net.ssl.HostnameVerifier.verify(java.lang.String,javax.net.ssl.SSLSession)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

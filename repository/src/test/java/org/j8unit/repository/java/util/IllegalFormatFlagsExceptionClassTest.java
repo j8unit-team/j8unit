@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.IllegalFormatFlagsExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalFormatFlagsException#IllegalFormatFlagsException(String) public
+     * {@link java.util.IllegalFormatFlagsException#IllegalFormatFlagsException(String) public
      * java.util.IllegalFormatFlagsException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

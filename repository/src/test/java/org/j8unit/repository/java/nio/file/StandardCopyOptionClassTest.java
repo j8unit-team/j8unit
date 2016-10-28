@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.nio.file.StandardCopyOptionClassTests<Stan
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardCopyOption#values() public static
-     * java.nio.file.StandardCopyOption[] java.nio.file.StandardCopyOption.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.StandardCopyOption#values() public
+     * static java.nio.file.StandardCopyOption[] java.nio.file.StandardCopyOption.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.nio.file.StandardCopyOptionClassTests<Stan
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link StandardCopyOption#values()}
+        // write some test for {@link java.nio.file.StandardCopyOption#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StandardCopyOption#valueOf(String) public static
-     * java.nio.file.StandardCopyOption java.nio.file.StandardCopyOption.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.StandardCopyOption#valueOf(String)
+     * public static java.nio.file.StandardCopyOption java.nio.file.StandardCopyOption.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.nio.file.StandardCopyOptionClassTests<Stan
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link StandardCopyOption#valueOf(String)}
+        // write some test for {@link java.nio.file.StandardCopyOption#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.StandardCopyOption]

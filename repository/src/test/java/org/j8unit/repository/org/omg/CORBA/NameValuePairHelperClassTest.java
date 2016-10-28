@@ -7,11 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.NameValuePair;
 import org.omg.CORBA.NameValuePairHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class NameValuePairHelperClassTest
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.NameValuePairHelperClassTests<Nam
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NameValuePairHelper#NameValuePairHelper()
-     * public org.omg.CORBA.NameValuePairHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.NameValuePairHelper#NameValuePairHelper() public org.omg.CORBA.NameValuePairHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.NameValuePairHelperClassTests<Nam
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameValuePairHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.NameValuePairHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.CORBA.NameValuePair org.omg.CORBA.NameValuePairHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +58,14 @@ implements org.j8unit.repository.org.omg.CORBA.NameValuePairHelperClassTests<Nam
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link NameValuePairHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.NameValuePairHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameValuePairHelper#extract(Any) public static
-     * org.omg.CORBA.NameValuePair org.omg.CORBA.NameValuePairHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.NameValuePairHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.NameValuePair
+     * org.omg.CORBA.NameValuePairHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,13 +79,13 @@ implements org.j8unit.repository.org.omg.CORBA.NameValuePairHelperClassTests<Nam
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link NameValuePairHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.NameValuePairHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameValuePairHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.NameValuePairHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.NameValuePairHelper#type() public
+     * static synchronized org.omg.CORBA.TypeCode org.omg.CORBA.NameValuePairHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,13 +99,14 @@ implements org.j8unit.repository.org.omg.CORBA.NameValuePairHelperClassTests<Nam
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link NameValuePairHelper#type()}
+        // write some test for {@link org.omg.CORBA.NameValuePairHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NameValuePairHelper#write(OutputStream, NameValuePair) public static void
+     * {@link org.omg.CORBA.NameValuePairHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.NameValuePair)
+     * public static void
      * org.omg.CORBA.NameValuePairHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.NameValuePair)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,12 +121,13 @@ implements org.j8unit.repository.org.omg.CORBA.NameValuePairHelperClassTests<Nam
     @Category(Draft.class)
     public void test_write_OutputStream_NameValuePair()
     throws Exception {
-        // write some test for {@link NameValuePairHelper#write(OutputStream, NameValuePair)}
+        // write some test for {@link org.omg.CORBA.NameValuePairHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CORBA.NameValuePair)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameValuePairHelper#id() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.NameValuePairHelper#id() public static
      * java.lang.String org.omg.CORBA.NameValuePairHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -142,13 +142,14 @@ implements org.j8unit.repository.org.omg.CORBA.NameValuePairHelperClassTests<Nam
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link NameValuePairHelper#id()}
+        // write some test for {@link org.omg.CORBA.NameValuePairHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NameValuePairHelper#insert(Any, NameValuePair)
-     * public static void org.omg.CORBA.NameValuePairHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.NameValuePair)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.NameValuePairHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.NameValuePair) public static
+     * void org.omg.CORBA.NameValuePairHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.NameValuePair)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,7 +163,8 @@ implements org.j8unit.repository.org.omg.CORBA.NameValuePairHelperClassTests<Nam
     @Category(Draft.class)
     public void test_insert_Any_NameValuePair()
     throws Exception {
-        // write some test for {@link NameValuePairHelper#insert(Any, NameValuePair)}
+        // write some test for {@link org.omg.CORBA.NameValuePairHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CORBA.NameValuePair)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.NameValuePairHelper]

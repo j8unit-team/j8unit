@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Insets;
 import javax.swing.border.LineBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineBorder#getLineColor() public java.awt.Color
-     * javax.swing.border.LineBorder.getLineColor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.LineBorder#getLineColor() public
+     * java.awt.Color javax.swing.border.LineBorder.getLineColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +56,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineBorder#isBorderOpaque() public boolean
-     * javax.swing.border.LineBorder.isBorderOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.LineBorder#isBorderOpaque()
+     * public boolean javax.swing.border.LineBorder.isBorderOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +79,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineBorder#getRoundedCorners() public boolean
-     * javax.swing.border.LineBorder.getRoundedCorners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.LineBorder#getRoundedCorners()
+     * public boolean javax.swing.border.LineBorder.getRoundedCorners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +102,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LineBorder#paintBorder(Component, Graphics, int, int, int, int) public void
-     * javax.swing.border.LineBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * {@link javax.swing.border.LineBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+     * public void javax.swing.border.LineBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +125,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineBorder#getThickness() public int
-     * javax.swing.border.LineBorder.getThickness()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.LineBorder#getThickness() public
+     * int javax.swing.border.LineBorder.getThickness()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +147,9 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineBorder#getBorderInsets(Component, Insets) public
-     * java.awt.Insets javax.swing.border.LineBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.LineBorder#getBorderInsets(java.awt.Component, java.awt.Insets) public java.awt.Insets
+     * javax.swing.border.LineBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

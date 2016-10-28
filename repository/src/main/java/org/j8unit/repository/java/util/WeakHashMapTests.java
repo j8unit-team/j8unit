@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Map;
 import java.util.WeakHashMap;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,7 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#keySet() public java.util.Set
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#keySet() public java.util.Set
      * <K> java.util.WeakHashMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +57,8 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#putAll(Map) public void
-     * java.util.WeakHashMap.putAll(java.util.Map<? extends K, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#putAll(java.util.Map) public
+     * void java.util.WeakHashMap.putAll(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +80,7 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#get(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#get(Object) public V
      * java.util.WeakHashMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +103,7 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#size() public int
      * java.util.WeakHashMap.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,8 +126,8 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#containsValue(Object) public boolean
-     * java.util.WeakHashMap.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#containsValue(Object) public
+     * boolean java.util.WeakHashMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,7 +149,7 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#put(Object, Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#put(Object, Object) public V
      * java.util.WeakHashMap.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,7 +172,7 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#remove(Object) public V
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#remove(Object) public V
      * java.util.WeakHashMap.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +195,8 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#replaceAll(BiFunction) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.WeakHashMap#replaceAll(java.util.function.BiFunction) public void
      * java.util.WeakHashMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -221,7 +219,7 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#isEmpty() public boolean
      * java.util.WeakHashMap.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,7 +242,7 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#clear() public void
      * java.util.WeakHashMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -267,7 +265,8 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#forEach(BiConsumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.WeakHashMap#forEach(java.util.function.BiConsumer) public void
      * java.util.WeakHashMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -290,8 +289,8 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#containsKey(Object) public boolean
-     * java.util.WeakHashMap.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#containsKey(Object) public
+     * boolean java.util.WeakHashMap.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -313,8 +312,8 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#values() public java.util.Collection
-     * <V> java.util.WeakHashMap.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#values() public
+     * java.util.Collection<V> java.util.WeakHashMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -336,7 +335,7 @@ extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeakHashMap#entrySet() public
+     * Test method for the hereby targeted method-under-test {@link java.util.WeakHashMap#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.WeakHashMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

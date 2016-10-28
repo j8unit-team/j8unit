@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print;
 
-import javax.print.PrintService;
 import javax.print.StreamPrintService;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamPrintService#getOutputFormat() public abstract
-     * java.lang.String javax.print.StreamPrintService.getOutputFormat()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.StreamPrintService#getOutputFormat()
+     * public abstract java.lang.String javax.print.StreamPrintService.getOutputFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamPrintService#isDisposed() public boolean
-     * javax.print.StreamPrintService.isDisposed()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.StreamPrintService#isDisposed() public
+     * boolean javax.print.StreamPrintService.isDisposed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +78,7 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamPrintService#dispose() public void
+     * Test method for the hereby targeted method-under-test {@link javax.print.StreamPrintService#dispose() public void
      * javax.print.StreamPrintService.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +100,8 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StreamPrintService#getOutputStream() public
-     * java.io.OutputStream javax.print.StreamPrintService.getOutputStream()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.StreamPrintService#getOutputStream()
+     * public java.io.OutputStream javax.print.StreamPrintService.getOutputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,7 +126,7 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link PrintService#hashCode() interface javax.print.PrintService}</li>
+     * <li>{@link javax.print.PrintService#hashCode() interface javax.print.PrintService}</li>
      * <li>{@link Object#hashCode() class java.lang.Object}</li>
      * </ul>
      *
@@ -155,7 +154,7 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link PrintService#equals(Object) interface javax.print.PrintService}</li>
+     * <li>{@link javax.print.PrintService#equals(Object) interface javax.print.PrintService}</li>
      * <li>{@link Object#equals(Object) class java.lang.Object}</li>
      * </ul>
      *

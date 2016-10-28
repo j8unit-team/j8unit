@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmMethod#getParameterSpec() public abstract
-     * java.security.spec.AlgorithmParameterSpec javax.xml.crypto.AlgorithmMethod.getParameterSpec()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.AlgorithmMethod#getParameterSpec()
+     * public abstract java.security.spec.AlgorithmParameterSpec javax.xml.crypto.AlgorithmMethod.getParameterSpec()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmMethod#getAlgorithm() public abstract
-     * java.lang.String javax.xml.crypto.AlgorithmMethod.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.AlgorithmMethod#getAlgorithm()
+     * public abstract java.lang.String javax.xml.crypto.AlgorithmMethod.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

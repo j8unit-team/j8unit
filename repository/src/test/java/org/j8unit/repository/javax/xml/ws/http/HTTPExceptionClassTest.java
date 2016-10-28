@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.xml.ws.http.HTTPExceptionClassTests<HTTPE
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HTTPException#HTTPException(int) public
-     * javax.xml.ws.http.HTTPException(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.http.HTTPException#HTTPException(int) public javax.xml.ws.http.HTTPException(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

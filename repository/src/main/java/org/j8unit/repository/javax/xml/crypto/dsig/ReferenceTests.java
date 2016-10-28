@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.xml.crypto.dsig;
 
 import javax.xml.crypto.dsig.Reference;
-import javax.xml.crypto.dsig.XMLValidateContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getCalculatedDigestValue() public abstract
-     * byte[] javax.xml.crypto.dsig.Reference.getCalculatedDigestValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.Reference#getCalculatedDigestValue() public abstract byte[]
+     * javax.xml.crypto.dsig.Reference.getCalculatedDigestValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getDigestValue() public abstract byte[]
-     * javax.xml.crypto.dsig.Reference.getDigestValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.Reference#getDigestValue()
+     * public abstract byte[] javax.xml.crypto.dsig.Reference.getDigestValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getDigestInputStream() public abstract
-     * java.io.InputStream javax.xml.crypto.dsig.Reference.getDigestInputStream()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.Reference#getDigestInputStream() public abstract java.io.InputStream
+     * javax.xml.crypto.dsig.Reference.getDigestInputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getTransforms() public abstract
-     * java.util.List javax.xml.crypto.dsig.Reference.getTransforms()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.Reference#getTransforms()
+     * public abstract java.util.List javax.xml.crypto.dsig.Reference.getTransforms()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,9 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getDereferencedData() public abstract
-     * javax.xml.crypto.Data javax.xml.crypto.dsig.Reference.getDereferencedData()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.Reference#getDereferencedData() public abstract javax.xml.crypto.Data
+     * javax.xml.crypto.dsig.Reference.getDereferencedData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +147,9 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#validate(XMLValidateContext) public
-     * abstract boolean javax.xml.crypto.dsig.Reference.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.Reference#validate(javax.xml.crypto.dsig.XMLValidateContext) public abstract boolean
+     * javax.xml.crypto.dsig.Reference.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
      * javax.xml.crypto.dsig.XMLSignatureException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +171,8 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getDigestMethod() public abstract
-     * javax.xml.crypto.dsig.DigestMethod javax.xml.crypto.dsig.Reference.getDigestMethod()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.Reference#getDigestMethod()
+     * public abstract javax.xml.crypto.dsig.DigestMethod javax.xml.crypto.dsig.Reference.getDigestMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +193,8 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Reference#getId() public abstract java.lang.String
-     * javax.xml.crypto.dsig.Reference.getId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.Reference#getId() public
+     * abstract java.lang.String javax.xml.crypto.dsig.Reference.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

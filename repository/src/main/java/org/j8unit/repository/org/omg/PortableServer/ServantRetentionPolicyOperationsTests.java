@@ -35,8 +35,9 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantRetentionPolicyOperations#value() public
-     * abstract org.omg.PortableServer.ServantRetentionPolicyValue
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantRetentionPolicyOperations#value() public abstract
+     * org.omg.PortableServer.ServantRetentionPolicyValue
      * org.omg.PortableServer.ServantRetentionPolicyOperations.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

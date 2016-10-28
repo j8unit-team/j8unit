@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.EntityClassTests<E
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Entity#Entity(String, int, char[]) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.parser.Entity#Entity(String, int, char[]) public
      * javax.swing.text.html.parser.Entity(java.lang.String,int,char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +44,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.EntityClassTests<E
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#name2type(String) public static int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.Entity#name2type(String) public static int
      * javax.swing.text.html.parser.Entity.name2type(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +60,7 @@ implements org.j8unit.repository.javax.swing.text.html.parser.EntityClassTests<E
     @Category(Draft.class)
     public void test_name2type_String()
     throws Exception {
-        // write some test for {@link Entity#name2type(String)}
+        // write some test for {@link javax.swing.text.html.parser.Entity#name2type(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.Entity]

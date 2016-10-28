@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ItemEvent#paramString() public java.lang.String
-     * java.awt.event.ItemEvent.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.ItemEvent#paramString() public
+     * java.lang.String java.awt.event.ItemEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ItemEvent#getItemSelectable() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.ItemEvent#getItemSelectable() public
      * java.awt.ItemSelectable java.awt.event.ItemEvent.getItemSelectable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ItemEvent#getItem() public java.lang.Object
-     * java.awt.event.ItemEvent.getItem()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.ItemEvent#getItem() public
+     * java.lang.Object java.awt.event.ItemEvent.getItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ItemEvent#getStateChange() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.ItemEvent#getStateChange() public int
      * java.awt.event.ItemEvent.getStateChange()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

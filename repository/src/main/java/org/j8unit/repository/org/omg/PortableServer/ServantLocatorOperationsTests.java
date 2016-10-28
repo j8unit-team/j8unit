@@ -5,10 +5,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableServer.POA;
-import org.omg.PortableServer.Servant;
 import org.omg.PortableServer.ServantLocatorOperations;
-import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
 
 /**
  * <p>
@@ -38,8 +35,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServantLocatorOperations#preinvoke(byte[], POA, String, CookieHolder) public abstract
-     * org.omg.PortableServer.Servant
+     * {@link org.omg.PortableServer.ServantLocatorOperations#preinvoke(byte[], org.omg.PortableServer.POA, String, org.omg.PortableServer.ServantLocatorPackage.CookieHolder)
+     * public abstract org.omg.PortableServer.Servant
      * org.omg.PortableServer.ServantLocatorOperations.preinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,org.omg.PortableServer.ServantLocatorPackage.CookieHolder)
      * throws org.omg.PortableServer.ForwardRequest}.
      *
@@ -63,7 +60,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServantLocatorOperations#postinvoke(byte[], POA, String, Object, Servant) public abstract void
+     * {@link org.omg.PortableServer.ServantLocatorOperations#postinvoke(byte[], org.omg.PortableServer.POA, String, Object, org.omg.PortableServer.Servant)
+     * public abstract void
      * org.omg.PortableServer.ServantLocatorOperations.postinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,java.lang.Object,org.omg.PortableServer.Servant)}
      * .
      *

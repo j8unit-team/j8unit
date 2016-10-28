@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JSeparatorClassTests<JSeparator> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JSeparator#JSeparator() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JSeparator#JSeparator() public
      * javax.swing.JSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.javax.swing.JSeparatorClassTests<JSeparator> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JSeparator#JSeparator(int) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JSeparator#JSeparator(int) public
      * javax.swing.JSeparator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Generated#comments() public abstract
-     * java.lang.String javax.annotation.Generated.comments()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Generated#comments() public
+     * abstract java.lang.String javax.annotation.Generated.comments()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Generated#date() public abstract java.lang.String
-     * javax.annotation.Generated.date()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Generated#date() public abstract
+     * java.lang.String javax.annotation.Generated.date()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Generated#value() public abstract java.lang.String[]
-     * javax.annotation.Generated.value()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Generated#value() public abstract
+     * java.lang.String[] javax.annotation.Generated.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

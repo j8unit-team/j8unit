@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Patch#getProgram() public int
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Patch#getProgram() public int
      * javax.sound.midi.Patch.getProgram()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Patch#getBank() public int
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Patch#getBank() public int
      * javax.sound.midi.Patch.getBank()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

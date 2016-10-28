@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableInterceptor.IORInfo;
 import org.omg.PortableInterceptor.IORInterceptorOperations;
 
 /**
@@ -36,7 +35,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IORInterceptorOperations#establish_components(IORInfo) public abstract void
+     * {@link org.omg.PortableInterceptor.IORInterceptorOperations#establish_components(org.omg.PortableInterceptor.IORInfo)
+     * public abstract void
      * org.omg.PortableInterceptor.IORInterceptorOperations.establish_components(org.omg.PortableInterceptor.IORInfo)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

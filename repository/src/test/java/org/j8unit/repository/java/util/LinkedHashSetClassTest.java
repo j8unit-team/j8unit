@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Collection;
 import java.util.LinkedHashSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.util.LinkedHashSetClassTests<LinkedHashSet
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedHashSet#LinkedHashSet(Collection) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.LinkedHashSet#LinkedHashSet(java.util.Collection) public
      * java.util.LinkedHashSet(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +40,12 @@ implements org.j8unit.repository.java.util.LinkedHashSetClassTests<LinkedHashSet
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LinkedHashSet sut = null; // = new LinkedHashSet(Collection);
+        final LinkedHashSet sut = null; // = new LinkedHashSet(java.util.Collection);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedHashSet#LinkedHashSet() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.LinkedHashSet#LinkedHashSet() public
      * java.util.LinkedHashSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,8 +66,8 @@ implements org.j8unit.repository.java.util.LinkedHashSetClassTests<LinkedHashSet
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedHashSet#LinkedHashSet(int) public
-     * java.util.LinkedHashSet(int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.LinkedHashSet#LinkedHashSet(int)
+     * public java.util.LinkedHashSet(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,8 +88,8 @@ implements org.j8unit.repository.java.util.LinkedHashSetClassTests<LinkedHashSet
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LinkedHashSet#LinkedHashSet(int, float) public
-     * java.util.LinkedHashSet(int,float)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.LinkedHashSet#LinkedHashSet(int, float) public java.util.LinkedHashSet(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

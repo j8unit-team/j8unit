@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.activation;
 
-import java.io.File;
 import javax.activation.MimetypesFileTypeMap;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.activation.FileTypeMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimetypesFileTypeMap#getContentType(String) public
-     * synchronized java.lang.String javax.activation.MimetypesFileTypeMap.getContentType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MimetypesFileTypeMap#getContentType(String) public synchronized java.lang.String
+     * javax.activation.MimetypesFileTypeMap.getContentType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.activation.FileTypeMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimetypesFileTypeMap#getContentType(File) public
-     * java.lang.String javax.activation.MimetypesFileTypeMap.getContentType(java.io.File)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MimetypesFileTypeMap#getContentType(java.io.File) public java.lang.String
+     * javax.activation.MimetypesFileTypeMap.getContentType(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,9 @@ extends org.j8unit.repository.javax.activation.FileTypeMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MimetypesFileTypeMap#addMimeTypes(String) public
-     * synchronized void javax.activation.MimetypesFileTypeMap.addMimeTypes(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.MimetypesFileTypeMap#addMimeTypes(String) public synchronized void
+     * javax.activation.MimetypesFileTypeMap.addMimeTypes(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

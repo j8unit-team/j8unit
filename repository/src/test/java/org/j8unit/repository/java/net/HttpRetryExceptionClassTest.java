@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.HttpRetryExceptionClassTests<HttpRetry
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HttpRetryException#HttpRetryException(String, int) public
+     * {@link java.net.HttpRetryException#HttpRetryException(String, int) public
      * java.net.HttpRetryException(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.net.HttpRetryExceptionClassTests<HttpRetry
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HttpRetryException#HttpRetryException(String, int, String) public
+     * {@link java.net.HttpRetryException#HttpRetryException(String, int, String) public
      * java.net.HttpRetryException(java.lang.String,int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

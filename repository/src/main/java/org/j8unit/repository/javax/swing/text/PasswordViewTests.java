@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Shape;
 import javax.swing.text.PasswordView;
-import javax.swing.text.Position.Bias;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.javax.swing.text.FieldViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PasswordView#viewToModel(float, float, Shape, Bias[]) public int
+     * {@link javax.swing.text.PasswordView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.text.PasswordView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ extends org.j8unit.repository.javax.swing.text.FieldViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PasswordView#modelToView(int, Shape, Bias) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.PasswordView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.PasswordView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
      * throws javax.swing.text.BadLocationException}.
      *
@@ -84,8 +84,8 @@ extends org.j8unit.repository.javax.swing.text.FieldViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PasswordView#getPreferredSpan(int) public float
-     * javax.swing.text.PasswordView.getPreferredSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.PasswordView#getPreferredSpan(int)
+     * public float javax.swing.text.PasswordView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

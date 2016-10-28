@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.ButtonUIClassTests<ButtonUI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ButtonUI#ButtonUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.ButtonUI#ButtonUI() public
      * javax.swing.plaf.ButtonUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

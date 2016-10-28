@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#compareTo(Object) public abstract int
-     * javax.naming.Name.compareTo(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#compareTo(Object) public abstract
+     * int javax.naming.Name.compareTo(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#isEmpty() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#isEmpty() public abstract boolean
      * javax.naming.Name.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#remove(int) public abstract java.lang.Object
-     * javax.naming.Name.remove(int) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#remove(int) public abstract
+     * java.lang.Object javax.naming.Name.remove(int) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#getPrefix(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#getPrefix(int) public abstract
      * javax.naming.Name javax.naming.Name.getPrefix(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#getAll() public abstract java.util.Enumeration
-     * <java.lang.String> javax.naming.Name.getAll()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#getAll() public abstract
+     * java.util.Enumeration<java.lang.String> javax.naming.Name.getAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#add(int, String) public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#add(int, String) public abstract
      * javax.naming.Name javax.naming.Name.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#add(String) public abstract javax.naming.Name
-     * javax.naming.Name.add(java.lang.String) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#add(String) public abstract
+     * javax.naming.Name javax.naming.Name.add(java.lang.String) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +190,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#endsWith(Name) public abstract boolean
-     * javax.naming.Name.endsWith(javax.naming.Name)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#endsWith(javax.naming.Name) public
+     * abstract boolean javax.naming.Name.endsWith(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +212,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#clone() public abstract java.lang.Object
-     * javax.naming.Name.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#clone() public abstract
+     * java.lang.Object javax.naming.Name.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +234,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#startsWith(Name) public abstract boolean
-     * javax.naming.Name.startsWith(javax.naming.Name)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#startsWith(javax.naming.Name)
+     * public abstract boolean javax.naming.Name.startsWith(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,7 +256,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#getSuffix(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#getSuffix(int) public abstract
      * javax.naming.Name javax.naming.Name.getSuffix(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -278,8 +278,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#get(int) public abstract java.lang.String
-     * javax.naming.Name.get(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#get(int) public abstract
+     * java.lang.String javax.naming.Name.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,7 +300,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#size() public abstract int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#size() public abstract int
      * javax.naming.Name.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -322,8 +322,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#addAll(Name) public abstract javax.naming.Name
-     * javax.naming.Name.addAll(javax.naming.Name) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#addAll(javax.naming.Name) public
+     * abstract javax.naming.Name javax.naming.Name.addAll(javax.naming.Name) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -344,8 +344,9 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Name#addAll(int, Name) public abstract
-     * javax.naming.Name javax.naming.Name.addAll(int,javax.naming.Name) throws javax.naming.InvalidNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.Name#addAll(int, javax.naming.Name)
+     * public abstract javax.naming.Name javax.naming.Name.addAll(int,javax.naming.Name) throws
+     * javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

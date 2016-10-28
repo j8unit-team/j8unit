@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JFileChooser;
 import javax.swing.plaf.basic.BasicDirectoryModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicDirectoryModelClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BasicDirectoryModel#BasicDirectoryModel(JFileChooser) public
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#BasicDirectoryModel(javax.swing.JFileChooser) public
      * javax.swing.plaf.basic.BasicDirectoryModel(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicDirectoryModelClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BasicDirectoryModel sut = null; // = new BasicDirectoryModel(JFileChooser);
+        final BasicDirectoryModel sut = null; // = new BasicDirectoryModel(javax.swing.JFileChooser);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicDirectoryModel]

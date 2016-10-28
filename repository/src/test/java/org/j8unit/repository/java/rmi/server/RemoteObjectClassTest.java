@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.rmi.Remote;
 import java.rmi.server.RemoteObject;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.rmi.server.RemoteObjectClassTests<RemoteOb
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteObject#toStub(Remote) public static
-     * java.rmi.Remote java.rmi.server.RemoteObject.toStub(java.rmi.Remote) throws java.rmi.NoSuchObjectException}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteObject#toStub(java.rmi.Remote)
+     * public static java.rmi.Remote java.rmi.server.RemoteObject.toStub(java.rmi.Remote) throws
+     * java.rmi.NoSuchObjectException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,7 +37,7 @@ implements org.j8unit.repository.java.rmi.server.RemoteObjectClassTests<RemoteOb
     @Category(Draft.class)
     public void test_toStub_Remote()
     throws Exception {
-        // write some test for {@link RemoteObject#toStub(Remote)}
+        // write some test for {@link java.rmi.server.RemoteObject#toStub(java.rmi.Remote)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RemoteObject]

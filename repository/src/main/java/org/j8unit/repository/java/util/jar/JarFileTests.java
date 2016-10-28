@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.jar;
 
 import java.util.jar.JarFile;
-import java.util.zip.ZipEntry;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.util.zip.ZipFileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarFile#getEntry(String) public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarFile#getEntry(String) public
      * java.util.zip.ZipEntry java.util.jar.JarFile.getEntry(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.util.zip.ZipFileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarFile#getInputStream(ZipEntry) public synchronized
-     * java.io.InputStream java.util.jar.JarFile.getInputStream(java.util.zip.ZipEntry) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.jar.JarFile#getInputStream(java.util.zip.ZipEntry) public synchronized java.io.InputStream
+     * java.util.jar.JarFile.getInputStream(java.util.zip.ZipEntry) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.util.zip.ZipFileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarFile#entries() public java.util.Enumeration
-     * <java.util.jar.JarEntry> java.util.jar.JarFile.entries()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarFile#entries() public
+     * java.util.Enumeration<java.util.jar.JarEntry> java.util.jar.JarFile.entries()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.util.zip.ZipFileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarFile#getJarEntry(String) public
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarFile#getJarEntry(String) public
      * java.util.jar.JarEntry java.util.jar.JarFile.getJarEntry(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.util.zip.ZipFileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarFile#getManifest() public java.util.jar.Manifest
-     * java.util.jar.JarFile.getManifest() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarFile#getManifest() public
+     * java.util.jar.Manifest java.util.jar.JarFile.getManifest() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.util.zip.ZipFileTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JarFile#stream() public java.util.stream.Stream
-     * <java.util.jar.JarEntry> java.util.jar.JarFile.stream()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.JarFile#stream() public
+     * java.util.stream.Stream<java.util.jar.JarEntry> java.util.jar.JarFile.stream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

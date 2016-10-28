@@ -23,7 +23,7 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceArra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AtomicReferenceArray#AtomicReferenceArray(Object[]) public
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#AtomicReferenceArray(Object[]) public
      * java.util.concurrent.atomic.AtomicReferenceArray(E[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +45,9 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceArra
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicReferenceArray#AtomicReferenceArray(int)
-     * public java.util.concurrent.atomic.AtomicReferenceArray(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#AtomicReferenceArray(int) public
+     * java.util.concurrent.atomic.AtomicReferenceArray(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

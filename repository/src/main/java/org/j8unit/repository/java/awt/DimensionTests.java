@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension#getHeight() public double
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dimension#getHeight() public double
      * java.awt.Dimension.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension#getSize() public java.awt.Dimension
-     * java.awt.Dimension.getSize()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dimension#getSize() public
+     * java.awt.Dimension java.awt.Dimension.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension#setSize(Dimension) public void
-     * java.awt.Dimension.setSize(java.awt.Dimension)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dimension#setSize(java.awt.Dimension)
+     * public void java.awt.Dimension.setSize(java.awt.Dimension)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension#setSize(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dimension#setSize(int, int) public void
      * java.awt.Dimension.setSize(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension#setSize(double, double) public void
-     * java.awt.Dimension.setSize(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dimension#setSize(double, double) public
+     * void java.awt.Dimension.setSize(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dimension#hashCode() public int
      * java.awt.Dimension.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +169,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dimension#equals(Object) public boolean
      * java.awt.Dimension.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +192,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension#toString() public java.lang.String
-     * java.awt.Dimension.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dimension#toString() public
+     * java.lang.String java.awt.Dimension.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,7 +215,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Dimension#getWidth() public double
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dimension#getWidth() public double
      * java.awt.Dimension.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

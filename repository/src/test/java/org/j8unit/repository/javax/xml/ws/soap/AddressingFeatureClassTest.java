@@ -23,8 +23,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AddressingFeature#AddressingFeature(boolean, boolean, Responses) public
-     * javax.xml.ws.soap.AddressingFeature(boolean,boolean,javax.xml.ws.soap.AddressingFeature$Responses)}.
+     * {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature(boolean, boolean, javax.xml.ws.soap.AddressingFeature.Responses)
+     * public javax.xml.ws.soap.AddressingFeature(boolean,boolean,javax.xml.ws.soap.AddressingFeature$Responses)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +40,14 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AddressingFeature sut = null; // = new AddressingFeature(boolean, boolean, Responses);
+        final AddressingFeature sut = null; // = new AddressingFeature(boolean, boolean,
+                                            // javax.xml.ws.soap.AddressingFeature.Responses);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AddressingFeature#AddressingFeature(boolean, boolean) public
+     * {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature(boolean, boolean) public
      * javax.xml.ws.soap.AddressingFeature(boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +69,9 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AddressingFeature#AddressingFeature(boolean)
-     * public javax.xml.ws.soap.AddressingFeature(boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature(boolean) public
+     * javax.xml.ws.soap.AddressingFeature(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,8 +92,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AddressingFeature#AddressingFeature() public
-     * javax.xml.ws.soap.AddressingFeature()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature() public javax.xml.ws.soap.AddressingFeature()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +126,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Responses#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.ws.soap.AddressingFeature.Responses#valueOf(String) public static
          * javax.xml.ws.soap.AddressingFeature$Responses
          * javax.xml.ws.soap.AddressingFeature$Responses.valueOf(java.lang.String)}.
          *
@@ -140,12 +143,13 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Responses#valueOf(String)}
+            // write some test for {@link javax.xml.ws.soap.AddressingFeature.Responses#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Responses#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.xml.ws.soap.AddressingFeature.Responses#values() public static
          * javax.xml.ws.soap.AddressingFeature$Responses[] javax.xml.ws.soap.AddressingFeature$Responses.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +164,7 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Responses#values()}
+            // write some test for {@link javax.xml.ws.soap.AddressingFeature.Responses#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.AddressingFeature$Responses]

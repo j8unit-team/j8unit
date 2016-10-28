@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLCollection#namedItem(String) public abstract
-     * org.w3c.dom.Node org.w3c.dom.html.HTMLCollection.namedItem(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLCollection#namedItem(String)
+     * public abstract org.w3c.dom.Node org.w3c.dom.html.HTMLCollection.namedItem(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLCollection#item(int) public abstract
-     * org.w3c.dom.Node org.w3c.dom.html.HTMLCollection.item(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLCollection#item(int) public
+     * abstract org.w3c.dom.Node org.w3c.dom.html.HTMLCollection.item(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLCollection#getLength() public abstract int
-     * org.w3c.dom.html.HTMLCollection.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLCollection#getLength() public
+     * abstract int org.w3c.dom.html.HTMLCollection.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

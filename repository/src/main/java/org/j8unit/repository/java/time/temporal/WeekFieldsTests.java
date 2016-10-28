@@ -34,29 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#weekOfYear() public
-     * java.time.temporal.TemporalField java.time.temporal.WeekFields.weekOfYear()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_weekOfYear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#dayOfWeek() public
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#dayOfWeek() public
      * java.time.temporal.TemporalField java.time.temporal.WeekFields.dayOfWeek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +56,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#getMinimalDaysInFirstWeek() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#weekOfYear() public
+     * java.time.temporal.TemporalField java.time.temporal.WeekFields.weekOfYear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_weekOfYear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.temporal.WeekFields#getMinimalDaysInFirstWeek() public int
      * java.time.temporal.WeekFields.getMinimalDaysInFirstWeek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#weekOfWeekBasedYear() public
-     * java.time.temporal.TemporalField java.time.temporal.WeekFields.weekOfWeekBasedYear()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#weekOfWeekBasedYear()
+     * public java.time.temporal.TemporalField java.time.temporal.WeekFields.weekOfWeekBasedYear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#getFirstDayOfWeek() public
-     * java.time.DayOfWeek java.time.temporal.WeekFields.getFirstDayOfWeek()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#getFirstDayOfWeek()
+     * public java.time.DayOfWeek java.time.temporal.WeekFields.getFirstDayOfWeek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,7 +145,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#weekOfMonth() public
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#weekOfMonth() public
      * java.time.temporal.TemporalField java.time.temporal.WeekFields.weekOfMonth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -166,8 +167,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#equals(Object) public boolean
-     * java.time.temporal.WeekFields.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#equals(Object) public
+     * boolean java.time.temporal.WeekFields.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,7 +190,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#hashCode() public int
      * java.time.temporal.WeekFields.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +213,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#toString() public java.lang.String
-     * java.time.temporal.WeekFields.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#toString() public
+     * java.lang.String java.time.temporal.WeekFields.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,7 +236,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WeekFields#weekBasedYear() public
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.WeekFields#weekBasedYear() public
      * java.time.temporal.TemporalField java.time.temporal.WeekFields.weekBasedYear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

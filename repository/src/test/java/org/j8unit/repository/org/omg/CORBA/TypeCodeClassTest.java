@@ -22,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.TypeCodeClassTests<TypeCode> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TypeCode#TypeCode() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.TypeCode#TypeCode() public
      * org.omg.CORBA.TypeCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.beans;
 
 import java.beans.Customizer;
-import java.beans.PropertyChangeListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Customizer#setObject(Object) public abstract void
-     * java.beans.Customizer.setObject(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Customizer#setObject(Object) public
+     * abstract void java.beans.Customizer.setObject(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Customizer#removePropertyChangeListener(PropertyChangeListener) public abstract void
+     * {@link java.beans.Customizer#removePropertyChangeListener(java.beans.PropertyChangeListener) public abstract void
      * java.beans.Customizer.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +81,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Customizer#addPropertyChangeListener(PropertyChangeListener) public abstract void
+     * {@link java.beans.Customizer#addPropertyChangeListener(java.beans.PropertyChangeListener) public abstract void
      * java.beans.Customizer.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

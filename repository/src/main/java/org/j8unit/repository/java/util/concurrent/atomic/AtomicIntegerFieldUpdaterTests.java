@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.concurrent.atomic;
 
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
-import java.util.function.IntBinaryOperator;
-import java.util.function.IntUnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#incrementAndGet(Object)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.incrementAndGet(T)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#incrementAndGet(Object) public int
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.incrementAndGet(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#set(Object, int) public
-     * abstract void java.util.concurrent.atomic.AtomicIntegerFieldUpdater.set(T,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#set(Object, int) public abstract void
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.set(T,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#getAndIncrement(Object)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndIncrement(T)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndIncrement(Object) public int
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndIncrement(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicIntegerFieldUpdater#weakCompareAndSet(Object, int, int) public abstract boolean
-     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.weakCompareAndSet(T,int,int)}.
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#weakCompareAndSet(Object, int, int) public abstract
+     * boolean java.util.concurrent.atomic.AtomicIntegerFieldUpdater.weakCompareAndSet(T,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +126,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#decrementAndGet(Object)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.decrementAndGet(T)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#decrementAndGet(Object) public int
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.decrementAndGet(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +150,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicIntegerFieldUpdater#updateAndGet(Object, IntUnaryOperator) public final int
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#updateAndGet(Object, java.util.function.IntUnaryOperator)
+     * public final int
      * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.updateAndGet(T,java.util.function.IntUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +173,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#get(Object) public
-     * abstract int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.get(T)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#get(Object) public abstract int
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.get(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +197,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicIntegerFieldUpdater#compareAndSet(Object, int, int) public abstract boolean
-     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.compareAndSet(T,int,int)}.
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#compareAndSet(Object, int, int) public abstract
+     * boolean java.util.concurrent.atomic.AtomicIntegerFieldUpdater.compareAndSet(T,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +219,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#addAndGet(Object, int)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.addAndGet(T,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#addAndGet(Object, int) public int
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.addAndGet(T,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,7 +243,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicIntegerFieldUpdater#getAndUpdate(Object, IntUnaryOperator) public final int
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndUpdate(Object, java.util.function.IntUnaryOperator)
+     * public final int
      * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndUpdate(T,java.util.function.IntUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,8 +266,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#getAndSet(Object, int)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndSet(T,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndSet(Object, int) public int
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndSet(T,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -282,8 +289,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#lazySet(Object, int)
-     * public abstract void java.util.concurrent.atomic.AtomicIntegerFieldUpdater.lazySet(T,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#lazySet(Object, int) public abstract void
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.lazySet(T,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,8 +312,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#getAndAdd(Object, int)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndAdd(T,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndAdd(Object, int) public int
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndAdd(T,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,7 +336,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicIntegerFieldUpdater#getAndAccumulate(Object, int, IntBinaryOperator) public final int
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndAccumulate(Object, int, java.util.function.IntBinaryOperator)
+     * public final int
      * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndAccumulate(T,int,java.util.function.IntBinaryOperator)}
      * .
      *
@@ -351,7 +361,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicIntegerFieldUpdater#accumulateAndGet(Object, int, IntBinaryOperator) public final int
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#accumulateAndGet(Object, int, java.util.function.IntBinaryOperator)
+     * public final int
      * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.accumulateAndGet(T,int,java.util.function.IntBinaryOperator)}
      * .
      *
@@ -374,8 +385,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicIntegerFieldUpdater#getAndDecrement(Object)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndDecrement(T)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndDecrement(Object) public int
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndDecrement(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.time.DateTimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeParseException#getErrorIndex() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeParseException#getErrorIndex() public int
      * java.time.format.DateTimeParseException.getErrorIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.time.DateTimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeParseException#getParsedString() public
-     * java.lang.String java.time.format.DateTimeParseException.getParsedString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeParseException#getParsedString() public java.lang.String
+     * java.time.format.DateTimeParseException.getParsedString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

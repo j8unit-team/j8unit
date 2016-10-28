@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Panel#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Panel#addNotify() public void
      * java.awt.Panel.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Panel#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Panel#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.Panel.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

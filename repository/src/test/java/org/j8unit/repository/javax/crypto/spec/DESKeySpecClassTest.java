@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.crypto.spec.DESKeySpecClassTests<DESKeySp
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DESKeySpec#DESKeySpec(byte[]) public
-     * javax.crypto.spec.DESKeySpec(byte[]) throws java.security.InvalidKeyException}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.crypto.spec.DESKeySpec#DESKeySpec(byte[])
+     * public javax.crypto.spec.DESKeySpec(byte[]) throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,9 @@ implements org.j8unit.repository.javax.crypto.spec.DESKeySpecClassTests<DESKeySp
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DESKeySpec#DESKeySpec(byte[], int) public
-     * javax.crypto.spec.DESKeySpec(byte[],int) throws java.security.InvalidKeyException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.crypto.spec.DESKeySpec#DESKeySpec(byte[], int) public javax.crypto.spec.DESKeySpec(byte[],int)
+     * throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,9 +66,9 @@ implements org.j8unit.repository.javax.crypto.spec.DESKeySpecClassTests<DESKeySp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DESKeySpec#isParityAdjusted(byte[], int) public
-     * static boolean javax.crypto.spec.DESKeySpec.isParityAdjusted(byte[],int) throws
-     * java.security.InvalidKeyException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.spec.DESKeySpec#isParityAdjusted(byte[], int) public static boolean
+     * javax.crypto.spec.DESKeySpec.isParityAdjusted(byte[],int) throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,13 +82,13 @@ implements org.j8unit.repository.javax.crypto.spec.DESKeySpecClassTests<DESKeySp
     @Category(Draft.class)
     public void test_isParityAdjusted_byteArray_int()
     throws Exception {
-        // write some test for {@link DESKeySpec#isParityAdjusted(byte[], int)}
+        // write some test for {@link javax.crypto.spec.DESKeySpec#isParityAdjusted(byte[], int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DESKeySpec#isWeak(byte[], int) public static boolean
-     * javax.crypto.spec.DESKeySpec.isWeak(byte[],int) throws java.security.InvalidKeyException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.DESKeySpec#isWeak(byte[], int)
+     * public static boolean javax.crypto.spec.DESKeySpec.isWeak(byte[],int) throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +102,7 @@ implements org.j8unit.repository.javax.crypto.spec.DESKeySpecClassTests<DESKeySp
     @Category(Draft.class)
     public void test_isWeak_byteArray_int()
     throws Exception {
-        // write some test for {@link DESKeySpec#isWeak(byte[], int)}
+        // write some test for {@link javax.crypto.spec.DESKeySpec#isWeak(byte[], int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DESKeySpec]

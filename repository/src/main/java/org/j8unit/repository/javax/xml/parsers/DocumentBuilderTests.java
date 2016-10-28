@@ -1,16 +1,11 @@
 package org.j8unit.repository.javax.xml.parsers;
 
-import java.io.File;
-import java.io.InputStream;
 import javax.xml.parsers.DocumentBuilder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.EntityResolver;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.InputSource;
 
 /**
  * <p>
@@ -39,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#setErrorHandler(ErrorHandler) public
-     * abstract void javax.xml.parsers.DocumentBuilder.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.DocumentBuilder#setErrorHandler(org.xml.sax.ErrorHandler) public abstract void
+     * javax.xml.parsers.DocumentBuilder.setErrorHandler(org.xml.sax.ErrorHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#getDOMImplementation() public
-     * abstract org.w3c.dom.DOMImplementation javax.xml.parsers.DocumentBuilder.getDOMImplementation()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.DocumentBuilder#getDOMImplementation() public abstract org.w3c.dom.DOMImplementation
+     * javax.xml.parsers.DocumentBuilder.getDOMImplementation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,30 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#newDocument() public abstract
-     * org.w3c.dom.Document javax.xml.parsers.DocumentBuilder.newDocument()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDocument()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#isXIncludeAware() public boolean
-     * javax.xml.parsers.DocumentBuilder.isXIncludeAware()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.DocumentBuilder#isXIncludeAware()
+     * public boolean javax.xml.parsers.DocumentBuilder.isXIncludeAware()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +102,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#reset() public void
-     * javax.xml.parsers.DocumentBuilder.reset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.DocumentBuilder#newDocument()
+     * public abstract org.w3c.dom.Document javax.xml.parsers.DocumentBuilder.newDocument()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newDocument()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.DocumentBuilder#reset() public
+     * void javax.xml.parsers.DocumentBuilder.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#isNamespaceAware() public abstract
-     * boolean javax.xml.parsers.DocumentBuilder.isNamespaceAware()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.DocumentBuilder#isNamespaceAware()
+     * public abstract boolean javax.xml.parsers.DocumentBuilder.isNamespaceAware()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +168,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#setEntityResolver(EntityResolver)
-     * public abstract void javax.xml.parsers.DocumentBuilder.setEntityResolver(org.xml.sax.EntityResolver)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.DocumentBuilder#setEntityResolver(org.xml.sax.EntityResolver) public abstract void
+     * javax.xml.parsers.DocumentBuilder.setEntityResolver(org.xml.sax.EntityResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,29 +191,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#isValidating() public abstract
-     * boolean javax.xml.parsers.DocumentBuilder.isValidating()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isValidating()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#getSchema() public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.DocumentBuilder#getSchema() public
      * javax.xml.validation.Schema javax.xml.parsers.DocumentBuilder.getSchema()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,9 +213,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#parse(InputStream) public
-     * org.w3c.dom.Document javax.xml.parsers.DocumentBuilder.parse(java.io.InputStream) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.DocumentBuilder#isValidating()
+     * public abstract boolean javax.xml.parsers.DocumentBuilder.isValidating()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValidating()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.DocumentBuilder#parse(java.io.InputStream) public org.w3c.dom.Document
+     * javax.xml.parsers.DocumentBuilder.parse(java.io.InputStream) throws org.xml.sax.SAXException,java.io.IOException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,8 +259,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#parse(InputStream, String) public
-     * org.w3c.dom.Document javax.xml.parsers.DocumentBuilder.parse(java.io.InputStream,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.DocumentBuilder#parse(java.io.InputStream, String) public org.w3c.dom.Document
+     * javax.xml.parsers.DocumentBuilder.parse(java.io.InputStream,java.lang.String) throws
      * org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -283,8 +283,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#parse(InputSource) public abstract
-     * org.w3c.dom.Document javax.xml.parsers.DocumentBuilder.parse(org.xml.sax.InputSource) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.DocumentBuilder#parse(org.xml.sax.InputSource) public abstract org.w3c.dom.Document
+     * javax.xml.parsers.DocumentBuilder.parse(org.xml.sax.InputSource) throws
      * org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -306,8 +307,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#parse(String) public
-     * org.w3c.dom.Document javax.xml.parsers.DocumentBuilder.parse(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.parsers.DocumentBuilder#parse(String)
+     * public org.w3c.dom.Document javax.xml.parsers.DocumentBuilder.parse(java.lang.String) throws
      * org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -329,9 +330,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentBuilder#parse(File) public
-     * org.w3c.dom.Document javax.xml.parsers.DocumentBuilder.parse(java.io.File) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.parsers.DocumentBuilder#parse(java.io.File) public org.w3c.dom.Document
+     * javax.xml.parsers.DocumentBuilder.parse(java.io.File) throws org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

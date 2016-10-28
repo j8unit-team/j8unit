@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.SocketPermission;
-import java.security.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketPermission#getActions() public
+     * Test method for the hereby targeted method-under-test {@link java.net.SocketPermission#getActions() public
      * java.lang.String java.net.SocketPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketPermission#implies(Permission) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.SocketPermission#implies(java.security.Permission) public boolean
      * java.net.SocketPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketPermission#equals(Object) public boolean
-     * java.net.SocketPermission.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.SocketPermission#equals(Object) public
+     * boolean java.net.SocketPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketPermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.SocketPermission#hashCode() public int
      * java.net.SocketPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +127,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketPermission#newPermissionCollection() public
-     * java.security.PermissionCollection java.net.SocketPermission.newPermissionCollection()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.SocketPermission#newPermissionCollection()
+     * public java.security.PermissionCollection java.net.SocketPermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

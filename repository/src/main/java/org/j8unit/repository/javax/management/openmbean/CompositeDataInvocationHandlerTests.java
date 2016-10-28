@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import java.lang.reflect.Method;
 import javax.management.openmbean.CompositeDataInvocationHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompositeDataInvocationHandler#invoke(Object, Method, Object[]) public java.lang.Object
+     * {@link javax.management.openmbean.CompositeDataInvocationHandler#invoke(Object, java.lang.reflect.Method, Object[])
+     * public java.lang.Object
      * javax.management.openmbean.CompositeDataInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])
      * throws java.lang.Throwable}.
      *
@@ -60,8 +60,9 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataInvocationHandler#getCompositeData()
-     * public javax.management.openmbean.CompositeData
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataInvocationHandler#getCompositeData() public
+     * javax.management.openmbean.CompositeData
      * javax.management.openmbean.CompositeDataInvocationHandler.getCompositeData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

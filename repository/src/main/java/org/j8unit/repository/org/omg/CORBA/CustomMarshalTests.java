@@ -7,8 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.CustomMarshal;
-import org.omg.CORBA.DataInputStream;
-import org.omg.CORBA.DataOutputStream;
 
 /**
  * <p>
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CustomMarshal#marshal(DataOutputStream) public
-     * abstract void org.omg.CORBA.CustomMarshal.marshal(org.omg.CORBA.DataOutputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.CustomMarshal#marshal(org.omg.CORBA.DataOutputStream) public abstract void
+     * org.omg.CORBA.CustomMarshal.marshal(org.omg.CORBA.DataOutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CustomMarshal#unmarshal(DataInputStream) public
-     * abstract void org.omg.CORBA.CustomMarshal.unmarshal(org.omg.CORBA.DataInputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.CustomMarshal#unmarshal(org.omg.CORBA.DataInputStream) public abstract void
+     * org.omg.CORBA.CustomMarshal.unmarshal(org.omg.CORBA.DataInputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

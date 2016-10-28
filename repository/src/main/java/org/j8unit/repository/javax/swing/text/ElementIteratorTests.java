@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementIterator#depth() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ElementIterator#depth() public int
      * javax.swing.text.ElementIterator.depth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementIterator#current() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ElementIterator#current() public
      * javax.swing.text.Element javax.swing.text.ElementIterator.current()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementIterator#next() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ElementIterator#next() public
      * javax.swing.text.Element javax.swing.text.ElementIterator.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementIterator#previous() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ElementIterator#previous() public
      * javax.swing.text.Element javax.swing.text.ElementIterator.previous()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementIterator#clone() public synchronized
-     * java.lang.Object javax.swing.text.ElementIterator.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ElementIterator#clone() public
+     * synchronized java.lang.Object javax.swing.text.ElementIterator.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementIterator#first() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ElementIterator#first() public
      * javax.swing.text.Element javax.swing.text.ElementIterator.first()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

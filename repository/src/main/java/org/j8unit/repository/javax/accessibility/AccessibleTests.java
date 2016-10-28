@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Accessible#getAccessibleContext() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.Accessible#getAccessibleContext() public abstract
      * javax.accessibility.AccessibleContext javax.accessibility.Accessible.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

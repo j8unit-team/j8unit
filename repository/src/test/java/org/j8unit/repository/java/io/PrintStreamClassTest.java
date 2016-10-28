@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.File;
-import java.io.OutputStream;
 import java.io.PrintStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.java.io.PrintStreamClassTests<PrintStream> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintStream#PrintStream(OutputStream) public
-     * java.io.PrintStream(java.io.OutputStream)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PrintStream#PrintStream(java.io.OutputStream) public java.io.PrintStream(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +38,14 @@ implements org.j8unit.repository.java.io.PrintStreamClassTests<PrintStream> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintStream sut = null; // = new PrintStream(OutputStream);
+        final PrintStream sut = null; // = new PrintStream(java.io.OutputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintStream#PrintStream(OutputStream, boolean)
-     * public java.io.PrintStream(java.io.OutputStream,boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PrintStream#PrintStream(java.io.OutputStream, boolean) public
+     * java.io.PrintStream(java.io.OutputStream,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,13 +61,13 @@ implements org.j8unit.repository.java.io.PrintStreamClassTests<PrintStream> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintStream sut = null; // = new PrintStream(OutputStream, boolean);
+        final PrintStream sut = null; // = new PrintStream(java.io.OutputStream, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrintStream#PrintStream(OutputStream, boolean, String) public
+     * {@link java.io.PrintStream#PrintStream(java.io.OutputStream, boolean, String) public
      * java.io.PrintStream(java.io.OutputStream,boolean,java.lang.String) throws java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,12 +84,12 @@ implements org.j8unit.repository.java.io.PrintStreamClassTests<PrintStream> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintStream sut = null; // = new PrintStream(OutputStream, boolean, String);
+        final PrintStream sut = null; // = new PrintStream(java.io.OutputStream, boolean, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintStream#PrintStream(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PrintStream#PrintStream(String) public
      * java.io.PrintStream(java.lang.String) throws java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,8 +111,8 @@ implements org.j8unit.repository.java.io.PrintStreamClassTests<PrintStream> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintStream#PrintStream(String, String) public
-     * java.io.PrintStream(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PrintStream#PrintStream(String, String)
+     * public java.io.PrintStream(java.lang.String,java.lang.String) throws
      * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,7 +134,8 @@ implements org.j8unit.repository.java.io.PrintStreamClassTests<PrintStream> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintStream#PrintStream(File, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PrintStream#PrintStream(java.io.File, String) public
      * java.io.PrintStream(java.io.File,java.lang.String) throws
      * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
      *
@@ -153,13 +153,13 @@ implements org.j8unit.repository.java.io.PrintStreamClassTests<PrintStream> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintStream sut = null; // = new PrintStream(File, String);
+        final PrintStream sut = null; // = new PrintStream(java.io.File, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintStream#PrintStream(File) public
-     * java.io.PrintStream(java.io.File) throws java.io.FileNotFoundException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PrintStream#PrintStream(java.io.File)
+     * public java.io.PrintStream(java.io.File) throws java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,7 +175,7 @@ implements org.j8unit.repository.java.io.PrintStreamClassTests<PrintStream> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintStream sut = null; // = new PrintStream(File);
+        final PrintStream sut = null; // = new PrintStream(java.io.File);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PrintStream]

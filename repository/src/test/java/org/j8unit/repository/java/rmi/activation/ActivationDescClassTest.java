@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.rmi.activation;
 
-import java.rmi.MarshalledObject;
 import java.rmi.activation.ActivationDesc;
-import java.rmi.activation.ActivationGroupID;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationDescClassTests<Ac
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationDesc#ActivationDesc(ActivationGroupID, String, String, MarshalledObject, boolean) public
+     * {@link java.rmi.activation.ActivationDesc#ActivationDesc(java.rmi.activation.ActivationGroupID, String, String, java.rmi.MarshalledObject, boolean)
+     * public
      * java.rmi.activation.ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject
      * <?>,boolean)}.
      *
@@ -42,14 +41,15 @@ implements org.j8unit.repository.java.rmi.activation.ActivationDescClassTests<Ac
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ActivationDesc sut = null; // = new ActivationDesc(ActivationGroupID, String, String, MarshalledObject,
-                                         // boolean);
+        final ActivationDesc sut = null; // = new ActivationDesc(java.rmi.activation.ActivationGroupID, String, String,
+                                         // java.rmi.MarshalledObject, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationDesc#ActivationDesc(ActivationGroupID, String, String, MarshalledObject) public
+     * {@link java.rmi.activation.ActivationDesc#ActivationDesc(java.rmi.activation.ActivationGroupID, String, String, java.rmi.MarshalledObject)
+     * public
      * java.rmi.activation.ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject
      * <?>)}.
      *
@@ -67,15 +67,16 @@ implements org.j8unit.repository.java.rmi.activation.ActivationDescClassTests<Ac
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ActivationDesc sut = null; // = new ActivationDesc(ActivationGroupID, String, String, MarshalledObject);
+        final ActivationDesc sut = null; // = new ActivationDesc(java.rmi.activation.ActivationGroupID, String, String,
+                                         // java.rmi.MarshalledObject);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationDesc#ActivationDesc(String, String, MarshalledObject, boolean) public
-     * java.rmi.activation.ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject<?>,boolean) throws
-     * java.rmi.activation.ActivationException}.
+     * {@link java.rmi.activation.ActivationDesc#ActivationDesc(String, String, java.rmi.MarshalledObject, boolean)
+     * public java.rmi.activation.ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject<?>,boolean)
+     * throws java.rmi.activation.ActivationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -91,13 +92,13 @@ implements org.j8unit.repository.java.rmi.activation.ActivationDescClassTests<Ac
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ActivationDesc sut = null; // = new ActivationDesc(String, String, MarshalledObject, boolean);
+        final ActivationDesc sut = null; // = new ActivationDesc(String, String, java.rmi.MarshalledObject, boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationDesc#ActivationDesc(String, String, MarshalledObject) public
+     * {@link java.rmi.activation.ActivationDesc#ActivationDesc(String, String, java.rmi.MarshalledObject) public
      * java.rmi.activation.ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject<?>) throws
      * java.rmi.activation.ActivationException}.
      *
@@ -115,7 +116,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivationDescClassTests<Ac
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ActivationDesc sut = null; // = new ActivationDesc(String, String, MarshalledObject);
+        final ActivationDesc sut = null; // = new ActivationDesc(String, String, java.rmi.MarshalledObject);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationDesc]

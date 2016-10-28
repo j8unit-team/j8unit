@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.element.ExecutableElement;
-import javax.lang.model.element.PackageElement;
-import javax.lang.model.element.TypeElement;
-import javax.lang.model.element.TypeParameterElement;
-import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.ElementKindVisitor6;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,8 +35,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitTypeAsClass(TypeElement, Object) public R
-     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsClass(javax.lang.model.element.TypeElement,P)}.
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsClass(javax.lang.model.element.TypeElement, Object)
+     * public R javax.lang.model.util.ElementKindVisitor6.visitTypeAsClass(javax.lang.model.element.TypeElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +58,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitVariableAsField(VariableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsField(javax.lang.model.element.VariableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitVariableAsField(javax.lang.model.element.VariableElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,7 +82,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitExecutableAsConstructor(ExecutableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsConstructor(javax.lang.model.element.ExecutableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsConstructor(javax.lang.model.element.ExecutableElement,P)}
      * .
      *
@@ -110,7 +107,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitTypeAsAnnotationType(TypeElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsAnnotationType(javax.lang.model.element.TypeElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitTypeAsAnnotationType(javax.lang.model.element.TypeElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,8 +131,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitPackage(PackageElement, Object) public R
-     * javax.lang.model.util.ElementKindVisitor6.visitPackage(javax.lang.model.element.PackageElement,P)}.
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitPackage(javax.lang.model.element.PackageElement, Object)
+     * public R javax.lang.model.util.ElementKindVisitor6.visitPackage(javax.lang.model.element.PackageElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,8 +155,9 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitExecutable(ExecutableElement, Object) public R
-     * javax.lang.model.util.ElementKindVisitor6.visitExecutable(javax.lang.model.element.ExecutableElement,P)}.
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutable(javax.lang.model.element.ExecutableElement, Object)
+     * public R javax.lang.model.util.ElementKindVisitor6.visitExecutable(javax.lang.model.element.ExecutableElement,P)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,31 +180,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitVariable(VariableElement, Object) public R
-     * javax.lang.model.util.ElementKindVisitor6.visitVariable(javax.lang.model.element.VariableElement,P)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_visitVariable_VariableElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitVariableAsLocalVariable(VariableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsLocalVariable(javax.lang.model.element.VariableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitVariableAsLocalVariable(javax.lang.model.element.VariableElement,P)}
      * .
      *
@@ -229,7 +205,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitTypeParameter(TypeParameterElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeParameter(javax.lang.model.element.TypeParameterElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitTypeParameter(javax.lang.model.element.TypeParameterElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -253,7 +230,32 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitVariableAsExceptionParameter(VariableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariable(javax.lang.model.element.VariableElement, Object)
+     * public R javax.lang.model.util.ElementKindVisitor6.visitVariable(javax.lang.model.element.VariableElement,P)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_visitVariable_VariableElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsExceptionParameter(javax.lang.model.element.VariableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitVariableAsExceptionParameter(javax.lang.model.element.VariableElement,P)}
      * .
      *
@@ -277,8 +279,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitTypeAsInterface(TypeElement, Object) public R
-     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsInterface(javax.lang.model.element.TypeElement,P)}.
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsInterface(javax.lang.model.element.TypeElement, Object)
+     * public R javax.lang.model.util.ElementKindVisitor6.visitTypeAsInterface(javax.lang.model.element.TypeElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,7 +302,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitExecutableAsMethod(ExecutableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsMethod(javax.lang.model.element.ExecutableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsMethod(javax.lang.model.element.ExecutableElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -323,8 +326,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitTypeAsEnum(TypeElement, Object) public R
-     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsEnum(javax.lang.model.element.TypeElement,P)}.
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsEnum(javax.lang.model.element.TypeElement, Object)
+     * public R javax.lang.model.util.ElementKindVisitor6.visitTypeAsEnum(javax.lang.model.element.TypeElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,7 +349,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitVariableAsResourceVariable(VariableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsResourceVariable(javax.lang.model.element.VariableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitVariableAsResourceVariable(javax.lang.model.element.VariableElement,P)}
      * .
      *
@@ -370,7 +374,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitExecutableAsInstanceInit(ExecutableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsInstanceInit(javax.lang.model.element.ExecutableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsInstanceInit(javax.lang.model.element.ExecutableElement,P)}
      * .
      *
@@ -393,8 +398,9 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ElementKindVisitor6#visitType(TypeElement, Object)
-     * public R javax.lang.model.util.ElementKindVisitor6.visitType(javax.lang.model.element.TypeElement,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitType(javax.lang.model.element.TypeElement, Object) public R
+     * javax.lang.model.util.ElementKindVisitor6.visitType(javax.lang.model.element.TypeElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -417,7 +423,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitExecutableAsStaticInit(ExecutableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsStaticInit(javax.lang.model.element.ExecutableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsStaticInit(javax.lang.model.element.ExecutableElement,P)}
      * .
      *
@@ -441,7 +448,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitVariableAsParameter(VariableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsParameter(javax.lang.model.element.VariableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitVariableAsParameter(javax.lang.model.element.VariableElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -464,7 +472,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ElementKindVisitor6#visitVariableAsEnumConstant(VariableElement, Object) public R
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsEnumConstant(javax.lang.model.element.VariableElement, Object)
+     * public R
      * javax.lang.model.util.ElementKindVisitor6.visitVariableAsEnumConstant(javax.lang.model.element.VariableElement,P)}
      * .
      *

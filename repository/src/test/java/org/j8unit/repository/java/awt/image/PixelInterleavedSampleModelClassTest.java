@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.image.PixelInterleavedSampleModelClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PixelInterleavedSampleModel#PixelInterleavedSampleModel(int, int, int, int, int, int[]) public
-     * java.awt.image.PixelInterleavedSampleModel(int,int,int,int,int,int[])}.
+     * {@link java.awt.image.PixelInterleavedSampleModel#PixelInterleavedSampleModel(int, int, int, int, int, int[])
+     * public java.awt.image.PixelInterleavedSampleModel(int,int,int,int,int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

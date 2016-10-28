@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.dnd.DragSourceDragEvent;
-import java.awt.dnd.DragSourceDropEvent;
-import java.awt.dnd.DragSourceEvent;
 import java.awt.dnd.DragSourceListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceListener#dragExit(DragSourceEvent) public
-     * abstract void java.awt.dnd.DragSourceListener.dragExit(java.awt.dnd.DragSourceEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceListener#dragExit(java.awt.dnd.DragSourceEvent) public abstract void
+     * java.awt.dnd.DragSourceListener.dragExit(java.awt.dnd.DragSourceEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceListener#dragDropEnd(DragSourceDropEvent)
-     * public abstract void java.awt.dnd.DragSourceListener.dragDropEnd(java.awt.dnd.DragSourceDropEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceListener#dragDropEnd(java.awt.dnd.DragSourceDropEvent) public abstract void
+     * java.awt.dnd.DragSourceListener.dragDropEnd(java.awt.dnd.DragSourceDropEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +81,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragSourceListener#dropActionChanged(DragSourceDragEvent) public abstract void
+     * {@link java.awt.dnd.DragSourceListener#dropActionChanged(java.awt.dnd.DragSourceDragEvent) public abstract void
      * java.awt.dnd.DragSourceListener.dropActionChanged(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceListener#dragOver(DragSourceDragEvent)
-     * public abstract void java.awt.dnd.DragSourceListener.dragOver(java.awt.dnd.DragSourceDragEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceListener#dragOver(java.awt.dnd.DragSourceDragEvent) public abstract void
+     * java.awt.dnd.DragSourceListener.dragOver(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceListener#dragEnter(DragSourceDragEvent)
-     * public abstract void java.awt.dnd.DragSourceListener.dragEnter(java.awt.dnd.DragSourceDragEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceListener#dragEnter(java.awt.dnd.DragSourceDragEvent) public abstract void
+     * java.awt.dnd.DragSourceListener.dragEnter(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

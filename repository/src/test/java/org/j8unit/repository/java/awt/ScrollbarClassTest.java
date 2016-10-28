@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.ScrollbarClassTests<Scrollbar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Scrollbar#Scrollbar(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Scrollbar#Scrollbar(int) public
      * java.awt.Scrollbar(int) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.awt.ScrollbarClassTests<Scrollbar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Scrollbar#Scrollbar() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Scrollbar#Scrollbar() public
      * java.awt.Scrollbar() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,8 +64,9 @@ implements org.j8unit.repository.java.awt.ScrollbarClassTests<Scrollbar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Scrollbar#Scrollbar(int, int, int, int, int)
-     * public java.awt.Scrollbar(int,int,int,int,int) throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Scrollbar#Scrollbar(int, int, int, int, int) public java.awt.Scrollbar(int,int,int,int,int)
+     * throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

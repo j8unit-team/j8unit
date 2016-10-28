@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
 import javax.swing.text.TabSet;
-import javax.swing.text.TabStop;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.TabSetClassTests<TabSet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TabSet#TabSet(TabStop[]) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.TabSet#TabSet(javax.swing.text.TabStop[]) public
      * javax.swing.text.TabSet(javax.swing.text.TabStop[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.TabSetClassTests<TabSet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TabSet sut = null; // = new TabSet(TabStop[]);
+        final TabSet sut = null; // = new TabSet(javax.swing.text.TabStop[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TabSet]

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PersistentMBean#load() public abstract void
-     * javax.management.PersistentMBean.load() throws
+     * Test method for the hereby targeted method-under-test {@link javax.management.PersistentMBean#load() public
+     * abstract void javax.management.PersistentMBean.load() throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}
      * .
      *
@@ -59,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PersistentMBean#store() public abstract void
-     * javax.management.PersistentMBean.store() throws
+     * Test method for the hereby targeted method-under-test {@link javax.management.PersistentMBean#store() public
+     * abstract void javax.management.PersistentMBean.store() throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}
      * .
      *

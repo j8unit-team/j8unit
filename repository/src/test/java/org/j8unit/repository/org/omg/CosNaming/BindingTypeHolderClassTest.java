@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.BindingType;
 import org.omg.CosNaming.BindingTypeHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingTypeHolderClassTests<B
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BindingTypeHolder#BindingTypeHolder() public
-     * org.omg.CosNaming.BindingTypeHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.BindingTypeHolder#BindingTypeHolder() public org.omg.CosNaming.BindingTypeHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingTypeHolderClassTests<B
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BindingTypeHolder#BindingTypeHolder(BindingType) public
+     * {@link org.omg.CosNaming.BindingTypeHolder#BindingTypeHolder(org.omg.CosNaming.BindingType) public
      * org.omg.CosNaming.BindingTypeHolder(org.omg.CosNaming.BindingType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingTypeHolderClassTests<B
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BindingTypeHolder sut = null; // = new BindingTypeHolder(BindingType);
+        final BindingTypeHolder sut = null; // = new BindingTypeHolder(org.omg.CosNaming.BindingType);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingTypeHolder]

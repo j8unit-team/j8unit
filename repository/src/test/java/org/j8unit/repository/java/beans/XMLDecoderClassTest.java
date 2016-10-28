@@ -1,15 +1,12 @@
 package org.j8unit.repository.java.beans;
 
-import java.beans.ExceptionListener;
 import java.beans.XMLDecoder;
-import java.io.InputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.xml.sax.InputSource;
 
 @RunWith(J8Unit4.class)
 public class XMLDecoderClassTest
@@ -24,7 +21,8 @@ implements org.j8unit.repository.java.beans.XMLDecoderClassTests<XMLDecoder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLDecoder#XMLDecoder(InputSource) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.XMLDecoder#XMLDecoder(org.xml.sax.InputSource) public
      * java.beans.XMLDecoder(org.xml.sax.InputSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,14 @@ implements org.j8unit.repository.java.beans.XMLDecoderClassTests<XMLDecoder> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XMLDecoder sut = null; // = new XMLDecoder(InputSource);
+        final XMLDecoder sut = null; // = new XMLDecoder(org.xml.sax.InputSource);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XMLDecoder#XMLDecoder(InputStream, Object, ExceptionListener, ClassLoader) public
+     * {@link java.beans.XMLDecoder#XMLDecoder(java.io.InputStream, Object, java.beans.ExceptionListener, ClassLoader)
+     * public
      * java.beans.XMLDecoder(java.io.InputStream,java.lang.Object,java.beans.ExceptionListener,java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +63,14 @@ implements org.j8unit.repository.java.beans.XMLDecoderClassTests<XMLDecoder> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XMLDecoder sut = null; // = new XMLDecoder(InputStream, Object, ExceptionListener, ClassLoader);
+        final XMLDecoder sut = null; // = new XMLDecoder(java.io.InputStream, Object, java.beans.ExceptionListener,
+                                     // ClassLoader);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLDecoder#XMLDecoder(InputStream) public
-     * java.beans.XMLDecoder(java.io.InputStream)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.XMLDecoder#XMLDecoder(java.io.InputStream) public java.beans.XMLDecoder(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,13 +86,14 @@ implements org.j8unit.repository.java.beans.XMLDecoderClassTests<XMLDecoder> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XMLDecoder sut = null; // = new XMLDecoder(InputStream);
+        final XMLDecoder sut = null; // = new XMLDecoder(java.io.InputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLDecoder#XMLDecoder(InputStream, Object)
-     * public java.beans.XMLDecoder(java.io.InputStream,java.lang.Object)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.XMLDecoder#XMLDecoder(java.io.InputStream, Object) public
+     * java.beans.XMLDecoder(java.io.InputStream,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,13 +109,13 @@ implements org.j8unit.repository.java.beans.XMLDecoderClassTests<XMLDecoder> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XMLDecoder sut = null; // = new XMLDecoder(InputStream, Object);
+        final XMLDecoder sut = null; // = new XMLDecoder(java.io.InputStream, Object);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XMLDecoder#XMLDecoder(InputStream, Object, ExceptionListener) public
+     * {@link java.beans.XMLDecoder#XMLDecoder(java.io.InputStream, Object, java.beans.ExceptionListener) public
      * java.beans.XMLDecoder(java.io.InputStream,java.lang.Object,java.beans.ExceptionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,13 +132,13 @@ implements org.j8unit.repository.java.beans.XMLDecoderClassTests<XMLDecoder> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final XMLDecoder sut = null; // = new XMLDecoder(InputStream, Object, ExceptionListener);
+        final XMLDecoder sut = null; // = new XMLDecoder(java.io.InputStream, Object, java.beans.ExceptionListener);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLDecoder#createHandler(Object, ExceptionListener, ClassLoader) public static
+     * {@link java.beans.XMLDecoder#createHandler(Object, java.beans.ExceptionListener, ClassLoader) public static
      * org.xml.sax.helpers.DefaultHandler
      * java.beans.XMLDecoder.createHandler(java.lang.Object,java.beans.ExceptionListener,java.lang.ClassLoader)}.
      *
@@ -153,7 +154,8 @@ implements org.j8unit.repository.java.beans.XMLDecoderClassTests<XMLDecoder> {
     @Category(Draft.class)
     public void test_createHandler_Object_ExceptionListener_ClassLoader()
     throws Exception {
-        // write some test for {@link XMLDecoder#createHandler(Object, ExceptionListener, ClassLoader)}
+        // write some test for {@link java.beans.XMLDecoder#createHandler(Object, java.beans.ExceptionListener,
+        // ClassLoader)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.XMLDecoder]

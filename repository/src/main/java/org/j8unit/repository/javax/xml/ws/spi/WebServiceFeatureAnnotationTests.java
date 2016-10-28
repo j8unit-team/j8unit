@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceFeatureAnnotation#bean() public abstract
-     * java.lang.Class<? extends javax.xml.ws.WebServiceFeature> javax.xml.ws.spi.WebServiceFeatureAnnotation.bean()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.WebServiceFeatureAnnotation#bean()
+     * public abstract java.lang.Class<? extends javax.xml.ws.WebServiceFeature>
+     * javax.xml.ws.spi.WebServiceFeatureAnnotation.bean()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceFeatureAnnotation#id() public abstract
-     * java.lang.String javax.xml.ws.spi.WebServiceFeatureAnnotation.id()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.WebServiceFeatureAnnotation#id()
+     * public abstract java.lang.String javax.xml.ws.spi.WebServiceFeatureAnnotation.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLType#getVendor() public abstract java.lang.String
-     * java.sql.SQLType.getVendor()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLType#getVendor() public abstract
+     * java.lang.String java.sql.SQLType.getVendor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLType#getName() public abstract java.lang.String
-     * java.sql.SQLType.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLType#getName() public abstract
+     * java.lang.String java.sql.SQLType.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLType#getVendorTypeNumber() public abstract
-     * java.lang.Integer java.sql.SQLType.getVendorTypeNumber()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLType#getVendorTypeNumber() public
+     * abstract java.lang.Integer java.sql.SQLType.getVendorTypeNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

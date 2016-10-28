@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.nio.channels.spi;
 
-import java.nio.channels.Selector;
 import java.nio.channels.spi.AbstractSelectableChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.nio.channels.SelectableChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSelectableChannel#blockingLock() public
-     * final java.lang.Object java.nio.channels.spi.AbstractSelectableChannel.blockingLock()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.AbstractSelectableChannel#blockingLock() public final java.lang.Object
+     * java.nio.channels.spi.AbstractSelectableChannel.blockingLock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +58,10 @@ extends org.j8unit.repository.java.nio.channels.SelectableChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSelectableChannel#configureBlocking(boolean)
-     * public final java.nio.channels.SelectableChannel
-     * java.nio.channels.spi.AbstractSelectableChannel.configureBlocking(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.AbstractSelectableChannel#configureBlocking(boolean) public final
+     * java.nio.channels.SelectableChannel java.nio.channels.spi.AbstractSelectableChannel.configureBlocking(boolean)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +84,8 @@ extends org.j8unit.repository.java.nio.channels.SelectableChannelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractSelectableChannel#register(Selector, int, Object) public final java.nio.channels.SelectionKey
+     * {@link java.nio.channels.spi.AbstractSelectableChannel#register(java.nio.channels.Selector, int, Object) public
+     * final java.nio.channels.SelectionKey
      * java.nio.channels.spi.AbstractSelectableChannel.register(java.nio.channels.Selector,int,java.lang.Object) throws
      * java.nio.channels.ClosedChannelException}.
      *
@@ -107,8 +109,9 @@ extends org.j8unit.repository.java.nio.channels.SelectableChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSelectableChannel#isRegistered() public
-     * final boolean java.nio.channels.spi.AbstractSelectableChannel.isRegistered()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.AbstractSelectableChannel#isRegistered() public final boolean
+     * java.nio.channels.spi.AbstractSelectableChannel.isRegistered()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,7 +133,8 @@ extends org.j8unit.repository.java.nio.channels.SelectableChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSelectableChannel#provider() public final
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.AbstractSelectableChannel#provider() public final
      * java.nio.channels.spi.SelectorProvider java.nio.channels.spi.AbstractSelectableChannel.provider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,8 +157,9 @@ extends org.j8unit.repository.java.nio.channels.SelectableChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSelectableChannel#isBlocking() public final
-     * boolean java.nio.channels.spi.AbstractSelectableChannel.isBlocking()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.AbstractSelectableChannel#isBlocking() public final boolean
+     * java.nio.channels.spi.AbstractSelectableChannel.isBlocking()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,8 +181,9 @@ extends org.j8unit.repository.java.nio.channels.SelectableChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSelectableChannel#keyFor(Selector) public
-     * final java.nio.channels.SelectionKey
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.spi.AbstractSelectableChannel#keyFor(java.nio.channels.Selector) public final
+     * java.nio.channels.SelectionKey
      * java.nio.channels.spi.AbstractSelectableChannel.keyFor(java.nio.channels.Selector)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

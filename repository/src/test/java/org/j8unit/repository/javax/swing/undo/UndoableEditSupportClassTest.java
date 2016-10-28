@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.swing.undo.UndoableEditSupportClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UndoableEditSupport#UndoableEditSupport()
-     * public javax.swing.undo.UndoableEditSupport()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.undo.UndoableEditSupport#UndoableEditSupport() public javax.swing.undo.UndoableEditSupport()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,9 @@ implements org.j8unit.repository.javax.swing.undo.UndoableEditSupportClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UndoableEditSupport#UndoableEditSupport(Object)
-     * public javax.swing.undo.UndoableEditSupport(java.lang.Object)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.undo.UndoableEditSupport#UndoableEditSupport(Object) public
+     * javax.swing.undo.UndoableEditSupport(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

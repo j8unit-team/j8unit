@@ -1,9 +1,5 @@
 package org.j8unit.repository.java.awt.dnd.peer;
 
-import java.awt.Cursor;
-import java.awt.Image;
-import java.awt.Point;
-import java.awt.dnd.DragSourceContext;
 import java.awt.dnd.peer.DragSourceContextPeer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -40,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragSourceContextPeer#startDrag(DragSourceContext, Cursor, Image, Point) public abstract void
+     * {@link java.awt.dnd.peer.DragSourceContextPeer#startDrag(java.awt.dnd.DragSourceContext, java.awt.Cursor, java.awt.Image, java.awt.Point)
+     * public abstract void
      * java.awt.dnd.peer.DragSourceContextPeer.startDrag(java.awt.dnd.DragSourceContext,java.awt.Cursor,java.awt.Image,java.awt.Point)
      * throws java.awt.dnd.InvalidDnDOperationException}.
      *
@@ -63,8 +60,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContextPeer#setCursor(Cursor) public
-     * abstract void java.awt.dnd.peer.DragSourceContextPeer.setCursor(java.awt.Cursor) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DragSourceContextPeer#setCursor(java.awt.Cursor) public abstract void
+     * java.awt.dnd.peer.DragSourceContextPeer.setCursor(java.awt.Cursor) throws
      * java.awt.dnd.InvalidDnDOperationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,8 +84,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContextPeer#transferablesFlavorsChanged()
-     * public abstract void java.awt.dnd.peer.DragSourceContextPeer.transferablesFlavorsChanged()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DragSourceContextPeer#transferablesFlavorsChanged() public abstract void
+     * java.awt.dnd.peer.DragSourceContextPeer.transferablesFlavorsChanged()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +107,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContextPeer#getCursor() public abstract
-     * java.awt.Cursor java.awt.dnd.peer.DragSourceContextPeer.getCursor()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.peer.DragSourceContextPeer#getCursor()
+     * public abstract java.awt.Cursor java.awt.dnd.peer.DragSourceContextPeer.getCursor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

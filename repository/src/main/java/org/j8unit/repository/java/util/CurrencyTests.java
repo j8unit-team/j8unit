@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.Currency;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Currency#toString() public java.lang.String
-     * java.util.Currency.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Currency#toString() public
+     * java.lang.String java.util.Currency.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Currency#getNumericCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.Currency#getNumericCode() public int
      * java.util.Currency.getNumericCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,30 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Currency#getSymbol(Locale) public java.lang.String
-     * java.util.Currency.getSymbol(java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSymbol_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Currency#getSymbol() public java.lang.String
-     * java.util.Currency.getSymbol()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Currency#getSymbol() public
+     * java.lang.String java.util.Currency.getSymbol()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +101,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Currency#getDefaultFractionDigits() public int
-     * java.util.Currency.getDefaultFractionDigits()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Currency#getSymbol(java.util.Locale)
+     * public java.lang.String java.util.Currency.getSymbol(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSymbol_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Currency#getDefaultFractionDigits() public
+     * int java.util.Currency.getDefaultFractionDigits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +145,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Currency#getCurrencyCode() public java.lang.String
-     * java.util.Currency.getCurrencyCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Currency#getCurrencyCode() public
+     * java.lang.String java.util.Currency.getCurrencyCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +167,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Currency#getDisplayName() public java.lang.String
-     * java.util.Currency.getDisplayName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Currency#getDisplayName() public
+     * java.lang.String java.util.Currency.getDisplayName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +189,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Currency#getDisplayName(Locale) public
-     * java.lang.String java.util.Currency.getDisplayName(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Currency#getDisplayName(java.util.Locale)
+     * public java.lang.String java.util.Currency.getDisplayName(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

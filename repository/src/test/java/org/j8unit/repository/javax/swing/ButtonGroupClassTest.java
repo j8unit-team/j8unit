@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.ButtonGroupClassTests<ButtonGroup> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ButtonGroup#ButtonGroup() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.ButtonGroup#ButtonGroup() public
      * javax.swing.ButtonGroup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.security.KeyStore;
-import javax.net.ssl.ManagerFactoryParameters;
 import javax.net.ssl.TrustManagerFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustManagerFactory#getAlgorithm() public final
-     * java.lang.String javax.net.ssl.TrustManagerFactory.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.TrustManagerFactory#getAlgorithm()
+     * public final java.lang.String javax.net.ssl.TrustManagerFactory.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustManagerFactory#init(ManagerFactoryParameters)
-     * public final void javax.net.ssl.TrustManagerFactory.init(javax.net.ssl.ManagerFactoryParameters) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.TrustManagerFactory#init(javax.net.ssl.ManagerFactoryParameters) public final void
+     * javax.net.ssl.TrustManagerFactory.init(javax.net.ssl.ManagerFactoryParameters) throws
      * java.security.InvalidAlgorithmParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustManagerFactory#init(KeyStore) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.TrustManagerFactory#init(java.security.KeyStore) public final void
      * javax.net.ssl.TrustManagerFactory.init(java.security.KeyStore) throws java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustManagerFactory#getProvider() public final
-     * java.security.Provider javax.net.ssl.TrustManagerFactory.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.TrustManagerFactory#getProvider()
+     * public final java.security.Provider javax.net.ssl.TrustManagerFactory.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TrustManagerFactory#getTrustManagers() public final
-     * javax.net.ssl.TrustManager[] javax.net.ssl.TrustManagerFactory.getTrustManagers()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.TrustManagerFactory#getTrustManagers()
+     * public final javax.net.ssl.TrustManager[] javax.net.ssl.TrustManagerFactory.getTrustManagers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

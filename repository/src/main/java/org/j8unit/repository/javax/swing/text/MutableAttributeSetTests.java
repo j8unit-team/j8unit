@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.util.Enumeration;
-import javax.swing.text.AttributeSet;
 import javax.swing.text.MutableAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,30 +34,9 @@ extends org.j8unit.repository.javax.swing.text.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableAttributeSet#setResolveParent(AttributeSet)
-     * public abstract void javax.swing.text.MutableAttributeSet.setResolveParent(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setResolveParent_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableAttributeSet#removeAttribute(Object) public
-     * abstract void javax.swing.text.MutableAttributeSet.removeAttribute(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MutableAttributeSet#removeAttribute(Object) public abstract void
+     * javax.swing.text.MutableAttributeSet.removeAttribute(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +57,9 @@ extends org.j8unit.repository.javax.swing.text.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableAttributeSet#removeAttributes(AttributeSet)
-     * public abstract void javax.swing.text.MutableAttributeSet.removeAttributes(javax.swing.text.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MutableAttributeSet#setResolveParent(javax.swing.text.AttributeSet) public abstract void
+     * javax.swing.text.MutableAttributeSet.setResolveParent(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -93,7 +71,7 @@ extends org.j8unit.repository.javax.swing.text.AttributeSetTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeAttributes_AttributeSet()
+    public default void test_setResolveParent_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -102,8 +80,9 @@ extends org.j8unit.repository.javax.swing.text.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableAttributeSet#removeAttributes(Enumeration)
-     * public abstract void javax.swing.text.MutableAttributeSet.removeAttributes(java.util.Enumeration<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MutableAttributeSet#removeAttributes(java.util.Enumeration) public abstract void
+     * javax.swing.text.MutableAttributeSet.removeAttributes(java.util.Enumeration<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +103,32 @@ extends org.j8unit.repository.javax.swing.text.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableAttributeSet#addAttribute(Object, Object)
-     * public abstract void javax.swing.text.MutableAttributeSet.addAttribute(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MutableAttributeSet#removeAttributes(javax.swing.text.AttributeSet) public abstract void
+     * javax.swing.text.MutableAttributeSet.removeAttributes(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAttributes_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MutableAttributeSet#addAttribute(Object, Object) public abstract void
+     * javax.swing.text.MutableAttributeSet.addAttribute(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +149,9 @@ extends org.j8unit.repository.javax.swing.text.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MutableAttributeSet#addAttributes(AttributeSet)
-     * public abstract void javax.swing.text.MutableAttributeSet.addAttributes(javax.swing.text.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MutableAttributeSet#addAttributes(javax.swing.text.AttributeSet) public abstract void
+     * javax.swing.text.MutableAttributeSet.addAttributes(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing.text.html;
 
 import static org.junit.Assert.fail;
-import javax.swing.text.AbstractDocument.Content;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.Element;
 import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTMLDocument.BlockElement;
 import javax.swing.text.html.HTMLDocument.HTMLReader;
@@ -18,7 +15,6 @@ import javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction;
 import javax.swing.text.html.HTMLDocument.HTMLReader.TagAction;
 import javax.swing.text.html.HTMLDocument.Iterator;
 import javax.swing.text.html.HTMLDocument.RunElement;
-import javax.swing.text.html.StyleSheet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -39,7 +35,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HTMLDocument#HTMLDocument(Content, StyleSheet)
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.AbstractDocument.Content, javax.swing.text.html.StyleSheet)
      * public
      * javax.swing.text.html.HTMLDocument(javax.swing.text.AbstractDocument$Content,javax.swing.text.html.StyleSheet)}.
      *
@@ -57,12 +54,14 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HTMLDocument sut = null; // = new HTMLDocument(Content, StyleSheet);
+        final HTMLDocument sut = null; // = new HTMLDocument(javax.swing.text.AbstractDocument.Content,
+                                       // javax.swing.text.html.StyleSheet);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HTMLDocument#HTMLDocument(StyleSheet) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.html.StyleSheet) public
      * javax.swing.text.html.HTMLDocument(javax.swing.text.html.StyleSheet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,13 +78,13 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HTMLDocument sut = null; // = new HTMLDocument(StyleSheet);
+        final HTMLDocument sut = null; // = new HTMLDocument(javax.swing.text.html.StyleSheet);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HTMLDocument#HTMLDocument() public
-     * javax.swing.text.html.HTMLDocument()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.HTMLDocument#HTMLDocument() public javax.swing.text.html.HTMLDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,45 +105,6 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument]
 
     @RunWith(J8Unit4.class)
-    public static class RunElementClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.RunElementClassTests<RunElement> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$RunElement]
-
-        @Override
-        public Class<RunElement> createNewSUT() {
-            return RunElement.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link RunElement#RunElement(HTMLDocument, Element, AttributeSet, int, int) public
-         * javax.swing.text.html.HTMLDocument$RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_RunElement_HTMLDocument_Element_AttributeSet_int_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final RunElement sut = null; // = new RunElement(HTMLDocument, Element, AttributeSet, int, int);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$RunElement]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class HTMLReaderClassTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests<HTMLReader> {
 
@@ -158,7 +118,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link HTMLReader#HTMLReader(HTMLDocument, int, int, int, Tag) public
+         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int, int, int, javax.swing.text.html.HTML.Tag)
+         * public
          * javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML$Tag)}
          * .
          *
@@ -176,12 +137,14 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final HTMLReader sut = null; // = new HTMLReader(HTMLDocument, int, int, int, Tag);
+            final HTMLReader sut = null; // = new HTMLReader(javax.swing.text.html.HTMLDocument, int, int, int,
+                                         // javax.swing.text.html.HTML.Tag);
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link HTMLReader#HTMLReader(HTMLDocument, int)
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument, int)
          * public javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,86 +161,10 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final HTMLReader sut = null; // = new HTMLReader(HTMLDocument, int);
+            final HTMLReader sut = null; // = new HTMLReader(javax.swing.text.html.HTMLDocument, int);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader]
-
-        @RunWith(J8Unit4.class)
-        public static class BlockActionClassTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<BlockAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
-
-            @Override
-            public Class<BlockAction> createNewSUT() {
-                return BlockAction.class;
-            }
-
-            /**
-             * <p>
-             * Test method for the hereby targeted constructor-under-test {@link BlockAction#BlockAction(HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
-             * .
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @since 0.9.0
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public void create_BlockAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final BlockAction sut = null; // = new BlockAction(HTMLReader);
-            }
-
-            // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class PreActionClassTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.PreActionClassTests<PreAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
-
-            @Override
-            public Class<PreAction> createNewSUT() {
-                return PreAction.class;
-            }
-
-            /**
-             * <p>
-             * Test method for the hereby targeted constructor-under-test {@link PreAction#PreAction(HTMLReader) public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$PreAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @since 0.9.0
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public void create_PreAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final PreAction sut = null; // = new PreAction(HTMLReader);
-            }
-
-            // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
-
-        }
 
         @RunWith(J8Unit4.class)
         public static class HiddenActionClassTest
@@ -292,7 +179,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
 
             /**
              * <p>
-             * Test method for the hereby targeted constructor-under-test {@link HiddenAction#HiddenAction(HTMLReader)
+             * Test method for the hereby targeted constructor-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction#HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
@@ -311,10 +199,90 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
             throws Exception {
                 // create new instance
                 @SuppressWarnings("unused")
-                final HiddenAction sut = null; // = new HiddenAction(HTMLReader);
+                final HiddenAction sut = null; // = new HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
             // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
+
+        }
+
+        @RunWith(J8Unit4.class)
+        public static class PreActionClassTest
+        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.PreActionClassTests<PreAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
+
+            @Override
+            public Class<PreAction> createNewSUT() {
+                return PreAction.class;
+            }
+
+            /**
+             * <p>
+             * Test method for the hereby targeted constructor-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#PreAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * public
+             * javax.swing.text.html.HTMLDocument$HTMLReader$PreAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @since 0.9.0
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Test
+            @Category(Draft.class)
+            public void create_PreAction_HTMLReader()
+            throws Exception {
+                // create new instance
+                @SuppressWarnings("unused")
+                final PreAction sut = null; // = new PreAction(javax.swing.text.html.HTMLDocument.HTMLReader);
+            }
+
+            // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
+
+        }
+
+        @RunWith(J8Unit4.class)
+        public static class ParagraphActionClassTest
+        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.ParagraphActionClassTests<ParagraphAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+
+            @Override
+            public Class<ParagraphAction> createNewSUT() {
+                return ParagraphAction.class;
+            }
+
+            /**
+             * <p>
+             * Test method for the hereby targeted constructor-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction#ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * public
+             * javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
+             * .
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @since 0.9.0
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Test
+            @Category(Draft.class)
+            public void create_ParagraphAction_HTMLReader()
+            throws Exception {
+                // create new instance
+                @SuppressWarnings("unused")
+                final ParagraphAction sut = null; // = new
+                                                  // ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader);
+            }
+
+            // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
 
         }
 
@@ -331,7 +299,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
 
             /**
              * <p>
-             * Test method for the hereby targeted constructor-under-test {@link SpecialAction#SpecialAction(HTMLReader)
+             * Test method for the hereby targeted constructor-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction#SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
@@ -350,7 +319,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
             throws Exception {
                 // create new instance
                 @SuppressWarnings("unused")
-                final SpecialAction sut = null; // = new SpecialAction(HTMLReader);
+                final SpecialAction sut = null; // = new SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
             // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
@@ -371,7 +340,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
             /**
              * <p>
              * Test method for the hereby targeted constructor-under-test
-             * {@link CharacterAction#CharacterAction(HTMLReader) public
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#CharacterAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
              *
@@ -389,10 +359,50 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
             throws Exception {
                 // create new instance
                 @SuppressWarnings("unused")
-                final CharacterAction sut = null; // = new CharacterAction(HTMLReader);
+                final CharacterAction sut = null; // = new
+                                                  // CharacterAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
             // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
+
+        }
+
+        @RunWith(J8Unit4.class)
+        public static class FormActionClassTest
+        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.FormActionClassTests<FormAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
+
+            @Override
+            public Class<FormAction> createNewSUT() {
+                return FormAction.class;
+            }
+
+            /**
+             * <p>
+             * Test method for the hereby targeted constructor-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.FormAction#FormAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * public
+             * javax.swing.text.html.HTMLDocument$HTMLReader$FormAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @since 0.9.0
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Test
+            @Category(Draft.class)
+            public void create_FormAction_HTMLReader()
+            throws Exception {
+                // create new instance
+                @SuppressWarnings("unused")
+                final FormAction sut = null; // = new FormAction(javax.swing.text.html.HTMLDocument.HTMLReader);
+            }
+
+            // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
 
         }
 
@@ -409,7 +419,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
 
             /**
              * <p>
-             * Test method for the hereby targeted constructor-under-test {@link IsindexAction#IsindexAction(HTMLReader)
+             * Test method for the hereby targeted constructor-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction#IsindexAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
@@ -428,7 +439,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
             throws Exception {
                 // create new instance
                 @SuppressWarnings("unused")
-                final IsindexAction sut = null; // = new IsindexAction(HTMLReader);
+                final IsindexAction sut = null; // = new IsindexAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
             // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
@@ -436,21 +447,22 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
         }
 
         @RunWith(J8Unit4.class)
-        public static class ParagraphActionClassTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.ParagraphActionClassTests<ParagraphAction> {
+        public static class BlockActionClassTest
+        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<BlockAction> {
 
-            // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+            // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
 
             @Override
-            public Class<ParagraphAction> createNewSUT() {
-                return ParagraphAction.class;
+            public Class<BlockAction> createNewSUT() {
+                return BlockAction.class;
             }
 
             /**
              * <p>
              * Test method for the hereby targeted constructor-under-test
-             * {@link ParagraphAction#ParagraphAction(HTMLReader) public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * public
+             * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
              *
              * Up to now, there is no real implementation of this test method. But with your help at
@@ -463,52 +475,14 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
             @Category(Draft.class)
-            public void create_ParagraphAction_HTMLReader()
+            public void create_BlockAction_HTMLReader()
             throws Exception {
                 // create new instance
                 @SuppressWarnings("unused")
-                final ParagraphAction sut = null; // = new ParagraphAction(HTMLReader);
+                final BlockAction sut = null; // = new BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
-            // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class FormActionClassTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.FormActionClassTests<FormAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
-
-            @Override
-            public Class<FormAction> createNewSUT() {
-                return FormAction.class;
-            }
-
-            /**
-             * <p>
-             * Test method for the hereby targeted constructor-under-test {@link FormAction#FormAction(HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$FormAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @since 0.9.0
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public void create_FormAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final FormAction sut = null; // = new FormAction(HTMLReader);
-            }
-
-            // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
+            // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
 
         }
 
@@ -525,7 +499,9 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
 
             /**
              * <p>
-             * Test method for the hereby targeted constructor-under-test {@link TagAction#TagAction(HTMLReader) public
+             * Test method for the hereby targeted constructor-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#TagAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * public
              * javax.swing.text.html.HTMLDocument$HTMLReader$TagAction(javax.swing.text.html.HTMLDocument$HTMLReader)}.
              *
              * Up to now, there is no real implementation of this test method. But with your help at
@@ -542,7 +518,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
             throws Exception {
                 // create new instance
                 @SuppressWarnings("unused")
-                final TagAction sut = null; // = new TagAction(HTMLReader);
+                final TagAction sut = null; // = new TagAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
             // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
@@ -565,7 +541,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link BlockElement#BlockElement(HTMLDocument, Element, AttributeSet) public
+         * {@link javax.swing.text.html.HTMLDocument.BlockElement#BlockElement(javax.swing.text.html.HTMLDocument, javax.swing.text.Element, javax.swing.text.AttributeSet)
+         * public
          * javax.swing.text.html.HTMLDocument$BlockElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet)}
          * .
          *
@@ -583,7 +560,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final BlockElement sut = null; // = new BlockElement(HTMLDocument, Element, AttributeSet);
+            final BlockElement sut = null; // = new BlockElement(javax.swing.text.html.HTMLDocument,
+                                           // javax.swing.text.Element, javax.swing.text.AttributeSet);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$BlockElement]
@@ -603,7 +581,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Iterator#Iterator() public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.html.HTMLDocument.Iterator#Iterator() public
          * javax.swing.text.html.HTMLDocument$Iterator()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -622,6 +601,47 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests<HT
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$Iterator]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class RunElementClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.RunElementClassTests<RunElement> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$RunElement]
+
+        @Override
+        public Class<RunElement> createNewSUT() {
+            return RunElement.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.html.HTMLDocument.RunElement#RunElement(javax.swing.text.html.HTMLDocument, javax.swing.text.Element, javax.swing.text.AttributeSet, int, int)
+         * public
+         * javax.swing.text.html.HTMLDocument$RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_RunElement_HTMLDocument_Element_AttributeSet_int_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final RunElement sut = null; // = new RunElement(javax.swing.text.html.HTMLDocument,
+                                         // javax.swing.text.Element, javax.swing.text.AttributeSet, int, int);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLDocument$RunElement]
 
     }
 

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.type.NoType;
-import javax.lang.model.type.PrimitiveType;
 import javax.lang.model.util.TypeKindVisitor6;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitPrimitiveAsDouble(PrimitiveType, Object) public R
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsDouble(javax.lang.model.type.PrimitiveType,P)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsDouble(javax.lang.model.type.PrimitiveType, Object)
+     * public R javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsDouble(javax.lang.model.type.PrimitiveType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeKindVisitor6#visitNoTypeAsVoid(NoType, Object)
-     * public R javax.lang.model.util.TypeKindVisitor6.visitNoTypeAsVoid(javax.lang.model.type.NoType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoTypeAsVoid(javax.lang.model.type.NoType, Object) public R
+     * javax.lang.model.util.TypeKindVisitor6.visitNoTypeAsVoid(javax.lang.model.type.NoType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitPrimitiveAsBoolean(PrimitiveType, Object) public R
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsBoolean(javax.lang.model.type.PrimitiveType,P)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsBoolean(javax.lang.model.type.PrimitiveType, Object)
+     * public R javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsBoolean(javax.lang.model.type.PrimitiveType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +104,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitPrimitiveAsFloat(PrimitiveType, Object) public R
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsFloat(javax.lang.model.type.PrimitiveType,P)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsFloat(javax.lang.model.type.PrimitiveType, Object)
+     * public R javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsFloat(javax.lang.model.type.PrimitiveType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +127,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitPrimitiveAsShort(PrimitiveType, Object) public R
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsShort(javax.lang.model.type.PrimitiveType,P)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsShort(javax.lang.model.type.PrimitiveType, Object)
+     * public R javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsShort(javax.lang.model.type.PrimitiveType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +150,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitPrimitiveAsByte(PrimitiveType, Object) public R
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsByte(javax.lang.model.type.PrimitiveType,P)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsByte(javax.lang.model.type.PrimitiveType, Object)
+     * public R javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsByte(javax.lang.model.type.PrimitiveType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +173,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitPrimitiveAsChar(PrimitiveType, Object) public R
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsChar(javax.lang.model.type.PrimitiveType,P)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsChar(javax.lang.model.type.PrimitiveType, Object)
+     * public R javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsChar(javax.lang.model.type.PrimitiveType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,8 +196,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitPrimitiveAsInt(PrimitiveType, Object) public R
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsInt(javax.lang.model.type.PrimitiveType,P)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsInt(javax.lang.model.type.PrimitiveType, Object)
+     * public R javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsInt(javax.lang.model.type.PrimitiveType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,8 +218,9 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeKindVisitor6#visitNoTypeAsNone(NoType, Object)
-     * public R javax.lang.model.util.TypeKindVisitor6.visitNoTypeAsNone(javax.lang.model.type.NoType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoTypeAsNone(javax.lang.model.type.NoType, Object) public R
+     * javax.lang.model.util.TypeKindVisitor6.visitNoTypeAsNone(javax.lang.model.type.NoType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,7 +242,7 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitNoTypeAsPackage(NoType, Object) public R
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoTypeAsPackage(javax.lang.model.type.NoType, Object) public R
      * javax.lang.model.util.TypeKindVisitor6.visitNoTypeAsPackage(javax.lang.model.type.NoType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -265,30 +265,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitPrimitiveAsLong(PrimitiveType, Object) public R
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsLong(javax.lang.model.type.PrimitiveType,P)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitPrimitiveAsLong_PrimitiveType_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeKindVisitor6#visitNoType(NoType, Object) public
-     * R javax.lang.model.util.TypeKindVisitor6.visitNoType(javax.lang.model.type.NoType,P)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoType(javax.lang.model.type.NoType, Object) public R
+     * javax.lang.model.util.TypeKindVisitor6.visitNoType(javax.lang.model.type.NoType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -311,8 +289,31 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeKindVisitor6#visitPrimitive(PrimitiveType, Object) public R
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitive(javax.lang.model.type.PrimitiveType,P)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsLong(javax.lang.model.type.PrimitiveType, Object)
+     * public R javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsLong(javax.lang.model.type.PrimitiveType,P)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitPrimitiveAsLong_PrimitiveType_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitive(javax.lang.model.type.PrimitiveType, Object) public
+     * R javax.lang.model.util.TypeKindVisitor6.visitPrimitive(javax.lang.model.type.PrimitiveType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

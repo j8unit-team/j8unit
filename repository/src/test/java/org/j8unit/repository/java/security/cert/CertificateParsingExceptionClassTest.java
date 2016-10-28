@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.cert.CertificateParsingExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateParsingException#CertificateParsingException(Throwable) public
+     * {@link java.security.cert.CertificateParsingException#CertificateParsingException(Throwable) public
      * java.security.cert.CertificateParsingException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.cert.CertificateParsingExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateParsingException#CertificateParsingException(String, Throwable) public
+     * {@link java.security.cert.CertificateParsingException#CertificateParsingException(String, Throwable) public
      * java.security.cert.CertificateParsingException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.security.cert.CertificateParsingExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateParsingException#CertificateParsingException(String) public
+     * {@link java.security.cert.CertificateParsingException#CertificateParsingException(String) public
      * java.security.cert.CertificateParsingException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.java.security.cert.CertificateParsingExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateParsingException#CertificateParsingException() public
+     * {@link java.security.cert.CertificateParsingException#CertificateParsingException() public
      * java.security.cert.CertificateParsingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

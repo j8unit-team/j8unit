@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.KeyFactory;
-import java.security.Provider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.security.KeyFactoryClassTests<KeyFactory> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyFactory#getInstance(String) public static
-     * java.security.KeyFactory java.security.KeyFactory.getInstance(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyFactory#getInstance(String) public
+     * static java.security.KeyFactory java.security.KeyFactory.getInstance(java.lang.String) throws
      * java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,14 +37,15 @@ implements org.j8unit.repository.java.security.KeyFactoryClassTests<KeyFactory> 
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link KeyFactory#getInstance(String)}
+        // write some test for {@link java.security.KeyFactory#getInstance(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyFactory#getInstance(String, Provider) public
-     * static java.security.KeyFactory java.security.KeyFactory.getInstance(java.lang.String,java.security.Provider)
-     * throws java.security.NoSuchAlgorithmException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyFactory#getInstance(String, java.security.Provider) public static
+     * java.security.KeyFactory java.security.KeyFactory.getInstance(java.lang.String,java.security.Provider) throws
+     * java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,14 +59,14 @@ implements org.j8unit.repository.java.security.KeyFactoryClassTests<KeyFactory> 
     @Category(Draft.class)
     public void test_getInstance_String_Provider()
     throws Exception {
-        // write some test for {@link KeyFactory#getInstance(String, Provider)}
+        // write some test for {@link java.security.KeyFactory#getInstance(String, java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyFactory#getInstance(String, String) public static
-     * java.security.KeyFactory java.security.KeyFactory.getInstance(java.lang.String,java.lang.String) throws
-     * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyFactory#getInstance(String, String)
+     * public static java.security.KeyFactory java.security.KeyFactory.getInstance(java.lang.String,java.lang.String)
+     * throws java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ implements org.j8unit.repository.java.security.KeyFactoryClassTests<KeyFactory> 
     @Category(Draft.class)
     public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link KeyFactory#getInstance(String, String)}
+        // write some test for {@link java.security.KeyFactory#getInstance(String, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyFactory]

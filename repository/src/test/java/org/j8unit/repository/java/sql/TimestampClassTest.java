@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.sql;
 
 import java.sql.Timestamp;
-import java.time.Instant;
-import java.time.LocalDateTime;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.sql.TimestampClassTests<Timestamp> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Timestamp#Timestamp(int, int, int, int, int, int, int) public
+     * {@link java.sql.Timestamp#Timestamp(int, int, int, int, int, int, int) public
      * java.sql.Timestamp(int,int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +44,7 @@ implements org.j8unit.repository.java.sql.TimestampClassTests<Timestamp> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Timestamp#Timestamp(long) public
+     * Test method for the hereby targeted constructor-under-test {@link java.sql.Timestamp#Timestamp(long) public
      * java.sql.Timestamp(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +66,8 @@ implements org.j8unit.repository.java.sql.TimestampClassTests<Timestamp> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#valueOf(LocalDateTime) public static
-     * java.sql.Timestamp java.sql.Timestamp.valueOf(java.time.LocalDateTime)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#valueOf(java.time.LocalDateTime)
+     * public static java.sql.Timestamp java.sql.Timestamp.valueOf(java.time.LocalDateTime)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,12 +81,12 @@ implements org.j8unit.repository.java.sql.TimestampClassTests<Timestamp> {
     @Category(Draft.class)
     public void test_valueOf_LocalDateTime()
     throws Exception {
-        // write some test for {@link Timestamp#valueOf(LocalDateTime)}
+        // write some test for {@link java.sql.Timestamp#valueOf(java.time.LocalDateTime)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#valueOf(String) public static
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#valueOf(String) public static
      * java.sql.Timestamp java.sql.Timestamp.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,13 +101,13 @@ implements org.j8unit.repository.java.sql.TimestampClassTests<Timestamp> {
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link Timestamp#valueOf(String)}
+        // write some test for {@link java.sql.Timestamp#valueOf(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#from(Instant) public static
-     * java.sql.Timestamp java.sql.Timestamp.from(java.time.Instant)}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Timestamp#from(java.time.Instant) public
+     * static java.sql.Timestamp java.sql.Timestamp.from(java.time.Instant)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +121,7 @@ implements org.j8unit.repository.java.sql.TimestampClassTests<Timestamp> {
     @Category(Draft.class)
     public void test_from_Instant()
     throws Exception {
-        // write some test for {@link Timestamp#from(Instant)}
+        // write some test for {@link java.sql.Timestamp#from(java.time.Instant)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Timestamp]

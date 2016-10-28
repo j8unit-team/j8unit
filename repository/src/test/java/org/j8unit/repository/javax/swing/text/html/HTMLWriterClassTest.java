@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import java.io.Writer;
-import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTMLWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLWriterClassTests<HTML
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link HTMLWriter#HTMLWriter(Writer, HTMLDocument)
-     * public javax.swing.text.html.HTMLWriter(java.io.Writer,javax.swing.text.html.HTMLDocument)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.HTMLWriter#HTMLWriter(java.io.Writer, javax.swing.text.html.HTMLDocument) public
+     * javax.swing.text.html.HTMLWriter(java.io.Writer,javax.swing.text.html.HTMLDocument)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,14 +39,14 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLWriterClassTests<HTML
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HTMLWriter sut = null; // = new HTMLWriter(Writer, HTMLDocument);
+        final HTMLWriter sut = null; // = new HTMLWriter(java.io.Writer, javax.swing.text.html.HTMLDocument);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HTMLWriter#HTMLWriter(Writer, HTMLDocument, int, int) public
-     * javax.swing.text.html.HTMLWriter(java.io.Writer,javax.swing.text.html.HTMLDocument,int,int)}.
+     * {@link javax.swing.text.html.HTMLWriter#HTMLWriter(java.io.Writer, javax.swing.text.html.HTMLDocument, int, int)
+     * public javax.swing.text.html.HTMLWriter(java.io.Writer,javax.swing.text.html.HTMLDocument,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +62,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLWriterClassTests<HTML
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HTMLWriter sut = null; // = new HTMLWriter(Writer, HTMLDocument, int, int);
+        final HTMLWriter sut = null; // = new HTMLWriter(java.io.Writer, javax.swing.text.html.HTMLDocument, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLWriter]

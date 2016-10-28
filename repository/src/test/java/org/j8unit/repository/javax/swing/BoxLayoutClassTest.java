@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Container;
 import javax.swing.BoxLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.BoxLayoutClassTests<BoxLayout> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BoxLayout#BoxLayout(Container, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.BoxLayout#BoxLayout(java.awt.Container, int) public
      * javax.swing.BoxLayout(java.awt.Container,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.BoxLayoutClassTests<BoxLayout> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BoxLayout sut = null; // = new BoxLayout(Container, int);
+        final BoxLayout sut = null; // = new BoxLayout(java.awt.Container, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.BoxLayout]

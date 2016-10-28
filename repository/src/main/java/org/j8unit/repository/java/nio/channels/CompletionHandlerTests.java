@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionHandler#failed(Throwable, Object) public
-     * abstract void java.nio.channels.CompletionHandler.failed(java.lang.Throwable,A)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.CompletionHandler#failed(Throwable, Object) public abstract void
+     * java.nio.channels.CompletionHandler.failed(java.lang.Throwable,A)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompletionHandler#completed(Object, Object) public
-     * abstract void java.nio.channels.CompletionHandler.completed(V,A)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.CompletionHandler#completed(Object, Object) public abstract void
+     * java.nio.channels.CompletionHandler.completed(V,A)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

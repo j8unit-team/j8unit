@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.relation;
 
-import java.util.List;
 import javax.management.relation.RoleUnresolved;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.management.relation.RoleUnresolvedClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RoleUnresolved#RoleUnresolved(String, List, int) public
+     * {@link javax.management.relation.RoleUnresolved#RoleUnresolved(String, java.util.List, int) public
      * javax.management.relation.RoleUnresolved(java.lang.String,java.util.List<javax.management.ObjectName>,int) throws
      * java.lang.IllegalArgumentException}.
      *
@@ -41,7 +40,7 @@ implements org.j8unit.repository.javax.management.relation.RoleUnresolvedClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RoleUnresolved sut = null; // = new RoleUnresolved(String, List, int);
+        final RoleUnresolved sut = null; // = new RoleUnresolved(String, java.util.List, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleUnresolved]

@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#getRev() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLinkElement.getRev()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#getRev() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLLinkElement.getRev()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#setHreflang(String) public abstract
-     * void org.w3c.dom.html.HTMLLinkElement.setHreflang(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#setHreflang(String)
+     * public abstract void org.w3c.dom.html.HTMLLinkElement.setHreflang(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#setHref(String) public abstract void
-     * org.w3c.dom.html.HTMLLinkElement.setHref(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#setHref(String)
+     * public abstract void org.w3c.dom.html.HTMLLinkElement.setHref(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#setDisabled(boolean) public abstract
-     * void org.w3c.dom.html.HTMLLinkElement.setDisabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLLinkElement#setDisabled(boolean) public abstract void
+     * org.w3c.dom.html.HTMLLinkElement.setDisabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#setCharset(String) public abstract
-     * void org.w3c.dom.html.HTMLLinkElement.setCharset(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#setCharset(String)
+     * public abstract void org.w3c.dom.html.HTMLLinkElement.setCharset(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +145,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#getHref() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLinkElement.getHref()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#getHref() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLLinkElement.getHref()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +167,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#setRev(String) public abstract void
-     * org.w3c.dom.html.HTMLLinkElement.setRev(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#setRev(String)
+     * public abstract void org.w3c.dom.html.HTMLLinkElement.setRev(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +189,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#getMedia() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLinkElement.getMedia()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#getMedia() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLLinkElement.getMedia()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +211,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#getCharset() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLinkElement.getCharset()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#getCharset() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLLinkElement.getCharset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +233,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#setType(String) public abstract void
-     * org.w3c.dom.html.HTMLLinkElement.setType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#setType(String)
+     * public abstract void org.w3c.dom.html.HTMLLinkElement.setType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,8 +255,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#getRel() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLinkElement.getRel()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#getRel() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLLinkElement.getRel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,8 +277,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#getHreflang() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLinkElement.getHreflang()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#getHreflang()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLLinkElement.getHreflang()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,8 +299,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#setRel(String) public abstract void
-     * org.w3c.dom.html.HTMLLinkElement.setRel(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#setRel(String)
+     * public abstract void org.w3c.dom.html.HTMLLinkElement.setRel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -320,8 +321,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#getType() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLinkElement.getType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#getType() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLLinkElement.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -342,8 +343,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#getDisabled() public abstract
-     * boolean org.w3c.dom.html.HTMLLinkElement.getDisabled()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#getDisabled()
+     * public abstract boolean org.w3c.dom.html.HTMLLinkElement.getDisabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -364,8 +365,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#getTarget() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLLinkElement.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#getTarget() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLLinkElement.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -386,8 +387,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#setMedia(String) public abstract
-     * void org.w3c.dom.html.HTMLLinkElement.setMedia(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#setMedia(String)
+     * public abstract void org.w3c.dom.html.HTMLLinkElement.setMedia(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -408,8 +409,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLLinkElement#setTarget(String) public abstract
-     * void org.w3c.dom.html.HTMLLinkElement.setTarget(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLLinkElement#setTarget(String)
+     * public abstract void org.w3c.dom.html.HTMLLinkElement.setTarget(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

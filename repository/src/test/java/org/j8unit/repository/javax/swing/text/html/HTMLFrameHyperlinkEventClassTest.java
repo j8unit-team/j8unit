@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import java.awt.event.InputEvent;
-import java.net.URL;
-import javax.swing.event.HyperlinkEvent.EventType;
-import javax.swing.text.Element;
 import javax.swing.text.html.HTMLFrameHyperlinkEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -26,7 +22,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, EventType, URL, String, Element, InputEvent, String)
+     * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String, javax.swing.text.Element, java.awt.event.InputEvent, String)
      * public
      * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent,java.lang.String)}
      * .
@@ -45,14 +41,16 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object, EventType, URL, String,
-                                                  // Element, InputEvent, String);
+        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object,
+                                                  // javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String,
+                                                  // javax.swing.text.Element, java.awt.event.InputEvent, String);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, EventType, URL, String, Element, String) public
+     * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String, javax.swing.text.Element, String)
+     * public
      * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.lang.String)}
      * .
      *
@@ -70,14 +68,16 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object, EventType, URL, String,
-                                                  // Element, String);
+        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object,
+                                                  // javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String,
+                                                  // javax.swing.text.Element, String);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, EventType, URL, Element, String) public
+     * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, javax.swing.text.Element, String)
+     * public
      * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,javax.swing.text.Element,java.lang.String)}
      * .
      *
@@ -95,14 +95,16 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object, EventType, URL, Element,
-                                                  // String);
+        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object,
+                                                  // javax.swing.event.HyperlinkEvent.EventType, java.net.URL,
+                                                  // javax.swing.text.Element, String);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, EventType, URL, String, String) public
+     * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String, String)
+     * public
      * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,java.lang.String)}
      * .
      *
@@ -120,14 +122,16 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object, EventType, URL, String,
+        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object,
+                                                  // javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String,
                                                   // String);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, EventType, URL, String) public
+     * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String)
+     * public
      * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String)}
      * .
      *
@@ -145,7 +149,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object, EventType, URL, String);
+        final HTMLFrameHyperlinkEvent sut = null; // = new HTMLFrameHyperlinkEvent(Object,
+                                                  // javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLFrameHyperlinkEvent]

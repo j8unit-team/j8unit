@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.security.auth.login.FailedLoginExceptionC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FailedLoginException#FailedLoginException()
-     * public javax.security.auth.login.FailedLoginException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.login.FailedLoginException#FailedLoginException() public
+     * javax.security.auth.login.FailedLoginException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.security.auth.login.FailedLoginExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FailedLoginException#FailedLoginException(String) public
+     * {@link javax.security.auth.login.FailedLoginException#FailedLoginException(String) public
      * javax.security.auth.login.FailedLoginException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

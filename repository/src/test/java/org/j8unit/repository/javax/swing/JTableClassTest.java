@@ -1,12 +1,8 @@
 package org.j8unit.repository.javax.swing;
 
-import java.util.Vector;
 import javax.swing.JTable;
 import javax.swing.JTable.DropLocation;
 import javax.swing.JTable.PrintMode;
-import javax.swing.ListSelectionModel;
-import javax.swing.table.TableColumnModel;
-import javax.swing.table.TableModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -28,7 +24,8 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JTable#JTable(TableModel, TableColumnModel, ListSelectionModel) public
+     * {@link javax.swing.JTable#JTable(javax.swing.table.TableModel, javax.swing.table.TableColumnModel, javax.swing.ListSelectionModel)
+     * public
      * javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel)}
      * .
      *
@@ -46,12 +43,13 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTable sut = null; // = new JTable(TableModel, TableColumnModel, ListSelectionModel);
+        final JTable sut = null; // = new JTable(javax.swing.table.TableModel, javax.swing.table.TableColumnModel,
+                                 // javax.swing.ListSelectionModel);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTable#JTable(int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTable#JTable(int, int) public
      * javax.swing.JTable(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -73,7 +71,8 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTable#JTable(Vector, Vector) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTable#JTable(java.util.Vector, java.util.Vector) public
      * javax.swing.JTable(java.util.Vector,java.util.Vector)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,13 +89,13 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTable sut = null; // = new JTable(Vector, Vector);
+        final JTable sut = null; // = new JTable(java.util.Vector, java.util.Vector);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTable#JTable(Object[][], Object[]) public
-     * javax.swing.JTable(java.lang.Object[][],java.lang.Object[])}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTable#JTable(Object[][], Object[])
+     * public javax.swing.JTable(java.lang.Object[][],java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,7 +116,8 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTable#JTable() public javax.swing.JTable()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTable#JTable() public
+     * javax.swing.JTable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,7 +137,8 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTable#JTable(TableModel) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTable#JTable(javax.swing.table.TableModel) public
      * javax.swing.JTable(javax.swing.table.TableModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,13 +155,14 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTable sut = null; // = new JTable(TableModel);
+        final JTable sut = null; // = new JTable(javax.swing.table.TableModel);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTable#JTable(TableModel, TableColumnModel)
-     * public javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTable#JTable(javax.swing.table.TableModel, javax.swing.table.TableColumnModel) public
+     * javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,13 +178,14 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTable sut = null; // = new JTable(TableModel, TableColumnModel);
+        final JTable sut = null; // = new JTable(javax.swing.table.TableModel, javax.swing.table.TableColumnModel);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTable#createScrollPaneForTable(JTable) public
-     * static javax.swing.JScrollPane javax.swing.JTable.createScrollPaneForTable(javax.swing.JTable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTable#createScrollPaneForTable(javax.swing.JTable) public static javax.swing.JScrollPane
+     * javax.swing.JTable.createScrollPaneForTable(javax.swing.JTable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,7 +199,7 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
     @Category(Draft.class)
     public void test_createScrollPaneForTable_JTable()
     throws Exception {
-        // write some test for {@link JTable#createScrollPaneForTable(JTable)}
+        // write some test for {@link javax.swing.JTable#createScrollPaneForTable(javax.swing.JTable)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable]
@@ -214,8 +217,8 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PrintMode#valueOf(String) public static
-         * javax.swing.JTable$PrintMode javax.swing.JTable$PrintMode.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JTable.PrintMode#valueOf(String)
+         * public static javax.swing.JTable$PrintMode javax.swing.JTable$PrintMode.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -229,13 +232,13 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link PrintMode#valueOf(String)}
+            // write some test for {@link javax.swing.JTable.PrintMode#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PrintMode#values() public static
-         * javax.swing.JTable$PrintMode[] javax.swing.JTable$PrintMode.values()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JTable.PrintMode#values() public
+         * static javax.swing.JTable$PrintMode[] javax.swing.JTable$PrintMode.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -249,7 +252,7 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link PrintMode#values()}
+            // write some test for {@link javax.swing.JTable.PrintMode#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable$PrintMode]

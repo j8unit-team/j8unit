@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#toString() public java.lang.String
-     * java.security.Timestamp.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Timestamp#toString() public
+     * java.lang.String java.security.Timestamp.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#getTimestamp() public java.util.Date
-     * java.security.Timestamp.getTimestamp()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Timestamp#getTimestamp() public
+     * java.util.Date java.security.Timestamp.getTimestamp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.Timestamp#hashCode() public int
      * java.security.Timestamp.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#equals(Object) public boolean
-     * java.security.Timestamp.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Timestamp#equals(Object) public
+     * boolean java.security.Timestamp.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Timestamp#getSignerCertPath() public
+     * Test method for the hereby targeted method-under-test {@link java.security.Timestamp#getSignerCertPath() public
      * java.security.cert.CertPath java.security.Timestamp.getSignerCertPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

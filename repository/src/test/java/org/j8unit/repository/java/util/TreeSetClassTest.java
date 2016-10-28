@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.SortedSet;
 import java.util.TreeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,8 +22,8 @@ implements org.j8unit.repository.java.util.TreeSetClassTests<TreeSet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeSet#TreeSet(SortedSet) public
-     * java.util.TreeSet(java.util.SortedSet<E>)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeSet#TreeSet(java.util.SortedSet)
+     * public java.util.TreeSet(java.util.SortedSet<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,13 +39,13 @@ implements org.j8unit.repository.java.util.TreeSetClassTests<TreeSet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeSet sut = null; // = new TreeSet(SortedSet);
+        final TreeSet sut = null; // = new TreeSet(java.util.SortedSet);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeSet#TreeSet(Collection) public
-     * java.util.TreeSet(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeSet#TreeSet(java.util.Collection)
+     * public java.util.TreeSet(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,13 +61,13 @@ implements org.j8unit.repository.java.util.TreeSetClassTests<TreeSet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeSet sut = null; // = new TreeSet(Collection);
+        final TreeSet sut = null; // = new TreeSet(java.util.Collection);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeSet#TreeSet(Comparator) public
-     * java.util.TreeSet(java.util.Comparator<? super E>)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeSet#TreeSet(java.util.Comparator)
+     * public java.util.TreeSet(java.util.Comparator<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,12 +83,13 @@ implements org.j8unit.repository.java.util.TreeSetClassTests<TreeSet> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TreeSet sut = null; // = new TreeSet(Comparator);
+        final TreeSet sut = null; // = new TreeSet(java.util.Comparator);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TreeSet#TreeSet() public java.util.TreeSet()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeSet#TreeSet() public
+     * java.util.TreeSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

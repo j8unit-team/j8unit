@@ -1,23 +1,6 @@
 package org.j8unit.repository.java.sql;
 
-import java.io.InputStream;
-import java.io.Reader;
-import java.math.BigDecimal;
-import java.net.URL;
-import java.sql.Array;
-import java.sql.Blob;
-import java.sql.Clob;
-import java.sql.Date;
-import java.sql.NClob;
-import java.sql.Ref;
-import java.sql.RowId;
-import java.sql.SQLData;
 import java.sql.SQLOutput;
-import java.sql.SQLType;
-import java.sql.SQLXML;
-import java.sql.Struct;
-import java.sql.Time;
-import java.sql.Timestamp;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -52,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeTimestamp(Timestamp) public abstract
-     * void java.sql.SQLOutput.writeTimestamp(java.sql.Timestamp) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.SQLOutput#writeTimestamp(java.sql.Timestamp) public abstract void
+     * java.sql.SQLOutput.writeTimestamp(java.sql.Timestamp) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -74,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeLong(long) public abstract void
-     * java.sql.SQLOutput.writeLong(long) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeLong(long) public abstract
+     * void java.sql.SQLOutput.writeLong(long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -96,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeArray(Array) public abstract void
-     * java.sql.SQLOutput.writeArray(java.sql.Array) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeArray(java.sql.Array) public
+     * abstract void java.sql.SQLOutput.writeArray(java.sql.Array) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -118,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeDouble(double) public abstract void
-     * java.sql.SQLOutput.writeDouble(double) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeDouble(double) public
+     * abstract void java.sql.SQLOutput.writeDouble(double) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeClob(Clob) public abstract void
-     * java.sql.SQLOutput.writeClob(java.sql.Clob) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeClob(java.sql.Clob) public
+     * abstract void java.sql.SQLOutput.writeClob(java.sql.Clob) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeSQLXML(SQLXML) public abstract void
-     * java.sql.SQLOutput.writeSQLXML(java.sql.SQLXML) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeSQLXML(java.sql.SQLXML)
+     * public abstract void java.sql.SQLOutput.writeSQLXML(java.sql.SQLXML) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -184,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeRef(Ref) public abstract void
-     * java.sql.SQLOutput.writeRef(java.sql.Ref) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeRef(java.sql.Ref) public
+     * abstract void java.sql.SQLOutput.writeRef(java.sql.Ref) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -206,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeNString(String) public abstract void
-     * java.sql.SQLOutput.writeNString(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeNString(String) public
+     * abstract void java.sql.SQLOutput.writeNString(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -228,8 +212,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeDate(Date) public abstract void
-     * java.sql.SQLOutput.writeDate(java.sql.Date) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeDate(java.sql.Date) public
+     * abstract void java.sql.SQLOutput.writeDate(java.sql.Date) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -250,8 +234,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeBigDecimal(BigDecimal) public
-     * abstract void java.sql.SQLOutput.writeBigDecimal(java.math.BigDecimal) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.SQLOutput#writeBigDecimal(java.math.BigDecimal) public abstract void
+     * java.sql.SQLOutput.writeBigDecimal(java.math.BigDecimal) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -272,8 +257,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeCharacterStream(Reader) public
-     * abstract void java.sql.SQLOutput.writeCharacterStream(java.io.Reader) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.SQLOutput#writeCharacterStream(java.io.Reader) public abstract void
+     * java.sql.SQLOutput.writeCharacterStream(java.io.Reader) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -294,8 +280,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeFloat(float) public abstract void
-     * java.sql.SQLOutput.writeFloat(float) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeFloat(float) public abstract
+     * void java.sql.SQLOutput.writeFloat(float) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -316,8 +302,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeBytes(byte[]) public abstract void
-     * java.sql.SQLOutput.writeBytes(byte[]) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeBytes(byte[]) public
+     * abstract void java.sql.SQLOutput.writeBytes(byte[]) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -338,8 +324,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeShort(short) public abstract void
-     * java.sql.SQLOutput.writeShort(short) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeShort(short) public abstract
+     * void java.sql.SQLOutput.writeShort(short) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -360,8 +346,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeStruct(Struct) public abstract void
-     * java.sql.SQLOutput.writeStruct(java.sql.Struct) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeStruct(java.sql.Struct)
+     * public abstract void java.sql.SQLOutput.writeStruct(java.sql.Struct) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -382,8 +368,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeBlob(Blob) public abstract void
-     * java.sql.SQLOutput.writeBlob(java.sql.Blob) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeBlob(java.sql.Blob) public
+     * abstract void java.sql.SQLOutput.writeBlob(java.sql.Blob) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -404,8 +390,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeBoolean(boolean) public abstract void
-     * java.sql.SQLOutput.writeBoolean(boolean) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeBoolean(boolean) public
+     * abstract void java.sql.SQLOutput.writeBoolean(boolean) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -426,8 +412,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeString(String) public abstract void
-     * java.sql.SQLOutput.writeString(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeString(String) public
+     * abstract void java.sql.SQLOutput.writeString(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -448,8 +434,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeBinaryStream(InputStream) public
-     * abstract void java.sql.SQLOutput.writeBinaryStream(java.io.InputStream) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.SQLOutput#writeBinaryStream(java.io.InputStream) public abstract void
+     * java.sql.SQLOutput.writeBinaryStream(java.io.InputStream) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -470,8 +457,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeByte(byte) public abstract void
-     * java.sql.SQLOutput.writeByte(byte) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeByte(byte) public abstract
+     * void java.sql.SQLOutput.writeByte(byte) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -492,8 +479,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeTime(Time) public abstract void
-     * java.sql.SQLOutput.writeTime(java.sql.Time) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeTime(java.sql.Time) public
+     * abstract void java.sql.SQLOutput.writeTime(java.sql.Time) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -514,8 +501,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeURL(URL) public abstract void
-     * java.sql.SQLOutput.writeURL(java.net.URL) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeURL(java.net.URL) public
+     * abstract void java.sql.SQLOutput.writeURL(java.net.URL) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -536,8 +523,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeInt(int) public abstract void
-     * java.sql.SQLOutput.writeInt(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeInt(int) public abstract
+     * void java.sql.SQLOutput.writeInt(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -558,8 +545,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeObject(SQLData) public abstract void
-     * java.sql.SQLOutput.writeObject(java.sql.SQLData) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeObject(java.sql.SQLData)
+     * public abstract void java.sql.SQLOutput.writeObject(java.sql.SQLData) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -580,8 +567,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeObject(Object, SQLType) public
-     * default void java.sql.SQLOutput.writeObject(java.lang.Object,java.sql.SQLType) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.SQLOutput#writeObject(Object, java.sql.SQLType) public default void
+     * java.sql.SQLOutput.writeObject(java.lang.Object,java.sql.SQLType) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -602,8 +590,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeNClob(NClob) public abstract void
-     * java.sql.SQLOutput.writeNClob(java.sql.NClob) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeNClob(java.sql.NClob) public
+     * abstract void java.sql.SQLOutput.writeNClob(java.sql.NClob) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -624,8 +612,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeRowId(RowId) public abstract void
-     * java.sql.SQLOutput.writeRowId(java.sql.RowId) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLOutput#writeRowId(java.sql.RowId) public
+     * abstract void java.sql.SQLOutput.writeRowId(java.sql.RowId) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -646,8 +634,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutput#writeAsciiStream(InputStream) public
-     * abstract void java.sql.SQLOutput.writeAsciiStream(java.io.InputStream) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.SQLOutput#writeAsciiStream(java.io.InputStream) public abstract void
+     * java.sql.SQLOutput.writeAsciiStream(java.io.InputStream) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

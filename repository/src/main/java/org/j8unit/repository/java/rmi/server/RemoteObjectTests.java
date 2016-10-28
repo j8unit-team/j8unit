@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteObject#toString() public java.lang.String
-     * java.rmi.server.RemoteObject.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteObject#toString() public
+     * java.lang.String java.rmi.server.RemoteObject.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteObject#getRef() public
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteObject#getRef() public
      * java.rmi.server.RemoteRef java.rmi.server.RemoteObject.getRef()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteObject#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteObject#hashCode() public int
      * java.rmi.server.RemoteObject.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RemoteObject#equals(Object) public boolean
-     * java.rmi.server.RemoteObject.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.RemoteObject#equals(Object) public
+     * boolean java.rmi.server.RemoteObject.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

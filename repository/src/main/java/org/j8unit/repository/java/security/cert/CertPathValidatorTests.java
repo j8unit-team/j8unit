@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.cert.CertPath;
-import java.security.cert.CertPathParameters;
 import java.security.cert.CertPathValidator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getProvider() public final
-     * java.security.Provider java.security.cert.CertPathValidator.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPathValidator#getProvider()
+     * public final java.security.Provider java.security.cert.CertPathValidator.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CertPathValidator#validate(CertPath, CertPathParameters) public final
-     * java.security.cert.CertPathValidatorResult
+     * {@link java.security.cert.CertPathValidator#validate(java.security.cert.CertPath, java.security.cert.CertPathParameters)
+     * public final java.security.cert.CertPathValidatorResult
      * java.security.cert.CertPathValidator.validate(java.security.cert.CertPath,java.security.cert.CertPathParameters)
      * throws java.security.cert.CertPathValidatorException,java.security.InvalidAlgorithmParameterException}.
      *
@@ -83,8 +81,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getRevocationChecker() public
-     * final java.security.cert.CertPathChecker java.security.cert.CertPathValidator.getRevocationChecker()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidator#getRevocationChecker() public final
+     * java.security.cert.CertPathChecker java.security.cert.CertPathValidator.getRevocationChecker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +104,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getAlgorithm() public final
-     * java.lang.String java.security.cert.CertPathValidator.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPathValidator#getAlgorithm()
+     * public final java.lang.String java.security.cert.CertPathValidator.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.ByteArrayOutputStream;
-import java.io.OutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#size() public synchronized int
-     * java.io.ByteArrayOutputStream.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayOutputStream#size() public
+     * synchronized int java.io.ByteArrayOutputStream.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#toByteArray() public
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayOutputStream#toByteArray() public
      * synchronized byte[] java.io.ByteArrayOutputStream.toByteArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +78,9 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#writeTo(OutputStream) public
-     * synchronized void java.io.ByteArrayOutputStream.writeTo(java.io.OutputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.io.ByteArrayOutputStream#writeTo(java.io.OutputStream) public synchronized void
+     * java.io.ByteArrayOutputStream.writeTo(java.io.OutputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayOutputStream#close() public void
      * java.io.ByteArrayOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,9 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#write(byte[], int, int) public
-     * synchronized void java.io.ByteArrayOutputStream.write(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.io.ByteArrayOutputStream#write(byte[], int, int) public synchronized void
+     * java.io.ByteArrayOutputStream.write(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#write(int) public synchronized
-     * void java.io.ByteArrayOutputStream.write(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayOutputStream#write(int) public
+     * synchronized void java.io.ByteArrayOutputStream.write(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +171,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#reset() public synchronized
-     * void java.io.ByteArrayOutputStream.reset()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayOutputStream#reset() public
+     * synchronized void java.io.ByteArrayOutputStream.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +193,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#toString(int) public
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayOutputStream#toString(int) public
      * synchronized java.lang.String java.io.ByteArrayOutputStream.toString(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,8 +215,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#toString() public synchronized
-     * java.lang.String java.io.ByteArrayOutputStream.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayOutputStream#toString() public
+     * synchronized java.lang.String java.io.ByteArrayOutputStream.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +238,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteArrayOutputStream#toString(String) public
-     * synchronized java.lang.String java.io.ByteArrayOutputStream.toString(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.io.ByteArrayOutputStream#toString(String)
+     * public synchronized java.lang.String java.io.ByteArrayOutputStream.toString(java.lang.String) throws
      * java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

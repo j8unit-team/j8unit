@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.cert.CertificateExpiredExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateExpiredException#CertificateExpiredException() public
+     * {@link java.security.cert.CertificateExpiredException#CertificateExpiredException() public
      * java.security.cert.CertificateExpiredException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.security.cert.CertificateExpiredExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CertificateExpiredException#CertificateExpiredException(String) public
+     * {@link java.security.cert.CertificateExpiredException#CertificateExpiredException(String) public
      * java.security.cert.CertificateExpiredException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

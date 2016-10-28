@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.io.ByteArrayInputStreamClassTests<ByteArra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ByteArrayInputStream#ByteArrayInputStream(byte[]) public java.io.ByteArrayInputStream(byte[])}.
+     * {@link java.io.ByteArrayInputStream#ByteArrayInputStream(byte[]) public java.io.ByteArrayInputStream(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.io.ByteArrayInputStreamClassTests<ByteArra
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ByteArrayInputStream#ByteArrayInputStream(byte[], int, int) public
+     * {@link java.io.ByteArrayInputStream#ByteArrayInputStream(byte[], int, int) public
      * java.io.ByteArrayInputStream(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

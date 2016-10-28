@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
-import java.io.InputStream;
 import java.security.DigestInputStream;
-import java.security.MessageDigest;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.security.DigestInputStreamClassTests<Diges
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DigestInputStream#DigestInputStream(InputStream, MessageDigest) public
+     * {@link java.security.DigestInputStream#DigestInputStream(java.io.InputStream, java.security.MessageDigest) public
      * java.security.DigestInputStream(java.io.InputStream,java.security.MessageDigest)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +39,8 @@ implements org.j8unit.repository.java.security.DigestInputStreamClassTests<Diges
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DigestInputStream sut = null; // = new DigestInputStream(InputStream, MessageDigest);
+        final DigestInputStream sut = null; // = new DigestInputStream(java.io.InputStream,
+                                            // java.security.MessageDigest);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.DigestInputStream]

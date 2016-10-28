@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OAEPParameterSpec#getMGFAlgorithm() public
-     * java.lang.String javax.crypto.spec.OAEPParameterSpec.getMGFAlgorithm()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.spec.OAEPParameterSpec#getMGFAlgorithm() public java.lang.String
+     * javax.crypto.spec.OAEPParameterSpec.getMGFAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OAEPParameterSpec#getMGFParameters() public
-     * java.security.spec.AlgorithmParameterSpec javax.crypto.spec.OAEPParameterSpec.getMGFParameters()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.spec.OAEPParameterSpec#getMGFParameters() public java.security.spec.AlgorithmParameterSpec
+     * javax.crypto.spec.OAEPParameterSpec.getMGFParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OAEPParameterSpec#getDigestAlgorithm() public
-     * java.lang.String javax.crypto.spec.OAEPParameterSpec.getDigestAlgorithm()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.spec.OAEPParameterSpec#getDigestAlgorithm() public java.lang.String
+     * javax.crypto.spec.OAEPParameterSpec.getDigestAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +103,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OAEPParameterSpec#getPSource() public
-     * javax.crypto.spec.PSource javax.crypto.spec.OAEPParameterSpec.getPSource()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.OAEPParameterSpec#getPSource()
+     * public javax.crypto.spec.PSource javax.crypto.spec.OAEPParameterSpec.getPSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

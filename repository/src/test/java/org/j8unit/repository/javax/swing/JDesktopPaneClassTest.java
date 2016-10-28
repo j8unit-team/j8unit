@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JDesktopPaneClassTests<JDesktopPane
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JDesktopPane#JDesktopPane() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JDesktopPane#JDesktopPane() public
      * javax.swing.JDesktopPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

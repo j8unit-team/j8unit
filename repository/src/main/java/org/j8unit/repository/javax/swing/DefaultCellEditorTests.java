@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.util.EventObject;
 import javax.swing.DefaultCellEditor;
-import javax.swing.JTable;
-import javax.swing.JTree;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +36,8 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultCellEditor#getTreeCellEditorComponent(JTree, Object, boolean, boolean, boolean, int) public
-     * java.awt.Component
+     * {@link javax.swing.DefaultCellEditor#getTreeCellEditorComponent(javax.swing.JTree, Object, boolean, boolean, boolean, int)
+     * public java.awt.Component
      * javax.swing.DefaultCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}
      * .
      *
@@ -64,8 +61,8 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultCellEditor#stopCellEditing() public boolean
-     * javax.swing.DefaultCellEditor.stopCellEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#stopCellEditing()
+     * public boolean javax.swing.DefaultCellEditor.stopCellEditing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +84,9 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultCellEditor#setClickCountToStart(int) public
-     * void javax.swing.DefaultCellEditor.setClickCountToStart(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultCellEditor#setClickCountToStart(int) public void
+     * javax.swing.DefaultCellEditor.setClickCountToStart(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,7 +108,8 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultCellEditor#getTableCellEditorComponent(JTable, Object, boolean, int, int) public java.awt.Component
+     * {@link javax.swing.DefaultCellEditor#getTableCellEditorComponent(javax.swing.JTable, Object, boolean, int, int)
+     * public java.awt.Component
      * javax.swing.DefaultCellEditor.getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,7 +132,7 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultCellEditor#getComponent() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#getComponent() public
      * java.awt.Component javax.swing.DefaultCellEditor.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +154,8 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultCellEditor#getCellEditorValue() public
-     * java.lang.Object javax.swing.DefaultCellEditor.getCellEditorValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#getCellEditorValue()
+     * public java.lang.Object javax.swing.DefaultCellEditor.getCellEditorValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,8 +177,9 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultCellEditor#isCellEditable(EventObject) public
-     * boolean javax.swing.DefaultCellEditor.isCellEditable(java.util.EventObject)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultCellEditor#isCellEditable(java.util.EventObject) public boolean
+     * javax.swing.DefaultCellEditor.isCellEditable(java.util.EventObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,8 +201,8 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultCellEditor#cancelCellEditing() public void
-     * javax.swing.DefaultCellEditor.cancelCellEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#cancelCellEditing()
+     * public void javax.swing.DefaultCellEditor.cancelCellEditing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,8 +224,9 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultCellEditor#shouldSelectCell(EventObject)
-     * public boolean javax.swing.DefaultCellEditor.shouldSelectCell(java.util.EventObject)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultCellEditor#shouldSelectCell(java.util.EventObject) public boolean
+     * javax.swing.DefaultCellEditor.shouldSelectCell(java.util.EventObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,8 +248,8 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultCellEditor#getClickCountToStart() public int
-     * javax.swing.DefaultCellEditor.getClickCountToStart()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#getClickCountToStart()
+     * public int javax.swing.DefaultCellEditor.getClickCountToStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

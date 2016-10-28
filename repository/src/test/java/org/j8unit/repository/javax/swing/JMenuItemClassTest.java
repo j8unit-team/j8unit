@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import javax.swing.Action;
-import javax.swing.Icon;
 import javax.swing.JMenuItem;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.javax.swing.JMenuItemClassTests<JMenuItem> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenuItem#JMenuItem(String, int) public
-     * javax.swing.JMenuItem(java.lang.String,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenuItem#JMenuItem(String, int)
+     * public javax.swing.JMenuItem(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +43,8 @@ implements org.j8unit.repository.javax.swing.JMenuItemClassTests<JMenuItem> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenuItem#JMenuItem(String, Icon) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JMenuItem#JMenuItem(String, javax.swing.Icon) public
      * javax.swing.JMenuItem(java.lang.String,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +61,13 @@ implements org.j8unit.repository.javax.swing.JMenuItemClassTests<JMenuItem> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JMenuItem sut = null; // = new JMenuItem(String, Icon);
+        final JMenuItem sut = null; // = new JMenuItem(String, javax.swing.Icon);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenuItem#JMenuItem(Action) public
-     * javax.swing.JMenuItem(javax.swing.Action)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JMenuItem#JMenuItem(javax.swing.Action) public javax.swing.JMenuItem(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,12 +83,12 @@ implements org.j8unit.repository.javax.swing.JMenuItemClassTests<JMenuItem> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JMenuItem sut = null; // = new JMenuItem(Action);
+        final JMenuItem sut = null; // = new JMenuItem(javax.swing.Action);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenuItem#JMenuItem() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenuItem#JMenuItem() public
      * javax.swing.JMenuItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,8 +109,8 @@ implements org.j8unit.repository.javax.swing.JMenuItemClassTests<JMenuItem> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenuItem#JMenuItem(Icon) public
-     * javax.swing.JMenuItem(javax.swing.Icon)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JMenuItem#JMenuItem(javax.swing.Icon) public javax.swing.JMenuItem(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,12 +126,12 @@ implements org.j8unit.repository.javax.swing.JMenuItemClassTests<JMenuItem> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JMenuItem sut = null; // = new JMenuItem(Icon);
+        final JMenuItem sut = null; // = new JMenuItem(javax.swing.Icon);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenuItem#JMenuItem(String) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenuItem#JMenuItem(String) public
      * javax.swing.JMenuItem(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

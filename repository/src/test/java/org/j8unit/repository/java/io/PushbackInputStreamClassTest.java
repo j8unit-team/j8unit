@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.InputStream;
 import java.io.PushbackInputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.io.PushbackInputStreamClassTests<PushbackI
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PushbackInputStream#PushbackInputStream(InputStream) public
+     * {@link java.io.PushbackInputStream#PushbackInputStream(java.io.InputStream) public
      * java.io.PushbackInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.io.PushbackInputStreamClassTests<PushbackI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PushbackInputStream sut = null; // = new PushbackInputStream(InputStream);
+        final PushbackInputStream sut = null; // = new PushbackInputStream(java.io.InputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PushbackInputStream#PushbackInputStream(InputStream, int) public
+     * {@link java.io.PushbackInputStream#PushbackInputStream(java.io.InputStream, int) public
      * java.io.PushbackInputStream(java.io.InputStream,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.io.PushbackInputStreamClassTests<PushbackI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PushbackInputStream sut = null; // = new PushbackInputStream(InputStream, int);
+        final PushbackInputStream sut = null; // = new PushbackInputStream(java.io.InputStream, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PushbackInputStream]

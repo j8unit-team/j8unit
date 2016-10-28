@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.lang.invoke.LambdaConversionExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LambdaConversionException#LambdaConversionException(String, Throwable, boolean, boolean) public
-     * java.lang.invoke.LambdaConversionException(java.lang.String,java.lang.Throwable,boolean,boolean)}.
+     * {@link java.lang.invoke.LambdaConversionException#LambdaConversionException(String, Throwable, boolean, boolean)
+     * public java.lang.invoke.LambdaConversionException(java.lang.String,java.lang.Throwable,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +46,7 @@ implements org.j8unit.repository.java.lang.invoke.LambdaConversionExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LambdaConversionException#LambdaConversionException(Throwable) public
+     * {@link java.lang.invoke.LambdaConversionException#LambdaConversionException(Throwable) public
      * java.lang.invoke.LambdaConversionException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,7 +69,7 @@ implements org.j8unit.repository.java.lang.invoke.LambdaConversionExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LambdaConversionException#LambdaConversionException(String, Throwable) public
+     * {@link java.lang.invoke.LambdaConversionException#LambdaConversionException(String, Throwable) public
      * java.lang.invoke.LambdaConversionException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -92,7 +92,7 @@ implements org.j8unit.repository.java.lang.invoke.LambdaConversionExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LambdaConversionException#LambdaConversionException(String) public
+     * {@link java.lang.invoke.LambdaConversionException#LambdaConversionException(String) public
      * java.lang.invoke.LambdaConversionException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -115,8 +115,8 @@ implements org.j8unit.repository.java.lang.invoke.LambdaConversionExceptionClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LambdaConversionException#LambdaConversionException() public java.lang.invoke.LambdaConversionException()}
-     * .
+     * {@link java.lang.invoke.LambdaConversionException#LambdaConversionException() public
+     * java.lang.invoke.LambdaConversionException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

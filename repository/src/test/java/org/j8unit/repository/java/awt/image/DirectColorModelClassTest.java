@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.color.ColorSpace;
 import java.awt.image.DirectColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.awt.image.DirectColorModelClassTests<Direc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DirectColorModel#DirectColorModel(ColorSpace, int, int, int, int, int, boolean, int) public
-     * java.awt.image.DirectColorModel(java.awt.color.ColorSpace,int,int,int,int,int,boolean,int)}.
+     * {@link java.awt.image.DirectColorModel#DirectColorModel(java.awt.color.ColorSpace, int, int, int, int, int, boolean, int)
+     * public java.awt.image.DirectColorModel(java.awt.color.ColorSpace,int,int,int,int,int,boolean,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,14 @@ implements org.j8unit.repository.java.awt.image.DirectColorModelClassTests<Direc
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DirectColorModel sut = null; // = new DirectColorModel(ColorSpace, int, int, int, int, int, boolean, int);
+        final DirectColorModel sut = null; // = new DirectColorModel(java.awt.color.ColorSpace, int, int, int, int, int,
+                                           // boolean, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DirectColorModel#DirectColorModel(int, int, int, int, int) public
+     * {@link java.awt.image.DirectColorModel#DirectColorModel(int, int, int, int, int) public
      * java.awt.image.DirectColorModel(int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,7 +69,7 @@ implements org.j8unit.repository.java.awt.image.DirectColorModelClassTests<Direc
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DirectColorModel#DirectColorModel(int, int, int, int) public
+     * {@link java.awt.image.DirectColorModel#DirectColorModel(int, int, int, int) public
      * java.awt.image.DirectColorModel(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

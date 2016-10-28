@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.lang.model.element.ParameterizableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeElement#getSimpleName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.TypeElement.getSimpleName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.TypeElement#getSimpleName()
+     * public abstract javax.lang.model.element.Name javax.lang.model.element.TypeElement.getSimpleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,9 +57,9 @@ extends org.j8unit.repository.javax.lang.model.element.ParameterizableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeElement#getTypeParameters() public abstract
-     * java.util.List<? extends javax.lang.model.element.TypeParameterElement>
-     * javax.lang.model.element.TypeElement.getTypeParameters()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.TypeElement#getTypeParameters() public abstract java.util.List<? extends
+     * javax.lang.model.element.TypeParameterElement> javax.lang.model.element.TypeElement.getTypeParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ extends org.j8unit.repository.javax.lang.model.element.ParameterizableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeElement#getInterfaces() public abstract
-     * java.util.List<? extends javax.lang.model.type.TypeMirror> javax.lang.model.element.TypeElement.getInterfaces()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.TypeElement#getInterfaces()
+     * public abstract java.util.List<? extends javax.lang.model.type.TypeMirror>
+     * javax.lang.model.element.TypeElement.getInterfaces()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,9 +104,9 @@ extends org.j8unit.repository.javax.lang.model.element.ParameterizableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeElement#getEnclosedElements() public abstract
-     * java.util.List<? extends javax.lang.model.element.Element>
-     * javax.lang.model.element.TypeElement.getEnclosedElements()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.TypeElement#getEnclosedElements() public abstract java.util.List<? extends
+     * javax.lang.model.element.Element> javax.lang.model.element.TypeElement.getEnclosedElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +128,8 @@ extends org.j8unit.repository.javax.lang.model.element.ParameterizableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeElement#getSuperclass() public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.element.TypeElement.getSuperclass()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.TypeElement#getSuperclass()
+     * public abstract javax.lang.model.type.TypeMirror javax.lang.model.element.TypeElement.getSuperclass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +150,8 @@ extends org.j8unit.repository.javax.lang.model.element.ParameterizableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeElement#getEnclosingElement() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.TypeElement#getEnclosingElement() public abstract
      * javax.lang.model.element.Element javax.lang.model.element.TypeElement.getEnclosingElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,8 +174,9 @@ extends org.j8unit.repository.javax.lang.model.element.ParameterizableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeElement#getQualifiedName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.TypeElement.getQualifiedName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.TypeElement#getQualifiedName() public abstract javax.lang.model.element.Name
+     * javax.lang.model.element.TypeElement.getQualifiedName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +198,9 @@ extends org.j8unit.repository.javax.lang.model.element.ParameterizableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeElement#getNestingKind() public abstract
-     * javax.lang.model.element.NestingKind javax.lang.model.element.TypeElement.getNestingKind()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.TypeElement#getNestingKind() public abstract javax.lang.model.element.NestingKind
+     * javax.lang.model.element.TypeElement.getNestingKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

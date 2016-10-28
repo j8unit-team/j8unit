@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.JInternalFrame;
 import javax.swing.event.InternalFrameEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.event.InternalFrameEventClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InternalFrameEvent#InternalFrameEvent(JInternalFrame, int) public
+     * {@link javax.swing.event.InternalFrameEvent#InternalFrameEvent(javax.swing.JInternalFrame, int) public
      * javax.swing.event.InternalFrameEvent(javax.swing.JInternalFrame,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.swing.event.InternalFrameEventClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InternalFrameEvent sut = null; // = new InternalFrameEvent(JInternalFrame, int);
+        final InternalFrameEvent sut = null; // = new InternalFrameEvent(javax.swing.JInternalFrame, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.InternalFrameEvent]

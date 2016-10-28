@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import java.util.Hashtable;
-import javax.naming.Context;
-import javax.naming.Name;
 import javax.naming.spi.StateFactory;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -39,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StateFactory#getStateToBind(Object, Name, Context, Hashtable) public abstract java.lang.Object
+     * {@link javax.naming.spi.StateFactory#getStateToBind(Object, javax.naming.Name, javax.naming.Context, java.util.Hashtable)
+     * public abstract java.lang.Object
      * javax.naming.spi.StateFactory.getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable<?,
      * ?>) throws javax.naming.NamingException}.
      *

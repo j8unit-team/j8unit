@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#isTransferableJVMLocal()
-     * public abstract boolean java.awt.dnd.peer.DropTargetContextPeer.isTransferableJVMLocal()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DropTargetContextPeer#isTransferableJVMLocal() public abstract boolean
+     * java.awt.dnd.peer.DropTargetContextPeer.isTransferableJVMLocal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#acceptDrop(int) public
-     * abstract void java.awt.dnd.peer.DropTargetContextPeer.acceptDrop(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DropTargetContextPeer#acceptDrop(int) public abstract void
+     * java.awt.dnd.peer.DropTargetContextPeer.acceptDrop(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#setTargetActions(int) public
-     * abstract void java.awt.dnd.peer.DropTargetContextPeer.setTargetActions(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DropTargetContextPeer#setTargetActions(int) public abstract void
+     * java.awt.dnd.peer.DropTargetContextPeer.setTargetActions(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#getTargetActions() public
-     * abstract int java.awt.dnd.peer.DropTargetContextPeer.getTargetActions()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DropTargetContextPeer#getTargetActions() public abstract int
+     * java.awt.dnd.peer.DropTargetContextPeer.getTargetActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#rejectDrop() public abstract
-     * void java.awt.dnd.peer.DropTargetContextPeer.rejectDrop()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.peer.DropTargetContextPeer#rejectDrop()
+     * public abstract void java.awt.dnd.peer.DropTargetContextPeer.rejectDrop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +149,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#rejectDrag() public abstract
-     * void java.awt.dnd.peer.DropTargetContextPeer.rejectDrag()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.peer.DropTargetContextPeer#rejectDrag()
+     * public abstract void java.awt.dnd.peer.DropTargetContextPeer.rejectDrag()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +171,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#acceptDrag(int) public
-     * abstract void java.awt.dnd.peer.DropTargetContextPeer.acceptDrag(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DropTargetContextPeer#acceptDrag(int) public abstract void
+     * java.awt.dnd.peer.DropTargetContextPeer.acceptDrag(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +194,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#getDropTarget() public
-     * abstract java.awt.dnd.DropTarget java.awt.dnd.peer.DropTargetContextPeer.getDropTarget()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DropTargetContextPeer#getDropTarget() public abstract java.awt.dnd.DropTarget
+     * java.awt.dnd.peer.DropTargetContextPeer.getDropTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +217,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#dropComplete(boolean) public
-     * abstract void java.awt.dnd.peer.DropTargetContextPeer.dropComplete(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DropTargetContextPeer#dropComplete(boolean) public abstract void
+     * java.awt.dnd.peer.DropTargetContextPeer.dropComplete(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,9 +240,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#getTransferDataFlavors()
-     * public abstract java.awt.datatransfer.DataFlavor[]
-     * java.awt.dnd.peer.DropTargetContextPeer.getTransferDataFlavors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DropTargetContextPeer#getTransferDataFlavors() public abstract
+     * java.awt.datatransfer.DataFlavor[] java.awt.dnd.peer.DropTargetContextPeer.getTransferDataFlavors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +263,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DropTargetContextPeer#getTransferable() public
-     * abstract java.awt.datatransfer.Transferable java.awt.dnd.peer.DropTargetContextPeer.getTransferable() throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.peer.DropTargetContextPeer#getTransferable() public abstract
+     * java.awt.datatransfer.Transferable java.awt.dnd.peer.DropTargetContextPeer.getTransferable() throws
      * java.awt.dnd.InvalidDnDOperationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

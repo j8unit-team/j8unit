@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.beans.PropertyChangeEventClassTests<Proper
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyChangeEvent#PropertyChangeEvent(Object, String, Object, Object) public
+     * {@link java.beans.PropertyChangeEvent#PropertyChangeEvent(Object, String, Object, Object) public
      * java.beans.PropertyChangeEvent(java.lang.Object,java.lang.String,java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

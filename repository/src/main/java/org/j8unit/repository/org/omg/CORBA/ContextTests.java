@@ -5,9 +5,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.Context;
-import org.omg.CORBA.NVList;
 
 /**
  * <p>
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Context#create_child(String) public abstract
-     * org.omg.CORBA.Context org.omg.CORBA.Context.create_child(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Context#create_child(String) public
+     * abstract org.omg.CORBA.Context org.omg.CORBA.Context.create_child(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Context#context_name() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Context#context_name() public abstract
      * java.lang.String org.omg.CORBA.Context.context_name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Context#delete_values(String) public abstract void
-     * org.omg.CORBA.Context.delete_values(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Context#delete_values(String) public
+     * abstract void org.omg.CORBA.Context.delete_values(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +100,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Context#get_values(String, int, String) public
-     * abstract org.omg.CORBA.NVList org.omg.CORBA.Context.get_values(java.lang.String,int,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.Context#get_values(String, int, String) public abstract org.omg.CORBA.NVList
+     * org.omg.CORBA.Context.get_values(java.lang.String,int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Context#parent() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Context#parent() public abstract
      * org.omg.CORBA.Context org.omg.CORBA.Context.parent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Context#set_values(NVList) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.Context#set_values(org.omg.CORBA.NVList) public abstract void
      * org.omg.CORBA.Context.set_values(org.omg.CORBA.NVList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -168,8 +168,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Context#set_one_value(String, Any) public abstract
-     * void org.omg.CORBA.Context.set_one_value(java.lang.String,org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.Context#set_one_value(String, org.omg.CORBA.Any) public abstract void
+     * org.omg.CORBA.Context.set_one_value(java.lang.String,org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

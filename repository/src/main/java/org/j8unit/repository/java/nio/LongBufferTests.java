@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#toString() public java.lang.String
-     * java.nio.LongBuffer.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#toString() public
+     * java.lang.String java.nio.LongBuffer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#arrayOffset() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#arrayOffset() public final int
      * java.nio.LongBuffer.arrayOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#order() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#order() public abstract
      * java.nio.ByteOrder java.nio.LongBuffer.order()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#isDirect() public abstract boolean
-     * java.nio.LongBuffer.isDirect()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#isDirect() public abstract
+     * boolean java.nio.LongBuffer.isDirect()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +125,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#hashCode() public int
      * java.nio.LongBuffer.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +148,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#equals(Object) public boolean
      * java.nio.LongBuffer.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +171,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#get(int) public abstract long
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#get(int) public abstract long
      * java.nio.LongBuffer.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,7 +193,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#get() public abstract long
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#get() public abstract long
      * java.nio.LongBuffer.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +215,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#get(long[]) public java.nio.LongBuffer
-     * java.nio.LongBuffer.get(long[])}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#get(long[]) public
+     * java.nio.LongBuffer java.nio.LongBuffer.get(long[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,7 +237,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#get(long[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#get(long[], int, int) public
      * java.nio.LongBuffer java.nio.LongBuffer.get(long[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,7 +259,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#slice() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#slice() public abstract
      * java.nio.LongBuffer java.nio.LongBuffer.slice()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,7 +281,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#array() public final long[]
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#array() public final long[]
      * java.nio.LongBuffer.array()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,7 +304,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#duplicate() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#duplicate() public abstract
      * java.nio.LongBuffer java.nio.LongBuffer.duplicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -326,8 +326,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#compareTo(LongBuffer) public int
-     * java.nio.LongBuffer.compareTo(java.nio.LongBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#compareTo(java.nio.LongBuffer)
+     * public int java.nio.LongBuffer.compareTo(java.nio.LongBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -348,8 +348,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#asReadOnlyBuffer() public abstract
-     * java.nio.LongBuffer java.nio.LongBuffer.asReadOnlyBuffer()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#asReadOnlyBuffer() public
+     * abstract java.nio.LongBuffer java.nio.LongBuffer.asReadOnlyBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -370,7 +370,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#put(long) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#put(long) public abstract
      * java.nio.LongBuffer java.nio.LongBuffer.put(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -392,7 +392,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#put(LongBuffer) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#put(java.nio.LongBuffer) public
      * java.nio.LongBuffer java.nio.LongBuffer.put(java.nio.LongBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -414,7 +414,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#put(int, long) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#put(int, long) public abstract
      * java.nio.LongBuffer java.nio.LongBuffer.put(int,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -436,7 +436,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#put(long[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#put(long[], int, int) public
      * java.nio.LongBuffer java.nio.LongBuffer.put(long[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -458,7 +458,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#put(long[]) public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#put(long[]) public final
      * java.nio.LongBuffer java.nio.LongBuffer.put(long[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -480,7 +480,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#hasArray() public final boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#hasArray() public final boolean
      * java.nio.LongBuffer.hasArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -503,7 +503,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, LongBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongBuffer#compact() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.LongBuffer#compact() public abstract
      * java.nio.LongBuffer java.nio.LongBuffer.compact()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

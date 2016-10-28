@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.io.SerializablePermissionClassTests<Serial
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SerializablePermission#SerializablePermission(String) public
+     * {@link java.io.SerializablePermission#SerializablePermission(String) public
      * java.io.SerializablePermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.io.SerializablePermissionClassTests<Serial
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SerializablePermission#SerializablePermission(String, String) public
+     * {@link java.io.SerializablePermission#SerializablePermission(String, String) public
      * java.io.SerializablePermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

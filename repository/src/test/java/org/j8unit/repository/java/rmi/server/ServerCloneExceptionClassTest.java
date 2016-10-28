@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.server.ServerCloneExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServerCloneException#ServerCloneException(String) public
+     * {@link java.rmi.server.ServerCloneException#ServerCloneException(String) public
      * java.rmi.server.ServerCloneException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.rmi.server.ServerCloneExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServerCloneException#ServerCloneException(String, Exception) public
+     * {@link java.rmi.server.ServerCloneException#ServerCloneException(String, Exception) public
      * java.rmi.server.ServerCloneException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

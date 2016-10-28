@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.rmi.UnmarshalExceptionClassTests<Unmarshal
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UnmarshalException#UnmarshalException(String)
-     * public java.rmi.UnmarshalException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.UnmarshalException#UnmarshalException(String) public
+     * java.rmi.UnmarshalException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.java.rmi.UnmarshalExceptionClassTests<Unmarshal
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnmarshalException#UnmarshalException(String, Exception) public
+     * {@link java.rmi.UnmarshalException#UnmarshalException(String, Exception) public
      * java.rmi.UnmarshalException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

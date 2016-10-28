@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLContextSpiClassTests<SSLContex
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SSLContextSpi#SSLContextSpi() public
-     * javax.net.ssl.SSLContextSpi()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.net.ssl.SSLContextSpi#SSLContextSpi()
+     * public javax.net.ssl.SSLContextSpi()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

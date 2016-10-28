@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.event;
 
 import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.awt.event.KeyListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAdapter#keyTyped(KeyEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.KeyAdapter#keyTyped(java.awt.event.KeyEvent) public void
      * java.awt.event.KeyAdapter.keyTyped(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,8 @@ extends org.j8unit.repository.java.awt.event.KeyListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAdapter#keyReleased(KeyEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.KeyAdapter#keyReleased(java.awt.event.KeyEvent) public void
      * java.awt.event.KeyAdapter.keyReleased(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +82,8 @@ extends org.j8unit.repository.java.awt.event.KeyListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAdapter#keyPressed(KeyEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.KeyAdapter#keyPressed(java.awt.event.KeyEvent) public void
      * java.awt.event.KeyAdapter.keyPressed(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

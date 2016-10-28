@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.stream.util;
 
-import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.util.EventReaderDelegate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.javax.xml.stream.util.EventReaderDelegateClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link EventReaderDelegate#EventReaderDelegate()
-     * public javax.xml.stream.util.EventReaderDelegate()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.stream.util.EventReaderDelegate#EventReaderDelegate() public
+     * javax.xml.stream.util.EventReaderDelegate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.stream.util.EventReaderDelegateClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EventReaderDelegate#EventReaderDelegate(XMLEventReader) public
+     * {@link javax.xml.stream.util.EventReaderDelegate#EventReaderDelegate(javax.xml.stream.XMLEventReader) public
      * javax.xml.stream.util.EventReaderDelegate(javax.xml.stream.XMLEventReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.javax.xml.stream.util.EventReaderDelegateClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final EventReaderDelegate sut = null; // = new EventReaderDelegate(XMLEventReader);
+        final EventReaderDelegate sut = null; // = new EventReaderDelegate(javax.xml.stream.XMLEventReader);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.util.EventReaderDelegate]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.file.InvalidPathExceptionClassTests<In
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidPathException#InvalidPathException(String, String, int) public
+     * {@link java.nio.file.InvalidPathException#InvalidPathException(String, String, int) public
      * java.nio.file.InvalidPathException(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.nio.file.InvalidPathExceptionClassTests<In
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidPathException#InvalidPathException(String, String) public
+     * {@link java.nio.file.InvalidPathException#InvalidPathException(String, String) public
      * java.nio.file.InvalidPathException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

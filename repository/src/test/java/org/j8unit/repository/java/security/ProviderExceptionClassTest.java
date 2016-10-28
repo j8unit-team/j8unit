@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.security.ProviderExceptionClassTests<Provi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProviderException#ProviderException(Throwable)
-     * public java.security.ProviderException(java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.ProviderException#ProviderException(Throwable) public
+     * java.security.ProviderException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.java.security.ProviderExceptionClassTests<Provi
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ProviderException#ProviderException(String, Throwable) public
+     * {@link java.security.ProviderException#ProviderException(String, Throwable) public
      * java.security.ProviderException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,8 +67,9 @@ implements org.j8unit.repository.java.security.ProviderExceptionClassTests<Provi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProviderException#ProviderException(String)
-     * public java.security.ProviderException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.ProviderException#ProviderException(String) public
+     * java.security.ProviderException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,8 +90,8 @@ implements org.j8unit.repository.java.security.ProviderExceptionClassTests<Provi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ProviderException#ProviderException() public
-     * java.security.ProviderException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.ProviderException#ProviderException() public java.security.ProviderException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

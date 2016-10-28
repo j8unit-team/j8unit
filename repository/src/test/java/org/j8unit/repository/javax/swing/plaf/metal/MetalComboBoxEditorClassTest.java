@@ -22,8 +22,9 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MetalComboBoxEditor#MetalComboBoxEditor()
-     * public javax.swing.plaf.metal.MetalComboBoxEditor()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.metal.MetalComboBoxEditor#MetalComboBoxEditor() public
+     * javax.swing.plaf.metal.MetalComboBoxEditor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClass
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link UIResource#UIResource() public
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalComboBoxEditor.UIResource#UIResource() public
          * javax.swing.plaf.metal.MetalComboBoxEditor$UIResource()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

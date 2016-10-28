@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMLocator#getUri() public abstract java.lang.String
-     * org.w3c.dom.DOMLocator.getUri()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMLocator#getUri() public abstract
+     * java.lang.String org.w3c.dom.DOMLocator.getUri()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMLocator#getRelatedNode() public abstract
-     * org.w3c.dom.Node org.w3c.dom.DOMLocator.getRelatedNode()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMLocator#getRelatedNode() public
+     * abstract org.w3c.dom.Node org.w3c.dom.DOMLocator.getRelatedNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMLocator#getColumnNumber() public abstract int
-     * org.w3c.dom.DOMLocator.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMLocator#getColumnNumber() public
+     * abstract int org.w3c.dom.DOMLocator.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMLocator#getUtf16Offset() public abstract int
-     * org.w3c.dom.DOMLocator.getUtf16Offset()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMLocator#getUtf16Offset() public
+     * abstract int org.w3c.dom.DOMLocator.getUtf16Offset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMLocator#getByteOffset() public abstract int
-     * org.w3c.dom.DOMLocator.getByteOffset()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMLocator#getByteOffset() public
+     * abstract int org.w3c.dom.DOMLocator.getByteOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMLocator#getLineNumber() public abstract int
-     * org.w3c.dom.DOMLocator.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMLocator#getLineNumber() public
+     * abstract int org.w3c.dom.DOMLocator.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

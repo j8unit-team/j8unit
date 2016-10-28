@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.naming.ldap.ControlTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicControl#isCritical() public boolean
-     * javax.naming.ldap.BasicControl.isCritical()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.BasicControl#isCritical() public
+     * boolean javax.naming.ldap.BasicControl.isCritical()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.naming.ldap.ControlTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicControl#getID() public java.lang.String
-     * javax.naming.ldap.BasicControl.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.BasicControl#getID() public
+     * java.lang.String javax.naming.ldap.BasicControl.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.javax.naming.ldap.ControlTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicControl#getEncodedValue() public byte[]
-     * javax.naming.ldap.BasicControl.getEncodedValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.BasicControl#getEncodedValue()
+     * public byte[] javax.naming.ldap.BasicControl.getEncodedValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

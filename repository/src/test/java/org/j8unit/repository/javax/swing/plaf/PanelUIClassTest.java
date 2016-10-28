@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.PanelUIClassTests<PanelUI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PanelUI#PanelUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.PanelUI#PanelUI() public
      * javax.swing.plaf.PanelUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

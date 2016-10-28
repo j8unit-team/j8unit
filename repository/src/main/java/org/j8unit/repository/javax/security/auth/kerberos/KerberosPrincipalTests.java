@@ -35,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosPrincipal#hashCode() public int
      * javax.security.auth.kerberos.KerberosPrincipal.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +59,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosPrincipal#equals(Object) public boolean
      * javax.security.auth.kerberos.KerberosPrincipal.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +83,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#getNameType() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosPrincipal#getNameType() public int
      * javax.security.auth.kerberos.KerberosPrincipal.getNameType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +106,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#getName() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosPrincipal#getName() public java.lang.String
      * javax.security.auth.kerberos.KerberosPrincipal.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +130,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#getRealm() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosPrincipal#getRealm() public java.lang.String
      * javax.security.auth.kerberos.KerberosPrincipal.getRealm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +153,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosPrincipal#toString() public java.lang.String
      * javax.security.auth.kerberos.KerberosPrincipal.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

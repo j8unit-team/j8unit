@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSource#toString() public java.lang.String
-     * java.security.CodeSource.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSource#toString() public
+     * java.lang.String java.security.CodeSource.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSource#getCertificates() public final
-     * java.security.cert.Certificate[] java.security.CodeSource.getCertificates()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSource#getCertificates() public
+     * final java.security.cert.Certificate[] java.security.CodeSource.getCertificates()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSource#implies(CodeSource) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.CodeSource#implies(java.security.CodeSource) public boolean
      * java.security.CodeSource.implies(java.security.CodeSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSource#getLocation() public final java.net.URL
-     * java.security.CodeSource.getLocation()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSource#getLocation() public final
+     * java.net.URL java.security.CodeSource.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSource#equals(Object) public boolean
-     * java.security.CodeSource.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSource#equals(Object) public
+     * boolean java.security.CodeSource.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +147,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSource#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSource#hashCode() public int
      * java.security.CodeSource.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +170,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodeSource#getCodeSigners() public final
-     * java.security.CodeSigner[] java.security.CodeSource.getCodeSigners()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.CodeSource#getCodeSigners() public
+     * final java.security.CodeSigner[] java.security.CodeSource.getCodeSigners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

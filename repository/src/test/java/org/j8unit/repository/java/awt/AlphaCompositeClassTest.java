@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.AlphaCompositeClassTests<AlphaComposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlphaComposite#getInstance(int) public static
-     * java.awt.AlphaComposite java.awt.AlphaComposite.getInstance(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AlphaComposite#getInstance(int) public
+     * static java.awt.AlphaComposite java.awt.AlphaComposite.getInstance(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,13 @@ implements org.j8unit.repository.java.awt.AlphaCompositeClassTests<AlphaComposit
     @Category(Draft.class)
     public void test_getInstance_int()
     throws Exception {
-        // write some test for {@link AlphaComposite#getInstance(int)}
+        // write some test for {@link java.awt.AlphaComposite#getInstance(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlphaComposite#getInstance(int, float) public static
-     * java.awt.AlphaComposite java.awt.AlphaComposite.getInstance(int,float)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AlphaComposite#getInstance(int, float)
+     * public static java.awt.AlphaComposite java.awt.AlphaComposite.getInstance(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.awt.AlphaCompositeClassTests<AlphaComposit
     @Category(Draft.class)
     public void test_getInstance_int_float()
     throws Exception {
-        // write some test for {@link AlphaComposite#getInstance(int, float)}
+        // write some test for {@link java.awt.AlphaComposite#getInstance(int, float)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AlphaComposite]

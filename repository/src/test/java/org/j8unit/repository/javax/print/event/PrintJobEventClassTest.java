@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.event;
 
-import javax.print.DocPrintJob;
 import javax.print.event.PrintJobEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.print.event.PrintJobEventClassTests<Print
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintJobEvent#PrintJobEvent(DocPrintJob, int)
-     * public javax.print.event.PrintJobEvent(javax.print.DocPrintJob,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.event.PrintJobEvent#PrintJobEvent(javax.print.DocPrintJob, int) public
+     * javax.print.event.PrintJobEvent(javax.print.DocPrintJob,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.print.event.PrintJobEventClassTests<Print
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintJobEvent sut = null; // = new PrintJobEvent(DocPrintJob, int);
+        final PrintJobEvent sut = null; // = new PrintJobEvent(javax.print.DocPrintJob, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintJobEvent]

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RefAddr#toString() public java.lang.String
-     * javax.naming.RefAddr.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.RefAddr#toString() public
+     * java.lang.String javax.naming.RefAddr.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RefAddr#getType() public java.lang.String
-     * javax.naming.RefAddr.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.RefAddr#getType() public
+     * java.lang.String javax.naming.RefAddr.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RefAddr#getContent() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.naming.RefAddr#getContent() public abstract
      * java.lang.Object javax.naming.RefAddr.getContent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RefAddr#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.naming.RefAddr#equals(Object) public boolean
      * javax.naming.RefAddr.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +124,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RefAddr#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.RefAddr#hashCode() public int
      * javax.naming.RefAddr.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,12 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.math.BigInteger;
-import java.security.cert.CRL;
 import java.security.cert.X509CRLSelector;
-import java.security.cert.X509Certificate;
-import java.util.Collection;
-import java.util.Date;
-import javax.security.auth.x500.X500Principal;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +34,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#clone() public java.lang.Object
-     * java.security.cert.X509CRLSelector.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#clone() public
+     * java.lang.Object java.security.cert.X509CRLSelector.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +58,7 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509CRLSelector#setCertificateChecking(X509Certificate) public void
+     * {@link java.security.cert.X509CRLSelector#setCertificateChecking(java.security.cert.X509Certificate) public void
      * java.security.cert.X509CRLSelector.setCertificateChecking(java.security.cert.X509Certificate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,8 +80,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#toString() public java.lang.String
-     * java.security.cert.X509CRLSelector.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#toString() public
+     * java.lang.String java.security.cert.X509CRLSelector.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,7 +103,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#addIssuer(X500Principal) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#addIssuer(javax.security.auth.x500.X500Principal) public void
      * java.security.cert.X509CRLSelector.addIssuer(javax.security.auth.x500.X500Principal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +126,9 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#setMaxCRLNumber(BigInteger) public
-     * void java.security.cert.X509CRLSelector.setMaxCRLNumber(java.math.BigInteger)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#setMaxCRLNumber(java.math.BigInteger) public void
+     * java.security.cert.X509CRLSelector.setMaxCRLNumber(java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,7 +149,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#addIssuerName(byte[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#addIssuerName(byte[]) public void
      * java.security.cert.X509CRLSelector.addIssuerName(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,7 +172,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#addIssuerName(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#addIssuerName(String) public void
      * java.security.cert.X509CRLSelector.addIssuerName(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -197,8 +195,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#getMinCRL() public
-     * java.math.BigInteger java.security.cert.X509CRLSelector.getMinCRL()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#getMinCRL()
+     * public java.math.BigInteger java.security.cert.X509CRLSelector.getMinCRL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,8 +217,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#getDateAndTime() public
-     * java.util.Date java.security.cert.X509CRLSelector.getDateAndTime()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#getDateAndTime()
+     * public java.util.Date java.security.cert.X509CRLSelector.getDateAndTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -241,8 +239,9 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#setMinCRLNumber(BigInteger) public
-     * void java.security.cert.X509CRLSelector.setMinCRLNumber(java.math.BigInteger)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#setMinCRLNumber(java.math.BigInteger) public void
+     * java.security.cert.X509CRLSelector.setMinCRLNumber(java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,7 +262,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#setIssuers(Collection) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#setIssuers(java.util.Collection) public void
      * java.security.cert.X509CRLSelector.setIssuers(java.util.Collection<javax.security.auth.x500.X500Principal>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -285,7 +285,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#match(CRL) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#match(java.security.cert.CRL) public boolean
      * java.security.cert.X509CRLSelector.match(java.security.cert.CRL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -308,8 +309,9 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#setIssuerNames(Collection) public
-     * void java.security.cert.X509CRLSelector.setIssuerNames(java.util.Collection<?>) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#setIssuerNames(java.util.Collection) public void
+     * java.security.cert.X509CRLSelector.setIssuerNames(java.util.Collection<?>) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -330,8 +332,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#getMaxCRL() public
-     * java.math.BigInteger java.security.cert.X509CRLSelector.getMaxCRL()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#getMaxCRL()
+     * public java.math.BigInteger java.security.cert.X509CRLSelector.getMaxCRL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -352,8 +354,9 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#getCertificateChecking() public
-     * java.security.cert.X509Certificate java.security.cert.X509CRLSelector.getCertificateChecking()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#getCertificateChecking() public java.security.cert.X509Certificate
+     * java.security.cert.X509CRLSelector.getCertificateChecking()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -374,7 +377,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#setDateAndTime(Date) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#setDateAndTime(java.util.Date) public void
      * java.security.cert.X509CRLSelector.setDateAndTime(java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -396,8 +400,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#getIssuerNames() public
-     * java.util.Collection<java.lang.Object> java.security.cert.X509CRLSelector.getIssuerNames()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#getIssuerNames()
+     * public java.util.Collection<java.lang.Object> java.security.cert.X509CRLSelector.getIssuerNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -418,8 +422,9 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X509CRLSelector#getIssuers() public
-     * java.util.Collection<javax.security.auth.x500.X500Principal> java.security.cert.X509CRLSelector.getIssuers()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#getIssuers()
+     * public java.util.Collection
+     * <javax.security.auth.x500.X500Principal> java.security.cert.X509CRLSelector.getIssuers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

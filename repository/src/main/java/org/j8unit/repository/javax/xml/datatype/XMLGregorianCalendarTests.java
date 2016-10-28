@@ -1,10 +1,5 @@
 package org.j8unit.repository.javax.xml.datatype;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.util.Locale;
-import java.util.TimeZone;
-import javax.xml.datatype.Duration;
 import javax.xml.datatype.XMLGregorianCalendar;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setHour(int) public abstract
-     * void javax.xml.datatype.XMLGregorianCalendar.setHour(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#setHour(int)
+     * public abstract void javax.xml.datatype.XMLGregorianCalendar.setHour(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +56,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setYear(BigInteger) public
-     * abstract void javax.xml.datatype.XMLGregorianCalendar.setYear(java.math.BigInteger)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setYear(java.math.BigInteger) public abstract void
+     * javax.xml.datatype.XMLGregorianCalendar.setYear(java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +79,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setYear(int) public abstract
-     * void javax.xml.datatype.XMLGregorianCalendar.setYear(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#setYear(int)
+     * public abstract void javax.xml.datatype.XMLGregorianCalendar.setYear(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +101,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getDay() public abstract int
-     * javax.xml.datatype.XMLGregorianCalendar.getDay()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#getDay()
+     * public abstract int javax.xml.datatype.XMLGregorianCalendar.getDay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +123,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#clear() public abstract void
-     * javax.xml.datatype.XMLGregorianCalendar.clear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#clear()
+     * public abstract void javax.xml.datatype.XMLGregorianCalendar.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +145,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setTimezone(int) public
-     * abstract void javax.xml.datatype.XMLGregorianCalendar.setTimezone(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setTimezone(int) public abstract void
+     * javax.xml.datatype.XMLGregorianCalendar.setTimezone(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +168,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#toXMLFormat() public abstract
-     * java.lang.String javax.xml.datatype.XMLGregorianCalendar.toXMLFormat()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#toXMLFormat() public abstract java.lang.String
+     * javax.xml.datatype.XMLGregorianCalendar.toXMLFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +191,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#isValid() public abstract
-     * boolean javax.xml.datatype.XMLGregorianCalendar.isValid()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#isValid()
+     * public abstract boolean javax.xml.datatype.XMLGregorianCalendar.isValid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +213,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#add(Duration) public abstract
-     * void javax.xml.datatype.XMLGregorianCalendar.add(javax.xml.datatype.Duration)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#add(javax.xml.datatype.Duration) public abstract void
+     * javax.xml.datatype.XMLGregorianCalendar.add(javax.xml.datatype.Duration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +236,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setMonth(int) public abstract
-     * void javax.xml.datatype.XMLGregorianCalendar.setMonth(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setMonth(int) public abstract void
+     * javax.xml.datatype.XMLGregorianCalendar.setMonth(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +259,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setMillisecond(int) public
-     * abstract void javax.xml.datatype.XMLGregorianCalendar.setMillisecond(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setMillisecond(int) public abstract void
+     * javax.xml.datatype.XMLGregorianCalendar.setMillisecond(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +282,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setFractionalSecond(BigDecimal)
-     * public abstract void javax.xml.datatype.XMLGregorianCalendar.setFractionalSecond(java.math.BigDecimal)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setFractionalSecond(java.math.BigDecimal) public abstract void
+     * javax.xml.datatype.XMLGregorianCalendar.setFractionalSecond(java.math.BigDecimal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,8 +305,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getSecond() public abstract int
-     * javax.xml.datatype.XMLGregorianCalendar.getSecond()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#getSecond()
+     * public abstract int javax.xml.datatype.XMLGregorianCalendar.getSecond()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,8 +327,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#clone() public abstract
-     * java.lang.Object javax.xml.datatype.XMLGregorianCalendar.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#clone()
+     * public abstract java.lang.Object javax.xml.datatype.XMLGregorianCalendar.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,8 +349,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#reset() public abstract void
-     * javax.xml.datatype.XMLGregorianCalendar.reset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#reset()
+     * public abstract void javax.xml.datatype.XMLGregorianCalendar.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,8 +371,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#toString() public
-     * java.lang.String javax.xml.datatype.XMLGregorianCalendar.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#toString()
+     * public java.lang.String javax.xml.datatype.XMLGregorianCalendar.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -392,8 +394,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getEonAndYear() public abstract
-     * java.math.BigInteger javax.xml.datatype.XMLGregorianCalendar.getEonAndYear()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#getEonAndYear() public abstract java.math.BigInteger
+     * javax.xml.datatype.XMLGregorianCalendar.getEonAndYear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -414,8 +417,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getYear() public abstract int
-     * javax.xml.datatype.XMLGregorianCalendar.getYear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#getYear()
+     * public abstract int javax.xml.datatype.XMLGregorianCalendar.getYear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -436,8 +439,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getTimezone() public abstract
-     * int javax.xml.datatype.XMLGregorianCalendar.getTimezone()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#getTimezone() public abstract int
+     * javax.xml.datatype.XMLGregorianCalendar.getTimezone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -458,8 +462,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getFractionalSecond() public
-     * abstract java.math.BigDecimal javax.xml.datatype.XMLGregorianCalendar.getFractionalSecond()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#getFractionalSecond() public abstract java.math.BigDecimal
+     * javax.xml.datatype.XMLGregorianCalendar.getFractionalSecond()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -480,7 +485,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#equals(Object) public boolean
      * javax.xml.datatype.XMLGregorianCalendar.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -503,8 +509,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setSecond(int) public abstract
-     * void javax.xml.datatype.XMLGregorianCalendar.setSecond(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setSecond(int) public abstract void
+     * javax.xml.datatype.XMLGregorianCalendar.setSecond(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -525,8 +532,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getXMLSchemaType() public
-     * abstract javax.xml.namespace.QName javax.xml.datatype.XMLGregorianCalendar.getXMLSchemaType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#getXMLSchemaType() public abstract javax.xml.namespace.QName
+     * javax.xml.datatype.XMLGregorianCalendar.getXMLSchemaType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -548,8 +556,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLGregorianCalendar#toGregorianCalendar(TimeZone, Locale, XMLGregorianCalendar) public abstract
-     * java.util.GregorianCalendar
+     * {@link javax.xml.datatype.XMLGregorianCalendar#toGregorianCalendar(java.util.TimeZone, java.util.Locale, javax.xml.datatype.XMLGregorianCalendar)
+     * public abstract java.util.GregorianCalendar
      * javax.xml.datatype.XMLGregorianCalendar.toGregorianCalendar(java.util.TimeZone,java.util.Locale,javax.xml.datatype.XMLGregorianCalendar)}
      * .
      *
@@ -572,8 +580,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#toGregorianCalendar() public
-     * abstract java.util.GregorianCalendar javax.xml.datatype.XMLGregorianCalendar.toGregorianCalendar()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#toGregorianCalendar() public abstract java.util.GregorianCalendar
+     * javax.xml.datatype.XMLGregorianCalendar.toGregorianCalendar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -594,8 +603,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getTimeZone(int) public
-     * abstract java.util.TimeZone javax.xml.datatype.XMLGregorianCalendar.getTimeZone(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#getTimeZone(int) public abstract java.util.TimeZone
+     * javax.xml.datatype.XMLGregorianCalendar.getTimeZone(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -616,8 +626,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getEon() public abstract
-     * java.math.BigInteger javax.xml.datatype.XMLGregorianCalendar.getEon()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#getEon()
+     * public abstract java.math.BigInteger javax.xml.datatype.XMLGregorianCalendar.getEon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -638,8 +648,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#compare(XMLGregorianCalendar)
-     * public abstract int javax.xml.datatype.XMLGregorianCalendar.compare(javax.xml.datatype.XMLGregorianCalendar)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#compare(javax.xml.datatype.XMLGregorianCalendar) public abstract
+     * int javax.xml.datatype.XMLGregorianCalendar.compare(javax.xml.datatype.XMLGregorianCalendar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -660,30 +671,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setTime(int, int, int, int)
-     * public void javax.xml.datatype.XMLGregorianCalendar.setTime(int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTime_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setTime(int, int, int) public
-     * void javax.xml.datatype.XMLGregorianCalendar.setTime(int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setTime(int, int, int) public void
+     * javax.xml.datatype.XMLGregorianCalendar.setTime(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -705,7 +695,30 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLGregorianCalendar#setTime(int, int, int, BigDecimal) public void
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setTime(int, int, int, int) public void
+     * javax.xml.datatype.XMLGregorianCalendar.setTime(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTime_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setTime(int, int, int, java.math.BigDecimal) public void
      * javax.xml.datatype.XMLGregorianCalendar.setTime(int,int,int,java.math.BigDecimal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -727,8 +740,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setDay(int) public abstract
-     * void javax.xml.datatype.XMLGregorianCalendar.setDay(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#setDay(int)
+     * public abstract void javax.xml.datatype.XMLGregorianCalendar.setDay(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -749,8 +762,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getMinute() public abstract int
-     * javax.xml.datatype.XMLGregorianCalendar.getMinute()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#getMinute()
+     * public abstract int javax.xml.datatype.XMLGregorianCalendar.getMinute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -771,8 +784,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getHour() public abstract int
-     * javax.xml.datatype.XMLGregorianCalendar.getHour()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#getHour()
+     * public abstract int javax.xml.datatype.XMLGregorianCalendar.getHour()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -793,8 +806,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getMonth() public abstract int
-     * javax.xml.datatype.XMLGregorianCalendar.getMonth()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#getMonth()
+     * public abstract int javax.xml.datatype.XMLGregorianCalendar.getMonth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -815,7 +828,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#getMillisecond() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#getMillisecond() public int
      * javax.xml.datatype.XMLGregorianCalendar.getMillisecond()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -837,8 +851,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#hashCode() public int
-     * javax.xml.datatype.XMLGregorianCalendar.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#hashCode()
+     * public int javax.xml.datatype.XMLGregorianCalendar.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -860,8 +874,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#normalize() public abstract
-     * javax.xml.datatype.XMLGregorianCalendar javax.xml.datatype.XMLGregorianCalendar.normalize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.XMLGregorianCalendar#normalize()
+     * public abstract javax.xml.datatype.XMLGregorianCalendar javax.xml.datatype.XMLGregorianCalendar.normalize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -882,8 +896,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLGregorianCalendar#setMinute(int) public abstract
-     * void javax.xml.datatype.XMLGregorianCalendar.setMinute(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.datatype.XMLGregorianCalendar#setMinute(int) public abstract void
+     * javax.xml.datatype.XMLGregorianCalendar.setMinute(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

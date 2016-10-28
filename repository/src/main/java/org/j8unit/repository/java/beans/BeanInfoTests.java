@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanInfo#getAdditionalBeanInfo() public abstract
-     * java.beans.BeanInfo[] java.beans.BeanInfo.getAdditionalBeanInfo()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.BeanInfo#getAdditionalBeanInfo() public
+     * abstract java.beans.BeanInfo[] java.beans.BeanInfo.getAdditionalBeanInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanInfo#getDefaultPropertyIndex() public abstract
-     * int java.beans.BeanInfo.getDefaultPropertyIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.BeanInfo#getDefaultPropertyIndex() public
+     * abstract int java.beans.BeanInfo.getDefaultPropertyIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanInfo#getMethodDescriptors() public abstract
-     * java.beans.MethodDescriptor[] java.beans.BeanInfo.getMethodDescriptors()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.BeanInfo#getMethodDescriptors() public
+     * abstract java.beans.MethodDescriptor[] java.beans.BeanInfo.getMethodDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanInfo#getIcon(int) public abstract java.awt.Image
-     * java.beans.BeanInfo.getIcon(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.BeanInfo#getIcon(int) public abstract
+     * java.awt.Image java.beans.BeanInfo.getIcon(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanInfo#getBeanDescriptor() public abstract
-     * java.beans.BeanDescriptor java.beans.BeanInfo.getBeanDescriptor()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.BeanInfo#getBeanDescriptor() public
+     * abstract java.beans.BeanDescriptor java.beans.BeanInfo.getBeanDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanInfo#getPropertyDescriptors() public abstract
-     * java.beans.PropertyDescriptor[] java.beans.BeanInfo.getPropertyDescriptors()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.BeanInfo#getPropertyDescriptors() public
+     * abstract java.beans.PropertyDescriptor[] java.beans.BeanInfo.getPropertyDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanInfo#getEventSetDescriptors() public abstract
-     * java.beans.EventSetDescriptor[] java.beans.BeanInfo.getEventSetDescriptors()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.BeanInfo#getEventSetDescriptors() public
+     * abstract java.beans.EventSetDescriptor[] java.beans.BeanInfo.getEventSetDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanInfo#getDefaultEventIndex() public abstract int
-     * java.beans.BeanInfo.getDefaultEventIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.BeanInfo#getDefaultEventIndex() public
+     * abstract int java.beans.BeanInfo.getDefaultEventIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

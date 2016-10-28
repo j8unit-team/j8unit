@@ -1,9 +1,7 @@
 package org.j8unit.repository.javax.sound.sampled;
 
-import javax.sound.sampled.Control.Type;
 import javax.sound.sampled.Line;
 import javax.sound.sampled.Line.Info;
-import javax.sound.sampled.LineListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,9 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Line#addLineListener(LineListener) public abstract
-     * void javax.sound.sampled.Line.addLineListener(javax.sound.sampled.LineListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Line#addLineListener(javax.sound.sampled.LineListener) public abstract void
+     * javax.sound.sampled.Line.addLineListener(javax.sound.sampled.LineListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Line#close() public abstract void
-     * javax.sound.sampled.Line.close()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#close() public abstract
+     * void javax.sound.sampled.Line.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,9 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Line#isControlSupported(Type) public abstract
-     * boolean javax.sound.sampled.Line.isControlSupported(javax.sound.sampled.Control$Type)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Line#isControlSupported(javax.sound.sampled.Control.Type) public abstract boolean
+     * javax.sound.sampled.Line.isControlSupported(javax.sound.sampled.Control$Type)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Line#open() public abstract void
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#open() public abstract void
      * javax.sound.sampled.Line.open() throws javax.sound.sampled.LineUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,9 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Line#removeLineListener(LineListener) public
-     * abstract void javax.sound.sampled.Line.removeLineListener(javax.sound.sampled.LineListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Line#removeLineListener(javax.sound.sampled.LineListener) public abstract void
+     * javax.sound.sampled.Line.removeLineListener(javax.sound.sampled.LineListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +149,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Line#getLineInfo() public abstract
-     * javax.sound.sampled.Line$Info javax.sound.sampled.Line.getLineInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#getLineInfo() public
+     * abstract javax.sound.sampled.Line$Info javax.sound.sampled.Line.getLineInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +171,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Line#getControls() public abstract
-     * javax.sound.sampled.Control[] javax.sound.sampled.Line.getControls()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#getControls() public
+     * abstract javax.sound.sampled.Control[] javax.sound.sampled.Line.getControls()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +193,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Line#getControl(Type) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Line#getControl(javax.sound.sampled.Control.Type) public abstract
      * javax.sound.sampled.Control javax.sound.sampled.Line.getControl(javax.sound.sampled.Control$Type)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,8 +216,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Line#isOpen() public abstract boolean
-     * javax.sound.sampled.Line.isOpen()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#isOpen() public abstract
+     * boolean javax.sound.sampled.Line.isOpen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,8 +265,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Info#getLineClass() public java.lang.Class
-         * <?> javax.sound.sampled.Line$Info.getLineClass()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line.Info#getLineClass()
+         * public java.lang.Class<?> javax.sound.sampled.Line$Info.getLineClass()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -285,7 +287,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Info#matches(Info) public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.Line.Info#matches(javax.sound.sampled.Line.Info) public boolean
          * javax.sound.sampled.Line$Info.matches(javax.sound.sampled.Line$Info)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -307,8 +310,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Info#toString() public java.lang.String
-         * javax.sound.sampled.Line$Info.toString()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line.Info#toString() public
+         * java.lang.String javax.sound.sampled.Line$Info.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

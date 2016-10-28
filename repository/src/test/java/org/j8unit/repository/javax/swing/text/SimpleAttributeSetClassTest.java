@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.AttributeSet;
 import javax.swing.text.SimpleAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.swing.text.SimpleAttributeSetClassTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SimpleAttributeSet#SimpleAttributeSet() public
-     * javax.swing.text.SimpleAttributeSet()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.SimpleAttributeSet#SimpleAttributeSet() public javax.swing.text.SimpleAttributeSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.javax.swing.text.SimpleAttributeSetClassTests<S
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SimpleAttributeSet#SimpleAttributeSet(AttributeSet) public
+     * {@link javax.swing.text.SimpleAttributeSet#SimpleAttributeSet(javax.swing.text.AttributeSet) public
      * javax.swing.text.SimpleAttributeSet(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.javax.swing.text.SimpleAttributeSetClassTests<S
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SimpleAttributeSet sut = null; // = new SimpleAttributeSet(AttributeSet);
+        final SimpleAttributeSet sut = null; // = new SimpleAttributeSet(javax.swing.text.AttributeSet);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.SimpleAttributeSet]

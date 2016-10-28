@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnmarshallerHandler#getResult() public abstract
-     * java.lang.Object javax.xml.bind.UnmarshallerHandler.getResult() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.UnmarshallerHandler#getResult()
+     * public abstract java.lang.Object javax.xml.bind.UnmarshallerHandler.getResult() throws
      * javax.xml.bind.JAXBException,java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

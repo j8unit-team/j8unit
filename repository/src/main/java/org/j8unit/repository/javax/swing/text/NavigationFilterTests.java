@@ -1,9 +1,7 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.JTextComponent;
 import javax.swing.text.NavigationFilter;
 import javax.swing.text.NavigationFilter.FilterBypass;
-import javax.swing.text.Position.Bias;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +36,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NavigationFilter#getNextVisualPositionFrom(JTextComponent, int, Bias, int, Bias[]) public int
+     * {@link javax.swing.text.NavigationFilter#getNextVisualPositionFrom(javax.swing.text.JTextComponent, int, javax.swing.text.Position.Bias, int, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.text.NavigationFilter.getNextVisualPositionFrom(javax.swing.text.JTextComponent,int,javax.swing.text.Position$Bias,int,javax.swing.text.Position$Bias[])
      * throws javax.swing.text.BadLocationException}.
      *
@@ -61,7 +60,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigationFilter#moveDot(FilterBypass, int, Bias)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.NavigationFilter#moveDot(javax.swing.text.NavigationFilter.FilterBypass, int, javax.swing.text.Position.Bias)
      * public void
      * javax.swing.text.NavigationFilter.moveDot(javax.swing.text.NavigationFilter$FilterBypass,int,javax.swing.text.Position$Bias)}
      * .
@@ -85,7 +85,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigationFilter#setDot(FilterBypass, int, Bias)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.NavigationFilter#setDot(javax.swing.text.NavigationFilter.FilterBypass, int, javax.swing.text.Position.Bias)
      * public void
      * javax.swing.text.NavigationFilter.setDot(javax.swing.text.NavigationFilter$FilterBypass,int,javax.swing.text.Position$Bias)}
      * .
@@ -136,8 +137,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link FilterBypass#setDot(int, Bias) public abstract
-         * void javax.swing.text.NavigationFilter$FilterBypass.setDot(int,javax.swing.text.Position$Bias)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.NavigationFilter.FilterBypass#setDot(int, javax.swing.text.Position.Bias) public
+         * abstract void javax.swing.text.NavigationFilter$FilterBypass.setDot(int,javax.swing.text.Position$Bias)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -158,8 +160,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link FilterBypass#moveDot(int, Bias) public abstract
-         * void javax.swing.text.NavigationFilter$FilterBypass.moveDot(int,javax.swing.text.Position$Bias)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.NavigationFilter.FilterBypass#moveDot(int, javax.swing.text.Position.Bias) public
+         * abstract void javax.swing.text.NavigationFilter$FilterBypass.moveDot(int,javax.swing.text.Position$Bias)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -180,8 +183,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link FilterBypass#getCaret() public abstract
-         * javax.swing.text.Caret javax.swing.text.NavigationFilter$FilterBypass.getCaret()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.NavigationFilter.FilterBypass#getCaret() public abstract javax.swing.text.Caret
+         * javax.swing.text.NavigationFilter$FilterBypass.getCaret()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

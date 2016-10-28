@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BadLocationException#offsetRequested() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.BadLocationException#offsetRequested() public int
      * javax.swing.text.BadLocationException.offsetRequested()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.NVList;
 
 /**
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NVList#add_value(String, Any, int) public abstract
-     * org.omg.CORBA.NamedValue org.omg.CORBA.NVList.add_value(java.lang.String,org.omg.CORBA.Any,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.NVList#add_value(String, org.omg.CORBA.Any, int) public abstract org.omg.CORBA.NamedValue
+     * org.omg.CORBA.NVList.add_value(java.lang.String,org.omg.CORBA.Any,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NVList#count() public abstract int
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.NVList#count() public abstract int
      * org.omg.CORBA.NVList.count()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NVList#remove(int) public abstract void
-     * org.omg.CORBA.NVList.remove(int) throws org.omg.CORBA.Bounds}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.NVList#remove(int) public abstract
+     * void org.omg.CORBA.NVList.remove(int) throws org.omg.CORBA.Bounds}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NVList#add_item(String, int) public abstract
-     * org.omg.CORBA.NamedValue org.omg.CORBA.NVList.add_item(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.NVList#add_item(String, int) public
+     * abstract org.omg.CORBA.NamedValue org.omg.CORBA.NVList.add_item(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NVList#add(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.NVList#add(int) public abstract
      * org.omg.CORBA.NamedValue org.omg.CORBA.NVList.add(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NVList#item(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.NVList#item(int) public abstract
      * org.omg.CORBA.NamedValue org.omg.CORBA.NVList.item(int) throws org.omg.CORBA.Bounds}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

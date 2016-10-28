@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.util.zip.CRC32ClassTests<CRC32> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CRC32#CRC32() public java.util.zip.CRC32()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.CRC32#CRC32() public
+     * java.util.zip.CRC32()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

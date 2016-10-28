@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.applet;
 
 import java.applet.AppletContext;
-import java.io.InputStream;
-import java.net.URL;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#showStatus(String) public abstract
-     * void java.applet.AppletContext.showStatus(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletContext#showStatus(String) public
+     * abstract void java.applet.AppletContext.showStatus(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#getStream(String) public abstract
-     * java.io.InputStream java.applet.AppletContext.getStream(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletContext#getStream(String) public
+     * abstract java.io.InputStream java.applet.AppletContext.getStream(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#getStreamKeys() public abstract
-     * java.util.Iterator<java.lang.String> java.applet.AppletContext.getStreamKeys()}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletContext#getStreamKeys() public
+     * abstract java.util.Iterator<java.lang.String> java.applet.AppletContext.getStreamKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#getImage(URL) public abstract
-     * java.awt.Image java.applet.AppletContext.getImage(java.net.URL)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletContext#getImage(java.net.URL)
+     * public abstract java.awt.Image java.applet.AppletContext.getImage(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#getAudioClip(URL) public abstract
-     * java.applet.AudioClip java.applet.AppletContext.getAudioClip(java.net.URL)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletContext#getAudioClip(java.net.URL)
+     * public abstract java.applet.AudioClip java.applet.AppletContext.getAudioClip(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#showDocument(URL) public abstract void
-     * java.applet.AppletContext.showDocument(java.net.URL)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletContext#showDocument(java.net.URL)
+     * public abstract void java.applet.AppletContext.showDocument(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +167,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#showDocument(URL, String) public
-     * abstract void java.applet.AppletContext.showDocument(java.net.URL,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.applet.AppletContext#showDocument(java.net.URL, String) public abstract void
+     * java.applet.AppletContext.showDocument(java.net.URL,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#getApplet(String) public abstract
-     * java.applet.Applet java.applet.AppletContext.getApplet(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletContext#getApplet(String) public
+     * abstract java.applet.Applet java.applet.AppletContext.getApplet(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,9 +212,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#setStream(String, InputStream) public
-     * abstract void java.applet.AppletContext.setStream(java.lang.String,java.io.InputStream) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.applet.AppletContext#setStream(String, java.io.InputStream) public abstract void
+     * java.applet.AppletContext.setStream(java.lang.String,java.io.InputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,8 +235,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppletContext#getApplets() public abstract
-     * java.util.Enumeration<java.applet.Applet> java.applet.AppletContext.getApplets()}.
+     * Test method for the hereby targeted method-under-test {@link java.applet.AppletContext#getApplets() public
+     * abstract java.util.Enumeration<java.applet.Applet> java.applet.AppletContext.getApplets()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

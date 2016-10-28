@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 
 /**
  * <p>
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMSignContext#getNextSibling() public
-     * org.w3c.dom.Node javax.xml.crypto.dsig.dom.DOMSignContext.getNextSibling()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#getNextSibling() public org.w3c.dom.Node
+     * javax.xml.crypto.dsig.dom.DOMSignContext.getNextSibling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMSignContext#getParent() public org.w3c.dom.Node
-     * javax.xml.crypto.dsig.dom.DOMSignContext.getParent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.dom.DOMSignContext#getParent()
+     * public org.w3c.dom.Node javax.xml.crypto.dsig.dom.DOMSignContext.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMSignContext#setParent(Node) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#setParent(org.w3c.dom.Node) public void
      * javax.xml.crypto.dsig.dom.DOMSignContext.setParent(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +102,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMSignContext#setNextSibling(Node) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#setNextSibling(org.w3c.dom.Node) public void
      * javax.xml.crypto.dsig.dom.DOMSignContext.setNextSibling(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

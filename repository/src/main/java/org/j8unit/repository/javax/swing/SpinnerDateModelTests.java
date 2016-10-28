@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#setStart(Comparable) public void
-     * javax.swing.SpinnerDateModel.setStart(java.lang.Comparable)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#setStart(Comparable)
+     * public void javax.swing.SpinnerDateModel.setStart(java.lang.Comparable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#setValue(Object) public void
-     * javax.swing.SpinnerDateModel.setValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#setValue(Object) public
+     * void javax.swing.SpinnerDateModel.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#getStart() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#getStart() public
      * java.lang.Comparable javax.swing.SpinnerDateModel.getStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#getPreviousValue() public
-     * java.lang.Object javax.swing.SpinnerDateModel.getPreviousValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#getPreviousValue()
+     * public java.lang.Object javax.swing.SpinnerDateModel.getPreviousValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#getValue() public java.lang.Object
-     * javax.swing.SpinnerDateModel.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#getValue() public
+     * java.lang.Object javax.swing.SpinnerDateModel.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#setCalendarField(int) public void
-     * javax.swing.SpinnerDateModel.setCalendarField(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#setCalendarField(int)
+     * public void javax.swing.SpinnerDateModel.setCalendarField(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +169,7 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#getEnd() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#getEnd() public
      * java.lang.Comparable javax.swing.SpinnerDateModel.getEnd()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +191,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#getDate() public java.util.Date
-     * javax.swing.SpinnerDateModel.getDate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#getDate() public
+     * java.util.Date javax.swing.SpinnerDateModel.getDate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +213,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#getNextValue() public
-     * java.lang.Object javax.swing.SpinnerDateModel.getNextValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#setEnd(Comparable)
+     * public void javax.swing.SpinnerDateModel.setEnd(java.lang.Comparable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,10 +224,9 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getNextValue()
+    public default void test_setEnd_Comparable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -236,8 +235,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#getCalendarField() public int
-     * javax.swing.SpinnerDateModel.getCalendarField()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#getCalendarField()
+     * public int javax.swing.SpinnerDateModel.getCalendarField()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +257,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerDateModel#setEnd(Comparable) public void
-     * javax.swing.SpinnerDateModel.setEnd(java.lang.Comparable)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#getNextValue() public
+     * java.lang.Object javax.swing.SpinnerDateModel.getNextValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,9 +268,10 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_setEnd_Comparable()
+    public default void test_getNextValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import javax.swing.Action;
-import javax.swing.Icon;
 import javax.swing.JCheckBox;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.javax.swing.JCheckBoxClassTests<JCheckBox> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBox#JCheckBox(Action) public
-     * javax.swing.JCheckBox(javax.swing.Action)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBox#JCheckBox(javax.swing.Action) public javax.swing.JCheckBox(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +38,13 @@ implements org.j8unit.repository.javax.swing.JCheckBoxClassTests<JCheckBox> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JCheckBox sut = null; // = new JCheckBox(Action);
+        final JCheckBox sut = null; // = new JCheckBox(javax.swing.Action);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBox#JCheckBox(String, boolean) public
-     * javax.swing.JCheckBox(java.lang.String,boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBox#JCheckBox(String, boolean) public javax.swing.JCheckBox(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,7 +65,8 @@ implements org.j8unit.repository.javax.swing.JCheckBoxClassTests<JCheckBox> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBox#JCheckBox(String, Icon) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBox#JCheckBox(String, javax.swing.Icon) public
      * javax.swing.JCheckBox(java.lang.String,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,13 +83,14 @@ implements org.j8unit.repository.javax.swing.JCheckBoxClassTests<JCheckBox> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JCheckBox sut = null; // = new JCheckBox(String, Icon);
+        final JCheckBox sut = null; // = new JCheckBox(String, javax.swing.Icon);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBox#JCheckBox(String, Icon, boolean)
-     * public javax.swing.JCheckBox(java.lang.String,javax.swing.Icon,boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBox#JCheckBox(String, javax.swing.Icon, boolean) public
+     * javax.swing.JCheckBox(java.lang.String,javax.swing.Icon,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,12 +106,12 @@ implements org.j8unit.repository.javax.swing.JCheckBoxClassTests<JCheckBox> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JCheckBox sut = null; // = new JCheckBox(String, Icon, boolean);
+        final JCheckBox sut = null; // = new JCheckBox(String, javax.swing.Icon, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBox#JCheckBox() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JCheckBox#JCheckBox() public
      * javax.swing.JCheckBox()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,8 +132,8 @@ implements org.j8unit.repository.javax.swing.JCheckBoxClassTests<JCheckBox> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBox#JCheckBox(Icon) public
-     * javax.swing.JCheckBox(javax.swing.Icon)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBox#JCheckBox(javax.swing.Icon) public javax.swing.JCheckBox(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,12 +149,13 @@ implements org.j8unit.repository.javax.swing.JCheckBoxClassTests<JCheckBox> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JCheckBox sut = null; // = new JCheckBox(Icon);
+        final JCheckBox sut = null; // = new JCheckBox(javax.swing.Icon);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBox#JCheckBox(Icon, boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JCheckBox#JCheckBox(javax.swing.Icon, boolean) public
      * javax.swing.JCheckBox(javax.swing.Icon,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,12 +172,12 @@ implements org.j8unit.repository.javax.swing.JCheckBoxClassTests<JCheckBox> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JCheckBox sut = null; // = new JCheckBox(Icon, boolean);
+        final JCheckBox sut = null; // = new JCheckBox(javax.swing.Icon, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JCheckBox#JCheckBox(String) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JCheckBox#JCheckBox(String) public
      * javax.swing.JCheckBox(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

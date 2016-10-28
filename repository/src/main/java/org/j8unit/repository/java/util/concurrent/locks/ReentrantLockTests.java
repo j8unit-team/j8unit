@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.concurrent.locks;
 
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#unlock() public void
-     * java.util.concurrent.locks.ReentrantLock.unlock()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.ReentrantLock#unlock()
+     * public void java.util.concurrent.locks.ReentrantLock.unlock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#isFair() public final boolean
-     * java.util.concurrent.locks.ReentrantLock.isFair()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.ReentrantLock#isFair()
+     * public final boolean java.util.concurrent.locks.ReentrantLock.isFair()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#tryLock() public boolean
-     * java.util.concurrent.locks.ReentrantLock.tryLock()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.ReentrantLock#tryLock()
+     * public boolean java.util.concurrent.locks.ReentrantLock.tryLock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,7 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#tryLock(long, TimeUnit) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#tryLock(long, java.util.concurrent.TimeUnit) public boolean
      * java.util.concurrent.locks.ReentrantLock.tryLock(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
@@ -129,7 +128,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#getWaitQueueLength(Condition) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#getWaitQueueLength(java.util.concurrent.locks.Condition) public
      * int java.util.concurrent.locks.ReentrantLock.getWaitQueueLength(java.util.concurrent.locks.Condition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,7 +151,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#getQueueLength() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#getQueueLength() public final int
      * java.util.concurrent.locks.ReentrantLock.getQueueLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,8 +174,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#newCondition() public
-     * java.util.concurrent.locks.Condition java.util.concurrent.locks.ReentrantLock.newCondition()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#newCondition() public java.util.concurrent.locks.Condition
+     * java.util.concurrent.locks.ReentrantLock.newCondition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,8 +198,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#isLocked() public boolean
-     * java.util.concurrent.locks.ReentrantLock.isLocked()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.ReentrantLock#isLocked()
+     * public boolean java.util.concurrent.locks.ReentrantLock.isLocked()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,7 +220,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#lockInterruptibly() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#lockInterruptibly() public void
      * java.util.concurrent.locks.ReentrantLock.lockInterruptibly() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,7 +244,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#getHoldCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#getHoldCount() public int
      * java.util.concurrent.locks.ReentrantLock.getHoldCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -263,8 +267,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#hasQueuedThread(Thread) public final
-     * boolean java.util.concurrent.locks.ReentrantLock.hasQueuedThread(java.lang.Thread)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#hasQueuedThread(Thread) public final boolean
+     * java.util.concurrent.locks.ReentrantLock.hasQueuedThread(java.lang.Thread)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -285,7 +290,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#isHeldByCurrentThread() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#isHeldByCurrentThread() public boolean
      * java.util.concurrent.locks.ReentrantLock.isHeldByCurrentThread()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -307,8 +313,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#lock() public void
-     * java.util.concurrent.locks.ReentrantLock.lock()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.ReentrantLock#lock()
+     * public void java.util.concurrent.locks.ReentrantLock.lock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -330,7 +336,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#hasWaiters(Condition) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#hasWaiters(java.util.concurrent.locks.Condition) public boolean
      * java.util.concurrent.locks.ReentrantLock.hasWaiters(java.util.concurrent.locks.Condition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -352,8 +359,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#hasQueuedThreads() public final
-     * boolean java.util.concurrent.locks.ReentrantLock.hasQueuedThreads()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#hasQueuedThreads() public final boolean
+     * java.util.concurrent.locks.ReentrantLock.hasQueuedThreads()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -374,8 +382,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ReentrantLock#toString() public java.lang.String
-     * java.util.concurrent.locks.ReentrantLock.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.ReentrantLock#toString()
+     * public java.lang.String java.util.concurrent.locks.ReentrantLock.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

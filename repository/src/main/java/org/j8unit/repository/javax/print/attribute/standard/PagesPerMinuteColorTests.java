@@ -34,9 +34,9 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PagesPerMinuteColor#getCategory() public final
-     * java.lang.Class<? extends javax.print.attribute.Attribute>
-     * javax.print.attribute.standard.PagesPerMinuteColor.getCategory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.PagesPerMinuteColor#getCategory() public final java.lang.Class<? extends
+     * javax.print.attribute.Attribute> javax.print.attribute.standard.PagesPerMinuteColor.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,8 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PagesPerMinuteColor#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.PagesPerMinuteColor#equals(Object) public boolean
      * javax.print.attribute.standard.PagesPerMinuteColor.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +82,9 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PagesPerMinuteColor#getName() public final
-     * java.lang.String javax.print.attribute.standard.PagesPerMinuteColor.getName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.PagesPerMinuteColor#getName() public final java.lang.String
+     * javax.print.attribute.standard.PagesPerMinuteColor.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

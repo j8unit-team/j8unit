@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.BindingIterator;
 import org.omg.CosNaming.BindingIteratorHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingIteratorHolderClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BindingIteratorHolder#BindingIteratorHolder()
-     * public org.omg.CosNaming.BindingIteratorHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.BindingIteratorHolder#BindingIteratorHolder() public
+     * org.omg.CosNaming.BindingIteratorHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingIteratorHolderClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BindingIteratorHolder#BindingIteratorHolder(BindingIterator) public
+     * {@link org.omg.CosNaming.BindingIteratorHolder#BindingIteratorHolder(org.omg.CosNaming.BindingIterator) public
      * org.omg.CosNaming.BindingIteratorHolder(org.omg.CosNaming.BindingIterator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,7 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingIteratorHolderClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BindingIteratorHolder sut = null; // = new BindingIteratorHolder(BindingIterator);
+        final BindingIteratorHolder sut = null; // = new BindingIteratorHolder(org.omg.CosNaming.BindingIterator);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingIteratorHolder]

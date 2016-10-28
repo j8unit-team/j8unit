@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.BindingClassTests<Binding> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Binding#Binding(String, String, Object, boolean) public
+     * {@link javax.naming.Binding#Binding(String, String, Object, boolean) public
      * javax.naming.Binding(java.lang.String,java.lang.String,java.lang.Object,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,8 @@ implements org.j8unit.repository.javax.naming.BindingClassTests<Binding> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Binding#Binding(String, String, Object) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.Binding#Binding(String, String, Object) public
      * javax.naming.Binding(java.lang.String,java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,7 +67,8 @@ implements org.j8unit.repository.javax.naming.BindingClassTests<Binding> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Binding#Binding(String, Object, boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.Binding#Binding(String, Object, boolean) public
      * javax.naming.Binding(java.lang.String,java.lang.Object,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +90,8 @@ implements org.j8unit.repository.javax.naming.BindingClassTests<Binding> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Binding#Binding(String, Object) public
-     * javax.naming.Binding(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.naming.Binding#Binding(String, Object)
+     * public javax.naming.Binding(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

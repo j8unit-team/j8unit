@@ -35,8 +35,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBElement#setValue(Object) public void
-     * javax.xml.bind.JAXBElement.setValue(T)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#setValue(Object) public
+     * void javax.xml.bind.JAXBElement.setValue(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBElement#getName() public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#getName() public
      * javax.xml.namespace.QName javax.xml.bind.JAXBElement.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBElement#getValue() public T
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#getValue() public T
      * javax.xml.bind.JAXBElement.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,30 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBElement#isTypeSubstituted() public boolean
-     * javax.xml.bind.JAXBElement.isTypeSubstituted()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isTypeSubstituted()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBElement#getScope() public java.lang.Class
-     * javax.xml.bind.JAXBElement.getScope()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#getScope() public
+     * java.lang.Class javax.xml.bind.JAXBElement.getScope()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +123,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBElement#setNil(boolean) public void
-     * javax.xml.bind.JAXBElement.setNil(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#isTypeSubstituted()
+     * public boolean javax.xml.bind.JAXBElement.isTypeSubstituted()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isTypeSubstituted()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#setNil(boolean) public
+     * void javax.xml.bind.JAXBElement.setNil(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBElement#isGlobalScope() public boolean
-     * javax.xml.bind.JAXBElement.isGlobalScope()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#isGlobalScope() public
+     * boolean javax.xml.bind.JAXBElement.isGlobalScope()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,7 +189,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBElement#isNil() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#isNil() public boolean
      * javax.xml.bind.JAXBElement.isNil()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,8 +211,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBElement#getDeclaredType() public java.lang.Class
-     * <T> javax.xml.bind.JAXBElement.getDeclaredType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#getDeclaredType() public
+     * java.lang.Class<T> javax.xml.bind.JAXBElement.getDeclaredType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

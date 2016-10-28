@@ -36,7 +36,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LSResourceResolver#resolveResource(String, String, String, String, String) public abstract
+     * {@link org.w3c.dom.ls.LSResourceResolver#resolveResource(String, String, String, String, String) public abstract
      * org.w3c.dom.ls.LSInput
      * org.w3c.dom.ls.LSResourceResolver.resolveResource(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
      * .

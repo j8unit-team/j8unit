@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management.remote;
 
-import java.util.Map;
-import javax.management.MBeanServer;
 import javax.management.remote.JMXConnectorServerProvider;
-import javax.management.remote.JMXServiceURL;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JMXConnectorServerProvider#newJMXConnectorServer(JMXServiceURL, Map, MBeanServer) public abstract
-     * javax.management.remote.JMXConnectorServer
+     * {@link javax.management.remote.JMXConnectorServerProvider#newJMXConnectorServer(javax.management.remote.JMXServiceURL, java.util.Map, javax.management.MBeanServer)
+     * public abstract javax.management.remote.JMXConnectorServer
      * javax.management.remote.JMXConnectorServerProvider.newJMXConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
      * ?>,javax.management.MBeanServer) throws java.io.IOException}.
      *

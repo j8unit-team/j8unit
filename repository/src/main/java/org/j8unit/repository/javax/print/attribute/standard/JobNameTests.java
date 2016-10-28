@@ -35,7 +35,8 @@ org.j8unit.repository.javax.print.attribute.TextSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobName#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.JobName#equals(Object) public boolean
      * javax.print.attribute.standard.JobName.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +59,8 @@ org.j8unit.repository.javax.print.attribute.TextSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobName#getName() public final java.lang.String
-     * javax.print.attribute.standard.JobName.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.JobName#getName()
+     * public final java.lang.String javax.print.attribute.standard.JobName.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,9 @@ org.j8unit.repository.javax.print.attribute.TextSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobName#getCategory() public final java.lang.Class<?
-     * extends javax.print.attribute.Attribute> javax.print.attribute.standard.JobName.getCategory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.JobName#getCategory()
+     * public final java.lang.Class<? extends javax.print.attribute.Attribute>
+     * javax.print.attribute.standard.JobName.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

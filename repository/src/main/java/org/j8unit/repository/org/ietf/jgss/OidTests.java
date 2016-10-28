@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Oid#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.Oid#equals(Object) public boolean
      * org.ietf.jgss.Oid.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Oid#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.Oid#hashCode() public int
      * org.ietf.jgss.Oid.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Oid#getDER() public byte[]
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.Oid#getDER() public byte[]
      * org.ietf.jgss.Oid.getDER() throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Oid#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.Oid#toString() public java.lang.String
      * org.ietf.jgss.Oid.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Oid#containedIn(Oid[]) public boolean
-     * org.ietf.jgss.Oid.containedIn(org.ietf.jgss.Oid[])}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.Oid#containedIn(org.ietf.jgss.Oid[])
+     * public boolean org.ietf.jgss.Oid.containedIn(org.ietf.jgss.Oid[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

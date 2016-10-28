@@ -1,11 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.PrintStream;
-import java.io.PrintWriter;
-import java.io.Reader;
-import java.io.Writer;
 import java.util.Properties;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,8 +34,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#getProperty(String, String) public
-     * java.lang.String java.util.Properties.getProperty(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#getProperty(String, String)
+     * public java.lang.String java.util.Properties.getProperty(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +56,7 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#getProperty(String) public
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#getProperty(String) public
      * java.lang.String java.util.Properties.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +78,7 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#stringPropertyNames() public
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#stringPropertyNames() public
      * java.util.Set<java.lang.String> java.util.Properties.stringPropertyNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +100,9 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#loadFromXML(InputStream) public
-     * synchronized void java.util.Properties.loadFromXML(java.io.InputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Properties#loadFromXML(java.io.InputStream) public synchronized void
+     * java.util.Properties.loadFromXML(java.io.InputStream) throws
      * java.io.IOException,java.util.InvalidPropertiesFormatException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +124,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#store(OutputStream, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Properties#store(java.io.OutputStream, String) public void
      * java.util.Properties.store(java.io.OutputStream,java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +147,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#store(Writer, String) public void
-     * java.util.Properties.store(java.io.Writer,java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#store(java.io.Writer, String)
+     * public void java.util.Properties.store(java.io.Writer,java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,7 +169,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#save(OutputStream, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Properties#save(java.io.OutputStream, String) public void
      * java.util.Properties.save(java.io.OutputStream,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,8 +192,9 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#storeToXML(OutputStream, String, String)
-     * public void java.util.Properties.storeToXML(java.io.OutputStream,java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Properties#storeToXML(java.io.OutputStream, String, String) public void
+     * java.util.Properties.storeToXML(java.io.OutputStream,java.lang.String,java.lang.String) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -218,8 +216,9 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#storeToXML(OutputStream, String) public
-     * void java.util.Properties.storeToXML(java.io.OutputStream,java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Properties#storeToXML(java.io.OutputStream, String) public void
+     * java.util.Properties.storeToXML(java.io.OutputStream,java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,8 +239,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#list(PrintWriter) public void
-     * java.util.Properties.list(java.io.PrintWriter)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#list(java.io.PrintWriter)
+     * public void java.util.Properties.list(java.io.PrintWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -262,8 +261,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#list(PrintStream) public void
-     * java.util.Properties.list(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#list(java.io.PrintStream)
+     * public void java.util.Properties.list(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -284,8 +283,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#setProperty(String, String) public
-     * synchronized java.lang.Object java.util.Properties.setProperty(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#setProperty(String, String)
+     * public synchronized java.lang.Object java.util.Properties.setProperty(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -306,7 +305,7 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#propertyNames() public
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#propertyNames() public
      * java.util.Enumeration<?> java.util.Properties.propertyNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -328,8 +327,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#load(InputStream) public synchronized
-     * void java.util.Properties.load(java.io.InputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#load(java.io.InputStream)
+     * public synchronized void java.util.Properties.load(java.io.InputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -350,8 +349,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Properties#load(Reader) public synchronized void
-     * java.util.Properties.load(java.io.Reader) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Properties#load(java.io.Reader) public
+     * synchronized void java.util.Properties.load(java.io.Reader) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

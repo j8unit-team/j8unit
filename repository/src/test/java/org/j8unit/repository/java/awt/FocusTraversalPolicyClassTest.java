@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.FocusTraversalPolicyClassTests<FocusTr
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FocusTraversalPolicy#FocusTraversalPolicy()
-     * public java.awt.FocusTraversalPolicy()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.FocusTraversalPolicy#FocusTraversalPolicy() public java.awt.FocusTraversalPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

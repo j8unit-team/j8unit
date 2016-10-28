@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.image.DataBuffer;
 import java.awt.image.SinglePixelPackedSampleModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#getDataElements(int, int, Object, DataBuffer) public java.lang.Object
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getDataElements(int, int, Object, java.awt.image.DataBuffer)
+     * public java.lang.Object
      * java.awt.image.SinglePixelPackedSampleModel.getDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#setDataElements(int, int, Object, DataBuffer) public void
+     * {@link java.awt.image.SinglePixelPackedSampleModel#setDataElements(int, int, Object, java.awt.image.DataBuffer)
+     * public void
      * java.awt.image.SinglePixelPackedSampleModel.setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +85,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#setSample(int, int, int, int, DataBuffer) public void
-     * java.awt.image.SinglePixelPackedSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.SinglePixelPackedSampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer)
+     * public void java.awt.image.SinglePixelPackedSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +109,7 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#getSample(int, int, int, DataBuffer) public int
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getSample(int, int, int, java.awt.image.DataBuffer) public int
      * java.awt.image.SinglePixelPackedSampleModel.getSample(int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +132,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#createDataBuffer()
-     * public java.awt.image.DataBuffer java.awt.image.SinglePixelPackedSampleModel.createDataBuffer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#createDataBuffer() public java.awt.image.DataBuffer
+     * java.awt.image.SinglePixelPackedSampleModel.createDataBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,8 +156,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#getScanlineStride()
-     * public int java.awt.image.SinglePixelPackedSampleModel.getScanlineStride()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getScanlineStride() public int
+     * java.awt.image.SinglePixelPackedSampleModel.getScanlineStride()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,8 +179,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#equals(Object) public
-     * boolean java.awt.image.SinglePixelPackedSampleModel.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#equals(Object) public boolean
+     * java.awt.image.SinglePixelPackedSampleModel.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,7 +204,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#getPixels(int, int, int, int, int[], DataBuffer) public int[]
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getPixels(int, int, int, int, int[], java.awt.image.DataBuffer)
+     * public int[]
      * java.awt.image.SinglePixelPackedSampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -224,8 +229,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
-     * java.awt.image.SinglePixelPackedSampleModel.createCompatibleSampleModel(int,int)}.
+     * {@link java.awt.image.SinglePixelPackedSampleModel#createCompatibleSampleModel(int, int) public
+     * java.awt.image.SampleModel java.awt.image.SinglePixelPackedSampleModel.createCompatibleSampleModel(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,7 +252,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#hashCode() public int
      * java.awt.image.SinglePixelPackedSampleModel.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -270,8 +276,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#getSampleSize() public
-     * int[] java.awt.image.SinglePixelPackedSampleModel.getSampleSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getSampleSize() public int[]
+     * java.awt.image.SinglePixelPackedSampleModel.getSampleSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,8 +300,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#getSampleSize(int)
-     * public int java.awt.image.SinglePixelPackedSampleModel.getSampleSize(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getSampleSize(int) public int
+     * java.awt.image.SinglePixelPackedSampleModel.getSampleSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -317,8 +325,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#getPixel(int, int, int[], DataBuffer) public int[]
-     * java.awt.image.SinglePixelPackedSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getPixel(int, int, int[], java.awt.image.DataBuffer) public
+     * int[] java.awt.image.SinglePixelPackedSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -340,8 +348,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#getNumDataElements()
-     * public int java.awt.image.SinglePixelPackedSampleModel.getNumDataElements()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getNumDataElements() public int
+     * java.awt.image.SinglePixelPackedSampleModel.getNumDataElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -363,8 +372,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#getBitMasks() public
-     * int[] java.awt.image.SinglePixelPackedSampleModel.getBitMasks()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getBitMasks() public int[]
+     * java.awt.image.SinglePixelPackedSampleModel.getBitMasks()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -385,8 +395,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#getBitOffsets() public
-     * int[] java.awt.image.SinglePixelPackedSampleModel.getBitOffsets()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getBitOffsets() public int[]
+     * java.awt.image.SinglePixelPackedSampleModel.getBitOffsets()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -408,8 +419,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#setPixel(int, int, int[], DataBuffer) public void
-     * java.awt.image.SinglePixelPackedSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.SinglePixelPackedSampleModel#setPixel(int, int, int[], java.awt.image.DataBuffer) public
+     * void java.awt.image.SinglePixelPackedSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -432,7 +443,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#setSamples(int, int, int, int, int, int[], DataBuffer) public void
+     * {@link java.awt.image.SinglePixelPackedSampleModel#setSamples(int, int, int, int, int, int[], java.awt.image.DataBuffer)
+     * public void
      * java.awt.image.SinglePixelPackedSampleModel.setSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -456,8 +468,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#createSubsetSampleModel(int[]) public java.awt.image.SampleModel
-     * java.awt.image.SinglePixelPackedSampleModel.createSubsetSampleModel(int[])}.
+     * {@link java.awt.image.SinglePixelPackedSampleModel#createSubsetSampleModel(int[]) public
+     * java.awt.image.SampleModel java.awt.image.SinglePixelPackedSampleModel.createSubsetSampleModel(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -480,7 +492,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#setPixels(int, int, int, int, int[], DataBuffer) public void
+     * {@link java.awt.image.SinglePixelPackedSampleModel#setPixels(int, int, int, int, int[], java.awt.image.DataBuffer)
+     * public void
      * java.awt.image.SinglePixelPackedSampleModel.setPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -504,7 +517,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SinglePixelPackedSampleModel#getSamples(int, int, int, int, int, int[], DataBuffer) public int[]
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getSamples(int, int, int, int, int, int[], java.awt.image.DataBuffer)
+     * public int[]
      * java.awt.image.SinglePixelPackedSampleModel.getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -527,8 +541,9 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SinglePixelPackedSampleModel#getOffset(int, int)
-     * public int java.awt.image.SinglePixelPackedSampleModel.getOffset(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SinglePixelPackedSampleModel#getOffset(int, int) public int
+     * java.awt.image.SinglePixelPackedSampleModel.getOffset(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

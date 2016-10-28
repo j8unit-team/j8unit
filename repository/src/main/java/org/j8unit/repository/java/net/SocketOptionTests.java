@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketOption#type() public abstract java.lang.Class
-     * <T> java.net.SocketOption.type()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.SocketOption#type() public abstract
+     * java.lang.Class<T> java.net.SocketOption.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SocketOption#name() public abstract java.lang.String
-     * java.net.SocketOption.name()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.SocketOption#name() public abstract
+     * java.lang.String java.net.SocketOption.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

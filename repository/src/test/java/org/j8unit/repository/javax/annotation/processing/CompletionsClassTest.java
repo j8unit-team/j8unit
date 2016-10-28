@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.annotation.processing.CompletionsClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Completions#of(String, String) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.annotation.processing.Completions#of(String, String) public static
      * javax.annotation.processing.Completion
      * javax.annotation.processing.Completions.of(java.lang.String,java.lang.String)}.
      *
@@ -37,13 +38,14 @@ implements org.j8unit.repository.javax.annotation.processing.CompletionsClassTes
     @Category(Draft.class)
     public void test_of_String_String()
     throws Exception {
-        // write some test for {@link Completions#of(String, String)}
+        // write some test for {@link javax.annotation.processing.Completions#of(String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Completions#of(String) public static
-     * javax.annotation.processing.Completion javax.annotation.processing.Completions.of(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.processing.Completions#of(String)
+     * public static javax.annotation.processing.Completion
+     * javax.annotation.processing.Completions.of(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +59,7 @@ implements org.j8unit.repository.javax.annotation.processing.CompletionsClassTes
     @Category(Draft.class)
     public void test_of_String()
     throws Exception {
-        // write some test for {@link Completions#of(String)}
+        // write some test for {@link javax.annotation.processing.Completions#of(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.Completions]

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.event;
 
 import javax.swing.event.CellEditorListener;
-import javax.swing.event.ChangeEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CellEditorListener#editingCanceled(ChangeEvent)
-     * public abstract void javax.swing.event.CellEditorListener.editingCanceled(javax.swing.event.ChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.CellEditorListener#editingCanceled(javax.swing.event.ChangeEvent) public abstract void
+     * javax.swing.event.CellEditorListener.editingCanceled(javax.swing.event.ChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CellEditorListener#editingStopped(ChangeEvent)
-     * public abstract void javax.swing.event.CellEditorListener.editingStopped(javax.swing.event.ChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.CellEditorListener#editingStopped(javax.swing.event.ChangeEvent) public abstract void
+     * javax.swing.event.CellEditorListener.editingStopped(javax.swing.event.ChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

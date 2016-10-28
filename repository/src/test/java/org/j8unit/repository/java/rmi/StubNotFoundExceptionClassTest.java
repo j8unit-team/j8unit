@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.StubNotFoundExceptionClassTests<StubNo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StubNotFoundException#StubNotFoundException(String) public
+     * {@link java.rmi.StubNotFoundException#StubNotFoundException(String) public
      * java.rmi.StubNotFoundException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.rmi.StubNotFoundExceptionClassTests<StubNo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StubNotFoundException#StubNotFoundException(String, Exception) public
+     * {@link java.rmi.StubNotFoundException#StubNotFoundException(String, Exception) public
      * java.rmi.StubNotFoundException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

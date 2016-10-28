@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.BoundedRangeModel;
-import javax.swing.event.ChangeListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#getExtent() public abstract int
-     * javax.swing.BoundedRangeModel.getExtent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoundedRangeModel#getExtent() public
+     * abstract int javax.swing.BoundedRangeModel.getExtent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#getValue() public abstract int
-     * javax.swing.BoundedRangeModel.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoundedRangeModel#getValue() public
+     * abstract int javax.swing.BoundedRangeModel.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BoundedRangeModel#removeChangeListener(ChangeListener) public abstract void
+     * {@link javax.swing.BoundedRangeModel#removeChangeListener(javax.swing.event.ChangeListener) public abstract void
      * javax.swing.BoundedRangeModel.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +102,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#setValueIsAdjusting(boolean)
-     * public abstract void javax.swing.BoundedRangeModel.setValueIsAdjusting(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoundedRangeModel#setValueIsAdjusting(boolean) public abstract void
+     * javax.swing.BoundedRangeModel.setValueIsAdjusting(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#setMaximum(int) public abstract
-     * void javax.swing.BoundedRangeModel.setMaximum(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoundedRangeModel#setMaximum(int) public
+     * abstract void javax.swing.BoundedRangeModel.setMaximum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#setValue(int) public abstract void
-     * javax.swing.BoundedRangeModel.setValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoundedRangeModel#setValue(int) public
+     * abstract void javax.swing.BoundedRangeModel.setValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +169,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#getMinimum() public abstract int
-     * javax.swing.BoundedRangeModel.getMinimum()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoundedRangeModel#getMinimum() public
+     * abstract int javax.swing.BoundedRangeModel.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +192,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BoundedRangeModel#setRangeProperties(int, int, int, int, boolean) public abstract void
+     * {@link javax.swing.BoundedRangeModel#setRangeProperties(int, int, int, int, boolean) public abstract void
      * javax.swing.BoundedRangeModel.setRangeProperties(int,int,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,8 +214,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#setExtent(int) public abstract
-     * void javax.swing.BoundedRangeModel.setExtent(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoundedRangeModel#setExtent(int) public
+     * abstract void javax.swing.BoundedRangeModel.setExtent(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,8 +236,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#getValueIsAdjusting() public
-     * abstract boolean javax.swing.BoundedRangeModel.getValueIsAdjusting()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoundedRangeModel#getValueIsAdjusting()
+     * public abstract boolean javax.swing.BoundedRangeModel.getValueIsAdjusting()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +258,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#getMaximum() public abstract int
-     * javax.swing.BoundedRangeModel.getMaximum()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoundedRangeModel#getMaximum() public
+     * abstract int javax.swing.BoundedRangeModel.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,8 +280,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#addChangeListener(ChangeListener)
-     * public abstract void javax.swing.BoundedRangeModel.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoundedRangeModel#addChangeListener(javax.swing.event.ChangeListener) public abstract void
+     * javax.swing.BoundedRangeModel.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,8 +303,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoundedRangeModel#setMinimum(int) public abstract
-     * void javax.swing.BoundedRangeModel.setMinimum(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoundedRangeModel#setMinimum(int) public
+     * abstract void javax.swing.BoundedRangeModel.setMinimum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

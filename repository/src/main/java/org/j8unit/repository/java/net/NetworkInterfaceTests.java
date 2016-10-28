@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#isPointToPoint() public boolean
-     * java.net.NetworkInterface.isPointToPoint() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#isPointToPoint() public
+     * boolean java.net.NetworkInterface.isPointToPoint() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getInterfaceAddresses() public
-     * java.util.List<java.net.InterfaceAddress> java.net.NetworkInterface.getInterfaceAddresses()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getInterfaceAddresses()
+     * public java.util.List<java.net.InterfaceAddress> java.net.NetworkInterface.getInterfaceAddresses()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getParent() public
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getParent() public
      * java.net.NetworkInterface java.net.NetworkInterface.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getName() public java.lang.String
-     * java.net.NetworkInterface.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getName() public
+     * java.lang.String java.net.NetworkInterface.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getIndex() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getIndex() public int
      * java.net.NetworkInterface.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#supportsMulticast() public boolean
-     * java.net.NetworkInterface.supportsMulticast() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#supportsMulticast() public
+     * boolean java.net.NetworkInterface.supportsMulticast() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +166,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getSubInterfaces() public
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getSubInterfaces() public
      * java.util.Enumeration<java.net.NetworkInterface> java.net.NetworkInterface.getSubInterfaces()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,8 +188,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#isLoopback() public boolean
-     * java.net.NetworkInterface.isLoopback() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#isLoopback() public
+     * boolean java.net.NetworkInterface.isLoopback() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +210,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getHardwareAddress() public byte[]
-     * java.net.NetworkInterface.getHardwareAddress() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getHardwareAddress()
+     * public byte[] java.net.NetworkInterface.getHardwareAddress() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +232,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#toString() public java.lang.String
-     * java.net.NetworkInterface.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#toString() public
+     * java.lang.String java.net.NetworkInterface.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#isVirtual() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#isVirtual() public boolean
      * java.net.NetworkInterface.isVirtual()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,7 +277,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getInetAddresses() public
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getInetAddresses() public
      * java.util.Enumeration<java.net.InetAddress> java.net.NetworkInterface.getInetAddresses()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -299,7 +299,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getMTU() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getMTU() public int
      * java.net.NetworkInterface.getMTU() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -321,7 +321,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#isUp() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#isUp() public boolean
      * java.net.NetworkInterface.isUp() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -343,7 +343,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#getDisplayName() public
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#getDisplayName() public
      * java.lang.String java.net.NetworkInterface.getDisplayName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -365,7 +365,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#hashCode() public int
      * java.net.NetworkInterface.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -388,8 +388,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NetworkInterface#equals(Object) public boolean
-     * java.net.NetworkInterface.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.NetworkInterface#equals(Object) public
+     * boolean java.net.NetworkInterface.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.KeyPair;
-import java.security.PrivateKey;
-import java.security.PublicKey;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.java.security.KeyPairClassTests<KeyPair> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KeyPair#KeyPair(PublicKey, PrivateKey) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.KeyPair#KeyPair(java.security.PublicKey, java.security.PrivateKey) public
      * java.security.KeyPair(java.security.PublicKey,java.security.PrivateKey)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.java.security.KeyPairClassTests<KeyPair> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final KeyPair sut = null; // = new KeyPair(PublicKey, PrivateKey);
+        final KeyPair sut = null; // = new KeyPair(java.security.PublicKey, java.security.PrivateKey);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyPair]

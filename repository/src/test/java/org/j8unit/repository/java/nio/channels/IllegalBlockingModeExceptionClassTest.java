@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.IllegalBlockingModeExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalBlockingModeException#IllegalBlockingModeException() public
+     * {@link java.nio.channels.IllegalBlockingModeException#IllegalBlockingModeException() public
      * java.nio.channels.IllegalBlockingModeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.sql.rowset.BaseRowSetClassTests<BaseRowSe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BaseRowSet#BaseRowSet() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.sql.rowset.BaseRowSet#BaseRowSet() public
      * javax.sql.rowset.BaseRowSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

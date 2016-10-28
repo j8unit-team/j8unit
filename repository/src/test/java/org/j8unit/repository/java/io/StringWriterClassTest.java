@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.io.StringWriterClassTests<StringWriter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringWriter#StringWriter() public
+     * Test method for the hereby targeted constructor-under-test {@link java.io.StringWriter#StringWriter() public
      * java.io.StringWriter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.io.StringWriterClassTests<StringWriter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringWriter#StringWriter(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.io.StringWriter#StringWriter(int) public
      * java.io.StringWriter(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.KeyPairGeneratorSpi;
-import java.security.SecureRandom;
-import java.security.spec.AlgorithmParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyPairGeneratorSpi#initialize(int, SecureRandom)
-     * public abstract void java.security.KeyPairGeneratorSpi.initialize(int,java.security.SecureRandom)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyPairGeneratorSpi#initialize(int, java.security.SecureRandom) public abstract void
+     * java.security.KeyPairGeneratorSpi.initialize(int,java.security.SecureRandom)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyPairGeneratorSpi#initialize(AlgorithmParameterSpec, SecureRandom) public void
+     * {@link java.security.KeyPairGeneratorSpi#initialize(java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom)
+     * public void
      * java.security.KeyPairGeneratorSpi.initialize(java.security.spec.AlgorithmParameterSpec,java.security.SecureRandom)
      * throws java.security.InvalidAlgorithmParameterException}.
      *
@@ -82,8 +82,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyPairGeneratorSpi#generateKeyPair() public
-     * abstract java.security.KeyPair java.security.KeyPairGeneratorSpi.generateKeyPair()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyPairGeneratorSpi#generateKeyPair()
+     * public abstract java.security.KeyPair java.security.KeyPairGeneratorSpi.generateKeyPair()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

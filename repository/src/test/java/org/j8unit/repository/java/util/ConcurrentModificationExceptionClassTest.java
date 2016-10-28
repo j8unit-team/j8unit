@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.ConcurrentModificationExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConcurrentModificationException#ConcurrentModificationException(String, Throwable) public
+     * {@link java.util.ConcurrentModificationException#ConcurrentModificationException(String, Throwable) public
      * java.util.ConcurrentModificationException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.ConcurrentModificationExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConcurrentModificationException#ConcurrentModificationException(Throwable) public
+     * {@link java.util.ConcurrentModificationException#ConcurrentModificationException(Throwable) public
      * java.util.ConcurrentModificationException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.util.ConcurrentModificationExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConcurrentModificationException#ConcurrentModificationException(String) public
+     * {@link java.util.ConcurrentModificationException#ConcurrentModificationException(String) public
      * java.util.ConcurrentModificationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.java.util.ConcurrentModificationExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConcurrentModificationException#ConcurrentModificationException() public
+     * {@link java.util.ConcurrentModificationException#ConcurrentModificationException() public
      * java.util.ConcurrentModificationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

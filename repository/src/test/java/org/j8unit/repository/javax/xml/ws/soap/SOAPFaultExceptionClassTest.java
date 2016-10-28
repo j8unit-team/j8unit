@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.ws.soap;
 
-import javax.xml.soap.SOAPFault;
 import javax.xml.ws.soap.SOAPFaultException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.xml.ws.soap.SOAPFaultExceptionClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SOAPFaultException#SOAPFaultException(SOAPFault) public
+     * {@link javax.xml.ws.soap.SOAPFaultException#SOAPFaultException(javax.xml.soap.SOAPFault) public
      * javax.xml.ws.soap.SOAPFaultException(javax.xml.soap.SOAPFault)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.xml.ws.soap.SOAPFaultExceptionClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SOAPFaultException sut = null; // = new SOAPFaultException(SOAPFault);
+        final SOAPFaultException sut = null; // = new SOAPFaultException(javax.xml.soap.SOAPFault);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.SOAPFaultException]

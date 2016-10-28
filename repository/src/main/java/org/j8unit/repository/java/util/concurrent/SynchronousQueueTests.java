@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.AbstractQueue;
-import java.util.Collection;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.SynchronousQueue;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +35,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#spliterator() public
-     * java.util.Spliterator<E> java.util.concurrent.SynchronousQueue.spliterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#spliterator()
+     * public java.util.Spliterator<E> java.util.concurrent.SynchronousQueue.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +58,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#containsAll(Collection) public
-     * boolean java.util.concurrent.SynchronousQueue.containsAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#containsAll(java.util.Collection) public boolean
+     * java.util.concurrent.SynchronousQueue.containsAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +82,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#drainTo(Collection, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#drainTo(java.util.Collection, int) public int
      * java.util.concurrent.SynchronousQueue.drainTo(java.util.Collection<? super E>,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,7 +106,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#drainTo(Collection) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#drainTo(java.util.Collection) public int
      * java.util.concurrent.SynchronousQueue.drainTo(java.util.Collection<? super E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +130,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#peek() public E
-     * java.util.concurrent.SynchronousQueue.peek()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#peek() public
+     * E java.util.concurrent.SynchronousQueue.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,8 +153,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#put(Object) public void
-     * java.util.concurrent.SynchronousQueue.put(E) throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#put(Object)
+     * public void java.util.concurrent.SynchronousQueue.put(E) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +176,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#remove(Object) public boolean
-     * java.util.concurrent.SynchronousQueue.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#remove(Object)
+     * public boolean java.util.concurrent.SynchronousQueue.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +199,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#isEmpty() public boolean
-     * java.util.concurrent.SynchronousQueue.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#isEmpty()
+     * public boolean java.util.concurrent.SynchronousQueue.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,8 +222,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#clear() public void
-     * java.util.concurrent.SynchronousQueue.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#clear() public
+     * void java.util.concurrent.SynchronousQueue.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -246,7 +245,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#poll(long, TimeUnit) public E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#poll(long, java.util.concurrent.TimeUnit) public E
      * java.util.concurrent.SynchronousQueue.poll(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
@@ -270,8 +270,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#poll() public E
-     * java.util.concurrent.SynchronousQueue.poll()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#poll() public
+     * E java.util.concurrent.SynchronousQueue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,8 +293,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#size() public int
-     * java.util.concurrent.SynchronousQueue.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#size() public
+     * int java.util.concurrent.SynchronousQueue.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -316,8 +316,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#take() public E
-     * java.util.concurrent.SynchronousQueue.take() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#take() public
+     * E java.util.concurrent.SynchronousQueue.take() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -339,8 +339,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#offer(Object) public boolean
-     * java.util.concurrent.SynchronousQueue.offer(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#offer(Object)
+     * public boolean java.util.concurrent.SynchronousQueue.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -362,8 +362,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#offer(Object, long, TimeUnit)
-     * public boolean java.util.concurrent.SynchronousQueue.offer(E,long,java.util.concurrent.TimeUnit) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#offer(Object, long, java.util.concurrent.TimeUnit) public boolean
+     * java.util.concurrent.SynchronousQueue.offer(E,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -386,8 +387,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#removeAll(Collection) public
-     * boolean java.util.concurrent.SynchronousQueue.removeAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#removeAll(java.util.Collection) public boolean
+     * java.util.concurrent.SynchronousQueue.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,8 +411,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#iterator() public
-     * java.util.Iterator<E> java.util.concurrent.SynchronousQueue.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#iterator()
+     * public java.util.Iterator<E> java.util.concurrent.SynchronousQueue.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -432,7 +434,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#contains(Object) public boolean
      * java.util.concurrent.SynchronousQueue.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -455,7 +458,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#remainingCapacity() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#remainingCapacity() public int
      * java.util.concurrent.SynchronousQueue.remainingCapacity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -478,8 +482,9 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#retainAll(Collection) public
-     * boolean java.util.concurrent.SynchronousQueue.retainAll(java.util.Collection<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#retainAll(java.util.Collection) public boolean
+     * java.util.concurrent.SynchronousQueue.retainAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -501,7 +506,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#toArray(Object[]) public <T> T[]
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.SynchronousQueue#toArray(Object[]) public <T> T[]
      * java.util.concurrent.SynchronousQueue.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -524,8 +530,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynchronousQueue#toArray() public java.lang.Object[]
-     * java.util.concurrent.SynchronousQueue.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.SynchronousQueue#toArray()
+     * public java.lang.Object[] java.util.concurrent.SynchronousQueue.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -551,8 +557,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link AbstractQueue#add(Object) class java.util.AbstractQueue}</li>
-     * <li>{@link BlockingQueue#add(Object) interface java.util.concurrent.BlockingQueue}</li>
+     * <li>{@link java.util.AbstractQueue#add(Object) class java.util.AbstractQueue}</li>
+     * <li>{@link java.util.concurrent.BlockingQueue#add(Object) interface java.util.concurrent.BlockingQueue}</li>
      * </ul>
      *
      * <p>

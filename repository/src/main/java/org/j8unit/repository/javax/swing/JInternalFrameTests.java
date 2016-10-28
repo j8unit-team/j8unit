@@ -1,18 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Cursor;
-import java.awt.LayoutManager;
-import java.awt.Rectangle;
-import javax.swing.Icon;
 import javax.swing.JInternalFrame;
 import javax.swing.JInternalFrame.JDesktopIcon;
-import javax.swing.JLayeredPane;
-import javax.swing.JMenuBar;
-import javax.swing.event.InternalFrameListener;
-import javax.swing.plaf.DesktopIconUI;
-import javax.swing.plaf.InternalFrameUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -47,7 +36,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setLayer(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setLayer(int) public void
      * javax.swing.JInternalFrame.setLayer(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +58,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setLayer(Integer) public void
-     * javax.swing.JInternalFrame.setLayer(java.lang.Integer)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setLayer(Integer) public
+     * void javax.swing.JInternalFrame.setLayer(java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -91,8 +80,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setMaximum(boolean) public void
-     * javax.swing.JInternalFrame.setMaximum(boolean) throws java.beans.PropertyVetoException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setMaximum(boolean)
+     * public void javax.swing.JInternalFrame.setMaximum(boolean) throws java.beans.PropertyVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -113,7 +102,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setJMenuBar(JMenuBar) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setJMenuBar(javax.swing.JMenuBar) public void
      * javax.swing.JInternalFrame.setJMenuBar(javax.swing.JMenuBar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,7 +125,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#moveToFront() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#moveToFront() public void
      * javax.swing.JInternalFrame.moveToFront()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -157,7 +147,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#remove(Component) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#remove(java.awt.Component) public void
      * javax.swing.JInternalFrame.remove(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -180,7 +171,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#updateUI() public void
      * javax.swing.JInternalFrame.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -203,7 +194,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#show() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#show() public void
      * javax.swing.JInternalFrame.show()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -226,7 +217,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getUIClassID() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getUIClassID() public
      * java.lang.String javax.swing.JInternalFrame.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -249,8 +240,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getInternalFrameListeners() public
-     * javax.swing.event.InternalFrameListener[] javax.swing.JInternalFrame.getInternalFrameListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#getInternalFrameListeners() public javax.swing.event.InternalFrameListener[]
+     * javax.swing.JInternalFrame.getInternalFrameListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -271,8 +263,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#isFocusCycleRoot() public final
-     * boolean javax.swing.JInternalFrame.isFocusCycleRoot()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isFocusCycleRoot() public
+     * final boolean javax.swing.JInternalFrame.isFocusCycleRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -294,8 +286,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#isMaximum() public boolean
-     * javax.swing.JInternalFrame.isMaximum()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isMaximum() public
+     * boolean javax.swing.JInternalFrame.isMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -316,7 +308,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getNormalBounds() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getNormalBounds() public
      * java.awt.Rectangle javax.swing.JInternalFrame.getNormalBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -338,8 +330,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setClosable(boolean) public void
-     * javax.swing.JInternalFrame.setClosable(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setClosable(boolean)
+     * public void javax.swing.JInternalFrame.setClosable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -360,8 +352,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#isSelected() public boolean
-     * javax.swing.JInternalFrame.isSelected()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isSelected() public
+     * boolean javax.swing.JInternalFrame.isSelected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -382,7 +374,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getLayeredPane() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getLayeredPane() public
      * javax.swing.JLayeredPane javax.swing.JInternalFrame.getLayeredPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -405,8 +397,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setResizable(boolean) public void
-     * javax.swing.JInternalFrame.setResizable(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setResizable(boolean)
+     * public void javax.swing.JInternalFrame.setResizable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -427,7 +419,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#isIcon() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isIcon() public boolean
      * javax.swing.JInternalFrame.isIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -449,7 +441,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getDesktopPane() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getDesktopPane() public
      * javax.swing.JDesktopPane javax.swing.JInternalFrame.getDesktopPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -471,8 +463,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#doDefaultCloseAction() public void
-     * javax.swing.JInternalFrame.doDefaultCloseAction()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#doDefaultCloseAction()
+     * public void javax.swing.JInternalFrame.doDefaultCloseAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -493,8 +485,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JInternalFrame.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JInternalFrame.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -516,30 +508,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#restoreSubcomponentFocus() public
-     * void javax.swing.JInternalFrame.restoreSubcomponentFocus()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_restoreSubcomponentFocus()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#isClosable() public boolean
-     * javax.swing.JInternalFrame.isClosable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isClosable() public
+     * boolean javax.swing.JInternalFrame.isClosable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -560,7 +530,30 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getContentPane() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#restoreSubcomponentFocus() public void
+     * javax.swing.JInternalFrame.restoreSubcomponentFocus()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_restoreSubcomponentFocus()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getContentPane() public
      * java.awt.Container javax.swing.JInternalFrame.getContentPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -583,29 +576,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getDesktopIcon() public
-     * javax.swing.JInternalFrame$JDesktopIcon javax.swing.JInternalFrame.getDesktopIcon()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDesktopIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#isClosed() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isClosed() public boolean
      * javax.swing.JInternalFrame.isClosed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -627,7 +598,30 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setUI(InternalFrameUI) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getDesktopIcon() public
+     * javax.swing.JInternalFrame$JDesktopIcon javax.swing.JInternalFrame.getDesktopIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDesktopIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setUI(javax.swing.plaf.InternalFrameUI) public void
      * javax.swing.JInternalFrame.setUI(javax.swing.plaf.InternalFrameUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -649,7 +643,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#hide() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#hide() public void
      * javax.swing.JInternalFrame.hide()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -672,30 +666,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setGlassPane(Component) public void
-     * javax.swing.JInternalFrame.setGlassPane(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setGlassPane_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setFrameIcon(Icon) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setFrameIcon(javax.swing.Icon) public void
      * javax.swing.JInternalFrame.setFrameIcon(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -718,8 +690,32 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JInternalFrame#removeInternalFrameListener(InternalFrameListener) public void
-     * javax.swing.JInternalFrame.removeInternalFrameListener(javax.swing.event.InternalFrameListener)}.
+     * {@link javax.swing.JInternalFrame#setGlassPane(java.awt.Component) public void
+     * javax.swing.JInternalFrame.setGlassPane(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setGlassPane_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#removeInternalFrameListener(javax.swing.event.InternalFrameListener) public
+     * void javax.swing.JInternalFrame.removeInternalFrameListener(javax.swing.event.InternalFrameListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -740,7 +736,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getFocusOwner() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getFocusOwner() public
      * java.awt.Component javax.swing.JInternalFrame.getFocusOwner()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -762,8 +758,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getFocusCycleRootAncestor() public
-     * final java.awt.Container javax.swing.JInternalFrame.getFocusCycleRootAncestor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#getFocusCycleRootAncestor() public final java.awt.Container
+     * javax.swing.JInternalFrame.getFocusCycleRootAncestor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -786,7 +783,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JInternalFrame#addInternalFrameListener(InternalFrameListener) public void
+     * {@link javax.swing.JInternalFrame#addInternalFrameListener(javax.swing.event.InternalFrameListener) public void
      * javax.swing.JInternalFrame.addInternalFrameListener(javax.swing.event.InternalFrameListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -808,8 +805,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setSelected(boolean) public void
-     * javax.swing.JInternalFrame.setSelected(boolean) throws java.beans.PropertyVetoException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setSelected(boolean)
+     * public void javax.swing.JInternalFrame.setSelected(boolean) throws java.beans.PropertyVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -830,7 +827,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getRootPane() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getRootPane() public
      * javax.swing.JRootPane javax.swing.JInternalFrame.getRootPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -853,8 +850,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setDesktopIcon(JDesktopIcon) public
-     * void javax.swing.JInternalFrame.setDesktopIcon(javax.swing.JInternalFrame$JDesktopIcon)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setDesktopIcon(javax.swing.JInternalFrame.JDesktopIcon) public void
+     * javax.swing.JInternalFrame.setDesktopIcon(javax.swing.JInternalFrame$JDesktopIcon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -875,8 +873,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setClosed(boolean) public void
-     * javax.swing.JInternalFrame.setClosed(boolean) throws java.beans.PropertyVetoException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setClosed(boolean) public
+     * void javax.swing.JInternalFrame.setClosed(boolean) throws java.beans.PropertyVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -897,7 +895,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getMenuBar() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getMenuBar() public
      * javax.swing.JMenuBar javax.swing.JInternalFrame.getMenuBar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -919,8 +917,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setNormalBounds(Rectangle) public
-     * void javax.swing.JInternalFrame.setNormalBounds(java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setNormalBounds(java.awt.Rectangle) public void
+     * javax.swing.JInternalFrame.setNormalBounds(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -941,7 +940,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setLayout(LayoutManager) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setLayout(java.awt.LayoutManager) public void
      * javax.swing.JInternalFrame.setLayout(java.awt.LayoutManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -964,7 +964,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getJMenuBar() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getJMenuBar() public
      * javax.swing.JMenuBar javax.swing.JInternalFrame.getJMenuBar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -986,7 +986,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#moveToBack() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#moveToBack() public void
      * javax.swing.JInternalFrame.moveToBack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1008,7 +1008,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setMenuBar(JMenuBar) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setMenuBar(javax.swing.JMenuBar) public void
      * javax.swing.JInternalFrame.setMenuBar(javax.swing.JMenuBar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1030,8 +1031,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getTitle() public java.lang.String
-     * javax.swing.JInternalFrame.getTitle()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getTitle() public
+     * java.lang.String javax.swing.JInternalFrame.getTitle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1052,7 +1053,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getLastCursor() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getLastCursor() public
      * java.awt.Cursor javax.swing.JInternalFrame.getLastCursor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1074,7 +1075,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getDefaultCloseOperation() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#getDefaultCloseOperation() public int
      * javax.swing.JInternalFrame.getDefaultCloseOperation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1096,8 +1098,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setDefaultCloseOperation(int) public
-     * void javax.swing.JInternalFrame.setDefaultCloseOperation(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setDefaultCloseOperation(int) public void
+     * javax.swing.JInternalFrame.setDefaultCloseOperation(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1118,8 +1121,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setIconifiable(boolean) public void
-     * javax.swing.JInternalFrame.setIconifiable(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setIconifiable(boolean)
+     * public void javax.swing.JInternalFrame.setIconifiable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1140,8 +1143,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#isIconifiable() public boolean
-     * javax.swing.JInternalFrame.isIconifiable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isIconifiable() public
+     * boolean javax.swing.JInternalFrame.isIconifiable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1162,8 +1165,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setMaximizable(boolean) public void
-     * javax.swing.JInternalFrame.setMaximizable(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setMaximizable(boolean)
+     * public void javax.swing.JInternalFrame.setMaximizable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1184,30 +1187,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getLayer() public int
-     * javax.swing.JInternalFrame.getLayer()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLayer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setFocusCycleRoot(boolean) public
-     * final void javax.swing.JInternalFrame.setFocusCycleRoot(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setFocusCycleRoot(boolean) public final void
+     * javax.swing.JInternalFrame.setFocusCycleRoot(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1229,7 +1211,51 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getGlassPane() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getLayer() public int
+     * javax.swing.JInternalFrame.getLayer()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLayer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getMostRecentFocusOwner()
+     * public java.awt.Component javax.swing.JInternalFrame.getMostRecentFocusOwner()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMostRecentFocusOwner()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getGlassPane() public
      * java.awt.Component javax.swing.JInternalFrame.getGlassPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1252,29 +1278,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getMostRecentFocusOwner() public
-     * java.awt.Component javax.swing.JInternalFrame.getMostRecentFocusOwner()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMostRecentFocusOwner()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#toFront() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#toFront() public void
      * javax.swing.JInternalFrame.toFront()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1296,7 +1300,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#pack() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#pack() public void
      * javax.swing.JInternalFrame.pack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1318,7 +1322,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#toBack() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#toBack() public void
      * javax.swing.JInternalFrame.toBack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1340,8 +1344,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setTitle(String) public void
-     * javax.swing.JInternalFrame.setTitle(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setTitle(String) public
+     * void javax.swing.JInternalFrame.setTitle(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1362,8 +1366,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#isResizable() public boolean
-     * javax.swing.JInternalFrame.isResizable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isResizable() public
+     * boolean javax.swing.JInternalFrame.isResizable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1384,8 +1388,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#reshape(int, int, int, int) public
-     * void javax.swing.JInternalFrame.reshape(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#reshape(int, int, int, int) public void
+     * javax.swing.JInternalFrame.reshape(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1407,7 +1412,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getFrameIcon() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getFrameIcon() public
      * javax.swing.Icon javax.swing.JInternalFrame.getFrameIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1429,8 +1434,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setLayeredPane(JLayeredPane) public
-     * void javax.swing.JInternalFrame.setLayeredPane(javax.swing.JLayeredPane)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setLayeredPane(javax.swing.JLayeredPane) public void
+     * javax.swing.JInternalFrame.setLayeredPane(javax.swing.JLayeredPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1452,8 +1458,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setIcon(boolean) public void
-     * javax.swing.JInternalFrame.setIcon(boolean) throws java.beans.PropertyVetoException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setIcon(boolean) public
+     * void javax.swing.JInternalFrame.setIcon(boolean) throws java.beans.PropertyVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1474,7 +1480,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getUI() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getUI() public
      * javax.swing.plaf.InternalFrameUI javax.swing.JInternalFrame.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1496,7 +1502,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setContentPane(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setContentPane(java.awt.Container) public void
      * javax.swing.JInternalFrame.setContentPane(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1519,8 +1526,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#isMaximizable() public boolean
-     * javax.swing.JInternalFrame.isMaximizable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isMaximizable() public
+     * boolean javax.swing.JInternalFrame.isMaximizable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1541,7 +1548,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#setCursor(Cursor) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JInternalFrame#setCursor(java.awt.Cursor) public void
      * javax.swing.JInternalFrame.setCursor(java.awt.Cursor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1564,7 +1572,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#dispose() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#dispose() public void
      * javax.swing.JInternalFrame.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1586,8 +1594,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JInternalFrame#getWarningString() public final
-     * java.lang.String javax.swing.JInternalFrame.getWarningString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getWarningString() public
+     * final java.lang.String javax.swing.JInternalFrame.getWarningString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1635,7 +1643,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link JDesktopIcon#setUI(DesktopIconUI) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JInternalFrame.JDesktopIcon#setUI(javax.swing.plaf.DesktopIconUI) public void
          * javax.swing.JInternalFrame$JDesktopIcon.setUI(javax.swing.plaf.DesktopIconUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1657,8 +1666,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link JDesktopIcon#getUI() public
-         * javax.swing.plaf.DesktopIconUI javax.swing.JInternalFrame$JDesktopIcon.getUI()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame.JDesktopIcon#getUI()
+         * public javax.swing.plaf.DesktopIconUI javax.swing.JInternalFrame$JDesktopIcon.getUI()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1679,8 +1688,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link JDesktopIcon#getDesktopPane() public
-         * javax.swing.JDesktopPane javax.swing.JInternalFrame$JDesktopIcon.getDesktopPane()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JInternalFrame.JDesktopIcon#getDesktopPane() public javax.swing.JDesktopPane
+         * javax.swing.JInternalFrame$JDesktopIcon.getDesktopPane()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1701,8 +1711,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link JDesktopIcon#getInternalFrame() public
-         * javax.swing.JInternalFrame javax.swing.JInternalFrame$JDesktopIcon.getInternalFrame()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JInternalFrame.JDesktopIcon#getInternalFrame() public javax.swing.JInternalFrame
+         * javax.swing.JInternalFrame$JDesktopIcon.getInternalFrame()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1723,8 +1734,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link JDesktopIcon#setInternalFrame(JInternalFrame)
-         * public void javax.swing.JInternalFrame$JDesktopIcon.setInternalFrame(javax.swing.JInternalFrame)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JInternalFrame.JDesktopIcon#setInternalFrame(javax.swing.JInternalFrame) public void
+         * javax.swing.JInternalFrame$JDesktopIcon.setInternalFrame(javax.swing.JInternalFrame)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1745,8 +1757,9 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link JDesktopIcon#getUIClassID() public
-         * java.lang.String javax.swing.JInternalFrame$JDesktopIcon.getUIClassID()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JInternalFrame.JDesktopIcon#getUIClassID() public java.lang.String
+         * javax.swing.JInternalFrame$JDesktopIcon.getUIClassID()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1768,7 +1781,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link JDesktopIcon#updateUI() public void
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JInternalFrame.JDesktopIcon#updateUI() public void
          * javax.swing.JInternalFrame$JDesktopIcon.updateUI()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1791,7 +1805,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link JDesktopIcon#getAccessibleContext() public
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JInternalFrame.JDesktopIcon#getAccessibleContext() public
          * javax.accessibility.AccessibleContext javax.swing.JInternalFrame$JDesktopIcon.getAccessibleContext()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

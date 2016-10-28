@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
-import java.util.Map;
-import javax.management.remote.JMXServiceURL;
 import javax.management.remote.rmi.RMIConnector;
-import javax.management.remote.rmi.RMIServer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +21,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectorClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RMIConnector#RMIConnector(RMIServer, Map)
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.remote.rmi.RMIConnector#RMIConnector(javax.management.remote.rmi.RMIServer, java.util.Map)
      * public
      * javax.management.remote.rmi.RMIConnector(javax.management.remote.rmi.RMIServer,java.util.Map<java.lang.String,
      * ?>)}.
@@ -43,12 +41,13 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectorClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RMIConnector sut = null; // = new RMIConnector(RMIServer, Map);
+        final RMIConnector sut = null; // = new RMIConnector(javax.management.remote.rmi.RMIServer, java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RMIConnector#RMIConnector(JMXServiceURL, Map)
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.remote.rmi.RMIConnector#RMIConnector(javax.management.remote.JMXServiceURL, java.util.Map)
      * public
      * javax.management.remote.rmi.RMIConnector(javax.management.remote.JMXServiceURL,java.util.Map<java.lang.String,
      * ?>)}.
@@ -67,7 +66,7 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectorClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RMIConnector sut = null; // = new RMIConnector(JMXServiceURL, Map);
+        final RMIConnector sut = null; // = new RMIConnector(javax.management.remote.JMXServiceURL, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnector]

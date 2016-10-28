@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEvent#getLinkedException() public abstract
-     * java.lang.Throwable javax.xml.bind.ValidationEvent.getLinkedException()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.ValidationEvent#getLinkedException()
+     * public abstract java.lang.Throwable javax.xml.bind.ValidationEvent.getLinkedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEvent#getSeverity() public abstract int
-     * javax.xml.bind.ValidationEvent.getSeverity()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.ValidationEvent#getSeverity() public
+     * abstract int javax.xml.bind.ValidationEvent.getSeverity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEvent#getLocator() public abstract
-     * javax.xml.bind.ValidationEventLocator javax.xml.bind.ValidationEvent.getLocator()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.ValidationEvent#getLocator() public
+     * abstract javax.xml.bind.ValidationEventLocator javax.xml.bind.ValidationEvent.getLocator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValidationEvent#getMessage() public abstract
-     * java.lang.String javax.xml.bind.ValidationEvent.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.ValidationEvent#getMessage() public
+     * abstract java.lang.String javax.xml.bind.ValidationEvent.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

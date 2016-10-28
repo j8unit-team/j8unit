@@ -1,9 +1,7 @@
 package org.j8unit.repository.java.lang;
 
-import java.io.File;
 import java.lang.ProcessBuilder.Redirect;
 import java.lang.ProcessBuilder.Redirect.Type;
-import java.util.List;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -81,8 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectError(Redirect) public
-     * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectError(java.lang.ProcessBuilder$Redirect)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link ProcessBuilder#redirectError(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
+     * java.lang.ProcessBuilder.redirectError(java.lang.ProcessBuilder$Redirect)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +124,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectError(File) public
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectError(java.io.File) public
      * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectError(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +168,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectInput(Redirect) public
-     * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectInput(java.lang.ProcessBuilder$Redirect)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link ProcessBuilder#redirectInput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
+     * java.lang.ProcessBuilder.redirectInput(java.lang.ProcessBuilder$Redirect)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,7 +213,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectInput(File) public
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectInput(java.io.File) public
      * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectInput(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -301,7 +301,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#command(List) public
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#command(java.util.List) public
      * java.lang.ProcessBuilder java.lang.ProcessBuilder.command(java.util.List<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,7 +345,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#directory(File) public
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#directory(java.io.File) public
      * java.lang.ProcessBuilder java.lang.ProcessBuilder.directory(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -411,8 +411,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectOutput(Redirect) public
-     * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectOutput(java.lang.ProcessBuilder$Redirect)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link ProcessBuilder#redirectOutput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
+     * java.lang.ProcessBuilder.redirectOutput(java.lang.ProcessBuilder$Redirect)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -433,7 +434,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectOutput(File) public
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectOutput(java.io.File) public
      * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectOutput(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -482,8 +483,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Redirect#file() public java.io.File
-         * java.lang.ProcessBuilder$Redirect.file()}.
+         * Test method for the hereby targeted method-under-test {@link ProcessBuilder.Redirect#file() public
+         * java.io.File java.lang.ProcessBuilder$Redirect.file()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -504,7 +505,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Redirect#hashCode() public int
+         * Test method for the hereby targeted method-under-test {@link ProcessBuilder.Redirect#hashCode() public int
          * java.lang.ProcessBuilder$Redirect.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -527,8 +528,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Redirect#equals(Object) public boolean
-         * java.lang.ProcessBuilder$Redirect.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link ProcessBuilder.Redirect#equals(Object) public
+         * boolean java.lang.ProcessBuilder$Redirect.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -550,7 +551,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Redirect#type() public abstract
+         * Test method for the hereby targeted method-under-test {@link ProcessBuilder.Redirect#type() public abstract
          * java.lang.ProcessBuilder$Redirect$Type java.lang.ProcessBuilder$Redirect.type()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

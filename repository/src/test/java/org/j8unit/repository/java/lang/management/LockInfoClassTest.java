@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.management;
 
 import java.lang.management.LockInfo;
-import javax.management.openmbean.CompositeData;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.lang.management.LockInfoClassTests<LockInf
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LockInfo#LockInfo(String, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.lang.management.LockInfo#LockInfo(String, int) public
      * java.lang.management.LockInfo(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,8 @@ implements org.j8unit.repository.java.lang.management.LockInfoClassTests<LockInf
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LockInfo#from(CompositeData) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.LockInfo#from(javax.management.openmbean.CompositeData) public static
      * java.lang.management.LockInfo java.lang.management.LockInfo.from(javax.management.openmbean.CompositeData)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +60,7 @@ implements org.j8unit.repository.java.lang.management.LockInfoClassTests<LockInf
     @Category(Draft.class)
     public void test_from_CompositeData()
     throws Exception {
-        // write some test for {@link LockInfo#from(CompositeData)}
+        // write some test for {@link java.lang.management.LockInfo#from(javax.management.openmbean.CompositeData)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.LockInfo]

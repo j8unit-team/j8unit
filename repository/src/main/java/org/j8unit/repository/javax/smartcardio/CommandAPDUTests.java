@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#getData() public byte[]
-     * javax.smartcardio.CommandAPDU.getData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#getData() public
+     * byte[] javax.smartcardio.CommandAPDU.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#getBytes() public byte[]
-     * javax.smartcardio.CommandAPDU.getBytes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#getBytes() public
+     * byte[] javax.smartcardio.CommandAPDU.getBytes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#getP1() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#getP1() public int
      * javax.smartcardio.CommandAPDU.getP1()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#getCLA() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#getCLA() public int
      * javax.smartcardio.CommandAPDU.getCLA()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#toString() public java.lang.String
-     * javax.smartcardio.CommandAPDU.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#toString() public
+     * java.lang.String javax.smartcardio.CommandAPDU.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#getNe() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#getNe() public int
      * javax.smartcardio.CommandAPDU.getNe()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#hashCode() public int
      * javax.smartcardio.CommandAPDU.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#equals(Object) public boolean
-     * javax.smartcardio.CommandAPDU.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#equals(Object) public
+     * boolean javax.smartcardio.CommandAPDU.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,7 +213,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#getP2() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#getP2() public int
      * javax.smartcardio.CommandAPDU.getP2()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -235,7 +235,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#getNc() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#getNc() public int
      * javax.smartcardio.CommandAPDU.getNc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -257,7 +257,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CommandAPDU#getINS() public int
+     * Test method for the hereby targeted method-under-test {@link javax.smartcardio.CommandAPDU#getINS() public int
      * javax.smartcardio.CommandAPDU.getINS()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

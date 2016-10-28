@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.time;
 
 import java.time.Month;
-import java.time.format.TextStyle;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQuery;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +35,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#minLength() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.Month#minLength() public int
      * java.time.Month.minLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +57,8 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#query(TemporalQuery) public <R> R
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Month#query(java.time.temporal.TemporalQuery) public <R> R
      * java.time.Month.query(java.time.temporal.TemporalQuery<R>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +81,8 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#firstMonthOfQuarter() public java.time.Month
-     * java.time.Month.firstMonthOfQuarter()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Month#firstMonthOfQuarter() public
+     * java.time.Month java.time.Month.firstMonthOfQuarter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +103,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#minus(long) public java.time.Month
+     * Test method for the hereby targeted method-under-test {@link java.time.Month#minus(long) public java.time.Month
      * java.time.Month.minus(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +125,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#firstDayOfYear(boolean) public int
+     * Test method for the hereby targeted method-under-test {@link java.time.Month#firstDayOfYear(boolean) public int
      * java.time.Month.firstDayOfYear(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,7 +147,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#plus(long) public java.time.Month
+     * Test method for the hereby targeted method-under-test {@link java.time.Month#plus(long) public java.time.Month
      * java.time.Month.plus(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -173,8 +169,9 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#range(TemporalField) public
-     * java.time.temporal.ValueRange java.time.Month.range(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Month#range(java.time.temporal.TemporalField) public java.time.temporal.ValueRange
+     * java.time.Month.range(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -196,8 +193,9 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#adjustInto(Temporal) public
-     * java.time.temporal.Temporal java.time.Month.adjustInto(java.time.temporal.Temporal)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Month#adjustInto(java.time.temporal.Temporal) public java.time.temporal.Temporal
+     * java.time.Month.adjustInto(java.time.temporal.Temporal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,7 +217,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#length(boolean) public int
+     * Test method for the hereby targeted method-under-test {@link java.time.Month#length(boolean) public int
      * java.time.Month.length(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,7 +239,8 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#isSupported(TemporalField) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Month#isSupported(java.time.temporal.TemporalField) public boolean
      * java.time.Month.isSupported(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,8 +263,9 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#getDisplayName(TextStyle, Locale) public
-     * java.lang.String java.time.Month.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Month#getDisplayName(java.time.format.TextStyle, java.util.Locale) public java.lang.String
+     * java.time.Month.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -286,7 +286,8 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#get(TemporalField) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Month#get(java.time.temporal.TemporalField) public int
      * java.time.Month.get(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -309,7 +310,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#getValue() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.Month#getValue() public int
      * java.time.Month.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -331,7 +332,8 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#getLong(TemporalField) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Month#getLong(java.time.temporal.TemporalField) public long
      * java.time.Month.getLong(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -354,7 +356,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Month#maxLength() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.Month#maxLength() public int
      * java.time.Month.maxLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

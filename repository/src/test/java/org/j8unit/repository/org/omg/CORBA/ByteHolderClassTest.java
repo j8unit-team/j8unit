@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.ByteHolderClassTests<ByteHolder> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ByteHolder#ByteHolder() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ByteHolder#ByteHolder() public
      * org.omg.CORBA.ByteHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.ByteHolderClassTests<ByteHolder> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ByteHolder#ByteHolder(byte) public
-     * org.omg.CORBA.ByteHolder(byte)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ByteHolder#ByteHolder(byte)
+     * public org.omg.CORBA.ByteHolder(byte)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

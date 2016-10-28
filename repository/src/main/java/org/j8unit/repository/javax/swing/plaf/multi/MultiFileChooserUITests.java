@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import java.io.File;
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
 import javax.swing.plaf.multi.MultiFileChooserUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +35,8 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiFileChooserUI#getAccessibleChild(JComponent, int) public javax.accessibility.Accessible
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiFileChooserUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +59,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiFileChooserUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiFileChooserUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +83,8 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiFileChooserUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,7 +107,8 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#getFileView(JFileChooser) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#getFileView(javax.swing.JFileChooser) public
      * javax.swing.filechooser.FileView javax.swing.plaf.multi.MultiFileChooserUI.getFileView(javax.swing.JFileChooser)}
      * .
      *
@@ -133,8 +133,8 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiFileChooserUI#getApproveButtonText(JFileChooser) public java.lang.String
-     * javax.swing.plaf.multi.MultiFileChooserUI.getApproveButtonText(javax.swing.JFileChooser)}.
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#getApproveButtonText(javax.swing.JFileChooser) public
+     * java.lang.String javax.swing.plaf.multi.MultiFileChooserUI.getApproveButtonText(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,8 +156,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#getPreferredSize(JComponent)
-     * public java.awt.Dimension javax.swing.plaf.multi.MultiFileChooserUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiFileChooserUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -179,8 +180,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#contains(JComponent, int, int)
-     * public boolean javax.swing.plaf.multi.MultiFileChooserUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiFileChooserUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -203,8 +205,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiFileChooserUI#ensureFileIsVisible(JFileChooser, File) public void
-     * javax.swing.plaf.multi.MultiFileChooserUI.ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)}.
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#ensureFileIsVisible(javax.swing.JFileChooser, java.io.File)
+     * public void javax.swing.plaf.multi.MultiFileChooserUI.ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -227,7 +230,7 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiFileChooserUI#getAccessibleChildrenCount(JComponent) public int
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiFileChooserUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -250,8 +253,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#getDialogTitle(JFileChooser)
-     * public java.lang.String javax.swing.plaf.multi.MultiFileChooserUI.getDialogTitle(javax.swing.JFileChooser)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#getDialogTitle(javax.swing.JFileChooser) public java.lang.String
+     * javax.swing.plaf.multi.MultiFileChooserUI.getDialogTitle(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -273,8 +277,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#uninstallUI(JComponent) public
-     * void javax.swing.plaf.multi.MultiFileChooserUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiFileChooserUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -296,8 +301,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiFileChooserUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiFileChooserUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -320,7 +326,7 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiFileChooserUI#rescanCurrentDirectory(JFileChooser) public void
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#rescanCurrentDirectory(javax.swing.JFileChooser) public void
      * javax.swing.plaf.multi.MultiFileChooserUI.rescanCurrentDirectory(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -343,8 +349,8 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#getUIs() public
-     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiFileChooserUI.getUIs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiFileChooserUI#getUIs()
+     * public javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiFileChooserUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -366,7 +372,8 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiFileChooserUI#getAcceptAllFileFilter(JFileChooser) public javax.swing.filechooser.FileFilter
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#getAcceptAllFileFilter(javax.swing.JFileChooser) public
+     * javax.swing.filechooser.FileFilter
      * javax.swing.plaf.multi.MultiFileChooserUI.getAcceptAllFileFilter(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -389,8 +396,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#paint(Graphics, JComponent)
-     * public void javax.swing.plaf.multi.MultiFileChooserUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiFileChooserUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -412,8 +420,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiFileChooserUI#update(Graphics, JComponent)
-     * public void javax.swing.plaf.multi.MultiFileChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiFileChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

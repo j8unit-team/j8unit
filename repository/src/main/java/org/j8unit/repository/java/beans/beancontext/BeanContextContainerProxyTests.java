@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextContainerProxy#getContainer() public
-     * abstract java.awt.Container java.beans.beancontext.BeanContextContainerProxy.getContainer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextContainerProxy#getContainer() public abstract java.awt.Container
+     * java.beans.beancontext.BeanContextContainerProxy.getContainer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

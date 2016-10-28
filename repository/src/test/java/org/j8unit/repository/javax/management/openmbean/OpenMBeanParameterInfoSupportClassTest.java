@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import javax.management.Descriptor;
 import javax.management.openmbean.OpenMBeanParameterInfoSupport;
-import javax.management.openmbean.OpenType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterIn
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType, Object, Comparable, Comparable)
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, javax.management.openmbean.OpenType, Object, Comparable, Comparable)
      * public <T>
      * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <T>,T,java.lang.Comparable<T>,java.lang.Comparable<T>) throws javax.management.openmbean.OpenDataException}.
@@ -43,14 +41,15 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterIn
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String, OpenType,
-                                                        // Object, Comparable, Comparable);
+        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String,
+                                                        // javax.management.openmbean.OpenType, Object, Comparable,
+                                                        // Comparable);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType, Object, Object[])
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, javax.management.openmbean.OpenType, Object, Object[])
      * public <T>
      * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <T>,T,T[]) throws javax.management.openmbean.OpenDataException}.
@@ -69,14 +68,15 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterIn
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String, OpenType,
-                                                        // Object, Object[]);
+        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String,
+                                                        // javax.management.openmbean.OpenType, Object, Object[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType) public
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, javax.management.openmbean.OpenType)
+     * public
      * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <?>)}.
      *
@@ -95,13 +95,14 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterIn
         // create new instance
         @SuppressWarnings("unused")
         final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String,
-                                                        // OpenType);
+                                                        // javax.management.openmbean.OpenType);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType, Descriptor) public
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, javax.management.openmbean.OpenType, javax.management.Descriptor)
+     * public
      * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <?>,javax.management.Descriptor)}.
      *
@@ -119,14 +120,16 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterIn
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String, OpenType,
-                                                        // Descriptor);
+        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String,
+                                                        // javax.management.openmbean.OpenType,
+                                                        // javax.management.Descriptor);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, OpenType, Object) public <T>
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(String, String, javax.management.openmbean.OpenType, Object)
+     * public <T>
      * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <T>,T) throws javax.management.openmbean.OpenDataException}.
      *
@@ -144,8 +147,8 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterIn
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String, OpenType,
-                                                        // Object);
+        final OpenMBeanParameterInfoSupport sut = null; // = new OpenMBeanParameterInfoSupport(String, String,
+                                                        // javax.management.openmbean.OpenType, Object);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanParameterInfoSupport]

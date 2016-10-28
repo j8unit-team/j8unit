@@ -35,9 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeclHandler#elementDecl(String, String) public
-     * abstract void org.xml.sax.ext.DeclHandler.elementDecl(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ext.DeclHandler#elementDecl(String, String) public abstract void
+     * org.xml.sax.ext.DeclHandler.elementDecl(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeclHandler#internalEntityDecl(String, String)
-     * public abstract void org.xml.sax.ext.DeclHandler.internalEntityDecl(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ext.DeclHandler#internalEntityDecl(String, String) public abstract void
+     * org.xml.sax.ext.DeclHandler.internalEntityDecl(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +83,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DeclHandler#externalEntityDecl(String, String, String) public abstract void
+     * {@link org.xml.sax.ext.DeclHandler#externalEntityDecl(String, String, String) public abstract void
      * org.xml.sax.ext.DeclHandler.externalEntityDecl(java.lang.String,java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
      *
@@ -106,7 +107,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DeclHandler#attributeDecl(String, String, String, String, String) public abstract void
+     * {@link org.xml.sax.ext.DeclHandler#attributeDecl(String, String, String, String, String) public abstract void
      * org.xml.sax.ext.DeclHandler.attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws org.xml.sax.SAXException}.
      *

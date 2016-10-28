@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.beancontext.BeanContextServiceAvailableEvent;
 import java.beans.beancontext.BeanContextServicesListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevokedLi
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServicesListener#serviceAvailable(BeanContextServiceAvailableEvent) public abstract void
+     * {@link java.beans.beancontext.BeanContextServicesListener#serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)
+     * public abstract void
      * java.beans.beancontext.BeanContextServicesListener.serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)}
      * .
      *

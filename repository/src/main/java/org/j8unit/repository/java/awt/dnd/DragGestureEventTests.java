@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.Cursor;
-import java.awt.Image;
-import java.awt.Point;
-import java.awt.datatransfer.Transferable;
 import java.awt.dnd.DragGestureEvent;
-import java.awt.dnd.DragSourceListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +34,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#startDrag(Cursor, Transferable)
-     * public void java.awt.dnd.DragGestureEvent.startDrag(java.awt.Cursor,java.awt.datatransfer.Transferable) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragGestureEvent#startDrag(java.awt.Cursor, java.awt.datatransfer.Transferable) public void
+     * java.awt.dnd.DragGestureEvent.startDrag(java.awt.Cursor,java.awt.datatransfer.Transferable) throws
      * java.awt.dnd.InvalidDnDOperationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +59,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragGestureEvent#startDrag(Cursor, Image, Point, Transferable, DragSourceListener) public void
+     * {@link java.awt.dnd.DragGestureEvent#startDrag(java.awt.Cursor, java.awt.Image, java.awt.Point, java.awt.datatransfer.Transferable, java.awt.dnd.DragSourceListener)
+     * public void
      * java.awt.dnd.DragGestureEvent.startDrag(java.awt.Cursor,java.awt.Image,java.awt.Point,java.awt.datatransfer.Transferable,java.awt.dnd.DragSourceListener)
      * throws java.awt.dnd.InvalidDnDOperationException}.
      *
@@ -87,7 +84,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragGestureEvent#startDrag(Cursor, Transferable, DragSourceListener) public void
+     * {@link java.awt.dnd.DragGestureEvent#startDrag(java.awt.Cursor, java.awt.datatransfer.Transferable, java.awt.dnd.DragSourceListener)
+     * public void
      * java.awt.dnd.DragGestureEvent.startDrag(java.awt.Cursor,java.awt.datatransfer.Transferable,java.awt.dnd.DragSourceListener)
      * throws java.awt.dnd.InvalidDnDOperationException}.
      *
@@ -110,8 +108,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#toArray() public java.lang.Object[]
-     * java.awt.dnd.DragGestureEvent.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragGestureEvent#toArray() public
+     * java.lang.Object[] java.awt.dnd.DragGestureEvent.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,8 +130,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#toArray(Object[]) public
-     * java.lang.Object[] java.awt.dnd.DragGestureEvent.toArray(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragGestureEvent#toArray(Object[])
+     * public java.lang.Object[] java.awt.dnd.DragGestureEvent.toArray(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,7 +152,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#getComponent() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragGestureEvent#getComponent() public
      * java.awt.Component java.awt.dnd.DragGestureEvent.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,7 +174,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#getDragOrigin() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragGestureEvent#getDragOrigin() public
      * java.awt.Point java.awt.dnd.DragGestureEvent.getDragOrigin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +196,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#getDragSource() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragGestureEvent#getDragSource() public
      * java.awt.dnd.DragSource java.awt.dnd.DragGestureEvent.getDragSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,8 +218,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#getSourceAsDragGestureRecognizer()
-     * public java.awt.dnd.DragGestureRecognizer java.awt.dnd.DragGestureEvent.getSourceAsDragGestureRecognizer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragGestureEvent#getSourceAsDragGestureRecognizer() public java.awt.dnd.DragGestureRecognizer
+     * java.awt.dnd.DragGestureEvent.getSourceAsDragGestureRecognizer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,8 +241,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#getTriggerEvent() public
-     * java.awt.event.InputEvent java.awt.dnd.DragGestureEvent.getTriggerEvent()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragGestureEvent#getTriggerEvent()
+     * public java.awt.event.InputEvent java.awt.dnd.DragGestureEvent.getTriggerEvent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -264,8 +263,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#getDragAction() public int
-     * java.awt.dnd.DragGestureEvent.getDragAction()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragGestureEvent#getDragAction() public
+     * int java.awt.dnd.DragGestureEvent.getDragAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -286,7 +285,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragGestureEvent#iterator() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragGestureEvent#iterator() public
      * java.util.Iterator<java.awt.event.InputEvent> java.awt.dnd.DragGestureEvent.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

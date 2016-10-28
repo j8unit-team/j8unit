@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.io.InvalidClassExceptionClassTests<Invalid
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidClassException#InvalidClassException(String) public
+     * {@link java.io.InvalidClassException#InvalidClassException(String) public
      * java.io.InvalidClassException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.io.InvalidClassExceptionClassTests<Invalid
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidClassException#InvalidClassException(String, String) public
+     * {@link java.io.InvalidClassException#InvalidClassException(String, String) public
      * java.io.InvalidClassException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

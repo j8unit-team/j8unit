@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.rmi.dgc;
 
 import java.rmi.dgc.Lease;
-import java.rmi.dgc.VMID;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.rmi.dgc.LeaseClassTests<Lease> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Lease#Lease(VMID, long) public
-     * java.rmi.dgc.Lease(java.rmi.dgc.VMID,long)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.dgc.Lease#Lease(java.rmi.dgc.VMID, long) public java.rmi.dgc.Lease(java.rmi.dgc.VMID,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,7 +38,7 @@ implements org.j8unit.repository.java.rmi.dgc.LeaseClassTests<Lease> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Lease sut = null; // = new Lease(VMID, long);
+        final Lease sut = null; // = new Lease(java.rmi.dgc.VMID, long);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.dgc.Lease]

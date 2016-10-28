@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import javax.swing.JComponent;
-import javax.swing.plaf.synth.Region;
 import javax.swing.plaf.synth.SynthStyleFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthStyleFactory#getStyle(JComponent, Region)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthStyleFactory#getStyle(javax.swing.JComponent, javax.swing.plaf.synth.Region)
      * public abstract javax.swing.plaf.synth.SynthStyle
      * javax.swing.plaf.synth.SynthStyleFactory.getStyle(javax.swing.JComponent,javax.swing.plaf.synth.Region)}.
      *

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#pollLastEntry() public abstract
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.pollLastEntry()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#pollLastEntry() public
+     * abstract java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.pollLastEntry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#ceilingKey(Object) public abstract K
-     * java.util.NavigableMap.ceilingKey(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#ceilingKey(Object) public
+     * abstract K java.util.NavigableMap.ceilingKey(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#navigableKeySet() public abstract
-     * java.util.NavigableSet<K> java.util.NavigableMap.navigableKeySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#navigableKeySet() public
+     * abstract java.util.NavigableSet<K> java.util.NavigableMap.navigableKeySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#higherEntry(Object) public abstract
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.higherEntry(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#higherEntry(Object) public
+     * abstract java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.higherEntry(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#floorEntry(Object) public abstract
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.floorEntry(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#floorEntry(Object) public
+     * abstract java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.floorEntry(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#descendingMap() public abstract
-     * java.util.NavigableMap<K, V> java.util.NavigableMap.descendingMap()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#descendingMap() public
+     * abstract java.util.NavigableMap<K, V> java.util.NavigableMap.descendingMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NavigableMap#subMap(Object, boolean, Object, boolean) public abstract java.util.NavigableMap<K, V>
-     * java.util.NavigableMap.subMap(K,boolean,K,boolean)}.
+     * {@link java.util.NavigableMap#subMap(Object, boolean, Object, boolean) public abstract java.util.NavigableMap<K,
+     * V> java.util.NavigableMap.subMap(K,boolean,K,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#subMap(Object, Object) public abstract
-     * java.util.SortedMap<K, V> java.util.NavigableMap.subMap(K,K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#subMap(Object, Object) public
+     * abstract java.util.SortedMap<K, V> java.util.NavigableMap.subMap(K,K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +212,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#lowerEntry(Object) public abstract
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.lowerEntry(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#lowerEntry(Object) public
+     * abstract java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.lowerEntry(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +234,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#floorKey(Object) public abstract K
-     * java.util.NavigableMap.floorKey(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#floorKey(Object) public
+     * abstract K java.util.NavigableMap.floorKey(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +256,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#descendingKeySet() public abstract
-     * java.util.NavigableSet<K> java.util.NavigableMap.descendingKeySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#descendingKeySet() public
+     * abstract java.util.NavigableSet<K> java.util.NavigableMap.descendingKeySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +278,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#ceilingEntry(Object) public abstract
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.ceilingEntry(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#ceilingEntry(Object) public
+     * abstract java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.ceilingEntry(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,8 +300,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#tailMap(Object) public abstract
-     * java.util.SortedMap<K, V> java.util.NavigableMap.tailMap(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#tailMap(Object) public
+     * abstract java.util.SortedMap<K, V> java.util.NavigableMap.tailMap(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -323,8 +323,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#tailMap(Object, boolean) public
-     * abstract java.util.NavigableMap<K, V> java.util.NavigableMap.tailMap(K,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#tailMap(Object, boolean)
+     * public abstract java.util.NavigableMap<K, V> java.util.NavigableMap.tailMap(K,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -345,8 +345,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#lowerKey(Object) public abstract K
-     * java.util.NavigableMap.lowerKey(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#lowerKey(Object) public
+     * abstract K java.util.NavigableMap.lowerKey(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,8 +367,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#headMap(Object) public abstract
-     * java.util.SortedMap<K, V> java.util.NavigableMap.headMap(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#headMap(Object) public
+     * abstract java.util.SortedMap<K, V> java.util.NavigableMap.headMap(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -390,8 +390,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#headMap(Object, boolean) public
-     * abstract java.util.NavigableMap<K, V> java.util.NavigableMap.headMap(K,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#headMap(Object, boolean)
+     * public abstract java.util.NavigableMap<K, V> java.util.NavigableMap.headMap(K,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -412,7 +412,7 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#firstEntry() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#firstEntry() public abstract
      * java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.firstEntry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -434,8 +434,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#higherKey(Object) public abstract K
-     * java.util.NavigableMap.higherKey(K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#higherKey(Object) public
+     * abstract K java.util.NavigableMap.higherKey(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -456,8 +456,8 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#pollFirstEntry() public abstract
-     * java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.pollFirstEntry()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#pollFirstEntry() public
+     * abstract java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.pollFirstEntry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -478,7 +478,7 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableMap#lastEntry() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableMap#lastEntry() public abstract
      * java.util.Map.java.util.Map$Entry<K, V> java.util.NavigableMap.lastEntry()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

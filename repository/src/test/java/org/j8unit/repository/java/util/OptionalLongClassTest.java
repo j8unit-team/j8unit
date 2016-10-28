@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.util.OptionalLongClassTests<OptionalLong> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#of(long) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#of(long) public static
      * java.util.OptionalLong java.util.OptionalLong.of(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.util.OptionalLongClassTests<OptionalLong> 
     @Category(Draft.class)
     public void test_of_long()
     throws Exception {
-        // write some test for {@link OptionalLong#of(long)}
+        // write some test for {@link java.util.OptionalLong#of(long)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalLong#empty() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#empty() public static
      * java.util.OptionalLong java.util.OptionalLong.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.util.OptionalLongClassTests<OptionalLong> 
     @Category(Draft.class)
     public void test_empty()
     throws Exception {
-        // write some test for {@link OptionalLong#empty()}
+        // write some test for {@link java.util.OptionalLong#empty()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.OptionalLong]

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInput#skip(long) public abstract long
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInput#skip(long) public abstract long
      * java.io.ObjectInput.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInput#available() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInput#available() public abstract int
      * java.io.ObjectInput.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInput#readObject() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInput#readObject() public abstract
      * java.lang.Object java.io.ObjectInput.readObject() throws java.lang.ClassNotFoundException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInput#close() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInput#close() public abstract void
      * java.io.ObjectInput.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInput#read() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInput#read() public abstract int
      * java.io.ObjectInput.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInput#read(byte[]) public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInput#read(byte[]) public abstract int
      * java.io.ObjectInput.read(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInput#read(byte[], int, int) public abstract
-     * int java.io.ObjectInput.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInput#read(byte[], int, int) public
+     * abstract int java.io.ObjectInput.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

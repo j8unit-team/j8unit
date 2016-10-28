@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import java.util.Hashtable;
 import javax.naming.spi.InitialContextFactory;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,9 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialContextFactory#getInitialContext(Hashtable)
-     * public abstract javax.naming.Context
-     * javax.naming.spi.InitialContextFactory.getInitialContext(java.util.Hashtable<?, ?>) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.spi.InitialContextFactory#getInitialContext(java.util.Hashtable) public abstract
+     * javax.naming.Context javax.naming.spi.InitialContextFactory.getInitialContext(java.util.Hashtable<?, ?>) throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

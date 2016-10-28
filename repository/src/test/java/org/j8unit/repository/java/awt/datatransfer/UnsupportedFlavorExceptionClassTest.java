@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
-import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.awt.datatransfer.UnsupportedFlavorExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsupportedFlavorException#UnsupportedFlavorException(DataFlavor) public
-     * java.awt.datatransfer.UnsupportedFlavorException(java.awt.datatransfer.DataFlavor)}.
+     * {@link java.awt.datatransfer.UnsupportedFlavorException#UnsupportedFlavorException(java.awt.datatransfer.DataFlavor)
+     * public java.awt.datatransfer.UnsupportedFlavorException(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.java.awt.datatransfer.UnsupportedFlavorExceptio
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UnsupportedFlavorException sut = null; // = new UnsupportedFlavorException(DataFlavor);
+        final UnsupportedFlavorException sut = null; // = new
+                                                     // UnsupportedFlavorException(java.awt.datatransfer.DataFlavor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.UnsupportedFlavorException]

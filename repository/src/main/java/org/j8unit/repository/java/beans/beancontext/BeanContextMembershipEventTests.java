@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextMembershipEvent#toArray() public
-     * java.lang.Object[] java.beans.beancontext.BeanContextMembershipEvent.toArray()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextMembershipEvent#toArray() public java.lang.Object[]
+     * java.beans.beancontext.BeanContextMembershipEvent.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextMembershipEvent#iterator() public
-     * java.util.Iterator java.beans.beancontext.BeanContextMembershipEvent.iterator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextMembershipEvent#iterator() public java.util.Iterator
+     * java.beans.beancontext.BeanContextMembershipEvent.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextMembershipEvent#contains(Object) public
-     * boolean java.beans.beancontext.BeanContextMembershipEvent.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextMembershipEvent#contains(Object) public boolean
+     * java.beans.beancontext.BeanContextMembershipEvent.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +103,8 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextMembershipEvent#size() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextMembershipEvent#size() public int
      * java.beans.beancontext.BeanContextMembershipEvent.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

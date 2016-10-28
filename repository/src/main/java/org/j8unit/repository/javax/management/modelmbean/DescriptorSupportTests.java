@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#getFieldNames() public
-     * synchronized java.lang.String[] javax.management.modelmbean.DescriptorSupport.getFieldNames()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#getFieldNames() public synchronized java.lang.String[]
+     * javax.management.modelmbean.DescriptorSupport.getFieldNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#removeField(String) public
-     * synchronized void javax.management.modelmbean.DescriptorSupport.removeField(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#removeField(String) public synchronized void
+     * javax.management.modelmbean.DescriptorSupport.removeField(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#setFields(String[], Object[])
-     * public synchronized void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#setFields(String[], Object[]) public synchronized void
      * javax.management.modelmbean.DescriptorSupport.setFields(java.lang.String[],java.lang.Object[]) throws
      * javax.management.RuntimeOperationsException}.
      *
@@ -105,8 +107,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#toString() public synchronized
-     * java.lang.String javax.management.modelmbean.DescriptorSupport.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#toString() public synchronized java.lang.String
+     * javax.management.modelmbean.DescriptorSupport.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,9 +131,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#getFieldValues(String...) public
-     * synchronized java.lang.Object[]
-     * javax.management.modelmbean.DescriptorSupport.getFieldValues(java.lang.String...)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#getFieldValues(String...) public synchronized
+     * java.lang.Object[] javax.management.modelmbean.DescriptorSupport.getFieldValues(java.lang.String...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,9 +155,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#clone() public synchronized
-     * java.lang.Object javax.management.modelmbean.DescriptorSupport.clone() throws
-     * javax.management.RuntimeOperationsException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#clone() public synchronized java.lang.Object
+     * javax.management.modelmbean.DescriptorSupport.clone() throws javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,9 +179,10 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#getFieldValue(String) public
-     * synchronized java.lang.Object javax.management.modelmbean.DescriptorSupport.getFieldValue(java.lang.String)
-     * throws javax.management.RuntimeOperationsException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#getFieldValue(String) public synchronized java.lang.Object
+     * javax.management.modelmbean.DescriptorSupport.getFieldValue(java.lang.String) throws
+     * javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,7 +204,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#hashCode() public synchronized int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#hashCode() public synchronized int
      * javax.management.modelmbean.DescriptorSupport.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -223,9 +228,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#isValid() public synchronized
-     * boolean javax.management.modelmbean.DescriptorSupport.isValid() throws
-     * javax.management.RuntimeOperationsException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#isValid() public synchronized boolean
+     * javax.management.modelmbean.DescriptorSupport.isValid() throws javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,8 +252,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#equals(Object) public synchronized
-     * boolean javax.management.modelmbean.DescriptorSupport.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#equals(Object) public synchronized boolean
+     * javax.management.modelmbean.DescriptorSupport.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,9 +276,10 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#setField(String, Object) public
-     * synchronized void javax.management.modelmbean.DescriptorSupport.setField(java.lang.String,java.lang.Object)
-     * throws javax.management.RuntimeOperationsException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#setField(String, Object) public synchronized void
+     * javax.management.modelmbean.DescriptorSupport.setField(java.lang.String,java.lang.Object) throws
+     * javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -294,8 +301,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#getFields() public synchronized
-     * java.lang.String[] javax.management.modelmbean.DescriptorSupport.getFields()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#getFields() public synchronized java.lang.String[]
+     * javax.management.modelmbean.DescriptorSupport.getFields()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -317,8 +325,9 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DescriptorSupport#toXMLString() public synchronized
-     * java.lang.String javax.management.modelmbean.DescriptorSupport.toXMLString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.DescriptorSupport#toXMLString() public synchronized java.lang.String
+     * javax.management.modelmbean.DescriptorSupport.toXMLString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

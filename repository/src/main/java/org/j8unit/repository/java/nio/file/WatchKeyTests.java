@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchKey#cancel() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchKey#cancel() public abstract void
      * java.nio.file.WatchKey.cancel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchKey#watchable() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchKey#watchable() public abstract
      * java.nio.file.Watchable java.nio.file.WatchKey.watchable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchKey#pollEvents() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchKey#pollEvents() public abstract
      * java.util.List<java.nio.file.WatchEvent<?>> java.nio.file.WatchKey.pollEvents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchKey#isValid() public abstract boolean
-     * java.nio.file.WatchKey.isValid()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchKey#isValid() public abstract
+     * boolean java.nio.file.WatchKey.isValid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WatchKey#reset() public abstract boolean
-     * java.nio.file.WatchKey.reset()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchKey#reset() public abstract
+     * boolean java.nio.file.WatchKey.reset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

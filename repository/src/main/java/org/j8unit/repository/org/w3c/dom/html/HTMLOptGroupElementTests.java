@@ -34,8 +34,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOptGroupElement#setDisabled(boolean) public
-     * abstract void org.w3c.dom.html.HTMLOptGroupElement.setDisabled(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLOptGroupElement#setDisabled(boolean) public abstract void
+     * org.w3c.dom.html.HTMLOptGroupElement.setDisabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOptGroupElement#getDisabled() public abstract
-     * boolean org.w3c.dom.html.HTMLOptGroupElement.getDisabled()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLOptGroupElement#getDisabled()
+     * public abstract boolean org.w3c.dom.html.HTMLOptGroupElement.getDisabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOptGroupElement#getLabel() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLOptGroupElement.getLabel()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLOptGroupElement#getLabel()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLOptGroupElement.getLabel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLOptGroupElement#setLabel(String) public abstract
-     * void org.w3c.dom.html.HTMLOptGroupElement.setLabel(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLOptGroupElement#setLabel(String) public abstract void
+     * org.w3c.dom.html.HTMLOptGroupElement.setLabel(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

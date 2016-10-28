@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.lang.model.element;
 
-import java.util.List;
-import javax.lang.model.element.AnnotationMirror;
-import javax.lang.model.element.AnnotationValue;
 import javax.lang.model.element.AnnotationValueVisitor;
-import javax.lang.model.element.VariableElement;
-import javax.lang.model.type.TypeMirror;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -40,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitString(String, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitString(java.lang.String,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitString(String, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitString(java.lang.String,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +59,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AnnotationValueVisitor#visitAnnotation(AnnotationMirror, Object) public abstract R
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitAnnotation(javax.lang.model.element.AnnotationMirror, Object)
+     * public abstract R
      * javax.lang.model.element.AnnotationValueVisitor.visitAnnotation(javax.lang.model.element.AnnotationMirror,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitType(TypeMirror, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitType(javax.lang.model.type.TypeMirror,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitType(javax.lang.model.type.TypeMirror, Object) public
+     * abstract R javax.lang.model.element.AnnotationValueVisitor.visitType(javax.lang.model.type.TypeMirror,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +105,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitDouble(double, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitDouble(double,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitDouble(double, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitDouble(double,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +128,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitLong(long, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitLong(long,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitLong(long, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitLong(long,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +151,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitChar(char, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitChar(char,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitChar(char, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitChar(char,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +174,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitShort(short, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitShort(short,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitShort(short, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitShort(short,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +197,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitBoolean(boolean, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitBoolean(boolean,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitBoolean(boolean, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitBoolean(boolean,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,7 +220,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visit(AnnotationValue) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visit(javax.lang.model.element.AnnotationValue) public
      * abstract R javax.lang.model.element.AnnotationValueVisitor.visit(javax.lang.model.element.AnnotationValue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,7 +244,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AnnotationValueVisitor#visit(AnnotationValue, Object) public abstract R
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visit(javax.lang.model.element.AnnotationValue, Object)
+     * public abstract R
      * javax.lang.model.element.AnnotationValueVisitor.visit(javax.lang.model.element.AnnotationValue,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -263,7 +268,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AnnotationValueVisitor#visitUnknown(AnnotationValue, Object) public abstract R
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitUnknown(javax.lang.model.element.AnnotationValue, Object)
+     * public abstract R
      * javax.lang.model.element.AnnotationValueVisitor.visitUnknown(javax.lang.model.element.AnnotationValue,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -285,8 +291,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitFloat(float, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitFloat(float,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitFloat(float, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitFloat(float,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -307,8 +314,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitByte(byte, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitByte(byte,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitByte(byte, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitByte(byte,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -329,8 +337,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitArray(List, Object)
-     * public abstract R javax.lang.model.element.AnnotationValueVisitor.visitArray(java.util.List<? extends
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitArray(java.util.List, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitArray(java.util.List<? extends
      * javax.lang.model.element.AnnotationValue>,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -353,7 +362,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AnnotationValueVisitor#visitEnumConstant(VariableElement, Object) public abstract R
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitEnumConstant(javax.lang.model.element.VariableElement, Object)
+     * public abstract R
      * javax.lang.model.element.AnnotationValueVisitor.visitEnumConstant(javax.lang.model.element.VariableElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -375,8 +385,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationValueVisitor#visitInt(int, Object) public
-     * abstract R javax.lang.model.element.AnnotationValueVisitor.visitInt(int,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.AnnotationValueVisitor#visitInt(int, Object) public abstract R
+     * javax.lang.model.element.AnnotationValueVisitor.visitInt(int,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

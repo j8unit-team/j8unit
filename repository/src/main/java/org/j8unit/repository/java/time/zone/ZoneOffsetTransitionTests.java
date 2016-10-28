@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.time.zone;
 
-import java.time.ZoneOffset;
 import java.time.zone.ZoneOffsetTransition;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#getDateTimeBefore() public
-     * java.time.LocalDateTime java.time.zone.ZoneOffsetTransition.getDateTimeBefore()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.zone.ZoneOffsetTransition#getDateTimeBefore() public java.time.LocalDateTime
+     * java.time.zone.ZoneOffsetTransition.getDateTimeBefore()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#getOffsetBefore() public
-     * java.time.ZoneOffset java.time.zone.ZoneOffsetTransition.getOffsetBefore()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.zone.ZoneOffsetTransition#getOffsetBefore() public java.time.ZoneOffset
+     * java.time.zone.ZoneOffsetTransition.getOffsetBefore()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#getOffsetAfter() public
-     * java.time.ZoneOffset java.time.zone.ZoneOffsetTransition.getOffsetAfter()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.zone.ZoneOffsetTransition#getOffsetAfter()
+     * public java.time.ZoneOffset java.time.zone.ZoneOffsetTransition.getOffsetAfter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#compareTo(ZoneOffsetTransition)
-     * public int java.time.zone.ZoneOffsetTransition.compareTo(java.time.zone.ZoneOffsetTransition)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.zone.ZoneOffsetTransition#compareTo(java.time.zone.ZoneOffsetTransition) public int
+     * java.time.zone.ZoneOffsetTransition.compareTo(java.time.zone.ZoneOffsetTransition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +126,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#getDateTimeAfter() public
-     * java.time.LocalDateTime java.time.zone.ZoneOffsetTransition.getDateTimeAfter()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.zone.ZoneOffsetTransition#getDateTimeAfter() public java.time.LocalDateTime
+     * java.time.zone.ZoneOffsetTransition.getDateTimeAfter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +149,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#isOverlap() public boolean
-     * java.time.zone.ZoneOffsetTransition.isOverlap()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.zone.ZoneOffsetTransition#isOverlap()
+     * public boolean java.time.zone.ZoneOffsetTransition.isOverlap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +171,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#toString() public
-     * java.lang.String java.time.zone.ZoneOffsetTransition.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.zone.ZoneOffsetTransition#toString()
+     * public java.lang.String java.time.zone.ZoneOffsetTransition.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +194,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#isValidOffset(ZoneOffset)
-     * public boolean java.time.zone.ZoneOffsetTransition.isValidOffset(java.time.ZoneOffset)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.zone.ZoneOffsetTransition#isValidOffset(java.time.ZoneOffset) public boolean
+     * java.time.zone.ZoneOffsetTransition.isValidOffset(java.time.ZoneOffset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +217,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#getInstant() public
-     * java.time.Instant java.time.zone.ZoneOffsetTransition.getInstant()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.zone.ZoneOffsetTransition#getInstant()
+     * public java.time.Instant java.time.zone.ZoneOffsetTransition.getInstant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +239,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#isGap() public boolean
-     * java.time.zone.ZoneOffsetTransition.isGap()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.zone.ZoneOffsetTransition#isGap() public
+     * boolean java.time.zone.ZoneOffsetTransition.isGap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,8 +261,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#getDuration() public
-     * java.time.Duration java.time.zone.ZoneOffsetTransition.getDuration()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.zone.ZoneOffsetTransition#getDuration()
+     * public java.time.Duration java.time.zone.ZoneOffsetTransition.getDuration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,8 +283,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#toEpochSecond() public long
-     * java.time.zone.ZoneOffsetTransition.toEpochSecond()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.zone.ZoneOffsetTransition#toEpochSecond()
+     * public long java.time.zone.ZoneOffsetTransition.toEpochSecond()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,8 +305,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#hashCode() public int
-     * java.time.zone.ZoneOffsetTransition.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.zone.ZoneOffsetTransition#hashCode()
+     * public int java.time.zone.ZoneOffsetTransition.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +328,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransition#equals(Object) public boolean
-     * java.time.zone.ZoneOffsetTransition.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.zone.ZoneOffsetTransition#equals(Object)
+     * public boolean java.time.zone.ZoneOffsetTransition.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

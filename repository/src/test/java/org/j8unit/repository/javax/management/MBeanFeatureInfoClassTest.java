@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Descriptor;
 import javax.management.MBeanFeatureInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.management.MBeanFeatureInfoClassTests<MBe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanFeatureInfo#MBeanFeatureInfo(String, String) public
+     * {@link javax.management.MBeanFeatureInfo#MBeanFeatureInfo(String, String) public
      * javax.management.MBeanFeatureInfo(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,7 @@ implements org.j8unit.repository.javax.management.MBeanFeatureInfoClassTests<MBe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanFeatureInfo#MBeanFeatureInfo(String, String, Descriptor) public
+     * {@link javax.management.MBeanFeatureInfo#MBeanFeatureInfo(String, String, javax.management.Descriptor) public
      * javax.management.MBeanFeatureInfo(java.lang.String,java.lang.String,javax.management.Descriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.javax.management.MBeanFeatureInfoClassTests<MBe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanFeatureInfo sut = null; // = new MBeanFeatureInfo(String, String, Descriptor);
+        final MBeanFeatureInfo sut = null; // = new MBeanFeatureInfo(String, String, javax.management.Descriptor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanFeatureInfo]

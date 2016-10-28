@@ -1,12 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
-import javax.swing.JButton;
-import javax.swing.JLayeredPane;
-import javax.swing.JMenuBar;
 import javax.swing.JRootPane;
-import javax.swing.plaf.RootPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +34,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#isOptimizedDrawingEnabled() public boolean
-     * javax.swing.JRootPane.isOptimizedDrawingEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#isOptimizedDrawingEnabled()
+     * public boolean javax.swing.JRootPane.isOptimizedDrawingEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +57,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#setJMenuBar(JMenuBar) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JRootPane#setJMenuBar(javax.swing.JMenuBar) public void
      * javax.swing.JRootPane.setJMenuBar(javax.swing.JMenuBar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +80,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getGlassPane() public java.awt.Component
-     * javax.swing.JRootPane.getGlassPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getGlassPane() public
+     * java.awt.Component javax.swing.JRootPane.getGlassPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,30 +102,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getDefaultButton() public
-     * javax.swing.JButton javax.swing.JRootPane.getDefaultButton()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultButton()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getUIClassID() public java.lang.String
-     * javax.swing.JRootPane.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getUIClassID() public
+     * java.lang.String javax.swing.JRootPane.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,7 +125,29 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getDefaultButton() public
+     * javax.swing.JButton javax.swing.JRootPane.getDefaultButton()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultButton()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#updateUI() public void
      * javax.swing.JRootPane.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,8 +170,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#setDoubleBuffered(boolean) public void
-     * javax.swing.JRootPane.setDoubleBuffered(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#setDoubleBuffered(boolean)
+     * public void javax.swing.JRootPane.setDoubleBuffered(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,8 +193,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getContentPane() public java.awt.Container
-     * javax.swing.JRootPane.getContentPane()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getContentPane() public
+     * java.awt.Container javax.swing.JRootPane.getContentPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,8 +215,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getMenuBar() public javax.swing.JMenuBar
-     * javax.swing.JRootPane.getMenuBar()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getMenuBar() public
+     * javax.swing.JMenuBar javax.swing.JRootPane.getMenuBar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -242,7 +237,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JRootPane.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -265,7 +260,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#setUI(RootPaneUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JRootPane#setUI(javax.swing.plaf.RootPaneUI) public void
      * javax.swing.JRootPane.setUI(javax.swing.plaf.RootPaneUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -287,8 +283,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#isValidateRoot() public boolean
-     * javax.swing.JRootPane.isValidateRoot()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#isValidateRoot() public
+     * boolean javax.swing.JRootPane.isValidateRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,8 +306,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getUI() public javax.swing.plaf.RootPaneUI
-     * javax.swing.JRootPane.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getUI() public
+     * javax.swing.plaf.RootPaneUI javax.swing.JRootPane.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -332,7 +328,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#setMenuBar(JMenuBar) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JRootPane#setMenuBar(javax.swing.JMenuBar) public void
      * javax.swing.JRootPane.setMenuBar(javax.swing.JMenuBar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -354,7 +351,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#setLayeredPane(JLayeredPane) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JRootPane#setLayeredPane(javax.swing.JLayeredPane) public void
      * javax.swing.JRootPane.setLayeredPane(javax.swing.JLayeredPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -376,8 +374,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getJMenuBar() public javax.swing.JMenuBar
-     * javax.swing.JRootPane.getJMenuBar()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getJMenuBar() public
+     * javax.swing.JMenuBar javax.swing.JRootPane.getJMenuBar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -398,7 +396,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#addNotify() public void
      * javax.swing.JRootPane.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -421,7 +419,30 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#setContentPane(Container) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getWindowDecorationStyle()
+     * public int javax.swing.JRootPane.getWindowDecorationStyle()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWindowDecorationStyle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JRootPane#setContentPane(java.awt.Container) public void
      * javax.swing.JRootPane.setContentPane(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -443,51 +464,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getWindowDecorationStyle() public int
-     * javax.swing.JRootPane.getWindowDecorationStyle()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWindowDecorationStyle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#setWindowDecorationStyle(int) public void
-     * javax.swing.JRootPane.setWindowDecorationStyle(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setWindowDecorationStyle_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#getLayeredPane() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#getLayeredPane() public
      * javax.swing.JLayeredPane javax.swing.JRootPane.getLayeredPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -509,7 +486,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#removeNotify() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#removeNotify() public void
      * javax.swing.JRootPane.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -532,7 +509,30 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#setGlassPane(Component) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JRootPane#setWindowDecorationStyle(int)
+     * public void javax.swing.JRootPane.setWindowDecorationStyle(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setWindowDecorationStyle_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JRootPane#setGlassPane(java.awt.Component) public void
      * javax.swing.JRootPane.setGlassPane(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -554,7 +554,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JRootPane#setDefaultButton(JButton) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JRootPane#setDefaultButton(javax.swing.JButton) public void
      * javax.swing.JRootPane.setDefaultButton(javax.swing.JButton)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.activation;
 
-import java.awt.datatransfer.DataFlavor;
 import javax.activation.ActivationDataFlavor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDataFlavor#getMimeType() public
-     * java.lang.String javax.activation.ActivationDataFlavor.getMimeType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.ActivationDataFlavor#getMimeType()
+     * public java.lang.String javax.activation.ActivationDataFlavor.getMimeType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDataFlavor#equals(DataFlavor) public
-     * boolean javax.activation.ActivationDataFlavor.equals(java.awt.datatransfer.DataFlavor)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.ActivationDataFlavor#equals(java.awt.datatransfer.DataFlavor) public boolean
+     * javax.activation.ActivationDataFlavor.equals(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDataFlavor#setHumanPresentableName(String)
-     * public void javax.activation.ActivationDataFlavor.setHumanPresentableName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.ActivationDataFlavor#setHumanPresentableName(String) public void
+     * javax.activation.ActivationDataFlavor.setHumanPresentableName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +105,9 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDataFlavor#getHumanPresentableName()
-     * public java.lang.String javax.activation.ActivationDataFlavor.getHumanPresentableName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.ActivationDataFlavor#getHumanPresentableName() public java.lang.String
+     * javax.activation.ActivationDataFlavor.getHumanPresentableName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +129,9 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDataFlavor#getRepresentationClass() public
-     * java.lang.Class javax.activation.ActivationDataFlavor.getRepresentationClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.ActivationDataFlavor#getRepresentationClass() public java.lang.Class
+     * javax.activation.ActivationDataFlavor.getRepresentationClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +153,9 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ActivationDataFlavor#isMimeTypeEqual(String) public
-     * boolean javax.activation.ActivationDataFlavor.isMimeTypeEqual(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.activation.ActivationDataFlavor#isMimeTypeEqual(String) public boolean
+     * javax.activation.ActivationDataFlavor.isMimeTypeEqual(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

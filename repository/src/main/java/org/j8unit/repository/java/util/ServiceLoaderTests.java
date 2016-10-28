@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, S>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceLoader#toString() public java.lang.String
-     * java.util.ServiceLoader.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ServiceLoader#toString() public
+     * java.lang.String java.util.ServiceLoader.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, S>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceLoader#iterator() public java.util.Iterator
-     * <S> java.util.ServiceLoader.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.ServiceLoader#iterator() public
+     * java.util.Iterator<S> java.util.ServiceLoader.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, S>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServiceLoader#reload() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.ServiceLoader#reload() public void
      * java.util.ServiceLoader.reload()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

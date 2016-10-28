@@ -36,8 +36,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#handleFault(MessageContext) public abstract
-     * boolean javax.xml.ws.handler.Handler.handleFault(C)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.handler.Handler#handleFault(javax.xml.ws.handler.MessageContext) public abstract boolean
+     * javax.xml.ws.handler.Handler.handleFault(C)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +59,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#handleMessage(MessageContext) public
-     * abstract boolean javax.xml.ws.handler.Handler.handleMessage(C)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.handler.Handler#handleMessage(javax.xml.ws.handler.MessageContext) public abstract boolean
+     * javax.xml.ws.handler.Handler.handleMessage(C)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +82,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Handler#close(MessageContext) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.handler.Handler#close(javax.xml.ws.handler.MessageContext) public abstract void
      * javax.xml.ws.handler.Handler.close(javax.xml.ws.handler.MessageContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

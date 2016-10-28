@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHolderClassTests<UShortS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UShortSeqHolder#UShortSeqHolder() public
-     * org.omg.CORBA.UShortSeqHolder()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.UShortSeqHolder#UShortSeqHolder()
+     * public org.omg.CORBA.UShortSeqHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHolderClassTests<UShortS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UShortSeqHolder#UShortSeqHolder(short[]) public
-     * org.omg.CORBA.UShortSeqHolder(short[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.UShortSeqHolder#UShortSeqHolder(short[]) public org.omg.CORBA.UShortSeqHolder(short[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

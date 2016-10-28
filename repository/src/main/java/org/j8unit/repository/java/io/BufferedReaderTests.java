@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#skip(long) public long
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#skip(long) public long
      * java.io.BufferedReader.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#reset() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#reset() public void
      * java.io.BufferedReader.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#mark(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#mark(int) public void
      * java.io.BufferedReader.mark(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#close() public void
      * java.io.BufferedReader.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#lines() public
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#lines() public
      * java.util.stream.Stream<java.lang.String> java.io.BufferedReader.lines()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#readLine() public java.lang.String
-     * java.io.BufferedReader.readLine() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#readLine() public
+     * java.lang.String java.io.BufferedReader.readLine() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +170,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#read() public int
      * java.io.BufferedReader.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,8 +193,8 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#read(char[], int, int) public int
-     * java.io.BufferedReader.read(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#read(char[], int, int) public
+     * int java.io.BufferedReader.read(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,7 +216,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#ready() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#ready() public boolean
      * java.io.BufferedReader.ready() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -239,8 +239,8 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedReader#markSupported() public boolean
-     * java.io.BufferedReader.markSupported()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedReader#markSupported() public
+     * boolean java.io.BufferedReader.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

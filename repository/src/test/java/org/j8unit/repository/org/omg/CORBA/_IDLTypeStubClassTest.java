@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA._IDLTypeStub;
-import org.omg.CORBA.portable.Delegate;
 
 @RunWith(J8Unit4.class)
 public class _IDLTypeStubClassTest
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA._IDLTypeStubClassTests<_IDLTypeSt
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link _IDLTypeStub#_IDLTypeStub() public
-     * org.omg.CORBA._IDLTypeStub()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA._IDLTypeStub#_IDLTypeStub()
+     * public org.omg.CORBA._IDLTypeStub()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA._IDLTypeStubClassTests<_IDLTypeSt
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link _IDLTypeStub#_IDLTypeStub(Delegate) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA._IDLTypeStub#_IDLTypeStub(org.omg.CORBA.portable.Delegate) public
      * org.omg.CORBA._IDLTypeStub(org.omg.CORBA.portable.Delegate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.omg.CORBA._IDLTypeStubClassTests<_IDLTypeSt
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final _IDLTypeStub sut = null; // = new _IDLTypeStub(Delegate);
+        final _IDLTypeStub sut = null; // = new _IDLTypeStub(org.omg.CORBA.portable.Delegate);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA._IDLTypeStub]

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.annotation.IncompleteAnnotationExcept
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IncompleteAnnotationException#IncompleteAnnotationException(Class, String) public
+     * {@link java.lang.annotation.IncompleteAnnotationException#IncompleteAnnotationException(Class, String) public
      * java.lang.annotation.IncompleteAnnotationException(java.lang.Class<? extends
      * java.lang.annotation.Annotation>,java.lang.String)}.
      *

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.font;
 
 import java.awt.font.LayoutPath;
-import java.awt.geom.Point2D;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutPath#pointToPath(Point2D, Point2D) public
-     * abstract boolean java.awt.font.LayoutPath.pointToPath(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.LayoutPath#pointToPath(java.awt.geom.Point2D, java.awt.geom.Point2D) public abstract boolean
+     * java.awt.font.LayoutPath.pointToPath(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LayoutPath#pathToPoint(Point2D, boolean, Point2D)
-     * public abstract void java.awt.font.LayoutPath.pathToPoint(java.awt.geom.Point2D,boolean,java.awt.geom.Point2D)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.LayoutPath#pathToPoint(java.awt.geom.Point2D, boolean, java.awt.geom.Point2D) public
+     * abstract void java.awt.font.LayoutPath.pathToPoint(java.awt.geom.Point2D,boolean,java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

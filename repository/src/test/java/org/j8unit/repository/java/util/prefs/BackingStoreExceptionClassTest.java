@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.prefs.BackingStoreExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BackingStoreException#BackingStoreException(String) public
+     * {@link java.util.prefs.BackingStoreException#BackingStoreException(String) public
      * java.util.prefs.BackingStoreException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.util.prefs.BackingStoreExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BackingStoreException#BackingStoreException(Throwable) public
+     * {@link java.util.prefs.BackingStoreException#BackingStoreException(Throwable) public
      * java.util.prefs.BackingStoreException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleSummaryStatistics#getSum() public final double
-     * java.util.DoubleSummaryStatistics.getSum()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.DoubleSummaryStatistics#getSum() public
+     * final double java.util.DoubleSummaryStatistics.getSum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleSummaryStatistics#getAverage() public final
-     * double java.util.DoubleSummaryStatistics.getAverage()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.DoubleSummaryStatistics#getAverage()
+     * public final double java.util.DoubleSummaryStatistics.getAverage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleSummaryStatistics#getCount() public final long
-     * java.util.DoubleSummaryStatistics.getCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.DoubleSummaryStatistics#getCount() public
+     * final long java.util.DoubleSummaryStatistics.getCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DoubleSummaryStatistics#combine(DoubleSummaryStatistics) public void
+     * {@link java.util.DoubleSummaryStatistics#combine(java.util.DoubleSummaryStatistics) public void
      * java.util.DoubleSummaryStatistics.combine(java.util.DoubleSummaryStatistics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleSummaryStatistics#accept(double) public void
-     * java.util.DoubleSummaryStatistics.accept(double)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.DoubleSummaryStatistics#accept(double)
+     * public void java.util.DoubleSummaryStatistics.accept(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +146,7 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleSummaryStatistics#toString() public
+     * Test method for the hereby targeted method-under-test {@link java.util.DoubleSummaryStatistics#toString() public
      * java.lang.String java.util.DoubleSummaryStatistics.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +169,8 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleSummaryStatistics#getMin() public final double
-     * java.util.DoubleSummaryStatistics.getMin()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.DoubleSummaryStatistics#getMin() public
+     * final double java.util.DoubleSummaryStatistics.getMin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +191,8 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleSummaryStatistics#getMax() public final double
-     * java.util.DoubleSummaryStatistics.getMax()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.DoubleSummaryStatistics#getMax() public
+     * final double java.util.DoubleSummaryStatistics.getMax()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

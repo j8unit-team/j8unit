@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.DTDClassTests<DTD>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DTD#putDTDHash(String, DTD) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.DTD#putDTDHash(String, javax.swing.text.html.parser.DTD) public static void
      * javax.swing.text.html.parser.DTD.putDTDHash(java.lang.String,javax.swing.text.html.parser.DTD)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,13 +37,14 @@ implements org.j8unit.repository.javax.swing.text.html.parser.DTDClassTests<DTD>
     @Category(Draft.class)
     public void test_putDTDHash_String_DTD()
     throws Exception {
-        // write some test for {@link DTD#putDTDHash(String, DTD)}
+        // write some test for {@link javax.swing.text.html.parser.DTD#putDTDHash(String,
+        // javax.swing.text.html.parser.DTD)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DTD#getDTD(String) public static
-     * javax.swing.text.html.parser.DTD javax.swing.text.html.parser.DTD.getDTD(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.DTD#getDTD(String)
+     * public static javax.swing.text.html.parser.DTD javax.swing.text.html.parser.DTD.getDTD(java.lang.String) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +59,7 @@ implements org.j8unit.repository.javax.swing.text.html.parser.DTDClassTests<DTD>
     @Category(Draft.class)
     public void test_getDTD_String()
     throws Exception {
-        // write some test for {@link DTD#getDTD(String)}
+        // write some test for {@link javax.swing.text.html.parser.DTD#getDTD(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.DTD]

@@ -35,7 +35,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UserPrincipalLookupService#lookupPrincipalByGroupName(String) public abstract
+     * {@link java.nio.file.attribute.UserPrincipalLookupService#lookupPrincipalByGroupName(String) public abstract
      * java.nio.file.attribute.GroupPrincipal
      * java.nio.file.attribute.UserPrincipalLookupService.lookupPrincipalByGroupName(java.lang.String) throws
      * java.io.IOException}.
@@ -60,7 +60,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UserPrincipalLookupService#lookupPrincipalByName(String) public abstract
+     * {@link java.nio.file.attribute.UserPrincipalLookupService#lookupPrincipalByName(String) public abstract
      * java.nio.file.attribute.UserPrincipal
      * java.nio.file.attribute.UserPrincipalLookupService.lookupPrincipalByName(java.lang.String) throws
      * java.io.IOException}.

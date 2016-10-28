@@ -62,8 +62,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Info#isSource() public boolean
-         * javax.sound.sampled.Port$Info.isSource()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Port.Info#isSource() public
+         * boolean javax.sound.sampled.Port$Info.isSource()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -84,8 +84,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Info#toString() public final java.lang.String
-         * javax.sound.sampled.Port$Info.toString()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Port.Info#toString() public
+         * final java.lang.String javax.sound.sampled.Port$Info.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -107,8 +107,9 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Info#matches(javax.sound.sampled.Line.Info)
-         * public boolean javax.sound.sampled.Port$Info.matches(javax.sound.sampled.Line$Info)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.Port.Info#matches(javax.sound.sampled.Line.Info) public boolean
+         * javax.sound.sampled.Port$Info.matches(javax.sound.sampled.Line$Info)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -130,8 +131,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Info#getName() public java.lang.String
-         * javax.sound.sampled.Port$Info.getName()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Port.Info#getName() public
+         * java.lang.String javax.sound.sampled.Port$Info.getName()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -152,8 +153,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Info#hashCode() public final int
-         * javax.sound.sampled.Port$Info.hashCode()}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Port.Info#hashCode() public
+         * final int javax.sound.sampled.Port$Info.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -175,8 +176,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Info#equals(Object) public final boolean
-         * javax.sound.sampled.Port$Info.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Port.Info#equals(Object)
+         * public final boolean javax.sound.sampled.Port$Info.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

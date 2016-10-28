@@ -22,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.ContextListClassTests<ContextList
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ContextList#ContextList() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ContextList#ContextList() public
      * org.omg.CORBA.ContextList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

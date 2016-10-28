@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.io;
 
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetDecoder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,7 @@ implements org.j8unit.repository.java.io.InputStreamReaderClassTests<InputStream
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputStreamReader#InputStreamReader(InputStream, CharsetDecoder) public
+     * {@link java.io.InputStreamReader#InputStreamReader(java.io.InputStream, java.nio.charset.CharsetDecoder) public
      * java.io.InputStreamReader(java.io.InputStream,java.nio.charset.CharsetDecoder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,13 +39,14 @@ implements org.j8unit.repository.java.io.InputStreamReaderClassTests<InputStream
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputStreamReader sut = null; // = new InputStreamReader(InputStream, CharsetDecoder);
+        final InputStreamReader sut = null; // = new InputStreamReader(java.io.InputStream,
+                                            // java.nio.charset.CharsetDecoder);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputStreamReader#InputStreamReader(InputStream, Charset) public
+     * {@link java.io.InputStreamReader#InputStreamReader(java.io.InputStream, java.nio.charset.Charset) public
      * java.io.InputStreamReader(java.io.InputStream,java.nio.charset.Charset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,13 +63,13 @@ implements org.j8unit.repository.java.io.InputStreamReaderClassTests<InputStream
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputStreamReader sut = null; // = new InputStreamReader(InputStream, Charset);
+        final InputStreamReader sut = null; // = new InputStreamReader(java.io.InputStream, java.nio.charset.Charset);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputStreamReader#InputStreamReader(InputStream, String) public
+     * {@link java.io.InputStreamReader#InputStreamReader(java.io.InputStream, String) public
      * java.io.InputStreamReader(java.io.InputStream,java.lang.String) throws java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,13 +86,14 @@ implements org.j8unit.repository.java.io.InputStreamReaderClassTests<InputStream
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputStreamReader sut = null; // = new InputStreamReader(InputStream, String);
+        final InputStreamReader sut = null; // = new InputStreamReader(java.io.InputStream, String);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputStreamReader#InputStreamReader(InputStream) public java.io.InputStreamReader(java.io.InputStream)}.
+     * {@link java.io.InputStreamReader#InputStreamReader(java.io.InputStream) public
+     * java.io.InputStreamReader(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,7 +109,7 @@ implements org.j8unit.repository.java.io.InputStreamReaderClassTests<InputStream
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputStreamReader sut = null; // = new InputStreamReader(InputStream);
+        final InputStreamReader sut = null; // = new InputStreamReader(java.io.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.InputStreamReader]

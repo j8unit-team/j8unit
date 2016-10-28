@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
-import javax.management.MBeanServer;
 import javax.management.remote.rmi.RMIServerImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServerImpl#getDefaultClassLoader() public
-     * synchronized java.lang.ClassLoader javax.management.remote.rmi.RMIServerImpl.getDefaultClassLoader()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIServerImpl#getDefaultClassLoader() public synchronized
+     * java.lang.ClassLoader javax.management.remote.rmi.RMIServerImpl.getDefaultClassLoader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServerImpl#newClient(Object) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIServerImpl#newClient(Object) public
      * javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServerImpl.newClient(java.lang.Object)
      * throws java.io.IOException}.
      *
@@ -82,7 +83,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServerImpl#getVersion() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIServerImpl#getVersion() public java.lang.String
      * javax.management.remote.rmi.RMIServerImpl.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +107,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServerImpl#getMBeanServer() public synchronized
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIServerImpl#getMBeanServer() public synchronized
      * javax.management.MBeanServer javax.management.remote.rmi.RMIServerImpl.getMBeanServer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +130,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServerImpl#setDefaultClassLoader(ClassLoader)
-     * public synchronized void javax.management.remote.rmi.RMIServerImpl.setDefaultClassLoader(java.lang.ClassLoader)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIServerImpl#setDefaultClassLoader(ClassLoader) public synchronized void
+     * javax.management.remote.rmi.RMIServerImpl.setDefaultClassLoader(java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +153,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServerImpl#toStub() public abstract
-     * java.rmi.Remote javax.management.remote.rmi.RMIServerImpl.toStub() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.rmi.RMIServerImpl#toStub()
+     * public abstract java.rmi.Remote javax.management.remote.rmi.RMIServerImpl.toStub() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +175,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServerImpl#close() public synchronized void
-     * javax.management.remote.rmi.RMIServerImpl.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.rmi.RMIServerImpl#close()
+     * public synchronized void javax.management.remote.rmi.RMIServerImpl.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,8 +198,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServerImpl#setMBeanServer(MBeanServer) public
-     * synchronized void javax.management.remote.rmi.RMIServerImpl.setMBeanServer(javax.management.MBeanServer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIServerImpl#setMBeanServer(javax.management.MBeanServer) public synchronized
+     * void javax.management.remote.rmi.RMIServerImpl.setMBeanServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

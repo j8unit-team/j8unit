@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Rectangle;
 import java.awt.Robot;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#isAutoWaitForIdle() public synchronized
-     * boolean java.awt.Robot.isAutoWaitForIdle()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#isAutoWaitForIdle() public
+     * synchronized boolean java.awt.Robot.isAutoWaitForIdle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#getPixelColor(int, int) public synchronized
-     * java.awt.Color java.awt.Robot.getPixelColor(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#getPixelColor(int, int) public
+     * synchronized java.awt.Color java.awt.Robot.getPixelColor(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#setAutoDelay(int) public synchronized void
-     * java.awt.Robot.setAutoDelay(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#setAutoDelay(int) public synchronized
+     * void java.awt.Robot.setAutoDelay(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#getAutoDelay() public synchronized int
-     * java.awt.Robot.getAutoDelay()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#getAutoDelay() public synchronized
+     * int java.awt.Robot.getAutoDelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +122,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#keyRelease(int) public synchronized void
-     * java.awt.Robot.keyRelease(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#keyRelease(int) public synchronized
+     * void java.awt.Robot.keyRelease(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +144,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#delay(int) public synchronized void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#delay(int) public synchronized void
      * java.awt.Robot.delay(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +166,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#toString() public synchronized
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#toString() public synchronized
      * java.lang.String java.awt.Robot.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +189,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#setAutoWaitForIdle(boolean) public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#setAutoWaitForIdle(boolean) public
      * synchronized void java.awt.Robot.setAutoWaitForIdle(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +211,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#mouseMove(int, int) public synchronized void
-     * java.awt.Robot.mouseMove(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#mouseMove(int, int) public
+     * synchronized void java.awt.Robot.mouseMove(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +233,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#createScreenCapture(Rectangle) public
-     * synchronized java.awt.image.BufferedImage java.awt.Robot.createScreenCapture(java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Robot#createScreenCapture(java.awt.Rectangle) public synchronized java.awt.image.BufferedImage
+     * java.awt.Robot.createScreenCapture(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +256,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#mousePress(int) public synchronized void
-     * java.awt.Robot.mousePress(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#mousePress(int) public synchronized
+     * void java.awt.Robot.mousePress(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +278,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#waitForIdle() public synchronized void
-     * java.awt.Robot.waitForIdle()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#waitForIdle() public synchronized
+     * void java.awt.Robot.waitForIdle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,8 +300,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#mouseWheel(int) public synchronized void
-     * java.awt.Robot.mouseWheel(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#mouseWheel(int) public synchronized
+     * void java.awt.Robot.mouseWheel(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -322,8 +322,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#keyPress(int) public synchronized void
-     * java.awt.Robot.keyPress(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#keyPress(int) public synchronized
+     * void java.awt.Robot.keyPress(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -344,8 +344,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Robot#mouseRelease(int) public synchronized void
-     * java.awt.Robot.mouseRelease(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Robot#mouseRelease(int) public synchronized
+     * void java.awt.Robot.mouseRelease(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

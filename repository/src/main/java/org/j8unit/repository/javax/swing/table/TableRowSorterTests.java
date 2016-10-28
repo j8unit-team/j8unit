@@ -2,7 +2,6 @@ package org.j8unit.repository.javax.swing.table;
 
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
-import javax.swing.table.TableStringConverter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, Integer>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableRowSorter#setModel(TableModel) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.TableRowSorter#setModel(javax.swing.table.TableModel) public void
      * javax.swing.table.TableRowSorter.setModel(M)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, Integer>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableRowSorter#getStringConverter() public
-     * javax.swing.table.TableStringConverter javax.swing.table.TableRowSorter.getStringConverter()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.TableRowSorter#getStringConverter() public javax.swing.table.TableStringConverter
+     * javax.swing.table.TableRowSorter.getStringConverter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +82,7 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, Integer>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TableRowSorter#setStringConverter(TableStringConverter) public void
+     * {@link javax.swing.table.TableRowSorter#setStringConverter(javax.swing.table.TableStringConverter) public void
      * javax.swing.table.TableRowSorter.setStringConverter(javax.swing.table.TableStringConverter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +104,8 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, Integer>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TableRowSorter#getComparator(int) public
-     * java.util.Comparator<?> javax.swing.table.TableRowSorter.getComparator(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.table.TableRowSorter#getComparator(int)
+     * public java.util.Comparator<?> javax.swing.table.TableRowSorter.getComparator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

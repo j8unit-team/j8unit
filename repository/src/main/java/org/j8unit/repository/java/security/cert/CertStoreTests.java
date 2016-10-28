@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.cert.CRLSelector;
-import java.security.cert.CertSelector;
 import java.security.cert.CertStore;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStore#getType() public final java.lang.String
-     * java.security.cert.CertStore.getType()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertStore#getType() public final
+     * java.lang.String java.security.cert.CertStore.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStore#getCRLs(CRLSelector) public final
-     * java.util.Collection<? extends java.security.cert.CRL>
-     * java.security.cert.CertStore.getCRLs(java.security.cert.CRLSelector) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertStore#getCRLs(java.security.cert.CRLSelector) public final java.util.Collection<?
+     * extends java.security.cert.CRL> java.security.cert.CertStore.getCRLs(java.security.cert.CRLSelector) throws
      * java.security.cert.CertStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStore#getCertStoreParameters() public final
-     * java.security.cert.CertStoreParameters java.security.cert.CertStore.getCertStoreParameters()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertStore#getCertStoreParameters() public final java.security.cert.CertStoreParameters
+     * java.security.cert.CertStore.getCertStoreParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStore#getProvider() public final
-     * java.security.Provider java.security.cert.CertStore.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertStore#getProvider() public
+     * final java.security.Provider java.security.cert.CertStore.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStore#getCertificates(CertSelector) public final
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertStore#getCertificates(java.security.cert.CertSelector) public final
      * java.util.Collection<? extends java.security.cert.Certificate>
      * java.security.cert.CertStore.getCertificates(java.security.cert.CertSelector) throws
      * java.security.cert.CertStoreException}.

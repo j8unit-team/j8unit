@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.security.auth.x500;
 
-import java.security.PrivateKey;
-import java.security.cert.X509Certificate;
 import javax.security.auth.x500.X500PrivateCredential;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrivateCredentialC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link X500PrivateCredential#X500PrivateCredential(X509Certificate, PrivateKey) public
+     * {@link javax.security.auth.x500.X500PrivateCredential#X500PrivateCredential(java.security.cert.X509Certificate, java.security.PrivateKey)
+     * public
      * javax.security.auth.x500.X500PrivateCredential(java.security.cert.X509Certificate,java.security.PrivateKey)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +40,15 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrivateCredentialC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final X500PrivateCredential sut = null; // = new X500PrivateCredential(X509Certificate, PrivateKey);
+        final X500PrivateCredential sut = null; // = new X500PrivateCredential(java.security.cert.X509Certificate,
+                                                // java.security.PrivateKey);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link X500PrivateCredential#X500PrivateCredential(X509Certificate, PrivateKey, String) public
+     * {@link javax.security.auth.x500.X500PrivateCredential#X500PrivateCredential(java.security.cert.X509Certificate, java.security.PrivateKey, String)
+     * public
      * javax.security.auth.x500.X500PrivateCredential(java.security.cert.X509Certificate,java.security.PrivateKey,java.lang.String)}
      * .
      *
@@ -65,7 +66,8 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrivateCredentialC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final X500PrivateCredential sut = null; // = new X500PrivateCredential(X509Certificate, PrivateKey, String);
+        final X500PrivateCredential sut = null; // = new X500PrivateCredential(java.security.cert.X509Certificate,
+                                                // java.security.PrivateKey, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.x500.X500PrivateCredential]

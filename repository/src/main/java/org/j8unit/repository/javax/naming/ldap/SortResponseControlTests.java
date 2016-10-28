@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortResponseControl#isSorted() public boolean
-     * javax.naming.ldap.SortResponseControl.isSorted()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.SortResponseControl#isSorted()
+     * public boolean javax.naming.ldap.SortResponseControl.isSorted()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortResponseControl#getAttributeID() public
-     * java.lang.String javax.naming.ldap.SortResponseControl.getAttributeID()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.SortResponseControl#getAttributeID() public java.lang.String
+     * javax.naming.ldap.SortResponseControl.getAttributeID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +79,8 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortResponseControl#getResultCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.SortResponseControl#getResultCode() public int
      * javax.naming.ldap.SortResponseControl.getResultCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +102,8 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortResponseControl#getException() public
-     * javax.naming.NamingException javax.naming.ldap.SortResponseControl.getException()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.SortResponseControl#getException()
+     * public javax.naming.NamingException javax.naming.ldap.SortResponseControl.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

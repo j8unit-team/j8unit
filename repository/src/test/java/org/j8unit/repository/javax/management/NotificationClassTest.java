@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.NotificationClassTests<Notific
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Notification#Notification(String, Object, long, long, String) public
+     * {@link javax.management.Notification#Notification(String, Object, long, long, String) public
      * javax.management.Notification(java.lang.String,java.lang.Object,long,long,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.NotificationClassTests<Notific
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Notification#Notification(String, Object, long, long) public
+     * {@link javax.management.Notification#Notification(String, Object, long, long) public
      * javax.management.Notification(java.lang.String,java.lang.Object,long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.management.NotificationClassTests<Notific
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Notification#Notification(String, Object, long, String) public
+     * {@link javax.management.Notification#Notification(String, Object, long, String) public
      * javax.management.Notification(java.lang.String,java.lang.Object,long,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,8 +90,9 @@ implements org.j8unit.repository.javax.management.NotificationClassTests<Notific
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Notification#Notification(String, Object, long)
-     * public javax.management.Notification(java.lang.String,java.lang.Object,long)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.Notification#Notification(String, Object, long) public
+     * javax.management.Notification(java.lang.String,java.lang.Object,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

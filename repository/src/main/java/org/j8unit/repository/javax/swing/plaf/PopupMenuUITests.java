@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import java.awt.event.MouseEvent;
-import javax.swing.JPopupMenu;
 import javax.swing.plaf.PopupMenuUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PopupMenuUI#isPopupTrigger(MouseEvent) public
-     * boolean javax.swing.plaf.PopupMenuUI.isPopupTrigger(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.PopupMenuUI#isPopupTrigger(java.awt.event.MouseEvent) public boolean
+     * javax.swing.plaf.PopupMenuUI.isPopupTrigger(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PopupMenuUI#getPopup(JPopupMenu, int, int) public
-     * javax.swing.Popup javax.swing.plaf.PopupMenuUI.getPopup(javax.swing.JPopupMenu,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.PopupMenuUI#getPopup(javax.swing.JPopupMenu, int, int) public javax.swing.Popup
+     * javax.swing.plaf.PopupMenuUI.getPopup(javax.swing.JPopupMenu,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

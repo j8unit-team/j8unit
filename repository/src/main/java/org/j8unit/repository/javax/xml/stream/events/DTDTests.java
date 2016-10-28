@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DTD#getNotations() public abstract java.util.List
-     * javax.xml.stream.events.DTD.getNotations()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.DTD#getNotations() public
+     * abstract java.util.List javax.xml.stream.events.DTD.getNotations()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DTD#getDocumentTypeDeclaration() public abstract
-     * java.lang.String javax.xml.stream.events.DTD.getDocumentTypeDeclaration()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.DTD#getDocumentTypeDeclaration() public abstract java.lang.String
+     * javax.xml.stream.events.DTD.getDocumentTypeDeclaration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DTD#getEntities() public abstract java.util.List
-     * javax.xml.stream.events.DTD.getEntities()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.DTD#getEntities() public
+     * abstract java.util.List javax.xml.stream.events.DTD.getEntities()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DTD#getProcessedDTD() public abstract
-     * java.lang.Object javax.xml.stream.events.DTD.getProcessedDTD()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.DTD#getProcessedDTD() public
+     * abstract java.lang.Object javax.xml.stream.events.DTD.getProcessedDTD()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

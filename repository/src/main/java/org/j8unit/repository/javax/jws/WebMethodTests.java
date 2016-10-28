@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebMethod#action() public abstract java.lang.String
-     * javax.jws.WebMethod.action()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebMethod#action() public abstract
+     * java.lang.String javax.jws.WebMethod.action()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebMethod#operationName() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebMethod#operationName() public abstract
      * java.lang.String javax.jws.WebMethod.operationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebMethod#exclude() public abstract boolean
-     * javax.jws.WebMethod.exclude()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.WebMethod#exclude() public abstract
+     * boolean javax.jws.WebMethod.exclude()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

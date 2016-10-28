@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Characters#isWhiteSpace() public abstract boolean
-     * javax.xml.stream.events.Characters.isWhiteSpace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.Characters#isWhiteSpace()
+     * public abstract boolean javax.xml.stream.events.Characters.isWhiteSpace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Characters#getData() public abstract
-     * java.lang.String javax.xml.stream.events.Characters.getData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.Characters#getData() public
+     * abstract java.lang.String javax.xml.stream.events.Characters.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Characters#isCData() public abstract boolean
-     * javax.xml.stream.events.Characters.isCData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.events.Characters#isCData() public
+     * abstract boolean javax.xml.stream.events.Characters.isCData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,9 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Characters#isIgnorableWhiteSpace() public abstract
-     * boolean javax.xml.stream.events.Characters.isIgnorableWhiteSpace()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.events.Characters#isIgnorableWhiteSpace() public abstract boolean
+     * javax.xml.stream.events.Characters.isIgnorableWhiteSpace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

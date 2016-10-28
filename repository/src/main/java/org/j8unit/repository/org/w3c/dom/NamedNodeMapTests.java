@@ -7,7 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
 
 /**
  * <p>
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamedNodeMap#getLength() public abstract int
-     * org.w3c.dom.NamedNodeMap.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.NamedNodeMap#getLength() public abstract
+     * int org.w3c.dom.NamedNodeMap.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamedNodeMap#setNamedItemNS(Node) public abstract
-     * org.w3c.dom.Node org.w3c.dom.NamedNodeMap.setNamedItemNS(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.NamedNodeMap#setNamedItemNS(org.w3c.dom.Node) public abstract org.w3c.dom.Node
+     * org.w3c.dom.NamedNodeMap.setNamedItemNS(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,9 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamedNodeMap#removeNamedItemNS(String, String)
-     * public abstract org.w3c.dom.Node org.w3c.dom.NamedNodeMap.removeNamedItemNS(java.lang.String,java.lang.String)
-     * throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.NamedNodeMap#removeNamedItemNS(String, String) public abstract org.w3c.dom.Node
+     * org.w3c.dom.NamedNodeMap.removeNamedItemNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamedNodeMap#getNamedItem(String) public abstract
-     * org.w3c.dom.Node org.w3c.dom.NamedNodeMap.getNamedItem(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.NamedNodeMap#getNamedItem(String) public
+     * abstract org.w3c.dom.Node org.w3c.dom.NamedNodeMap.getNamedItem(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamedNodeMap#removeNamedItem(String) public abstract
-     * org.w3c.dom.Node org.w3c.dom.NamedNodeMap.removeNamedItem(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.NamedNodeMap#removeNamedItem(String)
+     * public abstract org.w3c.dom.Node org.w3c.dom.NamedNodeMap.removeNamedItem(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +148,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamedNodeMap#item(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.NamedNodeMap#item(int) public abstract
      * org.w3c.dom.Node org.w3c.dom.NamedNodeMap.item(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,9 +170,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamedNodeMap#getNamedItemNS(String, String) public
-     * abstract org.w3c.dom.Node org.w3c.dom.NamedNodeMap.getNamedItemNS(java.lang.String,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.NamedNodeMap#getNamedItemNS(String, String) public abstract org.w3c.dom.Node
+     * org.w3c.dom.NamedNodeMap.getNamedItemNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +193,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamedNodeMap#setNamedItem(Node) public abstract
-     * org.w3c.dom.Node org.w3c.dom.NamedNodeMap.setNamedItem(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.NamedNodeMap#setNamedItem(org.w3c.dom.Node) public abstract org.w3c.dom.Node
+     * org.w3c.dom.NamedNodeMap.setNamedItem(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

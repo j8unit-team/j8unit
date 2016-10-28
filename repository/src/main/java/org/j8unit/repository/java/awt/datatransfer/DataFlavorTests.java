@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
 import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.Transferable;
-import java.io.ObjectInput;
-import java.io.ObjectOutput;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getDefaultRepresentationClass() public
-     * final java.lang.Class<?> java.awt.datatransfer.DataFlavor.getDefaultRepresentationClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#getDefaultRepresentationClass() public final java.lang.Class
+     * <?> java.awt.datatransfer.DataFlavor.getDefaultRepresentationClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getPrimaryType() public java.lang.String
-     * java.awt.datatransfer.DataFlavor.getPrimaryType()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.DataFlavor#getPrimaryType()
+     * public java.lang.String java.awt.datatransfer.DataFlavor.getPrimaryType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isFlavorJavaFileListType() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isFlavorJavaFileListType() public boolean
      * java.awt.datatransfer.DataFlavor.isFlavorJavaFileListType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getSubType() public java.lang.String
-     * java.awt.datatransfer.DataFlavor.getSubType()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.DataFlavor#getSubType() public
+     * java.lang.String java.awt.datatransfer.DataFlavor.getSubType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isMimeTypeEqual(DataFlavor) public final
-     * boolean java.awt.datatransfer.DataFlavor.isMimeTypeEqual(java.awt.datatransfer.DataFlavor)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isMimeTypeEqual(java.awt.datatransfer.DataFlavor) public final boolean
+     * java.awt.datatransfer.DataFlavor.isMimeTypeEqual(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +148,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isMimeTypeEqual(String) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isMimeTypeEqual(String) public boolean
      * java.awt.datatransfer.DataFlavor.isMimeTypeEqual(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +171,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#hashCode() public int
-     * java.awt.datatransfer.DataFlavor.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.DataFlavor#hashCode() public
+     * int java.awt.datatransfer.DataFlavor.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +194,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isRepresentationClassByteBuffer() public
-     * boolean java.awt.datatransfer.DataFlavor.isRepresentationClassByteBuffer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isRepresentationClassByteBuffer() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassByteBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,8 +217,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getParameter(String) public
-     * java.lang.String java.awt.datatransfer.DataFlavor.getParameter(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#getParameter(String) public java.lang.String
+     * java.awt.datatransfer.DataFlavor.getParameter(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +240,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isRepresentationClassSerializable()
-     * public boolean java.awt.datatransfer.DataFlavor.isRepresentationClassSerializable()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isRepresentationClassSerializable() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassSerializable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +263,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isRepresentationClassCharBuffer() public
-     * boolean java.awt.datatransfer.DataFlavor.isRepresentationClassCharBuffer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isRepresentationClassCharBuffer() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassCharBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +286,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getDefaultRepresentationClassAsString()
-     * public final java.lang.String java.awt.datatransfer.DataFlavor.getDefaultRepresentationClassAsString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#getDefaultRepresentationClassAsString() public final java.lang.String
+     * java.awt.datatransfer.DataFlavor.getDefaultRepresentationClassAsString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,7 +309,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getReaderForText(Transferable) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#getReaderForText(java.awt.datatransfer.Transferable) public
      * java.io.Reader java.awt.datatransfer.DataFlavor.getReaderForText(java.awt.datatransfer.Transferable) throws
      * java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
      *
@@ -326,8 +333,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getMimeType() public java.lang.String
-     * java.awt.datatransfer.DataFlavor.getMimeType()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.DataFlavor#getMimeType()
+     * public java.lang.String java.awt.datatransfer.DataFlavor.getMimeType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -348,9 +355,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#writeExternal(ObjectOutput) public
-     * synchronized void java.awt.datatransfer.DataFlavor.writeExternal(java.io.ObjectOutput) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#writeExternal(java.io.ObjectOutput) public synchronized void
+     * java.awt.datatransfer.DataFlavor.writeExternal(java.io.ObjectOutput) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -372,8 +379,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isMimeTypeSerializedObject() public
-     * boolean java.awt.datatransfer.DataFlavor.isMimeTypeSerializedObject()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isMimeTypeSerializedObject() public boolean
+     * java.awt.datatransfer.DataFlavor.isMimeTypeSerializedObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -394,8 +402,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#setHumanPresentableName(String) public
-     * void java.awt.datatransfer.DataFlavor.setHumanPresentableName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#setHumanPresentableName(String) public void
+     * java.awt.datatransfer.DataFlavor.setHumanPresentableName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -416,8 +425,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isFlavorSerializedObjectType() public
-     * boolean java.awt.datatransfer.DataFlavor.isFlavorSerializedObjectType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isFlavorSerializedObjectType() public boolean
+     * java.awt.datatransfer.DataFlavor.isFlavorSerializedObjectType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -438,8 +448,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getHumanPresentableName() public
-     * java.lang.String java.awt.datatransfer.DataFlavor.getHumanPresentableName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#getHumanPresentableName() public java.lang.String
+     * java.awt.datatransfer.DataFlavor.getHumanPresentableName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -460,8 +471,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#getRepresentationClass() public
-     * java.lang.Class<?> java.awt.datatransfer.DataFlavor.getRepresentationClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#getRepresentationClass() public java.lang.Class
+     * <?> java.awt.datatransfer.DataFlavor.getRepresentationClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -482,7 +494,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#match(DataFlavor) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#match(java.awt.datatransfer.DataFlavor) public boolean
      * java.awt.datatransfer.DataFlavor.match(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -504,8 +517,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isFlavorTextType() public boolean
-     * java.awt.datatransfer.DataFlavor.isFlavorTextType()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.DataFlavor#isFlavorTextType()
+     * public boolean java.awt.datatransfer.DataFlavor.isFlavorTextType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -526,8 +539,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isRepresentationClassReader() public
-     * boolean java.awt.datatransfer.DataFlavor.isRepresentationClassReader()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isRepresentationClassReader() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -548,7 +562,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isFlavorRemoteObjectType() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isFlavorRemoteObjectType() public boolean
      * java.awt.datatransfer.DataFlavor.isFlavorRemoteObjectType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -570,7 +585,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#equals(DataFlavor) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#equals(java.awt.datatransfer.DataFlavor) public boolean
      * java.awt.datatransfer.DataFlavor.equals(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -592,8 +608,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#equals(String) public boolean
-     * java.awt.datatransfer.DataFlavor.equals(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.DataFlavor#equals(String)
+     * public boolean java.awt.datatransfer.DataFlavor.equals(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -614,8 +630,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#equals(Object) public boolean
-     * java.awt.datatransfer.DataFlavor.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.DataFlavor#equals(Object)
+     * public boolean java.awt.datatransfer.DataFlavor.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -637,8 +653,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isRepresentationClassInputStream() public
-     * boolean java.awt.datatransfer.DataFlavor.isRepresentationClassInputStream()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isRepresentationClassInputStream() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassInputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -659,8 +676,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#isRepresentationClassRemote() public
-     * boolean java.awt.datatransfer.DataFlavor.isRepresentationClassRemote()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#isRepresentationClassRemote() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassRemote()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -681,8 +699,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#readExternal(ObjectInput) public
-     * synchronized void java.awt.datatransfer.DataFlavor.readExternal(java.io.ObjectInput) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.DataFlavor#readExternal(java.io.ObjectInput) public synchronized void
+     * java.awt.datatransfer.DataFlavor.readExternal(java.io.ObjectInput) throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -705,8 +724,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#clone() public java.lang.Object
-     * java.awt.datatransfer.DataFlavor.clone() throws java.lang.CloneNotSupportedException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.DataFlavor#clone() public
+     * java.lang.Object java.awt.datatransfer.DataFlavor.clone() throws java.lang.CloneNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -727,8 +746,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DataFlavor#toString() public java.lang.String
-     * java.awt.datatransfer.DataFlavor.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.datatransfer.DataFlavor#toString() public
+     * java.lang.String java.awt.datatransfer.DataFlavor.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

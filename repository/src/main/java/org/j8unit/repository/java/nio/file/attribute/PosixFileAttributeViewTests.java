@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.nio.file.attribute;
 
-import java.nio.file.attribute.GroupPrincipal;
 import java.nio.file.attribute.PosixFileAttributeView;
-import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,9 +35,10 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PosixFileAttributeView#readAttributes() public
-     * abstract java.nio.file.attribute.PosixFileAttributes
-     * java.nio.file.attribute.PosixFileAttributeView.readAttributes() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.PosixFileAttributeView#readAttributes() public abstract
+     * java.nio.file.attribute.PosixFileAttributes java.nio.file.attribute.PosixFileAttributeView.readAttributes()
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,10 +60,10 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PosixFileAttributeView#setGroup(GroupPrincipal)
-     * public abstract void
-     * java.nio.file.attribute.PosixFileAttributeView.setGroup(java.nio.file.attribute.GroupPrincipal) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.PosixFileAttributeView#setGroup(java.nio.file.attribute.GroupPrincipal) public
+     * abstract void java.nio.file.attribute.PosixFileAttributeView.setGroup(java.nio.file.attribute.GroupPrincipal)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +84,9 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PosixFileAttributeView#setPermissions(Set) public
-     * abstract void java.nio.file.attribute.PosixFileAttributeView.setPermissions(java.util.Set
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.PosixFileAttributeView#setPermissions(java.util.Set) public abstract void
+     * java.nio.file.attribute.PosixFileAttributeView.setPermissions(java.util.Set
      * <java.nio.file.attribute.PosixFilePermission>) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,8 +108,9 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PosixFileAttributeView#name() public abstract
-     * java.lang.String java.nio.file.attribute.PosixFileAttributeView.name()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.PosixFileAttributeView#name() public abstract java.lang.String
+     * java.nio.file.attribute.PosixFileAttributeView.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

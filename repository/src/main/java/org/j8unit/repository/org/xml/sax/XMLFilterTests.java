@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.XMLFilter;
-import org.xml.sax.XMLReader;
 
 /**
  * <p>
@@ -35,7 +34,7 @@ extends org.j8unit.repository.org.xml.sax.XMLReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilter#getParent() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.XMLFilter#getParent() public abstract
      * org.xml.sax.XMLReader org.xml.sax.XMLFilter.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +56,8 @@ extends org.j8unit.repository.org.xml.sax.XMLReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLFilter#setParent(XMLReader) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.XMLFilter#setParent(org.xml.sax.XMLReader) public abstract void
      * org.xml.sax.XMLFilter.setParent(org.xml.sax.XMLReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.AWTErrorClassTests<AWTError> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AWTError#AWTError(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.AWTError#AWTError(String) public
      * java.awt.AWTError(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

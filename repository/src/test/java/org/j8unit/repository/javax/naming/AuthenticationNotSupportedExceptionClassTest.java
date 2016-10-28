@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.AuthenticationNotSupportedExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AuthenticationNotSupportedException#AuthenticationNotSupportedException(String) public
+     * {@link javax.naming.AuthenticationNotSupportedException#AuthenticationNotSupportedException(String) public
      * javax.naming.AuthenticationNotSupportedException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.naming.AuthenticationNotSupportedExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AuthenticationNotSupportedException#AuthenticationNotSupportedException() public
+     * {@link javax.naming.AuthenticationNotSupportedException#AuthenticationNotSupportedException() public
      * javax.naming.AuthenticationNotSupportedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

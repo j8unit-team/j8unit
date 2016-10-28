@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.text.DateFormat;
 import javax.swing.text.DateFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.javax.swing.text.InternationalFormatterTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateFormatter#setFormat(DateFormat) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DateFormatter#setFormat(java.text.DateFormat) public void
      * javax.swing.text.DateFormatter.setFormat(java.text.DateFormat)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

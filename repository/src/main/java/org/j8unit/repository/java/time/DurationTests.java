@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.time;
 
 import java.time.Duration;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#get(TemporalUnit) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Duration#get(java.time.temporal.TemporalUnit) public long
      * java.time.Duration.get(java.time.temporal.TemporalUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#hashCode() public int
      * java.time.Duration.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +82,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#multipliedBy(long) public
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#multipliedBy(long) public
      * java.time.Duration java.time.Duration.multipliedBy(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +104,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#minusMinutes(long) public
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#minusMinutes(long) public
      * java.time.Duration java.time.Duration.minusMinutes(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +126,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#dividedBy(long) public java.time.Duration
-     * java.time.Duration.dividedBy(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#dividedBy(long) public
+     * java.time.Duration java.time.Duration.dividedBy(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +148,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#plusDays(long) public java.time.Duration
-     * java.time.Duration.plusDays(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#plusDays(long) public
+     * java.time.Duration java.time.Duration.plusDays(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,7 +170,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#toDays() public long
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#toDays() public long
      * java.time.Duration.toDays()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,8 +192,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#plusNanos(long) public java.time.Duration
-     * java.time.Duration.plusNanos(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#plusNanos(long) public
+     * java.time.Duration java.time.Duration.plusNanos(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,7 +214,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#toMillis() public long
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#toMillis() public long
      * java.time.Duration.toMillis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,7 +236,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#isZero() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#isZero() public boolean
      * java.time.Duration.isZero()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,8 +258,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#plusSeconds(long) public java.time.Duration
-     * java.time.Duration.plusSeconds(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#plusSeconds(long) public
+     * java.time.Duration java.time.Duration.plusSeconds(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +280,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#minusHours(long) public java.time.Duration
-     * java.time.Duration.minusHours(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#minusHours(long) public
+     * java.time.Duration java.time.Duration.minusHours(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,8 +302,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#plusHours(long) public java.time.Duration
-     * java.time.Duration.plusHours(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#plusHours(long) public
+     * java.time.Duration java.time.Duration.plusHours(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,8 +324,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#negated() public java.time.Duration
-     * java.time.Duration.negated()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#negated() public
+     * java.time.Duration java.time.Duration.negated()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,8 +346,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#minus(long, TemporalUnit) public
-     * java.time.Duration java.time.Duration.minus(long,java.time.temporal.TemporalUnit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Duration#minus(long, java.time.temporal.TemporalUnit) public java.time.Duration
+     * java.time.Duration.minus(long,java.time.temporal.TemporalUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,8 +369,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#minus(Duration) public java.time.Duration
-     * java.time.Duration.minus(java.time.Duration)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#minus(java.time.Duration) public
+     * java.time.Duration java.time.Duration.minus(java.time.Duration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -391,8 +391,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#plusMinutes(long) public java.time.Duration
-     * java.time.Duration.plusMinutes(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#plusMinutes(long) public
+     * java.time.Duration java.time.Duration.plusMinutes(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -413,8 +413,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#compareTo(Duration) public int
-     * java.time.Duration.compareTo(java.time.Duration)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#compareTo(java.time.Duration)
+     * public int java.time.Duration.compareTo(java.time.Duration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -435,8 +435,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#minusMillis(long) public java.time.Duration
-     * java.time.Duration.minusMillis(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#minusMillis(long) public
+     * java.time.Duration java.time.Duration.minusMillis(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -457,8 +457,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#withSeconds(long) public java.time.Duration
-     * java.time.Duration.withSeconds(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#withSeconds(long) public
+     * java.time.Duration java.time.Duration.withSeconds(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -479,8 +479,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#withNanos(int) public java.time.Duration
-     * java.time.Duration.withNanos(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#withNanos(int) public
+     * java.time.Duration java.time.Duration.withNanos(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -501,7 +501,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#equals(Object) public boolean
      * java.time.Duration.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -524,8 +524,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#subtractFrom(Temporal) public
-     * java.time.temporal.Temporal java.time.Duration.subtractFrom(java.time.temporal.Temporal)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Duration#subtractFrom(java.time.temporal.Temporal) public java.time.temporal.Temporal
+     * java.time.Duration.subtractFrom(java.time.temporal.Temporal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -547,8 +548,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#plusMillis(long) public java.time.Duration
-     * java.time.Duration.plusMillis(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#plusMillis(long) public
+     * java.time.Duration java.time.Duration.plusMillis(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -569,7 +570,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#toHours() public long
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#toHours() public long
      * java.time.Duration.toHours()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -591,7 +592,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getSeconds() public long
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#getSeconds() public long
      * java.time.Duration.getSeconds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -613,7 +614,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#abs() public java.time.Duration
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#abs() public java.time.Duration
      * java.time.Duration.abs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -635,7 +636,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#toMinutes() public long
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#toMinutes() public long
      * java.time.Duration.toMinutes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -657,7 +658,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#toNanos() public long
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#toNanos() public long
      * java.time.Duration.toNanos()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -679,7 +680,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#minusSeconds(long) public
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#minusSeconds(long) public
      * java.time.Duration java.time.Duration.minusSeconds(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -701,8 +702,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#toString() public java.lang.String
-     * java.time.Duration.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#toString() public
+     * java.lang.String java.time.Duration.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -724,8 +725,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#addTo(Temporal) public
-     * java.time.temporal.Temporal java.time.Duration.addTo(java.time.temporal.Temporal)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Duration#addTo(java.time.temporal.Temporal) public java.time.temporal.Temporal
+     * java.time.Duration.addTo(java.time.temporal.Temporal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -747,7 +749,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getUnits() public java.util.List
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#getUnits() public java.util.List
      * <java.time.temporal.TemporalUnit> java.time.Duration.getUnits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -770,7 +772,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#isNegative() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#isNegative() public boolean
      * java.time.Duration.isNegative()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -792,8 +794,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#minusDays(long) public java.time.Duration
-     * java.time.Duration.minusDays(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#minusDays(long) public
+     * java.time.Duration java.time.Duration.minusDays(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -814,30 +816,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#plus(Duration) public java.time.Duration
-     * java.time.Duration.plus(java.time.Duration)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_plus_Duration()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#plus(long, TemporalUnit) public
-     * java.time.Duration java.time.Duration.plus(long,java.time.temporal.TemporalUnit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Duration#plus(long, java.time.temporal.TemporalUnit) public java.time.Duration
+     * java.time.Duration.plus(long,java.time.temporal.TemporalUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -858,7 +839,51 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#getNano() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#plus(java.time.Duration) public
+     * java.time.Duration java.time.Duration.plus(java.time.Duration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_plus_Duration()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#minusNanos(long) public
+     * java.time.Duration java.time.Duration.minusNanos(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_minusNanos_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#getNano() public int
      * java.time.Duration.getNano()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -872,28 +897,6 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     @Test
     @Category(Draft.class)
     public default void test_getNano()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Duration#minusNanos(long) public java.time.Duration
-     * java.time.Duration.minusNanos(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_minusNanos_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

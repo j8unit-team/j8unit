@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.BadBinaryOpValueExpException;
-import javax.management.ValueExp;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.management.BadBinaryOpValueExpExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BadBinaryOpValueExpException#BadBinaryOpValueExpException(ValueExp) public
-     * javax.management.BadBinaryOpValueExpException(javax.management.ValueExp)}.
+     * {@link javax.management.BadBinaryOpValueExpException#BadBinaryOpValueExpException(javax.management.ValueExp)
+     * public javax.management.BadBinaryOpValueExpException(javax.management.ValueExp)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.management.BadBinaryOpValueExpExceptionCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BadBinaryOpValueExpException sut = null; // = new BadBinaryOpValueExpException(ValueExp);
+        final BadBinaryOpValueExpException sut = null; // = new BadBinaryOpValueExpException(javax.management.ValueExp);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.BadBinaryOpValueExpException]

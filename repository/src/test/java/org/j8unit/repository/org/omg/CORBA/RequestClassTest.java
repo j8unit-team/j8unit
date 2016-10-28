@@ -22,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.RequestClassTests<Request> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Request#Request() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.Request#Request() public
      * org.omg.CORBA.Request()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

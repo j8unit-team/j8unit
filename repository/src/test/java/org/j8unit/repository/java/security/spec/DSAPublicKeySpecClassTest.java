@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.spec;
 
-import java.math.BigInteger;
 import java.security.spec.DSAPublicKeySpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.security.spec.DSAPublicKeySpecClassTests<D
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DSAPublicKeySpec#DSAPublicKeySpec(BigInteger, BigInteger, BigInteger, BigInteger) public
+     * {@link java.security.spec.DSAPublicKeySpec#DSAPublicKeySpec(java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger)
+     * public
      * java.security.spec.DSAPublicKeySpec(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)}
      * .
      *
@@ -41,7 +41,8 @@ implements org.j8unit.repository.java.security.spec.DSAPublicKeySpecClassTests<D
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DSAPublicKeySpec sut = null; // = new DSAPublicKeySpec(BigInteger, BigInteger, BigInteger, BigInteger);
+        final DSAPublicKeySpec sut = null; // = new DSAPublicKeySpec(java.math.BigInteger, java.math.BigInteger,
+                                           // java.math.BigInteger, java.math.BigInteger);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.DSAPublicKeySpec]

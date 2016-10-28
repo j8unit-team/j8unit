@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#addElement(Object) public void
-     * javax.swing.DefaultComboBoxModel.addElement(E)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultComboBoxModel#addElement(Object)
+     * public void javax.swing.DefaultComboBoxModel.addElement(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#removeElementAt(int) public
-     * void javax.swing.DefaultComboBoxModel.removeElementAt(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultComboBoxModel#removeElementAt(int) public void
+     * javax.swing.DefaultComboBoxModel.removeElementAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#getSelectedItem() public
-     * java.lang.Object javax.swing.DefaultComboBoxModel.getSelectedItem()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultComboBoxModel#getSelectedItem()
+     * public java.lang.Object javax.swing.DefaultComboBoxModel.getSelectedItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,8 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#removeAllElements() public void
-     * javax.swing.DefaultComboBoxModel.removeAllElements()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultComboBoxModel#removeAllElements()
+     * public void javax.swing.DefaultComboBoxModel.removeAllElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +126,9 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#removeElement(Object) public
-     * void javax.swing.DefaultComboBoxModel.removeElement(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultComboBoxModel#removeElement(Object) public void
+     * javax.swing.DefaultComboBoxModel.removeElement(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +150,8 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#getElementAt(int) public E
-     * javax.swing.DefaultComboBoxModel.getElementAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultComboBoxModel#getElementAt(int)
+     * public E javax.swing.DefaultComboBoxModel.getElementAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +173,8 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#getIndexOf(Object) public int
-     * javax.swing.DefaultComboBoxModel.getIndexOf(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultComboBoxModel#getIndexOf(Object)
+     * public int javax.swing.DefaultComboBoxModel.getIndexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +195,8 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#getSize() public int
-     * javax.swing.DefaultComboBoxModel.getSize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultComboBoxModel#getSize() public
+     * int javax.swing.DefaultComboBoxModel.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,8 +218,9 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#setSelectedItem(Object) public
-     * void javax.swing.DefaultComboBoxModel.setSelectedItem(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultComboBoxModel#setSelectedItem(Object) public void
+     * javax.swing.DefaultComboBoxModel.setSelectedItem(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,8 +242,9 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelTests<SUT, E>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultComboBoxModel#insertElementAt(Object, int)
-     * public void javax.swing.DefaultComboBoxModel.insertElementAt(E,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultComboBoxModel#insertElementAt(Object, int) public void
+     * javax.swing.DefaultComboBoxModel.insertElementAt(E,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

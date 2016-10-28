@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Type#getTypeName() public default java.lang.String
-     * java.lang.reflect.Type.getTypeName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Type#getTypeName() public default
+     * java.lang.String java.lang.reflect.Type.getTypeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

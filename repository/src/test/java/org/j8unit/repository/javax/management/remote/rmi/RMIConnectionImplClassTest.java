@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
-import java.util.Map;
 import javax.management.remote.rmi.RMIConnectionImpl;
-import javax.management.remote.rmi.RMIServerImpl;
-import javax.security.auth.Subject;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectionImplCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RMIConnectionImpl#RMIConnectionImpl(RMIServerImpl, String, ClassLoader, Subject, Map) public
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#RMIConnectionImpl(javax.management.remote.rmi.RMIServerImpl, String, ClassLoader, javax.security.auth.Subject, java.util.Map)
+     * public
      * javax.management.remote.rmi.RMIConnectionImpl(javax.management.remote.rmi.RMIServerImpl,java.lang.String,java.lang.ClassLoader,javax.security.auth.Subject,java.util.Map<java.lang.String,
      * ?>)}.
      *
@@ -43,8 +41,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectionImplCl
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RMIConnectionImpl sut = null; // = new RMIConnectionImpl(RMIServerImpl, String, ClassLoader, Subject,
-                                            // Map);
+        final RMIConnectionImpl sut = null; // = new RMIConnectionImpl(javax.management.remote.rmi.RMIServerImpl,
+                                            // String, ClassLoader, javax.security.auth.Subject, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnectionImpl]

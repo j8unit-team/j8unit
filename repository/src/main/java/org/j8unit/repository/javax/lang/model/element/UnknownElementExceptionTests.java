@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownElementException#getArgument() public
-     * java.lang.Object javax.lang.model.element.UnknownElementException.getArgument()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.UnknownElementException#getArgument() public java.lang.Object
+     * javax.lang.model.element.UnknownElementException.getArgument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,8 @@ extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownElementException#getUnknownElement() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.UnknownElementException#getUnknownElement() public
      * javax.lang.model.element.Element javax.lang.model.element.UnknownElementException.getUnknownElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.TableUIClassTests<TableUI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TableUI#TableUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.TableUI#TableUI() public
      * javax.swing.plaf.TableUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

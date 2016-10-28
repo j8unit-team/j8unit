@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security;
 
-import java.security.Permission;
 import java.security.ProtectionDomain;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProtectionDomain#getPermissions() public final
-     * java.security.PermissionCollection java.security.ProtectionDomain.getPermissions()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.ProtectionDomain#getPermissions()
+     * public final java.security.PermissionCollection java.security.ProtectionDomain.getPermissions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProtectionDomain#getCodeSource() public final
-     * java.security.CodeSource java.security.ProtectionDomain.getCodeSource()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.ProtectionDomain#getCodeSource()
+     * public final java.security.CodeSource java.security.ProtectionDomain.getCodeSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProtectionDomain#implies(Permission) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.ProtectionDomain#implies(java.security.Permission) public boolean
      * java.security.ProtectionDomain.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProtectionDomain#getPrincipals() public final
-     * java.security.Principal[] java.security.ProtectionDomain.getPrincipals()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.ProtectionDomain#getPrincipals()
+     * public final java.security.Principal[] java.security.ProtectionDomain.getPrincipals()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProtectionDomain#getClassLoader() public final
-     * java.lang.ClassLoader java.security.ProtectionDomain.getClassLoader()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.ProtectionDomain#getClassLoader()
+     * public final java.lang.ClassLoader java.security.ProtectionDomain.getClassLoader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ProtectionDomain#toString() public java.lang.String
-     * java.security.ProtectionDomain.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.ProtectionDomain#toString() public
+     * java.lang.String java.security.ProtectionDomain.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

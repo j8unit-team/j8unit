@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.beans.PropertyChangeEvent;
-import javax.swing.JComponent;
 import javax.swing.plaf.synth.SynthComboBoxUI;
-import javax.swing.plaf.synth.SynthContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,30 +36,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthComboBoxUI#paintCurrentValue(Graphics, Rectangle, boolean) public void
-     * javax.swing.plaf.synth.SynthComboBoxUI.paintCurrentValue(java.awt.Graphics,java.awt.Rectangle,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_paintCurrentValue_Graphics_Rectangle_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthComboBoxUI#installUI(JComponent) public void
+     * {@link javax.swing.plaf.synth.SynthComboBoxUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.synth.SynthComboBoxUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,7 +60,33 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthComboBoxUI#paintBorder(SynthContext, Graphics, int, int, int, int) public void
+     * {@link javax.swing.plaf.synth.SynthComboBoxUI#paintCurrentValue(java.awt.Graphics, java.awt.Rectangle, boolean)
+     * public void
+     * javax.swing.plaf.synth.SynthComboBoxUI.paintCurrentValue(java.awt.Graphics,java.awt.Rectangle,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_paintCurrentValue_Graphics_Rectangle_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthComboBoxUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public void
      * javax.swing.plaf.synth.SynthComboBoxUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *
@@ -112,7 +110,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthComboBoxUI#getContext(JComponent) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthComboBoxUI#getContext(javax.swing.JComponent) public
      * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthComboBoxUI.getContext(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,7 +134,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthComboBoxUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthComboBoxUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.synth.SynthComboBoxUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -158,8 +158,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthComboBoxUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.synth.SynthComboBoxUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthComboBoxUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthComboBoxUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,8 +182,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthComboBoxUI#update(Graphics, JComponent) public
-     * void javax.swing.plaf.synth.SynthComboBoxUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthComboBoxUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthComboBoxUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -204,8 +206,9 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthComboBoxUI#propertyChange(PropertyChangeEvent)
-     * public void javax.swing.plaf.synth.SynthComboBoxUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthComboBoxUI#propertyChange(java.beans.PropertyChangeEvent) public void
+     * javax.swing.plaf.synth.SynthComboBoxUI.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

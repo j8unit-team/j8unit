@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management.modelmbean;
 
 import javax.management.modelmbean.ModelMBean;
-import javax.management.modelmbean.ModelMBeanInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,9 @@ org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationBroadcas
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBean#setManagedResource(Object, String) public
-     * abstract void javax.management.modelmbean.ModelMBean.setManagedResource(java.lang.Object,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBean#setManagedResource(Object, String) public abstract void
+     * javax.management.modelmbean.ModelMBean.setManagedResource(java.lang.Object,java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException,javax.management.modelmbean.InvalidTargetObjectTypeException}
      * .
      *
@@ -60,8 +60,9 @@ org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationBroadcas
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBean#setModelMBeanInfo(ModelMBeanInfo) public
-     * abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBean#setModelMBeanInfo(javax.management.modelmbean.ModelMBeanInfo)
+     * public abstract void
      * javax.management.modelmbean.ModelMBean.setModelMBeanInfo(javax.management.modelmbean.ModelMBeanInfo) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *

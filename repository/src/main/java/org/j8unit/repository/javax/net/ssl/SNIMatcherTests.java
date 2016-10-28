@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.net.ssl;
 
 import javax.net.ssl.SNIMatcher;
-import javax.net.ssl.SNIServerName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIMatcher#getType() public final int
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIMatcher#getType() public final int
      * javax.net.ssl.SNIMatcher.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIMatcher#matches(SNIServerName) public abstract
-     * boolean javax.net.ssl.SNIMatcher.matches(javax.net.ssl.SNIServerName)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SNIMatcher#matches(javax.net.ssl.SNIServerName) public abstract boolean
+     * javax.net.ssl.SNIMatcher.matches(javax.net.ssl.SNIServerName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

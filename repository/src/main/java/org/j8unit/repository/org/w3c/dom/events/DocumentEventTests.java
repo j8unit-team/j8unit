@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocumentEvent#createEvent(String) public abstract
-     * org.w3c.dom.events.Event org.w3c.dom.events.DocumentEvent.createEvent(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.DocumentEvent#createEvent(String)
+     * public abstract org.w3c.dom.events.Event org.w3c.dom.events.DocumentEvent.createEvent(java.lang.String) throws
      * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.CosNaming.NamingContextExtPackage.InvalidAddress;
 import org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidAddressHelper#InvalidAddressHelper()
-     * public org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#InvalidAddressHelper() public
+     * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +43,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidAddressHelper#read(InputStream) public static
-     * org.omg.CosNaming.NamingContextExtPackage.InvalidAddress
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#read(org.omg.CORBA.portable.InputStream)
+     * public static org.omg.CosNaming.NamingContextExtPackage.InvalidAddress
      * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +60,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link InvalidAddressHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidAddressHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.CosNaming.NamingContextExtPackage.InvalidAddress
      * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -83,13 +83,15 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link InvalidAddressHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidAddressHelper#id() public static
-     * java.lang.String org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#id() public static java.lang.String
+     * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,12 +105,13 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link InvalidAddressHelper#id()}
+        // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidAddressHelper#insert(Any, InvalidAddress)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#insert(org.omg.CORBA.Any, org.omg.CosNaming.NamingContextExtPackage.InvalidAddress)
      * public static void
      * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextExtPackage.InvalidAddress)}
      * .
@@ -125,13 +128,16 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
     @Category(Draft.class)
     public void test_insert_Any_InvalidAddress()
     throws Exception {
-        // write some test for {@link InvalidAddressHelper#insert(Any, InvalidAddress)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CosNaming.NamingContextExtPackage.InvalidAddress)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InvalidAddressHelper#write(OutputStream, InvalidAddress) public static void
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CosNaming.NamingContextExtPackage.InvalidAddress)
+     * public static void
      * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NamingContextExtPackage.InvalidAddress)}
      * .
      *
@@ -147,13 +153,16 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
     @Category(Draft.class)
     public void test_write_OutputStream_InvalidAddress()
     throws Exception {
-        // write some test for {@link InvalidAddressHelper#write(OutputStream, InvalidAddress)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CosNaming.NamingContextExtPackage.InvalidAddress)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InvalidAddressHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +176,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link InvalidAddressHelper#type()}
+        // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#type()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper]

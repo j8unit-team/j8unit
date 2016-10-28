@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.nio.ShortBufferClassTests<ShortBuffer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#wrap(short[], int, int) public static
-     * java.nio.ShortBuffer java.nio.ShortBuffer.wrap(short[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#wrap(short[], int, int) public
+     * static java.nio.ShortBuffer java.nio.ShortBuffer.wrap(short[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.nio.ShortBufferClassTests<ShortBuffer> {
     @Category(Draft.class)
     public void test_wrap_shortArray_int_int()
     throws Exception {
-        // write some test for {@link ShortBuffer#wrap(short[], int, int)}
+        // write some test for {@link java.nio.ShortBuffer#wrap(short[], int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#wrap(short[]) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#wrap(short[]) public static
      * java.nio.ShortBuffer java.nio.ShortBuffer.wrap(short[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,12 +56,12 @@ implements org.j8unit.repository.java.nio.ShortBufferClassTests<ShortBuffer> {
     @Category(Draft.class)
     public void test_wrap_shortArray()
     throws Exception {
-        // write some test for {@link ShortBuffer#wrap(short[])}
+        // write some test for {@link java.nio.ShortBuffer#wrap(short[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ShortBuffer#allocate(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.ShortBuffer#allocate(int) public static
      * java.nio.ShortBuffer java.nio.ShortBuffer.allocate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -76,7 +76,7 @@ implements org.j8unit.repository.java.nio.ShortBufferClassTests<ShortBuffer> {
     @Category(Draft.class)
     public void test_allocate_int()
     throws Exception {
-        // write some test for {@link ShortBuffer#allocate(int)}
+        // write some test for {@link java.nio.ShortBuffer#allocate(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.ShortBuffer]

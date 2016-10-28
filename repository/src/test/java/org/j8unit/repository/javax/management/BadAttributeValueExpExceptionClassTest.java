@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.BadAttributeValueExpExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BadAttributeValueExpException#BadAttributeValueExpException(Object) public
+     * {@link javax.management.BadAttributeValueExpException#BadAttributeValueExpException(Object) public
      * javax.management.BadAttributeValueExpException(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

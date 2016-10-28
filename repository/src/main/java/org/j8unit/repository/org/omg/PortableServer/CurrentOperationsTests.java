@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentOperations#get_POA() public abstract
-     * org.omg.PortableServer.POA org.omg.PortableServer.CurrentOperations.get_POA() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.CurrentOperations#get_POA()
+     * public abstract org.omg.PortableServer.POA org.omg.PortableServer.CurrentOperations.get_POA() throws
      * org.omg.PortableServer.CurrentPackage.NoContext}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,9 +57,9 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentOperations#get_object_id() public abstract
-     * byte[] org.omg.PortableServer.CurrentOperations.get_object_id() throws
-     * org.omg.PortableServer.CurrentPackage.NoContext}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.CurrentOperations#get_object_id() public abstract byte[]
+     * org.omg.PortableServer.CurrentOperations.get_object_id() throws org.omg.PortableServer.CurrentPackage.NoContext}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

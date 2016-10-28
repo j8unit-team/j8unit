@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.time;
 
 import java.time.ZoneOffset;
-import java.time.temporal.Temporal;
-import java.time.temporal.TemporalField;
-import java.time.temporal.TemporalQuery;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +35,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#getRules() public
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneOffset#getRules() public
      * java.time.zone.ZoneRules java.time.ZoneOffset.getRules()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +58,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#isSupported(TemporalField) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.ZoneOffset#isSupported(java.time.temporal.TemporalField) public boolean
      * java.time.ZoneOffset.isSupported(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +82,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#compareTo(ZoneOffset) public int
-     * java.time.ZoneOffset.compareTo(java.time.ZoneOffset)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneOffset#compareTo(java.time.ZoneOffset)
+     * public int java.time.ZoneOffset.compareTo(java.time.ZoneOffset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,7 +104,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#getId() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneOffset#getId() public java.lang.String
      * java.time.ZoneOffset.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,8 +127,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#toString() public java.lang.String
-     * java.time.ZoneOffset.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneOffset#toString() public
+     * java.lang.String java.time.ZoneOffset.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +150,9 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#range(TemporalField) public
-     * java.time.temporal.ValueRange java.time.ZoneOffset.range(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.ZoneOffset#range(java.time.temporal.TemporalField) public java.time.temporal.ValueRange
+     * java.time.ZoneOffset.range(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,8 +174,9 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#adjustInto(Temporal) public
-     * java.time.temporal.Temporal java.time.ZoneOffset.adjustInto(java.time.temporal.Temporal)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.ZoneOffset#adjustInto(java.time.temporal.Temporal) public java.time.temporal.Temporal
+     * java.time.ZoneOffset.adjustInto(java.time.temporal.Temporal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,7 +198,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#getLong(TemporalField) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.ZoneOffset#getLong(java.time.temporal.TemporalField) public long
      * java.time.ZoneOffset.getLong(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -221,7 +222,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#query(TemporalQuery) public <R> R
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.ZoneOffset#query(java.time.temporal.TemporalQuery) public <R> R
      * java.time.ZoneOffset.query(java.time.temporal.TemporalQuery<R>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -244,7 +246,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneOffset#equals(Object) public boolean
      * java.time.ZoneOffset.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -267,7 +269,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#get(TemporalField) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.ZoneOffset#get(java.time.temporal.TemporalField) public int
      * java.time.ZoneOffset.get(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -290,7 +293,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneOffset#hashCode() public int
      * java.time.ZoneOffset.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -313,7 +316,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneOffset#getTotalSeconds() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneOffset#getTotalSeconds() public int
      * java.time.ZoneOffset.getTotalSeconds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

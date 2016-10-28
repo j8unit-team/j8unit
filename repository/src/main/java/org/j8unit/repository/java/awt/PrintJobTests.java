@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJob#getPageResolution() public abstract int
-     * java.awt.PrintJob.getPageResolution()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PrintJob#getPageResolution() public
+     * abstract int java.awt.PrintJob.getPageResolution()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJob#getPageDimension() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.awt.PrintJob#getPageDimension() public abstract
      * java.awt.Dimension java.awt.PrintJob.getPageDimension()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJob#lastPageFirst() public abstract boolean
-     * java.awt.PrintJob.lastPageFirst()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PrintJob#lastPageFirst() public abstract
+     * boolean java.awt.PrintJob.lastPageFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +100,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJob#getGraphics() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.awt.PrintJob#getGraphics() public abstract
      * java.awt.Graphics java.awt.PrintJob.getGraphics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJob#end() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.awt.PrintJob#end() public abstract void
      * java.awt.PrintJob.end()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,7 +144,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrintJob#finalize() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.PrintJob#finalize() public void
      * java.awt.PrintJob.finalize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

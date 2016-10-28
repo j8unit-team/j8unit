@@ -23,7 +23,7 @@ implements org.j8unit.repository.javax.sound.sampled.spi.FormatConversionProvide
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FormatConversionProvider#FormatConversionProvider() public
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#FormatConversionProvider() public
      * javax.sound.sampled.spi.FormatConversionProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

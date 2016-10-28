@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.management.relation.RelationExceptionClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RelationException#RelationException() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.relation.RelationException#RelationException() public
      * javax.management.relation.RelationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +43,9 @@ implements org.j8unit.repository.javax.management.relation.RelationExceptionClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RelationException#RelationException(String)
-     * public javax.management.relation.RelationException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.relation.RelationException#RelationException(String) public
+     * javax.management.relation.RelationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

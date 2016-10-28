@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.script;
 
-import java.util.Map;
 import javax.script.SimpleBindings;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.script.SimpleBindingsClassTests<SimpleBin
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SimpleBindings#SimpleBindings(Map) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.script.SimpleBindings#SimpleBindings(java.util.Map) public
      * javax.script.SimpleBindings(java.util.Map<java.lang.String, java.lang.Object>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +39,13 @@ implements org.j8unit.repository.javax.script.SimpleBindingsClassTests<SimpleBin
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SimpleBindings sut = null; // = new SimpleBindings(Map);
+        final SimpleBindings sut = null; // = new SimpleBindings(java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SimpleBindings#SimpleBindings() public
-     * javax.script.SimpleBindings()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.script.SimpleBindings#SimpleBindings()
+     * public javax.script.SimpleBindings()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

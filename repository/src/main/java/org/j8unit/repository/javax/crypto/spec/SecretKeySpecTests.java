@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeySpec#getFormat() public java.lang.String
-     * javax.crypto.spec.SecretKeySpec.getFormat()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.SecretKeySpec#getFormat() public
+     * java.lang.String javax.crypto.spec.SecretKeySpec.getFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeySpec#getAlgorithm() public java.lang.String
-     * javax.crypto.spec.SecretKeySpec.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.SecretKeySpec#getAlgorithm()
+     * public java.lang.String javax.crypto.spec.SecretKeySpec.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeySpec#equals(Object) public boolean
-     * javax.crypto.spec.SecretKeySpec.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.SecretKeySpec#equals(Object)
+     * public boolean javax.crypto.spec.SecretKeySpec.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeySpec#getEncoded() public byte[]
-     * javax.crypto.spec.SecretKeySpec.getEncoded()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.SecretKeySpec#getEncoded() public
+     * byte[] javax.crypto.spec.SecretKeySpec.getEncoded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +127,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecretKeySpec#hashCode() public int
-     * javax.crypto.spec.SecretKeySpec.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.SecretKeySpec#hashCode() public
+     * int javax.crypto.spec.SecretKeySpec.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

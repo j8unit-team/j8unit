@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#getMatchColumnIndexes() public abstract
-     * int[] javax.sql.rowset.Joinable.getMatchColumnIndexes() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#getMatchColumnIndexes()
+     * public abstract int[] javax.sql.rowset.Joinable.getMatchColumnIndexes() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#setMatchColumn(int[]) public abstract void
-     * javax.sql.rowset.Joinable.setMatchColumn(int[]) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#setMatchColumn(int[])
+     * public abstract void javax.sql.rowset.Joinable.setMatchColumn(int[]) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#setMatchColumn(String) public abstract void
-     * javax.sql.rowset.Joinable.setMatchColumn(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#setMatchColumn(String)
+     * public abstract void javax.sql.rowset.Joinable.setMatchColumn(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#setMatchColumn(String[]) public abstract
-     * void javax.sql.rowset.Joinable.setMatchColumn(java.lang.String[]) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#setMatchColumn(String[])
+     * public abstract void javax.sql.rowset.Joinable.setMatchColumn(java.lang.String[]) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#setMatchColumn(int) public abstract void
-     * javax.sql.rowset.Joinable.setMatchColumn(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#setMatchColumn(int) public
+     * abstract void javax.sql.rowset.Joinable.setMatchColumn(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#getMatchColumnNames() public abstract
-     * java.lang.String[] javax.sql.rowset.Joinable.getMatchColumnNames() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#getMatchColumnNames()
+     * public abstract java.lang.String[] javax.sql.rowset.Joinable.getMatchColumnNames() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#unsetMatchColumn(int) public abstract void
-     * javax.sql.rowset.Joinable.unsetMatchColumn(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#unsetMatchColumn(int)
+     * public abstract void javax.sql.rowset.Joinable.unsetMatchColumn(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#unsetMatchColumn(int[]) public abstract
-     * void javax.sql.rowset.Joinable.unsetMatchColumn(int[]) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#unsetMatchColumn(int[])
+     * public abstract void javax.sql.rowset.Joinable.unsetMatchColumn(int[]) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#unsetMatchColumn(String[]) public abstract
-     * void javax.sql.rowset.Joinable.unsetMatchColumn(java.lang.String[]) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#unsetMatchColumn(String[])
+     * public abstract void javax.sql.rowset.Joinable.unsetMatchColumn(java.lang.String[]) throws java.sql.SQLException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +234,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Joinable#unsetMatchColumn(String) public abstract
-     * void javax.sql.rowset.Joinable.unsetMatchColumn(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.Joinable#unsetMatchColumn(String)
+     * public abstract void javax.sql.rowset.Joinable.unsetMatchColumn(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

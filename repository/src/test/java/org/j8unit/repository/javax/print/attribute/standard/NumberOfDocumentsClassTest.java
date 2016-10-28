@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.NumberOfDocument
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NumberOfDocuments#NumberOfDocuments(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.NumberOfDocuments#NumberOfDocuments(int) public
      * javax.print.attribute.standard.NumberOfDocuments(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

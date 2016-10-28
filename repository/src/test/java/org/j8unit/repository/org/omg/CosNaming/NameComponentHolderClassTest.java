@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NameComponent;
 import org.omg.CosNaming.NameComponentHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NameComponentHolderClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NameComponentHolder#NameComponentHolder()
-     * public org.omg.CosNaming.NameComponentHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NameComponentHolder#NameComponentHolder() public
+     * org.omg.CosNaming.NameComponentHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NameComponentHolderClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NameComponentHolder#NameComponentHolder(NameComponent) public
+     * {@link org.omg.CosNaming.NameComponentHolder#NameComponentHolder(org.omg.CosNaming.NameComponent) public
      * org.omg.CosNaming.NameComponentHolder(org.omg.CosNaming.NameComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +61,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NameComponentHolderClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NameComponentHolder sut = null; // = new NameComponentHolder(NameComponent);
+        final NameComponentHolder sut = null; // = new NameComponentHolder(org.omg.CosNaming.NameComponent);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NameComponentHolder]

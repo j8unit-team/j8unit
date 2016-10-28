@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.BasicAttribute#contains(Object) public boolean
      * javax.naming.directory.BasicAttribute.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#size() public int
-     * javax.naming.directory.BasicAttribute.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#size() public
+     * int javax.naming.directory.BasicAttribute.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#hashCode() public int
-     * javax.naming.directory.BasicAttribute.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#hashCode()
+     * public int javax.naming.directory.BasicAttribute.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#equals(Object) public boolean
-     * javax.naming.directory.BasicAttribute.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#equals(Object)
+     * public boolean javax.naming.directory.BasicAttribute.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +127,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#get(int) public java.lang.Object
-     * javax.naming.directory.BasicAttribute.get(int) throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#get(int)
+     * public java.lang.Object javax.naming.directory.BasicAttribute.get(int) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +150,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#get() public java.lang.Object
-     * javax.naming.directory.BasicAttribute.get() throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#get() public
+     * java.lang.Object javax.naming.directory.BasicAttribute.get() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +173,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#clone() public java.lang.Object
-     * javax.naming.directory.BasicAttribute.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#clone() public
+     * java.lang.Object javax.naming.directory.BasicAttribute.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,7 +196,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#getAttributeSyntaxDefinition() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.BasicAttribute#getAttributeSyntaxDefinition() public
      * javax.naming.directory.DirContext javax.naming.directory.BasicAttribute.getAttributeSyntaxDefinition() throws
      * javax.naming.NamingException}.
      *
@@ -219,9 +221,9 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#getAttributeDefinition() public
-     * javax.naming.directory.DirContext javax.naming.directory.BasicAttribute.getAttributeDefinition() throws
-     * javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.BasicAttribute#getAttributeDefinition() public javax.naming.directory.DirContext
+     * javax.naming.directory.BasicAttribute.getAttributeDefinition() throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,8 +245,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#toString() public java.lang.String
-     * javax.naming.directory.BasicAttribute.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#toString()
+     * public java.lang.String javax.naming.directory.BasicAttribute.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -266,8 +268,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#isOrdered() public boolean
-     * javax.naming.directory.BasicAttribute.isOrdered()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#isOrdered()
+     * public boolean javax.naming.directory.BasicAttribute.isOrdered()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,7 +291,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#add(int, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.BasicAttribute#add(int, Object) public void
      * javax.naming.directory.BasicAttribute.add(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,8 +315,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#add(Object) public boolean
-     * javax.naming.directory.BasicAttribute.add(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#add(Object)
+     * public boolean javax.naming.directory.BasicAttribute.add(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -335,8 +338,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#getAll() public
-     * javax.naming.NamingEnumeration<?> javax.naming.directory.BasicAttribute.getAll() throws
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#getAll()
+     * public javax.naming.NamingEnumeration<?> javax.naming.directory.BasicAttribute.getAll() throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -359,8 +362,9 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#set(int, Object) public
-     * java.lang.Object javax.naming.directory.BasicAttribute.set(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.BasicAttribute#set(int, Object) public java.lang.Object
+     * javax.naming.directory.BasicAttribute.set(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -382,8 +386,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#clear() public void
-     * javax.naming.directory.BasicAttribute.clear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#clear() public
+     * void javax.naming.directory.BasicAttribute.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -405,8 +409,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#getID() public java.lang.String
-     * javax.naming.directory.BasicAttribute.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#getID() public
+     * java.lang.String javax.naming.directory.BasicAttribute.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -428,8 +432,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#remove(int) public java.lang.Object
-     * javax.naming.directory.BasicAttribute.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#remove(int)
+     * public java.lang.Object javax.naming.directory.BasicAttribute.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -451,8 +455,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicAttribute#remove(Object) public boolean
-     * javax.naming.directory.BasicAttribute.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#remove(Object)
+     * public boolean javax.naming.directory.BasicAttribute.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,7 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IdAssignmentPolicyOperations#value() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.IdAssignmentPolicyOperations#value() public abstract
      * org.omg.PortableServer.IdAssignmentPolicyValue org.omg.PortableServer.IdAssignmentPolicyOperations.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

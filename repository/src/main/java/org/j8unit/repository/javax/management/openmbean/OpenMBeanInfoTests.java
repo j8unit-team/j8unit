@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfo#getOperations() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfo#getOperations() public abstract
      * javax.management.MBeanOperationInfo[] javax.management.openmbean.OpenMBeanInfo.getOperations()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfo#getAttributes() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfo#getAttributes() public abstract
      * javax.management.MBeanAttributeInfo[] javax.management.openmbean.OpenMBeanInfo.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfo#getNotifications() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfo#getNotifications() public abstract
      * javax.management.MBeanNotificationInfo[] javax.management.openmbean.OpenMBeanInfo.getNotifications()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +104,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfo#getConstructors() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfo#getConstructors() public abstract
      * javax.management.MBeanConstructorInfo[] javax.management.openmbean.OpenMBeanInfo.getConstructors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfo#hashCode() public abstract int
-     * javax.management.openmbean.OpenMBeanInfo.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenMBeanInfo#hashCode()
+     * public abstract int javax.management.openmbean.OpenMBeanInfo.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +149,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfo#equals(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfo#equals(Object) public abstract boolean
      * javax.management.openmbean.OpenMBeanInfo.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +172,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfo#toString() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanInfo.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.OpenMBeanInfo#toString()
+     * public abstract java.lang.String javax.management.openmbean.OpenMBeanInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +194,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfo#getClassName() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanInfo.getClassName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfo#getClassName() public abstract java.lang.String
+     * javax.management.openmbean.OpenMBeanInfo.getClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +217,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfo#getDescription() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanInfo.getDescription()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfo#getDescription() public abstract java.lang.String
+     * javax.management.openmbean.OpenMBeanInfo.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

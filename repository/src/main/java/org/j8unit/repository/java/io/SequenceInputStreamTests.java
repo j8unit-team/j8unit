@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SequenceInputStream#read(byte[], int, int) public
-     * int java.io.SequenceInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.SequenceInputStream#read(byte[], int, int)
+     * public int java.io.SequenceInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SequenceInputStream#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.SequenceInputStream#read() public int
      * java.io.SequenceInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SequenceInputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.SequenceInputStream#close() public void
      * java.io.SequenceInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +103,7 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SequenceInputStream#available() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.SequenceInputStream#available() public int
      * java.io.SequenceInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth;
 
-import javax.security.auth.Subject;
 import javax.security.auth.SubjectDomainCombiner;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.SubjectDomainCombinerClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SubjectDomainCombiner#SubjectDomainCombiner(Subject) public
+     * {@link javax.security.auth.SubjectDomainCombiner#SubjectDomainCombiner(javax.security.auth.Subject) public
      * javax.security.auth.SubjectDomainCombiner(javax.security.auth.Subject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.security.auth.SubjectDomainCombinerClassT
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SubjectDomainCombiner sut = null; // = new SubjectDomainCombiner(Subject);
+        final SubjectDomainCombiner sut = null; // = new SubjectDomainCombiner(javax.security.auth.Subject);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.SubjectDomainCombiner]

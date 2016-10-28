@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.time.chrono;
 
 import java.time.chrono.ChronoLocalDateTime;
-import java.time.temporal.TemporalAccessor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,9 @@ implements org.j8unit.repository.java.time.chrono.ChronoLocalDateTimeClassTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChronoLocalDateTime#from(TemporalAccessor) public
-     * static java.time.chrono.ChronoLocalDateTime
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.ChronoLocalDateTime#from(java.time.temporal.TemporalAccessor) public static
+     * java.time.chrono.ChronoLocalDateTime
      * <?> java.time.chrono.ChronoLocalDateTime.from(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +39,13 @@ implements org.j8unit.repository.java.time.chrono.ChronoLocalDateTimeClassTests<
     @Category(Draft.class)
     public void test_from_TemporalAccessor()
     throws Exception {
-        // write some test for {@link ChronoLocalDateTime#from(TemporalAccessor)}
+        // write some test for {@link java.time.chrono.ChronoLocalDateTime#from(java.time.temporal.TemporalAccessor)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ChronoLocalDateTime#timeLineOrder() public static
-     * java.util.Comparator<java.time.chrono.ChronoLocalDateTime<?>>
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ChronoLocalDateTime#timeLineOrder()
+     * public static java.util.Comparator<java.time.chrono.ChronoLocalDateTime<?>>
      * java.time.chrono.ChronoLocalDateTime.timeLineOrder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.java.time.chrono.ChronoLocalDateTimeClassTests<
     @Category(Draft.class)
     public void test_timeLineOrder()
     throws Exception {
-        // write some test for {@link ChronoLocalDateTime#timeLineOrder()}
+        // write some test for {@link java.time.chrono.ChronoLocalDateTime#timeLineOrder()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ChronoLocalDateTime]

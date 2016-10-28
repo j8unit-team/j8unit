@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.time;
 
 import java.time.ZoneId;
-import java.time.format.TextStyle;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneId#getId() public abstract java.lang.String
-     * java.time.ZoneId.getId()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneId#getId() public abstract
+     * java.lang.String java.time.ZoneId.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneId#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneId#toString() public java.lang.String
      * java.time.ZoneId.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneId#getRules() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneId#getRules() public abstract
      * java.time.zone.ZoneRules java.time.ZoneId.getRules()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneId#normalized() public java.time.ZoneId
-     * java.time.ZoneId.normalized()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneId#normalized() public
+     * java.time.ZoneId java.time.ZoneId.normalized()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +123,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneId#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneId#hashCode() public int
      * java.time.ZoneId.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +146,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneId#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneId#equals(Object) public boolean
      * java.time.ZoneId.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +169,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneId#getDisplayName(TextStyle, Locale) public
-     * java.lang.String java.time.ZoneId.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.ZoneId#getDisplayName(java.time.format.TextStyle, java.util.Locale) public java.lang.String
+     * java.time.ZoneId.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

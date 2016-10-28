@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LockInfo#getIdentityHashCode() public int
-     * java.lang.management.LockInfo.getIdentityHashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.LockInfo#getIdentityHashCode()
+     * public int java.lang.management.LockInfo.getIdentityHashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LockInfo#getClassName() public java.lang.String
-     * java.lang.management.LockInfo.getClassName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.LockInfo#getClassName() public
+     * java.lang.String java.lang.management.LockInfo.getClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LockInfo#toString() public java.lang.String
-     * java.lang.management.LockInfo.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.LockInfo#toString() public
+     * java.lang.String java.lang.management.LockInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

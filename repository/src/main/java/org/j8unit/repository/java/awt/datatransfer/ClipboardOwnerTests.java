@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
-import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.ClipboardOwner;
-import java.awt.datatransfer.Transferable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClipboardOwner#lostOwnership(Clipboard, Transferable) public abstract void
+     * {@link java.awt.datatransfer.ClipboardOwner#lostOwnership(java.awt.datatransfer.Clipboard, java.awt.datatransfer.Transferable)
+     * public abstract void
      * java.awt.datatransfer.ClipboardOwner.lostOwnership(java.awt.datatransfer.Clipboard,java.awt.datatransfer.Transferable)}
      * .
      *

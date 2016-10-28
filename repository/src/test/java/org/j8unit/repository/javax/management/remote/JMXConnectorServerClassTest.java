@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management.remote;
 
 import static org.junit.Assert.fail;
-import javax.management.MBeanServer;
 import javax.management.remote.JMXConnectorServer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +23,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorServerClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMXConnectorServer#JMXConnectorServer() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.remote.JMXConnectorServer#JMXConnectorServer() public
      * javax.management.remote.JMXConnectorServer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorServerClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link JMXConnectorServer#JMXConnectorServer(MBeanServer) public
+     * {@link javax.management.remote.JMXConnectorServer#JMXConnectorServer(javax.management.MBeanServer) public
      * javax.management.remote.JMXConnectorServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

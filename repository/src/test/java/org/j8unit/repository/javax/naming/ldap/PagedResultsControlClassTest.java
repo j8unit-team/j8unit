@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.ldap.PagedResultsControlClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PagedResultsControl#PagedResultsControl(int, boolean) public
+     * {@link javax.naming.ldap.PagedResultsControl#PagedResultsControl(int, boolean) public
      * javax.naming.ldap.PagedResultsControl(int,boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.naming.ldap.PagedResultsControlClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PagedResultsControl#PagedResultsControl(int, byte[], boolean) public
+     * {@link javax.naming.ldap.PagedResultsControl#PagedResultsControl(int, byte[], boolean) public
      * javax.naming.ldap.PagedResultsControl(int,byte[],boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth.kerberos;
 
-import javax.security.auth.kerberos.KerberosPrincipal;
 import javax.security.auth.kerberos.KeyTab;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyTab#getKeys(KerberosPrincipal) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KeyTab#getKeys(javax.security.auth.kerberos.KerberosPrincipal) public
      * javax.security.auth.kerberos.KerberosKey[]
      * javax.security.auth.kerberos.KeyTab.getKeys(javax.security.auth.kerberos.KerberosPrincipal)}.
      *
@@ -58,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyTab#toString() public java.lang.String
-     * javax.security.auth.kerberos.KeyTab.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#toString()
+     * public java.lang.String javax.security.auth.kerberos.KeyTab.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyTab#exists() public boolean
-     * javax.security.auth.kerberos.KeyTab.exists()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#exists() public
+     * boolean javax.security.auth.kerberos.KeyTab.exists()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyTab#equals(Object) public boolean
-     * javax.security.auth.kerberos.KeyTab.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#equals(Object)
+     * public boolean javax.security.auth.kerberos.KeyTab.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyTab#hashCode() public int
-     * javax.security.auth.kerberos.KeyTab.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#hashCode()
+     * public int javax.security.auth.kerberos.KeyTab.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +149,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyTab#isBound() public boolean
-     * javax.security.auth.kerberos.KeyTab.isBound()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#isBound() public
+     * boolean javax.security.auth.kerberos.KeyTab.isBound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +171,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyTab#getPrincipal() public
-     * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KeyTab.getPrincipal()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#getPrincipal()
+     * public javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KeyTab.getPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.event.MouseEvent;
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicPopupMenuUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPopupMenuUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicPopupMenuUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicPopupMenuUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPopupMenuUI#isPopupTrigger(MouseEvent) public
-     * boolean javax.swing.plaf.basic.BasicPopupMenuUI.isPopupTrigger(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicPopupMenuUI#isPopupTrigger(java.awt.event.MouseEvent) public boolean
+     * javax.swing.plaf.basic.BasicPopupMenuUI.isPopupTrigger(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +82,8 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPopupMenuUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicPopupMenuUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicPopupMenuUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,7 +106,8 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicPopupMenuUI#installDefaults() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicPopupMenuUI#installDefaults() public void
      * javax.swing.plaf.basic.BasicPopupMenuUI.installDefaults()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

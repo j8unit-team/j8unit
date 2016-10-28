@@ -1,21 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.io.InputStream;
-import java.io.Reader;
-import java.math.BigDecimal;
-import java.net.URL;
-import java.sql.Array;
-import java.sql.Blob;
-import java.sql.Clob;
-import java.sql.Date;
-import java.sql.NClob;
-import java.sql.Ref;
-import java.sql.RowId;
-import java.sql.SQLData;
-import java.sql.SQLXML;
-import java.sql.Struct;
-import java.sql.Time;
-import java.sql.Timestamp;
 import javax.sql.rowset.serial.SQLOutputImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -50,7 +34,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeLong(long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeLong(long) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeLong(long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -73,7 +58,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeTimestamp(Timestamp) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeTimestamp(java.sql.Timestamp) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeTimestamp(java.sql.Timestamp) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,7 +82,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeArray(Array) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeArray(java.sql.Array) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeArray(java.sql.Array) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -119,7 +106,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeClob(Clob) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeClob(java.sql.Clob) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeClob(java.sql.Clob) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -142,7 +130,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeDouble(double) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeDouble(double) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeDouble(double) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -165,7 +154,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeSQLXML(SQLXML) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeSQLXML(java.sql.SQLXML) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeSQLXML(java.sql.SQLXML) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,7 +178,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeRef(Ref) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeRef(java.sql.Ref) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeRef(java.sql.Ref) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,7 +202,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeNString(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeNString(String) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeNString(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -234,7 +226,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeDate(Date) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeDate(java.sql.Date) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeDate(java.sql.Date) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -257,8 +250,9 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeBigDecimal(BigDecimal) public
-     * void javax.sql.rowset.serial.SQLOutputImpl.writeBigDecimal(java.math.BigDecimal) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeBigDecimal(java.math.BigDecimal) public void
+     * javax.sql.rowset.serial.SQLOutputImpl.writeBigDecimal(java.math.BigDecimal) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,8 +274,9 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeCharacterStream(Reader) public
-     * void javax.sql.rowset.serial.SQLOutputImpl.writeCharacterStream(java.io.Reader) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeCharacterStream(java.io.Reader) public void
+     * javax.sql.rowset.serial.SQLOutputImpl.writeCharacterStream(java.io.Reader) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,7 +298,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeFloat(float) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeFloat(float) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeFloat(float) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -326,7 +322,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeBytes(byte[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeBytes(byte[]) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeBytes(byte[]) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,7 +346,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeShort(short) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeShort(short) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeShort(short) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -372,7 +370,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeBlob(Blob) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeBlob(java.sql.Blob) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeBlob(java.sql.Blob) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -395,7 +394,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeStruct(Struct) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeStruct(java.sql.Struct) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeStruct(java.sql.Struct) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -418,7 +418,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeBoolean(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeBoolean(boolean) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeBoolean(boolean) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -441,7 +442,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeString(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeString(String) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeString(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -464,7 +466,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeByte(byte) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeByte(byte) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeByte(byte) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -487,8 +490,9 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeBinaryStream(InputStream) public
-     * void javax.sql.rowset.serial.SQLOutputImpl.writeBinaryStream(java.io.InputStream) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeBinaryStream(java.io.InputStream) public void
+     * javax.sql.rowset.serial.SQLOutputImpl.writeBinaryStream(java.io.InputStream) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -510,7 +514,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeURL(URL) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeURL(java.net.URL) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeURL(java.net.URL) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -533,8 +538,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeInt(int) public void
-     * javax.sql.rowset.serial.SQLOutputImpl.writeInt(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLOutputImpl#writeInt(int)
+     * public void javax.sql.rowset.serial.SQLOutputImpl.writeInt(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -556,7 +561,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeTime(Time) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeTime(java.sql.Time) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeTime(java.sql.Time) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -579,7 +585,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeObject(SQLData) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeObject(java.sql.SQLData) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeObject(java.sql.SQLData) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -602,7 +609,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeNClob(NClob) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeNClob(java.sql.NClob) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeNClob(java.sql.NClob) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -625,7 +633,8 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeRowId(RowId) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeRowId(java.sql.RowId) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeRowId(java.sql.RowId) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -648,8 +657,9 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLOutputImpl#writeAsciiStream(InputStream) public
-     * void javax.sql.rowset.serial.SQLOutputImpl.writeAsciiStream(java.io.InputStream) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeAsciiStream(java.io.InputStream) public void
+     * javax.sql.rowset.serial.SQLOutputImpl.writeAsciiStream(java.io.InputStream) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

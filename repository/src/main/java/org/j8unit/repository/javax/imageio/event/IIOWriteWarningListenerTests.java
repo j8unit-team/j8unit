@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.event;
 
-import javax.imageio.ImageWriter;
 import javax.imageio.event.IIOWriteWarningListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOWriteWarningListener#warningOccurred(ImageWriter, int, String) public abstract void
+     * {@link javax.imageio.event.IIOWriteWarningListener#warningOccurred(javax.imageio.ImageWriter, int, String) public
+     * abstract void
      * javax.imageio.event.IIOWriteWarningListener.warningOccurred(javax.imageio.ImageWriter,int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

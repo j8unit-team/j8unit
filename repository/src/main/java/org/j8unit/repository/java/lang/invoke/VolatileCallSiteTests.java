@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.lang.invoke;
 
-import java.lang.invoke.MethodHandle;
 import java.lang.invoke.VolatileCallSite;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VolatileCallSite#getTarget() public final
-     * java.lang.invoke.MethodHandle java.lang.invoke.VolatileCallSite.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.VolatileCallSite#getTarget() public
+     * final java.lang.invoke.MethodHandle java.lang.invoke.VolatileCallSite.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VolatileCallSite#dynamicInvoker() public final
-     * java.lang.invoke.MethodHandle java.lang.invoke.VolatileCallSite.dynamicInvoker()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.VolatileCallSite#dynamicInvoker()
+     * public final java.lang.invoke.MethodHandle java.lang.invoke.VolatileCallSite.dynamicInvoker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +80,8 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VolatileCallSite#setTarget(MethodHandle) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.VolatileCallSite#setTarget(java.lang.invoke.MethodHandle) public void
      * java.lang.invoke.VolatileCallSite.setTarget(java.lang.invoke.MethodHandle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.io.OutputStream;
 import java.rmi.server.LogStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.io.PrintStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogStream#setOutputStream(OutputStream) public
-     * synchronized void java.rmi.server.LogStream.setOutputStream(java.io.OutputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.LogStream#setOutputStream(java.io.OutputStream) public synchronized void
+     * java.rmi.server.LogStream.setOutputStream(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.PrintStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogStream#getOutputStream() public synchronized
-     * java.io.OutputStream java.rmi.server.LogStream.getOutputStream()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.LogStream#getOutputStream() public
+     * synchronized java.io.OutputStream java.rmi.server.LogStream.getOutputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.PrintStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogStream#toString() public java.lang.String
-     * java.rmi.server.LogStream.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.LogStream#toString() public
+     * java.lang.String java.rmi.server.LogStream.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.PrintStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogStream#write(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.LogStream#write(int) public void
      * java.rmi.server.LogStream.write(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +125,8 @@ extends org.j8unit.repository.java.io.PrintStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogStream#write(byte[], int, int) public void
-     * java.rmi.server.LogStream.write(byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.LogStream#write(byte[], int, int)
+     * public void java.rmi.server.LogStream.write(byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

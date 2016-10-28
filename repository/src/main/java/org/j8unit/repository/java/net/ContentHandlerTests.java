@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.ContentHandler;
-import java.net.URLConnection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,9 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#getContent(URLConnection, Class[])
-     * public java.lang.Object java.net.ContentHandler.getContent(java.net.URLConnection,java.lang.Class[]) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.ContentHandler#getContent(java.net.URLConnection, Class[]) public java.lang.Object
+     * java.net.ContentHandler.getContent(java.net.URLConnection,java.lang.Class[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentHandler#getContent(URLConnection) public
-     * abstract java.lang.Object java.net.ContentHandler.getContent(java.net.URLConnection) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.ContentHandler#getContent(java.net.URLConnection) public abstract java.lang.Object
+     * java.net.ContentHandler.getContent(java.net.URLConnection) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

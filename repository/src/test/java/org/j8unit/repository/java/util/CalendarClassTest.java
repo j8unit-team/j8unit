@@ -2,8 +2,6 @@ package org.j8unit.repository.java.util;
 
 import java.util.Calendar;
 import java.util.Calendar.Builder;
-import java.util.Locale;
-import java.util.TimeZone;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.util.CalendarClassTests<Calendar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Calendar#getAvailableCalendarTypes() public static
-     * java.util.Set<java.lang.String> java.util.Calendar.getAvailableCalendarTypes()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Calendar#getAvailableCalendarTypes()
+     * public static java.util.Set<java.lang.String> java.util.Calendar.getAvailableCalendarTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,12 +37,73 @@ implements org.j8unit.repository.java.util.CalendarClassTests<Calendar> {
     @Category(Draft.class)
     public void test_getAvailableCalendarTypes()
     throws Exception {
-        // write some test for {@link Calendar#getAvailableCalendarTypes()}
+        // write some test for {@link java.util.Calendar#getAvailableCalendarTypes()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Calendar#getInstance() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.Calendar#getInstance(java.util.TimeZone)
+     * public static java.util.Calendar java.util.Calendar.getInstance(java.util.TimeZone)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getInstance_TimeZone()
+    throws Exception {
+        // write some test for {@link java.util.Calendar#getInstance(java.util.TimeZone)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Calendar#getInstance(java.util.TimeZone, java.util.Locale) public static java.util.Calendar
+     * java.util.Calendar.getInstance(java.util.TimeZone,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getInstance_TimeZone_Locale()
+    throws Exception {
+        // write some test for {@link java.util.Calendar#getInstance(java.util.TimeZone, java.util.Locale)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Calendar#getInstance(java.util.Locale)
+     * public static java.util.Calendar java.util.Calendar.getInstance(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getInstance_Locale()
+    throws Exception {
+        // write some test for {@link java.util.Calendar#getInstance(java.util.Locale)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Calendar#getInstance() public static
      * java.util.Calendar java.util.Calendar.getInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,73 +118,13 @@ implements org.j8unit.repository.java.util.CalendarClassTests<Calendar> {
     @Category(Draft.class)
     public void test_getInstance()
     throws Exception {
-        // write some test for {@link Calendar#getInstance()}
+        // write some test for {@link java.util.Calendar#getInstance()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Calendar#getInstance(TimeZone, Locale) public static
-     * java.util.Calendar java.util.Calendar.getInstance(java.util.TimeZone,java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getInstance_TimeZone_Locale()
-    throws Exception {
-        // write some test for {@link Calendar#getInstance(TimeZone, Locale)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Calendar#getInstance(TimeZone) public static
-     * java.util.Calendar java.util.Calendar.getInstance(java.util.TimeZone)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getInstance_TimeZone()
-    throws Exception {
-        // write some test for {@link Calendar#getInstance(TimeZone)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Calendar#getInstance(Locale) public static
-     * java.util.Calendar java.util.Calendar.getInstance(java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getInstance_Locale()
-    throws Exception {
-        // write some test for {@link Calendar#getInstance(Locale)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Calendar#getAvailableLocales() public static
-     * synchronized java.util.Locale[] java.util.Calendar.getAvailableLocales()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Calendar#getAvailableLocales() public
+     * static synchronized java.util.Locale[] java.util.Calendar.getAvailableLocales()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -139,7 +138,7 @@ implements org.j8unit.repository.java.util.CalendarClassTests<Calendar> {
     @Category(Draft.class)
     public void test_getAvailableLocales()
     throws Exception {
-        // write some test for {@link Calendar#getAvailableLocales()}
+        // write some test for {@link java.util.Calendar#getAvailableLocales()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Calendar]
@@ -157,7 +156,7 @@ implements org.j8unit.repository.java.util.CalendarClassTests<Calendar> {
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Builder#Builder() public
+         * Test method for the hereby targeted constructor-under-test {@link java.util.Calendar.Builder#Builder() public
          * java.util.Calendar$Builder()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

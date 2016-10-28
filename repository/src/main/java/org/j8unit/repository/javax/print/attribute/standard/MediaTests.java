@@ -35,8 +35,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Media#getName() public final java.lang.String
-     * javax.print.attribute.standard.Media.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Media#getName()
+     * public final java.lang.String javax.print.attribute.standard.Media.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Media#equals(Object) public boolean
-     * javax.print.attribute.standard.Media.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Media#equals(Object)
+     * public boolean javax.print.attribute.standard.Media.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Media#getCategory() public final java.lang.Class<?
-     * extends javax.print.attribute.Attribute> javax.print.attribute.standard.Media.getCategory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Media#getCategory()
+     * public final java.lang.Class<? extends javax.print.attribute.Attribute>
+     * javax.print.attribute.standard.Media.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

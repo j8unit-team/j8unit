@@ -1,12 +1,7 @@
 package org.j8unit.repository.javax.swing.tree;
 
-import java.awt.Rectangle;
-import javax.swing.event.TreeModelEvent;
 import javax.swing.tree.AbstractLayoutCache;
 import javax.swing.tree.AbstractLayoutCache.NodeDimensions;
-import javax.swing.tree.TreeModel;
-import javax.swing.tree.TreePath;
-import javax.swing.tree.TreeSelectionModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +35,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#treeNodesChanged(TreeModelEvent)
-     * public abstract void javax.swing.tree.AbstractLayoutCache.treeNodesChanged(javax.swing.event.TreeModelEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#treeNodesChanged(javax.swing.event.TreeModelEvent) public abstract
+     * void javax.swing.tree.AbstractLayoutCache.treeNodesChanged(javax.swing.event.TreeModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +58,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getSelectionModel() public
-     * javax.swing.tree.TreeSelectionModel javax.swing.tree.AbstractLayoutCache.getSelectionModel()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getSelectionModel() public javax.swing.tree.TreeSelectionModel
+     * javax.swing.tree.AbstractLayoutCache.getSelectionModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +81,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getPreferredWidth(Rectangle)
-     * public int javax.swing.tree.AbstractLayoutCache.getPreferredWidth(java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getPreferredWidth(java.awt.Rectangle) public int
+     * javax.swing.tree.AbstractLayoutCache.getPreferredWidth(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +104,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#isExpanded(TreePath) public
-     * abstract boolean javax.swing.tree.AbstractLayoutCache.isExpanded(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#isExpanded(javax.swing.tree.TreePath) public abstract boolean
+     * javax.swing.tree.AbstractLayoutCache.isExpanded(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,31 +127,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link AbstractLayoutCache#treeStructureChanged(TreeModelEvent) public abstract void
-     * javax.swing.tree.AbstractLayoutCache.treeStructureChanged(javax.swing.event.TreeModelEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_treeStructureChanged_TreeModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getModel() public
-     * javax.swing.tree.TreeModel javax.swing.tree.AbstractLayoutCache.getModel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.AbstractLayoutCache#getModel()
+     * public javax.swing.tree.TreeModel javax.swing.tree.AbstractLayoutCache.getModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +149,31 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getRowCount() public abstract
-     * int javax.swing.tree.AbstractLayoutCache.getRowCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#treeStructureChanged(javax.swing.event.TreeModelEvent) public
+     * abstract void javax.swing.tree.AbstractLayoutCache.treeStructureChanged(javax.swing.event.TreeModelEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_treeStructureChanged_TreeModelEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.AbstractLayoutCache#getRowCount()
+     * public abstract int javax.swing.tree.AbstractLayoutCache.getRowCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +194,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getPathClosestTo(int, int)
-     * public abstract javax.swing.tree.TreePath javax.swing.tree.AbstractLayoutCache.getPathClosestTo(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getPathClosestTo(int, int) public abstract javax.swing.tree.TreePath
+     * javax.swing.tree.AbstractLayoutCache.getPathClosestTo(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,8 +217,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getPathForRow(int) public
-     * abstract javax.swing.tree.TreePath javax.swing.tree.AbstractLayoutCache.getPathForRow(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getPathForRow(int) public abstract javax.swing.tree.TreePath
+     * javax.swing.tree.AbstractLayoutCache.getPathForRow(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,7 +241,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractLayoutCache#setSelectionModel(TreeSelectionModel) public void
+     * {@link javax.swing.tree.AbstractLayoutCache#setSelectionModel(javax.swing.tree.TreeSelectionModel) public void
      * javax.swing.tree.AbstractLayoutCache.setSelectionModel(javax.swing.tree.TreeSelectionModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,8 +263,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#invalidatePathBounds(TreePath)
-     * public abstract void javax.swing.tree.AbstractLayoutCache.invalidatePathBounds(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#invalidatePathBounds(javax.swing.tree.TreePath) public abstract void
+     * javax.swing.tree.AbstractLayoutCache.invalidatePathBounds(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -284,8 +286,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getExpandedState(TreePath)
-     * public abstract boolean javax.swing.tree.AbstractLayoutCache.getExpandedState(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getExpandedState(javax.swing.tree.TreePath) public abstract boolean
+     * javax.swing.tree.AbstractLayoutCache.getExpandedState(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -306,7 +309,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getNodeDimensions() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getNodeDimensions() public
      * javax.swing.tree.AbstractLayoutCache$NodeDimensions javax.swing.tree.AbstractLayoutCache.getNodeDimensions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -329,7 +333,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractLayoutCache#setNodeDimensions(NodeDimensions) public void
+     * {@link javax.swing.tree.AbstractLayoutCache#setNodeDimensions(javax.swing.tree.AbstractLayoutCache.NodeDimensions)
+     * public void
      * javax.swing.tree.AbstractLayoutCache.setNodeDimensions(javax.swing.tree.AbstractLayoutCache$NodeDimensions)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -352,29 +357,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractLayoutCache#setExpandedState(TreePath, boolean) public abstract void
-     * javax.swing.tree.AbstractLayoutCache.setExpandedState(javax.swing.tree.TreePath,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setExpandedState_TreePath_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#setModel(TreeModel) public void
+     * {@link javax.swing.tree.AbstractLayoutCache#setModel(javax.swing.tree.TreeModel) public void
      * javax.swing.tree.AbstractLayoutCache.setModel(javax.swing.tree.TreeModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -396,7 +379,31 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getPreferredHeight() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#setExpandedState(javax.swing.tree.TreePath, boolean) public abstract
+     * void javax.swing.tree.AbstractLayoutCache.setExpandedState(javax.swing.tree.TreePath,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setExpandedState_TreePath_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getPreferredHeight() public int
      * javax.swing.tree.AbstractLayoutCache.getPreferredHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -418,8 +425,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#setRootVisible(boolean) public
-     * void javax.swing.tree.AbstractLayoutCache.setRootVisible(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#setRootVisible(boolean) public void
+     * javax.swing.tree.AbstractLayoutCache.setRootVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -440,8 +448,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#isRootVisible() public boolean
-     * javax.swing.tree.AbstractLayoutCache.isRootVisible()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.AbstractLayoutCache#isRootVisible()
+     * public boolean javax.swing.tree.AbstractLayoutCache.isRootVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -462,8 +470,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getRowHeight() public int
-     * javax.swing.tree.AbstractLayoutCache.getRowHeight()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.AbstractLayoutCache#getRowHeight()
+     * public int javax.swing.tree.AbstractLayoutCache.getRowHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -484,30 +492,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#treeNodesRemoved(TreeModelEvent)
-     * public abstract void javax.swing.tree.AbstractLayoutCache.treeNodesRemoved(javax.swing.event.TreeModelEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_treeNodesRemoved_TreeModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#invalidateSizes() public
-     * abstract void javax.swing.tree.AbstractLayoutCache.invalidateSizes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#invalidateSizes() public abstract void
+     * javax.swing.tree.AbstractLayoutCache.invalidateSizes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -528,8 +515,32 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getVisiblePathsFrom(TreePath)
-     * public abstract java.util.Enumeration
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#treeNodesRemoved(javax.swing.event.TreeModelEvent) public abstract
+     * void javax.swing.tree.AbstractLayoutCache.treeNodesRemoved(javax.swing.event.TreeModelEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_treeNodesRemoved_TreeModelEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getVisiblePathsFrom(javax.swing.tree.TreePath) public abstract
+     * java.util.Enumeration
      * <javax.swing.tree.TreePath> javax.swing.tree.AbstractLayoutCache.getVisiblePathsFrom(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -551,8 +562,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getBounds(TreePath, Rectangle)
-     * public abstract java.awt.Rectangle
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getBounds(javax.swing.tree.TreePath, java.awt.Rectangle) public
+     * abstract java.awt.Rectangle
      * javax.swing.tree.AbstractLayoutCache.getBounds(javax.swing.tree.TreePath,java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -575,8 +587,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractLayoutCache#treeNodesInserted(TreeModelEvent) public abstract void
-     * javax.swing.tree.AbstractLayoutCache.treeNodesInserted(javax.swing.event.TreeModelEvent)}.
+     * {@link javax.swing.tree.AbstractLayoutCache#treeNodesInserted(javax.swing.event.TreeModelEvent) public abstract
+     * void javax.swing.tree.AbstractLayoutCache.treeNodesInserted(javax.swing.event.TreeModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -597,8 +609,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getRowsForPaths(TreePath[])
-     * public int[] javax.swing.tree.AbstractLayoutCache.getRowsForPaths(javax.swing.tree.TreePath[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getRowsForPaths(javax.swing.tree.TreePath[]) public int[]
+     * javax.swing.tree.AbstractLayoutCache.getRowsForPaths(javax.swing.tree.TreePath[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -620,8 +633,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getVisibleChildCount(TreePath)
-     * public abstract int javax.swing.tree.AbstractLayoutCache.getVisibleChildCount(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getVisibleChildCount(javax.swing.tree.TreePath) public abstract int
+     * javax.swing.tree.AbstractLayoutCache.getVisibleChildCount(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -642,8 +656,9 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#getRowForPath(TreePath) public
-     * abstract int javax.swing.tree.AbstractLayoutCache.getRowForPath(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#getRowForPath(javax.swing.tree.TreePath) public abstract int
+     * javax.swing.tree.AbstractLayoutCache.getRowForPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -664,7 +679,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractLayoutCache#setRowHeight(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#setRowHeight(int) public void
      * javax.swing.tree.AbstractLayoutCache.setRowHeight(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -714,8 +730,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link NodeDimensions#getNodeDimensions(Object, int, int, boolean, Rectangle) public abstract
-         * java.awt.Rectangle
+         * {@link javax.swing.tree.AbstractLayoutCache.NodeDimensions#getNodeDimensions(Object, int, int, boolean, java.awt.Rectangle)
+         * public abstract java.awt.Rectangle
          * javax.swing.tree.AbstractLayoutCache$NodeDimensions.getNodeDimensions(java.lang.Object,int,int,boolean,java.awt.Rectangle)}
          * .
          *

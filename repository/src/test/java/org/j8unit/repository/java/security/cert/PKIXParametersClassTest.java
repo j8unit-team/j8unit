@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.KeyStore;
 import java.security.cert.PKIXParameters;
-import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.java.security.cert.PKIXParametersClassTests<PKI
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PKIXParameters#PKIXParameters(Set) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.PKIXParameters#PKIXParameters(java.util.Set) public
      * java.security.cert.PKIXParameters(java.util.Set<java.security.cert.TrustAnchor>) throws
      * java.security.InvalidAlgorithmParameterException}.
      *
@@ -41,12 +40,13 @@ implements org.j8unit.repository.java.security.cert.PKIXParametersClassTests<PKI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PKIXParameters sut = null; // = new PKIXParameters(Set);
+        final PKIXParameters sut = null; // = new PKIXParameters(java.util.Set);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PKIXParameters#PKIXParameters(KeyStore) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.PKIXParameters#PKIXParameters(java.security.KeyStore) public
      * java.security.cert.PKIXParameters(java.security.KeyStore) throws
      * java.security.KeyStoreException,java.security.InvalidAlgorithmParameterException}.
      *
@@ -64,7 +64,7 @@ implements org.j8unit.repository.java.security.cert.PKIXParametersClassTests<PKI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PKIXParameters sut = null; // = new PKIXParameters(KeyStore);
+        final PKIXParameters sut = null; // = new PKIXParameters(java.security.KeyStore);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXParameters]

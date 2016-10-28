@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosPrincipalC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link KerberosPrincipal#KerberosPrincipal(String)
-     * public javax.security.auth.kerberos.KerberosPrincipal(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.kerberos.KerberosPrincipal#KerberosPrincipal(String) public
+     * javax.security.auth.kerberos.KerberosPrincipal(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosPrincipalC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link KerberosPrincipal#KerberosPrincipal(String, int) public
+     * {@link javax.security.auth.kerberos.KerberosPrincipal#KerberosPrincipal(String, int) public
      * javax.security.auth.kerberos.KerberosPrincipal(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

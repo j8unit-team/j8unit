@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt.font;
 
-import java.awt.Image;
 import java.awt.font.ImageGraphicAttribute;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.awt.font.ImageGraphicAttributeClassTests<I
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImageGraphicAttribute#ImageGraphicAttribute(Image, int) public
+     * {@link java.awt.font.ImageGraphicAttribute#ImageGraphicAttribute(java.awt.Image, int) public
      * java.awt.font.ImageGraphicAttribute(java.awt.Image,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.awt.font.ImageGraphicAttributeClassTests<I
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageGraphicAttribute sut = null; // = new ImageGraphicAttribute(Image, int);
+        final ImageGraphicAttribute sut = null; // = new ImageGraphicAttribute(java.awt.Image, int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImageGraphicAttribute#ImageGraphicAttribute(Image, int, float, float) public
+     * {@link java.awt.font.ImageGraphicAttribute#ImageGraphicAttribute(java.awt.Image, int, float, float) public
      * java.awt.font.ImageGraphicAttribute(java.awt.Image,int,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.awt.font.ImageGraphicAttributeClassTests<I
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImageGraphicAttribute sut = null; // = new ImageGraphicAttribute(Image, int, float, float);
+        final ImageGraphicAttribute sut = null; // = new ImageGraphicAttribute(java.awt.Image, int, float, float);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.ImageGraphicAttribute]

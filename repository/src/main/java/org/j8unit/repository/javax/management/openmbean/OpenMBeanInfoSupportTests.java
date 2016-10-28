@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import javax.management.MBeanInfo;
-import javax.management.openmbean.OpenMBeanInfo;
 import javax.management.openmbean.OpenMBeanInfoSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfoSupport#toString() public
-     * java.lang.String javax.management.openmbean.OpenMBeanInfoSupport.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfoSupport#toString() public java.lang.String
+     * javax.management.openmbean.OpenMBeanInfoSupport.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfoSupport#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfoSupport#equals(Object) public boolean
      * javax.management.openmbean.OpenMBeanInfoSupport.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +82,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OpenMBeanInfoSupport#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanInfoSupport#hashCode() public int
      * javax.management.openmbean.OpenMBeanInfoSupport.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,8 +110,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MBeanInfo#getDescription() class javax.management.MBeanInfo}</li>
-     * <li>{@link OpenMBeanInfo#getDescription() interface javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getDescription() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.openmbean.OpenMBeanInfo#getDescription() interface
+     * javax.management.openmbean.OpenMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -137,8 +139,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MBeanInfo#getNotifications() class javax.management.MBeanInfo}</li>
-     * <li>{@link OpenMBeanInfo#getNotifications() interface javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getNotifications() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.openmbean.OpenMBeanInfo#getNotifications() interface
+     * javax.management.openmbean.OpenMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -165,8 +168,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MBeanInfo#getAttributes() class javax.management.MBeanInfo}</li>
-     * <li>{@link OpenMBeanInfo#getAttributes() interface javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getAttributes() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.openmbean.OpenMBeanInfo#getAttributes() interface
+     * javax.management.openmbean.OpenMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -193,8 +197,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MBeanInfo#getOperations() class javax.management.MBeanInfo}</li>
-     * <li>{@link OpenMBeanInfo#getOperations() interface javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getOperations() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.openmbean.OpenMBeanInfo#getOperations() interface
+     * javax.management.openmbean.OpenMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -221,8 +226,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MBeanInfo#getClassName() class javax.management.MBeanInfo}</li>
-     * <li>{@link OpenMBeanInfo#getClassName() interface javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getClassName() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.openmbean.OpenMBeanInfo#getClassName() interface
+     * javax.management.openmbean.OpenMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -249,8 +255,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MBeanInfo#getConstructors() class javax.management.MBeanInfo}</li>
-     * <li>{@link OpenMBeanInfo#getConstructors() interface javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getConstructors() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.openmbean.OpenMBeanInfo#getConstructors() interface
+     * javax.management.openmbean.OpenMBeanInfo}</li>
      * </ul>
      *
      * <p>

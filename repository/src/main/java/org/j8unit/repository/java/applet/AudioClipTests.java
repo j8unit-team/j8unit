@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioClip#stop() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.applet.AudioClip#stop() public abstract void
      * java.applet.AudioClip.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioClip#loop() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.applet.AudioClip#loop() public abstract void
      * java.applet.AudioClip.loop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AudioClip#play() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.applet.AudioClip#play() public abstract void
      * java.applet.AudioClip.play()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

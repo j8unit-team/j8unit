@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.net.ssl;
 
 import javax.net.ssl.HandshakeCompletedEvent;
-import javax.net.ssl.SSLSession;
-import javax.net.ssl.SSLSocket;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.javax.net.ssl.HandshakeCompletedEventClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link HandshakeCompletedEvent#HandshakeCompletedEvent(SSLSocket, SSLSession) public
-     * javax.net.ssl.HandshakeCompletedEvent(javax.net.ssl.SSLSocket,javax.net.ssl.SSLSession)}.
+     * {@link javax.net.ssl.HandshakeCompletedEvent#HandshakeCompletedEvent(javax.net.ssl.SSLSocket, javax.net.ssl.SSLSession)
+     * public javax.net.ssl.HandshakeCompletedEvent(javax.net.ssl.SSLSocket,javax.net.ssl.SSLSession)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +39,8 @@ implements org.j8unit.repository.javax.net.ssl.HandshakeCompletedEventClassTests
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final HandshakeCompletedEvent sut = null; // = new HandshakeCompletedEvent(SSLSocket, SSLSession);
+        final HandshakeCompletedEvent sut = null; // = new HandshakeCompletedEvent(javax.net.ssl.SSLSocket,
+                                                  // javax.net.ssl.SSLSession);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.HandshakeCompletedEvent]

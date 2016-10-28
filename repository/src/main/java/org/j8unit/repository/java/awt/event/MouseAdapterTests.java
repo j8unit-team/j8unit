@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.event;
 
 import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseWheelEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseAdapter#mouseMoved(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseAdapter#mouseMoved(java.awt.event.MouseEvent) public void
      * java.awt.event.MouseAdapter.mouseMoved(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseAdapter#mousePressed(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseAdapter#mousePressed(java.awt.event.MouseEvent) public void
      * java.awt.event.MouseAdapter.mousePressed(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +83,8 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseAdapter#mouseReleased(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseAdapter#mouseReleased(java.awt.event.MouseEvent) public void
      * java.awt.event.MouseAdapter.mouseReleased(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +107,8 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseAdapter#mouseExited(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseAdapter#mouseExited(java.awt.event.MouseEvent) public void
      * java.awt.event.MouseAdapter.mouseExited(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +131,8 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseAdapter#mouseDragged(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseAdapter#mouseDragged(java.awt.event.MouseEvent) public void
      * java.awt.event.MouseAdapter.mouseDragged(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,7 +155,8 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseAdapter#mouseEntered(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseAdapter#mouseEntered(java.awt.event.MouseEvent) public void
      * java.awt.event.MouseAdapter.mouseEntered(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,8 +179,9 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseAdapter#mouseWheelMoved(MouseWheelEvent) public
-     * void java.awt.event.MouseAdapter.mouseWheelMoved(java.awt.event.MouseWheelEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseAdapter#mouseWheelMoved(java.awt.event.MouseWheelEvent) public void
+     * java.awt.event.MouseAdapter.mouseWheelMoved(java.awt.event.MouseWheelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,7 +203,8 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MouseAdapter#mouseClicked(MouseEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.MouseAdapter#mouseClicked(java.awt.event.MouseEvent) public void
      * java.awt.event.MouseAdapter.mouseClicked(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

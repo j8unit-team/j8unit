@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.io;
 
-import java.io.InputStream;
-import java.io.Reader;
 import java.io.StreamTokenizer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.java.io.StreamTokenizerClassTests<StreamTokeniz
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamTokenizer#StreamTokenizer(Reader) public
-     * java.io.StreamTokenizer(java.io.Reader)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.StreamTokenizer#StreamTokenizer(java.io.Reader) public java.io.StreamTokenizer(java.io.Reader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +38,14 @@ implements org.j8unit.repository.java.io.StreamTokenizerClassTests<StreamTokeniz
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamTokenizer sut = null; // = new StreamTokenizer(Reader);
+        final StreamTokenizer sut = null; // = new StreamTokenizer(java.io.Reader);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamTokenizer#StreamTokenizer(InputStream)
-     * public java.io.StreamTokenizer(java.io.InputStream)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.StreamTokenizer#StreamTokenizer(java.io.InputStream) public
+     * java.io.StreamTokenizer(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +61,7 @@ implements org.j8unit.repository.java.io.StreamTokenizerClassTests<StreamTokeniz
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamTokenizer sut = null; // = new StreamTokenizer(InputStream);
+        final StreamTokenizer sut = null; // = new StreamTokenizer(java.io.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.StreamTokenizer]

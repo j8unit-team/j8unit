@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.FilePermission;
-import java.security.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilePermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.FilePermission#hashCode() public int
      * java.io.FilePermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilePermission#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.io.FilePermission#equals(Object) public boolean
      * java.io.FilePermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +80,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilePermission#newPermissionCollection() public
-     * java.security.PermissionCollection java.io.FilePermission.newPermissionCollection()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilePermission#newPermissionCollection()
+     * public java.security.PermissionCollection java.io.FilePermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +103,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilePermission#implies(Permission) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.io.FilePermission#implies(java.security.Permission) public boolean
      * java.io.FilePermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +127,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilePermission#getActions() public java.lang.String
-     * java.io.FilePermission.getActions()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilePermission#getActions() public
+     * java.lang.String java.io.FilePermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

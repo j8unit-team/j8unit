@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.im;
 
-import java.awt.font.TextHitInfo;
 import java.awt.im.InputMethodRequests;
-import java.text.AttributedCharacterIterator.Attribute;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InputMethodRequests#cancelLatestCommittedText(Attribute[]) public abstract
-     * java.text.AttributedCharacterIterator
+     * {@link java.awt.im.InputMethodRequests#cancelLatestCommittedText(java.text.AttributedCharacterIterator.Attribute[])
+     * public abstract java.text.AttributedCharacterIterator
      * java.awt.im.InputMethodRequests.cancelLatestCommittedText(java.text.AttributedCharacterIterator$Attribute[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +59,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodRequests#getTextLocation(TextHitInfo)
-     * public abstract java.awt.Rectangle java.awt.im.InputMethodRequests.getTextLocation(java.awt.font.TextHitInfo)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputMethodRequests#getTextLocation(java.awt.font.TextHitInfo) public abstract
+     * java.awt.Rectangle java.awt.im.InputMethodRequests.getTextLocation(java.awt.font.TextHitInfo)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodRequests#getCommittedTextLength() public
-     * abstract int java.awt.im.InputMethodRequests.getCommittedTextLength()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputMethodRequests#getCommittedTextLength() public abstract int
+     * java.awt.im.InputMethodRequests.getCommittedTextLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +105,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodRequests#getSelectedText(Attribute[])
-     * public abstract java.text.AttributedCharacterIterator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputMethodRequests#getSelectedText(java.text.AttributedCharacterIterator.Attribute[]) public
+     * abstract java.text.AttributedCharacterIterator
      * java.awt.im.InputMethodRequests.getSelectedText(java.text.AttributedCharacterIterator$Attribute[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,8 +129,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodRequests#getInsertPositionOffset() public
-     * abstract int java.awt.im.InputMethodRequests.getInsertPositionOffset()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputMethodRequests#getInsertPositionOffset() public abstract int
+     * java.awt.im.InputMethodRequests.getInsertPositionOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +153,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InputMethodRequests#getCommittedText(int, int, Attribute[]) public abstract
-     * java.text.AttributedCharacterIterator
+     * {@link java.awt.im.InputMethodRequests#getCommittedText(int, int, java.text.AttributedCharacterIterator.Attribute[])
+     * public abstract java.text.AttributedCharacterIterator
      * java.awt.im.InputMethodRequests.getCommittedText(int,int,java.text.AttributedCharacterIterator$Attribute[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +176,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodRequests#getLocationOffset(int, int)
-     * public abstract java.awt.font.TextHitInfo java.awt.im.InputMethodRequests.getLocationOffset(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.im.InputMethodRequests#getLocationOffset(int, int) public abstract java.awt.font.TextHitInfo
+     * java.awt.im.InputMethodRequests.getLocationOffset(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

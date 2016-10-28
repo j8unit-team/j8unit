@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.RenderingHints;
 import java.awt.image.ConvolveOp;
-import java.awt.image.Kernel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.ConvolveOpClassTests<ConvolveOp>
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConvolveOp#ConvolveOp(Kernel, int, RenderingHints) public
+     * {@link java.awt.image.ConvolveOp#ConvolveOp(java.awt.image.Kernel, int, java.awt.RenderingHints) public
      * java.awt.image.ConvolveOp(java.awt.image.Kernel,int,java.awt.RenderingHints)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,12 +39,13 @@ implements org.j8unit.repository.java.awt.image.ConvolveOpClassTests<ConvolveOp>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConvolveOp sut = null; // = new ConvolveOp(Kernel, int, RenderingHints);
+        final ConvolveOp sut = null; // = new ConvolveOp(java.awt.image.Kernel, int, java.awt.RenderingHints);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConvolveOp#ConvolveOp(Kernel) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.ConvolveOp#ConvolveOp(java.awt.image.Kernel) public
      * java.awt.image.ConvolveOp(java.awt.image.Kernel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.java.awt.image.ConvolveOpClassTests<ConvolveOp>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConvolveOp sut = null; // = new ConvolveOp(Kernel);
+        final ConvolveOp sut = null; // = new ConvolveOp(java.awt.image.Kernel);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ConvolveOp]

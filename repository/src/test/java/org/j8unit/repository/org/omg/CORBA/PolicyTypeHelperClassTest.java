@@ -7,10 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.PolicyTypeHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class PolicyTypeHelperClassTest
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyTypeHelperClassTests<Policy
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PolicyTypeHelper#PolicyTypeHelper() public
-     * org.omg.CORBA.PolicyTypeHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.PolicyTypeHelper#PolicyTypeHelper() public org.omg.CORBA.PolicyTypeHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyTypeHelperClassTests<Policy
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyTypeHelper#read(InputStream) public static int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.PolicyTypeHelper#read(org.omg.CORBA.portable.InputStream) public static int
      * org.omg.CORBA.PolicyTypeHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,12 +58,13 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyTypeHelperClassTests<Policy
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link PolicyTypeHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.PolicyTypeHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyTypeHelper#extract(Any) public static int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.PolicyTypeHelper#extract(org.omg.CORBA.Any) public static int
      * org.omg.CORBA.PolicyTypeHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,13 +79,13 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyTypeHelperClassTests<Policy
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link PolicyTypeHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.PolicyTypeHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyTypeHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.PolicyTypeHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.PolicyTypeHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.PolicyTypeHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +99,14 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyTypeHelperClassTests<Policy
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link PolicyTypeHelper#type()}
+        // write some test for {@link org.omg.CORBA.PolicyTypeHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyTypeHelper#write(OutputStream, int) public
-     * static void org.omg.CORBA.PolicyTypeHelper.write(org.omg.CORBA.portable.OutputStream,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.PolicyTypeHelper#write(org.omg.CORBA.portable.OutputStream, int) public static void
+     * org.omg.CORBA.PolicyTypeHelper.write(org.omg.CORBA.portable.OutputStream,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,12 +120,13 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyTypeHelperClassTests<Policy
     @Category(Draft.class)
     public void test_write_OutputStream_int()
     throws Exception {
-        // write some test for {@link PolicyTypeHelper#write(OutputStream, int)}
+        // write some test for {@link org.omg.CORBA.PolicyTypeHelper#write(org.omg.CORBA.portable.OutputStream, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyTypeHelper#insert(Any, int) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.PolicyTypeHelper#insert(org.omg.CORBA.Any, int) public static void
      * org.omg.CORBA.PolicyTypeHelper.insert(org.omg.CORBA.Any,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -140,13 +141,13 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyTypeHelperClassTests<Policy
     @Category(Draft.class)
     public void test_insert_Any_int()
     throws Exception {
-        // write some test for {@link PolicyTypeHelper#insert(Any, int)}
+        // write some test for {@link org.omg.CORBA.PolicyTypeHelper#insert(org.omg.CORBA.Any, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyTypeHelper#id() public static java.lang.String
-     * org.omg.CORBA.PolicyTypeHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.PolicyTypeHelper#id() public static
+     * java.lang.String org.omg.CORBA.PolicyTypeHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,7 +161,7 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyTypeHelperClassTests<Policy
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link PolicyTypeHelper#id()}
+        // write some test for {@link org.omg.CORBA.PolicyTypeHelper#id()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PolicyTypeHelper]

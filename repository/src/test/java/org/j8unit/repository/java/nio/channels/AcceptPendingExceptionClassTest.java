@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.nio.channels.AcceptPendingExceptionClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AcceptPendingException#AcceptPendingException()
-     * public java.nio.channels.AcceptPendingException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.nio.channels.AcceptPendingException#AcceptPendingException() public
+     * java.nio.channels.AcceptPendingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.Point;
 import java.awt.dnd.DragGestureEvent;
-import java.awt.dnd.DragGestureRecognizer;
-import java.util.List;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,9 +22,9 @@ implements org.j8unit.repository.java.awt.dnd.DragGestureEventClassTests<DragGes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DragGestureEvent#DragGestureEvent(DragGestureRecognizer, int, Point, List) public
-     * java.awt.dnd.DragGestureEvent(java.awt.dnd.DragGestureRecognizer,int,java.awt.Point,java.util.List<? extends
-     * java.awt.event.InputEvent>)}.
+     * {@link java.awt.dnd.DragGestureEvent#DragGestureEvent(java.awt.dnd.DragGestureRecognizer, int, java.awt.Point, java.util.List)
+     * public java.awt.dnd.DragGestureEvent(java.awt.dnd.DragGestureRecognizer,int,java.awt.Point,java.util.List<?
+     * extends java.awt.event.InputEvent>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +40,8 @@ implements org.j8unit.repository.java.awt.dnd.DragGestureEventClassTests<DragGes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DragGestureEvent sut = null; // = new DragGestureEvent(DragGestureRecognizer, int, Point, List);
+        final DragGestureEvent sut = null; // = new DragGestureEvent(java.awt.dnd.DragGestureRecognizer, int,
+                                           // java.awt.Point, java.util.List);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragGestureEvent]

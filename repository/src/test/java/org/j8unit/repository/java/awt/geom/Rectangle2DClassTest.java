@@ -24,7 +24,8 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Rectangle2D#intersect(Rectangle2D, Rectangle2D, Rectangle2D) public static void
+     * {@link java.awt.geom.Rectangle2D#intersect(java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D)
+     * public static void
      * java.awt.geom.Rectangle2D.intersect(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)}
      * .
      *
@@ -40,13 +41,15 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
     @Category(Draft.class)
     public void test_intersect_Rectangle2D_Rectangle2D_Rectangle2D()
     throws Exception {
-        // write some test for {@link Rectangle2D#intersect(Rectangle2D, Rectangle2D, Rectangle2D)}
+        // write some test for {@link java.awt.geom.Rectangle2D#intersect(java.awt.geom.Rectangle2D,
+        // java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Rectangle2D#union(Rectangle2D, Rectangle2D, Rectangle2D) public static void
+     * {@link java.awt.geom.Rectangle2D#union(java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D)
+     * public static void
      * java.awt.geom.Rectangle2D.union(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +64,8 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
     @Category(Draft.class)
     public void test_union_Rectangle2D_Rectangle2D_Rectangle2D()
     throws Exception {
-        // write some test for {@link Rectangle2D#union(Rectangle2D, Rectangle2D, Rectangle2D)}
+        // write some test for {@link java.awt.geom.Rectangle2D#union(java.awt.geom.Rectangle2D,
+        // java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Rectangle2D]
@@ -79,8 +83,8 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double() public
-         * java.awt.geom.Rectangle2D$Double()}.
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Rectangle2D.Double#Double()
+         * public java.awt.geom.Rectangle2D$Double()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -101,7 +105,7 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link Double#Double(double, double, double, double) public
+         * {@link java.awt.geom.Rectangle2D.Double#Double(double, double, double, double) public
          * java.awt.geom.Rectangle2D$Double(double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -138,8 +142,8 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float() public
-         * java.awt.geom.Rectangle2D$Float()}.
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Rectangle2D.Float#Float()
+         * public java.awt.geom.Rectangle2D$Float()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -159,8 +163,9 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float(float, float, float, float)
-         * public java.awt.geom.Rectangle2D$Float(float,float,float,float)}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.Rectangle2D.Float#Float(float, float, float, float) public
+         * java.awt.geom.Rectangle2D$Float(float,float,float,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

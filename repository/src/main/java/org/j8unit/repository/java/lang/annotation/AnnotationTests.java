@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Annotation#annotationType() public abstract
-     * java.lang.Class<? extends java.lang.annotation.Annotation> java.lang.annotation.Annotation.annotationType()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.annotation.Annotation#annotationType()
+     * public abstract java.lang.Class<? extends java.lang.annotation.Annotation>
+     * java.lang.annotation.Annotation.annotationType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Annotation#toString() public abstract
-     * java.lang.String java.lang.annotation.Annotation.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.annotation.Annotation#toString() public
+     * abstract java.lang.String java.lang.annotation.Annotation.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Annotation#hashCode() public abstract int
-     * java.lang.annotation.Annotation.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.annotation.Annotation#hashCode() public
+     * abstract int java.lang.annotation.Annotation.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Annotation#equals(Object) public abstract boolean
-     * java.lang.annotation.Annotation.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.annotation.Annotation#equals(Object)
+     * public abstract boolean java.lang.annotation.Annotation.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

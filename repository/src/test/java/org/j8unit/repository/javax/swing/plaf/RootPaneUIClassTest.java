@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.RootPaneUIClassTests<RootPaneU
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RootPaneUI#RootPaneUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.RootPaneUI#RootPaneUI() public
      * javax.swing.plaf.RootPaneUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

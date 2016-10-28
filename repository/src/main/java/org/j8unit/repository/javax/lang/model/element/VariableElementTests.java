@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VariableElement#getSimpleName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.VariableElement.getSimpleName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.VariableElement#getSimpleName() public abstract javax.lang.model.element.Name
+     * javax.lang.model.element.VariableElement.getSimpleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VariableElement#getEnclosingElement() public
-     * abstract javax.lang.model.element.Element javax.lang.model.element.VariableElement.getEnclosingElement()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.VariableElement#getEnclosingElement() public abstract
+     * javax.lang.model.element.Element javax.lang.model.element.VariableElement.getEnclosingElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,9 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VariableElement#getConstantValue() public abstract
-     * java.lang.Object javax.lang.model.element.VariableElement.getConstantValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.element.VariableElement#getConstantValue() public abstract java.lang.Object
+     * javax.lang.model.element.VariableElement.getConstantValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

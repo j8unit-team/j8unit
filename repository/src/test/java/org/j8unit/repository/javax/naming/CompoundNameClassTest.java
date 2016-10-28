@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming;
 
-import java.util.Properties;
 import javax.naming.CompoundName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,9 +21,9 @@ implements org.j8unit.repository.javax.naming.CompoundNameClassTests<CompoundNam
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CompoundName#CompoundName(String, Properties)
-     * public javax.naming.CompoundName(java.lang.String,java.util.Properties) throws javax.naming.InvalidNameException}
-     * .
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.CompoundName#CompoundName(String, java.util.Properties) public
+     * javax.naming.CompoundName(java.lang.String,java.util.Properties) throws javax.naming.InvalidNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.naming.CompoundNameClassTests<CompoundNam
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CompoundName sut = null; // = new CompoundName(String, Properties);
+        final CompoundName sut = null; // = new CompoundName(String, java.util.Properties);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.CompoundName]

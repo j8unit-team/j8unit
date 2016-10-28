@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivationExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationException#ActivationException(String, Throwable) public
+     * {@link java.rmi.activation.ActivationException#ActivationException(String, Throwable) public
      * java.rmi.activation.ActivationException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.java.rmi.activation.ActivationExceptionClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ActivationException#ActivationException(String)
-     * public java.rmi.activation.ActivationException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.activation.ActivationException#ActivationException(String) public
+     * java.rmi.activation.ActivationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,8 +67,9 @@ implements org.j8unit.repository.java.rmi.activation.ActivationExceptionClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ActivationException#ActivationException()
-     * public java.rmi.activation.ActivationException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.rmi.activation.ActivationException#ActivationException() public
+     * java.rmi.activation.ActivationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

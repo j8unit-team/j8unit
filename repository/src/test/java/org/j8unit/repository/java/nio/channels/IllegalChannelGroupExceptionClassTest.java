@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.nio.channels.IllegalChannelGroupExceptionC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalChannelGroupException#IllegalChannelGroupException() public
+     * {@link java.nio.channels.IllegalChannelGroupException#IllegalChannelGroupException() public
      * java.nio.channels.IllegalChannelGroupException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

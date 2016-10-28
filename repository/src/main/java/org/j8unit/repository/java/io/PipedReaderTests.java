@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.io;
 
 import java.io.PipedReader;
-import java.io.PipedWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedReader#read(char[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedReader#read(char[], int, int) public
      * synchronized int java.io.PipedReader.read(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedReader#read() public synchronized int
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedReader#read() public synchronized int
      * java.io.PipedReader.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +80,8 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedReader#ready() public synchronized boolean
-     * java.io.PipedReader.ready() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedReader#ready() public synchronized
+     * boolean java.io.PipedReader.ready() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +103,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedReader#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedReader#close() public void
      * java.io.PipedReader.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +126,8 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PipedReader#connect(PipedWriter) public void
-     * java.io.PipedReader.connect(java.io.PipedWriter) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PipedReader#connect(java.io.PipedWriter)
+     * public void java.io.PipedReader.connect(java.io.PipedWriter) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

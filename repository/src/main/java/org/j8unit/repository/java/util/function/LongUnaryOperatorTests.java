@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongUnaryOperator#compose(LongUnaryOperator) public
-     * default java.util.function.LongUnaryOperator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.LongUnaryOperator#compose(java.util.function.LongUnaryOperator) public default
+     * java.util.function.LongUnaryOperator
      * java.util.function.LongUnaryOperator.compose(java.util.function.LongUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +59,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongUnaryOperator#applyAsLong(long) public abstract
-     * long java.util.function.LongUnaryOperator.applyAsLong(long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.LongUnaryOperator#applyAsLong(long) public abstract long
+     * java.util.function.LongUnaryOperator.applyAsLong(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LongUnaryOperator#andThen(LongUnaryOperator) public
-     * default java.util.function.LongUnaryOperator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.LongUnaryOperator#andThen(java.util.function.LongUnaryOperator) public default
+     * java.util.function.LongUnaryOperator
      * java.util.function.LongUnaryOperator.andThen(java.util.function.LongUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

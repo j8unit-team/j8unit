@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.net;
 
-import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketAddress;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#bind(SocketAddress) public
-     * synchronized void java.net.DatagramSocket.bind(java.net.SocketAddress) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#bind(java.net.SocketAddress)
+     * public synchronized void java.net.DatagramSocket.bind(java.net.SocketAddress) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +56,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getChannel() public
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getChannel() public
      * java.nio.channels.DatagramChannel java.net.DatagramSocket.getChannel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +78,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getSoTimeout() public synchronized
-     * int java.net.DatagramSocket.getSoTimeout() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getSoTimeout() public
+     * synchronized int java.net.DatagramSocket.getSoTimeout() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +100,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#close() public void
      * java.net.DatagramSocket.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +123,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#connect(InetAddress, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.DatagramSocket#connect(java.net.InetAddress, int) public void
      * java.net.DatagramSocket.connect(java.net.InetAddress,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +146,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#connect(SocketAddress) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.DatagramSocket#connect(java.net.SocketAddress) public void
      * java.net.DatagramSocket.connect(java.net.SocketAddress) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,7 +169,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#setTrafficClass(int) public
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#setTrafficClass(int) public
      * synchronized void java.net.DatagramSocket.setTrafficClass(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,7 +191,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getInetAddress() public
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getInetAddress() public
      * java.net.InetAddress java.net.DatagramSocket.getInetAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,7 +213,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#disconnect() public void
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#disconnect() public void
      * java.net.DatagramSocket.disconnect()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +235,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#setReceiveBufferSize(int) public
-     * synchronized void java.net.DatagramSocket.setReceiveBufferSize(int) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#setReceiveBufferSize(int)
+     * public synchronized void java.net.DatagramSocket.setReceiveBufferSize(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,7 +257,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getLocalPort() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getLocalPort() public int
      * java.net.DatagramSocket.getLocalPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -280,7 +279,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#isConnected() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#isConnected() public boolean
      * java.net.DatagramSocket.isConnected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -302,7 +301,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getLocalAddress() public
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getLocalAddress() public
      * java.net.InetAddress java.net.DatagramSocket.getLocalAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -324,7 +323,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getPort() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getPort() public int
      * java.net.DatagramSocket.getPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -346,7 +345,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#isClosed() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#isClosed() public boolean
      * java.net.DatagramSocket.isClosed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -368,7 +367,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#isBound() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#isBound() public boolean
      * java.net.DatagramSocket.isBound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -390,8 +389,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#setSendBufferSize(int) public
-     * synchronized void java.net.DatagramSocket.setSendBufferSize(int) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#setSendBufferSize(int)
+     * public synchronized void java.net.DatagramSocket.setSendBufferSize(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -412,7 +411,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getSendBufferSize() public
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getSendBufferSize() public
      * synchronized int java.net.DatagramSocket.getSendBufferSize() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -434,7 +433,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#setBroadcast(boolean) public
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#setBroadcast(boolean) public
      * synchronized void java.net.DatagramSocket.setBroadcast(boolean) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -456,7 +455,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#send(DatagramPacket) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.DatagramSocket#send(java.net.DatagramPacket) public void
      * java.net.DatagramSocket.send(java.net.DatagramPacket) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -478,8 +478,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getRemoteSocketAddress() public
-     * java.net.SocketAddress java.net.DatagramSocket.getRemoteSocketAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getRemoteSocketAddress()
+     * public java.net.SocketAddress java.net.DatagramSocket.getRemoteSocketAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -500,8 +500,9 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#receive(DatagramPacket) public
-     * synchronized void java.net.DatagramSocket.receive(java.net.DatagramPacket) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.DatagramSocket#receive(java.net.DatagramPacket) public synchronized void
+     * java.net.DatagramSocket.receive(java.net.DatagramPacket) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -522,8 +523,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getBroadcast() public synchronized
-     * boolean java.net.DatagramSocket.getBroadcast() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getBroadcast() public
+     * synchronized boolean java.net.DatagramSocket.getBroadcast() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -544,8 +545,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#setReuseAddress(boolean) public
-     * synchronized void java.net.DatagramSocket.setReuseAddress(boolean) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#setReuseAddress(boolean)
+     * public synchronized void java.net.DatagramSocket.setReuseAddress(boolean) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -566,8 +567,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getReceiveBufferSize() public
-     * synchronized int java.net.DatagramSocket.getReceiveBufferSize() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getReceiveBufferSize()
+     * public synchronized int java.net.DatagramSocket.getReceiveBufferSize() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -588,8 +589,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getLocalSocketAddress() public
-     * java.net.SocketAddress java.net.DatagramSocket.getLocalSocketAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getLocalSocketAddress()
+     * public java.net.SocketAddress java.net.DatagramSocket.getLocalSocketAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -610,8 +611,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getTrafficClass() public synchronized
-     * int java.net.DatagramSocket.getTrafficClass() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getTrafficClass() public
+     * synchronized int java.net.DatagramSocket.getTrafficClass() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -632,8 +633,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#getReuseAddress() public synchronized
-     * boolean java.net.DatagramSocket.getReuseAddress() throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#getReuseAddress() public
+     * synchronized boolean java.net.DatagramSocket.getReuseAddress() throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -654,8 +655,8 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramSocket#setSoTimeout(int) public synchronized
-     * void java.net.DatagramSocket.setSoTimeout(int) throws java.net.SocketException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.DatagramSocket#setSoTimeout(int) public
+     * synchronized void java.net.DatagramSocket.setSoTimeout(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

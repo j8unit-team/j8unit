@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.NoSuchAlgorithmExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchAlgorithmException#NoSuchAlgorithmException(Throwable) public
+     * {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException(Throwable) public
      * java.security.NoSuchAlgorithmException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.security.NoSuchAlgorithmExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchAlgorithmException#NoSuchAlgorithmException(String, Throwable) public
+     * {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException(String, Throwable) public
      * java.security.NoSuchAlgorithmException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.security.NoSuchAlgorithmExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchAlgorithmException#NoSuchAlgorithmException(String) public
+     * {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException(String) public
      * java.security.NoSuchAlgorithmException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,8 @@ implements org.j8unit.repository.java.security.NoSuchAlgorithmExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoSuchAlgorithmException#NoSuchAlgorithmException() public java.security.NoSuchAlgorithmException()}.
+     * {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException() public
+     * java.security.NoSuchAlgorithmException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

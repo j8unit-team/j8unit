@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.Document;
-import javax.swing.text.Element;
 import javax.swing.text.ElementIterator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.javax.swing.text.ElementIteratorClassTests<Elem
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ElementIterator#ElementIterator(Document)
-     * public javax.swing.text.ElementIterator(javax.swing.text.Document)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.ElementIterator#ElementIterator(javax.swing.text.Document) public
+     * javax.swing.text.ElementIterator(javax.swing.text.Document)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,12 +39,13 @@ implements org.j8unit.repository.javax.swing.text.ElementIteratorClassTests<Elem
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ElementIterator sut = null; // = new ElementIterator(Document);
+        final ElementIterator sut = null; // = new ElementIterator(javax.swing.text.Document);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ElementIterator#ElementIterator(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.ElementIterator#ElementIterator(javax.swing.text.Element) public
      * javax.swing.text.ElementIterator(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.javax.swing.text.ElementIteratorClassTests<Elem
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ElementIterator sut = null; // = new ElementIterator(Element);
+        final ElementIterator sut = null; // = new ElementIterator(javax.swing.text.Element);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.ElementIterator]

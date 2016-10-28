@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import javax.management.Descriptor;
 import javax.management.openmbean.OpenMBeanAttributeInfoSupport;
-import javax.management.openmbean.OpenType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeIn
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, OpenType, boolean, boolean, boolean, Object, Comparable, Comparable)
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, javax.management.openmbean.OpenType, boolean, boolean, boolean, Object, Comparable, Comparable)
      * public <T>
      * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <T>,boolean,boolean,boolean,T,java.lang.Comparable<T>,java.lang.Comparable<T>) throws
@@ -44,14 +42,15 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeIn
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String, OpenType,
-                                                        // boolean, boolean, boolean, Object, Comparable, Comparable);
+        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String,
+                                                        // javax.management.openmbean.OpenType, boolean, boolean,
+                                                        // boolean, Object, Comparable, Comparable);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, OpenType, boolean, boolean, boolean, Object, Object[])
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, javax.management.openmbean.OpenType, boolean, boolean, boolean, Object, Object[])
      * public <T>
      * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <T>,boolean,boolean,boolean,T,T[]) throws javax.management.openmbean.OpenDataException}.
@@ -70,14 +69,15 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeIn
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String, OpenType,
-                                                        // boolean, boolean, boolean, Object, Object[]);
+        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String,
+                                                        // javax.management.openmbean.OpenType, boolean, boolean,
+                                                        // boolean, Object, Object[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, OpenType, boolean, boolean, boolean)
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, javax.management.openmbean.OpenType, boolean, boolean, boolean)
      * public
      * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <?>,boolean,boolean,boolean)}.
@@ -96,14 +96,15 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeIn
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String, OpenType,
-                                                        // boolean, boolean, boolean);
+        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String,
+                                                        // javax.management.openmbean.OpenType, boolean, boolean,
+                                                        // boolean);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, OpenType, boolean, boolean, boolean, Descriptor)
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, javax.management.openmbean.OpenType, boolean, boolean, boolean, javax.management.Descriptor)
      * public
      * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <?>,boolean,boolean,boolean,javax.management.Descriptor)}.
@@ -122,14 +123,15 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeIn
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String, OpenType,
-                                                        // boolean, boolean, boolean, Descriptor);
+        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String,
+                                                        // javax.management.openmbean.OpenType, boolean, boolean,
+                                                        // boolean, javax.management.Descriptor);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, OpenType, boolean, boolean, boolean, Object)
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(String, String, javax.management.openmbean.OpenType, boolean, boolean, boolean, Object)
      * public <T>
      * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType
      * <T>,boolean,boolean,boolean,T) throws javax.management.openmbean.OpenDataException}.
@@ -148,8 +150,9 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeIn
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String, OpenType,
-                                                        // boolean, boolean, boolean, Object);
+        final OpenMBeanAttributeInfoSupport sut = null; // = new OpenMBeanAttributeInfoSupport(String, String,
+                                                        // javax.management.openmbean.OpenType, boolean, boolean,
+                                                        // boolean, Object);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanAttributeInfoSupport]

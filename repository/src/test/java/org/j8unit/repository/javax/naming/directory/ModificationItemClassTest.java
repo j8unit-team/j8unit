@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.directory;
 
-import javax.naming.directory.Attribute;
 import javax.naming.directory.ModificationItem;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.naming.directory.ModificationItemClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ModificationItem#ModificationItem(int, Attribute) public
+     * {@link javax.naming.directory.ModificationItem#ModificationItem(int, javax.naming.directory.Attribute) public
      * javax.naming.directory.ModificationItem(int,javax.naming.directory.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.naming.directory.ModificationItemClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ModificationItem sut = null; // = new ModificationItem(int, Attribute);
+        final ModificationItem sut = null; // = new ModificationItem(int, javax.naming.directory.Attribute);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.ModificationItem]

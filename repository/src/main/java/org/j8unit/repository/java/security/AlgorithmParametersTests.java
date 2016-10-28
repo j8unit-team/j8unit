@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.AlgorithmParameters;
-import java.security.spec.AlgorithmParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameters#getParameterSpec(Class) public
-     * final <T> T java.security.AlgorithmParameters.getParameterSpec(java.lang.Class<T>) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AlgorithmParameters#getParameterSpec(Class) public final <T> T
+     * java.security.AlgorithmParameters.getParameterSpec(java.lang.Class<T>) throws
      * java.security.spec.InvalidParameterSpecException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameters#toString() public final
-     * java.lang.String java.security.AlgorithmParameters.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AlgorithmParameters#toString() public
+     * final java.lang.String java.security.AlgorithmParameters.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameters#getProvider() public final
-     * java.security.Provider java.security.AlgorithmParameters.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AlgorithmParameters#getProvider()
+     * public final java.security.Provider java.security.AlgorithmParameters.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameters#getEncoded(String) public final
-     * byte[] java.security.AlgorithmParameters.getEncoded(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AlgorithmParameters#getEncoded(String)
+     * public final byte[] java.security.AlgorithmParameters.getEncoded(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameters#getEncoded() public final byte[]
-     * java.security.AlgorithmParameters.getEncoded() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AlgorithmParameters#getEncoded()
+     * public final byte[] java.security.AlgorithmParameters.getEncoded() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameters#getAlgorithm() public final
-     * java.lang.String java.security.AlgorithmParameters.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AlgorithmParameters#getAlgorithm()
+     * public final java.lang.String java.security.AlgorithmParameters.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +169,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameters#init(AlgorithmParameterSpec)
-     * public final void java.security.AlgorithmParameters.init(java.security.spec.AlgorithmParameterSpec) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AlgorithmParameters#init(java.security.spec.AlgorithmParameterSpec) public final void
+     * java.security.AlgorithmParameters.init(java.security.spec.AlgorithmParameterSpec) throws
      * java.security.spec.InvalidParameterSpecException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +193,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameters#init(byte[], String) public
-     * final void java.security.AlgorithmParameters.init(byte[],java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AlgorithmParameters#init(byte[], String) public final void
+     * java.security.AlgorithmParameters.init(byte[],java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +216,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AlgorithmParameters#init(byte[]) public final void
-     * java.security.AlgorithmParameters.init(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AlgorithmParameters#init(byte[])
+     * public final void java.security.AlgorithmParameters.init(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.event;
 
-import javax.naming.event.NamingEvent;
 import javax.naming.event.ObjectChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.naming.event.NamingListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectChangeListener#objectChanged(NamingEvent)
-     * public abstract void javax.naming.event.ObjectChangeListener.objectChanged(javax.naming.event.NamingEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.event.ObjectChangeListener#objectChanged(javax.naming.event.NamingEvent) public abstract void
+     * javax.naming.event.ObjectChangeListener.objectChanged(javax.naming.event.NamingEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

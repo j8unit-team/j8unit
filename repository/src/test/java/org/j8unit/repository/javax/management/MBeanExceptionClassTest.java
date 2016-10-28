@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.management.MBeanExceptionClassTests<MBean
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MBeanException#MBeanException(Exception) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.MBeanException#MBeanException(Exception) public
      * javax.management.MBeanException(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +45,7 @@ implements org.j8unit.repository.javax.management.MBeanExceptionClassTests<MBean
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanException#MBeanException(Exception, String) public
+     * {@link javax.management.MBeanException#MBeanException(Exception, String) public
      * javax.management.MBeanException(java.lang.Exception,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

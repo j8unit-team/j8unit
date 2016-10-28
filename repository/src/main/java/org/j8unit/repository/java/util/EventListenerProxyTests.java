@@ -35,7 +35,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EventListenerProxy#getListener() public T
+     * Test method for the hereby targeted method-under-test {@link java.util.EventListenerProxy#getListener() public T
      * java.util.EventListenerProxy.getListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

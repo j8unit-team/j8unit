@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.UnsupportedOperationExceptionTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HeadlessException#getMessage() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.HeadlessException#getMessage() public
      * java.lang.String java.awt.HeadlessException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

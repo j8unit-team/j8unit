@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.beans.VetoableChangeSupportClassTests<Veto
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link VetoableChangeSupport#VetoableChangeSupport(Object) public
+     * {@link java.beans.VetoableChangeSupport#VetoableChangeSupport(Object) public
      * java.beans.VetoableChangeSupport(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

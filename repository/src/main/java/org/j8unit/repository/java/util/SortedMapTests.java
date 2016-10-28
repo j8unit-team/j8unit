@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedMap#tailMap(Object) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedMap#tailMap(Object) public abstract
      * java.util.SortedMap<K, V> java.util.SortedMap.tailMap(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedMap#keySet() public abstract java.util.Set
-     * <K> java.util.SortedMap.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedMap#keySet() public abstract
+     * java.util.Set<K> java.util.SortedMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedMap#headMap(Object) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedMap#headMap(Object) public abstract
      * java.util.SortedMap<K, V> java.util.SortedMap.headMap(K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedMap#lastKey() public abstract K
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedMap#lastKey() public abstract K
      * java.util.SortedMap.lastKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedMap#firstKey() public abstract K
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedMap#firstKey() public abstract K
      * java.util.SortedMap.firstKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedMap#subMap(Object, Object) public abstract
-     * java.util.SortedMap<K, V> java.util.SortedMap.subMap(K,K)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedMap#subMap(Object, Object) public
+     * abstract java.util.SortedMap<K, V> java.util.SortedMap.subMap(K,K)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedMap#values() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedMap#values() public abstract
      * java.util.Collection<V> java.util.SortedMap.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +190,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedMap#entrySet() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedMap#entrySet() public abstract
      * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.SortedMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,7 +213,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortedMap#comparator() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedMap#comparator() public abstract
      * java.util.Comparator<? super K> java.util.SortedMap.comparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

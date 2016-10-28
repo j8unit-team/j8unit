@@ -1,10 +1,7 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileChannel.MapMode;
-import java.nio.channels.ReadableByteChannel;
-import java.nio.channels.WritableByteChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +36,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#map(MapMode, long, long) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#map(java.nio.channels.FileChannel.MapMode, long, long) public abstract
      * java.nio.MappedByteBuffer java.nio.channels.FileChannel.map(java.nio.channels.FileChannel$MapMode,long,long)
      * throws java.io.IOException}.
      *
@@ -62,7 +60,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#write(ByteBuffer[]) public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#write(java.nio.ByteBuffer[]) public final long
      * java.nio.channels.FileChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +84,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#write(ByteBuffer[], int, int) public
-     * abstract long java.nio.channels.FileChannel.write(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#write(java.nio.ByteBuffer[], int, int) public abstract long
+     * java.nio.channels.FileChannel.write(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +108,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#write(ByteBuffer) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#write(java.nio.ByteBuffer) public abstract int
      * java.nio.channels.FileChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +132,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#write(ByteBuffer, long) public abstract
-     * int java.nio.channels.FileChannel.write(java.nio.ByteBuffer,long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#write(java.nio.ByteBuffer, long) public abstract int
+     * java.nio.channels.FileChannel.write(java.nio.ByteBuffer,long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,7 +155,7 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#lock() public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#lock() public final
      * java.nio.channels.FileLock java.nio.channels.FileChannel.lock() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,9 +177,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#lock(long, long, boolean) public
-     * abstract java.nio.channels.FileLock java.nio.channels.FileChannel.lock(long,long,boolean) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#lock(long, long, boolean) public abstract java.nio.channels.FileLock
+     * java.nio.channels.FileChannel.lock(long,long,boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,8 +200,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#position(long) public abstract
-     * java.nio.channels.FileChannel java.nio.channels.FileChannel.position(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#position(long) public
+     * abstract java.nio.channels.FileChannel java.nio.channels.FileChannel.position(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,8 +223,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#position() public abstract long
-     * java.nio.channels.FileChannel.position() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#position() public
+     * abstract long java.nio.channels.FileChannel.position() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,8 +246,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#force(boolean) public abstract void
-     * java.nio.channels.FileChannel.force(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#force(boolean) public
+     * abstract void java.nio.channels.FileChannel.force(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -266,8 +268,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#truncate(long) public abstract
-     * java.nio.channels.FileChannel java.nio.channels.FileChannel.truncate(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#truncate(long) public
+     * abstract java.nio.channels.FileChannel java.nio.channels.FileChannel.truncate(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,8 +291,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#size() public abstract long
-     * java.nio.channels.FileChannel.size() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#size() public abstract
+     * long java.nio.channels.FileChannel.size() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -313,8 +315,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FileChannel#transferTo(long, long, WritableByteChannel) public abstract long
-     * java.nio.channels.FileChannel.transferTo(long,long,java.nio.channels.WritableByteChannel) throws
+     * {@link java.nio.channels.FileChannel#transferTo(long, long, java.nio.channels.WritableByteChannel) public
+     * abstract long java.nio.channels.FileChannel.transferTo(long,long,java.nio.channels.WritableByteChannel) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -336,7 +338,7 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#tryLock() public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#tryLock() public final
      * java.nio.channels.FileLock java.nio.channels.FileChannel.tryLock() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -358,9 +360,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#tryLock(long, long, boolean) public
-     * abstract java.nio.channels.FileLock java.nio.channels.FileChannel.tryLock(long,long,boolean) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#tryLock(long, long, boolean) public abstract java.nio.channels.FileLock
+     * java.nio.channels.FileChannel.tryLock(long,long,boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -382,8 +384,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link FileChannel#transferFrom(ReadableByteChannel, long, long) public abstract long
-     * java.nio.channels.FileChannel.transferFrom(java.nio.channels.ReadableByteChannel,long,long) throws
+     * {@link java.nio.channels.FileChannel#transferFrom(java.nio.channels.ReadableByteChannel, long, long) public
+     * abstract long java.nio.channels.FileChannel.transferFrom(java.nio.channels.ReadableByteChannel,long,long) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -405,8 +407,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#read(ByteBuffer[], int, int) public
-     * abstract long java.nio.channels.FileChannel.read(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#read(java.nio.ByteBuffer[], int, int) public abstract long
+     * java.nio.channels.FileChannel.read(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -428,7 +431,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#read(ByteBuffer[]) public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#read(java.nio.ByteBuffer[]) public final long
      * java.nio.channels.FileChannel.read(java.nio.ByteBuffer[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -451,7 +455,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#read(ByteBuffer) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#read(java.nio.ByteBuffer) public abstract int
      * java.nio.channels.FileChannel.read(java.nio.ByteBuffer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -474,8 +479,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileChannel#read(ByteBuffer, long) public abstract
-     * int java.nio.channels.FileChannel.read(java.nio.ByteBuffer,long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#read(java.nio.ByteBuffer, long) public abstract int
+     * java.nio.channels.FileChannel.read(java.nio.ByteBuffer,long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -523,8 +529,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link MapMode#toString() public java.lang.String
-         * java.nio.channels.FileChannel$MapMode.toString()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel.MapMode#toString()
+         * public java.lang.String java.nio.channels.FileChannel$MapMode.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

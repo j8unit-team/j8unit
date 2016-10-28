@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.rmi.dgc.VMIDClassTests<VMID> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link VMID#VMID() public java.rmi.dgc.VMID()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.rmi.dgc.VMID#VMID() public
+     * java.rmi.dgc.VMID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +42,7 @@ implements org.j8unit.repository.java.rmi.dgc.VMIDClassTests<VMID> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link VMID#isUnique() public static boolean
+     * Test method for the hereby targeted method-under-test {@link java.rmi.dgc.VMID#isUnique() public static boolean
      * java.rmi.dgc.VMID.isUnique()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +57,7 @@ implements org.j8unit.repository.java.rmi.dgc.VMIDClassTests<VMID> {
     @Category(Draft.class)
     public void test_isUnique()
     throws Exception {
-        // write some test for {@link VMID#isUnique()}
+        // write some test for {@link java.rmi.dgc.VMID#isUnique()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.dgc.VMID]

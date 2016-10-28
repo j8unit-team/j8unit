@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicLongClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicLong#AtomicLong() public
-     * java.util.concurrent.atomic.AtomicLong()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#AtomicLong() public java.util.concurrent.atomic.AtomicLong()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,7 +42,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicLongClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicLong#AtomicLong(long) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicLong#AtomicLong(long) public
      * java.util.concurrent.atomic.AtomicLong(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

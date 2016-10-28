@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.ref;
 
 import java.lang.ref.PhantomReference;
-import java.lang.ref.ReferenceQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +23,7 @@ implements org.j8unit.repository.java.lang.ref.PhantomReferenceClassTests<Phanto
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PhantomReference#PhantomReference(Object, ReferenceQueue) public
+     * {@link java.lang.ref.PhantomReference#PhantomReference(Object, java.lang.ref.ReferenceQueue) public
      * java.lang.ref.PhantomReference(T,java.lang.ref.ReferenceQueue<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +40,7 @@ implements org.j8unit.repository.java.lang.ref.PhantomReferenceClassTests<Phanto
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PhantomReference sut = null; // = new PhantomReference(Object, ReferenceQueue);
+        final PhantomReference sut = null; // = new PhantomReference(Object, java.lang.ref.ReferenceQueue);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ref.PhantomReference]

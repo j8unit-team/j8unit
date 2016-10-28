@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import java.awt.Graphics;
 import javax.swing.plaf.basic.BasicArrowButton;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BasicArrowButton#paintTriangle(Graphics, int, int, int, int, boolean) public void
-     * javax.swing.plaf.basic.BasicArrowButton.paintTriangle(java.awt.Graphics,int,int,int,int,boolean)}.
+     * {@link javax.swing.plaf.basic.BasicArrowButton#paintTriangle(java.awt.Graphics, int, int, int, int, boolean)
+     * public void javax.swing.plaf.basic.BasicArrowButton.paintTriangle(java.awt.Graphics,int,int,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicArrowButton#getMinimumSize() public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicArrowButton.getMinimumSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicArrowButton#getMinimumSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicArrowButton.getMinimumSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicArrowButton#getPreferredSize() public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicArrowButton.getPreferredSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicArrowButton#getPreferredSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicArrowButton.getPreferredSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +105,8 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicArrowButton#getDirection() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicArrowButton#getDirection() public int
      * javax.swing.plaf.basic.BasicArrowButton.getDirection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +128,9 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicArrowButton#getMaximumSize() public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicArrowButton.getMaximumSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicArrowButton#getMaximumSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicArrowButton.getMaximumSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +152,8 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicArrowButton#paint(Graphics) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicArrowButton#paint(java.awt.Graphics) public void
      * javax.swing.plaf.basic.BasicArrowButton.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +176,8 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicArrowButton#isFocusTraversable() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicArrowButton#isFocusTraversable() public boolean
      * javax.swing.plaf.basic.BasicArrowButton.isFocusTraversable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,7 +200,8 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicArrowButton#setDirection(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicArrowButton#setDirection(int) public void
      * javax.swing.plaf.basic.BasicArrowButton.setDirection(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

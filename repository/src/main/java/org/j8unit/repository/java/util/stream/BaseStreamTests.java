@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BaseStream#isParallel() public abstract boolean
-     * java.util.stream.BaseStream.isParallel()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.BaseStream#isParallel() public
+     * abstract boolean java.util.stream.BaseStream.isParallel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BaseStream#close() public abstract void
-     * java.util.stream.BaseStream.close()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.BaseStream#close() public abstract
+     * void java.util.stream.BaseStream.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BaseStream#unordered() public abstract S
-     * java.util.stream.BaseStream.unordered()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.BaseStream#unordered() public
+     * abstract S java.util.stream.BaseStream.unordered()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BaseStream#onClose(Runnable) public abstract S
-     * java.util.stream.BaseStream.onClose(java.lang.Runnable)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.BaseStream#onClose(Runnable) public
+     * abstract S java.util.stream.BaseStream.onClose(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BaseStream#iterator() public abstract
-     * java.util.Iterator<T> java.util.stream.BaseStream.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.BaseStream#iterator() public
+     * abstract java.util.Iterator<T> java.util.stream.BaseStream.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BaseStream#parallel() public abstract S
-     * java.util.stream.BaseStream.parallel()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.BaseStream#parallel() public
+     * abstract S java.util.stream.BaseStream.parallel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BaseStream#spliterator() public abstract
-     * java.util.Spliterator<T> java.util.stream.BaseStream.spliterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.BaseStream#spliterator() public
+     * abstract java.util.Spliterator<T> java.util.stream.BaseStream.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BaseStream#sequential() public abstract S
-     * java.util.stream.BaseStream.sequential()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.BaseStream#sequential() public
+     * abstract S java.util.stream.BaseStream.sequential()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

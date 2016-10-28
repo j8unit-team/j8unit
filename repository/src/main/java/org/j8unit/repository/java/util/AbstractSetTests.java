@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util;
 
-import java.util.AbstractCollection;
 import java.util.AbstractSet;
-import java.util.Collection;
-import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSet#removeAll(Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.AbstractSet#removeAll(java.util.Collection) public boolean
      * java.util.AbstractSet.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +58,7 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSet#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSet#hashCode() public int
      * java.util.AbstractSet.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +81,7 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSet#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSet#equals(Object) public boolean
      * java.util.AbstractSet.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,8 +108,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#iterator() interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#iterator() class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#iterator() interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#iterator() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -138,8 +136,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#contains(Object) interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#contains(Object) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#contains(Object) interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#contains(Object) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -166,8 +164,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#size() interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#size() class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#size() interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#size() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -194,8 +192,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#addAll(Collection) interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#addAll(Collection) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#addAll(java.util.Collection) interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#addAll(java.util.Collection) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -222,8 +220,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#toArray(Object[]) interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#toArray(Object[]) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#toArray(Object[]) interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#toArray(Object[]) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -250,8 +248,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#toArray() interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#toArray() class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#toArray() interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#toArray() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -278,8 +276,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#retainAll(Collection) interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#retainAll(Collection) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#retainAll(java.util.Collection) interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#retainAll(java.util.Collection) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -306,8 +304,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#add(Object) interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#add(Object) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#add(Object) interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#add(Object) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -334,8 +332,9 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#containsAll(Collection) interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#containsAll(Collection) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#containsAll(java.util.Collection) interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#containsAll(java.util.Collection) class java.util.AbstractCollection}
+     * </li>
      * </ul>
      *
      * <p>
@@ -362,8 +361,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#isEmpty() interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#isEmpty() class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#isEmpty() interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#isEmpty() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -390,8 +389,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#clear() interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#clear() class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#clear() interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#clear() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
@@ -418,8 +417,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Set#remove(Object) interface java.util.Set}</li>
-     * <li>{@link AbstractCollection#remove(Object) class java.util.AbstractCollection}</li>
+     * <li>{@link java.util.Set#remove(Object) interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#remove(Object) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>

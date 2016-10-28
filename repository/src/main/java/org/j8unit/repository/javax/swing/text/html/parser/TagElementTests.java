@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TagElement#isPreformatted() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.TagElement#isPreformatted() public boolean
      * javax.swing.text.html.parser.TagElement.isPreformatted()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TagElement#breaksFlow() public boolean
-     * javax.swing.text.html.parser.TagElement.breaksFlow()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.TagElement#breaksFlow()
+     * public boolean javax.swing.text.html.parser.TagElement.breaksFlow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TagElement#getHTMLTag() public
-     * javax.swing.text.html.HTML$Tag javax.swing.text.html.parser.TagElement.getHTMLTag()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.TagElement#getHTMLTag()
+     * public javax.swing.text.html.HTML$Tag javax.swing.text.html.parser.TagElement.getHTMLTag()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TagElement#getElement() public
-     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.TagElement.getElement()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.TagElement#getElement()
+     * public javax.swing.text.html.parser.Element javax.swing.text.html.parser.TagElement.getElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TagElement#fictional() public boolean
-     * javax.swing.text.html.parser.TagElement.fictional()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.TagElement#fictional()
+     * public boolean javax.swing.text.html.parser.TagElement.fictional()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

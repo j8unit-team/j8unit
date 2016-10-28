@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html.parser;
 
-import java.io.Reader;
-import javax.swing.text.html.HTMLEditorKit.ParserCallback;
 import javax.swing.text.html.parser.ParserDelegator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ParserDelegator#parse(Reader, ParserCallback, boolean) public void
+     * {@link javax.swing.text.html.parser.ParserDelegator#parse(java.io.Reader, javax.swing.text.html.HTMLEditorKit.ParserCallback, boolean)
+     * public void
      * javax.swing.text.html.parser.ParserDelegator.parse(java.io.Reader,javax.swing.text.html.HTMLEditorKit$ParserCallback,boolean)
      * throws java.io.IOException}.
      *

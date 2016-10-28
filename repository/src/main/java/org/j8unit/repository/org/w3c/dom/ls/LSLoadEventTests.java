@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSLoadEvent#getInput() public abstract
-     * org.w3c.dom.ls.LSInput org.w3c.dom.ls.LSLoadEvent.getInput()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSLoadEvent#getInput() public
+     * abstract org.w3c.dom.ls.LSInput org.w3c.dom.ls.LSLoadEvent.getInput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSLoadEvent#getNewDocument() public abstract
-     * org.w3c.dom.Document org.w3c.dom.ls.LSLoadEvent.getNewDocument()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSLoadEvent#getNewDocument() public
+     * abstract org.w3c.dom.Document org.w3c.dom.ls.LSLoadEvent.getNewDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

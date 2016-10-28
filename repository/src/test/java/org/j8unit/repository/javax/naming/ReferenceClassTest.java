@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming;
 
-import javax.naming.RefAddr;
 import javax.naming.Reference;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.naming.ReferenceClassTests<Reference> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Reference#Reference(String, RefAddr, String, String) public
+     * {@link javax.naming.Reference#Reference(String, javax.naming.RefAddr, String, String) public
      * javax.naming.Reference(java.lang.String,javax.naming.RefAddr,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,14 @@ implements org.j8unit.repository.javax.naming.ReferenceClassTests<Reference> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Reference sut = null; // = new Reference(String, RefAddr, String, String);
+        final Reference sut = null; // = new Reference(String, javax.naming.RefAddr, String, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Reference#Reference(String, String, String)
-     * public javax.naming.Reference(java.lang.String,java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.Reference#Reference(String, String, String) public
+     * javax.naming.Reference(java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,7 +67,8 @@ implements org.j8unit.repository.javax.naming.ReferenceClassTests<Reference> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Reference#Reference(String, RefAddr) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.Reference#Reference(String, javax.naming.RefAddr) public
      * javax.naming.Reference(java.lang.String,javax.naming.RefAddr)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,12 +85,12 @@ implements org.j8unit.repository.javax.naming.ReferenceClassTests<Reference> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Reference sut = null; // = new Reference(String, RefAddr);
+        final Reference sut = null; // = new Reference(String, javax.naming.RefAddr);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Reference#Reference(String) public
+     * Test method for the hereby targeted constructor-under-test {@link javax.naming.Reference#Reference(String) public
      * javax.naming.Reference(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

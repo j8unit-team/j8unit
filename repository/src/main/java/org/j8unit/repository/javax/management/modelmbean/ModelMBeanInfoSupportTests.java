@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.management.modelmbean;
 
-import javax.management.Descriptor;
-import javax.management.MBeanInfo;
-import javax.management.modelmbean.ModelMBeanInfo;
 import javax.management.modelmbean.ModelMBeanInfoSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,9 +34,9 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#getMBeanDescriptor() public
-     * javax.management.Descriptor javax.management.modelmbean.ModelMBeanInfoSupport.getMBeanDescriptor() throws
-     * javax.management.MBeanException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getMBeanDescriptor() public javax.management.Descriptor
+     * javax.management.modelmbean.ModelMBeanInfoSupport.getMBeanDescriptor() throws javax.management.MBeanException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +58,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#getConstructor(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getConstructor(String) public
      * javax.management.modelmbean.ModelMBeanConstructorInfo
      * javax.management.modelmbean.ModelMBeanInfoSupport.getConstructor(java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
@@ -85,7 +83,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#getNotification(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getNotification(String) public
      * javax.management.modelmbean.ModelMBeanNotificationInfo
      * javax.management.modelmbean.ModelMBeanInfoSupport.getNotification(java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
@@ -110,7 +109,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#getOperation(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getOperation(String) public
      * javax.management.modelmbean.ModelMBeanOperationInfo
      * javax.management.modelmbean.ModelMBeanInfoSupport.getOperation(java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
@@ -136,7 +136,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ModelMBeanInfoSupport#setDescriptor(Descriptor, String) public void
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#setDescriptor(javax.management.Descriptor, String)
+     * public void
      * javax.management.modelmbean.ModelMBeanInfoSupport.setDescriptor(javax.management.Descriptor,java.lang.String)
      * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
@@ -160,8 +161,9 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#clone() public
-     * java.lang.Object javax.management.modelmbean.ModelMBeanInfoSupport.clone()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#clone() public java.lang.Object
+     * javax.management.modelmbean.ModelMBeanInfoSupport.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -183,9 +185,10 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#setMBeanDescriptor(Descriptor)
-     * public void javax.management.modelmbean.ModelMBeanInfoSupport.setMBeanDescriptor(javax.management.Descriptor)
-     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#setMBeanDescriptor(javax.management.Descriptor) public
+     * void javax.management.modelmbean.ModelMBeanInfoSupport.setMBeanDescriptor(javax.management.Descriptor) throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -207,7 +210,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#getDescriptors(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptors(String) public
      * javax.management.Descriptor[] javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptors(java.lang.String)
      * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
@@ -231,7 +235,33 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#getAttribute(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#setDescriptors(javax.management.Descriptor[]) public
+     * void javax.management.modelmbean.ModelMBeanInfoSupport.setDescriptors(javax.management.Descriptor[]) throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setDescriptors_DescriptorArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getAttribute(String) public
      * javax.management.modelmbean.ModelMBeanAttributeInfo
      * javax.management.modelmbean.ModelMBeanInfoSupport.getAttribute(java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
@@ -256,33 +286,10 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#setDescriptors(Descriptor[])
-     * public void javax.management.modelmbean.ModelMBeanInfoSupport.setDescriptors(javax.management.Descriptor[])
-     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setDescriptors_DescriptorArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#getDescriptor(String) public
-     * javax.management.Descriptor javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptor(java.lang.String)
-     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor(String) public javax.management.Descriptor
+     * javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptor(java.lang.String) throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,8 +310,33 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#getDescriptor(String, String)
-     * public javax.management.Descriptor
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor() public javax.management.Descriptor
+     * javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDescriptor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#getDescriptor(String, String) public
+     * javax.management.Descriptor
      * javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptor(java.lang.String,java.lang.String) throws
      * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      *
@@ -328,35 +360,13 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ModelMBeanInfoSupport#getDescriptor() public
-     * javax.management.Descriptor javax.management.modelmbean.ModelMBeanInfoSupport.getDescriptor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDescriptor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link ModelMBeanInfo#getDescription() interface javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link MBeanInfo#getDescription() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getDescription() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getDescription() interface
+     * javax.management.modelmbean.ModelMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -373,8 +383,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     @Category(Draft.class)
     public default void test_getDescription()
     throws Exception {
-        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getDescription();
         org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getDescription();
+        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getDescription();
     }
 
     /**
@@ -383,8 +393,9 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link ModelMBeanInfo#getNotifications() interface javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link MBeanInfo#getNotifications() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getNotifications() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getNotifications() interface
+     * javax.management.modelmbean.ModelMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -401,8 +412,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     @Category(Draft.class)
     public default void test_getNotifications()
     throws Exception {
-        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getNotifications();
         org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getNotifications();
+        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getNotifications();
     }
 
     /**
@@ -411,8 +422,9 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link ModelMBeanInfo#getAttributes() interface javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link MBeanInfo#getAttributes() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getAttributes() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getAttributes() interface
+     * javax.management.modelmbean.ModelMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -429,8 +441,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     @Category(Draft.class)
     public default void test_getAttributes()
     throws Exception {
-        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getAttributes();
         org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getAttributes();
+        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getAttributes();
     }
 
     /**
@@ -439,8 +451,9 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link ModelMBeanInfo#getOperations() interface javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link MBeanInfo#getOperations() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getOperations() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getOperations() interface
+     * javax.management.modelmbean.ModelMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -457,8 +470,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     @Category(Draft.class)
     public default void test_getOperations()
     throws Exception {
-        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getOperations();
         org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getOperations();
+        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getOperations();
     }
 
     /**
@@ -467,8 +480,9 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link ModelMBeanInfo#getClassName() interface javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link MBeanInfo#getClassName() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getClassName() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getClassName() interface
+     * javax.management.modelmbean.ModelMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -485,8 +499,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     @Category(Draft.class)
     public default void test_getClassName()
     throws Exception {
-        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getClassName();
         org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getClassName();
+        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getClassName();
     }
 
     /**
@@ -495,8 +509,9 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link ModelMBeanInfo#getConstructors() interface javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link MBeanInfo#getConstructors() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getConstructors() class javax.management.MBeanInfo}</li>
+     * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getConstructors() interface
+     * javax.management.modelmbean.ModelMBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -513,8 +528,8 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
     @Category(Draft.class)
     public default void test_getConstructors()
     throws Exception {
-        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getConstructors();
         org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getConstructors();
+        org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests.super.test_getConstructors();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanInfoSupport]

@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PGPData#getKeyId() public abstract byte[]
-     * javax.xml.crypto.dsig.keyinfo.PGPData.getKeyId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.keyinfo.PGPData#getKeyId()
+     * public abstract byte[] javax.xml.crypto.dsig.keyinfo.PGPData.getKeyId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PGPData#getExternalElements() public abstract
-     * java.util.List javax.xml.crypto.dsig.keyinfo.PGPData.getExternalElements()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.PGPData#getExternalElements() public abstract java.util.List
+     * javax.xml.crypto.dsig.keyinfo.PGPData.getExternalElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PGPData#getKeyPacket() public abstract byte[]
-     * javax.xml.crypto.dsig.keyinfo.PGPData.getKeyPacket()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.keyinfo.PGPData#getKeyPacket()
+     * public abstract byte[] javax.xml.crypto.dsig.keyinfo.PGPData.getKeyPacket()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

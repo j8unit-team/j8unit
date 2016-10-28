@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html.parser;
 
-import javax.swing.text.html.parser.DTD;
 import javax.swing.text.html.parser.Parser;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.ParserClassTests<P
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Parser#Parser(DTD) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.parser.Parser#Parser(javax.swing.text.html.parser.DTD) public
      * javax.swing.text.html.parser.Parser(javax.swing.text.html.parser.DTD)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.html.parser.ParserClassTests<P
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Parser sut = null; // = new Parser(DTD);
+        final Parser sut = null; // = new Parser(javax.swing.text.html.parser.DTD);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.Parser]

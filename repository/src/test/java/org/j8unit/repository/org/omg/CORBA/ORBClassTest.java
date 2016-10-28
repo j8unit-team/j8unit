@@ -1,8 +1,6 @@
 package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.fail;
-import java.applet.Applet;
-import java.util.Properties;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.ORBClassTests<ORB> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ORB#ORB() public org.omg.CORBA.ORB()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ORB#ORB() public
+     * org.omg.CORBA.ORB()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,9 @@ implements org.j8unit.repository.org.omg.CORBA.ORBClassTests<ORB> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORB#init(String[], Properties) public static
-     * org.omg.CORBA.ORB org.omg.CORBA.ORB.init(java.lang.String[],java.util.Properties)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ORB#init(String[], java.util.Properties) public static org.omg.CORBA.ORB
+     * org.omg.CORBA.ORB.init(java.lang.String[],java.util.Properties)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,13 +58,14 @@ implements org.j8unit.repository.org.omg.CORBA.ORBClassTests<ORB> {
     @Category(Draft.class)
     public void test_init_StringArray_Properties()
     throws Exception {
-        // write some test for {@link ORB#init(String[], Properties)}
+        // write some test for {@link org.omg.CORBA.ORB#init(String[], java.util.Properties)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORB#init(Applet, Properties) public static
-     * org.omg.CORBA.ORB org.omg.CORBA.ORB.init(java.applet.Applet,java.util.Properties)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.ORB#init(java.applet.Applet, java.util.Properties) public static org.omg.CORBA.ORB
+     * org.omg.CORBA.ORB.init(java.applet.Applet,java.util.Properties)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,12 +79,12 @@ implements org.j8unit.repository.org.omg.CORBA.ORBClassTests<ORB> {
     @Category(Draft.class)
     public void test_init_Applet_Properties()
     throws Exception {
-        // write some test for {@link ORB#init(Applet, Properties)}
+        // write some test for {@link org.omg.CORBA.ORB#init(java.applet.Applet, java.util.Properties)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ORB#init() public static synchronized
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ORB#init() public static synchronized
      * org.omg.CORBA.ORB org.omg.CORBA.ORB.init()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,7 +99,7 @@ implements org.j8unit.repository.org.omg.CORBA.ORBClassTests<ORB> {
     @Category(Draft.class)
     public void test_init()
     throws Exception {
-        // write some test for {@link ORB#init()}
+        // write some test for {@link org.omg.CORBA.ORB#init()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ORB]

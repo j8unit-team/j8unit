@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.font.GlyphJustificationInfoClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link GlyphJustificationInfo#GlyphJustificationInfo(float, boolean, int, float, float, boolean, int, float, float)
+     * {@link java.awt.font.GlyphJustificationInfo#GlyphJustificationInfo(float, boolean, int, float, float, boolean, int, float, float)
      * public java.awt.font.GlyphJustificationInfo(float,boolean,int,float,float,boolean,int,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

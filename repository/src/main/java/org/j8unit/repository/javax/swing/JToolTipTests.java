@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import javax.swing.JComponent;
 import javax.swing.JToolTip;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolTip#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#updateUI() public void
      * javax.swing.JToolTip.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolTip#getComponent() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getComponent() public
      * javax.swing.JComponent javax.swing.JToolTip.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +79,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolTip#setComponent(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JToolTip#setComponent(javax.swing.JComponent) public void
      * javax.swing.JToolTip.setComponent(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolTip#getUIClassID() public java.lang.String
-     * javax.swing.JToolTip.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getUIClassID() public
+     * java.lang.String javax.swing.JToolTip.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +125,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolTip#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JToolTip.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +148,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolTip#getTipText() public java.lang.String
-     * javax.swing.JToolTip.getTipText()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getTipText() public
+     * java.lang.String javax.swing.JToolTip.getTipText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolTip#getUI() public javax.swing.plaf.ToolTipUI
-     * javax.swing.JToolTip.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getUI() public
+     * javax.swing.plaf.ToolTipUI javax.swing.JToolTip.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,7 +192,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JToolTip#setTipText(String) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#setTipText(String) public void
      * javax.swing.JToolTip.setTipText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

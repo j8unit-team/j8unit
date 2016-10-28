@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.nio.file.attribute;
 
-import java.nio.ByteBuffer;
 import java.nio.file.attribute.UserDefinedFileAttributeView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UserDefinedFileAttributeView#name() public abstract
-     * java.lang.String java.nio.file.attribute.UserDefinedFileAttributeView.name()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#name() public abstract java.lang.String
+     * java.nio.file.attribute.UserDefinedFileAttributeView.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,9 +58,9 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UserDefinedFileAttributeView#delete(String) public
-     * abstract void java.nio.file.attribute.UserDefinedFileAttributeView.delete(java.lang.String) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#delete(String) public abstract void
+     * java.nio.file.attribute.UserDefinedFileAttributeView.delete(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,8 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UserDefinedFileAttributeView#write(String, ByteBuffer) public abstract int
-     * java.nio.file.attribute.UserDefinedFileAttributeView.write(java.lang.String,java.nio.ByteBuffer) throws
+     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#write(String, java.nio.ByteBuffer) public abstract
+     * int java.nio.file.attribute.UserDefinedFileAttributeView.write(java.lang.String,java.nio.ByteBuffer) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,9 +105,9 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UserDefinedFileAttributeView#list() public abstract
-     * java.util.List<java.lang.String> java.nio.file.attribute.UserDefinedFileAttributeView.list() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#list() public abstract java.util.List
+     * <java.lang.String> java.nio.file.attribute.UserDefinedFileAttributeView.list() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,7 +129,7 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UserDefinedFileAttributeView#read(String, ByteBuffer) public abstract int
+     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#read(String, java.nio.ByteBuffer) public abstract int
      * java.nio.file.attribute.UserDefinedFileAttributeView.read(java.lang.String,java.nio.ByteBuffer) throws
      * java.io.IOException}.
      *
@@ -152,9 +152,9 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UserDefinedFileAttributeView#size(String) public
-     * abstract int java.nio.file.attribute.UserDefinedFileAttributeView.size(java.lang.String) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#size(String) public abstract int
+     * java.nio.file.attribute.UserDefinedFileAttributeView.size(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.AttributeList;
 import org.xml.sax.helpers.AttributeListImpl;
 
 /**
@@ -35,8 +34,9 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeListImpl#setAttributeList(AttributeList)
-     * public void org.xml.sax.helpers.AttributeListImpl.setAttributeList(org.xml.sax.AttributeList)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributeListImpl#setAttributeList(org.xml.sax.AttributeList) public void
+     * org.xml.sax.helpers.AttributeListImpl.setAttributeList(org.xml.sax.AttributeList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeListImpl#clear() public void
-     * org.xml.sax.helpers.AttributeListImpl.clear()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributeListImpl#clear() public
+     * void org.xml.sax.helpers.AttributeListImpl.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeListImpl#getLength() public int
-     * org.xml.sax.helpers.AttributeListImpl.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributeListImpl#getLength()
+     * public int org.xml.sax.helpers.AttributeListImpl.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,9 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeListImpl#removeAttribute(String) public
-     * void org.xml.sax.helpers.AttributeListImpl.removeAttribute(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributeListImpl#removeAttribute(String) public void
+     * org.xml.sax.helpers.AttributeListImpl.removeAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,8 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeListImpl#getName(int) public
-     * java.lang.String org.xml.sax.helpers.AttributeListImpl.getName(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributeListImpl#getName(int)
+     * public java.lang.String org.xml.sax.helpers.AttributeListImpl.getName(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,9 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeListImpl#getValue(String) public
-     * java.lang.String org.xml.sax.helpers.AttributeListImpl.getValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributeListImpl#getValue(String) public java.lang.String
+     * org.xml.sax.helpers.AttributeListImpl.getValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +172,8 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeListImpl#getValue(int) public
-     * java.lang.String org.xml.sax.helpers.AttributeListImpl.getValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributeListImpl#getValue(int)
+     * public java.lang.String org.xml.sax.helpers.AttributeListImpl.getValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,7 +196,7 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttributeListImpl#addAttribute(String, String, String) public void
+     * {@link org.xml.sax.helpers.AttributeListImpl#addAttribute(String, String, String) public void
      * org.xml.sax.helpers.AttributeListImpl.addAttribute(java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,8 +218,9 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeListImpl#getType(String) public
-     * java.lang.String org.xml.sax.helpers.AttributeListImpl.getType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributeListImpl#getType(String) public java.lang.String
+     * org.xml.sax.helpers.AttributeListImpl.getType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,8 +242,8 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeListImpl#getType(int) public
-     * java.lang.String org.xml.sax.helpers.AttributeListImpl.getType(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributeListImpl#getType(int)
+     * public java.lang.String org.xml.sax.helpers.AttributeListImpl.getType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

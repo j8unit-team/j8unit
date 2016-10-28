@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.server.SkeletonMismatchExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SkeletonMismatchException#SkeletonMismatchException(String) public
+     * {@link java.rmi.server.SkeletonMismatchException#SkeletonMismatchException(String) public
      * java.rmi.server.SkeletonMismatchException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

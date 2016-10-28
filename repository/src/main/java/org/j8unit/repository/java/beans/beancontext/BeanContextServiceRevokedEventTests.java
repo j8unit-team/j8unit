@@ -35,7 +35,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServiceRevokedEvent#isCurrentServiceInvalidNow() public boolean
+     * {@link java.beans.beancontext.BeanContextServiceRevokedEvent#isCurrentServiceInvalidNow() public boolean
      * java.beans.beancontext.BeanContextServiceRevokedEvent.isCurrentServiceInvalidNow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextServiceRevokedEvent#isServiceClass(Class)
-     * public boolean java.beans.beancontext.BeanContextServiceRevokedEvent.isServiceClass(java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextServiceRevokedEvent#isServiceClass(Class) public boolean
+     * java.beans.beancontext.BeanContextServiceRevokedEvent.isServiceClass(java.lang.Class)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextServiceRevokedEvent#getServiceClass()
-     * public java.lang.Class java.beans.beancontext.BeanContextServiceRevokedEvent.getServiceClass()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextServiceRevokedEvent#getServiceClass() public java.lang.Class
+     * java.beans.beancontext.BeanContextServiceRevokedEvent.getServiceClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +104,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServiceRevokedEvent#getSourceAsBeanContextServices() public
+     * {@link java.beans.beancontext.BeanContextServiceRevokedEvent#getSourceAsBeanContextServices() public
      * java.beans.beancontext.BeanContextServices
      * java.beans.beancontext.BeanContextServiceRevokedEvent.getSourceAsBeanContextServices()}.
      *

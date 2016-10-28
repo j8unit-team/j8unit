@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.ComponentColorModel;
-import java.awt.image.Raster;
-import java.awt.image.SampleModel;
-import java.awt.image.WritableRaster;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +35,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#createCompatibleWritableRaster(int, int) public java.awt.image.WritableRaster
-     * java.awt.image.ComponentColorModel.createCompatibleWritableRaster(int,int)}.
+     * {@link java.awt.image.ComponentColorModel#createCompatibleWritableRaster(int, int) public
+     * java.awt.image.WritableRaster java.awt.image.ComponentColorModel.createCompatibleWritableRaster(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +58,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getBlue(Object) public int
-     * java.awt.image.ComponentColorModel.getBlue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getBlue(Object)
+     * public int java.awt.image.ComponentColorModel.getBlue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +81,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getBlue(int) public int
-     * java.awt.image.ComponentColorModel.getBlue(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getBlue(int)
+     * public int java.awt.image.ComponentColorModel.getBlue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +105,7 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#isCompatibleSampleModel(SampleModel) public boolean
+     * {@link java.awt.image.ComponentColorModel#isCompatibleSampleModel(java.awt.image.SampleModel) public boolean
      * java.awt.image.ComponentColorModel.isCompatibleSampleModel(java.awt.image.SampleModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +128,9 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#isCompatibleRaster(Raster)
-     * public boolean java.awt.image.ComponentColorModel.isCompatibleRaster(java.awt.image.Raster)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentColorModel#isCompatibleRaster(java.awt.image.Raster) public boolean
+     * java.awt.image.ComponentColorModel.isCompatibleRaster(java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,7 +153,7 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#getDataElements(float[], int, Object) public java.lang.Object
+     * {@link java.awt.image.ComponentColorModel#getDataElements(float[], int, Object) public java.lang.Object
      * java.awt.image.ComponentColorModel.getDataElements(float[],int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,7 +177,7 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#getDataElements(int[], int, Object) public java.lang.Object
+     * {@link java.awt.image.ComponentColorModel#getDataElements(int[], int, Object) public java.lang.Object
      * java.awt.image.ComponentColorModel.getDataElements(int[],int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -202,8 +200,9 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getDataElements(int, Object)
-     * public java.lang.Object java.awt.image.ComponentColorModel.getDataElements(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentColorModel#getDataElements(int, Object) public java.lang.Object
+     * java.awt.image.ComponentColorModel.getDataElements(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -225,8 +224,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#equals(Object) public boolean
-     * java.awt.image.ComponentColorModel.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#equals(Object)
+     * public boolean java.awt.image.ComponentColorModel.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -248,31 +247,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getGreen(int) public int
-     * java.awt.image.ComponentColorModel.getGreen(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getGreen_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getGreen(Object) public int
-     * java.awt.image.ComponentColorModel.getGreen(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getGreen(Object)
+     * public int java.awt.image.ComponentColorModel.getGreen(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -294,8 +270,31 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getGreen(int)
+     * public int java.awt.image.ComponentColorModel.getGreen(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getGreen_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#getNormalizedComponents(int[], int, float[], int) public float[]
+     * {@link java.awt.image.ComponentColorModel#getNormalizedComponents(int[], int, float[], int) public float[]
      * java.awt.image.ComponentColorModel.getNormalizedComponents(int[],int,float[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -319,7 +318,7 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#getNormalizedComponents(Object, float[], int) public float[]
+     * {@link java.awt.image.ComponentColorModel#getNormalizedComponents(Object, float[], int) public float[]
      * java.awt.image.ComponentColorModel.getNormalizedComponents(java.lang.Object,float[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -342,8 +341,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getAlpha(Object) public int
-     * java.awt.image.ComponentColorModel.getAlpha(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getAlpha(Object)
+     * public int java.awt.image.ComponentColorModel.getAlpha(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -365,8 +364,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getAlpha(int) public int
-     * java.awt.image.ComponentColorModel.getAlpha(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getAlpha(int)
+     * public int java.awt.image.ComponentColorModel.getAlpha(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -389,8 +388,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#coerceData(WritableRaster, boolean) public java.awt.image.ColorModel
-     * java.awt.image.ComponentColorModel.coerceData(java.awt.image.WritableRaster,boolean)}.
+     * {@link java.awt.image.ComponentColorModel#coerceData(java.awt.image.WritableRaster, boolean) public
+     * java.awt.image.ColorModel java.awt.image.ComponentColorModel.coerceData(java.awt.image.WritableRaster,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -412,8 +411,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getRGB(Object) public int
-     * java.awt.image.ComponentColorModel.getRGB(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getRGB(Object)
+     * public int java.awt.image.ComponentColorModel.getRGB(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -435,8 +434,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getRGB(int) public int
-     * java.awt.image.ComponentColorModel.getRGB(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getRGB(int)
+     * public int java.awt.image.ComponentColorModel.getRGB(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -458,9 +457,9 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getAlphaRaster(WritableRaster)
-     * public java.awt.image.WritableRaster
-     * java.awt.image.ComponentColorModel.getAlphaRaster(java.awt.image.WritableRaster)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentColorModel#getAlphaRaster(java.awt.image.WritableRaster) public
+     * java.awt.image.WritableRaster java.awt.image.ComponentColorModel.getAlphaRaster(java.awt.image.WritableRaster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -482,31 +481,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getComponents(int, int[], int)
-     * public int[] java.awt.image.ComponentColorModel.getComponents(int,int[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponents_int_intArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#getComponents(Object, int[], int) public int[]
+     * {@link java.awt.image.ComponentColorModel#getComponents(Object, int[], int) public int[]
      * java.awt.image.ComponentColorModel.getComponents(java.lang.Object,int[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -530,7 +506,31 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
+     * {@link java.awt.image.ComponentColorModel#getComponents(int, int[], int) public int[]
+     * java.awt.image.ComponentColorModel.getComponents(int,int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponents_int_intArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentColorModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
      * java.awt.image.ComponentColorModel.createCompatibleSampleModel(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -553,54 +553,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getDataElement(int[], int)
-     * public int java.awt.image.ComponentColorModel.getDataElement(int[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDataElement_intArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getDataElement(float[], int)
-     * public int java.awt.image.ComponentColorModel.getDataElement(float[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDataElement_floatArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getRed(Object) public int
-     * java.awt.image.ComponentColorModel.getRed(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getRed(Object)
+     * public int java.awt.image.ComponentColorModel.getRed(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -622,8 +576,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentColorModel#getRed(int) public int
-     * java.awt.image.ComponentColorModel.getRed(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentColorModel#getRed(int)
+     * public int java.awt.image.ComponentColorModel.getRed(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -646,7 +600,55 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ComponentColorModel#getUnnormalizedComponents(float[], int, int[], int) public int[]
+     * {@link java.awt.image.ComponentColorModel#getDataElement(int[], int) public int
+     * java.awt.image.ComponentColorModel.getDataElement(int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDataElement_intArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentColorModel#getDataElement(float[], int) public int
+     * java.awt.image.ComponentColorModel.getDataElement(float[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDataElement_floatArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentColorModel#getUnnormalizedComponents(float[], int, int[], int) public int[]
      * java.awt.image.ComponentColorModel.getUnnormalizedComponents(float[],int,int[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

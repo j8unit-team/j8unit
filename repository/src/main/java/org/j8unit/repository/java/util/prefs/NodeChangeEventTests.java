@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeChangeEvent#getParent() public
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.NodeChangeEvent#getParent() public
      * java.util.prefs.Preferences java.util.prefs.NodeChangeEvent.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NodeChangeEvent#getChild() public
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.NodeChangeEvent#getChild() public
      * java.util.prefs.Preferences java.util.prefs.NodeChangeEvent.getChild()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

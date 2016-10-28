@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailClassTests<ServiceDe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServiceDetail#ServiceDetail() public
-     * org.omg.CORBA.ServiceDetail()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.ServiceDetail#ServiceDetail()
+     * public org.omg.CORBA.ServiceDetail()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailClassTests<ServiceDe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServiceDetail#ServiceDetail(int, byte[]) public
-     * org.omg.CORBA.ServiceDetail(int,byte[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ServiceDetail#ServiceDetail(int, byte[]) public org.omg.CORBA.ServiceDetail(int,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

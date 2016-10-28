@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Attribute;
-import javax.management.AttributeList;
 import javax.management.DynamicMBean;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynamicMBean#getMBeanInfo() public abstract
-     * javax.management.MBeanInfo javax.management.DynamicMBean.getMBeanInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.DynamicMBean#getMBeanInfo() public
+     * abstract javax.management.MBeanInfo javax.management.DynamicMBean.getMBeanInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynamicMBean#invoke(String, Object[], String[])
-     * public abstract java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.DynamicMBean#invoke(String, Object[], String[]) public abstract java.lang.Object
      * javax.management.DynamicMBean.invoke(java.lang.String,java.lang.Object[],java.lang.String[]) throws
      * javax.management.MBeanException,javax.management.ReflectionException}.
      *
@@ -83,9 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynamicMBean#setAttributes(AttributeList) public
-     * abstract javax.management.AttributeList
-     * javax.management.DynamicMBean.setAttributes(javax.management.AttributeList)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.DynamicMBean#setAttributes(javax.management.AttributeList) public abstract
+     * javax.management.AttributeList javax.management.DynamicMBean.setAttributes(javax.management.AttributeList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynamicMBean#setAttribute(Attribute) public abstract
-     * void javax.management.DynamicMBean.setAttribute(javax.management.Attribute) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.DynamicMBean#setAttribute(javax.management.Attribute) public abstract void
+     * javax.management.DynamicMBean.setAttribute(javax.management.Attribute) throws
      * javax.management.AttributeNotFoundException,javax.management.InvalidAttributeValueException,javax.management.MBeanException,javax.management.ReflectionException}
      * .
      *
@@ -130,8 +129,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynamicMBean#getAttribute(String) public abstract
-     * java.lang.Object javax.management.DynamicMBean.getAttribute(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.management.DynamicMBean#getAttribute(String)
+     * public abstract java.lang.Object javax.management.DynamicMBean.getAttribute(java.lang.String) throws
      * javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException}
      * .
      *
@@ -154,8 +153,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynamicMBean#getAttributes(String[]) public abstract
-     * javax.management.AttributeList javax.management.DynamicMBean.getAttributes(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.DynamicMBean#getAttributes(String[]) public abstract javax.management.AttributeList
+     * javax.management.DynamicMBean.getAttributes(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

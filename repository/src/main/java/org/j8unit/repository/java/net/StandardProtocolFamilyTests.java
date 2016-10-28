@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.net;
 
-import java.net.ProtocolFamily;
 import java.net.StandardProtocolFamily;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +38,7 @@ extends org.j8unit.repository.java.net.ProtocolFamilyTests<SUT>, org.j8unit.repo
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link ProtocolFamily#name() interface java.net.ProtocolFamily}</li>
+     * <li>{@link java.net.ProtocolFamily#name() interface java.net.ProtocolFamily}</li>
      * <li>{@link Enum#name() class java.lang.Enum}</li>
      * </ul>
      *

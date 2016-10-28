@@ -7,11 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableInterceptor.Current;
 import org.omg.PortableInterceptor.CurrentHelper;
 
 @RunWith(J8Unit4.class)
@@ -27,7 +22,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CurrentHelper#CurrentHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.CurrentHelper#CurrentHelper() public
      * org.omg.PortableInterceptor.CurrentHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.CurrentHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.PortableInterceptor.Current
      * org.omg.PortableInterceptor.CurrentHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
@@ -63,12 +60,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link CurrentHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.CurrentHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.CurrentHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.PortableInterceptor.Current org.omg.PortableInterceptor.CurrentHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,12 +82,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link CurrentHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableInterceptor.CurrentHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentHelper#unchecked_narrow(Object) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.CurrentHelper#unchecked_narrow(org.omg.CORBA.Object) public static
      * org.omg.PortableInterceptor.Current
      * org.omg.PortableInterceptor.CurrentHelper.unchecked_narrow(org.omg.CORBA.Object)}.
      *
@@ -104,13 +104,14 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
     @Category(Draft.class)
     public void test_unchecked_narrow_Object()
     throws Exception {
-        // write some test for {@link CurrentHelper#unchecked_narrow(Object)}
+        // write some test for {@link org.omg.PortableInterceptor.CurrentHelper#unchecked_narrow(org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentHelper#write(OutputStream, Current) public
-     * static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.CurrentHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableInterceptor.Current)
+     * public static void
      * org.omg.PortableInterceptor.CurrentHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.Current)}
      * .
      *
@@ -126,13 +127,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
     @Category(Draft.class)
     public void test_write_OutputStream_Current()
     throws Exception {
-        // write some test for {@link CurrentHelper#write(OutputStream, Current)}
+        // write some test for {@link
+        // org.omg.PortableInterceptor.CurrentHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableInterceptor.Current)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.CurrentHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableInterceptor.CurrentHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.PortableInterceptor.CurrentHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,13 +149,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link CurrentHelper#type()}
+        // write some test for {@link org.omg.PortableInterceptor.CurrentHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentHelper#id() public static java.lang.String
-     * org.omg.PortableInterceptor.CurrentHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableInterceptor.CurrentHelper#id()
+     * public static java.lang.String org.omg.PortableInterceptor.CurrentHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,12 +169,13 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link CurrentHelper#id()}
+        // write some test for {@link org.omg.PortableInterceptor.CurrentHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentHelper#narrow(Object) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.CurrentHelper#narrow(org.omg.CORBA.Object) public static
      * org.omg.PortableInterceptor.Current org.omg.PortableInterceptor.CurrentHelper.narrow(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -186,13 +190,15 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
     @Category(Draft.class)
     public void test_narrow_Object()
     throws Exception {
-        // write some test for {@link CurrentHelper#narrow(Object)}
+        // write some test for {@link org.omg.PortableInterceptor.CurrentHelper#narrow(org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CurrentHelper#insert(Any, Current) public static
-     * void org.omg.PortableInterceptor.CurrentHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.Current)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.CurrentHelper#insert(org.omg.CORBA.Any, org.omg.PortableInterceptor.Current)
+     * public static void
+     * org.omg.PortableInterceptor.CurrentHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.Current)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -206,7 +212,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
     @Category(Draft.class)
     public void test_insert_Any_Current()
     throws Exception {
-        // write some test for {@link CurrentHelper#insert(Any, Current)}
+        // write some test for {@link org.omg.PortableInterceptor.CurrentHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableInterceptor.Current)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.CurrentHelper]

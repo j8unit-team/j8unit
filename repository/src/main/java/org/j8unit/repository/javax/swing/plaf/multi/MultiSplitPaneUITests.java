@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
-import javax.swing.JSplitPane;
 import javax.swing.plaf.multi.MultiSplitPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiSplitPaneUI#getAccessibleChildrenCount(JComponent) public int
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiSplitPaneUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +58,8 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#uninstallUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiSplitPaneUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +82,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#getDividerLocation(JSplitPane)
-     * public int javax.swing.plaf.multi.MultiSplitPaneUI.getDividerLocation(javax.swing.JSplitPane)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getDividerLocation(javax.swing.JSplitPane) public int
+     * javax.swing.plaf.multi.MultiSplitPaneUI.getDividerLocation(javax.swing.JSplitPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +106,8 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiSplitPaneUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,8 +130,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#getPreferredSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiSplitPaneUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiSplitPaneUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +154,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#setDividerLocation(JSplitPane, int)
-     * public void javax.swing.plaf.multi.MultiSplitPaneUI.setDividerLocation(javax.swing.JSplitPane,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#setDividerLocation(javax.swing.JSplitPane, int) public void
+     * javax.swing.plaf.multi.MultiSplitPaneUI.setDividerLocation(javax.swing.JSplitPane,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,8 +178,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#getAccessibleChild(JComponent, int)
-     * public javax.accessibility.Accessible
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiSplitPaneUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,7 +204,8 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiSplitPaneUI#finishedPaintingChildren(JSplitPane, Graphics) public void
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#finishedPaintingChildren(javax.swing.JSplitPane, java.awt.Graphics)
+     * public void
      * javax.swing.plaf.multi.MultiSplitPaneUI.finishedPaintingChildren(javax.swing.JSplitPane,java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -224,8 +228,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiSplitPaneUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiSplitPaneUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,8 +252,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#contains(JComponent, int, int)
-     * public boolean javax.swing.plaf.multi.MultiSplitPaneUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiSplitPaneUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,8 +276,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiSplitPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiSplitPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,8 +300,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#update(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiSplitPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiSplitPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -316,8 +324,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiSplitPaneUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiSplitPaneUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -340,7 +349,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiSplitPaneUI#getMaximumDividerLocation(JSplitPane) public int
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getMaximumDividerLocation(javax.swing.JSplitPane) public int
      * javax.swing.plaf.multi.MultiSplitPaneUI.getMaximumDividerLocation(javax.swing.JSplitPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -363,8 +372,9 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#resetToPreferredSizes(JSplitPane)
-     * public void javax.swing.plaf.multi.MultiSplitPaneUI.resetToPreferredSizes(javax.swing.JSplitPane)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#resetToPreferredSizes(javax.swing.JSplitPane) public void
+     * javax.swing.plaf.multi.MultiSplitPaneUI.resetToPreferredSizes(javax.swing.JSplitPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -386,8 +396,30 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiSplitPaneUI#getUIs()
+     * public javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiSplitPaneUI.getUIs()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUIs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiSplitPaneUI#getMinimumDividerLocation(JSplitPane) public int
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getMinimumDividerLocation(javax.swing.JSplitPane) public int
      * javax.swing.plaf.multi.MultiSplitPaneUI.getMinimumDividerLocation(javax.swing.JSplitPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -402,28 +434,6 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMinimumDividerLocation_JSplitPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiSplitPaneUI#getUIs() public
-     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiSplitPaneUI.getUIs()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUIs()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

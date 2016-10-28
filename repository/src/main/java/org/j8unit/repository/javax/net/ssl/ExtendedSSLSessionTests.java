@@ -35,7 +35,7 @@ extends org.j8unit.repository.javax.net.ssl.SSLSessionTests<SUT>, org.j8unit.rep
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ExtendedSSLSession#getPeerSupportedSignatureAlgorithms() public abstract java.lang.String[]
+     * {@link javax.net.ssl.ExtendedSSLSession#getPeerSupportedSignatureAlgorithms() public abstract java.lang.String[]
      * javax.net.ssl.ExtendedSSLSession.getPeerSupportedSignatureAlgorithms()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,7 @@ extends org.j8unit.repository.javax.net.ssl.SSLSessionTests<SUT>, org.j8unit.rep
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ExtendedSSLSession#getLocalSupportedSignatureAlgorithms() public abstract java.lang.String[]
+     * {@link javax.net.ssl.ExtendedSSLSession#getLocalSupportedSignatureAlgorithms() public abstract java.lang.String[]
      * javax.net.ssl.ExtendedSSLSession.getLocalSupportedSignatureAlgorithms()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,9 @@ extends org.j8unit.repository.javax.net.ssl.SSLSessionTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ExtendedSSLSession#getRequestedServerNames() public
-     * java.util.List<javax.net.ssl.SNIServerName> javax.net.ssl.ExtendedSSLSession.getRequestedServerNames()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.ExtendedSSLSession#getRequestedServerNames() public java.util.List
+     * <javax.net.ssl.SNIServerName> javax.net.ssl.ExtendedSSLSession.getRequestedServerNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

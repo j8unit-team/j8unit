@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.net;
 
-import java.net.Proxy;
 import java.net.URL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#openConnection() public java.net.URLConnection
-     * java.net.URL.openConnection() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#openConnection() public
+     * java.net.URLConnection java.net.URL.openConnection() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#openConnection(Proxy) public
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#openConnection(java.net.Proxy) public
      * java.net.URLConnection java.net.URL.openConnection(java.net.Proxy) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getContent() public final java.lang.Object
-     * java.net.URL.getContent() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getContent() public final
+     * java.lang.Object java.net.URL.getContent() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +100,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getContent(Class[]) public final
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getContent(Class[]) public final
      * java.lang.Object java.net.URL.getContent(java.lang.Class[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +122,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#toURI() public java.net.URI java.net.URL.toURI()
-     * throws java.net.URISyntaxException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#toURI() public java.net.URI
+     * java.net.URL.toURI() throws java.net.URISyntaxException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +144,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getDefaultPort() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getDefaultPort() public int
      * java.net.URL.getDefaultPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +166,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getAuthority() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getAuthority() public java.lang.String
      * java.net.URL.getAuthority()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,7 +188,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getFile() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getFile() public java.lang.String
      * java.net.URL.getFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,8 +210,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#openStream() public final java.io.InputStream
-     * java.net.URL.openStream() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#openStream() public final
+     * java.io.InputStream java.net.URL.openStream() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,7 +232,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getProtocol() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getProtocol() public java.lang.String
      * java.net.URL.getProtocol()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,7 +254,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#sameFile(URL) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#sameFile(java.net.URL) public boolean
      * java.net.URL.sameFile(java.net.URL)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,7 +276,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#hashCode() public synchronized int
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#hashCode() public synchronized int
      * java.net.URL.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -300,7 +299,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#equals(Object) public boolean
      * java.net.URL.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -323,7 +322,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getRef() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getRef() public java.lang.String
      * java.net.URL.getRef()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,8 +344,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#toExternalForm() public java.lang.String
-     * java.net.URL.toExternalForm()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#toExternalForm() public
+     * java.lang.String java.net.URL.toExternalForm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -367,7 +366,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getPort() public int java.net.URL.getPort()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getPort() public int
+     * java.net.URL.getPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -388,7 +388,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getHost() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getHost() public java.lang.String
      * java.net.URL.getHost()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -410,7 +410,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getQuery() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getQuery() public java.lang.String
      * java.net.URL.getQuery()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -432,7 +432,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getUserInfo() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getUserInfo() public java.lang.String
      * java.net.URL.getUserInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -454,7 +454,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#toString() public java.lang.String
      * java.net.URL.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -477,7 +477,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URL#getPath() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.net.URL#getPath() public java.lang.String
      * java.net.URL.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

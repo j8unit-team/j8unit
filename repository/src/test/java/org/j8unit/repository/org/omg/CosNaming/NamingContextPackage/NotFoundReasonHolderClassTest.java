@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NamingContextPackage.NotFoundReason;
 import org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NotFoundReasonHolder#NotFoundReasonHolder()
-     * public org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolder#NotFoundReasonHolder() public
+     * org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NotFoundReasonHolder#NotFoundReasonHolder(NotFoundReason) public
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolder#NotFoundReasonHolder(org.omg.CosNaming.NamingContextPackage.NotFoundReason)
+     * public
      * org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolder(org.omg.CosNaming.NamingContextPackage.NotFoundReason)}
      * .
      *
@@ -62,7 +63,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NotFoundReasonHolder sut = null; // = new NotFoundReasonHolder(NotFoundReason);
+        final NotFoundReasonHolder sut = null; // = new
+                                               // NotFoundReasonHolder(org.omg.CosNaming.NamingContextPackage.NotFoundReason);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolder]

@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.OptionalDouble;
-import java.util.function.DoubleConsumer;
-import java.util.function.DoubleSupplier;
-import java.util.function.Supplier;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#isPresent() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalDouble#isPresent() public boolean
      * java.util.OptionalDouble.isPresent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#toString() public java.lang.String
-     * java.util.OptionalDouble.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalDouble#toString() public
+     * java.lang.String java.util.OptionalDouble.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +79,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#getAsDouble() public double
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalDouble#getAsDouble() public double
      * java.util.OptionalDouble.getAsDouble()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#orElse(double) public double
-     * java.util.OptionalDouble.orElse(double)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalDouble#orElse(double) public
+     * double java.util.OptionalDouble.orElse(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +123,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#orElseThrow(Supplier) public
-     * <X> double java.util.OptionalDouble.orElseThrow(java.util.function.Supplier<X>) throws X}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalDouble#orElseThrow(java.util.function.Supplier) public <X> double
+     * java.util.OptionalDouble.orElseThrow(java.util.function.Supplier<X>) throws X}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +146,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#orElseGet(DoubleSupplier) public
-     * double java.util.OptionalDouble.orElseGet(java.util.function.DoubleSupplier)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalDouble#orElseGet(java.util.function.DoubleSupplier) public double
+     * java.util.OptionalDouble.orElseGet(java.util.function.DoubleSupplier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,7 +169,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalDouble#hashCode() public int
      * java.util.OptionalDouble.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,7 +192,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#ifPresent(DoubleConsumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalDouble#ifPresent(java.util.function.DoubleConsumer) public void
      * java.util.OptionalDouble.ifPresent(java.util.function.DoubleConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +215,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalDouble#equals(Object) public boolean
-     * java.util.OptionalDouble.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalDouble#equals(Object) public
+     * boolean java.util.OptionalDouble.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

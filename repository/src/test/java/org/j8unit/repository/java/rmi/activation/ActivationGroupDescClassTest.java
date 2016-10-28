@@ -1,9 +1,7 @@
 package org.j8unit.repository.java.rmi.activation;
 
-import java.rmi.MarshalledObject;
 import java.rmi.activation.ActivationGroupDesc;
 import java.rmi.activation.ActivationGroupDesc.CommandEnvironment;
-import java.util.Properties;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +23,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationGroupDesc#ActivationGroupDesc(Properties, CommandEnvironment) public
+     * {@link java.rmi.activation.ActivationGroupDesc#ActivationGroupDesc(java.util.Properties, java.rmi.activation.ActivationGroupDesc.CommandEnvironment)
+     * public
      * java.rmi.activation.ActivationGroupDesc(java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}
      * .
      *
@@ -43,13 +42,14 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ActivationGroupDesc sut = null; // = new ActivationGroupDesc(Properties, CommandEnvironment);
+        final ActivationGroupDesc sut = null; // = new ActivationGroupDesc(java.util.Properties,
+                                              // java.rmi.activation.ActivationGroupDesc.CommandEnvironment);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActivationGroupDesc#ActivationGroupDesc(String, String, MarshalledObject, Properties, CommandEnvironment)
+     * {@link java.rmi.activation.ActivationGroupDesc#ActivationGroupDesc(String, String, java.rmi.MarshalledObject, java.util.Properties, java.rmi.activation.ActivationGroupDesc.CommandEnvironment)
      * public java.rmi.activation.ActivationGroupDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject
      * <?>,java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}.
      *
@@ -67,8 +67,9 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ActivationGroupDesc sut = null; // = new ActivationGroupDesc(String, String, MarshalledObject, Properties,
-                                              // CommandEnvironment);
+        final ActivationGroupDesc sut = null; // = new ActivationGroupDesc(String, String, java.rmi.MarshalledObject,
+                                              // java.util.Properties,
+                                              // java.rmi.activation.ActivationGroupDesc.CommandEnvironment);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationGroupDesc]
@@ -87,7 +88,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTes
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link CommandEnvironment#CommandEnvironment(String, String[]) public
+         * {@link java.rmi.activation.ActivationGroupDesc.CommandEnvironment#CommandEnvironment(String, String[]) public
          * java.rmi.activation.ActivationGroupDesc$CommandEnvironment(java.lang.String,java.lang.String[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

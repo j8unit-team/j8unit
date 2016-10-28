@@ -23,8 +23,9 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CubicCurve2D#solveCubic(double[], double[]) public
-     * static int java.awt.geom.CubicCurve2D.solveCubic(double[],double[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.CubicCurve2D#solveCubic(double[], double[]) public static int
+     * java.awt.geom.CubicCurve2D.solveCubic(double[],double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,13 +39,13 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     @Category(Draft.class)
     public void test_solveCubic_doubleArray_doubleArray()
     throws Exception {
-        // write some test for {@link CubicCurve2D#solveCubic(double[], double[])}
+        // write some test for {@link java.awt.geom.CubicCurve2D#solveCubic(double[], double[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CubicCurve2D#solveCubic(double[]) public static int
-     * java.awt.geom.CubicCurve2D.solveCubic(double[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D#solveCubic(double[])
+     * public static int java.awt.geom.CubicCurve2D.solveCubic(double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,13 +59,14 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     @Category(Draft.class)
     public void test_solveCubic_doubleArray()
     throws Exception {
-        // write some test for {@link CubicCurve2D#solveCubic(double[])}
+        // write some test for {@link java.awt.geom.CubicCurve2D#solveCubic(double[])}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CubicCurve2D#subdivide(CubicCurve2D, CubicCurve2D, CubicCurve2D) public static void
+     * {@link java.awt.geom.CubicCurve2D#subdivide(java.awt.geom.CubicCurve2D, java.awt.geom.CubicCurve2D, java.awt.geom.CubicCurve2D)
+     * public static void
      * java.awt.geom.CubicCurve2D.subdivide(java.awt.geom.CubicCurve2D,java.awt.geom.CubicCurve2D,java.awt.geom.CubicCurve2D)}
      * .
      *
@@ -80,13 +82,14 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     @Category(Draft.class)
     public void test_subdivide_CubicCurve2D_CubicCurve2D_CubicCurve2D()
     throws Exception {
-        // write some test for {@link CubicCurve2D#subdivide(CubicCurve2D, CubicCurve2D, CubicCurve2D)}
+        // write some test for {@link java.awt.geom.CubicCurve2D#subdivide(java.awt.geom.CubicCurve2D,
+        // java.awt.geom.CubicCurve2D, java.awt.geom.CubicCurve2D)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CubicCurve2D#subdivide(double[], int, double[], int, double[], int) public static void
+     * {@link java.awt.geom.CubicCurve2D#subdivide(double[], int, double[], int, double[], int) public static void
      * java.awt.geom.CubicCurve2D.subdivide(double[],int,double[],int,double[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,14 +104,15 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     @Category(Draft.class)
     public void test_subdivide_doubleArray_int_doubleArray_int_doubleArray_int()
     throws Exception {
-        // write some test for {@link CubicCurve2D#subdivide(double[], int, double[], int, double[], int)}
+        // write some test for {@link java.awt.geom.CubicCurve2D#subdivide(double[], int, double[], int, double[], int)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CubicCurve2D#getFlatnessSq(double, double, double, double, double, double, double, double) public static
-     * double java.awt.geom.CubicCurve2D.getFlatnessSq(double,double,double,double,double,double,double,double)}.
+     * {@link java.awt.geom.CubicCurve2D#getFlatnessSq(double, double, double, double, double, double, double, double)
+     * public static double
+     * java.awt.geom.CubicCurve2D.getFlatnessSq(double,double,double,double,double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,14 +126,15 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     @Category(Draft.class)
     public void test_getFlatnessSq_double_double_double_double_double_double_double_double()
     throws Exception {
-        // write some test for {@link CubicCurve2D#getFlatnessSq(double, double, double, double, double, double, double,
-        // double)}
+        // write some test for {@link java.awt.geom.CubicCurve2D#getFlatnessSq(double, double, double, double, double,
+        // double, double, double)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CubicCurve2D#getFlatnessSq(double[], int) public
-     * static double java.awt.geom.CubicCurve2D.getFlatnessSq(double[],int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.CubicCurve2D#getFlatnessSq(double[], int) public static double
+     * java.awt.geom.CubicCurve2D.getFlatnessSq(double[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -143,13 +148,14 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     @Category(Draft.class)
     public void test_getFlatnessSq_doubleArray_int()
     throws Exception {
-        // write some test for {@link CubicCurve2D#getFlatnessSq(double[], int)}
+        // write some test for {@link java.awt.geom.CubicCurve2D#getFlatnessSq(double[], int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CubicCurve2D#getFlatness(double[], int) public
-     * static double java.awt.geom.CubicCurve2D.getFlatness(double[],int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.CubicCurve2D#getFlatness(double[], int) public static double
+     * java.awt.geom.CubicCurve2D.getFlatness(double[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -163,14 +169,15 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     @Category(Draft.class)
     public void test_getFlatness_doubleArray_int()
     throws Exception {
-        // write some test for {@link CubicCurve2D#getFlatness(double[], int)}
+        // write some test for {@link java.awt.geom.CubicCurve2D#getFlatness(double[], int)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CubicCurve2D#getFlatness(double, double, double, double, double, double, double, double) public static
-     * double java.awt.geom.CubicCurve2D.getFlatness(double,double,double,double,double,double,double,double)}.
+     * {@link java.awt.geom.CubicCurve2D#getFlatness(double, double, double, double, double, double, double, double)
+     * public static double
+     * java.awt.geom.CubicCurve2D.getFlatness(double,double,double,double,double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -184,8 +191,8 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     @Category(Draft.class)
     public void test_getFlatness_double_double_double_double_double_double_double_double()
     throws Exception {
-        // write some test for {@link CubicCurve2D#getFlatness(double, double, double, double, double, double, double,
-        // double)}
+        // write some test for {@link java.awt.geom.CubicCurve2D#getFlatness(double, double, double, double, double,
+        // double, double, double)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.CubicCurve2D]
@@ -203,8 +210,8 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Float#Float() public
-         * java.awt.geom.CubicCurve2D$Float()}.
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.CubicCurve2D.Float#Float()
+         * public java.awt.geom.CubicCurve2D$Float()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -225,7 +232,7 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link Float#Float(float, float, float, float, float, float, float, float) public
+         * {@link java.awt.geom.CubicCurve2D.Float#Float(float, float, float, float, float, float, float, float) public
          * java.awt.geom.CubicCurve2D$Float(float,float,float,float,float,float,float,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,8 +269,8 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Double#Double() public
-         * java.awt.geom.CubicCurve2D$Double()}.
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.CubicCurve2D.Double#Double()
+         * public java.awt.geom.CubicCurve2D$Double()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -284,8 +291,8 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link Double#Double(double, double, double, double, double, double, double, double) public
-         * java.awt.geom.CubicCurve2D$Double(double,double,double,double,double,double,double,double)}.
+         * {@link java.awt.geom.CubicCurve2D.Double#Double(double, double, double, double, double, double, double, double)
+         * public java.awt.geom.CubicCurve2D$Double(double,double,double,double,double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

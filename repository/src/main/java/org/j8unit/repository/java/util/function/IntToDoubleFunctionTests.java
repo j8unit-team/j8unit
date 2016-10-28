@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntToDoubleFunction#applyAsDouble(int) public
-     * abstract double java.util.function.IntToDoubleFunction.applyAsDouble(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.IntToDoubleFunction#applyAsDouble(int) public abstract double
+     * java.util.function.IntToDoubleFunction.applyAsDouble(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.security.UnrecoverableEntryExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnrecoverableEntryException#UnrecoverableEntryException() public
+     * {@link java.security.UnrecoverableEntryException#UnrecoverableEntryException() public
      * java.security.UnrecoverableEntryException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.security.UnrecoverableEntryExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnrecoverableEntryException#UnrecoverableEntryException(String) public
+     * {@link java.security.UnrecoverableEntryException#UnrecoverableEntryException(String) public
      * java.security.UnrecoverableEntryException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

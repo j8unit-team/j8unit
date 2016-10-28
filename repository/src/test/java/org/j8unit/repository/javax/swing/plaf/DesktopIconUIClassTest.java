@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.swing.plaf.DesktopIconUIClassTests<Deskto
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DesktopIconUI#DesktopIconUI() public
-     * javax.swing.plaf.DesktopIconUI()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.DesktopIconUI#DesktopIconUI()
+     * public javax.swing.plaf.DesktopIconUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

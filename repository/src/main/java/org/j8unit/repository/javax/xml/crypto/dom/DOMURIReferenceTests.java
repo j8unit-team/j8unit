@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMURIReference#getHere() public abstract
-     * org.w3c.dom.Node javax.xml.crypto.dom.DOMURIReference.getHere()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dom.DOMURIReference#getHere()
+     * public abstract org.w3c.dom.Node javax.xml.crypto.dom.DOMURIReference.getHere()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

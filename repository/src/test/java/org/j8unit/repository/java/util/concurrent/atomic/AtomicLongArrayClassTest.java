@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicLongArrayClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicLongArray#AtomicLongArray(long[]) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#AtomicLongArray(long[]) public
      * java.util.concurrent.atomic.AtomicLongArray(long[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +44,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicLongArrayClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AtomicLongArray#AtomicLongArray(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#AtomicLongArray(int) public
      * java.util.concurrent.atomic.AtomicLongArray(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

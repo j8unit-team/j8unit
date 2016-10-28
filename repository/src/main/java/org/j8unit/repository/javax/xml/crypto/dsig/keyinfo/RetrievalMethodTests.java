@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto.dsig.keyinfo;
 
-import javax.xml.crypto.XMLCryptoContext;
 import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RetrievalMethod#dereference(XMLCryptoContext) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.RetrievalMethod#dereference(javax.xml.crypto.XMLCryptoContext) public
      * abstract javax.xml.crypto.Data
      * javax.xml.crypto.dsig.keyinfo.RetrievalMethod.dereference(javax.xml.crypto.XMLCryptoContext) throws
      * javax.xml.crypto.URIReferenceException}.
@@ -59,8 +59,9 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RetrievalMethod#getTransforms() public abstract
-     * java.util.List javax.xml.crypto.dsig.keyinfo.RetrievalMethod.getTransforms()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.RetrievalMethod#getTransforms() public abstract java.util.List
+     * javax.xml.crypto.dsig.keyinfo.RetrievalMethod.getTransforms()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +82,9 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RetrievalMethod#getURI() public abstract
-     * java.lang.String javax.xml.crypto.dsig.keyinfo.RetrievalMethod.getURI()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.RetrievalMethod#getURI() public abstract java.lang.String
+     * javax.xml.crypto.dsig.keyinfo.RetrievalMethod.getURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

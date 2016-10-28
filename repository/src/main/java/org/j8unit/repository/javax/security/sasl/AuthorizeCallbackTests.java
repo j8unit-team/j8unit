@@ -35,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AuthorizeCallback#getAuthorizedID() public
-     * java.lang.String javax.security.sasl.AuthorizeCallback.getAuthorizedID()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.AuthorizeCallback#getAuthorizedID() public java.lang.String
+     * javax.security.sasl.AuthorizeCallback.getAuthorizedID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AuthorizeCallback#isAuthorized() public boolean
-     * javax.security.sasl.AuthorizeCallback.isAuthorized()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.sasl.AuthorizeCallback#isAuthorized()
+     * public boolean javax.security.sasl.AuthorizeCallback.isAuthorized()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AuthorizeCallback#setAuthorized(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.AuthorizeCallback#setAuthorized(boolean) public void
      * javax.security.sasl.AuthorizeCallback.setAuthorized(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +103,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AuthorizeCallback#setAuthorizedID(String) public
-     * void javax.security.sasl.AuthorizeCallback.setAuthorizedID(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.AuthorizeCallback#setAuthorizedID(String) public void
+     * javax.security.sasl.AuthorizeCallback.setAuthorizedID(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +126,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AuthorizeCallback#getAuthenticationID() public
-     * java.lang.String javax.security.sasl.AuthorizeCallback.getAuthenticationID()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.AuthorizeCallback#getAuthenticationID() public java.lang.String
+     * javax.security.sasl.AuthorizeCallback.getAuthenticationID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +149,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AuthorizeCallback#getAuthorizationID() public
-     * java.lang.String javax.security.sasl.AuthorizeCallback.getAuthorizationID()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.AuthorizeCallback#getAuthorizationID() public java.lang.String
+     * javax.security.sasl.AuthorizeCallback.getAuthorizationID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -2,7 +2,6 @@ package org.j8unit.repository.javax.script;
 
 import static org.junit.Assert.fail;
 import javax.script.AbstractScriptEngine;
-import javax.script.Bindings;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Assert;
@@ -24,8 +23,8 @@ implements org.j8unit.repository.javax.script.AbstractScriptEngineClassTests<Abs
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AbstractScriptEngine#AbstractScriptEngine()
-     * public javax.script.AbstractScriptEngine()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.script.AbstractScriptEngine#AbstractScriptEngine() public javax.script.AbstractScriptEngine()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +44,7 @@ implements org.j8unit.repository.javax.script.AbstractScriptEngineClassTests<Abs
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AbstractScriptEngine#AbstractScriptEngine(Bindings) public
+     * {@link javax.script.AbstractScriptEngine#AbstractScriptEngine(javax.script.Bindings) public
      * javax.script.AbstractScriptEngine(javax.script.Bindings)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

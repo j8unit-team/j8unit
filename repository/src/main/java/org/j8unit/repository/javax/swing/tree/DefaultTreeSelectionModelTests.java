@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing.tree;
 
-import java.beans.PropertyChangeListener;
-import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.DefaultTreeSelectionModel;
-import javax.swing.tree.RowMapper;
-import javax.swing.tree.TreePath;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +35,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getMaxSelectionRow()
-     * public int javax.swing.tree.DefaultTreeSelectionModel.getMaxSelectionRow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getMaxSelectionRow() public int
+     * javax.swing.tree.DefaultTreeSelectionModel.getMaxSelectionRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +59,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionMode() public
-     * int javax.swing.tree.DefaultTreeSelectionModel.getSelectionMode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionMode() public int
+     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +83,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionPath() public
-     * javax.swing.tree.TreePath javax.swing.tree.DefaultTreeSelectionModel.getSelectionPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionPath() public javax.swing.tree.TreePath
+     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,8 +108,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#getTreeSelectionListeners() public javax.swing.event.TreeSelectionListener[]
-     * javax.swing.tree.DefaultTreeSelectionModel.getTreeSelectionListeners()}.
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getTreeSelectionListeners() public
+     * javax.swing.event.TreeSelectionListener[] javax.swing.tree.DefaultTreeSelectionModel.getTreeSelectionListeners()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,7 +132,8 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#removeTreeSelectionListener(TreeSelectionListener) public void
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)
+     * public void
      * javax.swing.tree.DefaultTreeSelectionModel.removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +156,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getListeners(Class) public
-     * <T> T[] javax.swing.tree.DefaultTreeSelectionModel.getListeners(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getListeners(Class) public <T> T[]
+     * javax.swing.tree.DefaultTreeSelectionModel.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +179,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#resetRowSelection() public
-     * void javax.swing.tree.DefaultTreeSelectionModel.resetRowSelection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#resetRowSelection() public void
+     * javax.swing.tree.DefaultTreeSelectionModel.resetRowSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +203,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionPaths() public
-     * javax.swing.tree.TreePath[] javax.swing.tree.DefaultTreeSelectionModel.getSelectionPaths()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionPaths() public javax.swing.tree.TreePath[]
+     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionPaths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,7 +228,7 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#removeSelectionPath(TreePath) public void
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#removeSelectionPath(javax.swing.tree.TreePath) public void
      * javax.swing.tree.DefaultTreeSelectionModel.removeSelectionPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -247,8 +251,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#isPathSelected(TreePath)
-     * public boolean javax.swing.tree.DefaultTreeSelectionModel.isPathSelected(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#isPathSelected(javax.swing.tree.TreePath) public boolean
+     * javax.swing.tree.DefaultTreeSelectionModel.isPathSelected(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,8 +275,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#addSelectionPath(TreePath)
-     * public void javax.swing.tree.DefaultTreeSelectionModel.addSelectionPath(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#addSelectionPath(javax.swing.tree.TreePath) public void
+     * javax.swing.tree.DefaultTreeSelectionModel.addSelectionPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,8 +299,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#isRowSelected(int) public
-     * boolean javax.swing.tree.DefaultTreeSelectionModel.isRowSelected(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#isRowSelected(int) public boolean
+     * javax.swing.tree.DefaultTreeSelectionModel.isRowSelected(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -316,8 +323,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionRows() public
-     * int[] javax.swing.tree.DefaultTreeSelectionModel.getSelectionRows()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionRows() public int[]
+     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionRows()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -339,8 +347,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#isSelectionEmpty() public
-     * boolean javax.swing.tree.DefaultTreeSelectionModel.isSelectionEmpty()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#isSelectionEmpty() public boolean
+     * javax.swing.tree.DefaultTreeSelectionModel.isSelectionEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -363,7 +372,8 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#addPropertyChangeListener(PropertyChangeListener) public synchronized void
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#addPropertyChangeListener(java.beans.PropertyChangeListener)
+     * public synchronized void
      * javax.swing.tree.DefaultTreeSelectionModel.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -386,8 +396,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getLeadSelectionPath()
-     * public javax.swing.tree.TreePath javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getLeadSelectionPath() public javax.swing.tree.TreePath
+     * javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,8 +420,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionCount() public
-     * int javax.swing.tree.DefaultTreeSelectionModel.getSelectionCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionCount() public int
+     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -432,8 +444,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#clearSelection() public
-     * void javax.swing.tree.DefaultTreeSelectionModel.clearSelection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#clearSelection() public void
+     * javax.swing.tree.DefaultTreeSelectionModel.clearSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -455,8 +468,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#setRowMapper(RowMapper)
-     * public void javax.swing.tree.DefaultTreeSelectionModel.setRowMapper(javax.swing.tree.RowMapper)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#setRowMapper(javax.swing.tree.RowMapper) public void
+     * javax.swing.tree.DefaultTreeSelectionModel.setRowMapper(javax.swing.tree.RowMapper)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -478,8 +492,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#setSelectionMode(int)
-     * public void javax.swing.tree.DefaultTreeSelectionModel.setSelectionMode(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#setSelectionMode(int) public void
+     * javax.swing.tree.DefaultTreeSelectionModel.setSelectionMode(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -501,8 +516,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getMinSelectionRow()
-     * public int javax.swing.tree.DefaultTreeSelectionModel.getMinSelectionRow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getMinSelectionRow() public int
+     * javax.swing.tree.DefaultTreeSelectionModel.getMinSelectionRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -525,7 +541,8 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#removePropertyChangeListener(PropertyChangeListener) public synchronized void
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#removePropertyChangeListener(java.beans.PropertyChangeListener)
+     * public synchronized void
      * javax.swing.tree.DefaultTreeSelectionModel.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -549,7 +566,7 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#removeSelectionPaths(TreePath[]) public void
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#removeSelectionPaths(javax.swing.tree.TreePath[]) public void
      * javax.swing.tree.DefaultTreeSelectionModel.removeSelectionPaths(javax.swing.tree.TreePath[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -573,8 +590,8 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#getPropertyChangeListeners() public java.beans.PropertyChangeListener[]
-     * javax.swing.tree.DefaultTreeSelectionModel.getPropertyChangeListeners()}.
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getPropertyChangeListeners() public
+     * java.beans.PropertyChangeListener[] javax.swing.tree.DefaultTreeSelectionModel.getPropertyChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -595,8 +612,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#setSelectionPath(TreePath)
-     * public void javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#setSelectionPath(javax.swing.tree.TreePath) public void
+     * javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -618,8 +636,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getRowMapper() public
-     * javax.swing.tree.RowMapper javax.swing.tree.DefaultTreeSelectionModel.getRowMapper()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getRowMapper() public javax.swing.tree.RowMapper
+     * javax.swing.tree.DefaultTreeSelectionModel.getRowMapper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -641,8 +660,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#toString() public
-     * java.lang.String javax.swing.tree.DefaultTreeSelectionModel.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#toString() public java.lang.String
+     * javax.swing.tree.DefaultTreeSelectionModel.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -664,8 +684,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#clone() public
-     * java.lang.Object javax.swing.tree.DefaultTreeSelectionModel.clone() throws java.lang.CloneNotSupportedException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.DefaultTreeSelectionModel#clone()
+     * public java.lang.Object javax.swing.tree.DefaultTreeSelectionModel.clone() throws
+     * java.lang.CloneNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -686,8 +707,9 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getLeadSelectionRow()
-     * public int javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionRow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#getLeadSelectionRow() public int
+     * javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -710,7 +732,8 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#addTreeSelectionListener(TreeSelectionListener) public void
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#addTreeSelectionListener(javax.swing.event.TreeSelectionListener)
+     * public void
      * javax.swing.tree.DefaultTreeSelectionModel.addTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -734,7 +757,7 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#addSelectionPaths(TreePath[]) public void
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#addSelectionPaths(javax.swing.tree.TreePath[]) public void
      * javax.swing.tree.DefaultTreeSelectionModel.addSelectionPaths(javax.swing.tree.TreePath[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -758,7 +781,7 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultTreeSelectionModel#setSelectionPaths(TreePath[]) public void
+     * {@link javax.swing.tree.DefaultTreeSelectionModel#setSelectionPaths(javax.swing.tree.TreePath[]) public void
      * javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(javax.swing.tree.TreePath[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterWriter#flush() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterWriter#flush() public void
      * java.io.FilterWriter.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterWriter#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterWriter#close() public void
      * java.io.FilterWriter.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterWriter#write(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterWriter#write(int) public void
      * java.io.FilterWriter.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterWriter#write(char[], int, int) public void
-     * java.io.FilterWriter.write(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterWriter#write(char[], int, int) public
+     * void java.io.FilterWriter.write(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FilterWriter#write(String, int, int) public void
-     * java.io.FilterWriter.write(java.lang.String,int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.FilterWriter#write(String, int, int) public
+     * void java.io.FilterWriter.write(java.lang.String,int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

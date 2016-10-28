@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security;
 
-import java.security.Key;
 import java.security.KeyFactory;
-import java.security.spec.KeySpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyFactory#generatePublic(KeySpec) public final
-     * java.security.PublicKey java.security.KeyFactory.generatePublic(java.security.spec.KeySpec) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyFactory#generatePublic(java.security.spec.KeySpec) public final java.security.PublicKey
+     * java.security.KeyFactory.generatePublic(java.security.spec.KeySpec) throws
      * java.security.spec.InvalidKeySpecException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyFactory#getProvider() public final
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyFactory#getProvider() public final
      * java.security.Provider java.security.KeyFactory.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,30 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyFactory#getAlgorithm() public final
-     * java.lang.String java.security.KeyFactory.getAlgorithm()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAlgorithm()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyFactory#generatePrivate(KeySpec) public final
-     * java.security.PrivateKey java.security.KeyFactory.generatePrivate(java.security.spec.KeySpec) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyFactory#generatePrivate(java.security.spec.KeySpec) public final java.security.PrivateKey
+     * java.security.KeyFactory.generatePrivate(java.security.spec.KeySpec) throws
      * java.security.spec.InvalidKeySpecException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +104,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyFactory#getKeySpec(Key, Class) public final <T> T
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyFactory#getAlgorithm() public final
+     * java.lang.String java.security.KeyFactory.getAlgorithm()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAlgorithm()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyFactory#getKeySpec(java.security.Key, Class) public final <T> T
      * java.security.KeyFactory.getKeySpec(java.security.Key,java.lang.Class<T>) throws
      * java.security.spec.InvalidKeySpecException}.
      *
@@ -149,9 +150,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyFactory#translateKey(Key) public final
-     * java.security.Key java.security.KeyFactory.translateKey(java.security.Key) throws
-     * java.security.InvalidKeyException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyFactory#translateKey(java.security.Key) public final java.security.Key
+     * java.security.KeyFactory.translateKey(java.security.Key) throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

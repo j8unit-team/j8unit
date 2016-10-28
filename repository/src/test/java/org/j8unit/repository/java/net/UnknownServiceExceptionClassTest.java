@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.UnknownServiceExceptionClassTests<Unkn
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownServiceException#UnknownServiceException() public java.net.UnknownServiceException()}.
+     * {@link java.net.UnknownServiceException#UnknownServiceException() public java.net.UnknownServiceException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,7 @@ implements org.j8unit.repository.java.net.UnknownServiceExceptionClassTests<Unkn
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownServiceException#UnknownServiceException(String) public
+     * {@link java.net.UnknownServiceException#UnknownServiceException(String) public
      * java.net.UnknownServiceException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

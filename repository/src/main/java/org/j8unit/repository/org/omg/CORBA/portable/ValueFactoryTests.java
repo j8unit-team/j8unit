@@ -7,7 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.portable.ValueFactory;
-import org.omg.CORBA_2_3.portable.InputStream;
 
 /**
  * <p>
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ValueFactory#read_value(InputStream) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ValueFactory#read_value(org.omg.CORBA_2_3.portable.InputStream) public abstract
      * java.io.Serializable org.omg.CORBA.portable.ValueFactory.read_value(org.omg.CORBA_2_3.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

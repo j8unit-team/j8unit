@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.SortOrderClassTests<SortOrder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortOrder#values() public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SortOrder#values() public static
      * javax.swing.SortOrder[] javax.swing.SortOrder.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +36,12 @@ implements org.j8unit.repository.javax.swing.SortOrderClassTests<SortOrder> {
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link SortOrder#values()}
+        // write some test for {@link javax.swing.SortOrder#values()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SortOrder#valueOf(String) public static
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SortOrder#valueOf(String) public static
      * javax.swing.SortOrder javax.swing.SortOrder.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ implements org.j8unit.repository.javax.swing.SortOrderClassTests<SortOrder> {
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link SortOrder#valueOf(String)}
+        // write some test for {@link javax.swing.SortOrder#valueOf(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SortOrder]

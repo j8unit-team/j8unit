@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.script;
 
-import java.util.Map;
 import javax.script.Bindings;
 import javax.script.SimpleBindings;
 import org.j8unit.repository.categories.Draft;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#entrySet() public
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#entrySet() public
      * java.util.Set<java.util.Map.java.util.Map$Entry<java.lang.String, java.lang.Object>>
      * javax.script.SimpleBindings.entrySet()}.
      *
@@ -60,7 +59,7 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#size() public int
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#size() public int
      * javax.script.SimpleBindings.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +82,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#putAll(Map) public void
-     * javax.script.SimpleBindings.putAll(java.util.Map<? extends java.lang.String, ?>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#putAll(java.util.Map)
+     * public void javax.script.SimpleBindings.putAll(java.util.Map<? extends java.lang.String, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +105,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#values() public java.util.Collection
-     * <java.lang.Object> javax.script.SimpleBindings.values()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#values() public
+     * java.util.Collection<java.lang.Object> javax.script.SimpleBindings.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +128,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#get(Object) public java.lang.Object
-     * javax.script.SimpleBindings.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#get(Object) public
+     * java.lang.Object javax.script.SimpleBindings.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -152,8 +151,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#containsKey(Object) public boolean
-     * javax.script.SimpleBindings.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#containsKey(Object)
+     * public boolean javax.script.SimpleBindings.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,7 +174,7 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#isEmpty() public boolean
      * javax.script.SimpleBindings.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -198,7 +197,7 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#clear() public void
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#clear() public void
      * javax.script.SimpleBindings.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -221,8 +220,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#keySet() public java.util.Set
-     * <java.lang.String> javax.script.SimpleBindings.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#keySet() public
+     * java.util.Set<java.lang.String> javax.script.SimpleBindings.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,8 +243,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#containsValue(Object) public boolean
-     * javax.script.SimpleBindings.containsValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#containsValue(Object)
+     * public boolean javax.script.SimpleBindings.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,8 +266,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#put(String, Object) public
-     * java.lang.Object javax.script.SimpleBindings.put(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#put(String, Object)
+     * public java.lang.Object javax.script.SimpleBindings.put(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -290,7 +289,7 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleBindings#remove(Object) public
+     * Test method for the hereby targeted method-under-test {@link javax.script.SimpleBindings#remove(Object) public
      * java.lang.Object javax.script.SimpleBindings.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -318,7 +317,7 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * </p>
      * <ul>
      * <li>{@link Object#hashCode() class java.lang.Object}</li>
-     * <li>{@link Map#hashCode() interface java.util.Map} (via parent node(s) {@link Bindings Bindings})</li>
+     * <li>{@link java.util.Map#hashCode() interface java.util.Map} (via parent node(s) {@link Bindings Bindings})</li>
      * </ul>
      *
      * <p>
@@ -346,7 +345,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * </p>
      * <ul>
      * <li>{@link Object#equals(Object) class java.lang.Object}</li>
-     * <li>{@link Map#equals(Object) interface java.util.Map} (via parent node(s) {@link Bindings Bindings})</li>
+     * <li>{@link java.util.Map#equals(Object) interface java.util.Map} (via parent node(s) {@link Bindings Bindings})
+     * </li>
      * </ul>
      *
      * <p>

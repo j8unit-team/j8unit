@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.function.FunctionClassTests<Function>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Function#identity() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.function.Function#identity() public static
      * <T> java.util.function.Function<T, T> java.util.function.Function.identity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,7 +37,7 @@ implements org.j8unit.repository.java.util.function.FunctionClassTests<Function>
     @Category(Draft.class)
     public void test_identity()
     throws Exception {
-        // write some test for {@link Function#identity()}
+        // write some test for {@link java.util.function.Function#identity()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.Function]

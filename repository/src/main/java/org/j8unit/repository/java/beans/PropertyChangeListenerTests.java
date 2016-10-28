@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans;
 
-import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PropertyChangeListener#propertyChange(PropertyChangeEvent) public abstract void
+     * {@link java.beans.PropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent) public abstract void
      * java.beans.PropertyChangeListener.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

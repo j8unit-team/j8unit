@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.lang.instrument;
 
 import java.lang.instrument.ClassFileTransformer;
-import java.security.ProtectionDomain;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +36,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ClassFileTransformer#transform(ClassLoader, String, Class, ProtectionDomain, byte[]) public abstract
-     * byte[] java.lang.instrument.ClassFileTransformer.transform(java.lang.ClassLoader,java.lang.String,java.lang.Class
+     * {@link java.lang.instrument.ClassFileTransformer#transform(ClassLoader, String, Class, java.security.ProtectionDomain, byte[])
+     * public abstract byte[]
+     * java.lang.instrument.ClassFileTransformer.transform(java.lang.ClassLoader,java.lang.String,java.lang.Class
      * <?>,java.security.ProtectionDomain,byte[]) throws java.lang.instrument.IllegalClassFormatException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

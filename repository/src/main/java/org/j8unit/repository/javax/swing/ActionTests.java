@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.beans.PropertyChangeListener;
 import javax.swing.Action;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Action#putValue(String, Object) public abstract void
-     * javax.swing.Action.putValue(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Action#putValue(String, Object) public
+     * abstract void javax.swing.Action.putValue(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Action#removePropertyChangeListener(PropertyChangeListener) public abstract void
+     * {@link javax.swing.Action#removePropertyChangeListener(java.beans.PropertyChangeListener) public abstract void
      * javax.swing.Action.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,7 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Action#addPropertyChangeListener(PropertyChangeListener) public abstract void
+     * {@link javax.swing.Action#addPropertyChangeListener(java.beans.PropertyChangeListener) public abstract void
      * javax.swing.Action.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +102,8 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Action#setEnabled(boolean) public abstract void
-     * javax.swing.Action.setEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Action#setEnabled(boolean) public
+     * abstract void javax.swing.Action.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +124,7 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Action#getValue(String) public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Action#getValue(String) public abstract
      * java.lang.Object javax.swing.Action.getValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,8 +146,8 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Action#isEnabled() public abstract boolean
-     * javax.swing.Action.isEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Action#isEnabled() public abstract
+     * boolean javax.swing.Action.isEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

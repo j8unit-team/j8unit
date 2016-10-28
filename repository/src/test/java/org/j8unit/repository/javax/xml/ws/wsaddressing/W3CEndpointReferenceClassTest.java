@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.ws.wsaddressing;
 
-import javax.xml.transform.Source;
 import javax.xml.ws.wsaddressing.W3CEndpointReference;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.xml.ws.wsaddressing.W3CEndpointReferenceC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link W3CEndpointReference#W3CEndpointReference(Source) public
+     * {@link javax.xml.ws.wsaddressing.W3CEndpointReference#W3CEndpointReference(javax.xml.transform.Source) public
      * javax.xml.ws.wsaddressing.W3CEndpointReference(javax.xml.transform.Source)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.xml.ws.wsaddressing.W3CEndpointReferenceC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final W3CEndpointReference sut = null; // = new W3CEndpointReference(Source);
+        final W3CEndpointReference sut = null; // = new W3CEndpointReference(javax.xml.transform.Source);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.wsaddressing.W3CEndpointReference]

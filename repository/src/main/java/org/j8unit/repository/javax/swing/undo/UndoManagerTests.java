@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing.undo;
 
-import javax.swing.event.UndoableEditEvent;
 import javax.swing.undo.UndoManager;
-import javax.swing.undo.UndoableEdit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#canRedo() public synchronized boolean
-     * javax.swing.undo.UndoManager.canRedo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#canRedo() public
+     * synchronized boolean javax.swing.undo.UndoManager.canRedo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#addEdit(UndoableEdit) public
-     * synchronized boolean javax.swing.undo.UndoManager.addEdit(javax.swing.undo.UndoableEdit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoManager#addEdit(javax.swing.undo.UndoableEdit) public synchronized boolean
+     * javax.swing.undo.UndoManager.addEdit(javax.swing.undo.UndoableEdit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +81,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#redo() public synchronized void
-     * javax.swing.undo.UndoManager.redo() throws javax.swing.undo.CannotRedoException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#redo() public
+     * synchronized void javax.swing.undo.UndoManager.redo() throws javax.swing.undo.CannotRedoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +104,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#getLimit() public synchronized int
-     * javax.swing.undo.UndoManager.getLimit()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#getLimit() public
+     * synchronized int javax.swing.undo.UndoManager.getLimit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +126,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#discardAllEdits() public synchronized
-     * void javax.swing.undo.UndoManager.discardAllEdits()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#discardAllEdits()
+     * public synchronized void javax.swing.undo.UndoManager.discardAllEdits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +148,9 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#getRedoPresentationName() public
-     * synchronized java.lang.String javax.swing.undo.UndoManager.getRedoPresentationName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoManager#getRedoPresentationName() public synchronized java.lang.String
+     * javax.swing.undo.UndoManager.getRedoPresentationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +172,9 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#getUndoOrRedoPresentationName() public
-     * synchronized java.lang.String javax.swing.undo.UndoManager.getUndoOrRedoPresentationName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoManager#getUndoOrRedoPresentationName() public synchronized java.lang.String
+     * javax.swing.undo.UndoManager.getUndoOrRedoPresentationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,8 +195,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#undoOrRedo() public synchronized void
-     * javax.swing.undo.UndoManager.undoOrRedo() throws
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#undoOrRedo() public
+     * synchronized void javax.swing.undo.UndoManager.undoOrRedo() throws
      * javax.swing.undo.CannotRedoException,javax.swing.undo.CannotUndoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -217,8 +218,9 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#getUndoPresentationName() public
-     * synchronized java.lang.String javax.swing.undo.UndoManager.getUndoPresentationName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoManager#getUndoPresentationName() public synchronized java.lang.String
+     * javax.swing.undo.UndoManager.getUndoPresentationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,8 +242,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#canUndoOrRedo() public synchronized
-     * boolean javax.swing.undo.UndoManager.canUndoOrRedo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#canUndoOrRedo() public
+     * synchronized boolean javax.swing.undo.UndoManager.canUndoOrRedo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -262,8 +264,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#end() public synchronized void
-     * javax.swing.undo.UndoManager.end()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#end() public
+     * synchronized void javax.swing.undo.UndoManager.end()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -285,8 +287,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#toString() public java.lang.String
-     * javax.swing.undo.UndoManager.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#toString() public
+     * java.lang.String javax.swing.undo.UndoManager.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -308,8 +310,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#setLimit(int) public synchronized void
-     * javax.swing.undo.UndoManager.setLimit(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#setLimit(int) public
+     * synchronized void javax.swing.undo.UndoManager.setLimit(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -330,8 +332,9 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#undoableEditHappened(UndoableEditEvent)
-     * public void javax.swing.undo.UndoManager.undoableEditHappened(javax.swing.event.UndoableEditEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.undo.UndoManager#undoableEditHappened(javax.swing.event.UndoableEditEvent) public void
+     * javax.swing.undo.UndoManager.undoableEditHappened(javax.swing.event.UndoableEditEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -353,8 +356,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#canUndo() public synchronized boolean
-     * javax.swing.undo.UndoManager.canUndo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#canUndo() public
+     * synchronized boolean javax.swing.undo.UndoManager.canUndo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -376,8 +379,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UndoManager#undo() public synchronized void
-     * javax.swing.undo.UndoManager.undo() throws javax.swing.undo.CannotUndoException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.undo.UndoManager#undo() public
+     * synchronized void javax.swing.undo.UndoManager.undo() throws javax.swing.undo.CannotUndoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

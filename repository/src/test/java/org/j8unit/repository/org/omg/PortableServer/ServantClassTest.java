@@ -22,7 +22,7 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantClassTests<Servan
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Servant#Servant() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.PortableServer.Servant#Servant() public
      * org.omg.PortableServer.Servant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

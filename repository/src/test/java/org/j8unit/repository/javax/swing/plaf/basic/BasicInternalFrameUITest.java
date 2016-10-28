@@ -21,6 +21,21 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITest
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI]
 
     @RunWith(J8Unit4.class)
+    public static class InternalFrameLayoutTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITests.InternalFrameLayoutTests<InternalFrameLayout> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
+
+        @Override
+        public InternalFrameLayout createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class InternalFramePropertyChangeListenerTest
     implements
     org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITests.InternalFramePropertyChangeListenerTests<InternalFramePropertyChangeListener> {
@@ -33,21 +48,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITest
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class InternalFrameLayoutTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUITests.InternalFrameLayoutTests<InternalFrameLayout> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
-
-        @Override
-        public InternalFrameLayout createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
 
     }
 

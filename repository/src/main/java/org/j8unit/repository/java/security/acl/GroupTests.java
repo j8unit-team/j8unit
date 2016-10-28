@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.security.acl;
 
-import java.security.Principal;
 import java.security.acl.Group;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.security.PrincipalTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Group#members() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.Group#members() public abstract
      * java.util.Enumeration<? extends java.security.Principal> java.security.acl.Group.members()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +56,9 @@ extends org.j8unit.repository.java.security.PrincipalTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Group#removeMember(Principal) public abstract
-     * boolean java.security.acl.Group.removeMember(java.security.Principal)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Group#removeMember(java.security.Principal) public abstract boolean
+     * java.security.acl.Group.removeMember(java.security.Principal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends org.j8unit.repository.java.security.PrincipalTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Group#addMember(Principal) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Group#addMember(java.security.Principal) public abstract boolean
      * java.security.acl.Group.addMember(java.security.Principal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +102,8 @@ extends org.j8unit.repository.java.security.PrincipalTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Group#isMember(Principal) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.Group#isMember(java.security.Principal) public abstract boolean
      * java.security.acl.Group.isMember(java.security.Principal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

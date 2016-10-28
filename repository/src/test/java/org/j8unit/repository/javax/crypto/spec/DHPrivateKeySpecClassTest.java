@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.crypto.spec;
 
-import java.math.BigInteger;
 import javax.crypto.spec.DHPrivateKeySpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.crypto.spec.DHPrivateKeySpecClassTests<DH
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DHPrivateKeySpec#DHPrivateKeySpec(BigInteger, BigInteger, BigInteger) public
-     * javax.crypto.spec.DHPrivateKeySpec(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)}.
+     * {@link javax.crypto.spec.DHPrivateKeySpec#DHPrivateKeySpec(java.math.BigInteger, java.math.BigInteger, java.math.BigInteger)
+     * public javax.crypto.spec.DHPrivateKeySpec(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.javax.crypto.spec.DHPrivateKeySpecClassTests<DH
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DHPrivateKeySpec sut = null; // = new DHPrivateKeySpec(BigInteger, BigInteger, BigInteger);
+        final DHPrivateKeySpec sut = null; // = new DHPrivateKeySpec(java.math.BigInteger, java.math.BigInteger,
+                                           // java.math.BigInteger);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DHPrivateKeySpec]

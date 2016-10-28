@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.LongLongSeqHolderClassTests<LongL
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LongLongSeqHolder#LongLongSeqHolder() public
-     * org.omg.CORBA.LongLongSeqHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.LongLongSeqHolder#LongLongSeqHolder() public org.omg.CORBA.LongLongSeqHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.LongLongSeqHolderClassTests<LongL
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LongLongSeqHolder#LongLongSeqHolder(long[])
-     * public org.omg.CORBA.LongLongSeqHolder(long[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.LongLongSeqHolder#LongLongSeqHolder(long[]) public org.omg.CORBA.LongLongSeqHolder(long[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

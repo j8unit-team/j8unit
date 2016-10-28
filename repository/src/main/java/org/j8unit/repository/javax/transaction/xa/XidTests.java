@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Xid#getBranchQualifier() public abstract byte[]
-     * javax.transaction.xa.Xid.getBranchQualifier()}.
+     * Test method for the hereby targeted method-under-test {@link javax.transaction.xa.Xid#getBranchQualifier() public
+     * abstract byte[] javax.transaction.xa.Xid.getBranchQualifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Xid#getFormatId() public abstract int
-     * javax.transaction.xa.Xid.getFormatId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.transaction.xa.Xid#getFormatId() public
+     * abstract int javax.transaction.xa.Xid.getFormatId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Xid#getGlobalTransactionId() public abstract byte[]
-     * javax.transaction.xa.Xid.getGlobalTransactionId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.transaction.xa.Xid#getGlobalTransactionId()
+     * public abstract byte[] javax.transaction.xa.Xid.getGlobalTransactionId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

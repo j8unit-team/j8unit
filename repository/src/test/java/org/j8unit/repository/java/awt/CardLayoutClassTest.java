@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.awt.CardLayoutClassTests<CardLayout> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CardLayout#CardLayout() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.CardLayout#CardLayout() public
      * java.awt.CardLayout()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +42,7 @@ implements org.j8unit.repository.java.awt.CardLayoutClassTests<CardLayout> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CardLayout#CardLayout(int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.CardLayout#CardLayout(int, int) public
      * java.awt.CardLayout(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

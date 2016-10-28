@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.UnknownFormatFlagsExceptionClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownFormatFlagsException#UnknownFormatFlagsException(String) public
+     * {@link java.util.UnknownFormatFlagsException#UnknownFormatFlagsException(String) public
      * java.util.UnknownFormatFlagsException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

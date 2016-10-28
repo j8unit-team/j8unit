@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.security.AlgorithmParameters;
 import javax.crypto.EncryptedPrivateKeyInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.crypto.EncryptedPrivateKeyInfoClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EncryptedPrivateKeyInfo#EncryptedPrivateKeyInfo(AlgorithmParameters, byte[]) public
-     * javax.crypto.EncryptedPrivateKeyInfo(java.security.AlgorithmParameters,byte[]) throws
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#EncryptedPrivateKeyInfo(java.security.AlgorithmParameters, byte[])
+     * public javax.crypto.EncryptedPrivateKeyInfo(java.security.AlgorithmParameters,byte[]) throws
      * java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +40,14 @@ implements org.j8unit.repository.javax.crypto.EncryptedPrivateKeyInfoClassTests<
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final EncryptedPrivateKeyInfo sut = null; // = new EncryptedPrivateKeyInfo(AlgorithmParameters, byte[]);
+        final EncryptedPrivateKeyInfo sut = null; // = new EncryptedPrivateKeyInfo(java.security.AlgorithmParameters,
+                                                  // byte[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EncryptedPrivateKeyInfo#EncryptedPrivateKeyInfo(String, byte[]) public
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#EncryptedPrivateKeyInfo(String, byte[]) public
      * javax.crypto.EncryptedPrivateKeyInfo(java.lang.String,byte[]) throws java.security.NoSuchAlgorithmException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,7 +70,7 @@ implements org.j8unit.repository.javax.crypto.EncryptedPrivateKeyInfoClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link EncryptedPrivateKeyInfo#EncryptedPrivateKeyInfo(byte[]) public
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#EncryptedPrivateKeyInfo(byte[]) public
      * javax.crypto.EncryptedPrivateKeyInfo(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.print;
 
-import javax.print.Doc;
 import javax.print.DocPrintJob;
-import javax.print.attribute.PrintJobAttributeSet;
-import javax.print.attribute.PrintRequestAttributeSet;
-import javax.print.event.PrintJobAttributeListener;
-import javax.print.event.PrintJobListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -41,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocPrintJob#removePrintJobAttributeListener(PrintJobAttributeListener) public abstract void
+     * {@link javax.print.DocPrintJob#removePrintJobAttributeListener(javax.print.event.PrintJobAttributeListener)
+     * public abstract void
      * javax.print.DocPrintJob.removePrintJobAttributeListener(javax.print.event.PrintJobAttributeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocPrintJob#getAttributes() public abstract
-     * javax.print.attribute.PrintJobAttributeSet javax.print.DocPrintJob.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.DocPrintJob#getAttributes() public
+     * abstract javax.print.attribute.PrintJobAttributeSet javax.print.DocPrintJob.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,10 +81,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocPrintJob#print(Doc, PrintRequestAttributeSet)
-     * public abstract void
-     * javax.print.DocPrintJob.print(javax.print.Doc,javax.print.attribute.PrintRequestAttributeSet) throws
-     * javax.print.PrintException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.DocPrintJob#print(javax.print.Doc, javax.print.attribute.PrintRequestAttributeSet) public
+     * abstract void javax.print.DocPrintJob.print(javax.print.Doc,javax.print.attribute.PrintRequestAttributeSet)
+     * throws javax.print.PrintException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,8 +105,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocPrintJob#getPrintService() public abstract
-     * javax.print.PrintService javax.print.DocPrintJob.getPrintService()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.DocPrintJob#getPrintService() public
+     * abstract javax.print.PrintService javax.print.DocPrintJob.getPrintService()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocPrintJob#removePrintJobListener(PrintJobListener)
-     * public abstract void javax.print.DocPrintJob.removePrintJobListener(javax.print.event.PrintJobListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.DocPrintJob#removePrintJobListener(javax.print.event.PrintJobListener) public abstract void
+     * javax.print.DocPrintJob.removePrintJobListener(javax.print.event.PrintJobListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +150,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DocPrintJob#addPrintJobListener(PrintJobListener)
-     * public abstract void javax.print.DocPrintJob.addPrintJobListener(javax.print.event.PrintJobListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.DocPrintJob#addPrintJobListener(javax.print.event.PrintJobListener) public abstract void
+     * javax.print.DocPrintJob.addPrintJobListener(javax.print.event.PrintJobListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,8 +174,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DocPrintJob#addPrintJobAttributeListener(PrintJobAttributeListener, PrintJobAttributeSet) public abstract
-     * void
+     * {@link javax.print.DocPrintJob#addPrintJobAttributeListener(javax.print.event.PrintJobAttributeListener, javax.print.attribute.PrintJobAttributeSet)
+     * public abstract void
      * javax.print.DocPrintJob.addPrintJobAttributeListener(javax.print.event.PrintJobAttributeListener,javax.print.attribute.PrintJobAttributeSet)}
      * .
      *

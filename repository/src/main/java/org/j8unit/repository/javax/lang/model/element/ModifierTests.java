@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, Modifier> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#toString() public java.lang.String
-     * javax.lang.model.element.Modifier.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.element.Modifier#toString() public
+     * java.lang.String javax.lang.model.element.Modifier.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

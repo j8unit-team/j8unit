@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.management.relation;
 
-import java.util.List;
-import javax.management.ObjectName;
 import javax.management.relation.RelationNotification;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.javax.management.relation.RelationNotificationC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RelationNotification#RelationNotification(String, Object, long, long, String, String, String, ObjectName, List)
+     * {@link javax.management.relation.RelationNotification#RelationNotification(String, Object, long, long, String, String, String, javax.management.ObjectName, java.util.List)
      * public
      * javax.management.relation.RelationNotification(java.lang.String,java.lang.Object,long,long,java.lang.String,java.lang.String,java.lang.String,javax.management.ObjectName,java.util.List
      * <javax.management.ObjectName>) throws java.lang.IllegalArgumentException}.
@@ -44,13 +42,13 @@ implements org.j8unit.repository.javax.management.relation.RelationNotificationC
         // create new instance
         @SuppressWarnings("unused")
         final RelationNotification sut = null; // = new RelationNotification(String, Object, long, long, String, String,
-                                               // String, ObjectName, List);
+                                               // String, javax.management.ObjectName, java.util.List);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RelationNotification#RelationNotification(String, Object, long, long, String, String, String, ObjectName, String, List, List)
+     * {@link javax.management.relation.RelationNotification#RelationNotification(String, Object, long, long, String, String, String, javax.management.ObjectName, String, java.util.List, java.util.List)
      * public
      * javax.management.relation.RelationNotification(java.lang.String,java.lang.Object,long,long,java.lang.String,java.lang.String,java.lang.String,javax.management.ObjectName,java.lang.String,java.util.List
      * <javax.management.ObjectName>,java.util.List<javax.management.ObjectName>) throws
@@ -71,7 +69,8 @@ implements org.j8unit.repository.javax.management.relation.RelationNotificationC
         // create new instance
         @SuppressWarnings("unused")
         final RelationNotification sut = null; // = new RelationNotification(String, Object, long, long, String, String,
-                                               // String, ObjectName, String, List, List);
+                                               // String, javax.management.ObjectName, String, java.util.List,
+                                               // java.util.List);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationNotification]

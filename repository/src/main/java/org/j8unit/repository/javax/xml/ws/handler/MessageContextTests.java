@@ -35,8 +35,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageContext#getScope(String) public abstract
-     * javax.xml.ws.handler.MessageContext$Scope javax.xml.ws.handler.MessageContext.getScope(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.handler.MessageContext#getScope(String)
+     * public abstract javax.xml.ws.handler.MessageContext$Scope
+     * javax.xml.ws.handler.MessageContext.getScope(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +58,8 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MessageContext#setScope(String, Scope) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.handler.MessageContext#setScope(String, javax.xml.ws.handler.MessageContext.Scope) public
      * abstract void
      * javax.xml.ws.handler.MessageContext.setScope(java.lang.String,javax.xml.ws.handler.MessageContext$Scope)}.
      *

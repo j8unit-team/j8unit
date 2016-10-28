@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.print.event;
 
-import javax.print.DocPrintJob;
-import javax.print.attribute.PrintJobAttributeSet;
 import javax.print.event.PrintJobAttributeEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,8 @@ implements org.j8unit.repository.javax.print.event.PrintJobAttributeEventClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrintJobAttributeEvent#PrintJobAttributeEvent(DocPrintJob, PrintJobAttributeSet) public
+     * {@link javax.print.event.PrintJobAttributeEvent#PrintJobAttributeEvent(javax.print.DocPrintJob, javax.print.attribute.PrintJobAttributeSet)
+     * public
      * javax.print.event.PrintJobAttributeEvent(javax.print.DocPrintJob,javax.print.attribute.PrintJobAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +40,8 @@ implements org.j8unit.repository.javax.print.event.PrintJobAttributeEventClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PrintJobAttributeEvent sut = null; // = new PrintJobAttributeEvent(DocPrintJob, PrintJobAttributeSet);
+        final PrintJobAttributeEvent sut = null; // = new PrintJobAttributeEvent(javax.print.DocPrintJob,
+                                                 // javax.print.attribute.PrintJobAttributeSet);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintJobAttributeEvent]

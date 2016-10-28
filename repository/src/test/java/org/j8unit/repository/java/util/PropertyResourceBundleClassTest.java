@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import java.io.InputStream;
-import java.io.Reader;
 import java.util.PropertyResourceBundle;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.util.PropertyResourceBundleClassTests<Prop
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyResourceBundle#PropertyResourceBundle(InputStream) public
+     * {@link java.util.PropertyResourceBundle#PropertyResourceBundle(java.io.InputStream) public
      * java.util.PropertyResourceBundle(java.io.InputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,13 @@ implements org.j8unit.repository.java.util.PropertyResourceBundleClassTests<Prop
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PropertyResourceBundle sut = null; // = new PropertyResourceBundle(InputStream);
+        final PropertyResourceBundle sut = null; // = new PropertyResourceBundle(java.io.InputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyResourceBundle#PropertyResourceBundle(Reader) public
+     * {@link java.util.PropertyResourceBundle#PropertyResourceBundle(java.io.Reader) public
      * java.util.PropertyResourceBundle(java.io.Reader) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +62,7 @@ implements org.j8unit.repository.java.util.PropertyResourceBundleClassTests<Prop
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PropertyResourceBundle sut = null; // = new PropertyResourceBundle(Reader);
+        final PropertyResourceBundle sut = null; // = new PropertyResourceBundle(java.io.Reader);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PropertyResourceBundle]

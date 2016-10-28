@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.util.concurrent.FutureTaskClassTests<Futur
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FutureTask#FutureTask(Runnable, Object) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.FutureTask#FutureTask(Runnable, Object) public
      * java.util.concurrent.FutureTask(java.lang.Runnable,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,8 @@ implements org.j8unit.repository.java.util.concurrent.FutureTaskClassTests<Futur
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link FutureTask#FutureTask(Callable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.FutureTask#FutureTask(java.util.concurrent.Callable) public
      * java.util.concurrent.FutureTask(java.util.concurrent.Callable<V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +63,7 @@ implements org.j8unit.repository.java.util.concurrent.FutureTaskClassTests<Futur
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FutureTask sut = null; // = new FutureTask(Callable);
+        final FutureTask sut = null; // = new FutureTask(java.util.concurrent.Callable);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.FutureTask]

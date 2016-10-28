@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.net;
 
-import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InetSocketAddress#InetSocketAddress(String, int) public java.net.InetSocketAddress(java.lang.String,int)}.
+     * {@link java.net.InetSocketAddress#InetSocketAddress(String, int) public
+     * java.net.InetSocketAddress(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InetSocketAddress#InetSocketAddress(InetAddress, int) public
+     * {@link java.net.InetSocketAddress#InetSocketAddress(java.net.InetAddress, int) public
      * java.net.InetSocketAddress(java.net.InetAddress,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +62,13 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InetSocketAddress sut = null; // = new InetSocketAddress(InetAddress, int);
+        final InetSocketAddress sut = null; // = new InetSocketAddress(java.net.InetAddress, int);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InetSocketAddress#InetSocketAddress(int) public
-     * java.net.InetSocketAddress(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.InetSocketAddress#InetSocketAddress(int) public java.net.InetSocketAddress(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +89,9 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetSocketAddress#createUnresolved(String, int)
-     * public static java.net.InetSocketAddress java.net.InetSocketAddress.createUnresolved(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.InetSocketAddress#createUnresolved(String, int) public static java.net.InetSocketAddress
+     * java.net.InetSocketAddress.createUnresolved(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +105,7 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
     @Category(Draft.class)
     public void test_createUnresolved_String_int()
     throws Exception {
-        // write some test for {@link InetSocketAddress#createUnresolved(String, int)}
+        // write some test for {@link java.net.InetSocketAddress#createUnresolved(String, int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.InetSocketAddress]

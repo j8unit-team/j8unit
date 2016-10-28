@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.event;
 
-import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuListener#menuCanceled(MenuEvent) public abstract
-     * void javax.swing.event.MenuListener.menuCanceled(javax.swing.event.MenuEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.MenuListener#menuCanceled(javax.swing.event.MenuEvent) public abstract void
+     * javax.swing.event.MenuListener.menuCanceled(javax.swing.event.MenuEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuListener#menuSelected(MenuEvent) public abstract
-     * void javax.swing.event.MenuListener.menuSelected(javax.swing.event.MenuEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.MenuListener#menuSelected(javax.swing.event.MenuEvent) public abstract void
+     * javax.swing.event.MenuListener.menuSelected(javax.swing.event.MenuEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuListener#menuDeselected(MenuEvent) public
-     * abstract void javax.swing.event.MenuListener.menuDeselected(javax.swing.event.MenuEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.MenuListener#menuDeselected(javax.swing.event.MenuEvent) public abstract void
+     * javax.swing.event.MenuListener.menuDeselected(javax.swing.event.MenuEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
 import java.security.cert.CollectionCertStoreParameters;
-import java.util.Collection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.java.security.cert.CollectionCertStoreParameter
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CollectionCertStoreParameters#CollectionCertStoreParameters(Collection) public
-     * java.security.cert.CollectionCertStoreParameters(java.util.Collection<?>)}.
+     * {@link java.security.cert.CollectionCertStoreParameters#CollectionCertStoreParameters(java.util.Collection)
+     * public java.security.cert.CollectionCertStoreParameters(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,13 @@ implements org.j8unit.repository.java.security.cert.CollectionCertStoreParameter
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CollectionCertStoreParameters sut = null; // = new CollectionCertStoreParameters(Collection);
+        final CollectionCertStoreParameters sut = null; // = new CollectionCertStoreParameters(java.util.Collection);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CollectionCertStoreParameters#CollectionCertStoreParameters() public
+     * {@link java.security.cert.CollectionCertStoreParameters#CollectionCertStoreParameters() public
      * java.security.cert.CollectionCertStoreParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

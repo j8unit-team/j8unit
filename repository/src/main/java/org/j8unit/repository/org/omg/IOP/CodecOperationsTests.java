@@ -6,8 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.TypeCode;
 import org.omg.IOP.CodecOperations;
 
 /**
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodecOperations#decode_value(byte[], TypeCode)
-     * public abstract org.omg.CORBA.Any org.omg.IOP.CodecOperations.decode_value(byte[],org.omg.CORBA.TypeCode) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.CodecOperations#decode_value(byte[], org.omg.CORBA.TypeCode) public abstract org.omg.CORBA.Any
+     * org.omg.IOP.CodecOperations.decode_value(byte[],org.omg.CORBA.TypeCode) throws
      * org.omg.IOP.CodecPackage.FormatMismatch,org.omg.IOP.CodecPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodecOperations#encode(Any) public abstract byte[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.CodecOperations#encode(org.omg.CORBA.Any) public abstract byte[]
      * org.omg.IOP.CodecOperations.encode(org.omg.CORBA.Any) throws org.omg.IOP.CodecPackage.InvalidTypeForEncoding}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodecOperations#decode(byte[]) public abstract
-     * org.omg.CORBA.Any org.omg.IOP.CodecOperations.decode(byte[]) throws org.omg.IOP.CodecPackage.FormatMismatch}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.CodecOperations#decode(byte[]) public
+     * abstract org.omg.CORBA.Any org.omg.IOP.CodecOperations.decode(byte[]) throws
+     * org.omg.IOP.CodecPackage.FormatMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +105,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CodecOperations#encode_value(Any) public abstract
-     * byte[] org.omg.IOP.CodecOperations.encode_value(org.omg.CORBA.Any) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.CodecOperations#encode_value(org.omg.CORBA.Any) public abstract byte[]
+     * org.omg.IOP.CodecOperations.encode_value(org.omg.CORBA.Any) throws
      * org.omg.IOP.CodecPackage.InvalidTypeForEncoding}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

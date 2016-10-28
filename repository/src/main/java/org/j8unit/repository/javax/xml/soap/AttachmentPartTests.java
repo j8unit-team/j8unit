@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.soap;
 
-import java.io.InputStream;
-import javax.activation.DataHandler;
 import javax.xml.soap.AttachmentPart;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getNonMatchingMimeHeaders(String[])
-     * public abstract java.util.Iterator javax.xml.soap.AttachmentPart.getNonMatchingMimeHeaders(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#getNonMatchingMimeHeaders(String[]) public abstract java.util.Iterator
+     * javax.xml.soap.AttachmentPart.getNonMatchingMimeHeaders(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#setContentLocation(String) public
-     * void javax.xml.soap.AttachmentPart.setContentLocation(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#setContentLocation(String) public void
+     * javax.xml.soap.AttachmentPart.setContentLocation(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getSize() public abstract int
-     * javax.xml.soap.AttachmentPart.getSize() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getSize() public
+     * abstract int javax.xml.soap.AttachmentPart.getSize() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getMimeHeader(String) public abstract
-     * java.lang.String[] javax.xml.soap.AttachmentPart.getMimeHeader(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getMimeHeader(String)
+     * public abstract java.lang.String[] javax.xml.soap.AttachmentPart.getMimeHeader(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#addMimeHeader(String, String) public
-     * abstract void javax.xml.soap.AttachmentPart.addMimeHeader(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#addMimeHeader(String, String) public abstract void
+     * javax.xml.soap.AttachmentPart.addMimeHeader(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getContentType() public
-     * java.lang.String javax.xml.soap.AttachmentPart.getContentType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getContentType()
+     * public java.lang.String javax.xml.soap.AttachmentPart.getContentType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +169,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getMatchingMimeHeaders(String[])
-     * public abstract java.util.Iterator javax.xml.soap.AttachmentPart.getMatchingMimeHeaders(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#getMatchingMimeHeaders(String[]) public abstract java.util.Iterator
+     * javax.xml.soap.AttachmentPart.getMatchingMimeHeaders(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,8 +192,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getContentLocation() public
-     * java.lang.String javax.xml.soap.AttachmentPart.getContentLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getContentLocation()
+     * public java.lang.String javax.xml.soap.AttachmentPart.getContentLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +214,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#clearContent() public abstract void
-     * javax.xml.soap.AttachmentPart.clearContent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#clearContent() public
+     * abstract void javax.xml.soap.AttachmentPart.clearContent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +236,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#setMimeHeader(String, String) public
-     * abstract void javax.xml.soap.AttachmentPart.setMimeHeader(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#setMimeHeader(String, String) public abstract void
+     * javax.xml.soap.AttachmentPart.setMimeHeader(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +259,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#setBase64Content(InputStream, String)
-     * public abstract void javax.xml.soap.AttachmentPart.setBase64Content(java.io.InputStream,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#setBase64Content(java.io.InputStream, String) public abstract void
+     * javax.xml.soap.AttachmentPart.setBase64Content(java.io.InputStream,java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -279,8 +283,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#removeAllMimeHeaders() public
-     * abstract void javax.xml.soap.AttachmentPart.removeAllMimeHeaders()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#removeAllMimeHeaders()
+     * public abstract void javax.xml.soap.AttachmentPart.removeAllMimeHeaders()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,8 +305,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getDataHandler() public abstract
-     * javax.activation.DataHandler javax.xml.soap.AttachmentPart.getDataHandler() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getDataHandler()
+     * public abstract javax.activation.DataHandler javax.xml.soap.AttachmentPart.getDataHandler() throws
+     * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,7 +329,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AttachmentPart#setRawContentBytes(byte[], int, int, String) public abstract void
+     * {@link javax.xml.soap.AttachmentPart#setRawContentBytes(byte[], int, int, String) public abstract void
      * javax.xml.soap.AttachmentPart.setRawContentBytes(byte[],int,int,java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
@@ -347,8 +352,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#setRawContent(InputStream, String)
-     * public abstract void javax.xml.soap.AttachmentPart.setRawContent(java.io.InputStream,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#setRawContent(java.io.InputStream, String) public abstract void
+     * javax.xml.soap.AttachmentPart.setRawContent(java.io.InputStream,java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -370,7 +376,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getContentId() public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getContentId() public
      * java.lang.String javax.xml.soap.AttachmentPart.getContentId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -392,8 +398,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getRawContentBytes() public abstract
-     * byte[] javax.xml.soap.AttachmentPart.getRawContentBytes() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getRawContentBytes()
+     * public abstract byte[] javax.xml.soap.AttachmentPart.getRawContentBytes() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -414,8 +420,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getAllMimeHeaders() public abstract
-     * java.util.Iterator javax.xml.soap.AttachmentPart.getAllMimeHeaders()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getAllMimeHeaders()
+     * public abstract java.util.Iterator javax.xml.soap.AttachmentPart.getAllMimeHeaders()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -436,8 +442,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#setContentType(String) public void
-     * javax.xml.soap.AttachmentPart.setContentType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#setContentType(String)
+     * public void javax.xml.soap.AttachmentPart.setContentType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -458,8 +464,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getRawContent() public abstract
-     * java.io.InputStream javax.xml.soap.AttachmentPart.getRawContent() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getRawContent() public
+     * abstract java.io.InputStream javax.xml.soap.AttachmentPart.getRawContent() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -480,8 +486,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getBase64Content() public abstract
-     * java.io.InputStream javax.xml.soap.AttachmentPart.getBase64Content() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getBase64Content()
+     * public abstract java.io.InputStream javax.xml.soap.AttachmentPart.getBase64Content() throws
+     * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -502,8 +509,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#removeMimeHeader(String) public
-     * abstract void javax.xml.soap.AttachmentPart.removeMimeHeader(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#removeMimeHeader(String) public abstract void
+     * javax.xml.soap.AttachmentPart.removeMimeHeader(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -524,8 +532,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#setDataHandler(DataHandler) public
-     * abstract void javax.xml.soap.AttachmentPart.setDataHandler(javax.activation.DataHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#setDataHandler(javax.activation.DataHandler) public abstract void
+     * javax.xml.soap.AttachmentPart.setDataHandler(javax.activation.DataHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -546,8 +555,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#setContent(Object, String) public
-     * abstract void javax.xml.soap.AttachmentPart.setContent(java.lang.Object,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.AttachmentPart#setContent(Object, String) public abstract void
+     * javax.xml.soap.AttachmentPart.setContent(java.lang.Object,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -568,8 +578,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#getContent() public abstract
-     * java.lang.Object javax.xml.soap.AttachmentPart.getContent() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#getContent() public
+     * abstract java.lang.Object javax.xml.soap.AttachmentPart.getContent() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -590,8 +600,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttachmentPart#setContentId(String) public void
-     * javax.xml.soap.AttachmentPart.setContentId(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.AttachmentPart#setContentId(String)
+     * public void javax.xml.soap.AttachmentPart.setContentId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

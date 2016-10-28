@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.lang.management;
 
 import java.lang.management.MemoryNotificationInfo;
-import java.lang.management.MemoryUsage;
-import javax.management.openmbean.CompositeData;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.lang.management.MemoryNotificationInfoClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MemoryNotificationInfo#MemoryNotificationInfo(String, MemoryUsage, long) public
-     * java.lang.management.MemoryNotificationInfo(java.lang.String,java.lang.management.MemoryUsage,long)}.
+     * {@link java.lang.management.MemoryNotificationInfo#MemoryNotificationInfo(String, java.lang.management.MemoryUsage, long)
+     * public java.lang.management.MemoryNotificationInfo(java.lang.String,java.lang.management.MemoryUsage,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +39,15 @@ implements org.j8unit.repository.java.lang.management.MemoryNotificationInfoClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MemoryNotificationInfo sut = null; // = new MemoryNotificationInfo(String, MemoryUsage, long);
+        final MemoryNotificationInfo sut = null; // = new MemoryNotificationInfo(String,
+                                                 // java.lang.management.MemoryUsage, long);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MemoryNotificationInfo#from(CompositeData) public
-     * static java.lang.management.MemoryNotificationInfo
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MemoryNotificationInfo#from(javax.management.openmbean.CompositeData) public static
+     * java.lang.management.MemoryNotificationInfo
      * java.lang.management.MemoryNotificationInfo.from(javax.management.openmbean.CompositeData)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,8 @@ implements org.j8unit.repository.java.lang.management.MemoryNotificationInfoClas
     @Category(Draft.class)
     public void test_from_CompositeData()
     throws Exception {
-        // write some test for {@link MemoryNotificationInfo#from(CompositeData)}
+        // write some test for {@link
+        // java.lang.management.MemoryNotificationInfo#from(javax.management.openmbean.CompositeData)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.MemoryNotificationInfo]

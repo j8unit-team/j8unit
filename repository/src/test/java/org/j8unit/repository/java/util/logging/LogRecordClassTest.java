@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.logging;
 
-import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.util.logging.LogRecordClassTests<LogRecord
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LogRecord#LogRecord(Level, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.logging.LogRecord#LogRecord(java.util.logging.Level, String) public
      * java.util.logging.LogRecord(java.util.logging.Level,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.java.util.logging.LogRecordClassTests<LogRecord
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LogRecord sut = null; // = new LogRecord(Level, String);
+        final LogRecord sut = null; // = new LogRecord(java.util.logging.Level, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.LogRecord]

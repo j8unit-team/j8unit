@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind.helpers;
 
-import javax.xml.bind.ValidationEventLocator;
 import javax.xml.bind.helpers.PrintConversionEventImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.xml.bind.helpers.PrintConversionEventImpl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrintConversionEventImpl#PrintConversionEventImpl(int, String, ValidationEventLocator) public
+     * {@link javax.xml.bind.helpers.PrintConversionEventImpl#PrintConversionEventImpl(int, String, javax.xml.bind.ValidationEventLocator)
+     * public
      * javax.xml.bind.helpers.PrintConversionEventImpl(int,java.lang.String,javax.xml.bind.ValidationEventLocator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +41,14 @@ implements org.j8unit.repository.javax.xml.bind.helpers.PrintConversionEventImpl
         // create new instance
         @SuppressWarnings("unused")
         final PrintConversionEventImpl sut = null; // = new PrintConversionEventImpl(int, String,
-                                                   // ValidationEventLocator);
+                                                   // javax.xml.bind.ValidationEventLocator);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrintConversionEventImpl#PrintConversionEventImpl(int, String, ValidationEventLocator, Throwable) public
+     * {@link javax.xml.bind.helpers.PrintConversionEventImpl#PrintConversionEventImpl(int, String, javax.xml.bind.ValidationEventLocator, Throwable)
+     * public
      * javax.xml.bind.helpers.PrintConversionEventImpl(int,java.lang.String,javax.xml.bind.ValidationEventLocator,java.lang.Throwable)}
      * .
      *
@@ -66,7 +67,7 @@ implements org.j8unit.repository.javax.xml.bind.helpers.PrintConversionEventImpl
         // create new instance
         @SuppressWarnings("unused")
         final PrintConversionEventImpl sut = null; // = new PrintConversionEventImpl(int, String,
-                                                   // ValidationEventLocator, Throwable);
+                                                   // javax.xml.bind.ValidationEventLocator, Throwable);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.PrintConversionEventImpl]

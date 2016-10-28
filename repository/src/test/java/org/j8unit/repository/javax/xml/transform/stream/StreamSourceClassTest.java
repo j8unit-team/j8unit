@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.xml.transform.stream;
 
-import java.io.File;
-import java.io.InputStream;
-import java.io.Reader;
 import javax.xml.transform.stream.StreamSource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +21,8 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamSourceClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamSource#StreamSource(Reader) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamSource#StreamSource(java.io.Reader) public
      * javax.xml.transform.stream.StreamSource(java.io.Reader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,14 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamSourceClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamSource sut = null; // = new StreamSource(Reader);
+        final StreamSource sut = null; // = new StreamSource(java.io.Reader);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamSource#StreamSource(Reader, String)
-     * public javax.xml.transform.stream.StreamSource(java.io.Reader,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamSource#StreamSource(java.io.Reader, String) public
+     * javax.xml.transform.stream.StreamSource(java.io.Reader,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,12 +62,13 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamSourceClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamSource sut = null; // = new StreamSource(Reader, String);
+        final StreamSource sut = null; // = new StreamSource(java.io.Reader, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamSource#StreamSource(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamSource#StreamSource(String) public
      * javax.xml.transform.stream.StreamSource(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,7 +90,8 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamSourceClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamSource#StreamSource(File) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamSource#StreamSource(java.io.File) public
      * javax.xml.transform.stream.StreamSource(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,13 +108,13 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamSourceClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamSource sut = null; // = new StreamSource(File);
+        final StreamSource sut = null; // = new StreamSource(java.io.File);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamSource#StreamSource() public
-     * javax.xml.transform.stream.StreamSource()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamSource#StreamSource() public javax.xml.transform.stream.StreamSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,7 +134,8 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamSourceClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamSource#StreamSource(InputStream) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamSource#StreamSource(java.io.InputStream) public
      * javax.xml.transform.stream.StreamSource(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,13 +152,14 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamSourceClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamSource sut = null; // = new StreamSource(InputStream);
+        final StreamSource sut = null; // = new StreamSource(java.io.InputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StreamSource#StreamSource(InputStream, String)
-     * public javax.xml.transform.stream.StreamSource(java.io.InputStream,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.stream.StreamSource#StreamSource(java.io.InputStream, String) public
+     * javax.xml.transform.stream.StreamSource(java.io.InputStream,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,7 +175,7 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamSourceClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StreamSource sut = null; // = new StreamSource(InputStream, String);
+        final StreamSource sut = null; // = new StreamSource(java.io.InputStream, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.stream.StreamSource]

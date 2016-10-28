@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.accessibility;
 
 import javax.accessibility.AccessibleAttributeSequence;
-import javax.swing.text.AttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleAttributeSequence
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccessibleAttributeSequence#AccessibleAttributeSequence(int, int, AttributeSet) public
-     * javax.accessibility.AccessibleAttributeSequence(int,int,javax.swing.text.AttributeSet)}.
+     * {@link javax.accessibility.AccessibleAttributeSequence#AccessibleAttributeSequence(int, int, javax.swing.text.AttributeSet)
+     * public javax.accessibility.AccessibleAttributeSequence(int,int,javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,7 +39,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleAttributeSequence
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AccessibleAttributeSequence sut = null; // = new AccessibleAttributeSequence(int, int, AttributeSet);
+        final AccessibleAttributeSequence sut = null; // = new AccessibleAttributeSequence(int, int,
+                                                      // javax.swing.text.AttributeSet);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleAttributeSequence]

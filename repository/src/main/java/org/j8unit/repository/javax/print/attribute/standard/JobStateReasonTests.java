@@ -34,9 +34,9 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobStateReason#getCategory() public final
-     * java.lang.Class<? extends javax.print.attribute.Attribute>
-     * javax.print.attribute.standard.JobStateReason.getCategory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.JobStateReason#getCategory() public final java.lang.Class<? extends
+     * javax.print.attribute.Attribute> javax.print.attribute.standard.JobStateReason.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JobStateReason#getName() public final
-     * java.lang.String javax.print.attribute.standard.JobStateReason.getName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.JobStateReason#getName() public final java.lang.String
+     * javax.print.attribute.standard.JobStateReason.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

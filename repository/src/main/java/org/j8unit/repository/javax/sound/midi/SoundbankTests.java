@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.midi;
 
-import javax.sound.midi.Patch;
 import javax.sound.midi.Soundbank;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Soundbank#getVendor() public abstract
-     * java.lang.String javax.sound.midi.Soundbank.getVendor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Soundbank#getVendor() public
+     * abstract java.lang.String javax.sound.midi.Soundbank.getVendor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Soundbank#getDescription() public abstract
-     * java.lang.String javax.sound.midi.Soundbank.getDescription()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Soundbank#getDescription() public
+     * abstract java.lang.String javax.sound.midi.Soundbank.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Soundbank#getVersion() public abstract
-     * java.lang.String javax.sound.midi.Soundbank.getVersion()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Soundbank#getVersion() public
+     * abstract java.lang.String javax.sound.midi.Soundbank.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Soundbank#getInstruments() public abstract
-     * javax.sound.midi.Instrument[] javax.sound.midi.Soundbank.getInstruments()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Soundbank#getInstruments() public
+     * abstract javax.sound.midi.Instrument[] javax.sound.midi.Soundbank.getInstruments()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Soundbank#getInstrument(Patch) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Soundbank#getInstrument(javax.sound.midi.Patch) public abstract
      * javax.sound.midi.Instrument javax.sound.midi.Soundbank.getInstrument(javax.sound.midi.Patch)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Soundbank#getName() public abstract java.lang.String
-     * javax.sound.midi.Soundbank.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Soundbank#getName() public abstract
+     * java.lang.String javax.sound.midi.Soundbank.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Soundbank#getResources() public abstract
-     * javax.sound.midi.SoundbankResource[] javax.sound.midi.Soundbank.getResources()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Soundbank#getResources() public
+     * abstract javax.sound.midi.SoundbankResource[] javax.sound.midi.Soundbank.getResources()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

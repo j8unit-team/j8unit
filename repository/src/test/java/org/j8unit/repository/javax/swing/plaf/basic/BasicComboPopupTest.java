@@ -21,21 +21,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests<Bas
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup]
 
     @RunWith(J8Unit4.class)
-    public static class InvocationKeyHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.InvocationKeyHandlerTests<InvocationKeyHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
-
-        @Override
-        public InvocationKeyHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class ListDataHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.ListDataHandlerTests<ListDataHandler> {
 
@@ -47,6 +32,21 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests<Bas
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class InvocationKeyHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests.InvocationKeyHandlerTests<InvocationKeyHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
+
+        @Override
+        public InvocationKeyHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
 
     }
 

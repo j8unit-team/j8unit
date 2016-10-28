@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.spi;
 
-import javax.imageio.ImageReader;
 import javax.imageio.spi.ImageReaderSpi;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderSpi#isOwnReader(ImageReader) public
-     * boolean javax.imageio.spi.ImageReaderSpi.isOwnReader(javax.imageio.ImageReader)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderSpi#isOwnReader(javax.imageio.ImageReader) public boolean
+     * javax.imageio.spi.ImageReaderSpi.isOwnReader(javax.imageio.ImageReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderSpi#getInputTypes() public
-     * java.lang.Class[] javax.imageio.spi.ImageReaderSpi.getInputTypes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.spi.ImageReaderSpi#getInputTypes()
+     * public java.lang.Class[] javax.imageio.spi.ImageReaderSpi.getInputTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,31 +79,9 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderSpi#createReaderInstance(Object) public
-     * abstract javax.imageio.ImageReader javax.imageio.spi.ImageReaderSpi.createReaderInstance(java.lang.Object) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createReaderInstance_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderSpi#createReaderInstance() public
-     * javax.imageio.ImageReader javax.imageio.spi.ImageReaderSpi.createReaderInstance() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderSpi#createReaderInstance() public javax.imageio.ImageReader
+     * javax.imageio.spi.ImageReaderSpi.createReaderInstance() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +102,32 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderSpi#canDecodeInput(Object) public
-     * abstract boolean javax.imageio.spi.ImageReaderSpi.canDecodeInput(java.lang.Object) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderSpi#createReaderInstance(Object) public abstract javax.imageio.ImageReader
+     * javax.imageio.spi.ImageReaderSpi.createReaderInstance(java.lang.Object) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createReaderInstance_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderSpi#canDecodeInput(Object) public abstract boolean
+     * javax.imageio.spi.ImageReaderSpi.canDecodeInput(java.lang.Object) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +148,9 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderSpi#getImageWriterSpiNames() public
-     * java.lang.String[] javax.imageio.spi.ImageReaderSpi.getImageWriterSpiNames()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderSpi#getImageWriterSpiNames() public java.lang.String[]
+     * javax.imageio.spi.ImageReaderSpi.getImageWriterSpiNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

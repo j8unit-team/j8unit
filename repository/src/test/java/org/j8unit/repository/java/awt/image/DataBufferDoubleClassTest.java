@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.image.DataBufferDoubleClassTests<DataB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBufferDouble#DataBufferDouble(double[][], int, int[]) public
+     * {@link java.awt.image.DataBufferDouble#DataBufferDouble(double[][], int, int[]) public
      * java.awt.image.DataBufferDouble(double[][],int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +45,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferDoubleClassTests<DataB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBufferDouble#DataBufferDouble(double[][], int) public java.awt.image.DataBufferDouble(double[][],int)}
-     * .
+     * {@link java.awt.image.DataBufferDouble#DataBufferDouble(double[][], int) public
+     * java.awt.image.DataBufferDouble(double[][],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.awt.image.DataBufferDoubleClassTests<DataB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBufferDouble#DataBufferDouble(double[], int, int) public
+     * {@link java.awt.image.DataBufferDouble#DataBufferDouble(double[], int, int) public
      * java.awt.image.DataBufferDouble(double[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,8 +90,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferDoubleClassTests<DataB
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferDouble#DataBufferDouble(int) public
-     * java.awt.image.DataBufferDouble(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferDouble#DataBufferDouble(int) public java.awt.image.DataBufferDouble(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -112,8 +112,9 @@ implements org.j8unit.repository.java.awt.image.DataBufferDoubleClassTests<DataB
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DataBufferDouble#DataBufferDouble(int, int)
-     * public java.awt.image.DataBufferDouble(int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferDouble#DataBufferDouble(int, int) public
+     * java.awt.image.DataBufferDouble(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,7 +136,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferDoubleClassTests<DataB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DataBufferDouble#DataBufferDouble(double[], int) public java.awt.image.DataBufferDouble(double[],int)}.
+     * {@link java.awt.image.DataBufferDouble#DataBufferDouble(double[], int) public
+     * java.awt.image.DataBufferDouble(double[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

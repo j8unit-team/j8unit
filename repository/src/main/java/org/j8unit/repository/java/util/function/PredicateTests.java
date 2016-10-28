@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Predicate#negate() public default
+     * Test method for the hereby targeted method-under-test {@link java.util.function.Predicate#negate() public default
      * java.util.function.Predicate<T> java.util.function.Predicate.negate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Predicate#and(Predicate) public default
-     * java.util.function.Predicate<T> java.util.function.Predicate.and(java.util.function.Predicate<? super T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.Predicate#and(java.util.function.Predicate) public default java.util.function.Predicate
+     * <T> java.util.function.Predicate.and(java.util.function.Predicate<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Predicate#test(Object) public abstract boolean
-     * java.util.function.Predicate.test(T)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.Predicate#test(Object) public
+     * abstract boolean java.util.function.Predicate.test(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Predicate#or(Predicate) public default
-     * java.util.function.Predicate<T> java.util.function.Predicate.or(java.util.function.Predicate<? super T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.Predicate#or(java.util.function.Predicate) public default java.util.function.Predicate
+     * <T> java.util.function.Predicate.or(java.util.function.Predicate<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

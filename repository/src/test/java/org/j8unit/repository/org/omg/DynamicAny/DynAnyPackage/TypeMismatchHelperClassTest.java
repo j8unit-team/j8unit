@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.DynamicAny.DynAnyPackage.TypeMismatch;
 import org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,7 +22,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TypeMismatchHelper#TypeMismatchHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#TypeMismatchHelper() public
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +43,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMismatchHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
@@ -62,12 +60,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHe
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link TypeMismatchHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMismatchHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -83,13 +83,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHe
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link TypeMismatchHelper#extract(Any)}
+        // write some test for {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMismatchHelper#id() public static
-     * java.lang.String org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#id() public static java.lang.String
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,13 +104,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHe
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link TypeMismatchHelper#id()}
+        // write some test for {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMismatchHelper#insert(Any, TypeMismatch) public
-     * static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#insert(org.omg.CORBA.Any, org.omg.DynamicAny.DynAnyPackage.TypeMismatch)
+     * public static void
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAnyPackage.TypeMismatch)}
      * .
      *
@@ -125,12 +127,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHe
     @Category(Draft.class)
     public void test_insert_Any_TypeMismatch()
     throws Exception {
-        // write some test for {@link TypeMismatchHelper#insert(Any, TypeMismatch)}
+        // write some test for {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#insert(org.omg.CORBA.Any,
+        // org.omg.DynamicAny.DynAnyPackage.TypeMismatch)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMismatchHelper#type() public static synchronized
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#type() public static synchronized
      * org.omg.CORBA.TypeCode org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,12 +149,13 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHe
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link TypeMismatchHelper#type()}
+        // write some test for {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeMismatchHelper#write(OutputStream, TypeMismatch)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.DynamicAny.DynAnyPackage.TypeMismatch)
      * public static void
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynAnyPackage.TypeMismatch)}
      * .
@@ -167,7 +172,9 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHe
     @Category(Draft.class)
     public void test_write_OutputStream_TypeMismatch()
     throws Exception {
-        // write some test for {@link TypeMismatchHelper#write(OutputStream, TypeMismatch)}
+        // write some test for {@link
+        // org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.DynamicAny.DynAnyPackage.TypeMismatch)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper]

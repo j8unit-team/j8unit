@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.logging;
 
-import java.util.ResourceBundle;
-import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setMessage(String) public void
-     * java.util.logging.LogRecord.setMessage(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#setMessage(String)
+     * public void java.util.logging.LogRecord.setMessage(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getMillis() public long
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getMillis() public long
      * java.util.logging.LogRecord.getMillis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setMillis(long) public void
-     * java.util.logging.LogRecord.setMillis(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#setMillis(long) public
+     * void java.util.logging.LogRecord.setMillis(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +100,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setThreadID(int) public void
-     * java.util.logging.LogRecord.setThreadID(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#setThreadID(int) public
+     * void java.util.logging.LogRecord.setThreadID(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +122,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setLevel(Level) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LogRecord#setLevel(java.util.logging.Level) public void
      * java.util.logging.LogRecord.setLevel(java.util.logging.Level)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +145,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getMessage() public java.lang.String
-     * java.util.logging.LogRecord.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getMessage() public
+     * java.lang.String java.util.logging.LogRecord.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +167,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setResourceBundleName(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LogRecord#setResourceBundleName(String) public void
      * java.util.logging.LogRecord.setResourceBundleName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,8 +190,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getThrown() public java.lang.Throwable
-     * java.util.logging.LogRecord.getThrown()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getThrown() public
+     * java.lang.Throwable java.util.logging.LogRecord.getThrown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +212,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setThrown(Throwable) public void
-     * java.util.logging.LogRecord.setThrown(java.lang.Throwable)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#setThrown(Throwable)
+     * public void java.util.logging.LogRecord.setThrown(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +234,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setResourceBundle(ResourceBundle) public
-     * void java.util.logging.LogRecord.setResourceBundle(java.util.ResourceBundle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LogRecord#setResourceBundle(java.util.ResourceBundle) public void
+     * java.util.logging.LogRecord.setResourceBundle(java.util.ResourceBundle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,8 +257,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getSourceMethodName() public
-     * java.lang.String java.util.logging.LogRecord.getSourceMethodName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getSourceMethodName()
+     * public java.lang.String java.util.logging.LogRecord.getSourceMethodName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,8 +279,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getSequenceNumber() public long
-     * java.util.logging.LogRecord.getSequenceNumber()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getSequenceNumber()
+     * public long java.util.logging.LogRecord.getSequenceNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,8 +301,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getResourceBundle() public
-     * java.util.ResourceBundle java.util.logging.LogRecord.getResourceBundle()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getResourceBundle()
+     * public java.util.ResourceBundle java.util.logging.LogRecord.getResourceBundle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -322,8 +323,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getParameters() public java.lang.Object[]
-     * java.util.logging.LogRecord.getParameters()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getParameters() public
+     * java.lang.Object[] java.util.logging.LogRecord.getParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -344,8 +345,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getLoggerName() public java.lang.String
-     * java.util.logging.LogRecord.getLoggerName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getLoggerName() public
+     * java.lang.String java.util.logging.LogRecord.getLoggerName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -366,8 +367,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getResourceBundleName() public
-     * java.lang.String java.util.logging.LogRecord.getResourceBundleName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getResourceBundleName()
+     * public java.lang.String java.util.logging.LogRecord.getResourceBundleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -388,7 +389,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getThreadID() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getThreadID() public int
      * java.util.logging.LogRecord.getThreadID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -410,8 +411,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setSequenceNumber(long) public void
-     * java.util.logging.LogRecord.setSequenceNumber(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#setSequenceNumber(long)
+     * public void java.util.logging.LogRecord.setSequenceNumber(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -432,7 +433,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setSourceMethodName(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LogRecord#setSourceMethodName(String) public void
      * java.util.logging.LogRecord.setSourceMethodName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -454,8 +456,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setParameters(Object[]) public void
-     * java.util.logging.LogRecord.setParameters(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#setParameters(Object[])
+     * public void java.util.logging.LogRecord.setParameters(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -476,8 +478,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getLevel() public java.util.logging.Level
-     * java.util.logging.LogRecord.getLevel()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getLevel() public
+     * java.util.logging.Level java.util.logging.LogRecord.getLevel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -498,7 +500,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setSourceClassName(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.LogRecord#setSourceClassName(String) public void
      * java.util.logging.LogRecord.setSourceClassName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -520,8 +523,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#setLoggerName(String) public void
-     * java.util.logging.LogRecord.setLoggerName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#setLoggerName(String)
+     * public void java.util.logging.LogRecord.setLoggerName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -542,8 +545,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LogRecord#getSourceClassName() public
-     * java.lang.String java.util.logging.LogRecord.getSourceClassName()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.logging.LogRecord#getSourceClassName()
+     * public java.lang.String java.util.logging.LogRecord.getSourceClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

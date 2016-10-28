@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OctetStreamData#getURI() public java.lang.String
-     * javax.xml.crypto.OctetStreamData.getURI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.OctetStreamData#getURI() public
+     * java.lang.String javax.xml.crypto.OctetStreamData.getURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OctetStreamData#getOctetStream() public
-     * java.io.InputStream javax.xml.crypto.OctetStreamData.getOctetStream()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.OctetStreamData#getOctetStream()
+     * public java.io.InputStream javax.xml.crypto.OctetStreamData.getOctetStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OctetStreamData#getMimeType() public
-     * java.lang.String javax.xml.crypto.OctetStreamData.getMimeType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.OctetStreamData#getMimeType()
+     * public java.lang.String javax.xml.crypto.OctetStreamData.getMimeType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

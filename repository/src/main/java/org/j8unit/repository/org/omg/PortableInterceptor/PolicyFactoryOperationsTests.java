@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.Any;
 import org.omg.PortableInterceptor.PolicyFactoryOperations;
 
 /**
@@ -36,10 +35,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyFactoryOperations#create_policy(int, Any)
-     * public abstract org.omg.CORBA.Policy
-     * org.omg.PortableInterceptor.PolicyFactoryOperations.create_policy(int,org.omg.CORBA.Any) throws
-     * org.omg.CORBA.PolicyError}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.PolicyFactoryOperations#create_policy(int, org.omg.CORBA.Any) public abstract
+     * org.omg.CORBA.Policy org.omg.PortableInterceptor.PolicyFactoryOperations.create_policy(int,org.omg.CORBA.Any)
+     * throws org.omg.CORBA.PolicyError}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

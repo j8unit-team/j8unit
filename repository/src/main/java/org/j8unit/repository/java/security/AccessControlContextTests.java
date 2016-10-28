@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.AccessControlContext;
-import java.security.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessControlContext#checkPermission(Permission)
-     * public void java.security.AccessControlContext.checkPermission(java.security.Permission) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AccessControlContext#checkPermission(java.security.Permission) public void
+     * java.security.AccessControlContext.checkPermission(java.security.Permission) throws
      * java.security.AccessControlException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessControlContext#hashCode() public int
-     * java.security.AccessControlContext.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AccessControlContext#hashCode() public
+     * int java.security.AccessControlContext.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessControlContext#equals(Object) public boolean
-     * java.security.AccessControlContext.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AccessControlContext#equals(Object)
+     * public boolean java.security.AccessControlContext.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessControlContext#getDomainCombiner() public
-     * java.security.DomainCombiner java.security.AccessControlContext.getDomainCombiner()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AccessControlContext#getDomainCombiner() public java.security.DomainCombiner
+     * java.security.AccessControlContext.getDomainCombiner()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

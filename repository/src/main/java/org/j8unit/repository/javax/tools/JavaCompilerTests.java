@@ -1,12 +1,7 @@
 package org.j8unit.repository.javax.tools;
 
-import java.io.Writer;
-import java.nio.charset.Charset;
-import java.util.Locale;
-import javax.tools.DiagnosticListener;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaCompiler.CompilationTask;
-import javax.tools.JavaFileManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,8 +36,8 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JavaCompiler#getStandardFileManager(DiagnosticListener, Locale, Charset) public abstract
-     * javax.tools.StandardJavaFileManager
+     * {@link javax.tools.JavaCompiler#getStandardFileManager(javax.tools.DiagnosticListener, java.util.Locale, java.nio.charset.Charset)
+     * public abstract javax.tools.StandardJavaFileManager
      * javax.tools.JavaCompiler.getStandardFileManager(javax.tools.DiagnosticListener<? super
      * javax.tools.JavaFileObject>,java.util.Locale,java.nio.charset.Charset)}.
      *
@@ -66,8 +61,8 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JavaCompiler#getTask(Writer, JavaFileManager, DiagnosticListener, Iterable, Iterable, Iterable) public
-     * abstract javax.tools.JavaCompiler$CompilationTask
+     * {@link javax.tools.JavaCompiler#getTask(java.io.Writer, javax.tools.JavaFileManager, javax.tools.DiagnosticListener, Iterable, Iterable, Iterable)
+     * public abstract javax.tools.JavaCompiler$CompilationTask
      * javax.tools.JavaCompiler.getTask(java.io.Writer,javax.tools.JavaFileManager,javax.tools.DiagnosticListener<?
      * super javax.tools.JavaFileObject>,java.lang.Iterable<java.lang.String>,java.lang.Iterable
      * <java.lang.String>,java.lang.Iterable<? extends javax.tools.JavaFileObject>)}.
@@ -118,8 +113,8 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link CompilationTask#call() public abstract
-         * java.lang.Boolean javax.tools.JavaCompiler$CompilationTask.call()}.
+         * Test method for the hereby targeted method-under-test {@link javax.tools.JavaCompiler.CompilationTask#call()
+         * public abstract java.lang.Boolean javax.tools.JavaCompiler$CompilationTask.call()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -141,8 +136,9 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link CompilationTask#setProcessors(Iterable) public
-         * abstract void javax.tools.JavaCompiler$CompilationTask.setProcessors(java.lang.Iterable<? extends
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.tools.JavaCompiler.CompilationTask#setProcessors(Iterable) public abstract void
+         * javax.tools.JavaCompiler$CompilationTask.setProcessors(java.lang.Iterable<? extends
          * javax.annotation.processing.Processor>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -164,8 +160,9 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link CompilationTask#setLocale(Locale) public
-         * abstract void javax.tools.JavaCompiler$CompilationTask.setLocale(java.util.Locale)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.tools.JavaCompiler.CompilationTask#setLocale(java.util.Locale) public abstract void
+         * javax.tools.JavaCompiler$CompilationTask.setLocale(java.util.Locale)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

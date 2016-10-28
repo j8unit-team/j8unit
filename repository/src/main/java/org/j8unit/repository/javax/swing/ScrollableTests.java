@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Rectangle;
 import javax.swing.Scrollable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Scrollable#getScrollableTracksViewportHeight()
-     * public abstract boolean javax.swing.Scrollable.getScrollableTracksViewportHeight()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.Scrollable#getScrollableTracksViewportHeight() public abstract boolean
+     * javax.swing.Scrollable.getScrollableTracksViewportHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +59,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Scrollable#getScrollableUnitIncrement(Rectangle, int, int) public abstract int
+     * {@link javax.swing.Scrollable#getScrollableUnitIncrement(java.awt.Rectangle, int, int) public abstract int
      * javax.swing.Scrollable.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Scrollable#getScrollableTracksViewportWidth() public
-     * abstract boolean javax.swing.Scrollable.getScrollableTracksViewportWidth()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.Scrollable#getScrollableTracksViewportWidth() public abstract boolean
+     * javax.swing.Scrollable.getScrollableTracksViewportWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +105,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Scrollable#getScrollableBlockIncrement(Rectangle, int, int) public abstract int
+     * {@link javax.swing.Scrollable#getScrollableBlockIncrement(java.awt.Rectangle, int, int) public abstract int
      * javax.swing.Scrollable.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Scrollable#getPreferredScrollableViewportSize()
-     * public abstract java.awt.Dimension javax.swing.Scrollable.getPreferredScrollableViewportSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.Scrollable#getPreferredScrollableViewportSize() public abstract java.awt.Dimension
+     * javax.swing.Scrollable.getPreferredScrollableViewportSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

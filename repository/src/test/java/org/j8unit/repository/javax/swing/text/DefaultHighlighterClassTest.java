@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Color;
 import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.DefaultHighlighter.DefaultHighlightPainter;
 import org.j8unit.repository.categories.Draft;
@@ -23,8 +22,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<D
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DefaultHighlighter#DefaultHighlighter() public
-     * javax.swing.text.DefaultHighlighter()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.DefaultHighlighter#DefaultHighlighter() public javax.swing.text.DefaultHighlighter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<D
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link DefaultHighlightPainter#DefaultHighlightPainter(Color) public
-         * javax.swing.text.DefaultHighlighter$DefaultHighlightPainter(java.awt.Color)}.
+         * {@link javax.swing.text.DefaultHighlighter.DefaultHighlightPainter#DefaultHighlightPainter(java.awt.Color)
+         * public javax.swing.text.DefaultHighlighter$DefaultHighlightPainter(java.awt.Color)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -75,7 +74,7 @@ implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<D
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final DefaultHighlightPainter sut = null; // = new DefaultHighlightPainter(Color);
+            final DefaultHighlightPainter sut = null; // = new DefaultHighlightPainter(java.awt.Color);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]

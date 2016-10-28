@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Frame;
-import java.awt.GraphicsConfiguration;
-import java.awt.Window;
 import javax.swing.JWindow;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +21,9 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JWindow#JWindow(Window, GraphicsConfiguration)
-     * public javax.swing.JWindow(java.awt.Window,java.awt.GraphicsConfiguration)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JWindow#JWindow(java.awt.Window, java.awt.GraphicsConfiguration) public
+     * javax.swing.JWindow(java.awt.Window,java.awt.GraphicsConfiguration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +39,13 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JWindow sut = null; // = new JWindow(Window, GraphicsConfiguration);
+        final JWindow sut = null; // = new JWindow(java.awt.Window, java.awt.GraphicsConfiguration);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JWindow#JWindow(Window) public
-     * javax.swing.JWindow(java.awt.Window)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JWindow#JWindow(java.awt.Window)
+     * public javax.swing.JWindow(java.awt.Window)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,13 +61,13 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JWindow sut = null; // = new JWindow(Window);
+        final JWindow sut = null; // = new JWindow(java.awt.Window);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JWindow#JWindow(Frame) public
-     * javax.swing.JWindow(java.awt.Frame)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JWindow#JWindow(java.awt.Frame)
+     * public javax.swing.JWindow(java.awt.Frame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,12 +83,13 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JWindow sut = null; // = new JWindow(Frame);
+        final JWindow sut = null; // = new JWindow(java.awt.Frame);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JWindow#JWindow(GraphicsConfiguration) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JWindow#JWindow(java.awt.GraphicsConfiguration) public
      * javax.swing.JWindow(java.awt.GraphicsConfiguration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,13 +106,13 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JWindow sut = null; // = new JWindow(GraphicsConfiguration);
+        final JWindow sut = null; // = new JWindow(java.awt.GraphicsConfiguration);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JWindow#JWindow() public javax.swing.JWindow()}
-     * .
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JWindow#JWindow() public
+     * javax.swing.JWindow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

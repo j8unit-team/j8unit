@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Doc#getPrintData() public abstract java.lang.Object
-     * javax.print.Doc.getPrintData() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.Doc#getPrintData() public abstract
+     * java.lang.Object javax.print.Doc.getPrintData() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Doc#getDocFlavor() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.print.Doc#getDocFlavor() public abstract
      * javax.print.DocFlavor javax.print.Doc.getDocFlavor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Doc#getStreamForBytes() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.print.Doc#getStreamForBytes() public abstract
      * java.io.InputStream javax.print.Doc.getStreamForBytes() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Doc#getReaderForText() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.print.Doc#getReaderForText() public abstract
      * java.io.Reader javax.print.Doc.getReaderForText() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Doc#getAttributes() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.print.Doc#getAttributes() public abstract
      * javax.print.attribute.DocAttributeSet javax.print.Doc.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

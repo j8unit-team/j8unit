@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContextList#add(String) public abstract void
-     * org.omg.CORBA.ContextList.add(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ContextList#add(String) public
+     * abstract void org.omg.CORBA.ContextList.add(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContextList#item(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ContextList#item(int) public abstract
      * java.lang.String org.omg.CORBA.ContextList.item(int) throws org.omg.CORBA.Bounds}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContextList#remove(int) public abstract void
-     * org.omg.CORBA.ContextList.remove(int) throws org.omg.CORBA.Bounds}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ContextList#remove(int) public
+     * abstract void org.omg.CORBA.ContextList.remove(int) throws org.omg.CORBA.Bounds}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContextList#count() public abstract int
-     * org.omg.CORBA.ContextList.count()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.ContextList#count() public abstract
+     * int org.omg.CORBA.ContextList.count()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

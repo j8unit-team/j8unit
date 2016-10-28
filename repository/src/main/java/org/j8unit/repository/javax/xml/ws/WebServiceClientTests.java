@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceClient#targetNamespace() public abstract
-     * java.lang.String javax.xml.ws.WebServiceClient.targetNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceClient#targetNamespace()
+     * public abstract java.lang.String javax.xml.ws.WebServiceClient.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceClient#wsdlLocation() public abstract
-     * java.lang.String javax.xml.ws.WebServiceClient.wsdlLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceClient#wsdlLocation() public
+     * abstract java.lang.String javax.xml.ws.WebServiceClient.wsdlLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link WebServiceClient#name() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceClient#name() public abstract
      * java.lang.String javax.xml.ws.WebServiceClient.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

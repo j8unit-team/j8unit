@@ -1,17 +1,11 @@
 package org.j8unit.repository.org.xml.sax;
 
-import java.util.Locale;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.xml.sax.DTDHandler;
-import org.xml.sax.DocumentHandler;
-import org.xml.sax.EntityResolver;
-import org.xml.sax.ErrorHandler;
-import org.xml.sax.InputSource;
 import org.xml.sax.Parser;
 
 /**
@@ -41,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Parser#setEntityResolver(EntityResolver) public
-     * abstract void org.xml.sax.Parser.setEntityResolver(org.xml.sax.EntityResolver)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.Parser#setEntityResolver(org.xml.sax.EntityResolver) public abstract void
+     * org.xml.sax.Parser.setEntityResolver(org.xml.sax.EntityResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Parser#setDTDHandler(DTDHandler) public abstract
-     * void org.xml.sax.Parser.setDTDHandler(org.xml.sax.DTDHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.Parser#setDTDHandler(org.xml.sax.DTDHandler) public abstract void
+     * org.xml.sax.Parser.setDTDHandler(org.xml.sax.DTDHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Parser#setErrorHandler(ErrorHandler) public abstract
-     * void org.xml.sax.Parser.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.Parser#setErrorHandler(org.xml.sax.ErrorHandler) public abstract void
+     * org.xml.sax.Parser.setErrorHandler(org.xml.sax.ErrorHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Parser#parse(InputSource) public abstract void
-     * org.xml.sax.Parser.parse(org.xml.sax.InputSource) throws org.xml.sax.SAXException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Parser#parse(org.xml.sax.InputSource)
+     * public abstract void org.xml.sax.Parser.parse(org.xml.sax.InputSource) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Parser#parse(String) public abstract void
-     * org.xml.sax.Parser.parse(java.lang.String) throws org.xml.sax.SAXException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Parser#parse(String) public abstract
+     * void org.xml.sax.Parser.parse(java.lang.String) throws org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,8 +149,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Parser#setDocumentHandler(DocumentHandler) public
-     * abstract void org.xml.sax.Parser.setDocumentHandler(org.xml.sax.DocumentHandler)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.Parser#setDocumentHandler(org.xml.sax.DocumentHandler) public abstract void
+     * org.xml.sax.Parser.setDocumentHandler(org.xml.sax.DocumentHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +172,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Parser#setLocale(Locale) public abstract void
-     * org.xml.sax.Parser.setLocale(java.util.Locale) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.Parser#setLocale(java.util.Locale)
+     * public abstract void org.xml.sax.Parser.setLocale(java.util.Locale) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.NotificationBroadcaster;
-import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NotificationBroadcaster#addNotificationListener(NotificationListener, NotificationFilter, Object) public
-     * abstract void
+     * {@link javax.management.NotificationBroadcaster#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
+     * public abstract void
      * javax.management.NotificationBroadcaster.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
      * throws java.lang.IllegalArgumentException}.
      *
@@ -62,9 +60,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotificationBroadcaster#getNotificationInfo() public
-     * abstract javax.management.MBeanNotificationInfo[] javax.management.NotificationBroadcaster.getNotificationInfo()}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.NotificationBroadcaster#getNotificationInfo() public abstract
+     * javax.management.MBeanNotificationInfo[] javax.management.NotificationBroadcaster.getNotificationInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,7 +84,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NotificationBroadcaster#removeNotificationListener(NotificationListener) public abstract void
+     * {@link javax.management.NotificationBroadcaster#removeNotificationListener(javax.management.NotificationListener)
+     * public abstract void
      * javax.management.NotificationBroadcaster.removeNotificationListener(javax.management.NotificationListener) throws
      * javax.management.ListenerNotFoundException}.
      *

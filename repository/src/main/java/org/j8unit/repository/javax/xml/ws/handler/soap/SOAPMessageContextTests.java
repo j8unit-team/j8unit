@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.xml.ws.handler.soap;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.namespace.QName;
-import javax.xml.soap.SOAPMessage;
 import javax.xml.ws.handler.soap.SOAPMessageContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,8 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SOAPMessageContext#getHeaders(QName, JAXBContext, boolean) public abstract java.lang.Object[]
+     * {@link javax.xml.ws.handler.soap.SOAPMessageContext#getHeaders(javax.xml.namespace.QName, javax.xml.bind.JAXBContext, boolean)
+     * public abstract java.lang.Object[]
      * javax.xml.ws.handler.soap.SOAPMessageContext.getHeaders(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,boolean)}
      * .
      *
@@ -61,8 +59,9 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPMessageContext#getMessage() public abstract
-     * javax.xml.soap.SOAPMessage javax.xml.ws.handler.soap.SOAPMessageContext.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.handler.soap.SOAPMessageContext#getMessage() public abstract javax.xml.soap.SOAPMessage
+     * javax.xml.ws.handler.soap.SOAPMessageContext.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +82,9 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPMessageContext#setMessage(SOAPMessage) public
-     * abstract void javax.xml.ws.handler.soap.SOAPMessageContext.setMessage(javax.xml.soap.SOAPMessage)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.handler.soap.SOAPMessageContext#setMessage(javax.xml.soap.SOAPMessage) public abstract void
+     * javax.xml.ws.handler.soap.SOAPMessageContext.setMessage(javax.xml.soap.SOAPMessage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +105,9 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPMessageContext#getRoles() public abstract
-     * java.util.Set<java.lang.String> javax.xml.ws.handler.soap.SOAPMessageContext.getRoles()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.handler.soap.SOAPMessageContext#getRoles() public abstract java.util.Set
+     * <java.lang.String> javax.xml.ws.handler.soap.SOAPMessageContext.getRoles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.net.ssl;
 
-import java.net.Socket;
-import java.security.cert.X509Certificate;
-import javax.net.ssl.SSLEngine;
 import javax.net.ssl.X509ExtendedTrustManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,8 @@ extends org.j8unit.repository.javax.net.ssl.X509TrustManagerTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509ExtendedTrustManager#checkServerTrusted(X509Certificate[], String, Socket) public abstract void
+     * {@link javax.net.ssl.X509ExtendedTrustManager#checkServerTrusted(java.security.cert.X509Certificate[], String, java.net.Socket)
+     * public abstract void
      * javax.net.ssl.X509ExtendedTrustManager.checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
      * throws java.security.cert.CertificateException}.
      *
@@ -62,7 +60,8 @@ extends org.j8unit.repository.javax.net.ssl.X509TrustManagerTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509ExtendedTrustManager#checkServerTrusted(X509Certificate[], String, SSLEngine) public abstract void
+     * {@link javax.net.ssl.X509ExtendedTrustManager#checkServerTrusted(java.security.cert.X509Certificate[], String, javax.net.ssl.SSLEngine)
+     * public abstract void
      * javax.net.ssl.X509ExtendedTrustManager.checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,javax.net.ssl.SSLEngine)
      * throws java.security.cert.CertificateException}.
      *
@@ -86,7 +85,8 @@ extends org.j8unit.repository.javax.net.ssl.X509TrustManagerTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509ExtendedTrustManager#checkClientTrusted(X509Certificate[], String, Socket) public abstract void
+     * {@link javax.net.ssl.X509ExtendedTrustManager#checkClientTrusted(java.security.cert.X509Certificate[], String, java.net.Socket)
+     * public abstract void
      * javax.net.ssl.X509ExtendedTrustManager.checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
      * throws java.security.cert.CertificateException}.
      *
@@ -110,7 +110,8 @@ extends org.j8unit.repository.javax.net.ssl.X509TrustManagerTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link X509ExtendedTrustManager#checkClientTrusted(X509Certificate[], String, SSLEngine) public abstract void
+     * {@link javax.net.ssl.X509ExtendedTrustManager#checkClientTrusted(java.security.cert.X509Certificate[], String, javax.net.ssl.SSLEngine)
+     * public abstract void
      * javax.net.ssl.X509ExtendedTrustManager.checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String,javax.net.ssl.SSLEngine)
      * throws java.security.cert.CertificateException}.
      *

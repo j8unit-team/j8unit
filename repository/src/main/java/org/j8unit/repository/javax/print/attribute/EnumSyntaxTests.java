@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumSyntax#getValue() public int
-     * javax.print.attribute.EnumSyntax.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.EnumSyntax#getValue() public
+     * int javax.print.attribute.EnumSyntax.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumSyntax#hashCode() public int
-     * javax.print.attribute.EnumSyntax.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.EnumSyntax#hashCode() public
+     * int javax.print.attribute.EnumSyntax.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumSyntax#toString() public java.lang.String
-     * javax.print.attribute.EnumSyntax.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.EnumSyntax#toString() public
+     * java.lang.String javax.print.attribute.EnumSyntax.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumSyntax#clone() public java.lang.Object
-     * javax.print.attribute.EnumSyntax.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.EnumSyntax#clone() public
+     * java.lang.Object javax.print.attribute.EnumSyntax.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

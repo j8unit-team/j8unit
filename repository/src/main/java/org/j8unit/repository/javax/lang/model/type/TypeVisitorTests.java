@@ -1,18 +1,6 @@
 package org.j8unit.repository.javax.lang.model.type;
 
-import javax.lang.model.type.ArrayType;
-import javax.lang.model.type.DeclaredType;
-import javax.lang.model.type.ErrorType;
-import javax.lang.model.type.ExecutableType;
-import javax.lang.model.type.IntersectionType;
-import javax.lang.model.type.NoType;
-import javax.lang.model.type.NullType;
-import javax.lang.model.type.PrimitiveType;
-import javax.lang.model.type.TypeMirror;
-import javax.lang.model.type.TypeVariable;
 import javax.lang.model.type.TypeVisitor;
-import javax.lang.model.type.UnionType;
-import javax.lang.model.type.WildcardType;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -47,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitNull(NullType, Object) public
-     * abstract R javax.lang.model.type.TypeVisitor.visitNull(javax.lang.model.type.NullType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitNull(javax.lang.model.type.NullType, Object) public abstract R
+     * javax.lang.model.type.TypeVisitor.visitNull(javax.lang.model.type.NullType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -69,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitUnion(UnionType, Object) public
-     * abstract R javax.lang.model.type.TypeVisitor.visitUnion(javax.lang.model.type.UnionType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitUnion(javax.lang.model.type.UnionType, Object) public abstract R
+     * javax.lang.model.type.TypeVisitor.visitUnion(javax.lang.model.type.UnionType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -91,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitDeclared(DeclaredType, Object)
-     * public abstract R javax.lang.model.type.TypeVisitor.visitDeclared(javax.lang.model.type.DeclaredType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitDeclared(javax.lang.model.type.DeclaredType, Object) public
+     * abstract R javax.lang.model.type.TypeVisitor.visitDeclared(javax.lang.model.type.DeclaredType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -113,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitNoType(NoType, Object) public
-     * abstract R javax.lang.model.type.TypeVisitor.visitNoType(javax.lang.model.type.NoType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitNoType(javax.lang.model.type.NoType, Object) public abstract R
+     * javax.lang.model.type.TypeVisitor.visitNoType(javax.lang.model.type.NoType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitArray(ArrayType, Object) public
-     * abstract R javax.lang.model.type.TypeVisitor.visitArray(javax.lang.model.type.ArrayType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitArray(javax.lang.model.type.ArrayType, Object) public abstract R
+     * javax.lang.model.type.TypeVisitor.visitArray(javax.lang.model.type.ArrayType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,8 +150,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitPrimitive(PrimitiveType, Object)
-     * public abstract R javax.lang.model.type.TypeVisitor.visitPrimitive(javax.lang.model.type.PrimitiveType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitPrimitive(javax.lang.model.type.PrimitiveType, Object) public
+     * abstract R javax.lang.model.type.TypeVisitor.visitPrimitive(javax.lang.model.type.PrimitiveType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -179,8 +173,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitExecutable(ExecutableType, Object)
-     * public abstract R javax.lang.model.type.TypeVisitor.visitExecutable(javax.lang.model.type.ExecutableType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitExecutable(javax.lang.model.type.ExecutableType, Object) public
+     * abstract R javax.lang.model.type.TypeVisitor.visitExecutable(javax.lang.model.type.ExecutableType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,8 +196,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitUnknown(TypeMirror, Object) public
-     * abstract R javax.lang.model.type.TypeVisitor.visitUnknown(javax.lang.model.type.TypeMirror,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitUnknown(javax.lang.model.type.TypeMirror, Object) public abstract R
+     * javax.lang.model.type.TypeVisitor.visitUnknown(javax.lang.model.type.TypeMirror,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,7 +219,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visit(TypeMirror) public abstract R
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visit(javax.lang.model.type.TypeMirror) public abstract R
      * javax.lang.model.type.TypeVisitor.visit(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -245,8 +242,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visit(TypeMirror, Object) public
-     * abstract R javax.lang.model.type.TypeVisitor.visit(javax.lang.model.type.TypeMirror,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visit(javax.lang.model.type.TypeMirror, Object) public abstract R
+     * javax.lang.model.type.TypeVisitor.visit(javax.lang.model.type.TypeMirror,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -268,8 +266,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TypeVisitor#visitIntersection(IntersectionType, Object) public abstract R
-     * javax.lang.model.type.TypeVisitor.visitIntersection(javax.lang.model.type.IntersectionType,P)}.
+     * {@link javax.lang.model.type.TypeVisitor#visitIntersection(javax.lang.model.type.IntersectionType, Object) public
+     * abstract R javax.lang.model.type.TypeVisitor.visitIntersection(javax.lang.model.type.IntersectionType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -290,8 +288,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitError(ErrorType, Object) public
-     * abstract R javax.lang.model.type.TypeVisitor.visitError(javax.lang.model.type.ErrorType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitError(javax.lang.model.type.ErrorType, Object) public abstract R
+     * javax.lang.model.type.TypeVisitor.visitError(javax.lang.model.type.ErrorType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -312,8 +311,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitWildcard(WildcardType, Object)
-     * public abstract R javax.lang.model.type.TypeVisitor.visitWildcard(javax.lang.model.type.WildcardType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitWildcard(javax.lang.model.type.WildcardType, Object) public
+     * abstract R javax.lang.model.type.TypeVisitor.visitWildcard(javax.lang.model.type.WildcardType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -334,8 +334,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVisitor#visitTypeVariable(TypeVariable, Object)
-     * public abstract R javax.lang.model.type.TypeVisitor.visitTypeVariable(javax.lang.model.type.TypeVariable,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.TypeVisitor#visitTypeVariable(javax.lang.model.type.TypeVariable, Object) public
+     * abstract R javax.lang.model.type.TypeVisitor.visitTypeVariable(javax.lang.model.type.TypeVariable,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

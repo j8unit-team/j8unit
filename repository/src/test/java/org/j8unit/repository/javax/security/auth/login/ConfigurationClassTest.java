@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth.login;
 
-import java.security.Provider;
 import javax.security.auth.login.Configuration;
 import javax.security.auth.login.Configuration.Parameters;
 import org.j8unit.repository.categories.Draft;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Configuration#setConfiguration(Configuration) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.Configuration#setConfiguration(javax.security.auth.login.Configuration) public
      * static void javax.security.auth.login.Configuration.setConfiguration(javax.security.auth.login.Configuration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,14 +38,15 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
     @Category(Draft.class)
     public void test_setConfiguration_Configuration()
     throws Exception {
-        // write some test for {@link Configuration#setConfiguration(Configuration)}
+        // write some test for {@link
+        // javax.security.auth.login.Configuration#setConfiguration(javax.security.auth.login.Configuration)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Configuration#getInstance(String, Parameters, String) public static
-     * javax.security.auth.login.Configuration
+     * {@link javax.security.auth.login.Configuration#getInstance(String, javax.security.auth.login.Configuration.Parameters, String)
+     * public static javax.security.auth.login.Configuration
      * javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters,java.lang.String)
      * throws java.security.NoSuchProviderException,java.security.NoSuchAlgorithmException}.
      *
@@ -61,13 +62,15 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
     @Category(Draft.class)
     public void test_getInstance_String_Parameters_String()
     throws Exception {
-        // write some test for {@link Configuration#getInstance(String, Parameters, String)}
+        // write some test for {@link javax.security.auth.login.Configuration#getInstance(String,
+        // javax.security.auth.login.Configuration.Parameters, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Configuration#getInstance(String, Parameters) public
-     * static javax.security.auth.login.Configuration
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.Configuration#getInstance(String, javax.security.auth.login.Configuration.Parameters)
+     * public static javax.security.auth.login.Configuration
      * javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters)
      * throws java.security.NoSuchAlgorithmException}.
      *
@@ -83,14 +86,15 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
     @Category(Draft.class)
     public void test_getInstance_String_Parameters()
     throws Exception {
-        // write some test for {@link Configuration#getInstance(String, Parameters)}
+        // write some test for {@link javax.security.auth.login.Configuration#getInstance(String,
+        // javax.security.auth.login.Configuration.Parameters)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Configuration#getInstance(String, Parameters, Provider) public static
-     * javax.security.auth.login.Configuration
+     * {@link javax.security.auth.login.Configuration#getInstance(String, javax.security.auth.login.Configuration.Parameters, java.security.Provider)
+     * public static javax.security.auth.login.Configuration
      * javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters,java.security.Provider)
      * throws java.security.NoSuchAlgorithmException}.
      *
@@ -106,12 +110,14 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
     @Category(Draft.class)
     public void test_getInstance_String_Parameters_Provider()
     throws Exception {
-        // write some test for {@link Configuration#getInstance(String, Parameters, Provider)}
+        // write some test for {@link javax.security.auth.login.Configuration#getInstance(String,
+        // javax.security.auth.login.Configuration.Parameters, java.security.Provider)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Configuration#getConfiguration() public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.Configuration#getConfiguration() public static
      * javax.security.auth.login.Configuration javax.security.auth.login.Configuration.getConfiguration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +132,7 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
     @Category(Draft.class)
     public void test_getConfiguration()
     throws Exception {
-        // write some test for {@link Configuration#getConfiguration()}
+        // write some test for {@link javax.security.auth.login.Configuration#getConfiguration()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.Configuration]

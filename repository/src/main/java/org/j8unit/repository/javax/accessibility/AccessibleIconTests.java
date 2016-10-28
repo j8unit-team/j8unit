@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleIcon#getAccessibleIconWidth() public
-     * abstract int javax.accessibility.AccessibleIcon.getAccessibleIconWidth()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleIcon#getAccessibleIconWidth() public abstract int
+     * javax.accessibility.AccessibleIcon.getAccessibleIconWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleIcon#setAccessibleIconDescription(String)
-     * public abstract void javax.accessibility.AccessibleIcon.setAccessibleIconDescription(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleIcon#setAccessibleIconDescription(String) public abstract void
+     * javax.accessibility.AccessibleIcon.setAccessibleIconDescription(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleIcon#getAccessibleIconDescription() public
-     * abstract java.lang.String javax.accessibility.AccessibleIcon.getAccessibleIconDescription()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleIcon#getAccessibleIconDescription() public abstract java.lang.String
+     * javax.accessibility.AccessibleIcon.getAccessibleIconDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleIcon#getAccessibleIconHeight() public
-     * abstract int javax.accessibility.AccessibleIcon.getAccessibleIconHeight()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleIcon#getAccessibleIconHeight() public abstract int
+     * javax.accessibility.AccessibleIcon.getAccessibleIconHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

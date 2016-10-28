@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
 import javax.swing.MenuElement;
-import javax.swing.MenuSelectionManager;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MenuElement#processKeyEvent(KeyEvent, MenuElement[], MenuSelectionManager) public abstract void
+     * {@link javax.swing.MenuElement#processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public abstract void
      * javax.swing.MenuElement.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
      *
@@ -62,8 +60,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuElement#getComponent() public abstract
-     * java.awt.Component javax.swing.MenuElement.getComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.MenuElement#getComponent() public
+     * abstract java.awt.Component javax.swing.MenuElement.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +83,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MenuElement#processMouseEvent(MouseEvent, MenuElement[], MenuSelectionManager) public abstract void
+     * {@link javax.swing.MenuElement#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public abstract void
      * javax.swing.MenuElement.processMouseEvent(java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
      *
@@ -108,8 +107,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuElement#getSubElements() public abstract
-     * javax.swing.MenuElement[] javax.swing.MenuElement.getSubElements()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.MenuElement#getSubElements() public
+     * abstract javax.swing.MenuElement[] javax.swing.MenuElement.getSubElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +129,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MenuElement#menuSelectionChanged(boolean) public
-     * abstract void javax.swing.MenuElement.menuSelectionChanged(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.MenuElement#menuSelectionChanged(boolean) public abstract void
+     * javax.swing.MenuElement.menuSelectionChanged(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

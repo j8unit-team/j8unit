@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.beancontext.BeanContextServiceRevokedEvent;
 import java.beans.beancontext.BeanContextServiceRevokedListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +36,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextServiceRevokedListener#serviceRevoked(BeanContextServiceRevokedEvent) public abstract void
+     * {@link java.beans.beancontext.BeanContextServiceRevokedListener#serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)
+     * public abstract void
      * java.beans.beancontext.BeanContextServiceRevokedListener.serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)}
      * .
      *

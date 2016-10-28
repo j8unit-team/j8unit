@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
 import javax.swing.text.IconView;
-import javax.swing.text.Position.Bias;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IconView#getAlignment(int) public float
-     * javax.swing.text.IconView.getAlignment(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.IconView#getAlignment(int) public
+     * float javax.swing.text.IconView.getAlignment(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +57,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IconView#viewToModel(float, float, Shape, Bias[])
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.IconView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
      * public int javax.swing.text.IconView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +81,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IconView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.IconView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.IconView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,7 +105,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IconView#modelToView(int, Shape, Bias) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.IconView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.IconView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias) throws
      * javax.swing.text.BadLocationException}.
      *
@@ -130,8 +130,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IconView#getPreferredSpan(int) public float
-     * javax.swing.text.IconView.getPreferredSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.IconView#getPreferredSpan(int)
+     * public float javax.swing.text.IconView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

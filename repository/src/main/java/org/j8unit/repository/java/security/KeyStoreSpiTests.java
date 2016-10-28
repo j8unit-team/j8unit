@@ -1,13 +1,6 @@
 package org.j8unit.repository.java.security;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.security.Key;
-import java.security.KeyStore.Entry;
-import java.security.KeyStore.LoadStoreParameter;
-import java.security.KeyStore.ProtectionParameter;
 import java.security.KeyStoreSpi;
-import java.security.cert.Certificate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -42,7 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyStoreSpi#engineSetKeyEntry(String, byte[], Certificate[]) public abstract void
+     * {@link java.security.KeyStoreSpi#engineSetKeyEntry(String, byte[], java.security.cert.Certificate[]) public
+     * abstract void
      * java.security.KeyStoreSpi.engineSetKeyEntry(java.lang.String,byte[],java.security.cert.Certificate[]) throws
      * java.security.KeyStoreException}.
      *
@@ -66,7 +60,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyStoreSpi#engineSetKeyEntry(String, Key, char[], Certificate[]) public abstract void
+     * {@link java.security.KeyStoreSpi#engineSetKeyEntry(String, java.security.Key, char[], java.security.cert.Certificate[])
+     * public abstract void
      * java.security.KeyStoreSpi.engineSetKeyEntry(java.lang.String,java.security.Key,char[],java.security.cert.Certificate[])
      * throws java.security.KeyStoreException}.
      *
@@ -89,8 +84,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineIsKeyEntry(String) public abstract
-     * boolean java.security.KeyStoreSpi.engineIsKeyEntry(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStoreSpi#engineIsKeyEntry(String)
+     * public abstract boolean java.security.KeyStoreSpi.engineIsKeyEntry(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +106,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineGetCertificateChain(String) public
-     * abstract java.security.cert.Certificate[] java.security.KeyStoreSpi.engineGetCertificateChain(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineGetCertificateChain(String) public abstract
+     * java.security.cert.Certificate[] java.security.KeyStoreSpi.engineGetCertificateChain(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,8 +129,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineGetCertificate(String) public
-     * abstract java.security.cert.Certificate java.security.KeyStoreSpi.engineGetCertificate(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineGetCertificate(String) public abstract java.security.cert.Certificate
+     * java.security.KeyStoreSpi.engineGetCertificate(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,7 +153,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyStoreSpi#engineSetCertificateEntry(String, Certificate) public abstract void
+     * {@link java.security.KeyStoreSpi#engineSetCertificateEntry(String, java.security.cert.Certificate) public
+     * abstract void
      * java.security.KeyStoreSpi.engineSetCertificateEntry(java.lang.String,java.security.cert.Certificate) throws
      * java.security.KeyStoreException}.
      *
@@ -179,8 +177,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineDeleteEntry(String) public
-     * abstract void java.security.KeyStoreSpi.engineDeleteEntry(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStoreSpi#engineDeleteEntry(String)
+     * public abstract void java.security.KeyStoreSpi.engineDeleteEntry(java.lang.String) throws
      * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -202,8 +200,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineStore(LoadStoreParameter) public
-     * void java.security.KeyStoreSpi.engineStore(java.security.KeyStore$LoadStoreParameter) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineStore(java.security.KeyStore.LoadStoreParameter) public void
+     * java.security.KeyStoreSpi.engineStore(java.security.KeyStore$LoadStoreParameter) throws
      * java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -225,8 +224,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineStore(OutputStream, char[]) public
-     * abstract void java.security.KeyStoreSpi.engineStore(java.io.OutputStream,char[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineStore(java.io.OutputStream, char[]) public abstract void
+     * java.security.KeyStoreSpi.engineStore(java.io.OutputStream,char[]) throws
      * java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -249,7 +249,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyStoreSpi#engineGetEntry(String, ProtectionParameter) public java.security.KeyStore$Entry
+     * {@link java.security.KeyStoreSpi#engineGetEntry(String, java.security.KeyStore.ProtectionParameter) public
+     * java.security.KeyStore$Entry
      * java.security.KeyStoreSpi.engineGetEntry(java.lang.String,java.security.KeyStore$ProtectionParameter) throws
      * java.security.KeyStoreException,java.security.NoSuchAlgorithmException,java.security.UnrecoverableEntryException}
      * .
@@ -273,8 +274,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineAliases() public abstract
-     * java.util.Enumeration<java.lang.String> java.security.KeyStoreSpi.engineAliases()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStoreSpi#engineAliases() public
+     * abstract java.util.Enumeration<java.lang.String> java.security.KeyStoreSpi.engineAliases()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -295,8 +296,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineContainsAlias(String) public
-     * abstract boolean java.security.KeyStoreSpi.engineContainsAlias(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineContainsAlias(String) public abstract boolean
+     * java.security.KeyStoreSpi.engineContainsAlias(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -318,7 +320,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyStoreSpi#engineSetEntry(String, Entry, ProtectionParameter) public void
+     * {@link java.security.KeyStoreSpi#engineSetEntry(String, java.security.KeyStore.Entry, java.security.KeyStore.ProtectionParameter)
+     * public void
      * java.security.KeyStoreSpi.engineSetEntry(java.lang.String,java.security.KeyStore$Entry,java.security.KeyStore$ProtectionParameter)
      * throws java.security.KeyStoreException}.
      *
@@ -341,8 +344,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineLoad(InputStream, char[]) public
-     * abstract void java.security.KeyStoreSpi.engineLoad(java.io.InputStream,char[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineLoad(java.io.InputStream, char[]) public abstract void
+     * java.security.KeyStoreSpi.engineLoad(java.io.InputStream,char[]) throws
      * java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -364,8 +368,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineLoad(LoadStoreParameter) public
-     * void java.security.KeyStoreSpi.engineLoad(java.security.KeyStore$LoadStoreParameter) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineLoad(java.security.KeyStore.LoadStoreParameter) public void
+     * java.security.KeyStoreSpi.engineLoad(java.security.KeyStore$LoadStoreParameter) throws
      * java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -387,8 +392,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineSize() public abstract int
-     * java.security.KeyStoreSpi.engineSize()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStoreSpi#engineSize() public
+     * abstract int java.security.KeyStoreSpi.engineSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,8 +414,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineGetKey(String, char[]) public
-     * abstract java.security.Key java.security.KeyStoreSpi.engineGetKey(java.lang.String,char[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineGetKey(String, char[]) public abstract java.security.Key
+     * java.security.KeyStoreSpi.engineGetKey(java.lang.String,char[]) throws
      * java.security.NoSuchAlgorithmException,java.security.UnrecoverableKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -432,8 +438,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineGetCreationDate(String) public
-     * abstract java.util.Date java.security.KeyStoreSpi.engineGetCreationDate(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineGetCreationDate(String) public abstract java.util.Date
+     * java.security.KeyStoreSpi.engineGetCreationDate(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -454,9 +461,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineGetCertificateAlias(Certificate)
-     * public abstract java.lang.String
-     * java.security.KeyStoreSpi.engineGetCertificateAlias(java.security.cert.Certificate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineGetCertificateAlias(java.security.cert.Certificate) public abstract
+     * java.lang.String java.security.KeyStoreSpi.engineGetCertificateAlias(java.security.cert.Certificate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -477,8 +484,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineEntryInstanceOf(String, Class)
-     * public boolean java.security.KeyStoreSpi.engineEntryInstanceOf(java.lang.String,java.lang.Class<? extends
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineEntryInstanceOf(String, Class) public boolean
+     * java.security.KeyStoreSpi.engineEntryInstanceOf(java.lang.String,java.lang.Class<? extends
      * java.security.KeyStore$Entry>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -500,8 +508,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStoreSpi#engineIsCertificateEntry(String) public
-     * abstract boolean java.security.KeyStoreSpi.engineIsCertificateEntry(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineIsCertificateEntry(String) public abstract boolean
+     * java.security.KeyStoreSpi.engineIsCertificateEntry(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

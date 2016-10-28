@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto;
 
-import java.io.PrintStream;
-import java.io.PrintWriter;
 import javax.xml.crypto.NoSuchMechanismException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NoSuchMechanismException#printStackTrace(PrintWriter) public void
+     * {@link javax.xml.crypto.NoSuchMechanismException#printStackTrace(java.io.PrintWriter) public void
      * javax.xml.crypto.NoSuchMechanismException.printStackTrace(java.io.PrintWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +59,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NoSuchMechanismException#printStackTrace(PrintStream) public void
+     * {@link javax.xml.crypto.NoSuchMechanismException#printStackTrace(java.io.PrintStream) public void
      * javax.xml.crypto.NoSuchMechanismException.printStackTrace(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +82,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NoSuchMechanismException#printStackTrace() public
-     * void javax.xml.crypto.NoSuchMechanismException.printStackTrace()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.NoSuchMechanismException#printStackTrace() public void
+     * javax.xml.crypto.NoSuchMechanismException.printStackTrace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +106,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NoSuchMechanismException#getCause() public
-     * java.lang.Throwable javax.xml.crypto.NoSuchMechanismException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.NoSuchMechanismException#getCause()
+     * public java.lang.Throwable javax.xml.crypto.NoSuchMechanismException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

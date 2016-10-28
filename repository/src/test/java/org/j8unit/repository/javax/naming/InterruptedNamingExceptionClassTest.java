@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.InterruptedNamingExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InterruptedNamingException#InterruptedNamingException(String) public
+     * {@link javax.naming.InterruptedNamingException#InterruptedNamingException(String) public
      * javax.naming.InterruptedNamingException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,8 @@ implements org.j8unit.repository.javax.naming.InterruptedNamingExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InterruptedNamingException#InterruptedNamingException() public javax.naming.InterruptedNamingException()}.
+     * {@link javax.naming.InterruptedNamingException#InterruptedNamingException() public
+     * javax.naming.InterruptedNamingException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -6,9 +6,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.IDLType;
 import org.omg.CORBA.StructMember;
-import org.omg.CORBA.TypeCode;
 
 @RunWith(J8Unit4.class)
 public class StructMemberClassTest
@@ -23,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberClassTests<StructMemb
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StructMember#StructMember() public
-     * org.omg.CORBA.StructMember()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.StructMember#StructMember()
+     * public org.omg.CORBA.StructMember()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +43,7 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberClassTests<StructMemb
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StructMember#StructMember(String, TypeCode, IDLType) public
+     * {@link org.omg.CORBA.StructMember#StructMember(String, org.omg.CORBA.TypeCode, org.omg.CORBA.IDLType) public
      * org.omg.CORBA.StructMember(java.lang.String,org.omg.CORBA.TypeCode,org.omg.CORBA.IDLType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +60,7 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberClassTests<StructMemb
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StructMember sut = null; // = new StructMember(String, TypeCode, IDLType);
+        final StructMember sut = null; // = new StructMember(String, org.omg.CORBA.TypeCode, org.omg.CORBA.IDLType);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.StructMember]

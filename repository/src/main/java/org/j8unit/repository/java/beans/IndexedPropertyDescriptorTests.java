@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.beans;
 
 import java.beans.IndexedPropertyDescriptor;
-import java.lang.reflect.Method;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.beans.PropertyDescriptorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IndexedPropertyDescriptor#setIndexedWriteMethod(Method) public synchronized void
-     * java.beans.IndexedPropertyDescriptor.setIndexedWriteMethod(java.lang.reflect.Method) throws
+     * {@link java.beans.IndexedPropertyDescriptor#setIndexedWriteMethod(java.lang.reflect.Method) public synchronized
+     * void java.beans.IndexedPropertyDescriptor.setIndexedWriteMethod(java.lang.reflect.Method) throws
      * java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,9 @@ extends org.j8unit.repository.java.beans.PropertyDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IndexedPropertyDescriptor#getIndexedWriteMethod()
-     * public synchronized java.lang.reflect.Method java.beans.IndexedPropertyDescriptor.getIndexedWriteMethod()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.IndexedPropertyDescriptor#getIndexedWriteMethod() public synchronized java.lang.reflect.Method
+     * java.beans.IndexedPropertyDescriptor.getIndexedWriteMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ extends org.j8unit.repository.java.beans.PropertyDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IndexedPropertyDescriptor#getIndexedReadMethod()
-     * public synchronized java.lang.reflect.Method java.beans.IndexedPropertyDescriptor.getIndexedReadMethod()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.IndexedPropertyDescriptor#getIndexedReadMethod() public synchronized java.lang.reflect.Method
+     * java.beans.IndexedPropertyDescriptor.getIndexedReadMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,9 @@ extends org.j8unit.repository.java.beans.PropertyDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IndexedPropertyDescriptor#getIndexedPropertyType()
-     * public synchronized java.lang.Class<?> java.beans.IndexedPropertyDescriptor.getIndexedPropertyType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.IndexedPropertyDescriptor#getIndexedPropertyType() public synchronized java.lang.Class
+     * <?> java.beans.IndexedPropertyDescriptor.getIndexedPropertyType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +128,8 @@ extends org.j8unit.repository.java.beans.PropertyDescriptorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IndexedPropertyDescriptor#setIndexedReadMethod(Method) public synchronized void
-     * java.beans.IndexedPropertyDescriptor.setIndexedReadMethod(java.lang.reflect.Method) throws
+     * {@link java.beans.IndexedPropertyDescriptor#setIndexedReadMethod(java.lang.reflect.Method) public synchronized
+     * void java.beans.IndexedPropertyDescriptor.setIndexedReadMethod(java.lang.reflect.Method) throws
      * java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +151,8 @@ extends org.j8unit.repository.java.beans.PropertyDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IndexedPropertyDescriptor#hashCode() public int
-     * java.beans.IndexedPropertyDescriptor.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.IndexedPropertyDescriptor#hashCode()
+     * public int java.beans.IndexedPropertyDescriptor.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +174,8 @@ extends org.j8unit.repository.java.beans.PropertyDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IndexedPropertyDescriptor#equals(Object) public
-     * boolean java.beans.IndexedPropertyDescriptor.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.IndexedPropertyDescriptor#equals(Object)
+     * public boolean java.beans.IndexedPropertyDescriptor.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

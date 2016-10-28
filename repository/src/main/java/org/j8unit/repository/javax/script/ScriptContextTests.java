@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.script;
 
-import java.io.Reader;
-import java.io.Writer;
-import javax.script.Bindings;
 import javax.script.ScriptContext;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -38,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#getScopes() public abstract
-     * java.util.List<java.lang.Integer> javax.script.ScriptContext.getScopes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptContext#getScopes() public
+     * abstract java.util.List<java.lang.Integer> javax.script.ScriptContext.getScopes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#getAttributesScope(String) public
-     * abstract int javax.script.ScriptContext.getAttributesScope(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.script.ScriptContext#getAttributesScope(String) public abstract int
+     * javax.script.ScriptContext.getAttributesScope(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#setBindings(Bindings, int) public
-     * abstract void javax.script.ScriptContext.setBindings(javax.script.Bindings,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.script.ScriptContext#setBindings(javax.script.Bindings, int) public abstract void
+     * javax.script.ScriptContext.setBindings(javax.script.Bindings,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#getBindings(int) public abstract
-     * javax.script.Bindings javax.script.ScriptContext.getBindings(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptContext#getBindings(int) public
+     * abstract javax.script.Bindings javax.script.ScriptContext.getBindings(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +125,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#getReader() public abstract
-     * java.io.Reader javax.script.ScriptContext.getReader()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptContext#getReader() public
+     * abstract java.io.Reader javax.script.ScriptContext.getReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +147,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#setErrorWriter(Writer) public abstract
-     * void javax.script.ScriptContext.setErrorWriter(java.io.Writer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.script.ScriptContext#setErrorWriter(java.io.Writer) public abstract void
+     * javax.script.ScriptContext.setErrorWriter(java.io.Writer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +170,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#setWriter(Writer) public abstract void
-     * javax.script.ScriptContext.setWriter(java.io.Writer)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptContext#setWriter(java.io.Writer)
+     * public abstract void javax.script.ScriptContext.setWriter(java.io.Writer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -192,8 +192,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#removeAttribute(String, int) public
-     * abstract java.lang.Object javax.script.ScriptContext.removeAttribute(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.script.ScriptContext#removeAttribute(String, int) public abstract java.lang.Object
+     * javax.script.ScriptContext.removeAttribute(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +215,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#getWriter() public abstract
-     * java.io.Writer javax.script.ScriptContext.getWriter()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptContext#getWriter() public
+     * abstract java.io.Writer javax.script.ScriptContext.getWriter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,8 +237,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#setReader(Reader) public abstract void
-     * javax.script.ScriptContext.setReader(java.io.Reader)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptContext#setReader(java.io.Reader)
+     * public abstract void javax.script.ScriptContext.setReader(java.io.Reader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +259,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#setAttribute(String, Object, int)
-     * public abstract void javax.script.ScriptContext.setAttribute(java.lang.String,java.lang.Object,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.script.ScriptContext#setAttribute(String, Object, int) public abstract void
+     * javax.script.ScriptContext.setAttribute(java.lang.String,java.lang.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,8 +282,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#getAttribute(String, int) public
-     * abstract java.lang.Object javax.script.ScriptContext.getAttribute(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptContext#getAttribute(String, int)
+     * public abstract java.lang.Object javax.script.ScriptContext.getAttribute(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,8 +304,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#getAttribute(String) public abstract
-     * java.lang.Object javax.script.ScriptContext.getAttribute(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptContext#getAttribute(String)
+     * public abstract java.lang.Object javax.script.ScriptContext.getAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +326,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ScriptContext#getErrorWriter() public abstract
-     * java.io.Writer javax.script.ScriptContext.getErrorWriter()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptContext#getErrorWriter() public
+     * abstract java.io.Writer javax.script.ScriptContext.getErrorWriter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

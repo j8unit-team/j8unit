@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#equals(Object) public boolean
-     * javax.swing.tree.TreePath.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreePath#equals(Object) public
+     * boolean javax.swing.tree.TreePath.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#isDescendant(TreePath) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.TreePath#isDescendant(javax.swing.tree.TreePath) public boolean
      * javax.swing.tree.TreePath.isDescendant(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +80,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreePath#hashCode() public int
      * javax.swing.tree.TreePath.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +103,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#getLastPathComponent() public
-     * java.lang.Object javax.swing.tree.TreePath.getLastPathComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreePath#getLastPathComponent()
+     * public java.lang.Object javax.swing.tree.TreePath.getLastPathComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +125,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#getParentPath() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreePath#getParentPath() public
      * javax.swing.tree.TreePath javax.swing.tree.TreePath.getParentPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +147,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#getPathComponent(int) public
-     * java.lang.Object javax.swing.tree.TreePath.getPathComponent(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreePath#getPathComponent(int)
+     * public java.lang.Object javax.swing.tree.TreePath.getPathComponent(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +169,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#getPath() public java.lang.Object[]
-     * javax.swing.tree.TreePath.getPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreePath#getPath() public
+     * java.lang.Object[] javax.swing.tree.TreePath.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,7 +191,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#getPathCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreePath#getPathCount() public int
      * javax.swing.tree.TreePath.getPathCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -212,8 +213,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#pathByAddingChild(Object) public
-     * javax.swing.tree.TreePath javax.swing.tree.TreePath.pathByAddingChild(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreePath#pathByAddingChild(Object)
+     * public javax.swing.tree.TreePath javax.swing.tree.TreePath.pathByAddingChild(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +235,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TreePath#toString() public java.lang.String
-     * javax.swing.tree.TreePath.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.TreePath#toString() public
+     * java.lang.String javax.swing.tree.TreePath.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.concurrent.locks;
 
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Condition#signalAll() public abstract void
-     * java.util.concurrent.locks.Condition.signalAll()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.Condition#signalAll()
+     * public abstract void java.util.concurrent.locks.Condition.signalAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Condition#awaitNanos(long) public abstract long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.Condition#awaitNanos(long) public abstract long
      * java.util.concurrent.locks.Condition.awaitNanos(long) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Condition#awaitUninterruptibly() public abstract
-     * void java.util.concurrent.locks.Condition.awaitUninterruptibly()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.Condition#awaitUninterruptibly() public abstract void
+     * java.util.concurrent.locks.Condition.awaitUninterruptibly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Condition#await() public abstract void
-     * java.util.concurrent.locks.Condition.await() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.Condition#await() public
+     * abstract void java.util.concurrent.locks.Condition.await() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Condition#await(long, TimeUnit) public abstract
-     * boolean java.util.concurrent.locks.Condition.await(long,java.util.concurrent.TimeUnit) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.Condition#await(long, java.util.concurrent.TimeUnit) public abstract boolean
+     * java.util.concurrent.locks.Condition.await(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,7 +149,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Condition#awaitUntil(Date) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.Condition#awaitUntil(java.util.Date) public abstract boolean
      * java.util.concurrent.locks.Condition.awaitUntil(java.util.Date) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,8 +172,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Condition#signal() public abstract void
-     * java.util.concurrent.locks.Condition.signal()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.locks.Condition#signal() public
+     * abstract void java.util.concurrent.locks.Condition.signal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

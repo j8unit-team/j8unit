@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ContainerOrderFocusTraversalPolicy#ContainerOrderFocusTraversalPolicy() public
+     * {@link java.awt.ContainerOrderFocusTraversalPolicy#ContainerOrderFocusTraversalPolicy() public
      * java.awt.ContainerOrderFocusTraversalPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

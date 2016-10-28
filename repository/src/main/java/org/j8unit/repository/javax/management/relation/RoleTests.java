@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.relation;
 
-import java.util.List;
 import javax.management.relation.Role;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Role#getRoleName() public java.lang.String
-     * javax.management.relation.Role.getRoleName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.Role#getRoleName() public
+     * java.lang.String javax.management.relation.Role.getRoleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Role#setRoleValue(List) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.Role#setRoleValue(java.util.List) public void
      * javax.management.relation.Role.setRoleValue(java.util.List<javax.management.ObjectName>) throws
      * java.lang.IllegalArgumentException}.
      *
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Role#setRoleName(String) public void
-     * javax.management.relation.Role.setRoleName(java.lang.String) throws java.lang.IllegalArgumentException}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.Role#setRoleName(String)
+     * public void javax.management.relation.Role.setRoleName(java.lang.String) throws
+     * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Role#getRoleValue() public java.util.List
-     * <javax.management.ObjectName> javax.management.relation.Role.getRoleValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.Role#getRoleValue() public
+     * java.util.List<javax.management.ObjectName> javax.management.relation.Role.getRoleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Role#clone() public java.lang.Object
-     * javax.management.relation.Role.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.Role#clone() public
+     * java.lang.Object javax.management.relation.Role.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +147,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Role#toString() public java.lang.String
-     * javax.management.relation.Role.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.Role#toString() public
+     * java.lang.String javax.management.relation.Role.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

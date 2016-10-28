@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.BasicStroke;
-import java.awt.Paint;
 import javax.swing.border.StrokeBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +21,8 @@ implements org.j8unit.repository.javax.swing.border.StrokeBorderClassTests<Strok
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StrokeBorder#StrokeBorder(BasicStroke) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.StrokeBorder#StrokeBorder(java.awt.BasicStroke) public
      * javax.swing.border.StrokeBorder(java.awt.BasicStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,14 @@ implements org.j8unit.repository.javax.swing.border.StrokeBorderClassTests<Strok
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StrokeBorder sut = null; // = new StrokeBorder(BasicStroke);
+        final StrokeBorder sut = null; // = new StrokeBorder(java.awt.BasicStroke);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StrokeBorder#StrokeBorder(BasicStroke, Paint)
-     * public javax.swing.border.StrokeBorder(java.awt.BasicStroke,java.awt.Paint)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.StrokeBorder#StrokeBorder(java.awt.BasicStroke, java.awt.Paint) public
+     * javax.swing.border.StrokeBorder(java.awt.BasicStroke,java.awt.Paint)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +62,7 @@ implements org.j8unit.repository.javax.swing.border.StrokeBorderClassTests<Strok
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StrokeBorder sut = null; // = new StrokeBorder(BasicStroke, Paint);
+        final StrokeBorder sut = null; // = new StrokeBorder(java.awt.BasicStroke, java.awt.Paint);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.StrokeBorder]

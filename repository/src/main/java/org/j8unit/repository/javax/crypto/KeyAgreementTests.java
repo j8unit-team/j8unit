@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.crypto;
 
-import java.security.Key;
-import java.security.SecureRandom;
-import java.security.spec.AlgorithmParameterSpec;
 import javax.crypto.KeyAgreement;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAgreement#getAlgorithm() public final
-     * java.lang.String javax.crypto.KeyAgreement.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyAgreement#getAlgorithm() public
+     * final java.lang.String javax.crypto.KeyAgreement.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAgreement#doPhase(Key, boolean) public final
-     * java.security.Key javax.crypto.KeyAgreement.doPhase(java.security.Key,boolean) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.KeyAgreement#doPhase(java.security.Key, boolean) public final java.security.Key
+     * javax.crypto.KeyAgreement.doPhase(java.security.Key,boolean) throws
      * java.security.InvalidKeyException,java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +81,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyAgreement#init(Key, AlgorithmParameterSpec, SecureRandom) public final void
+     * {@link javax.crypto.KeyAgreement#init(java.security.Key, java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom)
+     * public final void
      * javax.crypto.KeyAgreement.init(java.security.Key,java.security.spec.AlgorithmParameterSpec,java.security.SecureRandom)
      * throws java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException}.
      *
@@ -106,9 +105,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAgreement#init(Key, AlgorithmParameterSpec)
-     * public final void javax.crypto.KeyAgreement.init(java.security.Key,java.security.spec.AlgorithmParameterSpec)
-     * throws java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.KeyAgreement#init(java.security.Key, java.security.spec.AlgorithmParameterSpec) public final
+     * void javax.crypto.KeyAgreement.init(java.security.Key,java.security.spec.AlgorithmParameterSpec) throws
+     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +129,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAgreement#init(Key, SecureRandom) public final
-     * void javax.crypto.KeyAgreement.init(java.security.Key,java.security.SecureRandom) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.KeyAgreement#init(java.security.Key, java.security.SecureRandom) public final void
+     * javax.crypto.KeyAgreement.init(java.security.Key,java.security.SecureRandom) throws
      * java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +153,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAgreement#init(Key) public final void
-     * javax.crypto.KeyAgreement.init(java.security.Key) throws java.security.InvalidKeyException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyAgreement#init(java.security.Key)
+     * public final void javax.crypto.KeyAgreement.init(java.security.Key) throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,9 +175,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAgreement#generateSecret(byte[], int) public
-     * final int javax.crypto.KeyAgreement.generateSecret(byte[],int) throws
-     * java.lang.IllegalStateException,javax.crypto.ShortBufferException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyAgreement#generateSecret() public
+     * final byte[] javax.crypto.KeyAgreement.generateSecret() throws java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,7 +188,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_generateSecret_byteArray_int()
+    public default void test_generateSecret()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -197,8 +197,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAgreement#generateSecret(String) public final
-     * javax.crypto.SecretKey javax.crypto.KeyAgreement.generateSecret(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyAgreement#generateSecret(String)
+     * public final javax.crypto.SecretKey javax.crypto.KeyAgreement.generateSecret(java.lang.String) throws
      * java.lang.IllegalStateException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -220,8 +220,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAgreement#generateSecret() public final byte[]
-     * javax.crypto.KeyAgreement.generateSecret() throws java.lang.IllegalStateException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.KeyAgreement#generateSecret(byte[], int) public final int
+     * javax.crypto.KeyAgreement.generateSecret(byte[],int) throws
+     * java.lang.IllegalStateException,javax.crypto.ShortBufferException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,7 +235,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_generateSecret()
+    public default void test_generateSecret_byteArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -242,7 +244,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyAgreement#getProvider() public final
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.KeyAgreement#getProvider() public final
      * java.security.Provider javax.crypto.KeyAgreement.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

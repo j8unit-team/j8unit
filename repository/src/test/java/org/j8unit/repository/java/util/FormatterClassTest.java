@@ -1,11 +1,7 @@
 package org.j8unit.repository.java.util;
 
-import java.io.File;
-import java.io.OutputStream;
-import java.io.PrintStream;
 import java.util.Formatter;
 import java.util.Formatter.BigDecimalLayoutForm;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -26,8 +22,9 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(String, String, Locale)
-     * public java.util.Formatter(java.lang.String,java.lang.String,java.util.Locale) throws
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Formatter#Formatter(String, String, java.util.Locale) public
+     * java.util.Formatter(java.lang.String,java.lang.String,java.util.Locale) throws
      * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,12 +41,13 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(String, String, Locale);
+        final Formatter sut = null; // = new Formatter(String, String, java.util.Locale);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(File, String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Formatter#Formatter(java.io.File, String) public
      * java.util.Formatter(java.io.File,java.lang.String) throws
      * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
      *
@@ -67,13 +65,13 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(File, String);
+        final Formatter sut = null; // = new Formatter(java.io.File, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(File) public
-     * java.util.Formatter(java.io.File) throws java.io.FileNotFoundException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter(java.io.File)
+     * public java.util.Formatter(java.io.File) throws java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,13 +87,13 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(File);
+        final Formatter sut = null; // = new Formatter(java.io.File);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(String, String) public
-     * java.util.Formatter(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter(String, String)
+     * public java.util.Formatter(java.lang.String,java.lang.String) throws
      * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -117,7 +115,52 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Formatter#Formatter(Appendable, java.util.Locale) public
+     * java.util.Formatter(java.lang.Appendable,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Formatter_Appendable_Locale()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Formatter sut = null; // = new Formatter(Appendable, java.util.Locale);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter(Appendable)
+     * public java.util.Formatter(java.lang.Appendable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Formatter_Appendable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Formatter sut = null; // = new Formatter(Appendable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter(String) public
      * java.util.Formatter(java.lang.String) throws java.io.FileNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -139,8 +182,9 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(OutputStream, String)
-     * public java.util.Formatter(java.io.OutputStream,java.lang.String) throws java.io.UnsupportedEncodingException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Formatter#Formatter(java.io.OutputStream, String) public
+     * java.util.Formatter(java.io.OutputStream,java.lang.String) throws java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,13 +200,13 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(OutputStream, String);
+        final Formatter sut = null; // = new Formatter(java.io.OutputStream, String);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(Locale) public
-     * java.util.Formatter(java.util.Locale)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter(java.util.Locale)
+     * public java.util.Formatter(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,13 +222,13 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(Locale);
+        final Formatter sut = null; // = new Formatter(java.util.Locale);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(OutputStream) public
-     * java.util.Formatter(java.io.OutputStream)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Formatter#Formatter(java.io.OutputStream) public java.util.Formatter(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,13 +244,13 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(OutputStream);
+        final Formatter sut = null; // = new Formatter(java.io.OutputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(PrintStream) public
-     * java.util.Formatter(java.io.PrintStream)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Formatter#Formatter(java.io.PrintStream) public java.util.Formatter(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,13 +266,14 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(PrintStream);
+        final Formatter sut = null; // = new Formatter(java.io.PrintStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(File, String, Locale)
-     * public java.util.Formatter(java.io.File,java.lang.String,java.util.Locale) throws
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Formatter#Formatter(java.io.File, String, java.util.Locale) public
+     * java.util.Formatter(java.io.File,java.lang.String,java.util.Locale) throws
      * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -245,12 +290,12 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(File, String, Locale);
+        final Formatter sut = null; // = new Formatter(java.io.File, String, java.util.Locale);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter() public
      * java.util.Formatter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -272,7 +317,7 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link Formatter#Formatter(OutputStream, String, Locale) public
+     * {@link java.util.Formatter#Formatter(java.io.OutputStream, String, java.util.Locale) public
      * java.util.Formatter(java.io.OutputStream,java.lang.String,java.util.Locale) throws
      * java.io.UnsupportedEncodingException}.
      *
@@ -290,51 +335,7 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(OutputStream, String, Locale);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(Appendable, Locale) public
-     * java.util.Formatter(java.lang.Appendable,java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Formatter_Appendable_Locale()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(Appendable, Locale);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Formatter#Formatter(Appendable) public
-     * java.util.Formatter(java.lang.Appendable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Formatter_Appendable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(Appendable);
+        final Formatter sut = null; // = new Formatter(java.io.OutputStream, String, java.util.Locale);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Formatter]
@@ -352,7 +353,8 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link BigDecimalLayoutForm#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Formatter.BigDecimalLayoutForm#values() public static
          * java.util.Formatter$BigDecimalLayoutForm[] java.util.Formatter$BigDecimalLayoutForm.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -367,14 +369,14 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link BigDecimalLayoutForm#values()}
+            // write some test for {@link java.util.Formatter.BigDecimalLayoutForm#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link BigDecimalLayoutForm#valueOf(String) public
-         * static java.util.Formatter$BigDecimalLayoutForm
-         * java.util.Formatter$BigDecimalLayoutForm.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Formatter.BigDecimalLayoutForm#valueOf(String) public static
+         * java.util.Formatter$BigDecimalLayoutForm java.util.Formatter$BigDecimalLayoutForm.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -388,7 +390,7 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link BigDecimalLayoutForm#valueOf(String)}
+            // write some test for {@link java.util.Formatter.BigDecimalLayoutForm#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Formatter$BigDecimalLayoutForm]

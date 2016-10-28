@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 
 /**
  * <p>
@@ -35,7 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLValidateContextTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMValidateContext#setNode(Node) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.dom.DOMValidateContext#setNode(org.w3c.dom.Node) public void
      * javax.xml.crypto.dsig.dom.DOMValidateContext.setNode(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLValidateContextTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMValidateContext#getNode() public org.w3c.dom.Node
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.dom.DOMValidateContext#getNode() public org.w3c.dom.Node
      * javax.xml.crypto.dsig.dom.DOMValidateContext.getNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

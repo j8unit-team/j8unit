@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.MBeanPermission;
-import javax.management.ObjectName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.management.MBeanPermissionClassTests<MBea
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MBeanPermission#MBeanPermission(String, String)
-     * public javax.management.MBeanPermission(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.MBeanPermission#MBeanPermission(String, String) public
+     * javax.management.MBeanPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +45,8 @@ implements org.j8unit.repository.javax.management.MBeanPermissionClassTests<MBea
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanPermission#MBeanPermission(String, String, ObjectName, String) public
+     * {@link javax.management.MBeanPermission#MBeanPermission(String, String, javax.management.ObjectName, String)
+     * public
      * javax.management.MBeanPermission(java.lang.String,java.lang.String,javax.management.ObjectName,java.lang.String)}
      * .
      *
@@ -63,7 +64,7 @@ implements org.j8unit.repository.javax.management.MBeanPermissionClassTests<MBea
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanPermission sut = null; // = new MBeanPermission(String, String, ObjectName, String);
+        final MBeanPermission sut = null; // = new MBeanPermission(String, String, javax.management.ObjectName, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanPermission]

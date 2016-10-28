@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.IOP.TaggedProfile;
 import org.omg.IOP.TaggedProfileHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHolderClassTests<Tagge
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TaggedProfileHolder#TaggedProfileHolder()
-     * public org.omg.IOP.TaggedProfileHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.TaggedProfileHolder#TaggedProfileHolder() public org.omg.IOP.TaggedProfileHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHolderClassTests<Tagge
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TaggedProfileHolder#TaggedProfileHolder(TaggedProfile) public
+     * {@link org.omg.IOP.TaggedProfileHolder#TaggedProfileHolder(org.omg.IOP.TaggedProfile) public
      * org.omg.IOP.TaggedProfileHolder(org.omg.IOP.TaggedProfile)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHolderClassTests<Tagge
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TaggedProfileHolder sut = null; // = new TaggedProfileHolder(TaggedProfile);
+        final TaggedProfileHolder sut = null; // = new TaggedProfileHolder(org.omg.IOP.TaggedProfile);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedProfileHolder]

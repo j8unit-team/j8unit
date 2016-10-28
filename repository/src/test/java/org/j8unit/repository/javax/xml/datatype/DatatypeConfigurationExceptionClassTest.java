@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConfigurationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DatatypeConfigurationException#DatatypeConfigurationException(Throwable) public
+     * {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException(Throwable) public
      * javax.xml.datatype.DatatypeConfigurationException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConfigurationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DatatypeConfigurationException#DatatypeConfigurationException(String, Throwable) public
+     * {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException(String, Throwable) public
      * javax.xml.datatype.DatatypeConfigurationException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConfigurationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DatatypeConfigurationException#DatatypeConfigurationException(String) public
+     * {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException(String) public
      * javax.xml.datatype.DatatypeConfigurationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConfigurationExcepti
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DatatypeConfigurationException#DatatypeConfigurationException() public
+     * {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException() public
      * javax.xml.datatype.DatatypeConfigurationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

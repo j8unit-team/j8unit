@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnsolicitedNotification#getReferrals() public
-     * abstract java.lang.String[] javax.naming.ldap.UnsolicitedNotification.getReferrals()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.UnsolicitedNotification#getReferrals() public abstract java.lang.String[]
+     * javax.naming.ldap.UnsolicitedNotification.getReferrals()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnsolicitedNotification#getException() public
-     * abstract javax.naming.NamingException javax.naming.ldap.UnsolicitedNotification.getException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.UnsolicitedNotification#getException() public abstract javax.naming.NamingException
+     * javax.naming.ldap.UnsolicitedNotification.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

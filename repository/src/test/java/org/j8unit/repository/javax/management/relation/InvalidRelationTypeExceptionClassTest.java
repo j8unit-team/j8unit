@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.relation.InvalidRelationTypeEx
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidRelationTypeException#InvalidRelationTypeException() public
+     * {@link javax.management.relation.InvalidRelationTypeException#InvalidRelationTypeException() public
      * javax.management.relation.InvalidRelationTypeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.management.relation.InvalidRelationTypeEx
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidRelationTypeException#InvalidRelationTypeException(String) public
+     * {@link javax.management.relation.InvalidRelationTypeException#InvalidRelationTypeException(String) public
      * javax.management.relation.InvalidRelationTypeException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

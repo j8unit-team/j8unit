@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
-import java.awt.geom.Point2D;
-import java.awt.image.Raster;
 import java.awt.image.RasterOp;
-import java.awt.image.WritableRaster;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RasterOp#getPoint2D(Point2D, Point2D) public
-     * abstract java.awt.geom.Point2D java.awt.image.RasterOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.RasterOp#getPoint2D(java.awt.geom.Point2D, java.awt.geom.Point2D) public abstract
+     * java.awt.geom.Point2D java.awt.image.RasterOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RasterOp#filter(Raster, WritableRaster) public
-     * abstract java.awt.image.WritableRaster
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.RasterOp#filter(java.awt.image.Raster, java.awt.image.WritableRaster) public abstract
+     * java.awt.image.WritableRaster
      * java.awt.image.RasterOp.filter(java.awt.image.Raster,java.awt.image.WritableRaster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,9 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RasterOp#createCompatibleDestRaster(Raster) public
-     * abstract java.awt.image.WritableRaster java.awt.image.RasterOp.createCompatibleDestRaster(java.awt.image.Raster)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.RasterOp#createCompatibleDestRaster(java.awt.image.Raster) public abstract
+     * java.awt.image.WritableRaster java.awt.image.RasterOp.createCompatibleDestRaster(java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +105,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RasterOp#getBounds2D(Raster) public abstract
-     * java.awt.geom.Rectangle2D java.awt.image.RasterOp.getBounds2D(java.awt.image.Raster)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.RasterOp#getBounds2D(java.awt.image.Raster) public abstract java.awt.geom.Rectangle2D
+     * java.awt.image.RasterOp.getBounds2D(java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +128,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RasterOp#getRenderingHints() public abstract
-     * java.awt.RenderingHints java.awt.image.RasterOp.getRenderingHints()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.RasterOp#getRenderingHints() public
+     * abstract java.awt.RenderingHints java.awt.image.RasterOp.getRenderingHints()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -62,7 +62,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Attribute#isInherited() public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.CSS.Attribute#isInherited() public boolean
          * javax.swing.text.html.CSS$Attribute.isInherited()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +85,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Attribute#toString() public java.lang.String
-         * javax.swing.text.html.CSS$Attribute.toString()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.CSS.Attribute#toString()
+         * public java.lang.String javax.swing.text.html.CSS$Attribute.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -107,8 +108,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Attribute#getDefaultValue() public
-         * java.lang.String javax.swing.text.html.CSS$Attribute.getDefaultValue()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.CSS.Attribute#getDefaultValue() public java.lang.String
+         * javax.swing.text.html.CSS$Attribute.getDefaultValue()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

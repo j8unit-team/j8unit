@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.INV_FLAG;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.INV_FLAGClassTests<INV_FLAG> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link INV_FLAG#INV_FLAG(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.INV_FLAG#INV_FLAG(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.INV_FLAG(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,12 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.INV_FLAGClassTests<INV_FLAG> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final INV_FLAG sut = null; // = new INV_FLAG(String, int, CompletionStatus);
+        final INV_FLAG sut = null; // = new INV_FLAG(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INV_FLAG#INV_FLAG(int, CompletionStatus) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.INV_FLAG#INV_FLAG(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.INV_FLAG(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +62,12 @@ implements org.j8unit.repository.org.omg.CORBA.INV_FLAGClassTests<INV_FLAG> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final INV_FLAG sut = null; // = new INV_FLAG(int, CompletionStatus);
+        final INV_FLAG sut = null; // = new INV_FLAG(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INV_FLAG#INV_FLAG(String) public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.INV_FLAG#INV_FLAG(String) public
      * org.omg.CORBA.INV_FLAG(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -89,7 +89,7 @@ implements org.j8unit.repository.org.omg.CORBA.INV_FLAGClassTests<INV_FLAG> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link INV_FLAG#INV_FLAG() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.INV_FLAG#INV_FLAG() public
      * org.omg.CORBA.INV_FLAG()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

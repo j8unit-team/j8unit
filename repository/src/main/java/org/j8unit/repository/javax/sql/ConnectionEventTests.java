@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConnectionEvent#getSQLException() public
+     * Test method for the hereby targeted method-under-test {@link javax.sql.ConnectionEvent#getSQLException() public
      * java.sql.SQLException javax.sql.ConnectionEvent.getSQLException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

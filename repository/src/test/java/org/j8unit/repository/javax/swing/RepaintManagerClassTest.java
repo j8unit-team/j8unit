@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import javax.swing.JComponent;
 import javax.swing.RepaintManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,8 +21,8 @@ implements org.j8unit.repository.javax.swing.RepaintManagerClassTests<RepaintMan
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RepaintManager#RepaintManager() public
-     * javax.swing.RepaintManager()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.RepaintManager#RepaintManager()
+     * public javax.swing.RepaintManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,8 +42,9 @@ implements org.j8unit.repository.javax.swing.RepaintManagerClassTests<RepaintMan
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#setCurrentManager(RepaintManager)
-     * public static void javax.swing.RepaintManager.setCurrentManager(javax.swing.RepaintManager)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#setCurrentManager(javax.swing.RepaintManager) public static void
+     * javax.swing.RepaintManager.setCurrentManager(javax.swing.RepaintManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,33 +58,14 @@ implements org.j8unit.repository.javax.swing.RepaintManagerClassTests<RepaintMan
     @Category(Draft.class)
     public void test_setCurrentManager_RepaintManager()
     throws Exception {
-        // write some test for {@link RepaintManager#setCurrentManager(RepaintManager)}
+        // write some test for {@link javax.swing.RepaintManager#setCurrentManager(javax.swing.RepaintManager)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#currentManager(Component) public
-     * static javax.swing.RepaintManager javax.swing.RepaintManager.currentManager(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_currentManager_Component()
-    throws Exception {
-        // write some test for {@link RepaintManager#currentManager(Component)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link RepaintManager#currentManager(JComponent) public
-     * static javax.swing.RepaintManager javax.swing.RepaintManager.currentManager(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#currentManager(javax.swing.JComponent) public static javax.swing.RepaintManager
+     * javax.swing.RepaintManager.currentManager(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -99,7 +79,28 @@ implements org.j8unit.repository.javax.swing.RepaintManagerClassTests<RepaintMan
     @Category(Draft.class)
     public void test_currentManager_JComponent()
     throws Exception {
-        // write some test for {@link RepaintManager#currentManager(JComponent)}
+        // write some test for {@link javax.swing.RepaintManager#currentManager(javax.swing.JComponent)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.RepaintManager#currentManager(java.awt.Component) public static javax.swing.RepaintManager
+     * javax.swing.RepaintManager.currentManager(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_currentManager_Component()
+    throws Exception {
+        // write some test for {@link javax.swing.RepaintManager#currentManager(java.awt.Component)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RepaintManager]

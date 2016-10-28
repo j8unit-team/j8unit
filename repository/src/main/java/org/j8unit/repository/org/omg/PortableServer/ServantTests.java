@@ -5,10 +5,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.ORB;
-import org.omg.PortableServer.POA;
 import org.omg.PortableServer.Servant;
-import org.omg.PortableServer.portable.Delegate;
 
 /**
  * <p>
@@ -37,7 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_all_interfaces(POA, byte[]) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.Servant#_all_interfaces(org.omg.PortableServer.POA, byte[]) public abstract
      * java.lang.String[] org.omg.PortableServer.Servant._all_interfaces(org.omg.PortableServer.POA,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +57,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_default_POA() public
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_default_POA() public
      * org.omg.PortableServer.POA org.omg.PortableServer.Servant._default_POA()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_is_a(String) public boolean
-     * org.omg.PortableServer.Servant._is_a(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_is_a(String) public
+     * boolean org.omg.PortableServer.Servant._is_a(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_object_id() public final byte[]
-     * org.omg.PortableServer.Servant._object_id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_object_id() public
+     * final byte[] org.omg.PortableServer.Servant._object_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_get_delegate() public final
-     * org.omg.PortableServer.portable.Delegate org.omg.PortableServer.Servant._get_delegate()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_get_delegate()
+     * public final org.omg.PortableServer.portable.Delegate org.omg.PortableServer.Servant._get_delegate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,7 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_set_delegate(Delegate) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.Servant#_set_delegate(org.omg.PortableServer.portable.Delegate) public final void
      * org.omg.PortableServer.Servant._set_delegate(org.omg.PortableServer.portable.Delegate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,29 +168,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_get_interface_def() public
-     * org.omg.CORBA.Object org.omg.PortableServer.Servant._get_interface_def()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__get_interface_def()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_poa() public final
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_poa() public final
      * org.omg.PortableServer.POA org.omg.PortableServer.Servant._poa()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,8 +190,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_non_existent() public boolean
-     * org.omg.PortableServer.Servant._non_existent()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_get_interface_def()
+     * public org.omg.CORBA.Object org.omg.PortableServer.Servant._get_interface_def()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__get_interface_def()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_non_existent()
+     * public boolean org.omg.PortableServer.Servant._non_existent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,30 +234,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_this_object() public final
-     * org.omg.CORBA.Object org.omg.PortableServer.Servant._this_object()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__this_object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_this_object(ORB) public final
-     * org.omg.CORBA.Object org.omg.PortableServer.Servant._this_object(org.omg.CORBA.ORB)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.Servant#_this_object(org.omg.CORBA.ORB) public final org.omg.CORBA.Object
+     * org.omg.PortableServer.Servant._this_object(org.omg.CORBA.ORB)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,8 +257,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Servant#_orb() public final org.omg.CORBA.ORB
-     * org.omg.PortableServer.Servant._orb()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_this_object() public
+     * final org.omg.CORBA.Object org.omg.PortableServer.Servant._this_object()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__this_object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_orb() public final
+     * org.omg.CORBA.ORB org.omg.PortableServer.Servant._orb()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,7 +35,7 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumSet#clone() public java.util.EnumSet
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#clone() public java.util.EnumSet
      * <E> java.util.EnumSet.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -35,8 +35,8 @@ org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URIParameter#getURI() public java.net.URI
-     * java.security.URIParameter.getURI()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.URIParameter#getURI() public
+     * java.net.URI java.security.URIParameter.getURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

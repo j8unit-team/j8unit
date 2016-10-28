@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVariable#getLowerBound() public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.type.TypeVariable.getLowerBound()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.type.TypeVariable#getLowerBound()
+     * public abstract javax.lang.model.type.TypeMirror javax.lang.model.type.TypeVariable.getLowerBound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVariable#getUpperBound() public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.type.TypeVariable.getUpperBound()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.type.TypeVariable#getUpperBound()
+     * public abstract javax.lang.model.type.TypeMirror javax.lang.model.type.TypeVariable.getUpperBound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TypeVariable#asElement() public abstract
-     * javax.lang.model.element.Element javax.lang.model.type.TypeVariable.asElement()}.
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.type.TypeVariable#asElement()
+     * public abstract javax.lang.model.element.Element javax.lang.model.type.TypeVariable.asElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupTable#lookupPixel(int[], int[]) public
-     * abstract int[] java.awt.image.LookupTable.lookupPixel(int[],int[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.LookupTable#lookupPixel(int[], int[])
+     * public abstract int[] java.awt.image.LookupTable.lookupPixel(int[],int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupTable#getOffset() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.LookupTable#getOffset() public int
      * java.awt.image.LookupTable.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LookupTable#getNumComponents() public int
-     * java.awt.image.LookupTable.getNumComponents()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.LookupTable#getNumComponents() public
+     * int java.awt.image.LookupTable.getNumComponents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

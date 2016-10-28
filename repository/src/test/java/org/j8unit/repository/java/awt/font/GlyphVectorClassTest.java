@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.font.GlyphVectorClassTests<GlyphVector
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link GlyphVector#GlyphVector() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.font.GlyphVector#GlyphVector() public
      * java.awt.font.GlyphVector()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.event.ActionEventClassTests<ActionEven
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActionEvent#ActionEvent(Object, int, String, long, int) public
+     * {@link java.awt.event.ActionEvent#ActionEvent(Object, int, String, long, int) public
      * java.awt.event.ActionEvent(java.lang.Object,int,java.lang.String,long,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.awt.event.ActionEventClassTests<ActionEven
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ActionEvent#ActionEvent(Object, int, String, int) public
+     * {@link java.awt.event.ActionEvent#ActionEvent(Object, int, String, int) public
      * java.awt.event.ActionEvent(java.lang.Object,int,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,9 @@ implements org.j8unit.repository.java.awt.event.ActionEventClassTests<ActionEven
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ActionEvent#ActionEvent(Object, int, String)
-     * public java.awt.event.ActionEvent(java.lang.Object,int,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.event.ActionEvent#ActionEvent(Object, int, String) public
+     * java.awt.event.ActionEvent(java.lang.Object,int,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

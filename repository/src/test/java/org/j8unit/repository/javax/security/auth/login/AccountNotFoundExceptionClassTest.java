@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.security.auth.login.AccountNotFoundExcept
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccountNotFoundException#AccountNotFoundException() public
+     * {@link javax.security.auth.login.AccountNotFoundException#AccountNotFoundException() public
      * javax.security.auth.login.AccountNotFoundException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.security.auth.login.AccountNotFoundExcept
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AccountNotFoundException#AccountNotFoundException(String) public
+     * {@link javax.security.auth.login.AccountNotFoundException#AccountNotFoundException(String) public
      * javax.security.auth.login.AccountNotFoundException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMImplementationList#item(int) public abstract
-     * org.w3c.dom.DOMImplementation org.w3c.dom.DOMImplementationList.item(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMImplementationList#item(int) public
+     * abstract org.w3c.dom.DOMImplementation org.w3c.dom.DOMImplementationList.item(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMImplementationList#getLength() public abstract
-     * int org.w3c.dom.DOMImplementationList.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.DOMImplementationList#getLength() public
+     * abstract int org.w3c.dom.DOMImplementationList.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

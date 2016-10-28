@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBPermissionClassTests<JAXBPer
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JAXBPermission#JAXBPermission(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.JAXBPermission#JAXBPermission(String) public
      * javax.xml.bind.JAXBPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

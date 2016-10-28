@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.lang.invoke.SerializedLambdaClassTests<Ser
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SerializedLambda#SerializedLambda(Class, String, String, String, int, String, String, String, String, Object[])
+     * {@link java.lang.invoke.SerializedLambda#SerializedLambda(Class, String, String, String, int, String, String, String, String, Object[])
      * public java.lang.invoke.SerializedLambda(java.lang.Class<?>
      * ,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Object[])}
      * .

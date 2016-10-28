@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#asPredicate() public
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#asPredicate() public
      * java.util.function.Predicate<java.lang.String> java.util.regex.Pattern.asPredicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#toString() public java.lang.String
-     * java.util.regex.Pattern.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#toString() public
+     * java.lang.String java.util.regex.Pattern.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,30 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#pattern() public java.lang.String
-     * java.util.regex.Pattern.pattern()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_pattern()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#splitAsStream(CharSequence) public
-     * java.util.stream.Stream<java.lang.String> java.util.regex.Pattern.splitAsStream(java.lang.CharSequence)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#splitAsStream(CharSequence)
+     * public java.util.stream.Stream<java.lang.String> java.util.regex.Pattern.splitAsStream(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +101,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#flags() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#pattern() public
+     * java.lang.String java.util.regex.Pattern.pattern()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_pattern()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#flags() public int
      * java.util.regex.Pattern.flags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#matcher(CharSequence) public
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#matcher(CharSequence) public
      * java.util.regex.Matcher java.util.regex.Pattern.matcher(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,29 +167,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#split(CharSequence, int) public
-     * java.lang.String[] java.util.regex.Pattern.split(java.lang.CharSequence,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_split_CharSequence_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Pattern#split(CharSequence) public
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#split(CharSequence) public
      * java.lang.String[] java.util.regex.Pattern.split(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -203,6 +181,28 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_split_CharSequence()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.Pattern#split(CharSequence, int)
+     * public java.lang.String[] java.util.regex.Pattern.split(java.lang.CharSequence,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_split_CharSequence_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

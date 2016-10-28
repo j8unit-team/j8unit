@@ -57,6 +57,51 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(CharSequence, int, int) public
+     * java.lang.StringBuilder java.lang.StringBuilder.append(java.lang.CharSequence,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_append_CharSequence_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(int) public
+     * java.lang.StringBuilder java.lang.StringBuilder.append(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_append_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link StringBuilder#append(Object) public
      * java.lang.StringBuilder java.lang.StringBuilder.append(java.lang.Object)}.
      *
@@ -102,28 +147,6 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(int) public
-     * java.lang.StringBuilder java.lang.StringBuilder.append(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_append_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StringBuilder#append(CharSequence) public
      * java.lang.StringBuilder java.lang.StringBuilder.append(java.lang.CharSequence)}.
      *
@@ -139,6 +162,28 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
     @Test
     @Category(Draft.class)
     public default void test_append_CharSequence()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(boolean) public
+     * java.lang.StringBuilder java.lang.StringBuilder.append(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_append_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -213,73 +258,6 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(char[], int, int) public
-     * java.lang.StringBuilder java.lang.StringBuilder.append(char[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_append_charArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(CharSequence, int, int) public
-     * java.lang.StringBuilder java.lang.StringBuilder.append(java.lang.CharSequence,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_append_CharSequence_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(boolean) public
-     * java.lang.StringBuilder java.lang.StringBuilder.append(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_append_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StringBuilder#append(long) public
      * java.lang.StringBuilder java.lang.StringBuilder.append(long)}.
      *
@@ -294,6 +272,28 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
     @Test
     @Category(Draft.class)
     public default void test_append_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(String) public
+     * java.lang.StringBuilder java.lang.StringBuilder.append(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_append_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -324,8 +324,8 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(String) public
-     * java.lang.StringBuilder java.lang.StringBuilder.append(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link StringBuilder#append(char[], int, int) public
+     * java.lang.StringBuilder java.lang.StringBuilder.append(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -337,7 +337,7 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_append_String()
+    public default void test_append_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -500,6 +500,28 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, int) public
+     * java.lang.StringBuilder java.lang.StringBuilder.insert(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, String) public
      * java.lang.StringBuilder java.lang.StringBuilder.insert(int,java.lang.String)}.
      *
@@ -544,8 +566,8 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, CharSequence) public
-     * java.lang.StringBuilder java.lang.StringBuilder.insert(int,java.lang.CharSequence)}.
+     * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, char) public
+     * java.lang.StringBuilder java.lang.StringBuilder.insert(int,char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -557,7 +579,29 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insert_int_CharSequence()
+    public default void test_insert_int_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, boolean) public
+     * java.lang.StringBuilder java.lang.StringBuilder.insert(int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -588,28 +632,6 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, int) public
-     * java.lang.StringBuilder java.lang.StringBuilder.insert(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, CharSequence, int, int)
      * public java.lang.StringBuilder java.lang.StringBuilder.insert(int,java.lang.CharSequence,int,int)}.
      *
@@ -624,6 +646,28 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
     @Test
     @Category(Draft.class)
     public default void test_insert_int_CharSequence_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, CharSequence) public
+     * java.lang.StringBuilder java.lang.StringBuilder.insert(int,java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_int_CharSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -668,50 +712,6 @@ org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java
     @Test
     @Category(Draft.class)
     public default void test_insert_int_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, boolean) public
-     * java.lang.StringBuilder java.lang.StringBuilder.insert(int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StringBuilder#insert(int, char) public
-     * java.lang.StringBuilder java.lang.StringBuilder.insert(int,char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_int_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSRuleList#item(int) public abstract
-     * org.w3c.dom.css.CSSRule org.w3c.dom.css.CSSRuleList.item(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSRuleList#item(int) public
+     * abstract org.w3c.dom.css.CSSRule org.w3c.dom.css.CSSRuleList.item(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSRuleList#getLength() public abstract int
-     * org.w3c.dom.css.CSSRuleList.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSRuleList#getLength() public
+     * abstract int org.w3c.dom.css.CSSRuleList.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

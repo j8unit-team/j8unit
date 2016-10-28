@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import java.awt.Component;
-import java.awt.Graphics;
 import javax.swing.plaf.IconUIResource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +36,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IconUIResource#paintIcon(Component, Graphics, int, int) public void
+     * {@link javax.swing.plaf.IconUIResource#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public void
      * javax.swing.plaf.IconUIResource.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +59,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IconUIResource#getIconWidth() public int
-     * javax.swing.plaf.IconUIResource.getIconWidth()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.IconUIResource#getIconWidth()
+     * public int javax.swing.plaf.IconUIResource.getIconWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +82,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IconUIResource#getIconHeight() public int
-     * javax.swing.plaf.IconUIResource.getIconHeight()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.IconUIResource#getIconHeight()
+     * public int javax.swing.plaf.IconUIResource.getIconHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.event.ChangeListener;
 import javax.swing.text.Style;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.MutableAttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Style#getName() public abstract java.lang.String
-     * javax.swing.text.Style.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Style#getName() public abstract
+     * java.lang.String javax.swing.text.Style.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.javax.swing.text.MutableAttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Style#removeChangeListener(ChangeListener) public
-     * abstract void javax.swing.text.Style.removeChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Style#removeChangeListener(javax.swing.event.ChangeListener) public abstract void
+     * javax.swing.text.Style.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,9 @@ extends org.j8unit.repository.javax.swing.text.MutableAttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Style#addChangeListener(ChangeListener) public
-     * abstract void javax.swing.text.Style.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Style#addChangeListener(javax.swing.event.ChangeListener) public abstract void
+     * javax.swing.text.Style.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

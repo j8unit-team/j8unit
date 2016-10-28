@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationTypeMismatchException#foundType() public
-     * java.lang.String java.lang.annotation.AnnotationTypeMismatchException.foundType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.annotation.AnnotationTypeMismatchException#foundType() public java.lang.String
+     * java.lang.annotation.AnnotationTypeMismatchException.foundType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AnnotationTypeMismatchException#element() public
-     * java.lang.reflect.Method java.lang.annotation.AnnotationTypeMismatchException.element()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.annotation.AnnotationTypeMismatchException#element() public java.lang.reflect.Method
+     * java.lang.annotation.AnnotationTypeMismatchException.element()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

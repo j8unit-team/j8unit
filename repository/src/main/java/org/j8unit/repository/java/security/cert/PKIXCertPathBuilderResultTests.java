@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security.cert;
 
-import java.security.cert.CertPathBuilderResult;
 import java.security.cert.PKIXCertPathBuilderResult;
-import java.security.cert.PKIXCertPathValidatorResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,9 @@ org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKIXCertPathBuilderResult#toString() public
-     * java.lang.String java.security.cert.PKIXCertPathBuilderResult.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.PKIXCertPathBuilderResult#toString() public java.lang.String
+     * java.security.cert.PKIXCertPathBuilderResult.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,9 @@ org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PKIXCertPathBuilderResult#getCertPath() public
-     * java.security.cert.CertPath java.security.cert.PKIXCertPathBuilderResult.getCertPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.PKIXCertPathBuilderResult#getCertPath() public java.security.cert.CertPath
+     * java.security.cert.PKIXCertPathBuilderResult.getCertPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +87,10 @@ org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link CertPathBuilderResult#clone() interface java.security.cert.CertPathBuilderResult}</li>
-     * <li>{@link PKIXCertPathValidatorResult#clone() class java.security.cert.PKIXCertPathValidatorResult}</li>
+     * <li>{@link java.security.cert.CertPathBuilderResult#clone() interface java.security.cert.CertPathBuilderResult}
+     * </li>
+     * <li>{@link java.security.cert.PKIXCertPathValidatorResult#clone() class
+     * java.security.cert.PKIXCertPathValidatorResult}</li>
      * </ul>
      *
      * <p>

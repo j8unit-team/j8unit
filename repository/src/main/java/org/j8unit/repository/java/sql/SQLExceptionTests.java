@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, Throwable>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLException#iterator() public java.util.Iterator
-     * <java.lang.Throwable> java.sql.SQLException.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLException#iterator() public
+     * java.util.Iterator<java.lang.Throwable> java.sql.SQLException.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, Throwable>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLException#getErrorCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLException#getErrorCode() public int
      * java.sql.SQLException.getErrorCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, Throwable>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLException#getSQLState() public java.lang.String
-     * java.sql.SQLException.getSQLState()}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLException#getSQLState() public
+     * java.lang.String java.sql.SQLException.getSQLState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, Throwable>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLException#getNextException() public
+     * Test method for the hereby targeted method-under-test {@link java.sql.SQLException#getNextException() public
      * java.sql.SQLException java.sql.SQLException.getNextException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,9 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, Throwable>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SQLException#setNextException(SQLException) public
-     * void java.sql.SQLException.setNextException(java.sql.SQLException)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.SQLException#setNextException(java.sql.SQLException) public void
+     * java.sql.SQLException.setNextException(java.sql.SQLException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

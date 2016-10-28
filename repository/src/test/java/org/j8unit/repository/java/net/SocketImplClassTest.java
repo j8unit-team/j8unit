@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.SocketImplClassTests<SocketImpl> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SocketImpl#SocketImpl() public
+     * Test method for the hereby targeted constructor-under-test {@link java.net.SocketImpl#SocketImpl() public
      * java.net.SocketImpl()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

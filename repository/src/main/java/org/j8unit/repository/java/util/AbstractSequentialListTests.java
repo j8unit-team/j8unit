@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.AbstractSequentialList;
-import java.util.Collection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSequentialList#remove(int) public E
-     * java.util.AbstractSequentialList.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#remove(int) public
+     * E java.util.AbstractSequentialList.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSequentialList#listIterator(int) public
-     * abstract java.util.ListIterator<E> java.util.AbstractSequentialList.listIterator(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#listIterator(int)
+     * public abstract java.util.ListIterator<E> java.util.AbstractSequentialList.listIterator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,9 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSequentialList#addAll(int, Collection)
-     * public boolean java.util.AbstractSequentialList.addAll(int,java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.AbstractSequentialList#addAll(int, java.util.Collection) public boolean
+     * java.util.AbstractSequentialList.addAll(int,java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +104,7 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSequentialList#get(int) public E
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#get(int) public E
      * java.util.AbstractSequentialList.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +127,8 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSequentialList#add(int, Object) public void
-     * java.util.AbstractSequentialList.add(int,E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#add(int, Object)
+     * public void java.util.AbstractSequentialList.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +150,8 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSequentialList#set(int, Object) public E
-     * java.util.AbstractSequentialList.set(int,E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#set(int, Object)
+     * public E java.util.AbstractSequentialList.set(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,7 +173,7 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractSequentialList#iterator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#iterator() public
      * java.util.Iterator<E> java.util.AbstractSequentialList.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rect#getLeft() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.Rect#getLeft() public abstract
      * org.w3c.dom.css.CSSPrimitiveValue org.w3c.dom.css.Rect.getLeft()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rect#getRight() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.Rect#getRight() public abstract
      * org.w3c.dom.css.CSSPrimitiveValue org.w3c.dom.css.Rect.getRight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rect#getBottom() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.Rect#getBottom() public abstract
      * org.w3c.dom.css.CSSPrimitiveValue org.w3c.dom.css.Rect.getBottom()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Rect#getTop() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.Rect#getTop() public abstract
      * org.w3c.dom.css.CSSPrimitiveValue org.w3c.dom.css.Rect.getTop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

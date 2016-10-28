@@ -5,10 +5,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.PortableServer.POA;
-import org.omg.PortableServer.Servant;
 import org.omg.PortableServer._ServantLocatorStub;
-import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
 
 /**
  * <p>
@@ -38,7 +35,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantLocatorTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link _ServantLocatorStub#postinvoke(byte[], POA, String, Object, Servant) public void
+     * {@link org.omg.PortableServer._ServantLocatorStub#postinvoke(byte[], org.omg.PortableServer.POA, String, Object, org.omg.PortableServer.Servant)
+     * public void
      * org.omg.PortableServer._ServantLocatorStub.postinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,java.lang.Object,org.omg.PortableServer.Servant)}
      * .
      *
@@ -63,7 +61,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantLocatorTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link _ServantLocatorStub#preinvoke(byte[], POA, String, CookieHolder) public org.omg.PortableServer.Servant
+     * {@link org.omg.PortableServer._ServantLocatorStub#preinvoke(byte[], org.omg.PortableServer.POA, String, org.omg.PortableServer.ServantLocatorPackage.CookieHolder)
+     * public org.omg.PortableServer.Servant
      * org.omg.PortableServer._ServantLocatorStub.preinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,org.omg.PortableServer.ServantLocatorPackage.CookieHolder)
      * throws org.omg.PortableServer.ForwardRequest}.
      *
@@ -87,8 +86,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantLocatorTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _ServantLocatorStub#_ids() public java.lang.String[]
-     * org.omg.PortableServer._ServantLocatorStub._ids()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer._ServantLocatorStub#_ids()
+     * public java.lang.String[] org.omg.PortableServer._ServantLocatorStub._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

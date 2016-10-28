@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.text.StringCharacterIteratorClassTests<Str
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StringCharacterIterator#StringCharacterIterator(String, int, int, int) public
+     * {@link java.text.StringCharacterIterator#StringCharacterIterator(String, int, int, int) public
      * java.text.StringCharacterIterator(java.lang.String,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.text.StringCharacterIteratorClassTests<Str
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StringCharacterIterator#StringCharacterIterator(String, int) public
+     * {@link java.text.StringCharacterIterator#StringCharacterIterator(String, int) public
      * java.text.StringCharacterIterator(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.java.text.StringCharacterIteratorClassTests<Str
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StringCharacterIterator#StringCharacterIterator(String) public
+     * {@link java.text.StringCharacterIterator#StringCharacterIterator(String) public
      * java.text.StringCharacterIterator(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

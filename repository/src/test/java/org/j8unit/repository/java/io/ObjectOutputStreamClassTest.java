@@ -3,7 +3,6 @@ package org.j8unit.repository.java.io;
 import static org.junit.Assert.fail;
 import java.io.ObjectOutputStream;
 import java.io.ObjectOutputStream.PutField;
-import java.io.OutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +24,7 @@ implements org.j8unit.repository.java.io.ObjectOutputStreamClassTests<ObjectOutp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectOutputStream#ObjectOutputStream(OutputStream) public
+     * {@link java.io.ObjectOutputStream#ObjectOutputStream(java.io.OutputStream) public
      * java.io.ObjectOutputStream(java.io.OutputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +41,7 @@ implements org.j8unit.repository.java.io.ObjectOutputStreamClassTests<ObjectOutp
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ObjectOutputStream sut = null; // = new ObjectOutputStream(OutputStream);
+        final ObjectOutputStream sut = null; // = new ObjectOutputStream(java.io.OutputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectOutputStream]
@@ -60,8 +59,8 @@ implements org.j8unit.repository.java.io.ObjectOutputStreamClassTests<ObjectOutp
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link PutField#PutField() public
-         * java.io.ObjectOutputStream$PutField()}.
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.io.ObjectOutputStream.PutField#PutField() public java.io.ObjectOutputStream$PutField()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

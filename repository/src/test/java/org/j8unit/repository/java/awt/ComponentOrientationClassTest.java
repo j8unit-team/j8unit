@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.ComponentOrientation;
-import java.util.Locale;
-import java.util.ResourceBundle;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,9 +21,9 @@ implements org.j8unit.repository.java.awt.ComponentOrientationClassTests<Compone
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentOrientation#getOrientation(ResourceBundle)
-     * public static java.awt.ComponentOrientation
-     * java.awt.ComponentOrientation.getOrientation(java.util.ResourceBundle)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.ComponentOrientation#getOrientation(java.util.ResourceBundle) public static
+     * java.awt.ComponentOrientation java.awt.ComponentOrientation.getOrientation(java.util.ResourceBundle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +37,14 @@ implements org.j8unit.repository.java.awt.ComponentOrientationClassTests<Compone
     @Category(Draft.class)
     public void test_getOrientation_ResourceBundle()
     throws Exception {
-        // write some test for {@link ComponentOrientation#getOrientation(ResourceBundle)}
+        // write some test for {@link java.awt.ComponentOrientation#getOrientation(java.util.ResourceBundle)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentOrientation#getOrientation(Locale) public
-     * static java.awt.ComponentOrientation java.awt.ComponentOrientation.getOrientation(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.ComponentOrientation#getOrientation(java.util.Locale) public static java.awt.ComponentOrientation
+     * java.awt.ComponentOrientation.getOrientation(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,7 @@ implements org.j8unit.repository.java.awt.ComponentOrientationClassTests<Compone
     @Category(Draft.class)
     public void test_getOrientation_Locale()
     throws Exception {
-        // write some test for {@link ComponentOrientation#getOrientation(Locale)}
+        // write some test for {@link java.awt.ComponentOrientation#getOrientation(java.util.Locale)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.ComponentOrientation]

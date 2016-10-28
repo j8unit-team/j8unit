@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionEvent#getValueIsAdjusting() public
-     * boolean javax.swing.event.ListSelectionEvent.getValueIsAdjusting()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.ListSelectionEvent#getValueIsAdjusting() public boolean
+     * javax.swing.event.ListSelectionEvent.getValueIsAdjusting()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionEvent#getFirstIndex() public int
-     * javax.swing.event.ListSelectionEvent.getFirstIndex()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.ListSelectionEvent#getFirstIndex()
+     * public int javax.swing.event.ListSelectionEvent.getFirstIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionEvent#toString() public
-     * java.lang.String javax.swing.event.ListSelectionEvent.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.ListSelectionEvent#toString()
+     * public java.lang.String javax.swing.event.ListSelectionEvent.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListSelectionEvent#getLastIndex() public int
-     * javax.swing.event.ListSelectionEvent.getLastIndex()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.ListSelectionEvent#getLastIndex()
+     * public int javax.swing.event.ListSelectionEvent.getLastIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

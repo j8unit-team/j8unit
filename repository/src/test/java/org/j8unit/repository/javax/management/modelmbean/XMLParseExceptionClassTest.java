@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.modelmbean.XMLParseExceptionCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link XMLParseException#XMLParseException(Exception, String) public
+     * {@link javax.management.modelmbean.XMLParseException#XMLParseException(Exception, String) public
      * javax.management.modelmbean.XMLParseException(java.lang.Exception,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,9 @@ implements org.j8unit.repository.javax.management.modelmbean.XMLParseExceptionCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLParseException#XMLParseException(String)
-     * public javax.management.modelmbean.XMLParseException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.modelmbean.XMLParseException#XMLParseException(String) public
+     * javax.management.modelmbean.XMLParseException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -66,7 +67,8 @@ implements org.j8unit.repository.javax.management.modelmbean.XMLParseExceptionCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link XMLParseException#XMLParseException() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.modelmbean.XMLParseException#XMLParseException() public
      * javax.management.modelmbean.XMLParseException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

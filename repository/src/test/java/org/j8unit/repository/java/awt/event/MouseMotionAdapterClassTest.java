@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.event.MouseMotionAdapterClassTests<Mou
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MouseMotionAdapter#MouseMotionAdapter() public
-     * java.awt.event.MouseMotionAdapter()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.event.MouseMotionAdapter#MouseMotionAdapter() public java.awt.event.MouseMotionAdapter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

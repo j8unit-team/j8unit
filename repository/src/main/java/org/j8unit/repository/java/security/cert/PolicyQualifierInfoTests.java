@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyQualifierInfo#toString() public
-     * java.lang.String java.security.cert.PolicyQualifierInfo.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.PolicyQualifierInfo#toString()
+     * public java.lang.String java.security.cert.PolicyQualifierInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyQualifierInfo#getPolicyQualifierId() public
-     * final java.lang.String java.security.cert.PolicyQualifierInfo.getPolicyQualifierId()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.PolicyQualifierInfo#getPolicyQualifierId() public final java.lang.String
+     * java.security.cert.PolicyQualifierInfo.getPolicyQualifierId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyQualifierInfo#getPolicyQualifier() public
-     * final byte[] java.security.cert.PolicyQualifierInfo.getPolicyQualifier()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.PolicyQualifierInfo#getPolicyQualifier() public final byte[]
+     * java.security.cert.PolicyQualifierInfo.getPolicyQualifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PolicyQualifierInfo#getEncoded() public final byte[]
-     * java.security.cert.PolicyQualifierInfo.getEncoded()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.PolicyQualifierInfo#getEncoded()
+     * public final byte[] java.security.cert.PolicyQualifierInfo.getEncoded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

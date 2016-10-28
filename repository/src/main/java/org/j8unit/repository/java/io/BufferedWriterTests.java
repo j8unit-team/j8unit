@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedWriter#flush() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedWriter#flush() public void
      * java.io.BufferedWriter.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedWriter#newLine() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedWriter#newLine() public void
      * java.io.BufferedWriter.newLine() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,7 +79,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedWriter#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedWriter#close() public void
      * java.io.BufferedWriter.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedWriter#write(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedWriter#write(int) public void
      * java.io.BufferedWriter.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +125,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedWriter#write(String, int, int) public void
-     * java.io.BufferedWriter.write(java.lang.String,int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedWriter#write(String, int, int)
+     * public void java.io.BufferedWriter.write(java.lang.String,int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +148,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BufferedWriter#write(char[], int, int) public void
-     * java.io.BufferedWriter.write(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.BufferedWriter#write(char[], int, int)
+     * public void java.io.BufferedWriter.write(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

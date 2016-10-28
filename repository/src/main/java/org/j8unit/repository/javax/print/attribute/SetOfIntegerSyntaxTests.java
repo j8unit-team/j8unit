@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.attribute;
 
-import javax.print.attribute.IntegerSyntax;
 import javax.print.attribute.SetOfIntegerSyntax;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SetOfIntegerSyntax#next(int) public int
-     * javax.print.attribute.SetOfIntegerSyntax.next(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.SetOfIntegerSyntax#next(int)
+     * public int javax.print.attribute.SetOfIntegerSyntax.next(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SetOfIntegerSyntax#contains(IntegerSyntax) public
-     * boolean javax.print.attribute.SetOfIntegerSyntax.contains(javax.print.attribute.IntegerSyntax)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.SetOfIntegerSyntax#contains(javax.print.attribute.IntegerSyntax) public boolean
+     * javax.print.attribute.SetOfIntegerSyntax.contains(javax.print.attribute.IntegerSyntax)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SetOfIntegerSyntax#contains(int) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.SetOfIntegerSyntax#contains(int) public boolean
      * javax.print.attribute.SetOfIntegerSyntax.contains(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SetOfIntegerSyntax#hashCode() public int
-     * javax.print.attribute.SetOfIntegerSyntax.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.SetOfIntegerSyntax#hashCode()
+     * public int javax.print.attribute.SetOfIntegerSyntax.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +126,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SetOfIntegerSyntax#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.SetOfIntegerSyntax#equals(Object) public boolean
      * javax.print.attribute.SetOfIntegerSyntax.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +150,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SetOfIntegerSyntax#toString() public
-     * java.lang.String javax.print.attribute.SetOfIntegerSyntax.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.SetOfIntegerSyntax#toString()
+     * public java.lang.String javax.print.attribute.SetOfIntegerSyntax.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,7 +173,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SetOfIntegerSyntax#getMembers() public int[][]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.SetOfIntegerSyntax#getMembers() public int[][]
      * javax.print.attribute.SetOfIntegerSyntax.getMembers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

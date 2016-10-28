@@ -1,12 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.Color;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.color.ColorSpace;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +34,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#brighter() public java.awt.Color
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#brighter() public java.awt.Color
      * java.awt.Color.brighter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +56,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getColorSpace() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getColorSpace() public
      * java.awt.color.ColorSpace java.awt.Color.getColorSpace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +78,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getBlue() public int java.awt.Color.getBlue()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getBlue() public int
+     * java.awt.Color.getBlue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +101,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Color#createContext(ColorModel, Rectangle, Rectangle2D, AffineTransform, RenderingHints) public
-     * synchronized java.awt.PaintContext
+     * {@link java.awt.Color#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
+     * public synchronized java.awt.PaintContext
      * java.awt.Color.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
      * .
      *
@@ -132,7 +126,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getTransparency() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getTransparency() public int
      * java.awt.Color.getTransparency()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +149,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getRGBColorComponents(float[]) public float[]
-     * java.awt.Color.getRGBColorComponents(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getRGBColorComponents(float[]) public
+     * float[] java.awt.Color.getRGBColorComponents(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,7 +171,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getAlpha() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getAlpha() public int
      * java.awt.Color.getAlpha()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,8 +193,9 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getColorComponents(ColorSpace, float[]) public
-     * float[] java.awt.Color.getColorComponents(java.awt.color.ColorSpace,float[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Color#getColorComponents(java.awt.color.ColorSpace, float[]) public float[]
+     * java.awt.Color.getColorComponents(java.awt.color.ColorSpace,float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,8 +216,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getColorComponents(float[]) public float[]
-     * java.awt.Color.getColorComponents(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getColorComponents(float[]) public
+     * float[] java.awt.Color.getColorComponents(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,7 +238,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getRed() public int java.awt.Color.getRed()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getRed() public int
+     * java.awt.Color.getRed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -264,7 +260,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getGreen() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getGreen() public int
      * java.awt.Color.getGreen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -286,7 +282,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#darker() public java.awt.Color
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#darker() public java.awt.Color
      * java.awt.Color.darker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -308,8 +304,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getRGBComponents(float[]) public float[]
-     * java.awt.Color.getRGBComponents(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getRGBComponents(float[]) public
+     * float[] java.awt.Color.getRGBComponents(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -330,7 +326,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#hashCode() public int
      * java.awt.Color.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -353,7 +349,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#equals(Object) public boolean
      * java.awt.Color.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -376,8 +372,9 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getComponents(ColorSpace, float[]) public
-     * float[] java.awt.Color.getComponents(java.awt.color.ColorSpace,float[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Color#getComponents(java.awt.color.ColorSpace, float[]) public float[]
+     * java.awt.Color.getComponents(java.awt.color.ColorSpace,float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -398,7 +395,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getComponents(float[]) public float[]
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getComponents(float[]) public float[]
      * java.awt.Color.getComponents(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -420,7 +417,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#toString() public java.lang.String
      * java.awt.Color.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -443,7 +440,8 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Color#getRGB() public int java.awt.Color.getRGB()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getRGB() public int
+     * java.awt.Color.getRGB()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

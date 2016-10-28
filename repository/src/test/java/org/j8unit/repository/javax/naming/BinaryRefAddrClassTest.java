@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.naming.BinaryRefAddrClassTests<BinaryRefA
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BinaryRefAddr#BinaryRefAddr(String, byte[])
-     * public javax.naming.BinaryRefAddr(java.lang.String,byte[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.BinaryRefAddr#BinaryRefAddr(String, byte[]) public
+     * javax.naming.BinaryRefAddr(java.lang.String,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +45,7 @@ implements org.j8unit.repository.javax.naming.BinaryRefAddrClassTests<BinaryRefA
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BinaryRefAddr#BinaryRefAddr(String, byte[], int, int) public
+     * {@link javax.naming.BinaryRefAddr#BinaryRefAddr(String, byte[], int, int) public
      * javax.naming.BinaryRefAddr(java.lang.String,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

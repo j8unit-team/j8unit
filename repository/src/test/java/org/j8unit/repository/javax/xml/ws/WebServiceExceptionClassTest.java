@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.ws.WebServiceExceptionClassTests<WebS
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link WebServiceException#WebServiceException(Throwable) public
+     * {@link javax.xml.ws.WebServiceException#WebServiceException(Throwable) public
      * javax.xml.ws.WebServiceException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.ws.WebServiceExceptionClassTests<WebS
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link WebServiceException#WebServiceException(String, Throwable) public
+     * {@link javax.xml.ws.WebServiceException#WebServiceException(String, Throwable) public
      * javax.xml.ws.WebServiceException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,9 @@ implements org.j8unit.repository.javax.xml.ws.WebServiceExceptionClassTests<WebS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WebServiceException#WebServiceException(String)
-     * public javax.xml.ws.WebServiceException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.WebServiceException#WebServiceException(String) public
+     * javax.xml.ws.WebServiceException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +90,8 @@ implements org.j8unit.repository.javax.xml.ws.WebServiceExceptionClassTests<WebS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link WebServiceException#WebServiceException()
-     * public javax.xml.ws.WebServiceException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.WebServiceException#WebServiceException() public javax.xml.ws.WebServiceException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

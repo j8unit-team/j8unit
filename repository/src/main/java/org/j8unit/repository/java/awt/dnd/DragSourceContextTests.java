@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.awt.dnd;
 
-import java.awt.Cursor;
 import java.awt.dnd.DragSourceContext;
-import java.awt.dnd.DragSourceDragEvent;
-import java.awt.dnd.DragSourceDropEvent;
-import java.awt.dnd.DragSourceEvent;
-import java.awt.dnd.DragSourceListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +35,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#getDragSource() public
-     * java.awt.dnd.DragSource java.awt.dnd.DragSourceContext.getDragSource()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceContext#getDragSource()
+     * public java.awt.dnd.DragSource java.awt.dnd.DragSourceContext.getDragSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,7 +58,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragSourceContext#dragMouseMoved(DragSourceDragEvent) public void
+     * {@link java.awt.dnd.DragSourceContext#dragMouseMoved(java.awt.dnd.DragSourceDragEvent) public void
      * java.awt.dnd.DragSourceContext.dragMouseMoved(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,8 +81,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#dragExit(DragSourceEvent) public
-     * void java.awt.dnd.DragSourceContext.dragExit(java.awt.dnd.DragSourceEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceContext#dragExit(java.awt.dnd.DragSourceEvent) public void
+     * java.awt.dnd.DragSourceContext.dragExit(java.awt.dnd.DragSourceEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,7 +105,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#getComponent() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceContext#getComponent() public
      * java.awt.Component java.awt.dnd.DragSourceContext.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,8 +127,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#dragOver(DragSourceDragEvent)
-     * public void java.awt.dnd.DragSourceContext.dragOver(java.awt.dnd.DragSourceDragEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceContext#dragOver(java.awt.dnd.DragSourceDragEvent) public void
+     * java.awt.dnd.DragSourceContext.dragOver(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,8 +151,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#setCursor(Cursor) public
-     * synchronized void java.awt.dnd.DragSourceContext.setCursor(java.awt.Cursor)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceContext#setCursor(java.awt.Cursor) public synchronized void
+     * java.awt.dnd.DragSourceContext.setCursor(java.awt.Cursor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,8 +174,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#dragEnter(DragSourceDragEvent)
-     * public void java.awt.dnd.DragSourceContext.dragEnter(java.awt.dnd.DragSourceDragEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceContext#dragEnter(java.awt.dnd.DragSourceDragEvent) public void
+     * java.awt.dnd.DragSourceContext.dragEnter(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,8 +198,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#getCursor() public java.awt.Cursor
-     * java.awt.dnd.DragSourceContext.getCursor()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceContext#getCursor() public
+     * java.awt.Cursor java.awt.dnd.DragSourceContext.getCursor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,8 +221,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragSourceContext#removeDragSourceListener(DragSourceListener) public synchronized void
-     * java.awt.dnd.DragSourceContext.removeDragSourceListener(java.awt.dnd.DragSourceListener)}.
+     * {@link java.awt.dnd.DragSourceContext#removeDragSourceListener(java.awt.dnd.DragSourceListener) public
+     * synchronized void java.awt.dnd.DragSourceContext.removeDragSourceListener(java.awt.dnd.DragSourceListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,7 +243,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#getTrigger() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceContext#getTrigger() public
      * java.awt.dnd.DragGestureEvent java.awt.dnd.DragSourceContext.getTrigger()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -266,8 +265,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#getTransferable() public
-     * java.awt.datatransfer.Transferable java.awt.dnd.DragSourceContext.getTransferable()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceContext#getTransferable()
+     * public java.awt.datatransfer.Transferable java.awt.dnd.DragSourceContext.getTransferable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,8 +288,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragSourceContext#addDragSourceListener(DragSourceListener) public synchronized void
-     * java.awt.dnd.DragSourceContext.addDragSourceListener(java.awt.dnd.DragSourceListener) throws
+     * {@link java.awt.dnd.DragSourceContext#addDragSourceListener(java.awt.dnd.DragSourceListener) public synchronized
+     * void java.awt.dnd.DragSourceContext.addDragSourceListener(java.awt.dnd.DragSourceListener) throws
      * java.util.TooManyListenersException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,8 +311,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#getSourceActions() public int
-     * java.awt.dnd.DragSourceContext.getSourceActions()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DragSourceContext#getSourceActions()
+     * public int java.awt.dnd.DragSourceContext.getSourceActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -334,8 +333,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#dragDropEnd(DragSourceDropEvent)
-     * public void java.awt.dnd.DragSourceContext.dragDropEnd(java.awt.dnd.DragSourceDropEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceContext#dragDropEnd(java.awt.dnd.DragSourceDropEvent) public void
+     * java.awt.dnd.DragSourceContext.dragDropEnd(java.awt.dnd.DragSourceDropEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -357,8 +357,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DragSourceContext#transferablesFlavorsChanged()
-     * public void java.awt.dnd.DragSourceContext.transferablesFlavorsChanged()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSourceContext#transferablesFlavorsChanged() public void
+     * java.awt.dnd.DragSourceContext.transferablesFlavorsChanged()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -380,7 +381,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DragSourceContext#dropActionChanged(DragSourceDragEvent) public void
+     * {@link java.awt.dnd.DragSourceContext#dropActionChanged(java.awt.dnd.DragSourceDragEvent) public void
      * java.awt.dnd.DragSourceContext.dropActionChanged(java.awt.dnd.DragSourceDragEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

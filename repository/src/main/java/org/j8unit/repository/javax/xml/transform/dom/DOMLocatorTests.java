@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.xml.transform.SourceLocatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMLocator#getOriginatingNode() public abstract
-     * org.w3c.dom.Node javax.xml.transform.dom.DOMLocator.getOriginatingNode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.dom.DOMLocator#getOriginatingNode() public abstract org.w3c.dom.Node
+     * javax.xml.transform.dom.DOMLocator.getOriginatingNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

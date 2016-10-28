@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.AbstractQueue;
-import java.util.Collection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueue#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractQueue#clear() public void
      * java.util.AbstractQueue.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueue#element() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractQueue#element() public E
      * java.util.AbstractQueue.element()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +80,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueue#remove() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractQueue#remove() public E
      * java.util.AbstractQueue.remove()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +103,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueue#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractQueue#add(Object) public boolean
      * java.util.AbstractQueue.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +126,8 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractQueue#addAll(Collection) public boolean
-     * java.util.AbstractQueue.addAll(java.util.Collection<? extends E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractQueue#addAll(java.util.Collection)
+     * public boolean java.util.AbstractQueue.addAll(java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

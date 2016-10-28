@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Component;
-import java.awt.Container;
 import java.awt.FlowLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#setAlignment(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.FlowLayout#setAlignment(int) public void
      * java.awt.FlowLayout.setAlignment(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +57,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#preferredLayoutSize(Container) public
-     * java.awt.Dimension java.awt.FlowLayout.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.FlowLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.FlowLayout.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +81,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#getAlignment() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FlowLayout#getAlignment() public int
      * java.awt.FlowLayout.getAlignment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +103,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#removeLayoutComponent(Component) public
-     * void java.awt.FlowLayout.removeLayoutComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.FlowLayout#removeLayoutComponent(java.awt.Component) public void
+     * java.awt.FlowLayout.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,29 +127,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#setAlignOnBaseline(boolean) public void
-     * java.awt.FlowLayout.setAlignOnBaseline(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAlignOnBaseline_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#getHgap() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FlowLayout#getHgap() public int
      * java.awt.FlowLayout.getHgap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +149,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#getVgap() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.FlowLayout#setAlignOnBaseline(boolean)
+     * public void java.awt.FlowLayout.setAlignOnBaseline(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAlignOnBaseline_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.FlowLayout#getVgap() public int
      * java.awt.FlowLayout.getVgap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,7 +193,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#setVgap(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.FlowLayout#setVgap(int) public void
      * java.awt.FlowLayout.setVgap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,8 +215,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#minimumLayoutSize(Container) public
-     * java.awt.Dimension java.awt.FlowLayout.minimumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.FlowLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.FlowLayout.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,8 +239,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#addLayoutComponent(String, Component)
-     * public void java.awt.FlowLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.FlowLayout#addLayoutComponent(String, java.awt.Component) public void
+     * java.awt.FlowLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -261,7 +263,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#layoutContainer(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.FlowLayout#layoutContainer(java.awt.Container) public void
      * java.awt.FlowLayout.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -284,7 +287,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#setHgap(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.FlowLayout#setHgap(int) public void
      * java.awt.FlowLayout.setHgap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -306,8 +309,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#toString() public java.lang.String
-     * java.awt.FlowLayout.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.FlowLayout#toString() public
+     * java.lang.String java.awt.FlowLayout.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -329,8 +332,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FlowLayout#getAlignOnBaseline() public boolean
-     * java.awt.FlowLayout.getAlignOnBaseline()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.FlowLayout#getAlignOnBaseline() public
+     * boolean java.awt.FlowLayout.getAlignOnBaseline()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

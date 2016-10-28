@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.xml.ws.spi.ProviderClassTests<Provider> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#provider() public static
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.Provider#provider() public static
      * javax.xml.ws.spi.Provider javax.xml.ws.spi.Provider.provider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,7 +36,7 @@ implements org.j8unit.repository.javax.xml.ws.spi.ProviderClassTests<Provider> {
     @Category(Draft.class)
     public void test_provider()
     throws Exception {
-        // write some test for {@link Provider#provider()}
+        // write some test for {@link javax.xml.ws.spi.Provider#provider()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.spi.Provider]

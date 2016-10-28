@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, Object>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringTokenizer#nextToken() public java.lang.String
-     * java.util.StringTokenizer.nextToken()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.StringTokenizer#nextToken() public
+     * java.lang.String java.util.StringTokenizer.nextToken()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, Object>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringTokenizer#nextToken(String) public
+     * Test method for the hereby targeted method-under-test {@link java.util.StringTokenizer#nextToken(String) public
      * java.lang.String java.util.StringTokenizer.nextToken(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, Object>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringTokenizer#hasMoreElements() public boolean
-     * java.util.StringTokenizer.hasMoreElements()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.StringTokenizer#hasMoreElements() public
+     * boolean java.util.StringTokenizer.hasMoreElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, Object>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringTokenizer#hasMoreTokens() public boolean
-     * java.util.StringTokenizer.hasMoreTokens()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.StringTokenizer#hasMoreTokens() public
+     * boolean java.util.StringTokenizer.hasMoreTokens()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +123,7 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, Object>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringTokenizer#countTokens() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.StringTokenizer#countTokens() public int
      * java.util.StringTokenizer.countTokens()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, Object>, org.j8uni
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringTokenizer#nextElement() public
+     * Test method for the hereby targeted method-under-test {@link java.util.StringTokenizer#nextElement() public
      * java.lang.Object java.util.StringTokenizer.nextElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

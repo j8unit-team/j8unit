@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CosNaming.NameComponent;
 import org.omg.CosNaming.NamingContextExtOperations;
 
 /**
@@ -35,8 +34,8 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingContextExtOperations#to_url(String, String)
-     * public abstract java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtOperations#to_url(String, String) public abstract java.lang.String
      * org.omg.CosNaming.NamingContextExtOperations.to_url(java.lang.String,java.lang.String) throws
      * org.omg.CosNaming.NamingContextExtPackage.InvalidAddress,org.omg.CosNaming.NamingContextPackage.InvalidName}.
      *
@@ -59,9 +58,9 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingContextExtOperations#resolve_str(String)
-     * public abstract org.omg.CORBA.Object org.omg.CosNaming.NamingContextExtOperations.resolve_str(java.lang.String)
-     * throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtOperations#resolve_str(String) public abstract org.omg.CORBA.Object
+     * org.omg.CosNaming.NamingContextExtOperations.resolve_str(java.lang.String) throws
      * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
      * .
      *
@@ -84,9 +83,10 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingContextExtOperations#to_name(String) public
-     * abstract org.omg.CosNaming.NameComponent[] org.omg.CosNaming.NamingContextExtOperations.to_name(java.lang.String)
-     * throws org.omg.CosNaming.NamingContextPackage.InvalidName}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextExtOperations#to_name(String) public abstract
+     * org.omg.CosNaming.NameComponent[] org.omg.CosNaming.NamingContextExtOperations.to_name(java.lang.String) throws
+     * org.omg.CosNaming.NamingContextPackage.InvalidName}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +108,8 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NamingContextExtOperations#to_string(NameComponent[]) public abstract java.lang.String
-     * org.omg.CosNaming.NamingContextExtOperations.to_string(org.omg.CosNaming.NameComponent[]) throws
+     * {@link org.omg.CosNaming.NamingContextExtOperations#to_string(org.omg.CosNaming.NameComponent[]) public abstract
+     * java.lang.String org.omg.CosNaming.NamingContextExtOperations.to_string(org.omg.CosNaming.NameComponent[]) throws
      * org.omg.CosNaming.NamingContextPackage.InvalidName}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

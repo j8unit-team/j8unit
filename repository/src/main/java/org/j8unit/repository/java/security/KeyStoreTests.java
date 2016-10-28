@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.security;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.security.Key;
 import java.security.KeyStore;
 import java.security.KeyStore.Builder;
 import java.security.KeyStore.CallbackHandlerProtection;
@@ -14,7 +11,6 @@ import java.security.KeyStore.PrivateKeyEntry;
 import java.security.KeyStore.ProtectionParameter;
 import java.security.KeyStore.SecretKeyEntry;
 import java.security.KeyStore.TrustedCertificateEntry;
-import java.security.cert.Certificate;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -49,8 +45,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#store(OutputStream, char[]) public final
-     * void java.security.KeyStore.store(java.io.OutputStream,char[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#store(java.io.OutputStream, char[]) public final void
+     * java.security.KeyStore.store(java.io.OutputStream,char[]) throws
      * java.security.KeyStoreException,java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}
      * .
      *
@@ -73,7 +70,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#store(LoadStoreParameter) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#store(java.security.KeyStore.LoadStoreParameter) public final void
      * java.security.KeyStore.store(java.security.KeyStore$LoadStoreParameter) throws
      * java.security.KeyStoreException,java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}
      * .
@@ -97,8 +95,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#containsAlias(String) public final boolean
-     * java.security.KeyStore.containsAlias(java.lang.String) throws java.security.KeyStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#containsAlias(String) public
+     * final boolean java.security.KeyStore.containsAlias(java.lang.String) throws java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -119,8 +117,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getCertificateAlias(Certificate) public
-     * final java.lang.String java.security.KeyStore.getCertificateAlias(java.security.cert.Certificate) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#getCertificateAlias(java.security.cert.Certificate) public final java.lang.String
+     * java.security.KeyStore.getCertificateAlias(java.security.cert.Certificate) throws
      * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -142,7 +141,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#aliases() public final
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#aliases() public final
      * java.util.Enumeration<java.lang.String> java.security.KeyStore.aliases() throws java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -164,8 +163,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getKey(String, char[]) public final
-     * java.security.Key java.security.KeyStore.getKey(java.lang.String,char[]) throws
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#getKey(String, char[]) public
+     * final java.security.Key java.security.KeyStore.getKey(java.lang.String,char[]) throws
      * java.security.KeyStoreException,java.security.NoSuchAlgorithmException,java.security.UnrecoverableKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -187,8 +186,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getCertificateChain(String) public final
-     * java.security.cert.Certificate[] java.security.KeyStore.getCertificateChain(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#getCertificateChain(String)
+     * public final java.security.cert.Certificate[] java.security.KeyStore.getCertificateChain(java.lang.String) throws
      * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,8 +209,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#isKeyEntry(String) public final boolean
-     * java.security.KeyStore.isKeyEntry(java.lang.String) throws java.security.KeyStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#isKeyEntry(String) public
+     * final boolean java.security.KeyStore.isKeyEntry(java.lang.String) throws java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,9 +231,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#entryInstanceOf(String, Class) public final
-     * boolean java.security.KeyStore.entryInstanceOf(java.lang.String,java.lang.Class<? extends
-     * java.security.KeyStore$Entry>) throws java.security.KeyStoreException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#entryInstanceOf(String, Class) public final boolean
+     * java.security.KeyStore.entryInstanceOf(java.lang.String,java.lang.Class<? extends java.security.KeyStore$Entry>)
+     * throws java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getProvider() public final
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#getProvider() public final
      * java.security.Provider java.security.KeyStore.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -278,7 +278,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyStore#setEntry(String, Entry, ProtectionParameter) public final void
+     * {@link java.security.KeyStore#setEntry(String, java.security.KeyStore.Entry, java.security.KeyStore.ProtectionParameter)
+     * public final void
      * java.security.KeyStore.setEntry(java.lang.String,java.security.KeyStore$Entry,java.security.KeyStore$ProtectionParameter)
      * throws java.security.KeyStoreException}.
      *
@@ -301,9 +302,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#setCertificateEntry(String, Certificate)
-     * public final void java.security.KeyStore.setCertificateEntry(java.lang.String,java.security.cert.Certificate)
-     * throws java.security.KeyStoreException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#setCertificateEntry(String, java.security.cert.Certificate) public final void
+     * java.security.KeyStore.setCertificateEntry(java.lang.String,java.security.cert.Certificate) throws
+     * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +326,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getEntry(String, ProtectionParameter)
-     * public final java.security.KeyStore$Entry
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#getEntry(String, java.security.KeyStore.ProtectionParameter) public final
+     * java.security.KeyStore$Entry
      * java.security.KeyStore.getEntry(java.lang.String,java.security.KeyStore$ProtectionParameter) throws
      * java.security.NoSuchAlgorithmException,java.security.UnrecoverableEntryException,java.security.KeyStoreException}
      * .
@@ -349,8 +352,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#isCertificateEntry(String) public final
-     * boolean java.security.KeyStore.isCertificateEntry(java.lang.String) throws java.security.KeyStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#isCertificateEntry(String)
+     * public final boolean java.security.KeyStore.isCertificateEntry(java.lang.String) throws
+     * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,8 +375,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getCreationDate(String) public final
-     * java.util.Date java.security.KeyStore.getCreationDate(java.lang.String) throws java.security.KeyStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#getCreationDate(String)
+     * public final java.util.Date java.security.KeyStore.getCreationDate(java.lang.String) throws
+     * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -393,8 +398,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#deleteEntry(String) public final void
-     * java.security.KeyStore.deleteEntry(java.lang.String) throws java.security.KeyStoreException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#deleteEntry(String) public
+     * final void java.security.KeyStore.deleteEntry(java.lang.String) throws java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -415,8 +420,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getCertificate(String) public final
-     * java.security.cert.Certificate java.security.KeyStore.getCertificate(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#getCertificate(String) public
+     * final java.security.cert.Certificate java.security.KeyStore.getCertificate(java.lang.String) throws
      * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -438,7 +443,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#load(InputStream, char[]) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#load(java.io.InputStream, char[]) public final void
      * java.security.KeyStore.load(java.io.InputStream,char[]) throws
      * java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}.
      *
@@ -461,7 +467,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#load(LoadStoreParameter) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#load(java.security.KeyStore.LoadStoreParameter) public final void
      * java.security.KeyStore.load(java.security.KeyStore$LoadStoreParameter) throws
      * java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}.
      *
@@ -484,7 +491,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#size() public final int
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#size() public final int
      * java.security.KeyStore.size() throws java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -507,7 +514,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link KeyStore#setKeyEntry(String, Key, char[], Certificate[]) public final void
+     * {@link java.security.KeyStore#setKeyEntry(String, byte[], java.security.cert.Certificate[]) public final void
+     * java.security.KeyStore.setKeyEntry(java.lang.String,byte[],java.security.cert.Certificate[]) throws
+     * java.security.KeyStoreException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setKeyEntry_String_byteArray_CertificateArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#setKeyEntry(String, java.security.Key, char[], java.security.cert.Certificate[])
+     * public final void
      * java.security.KeyStore.setKeyEntry(java.lang.String,java.security.Key,char[],java.security.cert.Certificate[])
      * throws java.security.KeyStoreException}.
      *
@@ -530,31 +562,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#setKeyEntry(String, byte[], Certificate[])
-     * public final void java.security.KeyStore.setKeyEntry(java.lang.String,byte[],java.security.cert.Certificate[])
-     * throws java.security.KeyStoreException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setKeyEntry_String_byteArray_CertificateArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyStore#getType() public final java.lang.String
-     * java.security.KeyStore.getType()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStore#getType() public final
+     * java.lang.String java.security.KeyStore.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -602,8 +611,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link LoadStoreParameter#getProtectionParameter()
-         * public abstract java.security.KeyStore$ProtectionParameter
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.LoadStoreParameter#getProtectionParameter() public abstract
+         * java.security.KeyStore$ProtectionParameter
          * java.security.KeyStore$LoadStoreParameter.getProtectionParameter()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -654,8 +664,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SecretKeyEntry#toString() public
-         * java.lang.String java.security.KeyStore$SecretKeyEntry.toString()}.
+         * Test method for the hereby targeted method-under-test {@link java.security.KeyStore.SecretKeyEntry#toString()
+         * public java.lang.String java.security.KeyStore$SecretKeyEntry.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -677,8 +687,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SecretKeyEntry#getAttributes() public
-         * java.util.Set<java.security.KeyStore$Entry$Attribute> java.security.KeyStore$SecretKeyEntry.getAttributes()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.SecretKeyEntry#getAttributes() public java.util.Set
+         * <java.security.KeyStore$Entry$Attribute> java.security.KeyStore$SecretKeyEntry.getAttributes()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -700,8 +711,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SecretKeyEntry#getSecretKey() public
-         * javax.crypto.SecretKey java.security.KeyStore$SecretKeyEntry.getSecretKey()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.SecretKeyEntry#getSecretKey() public javax.crypto.SecretKey
+         * java.security.KeyStore$SecretKeyEntry.getSecretKey()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -751,9 +763,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link TrustedCertificateEntry#getTrustedCertificate()
-         * public java.security.cert.Certificate java.security.KeyStore$TrustedCertificateEntry.getTrustedCertificate()}
-         * .
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.TrustedCertificateEntry#getTrustedCertificate() public
+         * java.security.cert.Certificate java.security.KeyStore$TrustedCertificateEntry.getTrustedCertificate()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -774,8 +786,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link TrustedCertificateEntry#getAttributes() public
-         * java.util.Set
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.TrustedCertificateEntry#getAttributes() public java.util.Set
          * <java.security.KeyStore$Entry$Attribute> java.security.KeyStore$TrustedCertificateEntry.getAttributes()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -798,8 +810,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link TrustedCertificateEntry#toString() public
-         * java.lang.String java.security.KeyStore$TrustedCertificateEntry.toString()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.TrustedCertificateEntry#toString() public java.lang.String
+         * java.security.KeyStore$TrustedCertificateEntry.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -880,8 +893,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PasswordProtection#isDestroyed() public
-         * synchronized boolean java.security.KeyStore$PasswordProtection.isDestroyed()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PasswordProtection#isDestroyed() public synchronized boolean
+         * java.security.KeyStore$PasswordProtection.isDestroyed()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -903,8 +917,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PasswordProtection#getPassword() public
-         * synchronized char[] java.security.KeyStore$PasswordProtection.getPassword()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PasswordProtection#getPassword() public synchronized char[]
+         * java.security.KeyStore$PasswordProtection.getPassword()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -925,8 +940,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PasswordProtection#getProtectionParameters()
-         * public java.security.spec.AlgorithmParameterSpec
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PasswordProtection#getProtectionParameters() public
+         * java.security.spec.AlgorithmParameterSpec
          * java.security.KeyStore$PasswordProtection.getProtectionParameters()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -948,8 +964,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PasswordProtection#getProtectionAlgorithm()
-         * public java.lang.String java.security.KeyStore$PasswordProtection.getProtectionAlgorithm()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PasswordProtection#getProtectionAlgorithm() public java.lang.String
+         * java.security.KeyStore$PasswordProtection.getProtectionAlgorithm()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -970,8 +987,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PasswordProtection#destroy() public synchronized
-         * void java.security.KeyStore$PasswordProtection.destroy() throws javax.security.auth.DestroyFailedException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PasswordProtection#destroy() public synchronized void
+         * java.security.KeyStore$PasswordProtection.destroy() throws javax.security.auth.DestroyFailedException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1022,8 +1040,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PrivateKeyEntry#toString() public
-         * java.lang.String java.security.KeyStore$PrivateKeyEntry.toString()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PrivateKeyEntry#toString() public java.lang.String
+         * java.security.KeyStore$PrivateKeyEntry.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1045,8 +1064,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PrivateKeyEntry#getPrivateKey() public
-         * java.security.PrivateKey java.security.KeyStore$PrivateKeyEntry.getPrivateKey()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PrivateKeyEntry#getPrivateKey() public java.security.PrivateKey
+         * java.security.KeyStore$PrivateKeyEntry.getPrivateKey()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1067,9 +1087,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PrivateKeyEntry#getAttributes() public
-         * java.util.Set<java.security.KeyStore$Entry$Attribute> java.security.KeyStore$PrivateKeyEntry.getAttributes()}
-         * .
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PrivateKeyEntry#getAttributes() public java.util.Set
+         * <java.security.KeyStore$Entry$Attribute> java.security.KeyStore$PrivateKeyEntry.getAttributes()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1091,8 +1111,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PrivateKeyEntry#getCertificateChain() public
-         * java.security.cert.Certificate[] java.security.KeyStore$PrivateKeyEntry.getCertificateChain()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PrivateKeyEntry#getCertificateChain() public java.security.cert.Certificate[]
+         * java.security.KeyStore$PrivateKeyEntry.getCertificateChain()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1113,8 +1134,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link PrivateKeyEntry#getCertificate() public
-         * java.security.cert.Certificate java.security.KeyStore$PrivateKeyEntry.getCertificate()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PrivateKeyEntry#getCertificate() public java.security.cert.Certificate
+         * java.security.KeyStore$PrivateKeyEntry.getCertificate()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1164,8 +1186,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link CallbackHandlerProtection#getCallbackHandler()
-         * public javax.security.auth.callback.CallbackHandler
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.CallbackHandlerProtection#getCallbackHandler() public
+         * javax.security.auth.callback.CallbackHandler
          * java.security.KeyStore$CallbackHandlerProtection.getCallbackHandler()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1216,8 +1239,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#getProtectionParameter(String) public
-         * abstract java.security.KeyStore$ProtectionParameter
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.Builder#getProtectionParameter(String) public abstract
+         * java.security.KeyStore$ProtectionParameter
          * java.security.KeyStore$Builder.getProtectionParameter(java.lang.String) throws
          * java.security.KeyStoreException}.
          *
@@ -1240,8 +1264,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Builder#getKeyStore() public abstract
-         * java.security.KeyStore java.security.KeyStore$Builder.getKeyStore() throws java.security.KeyStoreException}.
+         * Test method for the hereby targeted method-under-test {@link java.security.KeyStore.Builder#getKeyStore()
+         * public abstract java.security.KeyStore java.security.KeyStore$Builder.getKeyStore() throws
+         * java.security.KeyStoreException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1291,8 +1316,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Entry#getAttributes() public default
-         * java.util.Set<java.security.KeyStore$Entry$Attribute> java.security.KeyStore$Entry.getAttributes()}.
+         * Test method for the hereby targeted method-under-test {@link java.security.KeyStore.Entry#getAttributes()
+         * public default java.util.Set
+         * <java.security.KeyStore$Entry$Attribute> java.security.KeyStore$Entry.getAttributes()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1341,8 +1367,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
             /**
              * <p>
-             * Test method for the hereby targeted method-under-test {@link Attribute#getValue() public abstract
-             * java.lang.String java.security.KeyStore$Entry$Attribute.getValue()}.
+             * Test method for the hereby targeted method-under-test
+             * {@link java.security.KeyStore.Entry.Attribute#getValue() public abstract java.lang.String
+             * java.security.KeyStore$Entry$Attribute.getValue()}.
              *
              * Up to now, there is no real implementation of this test method. But with your help at
              * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
@@ -1363,8 +1390,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
             /**
              * <p>
-             * Test method for the hereby targeted method-under-test {@link Attribute#getName() public abstract
-             * java.lang.String java.security.KeyStore$Entry$Attribute.getName()}.
+             * Test method for the hereby targeted method-under-test
+             * {@link java.security.KeyStore.Entry.Attribute#getName() public abstract java.lang.String
+             * java.security.KeyStore$Entry$Attribute.getName()}.
              *
              * Up to now, there is no real implementation of this test method. But with your help at
              * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by

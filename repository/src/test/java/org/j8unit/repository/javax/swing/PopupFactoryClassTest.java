@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.PopupFactoryClassTests<PopupFactory
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PopupFactory#PopupFactory() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.PopupFactory#PopupFactory() public
      * javax.swing.PopupFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.javax.swing.PopupFactoryClassTests<PopupFactory
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PopupFactory#getSharedInstance() public static
-     * javax.swing.PopupFactory javax.swing.PopupFactory.getSharedInstance()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.PopupFactory#getSharedInstance() public
+     * static javax.swing.PopupFactory javax.swing.PopupFactory.getSharedInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +57,14 @@ implements org.j8unit.repository.javax.swing.PopupFactoryClassTests<PopupFactory
     @Category(Draft.class)
     public void test_getSharedInstance()
     throws Exception {
-        // write some test for {@link PopupFactory#getSharedInstance()}
+        // write some test for {@link javax.swing.PopupFactory#getSharedInstance()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PopupFactory#setSharedInstance(PopupFactory) public
-     * static void javax.swing.PopupFactory.setSharedInstance(javax.swing.PopupFactory)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.PopupFactory#setSharedInstance(javax.swing.PopupFactory) public static void
+     * javax.swing.PopupFactory.setSharedInstance(javax.swing.PopupFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,7 +78,7 @@ implements org.j8unit.repository.javax.swing.PopupFactoryClassTests<PopupFactory
     @Category(Draft.class)
     public void test_setSharedInstance_PopupFactory()
     throws Exception {
-        // write some test for {@link PopupFactory#setSharedInstance(PopupFactory)}
+        // write some test for {@link javax.swing.PopupFactory#setSharedInstance(javax.swing.PopupFactory)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.PopupFactory]

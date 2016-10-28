@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.nimbus;
 
-import javax.swing.Icon;
-import javax.swing.JComponent;
 import javax.swing.plaf.nimbus.NimbusLookAndFeel;
-import javax.swing.plaf.synth.Region;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NimbusLookAndFeel#initialize() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#initialize() public void
      * javax.swing.plaf.nimbus.NimbusLookAndFeel.initialize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +58,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NimbusLookAndFeel#getDisabledIcon(JComponent, Icon)
-     * public javax.swing.Icon
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDisabledIcon(javax.swing.JComponent, javax.swing.Icon) public
+     * javax.swing.Icon
      * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDisabledIcon(javax.swing.JComponent,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,8 +83,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NimbusLookAndFeel#getID() public java.lang.String
-     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getID()
+     * public java.lang.String javax.swing.plaf.nimbus.NimbusLookAndFeel.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +106,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NimbusLookAndFeel#getDefaults() public
-     * javax.swing.UIDefaults javax.swing.plaf.nimbus.NimbusLookAndFeel.getDefaults()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDefaults() public javax.swing.UIDefaults
+     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDefaults()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,7 +130,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NimbusLookAndFeel#uninitialize() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#uninitialize() public void
      * javax.swing.plaf.nimbus.NimbusLookAndFeel.uninitialize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,8 +154,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NimbusLookAndFeel#register(Region, String) public
-     * void javax.swing.plaf.nimbus.NimbusLookAndFeel.register(javax.swing.plaf.synth.Region,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#register(javax.swing.plaf.synth.Region, String) public void
+     * javax.swing.plaf.nimbus.NimbusLookAndFeel.register(javax.swing.plaf.synth.Region,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,8 +177,9 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NimbusLookAndFeel#getDescription() public
-     * java.lang.String javax.swing.plaf.nimbus.NimbusLookAndFeel.getDescription()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDescription() public java.lang.String
+     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,7 +202,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NimbusLookAndFeel#getDerivedColor(String, float, float, float, int, boolean) public java.awt.Color
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDerivedColor(String, float, float, float, int, boolean)
+     * public java.awt.Color
      * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDerivedColor(java.lang.String,float,float,float,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -221,8 +225,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NimbusLookAndFeel#getName() public java.lang.String
-     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getName()
+     * public java.lang.String javax.swing.plaf.nimbus.NimbusLookAndFeel.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,7 +249,7 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NimbusLookAndFeel#shouldUpdateStyleOnAncestorChanged() public boolean
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#shouldUpdateStyleOnAncestorChanged() public boolean
      * javax.swing.plaf.nimbus.NimbusLookAndFeel.shouldUpdateStyleOnAncestorChanged()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

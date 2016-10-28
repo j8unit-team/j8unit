@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.NO_IMPLEMENT;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.NO_IMPLEMENTClassTests<NO_IMPLEME
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NO_IMPLEMENT#NO_IMPLEMENT(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.NO_IMPLEMENT#NO_IMPLEMENT(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.NO_IMPLEMENT(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.NO_IMPLEMENTClassTests<NO_IMPLEME
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NO_IMPLEMENT sut = null; // = new NO_IMPLEMENT(String, int, CompletionStatus);
+        final NO_IMPLEMENT sut = null; // = new NO_IMPLEMENT(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NO_IMPLEMENT#NO_IMPLEMENT(int, CompletionStatus) public
+     * {@link org.omg.CORBA.NO_IMPLEMENT#NO_IMPLEMENT(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.NO_IMPLEMENT(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +62,13 @@ implements org.j8unit.repository.org.omg.CORBA.NO_IMPLEMENTClassTests<NO_IMPLEME
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NO_IMPLEMENT sut = null; // = new NO_IMPLEMENT(int, CompletionStatus);
+        final NO_IMPLEMENT sut = null; // = new NO_IMPLEMENT(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NO_IMPLEMENT#NO_IMPLEMENT(String) public
-     * org.omg.CORBA.NO_IMPLEMENT(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.NO_IMPLEMENT#NO_IMPLEMENT(String)
+     * public org.omg.CORBA.NO_IMPLEMENT(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,8 +89,8 @@ implements org.j8unit.repository.org.omg.CORBA.NO_IMPLEMENTClassTests<NO_IMPLEME
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NO_IMPLEMENT#NO_IMPLEMENT() public
-     * org.omg.CORBA.NO_IMPLEMENT()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.NO_IMPLEMENT#NO_IMPLEMENT()
+     * public org.omg.CORBA.NO_IMPLEMENT()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

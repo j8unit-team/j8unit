@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECPublicKeySpec#getW() public
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECPublicKeySpec#getW() public
      * java.security.spec.ECPoint java.security.spec.ECPublicKeySpec.getW()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ECPublicKeySpec#getParams() public
-     * java.security.spec.ECParameterSpec java.security.spec.ECPublicKeySpec.getParams()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.spec.ECPublicKeySpec#getParams()
+     * public java.security.spec.ECParameterSpec java.security.spec.ECPublicKeySpec.getParams()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

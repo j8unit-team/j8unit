@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.swing.table;
 
 import javax.swing.table.JTableHeader;
-import javax.swing.table.TableColumnModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.swing.table.JTableHeaderClassTests<JTable
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTableHeader#JTableHeader() public
-     * javax.swing.table.JTableHeader()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.table.JTableHeader#JTableHeader()
+     * public javax.swing.table.JTableHeader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +42,9 @@ implements org.j8unit.repository.javax.swing.table.JTableHeaderClassTests<JTable
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JTableHeader#JTableHeader(TableColumnModel)
-     * public javax.swing.table.JTableHeader(javax.swing.table.TableColumnModel)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.table.JTableHeader#JTableHeader(javax.swing.table.TableColumnModel) public
+     * javax.swing.table.JTableHeader(javax.swing.table.TableColumnModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +60,7 @@ implements org.j8unit.repository.javax.swing.table.JTableHeaderClassTests<JTable
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTableHeader sut = null; // = new JTableHeader(TableColumnModel);
+        final JTableHeader sut = null; // = new JTableHeader(javax.swing.table.TableColumnModel);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.JTableHeader]

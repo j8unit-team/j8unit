@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing.colorchooser;
 
-import java.awt.Color;
 import javax.swing.colorchooser.ColorSelectionModel;
-import javax.swing.event.ChangeListener;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ColorSelectionModel#addChangeListener(ChangeListener) public abstract void
-     * javax.swing.colorchooser.ColorSelectionModel.addChangeListener(javax.swing.event.ChangeListener)}.
+     * {@link javax.swing.colorchooser.ColorSelectionModel#addChangeListener(javax.swing.event.ChangeListener) public
+     * abstract void javax.swing.colorchooser.ColorSelectionModel.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSelectionModel#setSelectedColor(Color) public
-     * abstract void javax.swing.colorchooser.ColorSelectionModel.setSelectedColor(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.ColorSelectionModel#setSelectedColor(java.awt.Color) public abstract void
+     * javax.swing.colorchooser.ColorSelectionModel.setSelectedColor(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,7 +82,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ColorSelectionModel#removeChangeListener(ChangeListener) public abstract void
+     * {@link javax.swing.colorchooser.ColorSelectionModel#removeChangeListener(javax.swing.event.ChangeListener) public
+     * abstract void
      * javax.swing.colorchooser.ColorSelectionModel.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +105,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ColorSelectionModel#getSelectedColor() public
-     * abstract java.awt.Color javax.swing.colorchooser.ColorSelectionModel.getSelectedColor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.ColorSelectionModel#getSelectedColor() public abstract java.awt.Color
+     * javax.swing.colorchooser.ColorSelectionModel.getSelectedColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

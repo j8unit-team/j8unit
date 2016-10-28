@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.IOP.IOR;
 import org.omg.IOP.IORHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,7 +22,7 @@ implements org.j8unit.repository.org.omg.IOP.IORHelperClassTests<IORHelper> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IORHelper#IORHelper() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.IOP.IORHelper#IORHelper() public
      * org.omg.IOP.IORHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,8 +42,9 @@ implements org.j8unit.repository.org.omg.IOP.IORHelperClassTests<IORHelper> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORHelper#read(InputStream) public static
-     * org.omg.IOP.IOR org.omg.IOP.IORHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.IORHelper#read(org.omg.CORBA.portable.InputStream) public static org.omg.IOP.IOR
+     * org.omg.IOP.IORHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,13 +58,13 @@ implements org.j8unit.repository.org.omg.IOP.IORHelperClassTests<IORHelper> {
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link IORHelper#read(InputStream)}
+        // write some test for {@link org.omg.IOP.IORHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORHelper#extract(Any) public static org.omg.IOP.IOR
-     * org.omg.IOP.IORHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.IORHelper#extract(org.omg.CORBA.Any)
+     * public static org.omg.IOP.IOR org.omg.IOP.IORHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,13 +78,13 @@ implements org.j8unit.repository.org.omg.IOP.IORHelperClassTests<IORHelper> {
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link IORHelper#extract(Any)}
+        // write some test for {@link org.omg.IOP.IORHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORHelper#id() public static java.lang.String
-     * org.omg.IOP.IORHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.IORHelper#id() public static
+     * java.lang.String org.omg.IOP.IORHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,12 +98,13 @@ implements org.j8unit.repository.org.omg.IOP.IORHelperClassTests<IORHelper> {
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link IORHelper#id()}
+        // write some test for {@link org.omg.IOP.IORHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORHelper#insert(Any, IOR) public static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.IORHelper#insert(org.omg.CORBA.Any, org.omg.IOP.IOR) public static void
      * org.omg.IOP.IORHelper.insert(org.omg.CORBA.Any,org.omg.IOP.IOR)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,13 +119,14 @@ implements org.j8unit.repository.org.omg.IOP.IORHelperClassTests<IORHelper> {
     @Category(Draft.class)
     public void test_insert_Any_IOR()
     throws Exception {
-        // write some test for {@link IORHelper#insert(Any, IOR)}
+        // write some test for {@link org.omg.IOP.IORHelper#insert(org.omg.CORBA.Any, org.omg.IOP.IOR)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORHelper#write(OutputStream, IOR) public static
-     * void org.omg.IOP.IORHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.IOR)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.IOP.IORHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.IOP.IOR) public static void
+     * org.omg.IOP.IORHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.IOR)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -141,13 +140,13 @@ implements org.j8unit.repository.org.omg.IOP.IORHelperClassTests<IORHelper> {
     @Category(Draft.class)
     public void test_write_OutputStream_IOR()
     throws Exception {
-        // write some test for {@link IORHelper#write(OutputStream, IOR)}
+        // write some test for {@link org.omg.IOP.IORHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.IOP.IOR)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.IOP.IORHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.IOP.IORHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.IOP.IORHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -161,7 +160,7 @@ implements org.j8unit.repository.org.omg.IOP.IORHelperClassTests<IORHelper> {
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link IORHelper#type()}
+        // write some test for {@link org.omg.IOP.IORHelper#type()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.IORHelper]

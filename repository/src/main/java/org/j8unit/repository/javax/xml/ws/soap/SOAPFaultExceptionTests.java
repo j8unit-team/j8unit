@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.ws.ProtocolExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPFaultException#getFault() public
-     * javax.xml.soap.SOAPFault javax.xml.ws.soap.SOAPFaultException.getFault()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.soap.SOAPFaultException#getFault()
+     * public javax.xml.soap.SOAPFault javax.xml.ws.soap.SOAPFaultException.getFault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

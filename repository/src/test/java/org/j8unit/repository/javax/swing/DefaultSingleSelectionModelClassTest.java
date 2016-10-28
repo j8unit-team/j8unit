@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.DefaultSingleSelectionModelClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultSingleSelectionModel#DefaultSingleSelectionModel() public
+     * {@link javax.swing.DefaultSingleSelectionModel#DefaultSingleSelectionModel() public
      * javax.swing.DefaultSingleSelectionModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

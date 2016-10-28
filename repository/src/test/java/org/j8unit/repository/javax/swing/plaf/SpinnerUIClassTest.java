@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.swing.plaf.SpinnerUIClassTests<SpinnerUI>
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SpinnerUI#SpinnerUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.plaf.SpinnerUI#SpinnerUI() public
      * javax.swing.plaf.SpinnerUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

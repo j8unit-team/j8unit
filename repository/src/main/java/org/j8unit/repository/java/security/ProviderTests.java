@@ -1,12 +1,7 @@
 package org.j8unit.repository.java.security;
 
-import java.io.InputStream;
 import java.security.Provider;
 import java.security.Provider.Service;
-import java.util.Map;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,9 +35,9 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#getService(String, String) public
-     * synchronized java.security.Provider$Service java.security.Provider.getService(java.lang.String,java.lang.String)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#getService(String, String)
+     * public synchronized java.security.Provider$Service
+     * java.security.Provider.getService(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,8 +58,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#clear() public synchronized void
-     * java.security.Provider.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#clear() public synchronized
+     * void java.security.Provider.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,8 +81,9 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#forEach(BiConsumer) public synchronized
-     * void java.security.Provider.forEach(java.util.function.BiConsumer<? super java.lang.Object, ? super
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Provider#forEach(java.util.function.BiConsumer) public synchronized void
+     * java.security.Provider.forEach(java.util.function.BiConsumer<? super java.lang.Object, ? super
      * java.lang.Object>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,8 +106,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#entrySet() public synchronized
-     * java.util.Set<java.util.Map.java.util.Map$Entry<java.lang.Object, java.lang.Object>>
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#entrySet() public
+     * synchronized java.util.Set<java.util.Map.java.util.Map$Entry<java.lang.Object, java.lang.Object>>
      * java.security.Provider.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -134,8 +130,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#getInfo() public java.lang.String
-     * java.security.Provider.getInfo()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#getInfo() public
+     * java.lang.String java.security.Provider.getInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,8 +152,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#getProperty(String) public java.lang.String
-     * java.security.Provider.getProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#getProperty(String) public
+     * java.lang.String java.security.Provider.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -179,7 +175,7 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#getVersion() public double
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#getVersion() public double
      * java.security.Provider.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,8 +197,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#putIfAbsent(Object, Object) public
-     * synchronized java.lang.Object java.security.Provider.putIfAbsent(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#putIfAbsent(Object, Object)
+     * public synchronized java.lang.Object java.security.Provider.putIfAbsent(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,8 +220,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#toString() public java.lang.String
-     * java.security.Provider.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#toString() public
+     * java.lang.String java.security.Provider.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,8 +243,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#elements() public java.util.Enumeration
-     * <java.lang.Object> java.security.Provider.elements()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#elements() public
+     * java.util.Enumeration<java.lang.Object> java.security.Provider.elements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,10 +266,10 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#computeIfPresent(Object, BiFunction) public
-     * synchronized java.lang.Object
-     * java.security.Provider.computeIfPresent(java.lang.Object,java.util.function.BiFunction<? super java.lang.Object,
-     * ? super java.lang.Object, ?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Provider#computeIfPresent(Object, java.util.function.BiFunction) public synchronized
+     * java.lang.Object java.security.Provider.computeIfPresent(java.lang.Object,java.util.function.BiFunction<? super
+     * java.lang.Object, ? super java.lang.Object, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -295,8 +291,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#put(Object, Object) public synchronized
-     * java.lang.Object java.security.Provider.put(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#put(Object, Object) public
+     * synchronized java.lang.Object java.security.Provider.put(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -318,8 +314,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#remove(Object, Object) public synchronized
-     * boolean java.security.Provider.remove(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#remove(Object, Object) public
+     * synchronized boolean java.security.Provider.remove(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -341,8 +337,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#remove(Object) public synchronized
-     * java.lang.Object java.security.Provider.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#remove(Object) public
+     * synchronized java.lang.Object java.security.Provider.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -364,8 +360,9 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#replaceAll(BiFunction) public synchronized
-     * void java.security.Provider.replaceAll(java.util.function.BiFunction<? super java.lang.Object, ? super
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Provider#replaceAll(java.util.function.BiFunction) public synchronized void
+     * java.security.Provider.replaceAll(java.util.function.BiFunction<? super java.lang.Object, ? super
      * java.lang.Object, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -388,31 +385,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#replace(Object, Object, Object) public
-     * synchronized boolean java.security.Provider.replace(java.lang.Object,java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_replace_Object_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#replace(Object, Object) public synchronized
-     * java.lang.Object java.security.Provider.replace(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#replace(Object, Object)
+     * public synchronized java.lang.Object java.security.Provider.replace(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -434,10 +408,34 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#computeIfAbsent(Object, Function) public
-     * synchronized java.lang.Object
-     * java.security.Provider.computeIfAbsent(java.lang.Object,java.util.function.Function<? super java.lang.Object,
-     * ?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Provider#replace(Object, Object, Object) public synchronized boolean
+     * java.security.Provider.replace(java.lang.Object,java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_replace_Object_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Provider#computeIfAbsent(Object, java.util.function.Function) public synchronized
+     * java.lang.Object java.security.Provider.computeIfAbsent(java.lang.Object,java.util.function.Function<? super
+     * java.lang.Object, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -459,8 +457,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#values() public java.util.Collection
-     * <java.lang.Object> java.security.Provider.values()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#values() public
+     * java.util.Collection<java.lang.Object> java.security.Provider.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -482,8 +480,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#keys() public java.util.Enumeration
-     * <java.lang.Object> java.security.Provider.keys()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#keys() public
+     * java.util.Enumeration<java.lang.Object> java.security.Provider.keys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -505,8 +503,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#getOrDefault(Object, Object) public
-     * synchronized java.lang.Object java.security.Provider.getOrDefault(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#getOrDefault(Object, Object)
+     * public synchronized java.lang.Object java.security.Provider.getOrDefault(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -528,8 +526,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#getName() public java.lang.String
-     * java.security.Provider.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#getName() public
+     * java.lang.String java.security.Provider.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -550,7 +548,7 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#keySet() public java.util.Set
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#keySet() public java.util.Set
      * <java.lang.Object> java.security.Provider.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -573,8 +571,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#getServices() public synchronized
-     * java.util.Set<java.security.Provider$Service> java.security.Provider.getServices()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#getServices() public
+     * synchronized java.util.Set<java.security.Provider$Service> java.security.Provider.getServices()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -595,10 +593,10 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#merge(Object, Object, BiFunction) public
-     * synchronized java.lang.Object
-     * java.security.Provider.merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction<? super
-     * java.lang.Object, ? super java.lang.Object, ?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Provider#merge(Object, Object, java.util.function.BiFunction) public synchronized
+     * java.lang.Object java.security.Provider.merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction<?
+     * super java.lang.Object, ? super java.lang.Object, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -620,8 +618,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#putAll(Map) public synchronized void
-     * java.security.Provider.putAll(java.util.Map<?, ?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#putAll(java.util.Map) public
+     * synchronized void java.security.Provider.putAll(java.util.Map<?, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -643,8 +641,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#get(Object) public java.lang.Object
-     * java.security.Provider.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#get(Object) public
+     * java.lang.Object java.security.Provider.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -666,8 +664,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#load(InputStream) public synchronized void
-     * java.security.Provider.load(java.io.InputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Provider#load(java.io.InputStream)
+     * public synchronized void java.security.Provider.load(java.io.InputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -689,9 +687,10 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Provider#compute(Object, BiFunction) public
-     * synchronized java.lang.Object java.security.Provider.compute(java.lang.Object,java.util.function.BiFunction<?
-     * super java.lang.Object, ? super java.lang.Object, ?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Provider#compute(Object, java.util.function.BiFunction) public synchronized java.lang.Object
+     * java.security.Provider.compute(java.lang.Object,java.util.function.BiFunction<? super java.lang.Object, ? super
+     * java.lang.Object, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -740,8 +739,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Service#getType() public final java.lang.String
-         * java.security.Provider$Service.getType()}.
+         * Test method for the hereby targeted method-under-test {@link java.security.Provider.Service#getType() public
+         * final java.lang.String java.security.Provider$Service.getType()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -762,8 +761,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Service#getAlgorithm() public final
-         * java.lang.String java.security.Provider$Service.getAlgorithm()}.
+         * Test method for the hereby targeted method-under-test {@link java.security.Provider.Service#getAlgorithm()
+         * public final java.lang.String java.security.Provider$Service.getAlgorithm()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -784,8 +783,9 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Service#getAttribute(String) public final
-         * java.lang.String java.security.Provider$Service.getAttribute(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.Provider.Service#getAttribute(String) public final java.lang.String
+         * java.security.Provider$Service.getAttribute(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -806,7 +806,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Service#supportsParameter(Object) public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.Provider.Service#supportsParameter(Object) public boolean
          * java.security.Provider$Service.supportsParameter(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -828,8 +829,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Service#getProvider() public final
-         * java.security.Provider java.security.Provider$Service.getProvider()}.
+         * Test method for the hereby targeted method-under-test {@link java.security.Provider.Service#getProvider()
+         * public final java.security.Provider java.security.Provider$Service.getProvider()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -850,8 +851,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Service#getClassName() public final
-         * java.lang.String java.security.Provider$Service.getClassName()}.
+         * Test method for the hereby targeted method-under-test {@link java.security.Provider.Service#getClassName()
+         * public final java.lang.String java.security.Provider$Service.getClassName()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -872,9 +873,9 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Service#newInstance(Object) public
-         * java.lang.Object java.security.Provider$Service.newInstance(java.lang.Object) throws
-         * java.security.NoSuchAlgorithmException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.Provider.Service#newInstance(Object) public java.lang.Object
+         * java.security.Provider$Service.newInstance(java.lang.Object) throws java.security.NoSuchAlgorithmException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -895,8 +896,8 @@ extends org.j8unit.repository.java.util.PropertiesTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Service#toString() public java.lang.String
-         * java.security.Provider$Service.toString()}.
+         * Test method for the hereby targeted method-under-test {@link java.security.Provider.Service#toString() public
+         * java.lang.String java.security.Provider$Service.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

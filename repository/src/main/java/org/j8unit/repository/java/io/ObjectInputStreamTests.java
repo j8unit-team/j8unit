@@ -1,10 +1,7 @@
 package org.j8unit.repository.java.io;
 
-import java.io.InputStream;
-import java.io.ObjectInput;
 import java.io.ObjectInputStream;
 import java.io.ObjectInputStream.GetField;
-import java.io.ObjectInputValidation;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,7 +36,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#available() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#available() public int
      * java.io.ObjectInputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,8 +59,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#defaultReadObject() public void
-     * java.io.ObjectInputStream.defaultReadObject() throws java.io.IOException,java.lang.ClassNotFoundException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#defaultReadObject() public
+     * void java.io.ObjectInputStream.defaultReadObject() throws java.io.IOException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +81,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readLine() public java.lang.String
-     * java.io.ObjectInputStream.readLine() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readLine() public
+     * java.lang.String java.io.ObjectInputStream.readLine() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +105,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ObjectInputStream#registerValidation(ObjectInputValidation, int) public void
+     * {@link java.io.ObjectInputStream#registerValidation(java.io.ObjectInputValidation, int) public void
      * java.io.ObjectInputStream.registerValidation(java.io.ObjectInputValidation,int) throws
      * java.io.NotActiveException,java.io.InvalidObjectException}.
      *
@@ -131,7 +128,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readChar() public char
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readChar() public char
      * java.io.ObjectInputStream.readChar() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,7 +151,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readUnshared() public
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readUnshared() public
      * java.lang.Object java.io.ObjectInputStream.readUnshared() throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
@@ -177,7 +174,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#skipBytes(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#skipBytes(int) public int
      * java.io.ObjectInputStream.skipBytes(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -200,7 +197,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readObject() public final
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readObject() public final
      * java.lang.Object java.io.ObjectInputStream.readObject() throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
@@ -224,8 +221,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#read(byte[], int, int) public int
-     * java.io.ObjectInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#read(byte[], int, int)
+     * public int java.io.ObjectInputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,7 +244,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#read() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#read() public int
      * java.io.ObjectInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -270,7 +267,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readFloat() public float
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readFloat() public float
      * java.io.ObjectInputStream.readFloat() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -293,8 +290,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readBoolean() public boolean
-     * java.io.ObjectInputStream.readBoolean() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readBoolean() public
+     * boolean java.io.ObjectInputStream.readBoolean() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -316,7 +313,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readByte() public byte
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readByte() public byte
      * java.io.ObjectInputStream.readByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -339,7 +336,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readInt() public int
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readInt() public int
      * java.io.ObjectInputStream.readInt() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -362,8 +359,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readUnsignedByte() public int
-     * java.io.ObjectInputStream.readUnsignedByte() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readUnsignedByte() public
+     * int java.io.ObjectInputStream.readUnsignedByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -385,7 +382,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#close() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#close() public void
      * java.io.ObjectInputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -408,8 +405,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readUnsignedShort() public int
-     * java.io.ObjectInputStream.readUnsignedShort() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readUnsignedShort() public
+     * int java.io.ObjectInputStream.readUnsignedShort() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,7 +428,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readFields() public
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readFields() public
      * java.io.ObjectInputStream$GetField java.io.ObjectInputStream.readFields() throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
@@ -454,7 +451,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readLong() public long
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readLong() public long
      * java.io.ObjectInputStream.readLong() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -477,8 +474,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readUTF() public java.lang.String
-     * java.io.ObjectInputStream.readUTF() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readUTF() public
+     * java.lang.String java.io.ObjectInputStream.readUTF() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -500,7 +497,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readShort() public short
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readShort() public short
      * java.io.ObjectInputStream.readShort() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -523,7 +520,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readDouble() public double
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readDouble() public double
      * java.io.ObjectInputStream.readDouble() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -546,8 +543,9 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readFully(byte[], int, int) public
-     * void java.io.ObjectInputStream.readFully(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.io.ObjectInputStream#readFully(byte[], int, int) public void
+     * java.io.ObjectInputStream.readFully(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -569,8 +567,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectInputStream#readFully(byte[]) public void
-     * java.io.ObjectInputStream.readFully(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readFully(byte[]) public
+     * void java.io.ObjectInputStream.readFully(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -596,8 +594,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link InputStream#skip(long) class java.io.InputStream}</li>
-     * <li>{@link ObjectInput#skip(long) interface java.io.ObjectInput}</li>
+     * <li>{@link java.io.InputStream#skip(long) class java.io.InputStream}</li>
+     * <li>{@link java.io.ObjectInput#skip(long) interface java.io.ObjectInput}</li>
      * </ul>
      *
      * <p>
@@ -624,8 +622,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link InputStream#read(byte[]) class java.io.InputStream}</li>
-     * <li>{@link ObjectInput#read(byte[]) interface java.io.ObjectInput}</li>
+     * <li>{@link java.io.InputStream#read(byte[]) class java.io.InputStream}</li>
+     * <li>{@link java.io.ObjectInput#read(byte[]) interface java.io.ObjectInput}</li>
      * </ul>
      *
      * <p>
@@ -675,8 +673,9 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#getObjectStreamClass() public abstract
-         * java.io.ObjectStreamClass java.io.ObjectInputStream$GetField.getObjectStreamClass()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#getObjectStreamClass() public abstract java.io.ObjectStreamClass
+         * java.io.ObjectInputStream$GetField.getObjectStreamClass()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -697,8 +696,9 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#get(String, boolean) public abstract
-         * boolean java.io.ObjectInputStream$GetField.get(java.lang.String,boolean) throws java.io.IOException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, boolean) public abstract boolean
+         * java.io.ObjectInputStream$GetField.get(java.lang.String,boolean) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -719,8 +719,9 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#defaulted(String) public abstract
-         * boolean java.io.ObjectInputStream$GetField.defaulted(java.lang.String) throws java.io.IOException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#defaulted(String) public abstract boolean
+         * java.io.ObjectInputStream$GetField.defaulted(java.lang.String) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -741,7 +742,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#get(String, char) public abstract char
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, char) public abstract char
          * java.io.ObjectInputStream$GetField.get(java.lang.String,char) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -763,7 +765,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#get(String, byte) public abstract byte
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, byte) public abstract byte
          * java.io.ObjectInputStream$GetField.get(java.lang.String,byte) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -785,9 +788,9 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#get(String, Object) public abstract
-         * java.lang.Object java.io.ObjectInputStream$GetField.get(java.lang.String,java.lang.Object) throws
-         * java.io.IOException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, Object) public abstract java.lang.Object
+         * java.io.ObjectInputStream$GetField.get(java.lang.String,java.lang.Object) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -808,8 +811,9 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#get(String, double) public abstract
-         * double java.io.ObjectInputStream$GetField.get(java.lang.String,double) throws java.io.IOException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, double) public abstract double
+         * java.io.ObjectInputStream$GetField.get(java.lang.String,double) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -830,8 +834,9 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#get(String, float) public abstract
-         * float java.io.ObjectInputStream$GetField.get(java.lang.String,float) throws java.io.IOException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, float) public abstract float
+         * java.io.ObjectInputStream$GetField.get(java.lang.String,float) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -852,8 +857,9 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#get(String, short) public abstract
-         * short java.io.ObjectInputStream$GetField.get(java.lang.String,short) throws java.io.IOException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, short) public abstract short
+         * java.io.ObjectInputStream$GetField.get(java.lang.String,short) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -874,7 +880,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#get(String, int) public abstract int
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, int) public abstract int
          * java.io.ObjectInputStream$GetField.get(java.lang.String,int) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -896,7 +903,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link GetField#get(String, long) public abstract long
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, long) public abstract long
          * java.io.ObjectInputStream$GetField.get(java.lang.String,long) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

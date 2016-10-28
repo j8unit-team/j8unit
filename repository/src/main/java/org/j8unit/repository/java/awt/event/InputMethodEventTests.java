@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodEvent#getText() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InputMethodEvent#getText() public
      * java.text.AttributedCharacterIterator java.awt.event.InputMethodEvent.getText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodEvent#getWhen() public long
-     * java.awt.event.InputMethodEvent.getWhen()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InputMethodEvent#getWhen() public
+     * long java.awt.event.InputMethodEvent.getWhen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,9 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodEvent#getCommittedCharacterCount() public
-     * int java.awt.event.InputMethodEvent.getCommittedCharacterCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.event.InputMethodEvent#getCommittedCharacterCount() public int
+     * java.awt.event.InputMethodEvent.getCommittedCharacterCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,7 +101,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodEvent#paramString() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InputMethodEvent#paramString() public
      * java.lang.String java.awt.event.InputMethodEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +124,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodEvent#isConsumed() public boolean
-     * java.awt.event.InputMethodEvent.isConsumed()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InputMethodEvent#isConsumed() public
+     * boolean java.awt.event.InputMethodEvent.isConsumed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +146,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodEvent#getCaret() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InputMethodEvent#getCaret() public
      * java.awt.font.TextHitInfo java.awt.event.InputMethodEvent.getCaret()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,8 +168,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodEvent#getVisiblePosition() public
-     * java.awt.font.TextHitInfo java.awt.event.InputMethodEvent.getVisiblePosition()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InputMethodEvent#getVisiblePosition()
+     * public java.awt.font.TextHitInfo java.awt.event.InputMethodEvent.getVisiblePosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +190,8 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InputMethodEvent#consume() public void
-     * java.awt.event.InputMethodEvent.consume()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InputMethodEvent#consume() public
+     * void java.awt.event.InputMethodEvent.consume()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

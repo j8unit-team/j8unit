@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.ws.wsaddressing.W3CEndpointReferenceB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link W3CEndpointReferenceBuilder#W3CEndpointReferenceBuilder() public
+     * {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#W3CEndpointReferenceBuilder() public
      * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

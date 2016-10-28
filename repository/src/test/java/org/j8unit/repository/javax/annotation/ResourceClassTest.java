@@ -35,7 +35,8 @@ implements org.j8unit.repository.javax.annotation.ResourceClassTests<Resource> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AuthenticationType#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.annotation.Resource.AuthenticationType#valueOf(String) public static
          * javax.annotation.Resource$AuthenticationType
          * javax.annotation.Resource$AuthenticationType.valueOf(java.lang.String)}.
          *
@@ -51,12 +52,13 @@ implements org.j8unit.repository.javax.annotation.ResourceClassTests<Resource> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link AuthenticationType#valueOf(String)}
+            // write some test for {@link javax.annotation.Resource.AuthenticationType#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link AuthenticationType#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.annotation.Resource.AuthenticationType#values() public static
          * javax.annotation.Resource$AuthenticationType[] javax.annotation.Resource$AuthenticationType.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,7 +73,7 @@ implements org.j8unit.repository.javax.annotation.ResourceClassTests<Resource> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link AuthenticationType#values()}
+            // write some test for {@link javax.annotation.Resource.AuthenticationType#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.Resource$AuthenticationType]

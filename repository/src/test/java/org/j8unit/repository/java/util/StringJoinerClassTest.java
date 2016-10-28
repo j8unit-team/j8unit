@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.StringJoinerClassTests<StringJoiner> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StringJoiner#StringJoiner(CharSequence) public
-     * java.util.StringJoiner(java.lang.CharSequence)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.StringJoiner#StringJoiner(CharSequence) public java.util.StringJoiner(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.util.StringJoinerClassTests<StringJoiner> 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StringJoiner#StringJoiner(CharSequence, CharSequence, CharSequence) public
+     * {@link java.util.StringJoiner#StringJoiner(CharSequence, CharSequence, CharSequence) public
      * java.util.StringJoiner(java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

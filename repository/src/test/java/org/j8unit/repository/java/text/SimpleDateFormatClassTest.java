@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.text;
 
-import java.text.DateFormatSymbols;
 import java.text.SimpleDateFormat;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.text.SimpleDateFormatClassTests<SimpleDate
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SimpleDateFormat#SimpleDateFormat(String, DateFormatSymbols) public
+     * {@link java.text.SimpleDateFormat#SimpleDateFormat(String, java.text.DateFormatSymbols) public
      * java.text.SimpleDateFormat(java.lang.String,java.text.DateFormatSymbols)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,13 +39,13 @@ implements org.j8unit.repository.java.text.SimpleDateFormatClassTests<SimpleDate
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SimpleDateFormat sut = null; // = new SimpleDateFormat(String, DateFormatSymbols);
+        final SimpleDateFormat sut = null; // = new SimpleDateFormat(String, java.text.DateFormatSymbols);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SimpleDateFormat#SimpleDateFormat(String, Locale) public
+     * {@link java.text.SimpleDateFormat#SimpleDateFormat(String, java.util.Locale) public
      * java.text.SimpleDateFormat(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +62,13 @@ implements org.j8unit.repository.java.text.SimpleDateFormatClassTests<SimpleDate
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SimpleDateFormat sut = null; // = new SimpleDateFormat(String, Locale);
+        final SimpleDateFormat sut = null; // = new SimpleDateFormat(String, java.util.Locale);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SimpleDateFormat#SimpleDateFormat(String)
-     * public java.text.SimpleDateFormat(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.SimpleDateFormat#SimpleDateFormat(String) public java.text.SimpleDateFormat(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -91,8 +89,8 @@ implements org.j8unit.repository.java.text.SimpleDateFormatClassTests<SimpleDate
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SimpleDateFormat#SimpleDateFormat() public
-     * java.text.SimpleDateFormat()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.text.SimpleDateFormat#SimpleDateFormat()
+     * public java.text.SimpleDateFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.DefaultDesktopManager;
-import javax.swing.JComponent;
-import javax.swing.JInternalFrame;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#endResizingFrame(JComponent)
-     * public void javax.swing.DefaultDesktopManager.endResizingFrame(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#endResizingFrame(javax.swing.JComponent) public void
+     * javax.swing.DefaultDesktopManager.endResizingFrame(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +59,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#endDraggingFrame(JComponent)
-     * public void javax.swing.DefaultDesktopManager.endDraggingFrame(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#endDraggingFrame(javax.swing.JComponent) public void
+     * javax.swing.DefaultDesktopManager.endDraggingFrame(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +84,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultDesktopManager#setBoundsForFrame(JComponent, int, int, int, int) public void
-     * javax.swing.DefaultDesktopManager.setBoundsForFrame(javax.swing.JComponent,int,int,int,int)}.
+     * {@link javax.swing.DefaultDesktopManager#setBoundsForFrame(javax.swing.JComponent, int, int, int, int) public
+     * void javax.swing.DefaultDesktopManager.setBoundsForFrame(javax.swing.JComponent,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,7 +108,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultDesktopManager#deactivateFrame(JInternalFrame) public void
+     * {@link javax.swing.DefaultDesktopManager#deactivateFrame(javax.swing.JInternalFrame) public void
      * javax.swing.DefaultDesktopManager.deactivateFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,7 +132,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultDesktopManager#resizeFrame(JComponent, int, int, int, int) public void
+     * {@link javax.swing.DefaultDesktopManager#resizeFrame(javax.swing.JComponent, int, int, int, int) public void
      * javax.swing.DefaultDesktopManager.resizeFrame(javax.swing.JComponent,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -156,7 +156,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultDesktopManager#dragFrame(JComponent, int, int) public void
+     * {@link javax.swing.DefaultDesktopManager#dragFrame(javax.swing.JComponent, int, int) public void
      * javax.swing.DefaultDesktopManager.dragFrame(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,8 +179,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#deiconifyFrame(JInternalFrame)
-     * public void javax.swing.DefaultDesktopManager.deiconifyFrame(javax.swing.JInternalFrame)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#deiconifyFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.deiconifyFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -202,8 +203,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#closeFrame(JInternalFrame)
-     * public void javax.swing.DefaultDesktopManager.closeFrame(javax.swing.JInternalFrame)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#closeFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.closeFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -226,7 +228,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultDesktopManager#beginResizingFrame(JComponent, int) public void
+     * {@link javax.swing.DefaultDesktopManager#beginResizingFrame(javax.swing.JComponent, int) public void
      * javax.swing.DefaultDesktopManager.beginResizingFrame(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -249,8 +251,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#activateFrame(JInternalFrame)
-     * public void javax.swing.DefaultDesktopManager.activateFrame(javax.swing.JInternalFrame)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#activateFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.activateFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -272,8 +275,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#openFrame(JInternalFrame)
-     * public void javax.swing.DefaultDesktopManager.openFrame(javax.swing.JInternalFrame)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#openFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.openFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -295,8 +299,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#maximizeFrame(JInternalFrame)
-     * public void javax.swing.DefaultDesktopManager.maximizeFrame(javax.swing.JInternalFrame)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#maximizeFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.maximizeFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -318,8 +323,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#beginDraggingFrame(JComponent)
-     * public void javax.swing.DefaultDesktopManager.beginDraggingFrame(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#beginDraggingFrame(javax.swing.JComponent) public void
+     * javax.swing.DefaultDesktopManager.beginDraggingFrame(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -341,8 +347,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#minimizeFrame(JInternalFrame)
-     * public void javax.swing.DefaultDesktopManager.minimizeFrame(javax.swing.JInternalFrame)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#minimizeFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.minimizeFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -364,8 +371,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultDesktopManager#iconifyFrame(JInternalFrame)
-     * public void javax.swing.DefaultDesktopManager.iconifyFrame(javax.swing.JInternalFrame)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultDesktopManager#iconifyFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.iconifyFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

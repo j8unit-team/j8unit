@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
-import javax.swing.plaf.synth.SynthContext;
 import javax.swing.plaf.synth.SynthUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthConstantsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SynthUI#paintBorder(SynthContext, Graphics, int, int, int, int) public abstract void
+     * {@link javax.swing.plaf.synth.SynthUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
+     * public abstract void
      * javax.swing.plaf.synth.SynthUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *
@@ -61,7 +59,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthConstantsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthUI#getContext(JComponent) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthUI#getContext(javax.swing.JComponent) public abstract
      * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthUI.getContext(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

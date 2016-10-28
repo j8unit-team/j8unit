@@ -1,11 +1,6 @@
 package org.j8unit.repository.javax.xml.stream;
 
-import java.util.Iterator;
-import javax.xml.namespace.NamespaceContext;
-import javax.xml.namespace.QName;
-import javax.xml.stream.Location;
 import javax.xml.stream.XMLEventFactory;
-import javax.xml.stream.events.EntityDeclaration;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createEndElement(QName, Iterator)
-     * public abstract javax.xml.stream.events.EndElement
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createEndElement(javax.xml.namespace.QName, java.util.Iterator) public
+     * abstract javax.xml.stream.events.EndElement
      * javax.xml.stream.XMLEventFactory.createEndElement(javax.xml.namespace.QName,java.util.Iterator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +59,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createEndElement(String, String, String) public abstract
+     * {@link javax.xml.stream.XMLEventFactory#createEndElement(String, String, String) public abstract
      * javax.xml.stream.events.EndElement
      * javax.xml.stream.XMLEventFactory.createEndElement(java.lang.String,java.lang.String,java.lang.String)}.
      *
@@ -87,8 +83,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createEndElement(String, String, String, Iterator) public abstract
-     * javax.xml.stream.events.EndElement
+     * {@link javax.xml.stream.XMLEventFactory#createEndElement(String, String, String, java.util.Iterator) public
+     * abstract javax.xml.stream.events.EndElement
      * javax.xml.stream.XMLEventFactory.createEndElement(java.lang.String,java.lang.String,java.lang.String,java.util.Iterator)}
      * .
      *
@@ -112,7 +108,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createProcessingInstruction(String, String) public abstract
+     * {@link javax.xml.stream.XMLEventFactory#createProcessingInstruction(String, String) public abstract
      * javax.xml.stream.events.ProcessingInstruction
      * javax.xml.stream.XMLEventFactory.createProcessingInstruction(java.lang.String,java.lang.String)}.
      *
@@ -135,54 +131,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createAttribute(String, String)
-     * public abstract javax.xml.stream.events.Attribute
-     * javax.xml.stream.XMLEventFactory.createAttribute(java.lang.String,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createAttribute_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createAttribute(QName, String)
-     * public abstract javax.xml.stream.events.Attribute
-     * javax.xml.stream.XMLEventFactory.createAttribute(javax.xml.namespace.QName,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createAttribute_QName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createAttribute(String, String, String, String) public abstract
+     * {@link javax.xml.stream.XMLEventFactory#createAttribute(String, String, String, String) public abstract
      * javax.xml.stream.events.Attribute
      * javax.xml.stream.XMLEventFactory.createAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
      * .
@@ -206,8 +156,57 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createNamespace(String, String)
-     * public abstract javax.xml.stream.events.Namespace
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createAttribute(String, String) public abstract
+     * javax.xml.stream.events.Attribute
+     * javax.xml.stream.XMLEventFactory.createAttribute(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createAttribute_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createAttribute(javax.xml.namespace.QName, String) public abstract
+     * javax.xml.stream.events.Attribute
+     * javax.xml.stream.XMLEventFactory.createAttribute(javax.xml.namespace.QName,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createAttribute_QName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createNamespace(String, String) public abstract
+     * javax.xml.stream.events.Namespace
      * javax.xml.stream.XMLEventFactory.createNamespace(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -229,8 +228,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createNamespace(String) public
-     * abstract javax.xml.stream.events.Namespace javax.xml.stream.XMLEventFactory.createNamespace(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createNamespace(String) public abstract javax.xml.stream.events.Namespace
+     * javax.xml.stream.XMLEventFactory.createNamespace(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -251,8 +251,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createCData(String) public abstract
-     * javax.xml.stream.events.Characters javax.xml.stream.XMLEventFactory.createCData(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLEventFactory#createCData(String)
+     * public abstract javax.xml.stream.events.Characters
+     * javax.xml.stream.XMLEventFactory.createCData(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -273,8 +274,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createEndDocument() public abstract
-     * javax.xml.stream.events.EndDocument javax.xml.stream.XMLEventFactory.createEndDocument()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLEventFactory#createEndDocument()
+     * public abstract javax.xml.stream.events.EndDocument javax.xml.stream.XMLEventFactory.createEndDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -295,8 +296,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createStartDocument() public
-     * abstract javax.xml.stream.events.StartDocument javax.xml.stream.XMLEventFactory.createStartDocument()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createStartDocument() public abstract
+     * javax.xml.stream.events.StartDocument javax.xml.stream.XMLEventFactory.createStartDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -318,7 +320,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createStartDocument(String, String, boolean) public abstract
+     * {@link javax.xml.stream.XMLEventFactory#createStartDocument(String, String, boolean) public abstract
      * javax.xml.stream.events.StartDocument
      * javax.xml.stream.XMLEventFactory.createStartDocument(java.lang.String,java.lang.String,boolean)}.
      *
@@ -341,8 +343,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createStartDocument(String, String)
-     * public abstract javax.xml.stream.events.StartDocument
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createStartDocument(String, String) public abstract
+     * javax.xml.stream.events.StartDocument
      * javax.xml.stream.XMLEventFactory.createStartDocument(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -364,9 +367,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createStartDocument(String) public
-     * abstract javax.xml.stream.events.StartDocument
-     * javax.xml.stream.XMLEventFactory.createStartDocument(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createStartDocument(String) public abstract
+     * javax.xml.stream.events.StartDocument javax.xml.stream.XMLEventFactory.createStartDocument(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -387,8 +390,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#setLocation(Location) public
-     * abstract void javax.xml.stream.XMLEventFactory.setLocation(javax.xml.stream.Location)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#setLocation(javax.xml.stream.Location) public abstract void
+     * javax.xml.stream.XMLEventFactory.setLocation(javax.xml.stream.Location)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,8 +413,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createDTD(String) public abstract
-     * javax.xml.stream.events.DTD javax.xml.stream.XMLEventFactory.createDTD(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLEventFactory#createDTD(String)
+     * public abstract javax.xml.stream.events.DTD javax.xml.stream.XMLEventFactory.createDTD(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,8 +435,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createComment(String) public
-     * abstract javax.xml.stream.events.Comment javax.xml.stream.XMLEventFactory.createComment(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createComment(String) public abstract javax.xml.stream.events.Comment
+     * javax.xml.stream.XMLEventFactory.createComment(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -454,32 +459,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createStartElement(QName, Iterator, Iterator) public abstract
-     * javax.xml.stream.events.StartElement
-     * javax.xml.stream.XMLEventFactory.createStartElement(javax.xml.namespace.QName,java.util.Iterator,java.util.Iterator)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createStartElement_QName_Iterator_Iterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createStartElement(String, String, String) public abstract
+     * {@link javax.xml.stream.XMLEventFactory#createStartElement(String, String, String) public abstract
      * javax.xml.stream.events.StartElement
      * javax.xml.stream.XMLEventFactory.createStartElement(java.lang.String,java.lang.String,java.lang.String)}.
      *
@@ -503,8 +483,33 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createStartElement(String, String, String, Iterator, Iterator, NamespaceContext) public
-     * abstract javax.xml.stream.events.StartElement
+     * {@link javax.xml.stream.XMLEventFactory#createStartElement(javax.xml.namespace.QName, java.util.Iterator, java.util.Iterator)
+     * public abstract javax.xml.stream.events.StartElement
+     * javax.xml.stream.XMLEventFactory.createStartElement(javax.xml.namespace.QName,java.util.Iterator,java.util.Iterator)}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createStartElement_QName_Iterator_Iterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createStartElement(String, String, String, java.util.Iterator, java.util.Iterator, javax.xml.namespace.NamespaceContext)
+     * public abstract javax.xml.stream.events.StartElement
      * javax.xml.stream.XMLEventFactory.createStartElement(java.lang.String,java.lang.String,java.lang.String,java.util.Iterator,java.util.Iterator,javax.xml.namespace.NamespaceContext)}
      * .
      *
@@ -528,8 +533,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createStartElement(String, String, String, Iterator, Iterator) public abstract
-     * javax.xml.stream.events.StartElement
+     * {@link javax.xml.stream.XMLEventFactory#createStartElement(String, String, String, java.util.Iterator, java.util.Iterator)
+     * public abstract javax.xml.stream.events.StartElement
      * javax.xml.stream.XMLEventFactory.createStartElement(java.lang.String,java.lang.String,java.lang.String,java.util.Iterator,java.util.Iterator)}
      * .
      *
@@ -552,8 +557,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createCharacters(String) public
-     * abstract javax.xml.stream.events.Characters javax.xml.stream.XMLEventFactory.createCharacters(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createCharacters(String) public abstract
+     * javax.xml.stream.events.Characters javax.xml.stream.XMLEventFactory.createCharacters(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -574,8 +580,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createSpace(String) public abstract
-     * javax.xml.stream.events.Characters javax.xml.stream.XMLEventFactory.createSpace(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLEventFactory#createSpace(String)
+     * public abstract javax.xml.stream.events.Characters
+     * javax.xml.stream.XMLEventFactory.createSpace(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -596,9 +603,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLEventFactory#createIgnorableSpace(String) public
-     * abstract javax.xml.stream.events.Characters
-     * javax.xml.stream.XMLEventFactory.createIgnorableSpace(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventFactory#createIgnorableSpace(String) public abstract
+     * javax.xml.stream.events.Characters javax.xml.stream.XMLEventFactory.createIgnorableSpace(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -620,8 +627,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link XMLEventFactory#createEntityReference(String, EntityDeclaration) public abstract
-     * javax.xml.stream.events.EntityReference
+     * {@link javax.xml.stream.XMLEventFactory#createEntityReference(String, javax.xml.stream.events.EntityDeclaration)
+     * public abstract javax.xml.stream.events.EntityReference
      * javax.xml.stream.XMLEventFactory.createEntityReference(java.lang.String,javax.xml.stream.events.EntityDeclaration)}
      * .
      *

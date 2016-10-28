@@ -7,10 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
 import org.omg.CORBA.UShortSeqHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class UShortSeqHelperClassTest
@@ -25,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperClassTests<UShortS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link UShortSeqHelper#UShortSeqHelper() public
-     * org.omg.CORBA.UShortSeqHelper()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.UShortSeqHelper#UShortSeqHelper()
+     * public org.omg.CORBA.UShortSeqHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperClassTests<UShortS
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UShortSeqHelper#id() public static java.lang.String
-     * org.omg.CORBA.UShortSeqHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.UShortSeqHelper#id() public static
+     * java.lang.String org.omg.CORBA.UShortSeqHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,13 +57,14 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperClassTests<UShortS
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link UShortSeqHelper#id()}
+        // write some test for {@link org.omg.CORBA.UShortSeqHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UShortSeqHelper#insert(Any, short[]) public static
-     * void org.omg.CORBA.UShortSeqHelper.insert(org.omg.CORBA.Any,short[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UShortSeqHelper#insert(org.omg.CORBA.Any, short[]) public static void
+     * org.omg.CORBA.UShortSeqHelper.insert(org.omg.CORBA.Any,short[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,13 +78,13 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperClassTests<UShortS
     @Category(Draft.class)
     public void test_insert_Any_shortArray()
     throws Exception {
-        // write some test for {@link UShortSeqHelper#insert(Any, short[])}
+        // write some test for {@link org.omg.CORBA.UShortSeqHelper#insert(org.omg.CORBA.Any, short[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UShortSeqHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.UShortSeqHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.UShortSeqHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.CORBA.UShortSeqHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,13 +98,14 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperClassTests<UShortS
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link UShortSeqHelper#type()}
+        // write some test for {@link org.omg.CORBA.UShortSeqHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UShortSeqHelper#write(OutputStream, short[]) public
-     * static void org.omg.CORBA.UShortSeqHelper.write(org.omg.CORBA.portable.OutputStream,short[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UShortSeqHelper#write(org.omg.CORBA.portable.OutputStream, short[]) public static void
+     * org.omg.CORBA.UShortSeqHelper.write(org.omg.CORBA.portable.OutputStream,short[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,13 +119,14 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperClassTests<UShortS
     @Category(Draft.class)
     public void test_write_OutputStream_shortArray()
     throws Exception {
-        // write some test for {@link UShortSeqHelper#write(OutputStream, short[])}
+        // write some test for {@link org.omg.CORBA.UShortSeqHelper#write(org.omg.CORBA.portable.OutputStream, short[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UShortSeqHelper#read(InputStream) public static
-     * short[] org.omg.CORBA.UShortSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UShortSeqHelper#read(org.omg.CORBA.portable.InputStream) public static short[]
+     * org.omg.CORBA.UShortSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,12 +140,13 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperClassTests<UShortS
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link UShortSeqHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.UShortSeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UShortSeqHelper#extract(Any) public static short[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.UShortSeqHelper#extract(org.omg.CORBA.Any) public static short[]
      * org.omg.CORBA.UShortSeqHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,7 +161,7 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperClassTests<UShortS
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link UShortSeqHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.UShortSeqHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UShortSeqHelper]

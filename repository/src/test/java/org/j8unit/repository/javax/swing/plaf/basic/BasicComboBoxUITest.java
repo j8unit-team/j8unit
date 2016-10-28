@@ -42,6 +42,36 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxUI>, org.j8unit.repository.javax.
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI]
 
     @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$PropertyChangeHandler]
+
+        @Override
+        public PropertyChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$PropertyChangeHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ComboBoxLayoutManagerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ComboBoxLayoutManagerTests<ComboBoxLayoutManager> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager]
+
+        @Override
+        public ComboBoxLayoutManager createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.FocusHandlerTests<FocusHandler> {
 
@@ -83,36 +113,6 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxUI>, org.j8unit.repository.javax.
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$PropertyChangeHandler]
-
-        @Override
-        public PropertyChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$PropertyChangeHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ComboBoxLayoutManagerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ComboBoxLayoutManagerTests<ComboBoxLayoutManager> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager]
-
-        @Override
-        public ComboBoxLayoutManager createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager]
 
     }
 

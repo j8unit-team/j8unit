@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntPredicate#test(int) public abstract boolean
-     * java.util.function.IntPredicate.test(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.IntPredicate#test(int) public
+     * abstract boolean java.util.function.IntPredicate.test(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntPredicate#negate() public default
-     * java.util.function.IntPredicate java.util.function.IntPredicate.negate()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.IntPredicate#negate() public
+     * default java.util.function.IntPredicate java.util.function.IntPredicate.negate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntPredicate#and(IntPredicate) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.IntPredicate#and(java.util.function.IntPredicate) public default
      * java.util.function.IntPredicate java.util.function.IntPredicate.and(java.util.function.IntPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IntPredicate#or(IntPredicate) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.IntPredicate#or(java.util.function.IntPredicate) public default
      * java.util.function.IntPredicate java.util.function.IntPredicate.or(java.util.function.IntPredicate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

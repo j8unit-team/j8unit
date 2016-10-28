@@ -27,7 +27,7 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PageAttributes#PageAttributes(ColorType, MediaType, OrientationRequestedType, OriginType, PrintQualityType, int[])
+     * {@link java.awt.PageAttributes#PageAttributes(java.awt.PageAttributes.ColorType, java.awt.PageAttributes.MediaType, java.awt.PageAttributes.OrientationRequestedType, java.awt.PageAttributes.OriginType, java.awt.PageAttributes.PrintQualityType, int[])
      * public
      * java.awt.PageAttributes(java.awt.PageAttributes$ColorType,java.awt.PageAttributes$MediaType,java.awt.PageAttributes$OrientationRequestedType,java.awt.PageAttributes$OriginType,java.awt.PageAttributes$PrintQualityType,int[])}
      * .
@@ -46,14 +46,18 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PageAttributes sut = null; // = new PageAttributes(ColorType, MediaType, OrientationRequestedType,
-                                         // OriginType, PrintQualityType, int[]);
+        final PageAttributes sut = null; // = new PageAttributes(java.awt.PageAttributes.ColorType,
+                                         // java.awt.PageAttributes.MediaType,
+                                         // java.awt.PageAttributes.OrientationRequestedType,
+                                         // java.awt.PageAttributes.OriginType,
+                                         // java.awt.PageAttributes.PrintQualityType, int[]);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PageAttributes#PageAttributes(PageAttributes)
-     * public java.awt.PageAttributes(java.awt.PageAttributes)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.PageAttributes#PageAttributes(java.awt.PageAttributes) public
+     * java.awt.PageAttributes(java.awt.PageAttributes)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -69,12 +73,12 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PageAttributes sut = null; // = new PageAttributes(PageAttributes);
+        final PageAttributes sut = null; // = new PageAttributes(java.awt.PageAttributes);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PageAttributes#PageAttributes() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.PageAttributes#PageAttributes() public
      * java.awt.PageAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

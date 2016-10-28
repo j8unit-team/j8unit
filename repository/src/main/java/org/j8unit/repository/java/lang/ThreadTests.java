@@ -522,7 +522,7 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Thread#setUncaughtExceptionHandler(UncaughtExceptionHandler) public void
+     * {@link Thread#setUncaughtExceptionHandler(Thread.UncaughtExceptionHandler) public void
      * java.lang.Thread.setUncaughtExceptionHandler(java.lang.Thread$UncaughtExceptionHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -755,7 +755,7 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link UncaughtExceptionHandler#uncaughtException(Thread, Throwable) public abstract void
+         * {@link Thread.UncaughtExceptionHandler#uncaughtException(Thread, Throwable) public abstract void
          * java.lang.Thread$UncaughtExceptionHandler.uncaughtException(java.lang.Thread,java.lang.Throwable)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.rmi.ServerErrorClassTests<ServerError> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServerError#ServerError(String, Error) public
-     * java.rmi.ServerError(java.lang.String,java.lang.Error)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.rmi.ServerError#ServerError(String, Error)
+     * public java.rmi.ServerError(java.lang.String,java.lang.Error)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

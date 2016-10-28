@@ -35,8 +35,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumControl#getValue() public java.lang.Object
-     * javax.sound.sampled.EnumControl.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.EnumControl#getValue() public
+     * java.lang.Object javax.sound.sampled.EnumControl.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumControl#setValue(Object) public void
-     * javax.sound.sampled.EnumControl.setValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.EnumControl#setValue(Object)
+     * public void javax.sound.sampled.EnumControl.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumControl#getValues() public java.lang.Object[]
-     * javax.sound.sampled.EnumControl.getValues()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.EnumControl#getValues() public
+     * java.lang.Object[] javax.sound.sampled.EnumControl.getValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EnumControl#toString() public java.lang.String
-     * javax.sound.sampled.EnumControl.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.EnumControl#toString() public
+     * java.lang.String javax.sound.sampled.EnumControl.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -23,7 +23,7 @@ implements org.j8unit.repository.javax.swing.InternalFrameFocusTraversalPolicyCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InternalFrameFocusTraversalPolicy#InternalFrameFocusTraversalPolicy() public
+     * {@link javax.swing.InternalFrameFocusTraversalPolicy#InternalFrameFocusTraversalPolicy() public
      * javax.swing.InternalFrameFocusTraversalPolicy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

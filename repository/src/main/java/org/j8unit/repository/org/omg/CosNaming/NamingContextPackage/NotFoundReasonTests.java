@@ -34,7 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotFoundReason#value() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFoundReason#value() public int
      * org.omg.CosNaming.NamingContextPackage.NotFoundReason.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

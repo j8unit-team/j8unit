@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.security;
 
 import java.security.AllPermission;
-import java.security.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AllPermission#implies(Permission) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AllPermission#implies(java.security.Permission) public boolean
      * java.security.AllPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AllPermission#getActions() public java.lang.String
-     * java.security.AllPermission.getActions()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AllPermission#getActions() public
+     * java.lang.String java.security.AllPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AllPermission#newPermissionCollection() public
-     * java.security.PermissionCollection java.security.AllPermission.newPermissionCollection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.AllPermission#newPermissionCollection() public java.security.PermissionCollection
+     * java.security.AllPermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +105,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AllPermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.AllPermission#hashCode() public int
      * java.security.AllPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +128,8 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AllPermission#equals(Object) public boolean
-     * java.security.AllPermission.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.AllPermission#equals(Object) public
+     * boolean java.security.AllPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.image.KernelClassTests<Kernel> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Kernel#Kernel(int, int, float[]) public
-     * java.awt.image.Kernel(int,int,float[])}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.image.Kernel#Kernel(int, int, float[])
+     * public java.awt.image.Kernel(int,int,float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

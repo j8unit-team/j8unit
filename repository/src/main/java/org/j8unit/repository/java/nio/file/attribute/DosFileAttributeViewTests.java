@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributeView#setReadOnly(boolean) public
-     * abstract void java.nio.file.attribute.DosFileAttributeView.setReadOnly(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.DosFileAttributeView#setReadOnly(boolean) public abstract void
+     * java.nio.file.attribute.DosFileAttributeView.setReadOnly(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributeView#name() public abstract
-     * java.lang.String java.nio.file.attribute.DosFileAttributeView.name()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.DosFileAttributeView#name()
+     * public abstract java.lang.String java.nio.file.attribute.DosFileAttributeView.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributeView#setSystem(boolean) public
-     * abstract void java.nio.file.attribute.DosFileAttributeView.setSystem(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.DosFileAttributeView#setSystem(boolean) public abstract void
+     * java.nio.file.attribute.DosFileAttributeView.setSystem(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributeView#setHidden(boolean) public
-     * abstract void java.nio.file.attribute.DosFileAttributeView.setHidden(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.DosFileAttributeView#setHidden(boolean) public abstract void
+     * java.nio.file.attribute.DosFileAttributeView.setHidden(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +126,9 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributeView#setArchive(boolean) public
-     * abstract void java.nio.file.attribute.DosFileAttributeView.setArchive(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.DosFileAttributeView#setArchive(boolean) public abstract void
+     * java.nio.file.attribute.DosFileAttributeView.setArchive(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,9 +149,10 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DosFileAttributeView#readAttributes() public
-     * abstract java.nio.file.attribute.DosFileAttributes java.nio.file.attribute.DosFileAttributeView.readAttributes()
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.DosFileAttributeView#readAttributes() public abstract
+     * java.nio.file.attribute.DosFileAttributes java.nio.file.attribute.DosFileAttributeView.readAttributes() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

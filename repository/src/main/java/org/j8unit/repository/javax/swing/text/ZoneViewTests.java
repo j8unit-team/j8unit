@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Shape;
-import javax.swing.event.DocumentEvent;
-import javax.swing.text.ViewFactory;
 import javax.swing.text.ZoneView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneView#setMaximumZoneSize(int) public void
-     * javax.swing.text.ZoneView.setMaximumZoneSize(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ZoneView#setMaximumZoneSize(int)
+     * public void javax.swing.text.ZoneView.setMaximumZoneSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +56,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneView#getMaximumZoneSize() public int
-     * javax.swing.text.ZoneView.getMaximumZoneSize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ZoneView#getMaximumZoneSize()
+     * public int javax.swing.text.ZoneView.getMaximumZoneSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +78,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneView#getMaxZonesLoaded() public int
-     * javax.swing.text.ZoneView.getMaxZonesLoaded()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ZoneView#getMaxZonesLoaded() public
+     * int javax.swing.text.ZoneView.getMaxZonesLoaded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +101,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ZoneView#insertUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.ZoneView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.ZoneView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -129,7 +127,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ZoneView#removeUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.ZoneView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.ZoneView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -153,8 +152,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ZoneView#setMaxZonesLoaded(int) public void
-     * javax.swing.text.ZoneView.setMaxZonesLoaded(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.ZoneView#setMaxZonesLoaded(int)
+     * public void javax.swing.text.ZoneView.setMaxZonesLoaded(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

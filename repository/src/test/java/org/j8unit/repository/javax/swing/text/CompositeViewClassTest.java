@@ -2,7 +2,6 @@ package org.j8unit.repository.javax.swing.text;
 
 import static org.junit.Assert.fail;
 import javax.swing.text.CompositeView;
-import javax.swing.text.Element;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.swing.text.CompositeViewClassTests<Compos
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CompositeView#CompositeView(Element) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.CompositeView#CompositeView(javax.swing.text.Element) public
      * javax.swing.text.CompositeView(javax.swing.text.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

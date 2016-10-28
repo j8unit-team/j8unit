@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.crypto;
 
-import java.io.InputStream;
 import javax.xml.crypto.OctetStreamData;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.xml.crypto.OctetStreamDataClassTests<Octe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link OctetStreamData#OctetStreamData(InputStream)
-     * public javax.xml.crypto.OctetStreamData(java.io.InputStream)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.OctetStreamData#OctetStreamData(java.io.InputStream) public
+     * javax.xml.crypto.OctetStreamData(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,13 +39,13 @@ implements org.j8unit.repository.javax.xml.crypto.OctetStreamDataClassTests<Octe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OctetStreamData sut = null; // = new OctetStreamData(InputStream);
+        final OctetStreamData sut = null; // = new OctetStreamData(java.io.InputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link OctetStreamData#OctetStreamData(InputStream, String, String) public
+     * {@link javax.xml.crypto.OctetStreamData#OctetStreamData(java.io.InputStream, String, String) public
      * javax.xml.crypto.OctetStreamData(java.io.InputStream,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,7 +62,7 @@ implements org.j8unit.repository.javax.xml.crypto.OctetStreamDataClassTests<Octe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final OctetStreamData sut = null; // = new OctetStreamData(InputStream, String, String);
+        final OctetStreamData sut = null; // = new OctetStreamData(java.io.InputStream, String, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.OctetStreamData]

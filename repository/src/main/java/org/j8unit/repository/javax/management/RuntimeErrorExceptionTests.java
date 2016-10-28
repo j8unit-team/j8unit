@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuntimeErrorException#getCause() public
-     * java.lang.Throwable javax.management.RuntimeErrorException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.RuntimeErrorException#getCause()
+     * public java.lang.Throwable javax.management.RuntimeErrorException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RuntimeErrorException#getTargetError() public
-     * java.lang.Error javax.management.RuntimeErrorException.getTargetError()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.RuntimeErrorException#getTargetError() public java.lang.Error
+     * javax.management.RuntimeErrorException.getTargetError()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

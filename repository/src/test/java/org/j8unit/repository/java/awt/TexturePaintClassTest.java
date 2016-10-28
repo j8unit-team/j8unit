@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.TexturePaint;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.BufferedImage;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.awt.TexturePaintClassTests<TexturePaint> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TexturePaint#TexturePaint(BufferedImage, Rectangle2D) public
+     * {@link java.awt.TexturePaint#TexturePaint(java.awt.image.BufferedImage, java.awt.geom.Rectangle2D) public
      * java.awt.TexturePaint(java.awt.image.BufferedImage,java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +39,7 @@ implements org.j8unit.repository.java.awt.TexturePaintClassTests<TexturePaint> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TexturePaint sut = null; // = new TexturePaint(BufferedImage, Rectangle2D);
+        final TexturePaint sut = null; // = new TexturePaint(java.awt.image.BufferedImage, java.awt.geom.Rectangle2D);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.TexturePaint]

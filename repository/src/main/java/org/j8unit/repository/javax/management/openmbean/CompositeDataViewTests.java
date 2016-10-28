@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
 import javax.management.openmbean.CompositeDataView;
-import javax.management.openmbean.CompositeType;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeDataView#toCompositeData(CompositeType)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.CompositeDataView#toCompositeData(javax.management.openmbean.CompositeType)
      * public abstract javax.management.openmbean.CompositeData
      * javax.management.openmbean.CompositeDataView.toCompositeData(javax.management.openmbean.CompositeType)}.
      *

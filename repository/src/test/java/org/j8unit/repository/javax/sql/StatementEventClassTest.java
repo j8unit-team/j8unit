@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.sql;
 
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import javax.sql.PooledConnection;
 import javax.sql.StatementEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +22,7 @@ implements org.j8unit.repository.javax.sql.StatementEventClassTests<StatementEve
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StatementEvent#StatementEvent(PooledConnection, PreparedStatement) public
+     * {@link javax.sql.StatementEvent#StatementEvent(javax.sql.PooledConnection, java.sql.PreparedStatement) public
      * javax.sql.StatementEvent(javax.sql.PooledConnection,java.sql.PreparedStatement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,14 +39,15 @@ implements org.j8unit.repository.javax.sql.StatementEventClassTests<StatementEve
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StatementEvent sut = null; // = new StatementEvent(PooledConnection, PreparedStatement);
+        final StatementEvent sut = null; // = new StatementEvent(javax.sql.PooledConnection,
+                                         // java.sql.PreparedStatement);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StatementEvent#StatementEvent(PooledConnection, PreparedStatement, SQLException) public
-     * javax.sql.StatementEvent(javax.sql.PooledConnection,java.sql.PreparedStatement,java.sql.SQLException)}.
+     * {@link javax.sql.StatementEvent#StatementEvent(javax.sql.PooledConnection, java.sql.PreparedStatement, java.sql.SQLException)
+     * public javax.sql.StatementEvent(javax.sql.PooledConnection,java.sql.PreparedStatement,java.sql.SQLException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,7 +63,8 @@ implements org.j8unit.repository.javax.sql.StatementEventClassTests<StatementEve
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final StatementEvent sut = null; // = new StatementEvent(PooledConnection, PreparedStatement, SQLException);
+        final StatementEvent sut = null; // = new StatementEvent(javax.sql.PooledConnection, java.sql.PreparedStatement,
+                                         // java.sql.SQLException);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.StatementEvent]

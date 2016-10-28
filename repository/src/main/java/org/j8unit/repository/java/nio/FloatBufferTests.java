@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#compact() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#compact() public abstract
      * java.nio.FloatBuffer java.nio.FloatBuffer.compact()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#hasArray() public final boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#hasArray() public final boolean
      * java.nio.FloatBuffer.hasArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#asReadOnlyBuffer() public abstract
-     * java.nio.FloatBuffer java.nio.FloatBuffer.asReadOnlyBuffer()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#asReadOnlyBuffer() public
+     * abstract java.nio.FloatBuffer java.nio.FloatBuffer.asReadOnlyBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#put(float) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#put(float) public abstract
      * java.nio.FloatBuffer java.nio.FloatBuffer.put(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#put(FloatBuffer) public
-     * java.nio.FloatBuffer java.nio.FloatBuffer.put(java.nio.FloatBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#put(java.nio.FloatBuffer)
+     * public java.nio.FloatBuffer java.nio.FloatBuffer.put(java.nio.FloatBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,7 +145,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#put(int, float) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#put(int, float) public abstract
      * java.nio.FloatBuffer java.nio.FloatBuffer.put(int,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#put(float[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#put(float[], int, int) public
      * java.nio.FloatBuffer java.nio.FloatBuffer.put(float[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,7 +189,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#put(float[]) public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#put(float[]) public final
      * java.nio.FloatBuffer java.nio.FloatBuffer.put(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,7 +211,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#duplicate() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#duplicate() public abstract
      * java.nio.FloatBuffer java.nio.FloatBuffer.duplicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,8 +233,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#compareTo(FloatBuffer) public int
-     * java.nio.FloatBuffer.compareTo(java.nio.FloatBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#compareTo(java.nio.FloatBuffer)
+     * public int java.nio.FloatBuffer.compareTo(java.nio.FloatBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#slice() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#slice() public abstract
      * java.nio.FloatBuffer java.nio.FloatBuffer.slice()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,7 +277,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#array() public final float[]
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#array() public final float[]
      * java.nio.FloatBuffer.array()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -300,7 +300,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#equals(Object) public boolean
      * java.nio.FloatBuffer.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -323,7 +323,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#get(int) public abstract float
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#get(int) public abstract float
      * java.nio.FloatBuffer.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,7 +345,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#get() public abstract float
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#get() public abstract float
      * java.nio.FloatBuffer.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -367,8 +367,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#get(float[]) public java.nio.FloatBuffer
-     * java.nio.FloatBuffer.get(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#get(float[]) public
+     * java.nio.FloatBuffer java.nio.FloatBuffer.get(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -389,7 +389,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#get(float[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#get(float[], int, int) public
      * java.nio.FloatBuffer java.nio.FloatBuffer.get(float[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -411,7 +411,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#hashCode() public int
      * java.nio.FloatBuffer.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -434,8 +434,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#isDirect() public abstract boolean
-     * java.nio.FloatBuffer.isDirect()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#isDirect() public abstract
+     * boolean java.nio.FloatBuffer.isDirect()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -457,7 +457,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#order() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#order() public abstract
      * java.nio.ByteOrder java.nio.FloatBuffer.order()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -479,7 +479,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#arrayOffset() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#arrayOffset() public final int
      * java.nio.FloatBuffer.arrayOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -502,8 +502,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, FloatBuffer>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FloatBuffer#toString() public java.lang.String
-     * java.nio.FloatBuffer.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.FloatBuffer#toString() public
+     * java.lang.String java.nio.FloatBuffer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

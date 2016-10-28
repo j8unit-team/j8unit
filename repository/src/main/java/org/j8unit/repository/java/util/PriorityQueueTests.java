@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#size() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#size() public int
      * java.util.PriorityQueue.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#spliterator() public final
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#spliterator() public final
      * java.util.Spliterator<E> java.util.PriorityQueue.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#iterator() public java.util.Iterator
-     * <E> java.util.PriorityQueue.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#iterator() public
+     * java.util.Iterator<E> java.util.PriorityQueue.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#contains(Object) public boolean
-     * java.util.PriorityQueue.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#contains(Object) public
+     * boolean java.util.PriorityQueue.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,7 +126,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#offer(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#offer(Object) public boolean
      * java.util.PriorityQueue.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +149,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#add(Object) public boolean
      * java.util.PriorityQueue.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,7 +172,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#comparator() public
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#comparator() public
      * java.util.Comparator<? super E> java.util.PriorityQueue.comparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,8 +194,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#remove(Object) public boolean
-     * java.util.PriorityQueue.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#remove(Object) public
+     * boolean java.util.PriorityQueue.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,7 +217,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#peek() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#peek() public E
      * java.util.PriorityQueue.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,7 +240,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#poll() public E
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#poll() public E
      * java.util.PriorityQueue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -263,8 +263,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#toArray() public java.lang.Object[]
-     * java.util.PriorityQueue.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#toArray() public
+     * java.lang.Object[] java.util.PriorityQueue.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -286,8 +286,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#toArray(Object[]) public <T> T[]
-     * java.util.PriorityQueue.toArray(T[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#toArray(Object[]) public
+     * <T> T[] java.util.PriorityQueue.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -309,7 +309,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PriorityQueue#clear() public void
+     * Test method for the hereby targeted method-under-test {@link java.util.PriorityQueue#clear() public void
      * java.util.PriorityQueue.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

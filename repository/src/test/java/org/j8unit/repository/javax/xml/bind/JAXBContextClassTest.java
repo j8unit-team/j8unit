@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.xml.bind;
 
-import java.util.Map;
 import javax.xml.bind.JAXBContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.xml.bind.JAXBContextClassTests<JAXBContex
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#newInstance(String, ClassLoader, Map)
-     * public static javax.xml.bind.JAXBContext
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.JAXBContext#newInstance(String, ClassLoader, java.util.Map) public static
+     * javax.xml.bind.JAXBContext
      * javax.xml.bind.JAXBContext.newInstance(java.lang.String,java.lang.ClassLoader,java.util.Map<java.lang.String, ?>)
      * throws javax.xml.bind.JAXBException}.
      *
@@ -39,13 +39,13 @@ implements org.j8unit.repository.javax.xml.bind.JAXBContextClassTests<JAXBContex
     @Category(Draft.class)
     public void test_newInstance_String_ClassLoader_Map()
     throws Exception {
-        // write some test for {@link JAXBContext#newInstance(String, ClassLoader, Map)}
+        // write some test for {@link javax.xml.bind.JAXBContext#newInstance(String, ClassLoader, java.util.Map)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#newInstance(Class...) public static
-     * javax.xml.bind.JAXBContext javax.xml.bind.JAXBContext.newInstance(java.lang.Class...) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBContext#newInstance(Class...)
+     * public static javax.xml.bind.JAXBContext javax.xml.bind.JAXBContext.newInstance(java.lang.Class...) throws
      * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,13 +60,13 @@ implements org.j8unit.repository.javax.xml.bind.JAXBContextClassTests<JAXBContex
     @Category(Draft.class)
     public void test_newInstance_ClassArray()
     throws Exception {
-        // write some test for {@link JAXBContext#newInstance(Class...)}
+        // write some test for {@link javax.xml.bind.JAXBContext#newInstance(Class...)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#newInstance(Class[], Map) public static
-     * javax.xml.bind.JAXBContext
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.JAXBContext#newInstance(Class[], java.util.Map) public static javax.xml.bind.JAXBContext
      * javax.xml.bind.JAXBContext.newInstance(java.lang.Class[],java.util.Map<java.lang.String, ?>) throws
      * javax.xml.bind.JAXBException}.
      *
@@ -82,14 +82,15 @@ implements org.j8unit.repository.javax.xml.bind.JAXBContextClassTests<JAXBContex
     @Category(Draft.class)
     public void test_newInstance_ClassArray_Map()
     throws Exception {
-        // write some test for {@link JAXBContext#newInstance(Class[], Map)}
+        // write some test for {@link javax.xml.bind.JAXBContext#newInstance(Class[], java.util.Map)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#newInstance(String, ClassLoader) public
-     * static javax.xml.bind.JAXBContext javax.xml.bind.JAXBContext.newInstance(java.lang.String,java.lang.ClassLoader)
-     * throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.JAXBContext#newInstance(String, ClassLoader) public static javax.xml.bind.JAXBContext
+     * javax.xml.bind.JAXBContext.newInstance(java.lang.String,java.lang.ClassLoader) throws
+     * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,13 +104,13 @@ implements org.j8unit.repository.javax.xml.bind.JAXBContextClassTests<JAXBContex
     @Category(Draft.class)
     public void test_newInstance_String_ClassLoader()
     throws Exception {
-        // write some test for {@link JAXBContext#newInstance(String, ClassLoader)}
+        // write some test for {@link javax.xml.bind.JAXBContext#newInstance(String, ClassLoader)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#newInstance(String) public static
-     * javax.xml.bind.JAXBContext javax.xml.bind.JAXBContext.newInstance(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBContext#newInstance(String)
+     * public static javax.xml.bind.JAXBContext javax.xml.bind.JAXBContext.newInstance(java.lang.String) throws
      * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,7 +125,7 @@ implements org.j8unit.repository.javax.xml.bind.JAXBContextClassTests<JAXBContex
     @Category(Draft.class)
     public void test_newInstance_String()
     throws Exception {
-        // write some test for {@link JAXBContext#newInstance(String)}
+        // write some test for {@link javax.xml.bind.JAXBContext#newInstance(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBContext]

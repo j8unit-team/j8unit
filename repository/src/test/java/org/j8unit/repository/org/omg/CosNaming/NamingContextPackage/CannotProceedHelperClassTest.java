@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.CosNaming.NamingContextPackage.CannotProceed;
 import org.omg.CosNaming.NamingContextPackage.CannotProceedHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,8 +22,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CannotProceedHelper#CannotProceedHelper()
-     * public org.omg.CosNaming.NamingContextPackage.CannotProceedHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#CannotProceedHelper() public
+     * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,8 +43,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedHelper#read(InputStream) public static
-     * org.omg.CosNaming.NamingContextPackage.CannotProceed
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.CosNaming.NamingContextPackage.CannotProceed
      * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +60,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link CannotProceedHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.CosNaming.NamingContextPackage.CannotProceed
      * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -83,13 +83,15 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link CannotProceedHelper#extract(Any)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.type()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,13 +105,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link CannotProceedHelper#type()}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CannotProceedHelper#write(OutputStream, CannotProceed) public static void
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CosNaming.NamingContextPackage.CannotProceed)
+     * public static void
      * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NamingContextPackage.CannotProceed)}
      * .
      *
@@ -125,13 +128,16 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     @Category(Draft.class)
     public void test_write_OutputStream_CannotProceed()
     throws Exception {
-        // write some test for {@link CannotProceedHelper#write(OutputStream, CannotProceed)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CosNaming.NamingContextPackage.CannotProceed)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedHelper#id() public static
-     * java.lang.String org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.id()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#id() public static java.lang.String
+     * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,12 +151,13 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link CannotProceedHelper#id()}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CannotProceedHelper#insert(Any, CannotProceed)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#insert(org.omg.CORBA.Any, org.omg.CosNaming.NamingContextPackage.CannotProceed)
      * public static void
      * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextPackage.CannotProceed)}
      * .
@@ -167,7 +174,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
     @Category(Draft.class)
     public void test_insert_Any_CannotProceed()
     throws Exception {
-        // write some test for {@link CannotProceedHelper#insert(Any, CannotProceed)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CosNaming.NamingContextPackage.CannotProceed)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceedHelper]

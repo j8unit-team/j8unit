@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicOptionPaneUI;
 import javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener;
 import javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout;
@@ -25,7 +24,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicOptionPaneUI#BasicOptionPaneUI() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.basic.BasicOptionPaneUI#BasicOptionPaneUI() public
      * javax.swing.plaf.basic.BasicOptionPaneUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +46,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BasicOptionPaneUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicOptionPaneUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicOptionPaneUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,27 +62,28 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link BasicOptionPaneUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.basic.BasicOptionPaneUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI]
 
     @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+    public static class ButtonActionListenerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonActionListenerClassTests<ButtonActionListener> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
 
         @Override
-        public Class<PropertyChangeHandler> createNewSUT() {
-            return PropertyChangeHandler.class;
+        public Class<ButtonActionListener> createNewSUT() {
+            return ButtonActionListener.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link PropertyChangeHandler#PropertyChangeHandler(BasicOptionPaneUI) public
-         * javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicOptionPaneUI)}.
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener#ButtonActionListener(javax.swing.plaf.basic.BasicOptionPaneUI, int)
+         * public
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener(javax.swing.plaf.basic.BasicOptionPaneUI,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -93,14 +95,16 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_PropertyChangeHandler_BasicOptionPaneUI()
+        public void create_ButtonActionListener_BasicOptionPaneUI_int()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PropertyChangeHandler sut = null; // = new PropertyChangeHandler(BasicOptionPaneUI);
+            final ButtonActionListener sut = null; // = new
+                                                   // ButtonActionListener(javax.swing.plaf.basic.BasicOptionPaneUI,
+                                                   // int);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
 
     }
 
@@ -118,7 +122,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link ButtonAreaLayout#ButtonAreaLayout(boolean, int) public
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#ButtonAreaLayout(boolean, int) public
          * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout(boolean,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -143,21 +147,22 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
     }
 
     @RunWith(J8Unit4.class)
-    public static class ButtonActionListenerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonActionListenerClassTests<ButtonActionListener> {
+    public static class PropertyChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
 
         @Override
-        public Class<ButtonActionListener> createNewSUT() {
-            return ButtonActionListener.class;
+        public Class<PropertyChangeHandler> createNewSUT() {
+            return PropertyChangeHandler.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link ButtonActionListener#ButtonActionListener(BasicOptionPaneUI, int) public
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener(javax.swing.plaf.basic.BasicOptionPaneUI,int)}.
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicOptionPaneUI)
+         * public
+         * javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicOptionPaneUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -169,14 +174,15 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_ButtonActionListener_BasicOptionPaneUI_int()
+        public void create_PropertyChangeHandler_BasicOptionPaneUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final ButtonActionListener sut = null; // = new ButtonActionListener(BasicOptionPaneUI, int);
+            final PropertyChangeHandler sut = null; // = new
+                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicOptionPaneUI);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
 
     }
 

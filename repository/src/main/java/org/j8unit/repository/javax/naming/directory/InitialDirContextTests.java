@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.naming.directory;
 
-import javax.naming.Name;
-import javax.naming.directory.Attributes;
 import javax.naming.directory.InitialDirContext;
-import javax.naming.directory.ModificationItem;
-import javax.naming.directory.SearchControls;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +35,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#modifyAttributes(String, int, Attributes) public void
-     * javax.naming.directory.InitialDirContext.modifyAttributes(java.lang.String,int,javax.naming.directory.Attributes)
+     * {@link javax.naming.directory.InitialDirContext#modifyAttributes(String, javax.naming.directory.ModificationItem[])
+     * public void
+     * javax.naming.directory.InitialDirContext.modifyAttributes(java.lang.String,javax.naming.directory.ModificationItem[])
      * throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -54,7 +51,7 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_modifyAttributes_String_int_Attributes()
+    public default void test_modifyAttributes_String_ModificationItemArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -64,32 +61,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#modifyAttributes(Name, int, Attributes) public void
-     * javax.naming.directory.InitialDirContext.modifyAttributes(javax.naming.Name,int,javax.naming.directory.Attributes)
-     * throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_modifyAttributes_Name_int_Attributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#modifyAttributes(Name, ModificationItem[]) public void
+     * {@link javax.naming.directory.InitialDirContext#modifyAttributes(javax.naming.Name, javax.naming.directory.ModificationItem[])
+     * public void
      * javax.naming.directory.InitialDirContext.modifyAttributes(javax.naming.Name,javax.naming.directory.ModificationItem[])
      * throws javax.naming.NamingException}.
      *
@@ -114,8 +87,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#modifyAttributes(String, ModificationItem[]) public void
-     * javax.naming.directory.InitialDirContext.modifyAttributes(java.lang.String,javax.naming.directory.ModificationItem[])
+     * {@link javax.naming.directory.InitialDirContext#modifyAttributes(String, int, javax.naming.directory.Attributes)
+     * public void
+     * javax.naming.directory.InitialDirContext.modifyAttributes(java.lang.String,int,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,7 +103,7 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_modifyAttributes_String_ModificationItemArray()
+    public default void test_modifyAttributes_String_int_Attributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,8 +112,35 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#getSchemaClassDefinition(Name)
-     * public javax.naming.directory.DirContext
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#modifyAttributes(javax.naming.Name, int, javax.naming.directory.Attributes)
+     * public void
+     * javax.naming.directory.InitialDirContext.modifyAttributes(javax.naming.Name,int,javax.naming.directory.Attributes)
+     * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_modifyAttributes_Name_int_Attributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#getSchemaClassDefinition(javax.naming.Name) public
+     * javax.naming.directory.DirContext
      * javax.naming.directory.InitialDirContext.getSchemaClassDefinition(javax.naming.Name) throws
      * javax.naming.NamingException}.
      *
@@ -163,8 +164,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#getSchemaClassDefinition(String)
-     * public javax.naming.directory.DirContext
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#getSchemaClassDefinition(String) public
+     * javax.naming.directory.DirContext
      * javax.naming.directory.InitialDirContext.getSchemaClassDefinition(java.lang.String) throws
      * javax.naming.NamingException}.
      *
@@ -188,7 +190,34 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#bind(Name, Object, Attributes)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#bind(String, Object, javax.naming.directory.Attributes) public
+     * void
+     * javax.naming.directory.InitialDirContext.bind(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
+     * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_bind_String_Object_Attributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#bind(javax.naming.Name, Object, javax.naming.directory.Attributes)
      * public void
      * javax.naming.directory.InitialDirContext.bind(javax.naming.Name,java.lang.Object,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
@@ -213,32 +242,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#bind(String, Object, Attributes)
-     * public void
-     * javax.naming.directory.InitialDirContext.bind(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
-     * throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_bind_String_Object_Attributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#search(Name, Attributes, String[])
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#search(javax.naming.Name, javax.naming.directory.Attributes, String[])
      * public javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
      * javax.naming.directory.InitialDirContext.search(javax.naming.Name,javax.naming.directory.Attributes,java.lang.String[])
      * throws javax.naming.NamingException}.
@@ -264,8 +269,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#search(String, String, SearchControls) public javax.naming.NamingEnumeration
-     * <javax.naming.directory.SearchResult>
+     * {@link javax.naming.directory.InitialDirContext#search(String, String, javax.naming.directory.SearchControls)
+     * public javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
      * javax.naming.directory.InitialDirContext.search(java.lang.String,java.lang.String,javax.naming.directory.SearchControls)
      * throws javax.naming.NamingException}.
      *
@@ -290,8 +295,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#search(Name, String, SearchControls) public javax.naming.NamingEnumeration
-     * <javax.naming.directory.SearchResult>
+     * {@link javax.naming.directory.InitialDirContext#search(javax.naming.Name, String, javax.naming.directory.SearchControls)
+     * public javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
      * javax.naming.directory.InitialDirContext.search(javax.naming.Name,java.lang.String,javax.naming.directory.SearchControls)
      * throws javax.naming.NamingException}.
      *
@@ -316,8 +321,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#search(String, String, Object[], SearchControls) public javax.naming.NamingEnumeration
-     * <javax.naming.directory.SearchResult>
+     * {@link javax.naming.directory.InitialDirContext#search(String, String, Object[], javax.naming.directory.SearchControls)
+     * public javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
      * javax.naming.directory.InitialDirContext.search(java.lang.String,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls)
      * throws javax.naming.NamingException}.
      *
@@ -342,8 +347,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#search(Name, String, Object[], SearchControls) public javax.naming.NamingEnumeration
-     * <javax.naming.directory.SearchResult>
+     * {@link javax.naming.directory.InitialDirContext#search(javax.naming.Name, String, Object[], javax.naming.directory.SearchControls)
+     * public javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
      * javax.naming.directory.InitialDirContext.search(javax.naming.Name,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls)
      * throws javax.naming.NamingException}.
      *
@@ -367,7 +372,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#search(String, Attributes) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#search(String, javax.naming.directory.Attributes) public
      * javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
      * javax.naming.directory.InitialDirContext.search(java.lang.String,javax.naming.directory.Attributes) throws
      * javax.naming.NamingException}.
@@ -393,8 +399,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#search(String, Attributes, String[]) public javax.naming.NamingEnumeration
-     * <javax.naming.directory.SearchResult>
+     * {@link javax.naming.directory.InitialDirContext#search(String, javax.naming.directory.Attributes, String[])
+     * public javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
      * javax.naming.directory.InitialDirContext.search(java.lang.String,javax.naming.directory.Attributes,java.lang.String[])
      * throws javax.naming.NamingException}.
      *
@@ -418,8 +424,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#search(Name, Attributes) public
-     * javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#search(javax.naming.Name, javax.naming.directory.Attributes)
+     * public javax.naming.NamingEnumeration<javax.naming.directory.SearchResult>
      * javax.naming.directory.InitialDirContext.search(javax.naming.Name,javax.naming.directory.Attributes) throws
      * javax.naming.NamingException}.
      *
@@ -443,9 +450,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#getSchema(String) public
-     * javax.naming.directory.DirContext javax.naming.directory.InitialDirContext.getSchema(java.lang.String) throws
-     * javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#getSchema(String) public javax.naming.directory.DirContext
+     * javax.naming.directory.InitialDirContext.getSchema(java.lang.String) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -467,7 +474,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#getSchema(Name) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#getSchema(javax.naming.Name) public
      * javax.naming.directory.DirContext javax.naming.directory.InitialDirContext.getSchema(javax.naming.Name) throws
      * javax.naming.NamingException}.
      *
@@ -491,9 +499,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#getAttributes(String) public
-     * javax.naming.directory.Attributes javax.naming.directory.InitialDirContext.getAttributes(java.lang.String) throws
-     * javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#getAttributes(String) public javax.naming.directory.Attributes
+     * javax.naming.directory.InitialDirContext.getAttributes(java.lang.String) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -515,8 +523,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#getAttributes(String, String[])
-     * public javax.naming.directory.Attributes
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#getAttributes(String, String[]) public
+     * javax.naming.directory.Attributes
      * javax.naming.directory.InitialDirContext.getAttributes(java.lang.String,java.lang.String[]) throws
      * javax.naming.NamingException}.
      *
@@ -540,7 +549,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#getAttributes(Name) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#getAttributes(javax.naming.Name) public
      * javax.naming.directory.Attributes javax.naming.directory.InitialDirContext.getAttributes(javax.naming.Name)
      * throws javax.naming.NamingException}.
      *
@@ -564,8 +574,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#getAttributes(Name, String[])
-     * public javax.naming.directory.Attributes
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#getAttributes(javax.naming.Name, String[]) public
+     * javax.naming.directory.Attributes
      * javax.naming.directory.InitialDirContext.getAttributes(javax.naming.Name,java.lang.String[]) throws
      * javax.naming.NamingException}.
      *
@@ -590,7 +601,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InitialDirContext#createSubcontext(String, Attributes) public javax.naming.directory.DirContext
+     * {@link javax.naming.directory.InitialDirContext#createSubcontext(String, javax.naming.directory.Attributes)
+     * public javax.naming.directory.DirContext
      * javax.naming.directory.InitialDirContext.createSubcontext(java.lang.String,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
      *
@@ -614,7 +626,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#createSubcontext(Name, Attributes)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#createSubcontext(javax.naming.Name, javax.naming.directory.Attributes)
      * public javax.naming.directory.DirContext
      * javax.naming.directory.InitialDirContext.createSubcontext(javax.naming.Name,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
@@ -639,8 +652,9 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#rebind(String, Object, Attributes)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#rebind(String, Object, javax.naming.directory.Attributes) public
+     * void
      * javax.naming.directory.InitialDirContext.rebind(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
      *
@@ -664,7 +678,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InitialDirContext#rebind(Name, Object, Attributes)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#rebind(javax.naming.Name, Object, javax.naming.directory.Attributes)
      * public void
      * javax.naming.directory.InitialDirContext.rebind(javax.naming.Name,java.lang.Object,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.

@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.DynamicAny.DynAny;
 import org.omg.DynamicAny.DynUnionOperations;
 
 /**
@@ -35,8 +34,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnionOperations#set_discriminator(DynAny) public
-     * abstract void org.omg.DynamicAny.DynUnionOperations.set_discriminator(org.omg.DynamicAny.DynAny) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynUnionOperations#set_discriminator(org.omg.DynamicAny.DynAny) public abstract void
+     * org.omg.DynamicAny.DynUnionOperations.set_discriminator(org.omg.DynamicAny.DynAny) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnionOperations#set_to_default_member() public
-     * abstract void org.omg.DynamicAny.DynUnionOperations.set_to_default_member() throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynUnionOperations#set_to_default_member() public abstract void
+     * org.omg.DynamicAny.DynUnionOperations.set_to_default_member() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,8 +82,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnionOperations#member_kind() public abstract
-     * org.omg.CORBA.TCKind org.omg.DynamicAny.DynUnionOperations.member_kind() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynUnionOperations#member_kind()
+     * public abstract org.omg.CORBA.TCKind org.omg.DynamicAny.DynUnionOperations.member_kind() throws
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,8 +105,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnionOperations#has_no_active_member() public
-     * abstract boolean org.omg.DynamicAny.DynUnionOperations.has_no_active_member()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynUnionOperations#has_no_active_member() public abstract boolean
+     * org.omg.DynamicAny.DynUnionOperations.has_no_active_member()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +128,9 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnionOperations#get_discriminator() public
-     * abstract org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynUnionOperations.get_discriminator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynUnionOperations#get_discriminator() public abstract org.omg.DynamicAny.DynAny
+     * org.omg.DynamicAny.DynUnionOperations.get_discriminator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +151,32 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnionOperations#set_to_no_active_member() public
-     * abstract void org.omg.DynamicAny.DynUnionOperations.set_to_no_active_member() throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynUnionOperations#discriminator_kind() public abstract org.omg.CORBA.TCKind
+     * org.omg.DynamicAny.DynUnionOperations.discriminator_kind()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_discriminator_kind()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynUnionOperations#set_to_no_active_member() public abstract void
+     * org.omg.DynamicAny.DynUnionOperations.set_to_no_active_member() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,30 +198,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnionOperations#discriminator_kind() public
-     * abstract org.omg.CORBA.TCKind org.omg.DynamicAny.DynUnionOperations.discriminator_kind()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_discriminator_kind()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnionOperations#member_name() public abstract
-     * java.lang.String org.omg.DynamicAny.DynUnionOperations.member_name() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynUnionOperations#member_name()
+     * public abstract java.lang.String org.omg.DynamicAny.DynUnionOperations.member_name() throws
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -216,8 +221,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynUnionOperations#member() public abstract
-     * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynUnionOperations.member() throws
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynUnionOperations#member()
+     * public abstract org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynUnionOperations.member() throws
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.management.relation.RelationServiceClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RelationService#RelationService(boolean) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.relation.RelationService#RelationService(boolean) public
      * javax.management.relation.RelationService(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

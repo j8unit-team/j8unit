@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
-import java.rmi.server.RemoteRef;
 import javax.management.remote.rmi.RMIServerImpl_Stub;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIServerImpl_StubC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RMIServerImpl_Stub#RMIServerImpl_Stub(RemoteRef) public
+     * {@link javax.management.remote.rmi.RMIServerImpl_Stub#RMIServerImpl_Stub(java.rmi.server.RemoteRef) public
      * javax.management.remote.rmi.RMIServerImpl_Stub(java.rmi.server.RemoteRef)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIServerImpl_StubC
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RMIServerImpl_Stub sut = null; // = new RMIServerImpl_Stub(RemoteRef);
+        final RMIServerImpl_Stub sut = null; // = new RMIServerImpl_Stub(java.rmi.server.RemoteRef);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIServerImpl_Stub]

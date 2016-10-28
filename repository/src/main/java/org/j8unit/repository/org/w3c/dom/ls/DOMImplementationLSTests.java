@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMImplementationLS#createLSSerializer() public
-     * abstract org.w3c.dom.ls.LSSerializer org.w3c.dom.ls.DOMImplementationLS.createLSSerializer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.DOMImplementationLS#createLSSerializer() public abstract org.w3c.dom.ls.LSSerializer
+     * org.w3c.dom.ls.DOMImplementationLS.createLSSerializer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMImplementationLS#createLSInput() public abstract
-     * org.w3c.dom.ls.LSInput org.w3c.dom.ls.DOMImplementationLS.createLSInput()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.DOMImplementationLS#createLSInput()
+     * public abstract org.w3c.dom.ls.LSInput org.w3c.dom.ls.DOMImplementationLS.createLSInput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,9 +80,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMImplementationLS#createLSParser(short, String)
-     * public abstract org.w3c.dom.ls.LSParser org.w3c.dom.ls.DOMImplementationLS.createLSParser(short,java.lang.String)
-     * throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.DOMImplementationLS#createLSParser(short, String) public abstract org.w3c.dom.ls.LSParser
+     * org.w3c.dom.ls.DOMImplementationLS.createLSParser(short,java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMImplementationLS#createLSOutput() public abstract
-     * org.w3c.dom.ls.LSOutput org.w3c.dom.ls.DOMImplementationLS.createLSOutput()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.DOMImplementationLS#createLSOutput()
+     * public abstract org.w3c.dom.ls.LSOutput org.w3c.dom.ls.DOMImplementationLS.createLSOutput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.print.attribute;
 
-import javax.print.attribute.Attribute;
-import javax.print.attribute.AttributeSet;
-import javax.print.attribute.DocAttributeSet;
-import javax.print.attribute.HashAttributeSet;
 import javax.print.attribute.HashDocAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -42,8 +38,10 @@ extends org.j8unit.repository.javax.print.attribute.DocAttributeSetTests<SUT>, o
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link HashAttributeSet#add(Attribute) class javax.print.attribute.HashAttributeSet}</li>
-     * <li>{@link DocAttributeSet#add(Attribute) interface javax.print.attribute.DocAttributeSet}</li>
+     * <li>{@link javax.print.attribute.HashAttributeSet#add(javax.print.attribute.Attribute) class
+     * javax.print.attribute.HashAttributeSet}</li>
+     * <li>{@link javax.print.attribute.DocAttributeSet#add(javax.print.attribute.Attribute) interface
+     * javax.print.attribute.DocAttributeSet}</li>
      * </ul>
      *
      * <p>
@@ -70,8 +68,10 @@ extends org.j8unit.repository.javax.print.attribute.DocAttributeSetTests<SUT>, o
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link HashAttributeSet#addAll(AttributeSet) class javax.print.attribute.HashAttributeSet}</li>
-     * <li>{@link DocAttributeSet#addAll(AttributeSet) interface javax.print.attribute.DocAttributeSet}</li>
+     * <li>{@link javax.print.attribute.HashAttributeSet#addAll(javax.print.attribute.AttributeSet) class
+     * javax.print.attribute.HashAttributeSet}</li>
+     * <li>{@link javax.print.attribute.DocAttributeSet#addAll(javax.print.attribute.AttributeSet) interface
+     * javax.print.attribute.DocAttributeSet}</li>
      * </ul>
      *
      * <p>

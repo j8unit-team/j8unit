@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#toString() public java.lang.String
-     * javax.swing.text.Segment.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#toString() public
+     * java.lang.String javax.swing.text.Segment.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#clone() public java.lang.Object
-     * javax.swing.text.Segment.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#clone() public
+     * java.lang.Object javax.swing.text.Segment.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#isPartialReturn() public boolean
-     * javax.swing.text.Segment.isPartialReturn()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#isPartialReturn() public
+     * boolean javax.swing.text.Segment.isPartialReturn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,7 +103,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#first() public char
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#first() public char
      * javax.swing.text.Segment.first()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +126,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#charAt(int) public char
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#charAt(int) public char
      * javax.swing.text.Segment.charAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +149,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#current() public char
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#current() public char
      * javax.swing.text.Segment.current()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,30 +172,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#setIndex(int) public char
-     * javax.swing.text.Segment.setIndex(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setIndex_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#getEndIndex() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#getEndIndex() public int
      * javax.swing.text.Segment.getEndIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -218,8 +195,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#subSequence(int, int) public
-     * java.lang.CharSequence javax.swing.text.Segment.subSequence(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#setIndex(int) public char
+     * javax.swing.text.Segment.setIndex(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setIndex_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#subSequence(int, int)
+     * public java.lang.CharSequence javax.swing.text.Segment.subSequence(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -241,7 +241,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#length() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#length() public int
      * javax.swing.text.Segment.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,7 +264,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#getBeginIndex() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#getBeginIndex() public int
      * javax.swing.text.Segment.getBeginIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -287,8 +287,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#setPartialReturn(boolean) public void
-     * javax.swing.text.Segment.setPartialReturn(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#setPartialReturn(boolean)
+     * public void javax.swing.text.Segment.setPartialReturn(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -309,7 +309,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#next() public char
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#next() public char
      * javax.swing.text.Segment.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -332,7 +332,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#last() public char
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#last() public char
      * javax.swing.text.Segment.last()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -355,7 +355,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#getIndex() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#getIndex() public int
      * javax.swing.text.Segment.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -378,7 +378,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Segment#previous() public char
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Segment#previous() public char
      * javax.swing.text.Segment.previous()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleContextClassTests
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AccessibleContext#AccessibleContext() public
-     * javax.accessibility.AccessibleContext()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.accessibility.AccessibleContext#AccessibleContext() public javax.accessibility.AccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

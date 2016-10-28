@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
 import javax.swing.BoxLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#getAxis() public final int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoxLayout#getAxis() public final int
      * javax.swing.BoxLayout.getAxis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,31 +57,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#addLayoutComponent(String, Component)
-     * public void javax.swing.BoxLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addLayoutComponent_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#addLayoutComponent(Component, Object)
-     * public void javax.swing.BoxLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#addLayoutComponent(java.awt.Component, Object) public void
+     * javax.swing.BoxLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +81,33 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#maximumLayoutSize(Container) public
-     * java.awt.Dimension javax.swing.BoxLayout.maximumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#addLayoutComponent(String, java.awt.Component) public void
+     * javax.swing.BoxLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addLayoutComponent_String_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#maximumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.BoxLayout.maximumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,7 +129,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#layoutContainer(Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#layoutContainer(java.awt.Container) public void
      * javax.swing.BoxLayout.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -151,8 +153,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#getLayoutAlignmentY(Container) public
-     * synchronized float javax.swing.BoxLayout.getLayoutAlignmentY(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#getLayoutAlignmentY(java.awt.Container) public synchronized float
+     * javax.swing.BoxLayout.getLayoutAlignmentY(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +177,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#minimumLayoutSize(Container) public
-     * java.awt.Dimension javax.swing.BoxLayout.minimumLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.BoxLayout.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,8 +201,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#getLayoutAlignmentX(Container) public
-     * synchronized float javax.swing.BoxLayout.getLayoutAlignmentX(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#getLayoutAlignmentX(java.awt.Container) public synchronized float
+     * javax.swing.BoxLayout.getLayoutAlignmentX(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,8 +225,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#removeLayoutComponent(Component) public
-     * void javax.swing.BoxLayout.removeLayoutComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#removeLayoutComponent(java.awt.Component) public void
+     * javax.swing.BoxLayout.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -243,8 +249,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#invalidateLayout(Container) public
-     * synchronized void javax.swing.BoxLayout.invalidateLayout(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#invalidateLayout(java.awt.Container) public synchronized void
+     * javax.swing.BoxLayout.invalidateLayout(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -266,7 +273,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#getTarget() public final
+     * Test method for the hereby targeted method-under-test {@link javax.swing.BoxLayout#getTarget() public final
      * java.awt.Container javax.swing.BoxLayout.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -288,8 +295,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BoxLayout#preferredLayoutSize(Container) public
-     * java.awt.Dimension javax.swing.BoxLayout.preferredLayoutSize(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.BoxLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.BoxLayout.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

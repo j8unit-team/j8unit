@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.xml.ws.RespectBindingFeatureClassTests<Re
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RespectBindingFeature#RespectBindingFeature()
-     * public javax.xml.ws.RespectBindingFeature()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.ws.RespectBindingFeature#RespectBindingFeature() public javax.xml.ws.RespectBindingFeature()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +43,8 @@ implements org.j8unit.repository.javax.xml.ws.RespectBindingFeatureClassTests<Re
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link RespectBindingFeature#RespectBindingFeature(boolean) public javax.xml.ws.RespectBindingFeature(boolean)}.
+     * {@link javax.xml.ws.RespectBindingFeature#RespectBindingFeature(boolean) public
+     * javax.xml.ws.RespectBindingFeature(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

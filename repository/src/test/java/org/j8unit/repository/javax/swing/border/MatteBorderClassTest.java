@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Color;
-import java.awt.Insets;
-import javax.swing.Icon;
 import javax.swing.border.MatteBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +21,8 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MatteBorder#MatteBorder(Icon) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.MatteBorder#MatteBorder(javax.swing.Icon) public
      * javax.swing.border.MatteBorder(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,12 +39,13 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MatteBorder sut = null; // = new MatteBorder(Icon);
+        final MatteBorder sut = null; // = new MatteBorder(javax.swing.Icon);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MatteBorder#MatteBorder(Insets, Icon) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.MatteBorder#MatteBorder(java.awt.Insets, javax.swing.Icon) public
      * javax.swing.border.MatteBorder(java.awt.Insets,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +62,13 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MatteBorder sut = null; // = new MatteBorder(Insets, Icon);
+        final MatteBorder sut = null; // = new MatteBorder(java.awt.Insets, javax.swing.Icon);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MatteBorder#MatteBorder(int, int, int, int, Icon) public
+     * {@link javax.swing.border.MatteBorder#MatteBorder(int, int, int, int, javax.swing.Icon) public
      * javax.swing.border.MatteBorder(int,int,int,int,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,12 +85,13 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MatteBorder sut = null; // = new MatteBorder(int, int, int, int, Icon);
+        final MatteBorder sut = null; // = new MatteBorder(int, int, int, int, javax.swing.Icon);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MatteBorder#MatteBorder(Insets, Color) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.MatteBorder#MatteBorder(java.awt.Insets, java.awt.Color) public
      * javax.swing.border.MatteBorder(java.awt.Insets,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,13 +108,13 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MatteBorder sut = null; // = new MatteBorder(Insets, Color);
+        final MatteBorder sut = null; // = new MatteBorder(java.awt.Insets, java.awt.Color);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MatteBorder#MatteBorder(int, int, int, int, Color) public
+     * {@link javax.swing.border.MatteBorder#MatteBorder(int, int, int, int, java.awt.Color) public
      * javax.swing.border.MatteBorder(int,int,int,int,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -131,7 +131,7 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MatteBorder sut = null; // = new MatteBorder(int, int, int, int, Color);
+        final MatteBorder sut = null; // = new MatteBorder(int, int, int, int, java.awt.Color);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.MatteBorder]

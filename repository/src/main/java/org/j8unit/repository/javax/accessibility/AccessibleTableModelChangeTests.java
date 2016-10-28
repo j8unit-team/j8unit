@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getFirstRow() public
-     * abstract int javax.accessibility.AccessibleTableModelChange.getFirstRow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleTableModelChange#getFirstRow() public abstract int
+     * javax.accessibility.AccessibleTableModelChange.getFirstRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getLastRow() public
-     * abstract int javax.accessibility.AccessibleTableModelChange.getLastRow()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleTableModelChange#getLastRow() public abstract int
+     * javax.accessibility.AccessibleTableModelChange.getLastRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getType() public abstract
-     * int javax.accessibility.AccessibleTableModelChange.getType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleTableModelChange#getType() public abstract int
+     * javax.accessibility.AccessibleTableModelChange.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getLastColumn() public
-     * abstract int javax.accessibility.AccessibleTableModelChange.getLastColumn()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleTableModelChange#getLastColumn() public abstract int
+     * javax.accessibility.AccessibleTableModelChange.getLastColumn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getFirstColumn() public
-     * abstract int javax.accessibility.AccessibleTableModelChange.getFirstColumn()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleTableModelChange#getFirstColumn() public abstract int
+     * javax.accessibility.AccessibleTableModelChange.getFirstColumn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

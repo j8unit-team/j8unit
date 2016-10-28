@@ -40,21 +40,6 @@ implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, org.j8unit.repository.java
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI]
 
     @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
-
-        @Override
-        public PropertyChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class ViewportChangeHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.ViewportChangeHandlerTests<ViewportChangeHandler> {
 
@@ -66,6 +51,21 @@ implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, org.j8unit.repository.java
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
+
+        @Override
+        public PropertyChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
 
     }
 

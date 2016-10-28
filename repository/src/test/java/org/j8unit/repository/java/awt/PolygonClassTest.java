@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.awt.PolygonClassTests<Polygon> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Polygon#Polygon() public java.awt.Polygon()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Polygon#Polygon() public
+     * java.awt.Polygon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,8 +42,8 @@ implements org.j8unit.repository.java.awt.PolygonClassTests<Polygon> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Polygon#Polygon(int[], int[], int) public
-     * java.awt.Polygon(int[],int[],int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Polygon#Polygon(int[], int[], int)
+     * public java.awt.Polygon(int[],int[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

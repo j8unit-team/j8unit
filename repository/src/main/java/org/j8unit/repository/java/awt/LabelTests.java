@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Label#getText() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link java.awt.Label#getText() public java.lang.String
      * java.awt.Label.getText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Label#addNotify() public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Label#addNotify() public void
      * java.awt.Label.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Label#setAlignment(int) public synchronized void
-     * java.awt.Label.setAlignment(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Label#setAlignment(int) public synchronized
+     * void java.awt.Label.setAlignment(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Label#getAlignment() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.Label#getAlignment() public int
      * java.awt.Label.getAlignment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +123,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Label#setText(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.Label#setText(String) public void
      * java.awt.Label.setText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,7 +145,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Label#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.Label#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.Label.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

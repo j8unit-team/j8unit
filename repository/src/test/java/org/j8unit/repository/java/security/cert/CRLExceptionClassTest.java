@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.security.cert.CRLExceptionClassTests<CRLEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CRLException#CRLException(Throwable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.CRLException#CRLException(Throwable) public
      * java.security.cert.CRLException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +44,9 @@ implements org.j8unit.repository.java.security.cert.CRLExceptionClassTests<CRLEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CRLException#CRLException(String, Throwable)
-     * public java.security.cert.CRLException(java.lang.String,java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.CRLException#CRLException(String, Throwable) public
+     * java.security.cert.CRLException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,7 +67,8 @@ implements org.j8unit.repository.java.security.cert.CRLExceptionClassTests<CRLEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CRLException#CRLException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.CRLException#CRLException(String) public
      * java.security.cert.CRLException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,8 +90,8 @@ implements org.j8unit.repository.java.security.cert.CRLExceptionClassTests<CRLEx
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CRLException#CRLException() public
-     * java.security.cert.CRLException()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.security.cert.CRLException#CRLException()
+     * public java.security.cert.CRLException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

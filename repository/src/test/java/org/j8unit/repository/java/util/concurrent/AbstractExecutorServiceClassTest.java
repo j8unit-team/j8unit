@@ -23,7 +23,8 @@ implements org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AbstractExecutorService#AbstractExecutorService() public java.util.concurrent.AbstractExecutorService()}.
+     * {@link java.util.concurrent.AbstractExecutorService#AbstractExecutorService() public
+     * java.util.concurrent.AbstractExecutorService()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

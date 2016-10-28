@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.prefs;
 
-import java.io.InputStream;
 import java.util.prefs.Preferences;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.java.util.prefs.PreferencesClassTests<Preferenc
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#importPreferences(InputStream) public
-     * static void java.util.prefs.Preferences.importPreferences(java.io.InputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#importPreferences(java.io.InputStream) public static void
+     * java.util.prefs.Preferences.importPreferences(java.io.InputStream) throws
      * java.io.IOException,java.util.prefs.InvalidPreferencesFormatException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,13 +38,14 @@ implements org.j8unit.repository.java.util.prefs.PreferencesClassTests<Preferenc
     @Category(Draft.class)
     public void test_importPreferences_InputStream()
     throws Exception {
-        // write some test for {@link Preferences#importPreferences(InputStream)}
+        // write some test for {@link java.util.prefs.Preferences#importPreferences(java.io.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#userNodeForPackage(Class) public static
-     * java.util.prefs.Preferences java.util.prefs.Preferences.userNodeForPackage(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#userNodeForPackage(Class) public static java.util.prefs.Preferences
+     * java.util.prefs.Preferences.userNodeForPackage(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,13 +59,14 @@ implements org.j8unit.repository.java.util.prefs.PreferencesClassTests<Preferenc
     @Category(Draft.class)
     public void test_userNodeForPackage_Class()
     throws Exception {
-        // write some test for {@link Preferences#userNodeForPackage(Class)}
+        // write some test for {@link java.util.prefs.Preferences#userNodeForPackage(Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#systemNodeForPackage(Class) public
-     * static java.util.prefs.Preferences java.util.prefs.Preferences.systemNodeForPackage(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.Preferences#systemNodeForPackage(Class) public static java.util.prefs.Preferences
+     * java.util.prefs.Preferences.systemNodeForPackage(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,13 +80,13 @@ implements org.j8unit.repository.java.util.prefs.PreferencesClassTests<Preferenc
     @Category(Draft.class)
     public void test_systemNodeForPackage_Class()
     throws Exception {
-        // write some test for {@link Preferences#systemNodeForPackage(Class)}
+        // write some test for {@link java.util.prefs.Preferences#systemNodeForPackage(Class)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#systemRoot() public static
-     * java.util.prefs.Preferences java.util.prefs.Preferences.systemRoot()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#systemRoot() public
+     * static java.util.prefs.Preferences java.util.prefs.Preferences.systemRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,12 +100,12 @@ implements org.j8unit.repository.java.util.prefs.PreferencesClassTests<Preferenc
     @Category(Draft.class)
     public void test_systemRoot()
     throws Exception {
-        // write some test for {@link Preferences#systemRoot()}
+        // write some test for {@link java.util.prefs.Preferences#systemRoot()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Preferences#userRoot() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.Preferences#userRoot() public static
      * java.util.prefs.Preferences java.util.prefs.Preferences.userRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -118,7 +120,7 @@ implements org.j8unit.repository.java.util.prefs.PreferencesClassTests<Preferenc
     @Category(Draft.class)
     public void test_userRoot()
     throws Exception {
-        // write some test for {@link Preferences#userRoot()}
+        // write some test for {@link java.util.prefs.Preferences#userRoot()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.Preferences]

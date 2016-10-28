@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeChangeNotification#getAttributeName()
-     * public java.lang.String javax.management.AttributeChangeNotification.getAttributeName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeChangeNotification#getAttributeName() public java.lang.String
+     * javax.management.AttributeChangeNotification.getAttributeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeChangeNotification#getNewValue() public
-     * java.lang.Object javax.management.AttributeChangeNotification.getNewValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeChangeNotification#getNewValue() public java.lang.Object
+     * javax.management.AttributeChangeNotification.getNewValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeChangeNotification#getOldValue() public
-     * java.lang.Object javax.management.AttributeChangeNotification.getOldValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeChangeNotification#getOldValue() public java.lang.Object
+     * javax.management.AttributeChangeNotification.getOldValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +103,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AttributeChangeNotification#getAttributeType()
-     * public java.lang.String javax.management.AttributeChangeNotification.getAttributeType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.AttributeChangeNotification#getAttributeType() public java.lang.String
+     * javax.management.AttributeChangeNotification.getAttributeType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

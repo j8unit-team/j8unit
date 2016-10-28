@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.nio.ByteBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MappedByteBuffer#isLoaded() public final boolean
-     * java.nio.MappedByteBuffer.isLoaded()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.MappedByteBuffer#isLoaded() public final
+     * boolean java.nio.MappedByteBuffer.isLoaded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.nio.ByteBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MappedByteBuffer#force() public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.MappedByteBuffer#force() public final
      * java.nio.MappedByteBuffer java.nio.MappedByteBuffer.force()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.nio.ByteBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MappedByteBuffer#load() public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.MappedByteBuffer#load() public final
      * java.nio.MappedByteBuffer java.nio.MappedByteBuffer.load()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

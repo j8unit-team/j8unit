@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.MissingFormatArgumentExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MissingFormatArgumentException#MissingFormatArgumentException(String) public
+     * {@link java.util.MissingFormatArgumentException#MissingFormatArgumentException(String) public
      * java.util.MissingFormatArgumentException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

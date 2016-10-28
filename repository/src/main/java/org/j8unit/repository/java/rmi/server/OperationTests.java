@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Operation#getOperation() public java.lang.String
-     * java.rmi.server.Operation.getOperation()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.Operation#getOperation() public
+     * java.lang.String java.rmi.server.Operation.getOperation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Operation#toString() public java.lang.String
-     * java.rmi.server.Operation.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.Operation#toString() public
+     * java.lang.String java.rmi.server.Operation.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NamingContextPackage.AlreadyBound;
 import org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,7 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyB
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AlreadyBoundHolder#AlreadyBoundHolder() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder#AlreadyBoundHolder() public
      * org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AlreadyBoundHolder#AlreadyBoundHolder(AlreadyBound) public
+     * {@link org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder#AlreadyBoundHolder(org.omg.CosNaming.NamingContextPackage.AlreadyBound)
+     * public
      * org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder(org.omg.CosNaming.NamingContextPackage.AlreadyBound)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +62,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyB
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AlreadyBoundHolder sut = null; // = new AlreadyBoundHolder(AlreadyBound);
+        final AlreadyBoundHolder sut = null; // = new
+                                             // AlreadyBoundHolder(org.omg.CosNaming.NamingContextPackage.AlreadyBound);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder]

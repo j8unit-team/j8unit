@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.openmbean;
 
-import javax.management.openmbean.CompositeType;
 import javax.management.openmbean.TabularType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.management.openmbean.TabularTypeClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TabularType#TabularType(String, String, CompositeType, String[]) public
+     * {@link javax.management.openmbean.TabularType#TabularType(String, String, javax.management.openmbean.CompositeType, String[])
+     * public
      * javax.management.openmbean.TabularType(java.lang.String,java.lang.String,javax.management.openmbean.CompositeType,java.lang.String[])
      * throws javax.management.openmbean.OpenDataException}.
      *
@@ -41,7 +41,8 @@ implements org.j8unit.repository.javax.management.openmbean.TabularTypeClassTest
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TabularType sut = null; // = new TabularType(String, String, CompositeType, String[]);
+        final TabularType sut = null; // = new TabularType(String, String, javax.management.openmbean.CompositeType,
+                                      // String[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.TabularType]

@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Unreferenced#unreferenced() public abstract void
-     * java.rmi.server.Unreferenced.unreferenced()}.
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.Unreferenced#unreferenced() public
+     * abstract void java.rmi.server.Unreferenced.unreferenced()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

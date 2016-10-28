@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
-import java.sql.Blob;
 import javax.sql.rowset.serial.SerialBlob;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#getBinaryStream() public
-     * java.io.InputStream javax.sql.rowset.serial.SerialBlob.getBinaryStream() throws
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialBlob#getBinaryStream()
+     * public java.io.InputStream javax.sql.rowset.serial.SerialBlob.getBinaryStream() throws
      * javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +59,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#getBinaryStream(long, long) public
-     * java.io.InputStream javax.sql.rowset.serial.SerialBlob.getBinaryStream(long,long) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialBlob#getBinaryStream(long, long) public java.io.InputStream
+     * javax.sql.rowset.serial.SerialBlob.getBinaryStream(long,long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +83,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#setBytes(long, byte[], int, int) public
-     * int javax.sql.rowset.serial.SerialBlob.setBytes(long,byte[],int,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialBlob#setBytes(long, byte[], int, int) public int
+     * javax.sql.rowset.serial.SerialBlob.setBytes(long,byte[],int,int) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,7 +108,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#setBytes(long, byte[]) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialBlob#setBytes(long, byte[]) public int
      * javax.sql.rowset.serial.SerialBlob.setBytes(long,byte[]) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
@@ -131,7 +133,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#getBytes(long, int) public byte[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialBlob#getBytes(long, int) public byte[]
      * javax.sql.rowset.serial.SerialBlob.getBytes(long,int) throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +157,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#length() public long
-     * javax.sql.rowset.serial.SerialBlob.length() throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialBlob#length() public
+     * long javax.sql.rowset.serial.SerialBlob.length() throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +180,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#truncate(long) public void
-     * javax.sql.rowset.serial.SerialBlob.truncate(long) throws javax.sql.rowset.serial.SerialException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialBlob#truncate(long)
+     * public void javax.sql.rowset.serial.SerialBlob.truncate(long) throws javax.sql.rowset.serial.SerialException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +203,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#equals(Object) public boolean
-     * javax.sql.rowset.serial.SerialBlob.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialBlob#equals(Object)
+     * public boolean javax.sql.rowset.serial.SerialBlob.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,8 +226,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#hashCode() public int
-     * javax.sql.rowset.serial.SerialBlob.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialBlob#hashCode() public
+     * int javax.sql.rowset.serial.SerialBlob.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -246,8 +249,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#free() public void
-     * javax.sql.rowset.serial.SerialBlob.free() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialBlob#free() public
+     * void javax.sql.rowset.serial.SerialBlob.free() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,8 +272,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#clone() public java.lang.Object
-     * javax.sql.rowset.serial.SerialBlob.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SerialBlob#clone() public
+     * java.lang.Object javax.sql.rowset.serial.SerialBlob.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -291,7 +294,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#position(byte[], long) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialBlob#position(byte[], long) public long
      * javax.sql.rowset.serial.SerialBlob.position(byte[],long) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
@@ -315,7 +319,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#position(Blob, long) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialBlob#position(java.sql.Blob, long) public long
      * javax.sql.rowset.serial.SerialBlob.position(java.sql.Blob,long) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
@@ -339,8 +344,9 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SerialBlob#setBinaryStream(long) public
-     * java.io.OutputStream javax.sql.rowset.serial.SerialBlob.setBinaryStream(long) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialBlob#setBinaryStream(long) public java.io.OutputStream
+     * javax.sql.rowset.serial.SerialBlob.setBinaryStream(long) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

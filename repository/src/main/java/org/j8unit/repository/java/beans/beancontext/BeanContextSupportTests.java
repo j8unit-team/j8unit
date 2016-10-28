@@ -1,15 +1,8 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.PropertyChangeEvent;
 import java.beans.beancontext.BeanContext;
-import java.beans.beancontext.BeanContextChild;
 import java.beans.beancontext.BeanContextChildSupport;
-import java.beans.beancontext.BeanContextMembershipListener;
 import java.beans.beancontext.BeanContextSupport;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.util.Collection;
-import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -51,7 +44,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextSupport#getResource(String, BeanContextChild) public java.net.URL
+     * {@link java.beans.beancontext.BeanContextSupport#getResource(String, java.beans.beancontext.BeanContextChild)
+     * public java.net.URL
      * java.beans.beancontext.BeanContextSupport.getResource(java.lang.String,java.beans.beancontext.BeanContextChild)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -75,7 +69,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextSupport#removeBeanContextMembershipListener(BeanContextMembershipListener) public void
+     * {@link java.beans.beancontext.BeanContextSupport#removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
+     * public void
      * java.beans.beancontext.BeanContextSupport.removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
      * .
      *
@@ -99,8 +94,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#getBeanContextPeer() public
-     * java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextSupport.getBeanContextPeer()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#getBeanContextPeer() public java.beans.beancontext.BeanContext
+     * java.beans.beancontext.BeanContextSupport.getBeanContextPeer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -121,7 +117,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#avoidingGui() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#avoidingGui() public boolean
      * java.beans.beancontext.BeanContextSupport.avoidingGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,8 +141,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#setDesignTime(boolean) public
-     * synchronized void java.beans.beancontext.BeanContextSupport.setDesignTime(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#setDesignTime(boolean) public synchronized void
+     * java.beans.beancontext.BeanContextSupport.setDesignTime(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +165,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#remove(Object) public boolean
      * java.beans.beancontext.BeanContextSupport.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,8 +189,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#removeAll(Collection) public
-     * boolean java.beans.beancontext.BeanContextSupport.removeAll(java.util.Collection)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#removeAll(java.util.Collection) public boolean
+     * java.beans.beancontext.BeanContextSupport.removeAll(java.util.Collection)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +213,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#iterator() public
-     * java.util.Iterator java.beans.beancontext.BeanContextSupport.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.beancontext.BeanContextSupport#iterator()
+     * public java.util.Iterator java.beans.beancontext.BeanContextSupport.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,7 +236,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#isSerializing() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#isSerializing() public boolean
      * java.beans.beancontext.BeanContextSupport.isSerializing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +259,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#toArray(Object[]) public
-     * java.lang.Object[] java.beans.beancontext.BeanContextSupport.toArray(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#toArray(Object[]) public java.lang.Object[]
+     * java.beans.beancontext.BeanContextSupport.toArray(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +283,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#toArray() public
-     * java.lang.Object[] java.beans.beancontext.BeanContextSupport.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.beancontext.BeanContextSupport#toArray()
+     * public java.lang.Object[] java.beans.beancontext.BeanContextSupport.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,8 +306,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#dontUseGui() public synchronized
-     * void java.beans.beancontext.BeanContextSupport.dontUseGui()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#dontUseGui() public synchronized void
+     * java.beans.beancontext.BeanContextSupport.dontUseGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -328,7 +331,7 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextSupport#propertyChange(PropertyChangeEvent) public void
+     * {@link java.beans.beancontext.BeanContextSupport#propertyChange(java.beans.PropertyChangeEvent) public void
      * java.beans.beancontext.BeanContextSupport.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -351,8 +354,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#isDesignTime() public
-     * synchronized boolean java.beans.beancontext.BeanContextSupport.isDesignTime()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#isDesignTime() public synchronized boolean
+     * java.beans.beancontext.BeanContextSupport.isDesignTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -374,8 +378,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#readChildren(ObjectInputStream)
-     * public final void java.beans.beancontext.BeanContextSupport.readChildren(java.io.ObjectInputStream) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#readChildren(java.io.ObjectInputStream) public final void
+     * java.beans.beancontext.BeanContextSupport.readChildren(java.io.ObjectInputStream) throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -397,7 +402,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#add(Object) public boolean
      * java.beans.beancontext.BeanContextSupport.add(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -420,9 +426,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#writeChildren(ObjectOutputStream)
-     * public final void java.beans.beancontext.BeanContextSupport.writeChildren(java.io.ObjectOutputStream) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#writeChildren(java.io.ObjectOutputStream) public final void
+     * java.beans.beancontext.BeanContextSupport.writeChildren(java.io.ObjectOutputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -444,7 +450,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextSupport#addBeanContextMembershipListener(BeanContextMembershipListener) public void
+     * {@link java.beans.beancontext.BeanContextSupport#addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
+     * public void
      * java.beans.beancontext.BeanContextSupport.addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
      * .
      *
@@ -468,8 +475,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#containsAll(Collection) public
-     * boolean java.beans.beancontext.BeanContextSupport.containsAll(java.util.Collection)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#containsAll(java.util.Collection) public boolean
+     * java.beans.beancontext.BeanContextSupport.containsAll(java.util.Collection)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -492,7 +500,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextSupport#getResourceAsStream(String, BeanContextChild) public java.io.InputStream
+     * {@link java.beans.beancontext.BeanContextSupport#getResourceAsStream(String, java.beans.beancontext.BeanContextChild)
+     * public java.io.InputStream
      * java.beans.beancontext.BeanContextSupport.getResourceAsStream(java.lang.String,java.beans.beancontext.BeanContextChild)}
      * .
      *
@@ -516,8 +525,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#containsKey(Object) public
-     * boolean java.beans.beancontext.BeanContextSupport.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#containsKey(Object) public boolean
+     * java.beans.beancontext.BeanContextSupport.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -538,8 +548,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#isEmpty() public boolean
-     * java.beans.beancontext.BeanContextSupport.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.beancontext.BeanContextSupport#isEmpty()
+     * public boolean java.beans.beancontext.BeanContextSupport.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -561,8 +571,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#clear() public void
-     * java.beans.beancontext.BeanContextSupport.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.beancontext.BeanContextSupport#clear()
+     * public void java.beans.beancontext.BeanContextSupport.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -584,8 +594,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#okToUseGui() public synchronized
-     * void java.beans.beancontext.BeanContextSupport.okToUseGui()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#okToUseGui() public synchronized void
+     * java.beans.beancontext.BeanContextSupport.okToUseGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -607,7 +618,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#contains(Object) public boolean
      * java.beans.beancontext.BeanContextSupport.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -630,7 +642,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#addAll(Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#addAll(java.util.Collection) public boolean
      * java.beans.beancontext.BeanContextSupport.addAll(java.util.Collection)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -653,8 +666,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#size() public int
-     * java.beans.beancontext.BeanContextSupport.size()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.beancontext.BeanContextSupport#size()
+     * public int java.beans.beancontext.BeanContextSupport.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -676,8 +689,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#needsGui() public synchronized
-     * boolean java.beans.beancontext.BeanContextSupport.needsGui()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.beancontext.BeanContextSupport#needsGui()
+     * public synchronized boolean java.beans.beancontext.BeanContextSupport.needsGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -699,8 +712,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#instantiateChild(String) public
-     * java.lang.Object java.beans.beancontext.BeanContextSupport.instantiateChild(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#instantiateChild(String) public java.lang.Object
+     * java.beans.beancontext.BeanContextSupport.instantiateChild(java.lang.String) throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -723,8 +737,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#getLocale() public synchronized
-     * java.util.Locale java.beans.beancontext.BeanContextSupport.getLocale()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#getLocale() public synchronized java.util.Locale
+     * java.beans.beancontext.BeanContextSupport.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -746,7 +761,7 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link BeanContextSupport#vetoableChange(PropertyChangeEvent) public void
+     * {@link java.beans.beancontext.BeanContextSupport#vetoableChange(java.beans.PropertyChangeEvent) public void
      * java.beans.beancontext.BeanContextSupport.vetoableChange(java.beans.PropertyChangeEvent) throws
      * java.beans.PropertyVetoException}.
      *
@@ -770,8 +785,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#retainAll(Collection) public
-     * boolean java.beans.beancontext.BeanContextSupport.retainAll(java.util.Collection)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#retainAll(java.util.Collection) public boolean
+     * java.beans.beancontext.BeanContextSupport.retainAll(java.util.Collection)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -793,9 +809,9 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link BeanContextSupport#setLocale(Locale) public
-     * synchronized void java.beans.beancontext.BeanContextSupport.setLocale(java.util.Locale) throws
-     * java.beans.PropertyVetoException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#setLocale(java.util.Locale) public synchronized void
+     * java.beans.beancontext.BeanContextSupport.setLocale(java.util.Locale) throws java.beans.PropertyVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -820,8 +836,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Collection#equals(Object) interface java.util.Collection} (via parent node(s) {@link BeanContext
-     * BeanContext})</li>
+     * <li>{@link java.util.Collection#equals(Object) interface java.util.Collection} (via parent node(s)
+     * {@link BeanContext BeanContext})</li>
      * <li>{@link Object#equals(Object) class java.lang.Object} (via parent node(s) {@link BeanContextChildSupport
      * BeanContextChildSupport})</li>
      * </ul>
@@ -850,7 +866,7 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Collection#hashCode() interface java.util.Collection} (via parent node(s) {@link BeanContext
+     * <li>{@link java.util.Collection#hashCode() interface java.util.Collection} (via parent node(s) {@link BeanContext
      * BeanContext})</li>
      * <li>{@link Object#hashCode() class java.lang.Object} (via parent node(s) {@link BeanContextChildSupport
      * BeanContextChildSupport})</li>

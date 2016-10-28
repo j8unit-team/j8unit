@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.concurrent.atomic;
 
 import java.util.concurrent.atomic.AtomicLongArray;
-import java.util.function.LongBinaryOperator;
-import java.util.function.LongUnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicLongArray#accumulateAndGet(int, long, LongBinaryOperator) public final long
+     * {@link java.util.concurrent.atomic.AtomicLongArray#accumulateAndGet(int, long, java.util.function.LongBinaryOperator)
+     * public final long
      * java.util.concurrent.atomic.AtomicLongArray.accumulateAndGet(int,long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicLongArray#getAndAccumulate(int, long, LongBinaryOperator) public final long
+     * {@link java.util.concurrent.atomic.AtomicLongArray#getAndAccumulate(int, long, java.util.function.LongBinaryOperator)
+     * public final long
      * java.util.concurrent.atomic.AtomicLongArray.getAndAccumulate(int,long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#getAndDecrement(int) public final
-     * long java.util.concurrent.atomic.AtomicLongArray.getAndDecrement(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#getAndDecrement(int) public final long
+     * java.util.concurrent.atomic.AtomicLongArray.getAndDecrement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,9 +105,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#getAndUpdate(int, LongUnaryOperator)
-     * public final long
-     * java.util.concurrent.atomic.AtomicLongArray.getAndUpdate(int,java.util.function.LongUnaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#getAndUpdate(int, java.util.function.LongUnaryOperator) public
+     * final long java.util.concurrent.atomic.AtomicLongArray.getAndUpdate(int,java.util.function.LongUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +128,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#getAndSet(int, long) public final
-     * long java.util.concurrent.atomic.AtomicLongArray.getAndSet(int,long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#getAndSet(int, long) public final long
+     * java.util.concurrent.atomic.AtomicLongArray.getAndSet(int,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,7 +151,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#addAndGet(int, long) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#addAndGet(int, long) public long
      * java.util.concurrent.atomic.AtomicLongArray.addAndGet(int,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +174,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#toString() public java.lang.String
      * java.util.concurrent.atomic.AtomicLongArray.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,8 +198,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#getAndAdd(int, long) public final
-     * long java.util.concurrent.atomic.AtomicLongArray.getAndAdd(int,long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#getAndAdd(int, long) public final long
+     * java.util.concurrent.atomic.AtomicLongArray.getAndAdd(int,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,7 +221,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#lazySet(int, long) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#lazySet(int, long) public final void
      * java.util.concurrent.atomic.AtomicLongArray.lazySet(int,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,8 +244,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#get(int) public final long
-     * java.util.concurrent.atomic.AtomicLongArray.get(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLongArray#get(int)
+     * public final long java.util.concurrent.atomic.AtomicLongArray.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,8 +266,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#compareAndSet(int, long, long)
-     * public final boolean java.util.concurrent.atomic.AtomicLongArray.compareAndSet(int,long,long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#compareAndSet(int, long, long) public final boolean
+     * java.util.concurrent.atomic.AtomicLongArray.compareAndSet(int,long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -282,8 +289,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#decrementAndGet(int) public final
-     * long java.util.concurrent.atomic.AtomicLongArray.decrementAndGet(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#decrementAndGet(int) public final long
+     * java.util.concurrent.atomic.AtomicLongArray.decrementAndGet(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,9 +312,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#updateAndGet(int, LongUnaryOperator)
-     * public final long
-     * java.util.concurrent.atomic.AtomicLongArray.updateAndGet(int,java.util.function.LongUnaryOperator)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#updateAndGet(int, java.util.function.LongUnaryOperator) public
+     * final long java.util.concurrent.atomic.AtomicLongArray.updateAndGet(int,java.util.function.LongUnaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,8 +335,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#length() public final int
-     * java.util.concurrent.atomic.AtomicLongArray.length()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.atomic.AtomicLongArray#length()
+     * public final int java.util.concurrent.atomic.AtomicLongArray.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -349,8 +357,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#weakCompareAndSet(int, long, long)
-     * public final boolean java.util.concurrent.atomic.AtomicLongArray.weakCompareAndSet(int,long,long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#weakCompareAndSet(int, long, long) public final boolean
+     * java.util.concurrent.atomic.AtomicLongArray.weakCompareAndSet(int,long,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,8 +380,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#incrementAndGet(int) public final
-     * long java.util.concurrent.atomic.AtomicLongArray.incrementAndGet(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#incrementAndGet(int) public final long
+     * java.util.concurrent.atomic.AtomicLongArray.incrementAndGet(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -393,7 +403,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#set(int, long) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#set(int, long) public final void
      * java.util.concurrent.atomic.AtomicLongArray.set(int,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -415,8 +426,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongArray#getAndIncrement(int) public final
-     * long java.util.concurrent.atomic.AtomicLongArray.getAndIncrement(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongArray#getAndIncrement(int) public final long
+     * java.util.concurrent.atomic.AtomicLongArray.getAndIncrement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

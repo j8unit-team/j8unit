@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Insets;
 import javax.swing.border.AbstractBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,8 +35,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractBorder#getBorderInsets(Component, Insets)
-     * public java.awt.Insets javax.swing.border.AbstractBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.AbstractBorder#getBorderInsets(java.awt.Component, java.awt.Insets) public
+     * java.awt.Insets javax.swing.border.AbstractBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractBorder#getBorderInsets(Component) public
-     * java.awt.Insets javax.swing.border.AbstractBorder.getBorderInsets(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.AbstractBorder#getBorderInsets(java.awt.Component) public java.awt.Insets
+     * javax.swing.border.AbstractBorder.getBorderInsets(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +82,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractBorder#getBaselineResizeBehavior(Component)
-     * public java.awt.Component$BaselineResizeBehavior
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.AbstractBorder#getBaselineResizeBehavior(java.awt.Component) public
+     * java.awt.Component$BaselineResizeBehavior
      * javax.swing.border.AbstractBorder.getBaselineResizeBehavior(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +107,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractBorder#paintBorder(Component, Graphics, int, int, int, int) public void
-     * javax.swing.border.AbstractBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * {@link javax.swing.border.AbstractBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+     * public void javax.swing.border.AbstractBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +130,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractBorder#getBaseline(Component, int, int)
-     * public int javax.swing.border.AbstractBorder.getBaseline(java.awt.Component,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.AbstractBorder#getBaseline(java.awt.Component, int, int) public int
+     * javax.swing.border.AbstractBorder.getBaseline(java.awt.Component,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +154,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractBorder#getInteriorRectangle(Component, int, int, int, int) public java.awt.Rectangle
-     * javax.swing.border.AbstractBorder.getInteriorRectangle(java.awt.Component,int,int,int,int)}.
+     * {@link javax.swing.border.AbstractBorder#getInteriorRectangle(java.awt.Component, int, int, int, int) public
+     * java.awt.Rectangle javax.swing.border.AbstractBorder.getInteriorRectangle(java.awt.Component,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,8 +176,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractBorder#isBorderOpaque() public boolean
-     * javax.swing.border.AbstractBorder.isBorderOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.AbstractBorder#isBorderOpaque()
+     * public boolean javax.swing.border.AbstractBorder.isBorderOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.image.renderable;
 
 import java.awt.image.renderable.ContextualRenderedImageFactory;
-import java.awt.image.renderable.ParameterBlock;
-import java.awt.image.renderable.RenderContext;
-import java.awt.image.renderable.RenderableImage;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +35,9 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContextualRenderedImageFactory#isDynamic() public
-     * abstract boolean java.awt.image.renderable.ContextualRenderedImageFactory.isDynamic()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#isDynamic() public abstract boolean
+     * java.awt.image.renderable.ContextualRenderedImageFactory.isDynamic()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +59,8 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContextualRenderedImageFactory#getProperty(ParameterBlock, String) public abstract java.lang.Object
+     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#getProperty(java.awt.image.renderable.ParameterBlock, String)
+     * public abstract java.lang.Object
      * java.awt.image.renderable.ContextualRenderedImageFactory.getProperty(java.awt.image.renderable.ParameterBlock,java.lang.String)}
      * .
      *
@@ -85,7 +84,7 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContextualRenderedImageFactory#mapRenderContext(int, RenderContext, ParameterBlock, RenderableImage)
+     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#mapRenderContext(int, java.awt.image.renderable.RenderContext, java.awt.image.renderable.ParameterBlock, java.awt.image.renderable.RenderableImage)
      * public abstract java.awt.image.renderable.RenderContext
      * java.awt.image.renderable.ContextualRenderedImageFactory.mapRenderContext(int,java.awt.image.renderable.RenderContext,java.awt.image.renderable.ParameterBlock,java.awt.image.renderable.RenderableImage)}
      * .
@@ -110,8 +109,8 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContextualRenderedImageFactory#create(RenderContext, ParameterBlock) public abstract
-     * java.awt.image.RenderedImage
+     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#create(java.awt.image.renderable.RenderContext, java.awt.image.renderable.ParameterBlock)
+     * public abstract java.awt.image.RenderedImage
      * java.awt.image.renderable.ContextualRenderedImageFactory.create(java.awt.image.renderable.RenderContext,java.awt.image.renderable.ParameterBlock)}
      * .
      *
@@ -134,8 +133,9 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContextualRenderedImageFactory#getPropertyNames()
-     * public abstract java.lang.String[] java.awt.image.renderable.ContextualRenderedImageFactory.getPropertyNames()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#getPropertyNames() public abstract
+     * java.lang.String[] java.awt.image.renderable.ContextualRenderedImageFactory.getPropertyNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,7 +157,8 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ContextualRenderedImageFactory#getBounds2D(ParameterBlock) public abstract java.awt.geom.Rectangle2D
+     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#getBounds2D(java.awt.image.renderable.ParameterBlock)
+     * public abstract java.awt.geom.Rectangle2D
      * java.awt.image.renderable.ContextualRenderedImageFactory.getBounds2D(java.awt.image.renderable.ParameterBlock)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

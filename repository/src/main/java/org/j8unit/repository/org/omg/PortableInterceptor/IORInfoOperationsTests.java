@@ -6,9 +6,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.IOP.TaggedComponent;
 import org.omg.PortableInterceptor.IORInfoOperations;
-import org.omg.PortableInterceptor.ObjectReferenceFactory;
 
 /**
  * <p>
@@ -37,9 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORInfoOperations#add_ior_component(TaggedComponent)
-     * public abstract void
-     * org.omg.PortableInterceptor.IORInfoOperations.add_ior_component(org.omg.IOP.TaggedComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#add_ior_component(org.omg.IOP.TaggedComponent) public
+     * abstract void org.omg.PortableInterceptor.IORInfoOperations.add_ior_component(org.omg.IOP.TaggedComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORInfoOperations#state() public abstract short
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#state() public abstract short
      * org.omg.PortableInterceptor.IORInfoOperations.state()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORInfoOperations#adapter_template() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#adapter_template() public abstract
      * org.omg.PortableInterceptor.ObjectReferenceTemplate
      * org.omg.PortableInterceptor.IORInfoOperations.adapter_template()}.
      *
@@ -105,7 +105,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORInfoOperations#manager_id() public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#manager_id() public abstract int
      * org.omg.PortableInterceptor.IORInfoOperations.manager_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,7 +129,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IORInfoOperations#add_ior_component_to_profile(TaggedComponent, int) public abstract void
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#add_ior_component_to_profile(org.omg.IOP.TaggedComponent, int)
+     * public abstract void
      * org.omg.PortableInterceptor.IORInfoOperations.add_ior_component_to_profile(org.omg.IOP.TaggedComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +152,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORInfoOperations#get_effective_policy(int) public
-     * abstract org.omg.CORBA.Policy org.omg.PortableInterceptor.IORInfoOperations.get_effective_policy(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#get_effective_policy(int) public abstract
+     * org.omg.CORBA.Policy org.omg.PortableInterceptor.IORInfoOperations.get_effective_policy(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,7 +176,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IORInfoOperations#current_factory(ObjectReferenceFactory) public abstract void
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#current_factory(org.omg.PortableInterceptor.ObjectReferenceFactory)
+     * public abstract void
      * org.omg.PortableInterceptor.IORInfoOperations.current_factory(org.omg.PortableInterceptor.ObjectReferenceFactory)}
      * .
      *
@@ -196,7 +200,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IORInfoOperations#current_factory() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#current_factory() public abstract
      * org.omg.PortableInterceptor.ObjectReferenceFactory
      * org.omg.PortableInterceptor.IORInfoOperations.current_factory()}.
      *

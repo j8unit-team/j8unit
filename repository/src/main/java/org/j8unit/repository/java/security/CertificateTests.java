@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.security;
 
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.security.Certificate;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#decode(InputStream) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Certificate#decode(java.io.InputStream) public abstract void
      * java.security.Certificate.decode(java.io.InputStream) throws java.security.KeyException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,30 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#getFormat() public abstract
-     * java.lang.String java.security.Certificate.getFormat()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#getGuarantor() public abstract
-     * java.security.Principal java.security.Certificate.getGuarantor()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Certificate#getGuarantor() public
+     * abstract java.security.Principal java.security.Certificate.getGuarantor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +80,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#toString(boolean) public abstract
-     * java.lang.String java.security.Certificate.toString(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Certificate#getFormat() public
+     * abstract java.lang.String java.security.Certificate.getFormat()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.Certificate#toString(boolean) public
+     * abstract java.lang.String java.security.Certificate.toString(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#getPublicKey() public abstract
-     * java.security.PublicKey java.security.Certificate.getPublicKey()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Certificate#getPublicKey() public
+     * abstract java.security.PublicKey java.security.Certificate.getPublicKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,9 +146,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#encode(OutputStream) public abstract
-     * void java.security.Certificate.encode(java.io.OutputStream) throws
-     * java.security.KeyException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Certificate#encode(java.io.OutputStream) public abstract void
+     * java.security.Certificate.encode(java.io.OutputStream) throws java.security.KeyException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -170,8 +169,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#getPrincipal() public abstract
-     * java.security.Principal java.security.Certificate.getPrincipal()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.Certificate#getPrincipal() public
+     * abstract java.security.Principal java.security.Certificate.getPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

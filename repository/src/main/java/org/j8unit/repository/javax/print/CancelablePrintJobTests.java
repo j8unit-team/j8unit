@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.print.DocPrintJobTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CancelablePrintJob#cancel() public abstract void
-     * javax.print.CancelablePrintJob.cancel() throws javax.print.PrintException}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.CancelablePrintJob#cancel() public
+     * abstract void javax.print.CancelablePrintJob.cancel() throws javax.print.PrintException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

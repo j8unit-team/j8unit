@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.net.SocketAddress;
-import java.net.SocketOption;
-import java.nio.ByteBuffer;
 import java.nio.channels.AsynchronousSocketChannel;
-import java.nio.channels.CompletionHandler;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -41,7 +36,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousSocketChannel#connect(SocketAddress, Object, CompletionHandler) public abstract <A> void
+     * {@link java.nio.channels.AsynchronousSocketChannel#connect(java.net.SocketAddress, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousSocketChannel.connect(java.net.SocketAddress,A,java.nio.channels.CompletionHandler<java.lang.Void,
      * ? super A>)}.
      *
@@ -64,8 +60,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#connect(SocketAddress)
-     * public abstract java.util.concurrent.Future
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#connect(java.net.SocketAddress) public abstract
+     * java.util.concurrent.Future
      * <java.lang.Void> java.nio.channels.AsynchronousSocketChannel.connect(java.net.SocketAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +85,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousSocketChannel#write(ByteBuffer[], int, int, long, TimeUnit, Object, CompletionHandler) public
-     * abstract <A> void
+     * {@link java.nio.channels.AsynchronousSocketChannel#write(java.nio.ByteBuffer[], int, int, long, java.util.concurrent.TimeUnit, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousSocketChannel.write(java.nio.ByteBuffer[],int,int,long,java.util.concurrent.TimeUnit,A,java.nio.channels.CompletionHandler<java.lang.Long,
      * ? super A>)}.
      *
@@ -112,8 +109,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#write(ByteBuffer) public
-     * abstract java.util.concurrent.Future
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#write(java.nio.ByteBuffer) public abstract
+     * java.util.concurrent.Future
      * <java.lang.Integer> java.nio.channels.AsynchronousSocketChannel.write(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -137,8 +135,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousSocketChannel#write(ByteBuffer, long, TimeUnit, Object, CompletionHandler) public abstract
-     * <A> void
+     * {@link java.nio.channels.AsynchronousSocketChannel#write(java.nio.ByteBuffer, long, java.util.concurrent.TimeUnit, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousSocketChannel.write(java.nio.ByteBuffer,long,java.util.concurrent.TimeUnit,A,java.nio.channels.CompletionHandler<java.lang.Integer,
      * ? super A>)}.
      *
@@ -162,7 +160,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousSocketChannel#write(ByteBuffer, Object, CompletionHandler) public final <A> void
+     * {@link java.nio.channels.AsynchronousSocketChannel#write(java.nio.ByteBuffer, Object, java.nio.channels.CompletionHandler)
+     * public final <A> void
      * java.nio.channels.AsynchronousSocketChannel.write(java.nio.ByteBuffer,A,java.nio.channels.CompletionHandler<java.lang.Integer,
      * ? super A>)}.
      *
@@ -186,7 +185,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#provider() public final
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#provider() public final
      * java.nio.channels.spi.AsynchronousChannelProvider java.nio.channels.AsynchronousSocketChannel.provider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -208,8 +208,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#bind(SocketAddress) public
-     * abstract java.nio.channels.AsynchronousSocketChannel
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#bind(java.net.SocketAddress) public abstract
+     * java.nio.channels.AsynchronousSocketChannel
      * java.nio.channels.AsynchronousSocketChannel.bind(java.net.SocketAddress) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -232,9 +233,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#shutdownInput() public
-     * abstract java.nio.channels.AsynchronousSocketChannel java.nio.channels.AsynchronousSocketChannel.shutdownInput()
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#shutdownInput() public abstract
+     * java.nio.channels.AsynchronousSocketChannel java.nio.channels.AsynchronousSocketChannel.shutdownInput() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,9 +257,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#getLocalAddress() public
-     * abstract java.net.SocketAddress java.nio.channels.AsynchronousSocketChannel.getLocalAddress() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#getLocalAddress() public abstract java.net.SocketAddress
+     * java.nio.channels.AsynchronousSocketChannel.getLocalAddress() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,9 +281,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#shutdownOutput() public
-     * abstract java.nio.channels.AsynchronousSocketChannel java.nio.channels.AsynchronousSocketChannel.shutdownOutput()
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#shutdownOutput() public abstract
+     * java.nio.channels.AsynchronousSocketChannel java.nio.channels.AsynchronousSocketChannel.shutdownOutput() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,9 +305,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#getRemoteAddress() public
-     * abstract java.net.SocketAddress java.nio.channels.AsynchronousSocketChannel.getRemoteAddress() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#getRemoteAddress() public abstract java.net.SocketAddress
+     * java.nio.channels.AsynchronousSocketChannel.getRemoteAddress() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,8 +329,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousSocketChannel#read(ByteBuffer[], int, int, long, TimeUnit, Object, CompletionHandler) public
-     * abstract <A> void
+     * {@link java.nio.channels.AsynchronousSocketChannel#read(java.nio.ByteBuffer[], int, int, long, java.util.concurrent.TimeUnit, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousSocketChannel.read(java.nio.ByteBuffer[],int,int,long,java.util.concurrent.TimeUnit,A,java.nio.channels.CompletionHandler<java.lang.Long,
      * ? super A>)}.
      *
@@ -350,8 +353,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsynchronousSocketChannel#read(ByteBuffer) public
-     * abstract java.util.concurrent.Future
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#read(java.nio.ByteBuffer) public abstract
+     * java.util.concurrent.Future
      * <java.lang.Integer> java.nio.channels.AsynchronousSocketChannel.read(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -375,7 +379,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousSocketChannel#read(ByteBuffer, Object, CompletionHandler) public final <A> void
+     * {@link java.nio.channels.AsynchronousSocketChannel#read(java.nio.ByteBuffer, Object, java.nio.channels.CompletionHandler)
+     * public final <A> void
      * java.nio.channels.AsynchronousSocketChannel.read(java.nio.ByteBuffer,A,java.nio.channels.CompletionHandler<java.lang.Integer,
      * ? super A>)}.
      *
@@ -400,8 +405,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousSocketChannel#read(ByteBuffer, long, TimeUnit, Object, CompletionHandler) public abstract
-     * <A> void
+     * {@link java.nio.channels.AsynchronousSocketChannel#read(java.nio.ByteBuffer, long, java.util.concurrent.TimeUnit, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
      * java.nio.channels.AsynchronousSocketChannel.read(java.nio.ByteBuffer,long,java.util.concurrent.TimeUnit,A,java.nio.channels.CompletionHandler<java.lang.Integer,
      * ? super A>)}.
      *
@@ -425,7 +430,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsynchronousSocketChannel#setOption(SocketOption, Object) public abstract
+     * {@link java.nio.channels.AsynchronousSocketChannel#setOption(java.net.SocketOption, Object) public abstract
      * <T> java.nio.channels.AsynchronousSocketChannel
      * java.nio.channels.AsynchronousSocketChannel.setOption(java.net.SocketOption<T>,T) throws java.io.IOException}.
      *

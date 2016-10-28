@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.TypeCode;
 import org.omg.CORBA.TypeCodeHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.TypeCodeHolderClassTests<TypeCode
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TypeCodeHolder#TypeCodeHolder() public
-     * org.omg.CORBA.TypeCodeHolder()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.TypeCodeHolder#TypeCodeHolder()
+     * public org.omg.CORBA.TypeCodeHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.TypeCodeHolderClassTests<TypeCode
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link TypeCodeHolder#TypeCodeHolder(TypeCode) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.TypeCodeHolder#TypeCodeHolder(org.omg.CORBA.TypeCode) public
      * org.omg.CORBA.TypeCodeHolder(org.omg.CORBA.TypeCode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.omg.CORBA.TypeCodeHolderClassTests<TypeCode
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TypeCodeHolder sut = null; // = new TypeCodeHolder(TypeCode);
+        final TypeCodeHolder sut = null; // = new TypeCodeHolder(org.omg.CORBA.TypeCode);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TypeCodeHolder]

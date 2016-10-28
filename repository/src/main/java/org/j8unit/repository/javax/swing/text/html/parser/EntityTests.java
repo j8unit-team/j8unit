@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getString() public java.lang.String
-     * javax.swing.text.html.parser.Entity.getString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Entity#getString()
+     * public java.lang.String javax.swing.text.html.parser.Entity.getString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getData() public char[]
-     * javax.swing.text.html.parser.Entity.getData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Entity#getData() public
+     * char[] javax.swing.text.html.parser.Entity.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getName() public java.lang.String
-     * javax.swing.text.html.parser.Entity.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Entity#getName() public
+     * java.lang.String javax.swing.text.html.parser.Entity.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#isParameter() public boolean
-     * javax.swing.text.html.parser.Entity.isParameter()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Entity#isParameter()
+     * public boolean javax.swing.text.html.parser.Entity.isParameter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#isGeneral() public boolean
-     * javax.swing.text.html.parser.Entity.isGeneral()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Entity#isGeneral()
+     * public boolean javax.swing.text.html.parser.Entity.isGeneral()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Entity#getType() public int
-     * javax.swing.text.html.parser.Entity.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Entity#getType() public
+     * int javax.swing.text.html.parser.Entity.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

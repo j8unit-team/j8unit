@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParagraphElement#getAlign() public abstract
-     * java.lang.String org.w3c.dom.html.HTMLParagraphElement.getAlign()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLParagraphElement#getAlign()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLParagraphElement.getAlign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,9 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HTMLParagraphElement#setAlign(String) public
-     * abstract void org.w3c.dom.html.HTMLParagraphElement.setAlign(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLParagraphElement#setAlign(String) public abstract void
+     * org.w3c.dom.html.HTMLParagraphElement.setAlign(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

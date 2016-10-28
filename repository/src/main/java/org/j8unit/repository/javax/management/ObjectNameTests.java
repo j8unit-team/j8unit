@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.MBeanServer;
 import javax.management.ObjectName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#compareTo(ObjectName) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#compareTo(javax.management.ObjectName) public int
      * javax.management.ObjectName.compareTo(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getCanonicalKeyPropertyListString()
-     * public java.lang.String javax.management.ObjectName.getCanonicalKeyPropertyListString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#getCanonicalKeyPropertyListString() public java.lang.String
+     * javax.management.ObjectName.getCanonicalKeyPropertyListString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getCanonicalName() public
-     * java.lang.String javax.management.ObjectName.getCanonicalName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#getCanonicalName()
+     * public java.lang.String javax.management.ObjectName.getCanonicalName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#setMBeanServer(MBeanServer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#setMBeanServer(javax.management.MBeanServer) public void
      * javax.management.ObjectName.setMBeanServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +127,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#isDomainPattern() public boolean
-     * javax.management.ObjectName.isDomainPattern()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#isDomainPattern() public
+     * boolean javax.management.ObjectName.isDomainPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +149,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#isPattern() public boolean
-     * javax.management.ObjectName.isPattern()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#isPattern() public
+     * boolean javax.management.ObjectName.isPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +171,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#apply(ObjectName) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#apply(javax.management.ObjectName) public boolean
      * javax.management.ObjectName.apply(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +195,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getKeyPropertyList() public
-     * java.util.Hashtable<java.lang.String, java.lang.String> javax.management.ObjectName.getKeyPropertyList()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#getKeyPropertyList()
+     * public java.util.Hashtable<java.lang.String, java.lang.String> javax.management.ObjectName.getKeyPropertyList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +217,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#toString() public java.lang.String
-     * javax.management.ObjectName.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#toString() public
+     * java.lang.String javax.management.ObjectName.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +240,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getKeyProperty(String) public
-     * java.lang.String javax.management.ObjectName.getKeyProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#getKeyProperty(String)
+     * public java.lang.String javax.management.ObjectName.getKeyProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +262,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#isPropertyValuePattern(String) public
-     * boolean javax.management.ObjectName.isPropertyValuePattern(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#isPropertyValuePattern(String) public boolean
+     * javax.management.ObjectName.isPropertyValuePattern(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,8 +285,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#isPropertyValuePattern() public boolean
-     * javax.management.ObjectName.isPropertyValuePattern()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#isPropertyValuePattern()
+     * public boolean javax.management.ObjectName.isPropertyValuePattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,8 +307,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#isPropertyPattern() public boolean
-     * javax.management.ObjectName.isPropertyPattern()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#isPropertyPattern()
+     * public boolean javax.management.ObjectName.isPropertyPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,8 +329,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getDomain() public java.lang.String
-     * javax.management.ObjectName.getDomain()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#getDomain() public
+     * java.lang.String javax.management.ObjectName.getDomain()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -347,8 +351,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#isPropertyListPattern() public boolean
-     * javax.management.ObjectName.isPropertyListPattern()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#isPropertyListPattern()
+     * public boolean javax.management.ObjectName.isPropertyListPattern()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,8 +373,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#equals(Object) public boolean
-     * javax.management.ObjectName.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#equals(Object) public
+     * boolean javax.management.ObjectName.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -392,7 +396,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#hashCode() public int
      * javax.management.ObjectName.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -415,8 +419,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getKeyPropertyListString() public
-     * java.lang.String javax.management.ObjectName.getKeyPropertyListString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#getKeyPropertyListString() public java.lang.String
+     * javax.management.ObjectName.getKeyPropertyListString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

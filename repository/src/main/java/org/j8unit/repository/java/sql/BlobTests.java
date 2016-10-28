@@ -35,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#free() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#free() public abstract void
      * java.sql.Blob.free() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#getBytes(long, int) public abstract byte[]
-     * java.sql.Blob.getBytes(long,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#getBytes(long, int) public abstract
+     * byte[] java.sql.Blob.getBytes(long,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#length() public abstract long
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#length() public abstract long
      * java.sql.Blob.length() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,7 +101,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#setBinaryStream(long) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#setBinaryStream(long) public abstract
      * java.io.OutputStream java.sql.Blob.setBinaryStream(long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#position(Blob, long) public abstract long
-     * java.sql.Blob.position(java.sql.Blob,long) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#position(java.sql.Blob, long) public
+     * abstract long java.sql.Blob.position(java.sql.Blob,long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#position(byte[], long) public abstract long
-     * java.sql.Blob.position(byte[],long) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#position(byte[], long) public abstract
+     * long java.sql.Blob.position(byte[],long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +167,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#truncate(long) public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#truncate(long) public abstract void
      * java.sql.Blob.truncate(long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,8 +189,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#getBinaryStream(long, long) public abstract
-     * java.io.InputStream java.sql.Blob.getBinaryStream(long,long) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#getBinaryStream(long, long) public
+     * abstract java.io.InputStream java.sql.Blob.getBinaryStream(long,long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +211,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#getBinaryStream() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#getBinaryStream() public abstract
      * java.io.InputStream java.sql.Blob.getBinaryStream() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,8 +233,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#setBytes(long, byte[], int, int) public
-     * abstract int java.sql.Blob.setBytes(long,byte[],int,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#setBytes(long, byte[], int, int)
+     * public abstract int java.sql.Blob.setBytes(long,byte[],int,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,8 +255,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Blob#setBytes(long, byte[]) public abstract int
-     * java.sql.Blob.setBytes(long,byte[]) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Blob#setBytes(long, byte[]) public abstract
+     * int java.sql.Blob.setBytes(long,byte[]) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

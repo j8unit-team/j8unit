@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertStoreParameters#clone() public abstract
-     * java.lang.Object java.security.cert.CertStoreParameters.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertStoreParameters#clone()
+     * public abstract java.lang.Object java.security.cert.CertStoreParameters.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

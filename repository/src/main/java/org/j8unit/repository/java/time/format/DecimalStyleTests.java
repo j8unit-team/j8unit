@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#toString() public java.lang.String
-     * java.time.format.DecimalStyle.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#toString() public
+     * java.lang.String java.time.format.DecimalStyle.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#withNegativeSign(char) public
-     * java.time.format.DecimalStyle java.time.format.DecimalStyle.withNegativeSign(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#withNegativeSign(char)
+     * public java.time.format.DecimalStyle java.time.format.DecimalStyle.withNegativeSign(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#getNegativeSign() public char
-     * java.time.format.DecimalStyle.getNegativeSign()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#getNegativeSign()
+     * public char java.time.format.DecimalStyle.getNegativeSign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#getZeroDigit() public char
-     * java.time.format.DecimalStyle.getZeroDigit()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#getZeroDigit() public
+     * char java.time.format.DecimalStyle.getZeroDigit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#withZeroDigit(char) public
-     * java.time.format.DecimalStyle java.time.format.DecimalStyle.withZeroDigit(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#withZeroDigit(char)
+     * public java.time.format.DecimalStyle java.time.format.DecimalStyle.withZeroDigit(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#withPositiveSign(char) public
-     * java.time.format.DecimalStyle java.time.format.DecimalStyle.withPositiveSign(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#withPositiveSign(char)
+     * public java.time.format.DecimalStyle java.time.format.DecimalStyle.withPositiveSign(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#getPositiveSign() public char
-     * java.time.format.DecimalStyle.getPositiveSign()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#getPositiveSign()
+     * public char java.time.format.DecimalStyle.getPositiveSign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#getDecimalSeparator() public char
-     * java.time.format.DecimalStyle.getDecimalSeparator()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#getDecimalSeparator()
+     * public char java.time.format.DecimalStyle.getDecimalSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#withDecimalSeparator(char) public
-     * java.time.format.DecimalStyle java.time.format.DecimalStyle.withDecimalSeparator(char)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DecimalStyle#withDecimalSeparator(char) public java.time.format.DecimalStyle
+     * java.time.format.DecimalStyle.withDecimalSeparator(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,8 +234,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#equals(Object) public boolean
-     * java.time.format.DecimalStyle.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#equals(Object) public
+     * boolean java.time.format.DecimalStyle.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -256,7 +257,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DecimalStyle#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DecimalStyle#hashCode() public int
      * java.time.format.DecimalStyle.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

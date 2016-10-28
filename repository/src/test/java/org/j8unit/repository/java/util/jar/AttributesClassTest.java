@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.util.jar.AttributesClassTests<Attributes> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Attributes#Attributes(Attributes) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.jar.Attributes#Attributes(java.util.jar.Attributes) public
      * java.util.jar.Attributes(java.util.jar.Attributes)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,12 +40,12 @@ implements org.j8unit.repository.java.util.jar.AttributesClassTests<Attributes> 
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Attributes sut = null; // = new Attributes(Attributes);
+        final Attributes sut = null; // = new Attributes(java.util.jar.Attributes);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Attributes#Attributes(int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.jar.Attributes#Attributes(int) public
      * java.util.jar.Attributes(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,7 +67,7 @@ implements org.j8unit.repository.java.util.jar.AttributesClassTests<Attributes> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Attributes#Attributes() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.jar.Attributes#Attributes() public
      * java.util.jar.Attributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +101,8 @@ implements org.j8unit.repository.java.util.jar.AttributesClassTests<Attributes> 
 
         /**
          * <p>
-         * Test method for the hereby targeted constructor-under-test {@link Name#Name(String) public
-         * java.util.jar.Attributes$Name(java.lang.String)}.
+         * Test method for the hereby targeted constructor-under-test {@link java.util.jar.Attributes.Name#Name(String)
+         * public java.util.jar.Attributes$Name(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

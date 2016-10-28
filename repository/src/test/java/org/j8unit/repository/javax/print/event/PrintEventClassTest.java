@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.print.event.PrintEventClassTests<PrintEve
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PrintEvent#PrintEvent(Object) public
-     * javax.print.event.PrintEvent(java.lang.Object)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.print.event.PrintEvent#PrintEvent(Object)
+     * public javax.print.event.PrintEvent(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

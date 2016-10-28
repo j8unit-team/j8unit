@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncProvider#getVersion() public abstract
-     * java.lang.String javax.sql.rowset.spi.SyncProvider.getVersion()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.spi.SyncProvider#getVersion()
+     * public abstract java.lang.String javax.sql.rowset.spi.SyncProvider.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncProvider#getRowSetWriter() public abstract
-     * javax.sql.RowSetWriter javax.sql.rowset.spi.SyncProvider.getRowSetWriter()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.spi.SyncProvider#getRowSetWriter()
+     * public abstract javax.sql.RowSetWriter javax.sql.rowset.spi.SyncProvider.getRowSetWriter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncProvider#getDataSourceLock() public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.spi.SyncProvider#getDataSourceLock() public abstract int
      * javax.sql.rowset.spi.SyncProvider.getDataSourceLock() throws javax.sql.rowset.spi.SyncProviderException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +101,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncProvider#supportsUpdatableView() public abstract
-     * int javax.sql.rowset.spi.SyncProvider.supportsUpdatableView()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.spi.SyncProvider#supportsUpdatableView() public abstract int
+     * javax.sql.rowset.spi.SyncProvider.supportsUpdatableView()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncProvider#getProviderGrade() public abstract int
-     * javax.sql.rowset.spi.SyncProvider.getProviderGrade()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.spi.SyncProvider#getProviderGrade()
+     * public abstract int javax.sql.rowset.spi.SyncProvider.getProviderGrade()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncProvider#getProviderID() public abstract
-     * java.lang.String javax.sql.rowset.spi.SyncProvider.getProviderID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.spi.SyncProvider#getProviderID()
+     * public abstract java.lang.String javax.sql.rowset.spi.SyncProvider.getProviderID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +168,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncProvider#getVendor() public abstract
-     * java.lang.String javax.sql.rowset.spi.SyncProvider.getVendor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.spi.SyncProvider#getVendor() public
+     * abstract java.lang.String javax.sql.rowset.spi.SyncProvider.getVendor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +190,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncProvider#setDataSourceLock(int) public abstract
-     * void javax.sql.rowset.spi.SyncProvider.setDataSourceLock(int) throws javax.sql.rowset.spi.SyncProviderException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.spi.SyncProvider#setDataSourceLock(int) public abstract void
+     * javax.sql.rowset.spi.SyncProvider.setDataSourceLock(int) throws javax.sql.rowset.spi.SyncProviderException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +213,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SyncProvider#getRowSetReader() public abstract
-     * javax.sql.RowSetReader javax.sql.rowset.spi.SyncProvider.getRowSetReader()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.spi.SyncProvider#getRowSetReader()
+     * public abstract javax.sql.RowSetReader javax.sql.rowset.spi.SyncProvider.getRowSetReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

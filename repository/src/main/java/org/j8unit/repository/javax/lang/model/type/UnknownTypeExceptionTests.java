@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownTypeException#getArgument() public
-     * java.lang.Object javax.lang.model.type.UnknownTypeException.getArgument()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.UnknownTypeException#getArgument() public java.lang.Object
+     * javax.lang.model.type.UnknownTypeException.getArgument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownTypeException#getUnknownType() public
-     * javax.lang.model.type.TypeMirror javax.lang.model.type.UnknownTypeException.getUnknownType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.type.UnknownTypeException#getUnknownType() public javax.lang.model.type.TypeMirror
+     * javax.lang.model.type.UnknownTypeException.getUnknownType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

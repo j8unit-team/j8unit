@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html.parser;
 
-import javax.swing.text.html.parser.DTD;
 import javax.swing.text.html.parser.DocumentParser;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.DocumentParserClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DocumentParser#DocumentParser(DTD) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.parser.DocumentParser#DocumentParser(javax.swing.text.html.parser.DTD) public
      * javax.swing.text.html.parser.DocumentParser(javax.swing.text.html.parser.DTD)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.html.parser.DocumentParserClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DocumentParser sut = null; // = new DocumentParser(DTD);
+        final DocumentParser sut = null; // = new DocumentParser(javax.swing.text.html.parser.DTD);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.DocumentParser]

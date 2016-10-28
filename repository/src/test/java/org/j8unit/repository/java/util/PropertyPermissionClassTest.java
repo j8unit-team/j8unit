@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.PropertyPermissionClassTests<Property
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyPermission#PropertyPermission(String, String) public
+     * {@link java.util.PropertyPermission#PropertyPermission(String, String) public
      * java.util.PropertyPermission(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

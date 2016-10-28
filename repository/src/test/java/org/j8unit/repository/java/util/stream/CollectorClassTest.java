@@ -1,9 +1,5 @@
 package org.j8unit.repository.java.util.stream;
 
-import java.util.function.BiConsumer;
-import java.util.function.BinaryOperator;
-import java.util.function.Function;
-import java.util.function.Supplier;
 import java.util.stream.Collector;
 import java.util.stream.Collector.Characteristics;
 import org.j8unit.repository.categories.Draft;
@@ -28,8 +24,8 @@ implements org.j8unit.repository.java.util.stream.CollectorClassTests<Collector>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Collector#of(Supplier, BiConsumer, BinaryOperator, Characteristics...) public static
-     * <T,R> java.util.stream.Collector<T, R, R> java.util.stream.Collector.of(java.util.function.Supplier
+     * {@link java.util.stream.Collector#of(java.util.function.Supplier, java.util.function.BiConsumer, java.util.function.BinaryOperator, java.util.stream.Collector.Characteristics...)
+     * public static <T,R> java.util.stream.Collector<T, R, R> java.util.stream.Collector.of(java.util.function.Supplier
      * <R>,java.util.function.BiConsumer<R, T>,java.util.function.BinaryOperator
      * <R>,java.util.stream.Collector$Characteristics...)}.
      *
@@ -45,15 +41,18 @@ implements org.j8unit.repository.java.util.stream.CollectorClassTests<Collector>
     @Category(Draft.class)
     public void test_of_Supplier_BiConsumer_BinaryOperator_CharacteristicsArray()
     throws Exception {
-        // write some test for {@link Collector#of(Supplier, BiConsumer, BinaryOperator, Characteristics...)}
+        // write some test for {@link java.util.stream.Collector#of(java.util.function.Supplier,
+        // java.util.function.BiConsumer, java.util.function.BinaryOperator,
+        // java.util.stream.Collector.Characteristics...)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Collector#of(Supplier, BiConsumer, BinaryOperator, Function, Characteristics...) public static
-     * <T,A,R> java.util.stream.Collector<T, A, R> java.util.stream.Collector.of(java.util.function.Supplier
-     * <A>,java.util.function.BiConsumer<A, T>,java.util.function.BinaryOperator<A>,java.util.function.Function<A,
+     * {@link java.util.stream.Collector#of(java.util.function.Supplier, java.util.function.BiConsumer, java.util.function.BinaryOperator, java.util.function.Function, java.util.stream.Collector.Characteristics...)
+     * public static <T,A,R> java.util.stream.Collector<T, A, R>
+     * java.util.stream.Collector.of(java.util.function.Supplier<A>,java.util.function.BiConsumer<A,
+     * T>,java.util.function.BinaryOperator<A>,java.util.function.Function<A,
      * R>,java.util.stream.Collector$Characteristics...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +67,9 @@ implements org.j8unit.repository.java.util.stream.CollectorClassTests<Collector>
     @Category(Draft.class)
     public void test_of_Supplier_BiConsumer_BinaryOperator_Function_CharacteristicsArray()
     throws Exception {
-        // write some test for {@link Collector#of(Supplier, BiConsumer, BinaryOperator, Function, Characteristics...)}
+        // write some test for {@link java.util.stream.Collector#of(java.util.function.Supplier,
+        // java.util.function.BiConsumer, java.util.function.BinaryOperator, java.util.function.Function,
+        // java.util.stream.Collector.Characteristics...)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Collector]
@@ -86,7 +87,8 @@ implements org.j8unit.repository.java.util.stream.CollectorClassTests<Collector>
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Characteristics#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.stream.Collector.Characteristics#valueOf(String) public static
          * java.util.stream.Collector$Characteristics
          * java.util.stream.Collector$Characteristics.valueOf(java.lang.String)}.
          *
@@ -102,12 +104,13 @@ implements org.j8unit.repository.java.util.stream.CollectorClassTests<Collector>
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Characteristics#valueOf(String)}
+            // write some test for {@link java.util.stream.Collector.Characteristics#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Characteristics#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.stream.Collector.Characteristics#values() public static
          * java.util.stream.Collector$Characteristics[] java.util.stream.Collector$Characteristics.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,7 +125,7 @@ implements org.j8unit.repository.java.util.stream.CollectorClassTests<Collector>
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Characteristics#values()}
+            // write some test for {@link java.util.stream.Collector.Characteristics#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Collector$Characteristics]

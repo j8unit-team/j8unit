@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.Component;
-import java.awt.Rectangle;
 import java.awt.event.PaintEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,7 +22,7 @@ implements org.j8unit.repository.java.awt.event.PaintEventClassTests<PaintEvent>
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PaintEvent#PaintEvent(Component, int, Rectangle) public
+     * {@link java.awt.event.PaintEvent#PaintEvent(java.awt.Component, int, java.awt.Rectangle) public
      * java.awt.event.PaintEvent(java.awt.Component,int,java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +39,7 @@ implements org.j8unit.repository.java.awt.event.PaintEventClassTests<PaintEvent>
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PaintEvent sut = null; // = new PaintEvent(Component, int, Rectangle);
+        final PaintEvent sut = null; // = new PaintEvent(java.awt.Component, int, java.awt.Rectangle);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.PaintEvent]

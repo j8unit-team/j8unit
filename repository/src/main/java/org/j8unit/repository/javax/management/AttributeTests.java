@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link javax.management.Attribute#hashCode() public int
      * javax.management.Attribute.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#equals(Object) public boolean
-     * javax.management.Attribute.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Attribute#equals(Object) public
+     * boolean javax.management.Attribute.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#getName() public java.lang.String
-     * javax.management.Attribute.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Attribute#getName() public
+     * java.lang.String javax.management.Attribute.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#getValue() public java.lang.Object
-     * javax.management.Attribute.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Attribute#getValue() public
+     * java.lang.Object javax.management.Attribute.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Attribute#toString() public java.lang.String
-     * javax.management.Attribute.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.Attribute#toString() public
+     * java.lang.String javax.management.Attribute.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

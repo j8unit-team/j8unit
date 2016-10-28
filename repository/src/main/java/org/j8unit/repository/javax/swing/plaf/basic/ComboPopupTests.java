@@ -35,7 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboPopup#getMouseMotionListener() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.ComboPopup#getMouseMotionListener() public abstract
      * java.awt.event.MouseMotionListener javax.swing.plaf.basic.ComboPopup.getMouseMotionListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboPopup#getList() public abstract
-     * javax.swing.JList javax.swing.plaf.basic.ComboPopup.getList()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.ComboPopup#getList() public
+     * abstract javax.swing.JList javax.swing.plaf.basic.ComboPopup.getList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboPopup#uninstallingUI() public abstract void
-     * javax.swing.plaf.basic.ComboPopup.uninstallingUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.ComboPopup#uninstallingUI()
+     * public abstract void javax.swing.plaf.basic.ComboPopup.uninstallingUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboPopup#hide() public abstract void
-     * javax.swing.plaf.basic.ComboPopup.hide()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.ComboPopup#hide() public
+     * abstract void javax.swing.plaf.basic.ComboPopup.hide()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboPopup#show() public abstract void
-     * javax.swing.plaf.basic.ComboPopup.show()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.ComboPopup#show() public
+     * abstract void javax.swing.plaf.basic.ComboPopup.show()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +146,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboPopup#getMouseListener() public abstract
-     * java.awt.event.MouseListener javax.swing.plaf.basic.ComboPopup.getMouseListener()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.ComboPopup#getMouseListener()
+     * public abstract java.awt.event.MouseListener javax.swing.plaf.basic.ComboPopup.getMouseListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboPopup#getKeyListener() public abstract
-     * java.awt.event.KeyListener javax.swing.plaf.basic.ComboPopup.getKeyListener()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.ComboPopup#getKeyListener()
+     * public abstract java.awt.event.KeyListener javax.swing.plaf.basic.ComboPopup.getKeyListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboPopup#isVisible() public abstract boolean
-     * javax.swing.plaf.basic.ComboPopup.isVisible()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.ComboPopup#isVisible() public
+     * abstract boolean javax.swing.plaf.basic.ComboPopup.isVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

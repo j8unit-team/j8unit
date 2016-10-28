@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.event.ActionListener;
-import java.awt.event.ItemListener;
-import javax.swing.ButtonGroup;
 import javax.swing.DefaultButtonModel;
-import javax.swing.event.ChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#isRollover() public boolean
-     * javax.swing.DefaultButtonModel.isRollover()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#isRollover() public
+     * boolean javax.swing.DefaultButtonModel.isRollover()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#addItemListener(ItemListener)
-     * public void javax.swing.DefaultButtonModel.addItemListener(java.awt.event.ItemListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultButtonModel#addItemListener(java.awt.event.ItemListener) public void
+     * javax.swing.DefaultButtonModel.addItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,8 +82,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#isSelected() public boolean
-     * javax.swing.DefaultButtonModel.isSelected()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#isSelected() public
+     * boolean javax.swing.DefaultButtonModel.isSelected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +105,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#getItemListeners() public
-     * java.awt.event.ItemListener[] javax.swing.DefaultButtonModel.getItemListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#getItemListeners()
+     * public java.awt.event.ItemListener[] javax.swing.DefaultButtonModel.getItemListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,7 +128,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultButtonModel#removeActionListener(ActionListener) public void
+     * {@link javax.swing.DefaultButtonModel#removeActionListener(java.awt.event.ActionListener) public void
      * javax.swing.DefaultButtonModel.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +151,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#getSelectedObjects() public
-     * java.lang.Object[] javax.swing.DefaultButtonModel.getSelectedObjects()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#getSelectedObjects()
+     * public java.lang.Object[] javax.swing.DefaultButtonModel.getSelectedObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +174,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#setRollover(boolean) public void
-     * javax.swing.DefaultButtonModel.setRollover(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#setRollover(boolean)
+     * public void javax.swing.DefaultButtonModel.setRollover(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,8 +197,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#addChangeListener(ChangeListener)
-     * public void javax.swing.DefaultButtonModel.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultButtonModel#addChangeListener(javax.swing.event.ChangeListener) public void
+     * javax.swing.DefaultButtonModel.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,8 +221,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#getMnemonic() public int
-     * javax.swing.DefaultButtonModel.getMnemonic()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#getMnemonic() public
+     * int javax.swing.DefaultButtonModel.getMnemonic()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -246,8 +244,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#setArmed(boolean) public void
-     * javax.swing.DefaultButtonModel.setArmed(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#setArmed(boolean)
+     * public void javax.swing.DefaultButtonModel.setArmed(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,8 +267,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#getListeners(Class) public
-     * <T> T[] javax.swing.DefaultButtonModel.getListeners(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#getListeners(Class)
+     * public <T> T[] javax.swing.DefaultButtonModel.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -291,8 +289,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#setSelected(boolean) public void
-     * javax.swing.DefaultButtonModel.setSelected(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#setSelected(boolean)
+     * public void javax.swing.DefaultButtonModel.setSelected(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -314,8 +312,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#isArmed() public boolean
-     * javax.swing.DefaultButtonModel.isArmed()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#isArmed() public
+     * boolean javax.swing.DefaultButtonModel.isArmed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -337,8 +335,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#getActionCommand() public
-     * java.lang.String javax.swing.DefaultButtonModel.getActionCommand()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#getActionCommand()
+     * public java.lang.String javax.swing.DefaultButtonModel.getActionCommand()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -360,8 +358,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#getActionListeners() public
-     * java.awt.event.ActionListener[] javax.swing.DefaultButtonModel.getActionListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#getActionListeners()
+     * public java.awt.event.ActionListener[] javax.swing.DefaultButtonModel.getActionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -383,7 +381,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultButtonModel#removeChangeListener(ChangeListener) public void
+     * {@link javax.swing.DefaultButtonModel#removeChangeListener(javax.swing.event.ChangeListener) public void
      * javax.swing.DefaultButtonModel.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -406,7 +404,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#setGroup(ButtonGroup) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#setEnabled(boolean)
+     * public void javax.swing.DefaultButtonModel.setEnabled(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setEnabled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultButtonModel#setGroup(javax.swing.ButtonGroup) public void
      * javax.swing.DefaultButtonModel.setGroup(javax.swing.ButtonGroup)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -429,30 +451,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#setEnabled(boolean) public void
-     * javax.swing.DefaultButtonModel.setEnabled(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setEnabled_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#getGroup() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#getGroup() public
      * javax.swing.ButtonGroup javax.swing.DefaultButtonModel.getGroup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -474,8 +473,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#isEnabled() public boolean
-     * javax.swing.DefaultButtonModel.isEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#isEnabled() public
+     * boolean javax.swing.DefaultButtonModel.isEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -497,8 +496,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#setMnemonic(int) public void
-     * javax.swing.DefaultButtonModel.setMnemonic(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#setMnemonic(int)
+     * public void javax.swing.DefaultButtonModel.setMnemonic(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -520,8 +519,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#setActionCommand(String) public
-     * void javax.swing.DefaultButtonModel.setActionCommand(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultButtonModel#setActionCommand(String) public void
+     * javax.swing.DefaultButtonModel.setActionCommand(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -543,8 +543,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#removeItemListener(ItemListener)
-     * public void javax.swing.DefaultButtonModel.removeItemListener(java.awt.event.ItemListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultButtonModel#removeItemListener(java.awt.event.ItemListener) public void
+     * javax.swing.DefaultButtonModel.removeItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -566,8 +567,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#getChangeListeners() public
-     * javax.swing.event.ChangeListener[] javax.swing.DefaultButtonModel.getChangeListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#getChangeListeners()
+     * public javax.swing.event.ChangeListener[] javax.swing.DefaultButtonModel.getChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -588,8 +589,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#isPressed() public boolean
-     * javax.swing.DefaultButtonModel.isPressed()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#isPressed() public
+     * boolean javax.swing.DefaultButtonModel.isPressed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -611,8 +612,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#addActionListener(ActionListener)
-     * public void javax.swing.DefaultButtonModel.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultButtonModel#addActionListener(java.awt.event.ActionListener) public void
+     * javax.swing.DefaultButtonModel.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -634,8 +636,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultButtonModel#setPressed(boolean) public void
-     * javax.swing.DefaultButtonModel.setPressed(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultButtonModel#setPressed(boolean)
+     * public void javax.swing.DefaultButtonModel.setPressed(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

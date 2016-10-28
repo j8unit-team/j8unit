@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.nio.channels;
 
-import java.net.SocketAddress;
-import java.net.SocketOption;
-import java.nio.ByteBuffer;
 import java.nio.channels.DatagramChannel;
-import java.nio.channels.MulticastChannel;
-import java.nio.channels.SelectableChannel;
 import java.nio.channels.spi.AbstractSelectableChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -42,7 +37,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#read(ByteBuffer) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#read(java.nio.ByteBuffer) public abstract int
      * java.nio.channels.DatagramChannel.read(java.nio.ByteBuffer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,7 +61,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#read(ByteBuffer[]) public final long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#read(java.nio.ByteBuffer[]) public final long
      * java.nio.channels.DatagramChannel.read(java.nio.ByteBuffer[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +85,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#read(ByteBuffer[], int, int) public
-     * abstract long java.nio.channels.DatagramChannel.read(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#read(java.nio.ByteBuffer[], int, int) public abstract long
+     * java.nio.channels.DatagramChannel.read(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,9 +109,10 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#setOption(SocketOption, Object)
-     * public abstract <T> java.nio.channels.DatagramChannel
-     * java.nio.channels.DatagramChannel.setOption(java.net.SocketOption<T>,T) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#setOption(java.net.SocketOption, Object) public abstract
+     * <T> java.nio.channels.DatagramChannel java.nio.channels.DatagramChannel.setOption(java.net.SocketOption<T>,T)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,8 +134,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#disconnect() public abstract
-     * java.nio.channels.DatagramChannel java.nio.channels.DatagramChannel.disconnect() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.DatagramChannel#disconnect()
+     * public abstract java.nio.channels.DatagramChannel java.nio.channels.DatagramChannel.disconnect() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,9 +157,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#receive(ByteBuffer) public abstract
-     * java.net.SocketAddress java.nio.channels.DatagramChannel.receive(java.nio.ByteBuffer) throws java.io.IOException}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#receive(java.nio.ByteBuffer) public abstract java.net.SocketAddress
+     * java.nio.channels.DatagramChannel.receive(java.nio.ByteBuffer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,8 +180,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#getLocalAddress() public abstract
-     * java.net.SocketAddress java.nio.channels.DatagramChannel.getLocalAddress() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.DatagramChannel#getLocalAddress()
+     * public abstract java.net.SocketAddress java.nio.channels.DatagramChannel.getLocalAddress() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -203,8 +204,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#getRemoteAddress() public abstract
-     * java.net.SocketAddress java.nio.channels.DatagramChannel.getRemoteAddress() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.DatagramChannel#getRemoteAddress()
+     * public abstract java.net.SocketAddress java.nio.channels.DatagramChannel.getRemoteAddress() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -225,8 +227,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#isConnected() public abstract
-     * boolean java.nio.channels.DatagramChannel.isConnected()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.DatagramChannel#isConnected()
+     * public abstract boolean java.nio.channels.DatagramChannel.isConnected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,7 +249,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#bind(SocketAddress) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#bind(java.net.SocketAddress) public abstract
      * java.nio.channels.DatagramChannel java.nio.channels.DatagramChannel.bind(java.net.SocketAddress) throws
      * java.io.IOException}.
      *
@@ -271,8 +274,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#validOps() public final int
-     * java.nio.channels.DatagramChannel.validOps()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.DatagramChannel#validOps() public
+     * final int java.nio.channels.DatagramChannel.validOps()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -294,9 +297,10 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#connect(SocketAddress) public
-     * abstract java.nio.channels.DatagramChannel java.nio.channels.DatagramChannel.connect(java.net.SocketAddress)
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#connect(java.net.SocketAddress) public abstract
+     * java.nio.channels.DatagramChannel java.nio.channels.DatagramChannel.connect(java.net.SocketAddress) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -317,9 +321,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#send(ByteBuffer, SocketAddress)
-     * public abstract int java.nio.channels.DatagramChannel.send(java.nio.ByteBuffer,java.net.SocketAddress) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#send(java.nio.ByteBuffer, java.net.SocketAddress) public abstract int
+     * java.nio.channels.DatagramChannel.send(java.nio.ByteBuffer,java.net.SocketAddress) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -340,8 +344,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#write(ByteBuffer) public abstract
-     * int java.nio.channels.DatagramChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#write(java.nio.ByteBuffer) public abstract int
+     * java.nio.channels.DatagramChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -363,8 +368,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#write(ByteBuffer[], int, int) public
-     * abstract long java.nio.channels.DatagramChannel.write(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#write(java.nio.ByteBuffer[], int, int) public abstract long
+     * java.nio.channels.DatagramChannel.write(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -386,8 +392,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#write(ByteBuffer[]) public final
-     * long java.nio.channels.DatagramChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.DatagramChannel#write(java.nio.ByteBuffer[]) public final long
+     * java.nio.channels.DatagramChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -409,8 +416,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DatagramChannel#socket() public abstract
-     * java.net.DatagramSocket java.nio.channels.DatagramChannel.socket()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.DatagramChannel#socket() public
+     * abstract java.net.DatagramSocket java.nio.channels.DatagramChannel.socket()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -435,9 +442,9 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link MulticastChannel#close() interface java.nio.channels.MulticastChannel}</li>
-     * <li>{@link SelectableChannel#close() class java.nio.channels.SelectableChannel} (via parent node(s)
-     * {@link AbstractSelectableChannel AbstractSelectableChannel})</li>
+     * <li>{@link java.nio.channels.MulticastChannel#close() interface java.nio.channels.MulticastChannel}</li>
+     * <li>{@link java.nio.channels.SelectableChannel#close() class java.nio.channels.SelectableChannel} (via parent
+     * node(s) {@link AbstractSelectableChannel AbstractSelectableChannel})</li>
      * </ul>
      *
      * <p>

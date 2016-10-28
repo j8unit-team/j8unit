@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.Delayed;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Delayed> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Delayed#getDelay(TimeUnit) public abstract long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.Delayed#getDelay(java.util.concurrent.TimeUnit) public abstract long
      * java.util.concurrent.Delayed.getDelay(java.util.concurrent.TimeUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

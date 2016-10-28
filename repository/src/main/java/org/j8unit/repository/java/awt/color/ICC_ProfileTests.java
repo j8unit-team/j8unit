@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.color;
 
 import java.awt.color.ICC_Profile;
-import java.io.OutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#getPCSType() public int
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#getPCSType() public int
      * java.awt.color.ICC_Profile.getPCSType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#getColorSpaceType() public int
-     * java.awt.color.ICC_Profile.getColorSpaceType()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#getColorSpaceType()
+     * public int java.awt.color.ICC_Profile.getColorSpaceType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#getMajorVersion() public int
-     * java.awt.color.ICC_Profile.getMajorVersion()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#getMajorVersion() public
+     * int java.awt.color.ICC_Profile.getMajorVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +100,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#getProfileClass() public int
-     * java.awt.color.ICC_Profile.getProfileClass()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#getProfileClass() public
+     * int java.awt.color.ICC_Profile.getProfileClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +122,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#getNumComponents() public int
-     * java.awt.color.ICC_Profile.getNumComponents()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#getNumComponents() public
+     * int java.awt.color.ICC_Profile.getNumComponents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +144,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#setData(int, byte[]) public void
-     * java.awt.color.ICC_Profile.setData(int,byte[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#setData(int, byte[])
+     * public void java.awt.color.ICC_Profile.setData(int,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +166,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#getMinorVersion() public int
-     * java.awt.color.ICC_Profile.getMinorVersion()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#getMinorVersion() public
+     * int java.awt.color.ICC_Profile.getMinorVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,29 +188,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#write(String) public void
-     * java.awt.color.ICC_Profile.write(java.lang.String) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#write(OutputStream) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.color.ICC_Profile#write(java.io.OutputStream) public void
      * java.awt.color.ICC_Profile.write(java.io.OutputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,8 +211,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#getData(int) public byte[]
-     * java.awt.color.ICC_Profile.getData(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#write(String) public void
+     * java.awt.color.ICC_Profile.write(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#getData(int) public
+     * byte[] java.awt.color.ICC_Profile.getData(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,7 +255,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ICC_Profile#getData() public byte[]
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_Profile#getData() public byte[]
      * java.awt.color.ICC_Profile.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

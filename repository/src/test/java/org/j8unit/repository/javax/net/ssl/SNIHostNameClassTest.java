@@ -21,8 +21,8 @@ implements org.j8unit.repository.javax.net.ssl.SNIHostNameClassTests<SNIHostName
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SNIHostName#SNIHostName(String) public
-     * javax.net.ssl.SNIHostName(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.net.ssl.SNIHostName#SNIHostName(String)
+     * public javax.net.ssl.SNIHostName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,8 @@ implements org.j8unit.repository.javax.net.ssl.SNIHostNameClassTests<SNIHostName
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SNIHostName#SNIHostName(byte[]) public
-     * javax.net.ssl.SNIHostName(byte[])}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.net.ssl.SNIHostName#SNIHostName(byte[])
+     * public javax.net.ssl.SNIHostName(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,8 +65,8 @@ implements org.j8unit.repository.javax.net.ssl.SNIHostNameClassTests<SNIHostName
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SNIHostName#createSNIMatcher(String) public static
-     * javax.net.ssl.SNIMatcher javax.net.ssl.SNIHostName.createSNIMatcher(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SNIHostName#createSNIMatcher(String)
+     * public static javax.net.ssl.SNIMatcher javax.net.ssl.SNIHostName.createSNIMatcher(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ implements org.j8unit.repository.javax.net.ssl.SNIHostNameClassTests<SNIHostName
     @Category(Draft.class)
     public void test_createSNIMatcher_String()
     throws Exception {
-        // write some test for {@link SNIHostName#createSNIMatcher(String)}
+        // write some test for {@link javax.net.ssl.SNIHostName#createSNIMatcher(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SNIHostName]

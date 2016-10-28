@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Modifier#Modifier() public
+     * Test method for the hereby targeted constructor-under-test {@link java.lang.reflect.Modifier#Modifier() public
      * java.lang.reflect.Modifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#classModifiers() public static int
-     * java.lang.reflect.Modifier.classModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#classModifiers() public
+     * static int java.lang.reflect.Modifier.classModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,13 +57,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_classModifiers()
     throws Exception {
-        // write some test for {@link Modifier#classModifiers()}
+        // write some test for {@link java.lang.reflect.Modifier#classModifiers()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isProtected(int) public static boolean
-     * java.lang.reflect.Modifier.isProtected(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isProtected(int) public
+     * static boolean java.lang.reflect.Modifier.isProtected(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -77,13 +77,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isProtected_int()
     throws Exception {
-        // write some test for {@link Modifier#isProtected(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isProtected(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#interfaceModifiers() public static int
-     * java.lang.reflect.Modifier.interfaceModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#interfaceModifiers()
+     * public static int java.lang.reflect.Modifier.interfaceModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -97,13 +97,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_interfaceModifiers()
     throws Exception {
-        // write some test for {@link Modifier#interfaceModifiers()}
+        // write some test for {@link java.lang.reflect.Modifier#interfaceModifiers()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isStrict(int) public static boolean
-     * java.lang.reflect.Modifier.isStrict(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isStrict(int) public
+     * static boolean java.lang.reflect.Modifier.isStrict(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,13 +117,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isStrict_int()
     throws Exception {
-        // write some test for {@link Modifier#isStrict(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isStrict(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isInterface(int) public static boolean
-     * java.lang.reflect.Modifier.isInterface(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isInterface(int) public
+     * static boolean java.lang.reflect.Modifier.isInterface(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,13 +137,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isInterface_int()
     throws Exception {
-        // write some test for {@link Modifier#isInterface(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isInterface(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isTransient(int) public static boolean
-     * java.lang.reflect.Modifier.isTransient(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isTransient(int) public
+     * static boolean java.lang.reflect.Modifier.isTransient(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,13 +157,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isTransient_int()
     throws Exception {
-        // write some test for {@link Modifier#isTransient(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isTransient(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isFinal(int) public static boolean
-     * java.lang.reflect.Modifier.isFinal(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isFinal(int) public
+     * static boolean java.lang.reflect.Modifier.isFinal(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,13 +177,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isFinal_int()
     throws Exception {
-        // write some test for {@link Modifier#isFinal(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isFinal(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#toString(int) public static
-     * java.lang.String java.lang.reflect.Modifier.toString(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#toString(int) public
+     * static java.lang.String java.lang.reflect.Modifier.toString(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -197,13 +197,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_toString_int()
     throws Exception {
-        // write some test for {@link Modifier#toString(int)}
+        // write some test for {@link java.lang.reflect.Modifier#toString(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isPublic(int) public static boolean
-     * java.lang.reflect.Modifier.isPublic(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isPublic(int) public
+     * static boolean java.lang.reflect.Modifier.isPublic(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -217,13 +217,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isPublic_int()
     throws Exception {
-        // write some test for {@link Modifier#isPublic(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isPublic(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isStatic(int) public static boolean
-     * java.lang.reflect.Modifier.isStatic(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isStatic(int) public
+     * static boolean java.lang.reflect.Modifier.isStatic(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,13 +237,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isStatic_int()
     throws Exception {
-        // write some test for {@link Modifier#isStatic(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isStatic(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#fieldModifiers() public static int
-     * java.lang.reflect.Modifier.fieldModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#fieldModifiers() public
+     * static int java.lang.reflect.Modifier.fieldModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,13 +257,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_fieldModifiers()
     throws Exception {
-        // write some test for {@link Modifier#fieldModifiers()}
+        // write some test for {@link java.lang.reflect.Modifier#fieldModifiers()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isNative(int) public static boolean
-     * java.lang.reflect.Modifier.isNative(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isNative(int) public
+     * static boolean java.lang.reflect.Modifier.isNative(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,13 +277,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isNative_int()
     throws Exception {
-        // write some test for {@link Modifier#isNative(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isNative(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isAbstract(int) public static boolean
-     * java.lang.reflect.Modifier.isAbstract(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isAbstract(int) public
+     * static boolean java.lang.reflect.Modifier.isAbstract(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -297,13 +297,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isAbstract_int()
     throws Exception {
-        // write some test for {@link Modifier#isAbstract(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isAbstract(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#constructorModifiers() public static int
-     * java.lang.reflect.Modifier.constructorModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#constructorModifiers()
+     * public static int java.lang.reflect.Modifier.constructorModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -317,13 +317,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_constructorModifiers()
     throws Exception {
-        // write some test for {@link Modifier#constructorModifiers()}
+        // write some test for {@link java.lang.reflect.Modifier#constructorModifiers()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isPrivate(int) public static boolean
-     * java.lang.reflect.Modifier.isPrivate(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isPrivate(int) public
+     * static boolean java.lang.reflect.Modifier.isPrivate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -337,13 +337,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isPrivate_int()
     throws Exception {
-        // write some test for {@link Modifier#isPrivate(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isPrivate(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#parameterModifiers() public static int
-     * java.lang.reflect.Modifier.parameterModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#parameterModifiers()
+     * public static int java.lang.reflect.Modifier.parameterModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -357,13 +357,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_parameterModifiers()
     throws Exception {
-        // write some test for {@link Modifier#parameterModifiers()}
+        // write some test for {@link java.lang.reflect.Modifier#parameterModifiers()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isSynchronized(int) public static boolean
-     * java.lang.reflect.Modifier.isSynchronized(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isSynchronized(int)
+     * public static boolean java.lang.reflect.Modifier.isSynchronized(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -377,13 +377,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isSynchronized_int()
     throws Exception {
-        // write some test for {@link Modifier#isSynchronized(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isSynchronized(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#methodModifiers() public static int
-     * java.lang.reflect.Modifier.methodModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#methodModifiers() public
+     * static int java.lang.reflect.Modifier.methodModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -397,13 +397,13 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_methodModifiers()
     throws Exception {
-        // write some test for {@link Modifier#methodModifiers()}
+        // write some test for {@link java.lang.reflect.Modifier#methodModifiers()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Modifier#isVolatile(int) public static boolean
-     * java.lang.reflect.Modifier.isVolatile(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Modifier#isVolatile(int) public
+     * static boolean java.lang.reflect.Modifier.isVolatile(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -417,7 +417,7 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     @Category(Draft.class)
     public void test_isVolatile_int()
     throws Exception {
-        // write some test for {@link Modifier#isVolatile(int)}
+        // write some test for {@link java.lang.reflect.Modifier#isVolatile(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Modifier]

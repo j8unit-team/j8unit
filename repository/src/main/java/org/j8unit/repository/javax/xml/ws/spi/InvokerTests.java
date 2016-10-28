@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.xml.ws.spi;
 
-import java.lang.reflect.Method;
-import javax.xml.ws.WebServiceContext;
 import javax.xml.ws.spi.Invoker;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Invoker#invoke(Method, Object...) public abstract
-     * java.lang.Object javax.xml.ws.spi.Invoker.invoke(java.lang.reflect.Method,java.lang.Object...) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.Invoker#invoke(java.lang.reflect.Method, Object...) public abstract java.lang.Object
+     * javax.xml.ws.spi.Invoker.invoke(java.lang.reflect.Method,java.lang.Object...) throws
      * java.lang.IllegalAccessException,java.lang.IllegalArgumentException,java.lang.reflect.InvocationTargetException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Invoker#inject(WebServiceContext) public abstract
-     * void javax.xml.ws.spi.Invoker.inject(javax.xml.ws.WebServiceContext) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.Invoker#inject(javax.xml.ws.WebServiceContext) public abstract void
+     * javax.xml.ws.spi.Invoker.inject(javax.xml.ws.WebServiceContext) throws
      * java.lang.IllegalAccessException,java.lang.IllegalArgumentException,java.lang.reflect.InvocationTargetException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

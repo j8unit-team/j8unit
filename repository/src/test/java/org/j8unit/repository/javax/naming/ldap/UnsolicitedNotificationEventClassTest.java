@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.ldap;
 
-import javax.naming.ldap.UnsolicitedNotification;
 import javax.naming.ldap.UnsolicitedNotificationEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.naming.ldap.UnsolicitedNotificationEventC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnsolicitedNotificationEvent#UnsolicitedNotificationEvent(Object, UnsolicitedNotification) public
+     * {@link javax.naming.ldap.UnsolicitedNotificationEvent#UnsolicitedNotificationEvent(Object, javax.naming.ldap.UnsolicitedNotification)
+     * public
      * javax.naming.ldap.UnsolicitedNotificationEvent(java.lang.Object,javax.naming.ldap.UnsolicitedNotification)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,7 +41,7 @@ implements org.j8unit.repository.javax.naming.ldap.UnsolicitedNotificationEventC
         // create new instance
         @SuppressWarnings("unused")
         final UnsolicitedNotificationEvent sut = null; // = new UnsolicitedNotificationEvent(Object,
-                                                       // UnsolicitedNotification);
+                                                       // javax.naming.ldap.UnsolicitedNotification);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.UnsolicitedNotificationEvent]

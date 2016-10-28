@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA._PolicyStub;
-import org.omg.CORBA.portable.Delegate;
 
 @RunWith(J8Unit4.class)
 public class _PolicyStubClassTest
@@ -22,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA._PolicyStubClassTests<_PolicyStub
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link _PolicyStub#_PolicyStub() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA._PolicyStub#_PolicyStub() public
      * org.omg.CORBA._PolicyStub()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA._PolicyStubClassTests<_PolicyStub
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link _PolicyStub#_PolicyStub(Delegate) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA._PolicyStub#_PolicyStub(org.omg.CORBA.portable.Delegate) public
      * org.omg.CORBA._PolicyStub(org.omg.CORBA.portable.Delegate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,7 @@ implements org.j8unit.repository.org.omg.CORBA._PolicyStubClassTests<_PolicyStub
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final _PolicyStub sut = null; // = new _PolicyStub(Delegate);
+        final _PolicyStub sut = null; // = new _PolicyStub(org.omg.CORBA.portable.Delegate);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA._PolicyStub]

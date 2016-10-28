@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.URISyntaxExceptionClassTests<URISyntax
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URISyntaxException#URISyntaxException(String, String, int) public
+     * {@link java.net.URISyntaxException#URISyntaxException(String, String, int) public
      * java.net.URISyntaxException(java.lang.String,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.net.URISyntaxExceptionClassTests<URISyntax
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link URISyntaxException#URISyntaxException(String, String) public
+     * {@link java.net.URISyntaxException#URISyntaxException(String, String) public
      * java.net.URISyntaxException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

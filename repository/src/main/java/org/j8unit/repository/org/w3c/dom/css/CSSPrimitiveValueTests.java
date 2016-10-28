@@ -34,8 +34,9 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSPrimitiveValue#getStringValue() public abstract
-     * java.lang.String org.w3c.dom.css.CSSPrimitiveValue.getStringValue() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSPrimitiveValue#getStringValue()
+     * public abstract java.lang.String org.w3c.dom.css.CSSPrimitiveValue.getStringValue() throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,9 +57,9 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSPrimitiveValue#setStringValue(short, String)
-     * public abstract void org.w3c.dom.css.CSSPrimitiveValue.setStringValue(short,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.CSSPrimitiveValue#setStringValue(short, String) public abstract void
+     * org.w3c.dom.css.CSSPrimitiveValue.setStringValue(short,java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,9 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSPrimitiveValue#setFloatValue(short, float) public
-     * abstract void org.w3c.dom.css.CSSPrimitiveValue.setFloatValue(short,float) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.CSSPrimitiveValue#setFloatValue(short, float) public abstract void
+     * org.w3c.dom.css.CSSPrimitiveValue.setFloatValue(short,float) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +103,9 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSPrimitiveValue#getFloatValue(short) public
-     * abstract float org.w3c.dom.css.CSSPrimitiveValue.getFloatValue(short) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.CSSPrimitiveValue#getFloatValue(short) public abstract float
+     * org.w3c.dom.css.CSSPrimitiveValue.getFloatValue(short) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +126,8 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSPrimitiveValue#getPrimitiveType() public abstract
-     * short org.w3c.dom.css.CSSPrimitiveValue.getPrimitiveType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSPrimitiveValue#getPrimitiveType()
+     * public abstract short org.w3c.dom.css.CSSPrimitiveValue.getPrimitiveType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +148,9 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSPrimitiveValue#getRectValue() public abstract
-     * org.w3c.dom.css.Rect org.w3c.dom.css.CSSPrimitiveValue.getRectValue() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSPrimitiveValue#getRectValue()
+     * public abstract org.w3c.dom.css.Rect org.w3c.dom.css.CSSPrimitiveValue.getRectValue() throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +171,9 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSPrimitiveValue#getRGBColorValue() public abstract
-     * org.w3c.dom.css.RGBColor org.w3c.dom.css.CSSPrimitiveValue.getRGBColorValue() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSPrimitiveValue#getRGBColorValue()
+     * public abstract org.w3c.dom.css.RGBColor org.w3c.dom.css.CSSPrimitiveValue.getRGBColorValue() throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +194,9 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSPrimitiveValue#getCounterValue() public abstract
-     * org.w3c.dom.css.Counter org.w3c.dom.css.CSSPrimitiveValue.getCounterValue() throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSPrimitiveValue#getCounterValue()
+     * public abstract org.w3c.dom.css.Counter org.w3c.dom.css.CSSPrimitiveValue.getCounterValue() throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

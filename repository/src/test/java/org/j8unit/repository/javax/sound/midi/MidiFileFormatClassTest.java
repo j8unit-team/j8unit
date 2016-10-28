@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.midi;
 
-import java.util.Map;
 import javax.sound.midi.MidiFileFormat;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.sound.midi.MidiFileFormatClassTests<MidiF
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MidiFileFormat#MidiFileFormat(int, float, int, int, long) public
+     * {@link javax.sound.midi.MidiFileFormat#MidiFileFormat(int, float, int, int, long) public
      * javax.sound.midi.MidiFileFormat(int,float,int,int,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,7 @@ implements org.j8unit.repository.javax.sound.midi.MidiFileFormatClassTests<MidiF
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MidiFileFormat#MidiFileFormat(int, float, int, int, long, Map) public
+     * {@link javax.sound.midi.MidiFileFormat#MidiFileFormat(int, float, int, int, long, java.util.Map) public
      * javax.sound.midi.MidiFileFormat(int,float,int,int,long,java.util.Map<java.lang.String, java.lang.Object>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +62,7 @@ implements org.j8unit.repository.javax.sound.midi.MidiFileFormatClassTests<MidiF
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MidiFileFormat sut = null; // = new MidiFileFormat(int, float, int, int, long, Map);
+        final MidiFileFormat sut = null; // = new MidiFileFormat(int, float, int, int, long, java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiFileFormat]

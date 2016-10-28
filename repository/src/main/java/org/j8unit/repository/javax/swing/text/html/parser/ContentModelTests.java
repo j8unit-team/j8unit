@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html.parser;
 
-import java.util.Vector;
 import javax.swing.text.html.parser.ContentModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentModel#getElements(Vector) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.ContentModel#getElements(java.util.Vector) public void
      * javax.swing.text.html.parser.ContentModel.getElements(java.util.Vector<javax.swing.text.html.parser.Element>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentModel#first(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.ContentModel#first(Object) public boolean
      * javax.swing.text.html.parser.ContentModel.first(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentModel#first() public
-     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.ContentModel.first()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.ContentModel#first()
+     * public javax.swing.text.html.parser.Element javax.swing.text.html.parser.ContentModel.first()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +102,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentModel#empty() public boolean
-     * javax.swing.text.html.parser.ContentModel.empty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.ContentModel#empty()
+     * public boolean javax.swing.text.html.parser.ContentModel.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ContentModel#toString() public java.lang.String
-     * javax.swing.text.html.parser.ContentModel.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.ContentModel#toString()
+     * public java.lang.String javax.swing.text.html.parser.ContentModel.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

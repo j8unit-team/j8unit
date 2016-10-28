@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.ConcurrentMap;
-import java.util.function.BiConsumer;
-import java.util.function.BiFunction;
-import java.util.function.Function;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#remove(Object, Object) public abstract
-     * boolean java.util.concurrent.ConcurrentMap.remove(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#remove(Object, Object) public abstract boolean
+     * java.util.concurrent.ConcurrentMap.remove(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +58,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#putIfAbsent(Object, Object) public
-     * abstract V java.util.concurrent.ConcurrentMap.putIfAbsent(K,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#putIfAbsent(Object, Object) public abstract V
+     * java.util.concurrent.ConcurrentMap.putIfAbsent(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,9 +82,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#replaceAll(BiFunction) public default
-     * void java.util.concurrent.ConcurrentMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends
-     * V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#replaceAll(java.util.function.BiFunction) public default void
+     * java.util.concurrent.ConcurrentMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +106,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#replace(Object, Object) public
-     * abstract V java.util.concurrent.ConcurrentMap.replace(K,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#replace(Object, Object) public abstract V
+     * java.util.concurrent.ConcurrentMap.replace(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,8 +130,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#replace(Object, Object, Object) public
-     * abstract boolean java.util.concurrent.ConcurrentMap.replace(K,V,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#replace(Object, Object, Object) public abstract boolean
+     * java.util.concurrent.ConcurrentMap.replace(K,V,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,9 +154,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#merge(Object, Object, BiFunction)
-     * public default V java.util.concurrent.ConcurrentMap.merge(K,V,java.util.function.BiFunction<? super V, ? super V,
-     * ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#merge(Object, Object, java.util.function.BiFunction) public default V
+     * java.util.concurrent.ConcurrentMap.merge(K,V,java.util.function.BiFunction<? super V, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,9 +178,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#computeIfAbsent(Object, Function)
-     * public default V java.util.concurrent.ConcurrentMap.computeIfAbsent(K,java.util.function.Function<? super K, ?
-     * extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#computeIfAbsent(Object, java.util.function.Function) public default V
+     * java.util.concurrent.ConcurrentMap.computeIfAbsent(K,java.util.function.Function<? super K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,8 +202,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#forEach(BiConsumer) public default
-     * void java.util.concurrent.ConcurrentMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#forEach(java.util.function.BiConsumer) public default void
+     * java.util.concurrent.ConcurrentMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,8 +226,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#getOrDefault(Object, Object) public
-     * default V java.util.concurrent.ConcurrentMap.getOrDefault(java.lang.Object,V)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#getOrDefault(Object, Object) public default V
+     * java.util.concurrent.ConcurrentMap.getOrDefault(java.lang.Object,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,9 +250,10 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#computeIfPresent(Object, BiFunction)
-     * public default V java.util.concurrent.ConcurrentMap.computeIfPresent(K,java.util.function.BiFunction<? super K, ?
-     * super V, ? extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#computeIfPresent(Object, java.util.function.BiFunction) public default
+     * V java.util.concurrent.ConcurrentMap.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super V, ?
+     * extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -271,9 +275,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ConcurrentMap#compute(Object, BiFunction) public
-     * default V java.util.concurrent.ConcurrentMap.compute(K,java.util.function.BiFunction<? super K, ? super V, ?
-     * extends V>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentMap#compute(Object, java.util.function.BiFunction) public default V
+     * java.util.concurrent.ConcurrentMap.compute(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.imageio.spi;
 
 import javax.imageio.spi.RegisterableService;
-import javax.imageio.spi.ServiceRegistry;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RegisterableService#onRegistration(ServiceRegistry, Class) public abstract void
+     * {@link javax.imageio.spi.RegisterableService#onRegistration(javax.imageio.spi.ServiceRegistry, Class) public
+     * abstract void
      * javax.imageio.spi.RegisterableService.onRegistration(javax.imageio.spi.ServiceRegistry,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +60,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link RegisterableService#onDeregistration(ServiceRegistry, Class) public abstract void
+     * {@link javax.imageio.spi.RegisterableService#onDeregistration(javax.imageio.spi.ServiceRegistry, Class) public
+     * abstract void
      * javax.imageio.spi.RegisterableService.onDeregistration(javax.imageio.spi.ServiceRegistry,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

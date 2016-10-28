@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import java.util.Hashtable;
 import javax.management.ObjectName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectName#ObjectName(String, Hashtable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.ObjectName#ObjectName(String, java.util.Hashtable) public
      * javax.management.ObjectName(java.lang.String,java.util.Hashtable<java.lang.String, java.lang.String>) throws
      * javax.management.MalformedObjectNameException}.
      *
@@ -40,13 +40,13 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ObjectName sut = null; // = new ObjectName(String, Hashtable);
+        final ObjectName sut = null; // = new ObjectName(String, java.util.Hashtable);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectName#ObjectName(String) public
-     * javax.management.ObjectName(java.lang.String) throws javax.management.MalformedObjectNameException}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.management.ObjectName#ObjectName(String)
+     * public javax.management.ObjectName(java.lang.String) throws javax.management.MalformedObjectNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,8 +67,9 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectName#ObjectName(String, String, String)
-     * public javax.management.ObjectName(java.lang.String,java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.ObjectName#ObjectName(String, String, String) public
+     * javax.management.ObjectName(java.lang.String,java.lang.String,java.lang.String) throws
      * javax.management.MalformedObjectNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,7 +91,8 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getInstance(ObjectName) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#getInstance(javax.management.ObjectName) public static
      * javax.management.ObjectName javax.management.ObjectName.getInstance(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,13 +107,14 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
     @Category(Draft.class)
     public void test_getInstance_ObjectName()
     throws Exception {
-        // write some test for {@link ObjectName#getInstance(ObjectName)}
+        // write some test for {@link javax.management.ObjectName#getInstance(javax.management.ObjectName)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getInstance(String, Hashtable) public
-     * static javax.management.ObjectName
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#getInstance(String, java.util.Hashtable) public static
+     * javax.management.ObjectName
      * javax.management.ObjectName.getInstance(java.lang.String,java.util.Hashtable<java.lang.String, java.lang.String>)
      * throws javax.management.MalformedObjectNameException}.
      *
@@ -127,13 +130,13 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
     @Category(Draft.class)
     public void test_getInstance_String_Hashtable()
     throws Exception {
-        // write some test for {@link ObjectName#getInstance(String, Hashtable)}
+        // write some test for {@link javax.management.ObjectName#getInstance(String, java.util.Hashtable)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getInstance(String, String, String)
-     * public static javax.management.ObjectName
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#getInstance(String, String, String) public static javax.management.ObjectName
      * javax.management.ObjectName.getInstance(java.lang.String,java.lang.String,java.lang.String) throws
      * javax.management.MalformedObjectNameException}.
      *
@@ -149,13 +152,13 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
     @Category(Draft.class)
     public void test_getInstance_String_String_String()
     throws Exception {
-        // write some test for {@link ObjectName#getInstance(String, String, String)}
+        // write some test for {@link javax.management.ObjectName#getInstance(String, String, String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#getInstance(String) public static
-     * javax.management.ObjectName javax.management.ObjectName.getInstance(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#getInstance(String)
+     * public static javax.management.ObjectName javax.management.ObjectName.getInstance(java.lang.String) throws
      * javax.management.MalformedObjectNameException,java.lang.NullPointerException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,13 +173,13 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
     @Category(Draft.class)
     public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link ObjectName#getInstance(String)}
+        // write some test for {@link javax.management.ObjectName#getInstance(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#unquote(String) public static
-     * java.lang.String javax.management.ObjectName.unquote(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#unquote(String) public
+     * static java.lang.String javax.management.ObjectName.unquote(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,13 +193,13 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
     @Category(Draft.class)
     public void test_unquote_String()
     throws Exception {
-        // write some test for {@link ObjectName#unquote(String)}
+        // write some test for {@link javax.management.ObjectName#unquote(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ObjectName#quote(String) public static
-     * java.lang.String javax.management.ObjectName.quote(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#quote(String) public
+     * static java.lang.String javax.management.ObjectName.quote(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,7 +213,7 @@ implements org.j8unit.repository.javax.management.ObjectNameClassTests<ObjectNam
     @Category(Draft.class)
     public void test_quote_String()
     throws Exception {
-        // write some test for {@link ObjectName#quote(String)}
+        // write some test for {@link javax.management.ObjectName#quote(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ObjectName]

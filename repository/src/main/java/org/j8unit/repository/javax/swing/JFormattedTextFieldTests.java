@@ -3,7 +3,6 @@ package org.j8unit.repository.javax.swing;
 import javax.swing.JFormattedTextField;
 import javax.swing.JFormattedTextField.AbstractFormatter;
 import javax.swing.JFormattedTextField.AbstractFormatterFactory;
-import javax.swing.text.Document;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,8 +36,9 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#setDocument(Document) public
-     * void javax.swing.JFormattedTextField.setDocument(javax.swing.text.Document)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFormattedTextField#setDocument(javax.swing.text.Document) public void
+     * javax.swing.JFormattedTextField.setDocument(javax.swing.text.Document)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +60,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#getValue() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFormattedTextField#getValue() public
      * java.lang.Object javax.swing.JFormattedTextField.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,7 +83,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JFormattedTextField#setFormatterFactory(AbstractFormatterFactory) public void
+     * {@link javax.swing.JFormattedTextField#setFormatterFactory(javax.swing.JFormattedTextField.AbstractFormatterFactory)
+     * public void
      * javax.swing.JFormattedTextField.setFormatterFactory(javax.swing.JFormattedTextField$AbstractFormatterFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,8 +106,9 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#setFocusLostBehavior(int) public
-     * void javax.swing.JFormattedTextField.setFocusLostBehavior(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFormattedTextField#setFocusLostBehavior(int) public void
+     * javax.swing.JFormattedTextField.setFocusLostBehavior(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +129,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#setValue(Object) public void
-     * javax.swing.JFormattedTextField.setValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFormattedTextField#setValue(Object)
+     * public void javax.swing.JFormattedTextField.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +151,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#isEditValid() public boolean
-     * javax.swing.JFormattedTextField.isEditValid()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFormattedTextField#isEditValid() public
+     * boolean javax.swing.JFormattedTextField.isEditValid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,8 +173,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#commitEdit() public void
-     * javax.swing.JFormattedTextField.commitEdit() throws java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFormattedTextField#commitEdit() public
+     * void javax.swing.JFormattedTextField.commitEdit() throws java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -193,8 +195,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#getUIClassID() public
-     * java.lang.String javax.swing.JFormattedTextField.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFormattedTextField#getUIClassID()
+     * public java.lang.String javax.swing.JFormattedTextField.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,7 +218,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#getActions() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFormattedTextField#getActions() public
      * javax.swing.Action[] javax.swing.JFormattedTextField.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -239,7 +241,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#getFormatterFactory() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFormattedTextField#getFormatterFactory() public
      * javax.swing.JFormattedTextField$AbstractFormatterFactory javax.swing.JFormattedTextField.getFormatterFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,8 +264,9 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#getFocusLostBehavior() public
-     * int javax.swing.JFormattedTextField.getFocusLostBehavior()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JFormattedTextField#getFocusLostBehavior() public int
+     * javax.swing.JFormattedTextField.getFocusLostBehavior()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -283,8 +287,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JFormattedTextField#getFormatter() public
-     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.JFormattedTextField.getFormatter()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFormattedTextField#getFormatter()
+     * public javax.swing.JFormattedTextField$AbstractFormatter javax.swing.JFormattedTextField.getFormatter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,6 +308,129 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField]
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link AbstractFormatter public abstract static class javax.swing.JFormattedTextField$AbstractFormatter}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface AbstractFormatterTests<SUT extends AbstractFormatter>
+    extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JFormattedTextField.AbstractFormatter#install(javax.swing.JFormattedTextField) public void
+         * javax.swing.JFormattedTextField$AbstractFormatter.install(javax.swing.JFormattedTextField)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_install_JFormattedTextField()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JFormattedTextField.AbstractFormatter#uninstall() public void
+         * javax.swing.JFormattedTextField$AbstractFormatter.uninstall()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_uninstall()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JFormattedTextField.AbstractFormatter#stringToValue(String) public abstract
+         * java.lang.Object javax.swing.JFormattedTextField$AbstractFormatter.stringToValue(java.lang.String) throws
+         * java.text.ParseException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_stringToValue_String()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JFormattedTextField.AbstractFormatter#valueToString(Object) public abstract
+         * java.lang.String javax.swing.JFormattedTextField$AbstractFormatter.valueToString(java.lang.Object) throws
+         * java.text.ParseException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_valueToString_Object()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
+
+    }
 
     /**
      * <p>
@@ -334,8 +461,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link AbstractFormatterFactory#getFormatter(JFormattedTextField) public abstract
-         * javax.swing.JFormattedTextField$AbstractFormatter
+         * {@link javax.swing.JFormattedTextField.AbstractFormatterFactory#getFormatter(javax.swing.JFormattedTextField)
+         * public abstract javax.swing.JFormattedTextField$AbstractFormatter
          * javax.swing.JFormattedTextField$AbstractFormatterFactory.getFormatter(javax.swing.JFormattedTextField)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -356,125 +483,6 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
         }
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link AbstractFormatter public abstract static class javax.swing.JFormattedTextField$AbstractFormatter}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface AbstractFormatterTests<SUT extends AbstractFormatter>
-    extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractFormatter#install(JFormattedTextField)
-         * public void javax.swing.JFormattedTextField$AbstractFormatter.install(javax.swing.JFormattedTextField)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_install_JFormattedTextField()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractFormatter#uninstall() public void
-         * javax.swing.JFormattedTextField$AbstractFormatter.uninstall()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_uninstall()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractFormatter#stringToValue(String) public
-         * abstract java.lang.Object javax.swing.JFormattedTextField$AbstractFormatter.stringToValue(java.lang.String)
-         * throws java.text.ParseException}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_stringToValue_String()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link AbstractFormatter#valueToString(Object) public
-         * abstract java.lang.String javax.swing.JFormattedTextField$AbstractFormatter.valueToString(java.lang.Object)
-         * throws java.text.ParseException}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_valueToString_Object()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
 
     }
 

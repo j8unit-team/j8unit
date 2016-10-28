@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#compact() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#compact() public abstract
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.compact()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#hasArray() public final boolean
-     * java.nio.DoubleBuffer.hasArray()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#hasArray() public final
+     * boolean java.nio.DoubleBuffer.hasArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#asReadOnlyBuffer() public abstract
-     * java.nio.DoubleBuffer java.nio.DoubleBuffer.asReadOnlyBuffer()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#asReadOnlyBuffer() public
+     * abstract java.nio.DoubleBuffer java.nio.DoubleBuffer.asReadOnlyBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#put(double) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#put(double) public abstract
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.put(double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#put(DoubleBuffer) public
-     * java.nio.DoubleBuffer java.nio.DoubleBuffer.put(java.nio.DoubleBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#put(java.nio.DoubleBuffer)
+     * public java.nio.DoubleBuffer java.nio.DoubleBuffer.put(java.nio.DoubleBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#put(int, double) public abstract
-     * java.nio.DoubleBuffer java.nio.DoubleBuffer.put(int,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#put(int, double) public
+     * abstract java.nio.DoubleBuffer java.nio.DoubleBuffer.put(int,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,7 +167,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#put(double[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#put(double[], int, int) public
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.put(double[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,7 +189,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#put(double[]) public final
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#put(double[]) public final
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.put(double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,7 +211,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#duplicate() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#duplicate() public abstract
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.duplicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,7 +233,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#compareTo(DoubleBuffer) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.DoubleBuffer#compareTo(java.nio.DoubleBuffer) public int
      * java.nio.DoubleBuffer.compareTo(java.nio.DoubleBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -255,7 +256,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#equals(Object) public boolean
      * java.nio.DoubleBuffer.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -278,8 +279,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#get(int) public abstract double
-     * java.nio.DoubleBuffer.get(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#get(int) public abstract
+     * double java.nio.DoubleBuffer.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -300,7 +301,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#get() public abstract double
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#get() public abstract double
      * java.nio.DoubleBuffer.get()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -322,7 +323,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#get(double[]) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#get(double[]) public
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.get(double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -344,7 +345,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#get(double[], int, int) public
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#get(double[], int, int) public
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.get(double[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -366,7 +367,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#hashCode() public int
      * java.nio.DoubleBuffer.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -389,7 +390,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#slice() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#slice() public abstract
      * java.nio.DoubleBuffer java.nio.DoubleBuffer.slice()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -411,7 +412,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#array() public final double[]
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#array() public final double[]
      * java.nio.DoubleBuffer.array()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -434,7 +435,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#order() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#order() public abstract
      * java.nio.ByteOrder java.nio.DoubleBuffer.order()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -456,8 +457,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#isDirect() public abstract boolean
-     * java.nio.DoubleBuffer.isDirect()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#isDirect() public abstract
+     * boolean java.nio.DoubleBuffer.isDirect()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -479,8 +480,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#toString() public java.lang.String
-     * java.nio.DoubleBuffer.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#toString() public
+     * java.lang.String java.nio.DoubleBuffer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -502,7 +503,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, DoubleBuffer>, org.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DoubleBuffer#arrayOffset() public final int
+     * Test method for the hereby targeted method-under-test {@link java.nio.DoubleBuffer#arrayOffset() public final int
      * java.nio.DoubleBuffer.arrayOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

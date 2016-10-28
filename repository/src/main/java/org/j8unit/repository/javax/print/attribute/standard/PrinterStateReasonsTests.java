@@ -37,9 +37,9 @@ org.j8unit.repository.java.util.HashMapTests<SUT, PrinterStateReason, Severity> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrinterStateReasons#getCategory() public final
-     * java.lang.Class<? extends javax.print.attribute.Attribute>
-     * javax.print.attribute.standard.PrinterStateReasons.getCategory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.PrinterStateReasons#getCategory() public final java.lang.Class<? extends
+     * javax.print.attribute.Attribute> javax.print.attribute.standard.PrinterStateReasons.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +62,8 @@ org.j8unit.repository.java.util.HashMapTests<SUT, PrinterStateReason, Severity> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link PrinterStateReasons#put(PrinterStateReason, Severity) public javax.print.attribute.standard.Severity
+     * {@link javax.print.attribute.standard.PrinterStateReasons#put(javax.print.attribute.standard.PrinterStateReason, javax.print.attribute.standard.Severity)
+     * public javax.print.attribute.standard.Severity
      * javax.print.attribute.standard.PrinterStateReasons.put(javax.print.attribute.standard.PrinterStateReason,javax.print.attribute.standard.Severity)}
      * .
      *
@@ -85,7 +86,8 @@ org.j8unit.repository.java.util.HashMapTests<SUT, PrinterStateReason, Severity> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrinterStateReasons#printerStateReasonSet(Severity)
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.PrinterStateReasons#printerStateReasonSet(javax.print.attribute.standard.Severity)
      * public java.util.Set<javax.print.attribute.standard.PrinterStateReason>
      * javax.print.attribute.standard.PrinterStateReasons.printerStateReasonSet(javax.print.attribute.standard.Severity)}
      * .
@@ -109,8 +111,9 @@ org.j8unit.repository.java.util.HashMapTests<SUT, PrinterStateReason, Severity> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PrinterStateReasons#getName() public final
-     * java.lang.String javax.print.attribute.standard.PrinterStateReasons.getName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.PrinterStateReasons#getName() public final java.lang.String
+     * javax.print.attribute.standard.PrinterStateReasons.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

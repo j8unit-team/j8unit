@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.xml.sax.EntityResolverTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link EntityResolver2#getExternalSubset(String, String)
-     * public abstract org.xml.sax.InputSource
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ext.EntityResolver2#getExternalSubset(String, String) public abstract org.xml.sax.InputSource
      * org.xml.sax.ext.EntityResolver2.getExternalSubset(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException,java.io.IOException}.
      *
@@ -59,7 +59,8 @@ extends org.j8unit.repository.org.xml.sax.EntityResolverTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link EntityResolver2#resolveEntity(String, String, String, String) public abstract org.xml.sax.InputSource
+     * {@link org.xml.sax.ext.EntityResolver2#resolveEntity(String, String, String, String) public abstract
+     * org.xml.sax.InputSource
      * org.xml.sax.ext.EntityResolver2.resolveEntity(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
      * throws org.xml.sax.SAXException,java.io.IOException}.
      *

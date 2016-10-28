@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management.relation;
 
-import java.util.List;
 import javax.management.relation.RoleList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.management.relation.RoleListClassTests<Ro
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RoleList#RoleList(List) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.relation.RoleList#RoleList(java.util.List) public
      * javax.management.relation.RoleList(java.util.List<javax.management.relation.Role>) throws
      * java.lang.IllegalArgumentException}.
      *
@@ -40,13 +40,13 @@ implements org.j8unit.repository.javax.management.relation.RoleListClassTests<Ro
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RoleList sut = null; // = new RoleList(List);
+        final RoleList sut = null; // = new RoleList(java.util.List);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RoleList#RoleList(int) public
-     * javax.management.relation.RoleList(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.relation.RoleList#RoleList(int) public javax.management.relation.RoleList(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,8 +67,8 @@ implements org.j8unit.repository.javax.management.relation.RoleListClassTests<Ro
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RoleList#RoleList() public
-     * javax.management.relation.RoleList()}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.management.relation.RoleList#RoleList()
+     * public javax.management.relation.RoleList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

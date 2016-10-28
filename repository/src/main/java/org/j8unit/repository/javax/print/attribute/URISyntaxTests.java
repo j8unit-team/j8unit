@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URISyntax#hashCode() public int
-     * javax.print.attribute.URISyntax.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.URISyntax#hashCode() public
+     * int javax.print.attribute.URISyntax.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URISyntax#equals(Object) public boolean
-     * javax.print.attribute.URISyntax.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.URISyntax#equals(Object)
+     * public boolean javax.print.attribute.URISyntax.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URISyntax#getURI() public java.net.URI
-     * javax.print.attribute.URISyntax.getURI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.URISyntax#getURI() public
+     * java.net.URI javax.print.attribute.URISyntax.getURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link URISyntax#toString() public java.lang.String
-     * javax.print.attribute.URISyntax.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.URISyntax#toString() public
+     * java.lang.String javax.print.attribute.URISyntax.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

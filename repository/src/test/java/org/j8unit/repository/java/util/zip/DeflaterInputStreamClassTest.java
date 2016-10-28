@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.zip;
 
-import java.io.InputStream;
-import java.util.zip.Deflater;
 import java.util.zip.DeflaterInputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.util.zip.DeflaterInputStreamClassTests<Def
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DeflaterInputStream#DeflaterInputStream(InputStream, Deflater, int) public
-     * java.util.zip.DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater,int)}.
+     * {@link java.util.zip.DeflaterInputStream#DeflaterInputStream(java.io.InputStream, java.util.zip.Deflater, int)
+     * public java.util.zip.DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +39,14 @@ implements org.j8unit.repository.java.util.zip.DeflaterInputStreamClassTests<Def
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DeflaterInputStream sut = null; // = new DeflaterInputStream(InputStream, Deflater, int);
+        final DeflaterInputStream sut = null; // = new DeflaterInputStream(java.io.InputStream, java.util.zip.Deflater,
+                                              // int);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DeflaterInputStream#DeflaterInputStream(InputStream) public
+     * {@link java.util.zip.DeflaterInputStream#DeflaterInputStream(java.io.InputStream) public
      * java.util.zip.DeflaterInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +63,13 @@ implements org.j8unit.repository.java.util.zip.DeflaterInputStreamClassTests<Def
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DeflaterInputStream sut = null; // = new DeflaterInputStream(InputStream);
+        final DeflaterInputStream sut = null; // = new DeflaterInputStream(java.io.InputStream);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DeflaterInputStream#DeflaterInputStream(InputStream, Deflater) public
+     * {@link java.util.zip.DeflaterInputStream#DeflaterInputStream(java.io.InputStream, java.util.zip.Deflater) public
      * java.util.zip.DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,7 +86,7 @@ implements org.j8unit.repository.java.util.zip.DeflaterInputStreamClassTests<Def
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DeflaterInputStream sut = null; // = new DeflaterInputStream(InputStream, Deflater);
+        final DeflaterInputStream sut = null; // = new DeflaterInputStream(java.io.InputStream, java.util.zip.Deflater);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.DeflaterInputStream]

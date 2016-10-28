@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.bind.PropertyExceptionClassTests<Prop
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyException#PropertyException(String, Object) public
+     * {@link javax.xml.bind.PropertyException#PropertyException(String, Object) public
      * javax.xml.bind.PropertyException(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.bind.PropertyExceptionClassTests<Prop
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyException#PropertyException(String, String, Throwable) public
+     * {@link javax.xml.bind.PropertyException#PropertyException(String, String, Throwable) public
      * javax.xml.bind.PropertyException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.xml.bind.PropertyExceptionClassTests<Prop
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyException#PropertyException(String, Throwable) public
+     * {@link javax.xml.bind.PropertyException#PropertyException(String, Throwable) public
      * javax.xml.bind.PropertyException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,8 +90,9 @@ implements org.j8unit.repository.javax.xml.bind.PropertyExceptionClassTests<Prop
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PropertyException#PropertyException(Throwable)
-     * public javax.xml.bind.PropertyException(java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.PropertyException#PropertyException(Throwable) public
+     * javax.xml.bind.PropertyException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -113,7 +114,7 @@ implements org.j8unit.repository.javax.xml.bind.PropertyExceptionClassTests<Prop
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyException#PropertyException(String, String) public
+     * {@link javax.xml.bind.PropertyException#PropertyException(String, String) public
      * javax.xml.bind.PropertyException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,8 +136,9 @@ implements org.j8unit.repository.javax.xml.bind.PropertyExceptionClassTests<Prop
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PropertyException#PropertyException(String)
-     * public javax.xml.bind.PropertyException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.PropertyException#PropertyException(String) public
+     * javax.xml.bind.PropertyException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

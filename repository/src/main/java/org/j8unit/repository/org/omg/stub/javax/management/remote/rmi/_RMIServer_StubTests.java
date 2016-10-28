@@ -34,7 +34,8 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServer_Stub#_ids() public java.lang.String[]
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServer_Stub#_ids() public java.lang.String[]
      * org.omg.stub.javax.management.remote.rmi._RMIServer_Stub._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +58,8 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServer_Stub#newClient(Object) public
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServer_Stub#newClient(Object) public
      * javax.management.remote.rmi.RMIConnection
      * org.omg.stub.javax.management.remote.rmi._RMIServer_Stub.newClient(java.lang.Object) throws java.io.IOException}.
      *
@@ -81,7 +83,8 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIServer_Stub#getVersion() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.stub.javax.management.remote.rmi._RMIServer_Stub#getVersion() public java.lang.String
      * org.omg.stub.javax.management.remote.rmi._RMIServer_Stub.getVersion() throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPHeaderElement#setRole(String) public abstract
-     * void javax.xml.soap.SOAPHeaderElement.setRole(java.lang.String) throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPHeaderElement#setRole(String)
+     * public abstract void javax.xml.soap.SOAPHeaderElement.setRole(java.lang.String) throws
+     * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPHeaderElement#setActor(String) public abstract
-     * void javax.xml.soap.SOAPHeaderElement.setActor(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPHeaderElement#setActor(String)
+     * public abstract void javax.xml.soap.SOAPHeaderElement.setActor(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +79,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPHeaderElement#getMustUnderstand() public
-     * abstract boolean javax.xml.soap.SOAPHeaderElement.getMustUnderstand()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPHeaderElement#getMustUnderstand()
+     * public abstract boolean javax.xml.soap.SOAPHeaderElement.getMustUnderstand()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +101,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPHeaderElement#setRelay(boolean) public abstract
-     * void javax.xml.soap.SOAPHeaderElement.setRelay(boolean) throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPHeaderElement#setRelay(boolean)
+     * public abstract void javax.xml.soap.SOAPHeaderElement.setRelay(boolean) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +123,9 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPHeaderElement#setMustUnderstand(boolean) public
-     * abstract void javax.xml.soap.SOAPHeaderElement.setMustUnderstand(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPHeaderElement#setMustUnderstand(boolean) public abstract void
+     * javax.xml.soap.SOAPHeaderElement.setMustUnderstand(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +146,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPHeaderElement#getActor() public abstract
-     * java.lang.String javax.xml.soap.SOAPHeaderElement.getActor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPHeaderElement#getActor() public
+     * abstract java.lang.String javax.xml.soap.SOAPHeaderElement.getActor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +168,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPHeaderElement#getRelay() public abstract boolean
-     * javax.xml.soap.SOAPHeaderElement.getRelay()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPHeaderElement#getRelay() public
+     * abstract boolean javax.xml.soap.SOAPHeaderElement.getRelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +190,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SOAPHeaderElement#getRole() public abstract
-     * java.lang.String javax.xml.soap.SOAPHeaderElement.getRole()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPHeaderElement#getRole() public
+     * abstract java.lang.String javax.xml.soap.SOAPHeaderElement.getRole()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

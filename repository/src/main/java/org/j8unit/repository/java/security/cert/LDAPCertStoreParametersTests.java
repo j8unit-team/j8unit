@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LDAPCertStoreParameters#getServerName() public
-     * java.lang.String java.security.cert.LDAPCertStoreParameters.getServerName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.LDAPCertStoreParameters#getServerName() public java.lang.String
+     * java.security.cert.LDAPCertStoreParameters.getServerName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LDAPCertStoreParameters#toString() public
-     * java.lang.String java.security.cert.LDAPCertStoreParameters.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.LDAPCertStoreParameters#toString() public java.lang.String
+     * java.security.cert.LDAPCertStoreParameters.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,8 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LDAPCertStoreParameters#clone() public
-     * java.lang.Object java.security.cert.LDAPCertStoreParameters.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.LDAPCertStoreParameters#clone()
+     * public java.lang.Object java.security.cert.LDAPCertStoreParameters.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +104,8 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LDAPCertStoreParameters#getPort() public int
-     * java.security.cert.LDAPCertStoreParameters.getPort()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.LDAPCertStoreParameters#getPort()
+     * public int java.security.cert.LDAPCertStoreParameters.getPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

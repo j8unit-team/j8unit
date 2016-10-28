@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.event;
 
-import javax.imageio.ImageReader;
 import javax.imageio.event.IIOReadProgressListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOReadProgressListener#thumbnailProgress(ImageReader, float) public abstract void
-     * javax.imageio.event.IIOReadProgressListener.thumbnailProgress(javax.imageio.ImageReader,float)}.
+     * {@link javax.imageio.event.IIOReadProgressListener#thumbnailProgress(javax.imageio.ImageReader, float) public
+     * abstract void javax.imageio.event.IIOReadProgressListener.thumbnailProgress(javax.imageio.ImageReader,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOReadProgressListener#sequenceComplete(ImageReader) public abstract void
-     * javax.imageio.event.IIOReadProgressListener.sequenceComplete(javax.imageio.ImageReader)}.
+     * {@link javax.imageio.event.IIOReadProgressListener#sequenceComplete(javax.imageio.ImageReader) public abstract
+     * void javax.imageio.event.IIOReadProgressListener.sequenceComplete(javax.imageio.ImageReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOReadProgressListener#readAborted(ImageReader)
-     * public abstract void javax.imageio.event.IIOReadProgressListener.readAborted(javax.imageio.ImageReader)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.event.IIOReadProgressListener#readAborted(javax.imageio.ImageReader) public abstract void
+     * javax.imageio.event.IIOReadProgressListener.readAborted(javax.imageio.ImageReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOReadProgressListener#imageProgress(ImageReader, float) public abstract void
-     * javax.imageio.event.IIOReadProgressListener.imageProgress(javax.imageio.ImageReader,float)}.
+     * {@link javax.imageio.event.IIOReadProgressListener#imageProgress(javax.imageio.ImageReader, float) public
+     * abstract void javax.imageio.event.IIOReadProgressListener.imageProgress(javax.imageio.ImageReader,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +127,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOReadProgressListener#sequenceStarted(ImageReader, int) public abstract void
-     * javax.imageio.event.IIOReadProgressListener.sequenceStarted(javax.imageio.ImageReader,int)}.
+     * {@link javax.imageio.event.IIOReadProgressListener#sequenceStarted(javax.imageio.ImageReader, int) public
+     * abstract void javax.imageio.event.IIOReadProgressListener.sequenceStarted(javax.imageio.ImageReader,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +150,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOReadProgressListener#imageStarted(ImageReader, int) public abstract void
-     * javax.imageio.event.IIOReadProgressListener.imageStarted(javax.imageio.ImageReader,int)}.
+     * {@link javax.imageio.event.IIOReadProgressListener#imageStarted(javax.imageio.ImageReader, int) public abstract
+     * void javax.imageio.event.IIOReadProgressListener.imageStarted(javax.imageio.ImageReader,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +173,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOReadProgressListener#thumbnailComplete(ImageReader) public abstract void
-     * javax.imageio.event.IIOReadProgressListener.thumbnailComplete(javax.imageio.ImageReader)}.
+     * {@link javax.imageio.event.IIOReadProgressListener#thumbnailComplete(javax.imageio.ImageReader) public abstract
+     * void javax.imageio.event.IIOReadProgressListener.thumbnailComplete(javax.imageio.ImageReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +195,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link IIOReadProgressListener#imageComplete(ImageReader)
-     * public abstract void javax.imageio.event.IIOReadProgressListener.imageComplete(javax.imageio.ImageReader)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.event.IIOReadProgressListener#imageComplete(javax.imageio.ImageReader) public abstract void
+     * javax.imageio.event.IIOReadProgressListener.imageComplete(javax.imageio.ImageReader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,8 +219,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOReadProgressListener#thumbnailStarted(ImageReader, int, int) public abstract void
-     * javax.imageio.event.IIOReadProgressListener.thumbnailStarted(javax.imageio.ImageReader,int,int)}.
+     * {@link javax.imageio.event.IIOReadProgressListener#thumbnailStarted(javax.imageio.ImageReader, int, int) public
+     * abstract void javax.imageio.event.IIOReadProgressListener.thumbnailStarted(javax.imageio.ImageReader,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

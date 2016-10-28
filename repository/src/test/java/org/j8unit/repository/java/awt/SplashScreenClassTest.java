@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.SplashScreenClassTests<SplashScreen> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SplashScreen#getSplashScreen() public static
-     * java.awt.SplashScreen java.awt.SplashScreen.getSplashScreen()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.SplashScreen#getSplashScreen() public
+     * static java.awt.SplashScreen java.awt.SplashScreen.getSplashScreen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,7 +36,7 @@ implements org.j8unit.repository.java.awt.SplashScreenClassTests<SplashScreen> {
     @Category(Draft.class)
     public void test_getSplashScreen()
     throws Exception {
-        // write some test for {@link SplashScreen#getSplashScreen()}
+        // write some test for {@link java.awt.SplashScreen#getSplashScreen()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.SplashScreen]

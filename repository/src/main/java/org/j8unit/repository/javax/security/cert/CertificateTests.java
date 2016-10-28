@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.cert;
 
-import java.security.PublicKey;
 import javax.security.cert.Certificate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#toString() public abstract
-     * java.lang.String javax.security.cert.Certificate.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.cert.Certificate#toString() public
+     * abstract java.lang.String javax.security.cert.Certificate.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#getPublicKey() public abstract
-     * java.security.PublicKey javax.security.cert.Certificate.getPublicKey()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.cert.Certificate#getPublicKey()
+     * public abstract java.security.PublicKey javax.security.cert.Certificate.getPublicKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#verify(PublicKey) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.cert.Certificate#verify(java.security.PublicKey) public abstract void
      * javax.security.cert.Certificate.verify(java.security.PublicKey) throws
      * javax.security.cert.CertificateException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.NoSuchProviderException,java.security.SignatureException}
      * .
@@ -104,8 +104,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#verify(PublicKey, String) public
-     * abstract void javax.security.cert.Certificate.verify(java.security.PublicKey,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.cert.Certificate#verify(java.security.PublicKey, String) public abstract void
+     * javax.security.cert.Certificate.verify(java.security.PublicKey,java.lang.String) throws
      * javax.security.cert.CertificateException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.NoSuchProviderException,java.security.SignatureException}
      * .
      *
@@ -128,8 +129,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#getEncoded() public abstract byte[]
-     * javax.security.cert.Certificate.getEncoded() throws javax.security.cert.CertificateEncodingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.cert.Certificate#getEncoded() public
+     * abstract byte[] javax.security.cert.Certificate.getEncoded() throws
+     * javax.security.cert.CertificateEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +152,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#hashCode() public int
-     * javax.security.cert.Certificate.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.cert.Certificate#hashCode() public
+     * int javax.security.cert.Certificate.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +175,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Certificate#equals(Object) public boolean
-     * javax.security.cert.Certificate.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.cert.Certificate#equals(Object)
+     * public boolean javax.security.cert.Certificate.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

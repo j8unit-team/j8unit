@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterResolutio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PrinterResolution#PrinterResolution(int, int, int) public
+     * {@link javax.print.attribute.standard.PrinterResolution#PrinterResolution(int, int, int) public
      * javax.print.attribute.standard.PrinterResolution(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

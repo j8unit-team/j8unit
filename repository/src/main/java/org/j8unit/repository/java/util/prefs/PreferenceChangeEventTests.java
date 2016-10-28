@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PreferenceChangeEvent#getNewValue() public
-     * java.lang.String java.util.prefs.PreferenceChangeEvent.getNewValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.PreferenceChangeEvent#getNewValue()
+     * public java.lang.String java.util.prefs.PreferenceChangeEvent.getNewValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PreferenceChangeEvent#getNode() public
-     * java.util.prefs.Preferences java.util.prefs.PreferenceChangeEvent.getNode()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.PreferenceChangeEvent#getNode()
+     * public java.util.prefs.Preferences java.util.prefs.PreferenceChangeEvent.getNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PreferenceChangeEvent#getKey() public
-     * java.lang.String java.util.prefs.PreferenceChangeEvent.getKey()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.PreferenceChangeEvent#getKey()
+     * public java.lang.String java.util.prefs.PreferenceChangeEvent.getKey()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

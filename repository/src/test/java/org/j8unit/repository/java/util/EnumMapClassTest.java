@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.EnumMap;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.java.util.EnumMapClassTests<EnumMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link EnumMap#EnumMap(Class) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.EnumMap#EnumMap(Class) public
      * java.util.EnumMap(java.lang.Class<K>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +44,7 @@ implements org.j8unit.repository.java.util.EnumMapClassTests<EnumMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link EnumMap#EnumMap(Map) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.EnumMap#EnumMap(java.util.Map) public
      * java.util.EnumMap(java.util.Map<K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +61,13 @@ implements org.j8unit.repository.java.util.EnumMapClassTests<EnumMap> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final EnumMap sut = null; // = new EnumMap(Map);
+        final EnumMap sut = null; // = new EnumMap(java.util.Map);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link EnumMap#EnumMap(EnumMap) public
-     * java.util.EnumMap(java.util.EnumMap<K, ? extends V>)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.EnumMap#EnumMap(java.util.EnumMap)
+     * public java.util.EnumMap(java.util.EnumMap<K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,7 +83,7 @@ implements org.j8unit.repository.java.util.EnumMapClassTests<EnumMap> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final EnumMap sut = null; // = new EnumMap(EnumMap);
+        final EnumMap sut = null; // = new EnumMap(java.util.EnumMap);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.EnumMap]

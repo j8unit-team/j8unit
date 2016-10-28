@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PageRangesClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PageRanges#PageRanges(int, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.PageRanges#PageRanges(int, int) public
      * javax.print.attribute.standard.PageRanges(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +44,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PageRangesClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PageRanges#PageRanges(int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.PageRanges#PageRanges(int) public
      * javax.print.attribute.standard.PageRanges(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,7 +67,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PageRangesClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PageRanges#PageRanges(int[][]) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.PageRanges#PageRanges(int[][]) public
      * javax.print.attribute.standard.PageRanges(int[][])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,7 +90,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PageRangesClassT
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PageRanges#PageRanges(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.PageRanges#PageRanges(String) public
      * javax.print.attribute.standard.PageRanges(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

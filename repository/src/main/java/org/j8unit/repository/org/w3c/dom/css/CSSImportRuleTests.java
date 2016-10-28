@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSImportRule#getStyleSheet() public abstract
-     * org.w3c.dom.css.CSSStyleSheet org.w3c.dom.css.CSSImportRule.getStyleSheet()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSImportRule#getStyleSheet() public
+     * abstract org.w3c.dom.css.CSSStyleSheet org.w3c.dom.css.CSSImportRule.getStyleSheet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSImportRule#getHref() public abstract
-     * java.lang.String org.w3c.dom.css.CSSImportRule.getHref()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSImportRule#getHref() public
+     * abstract java.lang.String org.w3c.dom.css.CSSImportRule.getHref()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSImportRule#getMedia() public abstract
-     * org.w3c.dom.stylesheets.MediaList org.w3c.dom.css.CSSImportRule.getMedia()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSImportRule#getMedia() public
+     * abstract org.w3c.dom.stylesheets.MediaList org.w3c.dom.css.CSSImportRule.getMedia()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

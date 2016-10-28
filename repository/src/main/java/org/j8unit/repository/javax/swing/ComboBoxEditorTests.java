@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.event.ActionListener;
 import javax.swing.ComboBoxEditor;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxEditor#removeActionListener(ActionListener)
-     * public abstract void javax.swing.ComboBoxEditor.removeActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ComboBoxEditor#removeActionListener(java.awt.event.ActionListener) public abstract void
+     * javax.swing.ComboBoxEditor.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxEditor#addActionListener(ActionListener)
-     * public abstract void javax.swing.ComboBoxEditor.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ComboBoxEditor#addActionListener(java.awt.event.ActionListener) public abstract void
+     * javax.swing.ComboBoxEditor.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxEditor#selectAll() public abstract void
-     * javax.swing.ComboBoxEditor.selectAll()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ComboBoxEditor#selectAll() public
+     * abstract void javax.swing.ComboBoxEditor.selectAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxEditor#setItem(Object) public abstract void
-     * javax.swing.ComboBoxEditor.setItem(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ComboBoxEditor#setItem(Object) public
+     * abstract void javax.swing.ComboBoxEditor.setItem(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,7 +125,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxEditor#getItem() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ComboBoxEditor#getItem() public abstract
      * java.lang.Object javax.swing.ComboBoxEditor.getItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +147,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComboBoxEditor#getEditorComponent() public abstract
-     * java.awt.Component javax.swing.ComboBoxEditor.getEditorComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ComboBoxEditor#getEditorComponent()
+     * public abstract java.awt.Component javax.swing.ComboBoxEditor.getEditorComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

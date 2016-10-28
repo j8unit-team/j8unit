@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth.x500;
 
-import java.util.Map;
 import javax.security.auth.x500.X500Principal;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500Principal#getName() public java.lang.String
-     * javax.security.auth.x500.X500Principal.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.x500.X500Principal#getName()
+     * public java.lang.String javax.security.auth.x500.X500Principal.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500Principal#getName(String, Map) public
-     * java.lang.String javax.security.auth.x500.X500Principal.getName(java.lang.String,java.util.Map<java.lang.String,
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.x500.X500Principal#getName(String, java.util.Map) public java.lang.String
+     * javax.security.auth.x500.X500Principal.getName(java.lang.String,java.util.Map<java.lang.String,
      * java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500Principal#getName(String) public
-     * java.lang.String javax.security.auth.x500.X500Principal.getName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.x500.X500Principal#getName(String) public java.lang.String
+     * javax.security.auth.x500.X500Principal.getName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,7 +105,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500Principal#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.x500.X500Principal#equals(Object) public boolean
      * javax.security.auth.x500.X500Principal.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +129,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500Principal#getEncoded() public byte[]
-     * javax.security.auth.x500.X500Principal.getEncoded()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.x500.X500Principal#getEncoded()
+     * public byte[] javax.security.auth.x500.X500Principal.getEncoded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +151,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500Principal#hashCode() public int
-     * javax.security.auth.x500.X500Principal.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.x500.X500Principal#hashCode()
+     * public int javax.security.auth.x500.X500Principal.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +174,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link X500Principal#toString() public java.lang.String
-     * javax.security.auth.x500.X500Principal.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.x500.X500Principal#toString()
+     * public java.lang.String javax.security.auth.x500.X500Principal.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

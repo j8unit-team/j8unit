@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import java.lang.reflect.Method;
 import javax.management.MBeanServerInvocationHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerInvocationHandler#invoke(Object, Method, Object[]) public java.lang.Object
+     * {@link javax.management.MBeanServerInvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public
+     * java.lang.Object
      * javax.management.MBeanServerInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])
      * throws java.lang.Throwable}.
      *
@@ -60,8 +60,9 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerInvocationHandler#isMXBean() public
-     * boolean javax.management.MBeanServerInvocationHandler.isMXBean()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerInvocationHandler#isMXBean() public boolean
+     * javax.management.MBeanServerInvocationHandler.isMXBean()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,8 +84,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerInvocationHandler#getMBeanServerConnection() public javax.management.MBeanServerConnection
-     * javax.management.MBeanServerInvocationHandler.getMBeanServerConnection()}.
+     * {@link javax.management.MBeanServerInvocationHandler#getMBeanServerConnection() public
+     * javax.management.MBeanServerConnection javax.management.MBeanServerInvocationHandler.getMBeanServerConnection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +106,9 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerInvocationHandler#getObjectName() public
-     * javax.management.ObjectName javax.management.MBeanServerInvocationHandler.getObjectName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerInvocationHandler#getObjectName() public javax.management.ObjectName
+     * javax.management.MBeanServerInvocationHandler.getObjectName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

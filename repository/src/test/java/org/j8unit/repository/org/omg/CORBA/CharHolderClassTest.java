@@ -21,7 +21,7 @@ implements org.j8unit.repository.org.omg.CORBA.CharHolderClassTests<CharHolder> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CharHolder#CharHolder() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.CharHolder#CharHolder() public
      * org.omg.CORBA.CharHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.CharHolderClassTests<CharHolder> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CharHolder#CharHolder(char) public
-     * org.omg.CORBA.CharHolder(char)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.CharHolder#CharHolder(char)
+     * public org.omg.CORBA.CharHolder(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

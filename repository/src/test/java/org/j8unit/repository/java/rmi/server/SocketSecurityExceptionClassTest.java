@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.rmi.server.SocketSecurityExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SocketSecurityException#SocketSecurityException(String) public
+     * {@link java.rmi.server.SocketSecurityException#SocketSecurityException(String) public
      * java.rmi.server.SocketSecurityException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.java.rmi.server.SocketSecurityExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SocketSecurityException#SocketSecurityException(String, Exception) public
+     * {@link java.rmi.server.SocketSecurityException#SocketSecurityException(String, Exception) public
      * java.rmi.server.SocketSecurityException(java.lang.String,java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

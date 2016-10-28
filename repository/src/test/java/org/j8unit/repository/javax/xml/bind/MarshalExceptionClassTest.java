@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.bind.MarshalExceptionClassTests<Marsh
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MarshalException#MarshalException(String, String, Throwable) public
+     * {@link javax.xml.bind.MarshalException#MarshalException(String, String, Throwable) public
      * javax.xml.bind.MarshalException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.bind.MarshalExceptionClassTests<Marsh
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MarshalException#MarshalException(String, Throwable) public
+     * {@link javax.xml.bind.MarshalException#MarshalException(String, Throwable) public
      * javax.xml.bind.MarshalException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,9 @@ implements org.j8unit.repository.javax.xml.bind.MarshalExceptionClassTests<Marsh
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MarshalException#MarshalException(Throwable)
-     * public javax.xml.bind.MarshalException(java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.MarshalException#MarshalException(Throwable) public
+     * javax.xml.bind.MarshalException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,7 +91,7 @@ implements org.j8unit.repository.javax.xml.bind.MarshalExceptionClassTests<Marsh
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MarshalException#MarshalException(String, String) public
+     * {@link javax.xml.bind.MarshalException#MarshalException(String, String) public
      * javax.xml.bind.MarshalException(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,8 +113,9 @@ implements org.j8unit.repository.javax.xml.bind.MarshalExceptionClassTests<Marsh
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MarshalException#MarshalException(String)
-     * public javax.xml.bind.MarshalException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.MarshalException#MarshalException(String) public
+     * javax.xml.bind.MarshalException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

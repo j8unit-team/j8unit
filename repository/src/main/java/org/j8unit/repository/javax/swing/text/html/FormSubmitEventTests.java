@@ -35,8 +35,8 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormSubmitEvent#getMethod() public
-     * javax.swing.text.html.FormSubmitEvent$MethodType javax.swing.text.html.FormSubmitEvent.getMethod()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.FormSubmitEvent#getMethod()
+     * public javax.swing.text.html.FormSubmitEvent$MethodType javax.swing.text.html.FormSubmitEvent.getMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventTests
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FormSubmitEvent#getData() public java.lang.String
-     * javax.swing.text.html.FormSubmitEvent.getData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.FormSubmitEvent#getData()
+     * public java.lang.String javax.swing.text.html.FormSubmitEvent.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.smartcardio.CardExceptionClassTests<CardE
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CardException#CardException(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.smartcardio.CardException#CardException(String) public
      * javax.smartcardio.CardException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +44,8 @@ implements org.j8unit.repository.javax.smartcardio.CardExceptionClassTests<CardE
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CardException#CardException(Throwable) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.smartcardio.CardException#CardException(Throwable) public
      * javax.smartcardio.CardException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +67,9 @@ implements org.j8unit.repository.javax.smartcardio.CardExceptionClassTests<CardE
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CardException#CardException(String, Throwable)
-     * public javax.smartcardio.CardException(java.lang.String,java.lang.Throwable)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.smartcardio.CardException#CardException(String, Throwable) public
+     * javax.smartcardio.CardException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

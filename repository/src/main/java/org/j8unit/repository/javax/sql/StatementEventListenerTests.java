@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql;
 
-import javax.sql.StatementEvent;
 import javax.sql.StatementEventListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StatementEventListener#statementErrorOccurred(StatementEvent) public abstract void
+     * {@link javax.sql.StatementEventListener#statementErrorOccurred(javax.sql.StatementEvent) public abstract void
      * javax.sql.StatementEventListener.statementErrorOccurred(javax.sql.StatementEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link StatementEventListener#statementClosed(StatementEvent) public abstract void
+     * {@link javax.sql.StatementEventListener#statementClosed(javax.sql.StatementEvent) public abstract void
      * javax.sql.StatementEventListener.statementClosed(javax.sql.StatementEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -23,7 +23,7 @@ implements org.j8unit.repository.javax.imageio.spi.ImageWriterSpiClassTests<Imag
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ImageWriterSpi#ImageWriterSpi(String, String, String[], String[], String[], String, Class[], String[], boolean, String, String, String[], String[], boolean, String, String, String[], String[])
+     * {@link javax.imageio.spi.ImageWriterSpi#ImageWriterSpi(String, String, String[], String[], String[], String, Class[], String[], boolean, String, String, String[], String[], boolean, String, String, String[], String[])
      * public
      * javax.imageio.spi.ImageWriterSpi(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String[],java.lang.String,java.lang.Class[],java.lang.String[],boolean,java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],boolean,java.lang.String,java.lang.String,java.lang.String[],java.lang.String[])}
      * .

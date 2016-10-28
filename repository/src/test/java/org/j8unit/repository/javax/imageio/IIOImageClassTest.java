@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.imageio;
 
-import java.awt.image.Raster;
-import java.awt.image.RenderedImage;
-import java.util.List;
 import javax.imageio.IIOImage;
-import javax.imageio.metadata.IIOMetadata;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -26,8 +22,8 @@ implements org.j8unit.repository.javax.imageio.IIOImageClassTests<IIOImage> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IIOImage#IIOImage(RenderedImage, List, IIOMetadata) public
-     * javax.imageio.IIOImage(java.awt.image.RenderedImage,java.util.List<? extends
+     * {@link javax.imageio.IIOImage#IIOImage(java.awt.image.RenderedImage, java.util.List, javax.imageio.metadata.IIOMetadata)
+     * public javax.imageio.IIOImage(java.awt.image.RenderedImage,java.util.List<? extends
      * java.awt.image.BufferedImage>,javax.imageio.metadata.IIOMetadata)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,12 +40,14 @@ implements org.j8unit.repository.javax.imageio.IIOImageClassTests<IIOImage> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IIOImage sut = null; // = new IIOImage(RenderedImage, List, IIOMetadata);
+        final IIOImage sut = null; // = new IIOImage(java.awt.image.RenderedImage, java.util.List,
+                                   // javax.imageio.metadata.IIOMetadata);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link IIOImage#IIOImage(Raster, List, IIOMetadata)
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.IIOImage#IIOImage(java.awt.image.Raster, java.util.List, javax.imageio.metadata.IIOMetadata)
      * public javax.imageio.IIOImage(java.awt.image.Raster,java.util.List<? extends
      * java.awt.image.BufferedImage>,javax.imageio.metadata.IIOMetadata)}.
      *
@@ -67,7 +65,8 @@ implements org.j8unit.repository.javax.imageio.IIOImageClassTests<IIOImage> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IIOImage sut = null; // = new IIOImage(Raster, List, IIOMetadata);
+        final IIOImage sut = null; // = new IIOImage(java.awt.image.Raster, java.util.List,
+                                   // javax.imageio.metadata.IIOMetadata);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.IIOImage]

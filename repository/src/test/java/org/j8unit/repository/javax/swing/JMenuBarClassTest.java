@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.JMenuBarClassTests<JMenuBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JMenuBar#JMenuBar() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenuBar#JMenuBar() public
      * javax.swing.JMenuBar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

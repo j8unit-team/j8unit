@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.jar;
 
 import java.util.jar.JarEntry;
-import java.util.zip.ZipEntry;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.util.jar.JarEntryClassTests<JarEntry> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarEntry#JarEntry(JarEntry) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.jar.JarEntry#JarEntry(java.util.jar.JarEntry) public
      * java.util.jar.JarEntry(java.util.jar.JarEntry)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,12 +39,13 @@ implements org.j8unit.repository.java.util.jar.JarEntryClassTests<JarEntry> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JarEntry sut = null; // = new JarEntry(JarEntry);
+        final JarEntry sut = null; // = new JarEntry(java.util.jar.JarEntry);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarEntry#JarEntry(ZipEntry) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.jar.JarEntry#JarEntry(java.util.zip.ZipEntry) public
      * java.util.jar.JarEntry(java.util.zip.ZipEntry)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,12 +62,12 @@ implements org.j8unit.repository.java.util.jar.JarEntryClassTests<JarEntry> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JarEntry sut = null; // = new JarEntry(ZipEntry);
+        final JarEntry sut = null; // = new JarEntry(java.util.zip.ZipEntry);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link JarEntry#JarEntry(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.jar.JarEntry#JarEntry(String) public
      * java.util.jar.JarEntry(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

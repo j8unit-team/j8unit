@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.Action;
-import javax.swing.KeyStroke;
 import javax.swing.text.Keymap;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -37,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#getDefaultAction() public abstract
-     * javax.swing.Action javax.swing.text.Keymap.getDefaultAction()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Keymap#getDefaultAction() public
+     * abstract javax.swing.Action javax.swing.text.Keymap.getDefaultAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#isLocallyDefined(KeyStroke) public abstract
-     * boolean javax.swing.text.Keymap.isLocallyDefined(javax.swing.KeyStroke)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Keymap#isLocallyDefined(javax.swing.KeyStroke) public abstract boolean
+     * javax.swing.text.Keymap.isLocallyDefined(javax.swing.KeyStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#getName() public abstract java.lang.String
-     * javax.swing.text.Keymap.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Keymap#getName() public abstract
+     * java.lang.String javax.swing.text.Keymap.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#getResolveParent() public abstract
-     * javax.swing.text.Keymap javax.swing.text.Keymap.getResolveParent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Keymap#getResolveParent() public
+     * abstract javax.swing.text.Keymap javax.swing.text.Keymap.getResolveParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#getBoundActions() public abstract
-     * javax.swing.Action[] javax.swing.text.Keymap.getBoundActions()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Keymap#getBoundActions() public
+     * abstract javax.swing.Action[] javax.swing.text.Keymap.getBoundActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +146,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#addActionForKeyStroke(KeyStroke, Action)
-     * public abstract void javax.swing.text.Keymap.addActionForKeyStroke(javax.swing.KeyStroke,javax.swing.Action)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Keymap#addActionForKeyStroke(javax.swing.KeyStroke, javax.swing.Action) public abstract
+     * void javax.swing.text.Keymap.addActionForKeyStroke(javax.swing.KeyStroke,javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +169,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#removeKeyStrokeBinding(KeyStroke) public
-     * abstract void javax.swing.text.Keymap.removeKeyStrokeBinding(javax.swing.KeyStroke)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Keymap#removeKeyStrokeBinding(javax.swing.KeyStroke) public abstract void
+     * javax.swing.text.Keymap.removeKeyStrokeBinding(javax.swing.KeyStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,7 +192,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#setDefaultAction(Action) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Keymap#setDefaultAction(javax.swing.Action) public abstract void
      * javax.swing.text.Keymap.setDefaultAction(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,8 +215,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#getBoundKeyStrokes() public abstract
-     * javax.swing.KeyStroke[] javax.swing.text.Keymap.getBoundKeyStrokes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Keymap#getBoundKeyStrokes() public
+     * abstract javax.swing.KeyStroke[] javax.swing.text.Keymap.getBoundKeyStrokes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,8 +237,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#removeBindings() public abstract void
-     * javax.swing.text.Keymap.removeBindings()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.Keymap#removeBindings() public
+     * abstract void javax.swing.text.Keymap.removeBindings()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,7 +259,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#setResolveParent(Keymap) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Keymap#setResolveParent(javax.swing.text.Keymap) public abstract void
      * javax.swing.text.Keymap.setResolveParent(javax.swing.text.Keymap)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -279,8 +282,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#getAction(KeyStroke) public abstract
-     * javax.swing.Action javax.swing.text.Keymap.getAction(javax.swing.KeyStroke)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Keymap#getAction(javax.swing.KeyStroke) public abstract javax.swing.Action
+     * javax.swing.text.Keymap.getAction(javax.swing.KeyStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -301,8 +305,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Keymap#getKeyStrokesForAction(Action) public
-     * abstract javax.swing.KeyStroke[] javax.swing.text.Keymap.getKeyStrokesForAction(javax.swing.Action)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Keymap#getKeyStrokesForAction(javax.swing.Action) public abstract javax.swing.KeyStroke[]
+     * javax.swing.text.Keymap.getKeyStrokesForAction(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

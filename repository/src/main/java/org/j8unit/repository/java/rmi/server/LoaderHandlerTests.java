@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.rmi.server;
 
-import java.net.URL;
 import java.rmi.server.LoaderHandler;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -36,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoaderHandler#loadClass(URL, String) public abstract
-     * java.lang.Class<?> java.rmi.server.LoaderHandler.loadClass(java.net.URL,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.LoaderHandler#loadClass(java.net.URL, String) public abstract java.lang.Class
+     * <?> java.rmi.server.LoaderHandler.loadClass(java.net.URL,java.lang.String) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +59,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoaderHandler#loadClass(String) public abstract
-     * java.lang.Class<?> java.rmi.server.LoaderHandler.loadClass(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link java.rmi.server.LoaderHandler#loadClass(String)
+     * public abstract java.lang.Class<?> java.rmi.server.LoaderHandler.loadClass(java.lang.String) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,8 +82,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LoaderHandler#getSecurityContext(ClassLoader) public
-     * abstract java.lang.Object java.rmi.server.LoaderHandler.getSecurityContext(java.lang.ClassLoader)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.LoaderHandler#getSecurityContext(ClassLoader) public abstract java.lang.Object
+     * java.rmi.server.LoaderHandler.getSecurityContext(java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

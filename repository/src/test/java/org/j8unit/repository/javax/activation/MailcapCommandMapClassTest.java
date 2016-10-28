@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.activation;
 
-import java.io.InputStream;
 import javax.activation.MailcapCommandMap;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.activation.MailcapCommandMapClassTests<Ma
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MailcapCommandMap#MailcapCommandMap(String)
-     * public javax.activation.MailcapCommandMap(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.MailcapCommandMap#MailcapCommandMap(String) public
+     * javax.activation.MailcapCommandMap(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.activation.MailcapCommandMapClassTests<Ma
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MailcapCommandMap#MailcapCommandMap(InputStream) public
+     * {@link javax.activation.MailcapCommandMap#MailcapCommandMap(java.io.InputStream) public
      * javax.activation.MailcapCommandMap(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +62,13 @@ implements org.j8unit.repository.javax.activation.MailcapCommandMapClassTests<Ma
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MailcapCommandMap sut = null; // = new MailcapCommandMap(InputStream);
+        final MailcapCommandMap sut = null; // = new MailcapCommandMap(java.io.InputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MailcapCommandMap#MailcapCommandMap() public
-     * javax.activation.MailcapCommandMap()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.MailcapCommandMap#MailcapCommandMap() public javax.activation.MailcapCommandMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

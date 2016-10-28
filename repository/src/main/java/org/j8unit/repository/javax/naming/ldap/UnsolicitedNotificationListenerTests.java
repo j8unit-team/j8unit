@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.naming.ldap;
 
-import javax.naming.ldap.UnsolicitedNotificationEvent;
 import javax.naming.ldap.UnsolicitedNotificationListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.javax.naming.event.NamingListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UnsolicitedNotificationListener#notificationReceived(UnsolicitedNotificationEvent) public abstract void
+     * {@link javax.naming.ldap.UnsolicitedNotificationListener#notificationReceived(javax.naming.ldap.UnsolicitedNotificationEvent)
+     * public abstract void
      * javax.naming.ldap.UnsolicitedNotificationListener.notificationReceived(javax.naming.ldap.UnsolicitedNotificationEvent)}
      * .
      *

@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.crypto.IllegalBlockSizeExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalBlockSizeException#IllegalBlockSizeException() public javax.crypto.IllegalBlockSizeException()}.
+     * {@link javax.crypto.IllegalBlockSizeException#IllegalBlockSizeException() public
+     * javax.crypto.IllegalBlockSizeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.crypto.IllegalBlockSizeExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IllegalBlockSizeException#IllegalBlockSizeException(String) public
+     * {@link javax.crypto.IllegalBlockSizeException#IllegalBlockSizeException(String) public
      * javax.crypto.IllegalBlockSizeException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

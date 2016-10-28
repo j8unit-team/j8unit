@@ -1,10 +1,6 @@
 package org.j8unit.repository.org.ietf.jgss;
 
-import java.security.Provider;
-import org.ietf.jgss.GSSCredential;
 import org.ietf.jgss.GSSManager;
-import org.ietf.jgss.GSSName;
-import org.ietf.jgss.Oid;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,8 +34,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#createContext(byte[]) public abstract
-     * org.ietf.jgss.GSSContext org.ietf.jgss.GSSManager.createContext(byte[]) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSManager#getMechs() public abstract
+     * org.ietf.jgss.Oid[] org.ietf.jgss.GSSManager.getMechs()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMechs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSManager#createContext(byte[])
+     * public abstract org.ietf.jgss.GSSContext org.ietf.jgss.GSSManager.createContext(byte[]) throws
+     * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,31 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#createContext(GSSCredential) public
-     * abstract org.ietf.jgss.GSSContext org.ietf.jgss.GSSManager.createContext(org.ietf.jgss.GSSCredential) throws
-     * org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createContext_GSSCredential()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GSSManager#createContext(GSSName, Oid, GSSCredential, int) public abstract org.ietf.jgss.GSSContext
+     * {@link org.ietf.jgss.GSSManager#createContext(org.ietf.jgss.GSSName, org.ietf.jgss.Oid, org.ietf.jgss.GSSCredential, int)
+     * public abstract org.ietf.jgss.GSSContext
      * org.ietf.jgss.GSSManager.createContext(org.ietf.jgss.GSSName,org.ietf.jgss.Oid,org.ietf.jgss.GSSCredential,int)
      * throws org.ietf.jgss.GSSException}.
      *
@@ -107,8 +104,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#getMechs() public abstract
-     * org.ietf.jgss.Oid[] org.ietf.jgss.GSSManager.getMechs()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#createContext(org.ietf.jgss.GSSCredential) public abstract
+     * org.ietf.jgss.GSSContext org.ietf.jgss.GSSManager.createContext(org.ietf.jgss.GSSCredential) throws
+     * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,7 +119,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMechs()
+    public default void test_createContext_GSSCredential()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -129,8 +128,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#addProviderAtEnd(Provider, Oid) public
-     * abstract void org.ietf.jgss.GSSManager.addProviderAtEnd(java.security.Provider,org.ietf.jgss.Oid) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#addProviderAtEnd(java.security.Provider, org.ietf.jgss.Oid) public abstract void
+     * org.ietf.jgss.GSSManager.addProviderAtEnd(java.security.Provider,org.ietf.jgss.Oid) throws
      * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +152,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#getMechsForName(Oid) public abstract
-     * org.ietf.jgss.Oid[] org.ietf.jgss.GSSManager.getMechsForName(org.ietf.jgss.Oid)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#getMechsForName(org.ietf.jgss.Oid) public abstract org.ietf.jgss.Oid[]
+     * org.ietf.jgss.GSSManager.getMechsForName(org.ietf.jgss.Oid)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -174,8 +175,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#createCredential(GSSName, int, Oid, int)
-     * public abstract org.ietf.jgss.GSSCredential
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#createCredential(org.ietf.jgss.GSSName, int, org.ietf.jgss.Oid, int) public
+     * abstract org.ietf.jgss.GSSCredential
      * org.ietf.jgss.GSSManager.createCredential(org.ietf.jgss.GSSName,int,org.ietf.jgss.Oid,int) throws
      * org.ietf.jgss.GSSException}.
      *
@@ -198,8 +200,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#createCredential(int) public abstract
-     * org.ietf.jgss.GSSCredential org.ietf.jgss.GSSManager.createCredential(int) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSManager#createCredential(int)
+     * public abstract org.ietf.jgss.GSSCredential org.ietf.jgss.GSSManager.createCredential(int) throws
+     * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,7 +224,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link GSSManager#createCredential(GSSName, int, Oid[], int) public abstract org.ietf.jgss.GSSCredential
+     * {@link org.ietf.jgss.GSSManager#createCredential(org.ietf.jgss.GSSName, int, org.ietf.jgss.Oid[], int) public
+     * abstract org.ietf.jgss.GSSCredential
      * org.ietf.jgss.GSSManager.createCredential(org.ietf.jgss.GSSName,int,org.ietf.jgss.Oid[],int) throws
      * org.ietf.jgss.GSSException}.
      *
@@ -244,33 +248,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#createName(byte[], Oid) public abstract
-     * org.ietf.jgss.GSSName org.ietf.jgss.GSSManager.createName(byte[],org.ietf.jgss.Oid) throws
-     * org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createName_byteArray_Oid()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#createName(String, Oid, Oid) public
-     * abstract org.ietf.jgss.GSSName
-     * org.ietf.jgss.GSSManager.createName(java.lang.String,org.ietf.jgss.Oid,org.ietf.jgss.Oid) throws
-     * org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#createName(String, org.ietf.jgss.Oid, org.ietf.jgss.Oid) public abstract
+     * org.ietf.jgss.GSSName org.ietf.jgss.GSSManager.createName(java.lang.String,org.ietf.jgss.Oid,org.ietf.jgss.Oid)
+     * throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -291,9 +272,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#createName(String, Oid) public abstract
-     * org.ietf.jgss.GSSName org.ietf.jgss.GSSManager.createName(java.lang.String,org.ietf.jgss.Oid) throws
-     * org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#createName(byte[], org.ietf.jgss.Oid) public abstract org.ietf.jgss.GSSName
+     * org.ietf.jgss.GSSManager.createName(byte[],org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createName_byteArray_Oid()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#createName(String, org.ietf.jgss.Oid) public abstract org.ietf.jgss.GSSName
+     * org.ietf.jgss.GSSManager.createName(java.lang.String,org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -314,9 +318,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#createName(byte[], Oid, Oid) public
-     * abstract org.ietf.jgss.GSSName org.ietf.jgss.GSSManager.createName(byte[],org.ietf.jgss.Oid,org.ietf.jgss.Oid)
-     * throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#createName(byte[], org.ietf.jgss.Oid, org.ietf.jgss.Oid) public abstract
+     * org.ietf.jgss.GSSName org.ietf.jgss.GSSManager.createName(byte[],org.ietf.jgss.Oid,org.ietf.jgss.Oid) throws
+     * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -337,8 +342,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#addProviderAtFront(Provider, Oid) public
-     * abstract void org.ietf.jgss.GSSManager.addProviderAtFront(java.security.Provider,org.ietf.jgss.Oid) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#addProviderAtFront(java.security.Provider, org.ietf.jgss.Oid) public abstract
+     * void org.ietf.jgss.GSSManager.addProviderAtFront(java.security.Provider,org.ietf.jgss.Oid) throws
      * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -360,9 +366,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link GSSManager#getNamesForMech(Oid) public abstract
-     * org.ietf.jgss.Oid[] org.ietf.jgss.GSSManager.getNamesForMech(org.ietf.jgss.Oid) throws
-     * org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#getNamesForMech(org.ietf.jgss.Oid) public abstract org.ietf.jgss.Oid[]
+     * org.ietf.jgss.GSSManager.getNamesForMech(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

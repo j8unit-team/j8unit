@@ -22,8 +22,9 @@ implements org.j8unit.repository.java.awt.image.SampleModelClassTests<SampleMode
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SampleModel#SampleModel(int, int, int, int)
-     * public java.awt.image.SampleModel(int,int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.SampleModel#SampleModel(int, int, int, int) public
+     * java.awt.image.SampleModel(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

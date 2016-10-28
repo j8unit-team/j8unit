@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util.jar;
 
-import java.io.InputStream;
 import java.util.jar.Manifest;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.java.util.jar.ManifestClassTests<Manifest> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Manifest#Manifest(Manifest) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.jar.Manifest#Manifest(java.util.jar.Manifest) public
      * java.util.jar.Manifest(java.util.jar.Manifest)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,13 +39,14 @@ implements org.j8unit.repository.java.util.jar.ManifestClassTests<Manifest> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Manifest sut = null; // = new Manifest(Manifest);
+        final Manifest sut = null; // = new Manifest(java.util.jar.Manifest);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Manifest#Manifest(InputStream) public
-     * java.util.jar.Manifest(java.io.InputStream) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.jar.Manifest#Manifest(java.io.InputStream) public java.util.jar.Manifest(java.io.InputStream)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,12 +62,12 @@ implements org.j8unit.repository.java.util.jar.ManifestClassTests<Manifest> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Manifest sut = null; // = new Manifest(InputStream);
+        final Manifest sut = null; // = new Manifest(java.io.InputStream);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Manifest#Manifest() public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.jar.Manifest#Manifest() public
      * java.util.jar.Manifest()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

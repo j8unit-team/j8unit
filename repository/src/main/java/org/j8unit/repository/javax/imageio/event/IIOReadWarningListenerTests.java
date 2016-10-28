@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.imageio.event;
 
-import javax.imageio.ImageReader;
 import javax.imageio.event.IIOReadWarningListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,8 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link IIOReadWarningListener#warningOccurred(ImageReader, String) public abstract void
+     * {@link javax.imageio.event.IIOReadWarningListener#warningOccurred(javax.imageio.ImageReader, String) public
+     * abstract void
      * javax.imageio.event.IIOReadWarningListener.warningOccurred(javax.imageio.ImageReader,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

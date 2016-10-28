@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.util.OptionalClassTests<Optional> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#empty() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#empty() public static
      * <T> java.util.Optional<T> java.util.Optional.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -37,12 +37,12 @@ implements org.j8unit.repository.java.util.OptionalClassTests<Optional> {
     @Category(Draft.class)
     public void test_empty()
     throws Exception {
-        // write some test for {@link Optional#empty()}
+        // write some test for {@link java.util.Optional#empty()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#ofNullable(Object) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#ofNullable(Object) public static
      * <T> java.util.Optional<T> java.util.Optional.ofNullable(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,12 +57,12 @@ implements org.j8unit.repository.java.util.OptionalClassTests<Optional> {
     @Category(Draft.class)
     public void test_ofNullable_Object()
     throws Exception {
-        // write some test for {@link Optional#ofNullable(Object)}
+        // write some test for {@link java.util.Optional#ofNullable(Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Optional#of(Object) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.Optional#of(Object) public static
      * <T> java.util.Optional<T> java.util.Optional.of(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -77,7 +77,7 @@ implements org.j8unit.repository.java.util.OptionalClassTests<Optional> {
     @Category(Draft.class)
     public void test_of_Object()
     throws Exception {
-        // write some test for {@link Optional#of(Object)}
+        // write some test for {@link java.util.Optional#of(Object)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Optional]

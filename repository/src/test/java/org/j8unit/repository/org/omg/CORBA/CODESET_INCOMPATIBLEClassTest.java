@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.CODESET_INCOMPATIBLE;
-import org.omg.CORBA.CompletionStatus;
 
 @RunWith(J8Unit4.class)
 public class CODESET_INCOMPATIBLEClassTest
@@ -23,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.CODESET_INCOMPATIBLEClassTests<CO
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE(String, int, CompletionStatus) public
-     * org.omg.CORBA.CODESET_INCOMPATIBLE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * {@link org.omg.CORBA.CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE(String, int, org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.CODESET_INCOMPATIBLE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,13 +39,14 @@ implements org.j8unit.repository.org.omg.CORBA.CODESET_INCOMPATIBLEClassTests<CO
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CODESET_INCOMPATIBLE sut = null; // = new CODESET_INCOMPATIBLE(String, int, CompletionStatus);
+        final CODESET_INCOMPATIBLE sut = null; // = new CODESET_INCOMPATIBLE(String, int,
+                                               // org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE(int, CompletionStatus) public
+     * {@link org.omg.CORBA.CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.CODESET_INCOMPATIBLE(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +63,13 @@ implements org.j8unit.repository.org.omg.CORBA.CODESET_INCOMPATIBLEClassTests<CO
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CODESET_INCOMPATIBLE sut = null; // = new CODESET_INCOMPATIBLE(int, CompletionStatus);
+        final CODESET_INCOMPATIBLE sut = null; // = new CODESET_INCOMPATIBLE(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE(String) public
+     * {@link org.omg.CORBA.CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE(String) public
      * org.omg.CORBA.CODESET_INCOMPATIBLE(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,8 +91,8 @@ implements org.j8unit.repository.org.omg.CORBA.CODESET_INCOMPATIBLEClassTests<CO
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE()
-     * public org.omg.CORBA.CODESET_INCOMPATIBLE()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE() public org.omg.CORBA.CODESET_INCOMPATIBLE()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

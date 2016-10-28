@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.tools;
 
-import java.util.Locale;
 import javax.tools.Diagnostic;
 import javax.tools.Diagnostic.Kind;
 import org.j8unit.repository.RepositoryTests;
@@ -37,7 +36,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Diagnostic#getSource() public abstract S
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getSource() public abstract S
      * javax.tools.Diagnostic.getSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Diagnostic#getPosition() public abstract long
-     * javax.tools.Diagnostic.getPosition()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getPosition() public abstract
+     * long javax.tools.Diagnostic.getPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +80,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Diagnostic#getStartPosition() public abstract long
-     * javax.tools.Diagnostic.getStartPosition()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getStartPosition() public
+     * abstract long javax.tools.Diagnostic.getStartPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +102,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Diagnostic#getLineNumber() public abstract long
-     * javax.tools.Diagnostic.getLineNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getLineNumber() public
+     * abstract long javax.tools.Diagnostic.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,7 +124,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Diagnostic#getCode() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getCode() public abstract
      * java.lang.String javax.tools.Diagnostic.getCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,7 +146,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Diagnostic#getKind() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getKind() public abstract
      * javax.tools.Diagnostic$Kind javax.tools.Diagnostic.getKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Diagnostic#getColumnNumber() public abstract long
-     * javax.tools.Diagnostic.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getColumnNumber() public
+     * abstract long javax.tools.Diagnostic.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +190,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Diagnostic#getEndPosition() public abstract long
-     * javax.tools.Diagnostic.getEndPosition()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getEndPosition() public
+     * abstract long javax.tools.Diagnostic.getEndPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,8 +212,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Diagnostic#getMessage(Locale) public abstract
-     * java.lang.String javax.tools.Diagnostic.getMessage(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getMessage(java.util.Locale)
+     * public abstract java.lang.String javax.tools.Diagnostic.getMessage(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

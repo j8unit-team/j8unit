@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.xml.bind;
 
 import javax.xml.bind.JAXBContext;
-import javax.xml.bind.SchemaOutputResolver;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#createBinder(Class) public
-     * <T> javax.xml.bind.Binder<T> javax.xml.bind.JAXBContext.createBinder(java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBContext#createBinder(Class)
+     * public <T> javax.xml.bind.Binder<T> javax.xml.bind.JAXBContext.createBinder(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#createBinder() public
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBContext#createBinder() public
      * javax.xml.bind.Binder<org.w3c.dom.Node> javax.xml.bind.JAXBContext.createBinder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +78,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#createUnmarshaller() public abstract
-     * javax.xml.bind.Unmarshaller javax.xml.bind.JAXBContext.createUnmarshaller() throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBContext#createUnmarshaller()
+     * public abstract javax.xml.bind.Unmarshaller javax.xml.bind.JAXBContext.createUnmarshaller() throws
+     * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#createJAXBIntrospector() public
-     * javax.xml.bind.JAXBIntrospector javax.xml.bind.JAXBContext.createJAXBIntrospector()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBContext#createJAXBIntrospector()
+     * public javax.xml.bind.JAXBIntrospector javax.xml.bind.JAXBContext.createJAXBIntrospector()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,9 +123,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#generateSchema(SchemaOutputResolver)
-     * public void javax.xml.bind.JAXBContext.generateSchema(javax.xml.bind.SchemaOutputResolver) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.JAXBContext#generateSchema(javax.xml.bind.SchemaOutputResolver) public void
+     * javax.xml.bind.JAXBContext.generateSchema(javax.xml.bind.SchemaOutputResolver) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#createValidator() public abstract
-     * javax.xml.bind.Validator javax.xml.bind.JAXBContext.createValidator() throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBContext#createValidator() public
+     * abstract javax.xml.bind.Validator javax.xml.bind.JAXBContext.createValidator() throws
+     * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +169,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JAXBContext#createMarshaller() public abstract
-     * javax.xml.bind.Marshaller javax.xml.bind.JAXBContext.createMarshaller() throws javax.xml.bind.JAXBException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBContext#createMarshaller() public
+     * abstract javax.xml.bind.Marshaller javax.xml.bind.JAXBContext.createMarshaller() throws
+     * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

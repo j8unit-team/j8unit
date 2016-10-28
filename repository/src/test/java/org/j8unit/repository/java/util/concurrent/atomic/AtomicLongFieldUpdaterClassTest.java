@@ -22,8 +22,9 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicLongFieldUpda
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicLongFieldUpdater#newUpdater(Class, String)
-     * public static <U> java.util.concurrent.atomic.AtomicLongFieldUpdater
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#newUpdater(Class, String) public static
+     * <U> java.util.concurrent.atomic.AtomicLongFieldUpdater
      * <U> java.util.concurrent.atomic.AtomicLongFieldUpdater.newUpdater(java.lang.Class<U>,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,7 +39,7 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicLongFieldUpda
     @Category(Draft.class)
     public void test_newUpdater_Class_String()
     throws Exception {
-        // write some test for {@link AtomicLongFieldUpdater#newUpdater(Class, String)}
+        // write some test for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#newUpdater(Class, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicLongFieldUpdater]

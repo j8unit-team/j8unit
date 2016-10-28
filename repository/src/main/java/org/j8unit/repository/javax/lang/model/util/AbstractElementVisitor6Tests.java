@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.element.Element;
 import javax.lang.model.util.AbstractElementVisitor6;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,9 @@ extends org.j8unit.repository.javax.lang.model.element.ElementVisitorTests<SUT, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractElementVisitor6#visit(Element, Object)
-     * public final R javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element, Object) public final
+     * R javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.lang.model.element.ElementVisitorTests<SUT, 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractElementVisitor6#visit(Element) public final
-     * R javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.AbstractElementVisitor6#visit(javax.lang.model.element.Element) public final R
+     * javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +83,8 @@ extends org.j8unit.repository.javax.lang.model.element.ElementVisitorTests<SUT, 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractElementVisitor6#visitUnknown(Element, Object) public R
-     * javax.lang.model.util.AbstractElementVisitor6.visitUnknown(javax.lang.model.element.Element,P)}.
+     * {@link javax.lang.model.util.AbstractElementVisitor6#visitUnknown(javax.lang.model.element.Element, Object)
+     * public R javax.lang.model.util.AbstractElementVisitor6.visitUnknown(javax.lang.model.element.Element,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

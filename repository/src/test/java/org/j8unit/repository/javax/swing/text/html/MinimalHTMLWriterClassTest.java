@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import java.io.Writer;
-import javax.swing.text.StyledDocument;
 import javax.swing.text.html.MinimalHTMLWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.javax.swing.text.html.MinimalHTMLWriterClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MinimalHTMLWriter#MinimalHTMLWriter(Writer, StyledDocument) public
-     * javax.swing.text.html.MinimalHTMLWriter(java.io.Writer,javax.swing.text.StyledDocument)}.
+     * {@link javax.swing.text.html.MinimalHTMLWriter#MinimalHTMLWriter(java.io.Writer, javax.swing.text.StyledDocument)
+     * public javax.swing.text.html.MinimalHTMLWriter(java.io.Writer,javax.swing.text.StyledDocument)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,14 +39,14 @@ implements org.j8unit.repository.javax.swing.text.html.MinimalHTMLWriterClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MinimalHTMLWriter sut = null; // = new MinimalHTMLWriter(Writer, StyledDocument);
+        final MinimalHTMLWriter sut = null; // = new MinimalHTMLWriter(java.io.Writer, javax.swing.text.StyledDocument);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MinimalHTMLWriter#MinimalHTMLWriter(Writer, StyledDocument, int, int) public
-     * javax.swing.text.html.MinimalHTMLWriter(java.io.Writer,javax.swing.text.StyledDocument,int,int)}.
+     * {@link javax.swing.text.html.MinimalHTMLWriter#MinimalHTMLWriter(java.io.Writer, javax.swing.text.StyledDocument, int, int)
+     * public javax.swing.text.html.MinimalHTMLWriter(java.io.Writer,javax.swing.text.StyledDocument,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,7 +62,8 @@ implements org.j8unit.repository.javax.swing.text.html.MinimalHTMLWriterClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MinimalHTMLWriter sut = null; // = new MinimalHTMLWriter(Writer, StyledDocument, int, int);
+        final MinimalHTMLWriter sut = null; // = new MinimalHTMLWriter(java.io.Writer, javax.swing.text.StyledDocument,
+                                            // int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.MinimalHTMLWriter]

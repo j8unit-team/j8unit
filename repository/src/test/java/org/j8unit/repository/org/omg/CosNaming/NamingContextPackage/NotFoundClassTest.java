@@ -6,9 +6,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NameComponent;
 import org.omg.CosNaming.NamingContextPackage.NotFound;
-import org.omg.CosNaming.NamingContextPackage.NotFoundReason;
 
 @RunWith(J8Unit4.class)
 public class NotFoundClassTest
@@ -23,7 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NotFound#NotFound() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFound#NotFound() public
      * org.omg.CosNaming.NamingContextPackage.NotFound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +44,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NotFound#NotFound(NotFoundReason, NameComponent[]) public
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFound#NotFound(org.omg.CosNaming.NamingContextPackage.NotFoundReason, org.omg.CosNaming.NameComponent[])
+     * public
      * org.omg.CosNaming.NamingContextPackage.NotFound(org.omg.CosNaming.NamingContextPackage.NotFoundReason,org.omg.CosNaming.NameComponent[])}
      * .
      *
@@ -63,13 +63,15 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NotFound sut = null; // = new NotFound(NotFoundReason, NameComponent[]);
+        final NotFound sut = null; // = new NotFound(org.omg.CosNaming.NamingContextPackage.NotFoundReason,
+                                   // org.omg.CosNaming.NameComponent[]);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NotFound#NotFound(String, NotFoundReason, NameComponent[]) public
+     * {@link org.omg.CosNaming.NamingContextPackage.NotFound#NotFound(String, org.omg.CosNaming.NamingContextPackage.NotFoundReason, org.omg.CosNaming.NameComponent[])
+     * public
      * org.omg.CosNaming.NamingContextPackage.NotFound(java.lang.String,org.omg.CosNaming.NamingContextPackage.NotFoundReason,org.omg.CosNaming.NameComponent[])}
      * .
      *
@@ -87,7 +89,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final NotFound sut = null; // = new NotFound(String, NotFoundReason, NameComponent[]);
+        final NotFound sut = null; // = new NotFound(String, org.omg.CosNaming.NamingContextPackage.NotFoundReason,
+                                   // org.omg.CosNaming.NameComponent[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFound]

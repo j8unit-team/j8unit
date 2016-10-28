@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Templates#newTransformer() public abstract
-     * javax.xml.transform.Transformer javax.xml.transform.Templates.newTransformer() throws
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.Templates#newTransformer()
+     * public abstract javax.xml.transform.Transformer javax.xml.transform.Templates.newTransformer() throws
      * javax.xml.transform.TransformerConfigurationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,8 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Templates#getOutputProperties() public abstract
-     * java.util.Properties javax.xml.transform.Templates.getOutputProperties()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.Templates#getOutputProperties()
+     * public abstract java.util.Properties javax.xml.transform.Templates.getOutputProperties()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

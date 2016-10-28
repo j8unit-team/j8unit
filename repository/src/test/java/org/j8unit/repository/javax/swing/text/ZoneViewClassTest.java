@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.text;
 
-import javax.swing.text.Element;
 import javax.swing.text.ZoneView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.text.ZoneViewClassTests<ZoneView> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZoneView#ZoneView(Element, int) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.ZoneView#ZoneView(javax.swing.text.Element, int) public
      * javax.swing.text.ZoneView(javax.swing.text.Element,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.swing.text.ZoneViewClassTests<ZoneView> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ZoneView sut = null; // = new ZoneView(Element, int);
+        final ZoneView sut = null; // = new ZoneView(javax.swing.text.Element, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.ZoneView]

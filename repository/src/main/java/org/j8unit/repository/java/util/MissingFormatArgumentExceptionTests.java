@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MissingFormatArgumentException#getMessage() public
-     * java.lang.String java.util.MissingFormatArgumentException.getMessage()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.MissingFormatArgumentException#getMessage() public java.lang.String
+     * java.util.MissingFormatArgumentException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MissingFormatArgumentException#getFormatSpecifier()
-     * public java.lang.String java.util.MissingFormatArgumentException.getFormatSpecifier()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.MissingFormatArgumentException#getFormatSpecifier() public java.lang.String
+     * java.util.MissingFormatArgumentException.getFormatSpecifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

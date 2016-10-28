@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Member#getName() public abstract java.lang.String
-     * java.lang.reflect.Member.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Member#getName() public abstract
+     * java.lang.String java.lang.reflect.Member.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Member#getDeclaringClass() public abstract
-     * java.lang.Class<?> java.lang.reflect.Member.getDeclaringClass()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Member#getDeclaringClass() public
+     * abstract java.lang.Class<?> java.lang.reflect.Member.getDeclaringClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Member#getModifiers() public abstract int
-     * java.lang.reflect.Member.getModifiers()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Member#getModifiers() public
+     * abstract int java.lang.reflect.Member.getModifiers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Member#isSynthetic() public abstract boolean
-     * java.lang.reflect.Member.isSynthetic()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.reflect.Member#isSynthetic() public
+     * abstract boolean java.lang.reflect.Member.isSynthetic()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

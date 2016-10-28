@@ -6,8 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.ls.LSParserFilter;
 
 /**
@@ -37,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParserFilter#startElement(Element) public abstract
-     * short org.w3c.dom.ls.LSParserFilter.startElement(org.w3c.dom.Element)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.LSParserFilter#startElement(org.w3c.dom.Element) public abstract short
+     * org.w3c.dom.ls.LSParserFilter.startElement(org.w3c.dom.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParserFilter#acceptNode(Node) public abstract
-     * short org.w3c.dom.ls.LSParserFilter.acceptNode(org.w3c.dom.Node)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.LSParserFilter#acceptNode(org.w3c.dom.Node) public abstract short
+     * org.w3c.dom.ls.LSParserFilter.acceptNode(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LSParserFilter#getWhatToShow() public abstract int
-     * org.w3c.dom.ls.LSParserFilter.getWhatToShow()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParserFilter#getWhatToShow() public
+     * abstract int org.w3c.dom.ls.LSParserFilter.getWhatToShow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

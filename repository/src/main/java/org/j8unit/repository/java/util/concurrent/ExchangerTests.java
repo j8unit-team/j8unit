@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.Exchanger;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Exchanger#exchange(Object) public V
-     * java.util.concurrent.Exchanger.exchange(V) throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Exchanger#exchange(Object)
+     * public V java.util.concurrent.Exchanger.exchange(V) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Exchanger#exchange(Object, long, TimeUnit) public V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.Exchanger#exchange(Object, long, java.util.concurrent.TimeUnit) public V
      * java.util.concurrent.Exchanger.exchange(V,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException,java.util.concurrent.TimeoutException}.
      *

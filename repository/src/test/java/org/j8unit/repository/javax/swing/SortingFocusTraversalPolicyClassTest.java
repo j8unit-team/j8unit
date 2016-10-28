@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.util.Comparator;
 import javax.swing.SortingFocusTraversalPolicy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.swing.SortingFocusTraversalPolicyClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SortingFocusTraversalPolicy#SortingFocusTraversalPolicy(Comparator) public
+     * {@link javax.swing.SortingFocusTraversalPolicy#SortingFocusTraversalPolicy(java.util.Comparator) public
      * javax.swing.SortingFocusTraversalPolicy(java.util.Comparator<? super java.awt.Component>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,7 +39,7 @@ implements org.j8unit.repository.javax.swing.SortingFocusTraversalPolicyClassTes
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SortingFocusTraversalPolicy sut = null; // = new SortingFocusTraversalPolicy(Comparator);
+        final SortingFocusTraversalPolicy sut = null; // = new SortingFocusTraversalPolicy(java.util.Comparator);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SortingFocusTraversalPolicy]

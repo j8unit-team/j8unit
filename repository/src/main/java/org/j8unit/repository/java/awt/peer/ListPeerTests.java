@@ -34,30 +34,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#getSelectedIndexes() public abstract int[]
-     * java.awt.peer.ListPeer.getSelectedIndexes()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectedIndexes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#getPreferredSize(int) public abstract
-     * java.awt.Dimension java.awt.peer.ListPeer.getPreferredSize(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#getPreferredSize(int) public
+     * abstract java.awt.Dimension java.awt.peer.ListPeer.getPreferredSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +56,30 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#delItems(int, int) public abstract void
-     * java.awt.peer.ListPeer.delItems(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#getSelectedIndexes() public
+     * abstract int[] java.awt.peer.ListPeer.getSelectedIndexes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedIndexes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#delItems(int, int) public
+     * abstract void java.awt.peer.ListPeer.delItems(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,30 +100,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#deselect(int) public abstract void
-     * java.awt.peer.ListPeer.deselect(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deselect_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#getMinimumSize(int) public abstract
-     * java.awt.Dimension java.awt.peer.ListPeer.getMinimumSize(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#getMinimumSize(int) public
+     * abstract java.awt.Dimension java.awt.peer.ListPeer.getMinimumSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +122,30 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#add(String, int) public abstract void
-     * java.awt.peer.ListPeer.add(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#deselect(int) public abstract
+     * void java.awt.peer.ListPeer.deselect(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deselect_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#add(String, int) public
+     * abstract void java.awt.peer.ListPeer.add(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +166,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#select(int) public abstract void
-     * java.awt.peer.ListPeer.select(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#select(int) public abstract
+     * void java.awt.peer.ListPeer.select(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +188,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#setMultipleMode(boolean) public abstract
-     * void java.awt.peer.ListPeer.setMultipleMode(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#setMultipleMode(boolean)
+     * public abstract void java.awt.peer.ListPeer.setMultipleMode(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +210,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#removeAll() public abstract void
-     * java.awt.peer.ListPeer.removeAll()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#removeAll() public abstract
+     * void java.awt.peer.ListPeer.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +232,8 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ListPeer#makeVisible(int) public abstract void
-     * java.awt.peer.ListPeer.makeVisible(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#makeVisible(int) public
+     * abstract void java.awt.peer.ListPeer.makeVisible(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

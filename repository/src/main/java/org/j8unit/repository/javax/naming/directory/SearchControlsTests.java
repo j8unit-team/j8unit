@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#setCountLimit(long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#setCountLimit(long) public void
      * javax.naming.directory.SearchControls.setCountLimit(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#getCountLimit() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#getCountLimit() public long
      * javax.naming.directory.SearchControls.getCountLimit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,7 +80,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#setSearchScope(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#setSearchScope(int) public void
      * javax.naming.directory.SearchControls.setSearchScope(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +103,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#setReturningAttributes(String[])
-     * public void javax.naming.directory.SearchControls.setReturningAttributes(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#setReturningAttributes(String[]) public void
+     * javax.naming.directory.SearchControls.setReturningAttributes(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +126,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#getReturningAttributes() public
-     * java.lang.String[] javax.naming.directory.SearchControls.getReturningAttributes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#getReturningAttributes() public java.lang.String[]
+     * javax.naming.directory.SearchControls.getReturningAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +149,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#setReturningObjFlag(boolean) public
-     * void javax.naming.directory.SearchControls.setReturningObjFlag(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#setReturningObjFlag(boolean) public void
+     * javax.naming.directory.SearchControls.setReturningObjFlag(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,7 +172,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#getReturningObjFlag() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#getReturningObjFlag() public boolean
      * javax.naming.directory.SearchControls.getReturningObjFlag()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -188,7 +195,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#getDerefLinkFlag() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#getDerefLinkFlag() public boolean
      * javax.naming.directory.SearchControls.getDerefLinkFlag()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,7 +218,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#getSearchScope() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#getSearchScope() public int
      * javax.naming.directory.SearchControls.getSearchScope()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -232,7 +241,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#setDerefLinkFlag(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#setDerefLinkFlag(boolean) public void
      * javax.naming.directory.SearchControls.setDerefLinkFlag(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -254,8 +264,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#getTimeLimit() public int
-     * javax.naming.directory.SearchControls.getTimeLimit()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.SearchControls#getTimeLimit()
+     * public int javax.naming.directory.SearchControls.getTimeLimit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,7 +286,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SearchControls#setTimeLimit(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.SearchControls#setTimeLimit(int) public void
      * javax.naming.directory.SearchControls.setTimeLimit(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

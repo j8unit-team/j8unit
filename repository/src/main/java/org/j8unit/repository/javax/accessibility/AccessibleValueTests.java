@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleValue#getMinimumAccessibleValue() public
-     * abstract java.lang.Number javax.accessibility.AccessibleValue.getMinimumAccessibleValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleValue#getMinimumAccessibleValue() public abstract java.lang.Number
+     * javax.accessibility.AccessibleValue.getMinimumAccessibleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleValue#setCurrentAccessibleValue(Number)
-     * public abstract boolean javax.accessibility.AccessibleValue.setCurrentAccessibleValue(java.lang.Number)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleValue#setCurrentAccessibleValue(Number) public abstract boolean
+     * javax.accessibility.AccessibleValue.setCurrentAccessibleValue(java.lang.Number)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleValue#getMaximumAccessibleValue() public
-     * abstract java.lang.Number javax.accessibility.AccessibleValue.getMaximumAccessibleValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleValue#getMaximumAccessibleValue() public abstract java.lang.Number
+     * javax.accessibility.AccessibleValue.getMaximumAccessibleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleValue#getCurrentAccessibleValue() public
-     * abstract java.lang.Number javax.accessibility.AccessibleValue.getCurrentAccessibleValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleValue#getCurrentAccessibleValue() public abstract java.lang.Number
+     * javax.accessibility.AccessibleValue.getCurrentAccessibleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

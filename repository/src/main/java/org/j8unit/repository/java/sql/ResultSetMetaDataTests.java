@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getColumnDisplaySize(int) public
-     * abstract int java.sql.ResultSetMetaData.getColumnDisplaySize(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getColumnDisplaySize(int)
+     * public abstract int java.sql.ResultSetMetaData.getColumnDisplaySize(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#isSearchable(int) public abstract
-     * boolean java.sql.ResultSetMetaData.isSearchable(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#isSearchable(int) public
+     * abstract boolean java.sql.ResultSetMetaData.isSearchable(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#isCurrency(int) public abstract
-     * boolean java.sql.ResultSetMetaData.isCurrency(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#isCurrency(int) public
+     * abstract boolean java.sql.ResultSetMetaData.isCurrency(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#isNullable(int) public abstract
-     * int java.sql.ResultSetMetaData.isNullable(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#isNullable(int) public
+     * abstract int java.sql.ResultSetMetaData.isNullable(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +122,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getScale(int) public abstract int
-     * java.sql.ResultSetMetaData.getScale(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getScale(int) public
+     * abstract int java.sql.ResultSetMetaData.getScale(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,8 +144,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#isReadOnly(int) public abstract
-     * boolean java.sql.ResultSetMetaData.isReadOnly(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#isReadOnly(int) public
+     * abstract boolean java.sql.ResultSetMetaData.isReadOnly(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +166,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getColumnClassName(int) public
-     * abstract java.lang.String java.sql.ResultSetMetaData.getColumnClassName(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getColumnClassName(int)
+     * public abstract java.lang.String java.sql.ResultSetMetaData.getColumnClassName(int) throws java.sql.SQLException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +189,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#isAutoIncrement(int) public
-     * abstract boolean java.sql.ResultSetMetaData.isAutoIncrement(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#isAutoIncrement(int)
+     * public abstract boolean java.sql.ResultSetMetaData.isAutoIncrement(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -210,8 +211,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getPrecision(int) public abstract
-     * int java.sql.ResultSetMetaData.getPrecision(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getPrecision(int) public
+     * abstract int java.sql.ResultSetMetaData.getPrecision(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -232,8 +233,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#isWritable(int) public abstract
-     * boolean java.sql.ResultSetMetaData.isWritable(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#isWritable(int) public
+     * abstract boolean java.sql.ResultSetMetaData.isWritable(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,8 +255,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getColumnCount() public abstract
-     * int java.sql.ResultSetMetaData.getColumnCount() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getColumnCount() public
+     * abstract int java.sql.ResultSetMetaData.getColumnCount() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,8 +277,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getColumnLabel(int) public
-     * abstract java.lang.String java.sql.ResultSetMetaData.getColumnLabel(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getColumnLabel(int)
+     * public abstract java.lang.String java.sql.ResultSetMetaData.getColumnLabel(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,8 +299,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#isDefinitelyWritable(int) public
-     * abstract boolean java.sql.ResultSetMetaData.isDefinitelyWritable(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#isDefinitelyWritable(int)
+     * public abstract boolean java.sql.ResultSetMetaData.isDefinitelyWritable(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -320,8 +321,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getColumnTypeName(int) public
-     * abstract java.lang.String java.sql.ResultSetMetaData.getColumnTypeName(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getColumnTypeName(int)
+     * public abstract java.lang.String java.sql.ResultSetMetaData.getColumnTypeName(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -342,8 +343,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getColumnName(int) public abstract
-     * java.lang.String java.sql.ResultSetMetaData.getColumnName(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getColumnName(int) public
+     * abstract java.lang.String java.sql.ResultSetMetaData.getColumnName(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -364,8 +365,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getTableName(int) public abstract
-     * java.lang.String java.sql.ResultSetMetaData.getTableName(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getTableName(int) public
+     * abstract java.lang.String java.sql.ResultSetMetaData.getTableName(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -386,8 +387,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getColumnType(int) public abstract
-     * int java.sql.ResultSetMetaData.getColumnType(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getColumnType(int) public
+     * abstract int java.sql.ResultSetMetaData.getColumnType(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -408,8 +409,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getCatalogName(int) public
-     * abstract java.lang.String java.sql.ResultSetMetaData.getCatalogName(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getCatalogName(int)
+     * public abstract java.lang.String java.sql.ResultSetMetaData.getCatalogName(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -430,8 +431,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#isSigned(int) public abstract
-     * boolean java.sql.ResultSetMetaData.isSigned(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#isSigned(int) public
+     * abstract boolean java.sql.ResultSetMetaData.isSigned(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -452,8 +453,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#isCaseSensitive(int) public
-     * abstract boolean java.sql.ResultSetMetaData.isCaseSensitive(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#isCaseSensitive(int)
+     * public abstract boolean java.sql.ResultSetMetaData.isCaseSensitive(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -474,8 +475,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ResultSetMetaData#getSchemaName(int) public abstract
-     * java.lang.String java.sql.ResultSetMetaData.getSchemaName(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSetMetaData#getSchemaName(int) public
+     * abstract java.lang.String java.sql.ResultSetMetaData.getSchemaName(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

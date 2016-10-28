@@ -36,7 +36,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pipe#source() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Pipe#source() public abstract
      * java.nio.channels.Pipe$SourceChannel java.nio.channels.Pipe.source()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pipe#sink() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Pipe#sink() public abstract
      * java.nio.channels.Pipe$SinkChannel java.nio.channels.Pipe.sink()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -108,8 +108,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SinkChannel#validOps() public final int
-         * java.nio.channels.Pipe$SinkChannel.validOps()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.channels.Pipe.SinkChannel#validOps()
+         * public final int java.nio.channels.Pipe$SinkChannel.validOps()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -161,8 +161,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link SourceChannel#validOps() public final int
-         * java.nio.channels.Pipe$SourceChannel.validOps()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.channels.Pipe.SourceChannel#validOps()
+         * public final int java.nio.channels.Pipe$SourceChannel.validOps()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

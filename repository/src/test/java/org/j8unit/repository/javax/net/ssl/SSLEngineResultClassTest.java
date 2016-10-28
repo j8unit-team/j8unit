@@ -24,7 +24,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link SSLEngineResult#SSLEngineResult(Status, HandshakeStatus, int, int) public
+     * {@link javax.net.ssl.SSLEngineResult#SSLEngineResult(javax.net.ssl.SSLEngineResult.Status, javax.net.ssl.SSLEngineResult.HandshakeStatus, int, int)
+     * public
      * javax.net.ssl.SSLEngineResult(javax.net.ssl.SSLEngineResult$Status,javax.net.ssl.SSLEngineResult$HandshakeStatus,int,int)}
      * .
      *
@@ -42,7 +43,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SSLEngineResult sut = null; // = new SSLEngineResult(Status, HandshakeStatus, int, int);
+        final SSLEngineResult sut = null; // = new SSLEngineResult(javax.net.ssl.SSLEngineResult.Status,
+                                          // javax.net.ssl.SSLEngineResult.HandshakeStatus, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLEngineResult]
@@ -60,7 +62,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Status#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.net.ssl.SSLEngineResult.Status#valueOf(String) public static
          * javax.net.ssl.SSLEngineResult$Status javax.net.ssl.SSLEngineResult$Status.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -75,13 +78,13 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link Status#valueOf(String)}
+            // write some test for {@link javax.net.ssl.SSLEngineResult.Status#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link Status#values() public static
-         * javax.net.ssl.SSLEngineResult$Status[] javax.net.ssl.SSLEngineResult$Status.values()}.
+         * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult.Status#values()
+         * public static javax.net.ssl.SSLEngineResult$Status[] javax.net.ssl.SSLEngineResult$Status.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -95,7 +98,7 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link Status#values()}
+            // write some test for {@link javax.net.ssl.SSLEngineResult.Status#values()}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLEngineResult$Status]
@@ -115,7 +118,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link HandshakeStatus#values() public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.net.ssl.SSLEngineResult.HandshakeStatus#values() public static
          * javax.net.ssl.SSLEngineResult$HandshakeStatus[] javax.net.ssl.SSLEngineResult$HandshakeStatus.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,12 +134,13 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link HandshakeStatus#values()}
+            // write some test for {@link javax.net.ssl.SSLEngineResult.HandshakeStatus#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link HandshakeStatus#valueOf(String) public static
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.net.ssl.SSLEngineResult.HandshakeStatus#valueOf(String) public static
          * javax.net.ssl.SSLEngineResult$HandshakeStatus
          * javax.net.ssl.SSLEngineResult$HandshakeStatus.valueOf(java.lang.String)}.
          *
@@ -151,7 +156,7 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link HandshakeStatus#valueOf(String)}
+            // write some test for {@link javax.net.ssl.SSLEngineResult.HandshakeStatus#valueOf(String)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]

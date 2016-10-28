@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Node;
 
 /**
  * <p>
@@ -35,7 +34,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMResult#setNextSibling(Node) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.dom.DOMResult#setNextSibling(org.w3c.dom.Node) public void
      * javax.xml.transform.dom.DOMResult.setNextSibling(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,7 +57,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMResult#setNode(Node) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.dom.DOMResult#setNode(org.w3c.dom.Node) public void
      * javax.xml.transform.dom.DOMResult.setNode(org.w3c.dom.Node)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +80,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMResult#getNode() public org.w3c.dom.Node
-     * javax.xml.transform.dom.DOMResult.getNode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.dom.DOMResult#getNode() public
+     * org.w3c.dom.Node javax.xml.transform.dom.DOMResult.getNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +102,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMResult#setSystemId(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.dom.DOMResult#setSystemId(String) public void
      * javax.xml.transform.dom.DOMResult.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +126,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMResult#getSystemId() public java.lang.String
-     * javax.xml.transform.dom.DOMResult.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.dom.DOMResult#getSystemId()
+     * public java.lang.String javax.xml.transform.dom.DOMResult.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +149,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DOMResult#getNextSibling() public org.w3c.dom.Node
-     * javax.xml.transform.dom.DOMResult.getNextSibling()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.transform.dom.DOMResult#getNextSibling()
+     * public org.w3c.dom.Node javax.xml.transform.dom.DOMResult.getNextSibling()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

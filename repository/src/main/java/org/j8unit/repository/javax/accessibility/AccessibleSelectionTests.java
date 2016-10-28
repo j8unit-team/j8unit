@@ -35,8 +35,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#selectAllAccessibleSelection()
-     * public abstract void javax.accessibility.AccessibleSelection.selectAllAccessibleSelection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleSelection#selectAllAccessibleSelection() public abstract void
+     * javax.accessibility.AccessibleSelection.selectAllAccessibleSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +58,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#getAccessibleSelectionCount()
-     * public abstract int javax.accessibility.AccessibleSelection.getAccessibleSelectionCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleSelection#getAccessibleSelectionCount() public abstract int
+     * javax.accessibility.AccessibleSelection.getAccessibleSelectionCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#removeAccessibleSelection(int)
-     * public abstract void javax.accessibility.AccessibleSelection.removeAccessibleSelection(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleSelection#removeAccessibleSelection(int) public abstract void
+     * javax.accessibility.AccessibleSelection.removeAccessibleSelection(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +104,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#clearAccessibleSelection()
-     * public abstract void javax.accessibility.AccessibleSelection.clearAccessibleSelection()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleSelection#clearAccessibleSelection() public abstract void
+     * javax.accessibility.AccessibleSelection.clearAccessibleSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +127,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#isAccessibleChildSelected(int)
-     * public abstract boolean javax.accessibility.AccessibleSelection.isAccessibleChildSelected(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleSelection#isAccessibleChildSelected(int) public abstract boolean
+     * javax.accessibility.AccessibleSelection.isAccessibleChildSelected(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,9 +150,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#getAccessibleSelection(int)
-     * public abstract javax.accessibility.Accessible
-     * javax.accessibility.AccessibleSelection.getAccessibleSelection(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleSelection#getAccessibleSelection(int) public abstract
+     * javax.accessibility.Accessible javax.accessibility.AccessibleSelection.getAccessibleSelection(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +173,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#addAccessibleSelection(int)
-     * public abstract void javax.accessibility.AccessibleSelection.addAccessibleSelection(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleSelection#addAccessibleSelection(int) public abstract void
+     * javax.accessibility.AccessibleSelection.addAccessibleSelection(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

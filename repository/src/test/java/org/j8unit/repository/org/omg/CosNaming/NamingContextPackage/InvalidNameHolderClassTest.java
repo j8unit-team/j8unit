@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CosNaming.NamingContextPackage.InvalidName;
 import org.omg.CosNaming.NamingContextPackage.InvalidNameHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,7 +21,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidN
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidNameHolder#InvalidNameHolder() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.InvalidNameHolder#InvalidNameHolder() public
      * org.omg.CosNaming.NamingContextPackage.InvalidNameHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidN
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidNameHolder#InvalidNameHolder(InvalidName) public
+     * {@link org.omg.CosNaming.NamingContextPackage.InvalidNameHolder#InvalidNameHolder(org.omg.CosNaming.NamingContextPackage.InvalidName)
+     * public
      * org.omg.CosNaming.NamingContextPackage.InvalidNameHolder(org.omg.CosNaming.NamingContextPackage.InvalidName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +62,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidN
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InvalidNameHolder sut = null; // = new InvalidNameHolder(InvalidName);
+        final InvalidNameHolder sut = null; // = new
+                                            // InvalidNameHolder(org.omg.CosNaming.NamingContextPackage.InvalidName);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.InvalidNameHolder]

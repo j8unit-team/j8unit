@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.rmi.CORBA.ClassDescClassTests<ClassDesc> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ClassDesc#ClassDesc() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.rmi.CORBA.ClassDesc#ClassDesc() public
      * javax.rmi.CORBA.ClassDesc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

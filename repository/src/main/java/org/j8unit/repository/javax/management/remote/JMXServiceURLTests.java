@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXServiceURL#getProtocol() public java.lang.String
-     * javax.management.remote.JMXServiceURL.getProtocol()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXServiceURL#getProtocol()
+     * public java.lang.String javax.management.remote.JMXServiceURL.getProtocol()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXServiceURL#toString() public java.lang.String
-     * javax.management.remote.JMXServiceURL.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXServiceURL#toString()
+     * public java.lang.String javax.management.remote.JMXServiceURL.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXServiceURL#getHost() public java.lang.String
-     * javax.management.remote.JMXServiceURL.getHost()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXServiceURL#getHost()
+     * public java.lang.String javax.management.remote.JMXServiceURL.getHost()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXServiceURL#getPort() public int
-     * javax.management.remote.JMXServiceURL.getPort()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXServiceURL#getPort()
+     * public int javax.management.remote.JMXServiceURL.getPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXServiceURL#equals(Object) public boolean
-     * javax.management.remote.JMXServiceURL.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXServiceURL#equals(Object)
+     * public boolean javax.management.remote.JMXServiceURL.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXServiceURL#getURLPath() public java.lang.String
-     * javax.management.remote.JMXServiceURL.getURLPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXServiceURL#getURLPath()
+     * public java.lang.String javax.management.remote.JMXServiceURL.getURLPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +168,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JMXServiceURL#hashCode() public int
-     * javax.management.remote.JMXServiceURL.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXServiceURL#hashCode()
+     * public int javax.management.remote.JMXServiceURL.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

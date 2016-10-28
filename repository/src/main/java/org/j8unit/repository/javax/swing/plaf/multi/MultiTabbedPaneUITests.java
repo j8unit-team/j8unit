@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
-import java.awt.Graphics;
-import javax.swing.JComponent;
-import javax.swing.JTabbedPane;
 import javax.swing.plaf.multi.MultiTabbedPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#getPreferredSize(JComponent)
-     * public java.awt.Dimension javax.swing.plaf.multi.MultiTabbedPaneUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiTabbedPaneUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,7 +58,8 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#installUI(JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiTabbedPaneUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +82,9 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#getMinimumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTabbedPaneUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,7 +107,8 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiTabbedPaneUI#getAccessibleChild(JComponent, int) public javax.accessibility.Accessible
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiTabbedPaneUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,8 +131,9 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#getTabRunCount(JTabbedPane) public
-     * int javax.swing.plaf.multi.MultiTabbedPaneUI.getTabRunCount(javax.swing.JTabbedPane)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getTabRunCount(javax.swing.JTabbedPane) public int
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.getTabRunCount(javax.swing.JTabbedPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -153,8 +155,9 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#contains(JComponent, int, int)
-     * public boolean javax.swing.plaf.multi.MultiTabbedPaneUI.contains(javax.swing.JComponent,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#contains(javax.swing.JComponent, int, int) public boolean
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,7 +180,7 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiTabbedPaneUI#getAccessibleChildrenCount(JComponent) public int
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiTabbedPaneUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -200,8 +203,9 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#uninstallUI(JComponent) public
-     * void javax.swing.plaf.multi.MultiTabbedPaneUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -223,8 +227,9 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#getMaximumSize(JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTabbedPaneUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -246,8 +251,8 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#getUIs() public
-     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiTabbedPaneUI.getUIs()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getUIs()
+     * public javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiTabbedPaneUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -268,8 +273,9 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#getTabBounds(JTabbedPane, int)
-     * public java.awt.Rectangle javax.swing.plaf.multi.MultiTabbedPaneUI.getTabBounds(javax.swing.JTabbedPane,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getTabBounds(javax.swing.JTabbedPane, int) public
+     * java.awt.Rectangle javax.swing.plaf.multi.MultiTabbedPaneUI.getTabBounds(javax.swing.JTabbedPane,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -292,7 +298,7 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MultiTabbedPaneUI#tabForCoordinate(JTabbedPane, int, int) public int
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#tabForCoordinate(javax.swing.JTabbedPane, int, int) public int
      * javax.swing.plaf.multi.MultiTabbedPaneUI.tabForCoordinate(javax.swing.JTabbedPane,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -315,8 +321,9 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#paint(Graphics, JComponent) public
-     * void javax.swing.plaf.multi.MultiTabbedPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -338,8 +345,9 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiTabbedPaneUI#update(Graphics, JComponent)
-     * public void javax.swing.plaf.multi.MultiTabbedPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

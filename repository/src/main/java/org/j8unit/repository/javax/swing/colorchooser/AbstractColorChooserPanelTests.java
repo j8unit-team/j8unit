@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.colorchooser;
 
-import java.awt.Graphics;
-import javax.swing.JColorChooser;
 import javax.swing.colorchooser.AbstractColorChooserPanel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,7 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractColorChooserPanel#getDisplayedMnemonicIndex() public int
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#getDisplayedMnemonicIndex() public int
      * javax.swing.colorchooser.AbstractColorChooserPanel.getDisplayedMnemonicIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +58,8 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractColorChooserPanel#uninstallChooserPanel(JColorChooser) public void
-     * javax.swing.colorchooser.AbstractColorChooserPanel.uninstallChooserPanel(javax.swing.JColorChooser)}.
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#uninstallChooserPanel(javax.swing.JColorChooser) public
+     * void javax.swing.colorchooser.AbstractColorChooserPanel.uninstallChooserPanel(javax.swing.JColorChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +80,9 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractColorChooserPanel#updateChooser() public
-     * abstract void javax.swing.colorchooser.AbstractColorChooserPanel.updateChooser()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#updateChooser() public abstract void
+     * javax.swing.colorchooser.AbstractColorChooserPanel.updateChooser()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +103,9 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractColorChooserPanel#getDisplayName() public
-     * abstract java.lang.String javax.swing.colorchooser.AbstractColorChooserPanel.getDisplayName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#getDisplayName() public abstract java.lang.String
+     * javax.swing.colorchooser.AbstractColorChooserPanel.getDisplayName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,9 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractColorChooserPanel#paint(Graphics) public
-     * void javax.swing.colorchooser.AbstractColorChooserPanel.paint(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#paint(java.awt.Graphics) public void
+     * javax.swing.colorchooser.AbstractColorChooserPanel.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,8 +150,9 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractColorChooserPanel#getSmallDisplayIcon()
-     * public abstract javax.swing.Icon javax.swing.colorchooser.AbstractColorChooserPanel.getSmallDisplayIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#getSmallDisplayIcon() public abstract javax.swing.Icon
+     * javax.swing.colorchooser.AbstractColorChooserPanel.getSmallDisplayIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -172,8 +174,8 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractColorChooserPanel#installChooserPanel(JColorChooser) public void
-     * javax.swing.colorchooser.AbstractColorChooserPanel.installChooserPanel(javax.swing.JColorChooser)}.
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#installChooserPanel(javax.swing.JColorChooser) public
+     * void javax.swing.colorchooser.AbstractColorChooserPanel.installChooserPanel(javax.swing.JColorChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,8 +196,9 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractColorChooserPanel#getLargeDisplayIcon()
-     * public abstract javax.swing.Icon javax.swing.colorchooser.AbstractColorChooserPanel.getLargeDisplayIcon()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#getLargeDisplayIcon() public abstract javax.swing.Icon
+     * javax.swing.colorchooser.AbstractColorChooserPanel.getLargeDisplayIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,30 +219,8 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractColorChooserPanel#getColorSelectionModel()
-     * public javax.swing.colorchooser.ColorSelectionModel
-     * javax.swing.colorchooser.AbstractColorChooserPanel.getColorSelectionModel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColorSelectionModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractColorChooserPanel#getMnemonic() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#getMnemonic() public int
      * javax.swing.colorchooser.AbstractColorChooserPanel.getMnemonic()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -253,6 +234,30 @@ extends org.j8unit.repository.javax.swing.JPanelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMnemonic()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.colorchooser.AbstractColorChooserPanel#getColorSelectionModel() public
+     * javax.swing.colorchooser.ColorSelectionModel
+     * javax.swing.colorchooser.AbstractColorChooserPanel.getColorSelectionModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getColorSelectionModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

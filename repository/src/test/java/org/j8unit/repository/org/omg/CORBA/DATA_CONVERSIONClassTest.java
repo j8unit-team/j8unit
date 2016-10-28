@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.DATA_CONVERSION;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONClassTests<DATA_CO
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DATA_CONVERSION#DATA_CONVERSION(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.DATA_CONVERSION#DATA_CONVERSION(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.DATA_CONVERSION(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONClassTests<DATA_CO
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DATA_CONVERSION sut = null; // = new DATA_CONVERSION(String, int, CompletionStatus);
+        final DATA_CONVERSION sut = null; // = new DATA_CONVERSION(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DATA_CONVERSION#DATA_CONVERSION(int, CompletionStatus) public
+     * {@link org.omg.CORBA.DATA_CONVERSION#DATA_CONVERSION(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.DATA_CONVERSION(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,12 +62,13 @@ implements org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONClassTests<DATA_CO
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DATA_CONVERSION sut = null; // = new DATA_CONVERSION(int, CompletionStatus);
+        final DATA_CONVERSION sut = null; // = new DATA_CONVERSION(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DATA_CONVERSION#DATA_CONVERSION(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.DATA_CONVERSION#DATA_CONVERSION(String) public
      * org.omg.CORBA.DATA_CONVERSION(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -90,8 +90,8 @@ implements org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONClassTests<DATA_CO
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DATA_CONVERSION#DATA_CONVERSION() public
-     * org.omg.CORBA.DATA_CONVERSION()}.
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.DATA_CONVERSION#DATA_CONVERSION()
+     * public org.omg.CORBA.DATA_CONVERSION()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

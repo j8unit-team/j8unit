@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FactoryConfigurationError#FactoryConfigurationError(Exception, String) public
+     * {@link javax.xml.parsers.FactoryConfigurationError#FactoryConfigurationError(Exception, String) public
      * javax.xml.parsers.FactoryConfigurationError(java.lang.Exception,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FactoryConfigurationError#FactoryConfigurationError(Exception) public
+     * {@link javax.xml.parsers.FactoryConfigurationError#FactoryConfigurationError(Exception) public
      * javax.xml.parsers.FactoryConfigurationError(java.lang.Exception)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FactoryConfigurationError#FactoryConfigurationError(String) public
+     * {@link javax.xml.parsers.FactoryConfigurationError#FactoryConfigurationError(String) public
      * javax.xml.parsers.FactoryConfigurationError(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -91,7 +91,7 @@ implements org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FactoryConfigurationError#FactoryConfigurationError() public
+     * {@link javax.xml.parsers.FactoryConfigurationError#FactoryConfigurationError() public
      * javax.xml.parsers.FactoryConfigurationError()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

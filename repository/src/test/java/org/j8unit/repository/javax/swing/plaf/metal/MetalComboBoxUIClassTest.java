@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
 import javax.swing.plaf.metal.MetalComboBoxUI;
 import javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager;
 import javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup;
@@ -26,8 +24,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MetalComboBoxUI#MetalComboBoxUI() public
-     * javax.swing.plaf.metal.MetalComboBoxUI()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.metal.MetalComboBoxUI#MetalComboBoxUI() public javax.swing.plaf.metal.MetalComboBoxUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,7 +45,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MetalComboBoxUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalComboBoxUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalComboBoxUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,48 +61,10 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link MetalComboBoxUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.metal.MetalComboBoxUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI]
-
-    @RunWith(J8Unit4.class)
-    public static class MetalPropertyChangeListenerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalPropertyChangeListenerClassTests<MetalPropertyChangeListener> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
-
-        @Override
-        public Class<MetalPropertyChangeListener> createNewSUT() {
-            return MetalPropertyChangeListener.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link MetalPropertyChangeListener#MetalPropertyChangeListener(MetalComboBoxUI) public
-         * javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener(javax.swing.plaf.metal.MetalComboBoxUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_MetalPropertyChangeListener_MetalComboBoxUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final MetalPropertyChangeListener sut = null; // = new MetalPropertyChangeListener(MetalComboBoxUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class MetalComboBoxLayoutManagerClassTest
@@ -119,7 +80,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link MetalComboBoxLayoutManager#MetalComboBoxLayoutManager(MetalComboBoxUI) public
+         * {@link javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager#MetalComboBoxLayoutManager(javax.swing.plaf.metal.MetalComboBoxUI)
+         * public
          * javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager(javax.swing.plaf.metal.MetalComboBoxUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -136,7 +98,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final MetalComboBoxLayoutManager sut = null; // = new MetalComboBoxLayoutManager(MetalComboBoxUI);
+            final MetalComboBoxLayoutManager sut = null; // = new
+                                                         // MetalComboBoxLayoutManager(javax.swing.plaf.metal.MetalComboBoxUI);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
@@ -157,7 +120,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link MetalComboPopup#MetalComboPopup(MetalComboBoxUI, JComboBox) public
+         * {@link javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup#MetalComboPopup(javax.swing.plaf.metal.MetalComboBoxUI, javax.swing.JComboBox)
+         * public
          * javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup(javax.swing.plaf.metal.MetalComboBoxUI,javax.swing.JComboBox)}
          * .
          *
@@ -175,10 +139,51 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final MetalComboPopup sut = null; // = new MetalComboPopup(MetalComboBoxUI, JComboBox);
+            final MetalComboPopup sut = null; // = new MetalComboPopup(javax.swing.plaf.metal.MetalComboBoxUI,
+                                              // javax.swing.JComboBox);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class MetalPropertyChangeListenerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalPropertyChangeListenerClassTests<MetalPropertyChangeListener> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
+
+        @Override
+        public Class<MetalPropertyChangeListener> createNewSUT() {
+            return MetalPropertyChangeListener.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener#MetalPropertyChangeListener(javax.swing.plaf.metal.MetalComboBoxUI)
+         * public
+         * javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener(javax.swing.plaf.metal.MetalComboBoxUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_MetalPropertyChangeListener_MetalComboBoxUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final MetalPropertyChangeListener sut = null; // = new
+                                                          // MetalPropertyChangeListener(javax.swing.plaf.metal.MetalComboBoxUI);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
 
     }
 

@@ -21,7 +21,7 @@ implements org.j8unit.repository.javax.swing.InputMapClassTests<InputMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InputMap#InputMap() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.InputMap#InputMap() public
      * javax.swing.InputMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.image.BufferStrategyClassTests<BufferS
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BufferStrategy#BufferStrategy() public
-     * java.awt.image.BufferStrategy()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.image.BufferStrategy#BufferStrategy()
+     * public java.awt.image.BufferStrategy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.lang.invoke;
 
 import java.lang.invoke.MethodHandle;
-import java.lang.invoke.MethodType;
-import java.util.List;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#asSpreader(Class, int) public
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asSpreader(java.lang.Class<?>,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandle#asSpreader(Class, int)
+     * public java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asSpreader(java.lang.Class<?>,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#asCollector(Class, int) public
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asCollector(java.lang.Class<?>,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodHandle#asCollector(Class, int) public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asCollector(java.lang.Class<?>,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#isVarargsCollector() public boolean
-     * java.lang.invoke.MethodHandle.isVarargsCollector()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandle#isVarargsCollector()
+     * public boolean java.lang.invoke.MethodHandle.isVarargsCollector()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,9 +101,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#invokeWithArguments(List) public
-     * java.lang.Object java.lang.invoke.MethodHandle.invokeWithArguments(java.util.List<?>) throws java.lang.Throwable}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodHandle#invokeWithArguments(java.util.List) public java.lang.Object
+     * java.lang.invoke.MethodHandle.invokeWithArguments(java.util.List<?>) throws java.lang.Throwable}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,9 +124,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#invokeWithArguments(Object...) public
-     * java.lang.Object java.lang.invoke.MethodHandle.invokeWithArguments(java.lang.Object...) throws
-     * java.lang.Throwable}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodHandle#invokeWithArguments(Object...) public java.lang.Object
+     * java.lang.invoke.MethodHandle.invokeWithArguments(java.lang.Object...) throws java.lang.Throwable}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#invokeExact(Object...) public final
-     * native java.lang.Object java.lang.invoke.MethodHandle.invokeExact(java.lang.Object...) throws
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandle#invokeExact(Object...)
+     * public final native java.lang.Object java.lang.invoke.MethodHandle.invokeExact(java.lang.Object...) throws
      * java.lang.Throwable}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +170,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#toString() public java.lang.String
-     * java.lang.invoke.MethodHandle.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandle#toString() public
+     * java.lang.String java.lang.invoke.MethodHandle.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,8 +193,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#invoke(Object...) public final native
-     * java.lang.Object java.lang.invoke.MethodHandle.invoke(java.lang.Object...) throws java.lang.Throwable}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandle#invoke(Object...)
+     * public final native java.lang.Object java.lang.invoke.MethodHandle.invoke(java.lang.Object...) throws
+     * java.lang.Throwable}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,7 +216,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#asFixedArity() public
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandle#asFixedArity() public
      * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asFixedArity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,7 +238,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#bindTo(Object) public
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandle#bindTo(Object) public
      * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.bindTo(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,8 +260,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#asVarargsCollector(Class) public
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asVarargsCollector(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodHandle#asVarargsCollector(Class) public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asVarargsCollector(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -282,8 +283,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#asType(MethodType) public
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asType(java.lang.invoke.MethodType)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodHandle#asType(java.lang.invoke.MethodType) public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asType(java.lang.invoke.MethodType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,7 +306,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MethodHandle#type() public
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandle#type() public
      * java.lang.invoke.MethodType java.lang.invoke.MethodHandle.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.lang;
 
-import java.io.FileDescriptor;
-import java.net.InetAddress;
-import java.security.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -168,8 +165,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecurityManager#checkRead(FileDescriptor) public
-     * void java.lang.SecurityManager.checkRead(java.io.FileDescriptor)}.
+     * Test method for the hereby targeted method-under-test {@link SecurityManager#checkRead(java.io.FileDescriptor)
+     * public void java.lang.SecurityManager.checkRead(java.io.FileDescriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -520,8 +517,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecurityManager#checkWrite(FileDescriptor) public
-     * void java.lang.SecurityManager.checkWrite(java.io.FileDescriptor)}.
+     * Test method for the hereby targeted method-under-test {@link SecurityManager#checkWrite(java.io.FileDescriptor)
+     * public void java.lang.SecurityManager.checkWrite(java.io.FileDescriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -674,8 +671,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecurityManager#checkMulticast(InetAddress) public
-     * void java.lang.SecurityManager.checkMulticast(java.net.InetAddress)}.
+     * Test method for the hereby targeted method-under-test {@link SecurityManager#checkMulticast(java.net.InetAddress)
+     * public void java.lang.SecurityManager.checkMulticast(java.net.InetAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -696,8 +693,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecurityManager#checkMulticast(InetAddress, byte)
-     * public void java.lang.SecurityManager.checkMulticast(java.net.InetAddress,byte)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link SecurityManager#checkMulticast(java.net.InetAddress, byte) public void
+     * java.lang.SecurityManager.checkMulticast(java.net.InetAddress,byte)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -718,8 +716,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecurityManager#checkPermission(Permission) public
-     * void java.lang.SecurityManager.checkPermission(java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link SecurityManager#checkPermission(java.security.Permission) public void
+     * java.lang.SecurityManager.checkPermission(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -740,8 +739,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SecurityManager#checkPermission(Permission, Object)
-     * public void java.lang.SecurityManager.checkPermission(java.security.Permission,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link SecurityManager#checkPermission(java.security.Permission, Object) public void
+     * java.lang.SecurityManager.checkPermission(java.security.Permission,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

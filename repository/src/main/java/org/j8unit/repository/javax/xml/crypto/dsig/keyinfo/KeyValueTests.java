@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link KeyValue#getPublicKey() public abstract
-     * java.security.PublicKey javax.xml.crypto.dsig.keyinfo.KeyValue.getPublicKey() throws java.security.KeyException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyValue#getPublicKey() public abstract java.security.PublicKey
+     * javax.xml.crypto.dsig.keyinfo.KeyValue.getPublicKey() throws java.security.KeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

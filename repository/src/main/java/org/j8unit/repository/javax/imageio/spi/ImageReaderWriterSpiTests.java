@@ -34,30 +34,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderWriterSpi#getFileSuffixes() public
-     * java.lang.String[] javax.imageio.spi.ImageReaderWriterSpi.getFileSuffixes()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFileSuffixes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageReaderWriterSpi#getNativeImageMetadataFormatName() public java.lang.String
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getNativeImageMetadataFormatName() public java.lang.String
      * javax.imageio.spi.ImageReaderWriterSpi.getNativeImageMetadataFormatName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +58,30 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageReaderWriterSpi#isStandardStreamMetadataFormatSupported() public boolean
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getFileSuffixes() public java.lang.String[]
+     * javax.imageio.spi.ImageReaderWriterSpi.getFileSuffixes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFileSuffixes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#isStandardStreamMetadataFormatSupported() public boolean
      * javax.imageio.spi.ImageReaderWriterSpi.isStandardStreamMetadataFormatSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +104,7 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageReaderWriterSpi#isStandardImageMetadataFormatSupported() public boolean
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#isStandardImageMetadataFormatSupported() public boolean
      * javax.imageio.spi.ImageReaderWriterSpi.isStandardImageMetadataFormatSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +126,9 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderWriterSpi#getStreamMetadataFormat(String)
-     * public javax.imageio.metadata.IIOMetadataFormat
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getStreamMetadataFormat(String) public
+     * javax.imageio.metadata.IIOMetadataFormat
      * javax.imageio.spi.ImageReaderWriterSpi.getStreamMetadataFormat(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -148,8 +150,9 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderWriterSpi#getImageMetadataFormat(String)
-     * public javax.imageio.metadata.IIOMetadataFormat
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getImageMetadataFormat(String) public
+     * javax.imageio.metadata.IIOMetadataFormat
      * javax.imageio.spi.ImageReaderWriterSpi.getImageMetadataFormat(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,8 +174,9 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderWriterSpi#getPluginClassName() public
-     * java.lang.String javax.imageio.spi.ImageReaderWriterSpi.getPluginClassName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getPluginClassName() public java.lang.String
+     * javax.imageio.spi.ImageReaderWriterSpi.getPluginClassName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,7 +198,7 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageReaderWriterSpi#getExtraStreamMetadataFormatNames() public java.lang.String[]
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getExtraStreamMetadataFormatNames() public java.lang.String[]
      * javax.imageio.spi.ImageReaderWriterSpi.getExtraStreamMetadataFormatNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -217,7 +221,7 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageReaderWriterSpi#getExtraImageMetadataFormatNames() public java.lang.String[]
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getExtraImageMetadataFormatNames() public java.lang.String[]
      * javax.imageio.spi.ImageReaderWriterSpi.getExtraImageMetadataFormatNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -239,8 +243,9 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderWriterSpi#getMIMETypes() public
-     * java.lang.String[] javax.imageio.spi.ImageReaderWriterSpi.getMIMETypes()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getMIMETypes() public java.lang.String[]
+     * javax.imageio.spi.ImageReaderWriterSpi.getMIMETypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -262,7 +267,7 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ImageReaderWriterSpi#getNativeStreamMetadataFormatName() public java.lang.String
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getNativeStreamMetadataFormatName() public java.lang.String
      * javax.imageio.spi.ImageReaderWriterSpi.getNativeStreamMetadataFormatName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -284,8 +289,9 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ImageReaderWriterSpi#getFormatNames() public
-     * java.lang.String[] javax.imageio.spi.ImageReaderWriterSpi.getFormatNames()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getFormatNames() public java.lang.String[]
+     * javax.imageio.spi.ImageReaderWriterSpi.getFormatNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

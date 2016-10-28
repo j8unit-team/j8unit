@@ -7,11 +7,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.StructMember;
 import org.omg.CORBA.StructMemberHelper;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 @RunWith(J8Unit4.class)
 public class StructMemberHelperClassTest
@@ -26,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<Stru
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StructMemberHelper#StructMemberHelper() public
-     * org.omg.CORBA.StructMemberHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.StructMemberHelper#StructMemberHelper() public org.omg.CORBA.StructMemberHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -46,7 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<Stru
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StructMemberHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.StructMemberHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.CORBA.StructMember org.omg.CORBA.StructMemberHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +58,14 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<Stru
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link StructMemberHelper#read(InputStream)}
+        // write some test for {@link org.omg.CORBA.StructMemberHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StructMemberHelper#extract(Any) public static
-     * org.omg.CORBA.StructMember org.omg.CORBA.StructMemberHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.StructMemberHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.StructMember
+     * org.omg.CORBA.StructMemberHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,12 +79,13 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<Stru
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link StructMemberHelper#extract(Any)}
+        // write some test for {@link org.omg.CORBA.StructMemberHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StructMemberHelper#write(OutputStream, StructMember)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.StructMemberHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CORBA.StructMember)
      * public static void
      * org.omg.CORBA.StructMemberHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.StructMember)}.
      *
@@ -102,13 +101,14 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<Stru
     @Category(Draft.class)
     public void test_write_OutputStream_StructMember()
     throws Exception {
-        // write some test for {@link StructMemberHelper#write(OutputStream, StructMember)}
+        // write some test for {@link org.omg.CORBA.StructMemberHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CORBA.StructMember)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StructMemberHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CORBA.StructMemberHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.StructMemberHelper#type() public
+     * static synchronized org.omg.CORBA.TypeCode org.omg.CORBA.StructMemberHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,13 +122,14 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<Stru
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link StructMemberHelper#type()}
+        // write some test for {@link org.omg.CORBA.StructMemberHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StructMemberHelper#insert(Any, StructMember) public
-     * static void org.omg.CORBA.StructMemberHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.StructMember)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.StructMemberHelper#insert(org.omg.CORBA.Any, org.omg.CORBA.StructMember) public static void
+     * org.omg.CORBA.StructMemberHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.StructMember)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -142,12 +143,13 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<Stru
     @Category(Draft.class)
     public void test_insert_Any_StructMember()
     throws Exception {
-        // write some test for {@link StructMemberHelper#insert(Any, StructMember)}
+        // write some test for {@link org.omg.CORBA.StructMemberHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CORBA.StructMember)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StructMemberHelper#id() public static
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.StructMemberHelper#id() public static
      * java.lang.String org.omg.CORBA.StructMemberHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -162,7 +164,7 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<Stru
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link StructMemberHelper#id()}
+        // write some test for {@link org.omg.CORBA.StructMemberHelper#id()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.StructMemberHelper]

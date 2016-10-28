@@ -5,7 +5,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.w3c.dom.Attr;
 import org.w3c.dom.Element;
 
 /**
@@ -35,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAttribute(String) public abstract
-     * java.lang.String org.w3c.dom.Element.getAttribute(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#getAttribute(String) public
+     * abstract java.lang.String org.w3c.dom.Element.getAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +56,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#setAttribute(String, String) public abstract
-     * void org.w3c.dom.Element.setAttribute(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#setAttribute(String, String)
+     * public abstract void org.w3c.dom.Element.setAttribute(java.lang.String,java.lang.String) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getElementsByTagNameNS(String, String)
-     * public abstract org.w3c.dom.NodeList
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Element#getElementsByTagNameNS(String, String) public abstract org.w3c.dom.NodeList
      * org.w3c.dom.Element.getElementsByTagNameNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#setIdAttributeNode(Attr, boolean) public
-     * abstract void org.w3c.dom.Element.setIdAttributeNode(org.w3c.dom.Attr,boolean) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Element#setIdAttributeNode(org.w3c.dom.Attr, boolean) public abstract void
+     * org.w3c.dom.Element.setIdAttributeNode(org.w3c.dom.Attr,boolean) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +125,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAttributeNS(String, String) public
-     * abstract java.lang.String org.w3c.dom.Element.getAttributeNS(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#getAttributeNS(String, String)
+     * public abstract java.lang.String org.w3c.dom.Element.getAttributeNS(java.lang.String,java.lang.String) throws
      * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,8 +148,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAttributeNode(String) public abstract
-     * org.w3c.dom.Attr org.w3c.dom.Element.getAttributeNode(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#getAttributeNode(String) public
+     * abstract org.w3c.dom.Attr org.w3c.dom.Element.getAttributeNode(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +170,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#removeAttributeNode(Attr) public abstract
-     * org.w3c.dom.Attr org.w3c.dom.Element.removeAttributeNode(org.w3c.dom.Attr) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Element#removeAttributeNode(org.w3c.dom.Attr) public abstract org.w3c.dom.Attr
+     * org.w3c.dom.Element.removeAttributeNode(org.w3c.dom.Attr) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,8 +193,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#hasAttributeNS(String, String) public
-     * abstract boolean org.w3c.dom.Element.hasAttributeNS(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#hasAttributeNS(String, String)
+     * public abstract boolean org.w3c.dom.Element.hasAttributeNS(java.lang.String,java.lang.String) throws
      * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,7 +216,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getTagName() public abstract
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#getTagName() public abstract
      * java.lang.String org.w3c.dom.Element.getTagName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,9 +238,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getAttributeNodeNS(String, String) public
-     * abstract org.w3c.dom.Attr org.w3c.dom.Element.getAttributeNodeNS(java.lang.String,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Element#getAttributeNodeNS(String, String) public abstract org.w3c.dom.Attr
+     * org.w3c.dom.Element.getAttributeNodeNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -259,8 +261,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getElementsByTagName(String) public abstract
-     * org.w3c.dom.NodeList org.w3c.dom.Element.getElementsByTagName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#getElementsByTagName(String)
+     * public abstract org.w3c.dom.NodeList org.w3c.dom.Element.getElementsByTagName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -281,9 +283,10 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#setAttributeNS(String, String, String)
-     * public abstract void org.w3c.dom.Element.setAttributeNS(java.lang.String,java.lang.String,java.lang.String)
-     * throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Element#setAttributeNS(String, String, String) public abstract void
+     * org.w3c.dom.Element.setAttributeNS(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,8 +307,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#removeAttribute(String) public abstract void
-     * org.w3c.dom.Element.removeAttribute(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#removeAttribute(String) public
+     * abstract void org.w3c.dom.Element.removeAttribute(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -326,8 +329,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#getSchemaTypeInfo() public abstract
-     * org.w3c.dom.TypeInfo org.w3c.dom.Element.getSchemaTypeInfo()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#getSchemaTypeInfo() public
+     * abstract org.w3c.dom.TypeInfo org.w3c.dom.Element.getSchemaTypeInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -348,9 +351,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#removeAttributeNS(String, String) public
-     * abstract void org.w3c.dom.Element.removeAttributeNS(java.lang.String,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Element#removeAttributeNS(String, String) public abstract void
+     * org.w3c.dom.Element.removeAttributeNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,8 +374,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#setAttributeNodeNS(Attr) public abstract
-     * org.w3c.dom.Attr org.w3c.dom.Element.setAttributeNodeNS(org.w3c.dom.Attr) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Element#setAttributeNodeNS(org.w3c.dom.Attr) public abstract org.w3c.dom.Attr
+     * org.w3c.dom.Element.setAttributeNodeNS(org.w3c.dom.Attr) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -393,8 +397,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#setAttributeNode(Attr) public abstract
-     * org.w3c.dom.Attr org.w3c.dom.Element.setAttributeNode(org.w3c.dom.Attr) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Element#setAttributeNode(org.w3c.dom.Attr) public abstract org.w3c.dom.Attr
+     * org.w3c.dom.Element.setAttributeNode(org.w3c.dom.Attr) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -415,8 +420,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#hasAttribute(String) public abstract boolean
-     * org.w3c.dom.Element.hasAttribute(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#hasAttribute(String) public
+     * abstract boolean org.w3c.dom.Element.hasAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -437,9 +442,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#setIdAttributeNS(String, String, boolean)
-     * public abstract void org.w3c.dom.Element.setIdAttributeNS(java.lang.String,java.lang.String,boolean) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.Element#setIdAttributeNS(String, String, boolean) public abstract void
+     * org.w3c.dom.Element.setIdAttributeNS(java.lang.String,java.lang.String,boolean) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -460,8 +465,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Element#setIdAttribute(String, boolean) public
-     * abstract void org.w3c.dom.Element.setIdAttribute(java.lang.String,boolean) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Element#setIdAttribute(String, boolean)
+     * public abstract void org.w3c.dom.Element.setIdAttribute(java.lang.String,boolean) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

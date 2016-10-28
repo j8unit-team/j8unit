@@ -23,7 +23,7 @@ implements org.j8unit.repository.java.security.AlgorithmParameterGeneratorSpiCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AlgorithmParameterGeneratorSpi#AlgorithmParameterGeneratorSpi() public
+     * {@link java.security.AlgorithmParameterGeneratorSpi#AlgorithmParameterGeneratorSpi() public
      * java.security.AlgorithmParameterGeneratorSpi()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

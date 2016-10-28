@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MultiDocPrintService#createMultiDocPrintJob() public
-     * abstract javax.print.MultiDocPrintJob javax.print.MultiDocPrintService.createMultiDocPrintJob()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.MultiDocPrintService#createMultiDocPrintJob() public abstract javax.print.MultiDocPrintJob
+     * javax.print.MultiDocPrintService.createMultiDocPrintJob()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

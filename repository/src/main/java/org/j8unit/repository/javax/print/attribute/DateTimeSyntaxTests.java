@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeSyntax#toString() public java.lang.String
-     * javax.print.attribute.DateTimeSyntax.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.DateTimeSyntax#toString()
+     * public java.lang.String javax.print.attribute.DateTimeSyntax.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeSyntax#getValue() public java.util.Date
-     * javax.print.attribute.DateTimeSyntax.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.DateTimeSyntax#getValue()
+     * public java.util.Date javax.print.attribute.DateTimeSyntax.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeSyntax#hashCode() public int
-     * javax.print.attribute.DateTimeSyntax.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.DateTimeSyntax#hashCode()
+     * public int javax.print.attribute.DateTimeSyntax.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DateTimeSyntax#equals(Object) public boolean
-     * javax.print.attribute.DateTimeSyntax.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.DateTimeSyntax#equals(Object)
+     * public boolean javax.print.attribute.DateTimeSyntax.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

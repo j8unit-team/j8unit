@@ -35,8 +35,8 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileObject#getAccessLevel() public abstract
-     * javax.lang.model.element.Modifier javax.tools.JavaFileObject.getAccessLevel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.JavaFileObject#getAccessLevel() public
+     * abstract javax.lang.model.element.Modifier javax.tools.JavaFileObject.getAccessLevel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileObject#getNestingKind() public abstract
-     * javax.lang.model.element.NestingKind javax.tools.JavaFileObject.getNestingKind()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.JavaFileObject#getNestingKind() public
+     * abstract javax.lang.model.element.NestingKind javax.tools.JavaFileObject.getNestingKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,7 +79,7 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileObject#getKind() public abstract
+     * Test method for the hereby targeted method-under-test {@link javax.tools.JavaFileObject#getKind() public abstract
      * javax.tools.JavaFileObject$Kind javax.tools.JavaFileObject.getKind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +101,9 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JavaFileObject#isNameCompatible(String, Kind) public
-     * abstract boolean javax.tools.JavaFileObject.isNameCompatible(java.lang.String,javax.tools.JavaFileObject$Kind)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.JavaFileObject#isNameCompatible(String, javax.tools.JavaFileObject.Kind) public abstract
+     * boolean javax.tools.JavaFileObject.isNameCompatible(java.lang.String,javax.tools.JavaFileObject$Kind)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

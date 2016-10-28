@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.naming.ldap;
 
-import java.util.Hashtable;
-import javax.naming.Context;
-import javax.naming.ldap.Control;
 import javax.naming.ldap.ControlFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.javax.naming.ldap.ControlFactoryClassTests<Cont
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ControlFactory#getControlInstance(Control, Context, Hashtable) public static javax.naming.ldap.Control
+     * {@link javax.naming.ldap.ControlFactory#getControlInstance(javax.naming.ldap.Control, javax.naming.Context, java.util.Hashtable)
+     * public static javax.naming.ldap.Control
      * javax.naming.ldap.ControlFactory.getControlInstance(javax.naming.ldap.Control,javax.naming.Context,java.util.Hashtable<?,
      * ?>) throws javax.naming.NamingException}.
      *
@@ -41,7 +39,8 @@ implements org.j8unit.repository.javax.naming.ldap.ControlFactoryClassTests<Cont
     @Category(Draft.class)
     public void test_getControlInstance_Control_Context_Hashtable()
     throws Exception {
-        // write some test for {@link ControlFactory#getControlInstance(Control, Context, Hashtable)}
+        // write some test for {@link javax.naming.ldap.ControlFactory#getControlInstance(javax.naming.ldap.Control,
+        // javax.naming.Context, java.util.Hashtable)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.ControlFactory]

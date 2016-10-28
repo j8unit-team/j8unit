@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.PortableInterceptor.IORInterceptor_3_0;
 import org.omg.PortableInterceptor.IORInterceptor_3_0Holder;
 
 @RunWith(J8Unit4.class)
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0H
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IORInterceptor_3_0Holder#IORInterceptor_3_0Holder() public
+     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Holder#IORInterceptor_3_0Holder() public
      * org.omg.PortableInterceptor.IORInterceptor_3_0Holder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,8 +44,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0H
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IORInterceptor_3_0Holder#IORInterceptor_3_0Holder(IORInterceptor_3_0) public
-     * org.omg.PortableInterceptor.IORInterceptor_3_0Holder(org.omg.PortableInterceptor.IORInterceptor_3_0)}.
+     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Holder#IORInterceptor_3_0Holder(org.omg.PortableInterceptor.IORInterceptor_3_0)
+     * public org.omg.PortableInterceptor.IORInterceptor_3_0Holder(org.omg.PortableInterceptor.IORInterceptor_3_0)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +61,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0H
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final IORInterceptor_3_0Holder sut = null; // = new IORInterceptor_3_0Holder(IORInterceptor_3_0);
+        final IORInterceptor_3_0Holder sut = null; // = new
+                                                   // IORInterceptor_3_0Holder(org.omg.PortableInterceptor.IORInterceptor_3_0);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]

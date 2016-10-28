@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.table;
 
-import javax.swing.JTable;
 import javax.swing.table.TableCellEditor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends org.j8unit.repository.javax.swing.CellEditorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link TableCellEditor#getTableCellEditorComponent(JTable, Object, boolean, int, int) public abstract
-     * java.awt.Component
+     * {@link javax.swing.table.TableCellEditor#getTableCellEditorComponent(javax.swing.JTable, Object, boolean, int, int)
+     * public abstract java.awt.Component
      * javax.swing.table.TableCellEditor.getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)}
      * .
      *

@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLStreamException#getNestedException() public
-     * java.lang.Throwable javax.xml.stream.XMLStreamException.getNestedException()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLStreamException#getNestedException() public java.lang.Throwable
+     * javax.xml.stream.XMLStreamException.getNestedException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XMLStreamException#getLocation() public
-     * javax.xml.stream.Location javax.xml.stream.XMLStreamException.getLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamException#getLocation()
+     * public javax.xml.stream.Location javax.xml.stream.XMLStreamException.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

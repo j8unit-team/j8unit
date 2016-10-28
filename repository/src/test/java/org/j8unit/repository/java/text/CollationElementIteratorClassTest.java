@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.text.CollationElementIteratorClassTests<Co
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#primaryOrder(int) public
-     * static final int java.text.CollationElementIterator.primaryOrder(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.CollationElementIterator#primaryOrder(int)
+     * public static final int java.text.CollationElementIterator.primaryOrder(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,13 +36,14 @@ implements org.j8unit.repository.java.text.CollationElementIteratorClassTests<Co
     @Category(Draft.class)
     public void test_primaryOrder_int()
     throws Exception {
-        // write some test for {@link CollationElementIterator#primaryOrder(int)}
+        // write some test for {@link java.text.CollationElementIterator#primaryOrder(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#tertiaryOrder(int) public
-     * static final short java.text.CollationElementIterator.tertiaryOrder(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.CollationElementIterator#tertiaryOrder(int) public static final short
+     * java.text.CollationElementIterator.tertiaryOrder(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,13 +57,14 @@ implements org.j8unit.repository.java.text.CollationElementIteratorClassTests<Co
     @Category(Draft.class)
     public void test_tertiaryOrder_int()
     throws Exception {
-        // write some test for {@link CollationElementIterator#tertiaryOrder(int)}
+        // write some test for {@link java.text.CollationElementIterator#tertiaryOrder(int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CollationElementIterator#secondaryOrder(int) public
-     * static final short java.text.CollationElementIterator.secondaryOrder(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.CollationElementIterator#secondaryOrder(int) public static final short
+     * java.text.CollationElementIterator.secondaryOrder(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,7 +78,7 @@ implements org.j8unit.repository.java.text.CollationElementIteratorClassTests<Co
     @Category(Draft.class)
     public void test_secondaryOrder_int()
     throws Exception {
-        // write some test for {@link CollationElementIterator#secondaryOrder(int)}
+        // write some test for {@link java.text.CollationElementIterator#secondaryOrder(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.CollationElementIterator]

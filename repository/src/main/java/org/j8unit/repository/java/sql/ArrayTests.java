@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.sql;
 
 import java.sql.Array;
-import java.util.Map;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,7 +35,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getBaseType() public abstract int
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#getBaseType() public abstract int
      * java.sql.Array.getBaseType() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getBaseTypeName() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#getBaseTypeName() public abstract
      * java.lang.String java.sql.Array.getBaseTypeName() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#free() public abstract void
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#free() public abstract void
      * java.sql.Array.free() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,9 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getArray(long, int, Map) public abstract
-     * java.lang.Object java.sql.Array.getArray(long,int,java.util.Map<java.lang.String, java.lang.Class<?>>) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#getArray(long, int, java.util.Map)
+     * public abstract java.lang.Object java.sql.Array.getArray(long,int,java.util.Map<java.lang.String, java.lang.Class
+     * <?>>) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +124,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getArray() public abstract java.lang.Object
-     * java.sql.Array.getArray() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#getArray() public abstract
+     * java.lang.Object java.sql.Array.getArray() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +146,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getArray(Map) public abstract java.lang.Object
-     * java.sql.Array.getArray(java.util.Map<java.lang.String, java.lang.Class<?>>) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#getArray(java.util.Map) public
+     * abstract java.lang.Object java.sql.Array.getArray(java.util.Map<java.lang.String, java.lang.Class<?>>) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +169,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getArray(long, int) public abstract
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#getArray(long, int) public abstract
      * java.lang.Object java.sql.Array.getArray(long,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,31 +191,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getResultSet() public abstract
-     * java.sql.ResultSet java.sql.Array.getResultSet() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResultSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getResultSet(Map) public abstract
-     * java.sql.ResultSet java.sql.Array.getResultSet(java.util.Map<java.lang.String, java.lang.Class<?>>) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#getResultSet(java.util.Map) public
+     * abstract java.sql.ResultSet java.sql.Array.getResultSet(java.util.Map<java.lang.String, java.lang.Class<?>>)
+     * throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,8 +214,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getResultSet(long, int) public abstract
-     * java.sql.ResultSet java.sql.Array.getResultSet(long,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#getResultSet(long, int) public
+     * abstract java.sql.ResultSet java.sql.Array.getResultSet(long,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,9 +236,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Array#getResultSet(long, int, Map) public abstract
-     * java.sql.ResultSet java.sql.Array.getResultSet(long,int,java.util.Map<java.lang.String, java.lang.Class<?>>)
-     * throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.Array#getResultSet(long, int, java.util.Map) public abstract java.sql.ResultSet
+     * java.sql.Array.getResultSet(long,int,java.util.Map<java.lang.String, java.lang.Class<?>>) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -273,6 +252,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getResultSet_long_int_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.Array#getResultSet() public abstract
+     * java.sql.ResultSet java.sql.Array.getResultSet() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResultSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

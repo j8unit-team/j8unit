@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleDeclaration#getParentRule() public abstract
-     * org.w3c.dom.css.CSSRule org.w3c.dom.css.CSSStyleDeclaration.getParentRule()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSStyleDeclaration#getParentRule()
+     * public abstract org.w3c.dom.css.CSSRule org.w3c.dom.css.CSSStyleDeclaration.getParentRule()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CSSStyleDeclaration#setProperty(String, String, String) public abstract void
+     * {@link org.w3c.dom.css.CSSStyleDeclaration#setProperty(String, String, String) public abstract void
      * org.w3c.dom.css.CSSStyleDeclaration.setProperty(java.lang.String,java.lang.String,java.lang.String) throws
      * org.w3c.dom.DOMException}.
      *
@@ -81,8 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleDeclaration#getCssText() public abstract
-     * java.lang.String org.w3c.dom.css.CSSStyleDeclaration.getCssText()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSStyleDeclaration#getCssText()
+     * public abstract java.lang.String org.w3c.dom.css.CSSStyleDeclaration.getCssText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +103,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleDeclaration#item(int) public abstract
-     * java.lang.String org.w3c.dom.css.CSSStyleDeclaration.item(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSStyleDeclaration#item(int) public
+     * abstract java.lang.String org.w3c.dom.css.CSSStyleDeclaration.item(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleDeclaration#getPropertyValue(String) public
-     * abstract java.lang.String org.w3c.dom.css.CSSStyleDeclaration.getPropertyValue(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.CSSStyleDeclaration#getPropertyValue(String) public abstract java.lang.String
+     * org.w3c.dom.css.CSSStyleDeclaration.getPropertyValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +148,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleDeclaration#getPropertyPriority(String)
-     * public abstract java.lang.String org.w3c.dom.css.CSSStyleDeclaration.getPropertyPriority(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.CSSStyleDeclaration#getPropertyPriority(String) public abstract java.lang.String
+     * org.w3c.dom.css.CSSStyleDeclaration.getPropertyPriority(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,8 +171,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleDeclaration#getPropertyCSSValue(String)
-     * public abstract org.w3c.dom.css.CSSValue
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.CSSStyleDeclaration#getPropertyCSSValue(String) public abstract org.w3c.dom.css.CSSValue
      * org.w3c.dom.css.CSSStyleDeclaration.getPropertyCSSValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,8 +194,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleDeclaration#setCssText(String) public
-     * abstract void org.w3c.dom.css.CSSStyleDeclaration.setCssText(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.CSSStyleDeclaration#setCssText(String) public abstract void
+     * org.w3c.dom.css.CSSStyleDeclaration.setCssText(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,9 +217,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleDeclaration#removeProperty(String) public
-     * abstract java.lang.String org.w3c.dom.css.CSSStyleDeclaration.removeProperty(java.lang.String) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.CSSStyleDeclaration#removeProperty(String) public abstract java.lang.String
+     * org.w3c.dom.css.CSSStyleDeclaration.removeProperty(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -237,8 +240,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleDeclaration#getLength() public abstract int
-     * org.w3c.dom.css.CSSStyleDeclaration.getLength()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSStyleDeclaration#getLength()
+     * public abstract int org.w3c.dom.css.CSSStyleDeclaration.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

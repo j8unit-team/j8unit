@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.beans.PropertyChangeSupportClassTests<Prop
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PropertyChangeSupport#PropertyChangeSupport(Object) public
+     * {@link java.beans.PropertyChangeSupport#PropertyChangeSupport(Object) public
      * java.beans.PropertyChangeSupport(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

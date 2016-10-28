@@ -1,9 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import java.util.List;
-import javax.lang.model.element.AnnotationMirror;
-import javax.lang.model.element.VariableElement;
-import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.SimpleAnnotationValueVisitor6;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -39,7 +35,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitChar(char, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitChar(char, Object) public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitChar(char,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +59,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitArray(List, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitArray(java.util.List, Object) public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitArray(java.util.List<? extends
      * javax.lang.model.element.AnnotationValue>,P)}.
      *
@@ -88,7 +84,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitLong(long, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitLong(long, Object) public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitLong(long,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -112,7 +108,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitFloat(float, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitFloat(float, Object) public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitFloat(float,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -136,7 +132,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitByte(byte, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitByte(byte, Object) public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitByte(byte,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -159,8 +155,9 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SimpleAnnotationValueVisitor6#visitInt(int, Object)
-     * public R javax.lang.model.util.SimpleAnnotationValueVisitor6.visitInt(int,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitInt(int, Object) public R
+     * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitInt(int,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -183,7 +180,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitBoolean(boolean, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitBoolean(boolean, Object) public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitBoolean(boolean,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -207,7 +204,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitShort(short, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitShort(short, Object) public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitShort(short,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -231,7 +228,8 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitEnumConstant(VariableElement, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitEnumConstant(javax.lang.model.element.VariableElement, Object)
+     * public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitEnumConstant(javax.lang.model.element.VariableElement,P)}
      * .
      *
@@ -256,8 +254,8 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitType(TypeMirror, Object) public R
-     * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitType(javax.lang.model.type.TypeMirror,P)}.
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitType(javax.lang.model.type.TypeMirror, Object)
+     * public R javax.lang.model.util.SimpleAnnotationValueVisitor6.visitType(javax.lang.model.type.TypeMirror,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,7 +278,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitDouble(double, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitDouble(double, Object) public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitDouble(double,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,7 +302,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitString(String, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitString(String, Object) public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitString(java.lang.String,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -328,7 +326,8 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link SimpleAnnotationValueVisitor6#visitAnnotation(AnnotationMirror, Object) public R
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitAnnotation(javax.lang.model.element.AnnotationMirror, Object)
+     * public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitAnnotation(javax.lang.model.element.AnnotationMirror,P)}
      * .
      *

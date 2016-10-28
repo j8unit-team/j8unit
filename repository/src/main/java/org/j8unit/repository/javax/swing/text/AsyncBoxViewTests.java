@@ -1,12 +1,8 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Graphics;
-import java.awt.Shape;
 import javax.swing.text.AsyncBoxView;
 import javax.swing.text.AsyncBoxView.ChildLocator;
 import javax.swing.text.AsyncBoxView.ChildState;
-import javax.swing.text.Position.Bias;
-import javax.swing.text.View;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,8 +36,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getPreferredSpan(int) public float
-     * javax.swing.text.AsyncBoxView.getPreferredSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getPreferredSpan(int)
+     * public float javax.swing.text.AsyncBoxView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,8 +59,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#setTopInset(float) public void
-     * javax.swing.text.AsyncBoxView.setTopInset(float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#setTopInset(float)
+     * public void javax.swing.text.AsyncBoxView.setTopInset(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,7 +81,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#modelToView(int, Shape, Bias) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AsyncBoxView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.AsyncBoxView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
      * throws javax.swing.text.BadLocationException}.
      *
@@ -109,8 +106,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getBottomInset() public float
-     * javax.swing.text.AsyncBoxView.getBottomInset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getBottomInset()
+     * public float javax.swing.text.AsyncBoxView.getBottomInset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,8 +128,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getMinimumSpan(int) public float
-     * javax.swing.text.AsyncBoxView.getMinimumSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getMinimumSpan(int)
+     * public float javax.swing.text.AsyncBoxView.getMinimumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,8 +151,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getViewCount() public int
-     * javax.swing.text.AsyncBoxView.getViewCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getViewCount() public
+     * int javax.swing.text.AsyncBoxView.getViewCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +174,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getLeftInset() public float
-     * javax.swing.text.AsyncBoxView.getLeftInset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getLeftInset() public
+     * float javax.swing.text.AsyncBoxView.getLeftInset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -199,8 +196,9 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getChildAllocation(int, Shape) public
-     * java.awt.Shape javax.swing.text.AsyncBoxView.getChildAllocation(int,java.awt.Shape)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AsyncBoxView#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
+     * javax.swing.text.AsyncBoxView.getChildAllocation(int,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,7 +220,30 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#paint(Graphics, Shape) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getMinorAxis() public
+     * int javax.swing.text.AsyncBoxView.getMinorAxis()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinorAxis()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AsyncBoxView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.AsyncBoxView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -245,30 +266,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getMinorAxis() public int
-     * javax.swing.text.AsyncBoxView.getMinorAxis()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinorAxis()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#setLeftInset(float) public void
-     * javax.swing.text.AsyncBoxView.setLeftInset(float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#setLeftInset(float)
+     * public void javax.swing.text.AsyncBoxView.setLeftInset(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,7 +288,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#replace(int, int, View[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AsyncBoxView#replace(int, int, javax.swing.text.View[]) public void
      * javax.swing.text.AsyncBoxView.replace(int,int,javax.swing.text.View[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,8 +312,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#setBottomInset(float) public void
-     * javax.swing.text.AsyncBoxView.setBottomInset(float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#setBottomInset(float)
+     * public void javax.swing.text.AsyncBoxView.setBottomInset(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -334,7 +334,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getViewIndex(int, Bias) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AsyncBoxView#getViewIndex(int, javax.swing.text.Position.Bias) public int
      * javax.swing.text.AsyncBoxView.getViewIndex(int,javax.swing.text.Position$Bias)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -357,8 +358,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getRightInset() public float
-     * javax.swing.text.AsyncBoxView.getRightInset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getRightInset() public
+     * float javax.swing.text.AsyncBoxView.getRightInset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -380,8 +381,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsyncBoxView#preferenceChanged(View, boolean, boolean) public synchronized void
-     * javax.swing.text.AsyncBoxView.preferenceChanged(javax.swing.text.View,boolean,boolean)}.
+     * {@link javax.swing.text.AsyncBoxView#preferenceChanged(javax.swing.text.View, boolean, boolean) public
+     * synchronized void javax.swing.text.AsyncBoxView.preferenceChanged(javax.swing.text.View,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -403,8 +404,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getMajorAxis() public int
-     * javax.swing.text.AsyncBoxView.getMajorAxis()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getMajorAxis() public
+     * int javax.swing.text.AsyncBoxView.getMajorAxis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -425,7 +426,7 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getView(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getView(int) public
      * javax.swing.text.View javax.swing.text.AsyncBoxView.getView(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -448,8 +449,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getMaximumSpan(int) public float
-     * javax.swing.text.AsyncBoxView.getMaximumSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getMaximumSpan(int)
+     * public float javax.swing.text.AsyncBoxView.getMaximumSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -472,7 +473,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsyncBoxView#getNextVisualPositionFrom(int, Bias, Shape, int, Bias[]) public int
+     * {@link javax.swing.text.AsyncBoxView#getNextVisualPositionFrom(int, javax.swing.text.Position.Bias, java.awt.Shape, int, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.text.AsyncBoxView.getNextVisualPositionFrom(int,javax.swing.text.Position$Bias,java.awt.Shape,int,javax.swing.text.Position$Bias[])
      * throws javax.swing.text.BadLocationException}.
      *
@@ -496,7 +498,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#setParent(View) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.AsyncBoxView#setParent(javax.swing.text.View) public void
      * javax.swing.text.AsyncBoxView.setParent(javax.swing.text.View)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -519,8 +522,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#setRightInset(float) public void
-     * javax.swing.text.AsyncBoxView.setRightInset(float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#setRightInset(float)
+     * public void javax.swing.text.AsyncBoxView.setRightInset(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -541,8 +544,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#getTopInset() public float
-     * javax.swing.text.AsyncBoxView.getTopInset()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#getTopInset() public
+     * float javax.swing.text.AsyncBoxView.getTopInset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -563,8 +566,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AsyncBoxView#setSize(float, float) public void
-     * javax.swing.text.AsyncBoxView.setSize(float,float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView#setSize(float, float)
+     * public void javax.swing.text.AsyncBoxView.setSize(float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -587,7 +590,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AsyncBoxView#viewToModel(float, float, Shape, Bias[]) public int
+     * {@link javax.swing.text.AsyncBoxView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.text.AsyncBoxView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -638,8 +642,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link ChildLocator#getViewIndexAtPoint(float, float, Shape) public int
-         * javax.swing.text.AsyncBoxView$ChildLocator.getViewIndexAtPoint(float,float,java.awt.Shape)}.
+         * {@link javax.swing.text.AsyncBoxView.ChildLocator#getViewIndexAtPoint(float, float, java.awt.Shape) public
+         * int javax.swing.text.AsyncBoxView$ChildLocator.getViewIndexAtPoint(float,float,java.awt.Shape)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -660,8 +664,9 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildLocator#paintChildren(Graphics) public
-         * synchronized void javax.swing.text.AsyncBoxView$ChildLocator.paintChildren(java.awt.Graphics)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildLocator#paintChildren(java.awt.Graphics) public synchronized void
+         * javax.swing.text.AsyncBoxView$ChildLocator.paintChildren(java.awt.Graphics)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -682,9 +687,9 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildLocator#getChildAllocation(int, Shape)
-         * public synchronized java.awt.Shape
-         * javax.swing.text.AsyncBoxView$ChildLocator.getChildAllocation(int,java.awt.Shape)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildLocator#getChildAllocation(int, java.awt.Shape) public synchronized
+         * java.awt.Shape javax.swing.text.AsyncBoxView$ChildLocator.getChildAllocation(int,java.awt.Shape)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -705,8 +710,9 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildLocator#childChanged(ChildState) public
-         * synchronized void
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildLocator#childChanged(javax.swing.text.AsyncBoxView.ChildState)
+         * public synchronized void
          * javax.swing.text.AsyncBoxView$ChildLocator.childChanged(javax.swing.text.AsyncBoxView$ChildState)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -757,7 +763,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildState#getMinorSpan() public float
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#getMinorSpan() public float
          * javax.swing.text.AsyncBoxView$ChildState.getMinorSpan()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -779,8 +786,9 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildState#getChildView() public
-         * javax.swing.text.View javax.swing.text.AsyncBoxView$ChildState.getChildView()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#getChildView() public javax.swing.text.View
+         * javax.swing.text.AsyncBoxView$ChildState.getChildView()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -801,8 +809,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildState#run() public void
-         * javax.swing.text.AsyncBoxView$ChildState.run()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.text.AsyncBoxView.ChildState#run()
+         * public void javax.swing.text.AsyncBoxView$ChildState.run()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -824,7 +832,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildState#isLayoutValid() public boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#isLayoutValid() public boolean
          * javax.swing.text.AsyncBoxView$ChildState.isLayoutValid()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -846,7 +855,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildState#setMajorOffset(float) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#setMajorOffset(float) public void
          * javax.swing.text.AsyncBoxView$ChildState.setMajorOffset(float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -868,7 +878,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildState#getMinorOffset() public float
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#getMinorOffset() public float
          * javax.swing.text.AsyncBoxView$ChildState.getMinorOffset()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -890,7 +901,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildState#getMajorSpan() public float
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#getMajorSpan() public float
          * javax.swing.text.AsyncBoxView$ChildState.getMajorSpan()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -912,7 +924,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildState#getMajorOffset() public float
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#getMajorOffset() public float
          * javax.swing.text.AsyncBoxView$ChildState.getMajorOffset()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -934,8 +947,9 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link ChildState#preferenceChanged(boolean, boolean)
-         * public void javax.swing.text.AsyncBoxView$ChildState.preferenceChanged(boolean,boolean)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#preferenceChanged(boolean, boolean) public void
+         * javax.swing.text.AsyncBoxView$ChildState.preferenceChanged(boolean,boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

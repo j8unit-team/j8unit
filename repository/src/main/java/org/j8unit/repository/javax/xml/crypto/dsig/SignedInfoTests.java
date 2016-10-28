@@ -34,8 +34,9 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SignedInfo#getCanonicalizedData() public abstract
-     * java.io.InputStream javax.xml.crypto.dsig.SignedInfo.getCanonicalizedData()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.SignedInfo#getCanonicalizedData() public abstract java.io.InputStream
+     * javax.xml.crypto.dsig.SignedInfo.getCanonicalizedData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +57,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SignedInfo#getSignatureMethod() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.SignedInfo#getSignatureMethod() public abstract
      * javax.xml.crypto.dsig.SignatureMethod javax.xml.crypto.dsig.SignedInfo.getSignatureMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +80,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SignedInfo#getReferences() public abstract
-     * java.util.List javax.xml.crypto.dsig.SignedInfo.getReferences()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.SignedInfo#getReferences()
+     * public abstract java.util.List javax.xml.crypto.dsig.SignedInfo.getReferences()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,9 +102,9 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SignedInfo#getCanonicalizationMethod() public
-     * abstract javax.xml.crypto.dsig.CanonicalizationMethod
-     * javax.xml.crypto.dsig.SignedInfo.getCanonicalizationMethod()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.SignedInfo#getCanonicalizationMethod() public abstract
+     * javax.xml.crypto.dsig.CanonicalizationMethod javax.xml.crypto.dsig.SignedInfo.getCanonicalizationMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +125,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SignedInfo#getId() public abstract java.lang.String
-     * javax.xml.crypto.dsig.SignedInfo.getId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.SignedInfo#getId() public
+     * abstract java.lang.String javax.xml.crypto.dsig.SignedInfo.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

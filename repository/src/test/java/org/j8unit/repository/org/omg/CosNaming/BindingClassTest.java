@@ -7,8 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.Binding;
-import org.omg.CosNaming.BindingType;
-import org.omg.CosNaming.NameComponent;
 
 @RunWith(J8Unit4.class)
 public class BindingClassTest
@@ -23,7 +21,7 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingClassTests<Binding> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Binding#Binding() public
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CosNaming.Binding#Binding() public
      * org.omg.CosNaming.Binding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +42,9 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingClassTests<Binding> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Binding#Binding(NameComponent[], BindingType)
-     * public org.omg.CosNaming.Binding(org.omg.CosNaming.NameComponent[],org.omg.CosNaming.BindingType)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.Binding#Binding(org.omg.CosNaming.NameComponent[], org.omg.CosNaming.BindingType) public
+     * org.omg.CosNaming.Binding(org.omg.CosNaming.NameComponent[],org.omg.CosNaming.BindingType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +60,7 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingClassTests<Binding> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Binding sut = null; // = new Binding(NameComponent[], BindingType);
+        final Binding sut = null; // = new Binding(org.omg.CosNaming.NameComponent[], org.omg.CosNaming.BindingType);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.Binding]

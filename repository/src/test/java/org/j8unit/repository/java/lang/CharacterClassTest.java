@@ -1679,8 +1679,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link UnicodeBlock#forName(String) public static final
-         * java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.forName(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeBlock#forName(String) public
+         * static final java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.forName(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1694,12 +1694,12 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         @Category(Draft.class)
         public void test_forName_String()
         throws Exception {
-            // write some test for {@link UnicodeBlock#forName(String)}
+            // write some test for {@link Character.UnicodeBlock#forName(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link UnicodeBlock#of(int) public static
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeBlock#of(int) public static
          * java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.of(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1714,12 +1714,12 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         @Category(Draft.class)
         public void test_of_int()
         throws Exception {
-            // write some test for {@link UnicodeBlock#of(int)}
+            // write some test for {@link Character.UnicodeBlock#of(int)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link UnicodeBlock#of(char) public static
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeBlock#of(char) public static
          * java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.of(char)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1734,7 +1734,7 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         @Category(Draft.class)
         public void test_of_char()
         throws Exception {
-            // write some test for {@link UnicodeBlock#of(char)}
+            // write some test for {@link Character.UnicodeBlock#of(char)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeBlock]
@@ -1754,8 +1754,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link UnicodeScript#forName(String) public static
-         * final java.lang.Character$UnicodeScript java.lang.Character$UnicodeScript.forName(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeScript#forName(String) public
+         * static final java.lang.Character$UnicodeScript java.lang.Character$UnicodeScript.forName(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1769,13 +1769,13 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         @Category(Draft.class)
         public void test_forName_String()
         throws Exception {
-            // write some test for {@link UnicodeScript#forName(String)}
+            // write some test for {@link Character.UnicodeScript#forName(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link UnicodeScript#valueOf(String) public static
-         * java.lang.Character$UnicodeScript java.lang.Character$UnicodeScript.valueOf(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeScript#valueOf(String) public
+         * static java.lang.Character$UnicodeScript java.lang.Character$UnicodeScript.valueOf(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1789,12 +1789,12 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         @Category(Draft.class)
         public void test_valueOf_String()
         throws Exception {
-            // write some test for {@link UnicodeScript#valueOf(String)}
+            // write some test for {@link Character.UnicodeScript#valueOf(String)}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link UnicodeScript#values() public static
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeScript#values() public static
          * java.lang.Character$UnicodeScript[] java.lang.Character$UnicodeScript.values()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1809,12 +1809,12 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         @Category(Draft.class)
         public void test_values()
         throws Exception {
-            // write some test for {@link UnicodeScript#values()}
+            // write some test for {@link Character.UnicodeScript#values()}
         }
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link UnicodeScript#of(int) public static
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeScript#of(int) public static
          * java.lang.Character$UnicodeScript java.lang.Character$UnicodeScript.of(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1829,7 +1829,7 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         @Category(Draft.class)
         public void test_of_int()
         throws Exception {
-            // write some test for {@link UnicodeScript#of(int)}
+            // write some test for {@link Character.UnicodeScript#of(int)}
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeScript]

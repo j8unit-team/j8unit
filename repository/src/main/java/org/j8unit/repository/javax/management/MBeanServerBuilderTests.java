@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.MBeanServer;
 import javax.management.MBeanServerBuilder;
-import javax.management.MBeanServerDelegate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerBuilder#newMBeanServerDelegate() public
-     * javax.management.MBeanServerDelegate javax.management.MBeanServerBuilder.newMBeanServerDelegate()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerBuilder#newMBeanServerDelegate() public javax.management.MBeanServerDelegate
+     * javax.management.MBeanServerBuilder.newMBeanServerDelegate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerBuilder#newMBeanServer(String, MBeanServer, MBeanServerDelegate) public
-     * javax.management.MBeanServer
+     * {@link javax.management.MBeanServerBuilder#newMBeanServer(String, javax.management.MBeanServer, javax.management.MBeanServerDelegate)
+     * public javax.management.MBeanServer
      * javax.management.MBeanServerBuilder.newMBeanServer(java.lang.String,javax.management.MBeanServer,javax.management.MBeanServerDelegate)}
      * .
      *

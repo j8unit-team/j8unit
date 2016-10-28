@@ -35,8 +35,8 @@ org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Copies#equals(Object) public boolean
-     * javax.print.attribute.standard.Copies.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Copies#equals(Object)
+     * public boolean javax.print.attribute.standard.Copies.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Copies#getName() public final java.lang.String
-     * javax.print.attribute.standard.Copies.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Copies#getName()
+     * public final java.lang.String javax.print.attribute.standard.Copies.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,8 +81,9 @@ org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Copies#getCategory() public final java.lang.Class<?
-     * extends javax.print.attribute.Attribute> javax.print.attribute.standard.Copies.getCategory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Copies#getCategory()
+     * public final java.lang.Class<? extends javax.print.attribute.Attribute>
+     * javax.print.attribute.standard.Copies.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -23,7 +23,7 @@ implements org.j8unit.repository.java.util.jar.Pack200ClassTests<Pack200> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pack200#newUnpacker() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Pack200#newUnpacker() public static
      * java.util.jar.Pack200$Unpacker java.util.jar.Pack200.newUnpacker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,13 +38,13 @@ implements org.j8unit.repository.java.util.jar.Pack200ClassTests<Pack200> {
     @Category(Draft.class)
     public void test_newUnpacker()
     throws Exception {
-        // write some test for {@link Pack200#newUnpacker()}
+        // write some test for {@link java.util.jar.Pack200#newUnpacker()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Pack200#newPacker() public static synchronized
-     * java.util.jar.Pack200$Packer java.util.jar.Pack200.newPacker()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.jar.Pack200#newPacker() public static
+     * synchronized java.util.jar.Pack200$Packer java.util.jar.Pack200.newPacker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +58,7 @@ implements org.j8unit.repository.java.util.jar.Pack200ClassTests<Pack200> {
     @Category(Draft.class)
     public void test_newPacker()
     throws Exception {
-        // write some test for {@link Pack200#newPacker()}
+        // write some test for {@link java.util.jar.Pack200#newPacker()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200]

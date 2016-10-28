@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Font;
-import java.awt.Rectangle;
 import javax.swing.JTextArea;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#setFont(Font) public void
-     * javax.swing.JTextArea.setFont(java.awt.Font)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#setFont(java.awt.Font) public
+     * void javax.swing.JTextArea.setFont(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +57,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#setWrapStyleWord(boolean) public void
-     * javax.swing.JTextArea.setWrapStyleWord(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#setWrapStyleWord(boolean)
+     * public void javax.swing.JTextArea.setWrapStyleWord(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,7 +79,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#append(String) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#append(String) public void
      * javax.swing.JTextArea.append(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +101,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getTabSize() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getTabSize() public int
      * javax.swing.JTextArea.getTabSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,7 +124,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link JTextArea#getScrollableUnitIncrement(Rectangle, int, int) public int
+     * {@link javax.swing.JTextArea#getScrollableUnitIncrement(java.awt.Rectangle, int, int) public int
      * javax.swing.JTextArea.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,7 +147,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#setTabSize(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#setTabSize(int) public void
      * javax.swing.JTextArea.setTabSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,7 +169,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getLineCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getLineCount() public int
      * javax.swing.JTextArea.getLineCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,8 +191,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getLineStartOffset(int) public int
-     * javax.swing.JTextArea.getLineStartOffset(int) throws javax.swing.text.BadLocationException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getLineStartOffset(int) public
+     * int javax.swing.JTextArea.getLineStartOffset(int) throws javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,7 +213,29 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getPreferredSize() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#replaceRange(String, int, int)
+     * public void javax.swing.JTextArea.replaceRange(java.lang.String,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replaceRange_String_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getPreferredSize() public
      * java.awt.Dimension javax.swing.JTextArea.getPreferredSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,29 +258,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#replaceRange(String, int, int) public void
-     * javax.swing.JTextArea.replaceRange(java.lang.String,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replaceRange_String_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#setRows(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#setRows(int) public void
      * javax.swing.JTextArea.setRows(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,8 +280,9 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getPreferredScrollableViewportSize()
-     * public java.awt.Dimension javax.swing.JTextArea.getPreferredScrollableViewportSize()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTextArea#getPreferredScrollableViewportSize() public java.awt.Dimension
+     * javax.swing.JTextArea.getPreferredScrollableViewportSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -305,7 +304,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getRows() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getRows() public int
      * javax.swing.JTextArea.getRows()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -327,8 +326,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getUIClassID() public java.lang.String
-     * javax.swing.JTextArea.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getUIClassID() public
+     * java.lang.String javax.swing.JTextArea.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -350,8 +349,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#insert(String, int) public void
-     * javax.swing.JTextArea.insert(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#insert(String, int) public
+     * void javax.swing.JTextArea.insert(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -372,7 +371,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getColumns() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getColumns() public int
      * javax.swing.JTextArea.getColumns()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -394,8 +393,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#setLineWrap(boolean) public void
-     * javax.swing.JTextArea.setLineWrap(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#setLineWrap(boolean) public
+     * void javax.swing.JTextArea.setLineWrap(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -416,7 +415,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JTextArea.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -439,8 +438,9 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getScrollableTracksViewportWidth() public
-     * boolean javax.swing.JTextArea.getScrollableTracksViewportWidth()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTextArea#getScrollableTracksViewportWidth() public boolean
+     * javax.swing.JTextArea.getScrollableTracksViewportWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -462,7 +462,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getLineWrap() public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getLineWrap() public boolean
      * javax.swing.JTextArea.getLineWrap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -484,8 +484,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getWrapStyleWord() public boolean
-     * javax.swing.JTextArea.getWrapStyleWord()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getWrapStyleWord() public
+     * boolean javax.swing.JTextArea.getWrapStyleWord()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -506,7 +506,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#setColumns(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#setColumns(int) public void
      * javax.swing.JTextArea.setColumns(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -528,8 +528,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getLineOfOffset(int) public int
-     * javax.swing.JTextArea.getLineOfOffset(int) throws javax.swing.text.BadLocationException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getLineOfOffset(int) public
+     * int javax.swing.JTextArea.getLineOfOffset(int) throws javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -550,8 +550,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link JTextArea#getLineEndOffset(int) public int
-     * javax.swing.JTextArea.getLineEndOffset(int) throws javax.swing.text.BadLocationException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextArea#getLineEndOffset(int) public
+     * int javax.swing.JTextArea.getLineEndOffset(int) throws javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

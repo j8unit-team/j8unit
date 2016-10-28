@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sound.midi;
 
-import javax.sound.midi.Receiver;
 import javax.sound.midi.Transmitter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -35,8 +34,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Transmitter#close() public abstract void
-     * javax.sound.midi.Transmitter.close()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Transmitter#close() public abstract
+     * void javax.sound.midi.Transmitter.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,9 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Transmitter#setReceiver(Receiver) public abstract
-     * void javax.sound.midi.Transmitter.setReceiver(javax.sound.midi.Receiver)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Transmitter#setReceiver(javax.sound.midi.Receiver) public abstract void
+     * javax.sound.midi.Transmitter.setReceiver(javax.sound.midi.Receiver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Transmitter#getReceiver() public abstract
-     * javax.sound.midi.Receiver javax.sound.midi.Transmitter.getReceiver()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Transmitter#getReceiver() public
+     * abstract javax.sound.midi.Receiver javax.sound.midi.Transmitter.getReceiver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

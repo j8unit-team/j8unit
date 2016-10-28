@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.awt.datatransfer.ClipboardClassTests<Clipb
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Clipboard#Clipboard(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.datatransfer.Clipboard#Clipboard(String) public
      * java.awt.datatransfer.Clipboard(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

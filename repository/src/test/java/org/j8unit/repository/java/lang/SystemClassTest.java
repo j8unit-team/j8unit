@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.lang;
 
-import java.io.InputStream;
-import java.io.PrintStream;
-import java.util.Properties;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +20,8 @@ implements org.j8unit.repository.java.lang.SystemClassTests<System> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link System#setProperties(Properties) public static void
-     * java.lang.System.setProperties(java.util.Properties)}.
+     * Test method for the hereby targeted method-under-test {@link System#setProperties(java.util.Properties) public
+     * static void java.lang.System.setProperties(java.util.Properties)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,7 +35,7 @@ implements org.j8unit.repository.java.lang.SystemClassTests<System> {
     @Category(Draft.class)
     public void test_setProperties_Properties()
     throws Exception {
-        // write some test for {@link System#setProperties(Properties)}
+        // write some test for {@link System#setProperties(java.util.Properties)}
     }
 
     /**
@@ -63,8 +60,8 @@ implements org.j8unit.repository.java.lang.SystemClassTests<System> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link System#setOut(PrintStream) public static void
-     * java.lang.System.setOut(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test {@link System#setOut(java.io.PrintStream) public static
+     * void java.lang.System.setOut(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +75,7 @@ implements org.j8unit.repository.java.lang.SystemClassTests<System> {
     @Category(Draft.class)
     public void test_setOut_PrintStream()
     throws Exception {
-        // write some test for {@link System#setOut(PrintStream)}
+        // write some test for {@link System#setOut(java.io.PrintStream)}
     }
 
     /**
@@ -383,7 +380,7 @@ implements org.j8unit.repository.java.lang.SystemClassTests<System> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link System#setIn(InputStream) public static void
+     * Test method for the hereby targeted method-under-test {@link System#setIn(java.io.InputStream) public static void
      * java.lang.System.setIn(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -398,7 +395,7 @@ implements org.j8unit.repository.java.lang.SystemClassTests<System> {
     @Category(Draft.class)
     public void test_setIn_InputStream()
     throws Exception {
-        // write some test for {@link System#setIn(InputStream)}
+        // write some test for {@link System#setIn(java.io.InputStream)}
     }
 
     /**
@@ -423,8 +420,8 @@ implements org.j8unit.repository.java.lang.SystemClassTests<System> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link System#setErr(PrintStream) public static void
-     * java.lang.System.setErr(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test {@link System#setErr(java.io.PrintStream) public static
+     * void java.lang.System.setErr(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -438,7 +435,7 @@ implements org.j8unit.repository.java.lang.SystemClassTests<System> {
     @Category(Draft.class)
     public void test_setErr_PrintStream()
     throws Exception {
-        // write some test for {@link System#setErr(PrintStream)}
+        // write some test for {@link System#setErr(java.io.PrintStream)}
     }
 
     /**

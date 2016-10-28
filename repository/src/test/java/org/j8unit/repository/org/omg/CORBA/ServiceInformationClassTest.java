@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.ServiceDetail;
 import org.omg.CORBA.ServiceInformation;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceInformationClassTests<Serv
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServiceInformation#ServiceInformation() public
-     * org.omg.CORBA.ServiceInformation()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ServiceInformation#ServiceInformation() public org.omg.CORBA.ServiceInformation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceInformationClassTests<Serv
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ServiceInformation#ServiceInformation(int[], ServiceDetail[]) public
+     * {@link org.omg.CORBA.ServiceInformation#ServiceInformation(int[], org.omg.CORBA.ServiceDetail[]) public
      * org.omg.CORBA.ServiceInformation(int[],org.omg.CORBA.ServiceDetail[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceInformationClassTests<Serv
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ServiceInformation sut = null; // = new ServiceInformation(int[], ServiceDetail[]);
+        final ServiceInformation sut = null; // = new ServiceInformation(int[], org.omg.CORBA.ServiceDetail[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ServiceInformation]

@@ -1,7 +1,5 @@
 package org.j8unit.repository.javax.swing;
 
-import java.awt.Component;
-import java.awt.Container;
 import javax.swing.DefaultFocusManager;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,7 +35,30 @@ extends org.j8unit.repository.javax.swing.FocusManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultFocusManager#compareTabOrder(Component, Component) public boolean
+     * {@link javax.swing.DefaultFocusManager#getComponentBefore(java.awt.Container, java.awt.Component) public
+     * java.awt.Component javax.swing.DefaultFocusManager.getComponentBefore(java.awt.Container,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponentBefore_Container_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultFocusManager#compareTabOrder(java.awt.Component, java.awt.Component) public boolean
      * javax.swing.DefaultFocusManager.compareTabOrder(java.awt.Component,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,30 +81,8 @@ extends org.j8unit.repository.javax.swing.FocusManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultFocusManager#getComponentBefore(Container, Component) public java.awt.Component
-     * javax.swing.DefaultFocusManager.getComponentBefore(java.awt.Container,java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponentBefore_Container_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFocusManager#getFirstComponent(Container)
-     * public java.awt.Component javax.swing.DefaultFocusManager.getFirstComponent(java.awt.Container)}.
+     * {@link javax.swing.DefaultFocusManager#getFirstComponent(java.awt.Container) public java.awt.Component
+     * javax.swing.DefaultFocusManager.getFirstComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +104,8 @@ extends org.j8unit.repository.javax.swing.FocusManagerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultFocusManager#getComponentAfter(Container, Component) public java.awt.Component
-     * javax.swing.DefaultFocusManager.getComponentAfter(java.awt.Container,java.awt.Component)}.
+     * {@link javax.swing.DefaultFocusManager#getComponentAfter(java.awt.Container, java.awt.Component) public
+     * java.awt.Component javax.swing.DefaultFocusManager.getComponentAfter(java.awt.Container,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,8 +126,9 @@ extends org.j8unit.repository.javax.swing.FocusManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultFocusManager#getLastComponent(Container)
-     * public java.awt.Component javax.swing.DefaultFocusManager.getLastComponent(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultFocusManager#getLastComponent(java.awt.Container) public java.awt.Component
+     * javax.swing.DefaultFocusManager.getLastComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

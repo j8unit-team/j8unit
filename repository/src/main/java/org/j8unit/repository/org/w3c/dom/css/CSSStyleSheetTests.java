@@ -34,8 +34,8 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleSheet#getCssRules() public abstract
-     * org.w3c.dom.css.CSSRuleList org.w3c.dom.css.CSSStyleSheet.getCssRules()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSStyleSheet#getCssRules() public
+     * abstract org.w3c.dom.css.CSSRuleList org.w3c.dom.css.CSSStyleSheet.getCssRules()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleSheet#deleteRule(int) public abstract void
-     * org.w3c.dom.css.CSSStyleSheet.deleteRule(int) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSStyleSheet#deleteRule(int) public
+     * abstract void org.w3c.dom.css.CSSStyleSheet.deleteRule(int) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleSheet#getOwnerRule() public abstract
-     * org.w3c.dom.css.CSSRule org.w3c.dom.css.CSSStyleSheet.getOwnerRule()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSSStyleSheet#getOwnerRule() public
+     * abstract org.w3c.dom.css.CSSRule org.w3c.dom.css.CSSStyleSheet.getOwnerRule()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +100,9 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CSSStyleSheet#insertRule(String, int) public
-     * abstract int org.w3c.dom.css.CSSStyleSheet.insertRule(java.lang.String,int) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.CSSStyleSheet#insertRule(String, int) public abstract int
+     * org.w3c.dom.css.CSSStyleSheet.insertRule(java.lang.String,int) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

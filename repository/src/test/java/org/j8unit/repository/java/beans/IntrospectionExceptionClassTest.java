@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.beans.IntrospectionExceptionClassTests<Int
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link IntrospectionException#IntrospectionException(String) public
+     * {@link java.beans.IntrospectionException#IntrospectionException(String) public
      * java.beans.IntrospectionException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
 import javax.management.openmbean.CompositeType;
-import javax.management.openmbean.OpenType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.management.openmbean.CompositeTypeClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link CompositeType#CompositeType(String, String, String[], String[], OpenType[]) public
+     * {@link javax.management.openmbean.CompositeType#CompositeType(String, String, String[], String[], javax.management.openmbean.OpenType[])
+     * public
      * javax.management.openmbean.CompositeType(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],javax.management.openmbean.OpenType
      * <?>[]) throws javax.management.openmbean.OpenDataException}.
      *
@@ -41,7 +41,8 @@ implements org.j8unit.repository.javax.management.openmbean.CompositeTypeClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final CompositeType sut = null; // = new CompositeType(String, String, String[], String[], OpenType[]);
+        final CompositeType sut = null; // = new CompositeType(String, String, String[], String[],
+                                        // javax.management.openmbean.OpenType[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.CompositeType]

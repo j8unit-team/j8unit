@@ -26,17 +26,17 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<Basic
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI]
 
     @RunWith(J8Unit4.class)
-    public static class ComponentHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ComponentHandlerTests<ComponentHandler> {
+    public static class TrackListenerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.TrackListenerTests<TrackListener> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
 
         @Override
-        public ComponentHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ComponentHandler], j8unit does not support a generic way to provide instances.");
+        public TrackListener createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.TrackListener], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
 
     }
 
@@ -56,17 +56,32 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<Basic
     }
 
     @RunWith(J8Unit4.class)
-    public static class ActionScrollerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ActionScrollerTests<ActionScroller> {
+    public static class ComponentHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ComponentHandlerTests<ComponentHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
 
         @Override
-        public ActionScroller createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ActionScroller], j8unit does not support a generic way to provide instances.");
+        public ComponentHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ComponentHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class FocusHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.FocusHandlerTests<FocusHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$FocusHandler]
+
+        @Override
+        public FocusHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.FocusHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$FocusHandler]
 
     }
 
@@ -86,17 +101,17 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<Basic
     }
 
     @RunWith(J8Unit4.class)
-    public static class TrackListenerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.TrackListenerTests<TrackListener> {
+    public static class ActionScrollerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ActionScrollerTests<ActionScroller> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
 
         @Override
-        public TrackListener createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.TrackListener], j8unit does not support a generic way to provide instances.");
+        public ActionScroller createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ActionScroller], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
 
     }
 
@@ -112,21 +127,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<Basic
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class FocusHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.FocusHandlerTests<FocusHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$FocusHandler]
-
-        @Override
-        public FocusHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.FocusHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$FocusHandler]
 
     }
 

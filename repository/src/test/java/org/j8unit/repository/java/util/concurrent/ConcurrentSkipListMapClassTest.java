@@ -1,8 +1,5 @@
 package org.j8unit.repository.java.util.concurrent;
 
-import java.util.Comparator;
-import java.util.Map;
-import java.util.SortedMap;
 import java.util.concurrent.ConcurrentSkipListMap;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -25,8 +22,9 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListMapClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ConcurrentSkipListMap#ConcurrentSkipListMap()
-     * public java.util.concurrent.ConcurrentSkipListMap()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListMap#ConcurrentSkipListMap() public
+     * java.util.concurrent.ConcurrentSkipListMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,7 +45,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListMapClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConcurrentSkipListMap#ConcurrentSkipListMap(Map) public
+     * {@link java.util.concurrent.ConcurrentSkipListMap#ConcurrentSkipListMap(java.util.Map) public
      * java.util.concurrent.ConcurrentSkipListMap(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,13 +62,13 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListMapClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConcurrentSkipListMap sut = null; // = new ConcurrentSkipListMap(Map);
+        final ConcurrentSkipListMap sut = null; // = new ConcurrentSkipListMap(java.util.Map);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConcurrentSkipListMap#ConcurrentSkipListMap(SortedMap) public
+     * {@link java.util.concurrent.ConcurrentSkipListMap#ConcurrentSkipListMap(java.util.SortedMap) public
      * java.util.concurrent.ConcurrentSkipListMap(java.util.SortedMap<K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,13 +85,13 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListMapClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConcurrentSkipListMap sut = null; // = new ConcurrentSkipListMap(SortedMap);
+        final ConcurrentSkipListMap sut = null; // = new ConcurrentSkipListMap(java.util.SortedMap);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ConcurrentSkipListMap#ConcurrentSkipListMap(Comparator) public
+     * {@link java.util.concurrent.ConcurrentSkipListMap#ConcurrentSkipListMap(java.util.Comparator) public
      * java.util.concurrent.ConcurrentSkipListMap(java.util.Comparator<? super K>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -110,7 +108,7 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListMapClass
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ConcurrentSkipListMap sut = null; // = new ConcurrentSkipListMap(Comparator);
+        final ConcurrentSkipListMap sut = null; // = new ConcurrentSkipListMap(java.util.Comparator);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentSkipListMap]

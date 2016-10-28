@@ -1,8 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
 import javax.swing.ComponentInputMap;
-import javax.swing.InputMap;
-import javax.swing.KeyStroke;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,7 +34,8 @@ extends org.j8unit.repository.javax.swing.InputMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentInputMap#put(KeyStroke, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ComponentInputMap#put(javax.swing.KeyStroke, Object) public void
      * javax.swing.ComponentInputMap.put(javax.swing.KeyStroke,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +58,8 @@ extends org.j8unit.repository.javax.swing.InputMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentInputMap#remove(KeyStroke) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ComponentInputMap#remove(javax.swing.KeyStroke) public void
      * javax.swing.ComponentInputMap.remove(javax.swing.KeyStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,7 +82,7 @@ extends org.j8unit.repository.javax.swing.InputMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentInputMap#getComponent() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ComponentInputMap#getComponent() public
      * javax.swing.JComponent javax.swing.ComponentInputMap.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +104,8 @@ extends org.j8unit.repository.javax.swing.InputMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentInputMap#setParent(InputMap) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.ComponentInputMap#setParent(javax.swing.InputMap) public void
      * javax.swing.ComponentInputMap.setParent(javax.swing.InputMap)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,7 +128,7 @@ extends org.j8unit.repository.javax.swing.InputMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ComponentInputMap#clear() public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ComponentInputMap#clear() public void
      * javax.swing.ComponentInputMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

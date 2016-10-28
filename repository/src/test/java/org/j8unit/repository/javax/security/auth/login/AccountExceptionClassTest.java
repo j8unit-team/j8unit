@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.security.auth.login.AccountExceptionClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AccountException#AccountException() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.login.AccountException#AccountException() public
      * javax.security.auth.login.AccountException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +43,9 @@ implements org.j8unit.repository.javax.security.auth.login.AccountExceptionClass
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link AccountException#AccountException(String)
-     * public javax.security.auth.login.AccountException(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.security.auth.login.AccountException#AccountException(String) public
+     * javax.security.auth.login.AccountException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

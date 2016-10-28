@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.security.cert.CRLReasonClassTests<CRLReaso
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CRLReason#valueOf(String) public static
-     * java.security.cert.CRLReason java.security.cert.CRLReason.valueOf(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CRLReason#valueOf(String) public
+     * static java.security.cert.CRLReason java.security.cert.CRLReason.valueOf(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.security.cert.CRLReasonClassTests<CRLReaso
     @Category(Draft.class)
     public void test_valueOf_String()
     throws Exception {
-        // write some test for {@link CRLReason#valueOf(String)}
+        // write some test for {@link java.security.cert.CRLReason#valueOf(String)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CRLReason#values() public static
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CRLReason#values() public static
      * java.security.cert.CRLReason[] java.security.cert.CRLReason.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.security.cert.CRLReasonClassTests<CRLReaso
     @Category(Draft.class)
     public void test_values()
     throws Exception {
-        // write some test for {@link CRLReason#values()}
+        // write some test for {@link java.security.cert.CRLReason#values()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CRLReason]

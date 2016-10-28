@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.security.auth.login;
 
-import java.util.Map;
 import javax.security.auth.login.AppConfigurationEntry;
 import javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag;
 import org.j8unit.repository.categories.Draft;
@@ -24,7 +23,8 @@ implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntry
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link AppConfigurationEntry#AppConfigurationEntry(String, LoginModuleControlFlag, Map) public
+     * {@link javax.security.auth.login.AppConfigurationEntry#AppConfigurationEntry(String, javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag, java.util.Map)
+     * public
      * javax.security.auth.login.AppConfigurationEntry(java.lang.String,javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag,java.util.Map<java.lang.String,
      * ?>)}.
      *
@@ -42,7 +42,9 @@ implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntry
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AppConfigurationEntry sut = null; // = new AppConfigurationEntry(String, LoginModuleControlFlag, Map);
+        final AppConfigurationEntry sut = null; // = new AppConfigurationEntry(String,
+                                                // javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag,
+                                                // java.util.Map);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry]

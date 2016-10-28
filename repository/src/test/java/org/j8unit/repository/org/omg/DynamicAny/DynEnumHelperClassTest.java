@@ -7,11 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.DynamicAny.DynEnum;
 import org.omg.DynamicAny.DynEnumHelper;
 
 @RunWith(J8Unit4.class)
@@ -27,8 +22,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DynEnumHelper#DynEnumHelper() public
-     * org.omg.DynamicAny.DynEnumHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny.DynEnumHelper#DynEnumHelper() public org.omg.DynamicAny.DynEnumHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,7 +42,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumHelper#read(InputStream) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynEnumHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.DynamicAny.DynEnum org.omg.DynamicAny.DynEnumHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,13 +58,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link DynEnumHelper#read(InputStream)}
+        // write some test for {@link org.omg.DynamicAny.DynEnumHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumHelper#extract(Any) public static
-     * org.omg.DynamicAny.DynEnum org.omg.DynamicAny.DynEnumHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynEnumHelper#extract(org.omg.CORBA.Any) public static org.omg.DynamicAny.DynEnum
+     * org.omg.DynamicAny.DynEnumHelper.extract(org.omg.CORBA.Any)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,13 +79,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link DynEnumHelper#extract(Any)}
+        // write some test for {@link org.omg.DynamicAny.DynEnumHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumHelper#write(OutputStream, DynEnum) public
-     * static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynEnumHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.DynamicAny.DynEnum)
+     * public static void
      * org.omg.DynamicAny.DynEnumHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynEnum)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,13 +101,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
     @Category(Draft.class)
     public void test_write_OutputStream_DynEnum()
     throws Exception {
-        // write some test for {@link DynEnumHelper#write(OutputStream, DynEnum)}
+        // write some test for {@link org.omg.DynamicAny.DynEnumHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.DynamicAny.DynEnum)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.DynamicAny.DynEnumHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynEnumHelper#type() public
+     * static synchronized org.omg.CORBA.TypeCode org.omg.DynamicAny.DynEnumHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,12 +122,13 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link DynEnumHelper#type()}
+        // write some test for {@link org.omg.DynamicAny.DynEnumHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumHelper#unchecked_narrow(Object) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynEnumHelper#unchecked_narrow(org.omg.CORBA.Object) public static
      * org.omg.DynamicAny.DynEnum org.omg.DynamicAny.DynEnumHelper.unchecked_narrow(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -143,13 +143,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
     @Category(Draft.class)
     public void test_unchecked_narrow_Object()
     throws Exception {
-        // write some test for {@link DynEnumHelper#unchecked_narrow(Object)}
+        // write some test for {@link org.omg.DynamicAny.DynEnumHelper#unchecked_narrow(org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumHelper#insert(Any, DynEnum) public static
-     * void org.omg.DynamicAny.DynEnumHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynEnum)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynEnumHelper#insert(org.omg.CORBA.Any, org.omg.DynamicAny.DynEnum) public static void
+     * org.omg.DynamicAny.DynEnumHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynEnum)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -163,13 +164,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
     @Category(Draft.class)
     public void test_insert_Any_DynEnum()
     throws Exception {
-        // write some test for {@link DynEnumHelper#insert(Any, DynEnum)}
+        // write some test for {@link org.omg.DynamicAny.DynEnumHelper#insert(org.omg.CORBA.Any,
+        // org.omg.DynamicAny.DynEnum)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumHelper#id() public static java.lang.String
-     * org.omg.DynamicAny.DynEnumHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny.DynEnumHelper#id() public static
+     * java.lang.String org.omg.DynamicAny.DynEnumHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -183,13 +185,14 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link DynEnumHelper#id()}
+        // write some test for {@link org.omg.DynamicAny.DynEnumHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DynEnumHelper#narrow(Object) public static
-     * org.omg.DynamicAny.DynEnum org.omg.DynamicAny.DynEnumHelper.narrow(org.omg.CORBA.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynEnumHelper#narrow(org.omg.CORBA.Object) public static org.omg.DynamicAny.DynEnum
+     * org.omg.DynamicAny.DynEnumHelper.narrow(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -203,7 +206,7 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
     @Category(Draft.class)
     public void test_narrow_Object()
     throws Exception {
-        // write some test for {@link DynEnumHelper#narrow(Object)}
+        // write some test for {@link org.omg.DynamicAny.DynEnumHelper#narrow(org.omg.CORBA.Object)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynEnumHelper]

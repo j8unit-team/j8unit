@@ -21,7 +21,8 @@ implements org.j8unit.repository.java.util.zip.ZipEntryClassTests<ZipEntry> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipEntry#ZipEntry(ZipEntry) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.ZipEntry#ZipEntry(java.util.zip.ZipEntry) public
      * java.util.zip.ZipEntry(java.util.zip.ZipEntry)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -38,12 +39,12 @@ implements org.j8unit.repository.java.util.zip.ZipEntryClassTests<ZipEntry> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ZipEntry sut = null; // = new ZipEntry(ZipEntry);
+        final ZipEntry sut = null; // = new ZipEntry(java.util.zip.ZipEntry);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ZipEntry#ZipEntry(String) public
+     * Test method for the hereby targeted constructor-under-test {@link java.util.zip.ZipEntry#ZipEntry(String) public
      * java.util.zip.ZipEntry(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

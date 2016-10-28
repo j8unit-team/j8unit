@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.util.logging;
 
-import java.util.logging.Handler;
-import java.util.logging.Level;
 import java.util.logging.MemoryHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.util.logging.MemoryHandlerClassTests<Memor
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MemoryHandler#MemoryHandler(Handler, int, Level) public
-     * java.util.logging.MemoryHandler(java.util.logging.Handler,int,java.util.logging.Level)}.
+     * {@link java.util.logging.MemoryHandler#MemoryHandler(java.util.logging.Handler, int, java.util.logging.Level)
+     * public java.util.logging.MemoryHandler(java.util.logging.Handler,int,java.util.logging.Level)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,13 +39,13 @@ implements org.j8unit.repository.java.util.logging.MemoryHandlerClassTests<Memor
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MemoryHandler sut = null; // = new MemoryHandler(Handler, int, Level);
+        final MemoryHandler sut = null; // = new MemoryHandler(java.util.logging.Handler, int, java.util.logging.Level);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MemoryHandler#MemoryHandler() public
-     * java.util.logging.MemoryHandler()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.logging.MemoryHandler#MemoryHandler()
+     * public java.util.logging.MemoryHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

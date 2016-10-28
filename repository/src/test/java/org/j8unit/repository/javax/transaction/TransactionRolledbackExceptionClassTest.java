@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.transaction.TransactionRolledbackExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransactionRolledbackException#TransactionRolledbackException() public
+     * {@link javax.transaction.TransactionRolledbackException#TransactionRolledbackException() public
      * javax.transaction.TransactionRolledbackException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.javax.transaction.TransactionRolledbackExceptio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link TransactionRolledbackException#TransactionRolledbackException(String) public
+     * {@link javax.transaction.TransactionRolledbackException#TransactionRolledbackException(String) public
      * javax.transaction.TransactionRolledbackException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

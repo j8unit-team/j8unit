@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.naming.InsufficientResourcesExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InsufficientResourcesException#InsufficientResourcesException(String) public
+     * {@link javax.naming.InsufficientResourcesException#InsufficientResourcesException(String) public
      * javax.naming.InsufficientResourcesException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -45,7 +45,7 @@ implements org.j8unit.repository.javax.naming.InsufficientResourcesExceptionClas
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InsufficientResourcesException#InsufficientResourcesException() public
+     * {@link javax.naming.InsufficientResourcesException#InsufficientResourcesException() public
      * javax.naming.InsufficientResourcesException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

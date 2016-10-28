@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.border;
 
-import java.awt.Color;
 import javax.swing.border.LineBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,30 +21,9 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LineBorder#LineBorder(Color, int) public
-     * javax.swing.border.LineBorder(java.awt.Color,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_LineBorder_Color_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final LineBorder sut = null; // = new LineBorder(Color, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LineBorder#LineBorder(Color, int, boolean)
-     * public javax.swing.border.LineBorder(java.awt.Color,int,boolean)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color, int, boolean) public
+     * javax.swing.border.LineBorder(java.awt.Color,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,12 +39,13 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LineBorder sut = null; // = new LineBorder(Color, int, boolean);
+        final LineBorder sut = null; // = new LineBorder(java.awt.Color, int, boolean);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LineBorder#LineBorder(Color) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color) public
      * javax.swing.border.LineBorder(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,13 +62,36 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final LineBorder sut = null; // = new LineBorder(Color);
+        final LineBorder sut = null; // = new LineBorder(java.awt.Color);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineBorder#createGrayLineBorder() public static
-     * javax.swing.border.Border javax.swing.border.LineBorder.createGrayLineBorder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color, int) public
+     * javax.swing.border.LineBorder(java.awt.Color,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_LineBorder_Color_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final LineBorder sut = null; // = new LineBorder(java.awt.Color, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.border.LineBorder#createGrayLineBorder()
+     * public static javax.swing.border.Border javax.swing.border.LineBorder.createGrayLineBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,13 +105,14 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
     @Category(Draft.class)
     public void test_createGrayLineBorder()
     throws Exception {
-        // write some test for {@link LineBorder#createGrayLineBorder()}
+        // write some test for {@link javax.swing.border.LineBorder#createGrayLineBorder()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LineBorder#createBlackLineBorder() public static
-     * javax.swing.border.Border javax.swing.border.LineBorder.createBlackLineBorder()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.border.LineBorder#createBlackLineBorder() public static javax.swing.border.Border
+     * javax.swing.border.LineBorder.createBlackLineBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +126,7 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
     @Category(Draft.class)
     public void test_createBlackLineBorder()
     throws Exception {
-        // write some test for {@link LineBorder#createBlackLineBorder()}
+        // write some test for {@link javax.swing.border.LineBorder#createBlackLineBorder()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.LineBorder]

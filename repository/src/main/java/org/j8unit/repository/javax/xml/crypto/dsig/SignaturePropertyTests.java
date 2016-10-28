@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SignatureProperty#getContent() public abstract
-     * java.util.List javax.xml.crypto.dsig.SignatureProperty.getContent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.SignatureProperty#getContent()
+     * public abstract java.util.List javax.xml.crypto.dsig.SignatureProperty.getContent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SignatureProperty#getTarget() public abstract
-     * java.lang.String javax.xml.crypto.dsig.SignatureProperty.getTarget()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.SignatureProperty#getTarget()
+     * public abstract java.lang.String javax.xml.crypto.dsig.SignatureProperty.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +78,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SignatureProperty#getId() public abstract
-     * java.lang.String javax.xml.crypto.dsig.SignatureProperty.getId()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.SignatureProperty#getId()
+     * public abstract java.lang.String javax.xml.crypto.dsig.SignatureProperty.getId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,8 +35,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextSyntax#toString() public java.lang.String
-     * javax.print.attribute.TextSyntax.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.TextSyntax#toString() public
+     * java.lang.String javax.print.attribute.TextSyntax.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +58,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextSyntax#getLocale() public java.util.Locale
-     * javax.print.attribute.TextSyntax.getLocale()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.TextSyntax#getLocale() public
+     * java.util.Locale javax.print.attribute.TextSyntax.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextSyntax#getValue() public java.lang.String
-     * javax.print.attribute.TextSyntax.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.TextSyntax#getValue() public
+     * java.lang.String javax.print.attribute.TextSyntax.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +102,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextSyntax#hashCode() public int
-     * javax.print.attribute.TextSyntax.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.TextSyntax#hashCode() public
+     * int javax.print.attribute.TextSyntax.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +125,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TextSyntax#equals(Object) public boolean
-     * javax.print.attribute.TextSyntax.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.TextSyntax#equals(Object)
+     * public boolean javax.print.attribute.TextSyntax.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.sql;
 
-import javax.sql.RowSet;
 import javax.sql.RowSetEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.javax.sql.RowSetEventClassTests<RowSetEvent> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link RowSetEvent#RowSetEvent(RowSet) public
-     * javax.sql.RowSetEvent(javax.sql.RowSet)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sql.RowSetEvent#RowSetEvent(javax.sql.RowSet) public javax.sql.RowSetEvent(javax.sql.RowSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,7 +38,7 @@ implements org.j8unit.repository.javax.sql.RowSetEventClassTests<RowSetEvent> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RowSetEvent sut = null; // = new RowSetEvent(RowSet);
+        final RowSetEvent sut = null; // = new RowSetEvent(javax.sql.RowSet);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetEvent]

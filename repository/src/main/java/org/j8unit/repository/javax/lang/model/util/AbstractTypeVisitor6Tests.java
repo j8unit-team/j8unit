@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.lang.model.util;
 
-import javax.lang.model.type.IntersectionType;
-import javax.lang.model.type.TypeMirror;
-import javax.lang.model.type.UnionType;
 import javax.lang.model.util.AbstractTypeVisitor6;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -38,7 +35,7 @@ extends org.j8unit.repository.javax.lang.model.type.TypeVisitorTests<SUT, R, P>,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractTypeVisitor6#visitUnknown(TypeMirror, Object) public R
+     * {@link javax.lang.model.util.AbstractTypeVisitor6#visitUnknown(javax.lang.model.type.TypeMirror, Object) public R
      * javax.lang.model.util.AbstractTypeVisitor6.visitUnknown(javax.lang.model.type.TypeMirror,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +58,9 @@ extends org.j8unit.repository.javax.lang.model.type.TypeVisitorTests<SUT, R, P>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTypeVisitor6#visit(TypeMirror, Object)
-     * public final R javax.lang.model.util.AbstractTypeVisitor6.visit(javax.lang.model.type.TypeMirror,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.AbstractTypeVisitor6#visit(javax.lang.model.type.TypeMirror, Object) public final R
+     * javax.lang.model.util.AbstractTypeVisitor6.visit(javax.lang.model.type.TypeMirror,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +82,9 @@ extends org.j8unit.repository.javax.lang.model.type.TypeVisitorTests<SUT, R, P>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTypeVisitor6#visit(TypeMirror) public final
-     * R javax.lang.model.util.AbstractTypeVisitor6.visit(javax.lang.model.type.TypeMirror)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.AbstractTypeVisitor6#visit(javax.lang.model.type.TypeMirror) public final R
+     * javax.lang.model.util.AbstractTypeVisitor6.visit(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -108,8 +107,8 @@ extends org.j8unit.repository.javax.lang.model.type.TypeVisitorTests<SUT, R, P>,
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AbstractTypeVisitor6#visitIntersection(IntersectionType, Object) public R
-     * javax.lang.model.util.AbstractTypeVisitor6.visitIntersection(javax.lang.model.type.IntersectionType,P)}.
+     * {@link javax.lang.model.util.AbstractTypeVisitor6#visitIntersection(javax.lang.model.type.IntersectionType, Object)
+     * public R javax.lang.model.util.AbstractTypeVisitor6.visitIntersection(javax.lang.model.type.IntersectionType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -131,8 +130,9 @@ extends org.j8unit.repository.javax.lang.model.type.TypeVisitorTests<SUT, R, P>,
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AbstractTypeVisitor6#visitUnion(UnionType, Object)
-     * public R javax.lang.model.util.AbstractTypeVisitor6.visitUnion(javax.lang.model.type.UnionType,P)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.AbstractTypeVisitor6#visitUnion(javax.lang.model.type.UnionType, Object) public R
+     * javax.lang.model.util.AbstractTypeVisitor6.visitUnion(javax.lang.model.type.UnionType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

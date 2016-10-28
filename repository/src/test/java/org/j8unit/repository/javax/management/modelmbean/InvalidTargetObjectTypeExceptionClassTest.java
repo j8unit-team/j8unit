@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.management.modelmbean.InvalidTargetObject
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidTargetObjectTypeException#InvalidTargetObjectTypeException(Exception, String) public
-     * javax.management.modelmbean.InvalidTargetObjectTypeException(java.lang.Exception,java.lang.String)}.
+     * {@link javax.management.modelmbean.InvalidTargetObjectTypeException#InvalidTargetObjectTypeException(Exception, String)
+     * public javax.management.modelmbean.InvalidTargetObjectTypeException(java.lang.Exception,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +45,8 @@ implements org.j8unit.repository.javax.management.modelmbean.InvalidTargetObject
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidTargetObjectTypeException#InvalidTargetObjectTypeException(String) public
-     * javax.management.modelmbean.InvalidTargetObjectTypeException(java.lang.String)}.
+     * {@link javax.management.modelmbean.InvalidTargetObjectTypeException#InvalidTargetObjectTypeException(String)
+     * public javax.management.modelmbean.InvalidTargetObjectTypeException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -68,7 +68,7 @@ implements org.j8unit.repository.javax.management.modelmbean.InvalidTargetObject
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidTargetObjectTypeException#InvalidTargetObjectTypeException() public
+     * {@link javax.management.modelmbean.InvalidTargetObjectTypeException#InvalidTargetObjectTypeException() public
      * javax.management.modelmbean.InvalidTargetObjectTypeException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

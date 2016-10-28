@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
 import java.awt.image.FilteredImageSource;
-import java.awt.image.ImageFilter;
-import java.awt.image.ImageProducer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -24,8 +22,8 @@ implements org.j8unit.repository.java.awt.image.FilteredImageSourceClassTests<Fi
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link FilteredImageSource#FilteredImageSource(ImageProducer, ImageFilter) public
-     * java.awt.image.FilteredImageSource(java.awt.image.ImageProducer,java.awt.image.ImageFilter)}.
+     * {@link java.awt.image.FilteredImageSource#FilteredImageSource(java.awt.image.ImageProducer, java.awt.image.ImageFilter)
+     * public java.awt.image.FilteredImageSource(java.awt.image.ImageProducer,java.awt.image.ImageFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -41,7 +39,8 @@ implements org.j8unit.repository.java.awt.image.FilteredImageSourceClassTests<Fi
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FilteredImageSource sut = null; // = new FilteredImageSource(ImageProducer, ImageFilter);
+        final FilteredImageSource sut = null; // = new FilteredImageSource(java.awt.image.ImageProducer,
+                                              // java.awt.image.ImageFilter);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.FilteredImageSource]

@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.lang.model.element;
 
-import javax.lang.model.element.AnnotationValue;
 import javax.lang.model.element.UnknownAnnotationValueException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,8 @@ implements org.j8unit.repository.javax.lang.model.element.UnknownAnnotationValue
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownAnnotationValueException#UnknownAnnotationValueException(AnnotationValue, Object) public
+     * {@link javax.lang.model.element.UnknownAnnotationValueException#UnknownAnnotationValueException(javax.lang.model.element.AnnotationValue, Object)
+     * public
      * javax.lang.model.element.UnknownAnnotationValueException(javax.lang.model.element.AnnotationValue,java.lang.Object)}
      * .
      *
@@ -41,7 +41,8 @@ implements org.j8unit.repository.javax.lang.model.element.UnknownAnnotationValue
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UnknownAnnotationValueException sut = null; // = new UnknownAnnotationValueException(AnnotationValue,
+        final UnknownAnnotationValueException sut = null; // = new
+                                                          // UnknownAnnotationValueException(javax.lang.model.element.AnnotationValue,
                                                           // Object);
     }
 

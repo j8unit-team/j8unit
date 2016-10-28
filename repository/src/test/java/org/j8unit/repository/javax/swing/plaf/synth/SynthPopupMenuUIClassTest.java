@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
-import javax.swing.JComponent;
 import javax.swing.plaf.synth.SynthPopupMenuUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,7 +21,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthPopupMenuUIClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SynthPopupMenuUI#SynthPopupMenuUI() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.plaf.synth.SynthPopupMenuUI#SynthPopupMenuUI() public
      * javax.swing.plaf.synth.SynthPopupMenuUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,7 +43,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthPopupMenuUIClassTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SynthPopupMenuUI#createUI(JComponent) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.synth.SynthPopupMenuUI#createUI(javax.swing.JComponent) public static
      * javax.swing.plaf.ComponentUI javax.swing.plaf.synth.SynthPopupMenuUI.createUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,7 +59,7 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthPopupMenuUIClassTes
     @Category(Draft.class)
     public void test_createUI_JComponent()
     throws Exception {
-        // write some test for {@link SynthPopupMenuUI#createUI(JComponent)}
+        // write some test for {@link javax.swing.plaf.synth.SynthPopupMenuUI#createUI(javax.swing.JComponent)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthPopupMenuUI]

@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.beans.StatementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Expression#getValue() public java.lang.Object
-     * java.beans.Expression.getValue() throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Expression#getValue() public
+     * java.lang.Object java.beans.Expression.getValue() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,7 +56,7 @@ extends org.j8unit.repository.java.beans.StatementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Expression#setValue(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.beans.Expression#setValue(Object) public void
      * java.beans.Expression.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.beans.StatementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Expression#toString() public java.lang.String
-     * java.beans.Expression.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Expression#toString() public
+     * java.lang.String java.beans.Expression.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.beans.StatementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Expression#execute() public void
+     * Test method for the hereby targeted method-under-test {@link java.beans.Expression#execute() public void
      * java.beans.Expression.execute() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

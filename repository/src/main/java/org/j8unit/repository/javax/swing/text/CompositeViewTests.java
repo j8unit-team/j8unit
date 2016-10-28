@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
-import java.awt.Shape;
 import javax.swing.text.CompositeView;
-import javax.swing.text.Position.Bias;
-import javax.swing.text.View;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeView#getViewIndex(int, Bias) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.CompositeView#getViewIndex(int, javax.swing.text.Position.Bias) public int
      * javax.swing.text.CompositeView.getViewIndex(int,javax.swing.text.Position$Bias)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +59,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompositeView#viewToModel(float, float, Shape, Bias[]) public int
+     * {@link javax.swing.text.CompositeView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.text.CompositeView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,7 +84,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompositeView#modelToView(int, Bias, int, Bias, Shape) public java.awt.Shape
+     * {@link javax.swing.text.CompositeView#modelToView(int, javax.swing.text.Position.Bias, int, javax.swing.text.Position.Bias, java.awt.Shape)
+     * public java.awt.Shape
      * javax.swing.text.CompositeView.modelToView(int,javax.swing.text.Position$Bias,int,javax.swing.text.Position$Bias,java.awt.Shape)
      * throws javax.swing.text.BadLocationException}.
      *
@@ -109,7 +109,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeView#modelToView(int, Shape, Bias) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.CompositeView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.CompositeView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
      * throws javax.swing.text.BadLocationException}.
      *
@@ -133,7 +134,7 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeView#getView(int) public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.CompositeView#getView(int) public
      * javax.swing.text.View javax.swing.text.CompositeView.getView(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -156,8 +157,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeView#getViewCount() public int
-     * javax.swing.text.CompositeView.getViewCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.CompositeView#getViewCount() public
+     * int javax.swing.text.CompositeView.getViewCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,7 +181,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link CompositeView#getNextVisualPositionFrom(int, Bias, Shape, int, Bias[]) public int
+     * {@link javax.swing.text.CompositeView#getNextVisualPositionFrom(int, javax.swing.text.Position.Bias, java.awt.Shape, int, javax.swing.text.Position.Bias[])
+     * public int
      * javax.swing.text.CompositeView.getNextVisualPositionFrom(int,javax.swing.text.Position$Bias,java.awt.Shape,int,javax.swing.text.Position$Bias[])
      * throws javax.swing.text.BadLocationException}.
      *
@@ -204,7 +206,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeView#setParent(View) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.CompositeView#setParent(javax.swing.text.View) public void
      * javax.swing.text.CompositeView.setParent(javax.swing.text.View)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -227,7 +230,8 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeView#replace(int, int, View[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.CompositeView#replace(int, int, javax.swing.text.View[]) public void
      * javax.swing.text.CompositeView.replace(int,int,javax.swing.text.View[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -250,8 +254,9 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CompositeView#getChildAllocation(int, Shape) public
-     * java.awt.Shape javax.swing.text.CompositeView.getChildAllocation(int,java.awt.Shape)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.CompositeView#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
+     * javax.swing.text.CompositeView.getChildAllocation(int,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

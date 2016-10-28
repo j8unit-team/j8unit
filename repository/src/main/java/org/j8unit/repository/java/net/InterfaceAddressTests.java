@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InterfaceAddress#equals(Object) public boolean
-     * java.net.InterfaceAddress.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InterfaceAddress#equals(Object) public
+     * boolean java.net.InterfaceAddress.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InterfaceAddress#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.InterfaceAddress#hashCode() public int
      * java.net.InterfaceAddress.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InterfaceAddress#getBroadcast() public
+     * Test method for the hereby targeted method-under-test {@link java.net.InterfaceAddress#getBroadcast() public
      * java.net.InetAddress java.net.InterfaceAddress.getBroadcast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InterfaceAddress#getAddress() public
+     * Test method for the hereby targeted method-under-test {@link java.net.InterfaceAddress#getAddress() public
      * java.net.InetAddress java.net.InterfaceAddress.getAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InterfaceAddress#toString() public java.lang.String
-     * java.net.InterfaceAddress.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InterfaceAddress#toString() public
+     * java.lang.String java.net.InterfaceAddress.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -147,8 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InterfaceAddress#getNetworkPrefixLength() public
-     * short java.net.InterfaceAddress.getNetworkPrefixLength()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InterfaceAddress#getNetworkPrefixLength()
+     * public short java.net.InterfaceAddress.getNetworkPrefixLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

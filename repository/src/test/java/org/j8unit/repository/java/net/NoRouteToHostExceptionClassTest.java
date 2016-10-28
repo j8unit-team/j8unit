@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.net.NoRouteToHostExceptionClassTests<NoRou
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link NoRouteToHostException#NoRouteToHostException(String) public
+     * {@link java.net.NoRouteToHostException#NoRouteToHostException(String) public
      * java.net.NoRouteToHostException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,8 +44,8 @@ implements org.j8unit.repository.java.net.NoRouteToHostExceptionClassTests<NoRou
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NoRouteToHostException#NoRouteToHostException()
-     * public java.net.NoRouteToHostException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.NoRouteToHostException#NoRouteToHostException() public java.net.NoRouteToHostException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

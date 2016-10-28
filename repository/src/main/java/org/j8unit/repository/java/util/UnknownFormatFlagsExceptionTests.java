@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownFormatFlagsException#getFlags() public
-     * java.lang.String java.util.UnknownFormatFlagsException.getFlags()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.UnknownFormatFlagsException#getFlags()
+     * public java.lang.String java.util.UnknownFormatFlagsException.getFlags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnknownFormatFlagsException#getMessage() public
-     * java.lang.String java.util.UnknownFormatFlagsException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.UnknownFormatFlagsException#getMessage()
+     * public java.lang.String java.util.UnknownFormatFlagsException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

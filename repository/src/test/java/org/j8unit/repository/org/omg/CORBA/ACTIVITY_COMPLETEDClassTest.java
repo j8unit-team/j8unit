@@ -7,7 +7,6 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ACTIVITY_COMPLETED;
-import org.omg.CORBA.CompletionStatus;
 
 @RunWith(J8Unit4.class)
 public class ACTIVITY_COMPLETEDClassTest
@@ -23,7 +22,7 @@ implements org.j8unit.repository.org.omg.CORBA.ACTIVITY_COMPLETEDClassTests<ACTI
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ACTIVITY_COMPLETED#ACTIVITY_COMPLETED(String, int, CompletionStatus) public
+     * {@link org.omg.CORBA.ACTIVITY_COMPLETED#ACTIVITY_COMPLETED(String, int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.ACTIVITY_COMPLETED(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,13 +39,13 @@ implements org.j8unit.repository.org.omg.CORBA.ACTIVITY_COMPLETEDClassTests<ACTI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ACTIVITY_COMPLETED sut = null; // = new ACTIVITY_COMPLETED(String, int, CompletionStatus);
+        final ACTIVITY_COMPLETED sut = null; // = new ACTIVITY_COMPLETED(String, int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ACTIVITY_COMPLETED#ACTIVITY_COMPLETED(int, CompletionStatus) public
+     * {@link org.omg.CORBA.ACTIVITY_COMPLETED#ACTIVITY_COMPLETED(int, org.omg.CORBA.CompletionStatus) public
      * org.omg.CORBA.ACTIVITY_COMPLETED(int,org.omg.CORBA.CompletionStatus)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,13 +62,14 @@ implements org.j8unit.repository.org.omg.CORBA.ACTIVITY_COMPLETEDClassTests<ACTI
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ACTIVITY_COMPLETED sut = null; // = new ACTIVITY_COMPLETED(int, CompletionStatus);
+        final ACTIVITY_COMPLETED sut = null; // = new ACTIVITY_COMPLETED(int, org.omg.CORBA.CompletionStatus);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ACTIVITY_COMPLETED#ACTIVITY_COMPLETED(String)
-     * public org.omg.CORBA.ACTIVITY_COMPLETED(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ACTIVITY_COMPLETED#ACTIVITY_COMPLETED(String) public
+     * org.omg.CORBA.ACTIVITY_COMPLETED(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,8 +90,8 @@ implements org.j8unit.repository.org.omg.CORBA.ACTIVITY_COMPLETEDClassTests<ACTI
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ACTIVITY_COMPLETED#ACTIVITY_COMPLETED() public
-     * org.omg.CORBA.ACTIVITY_COMPLETED()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.ACTIVITY_COMPLETED#ACTIVITY_COMPLETED() public org.omg.CORBA.ACTIVITY_COMPLETED()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

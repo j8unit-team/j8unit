@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.naming.spi;
 
-import java.util.Hashtable;
-import javax.naming.Context;
-import javax.naming.Name;
 import javax.naming.spi.ObjectFactory;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
@@ -39,7 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ObjectFactory#getObjectInstance(Object, Name, Context, Hashtable) public abstract java.lang.Object
+     * {@link javax.naming.spi.ObjectFactory#getObjectInstance(Object, javax.naming.Name, javax.naming.Context, java.util.Hashtable)
+     * public abstract java.lang.Object
      * javax.naming.spi.ObjectFactory.getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable<?,
      * ?>) throws java.lang.Exception}.
      *

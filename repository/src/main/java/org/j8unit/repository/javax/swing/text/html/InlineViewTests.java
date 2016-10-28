@@ -1,8 +1,5 @@
 package org.j8unit.repository.javax.swing.text.html;
 
-import java.awt.Shape;
-import javax.swing.event.DocumentEvent;
-import javax.swing.text.ViewFactory;
 import javax.swing.text.html.InlineView;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -37,8 +34,9 @@ extends org.j8unit.repository.javax.swing.text.LabelViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InlineView#getBreakWeight(int, float, float) public
-     * int javax.swing.text.html.InlineView.getBreakWeight(int,float,float)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.InlineView#getBreakWeight(int, float, float) public int
+     * javax.swing.text.html.InlineView.getBreakWeight(int,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +59,8 @@ extends org.j8unit.repository.javax.swing.text.LabelViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InlineView#changedUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.html.InlineView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.html.InlineView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -86,7 +85,8 @@ extends org.j8unit.repository.javax.swing.text.LabelViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InlineView#insertUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.html.InlineView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.html.InlineView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -111,7 +111,8 @@ extends org.j8unit.repository.javax.swing.text.LabelViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InlineView#removeUpdate(DocumentEvent, Shape, ViewFactory) public void
+     * {@link javax.swing.text.html.InlineView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
      * javax.swing.text.html.InlineView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -135,8 +136,8 @@ extends org.j8unit.repository.javax.swing.text.LabelViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InlineView#getAttributes() public
-     * javax.swing.text.AttributeSet javax.swing.text.html.InlineView.getAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.InlineView#getAttributes()
+     * public javax.swing.text.AttributeSet javax.swing.text.html.InlineView.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,8 +159,9 @@ extends org.j8unit.repository.javax.swing.text.LabelViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InlineView#breakView(int, int, float, float) public
-     * javax.swing.text.View javax.swing.text.html.InlineView.breakView(int,int,float,float)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.InlineView#breakView(int, int, float, float) public javax.swing.text.View
+     * javax.swing.text.html.InlineView.breakView(int,int,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

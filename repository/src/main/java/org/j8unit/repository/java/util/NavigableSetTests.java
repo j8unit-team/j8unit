@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#descendingIterator() public abstract
-     * java.util.Iterator<E> java.util.NavigableSet.descendingIterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#descendingIterator() public
+     * abstract java.util.Iterator<E> java.util.NavigableSet.descendingIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#descendingSet() public abstract
-     * java.util.NavigableSet<E> java.util.NavigableSet.descendingSet()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#descendingSet() public
+     * abstract java.util.NavigableSet<E> java.util.NavigableSet.descendingSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#pollLast() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#pollLast() public abstract E
      * java.util.NavigableSet.pollLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#tailSet(Object) public abstract
-     * java.util.SortedSet<E> java.util.NavigableSet.tailSet(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#tailSet(Object) public
+     * abstract java.util.SortedSet<E> java.util.NavigableSet.tailSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#tailSet(Object, boolean) public
-     * abstract java.util.NavigableSet<E> java.util.NavigableSet.tailSet(E,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#tailSet(Object, boolean)
+     * public abstract java.util.NavigableSet<E> java.util.NavigableSet.tailSet(E,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#ceiling(Object) public abstract E
-     * java.util.NavigableSet.ceiling(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#ceiling(Object) public
+     * abstract E java.util.NavigableSet.ceiling(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#lower(Object) public abstract E
-     * java.util.NavigableSet.lower(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#lower(Object) public abstract
+     * E java.util.NavigableSet.lower(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,8 +189,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#headSet(Object, boolean) public
-     * abstract java.util.NavigableSet<E> java.util.NavigableSet.headSet(E,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#headSet(Object, boolean)
+     * public abstract java.util.NavigableSet<E> java.util.NavigableSet.headSet(E,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,8 +211,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#headSet(Object) public abstract
-     * java.util.SortedSet<E> java.util.NavigableSet.headSet(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#headSet(Object) public
+     * abstract java.util.SortedSet<E> java.util.NavigableSet.headSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,7 +234,7 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#pollFirst() public abstract E
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#pollFirst() public abstract E
      * java.util.NavigableSet.pollFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -256,8 +256,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#subSet(Object, Object) public abstract
-     * java.util.SortedSet<E> java.util.NavigableSet.subSet(E,E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#subSet(Object, Object) public
+     * abstract java.util.SortedSet<E> java.util.NavigableSet.subSet(E,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,7 +280,7 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link NavigableSet#subSet(Object, boolean, Object, boolean) public abstract java.util.NavigableSet
+     * {@link java.util.NavigableSet#subSet(Object, boolean, Object, boolean) public abstract java.util.NavigableSet
      * <E> java.util.NavigableSet.subSet(E,boolean,E,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -302,8 +302,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#higher(Object) public abstract E
-     * java.util.NavigableSet.higher(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#higher(Object) public
+     * abstract E java.util.NavigableSet.higher(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -324,8 +324,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#floor(Object) public abstract E
-     * java.util.NavigableSet.floor(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#floor(Object) public abstract
+     * E java.util.NavigableSet.floor(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -346,7 +346,7 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NavigableSet#iterator() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#iterator() public abstract
      * java.util.Iterator<E> java.util.NavigableSet.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

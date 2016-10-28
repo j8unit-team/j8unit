@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PosixFileAttributes#owner() public abstract
-     * java.nio.file.attribute.UserPrincipal java.nio.file.attribute.PosixFileAttributes.owner()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.PosixFileAttributes#owner()
+     * public abstract java.nio.file.attribute.UserPrincipal java.nio.file.attribute.PosixFileAttributes.owner()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PosixFileAttributes#permissions() public abstract
-     * java.util.Set
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.PosixFileAttributes#permissions() public abstract java.util.Set
      * <java.nio.file.attribute.PosixFilePermission> java.nio.file.attribute.PosixFileAttributes.permissions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link PosixFileAttributes#group() public abstract
-     * java.nio.file.attribute.GroupPrincipal java.nio.file.attribute.PosixFileAttributes.group()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.PosixFileAttributes#group()
+     * public abstract java.nio.file.attribute.GroupPrincipal java.nio.file.attribute.PosixFileAttributes.group()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

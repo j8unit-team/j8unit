@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
-import java.util.Locale;
 import javax.print.attribute.standard.DocumentName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.print.attribute.standard.DocumentNameClas
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DocumentName#DocumentName(String, Locale)
-     * public javax.print.attribute.standard.DocumentName(java.lang.String,java.util.Locale)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.DocumentName#DocumentName(String, java.util.Locale) public
+     * javax.print.attribute.standard.DocumentName(java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,7 +39,7 @@ implements org.j8unit.repository.javax.print.attribute.standard.DocumentNameClas
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DocumentName sut = null; // = new DocumentName(String, Locale);
+        final DocumentName sut = null; // = new DocumentName(String, java.util.Locale);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.DocumentName]

@@ -35,30 +35,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlType#factoryMethod() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlType.factoryMethod()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_factoryMethod()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlType#factoryClass() public abstract
-     * java.lang.Class javax.xml.bind.annotation.XmlType.factoryClass()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlType#factoryClass()
+     * public abstract java.lang.Class javax.xml.bind.annotation.XmlType.factoryClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +57,30 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlType#namespace() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlType.namespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlType#factoryMethod()
+     * public abstract java.lang.String javax.xml.bind.annotation.XmlType.factoryMethod()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_factoryMethod()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlType#namespace() public
+     * abstract java.lang.String javax.xml.bind.annotation.XmlType.namespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlType#name() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlType.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlType#name() public
+     * abstract java.lang.String javax.xml.bind.annotation.XmlType.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link XmlType#propOrder() public abstract
-     * java.lang.String[] javax.xml.bind.annotation.XmlType.propOrder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.XmlType#propOrder() public
+     * abstract java.lang.String[] javax.xml.bind.annotation.XmlType.propOrder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

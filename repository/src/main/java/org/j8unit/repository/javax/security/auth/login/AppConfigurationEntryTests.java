@@ -35,7 +35,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppConfigurationEntry#getControlFlag() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.AppConfigurationEntry#getControlFlag() public
      * javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag
      * javax.security.auth.login.AppConfigurationEntry.getControlFlag()}.
      *
@@ -58,8 +59,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppConfigurationEntry#getLoginModuleName() public
-     * java.lang.String javax.security.auth.login.AppConfigurationEntry.getLoginModuleName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.AppConfigurationEntry#getLoginModuleName() public java.lang.String
+     * javax.security.auth.login.AppConfigurationEntry.getLoginModuleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +82,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AppConfigurationEntry#getOptions() public
-     * java.util.Map<java.lang.String, ?> javax.security.auth.login.AppConfigurationEntry.getOptions()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.AppConfigurationEntry#getOptions() public java.util.Map<java.lang.String, ?>
+     * javax.security.auth.login.AppConfigurationEntry.getOptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,7 +135,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link LoginModuleControlFlag#toString() public
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag#toString() public
          * java.lang.String javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

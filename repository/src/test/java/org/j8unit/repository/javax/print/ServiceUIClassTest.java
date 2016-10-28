@@ -1,10 +1,6 @@
 package org.j8unit.repository.javax.print;
 
-import java.awt.GraphicsConfiguration;
-import javax.print.DocFlavor;
-import javax.print.PrintService;
 import javax.print.ServiceUI;
-import javax.print.attribute.PrintRequestAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +21,7 @@ implements org.j8unit.repository.javax.print.ServiceUIClassTests<ServiceUI> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServiceUI#ServiceUI() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.print.ServiceUI#ServiceUI() public
      * javax.print.ServiceUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -47,7 +43,7 @@ implements org.j8unit.repository.javax.print.ServiceUIClassTests<ServiceUI> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServiceUI#printDialog(GraphicsConfiguration, int, int, PrintService[], PrintService, DocFlavor, PrintRequestAttributeSet)
+     * {@link javax.print.ServiceUI#printDialog(java.awt.GraphicsConfiguration, int, int, javax.print.PrintService[], javax.print.PrintService, javax.print.DocFlavor, javax.print.attribute.PrintRequestAttributeSet)
      * public static javax.print.PrintService
      * javax.print.ServiceUI.printDialog(java.awt.GraphicsConfiguration,int,int,javax.print.PrintService[],javax.print.PrintService,javax.print.DocFlavor,javax.print.attribute.PrintRequestAttributeSet)
      * throws java.awt.HeadlessException}.
@@ -64,8 +60,9 @@ implements org.j8unit.repository.javax.print.ServiceUIClassTests<ServiceUI> {
     @Category(Draft.class)
     public void test_printDialog_GraphicsConfiguration_int_int_PrintServiceArray_PrintService_DocFlavor_PrintRequestAttributeSet()
     throws Exception {
-        // write some test for {@link ServiceUI#printDialog(GraphicsConfiguration, int, int, PrintService[],
-        // PrintService, DocFlavor, PrintRequestAttributeSet)}
+        // write some test for {@link javax.print.ServiceUI#printDialog(java.awt.GraphicsConfiguration, int, int,
+        // javax.print.PrintService[], javax.print.PrintService, javax.print.DocFlavor,
+        // javax.print.attribute.PrintRequestAttributeSet)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.ServiceUI]

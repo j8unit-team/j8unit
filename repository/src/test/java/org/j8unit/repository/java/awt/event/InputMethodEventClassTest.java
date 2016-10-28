@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.awt.event;
 
-import java.awt.Component;
 import java.awt.event.InputMethodEvent;
-import java.awt.font.TextHitInfo;
-import java.text.AttributedCharacterIterator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -25,7 +22,8 @@ implements org.j8unit.repository.java.awt.event.InputMethodEventClassTests<Input
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputMethodEvent#InputMethodEvent(Component, int, TextHitInfo, TextHitInfo) public
+     * {@link java.awt.event.InputMethodEvent#InputMethodEvent(java.awt.Component, int, java.awt.font.TextHitInfo, java.awt.font.TextHitInfo)
+     * public
      * java.awt.event.InputMethodEvent(java.awt.Component,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,13 +40,14 @@ implements org.j8unit.repository.java.awt.event.InputMethodEventClassTests<Input
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputMethodEvent sut = null; // = new InputMethodEvent(Component, int, TextHitInfo, TextHitInfo);
+        final InputMethodEvent sut = null; // = new InputMethodEvent(java.awt.Component, int, java.awt.font.TextHitInfo,
+                                           // java.awt.font.TextHitInfo);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputMethodEvent#InputMethodEvent(Component, int, AttributedCharacterIterator, int, TextHitInfo, TextHitInfo)
+     * {@link java.awt.event.InputMethodEvent#InputMethodEvent(java.awt.Component, int, java.text.AttributedCharacterIterator, int, java.awt.font.TextHitInfo, java.awt.font.TextHitInfo)
      * public
      * java.awt.event.InputMethodEvent(java.awt.Component,int,java.text.AttributedCharacterIterator,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)}
      * .
@@ -67,14 +66,15 @@ implements org.j8unit.repository.java.awt.event.InputMethodEventClassTests<Input
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputMethodEvent sut = null; // = new InputMethodEvent(Component, int, AttributedCharacterIterator, int,
-                                           // TextHitInfo, TextHitInfo);
+        final InputMethodEvent sut = null; // = new InputMethodEvent(java.awt.Component, int,
+                                           // java.text.AttributedCharacterIterator, int, java.awt.font.TextHitInfo,
+                                           // java.awt.font.TextHitInfo);
     }
 
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InputMethodEvent#InputMethodEvent(Component, int, long, AttributedCharacterIterator, int, TextHitInfo, TextHitInfo)
+     * {@link java.awt.event.InputMethodEvent#InputMethodEvent(java.awt.Component, int, long, java.text.AttributedCharacterIterator, int, java.awt.font.TextHitInfo, java.awt.font.TextHitInfo)
      * public
      * java.awt.event.InputMethodEvent(java.awt.Component,int,long,java.text.AttributedCharacterIterator,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)}
      * .
@@ -93,8 +93,9 @@ implements org.j8unit.repository.java.awt.event.InputMethodEventClassTests<Input
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputMethodEvent sut = null; // = new InputMethodEvent(Component, int, long, AttributedCharacterIterator,
-                                           // int, TextHitInfo, TextHitInfo);
+        final InputMethodEvent sut = null; // = new InputMethodEvent(java.awt.Component, int, long,
+                                           // java.text.AttributedCharacterIterator, int, java.awt.font.TextHitInfo,
+                                           // java.awt.font.TextHitInfo);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.InputMethodEvent]

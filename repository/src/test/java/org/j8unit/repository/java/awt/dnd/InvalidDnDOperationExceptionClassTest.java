@@ -22,7 +22,7 @@ implements org.j8unit.repository.java.awt.dnd.InvalidDnDOperationExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidDnDOperationException#InvalidDnDOperationException() public
+     * {@link java.awt.dnd.InvalidDnDOperationException#InvalidDnDOperationException() public
      * java.awt.dnd.InvalidDnDOperationException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +44,7 @@ implements org.j8unit.repository.java.awt.dnd.InvalidDnDOperationExceptionClassT
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidDnDOperationException#InvalidDnDOperationException(String) public
+     * {@link java.awt.dnd.InvalidDnDOperationException#InvalidDnDOperationException(String) public
      * java.awt.dnd.InvalidDnDOperationException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

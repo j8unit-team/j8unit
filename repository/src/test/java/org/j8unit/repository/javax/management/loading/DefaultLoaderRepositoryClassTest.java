@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.loading.DefaultLoaderRepositor
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link DefaultLoaderRepository#DefaultLoaderRepository() public
+     * {@link javax.management.loading.DefaultLoaderRepository#DefaultLoaderRepository() public
      * javax.management.loading.DefaultLoaderRepository()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +43,9 @@ implements org.j8unit.repository.javax.management.loading.DefaultLoaderRepositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DefaultLoaderRepository#loadClass(String) public
-     * static java.lang.Class<?> javax.management.loading.DefaultLoaderRepository.loadClass(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.DefaultLoaderRepository#loadClass(String) public static java.lang.Class
+     * <?> javax.management.loading.DefaultLoaderRepository.loadClass(java.lang.String) throws
      * java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,13 +60,14 @@ implements org.j8unit.repository.javax.management.loading.DefaultLoaderRepositor
     @Category(Draft.class)
     public void test_loadClass_String()
     throws Exception {
-        // write some test for {@link DefaultLoaderRepository#loadClass(String)}
+        // write some test for {@link javax.management.loading.DefaultLoaderRepository#loadClass(String)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link DefaultLoaderRepository#loadClassWithout(ClassLoader, String) public static java.lang.Class
+     * {@link javax.management.loading.DefaultLoaderRepository#loadClassWithout(ClassLoader, String) public static
+     * java.lang.Class
      * <?> javax.management.loading.DefaultLoaderRepository.loadClassWithout(java.lang.ClassLoader,java.lang.String)
      * throws java.lang.ClassNotFoundException}.
      *
@@ -81,7 +83,8 @@ implements org.j8unit.repository.javax.management.loading.DefaultLoaderRepositor
     @Category(Draft.class)
     public void test_loadClassWithout_ClassLoader_String()
     throws Exception {
-        // write some test for {@link DefaultLoaderRepository#loadClassWithout(ClassLoader, String)}
+        // write some test for {@link javax.management.loading.DefaultLoaderRepository#loadClassWithout(ClassLoader,
+        // String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.DefaultLoaderRepository]

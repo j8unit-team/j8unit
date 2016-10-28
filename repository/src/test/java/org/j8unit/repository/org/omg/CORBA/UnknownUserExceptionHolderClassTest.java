@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.UnknownUserException;
 import org.omg.CORBA.UnknownUserExceptionHolder;
 
 @RunWith(J8Unit4.class)
@@ -23,8 +22,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHolderClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownUserExceptionHolder#UnknownUserExceptionHolder() public org.omg.CORBA.UnknownUserExceptionHolder()}
-     * .
+     * {@link org.omg.CORBA.UnknownUserExceptionHolder#UnknownUserExceptionHolder() public
+     * org.omg.CORBA.UnknownUserExceptionHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +44,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHolderClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link UnknownUserExceptionHolder#UnknownUserExceptionHolder(UnknownUserException) public
-     * org.omg.CORBA.UnknownUserExceptionHolder(org.omg.CORBA.UnknownUserException)}.
+     * {@link org.omg.CORBA.UnknownUserExceptionHolder#UnknownUserExceptionHolder(org.omg.CORBA.UnknownUserException)
+     * public org.omg.CORBA.UnknownUserExceptionHolder(org.omg.CORBA.UnknownUserException)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -62,7 +61,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHolderClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final UnknownUserExceptionHolder sut = null; // = new UnknownUserExceptionHolder(UnknownUserException);
+        final UnknownUserExceptionHolder sut = null; // = new
+                                                     // UnknownUserExceptionHolder(org.omg.CORBA.UnknownUserException);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UnknownUserExceptionHolder]

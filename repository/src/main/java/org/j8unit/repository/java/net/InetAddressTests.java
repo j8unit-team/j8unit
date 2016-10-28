@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.net;
 
 import java.net.InetAddress;
-import java.net.NetworkInterface;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isMCLinkLocal() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isMCLinkLocal() public boolean
      * java.net.InetAddress.isMCLinkLocal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +56,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isLoopbackAddress() public boolean
-     * java.net.InetAddress.isLoopbackAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isLoopbackAddress() public
+     * boolean java.net.InetAddress.isLoopbackAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +78,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isSiteLocalAddress() public boolean
-     * java.net.InetAddress.isSiteLocalAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isSiteLocalAddress() public
+     * boolean java.net.InetAddress.isSiteLocalAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +100,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isMulticastAddress() public boolean
-     * java.net.InetAddress.isMulticastAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isMulticastAddress() public
+     * boolean java.net.InetAddress.isMulticastAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,7 +122,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#hashCode() public int
      * java.net.InetAddress.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,7 +145,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#equals(Object) public boolean
      * java.net.InetAddress.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +168,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getAddress() public byte[]
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getAddress() public byte[]
      * java.net.InetAddress.getAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +190,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#toString() public java.lang.String
-     * java.net.InetAddress.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#toString() public
+     * java.lang.String java.net.InetAddress.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +213,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getHostAddress() public java.lang.String
-     * java.net.InetAddress.getHostAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getHostAddress() public
+     * java.lang.String java.net.InetAddress.getHostAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -236,7 +235,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isMCNodeLocal() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isMCNodeLocal() public boolean
      * java.net.InetAddress.isMCNodeLocal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,7 +257,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isReachable(int) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.InetAddress#isReachable(java.net.NetworkInterface, int, int) public boolean
+     * java.net.InetAddress.isReachable(java.net.NetworkInterface,int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isReachable_NetworkInterface_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isReachable(int) public boolean
      * java.net.InetAddress.isReachable(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -280,29 +302,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isReachable(NetworkInterface, int, int)
-     * public boolean java.net.InetAddress.isReachable(java.net.NetworkInterface,int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isReachable_NetworkInterface_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isMCSiteLocal() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isMCSiteLocal() public boolean
      * java.net.InetAddress.isMCSiteLocal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -324,7 +324,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isMCGlobal() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isMCGlobal() public boolean
      * java.net.InetAddress.isMCGlobal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -346,8 +346,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getHostName() public java.lang.String
-     * java.net.InetAddress.getHostName()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getHostName() public
+     * java.lang.String java.net.InetAddress.getHostName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -368,7 +368,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isMCOrgLocal() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isMCOrgLocal() public boolean
      * java.net.InetAddress.isMCOrgLocal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -390,29 +390,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isAnyLocalAddress() public boolean
-     * java.net.InetAddress.isAnyLocalAddress()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAnyLocalAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#getCanonicalHostName() public
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getCanonicalHostName() public
      * java.lang.String java.net.InetAddress.getCanonicalHostName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -434,8 +412,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link InetAddress#isLinkLocalAddress() public boolean
-     * java.net.InetAddress.isLinkLocalAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isLinkLocalAddress() public
+     * boolean java.net.InetAddress.isLinkLocalAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -448,6 +426,28 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_isLinkLocalAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#isAnyLocalAddress() public
+     * boolean java.net.InetAddress.isAnyLocalAddress()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAnyLocalAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

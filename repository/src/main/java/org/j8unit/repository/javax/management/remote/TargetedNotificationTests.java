@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TargetedNotification#getListenerID() public
-     * java.lang.Integer javax.management.remote.TargetedNotification.getListenerID()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.TargetedNotification#getListenerID() public java.lang.Integer
+     * javax.management.remote.TargetedNotification.getListenerID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TargetedNotification#toString() public
-     * java.lang.String javax.management.remote.TargetedNotification.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.TargetedNotification#toString() public java.lang.String
+     * javax.management.remote.TargetedNotification.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +81,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link TargetedNotification#getNotification() public
-     * javax.management.Notification javax.management.remote.TargetedNotification.getNotification()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.TargetedNotification#getNotification() public javax.management.Notification
+     * javax.management.remote.TargetedNotification.getNotification()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

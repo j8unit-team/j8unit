@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.xml.soap.SOAPMessageClassTests<SOAPMessag
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SOAPMessage#SOAPMessage() public
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.soap.SOAPMessage#SOAPMessage() public
      * javax.xml.soap.SOAPMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

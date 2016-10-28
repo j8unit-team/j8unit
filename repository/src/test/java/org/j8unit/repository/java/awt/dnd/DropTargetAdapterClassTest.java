@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetAdapterClassTests<DropTa
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link DropTargetAdapter#DropTargetAdapter() public
-     * java.awt.dnd.DropTargetAdapter()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.dnd.DropTargetAdapter#DropTargetAdapter() public java.awt.dnd.DropTargetAdapter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectNotActi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectNotActive#ObjectNotActive() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.ObjectNotActive#ObjectNotActive() public
      * org.omg.PortableServer.POAPackage.ObjectNotActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,7 +43,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectNotActi
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectNotActive#ObjectNotActive(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.POAPackage.ObjectNotActive#ObjectNotActive(String) public
      * org.omg.PortableServer.POAPackage.ObjectNotActive(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

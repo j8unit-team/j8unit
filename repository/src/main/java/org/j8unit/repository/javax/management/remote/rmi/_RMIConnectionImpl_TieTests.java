@@ -1,15 +1,11 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
-import java.rmi.Remote;
 import javax.management.remote.rmi._RMIConnectionImpl_Tie;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.ResponseHandler;
 
 /**
  * <p>
@@ -38,8 +34,9 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIConnectionImpl_Tie#orb() public
-     * org.omg.CORBA.ORB javax.management.remote.rmi._RMIConnectionImpl_Tie.orb()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnectionImpl_Tie#orb() public org.omg.CORBA.ORB
+     * javax.management.remote.rmi._RMIConnectionImpl_Tie.orb()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,7 +58,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIConnectionImpl_Tie#orb(ORB) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnectionImpl_Tie#orb(org.omg.CORBA.ORB) public void
      * javax.management.remote.rmi._RMIConnectionImpl_Tie.orb(org.omg.CORBA.ORB)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,7 +82,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIConnectionImpl_Tie#deactivate() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnectionImpl_Tie#deactivate() public void
      * javax.management.remote.rmi._RMIConnectionImpl_Tie.deactivate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +106,9 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIConnectionImpl_Tie#thisObject() public
-     * org.omg.CORBA.Object javax.management.remote.rmi._RMIConnectionImpl_Tie.thisObject()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnectionImpl_Tie#thisObject() public org.omg.CORBA.Object
+     * javax.management.remote.rmi._RMIConnectionImpl_Tie.thisObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,7 +130,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIConnectionImpl_Tie#setTarget(Remote) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnectionImpl_Tie#setTarget(java.rmi.Remote) public void
      * javax.management.remote.rmi._RMIConnectionImpl_Tie.setTarget(java.rmi.Remote)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +155,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link _RMIConnectionImpl_Tie#_invoke(String, InputStream, ResponseHandler) public
-     * org.omg.CORBA.portable.OutputStream
+     * {@link javax.management.remote.rmi._RMIConnectionImpl_Tie#_invoke(String, org.omg.CORBA.portable.InputStream, org.omg.CORBA.portable.ResponseHandler)
+     * public org.omg.CORBA.portable.OutputStream
      * javax.management.remote.rmi._RMIConnectionImpl_Tie._invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)
      * throws org.omg.CORBA.SystemException}.
      *
@@ -179,8 +180,9 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIConnectionImpl_Tie#_ids() public
-     * java.lang.String[] javax.management.remote.rmi._RMIConnectionImpl_Tie._ids()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnectionImpl_Tie#_ids() public java.lang.String[]
+     * javax.management.remote.rmi._RMIConnectionImpl_Tie._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -202,8 +204,9 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link _RMIConnectionImpl_Tie#getTarget() public
-     * java.rmi.Remote javax.management.remote.rmi._RMIConnectionImpl_Tie.getTarget()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnectionImpl_Tie#getTarget() public java.rmi.Remote
+     * javax.management.remote.rmi._RMIConnectionImpl_Tie.getTarget()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

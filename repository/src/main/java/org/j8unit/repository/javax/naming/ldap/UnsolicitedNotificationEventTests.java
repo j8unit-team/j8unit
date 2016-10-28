@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.naming.ldap;
 
 import javax.naming.ldap.UnsolicitedNotificationEvent;
-import javax.naming.ldap.UnsolicitedNotificationListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,9 +34,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link UnsolicitedNotificationEvent#getNotification()
-     * public javax.naming.ldap.UnsolicitedNotification
-     * javax.naming.ldap.UnsolicitedNotificationEvent.getNotification()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.ldap.UnsolicitedNotificationEvent#getNotification() public
+     * javax.naming.ldap.UnsolicitedNotification javax.naming.ldap.UnsolicitedNotificationEvent.getNotification()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,7 +58,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link UnsolicitedNotificationEvent#dispatch(UnsolicitedNotificationListener) public void
+     * {@link javax.naming.ldap.UnsolicitedNotificationEvent#dispatch(javax.naming.ldap.UnsolicitedNotificationListener)
+     * public void
      * javax.naming.ldap.UnsolicitedNotificationEvent.dispatch(javax.naming.ldap.UnsolicitedNotificationListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

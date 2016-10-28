@@ -34,8 +34,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#setValue(Object) public void
-     * javax.swing.SpinnerNumberModel.setValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerNumberModel#setValue(Object)
+     * public void javax.swing.SpinnerNumberModel.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#setMaximum(Comparable) public
-     * void javax.swing.SpinnerNumberModel.setMaximum(java.lang.Comparable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SpinnerNumberModel#setMaximum(Comparable) public void
+     * javax.swing.SpinnerNumberModel.setMaximum(java.lang.Comparable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +80,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#getPreviousValue() public
-     * java.lang.Object javax.swing.SpinnerNumberModel.getPreviousValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerNumberModel#getPreviousValue()
+     * public java.lang.Object javax.swing.SpinnerNumberModel.getPreviousValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,7 +103,7 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#getValue() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerNumberModel#getValue() public
      * java.lang.Object javax.swing.SpinnerNumberModel.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,7 +126,7 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#getNumber() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerNumberModel#getNumber() public
      * java.lang.Number javax.swing.SpinnerNumberModel.getNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -147,8 +148,9 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#setMinimum(Comparable) public
-     * void javax.swing.SpinnerNumberModel.setMinimum(java.lang.Comparable)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SpinnerNumberModel#setMinimum(Comparable) public void
+     * javax.swing.SpinnerNumberModel.setMinimum(java.lang.Comparable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +171,7 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#getStepSize() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerNumberModel#getStepSize() public
      * java.lang.Number javax.swing.SpinnerNumberModel.getStepSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,7 +193,7 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#getMaximum() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerNumberModel#getMaximum() public
      * java.lang.Comparable javax.swing.SpinnerNumberModel.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -213,7 +215,7 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#getNextValue() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerNumberModel#getNextValue() public
      * java.lang.Object javax.swing.SpinnerNumberModel.getNextValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +238,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#setStepSize(Number) public void
-     * javax.swing.SpinnerNumberModel.setStepSize(java.lang.Number)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerNumberModel#setStepSize(Number)
+     * public void javax.swing.SpinnerNumberModel.setStepSize(java.lang.Number)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,7 +260,7 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link SpinnerNumberModel#getMinimum() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerNumberModel#getMinimum() public
      * java.lang.Comparable javax.swing.SpinnerNumberModel.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

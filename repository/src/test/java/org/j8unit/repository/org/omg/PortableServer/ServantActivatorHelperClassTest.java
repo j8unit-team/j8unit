@@ -7,11 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.PortableServer.ServantActivator;
 import org.omg.PortableServer.ServantActivatorHelper;
 
 @RunWith(J8Unit4.class)
@@ -27,8 +22,9 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ServantActivatorHelper#ServantActivatorHelper()
-     * public org.omg.PortableServer.ServantActivatorHelper()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableServer.ServantActivatorHelper#ServantActivatorHelper() public
+     * org.omg.PortableServer.ServantActivatorHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,8 +43,9 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantActivatorHelper#read(InputStream) public
-     * static org.omg.PortableServer.ServantActivator
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantActivatorHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.PortableServer.ServantActivator
      * org.omg.PortableServer.ServantActivatorHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,12 +60,14 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link ServantActivatorHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.PortableServer.ServantActivatorHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantActivatorHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantActivatorHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.PortableServer.ServantActivator org.omg.PortableServer.ServantActivatorHelper.extract(org.omg.CORBA.Any)}
      * .
      *
@@ -84,13 +83,14 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link ServantActivatorHelper#extract(Any)}
+        // write some test for {@link org.omg.PortableServer.ServantActivatorHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantActivatorHelper#unchecked_narrow(Object)
-     * public static org.omg.PortableServer.ServantActivator
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantActivatorHelper#unchecked_narrow(org.omg.CORBA.Object) public static
+     * org.omg.PortableServer.ServantActivator
      * org.omg.PortableServer.ServantActivatorHelper.unchecked_narrow(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -105,13 +105,14 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
     @Category(Draft.class)
     public void test_unchecked_narrow_Object()
     throws Exception {
-        // write some test for {@link ServantActivatorHelper#unchecked_narrow(Object)}
+        // write some test for {@link
+        // org.omg.PortableServer.ServantActivatorHelper#unchecked_narrow(org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantActivatorHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.PortableServer.ServantActivatorHelper.type()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.ServantActivatorHelper#type()
+     * public static synchronized org.omg.CORBA.TypeCode org.omg.PortableServer.ServantActivatorHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,13 +126,14 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link ServantActivatorHelper#type()}
+        // write some test for {@link org.omg.PortableServer.ServantActivatorHelper#type()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link ServantActivatorHelper#write(OutputStream, ServantActivator) public static void
+     * {@link org.omg.PortableServer.ServantActivatorHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableServer.ServantActivator)
+     * public static void
      * org.omg.PortableServer.ServantActivatorHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.ServantActivator)}
      * .
      *
@@ -147,12 +149,15 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
     @Category(Draft.class)
     public void test_write_OutputStream_ServantActivator()
     throws Exception {
-        // write some test for {@link ServantActivatorHelper#write(OutputStream, ServantActivator)}
+        // write some test for {@link
+        // org.omg.PortableServer.ServantActivatorHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.PortableServer.ServantActivator)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantActivatorHelper#narrow(Object) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantActivatorHelper#narrow(org.omg.CORBA.Object) public static
      * org.omg.PortableServer.ServantActivator
      * org.omg.PortableServer.ServantActivatorHelper.narrow(org.omg.CORBA.Object)}.
      *
@@ -168,13 +173,13 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
     @Category(Draft.class)
     public void test_narrow_Object()
     throws Exception {
-        // write some test for {@link ServantActivatorHelper#narrow(Object)}
+        // write some test for {@link org.omg.PortableServer.ServantActivatorHelper#narrow(org.omg.CORBA.Object)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantActivatorHelper#id() public static
-     * java.lang.String org.omg.PortableServer.ServantActivatorHelper.id()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.ServantActivatorHelper#id()
+     * public static java.lang.String org.omg.PortableServer.ServantActivatorHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,12 +193,13 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link ServantActivatorHelper#id()}
+        // write some test for {@link org.omg.PortableServer.ServantActivatorHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ServantActivatorHelper#insert(Any, ServantActivator)
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantActivatorHelper#insert(org.omg.CORBA.Any, org.omg.PortableServer.ServantActivator)
      * public static void
      * org.omg.PortableServer.ServantActivatorHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.ServantActivator)}.
      *
@@ -209,7 +215,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
     @Category(Draft.class)
     public void test_insert_Any_ServantActivator()
     throws Exception {
-        // write some test for {@link ServantActivatorHelper#insert(Any, ServantActivator)}
+        // write some test for {@link org.omg.PortableServer.ServantActivatorHelper#insert(org.omg.CORBA.Any,
+        // org.omg.PortableServer.ServantActivator)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantActivatorHelper]

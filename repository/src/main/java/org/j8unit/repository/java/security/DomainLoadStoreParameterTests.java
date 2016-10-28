@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DomainLoadStoreParameter#getConfiguration() public
-     * java.net.URI java.security.DomainLoadStoreParameter.getConfiguration()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.DomainLoadStoreParameter#getConfiguration() public java.net.URI
+     * java.security.DomainLoadStoreParameter.getConfiguration()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,9 +57,9 @@ extends org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DomainLoadStoreParameter#getProtectionParameter()
-     * public java.security.KeyStore$ProtectionParameter
-     * java.security.DomainLoadStoreParameter.getProtectionParameter()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.DomainLoadStoreParameter#getProtectionParameter() public
+     * java.security.KeyStore$ProtectionParameter java.security.DomainLoadStoreParameter.getProtectionParameter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,9 +81,9 @@ extends org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DomainLoadStoreParameter#getProtectionParams()
-     * public java.util.Map<java.lang.String, java.security.KeyStore$ProtectionParameter>
-     * java.security.DomainLoadStoreParameter.getProtectionParams()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.DomainLoadStoreParameter#getProtectionParams() public java.util.Map<java.lang.String,
+     * java.security.KeyStore$ProtectionParameter> java.security.DomainLoadStoreParameter.getProtectionParams()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -1,10 +1,6 @@
 package org.j8unit.repository.java.beans;
 
 import java.beans.Encoder;
-import java.beans.ExceptionListener;
-import java.beans.Expression;
-import java.beans.PersistenceDelegate;
-import java.beans.Statement;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -38,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Encoder#getExceptionListener() public
+     * Test method for the hereby targeted method-under-test {@link java.beans.Encoder#getExceptionListener() public
      * java.beans.ExceptionListener java.beans.Encoder.getExceptionListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Encoder#get(Object) public java.lang.Object
-     * java.beans.Encoder.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Encoder#get(Object) public
+     * java.lang.Object java.beans.Encoder.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,7 +78,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Encoder#writeExpression(Expression) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.Encoder#writeExpression(java.beans.Expression) public void
      * java.beans.Encoder.writeExpression(java.beans.Expression)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,7 +101,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Encoder#writeStatement(Statement) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.Encoder#writeStatement(java.beans.Statement) public void
      * java.beans.Encoder.writeStatement(java.beans.Statement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +124,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Encoder#setExceptionListener(ExceptionListener)
-     * public void java.beans.Encoder.setExceptionListener(java.beans.ExceptionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.Encoder#setExceptionListener(java.beans.ExceptionListener) public void
+     * java.beans.Encoder.setExceptionListener(java.beans.ExceptionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,8 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Encoder#remove(Object) public java.lang.Object
-     * java.beans.Encoder.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Encoder#remove(Object) public
+     * java.lang.Object java.beans.Encoder.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,7 +170,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link Encoder#setPersistenceDelegate(Class, PersistenceDelegate) public void
+     * {@link java.beans.Encoder#setPersistenceDelegate(Class, java.beans.PersistenceDelegate) public void
      * java.beans.Encoder.setPersistenceDelegate(java.lang.Class<?>,java.beans.PersistenceDelegate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -193,8 +192,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Encoder#getPersistenceDelegate(Class) public
-     * java.beans.PersistenceDelegate java.beans.Encoder.getPersistenceDelegate(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Encoder#getPersistenceDelegate(Class)
+     * public java.beans.PersistenceDelegate java.beans.Encoder.getPersistenceDelegate(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

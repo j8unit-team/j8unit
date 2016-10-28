@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.Future;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -36,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Future#isCancelled() public abstract boolean
-     * java.util.concurrent.Future.isCancelled()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Future#isCancelled() public
+     * abstract boolean java.util.concurrent.Future.isCancelled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Future#cancel(boolean) public abstract boolean
-     * java.util.concurrent.Future.cancel(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Future#cancel(boolean) public
+     * abstract boolean java.util.concurrent.Future.cancel(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Future#get() public abstract V
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Future#get() public abstract V
      * java.util.concurrent.Future.get() throws java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,7 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Future#get(long, TimeUnit) public abstract V
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.Future#get(long, java.util.concurrent.TimeUnit) public abstract V
      * java.util.concurrent.Future.get(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException,java.util.concurrent.ExecutionException,java.util.concurrent.TimeoutException}.
      *
@@ -125,8 +125,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Future#isDone() public abstract boolean
-     * java.util.concurrent.Future.isDone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Future#isDone() public abstract
+     * boolean java.util.concurrent.Future.isDone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

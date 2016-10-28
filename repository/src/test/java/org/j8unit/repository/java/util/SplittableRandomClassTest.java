@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.SplittableRandomClassTests<Splittable
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SplittableRandom#SplittableRandom(long) public
-     * java.util.SplittableRandom(long)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.SplittableRandom#SplittableRandom(long) public java.util.SplittableRandom(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,8 +43,8 @@ implements org.j8unit.repository.java.util.SplittableRandomClassTests<Splittable
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link SplittableRandom#SplittableRandom() public
-     * java.util.SplittableRandom()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.SplittableRandom#SplittableRandom()
+     * public java.util.SplittableRandom()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

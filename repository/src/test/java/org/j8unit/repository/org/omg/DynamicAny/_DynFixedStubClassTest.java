@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.omg.DynamicAny._DynFixedStubClassTests<_Dyn
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link _DynFixedStub#_DynFixedStub() public
-     * org.omg.DynamicAny._DynFixedStub()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.DynamicAny._DynFixedStub#_DynFixedStub() public org.omg.DynamicAny._DynFixedStub()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

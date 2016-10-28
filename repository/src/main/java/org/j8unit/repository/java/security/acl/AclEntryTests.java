@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.security.acl;
 
-import java.security.Principal;
 import java.security.acl.AclEntry;
-import java.security.acl.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -36,8 +34,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#setNegativePermissions() public abstract
-     * void java.security.acl.AclEntry.setNegativePermissions()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.AclEntry#setNegativePermissions()
+     * public abstract void java.security.acl.AclEntry.setNegativePermissions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,8 +56,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#removePermission(Permission) public
-     * abstract boolean java.security.acl.AclEntry.removePermission(java.security.acl.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.AclEntry#removePermission(java.security.acl.Permission) public abstract boolean
+     * java.security.acl.AclEntry.removePermission(java.security.acl.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +79,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#toString() public abstract java.lang.String
-     * java.security.acl.AclEntry.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.AclEntry#toString() public
+     * abstract java.lang.String java.security.acl.AclEntry.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,8 +101,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#clone() public abstract java.lang.Object
-     * java.security.acl.AclEntry.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.AclEntry#clone() public abstract
+     * java.lang.Object java.security.acl.AclEntry.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +123,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#addPermission(Permission) public abstract
-     * boolean java.security.acl.AclEntry.addPermission(java.security.acl.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.AclEntry#addPermission(java.security.acl.Permission) public abstract boolean
+     * java.security.acl.AclEntry.addPermission(java.security.acl.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#permissions() public abstract
-     * java.util.Enumeration<java.security.acl.Permission> java.security.acl.AclEntry.permissions()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.AclEntry#permissions() public
+     * abstract java.util.Enumeration<java.security.acl.Permission> java.security.acl.AclEntry.permissions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,30 +168,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#setPrincipal(Principal) public abstract
-     * boolean java.security.acl.AclEntry.setPrincipal(java.security.Principal)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPrincipal_Principal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#getPrincipal() public abstract
-     * java.security.Principal java.security.acl.AclEntry.getPrincipal()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.AclEntry#getPrincipal() public
+     * abstract java.security.Principal java.security.acl.AclEntry.getPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,8 +190,31 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#isNegative() public abstract boolean
-     * java.security.acl.AclEntry.isNegative()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.AclEntry#setPrincipal(java.security.Principal) public abstract boolean
+     * java.security.acl.AclEntry.setPrincipal(java.security.Principal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPrincipal_Principal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.acl.AclEntry#isNegative() public
+     * abstract boolean java.security.acl.AclEntry.isNegative()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -234,8 +235,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#checkPermission(Permission) public abstract
-     * boolean java.security.acl.AclEntry.checkPermission(java.security.acl.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.acl.AclEntry#checkPermission(java.security.acl.Permission) public abstract boolean
+     * java.security.acl.AclEntry.checkPermission(java.security.acl.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

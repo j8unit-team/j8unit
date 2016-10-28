@@ -35,8 +35,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatchResult#start() public abstract int
-     * java.util.regex.MatchResult.start()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.MatchResult#start() public abstract
+     * int java.util.regex.MatchResult.start()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatchResult#start(int) public abstract int
-     * java.util.regex.MatchResult.start(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.MatchResult#start(int) public
+     * abstract int java.util.regex.MatchResult.start(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatchResult#end() public abstract int
-     * java.util.regex.MatchResult.end()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.MatchResult#end() public abstract
+     * int java.util.regex.MatchResult.end()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatchResult#end(int) public abstract int
-     * java.util.regex.MatchResult.end(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.MatchResult#end(int) public abstract
+     * int java.util.regex.MatchResult.end(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,8 +123,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatchResult#group(int) public abstract
-     * java.lang.String java.util.regex.MatchResult.group(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.MatchResult#group(int) public
+     * abstract java.lang.String java.util.regex.MatchResult.group(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatchResult#group() public abstract java.lang.String
-     * java.util.regex.MatchResult.group()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.MatchResult#group() public abstract
+     * java.lang.String java.util.regex.MatchResult.group()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -167,8 +167,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MatchResult#groupCount() public abstract int
-     * java.util.regex.MatchResult.groupCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.regex.MatchResult#groupCount() public
+     * abstract int java.util.regex.MatchResult.groupCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

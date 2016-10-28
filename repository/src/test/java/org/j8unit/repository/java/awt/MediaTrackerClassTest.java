@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.awt;
 
-import java.awt.Component;
 import java.awt.MediaTracker;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -22,8 +21,8 @@ implements org.j8unit.repository.java.awt.MediaTrackerClassTests<MediaTracker> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link MediaTracker#MediaTracker(Component) public
-     * java.awt.MediaTracker(java.awt.Component)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.MediaTracker#MediaTracker(java.awt.Component) public java.awt.MediaTracker(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,7 +38,7 @@ implements org.j8unit.repository.java.awt.MediaTrackerClassTests<MediaTracker> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MediaTracker sut = null; // = new MediaTracker(Component);
+        final MediaTracker sut = null; // = new MediaTracker(java.awt.Component);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MediaTracker]

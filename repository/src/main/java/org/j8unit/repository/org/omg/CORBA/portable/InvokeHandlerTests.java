@@ -6,9 +6,7 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.omg.CORBA.portable.InputStream;
 import org.omg.CORBA.portable.InvokeHandler;
-import org.omg.CORBA.portable.ResponseHandler;
 
 /**
  * <p>
@@ -38,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link InvokeHandler#_invoke(String, InputStream, ResponseHandler) public abstract
-     * org.omg.CORBA.portable.OutputStream
+     * {@link org.omg.CORBA.portable.InvokeHandler#_invoke(String, org.omg.CORBA.portable.InputStream, org.omg.CORBA.portable.ResponseHandler)
+     * public abstract org.omg.CORBA.portable.OutputStream
      * org.omg.CORBA.portable.InvokeHandler._invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)
      * throws org.omg.CORBA.SystemException}.
      *

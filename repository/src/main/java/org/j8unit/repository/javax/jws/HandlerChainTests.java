@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerChain#name() public abstract java.lang.String
-     * javax.jws.HandlerChain.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.HandlerChain#name() public abstract
+     * java.lang.String javax.jws.HandlerChain.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link HandlerChain#file() public abstract java.lang.String
-     * javax.jws.HandlerChain.file()}.
+     * Test method for the hereby targeted method-under-test {@link javax.jws.HandlerChain#file() public abstract
+     * java.lang.String javax.jws.HandlerChain.file()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

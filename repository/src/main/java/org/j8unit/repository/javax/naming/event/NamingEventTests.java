@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.naming.event;
 
 import javax.naming.event.NamingEvent;
-import javax.naming.event.NamingListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -35,7 +34,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingEvent#dispatch(NamingListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.event.NamingEvent#dispatch(javax.naming.event.NamingListener) public void
      * javax.naming.event.NamingEvent.dispatch(javax.naming.event.NamingListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingEvent#getOldBinding() public
-     * javax.naming.Binding javax.naming.event.NamingEvent.getOldBinding()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.event.NamingEvent#getOldBinding()
+     * public javax.naming.Binding javax.naming.event.NamingEvent.getOldBinding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingEvent#getEventContext() public
-     * javax.naming.event.EventContext javax.naming.event.NamingEvent.getEventContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.event.NamingEvent#getEventContext()
+     * public javax.naming.event.EventContext javax.naming.event.NamingEvent.getEventContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,7 +101,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingEvent#getType() public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.event.NamingEvent#getType() public int
      * javax.naming.event.NamingEvent.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +123,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingEvent#getNewBinding() public
-     * javax.naming.Binding javax.naming.event.NamingEvent.getNewBinding()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.event.NamingEvent#getNewBinding()
+     * public javax.naming.Binding javax.naming.event.NamingEvent.getNewBinding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NamingEvent#getChangeInfo() public java.lang.Object
-     * javax.naming.event.NamingEvent.getChangeInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.event.NamingEvent#getChangeInfo()
+     * public java.lang.Object javax.naming.event.NamingEvent.getChangeInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

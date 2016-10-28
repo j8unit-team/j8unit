@@ -7,10 +7,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.CosNaming.NamingContextPackage.NotEmpty;
 import org.omg.CosNaming.NamingContextPackage.NotEmptyHelper;
 
 @RunWith(J8Unit4.class)
@@ -26,7 +22,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link NotEmptyHelper#NotEmptyHelper() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#NotEmptyHelper() public
      * org.omg.CosNaming.NamingContextPackage.NotEmptyHelper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +43,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotEmptyHelper#id() public static java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#id() public static java.lang.String
      * org.omg.CosNaming.NamingContextPackage.NotEmptyHelper.id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,13 +59,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
     @Category(Draft.class)
     public void test_id()
     throws Exception {
-        // write some test for {@link NotEmptyHelper#id()}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#id()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotEmptyHelper#insert(Any, NotEmpty) public static
-     * void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#insert(org.omg.CORBA.Any, org.omg.CosNaming.NamingContextPackage.NotEmpty)
+     * public static void
      * org.omg.CosNaming.NamingContextPackage.NotEmptyHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextPackage.NotEmpty)}
      * .
      *
@@ -83,12 +82,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
     @Category(Draft.class)
     public void test_insert_Any_NotEmpty()
     throws Exception {
-        // write some test for {@link NotEmptyHelper#insert(Any, NotEmpty)}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#insert(org.omg.CORBA.Any,
+        // org.omg.CosNaming.NamingContextPackage.NotEmpty)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotEmptyHelper#type() public static synchronized
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#type() public static synchronized
      * org.omg.CORBA.TypeCode org.omg.CosNaming.NamingContextPackage.NotEmptyHelper.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,13 +104,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
     @Category(Draft.class)
     public void test_type()
     throws Exception {
-        // write some test for {@link NotEmptyHelper#type()}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#type()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotEmptyHelper#write(OutputStream, NotEmpty) public
-     * static void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CosNaming.NamingContextPackage.NotEmpty)
+     * public static void
      * org.omg.CosNaming.NamingContextPackage.NotEmptyHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NamingContextPackage.NotEmpty)}
      * .
      *
@@ -125,13 +127,16 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
     @Category(Draft.class)
     public void test_write_OutputStream_NotEmpty()
     throws Exception {
-        // write some test for {@link NotEmptyHelper#write(OutputStream, NotEmpty)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#write(org.omg.CORBA.portable.OutputStream,
+        // org.omg.CosNaming.NamingContextPackage.NotEmpty)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotEmptyHelper#read(InputStream) public static
-     * org.omg.CosNaming.NamingContextPackage.NotEmpty
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.CosNaming.NamingContextPackage.NotEmpty
      * org.omg.CosNaming.NamingContextPackage.NotEmptyHelper.read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,12 +151,14 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
     @Category(Draft.class)
     public void test_read_InputStream()
     throws Exception {
-        // write some test for {@link NotEmptyHelper#read(InputStream)}
+        // write some test for {@link
+        // org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link NotEmptyHelper#extract(Any) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.CosNaming.NamingContextPackage.NotEmpty
      * org.omg.CosNaming.NamingContextPackage.NotEmptyHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -167,7 +174,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
     @Category(Draft.class)
     public void test_extract_Any()
     throws Exception {
-        // write some test for {@link NotEmptyHelper#extract(Any)}
+        // write some test for {@link org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHelper]

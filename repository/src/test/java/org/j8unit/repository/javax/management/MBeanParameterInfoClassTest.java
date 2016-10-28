@@ -1,6 +1,5 @@
 package org.j8unit.repository.javax.management;
 
-import javax.management.Descriptor;
 import javax.management.MBeanParameterInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
@@ -23,7 +22,7 @@ implements org.j8unit.repository.javax.management.MBeanParameterInfoClassTests<M
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanParameterInfo#MBeanParameterInfo(String, String, String) public
+     * {@link javax.management.MBeanParameterInfo#MBeanParameterInfo(String, String, String) public
      * javax.management.MBeanParameterInfo(java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +45,8 @@ implements org.j8unit.repository.javax.management.MBeanParameterInfoClassTests<M
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link MBeanParameterInfo#MBeanParameterInfo(String, String, String, Descriptor) public
+     * {@link javax.management.MBeanParameterInfo#MBeanParameterInfo(String, String, String, javax.management.Descriptor)
+     * public
      * javax.management.MBeanParameterInfo(java.lang.String,java.lang.String,java.lang.String,javax.management.Descriptor)}
      * .
      *
@@ -64,7 +64,8 @@ implements org.j8unit.repository.javax.management.MBeanParameterInfoClassTests<M
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MBeanParameterInfo sut = null; // = new MBeanParameterInfo(String, String, String, Descriptor);
+        final MBeanParameterInfo sut = null; // = new MBeanParameterInfo(String, String, String,
+                                             // javax.management.Descriptor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanParameterInfo]

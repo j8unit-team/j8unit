@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterOutputStream#close() public void
-     * java.util.zip.DeflaterOutputStream.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterOutputStream#close() public
+     * void java.util.zip.DeflaterOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterOutputStream#write(int) public void
-     * java.util.zip.DeflaterOutputStream.write(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterOutputStream#write(int) public
+     * void java.util.zip.DeflaterOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,8 +80,9 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterOutputStream#write(byte[], int, int) public
-     * void java.util.zip.DeflaterOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.zip.DeflaterOutputStream#write(byte[], int, int) public void
+     * java.util.zip.DeflaterOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,8 +104,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterOutputStream#finish() public void
-     * java.util.zip.DeflaterOutputStream.finish() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterOutputStream#finish() public
+     * void java.util.zip.DeflaterOutputStream.finish() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,8 +126,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link DeflaterOutputStream#flush() public void
-     * java.util.zip.DeflaterOutputStream.flush() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.zip.DeflaterOutputStream#flush() public
+     * void java.util.zip.DeflaterOutputStream.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

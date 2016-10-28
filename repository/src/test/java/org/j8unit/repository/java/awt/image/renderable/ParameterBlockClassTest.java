@@ -1,7 +1,6 @@
 package org.j8unit.repository.java.awt.image.renderable;
 
 import java.awt.image.renderable.ParameterBlock;
-import java.util.Vector;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,9 +21,9 @@ implements org.j8unit.repository.java.awt.image.renderable.ParameterBlockClassTe
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParameterBlock#ParameterBlock(Vector, Vector)
-     * public java.awt.image.renderable.ParameterBlock(java.util.Vector<java.lang.Object>,java.util.Vector
-     * <java.lang.Object>)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.renderable.ParameterBlock#ParameterBlock(java.util.Vector, java.util.Vector) public
+     * java.awt.image.renderable.ParameterBlock(java.util.Vector<java.lang.Object>,java.util.Vector<java.lang.Object>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,12 +39,13 @@ implements org.j8unit.repository.java.awt.image.renderable.ParameterBlockClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ParameterBlock sut = null; // = new ParameterBlock(Vector, Vector);
+        final ParameterBlock sut = null; // = new ParameterBlock(java.util.Vector, java.util.Vector);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParameterBlock#ParameterBlock(Vector) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.renderable.ParameterBlock#ParameterBlock(java.util.Vector) public
      * java.awt.image.renderable.ParameterBlock(java.util.Vector<java.lang.Object>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -62,12 +62,13 @@ implements org.j8unit.repository.java.awt.image.renderable.ParameterBlockClassTe
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ParameterBlock sut = null; // = new ParameterBlock(Vector);
+        final ParameterBlock sut = null; // = new ParameterBlock(java.util.Vector);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ParameterBlock#ParameterBlock() public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.renderable.ParameterBlock#ParameterBlock() public
      * java.awt.image.renderable.ParameterBlock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

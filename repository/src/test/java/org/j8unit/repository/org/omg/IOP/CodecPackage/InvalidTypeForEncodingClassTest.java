@@ -21,8 +21,9 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncoding
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link InvalidTypeForEncoding#InvalidTypeForEncoding()
-     * public org.omg.IOP.CodecPackage.InvalidTypeForEncoding()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.CodecPackage.InvalidTypeForEncoding#InvalidTypeForEncoding() public
+     * org.omg.IOP.CodecPackage.InvalidTypeForEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncoding
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link InvalidTypeForEncoding#InvalidTypeForEncoding(String) public
+     * {@link org.omg.IOP.CodecPackage.InvalidTypeForEncoding#InvalidTypeForEncoding(String) public
      * org.omg.IOP.CodecPackage.InvalidTypeForEncoding(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

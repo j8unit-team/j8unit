@@ -1,11 +1,6 @@
 package org.j8unit.repository.java.awt;
 
 import java.awt.LinearGradientPaint;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -40,7 +35,7 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link LinearGradientPaint#createContext(ColorModel, Rectangle, Rectangle2D, AffineTransform, RenderingHints)
+     * {@link java.awt.LinearGradientPaint#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
      * public java.awt.PaintContext
      * java.awt.LinearGradientPaint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
      * .
@@ -65,7 +60,7 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinearGradientPaint#getEndPoint() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.LinearGradientPaint#getEndPoint() public
      * java.awt.geom.Point2D java.awt.LinearGradientPaint.getEndPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -87,7 +82,7 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link LinearGradientPaint#getStartPoint() public
+     * Test method for the hereby targeted method-under-test {@link java.awt.LinearGradientPaint#getStartPoint() public
      * java.awt.geom.Point2D java.awt.LinearGradientPaint.getStartPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

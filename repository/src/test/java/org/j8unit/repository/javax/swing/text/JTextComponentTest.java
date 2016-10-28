@@ -22,21 +22,6 @@ implements org.j8unit.repository.javax.swing.text.JTextComponentTests<JTextCompo
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent]
 
     @RunWith(J8Unit4.class)
-    public static class AccessibleJTextComponentTest
-    implements org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests<AccessibleJTextComponent> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
-
-        @Override
-        public AccessibleJTextComponent createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.JTextComponent.AccessibleJTextComponent], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class DropLocationTest
     implements org.j8unit.repository.javax.swing.text.JTextComponentTests.DropLocationTests<DropLocation> {
 
@@ -63,6 +48,21 @@ implements org.j8unit.repository.javax.swing.text.JTextComponentTests<JTextCompo
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$KeyBinding]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class AccessibleJTextComponentTest
+    implements org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests<AccessibleJTextComponent> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
+
+        @Override
+        public AccessibleJTextComponent createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.JTextComponent.AccessibleJTextComponent], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
 
     }
 

@@ -2,8 +2,6 @@ package org.j8unit.repository.java.security;
 
 import java.security.Provider;
 import java.security.Provider.Service;
-import java.util.List;
-import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -38,7 +36,8 @@ implements org.j8unit.repository.java.security.ProviderClassTests<Provider> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link Service#Service(Provider, String, String, String, List, Map) public
+         * {@link java.security.Provider.Service#Service(java.security.Provider, String, String, String, java.util.List, java.util.Map)
+         * public
          * java.security.Provider$Service(java.security.Provider,java.lang.String,java.lang.String,java.lang.String,java.util.List
          * <java.lang.String>,java.util.Map<java.lang.String, java.lang.String>)}.
          *
@@ -56,7 +55,8 @@ implements org.j8unit.repository.java.security.ProviderClassTests<Provider> {
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Service sut = null; // = new Service(Provider, String, String, String, List, Map);
+            final Service sut = null; // = new Service(java.security.Provider, String, String, String, java.util.List,
+                                      // java.util.Map);
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Provider$Service]

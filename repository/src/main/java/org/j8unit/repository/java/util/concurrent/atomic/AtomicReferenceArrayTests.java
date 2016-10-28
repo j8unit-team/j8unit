@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.util.concurrent.atomic;
 
 import java.util.concurrent.atomic.AtomicReferenceArray;
-import java.util.function.BinaryOperator;
-import java.util.function.UnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +35,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicReferenceArray#accumulateAndGet(int, Object, BinaryOperator) public final E
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#accumulateAndGet(int, Object, java.util.function.BinaryOperator)
+     * public final E
      * java.util.concurrent.atomic.AtomicReferenceArray.accumulateAndGet(int,E,java.util.function.BinaryOperator<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,7 +59,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicReferenceArray#getAndAccumulate(int, Object, BinaryOperator) public final E
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#getAndAccumulate(int, Object, java.util.function.BinaryOperator)
+     * public final E
      * java.util.concurrent.atomic.AtomicReferenceArray.getAndAccumulate(int,E,java.util.function.BinaryOperator<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -83,8 +83,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicReferenceArray#getAndUpdate(int, UnaryOperator) public final E
-     * java.util.concurrent.atomic.AtomicReferenceArray.getAndUpdate(int,java.util.function.UnaryOperator<E>)}.
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#getAndUpdate(int, java.util.function.UnaryOperator)
+     * public final E java.util.concurrent.atomic.AtomicReferenceArray.getAndUpdate(int,java.util.function.UnaryOperator
+     * <E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +106,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicReferenceArray#getAndSet(int, Object) public
-     * final E java.util.concurrent.atomic.AtomicReferenceArray.getAndSet(int,E)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#getAndSet(int, Object) public final E
+     * java.util.concurrent.atomic.AtomicReferenceArray.getAndSet(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -128,8 +130,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicReferenceArray#updateAndGet(int, UnaryOperator) public final E
-     * java.util.concurrent.atomic.AtomicReferenceArray.updateAndGet(int,java.util.function.UnaryOperator<E>)}.
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#updateAndGet(int, java.util.function.UnaryOperator)
+     * public final E java.util.concurrent.atomic.AtomicReferenceArray.updateAndGet(int,java.util.function.UnaryOperator
+     * <E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +153,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicReferenceArray#toString() public
-     * java.lang.String java.util.concurrent.atomic.AtomicReferenceArray.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#toString() public java.lang.String
+     * java.util.concurrent.atomic.AtomicReferenceArray.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,8 +177,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicReferenceArray#lazySet(int, Object) public
-     * final void java.util.concurrent.atomic.AtomicReferenceArray.lazySet(int,E)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#lazySet(int, Object) public final void
+     * java.util.concurrent.atomic.AtomicReferenceArray.lazySet(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,7 +200,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicReferenceArray#length() public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#length() public final int
      * java.util.concurrent.atomic.AtomicReferenceArray.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -217,7 +223,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicReferenceArray#get(int) public final E
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#get(int) public final E
      * java.util.concurrent.atomic.AtomicReferenceArray.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,8 +247,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicReferenceArray#weakCompareAndSet(int, Object, Object) public final boolean
-     * java.util.concurrent.atomic.AtomicReferenceArray.weakCompareAndSet(int,E,E)}.
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#weakCompareAndSet(int, Object, Object) public final
+     * boolean java.util.concurrent.atomic.AtomicReferenceArray.weakCompareAndSet(int,E,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,7 +270,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link AtomicReferenceArray#compareAndSet(int, Object, Object) public final boolean
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#compareAndSet(int, Object, Object) public final boolean
      * java.util.concurrent.atomic.AtomicReferenceArray.compareAndSet(int,E,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -285,8 +292,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AtomicReferenceArray#set(int, Object) public final
-     * void java.util.concurrent.atomic.AtomicReferenceArray.set(int,E)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#set(int, Object) public final void
+     * java.util.concurrent.atomic.AtomicReferenceArray.set(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

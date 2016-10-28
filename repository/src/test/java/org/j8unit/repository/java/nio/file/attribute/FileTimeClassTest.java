@@ -1,8 +1,6 @@
 package org.j8unit.repository.java.nio.file.attribute;
 
 import java.nio.file.attribute.FileTime;
-import java.time.Instant;
-import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -23,8 +21,9 @@ implements org.j8unit.repository.java.nio.file.attribute.FileTimeClassTests<File
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#from(Instant) public static
-     * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.from(java.time.Instant)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.FileTime#from(java.time.Instant) public static java.nio.file.attribute.FileTime
+     * java.nio.file.attribute.FileTime.from(java.time.Instant)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,12 +37,13 @@ implements org.j8unit.repository.java.nio.file.attribute.FileTimeClassTests<File
     @Category(Draft.class)
     public void test_from_Instant()
     throws Exception {
-        // write some test for {@link FileTime#from(Instant)}
+        // write some test for {@link java.nio.file.attribute.FileTime#from(java.time.Instant)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#from(long, TimeUnit) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.FileTime#from(long, java.util.concurrent.TimeUnit) public static
      * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.from(long,java.util.concurrent.TimeUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -58,13 +58,13 @@ implements org.j8unit.repository.java.nio.file.attribute.FileTimeClassTests<File
     @Category(Draft.class)
     public void test_from_long_TimeUnit()
     throws Exception {
-        // write some test for {@link FileTime#from(long, TimeUnit)}
+        // write some test for {@link java.nio.file.attribute.FileTime#from(long, java.util.concurrent.TimeUnit)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link FileTime#fromMillis(long) public static
-     * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.fromMillis(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.FileTime#fromMillis(long)
+     * public static java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.fromMillis(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,7 +78,7 @@ implements org.j8unit.repository.java.nio.file.attribute.FileTimeClassTests<File
     @Category(Draft.class)
     public void test_fromMillis_long()
     throws Exception {
-        // write some test for {@link FileTime#fromMillis(long)}
+        // write some test for {@link java.nio.file.attribute.FileTime#fromMillis(long)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.FileTime]

@@ -1,9 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.MBeanServerDelegate;
-import javax.management.Notification;
-import javax.management.NotificationFilter;
-import javax.management.NotificationListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -39,8 +36,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerDelegate#addNotificationListener(NotificationListener, NotificationFilter, Object) public
-     * synchronized void
+     * {@link javax.management.MBeanServerDelegate#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
+     * public synchronized void
      * javax.management.MBeanServerDelegate.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
      * throws java.lang.IllegalArgumentException}.
      *
@@ -64,8 +61,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegate#sendNotification(Notification)
-     * public void javax.management.MBeanServerDelegate.sendNotification(javax.management.Notification)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegate#sendNotification(javax.management.Notification) public void
+     * javax.management.MBeanServerDelegate.sendNotification(javax.management.Notification)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,8 +84,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegate#getSpecificationVersion() public
-     * java.lang.String javax.management.MBeanServerDelegate.getSpecificationVersion()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegate#getSpecificationVersion() public java.lang.String
+     * javax.management.MBeanServerDelegate.getSpecificationVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,7 +109,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerDelegate#removeNotificationListener(NotificationListener) public synchronized void
+     * {@link javax.management.MBeanServerDelegate#getSpecificationName() public java.lang.String
+     * javax.management.MBeanServerDelegate.getSpecificationName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSpecificationName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegate#removeNotificationListener(javax.management.NotificationListener)
+     * public synchronized void
      * javax.management.MBeanServerDelegate.removeNotificationListener(javax.management.NotificationListener) throws
      * javax.management.ListenerNotFoundException}.
      *
@@ -135,8 +159,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link MBeanServerDelegate#removeNotificationListener(NotificationListener, NotificationFilter, Object) public
-     * synchronized void
+     * {@link javax.management.MBeanServerDelegate#removeNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
+     * public synchronized void
      * javax.management.MBeanServerDelegate.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
      * throws javax.management.ListenerNotFoundException}.
      *
@@ -160,31 +184,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegate#getSpecificationName() public
-     * java.lang.String javax.management.MBeanServerDelegate.getSpecificationName()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getSpecificationName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegate#getImplementationVendor() public
-     * java.lang.String javax.management.MBeanServerDelegate.getImplementationVendor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegate#getImplementationVendor() public java.lang.String
+     * javax.management.MBeanServerDelegate.getImplementationVendor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -206,8 +208,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegate#getNotificationInfo() public
-     * javax.management.MBeanNotificationInfo[] javax.management.MBeanServerDelegate.getNotificationInfo()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegate#getNotificationInfo() public javax.management.MBeanNotificationInfo[]
+     * javax.management.MBeanServerDelegate.getNotificationInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -229,8 +232,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegate#getSpecificationVendor() public
-     * java.lang.String javax.management.MBeanServerDelegate.getSpecificationVendor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegate#getSpecificationVendor() public java.lang.String
+     * javax.management.MBeanServerDelegate.getSpecificationVendor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -252,8 +256,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegate#getImplementationVersion()
-     * public java.lang.String javax.management.MBeanServerDelegate.getImplementationVersion()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegate#getImplementationVersion() public java.lang.String
+     * javax.management.MBeanServerDelegate.getImplementationVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -275,8 +280,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegate#getMBeanServerId() public
-     * synchronized java.lang.String javax.management.MBeanServerDelegate.getMBeanServerId()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegate#getMBeanServerId() public synchronized java.lang.String
+     * javax.management.MBeanServerDelegate.getMBeanServerId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,8 +304,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link MBeanServerDelegate#getImplementationName() public
-     * java.lang.String javax.management.MBeanServerDelegate.getImplementationName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerDelegate#getImplementationName() public java.lang.String
+     * javax.management.MBeanServerDelegate.getImplementationName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

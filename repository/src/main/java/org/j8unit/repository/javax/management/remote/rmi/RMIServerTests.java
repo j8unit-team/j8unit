@@ -34,7 +34,8 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServer#newClient(Object) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi.RMIServer#newClient(Object) public abstract
      * javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object)
      * throws java.io.IOException}.
      *
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link RMIServer#getVersion() public abstract
-     * java.lang.String javax.management.remote.rmi.RMIServer.getVersion() throws java.rmi.RemoteException}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.rmi.RMIServer#getVersion()
+     * public abstract java.lang.String javax.management.remote.rmi.RMIServer.getVersion() throws
+     * java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

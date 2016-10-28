@@ -1,7 +1,6 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.ObjectInstance;
-import javax.management.ObjectName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
@@ -22,8 +21,9 @@ implements org.j8unit.repository.javax.management.ObjectInstanceClassTests<Objec
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link ObjectInstance#ObjectInstance(String, String)
-     * public javax.management.ObjectInstance(java.lang.String,java.lang.String) throws
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.ObjectInstance#ObjectInstance(String, String) public
+     * javax.management.ObjectInstance(java.lang.String,java.lang.String) throws
      * javax.management.MalformedObjectNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -46,7 +46,7 @@ implements org.j8unit.repository.javax.management.ObjectInstanceClassTests<Objec
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link ObjectInstance#ObjectInstance(ObjectName, String) public
+     * {@link javax.management.ObjectInstance#ObjectInstance(javax.management.ObjectName, String) public
      * javax.management.ObjectInstance(javax.management.ObjectName,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -63,7 +63,7 @@ implements org.j8unit.repository.javax.management.ObjectInstanceClassTests<Objec
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ObjectInstance sut = null; // = new ObjectInstance(ObjectName, String);
+        final ObjectInstance sut = null; // = new ObjectInstance(javax.management.ObjectName, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ObjectInstance]

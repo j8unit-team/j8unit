@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
-import org.omg.CORBA.PolicyError;
 import org.omg.CORBA.PolicyErrorHolder;
 
 @RunWith(J8Unit4.class)
@@ -22,8 +21,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyErrorHolderClassTests<Polic
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link PolicyErrorHolder#PolicyErrorHolder() public
-     * org.omg.CORBA.PolicyErrorHolder()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CORBA.PolicyErrorHolder#PolicyErrorHolder() public org.omg.CORBA.PolicyErrorHolder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -44,7 +43,7 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyErrorHolderClassTests<Polic
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link PolicyErrorHolder#PolicyErrorHolder(PolicyError) public
+     * {@link org.omg.CORBA.PolicyErrorHolder#PolicyErrorHolder(org.omg.CORBA.PolicyError) public
      * org.omg.CORBA.PolicyErrorHolder(org.omg.CORBA.PolicyError)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,7 +60,7 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyErrorHolderClassTests<Polic
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PolicyErrorHolder sut = null; // = new PolicyErrorHolder(PolicyError);
+        final PolicyErrorHolder sut = null; // = new PolicyErrorHolder(org.omg.CORBA.PolicyError);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PolicyErrorHolder]

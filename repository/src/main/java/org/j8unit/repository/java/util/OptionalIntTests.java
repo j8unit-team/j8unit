@@ -1,9 +1,6 @@
 package org.j8unit.repository.java.util;
 
 import java.util.OptionalInt;
-import java.util.function.IntConsumer;
-import java.util.function.IntSupplier;
-import java.util.function.Supplier;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -37,7 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#orElse(int) public int
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalInt#orElse(int) public int
      * java.util.OptionalInt.orElse(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -59,7 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#orElseThrow(Supplier) public <X> int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalInt#orElseThrow(java.util.function.Supplier) public <X> int
      * java.util.OptionalInt.orElseThrow(java.util.function.Supplier<X>) throws X}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -81,7 +79,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#getAsInt() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalInt#getAsInt() public int
      * java.util.OptionalInt.getAsInt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,7 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#isPresent() public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalInt#isPresent() public boolean
      * java.util.OptionalInt.isPresent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +123,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#toString() public java.lang.String
-     * java.util.OptionalInt.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalInt#toString() public
+     * java.lang.String java.util.OptionalInt.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,7 +146,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#orElseGet(IntSupplier) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalInt#orElseGet(java.util.function.IntSupplier) public int
      * java.util.OptionalInt.orElseGet(java.util.function.IntSupplier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -170,7 +169,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#ifPresent(IntConsumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalInt#ifPresent(java.util.function.IntConsumer) public void
      * java.util.OptionalInt.ifPresent(java.util.function.IntConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,7 +192,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalInt#equals(Object) public boolean
      * java.util.OptionalInt.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,7 +215,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalInt#hashCode() public int
      * java.util.OptionalInt.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

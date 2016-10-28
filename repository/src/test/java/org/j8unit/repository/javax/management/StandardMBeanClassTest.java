@@ -22,7 +22,7 @@ implements org.j8unit.repository.javax.management.StandardMBeanClassTests<Standa
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link StandardMBean#StandardMBean(Object, Class, boolean) public
+     * {@link javax.management.StandardMBean#StandardMBean(Object, Class, boolean) public
      * <T> javax.management.StandardMBean(T,java.lang.Class<T>,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,9 +44,9 @@ implements org.j8unit.repository.javax.management.StandardMBeanClassTests<Standa
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link StandardMBean#StandardMBean(Object, Class)
-     * public <T> javax.management.StandardMBean(T,java.lang.Class<T>) throws
-     * javax.management.NotCompliantMBeanException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.StandardMBean#StandardMBean(Object, Class) public
+     * <T> javax.management.StandardMBean(T,java.lang.Class<T>) throws javax.management.NotCompliantMBeanException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.nio.ByteOrderClassTests<ByteOrder> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ByteOrder#nativeOrder() public static
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteOrder#nativeOrder() public static
      * java.nio.ByteOrder java.nio.ByteOrder.nativeOrder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,7 +36,7 @@ implements org.j8unit.repository.java.nio.ByteOrderClassTests<ByteOrder> {
     @Category(Draft.class)
     public void test_nativeOrder()
     throws Exception {
-        // write some test for {@link ByteOrder#nativeOrder()}
+        // write some test for {@link java.nio.ByteOrder#nativeOrder()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.ByteOrder]

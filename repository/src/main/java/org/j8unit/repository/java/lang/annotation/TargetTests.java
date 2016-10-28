@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Target#value() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.lang.annotation.Target#value() public abstract
      * java.lang.annotation.ElementType[] java.lang.annotation.Target.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,7 +34,7 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#next() public char
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#next() public char
      * java.text.StringCharacterIterator.next()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#current() public char
-     * java.text.StringCharacterIterator.current()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#current() public
+     * char java.text.StringCharacterIterator.current()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,7 +80,7 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#last() public char
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#last() public char
      * java.text.StringCharacterIterator.last()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#getIndex() public int
-     * java.text.StringCharacterIterator.getIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#getIndex() public
+     * int java.text.StringCharacterIterator.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#previous() public char
-     * java.text.StringCharacterIterator.previous()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#previous() public
+     * char java.text.StringCharacterIterator.previous()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,31 +149,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#setIndex(int) public char
-     * java.text.StringCharacterIterator.setIndex(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setIndex_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#getEndIndex() public int
-     * java.text.StringCharacterIterator.getEndIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#getEndIndex()
+     * public int java.text.StringCharacterIterator.getEndIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,8 +172,31 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#hashCode() public int
-     * java.text.StringCharacterIterator.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#setIndex(int)
+     * public char java.text.StringCharacterIterator.setIndex(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setIndex_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#hashCode() public
+     * int java.text.StringCharacterIterator.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,8 +218,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#equals(Object) public
-     * boolean java.text.StringCharacterIterator.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#equals(Object)
+     * public boolean java.text.StringCharacterIterator.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -241,7 +241,7 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#clone() public
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#clone() public
      * java.lang.Object java.text.StringCharacterIterator.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,8 +264,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#getBeginIndex() public int
-     * java.text.StringCharacterIterator.getBeginIndex()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#getBeginIndex()
+     * public int java.text.StringCharacterIterator.getBeginIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -287,8 +287,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#first() public char
-     * java.text.StringCharacterIterator.first()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#first() public
+     * char java.text.StringCharacterIterator.first()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,8 +310,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StringCharacterIterator#setText(String) public void
-     * java.text.StringCharacterIterator.setText(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.StringCharacterIterator#setText(String)
+     * public void java.text.StringCharacterIterator.setText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

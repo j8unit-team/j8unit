@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.naming.LimitExceededExceptionClassTests<L
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link LimitExceededException#LimitExceededException()
-     * public javax.naming.LimitExceededException()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.LimitExceededException#LimitExceededException() public javax.naming.LimitExceededException()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -43,7 +44,7 @@ implements org.j8unit.repository.javax.naming.LimitExceededExceptionClassTests<L
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link LimitExceededException#LimitExceededException(String) public
+     * {@link javax.naming.LimitExceededException#LimitExceededException(String) public
      * javax.naming.LimitExceededException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

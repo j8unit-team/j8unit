@@ -22,7 +22,8 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryClassTests<AclE
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#newBuilder(AclEntry) public static
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.AclEntry#newBuilder(java.nio.file.attribute.AclEntry) public static
      * java.nio.file.attribute.AclEntry$Builder
      * java.nio.file.attribute.AclEntry.newBuilder(java.nio.file.attribute.AclEntry)}.
      *
@@ -38,13 +39,13 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryClassTests<AclE
     @Category(Draft.class)
     public void test_newBuilder_AclEntry()
     throws Exception {
-        // write some test for {@link AclEntry#newBuilder(AclEntry)}
+        // write some test for {@link java.nio.file.attribute.AclEntry#newBuilder(java.nio.file.attribute.AclEntry)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link AclEntry#newBuilder() public static
-     * java.nio.file.attribute.AclEntry$Builder java.nio.file.attribute.AclEntry.newBuilder()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.attribute.AclEntry#newBuilder() public
+     * static java.nio.file.attribute.AclEntry$Builder java.nio.file.attribute.AclEntry.newBuilder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,7 +59,7 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryClassTests<AclE
     @Category(Draft.class)
     public void test_newBuilder()
     throws Exception {
-        // write some test for {@link AclEntry#newBuilder()}
+        // write some test for {@link java.nio.file.attribute.AclEntry#newBuilder()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AclEntry]

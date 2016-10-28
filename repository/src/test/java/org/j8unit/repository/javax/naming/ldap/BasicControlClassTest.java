@@ -21,7 +21,8 @@ implements org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<BasicC
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link BasicControl#BasicControl(String) public
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.naming.ldap.BasicControl#BasicControl(String) public
      * javax.naming.ldap.BasicControl(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,7 +45,7 @@ implements org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<BasicC
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link BasicControl#BasicControl(String, boolean, byte[]) public
+     * {@link javax.naming.ldap.BasicControl#BasicControl(String, boolean, byte[]) public
      * javax.naming.ldap.BasicControl(java.lang.String,boolean,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClassLoadingMXBean#setVerbose(boolean) public
-     * abstract void java.lang.management.ClassLoadingMXBean.setVerbose(boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ClassLoadingMXBean#setVerbose(boolean) public abstract void
+     * java.lang.management.ClassLoadingMXBean.setVerbose(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,8 +57,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClassLoadingMXBean#getUnloadedClassCount() public
-     * abstract long java.lang.management.ClassLoadingMXBean.getUnloadedClassCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ClassLoadingMXBean#getUnloadedClassCount() public abstract long
+     * java.lang.management.ClassLoadingMXBean.getUnloadedClassCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +80,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClassLoadingMXBean#isVerbose() public abstract
-     * boolean java.lang.management.ClassLoadingMXBean.isVerbose()}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.ClassLoadingMXBean#isVerbose()
+     * public abstract boolean java.lang.management.ClassLoadingMXBean.isVerbose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -100,8 +102,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClassLoadingMXBean#getTotalLoadedClassCount() public
-     * abstract long java.lang.management.ClassLoadingMXBean.getTotalLoadedClassCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ClassLoadingMXBean#getTotalLoadedClassCount() public abstract long
+     * java.lang.management.ClassLoadingMXBean.getTotalLoadedClassCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,8 +125,9 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ClassLoadingMXBean#getLoadedClassCount() public
-     * abstract int java.lang.management.ClassLoadingMXBean.getLoadedClassCount()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ClassLoadingMXBean#getLoadedClassCount() public abstract int
+     * java.lang.management.ClassLoadingMXBean.getLoadedClassCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

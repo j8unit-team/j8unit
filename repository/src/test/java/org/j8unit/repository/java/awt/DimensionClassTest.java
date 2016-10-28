@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.awt.DimensionClassTests<Dimension> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Dimension#Dimension(Dimension) public
-     * java.awt.Dimension(java.awt.Dimension)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Dimension#Dimension(java.awt.Dimension) public java.awt.Dimension(java.awt.Dimension)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -38,12 +38,12 @@ implements org.j8unit.repository.java.awt.DimensionClassTests<Dimension> {
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Dimension sut = null; // = new Dimension(Dimension);
+        final Dimension sut = null; // = new Dimension(java.awt.Dimension);
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Dimension#Dimension() public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Dimension#Dimension() public
      * java.awt.Dimension()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -64,7 +64,7 @@ implements org.j8unit.repository.java.awt.DimensionClassTests<Dimension> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link Dimension#Dimension(int, int) public
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Dimension#Dimension(int, int) public
      * java.awt.Dimension(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

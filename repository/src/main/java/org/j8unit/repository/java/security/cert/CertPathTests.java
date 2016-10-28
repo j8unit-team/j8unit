@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPath#toString() public java.lang.String
-     * java.security.cert.CertPath.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPath#toString() public
+     * java.lang.String java.security.cert.CertPath.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPath#getEncodings() public abstract
-     * java.util.Iterator<java.lang.String> java.security.cert.CertPath.getEncodings()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPath#getEncodings() public
+     * abstract java.util.Iterator<java.lang.String> java.security.cert.CertPath.getEncodings()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPath#getCertificates() public abstract
-     * java.util.List<? extends java.security.cert.Certificate> java.security.cert.CertPath.getCertificates()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPath#getCertificates() public
+     * abstract java.util.List<? extends java.security.cert.Certificate> java.security.cert.CertPath.getCertificates()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPath#equals(Object) public boolean
-     * java.security.cert.CertPath.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPath#equals(Object) public
+     * boolean java.security.cert.CertPath.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -124,8 +124,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPath#getEncoded() public abstract byte[]
-     * java.security.cert.CertPath.getEncoded() throws java.security.cert.CertificateEncodingException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPath#getEncoded() public
+     * abstract byte[] java.security.cert.CertPath.getEncoded() throws java.security.cert.CertificateEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,8 +146,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPath#getEncoded(String) public abstract byte[]
-     * java.security.cert.CertPath.getEncoded(java.lang.String) throws java.security.cert.CertificateEncodingException}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPath#getEncoded(String)
+     * public abstract byte[] java.security.cert.CertPath.getEncoded(java.lang.String) throws
+     * java.security.cert.CertificateEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,7 +169,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPath#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPath#hashCode() public int
      * java.security.cert.CertPath.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -191,8 +192,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link CertPath#getType() public java.lang.String
-     * java.security.cert.CertPath.getType()}.
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.CertPath#getType() public
+     * java.lang.String java.security.cert.CertPath.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

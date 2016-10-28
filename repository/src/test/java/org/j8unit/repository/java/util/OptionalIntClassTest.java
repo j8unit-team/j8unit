@@ -21,7 +21,7 @@ implements org.j8unit.repository.java.util.OptionalIntClassTests<OptionalInt> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#empty() public static
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalInt#empty() public static
      * java.util.OptionalInt java.util.OptionalInt.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -36,12 +36,12 @@ implements org.j8unit.repository.java.util.OptionalIntClassTests<OptionalInt> {
     @Category(Draft.class)
     public void test_empty()
     throws Exception {
-        // write some test for {@link OptionalInt#empty()}
+        // write some test for {@link java.util.OptionalInt#empty()}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link OptionalInt#of(int) public static
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalInt#of(int) public static
      * java.util.OptionalInt java.util.OptionalInt.of(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -56,7 +56,7 @@ implements org.j8unit.repository.java.util.OptionalIntClassTests<OptionalInt> {
     @Category(Draft.class)
     public void test_of_int()
     throws Exception {
-        // write some test for {@link OptionalInt#of(int)}
+        // write some test for {@link java.util.OptionalInt#of(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.OptionalInt]
